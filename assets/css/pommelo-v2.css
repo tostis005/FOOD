@@ -1,0 +1,259 @@
+/*
+ * Pommelo v2 — brand emphasis + hard separation between category art and copy.
+ * Loaded after pommelo-v1.css.
+ */
+
+/* ---------- Logo: more visual weight, clearer double-m signature ---------- */
+.header-main {
+  min-height: 82px;
+}
+
+.site-branding > a {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.pommelo-logo {
+  gap: 11px;
+  line-height: 1;
+}
+
+.pommelo-logo-mark {
+  width: 41px;
+  height: 41px;
+}
+
+.pommelo-wordmark {
+  position: relative;
+  font-size: 36px;
+  font-weight: 850;
+  line-height: .92;
+  letter-spacing: -.022em;
+}
+
+.pommelo-double {
+  position: relative;
+  display: inline-block;
+  color: var(--pommelo);
+  font-weight: 900;
+  letter-spacing: -.012em;
+}
+
+.pommelo-double::after {
+  content: "";
+  position: absolute;
+  left: 5%;
+  right: 5%;
+  bottom: -5px;
+  height: 3px;
+  border-radius: 999px;
+  background: var(--pommelo-peel);
+  opacity: .95;
+}
+
+.site-tagline {
+  margin-top: 7px;
+  padding-left: 52px;
+  font-size: 8.5px;
+  letter-spacing: .135em;
+}
+
+/* ---------- Mobile overlay brand: one clean mark, no inherited lines ---------- */
+.mobile-menu-top {
+  align-items: flex-start;
+}
+
+.mobile-brand {
+  display: block !important;
+  width: auto !important;
+  max-width: calc(100% - 62px);
+  min-width: 0;
+  padding: 0 !important;
+  margin: 0 !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  line-height: 1 !important;
+  text-decoration: none !important;
+}
+
+.mobile-brand::before,
+.mobile-brand::after {
+  content: none !important;
+  display: none !important;
+}
+
+.mobile-brand .pommelo-logo {
+  display: inline-flex !important;
+  flex-wrap: nowrap !important;
+  align-items: center !important;
+  gap: 12px !important;
+  max-width: 100%;
+  color: #fffaf4;
+  white-space: nowrap !important;
+}
+
+.mobile-brand .pommelo-logo-mark {
+  width: 44px !important;
+  height: 44px !important;
+}
+
+.mobile-brand .pommelo-wordmark {
+  display: inline-block !important;
+  color: #fffaf4 !important;
+  font-size: 37px !important;
+  font-weight: 850 !important;
+  line-height: .92 !important;
+  letter-spacing: -.018em !important;
+  white-space: nowrap !important;
+}
+
+.mobile-brand .pommelo-double {
+  color: #ff917e !important;
+}
+
+.mobile-brand .pommelo-double::after {
+  background: #f4d780;
+}
+
+/* The mobile overlay does not need a second text line under the logo. */
+.mobile-brand > span:last-child:not(.pommelo-logo) {
+  display: none !important;
+}
+
+/* ---------- Category cards: image and copy are physically separate rows ---------- */
+.food-family-card {
+  display: grid;
+  grid-template-rows: 152px minmax(116px, auto);
+  align-content: stretch;
+  isolation: isolate;
+}
+
+.food-family-art {
+  position: relative !important;
+  width: 100%;
+  height: 152px !important;
+  min-height: 152px !important;
+  aspect-ratio: auto !important;
+  overflow: hidden !important;
+  isolation: isolate;
+  z-index: 1;
+}
+
+.food-family-art::before {
+  display: none !important;
+}
+
+.food-family-art::after,
+.family-carnes .food-family-art::after,
+.family-jamon-embutidos .food-family-art::after,
+.family-aceites .food-family-art::after {
+  position: absolute !important;
+  inset: 16px 20px !important;
+  width: auto !important;
+  height: auto !important;
+  max-width: none !important;
+  max-height: none !important;
+  margin: 0 !important;
+  background-position: center !important;
+  background-size: contain !important;
+  background-repeat: no-repeat !important;
+  transform: none !important;
+}
+
+.food-family-content {
+  position: relative;
+  z-index: 3;
+  min-height: 116px;
+  padding: 18px 18px 22px;
+  border-top: 1px solid rgba(33, 52, 59, .08);
+  background: rgba(255, 255, 255, .82) !important;
+}
+
+.food-family-content strong,
+.food-family-content small {
+  position: relative;
+  z-index: 1;
+}
+
+.food-family-arrow {
+  z-index: 4;
+}
+
+@media (max-width: 900px) {
+  .header-main {
+    min-height: 76px;
+  }
+
+  .site-branding .pommelo-logo-mark {
+    width: 35px;
+    height: 35px;
+  }
+
+  .site-branding .pommelo-wordmark {
+    font-size: 31px;
+  }
+
+  .site-tagline {
+    padding-left: 46px;
+    margin-top: 5px;
+    font-size: 7.5px;
+  }
+}
+
+@media (max-width: 760px) {
+  .food-family-card {
+    grid-template-rows: 138px minmax(108px, auto);
+  }
+
+  .food-family-art {
+    height: 138px !important;
+    min-height: 138px !important;
+  }
+
+  .food-family-art::after,
+  .family-carnes .food-family-art::after,
+  .family-jamon-embutidos .food-family-art::after,
+  .family-aceites .food-family-art::after {
+    inset: 13px 20px !important;
+  }
+
+  .food-family-content {
+    min-height: 108px;
+  }
+}
+
+@media (max-width: 430px) {
+  .site-branding .pommelo-logo {
+    gap: 8px;
+  }
+
+  .site-branding .pommelo-logo-mark {
+    width: 31px;
+    height: 31px;
+  }
+
+  .site-branding .pommelo-wordmark {
+    font-size: 28px;
+  }
+
+  .site-branding .pommelo-double::after {
+    bottom: -4px;
+    height: 2px;
+  }
+
+  .site-tagline {
+    display: none;
+  }
+
+  .mobile-brand .pommelo-logo-mark {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .mobile-brand .pommelo-wordmark {
+    font-size: 34px !important;
+  }
+}
