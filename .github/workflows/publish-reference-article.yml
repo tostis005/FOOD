@@ -80,8 +80,60 @@ jobs:
           VPS_USER: ${{ secrets.VPS_USER }}
         run: |
           set -euo pipefail
-          ssh -i ~/.ssh/food_publish_key "$VPS_USER@$VPS_HOST" \
-            "php /tmp/food-publish-reference.php '$WP_ROOT' /tmp/food-reference-article.html"
+          ssh -i ~/.ssh/food_publish_key "$VPS_USER@$VPS_HOST" "WP_ROOT='$WP_ROOT' bash -s" <<'REMOTE'
+          set -euo pipefail
+
+          if command -v php >/dev/null 2>&1; then
+            php /tmp/food-publish-reference.php "$WP_ROOT" /tmp/food-reference-article.html
+            exit 0
+          fi
+
+          if ! command -v docker >/dev/null 2>&1; then
+            echo "ERROR: No hay PHP en el host y tampoco está disponible Docker."
+            exit 1
+          fi
+
+          if ! docker ps >/dev/null 2>&1; then
+            echo "ERROR: Docker existe, pero VPS_USER no puede consultar los contenedores."
+            exit 1
+          fi
+
+          CANDIDATES=""
+          while read -r CID; do
+            [ -z "$CID" ] && continue
+            CROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then
+                  echo "$p"
+                  exit 0
+                fi
+              done
+              FOUND="$(find /var/www /app -maxdepth 5 -type f -name wp-load.php 2>/dev/null | head -n 1)"
+              [ -n "$FOUND" ] && dirname "$FOUND"
+            ' 2>/dev/null || true)"
+
+            if [ -n "$CROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              CANDIDATES="${CANDIDATES}${CID}|${CROOT}\n"
+            fi
+          done < <(docker ps -q)
+
+          CANDIDATE_COUNT="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [ "$CANDIDATE_COUNT" -ne 1 ]; then
+            echo "ERROR: Se esperaban 1 contenedor WordPress con PHP y se han encontrado $CANDIDATE_COUNT."
+            printf '%b' "$CANDIDATES"
+            exit 1
+          fi
+
+          CANDIDATE="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | head -n 1)"
+          CONTAINER_ID="${CANDIDATE%%|*}"
+          CONTAINER_WP_ROOT="${CANDIDATE#*|}"
+
+          echo "WordPress ejecutándose en contenedor $CONTAINER_ID ($CONTAINER_WP_ROOT)"
+          docker cp /tmp/food-reference-article.html "$CONTAINER_ID:/tmp/food-reference-article.html"
+          docker cp /tmp/food-publish-reference.php "$CONTAINER_ID:/tmp/food-publish-reference.php"
+          docker exec "$CONTAINER_ID" php /tmp/food-publish-reference.php "$CONTAINER_WP_ROOT" /tmp/food-reference-article.html
+          docker exec "$CONTAINER_ID" rm -f /tmp/food-reference-article.html /tmp/food-publish-reference.php || true
+          REMOTE
 
       - name: Cleanup temporary files
         if: always()
