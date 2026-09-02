@@ -6,87 +6,88 @@ $language = function_exists( 'food_current_language' ) ? food_current_language()
 $pages    = function_exists( 'food_editorial_pages' ) ? food_editorial_pages() : array();
 $page     = isset( $pages[ $key ][ $language ] ) ? $pages[ $key ][ $language ] : null;
 
-$food_editorial_public_text = static function( $text ) use ( $language ) {
-	$text = (string) $text;
-	if ( 'en' === $language ) {
-		return strtr(
-			$text,
-			array(
-				'Guides' => 'Articles',
-				'guides' => 'articles',
-				'Guide'  => 'Article',
-				'guide'  => 'article',
-			)
-		);
-	}
-
-	return strtr(
-		$text,
-		array(
-			'Cómo construimos una guía' => 'Cómo construimos un artículo',
-			'cómo construimos una guía' => 'cómo construimos un artículo',
-			'Guías pensadas'            => 'Artículos pensados',
-			'guías pensadas'            => 'artículos pensados',
-			'Cada guía'                  => 'Cada artículo',
-			'cada guía'                  => 'cada artículo',
-			'Una guía'                   => 'Un artículo',
-			'una guía'                   => 'un artículo',
-			'Guías'                      => 'Artículos',
-			'guías'                      => 'artículos',
-			'Guía'                       => 'Artículo',
-			'guía'                       => 'artículo',
-		)
-	);
-};
-
 if ( $page && 'about' === $key ) {
 	if ( 'en' === $language ) {
-		$page['intro'] = 'Quinnoa is an editorial publication about food for people who want to understand better what they eat. We cover everyday ingredients and products through nutrition, quality, storage, food safety and cooking.';
+		$page['intro'] = 'Quinnoa is a digital publication devoted to food and the culture around it. We cover nutrition, quality, storage, food safety and cooking with an accessible and rigorous approach.';
 		$page['sections'] = array(
 			array(
-				'title' => 'Getting to know food better',
+				'title' => 'Food in all its variety',
 				'paragraphs' => array(
-					'Behind a cheese, an olive oil, a piece of fruit, a legume or a cut of meat there is a lot worth knowing: where its characteristics come from, what it contains, how to recognize quality, how to store it and what changes when it is cooked.',
-					'Quinnoa brings that knowledge together in one place, with an accessible approach that helps make food easier to understand rather than more complicated.',
+					'From everyday ingredients to products with a long tradition, food can be understood from many angles. Quinnoa explores meat, fish, fruit, vegetables, legumes, grains, dairy, oils and other foods, as well as the questions that connect them.',
+					'We are interested in what makes each food distinctive: its composition, origin, quality, seasonality, preservation, preparation and place in everyday cooking.',
 				),
 			),
 			array(
-				'title' => 'From the shop to the kitchen',
+				'title' => 'From origin to table',
 				'paragraphs' => array(
-					'We are interested in food as it appears in everyday life: the products we buy, the ingredients we keep at home and the dishes we prepare. That is why Quinnoa covers meat, fish, dairy, legumes, fruit, vegetables, grains, oils and many other foods, alongside broader topics such as nutrition, food safety, storage and cooking.',
-					'The goal is simple: to make it easier to know what a food is, what makes it different, how to look after it and how to enjoy it better.',
+					'Good food knowledge goes beyond nutrition labels. It also includes understanding how a product is made, how to recognize its qualities, how it changes over time and what happens to it in the kitchen.',
+					'Quinnoa brings these perspectives together in a publication designed for curious readers who enjoy knowing more about what they eat.',
 				),
 			),
 			array(
-				'title' => 'Information with context',
+				'title' => 'Editorial scope',
 				'paragraphs' => array(
-					'Quinnoa is an educational publication. We want to provide useful context so readers can understand food better and make their own decisions with more information.',
-					'Our content does not replace diagnosis, treatment or individual medical advice. For health or food-safety decisions, guidance from competent authorities and qualified professionals takes priority.',
+					'Quinnoa provides general educational information about food. Its content does not replace individual medical advice, diagnosis or treatment. For health and food-safety matters, guidance from qualified professionals and competent authorities takes priority.',
 				),
 			),
 		);
 	} else {
-		$page['intro'] = 'Quinnoa es un medio editorial sobre alimentos para quienes quieren conocer mejor lo que comen. Hablamos de ingredientes y productos cotidianos desde la nutrición, la calidad, la conservación, la seguridad alimentaria y la cocina.';
+		$page['intro'] = 'Quinnoa es una publicación digital dedicada a los alimentos y a la cultura que los rodea. Hablamos de nutrición, calidad, conservación, seguridad alimentaria y cocina con un enfoque cercano y riguroso.';
 		$page['sections'] = array(
 			array(
-				'title' => 'Conocer mejor los alimentos',
+				'title' => 'Los alimentos en toda su variedad',
 				'paragraphs' => array(
-					'Detrás de un queso, un aceite, una fruta, una legumbre o un corte de carne hay muchas cosas que merece la pena conocer: de dónde vienen sus características, qué aporta, cómo reconocer su calidad, cómo conservarlo o qué cambia cuando lo cocinamos.',
-					'Quinnoa reúne ese conocimiento en un mismo lugar, con un enfoque accesible que ayude a entender mejor la comida sin convertirla en algo más complicado de lo que es.',
+					'Desde los ingredientes de todos los días hasta productos con una larga tradición, la comida se puede conocer desde muchos ángulos. En Quinnoa hablamos de carnes, pescados, frutas, verduras, legumbres, cereales, lácteos, aceites y muchos otros alimentos, además de los temas que los conectan.',
+					'Nos interesa aquello que hace diferente a cada alimento: su composición, su origen, su calidad, su temporada, su conservación, su preparación y el lugar que ocupa en la cocina cotidiana.',
 				),
 			),
 			array(
-				'title' => 'De la compra a la cocina',
+				'title' => 'Del origen a la mesa',
 				'paragraphs' => array(
-					'Nos interesan los alimentos tal y como aparecen en la vida cotidiana: los productos que compramos, los ingredientes que guardamos en casa y lo que cocinamos con ellos. Por eso en Quinnoa hablamos de carnes, pescados, lácteos, legumbres, frutas, verduras, cereales, aceites y muchos otros alimentos, además de temas como nutrición, seguridad alimentaria, conservación y cocina.',
-					'El objetivo es sencillo: que resulte más fácil saber qué es un alimento, qué lo diferencia, cómo cuidarlo y cómo disfrutarlo mejor.',
+					'Conocer un alimento va mucho más allá de leer una etiqueta nutricional. También significa entender cómo se elabora, cómo reconocer sus cualidades, cómo evoluciona con el tiempo y qué ocurre cuando llega a la cocina.',
+					'Quinnoa reúne esas distintas miradas en una publicación pensada para quienes sienten curiosidad por saber más sobre lo que comen.',
 				),
 			),
 			array(
-				'title' => 'Información con contexto',
+				'title' => 'Alcance editorial',
 				'paragraphs' => array(
-					'Quinnoa es un medio divulgativo. Queremos aportar contexto útil para conocer mejor los alimentos y tomar decisiones propias con más información.',
-					'Nuestros contenidos no sustituyen el diagnóstico, el tratamiento ni el consejo individual de un profesional sanitario. En cuestiones de salud o seguridad alimentaria, tienen prioridad las indicaciones de las autoridades competentes y de profesionales cualificados.',
+					'Quinnoa ofrece información divulgativa de carácter general sobre alimentación. Sus contenidos no sustituyen el consejo médico individual, el diagnóstico ni el tratamiento. En cuestiones de salud y seguridad alimentaria, tienen prioridad las indicaciones de profesionales cualificados y organismos competentes.',
+				),
+			),
+		);
+	}
+}
+
+if ( $page && 'methodology' === $key ) {
+	if ( 'en' === $language ) {
+		$page['intro'] = 'Quinnoa aims to publish reliable, understandable and useful information about food.';
+		$page['sections'] = array(
+			array(
+				'title' => 'Sources and editorial judgment',
+				'paragraphs' => array(
+					'For nutrition and food-safety topics, we give particular weight to public authorities, recognized food-composition databases, scientific institutions and relevant research. For quality, production and cooking topics, we also use technical and specialist sources appropriate to the subject.',
+				),
+			),
+			array(
+				'title' => 'Accuracy and updates',
+				'paragraphs' => array(
+					'Food knowledge changes over time. We review and update published information when important data, official guidance or established evidence changes, and we correct errors when they are identified.',
+				),
+			),
+		);
+	} else {
+		$page['intro'] = 'En Quinnoa buscamos publicar información fiable, comprensible y útil sobre alimentación.';
+		$page['sections'] = array(
+			array(
+				'title' => 'Fuentes y criterio editorial',
+				'paragraphs' => array(
+					'En nutrición y seguridad alimentaria damos especial importancia a organismos públicos, bases de datos reconocidas de composición de alimentos, instituciones científicas y literatura relevante. Para temas de calidad, elaboración y cocina recurrimos también a fuentes técnicas y especializadas adecuadas a cada materia.',
+				),
+			),
+			array(
+				'title' => 'Precisión y actualización',
+				'paragraphs' => array(
+					'El conocimiento sobre alimentación evoluciona. Revisamos y actualizamos la información publicada cuando cambian datos importantes, recomendaciones oficiales o evidencias consolidadas, y corregimos los errores que detectamos.',
 				),
 			),
 		);
@@ -94,9 +95,84 @@ if ( $page && 'about' === $key ) {
 }
 
 if ( $page && 'contact' === $key ) {
-	$page['intro'] = 'en' === $language
-		? 'If you have spotted an error, want to suggest a topic or simply need to get in touch with Quinnoa, send us a message using the form below.'
-		: 'Si has detectado un error, quieres proponer un tema o simplemente necesitas ponerte en contacto con Quinnoa, escríbenos a través del formulario.';
+	$page['intro']    = '';
+	$page['sections'] = array();
+}
+
+if ( $page && 'privacy' === $key ) {
+	if ( 'en' === $language ) {
+		$page['intro'] = 'This policy explains how personal information and cookies are handled on Quinnoa. Last updated: September 2, 2026.';
+		$page['sections'] = array(
+			array(
+				'title' => 'Contact information',
+				'paragraphs' => array(
+					'Quinnoa is the editorial name of this website. Privacy and data-protection enquiries can be sent through the Contact page.',
+				),
+			),
+			array(
+				'title' => 'Personal information',
+				'paragraphs' => array(
+					'When you use the contact form, we receive the name, email address and message you provide. We use this information only to manage and respond to your communication.',
+					'The website and its hosting infrastructure may also generate technical records needed for security and operation, such as IP address, browser information, date and requested pages.',
+				),
+			),
+			array(
+				'title' => 'Retention and service providers',
+				'paragraphs' => array(
+					'Contact messages are retained only for as long as reasonably necessary to manage the correspondence and related administrative needs. Personal information submitted through the contact form is not sold.',
+					'Hosting, email and other technical providers may process information to the extent required to provide their services and keep the website available and secure.',
+				),
+			),
+			array(
+				'title' => 'Cookies',
+				'paragraphs' => array(
+					'The site may use technical cookies that are necessary for basic operation, security and WordPress functionality. These cookies are not intended to create advertising profiles.',
+				),
+			),
+			array(
+				'title' => 'Your rights',
+				'paragraphs' => array(
+					'Where applicable, you may request access, correction, deletion, restriction, objection or portability of your personal information through the Contact page. In Spain, you may also lodge a complaint with the Spanish Data Protection Agency.',
+				),
+			),
+		);
+	} else {
+		$page['intro'] = 'Esta política explica cómo se tratan los datos personales y las cookies en Quinnoa. Última actualización: 2 de septiembre de 2026.';
+		$page['sections'] = array(
+			array(
+				'title' => 'Contacto en materia de privacidad',
+				'paragraphs' => array(
+					'Quinnoa es la denominación editorial de este sitio web. Las consultas relacionadas con privacidad y protección de datos pueden enviarse a través de la página de Contacto.',
+				),
+			),
+			array(
+				'title' => 'Datos personales',
+				'paragraphs' => array(
+					'Cuando utilizas el formulario de contacto recibimos el nombre, la dirección de correo electrónico y el mensaje que facilitas. Estos datos se utilizan únicamente para gestionar y responder la comunicación.',
+					'El sitio web y su infraestructura de alojamiento también pueden generar registros técnicos necesarios para su seguridad y funcionamiento, como la dirección IP, información del navegador, la fecha y las páginas solicitadas.',
+				),
+			),
+			array(
+				'title' => 'Conservación y proveedores',
+				'paragraphs' => array(
+					'Los mensajes de contacto se conservan únicamente durante el tiempo razonablemente necesario para gestionar la comunicación y las necesidades administrativas relacionadas. Los datos personales enviados mediante el formulario no se venden.',
+					'Los proveedores de alojamiento, correo y otros servicios técnicos pueden tratar información en la medida necesaria para prestar sus servicios y mantener el sitio disponible y seguro.',
+				),
+			),
+			array(
+				'title' => 'Cookies',
+				'paragraphs' => array(
+					'El sitio puede utilizar cookies técnicas necesarias para su funcionamiento básico, la seguridad y determinadas funciones de WordPress. Estas cookies no están destinadas a crear perfiles publicitarios.',
+				),
+			),
+			array(
+				'title' => 'Tus derechos',
+				'paragraphs' => array(
+					'Cuando corresponda, puedes solicitar el acceso, rectificación, supresión, oposición, limitación o portabilidad de tus datos personales a través de la página de Contacto. También puedes presentar una reclamación ante la Agencia Española de Protección de Datos.',
+				),
+			),
+		);
+	}
 }
 
 if ( ! $page ) {
@@ -113,25 +189,24 @@ if ( ! $page ) {
 	<nav class="breadcrumbs" aria-label="<?php echo esc_attr( 'en' === $language ? 'Breadcrumbs' : 'Migas de pan' ); ?>">
 		<a href="<?php echo esc_url( function_exists( 'food_language_home_url' ) ? food_language_home_url( $language ) : home_url( '/' ) ); ?>"><?php echo esc_html( 'en' === $language ? 'Home' : 'Inicio' ); ?></a>
 		<span aria-hidden="true">›</span>
-		<span aria-current="page"><?php echo esc_html( $food_editorial_public_text( $page['title'] ) ); ?></span>
+		<span aria-current="page"><?php echo esc_html( $page['title'] ); ?></span>
 	</nav>
 
 	<header class="editorial-page-header">
-		<div class="eyebrow"><?php echo esc_html( $food_editorial_public_text( $page['eyebrow'] ) ); ?></div>
-		<h1><?php echo esc_html( $food_editorial_public_text( $page['title'] ) ); ?></h1>
-		<p><?php echo esc_html( $food_editorial_public_text( $page['intro'] ) ); ?></p>
+		<h1><?php echo esc_html( $page['title'] ); ?></h1>
+		<?php if ( ! empty( $page['intro'] ) ) : ?><p><?php echo esc_html( $page['intro'] ); ?></p><?php endif; ?>
 	</header>
 
 	<div class="editorial-page-content">
 		<?php foreach ( $page['sections'] as $section ) : ?>
 			<section>
-				<h2><?php echo esc_html( $food_editorial_public_text( $section['title'] ) ); ?></h2>
+				<h2><?php echo esc_html( $section['title'] ); ?></h2>
 				<?php foreach ( $section['paragraphs'] as $paragraph ) : ?>
-					<p><?php echo esc_html( $food_editorial_public_text( $paragraph ) ); ?></p>
+					<p><?php echo esc_html( $paragraph ); ?></p>
 				<?php endforeach; ?>
 				<?php if ( ! empty( $section['items'] ) ) : ?>
 					<ul>
-						<?php foreach ( $section['items'] as $item ) : ?><li><?php echo esc_html( $food_editorial_public_text( $item ) ); ?></li><?php endforeach; ?>
+						<?php foreach ( $section['items'] as $item ) : ?><li><?php echo esc_html( $item ); ?></li><?php endforeach; ?>
 					</ul>
 				<?php endif; ?>
 			</section>
