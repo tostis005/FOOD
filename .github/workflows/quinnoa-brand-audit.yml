@@ -1,0 +1,101 @@
+name: Audit Quinnoa production brand
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/quinnoa-brand-audit.yml'
+  workflow_dispatch:
+
+jobs:
+  audit-brand:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Configure SSH
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/quinnoa_audit_key
+          chmod 600 ~/.ssh/quinnoa_audit_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Discover live URL and WordPress brand
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          RESULT="$(ssh -i ~/.ssh/quinnoa_audit_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+          for CID in $(docker ps -q); do
+            ROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then echo "$p"; exit 0; fi
+              done
+            ' 2>/dev/null || true)"
+            if [ -n "$ROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              docker exec "$CID" php -r "require '$ROOT/wp-load.php'; echo home_url('/'), PHP_EOL, get_option('blogname'), PHP_EOL;"
+              exit 0
+            fi
+          done
+          exit 1
+          REMOTE
+          )"
+          SITE_URL="$(printf '%s\n' "$RESULT" | sed -n '1p')"
+          WP_NAME="$(printf '%s\n' "$RESULT" | sed -n '2p')"
+          test "$WP_NAME" = 'Quinnoa'
+          test -n "$SITE_URL"
+          echo "::add-mask::$SITE_URL"
+          echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
+          echo 'WordPress brand is Quinnoa'
+
+      - name: Verify public brand and editorial routes
+        run: |
+          set -euo pipefail
+          BASE="${SITE_URL%/}"
+          legacy_a='pome'
+          legacy_b='tum'
+          legacy_c='pom'
+          legacy_d='melo'
+
+          fetch_page() {
+            path="$1"
+            out="$2"
+            for i in $(seq 1 20); do
+              code="$(curl -L -sS -o "$out" -w '%{http_code}' --connect-timeout 15 --max-time 40 "$BASE$path" || true)"
+              [ "$code" = '200' ] && return 0
+              sleep 2
+            done
+            echo "$path did not return 200" >&2
+            return 1
+          }
+
+          for spec in "/:home-es" "/en/:home-en" "/acerca-de/:about-es" "/en/about/:about-en" "/contacto/:contact-es" "/en/contact/:contact-en" "/privacidad/:privacy-es" "/en/privacy/:privacy-en"; do
+            path="${spec%%:*}"
+            name="${spec#*:}"
+            fetch_page "$path" "$name.html"
+            grep -qi 'Quinnoa' "$name.html"
+            if grep -qi "${legacy_a}${legacy_b}\|${legacy_c}${legacy_d}" "$name.html"; then
+              echo "Legacy brand is still visible on $path" >&2
+              exit 1
+            fi
+          done
+
+          grep -q '<span>quinn</span><span class="pometum-o">o</span><span>a</span>' home-es.html
+          grep -q 'Busca en Quinnoa' home-es.html
+          grep -q 'Search Quinnoa' home-en.html
+          grep -q 'Quinnoa explica' home-es.html
+          grep -q 'Quinnoa explains' home-en.html
+
+          OLD_PATH="/sobre-${legacy_a}${legacy_b}/"
+          headers="$(curl -sS -I --connect-timeout 15 --max-time 40 "$BASE$OLD_PATH")"
+          printf '%s\n' "$headers" | grep -Eq '^HTTP/[^ ]+ 30[12378]'
+          printf '%s\n' "$headers" | grep -Eqi '^location: .*/acerca-de/?'
+
+          echo 'Quinnoa production brand verified in ES and EN'
