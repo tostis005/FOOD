@@ -33,13 +33,15 @@ for path in files:
         'se excluye deliberadamente', 'excluimos deliberadamente', 'para no manipular',
         'criterio de ordenación', 'fuentes y criterio', 'registro utilizado', 'registros concretos',
         'la tabla no pretende', 'no pretendemos', 'cocinado con calor seco',
-        'tabla principal', 'ranking principal', 'como vimos', 'como hemos visto',
+        'tabla principal', 'ranking principal', 'tabla anterior', 'ranking anterior',
+        'la tabla de arriba', 'el ranking de arriba', 'como vimos', 'como hemos visto',
         'en otra guía', 'en otra entrada', 'en otro post', 'en otra página',
         'deserves its own article', 'another article', 'in this article',
         'we chose', 'we have chosen', 'we used', 'we have used', 'deliberately',
         'to avoid manipulating', 'ordering criteria', 'sources and methodology',
         'record used', 'specific records', 'the table is not intended', 'cooked by dry heat',
-        'main table', 'main ranking', 'as we saw', 'as we have seen',
+        'main table', 'main ranking', 'previous table', 'previous ranking',
+        'the table above', 'the ranking above', 'as we saw', 'as we have seen',
         'in another guide', 'in another article', 'in another post', 'on another page'
     ]
     for phrase in forbidden:
@@ -51,8 +53,12 @@ for path in files:
         r'como (?:ocurre|pasa|sucede) (?:con|en) los pescados',
         r'igual que (?:en|con) las carnes',
         r'al igual que (?:en|con) las carnes',
+        r'igual que (?:en|con) los pescados',
+        r'al igual que (?:en|con) los pescados',
         r'as (?:with|in) (?:the )?meat ranking',
         r'as (?:with|in) (?:the )?fish ranking',
+        r'as (?:with|in) (?:the )?meat article',
+        r'as (?:with|in) (?:the )?fish article',
     ]
     for pattern in cross_article_patterns:
         if re.search(pattern, plain):
@@ -76,7 +82,10 @@ if errors:
     for err in errors:
         print(err)
     raise SystemExit(1)
+
 print('EDITORIAL_AUDIT=PASS')
 print('ARTICLES=50')
 print('SPANISH=25')
 print('ENGLISH=25')
+print('MANUAL_COLD_READ=REQUIRED')
+print('NARRATIVE_METHOD=human-review-not-rigid-template')
