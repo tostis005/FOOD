@@ -4,6 +4,7 @@
 	<?php
 	$food_category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category() : null;
 	$food_topic    = function_exists( 'food_get_primary_topic' ) ? food_get_primary_topic() : null;
+	$food_visual   = function_exists( 'food_get_post_visual_context' ) ? food_get_post_visual_context() : null;
 	?>
 	<div class="article-shell"><?php food_breadcrumbs(); ?></div>
 
@@ -27,6 +28,10 @@
 
 	<?php if ( has_post_thumbnail() ) : ?>
 		<figure class="article-hero"><?php the_post_thumbnail( 'food-hero' ); ?></figure>
+	<?php elseif ( $food_visual ) : ?>
+		<div class="article-hero-fallback <?php echo esc_attr( $food_visual['class'] ); ?>" aria-hidden="true">
+			<?php echo $food_visual['svg']; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+		</div>
 	<?php endif; ?>
 
 	<article <?php post_class( 'article-shell' ); ?>>
