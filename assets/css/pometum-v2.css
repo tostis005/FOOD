@@ -1,0 +1,239 @@
+/*
+ * Pometum v2 — bilingual polish and stronger editorial color rhythm.
+ */
+
+:root {
+  --pometum-rosewash: #EEDCD3;
+  --pometum-wheatwash: #EEE1C3;
+  --pometum-olivewash: #DEE1D5;
+  --pometum-earthwash: #E7DCCE;
+}
+
+/* More color without losing the warm editorial base. */
+.site-header::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -1px;
+  height: 3px;
+  background: linear-gradient(90deg, var(--pometum-olive) 0 58%, var(--pometum-coral) 58% 78%, var(--pometum-butter) 78% 100%);
+  opacity: .88;
+  pointer-events: none;
+}
+
+.home-hero-v5 {
+  background:
+    radial-gradient(circle at 88% 12%, rgba(232,199,106,.20), transparent 28%),
+    linear-gradient(180deg, var(--pometum-cream) 0%, #F0E7DA 100%) !important;
+}
+
+.hero-main-v5 {
+  background: rgba(251,248,241,.94) !important;
+}
+
+.food-families-section {
+  background: #EFE5D8 !important;
+  border-top: 1px solid rgba(118,94,76,.10);
+  border-bottom: 1px solid rgba(118,94,76,.10);
+  padding-bottom: 72px !important;
+}
+
+.topic-directory-section {
+  background:
+    linear-gradient(135deg, rgba(57,69,54,.035), transparent 36%),
+    #E1E3D8 !important;
+}
+
+.discover-section {
+  background: var(--pometum-cream) !important;
+}
+
+.latest-guides-v5 {
+  background: linear-gradient(180deg, #E8DED1 0%, #EFE7DC 100%) !important;
+  padding-top: 64px !important;
+  padding-bottom: 72px !important;
+}
+
+.latest-guides-v5 > .container {
+  box-sizing: border-box;
+  background: var(--pometum-paper);
+  border: 1px solid var(--pometum-line);
+  border-top: 5px solid var(--pometum-coral);
+  border-radius: 9px;
+  padding: 36px clamp(28px, 3vw, 46px) 44px !important;
+}
+
+.latest-guides-v5 .section-head-v5,
+.latest-guides-v5 .card-grid {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+/* Language switcher ------------------------------------------------------ */
+.header-actions {
+  overflow: visible !important;
+}
+
+.language-switcher {
+  position: relative;
+  z-index: 80;
+  font-family: var(--pometum-sans);
+}
+
+.language-switcher summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  min-height: 38px;
+  padding: 0 10px;
+  border: 1px solid rgba(57,69,54,.18);
+  border-radius: 999px;
+  background: rgba(251,248,241,.74);
+  color: var(--pometum-olive);
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: .055em;
+  cursor: pointer;
+  list-style: none;
+}
+
+.language-switcher summary::-webkit-details-marker { display: none; }
+.language-switcher summary::after {
+  content: "⌄";
+  font-size: 13px;
+  line-height: 1;
+  margin-left: 1px;
+  color: var(--pometum-earth);
+}
+.language-switcher[open] summary {
+  background: var(--pometum-paper);
+  border-color: rgba(57,69,54,.34);
+}
+.language-flag {
+  font-size: 16px;
+  line-height: 1;
+  letter-spacing: 0;
+}
+.language-switcher-menu {
+  position: absolute;
+  top: calc(100% + 9px);
+  right: 0;
+  min-width: 160px;
+  padding: 7px;
+  border: 1px solid var(--pometum-line);
+  border-radius: 8px;
+  background: var(--pometum-paper);
+  box-shadow: 0 18px 44px rgba(57,69,54,.14);
+}
+.language-switcher-menu a {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  padding: 9px 10px;
+  border-radius: 5px;
+  color: var(--pometum-olive) !important;
+  text-decoration: none !important;
+  font-size: 13px;
+  font-weight: 700;
+  white-space: nowrap;
+}
+.language-switcher-menu a:hover,
+.language-switcher-menu a[aria-current="page"] {
+  background: var(--pometum-olivewash);
+}
+
+/* Category artwork: optical centering and unambiguous silhouettes. */
+.food-family-card .food-family-art {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.food-family-card .food-family-art::after {
+  position: static !important;
+  inset: auto !important;
+  display: block !important;
+  flex: 0 0 auto !important;
+  margin: 0 auto !important;
+  transform: none !important;
+  transform-origin: center center !important;
+  background-position: 50% 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+/* Centered steak: one clear object, no corner drift. */
+.family-carnes {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 88'%3E%3Cpath d='M25 18c20-12 49-9 66 6 15 13 13 34-3 47-17 13-48 14-67 2C3 61 6 31 25 18Z' fill='%23B95F4D' stroke='%23394536' stroke-width='3.2'/%3E%3Cpath d='M56 27c10-6 24-2 28 8 4 10-4 21-15 25-11 4-24-1-26-12-2-8 4-17 13-21Z' fill='%23F7EBDD' stroke='%23394536' stroke-width='2.8'/%3E%3Cellipse cx='68' cy='43' rx='7.5' ry='9.5' fill='%23D8B9A7' stroke='%23394536' stroke-width='2.2'/%3E%3Cpath d='M29 36c7-5 14-7 21-7M25 53c7 5 13 7 20 8' fill='none' stroke='%23D88470' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+.family-carnes .food-family-art::after {
+  width: 92px !important;
+  height: 66px !important;
+}
+
+/* Four separate fruit silhouettes: apple, pear, avocado and banana. */
+.family-frutas {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 88'%3E%3Cg stroke='%23394536' stroke-width='2.5' stroke-linejoin='round'%3E%3Cpath d='M10 46c0-13 7-22 17-22s17 9 17 22c0 14-8 24-17 24S10 60 10 46Z' fill='%23D96C55'/%3E%3Cpath d='M27 25c-1-6 2-10 7-13' fill='none' stroke-linecap='round'/%3E%3Cpath d='M30 18c6-4 11-3 15 1-4 4-9 5-15 3Z' fill='%23788664'/%3E%3Cpath d='M52 40c0-8 3-13 7-17 3-3 4-7 4-11 7 3 9 7 8 13 6 4 9 9 9 16 0 15-7 27-14 27S52 55 52 40Z' fill='%23E8C76A'/%3E%3Cpath d='M66 13c0-4 2-7 5-9' fill='none' stroke-linecap='round'/%3E%3Cpath d='M82 47c0-16 7-29 15-29s15 13 15 29c0 14-6 23-15 23S82 61 82 47Z' fill='%237B8F63'/%3E%3Ccircle cx='97' cy='50' r='6.5' fill='%23765E4C'/%3E%3Cpath d='M116 27c8 7 11 18 8 29-3 10-10 17-19 20 5-7 7-14 7-21 0-10-3-19-8-26 4-2 8-3 12-2Z' fill='%23E8C76A'/%3E%3C/svg%3E");
+}
+.family-frutas .food-family-art::after {
+  width: 108px !important;
+  height: 67px !important;
+}
+
+/* Potato + clearly elongated sweet potato. */
+.family-tuberculos {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 88'%3E%3Cg stroke='%23394536' stroke-width='3'%3E%3Cpath d='M15 44c0-17 13-29 31-29 17 0 29 10 29 25 0 18-15 31-33 31-16 0-27-10-27-27Z' fill='%23C8A274'/%3E%3Ccircle cx='33' cy='32' r='2' fill='%23765E4C' stroke='none'/%3E%3Ccircle cx='53' cy='29' r='2' fill='%23765E4C' stroke='none'/%3E%3Ccircle cx='48' cy='51' r='2' fill='%23765E4C' stroke='none'/%3E%3Cpath d='M86 24c12-6 27-2 31 7 5 12-7 29-27 37-13 5-23 2-25-6-3-10 8-30 21-38Z' fill='%23C96F4F'/%3E%3Cpath d='M79 36c9-5 18-7 27-6M74 53c10 2 19 0 28-4' fill='none' stroke='%23E09A76' stroke-width='2.4' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+.family-tuberculos .food-family-art::after {
+  width: 101px !important;
+  height: 64px !important;
+}
+
+/* Keep every desktop category illustration in the same optical field. */
+@media (min-width: 901px) {
+  .food-family-art {
+    min-height: 138px !important;
+    padding: 18px 20px !important;
+  }
+  .food-family-art::after {
+    max-width: 108px !important;
+    max-height: 68px !important;
+  }
+}
+
+/* Article hero must always share the editorial axis with text. */
+.article-shell,
+.article-hero,
+.article-hero-fallback {
+  width: min(var(--pometum-article-width, 980px), calc(100% - 28px)) !important;
+  max-width: var(--pometum-article-width, 980px) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+.article-hero-fallback {
+  box-sizing: border-box !important;
+}
+
+@media (max-width: 900px) {
+  .language-switcher summary {
+    min-height: 36px;
+    padding: 0 8px;
+  }
+  .language-switcher-menu {
+    right: -6px;
+  }
+  .latest-guides-v5 > .container {
+    width: calc(100% - 28px) !important;
+    padding: 26px 20px 32px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .header-actions { gap: 5px !important; }
+  .language-switcher summary { padding: 0 7px; }
+  .language-switcher summary span:last-of-type { font-size: 11px; }
+  .language-flag { font-size: 15px; }
+  .header-search { width: 36px !important; height: 36px !important; }
+}
