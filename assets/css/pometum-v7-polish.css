@@ -52,3 +52,33 @@ body.home .discover-section .discover-grid {
     white-space: normal;
   }
 }
+
+
+/* Quinnoa logo cleanup: no legacy leaf; quinoa-yellow i dot. */
+.pometum-o::after {
+  content: none !important;
+  display: none !important;
+}
+
+.pometum-wordmark > span:first-child {
+  text-transform: none !important;
+}
+
+.quinnoa-i {
+  position: relative;
+  display: inline-block;
+}
+
+.quinnoa-i::after {
+  content: "";
+  position: absolute;
+  width: .13em;
+  height: .13em;
+  min-width: 4px;
+  min-height: 4px;
+  left: 50%;
+  top: .02em;
+  border-radius: 50%;
+  background: var(--pometum-butter, #E8C76A);
+  transform: translateX(-50%);
+}

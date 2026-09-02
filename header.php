@@ -19,7 +19,7 @@ if ( ! function_exists( 'food_pometum_logo' ) ) {
 		$class_attr = $class ? ' ' . sanitize_html_class( $class ) : '';
 		?>
 		<span class="pometum-logo<?php echo esc_attr( $class_attr ); ?>">
-			<span class="pometum-wordmark" aria-hidden="true"><span>quinn</span><span class="pometum-o">o</span><span>a</span></span>
+			<span class="pometum-wordmark" aria-hidden="true"><span>Qu</span><span class="quinnoa-i">ı</span><span>nn</span><span class="pometum-o">o</span><span>a</span></span>
 			<span class="screen-reader-text">Quinnoa</span>
 		</span>
 		<?php
@@ -81,7 +81,7 @@ if ( file_exists( $food_language_seo ) ) {
 		?>
 		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/' . $css_file . '?ver=' . filemtime( $css_path ) ); ?>">
 	<?php endforeach; ?>
-	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cellipse cx='23' cy='25' rx='14' ry='16' fill='none' stroke='%23394536' stroke-width='5'/%3E%3Cpath d='M32 9c4-4 8-4 11-1-2 5-6 7-11 6' fill='%23D96C55'/%3E%3C/svg%3E">
+	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='22' cy='22' r='13' fill='none' stroke='%23394536' stroke-width='5'/%3E%3Cpath d='M31 31l8 8' fill='none' stroke='%23394536' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
 	<?php $language_overlay_js = get_template_directory() . '/assets/js/pometum-language-overlay.js'; ?>
 	<?php if ( file_exists( $language_overlay_js ) ) : ?>
 		<script defer src="<?php echo esc_url( get_template_directory_uri() . '/assets/js/pometum-language-overlay.js?ver=' . filemtime( $language_overlay_js ) ); ?>"></script>
