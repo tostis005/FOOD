@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-033-cuanto-dura-carne-cruda-nevera",
+  "article_number": 33,
+  "translation_group": "033-how-long-raw-meat-fridge",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; fecha de caducidad EFSA y tiempos domésticos USDA según tipo de carne",
+  "title": "Cuánto dura la carne cruda en la nevera",
+  "slug": "cuanto-dura-carne-cruda-nevera",
+  "seo": {
+    "title": "Cuánto dura la carne cruda en la nevera",
+    "meta_description": "Filetes, chuletas y asados crudos suelen tener una referencia de 3–5 días en nevera; la carne picada y vísceras, solo 1–2 días. La fecha de caducidad manda.",
+    "search_intent": "Conocer cuánto tiempo puede guardarse carne cruda refrigerada según sea pieza entera, picada o víscera."
+  },
+  "excerpt": "No existe un único plazo para toda la carne cruda. Como referencia doméstica, filetes, chuletas y asados de vacuno, cerdo o cordero pueden mantenerse 3–5 días a 4 °C o menos, mientras la carne picada y muchas vísceras se limitan a 1–2 días. En la UE, nunca debe superarse la fecha de caducidad del envase.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [],
+    "article_types": ["storage", "food-safety"],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Decir “la carne dura X días” es demasiado impreciso. Una pieza entera de ternera y una bandeja de carne picada no tienen el mismo margen, aunque estén en la misma balda de la nevera.</p><p>Como referencia doméstica de USDA, <strong>filetes, chuletas y asados crudos de vacuno, cerdo, cordero o ternera: 3–5 días; carne picada y muchas vísceras: 1–2 días</strong>, siempre a 4 °C o menos. En España, además, la fecha de caducidad y las instrucciones del envase tienen prioridad.</p><h2>El tipo de carne cambia el plazo</h2><table><thead><tr><th>Producto crudo</th><th>Nevera a 4 °C o menos</th></tr></thead><tbody><tr><td>Filetes, chuletas y asados de vacuno</td><td>3–5 días</td></tr><tr><td>Chuletas y asados de cerdo</td><td>3–5 días</td></tr><tr><td>Cordero, piezas enteras</td><td>3–5 días</td></tr><tr><td>Carne picada</td><td>1–2 días</td></tr><tr><td>Vísceras</td><td>1–2 días</td></tr></tbody></table><p>La diferencia no es pequeña: una bandeja de carne picada puede tener menos de la mitad del margen de una pieza entera.</p><h2>Por qué la carne picada dura menos</h2><p>En una pieza entera, la mayor parte de la contaminación está en la superficie. Al picar, esa superficie se multiplica y los microorganismos pueden distribuirse por toda la masa. Además, hay mucha más superficie expuesta al oxígeno.</p><p>Por eso el plazo de 1–2 días para picada no debería extrapolarse a un solomillo, ni el de 3–5 días de una pieza entera debería aplicarse a una hamburguesa cruda.</p><h2>La fecha de caducidad puede acortar cualquier plazo</h2><p>EFSA recuerda que una fecha de caducidad es una indicación de seguridad. Si la bandeja marca “caduca el jueves”, no hay una regla de 3–5 días que permita llevarla al viernes porque se compró el lunes.</p><p>Y esa fecha solo tiene sentido si se siguen las condiciones de conservación. Mantener carne fresca por debajo de 5 °C y respetar la temperatura indicada en el envase es parte de la misma regla.</p><h2>Abrir el envase añade otra variable</h2><p>Una vez abierto, la carne entra en contacto con aire, manos, utensilios y superficies. Si la etiqueta indica “consumir en 24 horas tras abrir” o una instrucción equivalente, esa indicación pasa a ser la referencia más concreta.</p><p>En ningún caso abrir un envase amplía la fecha de caducidad original.</p><h2>El color no sirve para conceder días extra</h2><p>La carne puede oscurecerse por cambios de mioglobina y seguir dentro de su margen; también puede verse roja y haber pasado demasiado tiempo almacenada. Mal olor persistente, viscosidad o moho son motivos para desechar, pero un aspecto normal no certifica seguridad.</p><h2>¿Dónde guardarla?</h2><p>En la parte fría de la nevera, protegida y en una bandeja o recipiente que contenga posibles jugos. Colócala por debajo de alimentos cocinados o listos para comer para evitar contaminación cruzada por goteo.</p><h2>Si no la vas a cocinar, congela antes</h2><p>Una pieza que no vas a usar dentro de su plazo de nevera se conserva mejor si se congela pronto. No esperes hasta el quinto día solo porque ese sea el extremo de una referencia general.</p><p>La congelación frena el crecimiento microbiano; no corrige una carne que ya estuvo demasiado tiempo caliente o refrigerada durante más de lo recomendable.</p><h2>La regla que merece la pena memorizar</h2><p><strong>Piezas enteras: 3–5 días. Picada y vísceras: 1–2 días. Fecha de caducidad e instrucciones del envase: siempre mandan si son más restrictivas.</strong></p><p>Con esa distinción se evita el error más común: tratar toda la carne cruda como si tuviera el mismo reloj.</p>",
+  "faq": [
+    {"question": "¿Cuánto dura un filete crudo en la nevera?", "answer": "Como referencia doméstica, filetes y otras piezas enteras de vacuno, cerdo o cordero suelen manejarse con 3–5 días a 4 °C o menos, sin superar la fecha de caducidad."},
+    {"question": "¿Cuánto dura la carne picada?", "answer": "Solo 1–2 días como referencia doméstica, bastante menos que una pieza entera."},
+    {"question": "¿Puedo fiarme del olor si ha pasado el plazo?", "answer": "No. Un olor normal no demuestra ausencia de patógenos; tiempo, temperatura y fecha de caducidad son criterios más fiables."}
+  ],
+  "sources": [
+    {"name": "USDA FSIS — Refrigeration & Food Safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration", "note": "3–5 días para piezas frescas y 1–2 días para picada y vísceras."},
+    {"name": "EFSA — Food date labelling", "url": "https://www.efsa.europa.eu/en/safe2eat/food-date-labelling", "note": "Fecha de caducidad y almacenamiento refrigerado."}
+  ],
+  "image": {
+    "concept": "Pieza entera de carne y una bandeja de carne picada separadas en recipientes en la balda inferior de una nevera, fotografía editorial sin texto.",
+    "alt": "Carne cruda de distintos tipos almacenada en la nevera"
+  },
+  "status": "publish"
+}
