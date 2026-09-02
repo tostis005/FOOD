@@ -2,14 +2,15 @@
 import json
 import re
 import sys
+from collections import defaultdict
 from pathlib import Path
 
 root = Path(sys.argv[1] if len(sys.argv) > 1 else 'content/articles')
 files = sorted(root.glob('es/*.json')) + sorted(root.glob('en/*.json'))
 errors = []
-
-expected = {(lang, n) for lang in ('es','en') for n in range(1,26)}
 seen = set()
+numbers_by_lang = defaultdict(set)
+groups_by_number = defaultdict(dict)
 
 for path in files:
     try:
@@ -17,9 +18,23 @@ for path in files:
     except Exception as exc:
         errors.append(f'{path}: invalid JSON: {exc}')
         continue
+
     lang = data.get('language')
     num = data.get('article_number')
-    seen.add((lang, num))
+    if lang not in ('es', 'en'):
+        errors.append(f'{path}: invalid language {lang!r}; expected es or en')
+        continue
+    if not isinstance(num, int) or num < 1:
+        errors.append(f'{path}: invalid article_number {num!r}; expected positive integer')
+        continue
+
+    key = (lang, num)
+    if key in seen:
+        errors.append(f'{path}: duplicate article pair {key}')
+    seen.add(key)
+    numbers_by_lang[lang].add(num)
+    groups_by_number[num][lang] = data.get('translation_group')
+
     if data.get('status') != 'publish':
         errors.append(f'{path}: status is {data.get("status")!r}, expected publish')
 
@@ -68,14 +83,38 @@ for path in files:
     if excerpt and excerpt.lower() in plain:
         errors.append(f'{path}: excerpt/quick answer is repeated verbatim in content_html')
 
-missing = sorted(expected - seen)
-extra = sorted(seen - expected)
-if missing:
-    errors.append(f'missing article pairs: {missing}')
-if extra:
-    errors.append(f'unexpected article pairs: {extra}')
-if len(files) != 50:
-    errors.append(f'expected 50 article JSON files, found {len(files)}')
+es_numbers = numbers_by_lang['es']
+en_numbers = numbers_by_lang['en']
+all_numbers = es_numbers | en_numbers
+
+if not all_numbers:
+    errors.append('no article JSON files found')
+else:
+    max_number = max(all_numbers)
+    expected_numbers = set(range(1, max_number + 1))
+    for lang, numbers in (('es', es_numbers), ('en', en_numbers)):
+        missing = sorted(expected_numbers - numbers)
+        extra = sorted(numbers - expected_numbers)
+        if missing:
+            errors.append(f'{lang}: missing article numbers: {missing}')
+        if extra:
+            errors.append(f'{lang}: unexpected article numbers: {extra}')
+
+    if es_numbers != en_numbers:
+        errors.append(
+            f'bilingual article numbers do not match; '
+            f'ES-only={sorted(es_numbers - en_numbers)}, EN-only={sorted(en_numbers - es_numbers)}'
+        )
+
+    for num in sorted(es_numbers & en_numbers):
+        es_group = groups_by_number[num].get('es')
+        en_group = groups_by_number[num].get('en')
+        if not es_group or not en_group:
+            errors.append(f'article {num}: missing translation_group in one or both languages')
+        elif es_group != en_group:
+            errors.append(
+                f'article {num}: translation_group mismatch: es={es_group!r}, en={en_group!r}'
+            )
 
 if errors:
     print('EDITORIAL_AUDIT=FAIL')
@@ -84,8 +123,9 @@ if errors:
     raise SystemExit(1)
 
 print('EDITORIAL_AUDIT=PASS')
-print('ARTICLES=50')
-print('SPANISH=25')
-print('ENGLISH=25')
+print(f'ARTICLES={len(files)}')
+print(f'SPANISH={len(es_numbers)}')
+print(f'ENGLISH={len(en_numbers)}')
+print(f'LATEST_ARTICLE_NUMBER={max(all_numbers)}')
 print('MANUAL_COLD_READ=REQUIRED')
 print('NARRATIVE_METHOD=human-review-not-rigid-template')
