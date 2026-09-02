@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "id": "en-030-how-long-raw-chicken-fridge",
+  "article_number": 30,
+  "translation_group": "030-how-long-raw-chicken-fridge",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA FSIS refrigeration guidance",
+  "title": "How Long Does Raw Chicken Last in the Fridge?",
+  "slug": "how-long-raw-chicken-fridge",
+  "seo": {
+    "title": "How Long Raw Chicken Lasts in the Fridge",
+    "meta_description": "USDA recommends cooking or freezing raw chicken within 1–2 days at 40°F/4°C or below. Learn storage, thawing and spoilage rules.",
+    "search_intent": "Know how long raw chicken can be refrigerated safely and when to freeze it."
+  },
+  "excerpt": "USDA recommends using or freezing raw chicken within 1–2 days when the refrigerator is at 40°F/4°C or below. Smell and color cannot replace the time-and-temperature history.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "chicken"
+    ],
+    "article_types": [
+      "storage",
+      "food-safety"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Raw chicken has a short refrigerator window. USDA recommends <strong>cooking or freezing it within 1–2 days</strong> when the refrigerator is maintained at 40°F (4°C) or below.</p>\n<p>That applies whether the chicken is a whole bird, breasts, thighs or other raw pieces. Refrigeration slows bacterial growth; it does not stop it.</p>\n<h2>Quick storage guide</h2>\n<table><thead><tr><th>Situation</th><th>USDA-oriented guidance</th></tr></thead><tbody>\n<tr><td>Raw chicken after purchase</td><td>Cook or freeze within 1–2 days</td></tr>\n<tr><td>Chicken thawed in refrigerator</td><td>Cook within 1–2 days</td></tr>\n<tr><td>Chicken thawed in microwave/cold water</td><td>Cook immediately</td></tr>\n<tr><td>Cooked chicken</td><td>Refrigerate 3–4 days</td></tr>\n</tbody></table>\n<h2>Why the window is so short</h2>\n<p>Chicken can carry pathogens such as <em>Salmonella</em> and <em>Campylobacter</em>. A cold refrigerator greatly slows growth, but food can still spoil and time continues to matter.</p>\n<p>At 40°F/4°C or below, USDA's 1–2 day window gives households a straightforward rule that does not rely on smell or appearance.</p>\n<h2>Whole chicken versus pieces</h2>\n<p>The refrigerator recommendation is the same. A whole chicken may take much longer to cook than a breast, but that does not give it extra refrigerated shelf life after purchase.</p>\n<h2>Ground chicken</h2>\n<p>Raw ground poultry also has a 1–2 day refrigerator window. Grinding increases exposed surface area and mixes surface bacteria throughout the product.</p>\n<h2>After thawing</h2>\n<p>If chicken thaws in the refrigerator, USDA allows 1–2 additional days before cooking. If it is thawed in cold water or the microwave, cook it immediately.</p>\n<p>Counter thawing is not recommended because the outside can enter the temperature danger zone while the center is still frozen.</p>\n<h2>Can smell tell you it is safe?</h2>\n<p>No. Sour or unpleasant odor and a slimy or sticky texture are reasons to discard chicken, but normal smell does not prove safety. Disease-causing bacteria can be present without producing obvious spoilage signs.</p>\n<h2>Color changes are not enough either</h2>\n<p>Raw poultry can vary from pale pink to bluish or yellowish depending on skin, diet and packaging. A color change alone does not prove spoilage. Time, temperature, odor and texture together are more informative.</p>\n<h2>Where to put raw chicken</h2>\n<p>Keep it in a sealed package or leak-proof container on the bottom shelf, away from ready-to-eat food. The goal is to prevent raw juices from dripping onto produce, leftovers or other foods that will not receive a kill step.</p>\n<h2>Do not wash raw chicken</h2>\n<p>Rinsing does not make chicken safer. Water splashes can spread bacteria around the sink, counter and nearby utensils. Thorough cooking is the control step.</p>\n<h2>If you are not cooking it soon, freeze it</h2>\n<p>If you buy chicken on Monday for a weekend meal, freezing it Monday or Tuesday is a better plan than leaving it refrigerated for five days. Whole frozen chicken maintains best quality for much longer than the refrigerator window, although quality recommendations for frozen storage are separate from safety.</p>\n<h2>Cook to a safe internal temperature</h2>\n<p>USDA recommends <strong>165°F (74°C)</strong> at the thickest point for all poultry. A food thermometer is more reliable than judging by color or juice clarity.</p>\n<h2>Bottom line</h2>\n<p>Use a simple rule: <strong>raw chicken gets 1–2 days in a refrigerator at 40°F/4°C or below</strong>. If the plan changes, freeze it early rather than trying to stretch the refrigerator window.</p>\n<h2>Sources</h2>\n<p>Storage guidance comes from <a href='https://ask.fsis.usda.gov/article/What-are-suggested-refrigerator-storage-times-for-chicken'>USDA FSIS</a>.</p>",
+  "faq": [
+    {
+      "question": "Can raw chicken stay in the fridge for 3 days?",
+      "answer": "USDA recommends only 1–2 days. If you will not cook it in that window, freeze it."
+    },
+    {
+      "question": "How long is raw chicken good after thawing in the fridge?",
+      "answer": "USDA says 1–2 days after refrigerator thawing."
+    },
+    {
+      "question": "Can I tell raw chicken is safe by smell?",
+      "answer": "No. Bad odor or slime means discard it, but normal smell does not prove the absence of pathogens."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Refrigerator storage times for chicken",
+      "url": "https://ask.fsis.usda.gov/article/What-are-suggested-refrigerator-storage-times-for-chicken",
+      "note": "1–2 days raw, 3–4 days cooked."
+    }
+  ],
+  "image": {
+    "concept": "Raw chicken in a sealed leak-proof container on the bottom refrigerator shelf, clean realistic food-safety photography, no text.",
+    "alt": "Raw chicken stored safely in the refrigerator"
+  },
+  "status": "publish"
+}

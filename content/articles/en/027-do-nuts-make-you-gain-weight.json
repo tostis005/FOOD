@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "id": "en-027-do-nuts-cause-weight-gain",
+  "article_number": 27,
+  "translation_group": "027-do-nuts-cause-weight-gain",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; nut intake, satiety and body-weight evidence",
+  "title": "Do Nuts Make You Gain Weight? What the Evidence Actually Shows",
+  "slug": "do-nuts-make-you-gain-weight",
+  "seo": {
+    "title": "Do Nuts Make You Gain Weight?",
+    "meta_description": "Nuts are calorie-dense, but research does not show that a normal serving automatically causes weight gain. Portion size and substitution matter.",
+    "search_intent": "Understand whether nuts promote weight gain and how to eat them in a calorie-aware diet."
+  },
+  "excerpt": "An ounce of nuts has roughly 160–190 calories, yet regular nut intake is not consistently linked with weight gain. Portion size, satiety and what the nuts replace matter more than the label 'high calorie.'",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": [
+      "nuts"
+    ],
+    "article_types": [
+      "health-daily-consumption",
+      "myths-faq"
+    ],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Nuts are high in calories, but eating them does not automatically produce weight gain. One ounce usually provides about <strong>160–190 calories</strong>. Whether that energy increases body weight depends on total intake over time and what the nuts replace.</p>\n<p>Observational studies and controlled trials do not consistently show weight gain from regular nut intake. Some research finds lower long-term weight gain among people who eat nuts more often, although that does not prove that nuts themselves cause weight loss.</p>\n<h2>Yes, nuts are energy-dense</h2>\n<p>Almonds are about 579 calories per 100 g and walnuts roughly 650, compared with about 52 calories per 100 g of apple. The main reason is fat: nuts contain little water and a large amount of fat.</p>\n<p>The usual serving is much smaller. One ounce of almonds is about 164 calories; one ounce of walnuts about 185.</p>\n<h2>Why the calorie number is not the whole story</h2>\n<p>Nuts combine fat with protein, fiber and a firm cellular structure. An ounce of almonds provides about 6 g protein and 3.5 g fiber. Those features can increase fullness compared with a similarly caloric food that is low in protein and fiber.</p>\n<p>Research also suggests that some of the fat in intact nuts remains trapped in cell walls and is not fully absorbed. That does not make calories irrelevant, but it helps explain why predicted energy and measured metabolic effects are not always identical.</p>\n<h2>Replacement versus addition</h2>\n<p>Suppose an afternoon pastry has 280 calories and an ounce of almonds has 164. Replacing the pastry with almonds cuts about 116 calories. Eating the pastry and then adding the almonds raises the snack to about 444 calories.</p>\n<p>The nut did not change; the eating pattern did.</p>\n<h2>Is one serving a day too much?</h2>\n<p>For many people, one ounce fits comfortably into daily energy needs. A 5-ounce bag is a different situation: depending on the nut, it can contain roughly <strong>800–950 calories</strong>.</p>\n<p>Serving a portion into a bowl before eating is a simple way to keep “a handful” from turning into half a package.</p>\n<h2>Whole nuts versus nut butter</h2>\n<p>Nut butter is easy to eat quickly. Two tablespoons of peanut butter, about 32 g, have roughly 190 calories; four tablespoons are close to 380.</p>\n<p>Whole nuts take longer to chew and may be easier for some people to portion. Nut butter can still fit well when the amount is visible and measured.</p>\n<h2>Are nuts a weight-loss food?</h2>\n<p>No food causes fat loss on its own. Weight loss still requires a sustained energy deficit. Nuts may help some people build a more satisfying eating pattern, but they do not cancel calories.</p>\n<h2>What the research suggests</h2>\n<p>Harvard's Nutrition Source summarizes evidence that nut intake is not associated with the weight gain many people expect from an energy-dense food and may be associated with less weight gain. Satiety, food substitution and incomplete energy absorption are plausible contributors.</p>\n<p>That evidence should not be exaggerated. Observational studies can be influenced by other lifestyle differences, and intervention trials vary in duration and design.</p>\n<h2>When nuts can add a lot of calories</h2>\n<p>“Healthy” does not mean unlimited. Three ounces of almonds are nearly 500 calories; three ounces of walnuts are more than 550. If those calories are consistently added to an already adequate diet, they can contribute to a calorie surplus.</p>\n<h2>A practical way to eat them</h2>\n<ul>\n<li>Start with a 1-ounce serving rather than eating from a large bag.</li>\n<li>Use nuts instead of chips, cookies or part of a dessert when possible.</li>\n<li>Choose plain or lightly salted varieties more often than candied versions.</li>\n<li>Measure nut butter occasionally so you know what 2 tablespoons looks like.</li>\n</ul>\n<h2>Bottom line</h2>\n<p>Nuts are calorie-dense, but a normal serving does not automatically cause weight gain. <strong>One ounce provides roughly 160–190 calories plus protein, fiber and unsaturated fat.</strong> The effect on weight depends on total intake and whether nuts replace other foods or are simply added on top.</p>\n<h2>Sources</h2>\n<p>Composition values come from <a href='https://fdc.nal.usda.gov/'>USDA FoodData Central</a>. Weight-related context is summarized by <a href='https://nutritionsource.hsph.harvard.edu/food-features/almonds/'>Harvard Nutrition Source</a>.</p>",
+  "faq": [
+    {
+      "question": "Will eating nuts every day make me gain weight?",
+      "answer": "Not necessarily. One ounce has about 160–190 calories; weight change depends on total calorie balance and what those nuts replace."
+    },
+    {
+      "question": "What is a reasonable serving of nuts?",
+      "answer": "One ounce (28 g) is a useful reference serving. It is not a strict rule, but it makes portions easier to understand."
+    },
+    {
+      "question": "Is nut butter more fattening than whole nuts?",
+      "answer": "Not inherently, but it is easy to eat more. Two tablespoons of peanut butter are about 190 calories; four are close to 380."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Food composition and serving values."
+    },
+    {
+      "name": "Harvard Nutrition Source — Almonds",
+      "url": "https://nutritionsource.hsph.harvard.edu/food-features/almonds/",
+      "note": "Evidence and context on nuts and body weight."
+    }
+  ],
+  "image": {
+    "concept": "A measured one-ounce serving of almonds beside a large resealable bag, clean editorial photography, no text.",
+    "alt": "One-ounce nut serving"
+  },
+  "status": "publish"
+}
