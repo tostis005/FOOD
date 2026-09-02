@@ -2,6 +2,11 @@
  * Quinnoa v7 — tighter home rhythm and final editorial polish.
  */
 
+/* Brand wordmark: Quinnoa always starts with a capital Q. */
+.pometum-wordmark > span:first-child {
+  text-transform: capitalize;
+}
+
 /* Keep the home hero expressive without making the headline dominate an
    entire desktop viewport. */
 @media (min-width: 961px) {
