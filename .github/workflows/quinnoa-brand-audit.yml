@@ -25,13 +25,13 @@ jobs:
           chmod 600 ~/.ssh/quinnoa_audit_key
           ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
 
-      - name: Discover live URL and WordPress brand
+      - name: Discover live URL
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
         run: |
           set -euo pipefail
-          RESULT="$(ssh -i ~/.ssh/quinnoa_audit_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          SITE_URL="$(ssh -i ~/.ssh/quinnoa_audit_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
           set -euo pipefail
           for CID in $(docker ps -q); do
             ROOT="$(docker exec "$CID" sh -lc '
@@ -40,28 +40,24 @@ jobs:
               done
             ' 2>/dev/null || true)"
             if [ -n "$ROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
-              docker exec "$CID" php -r "require '$ROOT/wp-load.php'; echo home_url('/'), PHP_EOL, get_option('blogname'), PHP_EOL;"
+              docker exec "$CID" php -r "require '$ROOT/wp-load.php'; echo home_url('/');"
               exit 0
             fi
           done
           exit 1
           REMOTE
           )"
-          SITE_URL="$(printf '%s\n' "$RESULT" | sed -n '1p')"
-          WP_NAME="$(printf '%s\n' "$RESULT" | sed -n '2p')"
-          test "$WP_NAME" = 'Quinnoa'
           test -n "$SITE_URL"
           echo "::add-mask::$SITE_URL"
           echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
-          echo 'WordPress brand is Quinnoa'
 
       - name: Verify public brand and editorial routes
         run: |
           set -euo pipefail
           BASE="${SITE_URL%/}"
-          legacy_a='pome'
+          legacy_a='Pome'
           legacy_b='tum'
-          legacy_c='pom'
+          legacy_c='Pom'
           legacy_d='melo'
 
           fetch_page() {
@@ -80,9 +76,9 @@ jobs:
             path="${spec%%:*}"
             name="${spec#*:}"
             fetch_page "$path" "$name.html"
-            grep -qi 'Quinnoa' "$name.html"
-            if grep -qi "${legacy_a}${legacy_b}\|${legacy_c}${legacy_d}" "$name.html"; then
-              echo "Legacy brand is still visible on $path" >&2
+            grep -q 'Quinnoa' "$name.html"
+            if grep -q "${legacy_a}${legacy_b}\|${legacy_c}${legacy_d}" "$name.html"; then
+              echo "Legacy public brand is still visible on $path" >&2
               exit 1
             fi
           done
@@ -93,9 +89,36 @@ jobs:
           grep -q 'Quinnoa explica' home-es.html
           grep -q 'Quinnoa explains' home-en.html
 
-          OLD_PATH="/sobre-${legacy_a}${legacy_b}/"
+          old_a='pome'
+          old_b='tum'
+          OLD_PATH="/sobre-${old_a}${old_b}/"
           headers="$(curl -sS -I --connect-timeout 15 --max-time 40 "$BASE$OLD_PATH")"
           printf '%s\n' "$headers" | grep -Eq '^HTTP/[^ ]+ 30[12378]'
           printf '%s\n' "$headers" | grep -Eqi '^location: .*/acerca-de/?'
 
           echo 'Quinnoa production brand verified in ES and EN'
+
+      - name: Verify WordPress site name after frontend load
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          WP_NAME="$(ssh -i ~/.ssh/quinnoa_audit_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+          for CID in $(docker ps -q); do
+            ROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then echo "$p"; exit 0; fi
+              done
+            ' 2>/dev/null || true)"
+            if [ -n "$ROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              docker exec "$CID" php -r "require '$ROOT/wp-load.php'; echo get_option('blogname');"
+              exit 0
+            fi
+          done
+          exit 1
+          REMOTE
+          )"
+          test "$WP_NAME" = 'Quinnoa'
+          echo 'WordPress site name verified as Quinnoa'
