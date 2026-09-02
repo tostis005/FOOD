@@ -1,0 +1,106 @@
+name: Deploy FOOD theme to WordPress
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+concurrency:
+  group: food-production-deploy
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_deploy_key
+          chmod 600 ~/.ssh/food_deploy_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Test SSH connection
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/food_deploy_key -o BatchMode=yes "$VPS_USER@$VPS_HOST" 'echo "SSH connection OK"'
+
+      - name: Detect WordPress installation
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+
+          WP_CONFIGS="$(
+            ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" '
+              for base in /var/www /home /srv/www /usr/share/nginx/html; do
+                if [ -d "$base" ]; then
+                  find "$base" -maxdepth 7 -type f -name wp-config.php 2>/dev/null
+                fi
+              done
+            ' | sort -u
+          )"
+
+          if [ -z "$WP_CONFIGS" ]; then
+            echo "ERROR: No se ha encontrado wp-config.php en las rutas habituales del VPS."
+            echo "Añade la ruta de WordPress al workflow o crea un secret WP_ROOT con la ruta exacta."
+            exit 1
+          fi
+
+          COUNT="$(printf '%s\n' "$WP_CONFIGS" | sed '/^$/d' | wc -l | tr -d ' ')"
+
+          if [ "$COUNT" -ne 1 ]; then
+            echo "ERROR: Se han encontrado varias instalaciones de WordPress. No se desplegará para evitar tocar la web equivocada:"
+            printf '%s\n' "$WP_CONFIGS"
+            echo "En ese caso conviene crear un secret WP_ROOT con la ruta exacta del WordPress de FOOD."
+            exit 1
+          fi
+
+          WP_ROOT="${WP_CONFIGS%/wp-config.php}"
+          echo "WordPress detectado en: $WP_ROOT"
+          echo "WP_ROOT=$WP_ROOT" >> "$GITHUB_ENV"
+
+      - name: Prepare remote theme directory
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" "mkdir -p '$WP_ROOT/wp-content/themes/food'"
+
+      - name: Deploy theme with rsync
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          rsync -az --delete \
+            --exclude='.git/' \
+            --exclude='.github/' \
+            --exclude='README.md' \
+            -e "ssh -i ~/.ssh/food_deploy_key" \
+            ./ \
+            "$VPS_USER@$VPS_HOST:$WP_ROOT/wp-content/themes/food/"
+
+      - name: Verify deployment
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" \
+            "test -f '$WP_ROOT/wp-content/themes/food/style.css' && test -f '$WP_ROOT/wp-content/themes/food/functions.php'"
+          echo "FOOD desplegado correctamente en $WP_ROOT/wp-content/themes/food/"
