@@ -153,6 +153,31 @@ function food_migrate_legacy_topics() {
 }
 add_action( 'init', 'food_migrate_legacy_topics', 45 );
 
+/**
+ * Correct the small amount of seed content that predates the two-dimensional
+ * taxonomy. This is deliberately explicit, not a keyword-based classifier.
+ */
+function food_migrate_known_food_families() {
+	if ( get_option( 'food_known_food_families_migrated_v1' ) ) {
+		return;
+	}
+
+	$known_posts = array(
+		'por-que-la-carne-suelta-agua-en-la-sarten' => 'carnes',
+	);
+
+	foreach ( $known_posts as $post_slug => $category_slug ) {
+		$post     = get_page_by_path( $post_slug, OBJECT, 'post' );
+		$category = get_category_by_slug( $category_slug );
+		if ( $post instanceof WP_Post && $category instanceof WP_Term ) {
+			wp_set_post_categories( $post->ID, array( $category->term_id ), true );
+		}
+	}
+
+	update_option( 'food_known_food_families_migrated_v1', 1 );
+}
+add_action( 'init', 'food_migrate_known_food_families', 50 );
+
 function food_topic_url( $slug, $fallback_label = '' ) {
 	$term = get_term_by( 'slug', $slug, 'food_topic' );
 	if ( $term && ! is_wp_error( $term ) ) {
@@ -202,7 +227,7 @@ function food_get_primary_food_category( $post_id = 0 ) {
 		}
 	}
 
-	return $categories[0];
+	return null;
 }
 
 function food_get_primary_topic( $post_id = 0 ) {
@@ -231,33 +256,56 @@ function food_category_icon_svg( $slug ) {
 		'huevos' => '<path d="M32 8c8 0 17 18 17 30 0 10-7 18-17 18s-17-8-17-18c0-12 9-30 17-30Z"/><path d="M23 39c2 6 6 9 12 9"/>',
 	);
 
-	$path = isset( $paths[ $slug ] ) ? $paths[ $slug ] : '<circle cx="32" cy="32" r="20"/><path d="M22 32h20M32 22v20"/>';
+	$path = isset( $paths[ $slug ] )
+		? $paths[ $slug ]
+		: '<circle cx="32" cy="32" r="19"/><path d="M21 38c6-11 15-16 25-14-2 10-8 17-19 19"/><path d="M27 43c3-8 8-14 15-18"/>';
 
 	return '<svg class="food-family-svg" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' . $path . '</svg>';
 }
 
+/**
+ * WordPress' default sample post is useful during installation, but should not
+ * ever become a homepage recommendation.
+ */
+function food_home_ignored_post_ids() {
+	$ids    = array();
+	$sample = get_page_by_path( 'hello-world', OBJECT, 'post' );
+	if ( $sample instanceof WP_Post ) {
+		$ids[] = (int) $sample->ID;
+	}
+	return $ids;
+}
+
 function food_get_home_feature_post() {
-	$sticky = get_option( 'sticky_posts' );
-	$args   = array(
+	$ignored = food_home_ignored_post_ids();
+	$sticky  = array_values( array_diff( array_map( 'intval', (array) get_option( 'sticky_posts' ) ), $ignored ) );
+
+	$base_args = array(
 		'post_type'           => 'post',
 		'post_status'         => 'publish',
 		'posts_per_page'      => 1,
 		'ignore_sticky_posts' => true,
+		'post__not_in'        => $ignored,
 	);
 
 	if ( ! empty( $sticky ) ) {
-		$args['post__in'] = array_map( 'intval', $sticky );
+		$sticky_args             = $base_args;
+		$sticky_args['post__in'] = $sticky;
+		$query = new WP_Query( $sticky_args );
+		if ( $query->have_posts() ) {
+			return $query->posts[0];
+		}
 	}
 
-	$query = new WP_Query( $args );
+	$query = new WP_Query( $base_args );
 	return $query->have_posts() ? $query->posts[0] : null;
 }
 
 function food_get_rotating_post_ids( $count = 5, $exclude = array() ) {
-	$count       = max( 1, (int) $count );
-	$exclude     = array_values( array_filter( array_map( 'intval', (array) $exclude ) ) );
-	$cache_key   = 'food_home_rotation_' . $count . '_' . md5( implode( ',', $exclude ) );
-	$cached_ids  = get_transient( $cache_key );
+	$count      = max( 1, (int) $count );
+	$exclude    = array_values( array_unique( array_merge( array_filter( array_map( 'intval', (array) $exclude ) ), food_home_ignored_post_ids() ) ) );
+	$cache_key  = 'food_home_rotation_' . $count . '_' . md5( implode( ',', $exclude ) );
+	$cached_ids = get_transient( $cache_key );
 
 	if ( is_array( $cached_ids ) ) {
 		return $cached_ids;
