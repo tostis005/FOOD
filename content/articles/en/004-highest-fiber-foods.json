@@ -17,19 +17,43 @@
   "taxonomy": {
     "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["rankings", "nutrition-composition"],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
     "primary_article_type": "rankings"
   },
   "content_html": "<p>Fiber rankings have the same problem as protein rankings: concentration is not the same as contribution to a normal diet. Chia seeds contain an extraordinary amount of fiber per 100 grams, but most people eat a tablespoon or two. Beans contain less per 100 grams, yet a cup-sized serving can deliver a very large amount.</p>\n<h2>High-fiber foods ranked per 100 grams</h2>\n<table><thead><tr><th>Food</th><th>Approx. fiber per 100 g</th></tr></thead><tbody><tr><td>Chia seeds</td><td>about 34 g</td></tr><tr><td>Flaxseed</td><td>about 27 g</td></tr><tr><td>Almonds</td><td>12–13 g</td></tr><tr><td>Pistachios</td><td>10–11 g</td></tr><tr><td>Dry oats</td><td>about 10 g</td></tr><tr><td>Cooked lentils</td><td>7.9 g</td></tr><tr><td>Cooked chickpeas</td><td>7–8 g</td></tr><tr><td>Avocado</td><td>6–7 g</td></tr><tr><td>Raspberries</td><td>6–7 g</td></tr><tr><td>Cooked beans</td><td>roughly 6–9 g depending on type</td></tr><tr><td>Pear with skin</td><td>about 3 g</td></tr><tr><td>Broccoli</td><td>2.5–3 g</td></tr><tr><td>Apple with skin</td><td>2–3 g</td></tr></tbody></table>\n<h2>Why chia wins the concentration contest</h2>\n<p>Chia seeds contain roughly one-third of their weight as dietary fiber. But 100 grams is far more than a typical serving. A 20-gram portion still provides roughly 7 grams, which is substantial for such a small addition to yogurt, oatmeal or a smoothie bowl.</p>\n<h2>Flaxseed is similarly concentrated</h2>\n<p>Flaxseed supplies roughly 27 grams of fiber per 100 grams. Ground flax is commonly used because breaking the seed makes more of its interior nutrients accessible. A tablespoon or two can add fiber without turning the meal into a bowl of seeds.</p>\n<h2>Beans and lentils matter because servings are large</h2>\n<p>Boiled lentils provide about 7.9 g of fiber per 100 g. A 200-gram bowl can therefore approach 16 grams. Chickpeas and many beans behave similarly. They also bring protein, carbohydrate, potassium, folate and other nutrients, making them more than a fiber supplement.</p>\n<h2>Fruit can contribute more than it looks</h2>\n<p>Raspberries and avocado are particularly fiber-dense among fruits. Pears, apples and oranges contain less per 100 grams, but a whole piece weighs more than 100 grams and can contribute several grams at once. Keeping edible skin when appropriate can preserve part of the food's fiber.</p>\n<h2>Nuts add fiber in small portions</h2>\n<p>Almonds contain roughly 12–13 g per 100 g, but a realistic one-ounce serving provides around 3–4 grams. Nuts combine fiber with unsaturated fats, protein and minerals, which is why their role cannot be reduced to the fiber number alone.</p>\n<h2>Dry versus cooked values</h2>\n<p>Oats are usually listed dry, while beans are usually listed cooked. Water makes those numbers hard to compare directly. Cooked oatmeal weighs much more than the dry oats used to make it, so its fiber per 100 grams is lower even though the bowl still contains the fiber from the original oats.</p>\n<h2>How much fiber should adults get?</h2>\n<p>U.S. recommendations vary with age and sex, and the Nutrition Facts Daily Value is 28 g on a 2,000-calorie reference diet. European guidance considers 25 g per day adequate for normal bowel function in adults. The practical message is similar: fiber is best accumulated from multiple foods across the day.</p>\n<h2>A realistic way to reach a high-fiber day</h2>\n<table><thead><tr><th>Food</th><th>Example amount</th><th>Approx. fiber</th></tr></thead><tbody><tr><td>Dry oats</td><td>50 g</td><td>5 g</td></tr><tr><td>Chia</td><td>15 g</td><td>5 g</td></tr><tr><td>Cooked lentils</td><td>180 g</td><td>14 g</td></tr><tr><td>Medium apple with skin</td><td>1</td><td>about 4 g</td></tr></tbody></table>\n<p>This is not a prescribed menu. It simply shows why variety is more useful than trying to obtain all fiber from one extremely concentrated food.</p>\n<h2>Increase fiber gradually</h2>\n<p>A sudden jump in fiber can cause gas, bloating and changes in bowel habits, particularly when a person's usual intake is low. Increasing it progressively and drinking adequate fluid is generally more comfortable.</p>\n<h2>Soluble and insoluble are simplifications, not rival teams</h2>\n<p>Foods contain different mixtures of fibers with different properties: viscosity, water holding and fermentability among them. Whole grains, legumes, fruits, vegetables, nuts and seeds provide complementary mixtures rather than a single standardized form.</p>\n<h2>Frequently asked questions</h2>\n<h3>What food has the most fiber per 100 grams?</h3><p>Among common whole foods, chia seeds are near the top at roughly 34 g per 100 g.</p>\n<h3>Are beans better than chia for fiber?</h3><p>They serve different roles. Chia is more concentrated, while beans are eaten in larger servings and can provide a very large amount of fiber along with protein and other nutrients.</p>\n<h3>Does peeling fruit remove fiber?</h3><p>It can remove some fiber, depending on the fruit, although the flesh usually still contains fiber.</p>",
   "faq": [
-    {"question":"What food has the most fiber per 100 grams?","answer":"Chia seeds are among the most concentrated common foods at roughly 34 g per 100 g."},
-    {"question":"How much fiber is the U.S. Daily Value?","answer":"The Nutrition Facts Daily Value is 28 g on a 2,000-calorie reference diet, while individual recommendations vary by age and sex."},
-    {"question":"Should fiber intake be increased quickly?","answer":"A gradual increase is often better tolerated, especially for people who currently eat little fiber."}
+    {
+      "question": "What food has the most fiber per 100 grams?",
+      "answer": "Chia seeds are among the most concentrated common foods at roughly 34 g per 100 g."
+    },
+    {
+      "question": "How much fiber is the U.S. Daily Value?",
+      "answer": "The Nutrition Facts Daily Value is 28 g on a 2,000-calorie reference diet, while individual recommendations vary by age and sex."
+    },
+    {
+      "question": "Should fiber intake be increased quickly?",
+      "answer": "A gradual increase is often better tolerated, especially for people who currently eat little fiber."
+    }
   ],
   "sources": [
-    {"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Food composition values."},
-    {"name":"EFSA — Dietary Reference Values for nutrients: Summary report","url":"https://www.efsa.europa.eu/sites/default/files/2017_09_DRVs_summary_report.pdf","note":"25 g/day adequate intake for normal bowel function in adults."},
-    {"name":"FDA — Daily Value on Nutrition Facts labeling","url":"https://www.fda.gov/food/new-nutrition-facts-label/daily-value-new-nutrition-and-supplement-facts-labels","note":"U.S. labeling context for dietary fiber."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Food composition values."
+    },
+    {
+      "name": "EFSA — Dietary Reference Values for nutrients: Summary report",
+      "url": "https://www.efsa.europa.eu/sites/default/files/2017_09_DRVs_summary_report.pdf",
+      "note": "25 g/day adequate intake for normal bowel function in adults."
+    },
+    {
+      "name": "FDA — Daily Value on Nutrition Facts labeling",
+      "url": "https://www.fda.gov/food/new-nutrition-facts-label/daily-value-new-nutrition-and-supplement-facts-labels",
+      "note": "U.S. labeling context for dietary fiber."
+    }
   ],
   "image": {
     "concept": "Editorial overhead photograph of chia, ground flax, lentils, chickpeas, oats, almonds, raspberries, avocado, pear and broccoli arranged naturally on a light kitchen surface, no text.",

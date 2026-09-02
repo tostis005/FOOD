@@ -1,9 +1,55 @@
 {
-  "schema_version":1,"id":"en-021-rubbery-chicken","article_number":21,"translation_group":"021-rubbery-chicken","language":"en","locale":"en-US","market_context":"United States; cooking technique with USDA safety temperature",
-  "title":"Why Chicken Turns Rubbery or Tough—and How to Prevent It","slug":"why-chicken-rubbery-tough",
-  "seo":{"title":"Why Is My Chicken Rubbery? Causes and Fixes","meta_description":"Rubbery chicken can come from overcooking, uneven thickness, undercooking or woody breast. Learn how to cook chicken safely while keeping it juicy.","search_intent":"Cooking troubleshooting for rubbery or tough chicken."},
-  "excerpt":"Rubbery chicken is not always overcooked. Overcooking squeezes out moisture, but thick breasts can cook unevenly, undercooked centers can feel elastic, and some chicken develops a woody texture before it ever reaches the pan.",
-  "taxonomy":{"food_family":"meat","food_subcategories":["chicken"],"article_types":["cooking-science","cooking-techniques"],"primary_article_type":"cooking-science"},
-  "content_html":"<p>“Rubbery” can describe several textures: dry and bouncy, slick and underdone, or unusually hard and fibrous. Diagnosing the texture first makes the fix much easier.</p>\n<h2>Overcooking is the classic cause</h2>\n<p>Heat changes muscle proteins and pushes moisture from the meat. Lean breast has little fat to soften the eating experience, so extra cooking time quickly turns juicy fibers into a tight, dry texture.</p>\n<h2>Uneven thickness causes two problems at once</h2>\n<p>A thick breast can be overdone at the tapered end and not yet safely cooked in the center. Pound gently to even thickness, butterfly the breast or use a gentler cooking method.</p>\n<h2>Undercooked chicken can feel rubbery too</h2>\n<p>Texture and pink color are not reliable food-safety tests. USDA recommends 165°F (74°C) internal temperature for all poultry, measured in the thickest part.</p>\n<h2>Woody breast is a raw-material issue</h2>\n<p>Some fast-growing broiler breasts develop a condition called woody breast. The raw meat can feel unusually hard or bulging and remains fibrous after cooking. Technique can reduce dryness but cannot fully reverse the muscle structure.</p>\n<h2>Freezing can affect texture</h2>\n<p>Ice crystals can damage cells and increase drip loss during thawing. Good wrapping, steady freezer temperatures and refrigerator thawing help limit quality loss.</p>\n<h2>Five ways to keep breast meat tender</h2>\n<ol><li>Make the thickness even.</li><li>Use an instant-read thermometer.</li><li>Sear for color, then moderate heat if the center still needs time.</li><li>Stop cooking rather than adding a large “safety cushion” beyond the target.</li><li>Rest briefly before slicing.</li></ol>\n<h2>Do marinades tenderize chicken?</h2>\n<p>Salt can improve seasoning and moisture retention. Acidic marinades mainly affect the surface; excessive exposure can make the outside mushy without fixing a dense interior.</p>\n<h2>Breast versus thigh</h2>\n<p>Thigh meat contains more fat and connective tissue and is more forgiving in longer cooking. For braises, grilling and meal prep it may remain juicy under conditions that dry breast meat.</p>\n<h2>Can dry chicken be rescued?</h2>\n<p>You cannot reverse moisture loss, but thin slicing and a moist sauce, broth or dressing can improve the eating experience. Reheat gently rather than cooking it hard a second time.</p>\n<h2>Frequently asked questions</h2>\n<h3>Does rubbery chicken mean raw?</h3><p>No. Both undercooking and overcooking can create unpleasant elastic textures. Use temperature to judge safety.</p>\n<h3>Why is chicken tough even when cooked correctly?</h3><p>Thickness, freezing history and woody breast can contribute.</p>\n<h3>Is thigh meat easier to cook?</h3><p>It is generally more forgiving because its fat and connective tissue help it stay succulent during longer cooking.</p>",
-  "faq":[{"question":"Does rubbery chicken mean it is undercooked?","answer":"Not necessarily. Overcooking, uneven thickness and woody breast can also produce rubbery textures; use a thermometer for safety."},{"question":"What temperature should chicken reach?","answer":"USDA recommends 165°F (74°C) for poultry."},{"question":"How can I prevent dry breast meat?","answer":"Even the thickness, use a thermometer and stop cooking once the center is safely done."}],"sources":[{"name":"USDA FSIS — Safe Minimum Internal Temperature Chart","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart","note":"165°F poultry target."}],"image":{"concept":"Editorial close-up of sliced chicken breast, one portion moist and tender and another dry and fibrous, neutral plate, no text.","alt":"Juicy chicken compared with rubbery overcooked chicken"},"status":"draft"
+  "schema_version": 1,
+  "id": "en-021-rubbery-chicken",
+  "article_number": 21,
+  "translation_group": "021-rubbery-chicken",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; cooking technique with USDA safety temperature",
+  "title": "Why Chicken Turns Rubbery or Tough—and How to Prevent It",
+  "slug": "why-chicken-rubbery-tough",
+  "seo": {
+    "title": "Why Is My Chicken Rubbery? Causes and Fixes",
+    "meta_description": "Rubbery chicken can come from overcooking, uneven thickness, undercooking or woody breast. Learn how to cook chicken safely while keeping it juicy.",
+    "search_intent": "Cooking troubleshooting for rubbery or tough chicken."
+  },
+  "excerpt": "Rubbery chicken is not always overcooked. Overcooking squeezes out moisture, but thick breasts can cook unevenly, undercooked centers can feel elastic, and some chicken develops a woody texture before it ever reaches the pan.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "chicken"
+    ],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>“Rubbery” can describe several textures: dry and bouncy, slick and underdone, or unusually hard and fibrous. Diagnosing the texture first makes the fix much easier.</p>\n<h2>Overcooking is the classic cause</h2>\n<p>Heat changes muscle proteins and pushes moisture from the meat. Lean breast has little fat to soften the eating experience, so extra cooking time quickly turns juicy fibers into a tight, dry texture.</p>\n<h2>Uneven thickness causes two problems at once</h2>\n<p>A thick breast can be overdone at the tapered end and not yet safely cooked in the center. Pound gently to even thickness, butterfly the breast or use a gentler cooking method.</p>\n<h2>Undercooked chicken can feel rubbery too</h2>\n<p>Texture and pink color are not reliable food-safety tests. USDA recommends 165°F (74°C) internal temperature for all poultry, measured in the thickest part.</p>\n<h2>Woody breast is a raw-material issue</h2>\n<p>Some fast-growing broiler breasts develop a condition called woody breast. The raw meat can feel unusually hard or bulging and remains fibrous after cooking. Technique can reduce dryness but cannot fully reverse the muscle structure.</p>\n<h2>Freezing can affect texture</h2>\n<p>Ice crystals can damage cells and increase drip loss during thawing. Good wrapping, steady freezer temperatures and refrigerator thawing help limit quality loss.</p>\n<h2>Five ways to keep breast meat tender</h2>\n<ol><li>Make the thickness even.</li><li>Use an instant-read thermometer.</li><li>Sear for color, then moderate heat if the center still needs time.</li><li>Stop cooking rather than adding a large “safety cushion” beyond the target.</li><li>Rest briefly before slicing.</li></ol>\n<h2>Do marinades tenderize chicken?</h2>\n<p>Salt can improve seasoning and moisture retention. Acidic marinades mainly affect the surface; excessive exposure can make the outside mushy without fixing a dense interior.</p>\n<h2>Breast versus thigh</h2>\n<p>Thigh meat contains more fat and connective tissue and is more forgiving in longer cooking. For braises, grilling and meal prep it may remain juicy under conditions that dry breast meat.</p>\n<h2>Can dry chicken be rescued?</h2>\n<p>You cannot reverse moisture loss, but thin slicing and a moist sauce, broth or dressing can improve the eating experience. Reheat gently rather than cooking it hard a second time.</p>\n<h2>Frequently asked questions</h2>\n<h3>Does rubbery chicken mean raw?</h3><p>No. Both undercooking and overcooking can create unpleasant elastic textures. Use temperature to judge safety.</p>\n<h3>Why is chicken tough even when cooked correctly?</h3><p>Thickness, freezing history and woody breast can contribute.</p>\n<h3>Is thigh meat easier to cook?</h3><p>It is generally more forgiving because its fat and connective tissue help it stay succulent during longer cooking.</p>",
+  "faq": [
+    {
+      "question": "Does rubbery chicken mean it is undercooked?",
+      "answer": "Not necessarily. Overcooking, uneven thickness and woody breast can also produce rubbery textures; use a thermometer for safety."
+    },
+    {
+      "question": "What temperature should chicken reach?",
+      "answer": "USDA recommends 165°F (74°C) for poultry."
+    },
+    {
+      "question": "How can I prevent dry breast meat?",
+      "answer": "Even the thickness, use a thermometer and stop cooking once the center is safely done."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Safe Minimum Internal Temperature Chart",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart",
+      "note": "165°F poultry target."
+    }
+  ],
+  "image": {
+    "concept": "Editorial close-up of sliced chicken breast, one portion moist and tender and another dry and fibrous, neutral plate, no text.",
+    "alt": "Juicy chicken compared with rubbery overcooked chicken"
+  },
+  "status": "draft"
 }

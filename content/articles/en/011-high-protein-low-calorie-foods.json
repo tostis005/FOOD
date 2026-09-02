@@ -1,19 +1,53 @@
 {
-  "schema_version":1,
-  "id":"en-011-high-protein-low-calorie-foods",
-  "article_number":11,
-  "translation_group":"011-high-protein-low-calorie-foods",
-  "language":"en",
-  "locale":"en-US",
-  "market_context":"United States/international; protein-per-calorie comparison using representative USDA data",
-  "title":"High-Protein, Low-Calorie Foods: Which Give You the Most Protein for the Calories?",
-  "slug":"high-protein-low-calorie-foods",
-  "seo":{"title":"High-Protein, Low-Calorie Foods Ranked","meta_description":"Compare protein-rich foods by grams of protein per 100 calories. See why lean fish, poultry, egg whites and high-protein dairy rise to the top.","search_intent":"Informational: maximize protein relative to calorie intake."},
-  "excerpt":"Aged cheese and seeds can be high in protein by weight, but lean seafood, chicken breast, egg whites and low-fat high-protein dairy usually deliver more protein per calorie.",
-  "taxonomy":{"food_family":"general","food_subcategories":[],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},
-  "content_html":"<p>“High protein” can mean two different things. Parmesan is high in protein per 100 grams. Egg whites are high in protein <strong>relative to calories</strong>. If calorie efficiency is the question, dividing grams of protein by energy gives a more useful ranking.</p>\n<h2>Representative protein per 100 calories</h2>\n<table><thead><tr><th>Food</th><th>Protein/100 g</th><th>Calories/100 g</th><th>Protein/100 kcal</th></tr></thead><tbody><tr><td>Egg whites</td><td>10–11 g</td><td>50–55</td><td>19–21 g</td></tr><tr><td>Tuna in water, drained</td><td>24–26 g</td><td>110–125</td><td>20–22 g</td></tr><tr><td>Lean white fish</td><td>18–22 g</td><td>90–115</td><td>17–21 g</td></tr><tr><td>Cooked chicken breast</td><td>31 g</td><td>165</td><td>about 19 g</td></tr><tr><td>Cooked turkey breast</td><td>29–30 g</td><td>150–165</td><td>18–20 g</td></tr><tr><td>Cooked shrimp</td><td>20–24 g</td><td>95–120</td><td>18–22 g</td></tr><tr><td>Nonfat Greek yogurt</td><td>9–11 g</td><td>55–70</td><td>14–19 g</td></tr><tr><td>Low-fat cottage cheese</td><td>11–13 g</td><td>80–100</td><td>12–16 g</td></tr><tr><td>Firm tofu</td><td>12–17 g</td><td>120–170</td><td>8–12 g</td></tr></tbody></table>\n<h2>Why egg whites score so highly</h2>\n<p>Most of an egg white is water plus protein, with almost no fat. The whole egg has fewer grams of protein per calorie because the yolk adds fat—but it also adds choline, vitamins and other nutrients. Efficiency and nutritional completeness are different questions.</p>\n<h2>Lean seafood</h2>\n<p>Cod, haddock, pollock, tuna in water and shrimp can devote a large share of their calories to protein. Salmon ranks lower because it contains more fat, yet that fat contributes EPA and DHA omega-3s. Calling salmon inferior would misunderstand the metric.</p>\n<h2>Lean poultry</h2>\n<p>Skinless chicken and turkey breast remain popular because a five-ounce cooked portion can provide well over 40 grams of protein. Dark meat and skin increase fat, lowering protein-per-calorie efficiency without eliminating their protein value.</p>\n<h2>High-protein dairy</h2>\n<p>Nonfat Greek yogurt, skyr-style products and low-fat cottage cheese can provide double-digit grams of protein for well under 100 calories per 100 grams. Added sugar, cream and flavored mix-ins can change that quickly, so labels matter.</p>\n<h2>Why nuts and seeds fall down the list</h2>\n<p>Almonds, peanuts and seeds are genuinely protein-rich by weight. They are also rich in fat. Almonds can provide about 21 g of protein per 100 g but around 580 calories, so they deliver far fewer protein grams per 100 calories than chicken or tuna.</p>\n<h2>Beans still deserve a place</h2>\n<p>Lentils and beans are less protein-efficient than lean animal foods but provide fiber, folate, potassium and slowly digested carbohydrate. A metric designed to maximize protein should not be mistaken for a complete nutrition score.</p>\n<h2>How to use protein-per-calorie intelligently</h2>\n<ul><li>Use lean proteins when you want to raise protein without adding much energy.</li><li>Keep foods such as nuts, seeds, salmon and avocado when their other nutrients fit your diet.</li><li>Compare packaged foods using the same serving basis.</li><li>Build meals around more than protein: vegetables, fruit, whole grains and healthy fats still matter.</li></ul>\n<h2>Frequently asked questions</h2>\n<h3>What food has the most protein for the fewest calories?</h3><p>Egg whites, tuna in water, very lean fish, shrimp and skinless poultry are among the most efficient common whole foods.</p>\n<h3>Is salmon bad for weight loss because it is higher in calories?</h3><p>No. It is simply fattier than white fish and supplies beneficial omega-3 fats.</p>\n<h3>Are nuts a good protein food?</h3><p>They contribute protein, but most of their calories come from fat. Treat them as nutrient-dense additions rather than ultra-lean protein sources.</p>",
-  "faq":[{"question":"What foods have the most protein per calorie?","answer":"Egg whites, water-packed tuna, lean white fish, shrimp and skinless poultry are among the strongest options."},{"question":"Does protein per calorie measure overall healthfulness?","answer":"No. It ignores fiber, micronutrients, fat quality and the rest of the dietary pattern."},{"question":"Can nuts fit a high-protein diet?","answer":"Yes, but they are calorie-dense and function better as complementary protein than as the leanest primary source."}],
-  "sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Representative protein and calorie values."}],
-  "image":{"concept":"Editorial flat lay of egg whites, chicken breast, tuna, white fish, shrimp, Greek yogurt and tofu as lean protein foods, bright natural light, no text.","alt":"High-protein foods that are relatively low in calories"},
-  "status":"draft"
+  "schema_version": 1,
+  "id": "en-011-high-protein-low-calorie-foods",
+  "article_number": 11,
+  "translation_group": "011-high-protein-low-calorie-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; protein-per-calorie comparison using representative USDA data",
+  "title": "High-Protein, Low-Calorie Foods: Which Give You the Most Protein for the Calories?",
+  "slug": "high-protein-low-calorie-foods",
+  "seo": {
+    "title": "High-Protein, Low-Calorie Foods Ranked",
+    "meta_description": "Compare protein-rich foods by grams of protein per 100 calories. See why lean fish, poultry, egg whites and high-protein dairy rise to the top.",
+    "search_intent": "Informational: maximize protein relative to calorie intake."
+  },
+  "excerpt": "Aged cheese and seeds can be high in protein by weight, but lean seafood, chicken breast, egg whites and low-fat high-protein dairy usually deliver more protein per calorie.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>“High protein” can mean two different things. Parmesan is high in protein per 100 grams. Egg whites are high in protein <strong>relative to calories</strong>. If calorie efficiency is the question, dividing grams of protein by energy gives a more useful ranking.</p>\n<h2>Representative protein per 100 calories</h2>\n<table><thead><tr><th>Food</th><th>Protein/100 g</th><th>Calories/100 g</th><th>Protein/100 kcal</th></tr></thead><tbody><tr><td>Egg whites</td><td>10–11 g</td><td>50–55</td><td>19–21 g</td></tr><tr><td>Tuna in water, drained</td><td>24–26 g</td><td>110–125</td><td>20–22 g</td></tr><tr><td>Lean white fish</td><td>18–22 g</td><td>90–115</td><td>17–21 g</td></tr><tr><td>Cooked chicken breast</td><td>31 g</td><td>165</td><td>about 19 g</td></tr><tr><td>Cooked turkey breast</td><td>29–30 g</td><td>150–165</td><td>18–20 g</td></tr><tr><td>Cooked shrimp</td><td>20–24 g</td><td>95–120</td><td>18–22 g</td></tr><tr><td>Nonfat Greek yogurt</td><td>9–11 g</td><td>55–70</td><td>14–19 g</td></tr><tr><td>Low-fat cottage cheese</td><td>11–13 g</td><td>80–100</td><td>12–16 g</td></tr><tr><td>Firm tofu</td><td>12–17 g</td><td>120–170</td><td>8–12 g</td></tr></tbody></table>\n<h2>Why egg whites score so highly</h2>\n<p>Most of an egg white is water plus protein, with almost no fat. The whole egg has fewer grams of protein per calorie because the yolk adds fat—but it also adds choline, vitamins and other nutrients. Efficiency and nutritional completeness are different questions.</p>\n<h2>Lean seafood</h2>\n<p>Cod, haddock, pollock, tuna in water and shrimp can devote a large share of their calories to protein. Salmon ranks lower because it contains more fat, yet that fat contributes EPA and DHA omega-3s. Calling salmon inferior would misunderstand the metric.</p>\n<h2>Lean poultry</h2>\n<p>Skinless chicken and turkey breast remain popular because a five-ounce cooked portion can provide well over 40 grams of protein. Dark meat and skin increase fat, lowering protein-per-calorie efficiency without eliminating their protein value.</p>\n<h2>High-protein dairy</h2>\n<p>Nonfat Greek yogurt, skyr-style products and low-fat cottage cheese can provide double-digit grams of protein for well under 100 calories per 100 grams. Added sugar, cream and flavored mix-ins can change that quickly, so labels matter.</p>\n<h2>Why nuts and seeds fall down the list</h2>\n<p>Almonds, peanuts and seeds are genuinely protein-rich by weight. They are also rich in fat. Almonds can provide about 21 g of protein per 100 g but around 580 calories, so they deliver far fewer protein grams per 100 calories than chicken or tuna.</p>\n<h2>Beans still deserve a place</h2>\n<p>Lentils and beans are less protein-efficient than lean animal foods but provide fiber, folate, potassium and slowly digested carbohydrate. A metric designed to maximize protein should not be mistaken for a complete nutrition score.</p>\n<h2>How to use protein-per-calorie intelligently</h2>\n<ul><li>Use lean proteins when you want to raise protein without adding much energy.</li><li>Keep foods such as nuts, seeds, salmon and avocado when their other nutrients fit your diet.</li><li>Compare packaged foods using the same serving basis.</li><li>Build meals around more than protein: vegetables, fruit, whole grains and healthy fats still matter.</li></ul>\n<h2>Frequently asked questions</h2>\n<h3>What food has the most protein for the fewest calories?</h3><p>Egg whites, tuna in water, very lean fish, shrimp and skinless poultry are among the most efficient common whole foods.</p>\n<h3>Is salmon bad for weight loss because it is higher in calories?</h3><p>No. It is simply fattier than white fish and supplies beneficial omega-3 fats.</p>\n<h3>Are nuts a good protein food?</h3><p>They contribute protein, but most of their calories come from fat. Treat them as nutrient-dense additions rather than ultra-lean protein sources.</p>",
+  "faq": [
+    {
+      "question": "What foods have the most protein per calorie?",
+      "answer": "Egg whites, water-packed tuna, lean white fish, shrimp and skinless poultry are among the strongest options."
+    },
+    {
+      "question": "Does protein per calorie measure overall healthfulness?",
+      "answer": "No. It ignores fiber, micronutrients, fat quality and the rest of the dietary pattern."
+    },
+    {
+      "question": "Can nuts fit a high-protein diet?",
+      "answer": "Yes, but they are calorie-dense and function better as complementary protein than as the leanest primary source."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Representative protein and calorie values."
+    }
+  ],
+  "image": {
+    "concept": "Editorial flat lay of egg whites, chicken breast, tuna, white fish, shrimp, Greek yogurt and tofu as lean protein foods, bright natural light, no text.",
+    "alt": "High-protein foods that are relatively low in calories"
+  },
+  "status": "draft"
 }

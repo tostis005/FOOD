@@ -1,19 +1,60 @@
 {
-  "schema_version":1,
-  "id":"en-009-how-long-cooked-rice-fridge",
-  "article_number":9,
-  "translation_group":"009-cooked-rice-fridge",
-  "language":"en",
-  "locale":"en-GB",
-  "market_context":"English-language article using UK Food Standards Agency rice-specific guidance because it is more specific than generic leftovers advice",
-  "title":"How Long Does Cooked Rice Last in the Fridge? Safe Cooling and Storage",
-  "slug":"how-long-cooked-rice-fridge",
-  "seo":{"title":"How Long Does Cooked Rice Last in the Fridge?","meta_description":"Cool cooked rice quickly, refrigerate it and use within 24 hours under FSA guidance. Learn why Bacillus cereus makes cooling more important than reheating.","search_intent":"Food safety: store cooked rice safely and understand Bacillus cereus risk."},
-  "excerpt":"UK Food Standards Agency guidance says leftover rice should be cooled as quickly as possible, ideally within one hour, refrigerated and used within 24 hours. The key risk is slow cooling and warm storage, not reheating itself.",
-  "taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":["rice"],"article_types":["storage","food-safety"],"primary_article_type":"storage"},
-  "content_html":"<p>Rice is not just another generic leftover. Uncooked rice can contain spores of <em>Bacillus cereus</em>. Those spores may survive cooking, and if cooked rice sits warm for too long they can germinate, multiply and in some cases produce toxins.</p>\n<h2>The specific FSA rule: cool quickly, eat within 24 hours</h2>\n<p>The UK Food Standards Agency advises cooling leftover rice as quickly as possible, ideally <strong>within one hour</strong>, refrigerating it and using it within <strong>24 hours</strong>. It also recommends reheating rice no more than once.</p>\n<h2>Why boiling does not remove every concern</h2>\n<p>Normal cooking destroys many vegetative bacteria but does not necessarily eliminate <em>B. cereus</em> spores. The dangerous stage can come afterward if the rice spends a long time in the temperature range where bacteria can grow.</p>\n<h2>How to cool rice fast</h2>\n<ul><li>Do not leave a large pot on the counter for hours.</li><li>Divide the rice into smaller portions.</li><li>Spread it in a clean shallow container to increase surface area.</li><li>Refrigerate promptly once the intense steam has subsided.</li><li>Do not leave rice sitting in a switched-off rice cooker for a long cooling period.</li></ul>\n<h2>Can hot rice go in the refrigerator?</h2>\n<p>A huge steaming pot can warm the refrigerator around it, but leaving it out for hours is not the answer. Portioning into shallow containers allows both rapid cooling and less heat load on the refrigerator.</p>\n<h2>Can you eat rice cold the next day?</h2>\n<p>Yes, if it was cooled quickly, continuously refrigerated and is still within the recommended period. Cold rice is not inherently unsafe; mishandled rice is.</p>\n<h2>Reheating is not the main problem</h2>\n<p>The FSA explicitly explains that food poisoning associated with reheated rice is caused by how rice was stored before reheating. Heating may kill growing bacteria, but it cannot be relied upon to neutralize toxins already produced.</p>\n<p>Rice left at room temperature overnight should be discarded rather than blasted in a microwave.</p>\n<h2>How to reheat rice</h2>\n<p>Reheat only once and make sure it is steaming hot throughout. In a microwave, break up dense clumps and stir partway through because cold spots can remain.</p>\n<h2>Why advice can differ by country</h2>\n<p>Some U.S. leftover charts give 3–4 days for many cooked foods. Rice-specific UK guidance is more conservative. For this article, the specific rice advice is more useful than applying a generic leftovers window to every food.</p>\n<h2>Freezing rice</h2>\n<p>If you will not eat it the next day, freezing meal-sized portions after rapid cooling is practical. Freeze while quality is good rather than holding the rice for several refrigerator days first.</p>\n<h2>Common mistakes</h2>\n<ul><li>Leaving rice out until bedtime.</li><li>Cooling a huge deep container slowly.</li><li>Assuming a normal smell means safe rice.</li><li>Reheating the same batch repeatedly.</li><li>Believing reheating erases earlier temperature abuse.</li></ul>\n<h2>Frequently asked questions</h2>\n<h3>Can you eat yesterday's rice?</h3><p>Yes under FSA guidance if it was cooled quickly, refrigerated and eaten within 24 hours.</p>\n<h3>What if rice sat out overnight?</h3><p>Discard it. Reheating does not reliably undo the risk.</p>\n<h3>How many times can rice be reheated?</h3><p>The FSA recommends reheating rice no more than once.</p>",
-  "faq":[{"question":"How long does cooked rice last in the fridge?","answer":"Under UK FSA rice-specific guidance, use it within 24 hours after rapid cooling and refrigeration."},{"question":"Can I eat cold rice the next day?","answer":"Yes if it was cooled quickly and stayed refrigerated."},{"question":"Can reheating make rice safe after it sat out overnight?","answer":"No. Some toxins can remain, so rice left out overnight should be discarded."}],
-  "sources":[{"name":"Food Standards Agency — Rice food-safety guidance","url":"https://www.food.gov.uk/print/pdf/node/4286","note":"One-hour cooling target, 24-hour refrigerator period and one reheat."},{"name":"NHS — Starchy foods and carbohydrates","url":"https://www.nhs.uk/live-well/eat-well/food-types/starchy-foods-and-carbohydrates/","note":"Bacillus cereus explanation and rice reheating guidance."}],
-  "image":{"concept":"Editorial kitchen photograph of cooked rice spread thinly in a shallow tray beside covered meal-size containers ready for refrigeration, no text.","alt":"Cooked rice cooling quickly before refrigerator storage"},
-  "status":"draft"
+  "schema_version": 1,
+  "id": "en-009-how-long-cooked-rice-fridge",
+  "article_number": 9,
+  "translation_group": "009-cooked-rice-fridge",
+  "language": "en",
+  "locale": "en-GB",
+  "market_context": "English-language article using UK Food Standards Agency rice-specific guidance because it is more specific than generic leftovers advice",
+  "title": "How Long Does Cooked Rice Last in the Fridge? Safe Cooling and Storage",
+  "slug": "how-long-cooked-rice-fridge",
+  "seo": {
+    "title": "How Long Does Cooked Rice Last in the Fridge?",
+    "meta_description": "Cool cooked rice quickly, refrigerate it and use within 24 hours under FSA guidance. Learn why Bacillus cereus makes cooling more important than reheating.",
+    "search_intent": "Food safety: store cooked rice safely and understand Bacillus cereus risk."
+  },
+  "excerpt": "UK Food Standards Agency guidance says leftover rice should be cooled as quickly as possible, ideally within one hour, refrigerated and used within 24 hours. The key risk is slow cooling and warm storage, not reheating itself.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [
+      "rice"
+    ],
+    "article_types": [
+      "storage",
+      "food-safety"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Rice is not just another generic leftover. Uncooked rice can contain spores of <em>Bacillus cereus</em>. Those spores may survive cooking, and if cooked rice sits warm for too long they can germinate, multiply and in some cases produce toxins.</p>\n<h2>The specific FSA rule: cool quickly, eat within 24 hours</h2>\n<p>The UK Food Standards Agency advises cooling leftover rice as quickly as possible, ideally <strong>within one hour</strong>, refrigerating it and using it within <strong>24 hours</strong>. It also recommends reheating rice no more than once.</p>\n<h2>Why boiling does not remove every concern</h2>\n<p>Normal cooking destroys many vegetative bacteria but does not necessarily eliminate <em>B. cereus</em> spores. The dangerous stage can come afterward if the rice spends a long time in the temperature range where bacteria can grow.</p>\n<h2>How to cool rice fast</h2>\n<ul><li>Do not leave a large pot on the counter for hours.</li><li>Divide the rice into smaller portions.</li><li>Spread it in a clean shallow container to increase surface area.</li><li>Refrigerate promptly once the intense steam has subsided.</li><li>Do not leave rice sitting in a switched-off rice cooker for a long cooling period.</li></ul>\n<h2>Can hot rice go in the refrigerator?</h2>\n<p>A huge steaming pot can warm the refrigerator around it, but leaving it out for hours is not the answer. Portioning into shallow containers allows both rapid cooling and less heat load on the refrigerator.</p>\n<h2>Can you eat rice cold the next day?</h2>\n<p>Yes, if it was cooled quickly, continuously refrigerated and is still within the recommended period. Cold rice is not inherently unsafe; mishandled rice is.</p>\n<h2>Reheating is not the main problem</h2>\n<p>The FSA explicitly explains that food poisoning associated with reheated rice is caused by how rice was stored before reheating. Heating may kill growing bacteria, but it cannot be relied upon to neutralize toxins already produced.</p>\n<p>Rice left at room temperature overnight should be discarded rather than blasted in a microwave.</p>\n<h2>How to reheat rice</h2>\n<p>Reheat only once and make sure it is steaming hot throughout. In a microwave, break up dense clumps and stir partway through because cold spots can remain.</p>\n<h2>Why advice can differ by country</h2>\n<p>Some U.S. leftover charts give 3–4 days for many cooked foods. Rice-specific UK guidance is more conservative. For this article, the specific rice advice is more useful than applying a generic leftovers window to every food.</p>\n<h2>Freezing rice</h2>\n<p>If you will not eat it the next day, freezing meal-sized portions after rapid cooling is practical. Freeze while quality is good rather than holding the rice for several refrigerator days first.</p>\n<h2>Common mistakes</h2>\n<ul><li>Leaving rice out until bedtime.</li><li>Cooling a huge deep container slowly.</li><li>Assuming a normal smell means safe rice.</li><li>Reheating the same batch repeatedly.</li><li>Believing reheating erases earlier temperature abuse.</li></ul>\n<h2>Frequently asked questions</h2>\n<h3>Can you eat yesterday's rice?</h3><p>Yes under FSA guidance if it was cooled quickly, refrigerated and eaten within 24 hours.</p>\n<h3>What if rice sat out overnight?</h3><p>Discard it. Reheating does not reliably undo the risk.</p>\n<h3>How many times can rice be reheated?</h3><p>The FSA recommends reheating rice no more than once.</p>",
+  "faq": [
+    {
+      "question": "How long does cooked rice last in the fridge?",
+      "answer": "Under UK FSA rice-specific guidance, use it within 24 hours after rapid cooling and refrigeration."
+    },
+    {
+      "question": "Can I eat cold rice the next day?",
+      "answer": "Yes if it was cooled quickly and stayed refrigerated."
+    },
+    {
+      "question": "Can reheating make rice safe after it sat out overnight?",
+      "answer": "No. Some toxins can remain, so rice left out overnight should be discarded."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Food Standards Agency — Rice food-safety guidance",
+      "url": "https://www.food.gov.uk/print/pdf/node/4286",
+      "note": "One-hour cooling target, 24-hour refrigerator period and one reheat."
+    },
+    {
+      "name": "NHS — Starchy foods and carbohydrates",
+      "url": "https://www.nhs.uk/live-well/eat-well/food-types/starchy-foods-and-carbohydrates/",
+      "note": "Bacillus cereus explanation and rice reheating guidance."
+    }
+  ],
+  "image": {
+    "concept": "Editorial kitchen photograph of cooked rice spread thinly in a shallow tray beside covered meal-size containers ready for refrigeration, no text.",
+    "alt": "Cooked rice cooling quickly before refrigerator storage"
+  },
+  "status": "draft"
 }

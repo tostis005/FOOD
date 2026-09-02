@@ -1,9 +1,55 @@
 {
-  "schema_version":1,"id":"en-022-sprouted-potatoes","article_number":22,"translation_group":"022-sprouted-potatoes","language":"en","locale":"en-US","market_context":"International; EFSA glycoalkaloid risk assessment with household guidance",
-  "title":"Sprouted Potatoes: When You Can Use Them and When to Throw Them Away","slug":"sprouted-potatoes-safe-to-eat",
-  "seo":{"title":"Are Sprouted Potatoes Safe to Eat?","meta_description":"Small sprouts can sometimes be removed from a firm, non-green potato, but heavily sprouted, green, shriveled or bitter potatoes should be discarded.","search_intent":"Food safety decision about sprouted potatoes."},
-  "excerpt":"A firm potato with only tiny sprouts and no green areas can often be used after the sprouts, eyes and surrounding peel are removed generously. Heavily sprouted, green, shriveled or bitter potatoes are better discarded because glycoalkaloids may be elevated.",
-  "taxonomy":{"food_family":"tubers","food_subcategories":["potato"],"article_types":["food-safety","buying-quality-ripeness"],"primary_article_type":"food-safety"},
-  "content_html":"<p>Sprouting is normal potato biology, but sprouts are not just cosmetic. Potato sprouts and nearby tissues can contain high levels of natural defense compounds called <strong>glycoalkaloids</strong>, especially alpha-solanine and alpha-chaconine.</p>\n<h2>When a lightly sprouted potato can be used</h2>\n<p>If the potato is still firm, has no green areas and only small sprouts, remove each sprout, the eye beneath it and a generous amount of surrounding peel. EFSA guidance advises removing sprouts and damaged or rotten areas.</p>\n<h2>When to discard it</h2>\n<ul><li>Large green areas.</li><li>Many long sprouts.</li><li>Severe shriveling or softness.</li><li>Extensive rot.</li><li>Strong bitter taste or burning sensation.</li></ul>\n<h2>Why glycoalkaloids matter</h2>\n<p>High exposure can cause acute gastrointestinal symptoms including nausea, vomiting and diarrhea. EFSA identified 1 mg/kg body weight per day as the lowest observed adverse effect level in its assessment.</p>\n<h2>Can cooking make a heavily sprouted potato safe?</h2>\n<p>Do not rely on it. EFSA reports wide reductions from peeling, boiling and frying, but processing does not provide a simple guarantee. A very green or heavily sprouted potato is not worth rescuing.</p>\n<h2>Store potatoes in the dark</h2>\n<p>Light encourages greening and can coincide with rising glycoalkaloids. A cool, dark, dry and ventilated storage area slows both sprouting and quality loss.</p>\n<h2>Frequently asked questions</h2>\n<h3>Can I eat a potato with one small sprout?</h3><p>Usually if it remains firm and non-green after the sprout, eye and surrounding peel are removed generously.</p>\n<h3>Are the sprouts edible?</h3><p>No. Remove them; they can contain high glycoalkaloid concentrations.</p>\n<h3>Does boiling remove solanine?</h3><p>It can reduce glycoalkaloids to a variable degree, but it should not be used to justify eating a heavily green or sprouted potato.</p>",
-  "faq":[{"question":"Can you eat a potato with a small sprout?","answer":"A firm, non-green potato with a tiny sprout can often be used after removing the sprout, eye and surrounding peel generously."},{"question":"When should a sprouted potato be discarded?","answer":"Discard heavily sprouted, green, very soft/shriveled, rotten or bitter potatoes."},{"question":"Does cooking remove glycoalkaloids?","answer":"Cooking and peeling can reduce them variably, but do not make heavily green or sprouted potatoes a good choice."}],"sources":[{"name":"EFSA — Glycoalkaloids in potatoes","url":"https://www.efsa.europa.eu/en/news/glycoalkaloids-potatoes-public-health-risks-assessed","note":"Risk assessment and processing reductions."}],"image":{"concept":"Firm potatoes with tiny sprouts beside a heavily sprouted shriveled potato, clean neutral editorial scene, no text.","alt":"Lightly sprouted and heavily sprouted potatoes compared"},"status":"draft"
+  "schema_version": 1,
+  "id": "en-022-sprouted-potatoes",
+  "article_number": 22,
+  "translation_group": "022-sprouted-potatoes",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "International; EFSA glycoalkaloid risk assessment with household guidance",
+  "title": "Sprouted Potatoes: When You Can Use Them and When to Throw Them Away",
+  "slug": "sprouted-potatoes-safe-to-eat",
+  "seo": {
+    "title": "Are Sprouted Potatoes Safe to Eat?",
+    "meta_description": "Small sprouts can sometimes be removed from a firm, non-green potato, but heavily sprouted, green, shriveled or bitter potatoes should be discarded.",
+    "search_intent": "Food safety decision about sprouted potatoes."
+  },
+  "excerpt": "A firm potato with only tiny sprouts and no green areas can often be used after the sprouts, eyes and surrounding peel are removed generously. Heavily sprouted, green, shriveled or bitter potatoes are better discarded because glycoalkaloids may be elevated.",
+  "taxonomy": {
+    "food_family": "tubers",
+    "food_subcategories": [
+      "potato"
+    ],
+    "article_types": [
+      "food-safety",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>Sprouting is normal potato biology, but sprouts are not just cosmetic. Potato sprouts and nearby tissues can contain high levels of natural defense compounds called <strong>glycoalkaloids</strong>, especially alpha-solanine and alpha-chaconine.</p>\n<h2>When a lightly sprouted potato can be used</h2>\n<p>If the potato is still firm, has no green areas and only small sprouts, remove each sprout, the eye beneath it and a generous amount of surrounding peel. EFSA guidance advises removing sprouts and damaged or rotten areas.</p>\n<h2>When to discard it</h2>\n<ul><li>Large green areas.</li><li>Many long sprouts.</li><li>Severe shriveling or softness.</li><li>Extensive rot.</li><li>Strong bitter taste or burning sensation.</li></ul>\n<h2>Why glycoalkaloids matter</h2>\n<p>High exposure can cause acute gastrointestinal symptoms including nausea, vomiting and diarrhea. EFSA identified 1 mg/kg body weight per day as the lowest observed adverse effect level in its assessment.</p>\n<h2>Can cooking make a heavily sprouted potato safe?</h2>\n<p>Do not rely on it. EFSA reports wide reductions from peeling, boiling and frying, but processing does not provide a simple guarantee. A very green or heavily sprouted potato is not worth rescuing.</p>\n<h2>Store potatoes in the dark</h2>\n<p>Light encourages greening and can coincide with rising glycoalkaloids. A cool, dark, dry and ventilated storage area slows both sprouting and quality loss.</p>\n<h2>Frequently asked questions</h2>\n<h3>Can I eat a potato with one small sprout?</h3><p>Usually if it remains firm and non-green after the sprout, eye and surrounding peel are removed generously.</p>\n<h3>Are the sprouts edible?</h3><p>No. Remove them; they can contain high glycoalkaloid concentrations.</p>\n<h3>Does boiling remove solanine?</h3><p>It can reduce glycoalkaloids to a variable degree, but it should not be used to justify eating a heavily green or sprouted potato.</p>",
+  "faq": [
+    {
+      "question": "Can you eat a potato with a small sprout?",
+      "answer": "A firm, non-green potato with a tiny sprout can often be used after removing the sprout, eye and surrounding peel generously."
+    },
+    {
+      "question": "When should a sprouted potato be discarded?",
+      "answer": "Discard heavily sprouted, green, very soft/shriveled, rotten or bitter potatoes."
+    },
+    {
+      "question": "Does cooking remove glycoalkaloids?",
+      "answer": "Cooking and peeling can reduce them variably, but do not make heavily green or sprouted potatoes a good choice."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EFSA — Glycoalkaloids in potatoes",
+      "url": "https://www.efsa.europa.eu/en/news/glycoalkaloids-potatoes-public-health-risks-assessed",
+      "note": "Risk assessment and processing reductions."
+    }
+  ],
+  "image": {
+    "concept": "Firm potatoes with tiny sprouts beside a heavily sprouted shriveled potato, clean neutral editorial scene, no text.",
+    "alt": "Lightly sprouted and heavily sprouted potatoes compared"
+  },
+  "status": "draft"
 }

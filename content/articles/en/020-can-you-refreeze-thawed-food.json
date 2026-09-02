@@ -1,9 +1,58 @@
 {
-  "schema_version":1,"id":"en-020-can-you-refreeze-thawed-food","article_number":20,"translation_group":"020-refreeze-thawed-food","language":"en","locale":"en-US","market_context":"United States; USDA refreezing guidance",
-  "title":"Can You Refreeze Thawed Food? When It's Safe and When It Isn't","slug":"can-you-refreeze-thawed-food",
-  "seo":{"title":"Can You Refreeze Thawed Food? USDA Rules Explained","meta_description":"Food thawed in the refrigerator can generally be refrozen safely under USDA guidance. Food thawed in cold water or a microwave should be cooked first.","search_intent":"Food safety: determine when thawed food can safely be refrozen."},
-  "excerpt":"Under USDA guidance, food thawed in the refrigerator can generally be refrozen without cooking as long as it stayed safely cold, although quality may decline. Food thawed in cold water or a microwave should be cooked before refreezing.",
-  "taxonomy":{"food_family":"general","food_subcategories":[],"article_types":["freezing-thawing","food-safety"],"primary_article_type":"freezing-thawing"},
-  "content_html":"<p>Yes—<strong>sometimes</strong>. USDA says food thawed in the refrigerator can be safely refrozen without cooking, although moisture loss may reduce quality. The thawing method is the key detail that one-word answers leave out.</p>\n<h2>The USDA rule by thawing method</h2>\n<table><thead><tr><th>How it was thawed</th><th>Refreeze raw?</th><th>What to do</th></tr></thead><tbody><tr><td>Refrigerator</td><td>Generally yes</td><td>Refreeze while it remains safely cold</td></tr><tr><td>Cold water</td><td>No</td><td>Cook first, then freeze cooked food</td></tr><tr><td>Microwave</td><td>No</td><td>Cook immediately, then freeze if desired</td></tr><tr><td>Counter/room temperature</td><td>No</td><td>Unsafe thawing method for perishables</td></tr></tbody></table>\n<h2>Why refrigerator thawing is different</h2>\n<p>The refrigerator keeps food at 40°F (4°C) or below, limiting bacterial growth while ice melts. As long as the food stayed within safe refrigerator time limits, USDA considers refreezing microbiologically safe.</p>\n<h2>Why cold water and microwave require cooking</h2>\n<p>These methods can warm portions of the food more quickly. USDA instructs consumers to cook immediately after microwave thawing and after cold-water thawing before refreezing.</p>\n<h2>Freezing does not sterilize food</h2>\n<p>Freezing pauses microbial growth but does not reliably kill bacteria. Refreezing cannot erase hours spent at unsafe temperatures.</p>\n<h2>The two-hour rule still applies</h2>\n<p>Food left outside refrigeration for more than two hours—or one hour above 90°F (32°C)—should not be refrozen. If a power outage causes thawing, temperature and presence of ice crystals are more informative than simply asking whether the package feels cool.</p>\n<h2>Partially frozen food</h2>\n<p>USDA says food that still contains ice crystals or is as cold as a refrigerator can generally be safely refrozen, although quality may suffer.</p>\n<h2>Quality changes after refreezing</h2>\n<p>Ice crystals and moisture loss can make meat drier, fish softer and produce mushier after repeated cycles. Safety and eating quality are separate questions.</p>\n<h2>Cooked food can be frozen again</h2>\n<p>You can thaw raw meat in the refrigerator, cook it, cool it promptly and freeze the cooked dish. Likewise, previously frozen leftovers that were thawed safely and reheated can be refrozen under USDA guidance.</p>\n<h2>Frequently asked questions</h2>\n<h3>Can I refreeze chicken thawed in the refrigerator?</h3><p>Yes under USDA guidance, provided it remained refrigerated and is still within its safe storage window.</p>\n<h3>Can I refreeze meat thawed on the counter?</h3><p>No. Counter thawing is not a safe method for perishable food.</p>\n<h3>Does refreezing ruin the food?</h3><p>Not necessarily, but each freeze-thaw cycle can reduce moisture and texture quality.</p>",
-  "faq":[{"question":"Can refrigerator-thawed food be refrozen?","answer":"Yes under USDA guidance, if it remained safely cold; quality may decline."},{"question":"Can microwave-thawed food be refrozen raw?","answer":"No. Cook it immediately, then freeze the cooked food if desired."},{"question":"Does freezing kill bacteria?","answer":"No. It stops growth while frozen but many bacteria survive."}],"sources":[{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"Official thawing and refreezing rules."},{"name":"USDA FSIS — Leftovers and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety","note":"Refreezing previously frozen cooked leftovers."}],"image":{"concept":"Editorial kitchen sequence showing frozen chicken thawing on a refrigerator shelf, then either returning to a freezer bag or being cooked, no text or symbols.","alt":"Safely thawing food in the refrigerator before refreezing"},"status":"draft"
+  "schema_version": 1,
+  "id": "en-020-can-you-refreeze-thawed-food",
+  "article_number": 20,
+  "translation_group": "020-refreeze-thawed-food",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA refreezing guidance",
+  "title": "Can You Refreeze Thawed Food? When It's Safe and When It Isn't",
+  "slug": "can-you-refreeze-thawed-food",
+  "seo": {
+    "title": "Can You Refreeze Thawed Food? USDA Rules Explained",
+    "meta_description": "Food thawed in the refrigerator can generally be refrozen safely under USDA guidance. Food thawed in cold water or a microwave should be cooked first.",
+    "search_intent": "Food safety: determine when thawed food can safely be refrozen."
+  },
+  "excerpt": "Under USDA guidance, food thawed in the refrigerator can generally be refrozen without cooking as long as it stayed safely cold, although quality may decline. Food thawed in cold water or a microwave should be cooked before refreezing.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": [
+      "freezing-thawing",
+      "food-safety"
+    ],
+    "primary_article_type": "freezing-thawing"
+  },
+  "content_html": "<p>Yes—<strong>sometimes</strong>. USDA says food thawed in the refrigerator can be safely refrozen without cooking, although moisture loss may reduce quality. The thawing method is the key detail that one-word answers leave out.</p>\n<h2>The USDA rule by thawing method</h2>\n<table><thead><tr><th>How it was thawed</th><th>Refreeze raw?</th><th>What to do</th></tr></thead><tbody><tr><td>Refrigerator</td><td>Generally yes</td><td>Refreeze while it remains safely cold</td></tr><tr><td>Cold water</td><td>No</td><td>Cook first, then freeze cooked food</td></tr><tr><td>Microwave</td><td>No</td><td>Cook immediately, then freeze if desired</td></tr><tr><td>Counter/room temperature</td><td>No</td><td>Unsafe thawing method for perishables</td></tr></tbody></table>\n<h2>Why refrigerator thawing is different</h2>\n<p>The refrigerator keeps food at 40°F (4°C) or below, limiting bacterial growth while ice melts. As long as the food stayed within safe refrigerator time limits, USDA considers refreezing microbiologically safe.</p>\n<h2>Why cold water and microwave require cooking</h2>\n<p>These methods can warm portions of the food more quickly. USDA instructs consumers to cook immediately after microwave thawing and after cold-water thawing before refreezing.</p>\n<h2>Freezing does not sterilize food</h2>\n<p>Freezing pauses microbial growth but does not reliably kill bacteria. Refreezing cannot erase hours spent at unsafe temperatures.</p>\n<h2>The two-hour rule still applies</h2>\n<p>Food left outside refrigeration for more than two hours—or one hour above 90°F (32°C)—should not be refrozen. If a power outage causes thawing, temperature and presence of ice crystals are more informative than simply asking whether the package feels cool.</p>\n<h2>Partially frozen food</h2>\n<p>USDA says food that still contains ice crystals or is as cold as a refrigerator can generally be safely refrozen, although quality may suffer.</p>\n<h2>Quality changes after refreezing</h2>\n<p>Ice crystals and moisture loss can make meat drier, fish softer and produce mushier after repeated cycles. Safety and eating quality are separate questions.</p>\n<h2>Cooked food can be frozen again</h2>\n<p>You can thaw raw meat in the refrigerator, cook it, cool it promptly and freeze the cooked dish. Likewise, previously frozen leftovers that were thawed safely and reheated can be refrozen under USDA guidance.</p>\n<h2>Frequently asked questions</h2>\n<h3>Can I refreeze chicken thawed in the refrigerator?</h3><p>Yes under USDA guidance, provided it remained refrigerated and is still within its safe storage window.</p>\n<h3>Can I refreeze meat thawed on the counter?</h3><p>No. Counter thawing is not a safe method for perishable food.</p>\n<h3>Does refreezing ruin the food?</h3><p>Not necessarily, but each freeze-thaw cycle can reduce moisture and texture quality.</p>",
+  "faq": [
+    {
+      "question": "Can refrigerator-thawed food be refrozen?",
+      "answer": "Yes under USDA guidance, if it remained safely cold; quality may decline."
+    },
+    {
+      "question": "Can microwave-thawed food be refrozen raw?",
+      "answer": "No. Cook it immediately, then freeze the cooked food if desired."
+    },
+    {
+      "question": "Does freezing kill bacteria?",
+      "answer": "No. It stops growth while frozen but many bacteria survive."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "Official thawing and refreezing rules."
+    },
+    {
+      "name": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "note": "Refreezing previously frozen cooked leftovers."
+    }
+  ],
+  "image": {
+    "concept": "Editorial kitchen sequence showing frozen chicken thawing on a refrigerator shelf, then either returning to a freezer bag or being cooked, no text or symbols.",
+    "alt": "Safely thawing food in the refrigerator before refreezing"
+  },
+  "status": "draft"
 }

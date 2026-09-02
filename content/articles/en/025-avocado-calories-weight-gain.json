@@ -1,9 +1,61 @@
 {
-  "schema_version":1,"id":"en-025-avocado-calories-weight-gain","article_number":25,"translation_group":"025-avocado-calories-weight","language":"en","locale":"en-US","market_context":"United States/international; energy-density and portion context",
-  "title":"Avocado Calories: Does Avocado Really Make You Gain Weight?","slug":"avocado-calories-weight-gain",
-  "seo":{"title":"Avocado Calories: Does It Make You Gain Weight?","meta_description":"Avocado has about 160 calories per 100 g because it is fat-rich. Weight gain depends on sustained energy balance, portion size and what avocado replaces.","search_intent":"Address weight-gain concern around avocado calories."},
-  "excerpt":"Avocado is calorie-dense for a fruit at about 160 calories per 100 grams, but it does not cause weight gain by a special mechanism. Body weight responds to sustained energy balance, so portion size and what the avocado replaces matter more than calling it fattening.",
-  "taxonomy":{"food_family":"fruit","food_subcategories":["avocado"],"article_types":["health-daily-consumption","nutrition-composition","myths-faq"],"primary_article_type":"health-daily-consumption"},
-  "content_html":"<p>Avocado contains more calories than most fruit because it contains much more fat. That fact often gets turned into the claim that avocado is “fattening.” A more accurate statement is that <strong>it is energy-dense, and total energy balance determines weight change over time</strong>.</p>\n<h2>Calories by amount</h2>\n<table><thead><tr><th>Edible avocado</th><th>Approx. calories</th></tr></thead><tbody><tr><td>50 g</td><td>80</td></tr><tr><td>100 g</td><td>160</td></tr><tr><td>150 g</td><td>240</td></tr></tbody></table>\n<p>“One avocado” is a poor unit because fruit size and edible yield vary widely.</p>\n<h2>Why avocado has more calories than berries or oranges</h2>\n<p>It contains roughly 15 grams of fat per 100 grams. Fat provides about nine calories per gram, more than carbohydrate or protein.</p>\n<h2>Adding versus replacing</h2>\n<p>Spreading avocado instead of butter or mayonnaise changes a meal differently from adding avocado to a sandwich that already contains all of those ingredients. The word “healthy” does not make extra energy disappear.</p>\n<h2>Fiber and fat affect fullness</h2>\n<p>Avocado's combination of fiber, water and unsaturated fat can make meals satisfying. Satiety can influence later intake, but it does not negate the calories in the portion.</p>\n<h2>Can avocado fit a weight-loss diet?</h2>\n<p>Yes. No particular food has to be removed if portions and the overall dietary pattern support an energy deficit. Avocado is not a weight-loss drug and not a forbidden food.</p>\n<h2>How energy-dense is it compared with oil and nuts?</h2>\n<p>Olive oil is around 900 calories per 100 g because it is essentially pure fat. Nuts often provide 550–650. Avocado is far lower because much of its weight is water.</p>\n<h2>Frequently asked questions</h2>\n<h3>Will eating avocado every day make me gain weight?</h3><p>Not automatically. It depends on total intake, portion and what it replaces.</p>\n<h3>How many calories are in half an avocado?</h3><p>The answer depends on size. Weighing the edible portion is more accurate; 100 g is about 160 calories.</p>\n<h3>Is avocado low-calorie?</h3><p>No. It is relatively calorie-dense for a fruit, although much less dense than oils or nuts.</p>",
-  "faq":[{"question":"Does avocado cause weight gain?","answer":"Not by itself. It contributes calories, while weight change depends on sustained total energy balance."},{"question":"How many calories are in 100 g of avocado?","answer":"Approximately 160 calories."},{"question":"Can avocado fit a weight-loss diet?","answer":"Yes, when portion size and the overall diet support the required energy balance."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Avocado energy and macronutrient data."},{"name":"WHO — Healthy diet","url":"https://www.who.int/news-room/fact-sheets/detail/healthy-diet","note":"Energy balance and fat-quality context."}],"image":{"concept":"Ripe avocado shown in small, medium and larger portion sizes on neutral plates, clean editorial food photography, no text.","alt":"Avocado portion sizes illustrating calorie density"},"status":"draft"
+  "schema_version": 1,
+  "id": "en-025-avocado-calories-weight-gain",
+  "article_number": 25,
+  "translation_group": "025-avocado-calories-weight",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; energy-density and portion context",
+  "title": "Avocado Calories: Does Avocado Really Make You Gain Weight?",
+  "slug": "avocado-calories-weight-gain",
+  "seo": {
+    "title": "Avocado Calories: Does It Make You Gain Weight?",
+    "meta_description": "Avocado has about 160 calories per 100 g because it is fat-rich. Weight gain depends on sustained energy balance, portion size and what avocado replaces.",
+    "search_intent": "Address weight-gain concern around avocado calories."
+  },
+  "excerpt": "Avocado is calorie-dense for a fruit at about 160 calories per 100 grams, but it does not cause weight gain by a special mechanism. Body weight responds to sustained energy balance, so portion size and what the avocado replaces matter more than calling it fattening.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": [
+      "avocado"
+    ],
+    "article_types": [
+      "health-daily-consumption",
+      "nutrition-composition",
+      "myths-faq"
+    ],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Avocado contains more calories than most fruit because it contains much more fat. That fact often gets turned into the claim that avocado is “fattening.” A more accurate statement is that <strong>it is energy-dense, and total energy balance determines weight change over time</strong>.</p>\n<h2>Calories by amount</h2>\n<table><thead><tr><th>Edible avocado</th><th>Approx. calories</th></tr></thead><tbody><tr><td>50 g</td><td>80</td></tr><tr><td>100 g</td><td>160</td></tr><tr><td>150 g</td><td>240</td></tr></tbody></table>\n<p>“One avocado” is a poor unit because fruit size and edible yield vary widely.</p>\n<h2>Why avocado has more calories than berries or oranges</h2>\n<p>It contains roughly 15 grams of fat per 100 grams. Fat provides about nine calories per gram, more than carbohydrate or protein.</p>\n<h2>Adding versus replacing</h2>\n<p>Spreading avocado instead of butter or mayonnaise changes a meal differently from adding avocado to a sandwich that already contains all of those ingredients. The word “healthy” does not make extra energy disappear.</p>\n<h2>Fiber and fat affect fullness</h2>\n<p>Avocado's combination of fiber, water and unsaturated fat can make meals satisfying. Satiety can influence later intake, but it does not negate the calories in the portion.</p>\n<h2>Can avocado fit a weight-loss diet?</h2>\n<p>Yes. No particular food has to be removed if portions and the overall dietary pattern support an energy deficit. Avocado is not a weight-loss drug and not a forbidden food.</p>\n<h2>How energy-dense is it compared with oil and nuts?</h2>\n<p>Olive oil is around 900 calories per 100 g because it is essentially pure fat. Nuts often provide 550–650. Avocado is far lower because much of its weight is water.</p>\n<h2>Frequently asked questions</h2>\n<h3>Will eating avocado every day make me gain weight?</h3><p>Not automatically. It depends on total intake, portion and what it replaces.</p>\n<h3>How many calories are in half an avocado?</h3><p>The answer depends on size. Weighing the edible portion is more accurate; 100 g is about 160 calories.</p>\n<h3>Is avocado low-calorie?</h3><p>No. It is relatively calorie-dense for a fruit, although much less dense than oils or nuts.</p>",
+  "faq": [
+    {
+      "question": "Does avocado cause weight gain?",
+      "answer": "Not by itself. It contributes calories, while weight change depends on sustained total energy balance."
+    },
+    {
+      "question": "How many calories are in 100 g of avocado?",
+      "answer": "Approximately 160 calories."
+    },
+    {
+      "question": "Can avocado fit a weight-loss diet?",
+      "answer": "Yes, when portion size and the overall diet support the required energy balance."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Avocado energy and macronutrient data."
+    },
+    {
+      "name": "WHO — Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "note": "Energy balance and fat-quality context."
+    }
+  ],
+  "image": {
+    "concept": "Ripe avocado shown in small, medium and larger portion sizes on neutral plates, clean editorial food photography, no text.",
+    "alt": "Avocado portion sizes illustrating calorie density"
+  },
+  "status": "draft"
 }
