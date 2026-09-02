@@ -48,6 +48,8 @@ Prefer “En la siguiente tabla se comparan pescados cocinados…” immediately
 
 References such as “the table below”, “la siguiente tabla” or “más adelante” are acceptable only when they point to something that genuinely appears next or later and improve comprehension. Avoid references to “the main table”, “the ranking above” or other labels that sound like production notes.
 
+If a sentence points to a table, ranking or explanation, the referenced element must appear where the wording says it does; never make the reader mentally search the page for what “above,” “below” or “main” is supposed to mean.
+
 ## Build a thread, not a stack of sections
 
 An article should feel as if one idea leads naturally to the next. Headings are navigation, not a substitute for prose.
