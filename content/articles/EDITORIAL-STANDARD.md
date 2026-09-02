@@ -22,6 +22,39 @@ Examples of useful entry points:
 
 Give the core answer early, then earn the rest of the article by explaining why it is true.
 
+## The Quinnoa narrative method — not a template
+
+Every article should follow the same reasoning discipline without following the same visible layout. The order of headings, number of sections, use of tables and style of opening should change with the question.
+
+Before drafting, reduce the article to one reader question and one practical conclusion. Then build the piece so the reader can move from the question to that conclusion without needing to jump around the page or know anything about another Quinnoa article.
+
+A useful reasoning sequence is:
+
+1. **Question or tension.** Start from the doubt, comparison, kitchen situation or apparent contradiction that brought the reader there.
+2. **Answer early.** Give the central answer before expanding it. Do not make the reader wait until the conclusion for the basic result.
+3. **Evidence in reading order.** Introduce the numbers, table, mechanism or safety guidance exactly when the reader needs them.
+4. **Meaning, not just data.** After a number or table, explain what changes in practice: whether the difference is large, trivial, serving-dependent or caused by water, fat, processing or another factor.
+5. **Necessary qualifications.** Develop the exceptions or secondary criteria that can change the decision — mercury, sodium, food-safety history, serving size, product type, preparation, etc. — but only when they materially matter.
+6. **Practical translation.** Bring the comparison back to a serving, a kitchen action or a real choice whenever that makes the information easier to use.
+7. **Decision or principle.** End with the rule the reader can carry away, not a compressed recap of every section.
+
+This is a sequence of reasoning, not a section template. A food-safety article may move from situation → decision → mechanism → exceptions → action. A ranking may move from fair comparison → table → what the gaps really mean → serving size → factors that outweigh small differences. A cooking-science article may move from observation → mechanism → variables → technique. They should not be forced into identical headings.
+
+### Four finishing tests
+
+Before an article is considered finished, read it as a cold reader and apply these tests:
+
+- **Cold-reader test:** assume the reader arrived from Google and has never seen another Quinnoa page. Nothing essential may depend on another article.
+- **Heading-removal test:** mentally remove the H2s. The paragraphs should still make sense in that order; the headings should organize the reasoning, not hold disconnected mini-articles together.
+- **Quick-answer promise test:** every material idea in the excerpt must be properly explained in the body. If the quick answer mentions mercury, sodium, calories, serving size or another criterion, the article must earn that claim.
+- **Table test:** immediately before a table, make clear what is being compared and in what state. Immediately after it, interpret the important pattern rather than reading rows back one by one.
+
+### Avoid the catalogue effect
+
+Do not automatically create one H2 for every food, row or item in a ranking. If several items tell the same story, group them and explain the pattern. Give an item its own section only when it introduces a genuinely different reason, mechanism, trade-off or practical decision.
+
+A ranking should therefore read as an argument about the comparison, not as a sequence of mini fact sheets.
+
 ## Reader-first prose
 
 Articles must read like finished food journalism written by a knowledgeable editor, not like notes from a database or explanations of the writing process.
