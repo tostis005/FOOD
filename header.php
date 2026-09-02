@@ -36,14 +36,15 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php wp_head(); ?>
 	<?php
-	$food_v4_css       = get_template_directory() . '/assets/css/food-v4.css';
-	$food_v5_css       = get_template_directory() . '/assets/css/food-v5.css';
-	$food_v6_css       = get_template_directory() . '/assets/css/food-v6.css';
-	$food_v6_icons_css = get_template_directory() . '/assets/css/food-v6-icons.css';
-	$pommelo_css       = get_template_directory() . '/assets/css/pommelo-v1.css';
-	$pommelo_v2_css    = get_template_directory() . '/assets/css/pommelo-v2.css';
-	$pommelo_v3_css    = get_template_directory() . '/assets/css/pommelo-v3.css';
-	$pommelo_v4_css    = get_template_directory() . '/assets/css/pommelo-v4.css';
+	$food_v4_css          = get_template_directory() . '/assets/css/food-v4.css';
+	$food_v5_css          = get_template_directory() . '/assets/css/food-v5.css';
+	$food_v6_css          = get_template_directory() . '/assets/css/food-v6.css';
+	$food_v6_icons_css    = get_template_directory() . '/assets/css/food-v6-icons.css';
+	$pommelo_css          = get_template_directory() . '/assets/css/pommelo-v1.css';
+	$pommelo_v2_css       = get_template_directory() . '/assets/css/pommelo-v2.css';
+	$pommelo_v3_css       = get_template_directory() . '/assets/css/pommelo-v3.css';
+	$pommelo_v4_css       = get_template_directory() . '/assets/css/pommelo-v4.css';
+	$pommelo_v5_icons_css = get_template_directory() . '/assets/css/pommelo-v5-icons.css';
 	?>
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v4.css?ver=' . ( file_exists( $food_v4_css ) ? filemtime( $food_v4_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v5.css?ver=' . ( file_exists( $food_v5_css ) ? filemtime( $food_v5_css ) : '1' ) ); ?>">
@@ -53,6 +54,7 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pommelo-v2.css?ver=' . ( file_exists( $pommelo_v2_css ) ? filemtime( $pommelo_v2_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pommelo-v3.css?ver=' . ( file_exists( $pommelo_v3_css ) ? filemtime( $pommelo_v3_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pommelo-v4.css?ver=' . ( file_exists( $pommelo_v4_css ) ? filemtime( $pommelo_v4_css ) : '1' ) ); ?>">
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pommelo-v5-icons.css?ver=' . ( file_exists( $pommelo_v5_icons_css ) ? filemtime( $pommelo_v5_icons_css ) : '1' ) ); ?>">
 	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='22' cy='25' r='17' fill='%23ef7865'/%3E%3Ccircle cx='22' cy='25' r='13' fill='%23fff0df'/%3E%3Ccircle cx='22' cy='25' r='10.6' fill='%23ef7865'/%3E%3Cg stroke='%23fff0df' stroke-width='2.1'%3E%3Cpath d='M22 25V14.4'/%3E%3Cpath d='m22 25 9.2-5.3'/%3E%3Cpath d='m22 25 9.2 5.3'/%3E%3Cpath d='M22 25v10.6'/%3E%3Cpath d='m22 25-9.2 5.3'/%3E%3Cpath d='m22 25-9.2-5.3'/%3E%3C/g%3E%3Cpath d='M31.5 9.5c3.2-4.3 7.2-5.7 11.7-4.4-.8 5-4.2 8.1-10.2 9.1' fill='%2364805f'/%3E%3C/svg%3E">
 </head>
 <body <?php body_class(); ?>>
