@@ -5,13 +5,15 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php wp_head(); ?>
 	<?php
-	$food_v4_css = get_template_directory() . '/assets/css/food-v4.css';
-	$food_v5_css = get_template_directory() . '/assets/css/food-v5.css';
-	$food_v6_css = get_template_directory() . '/assets/css/food-v6.css';
+	$food_v4_css       = get_template_directory() . '/assets/css/food-v4.css';
+	$food_v5_css       = get_template_directory() . '/assets/css/food-v5.css';
+	$food_v6_css       = get_template_directory() . '/assets/css/food-v6.css';
+	$food_v6_icons_css = get_template_directory() . '/assets/css/food-v6-icons.css';
 	?>
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v4.css?ver=' . ( file_exists( $food_v4_css ) ? filemtime( $food_v4_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v5.css?ver=' . ( file_exists( $food_v5_css ) ? filemtime( $food_v5_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v6.css?ver=' . ( file_exists( $food_v6_css ) ? filemtime( $food_v6_css ) : '1' ) ); ?>">
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v6-icons.css?ver=' . ( file_exists( $food_v6_icons_css ) ? filemtime( $food_v6_icons_css ) : '1' ) ); ?>">
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
