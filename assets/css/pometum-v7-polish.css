@@ -1,0 +1,49 @@
+/*
+ * Pometum v7 — tighter home rhythm and final editorial polish.
+ */
+
+/* Keep the home hero expressive without making the headline dominate an
+   entire desktop viewport. */
+@media (min-width: 961px) {
+  body.home .home-hero-v5 {
+    padding-top: 30px !important;
+    padding-bottom: 42px !important;
+  }
+
+  body.home .hero-main-v5 {
+    padding: clamp(30px, 3.6vw, 52px) !important;
+  }
+
+  body.home .hero-main-v5 h1 {
+    max-width: 100% !important;
+    margin: 14px 0 20px !important;
+    font-size: clamp(48px, 4.55vw, 66px) !important;
+    line-height: .99 !important;
+    letter-spacing: -.045em !important;
+  }
+
+  body.home .hero-main-v5 > p {
+    margin-bottom: 24px !important;
+  }
+}
+
+/* The discovery block works better without the dark rule running across the
+   top of the lead image and secondary stories. */
+body.home .discover-section .discover-grid {
+  border-top: 0 !important;
+}
+
+/* Three concise footer destinations; keep them on one visual baseline. */
+.site-footer .footer-links-v5 {
+  align-items: center !important;
+}
+
+.site-footer .footer-links-v5 a {
+  white-space: nowrap;
+}
+
+@media (max-width: 620px) {
+  .site-footer .footer-links-v5 a {
+    white-space: normal;
+  }
+}
