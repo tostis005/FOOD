@@ -105,6 +105,7 @@ jobs:
             --delete
             --exclude=.git/
             --exclude=.github/
+            --exclude=content/
             --exclude=README.md
             -e "ssh -i ~/.ssh/food_deploy_key"
           )
