@@ -30,7 +30,7 @@ $food_home_url         = function_exists( 'food_language_home_url' ) ? food_lang
 $food_current_language = function_exists( 'food_current_language' ) ? food_current_language() : 'es';
 $food_languages        = function_exists( 'food_language_definitions' ) ? food_language_definitions() : array(
 	'es' => array( 'label' => 'Español', 'short' => 'ES', 'flag' => '🇪🇸', 'locale' => 'es-ES' ),
-	'en' => array( 'label' => 'English', 'short' => 'EN', 'flag' => '🇬🇧', 'locale' => 'en-US' ),
+	'en' => array( 'label' => 'English', 'short' => 'EN', 'flag' => '🇺🇸', 'locale' => 'en-US' ),
 );
 $food_current_flag     = isset( $food_languages[ $food_current_language ]['flag'] ) ? $food_languages[ $food_current_language ]['flag'] : '🌐';
 $food_editorial_key    = get_query_var( 'food_editorial_page' );
@@ -64,6 +64,7 @@ if ( file_exists( $food_language_seo ) ) {
 		'pometum-v4.css',
 		'pometum-v5-mobile-centering.css',
 		'pometum-v6-ui.css',
+		'pometum-v7-polish.css',
 	);
 	foreach ( $css_files as $css_file ) :
 		$css_path = get_template_directory() . '/assets/css/' . $css_file;
@@ -148,7 +149,7 @@ if ( file_exists( $food_language_seo ) ) {
 
 			<form class="mobile-menu-search" role="search" method="get" action="<?php echo esc_url( $food_home_url ); ?>">
 				<label class="screen-reader-text" for="mobile-food-search"><?php echo esc_html( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?></label>
-				<input id="mobile-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'What do you want to know?' : '¿Qué quieres saber?' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>">
+				<input id="mobile-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'Search Pometum…' : 'Busca en Pometum…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>">
 				<button type="submit"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></button>
 			</form>
 			<p class="mobile-menu-note"><?php echo esc_html( $food_english ? 'Clear guides on food, quality, nutrition, safety, storage and cooking.' : 'Guías claras sobre alimentos, calidad, nutrición, seguridad, conservación y cocina.' ); ?></p>
@@ -198,11 +199,11 @@ if ( file_exists( $food_language_seo ) ) {
 			</button>
 		</div>
 		<div class="search-overlay-content">
-			<div class="search-overlay-eyebrow"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></div>
-			<h2 class="search-overlay-title"><?php echo esc_html( $food_english ? 'What do you want to know?' : '¿Qué quieres saber?' ); ?></h2>
+			<div class="search-overlay-eyebrow">Pometum</div>
+			<h2 class="search-overlay-title"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></h2>
 			<form class="search-overlay-form" role="search" method="get" action="<?php echo esc_url( $food_home_url ); ?>">
 				<label class="screen-reader-text" for="overlay-food-search"><?php echo esc_html( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?></label>
-				<input id="overlay-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'Food, question or cooking technique…' : 'Alimento, duda o técnica de cocina…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" autocomplete="off">
+				<input id="overlay-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'Type your search…' : 'Escribe tu búsqueda…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" autocomplete="off">
 				<button type="submit"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></button>
 			</form>
 		</div>
