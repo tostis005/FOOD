@@ -1,19 +1,20 @@
 <?php
 get_header();
 
-$feature_post  = food_get_home_feature_post();
-$feature_id    = $feature_post instanceof WP_Post ? (int) $feature_post->ID : 0;
-$feature_food  = $feature_id ? food_get_primary_food_category( $feature_id ) : null;
-$feature_topic = $feature_id ? food_get_primary_topic( $feature_id ) : null;
-$discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id ) : array() );
+$feature_post   = food_get_home_feature_post();
+$feature_id     = $feature_post instanceof WP_Post ? (int) $feature_post->ID : 0;
+$feature_food   = $feature_id ? food_get_primary_food_category( $feature_id ) : null;
+$feature_topic  = $feature_id ? food_get_primary_topic( $feature_id ) : null;
+$feature_visual = $feature_id && function_exists( 'food_get_post_visual_context' ) ? food_get_post_visual_context( $feature_id ) : null;
+$discover_ids   = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id ) : array() );
 ?>
 
 <section class="home-hero home-hero-v5">
 	<div class="container home-hero-grid home-hero-grid-v5">
 		<div class="hero-main hero-main-v5">
-			<span class="hero-kicker">Una guía para entender lo que comes</span>
-			<h1>Comida, explicada con criterio.</h1>
-			<p>Busca por alimento o por la duda que quieres resolver. Pommelo organiza cada guía en dos dimensiones: de qué alimento habla y qué tipo de información necesitas.</p>
+			<span class="hero-kicker">Guías claras sobre alimentos, nutrición y cocina</span>
+			<h1>Entiende mejor lo que comes.</h1>
+			<p>Pommelo reúne información práctica sobre alimentos, nutrición, seguridad alimentaria, conservación, calidad y cocina para ayudarte a elegir, guardar y preparar mejor la comida de cada día.</p>
 
 			<form class="hero-search hero-search-v5" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<label class="screen-reader-text" for="food-search">Buscar</label>
@@ -22,8 +23,8 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 			</form>
 
 			<nav class="hero-topic-links" aria-label="Explorar por tema">
-				<span>También por tema</span>
-				<a href="<?php echo esc_url( food_topic_url( 'seguridad-alimentaria', 'Seguridad alimentaria' ) ); ?>">Seguridad</a>
+				<span>Empieza por</span>
+				<a href="<?php echo esc_url( food_topic_url( 'seguridad-alimentaria', 'Seguridad alimentaria' ) ); ?>">Seguridad alimentaria</a>
 				<a href="<?php echo esc_url( food_topic_url( 'nutricion', 'Nutrición' ) ); ?>">Nutrición</a>
 				<a href="<?php echo esc_url( food_topic_url( 'cocina-tecnica', 'Cocina y técnica' ) ); ?>">Cocina</a>
 				<a href="<?php echo esc_url( food_topic_url( 'origen-calidad', 'Origen y calidad' ) ); ?>">Calidad</a>
@@ -36,8 +37,8 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 					<?php if ( has_post_thumbnail( $feature_id ) ) : ?>
 						<?php echo get_the_post_thumbnail( $feature_id, 'food-card', array( 'loading' => 'eager' ) ); ?>
 					<?php else : ?>
-						<div class="home-feature-illustration family-<?php echo esc_attr( $feature_food ? $feature_food->slug : 'general' ); ?>">
-							<?php echo food_category_icon_svg( $feature_food ? $feature_food->slug : '' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+						<div class="home-feature-illustration <?php echo esc_attr( $feature_visual ? $feature_visual['class'] : 'family-general' ); ?>">
+							<?php echo $feature_visual ? $feature_visual['svg'] : food_category_icon_svg( '' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 						</div>
 					<?php endif; ?>
 				</div>
@@ -54,7 +55,7 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 		<?php else : ?>
 			<div class="home-feature-card home-feature-empty">
 				<div class="home-feature-media has-illustration"><div class="home-feature-illustration family-general"><?php echo food_category_icon_svg( '' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div></div>
-				<div class="home-feature-body"><div class="content-dimensions"><span>Pommelo</span></div><strong>Las guías destacadas aparecerán aquí automáticamente.</strong><p>Cuando publiques contenido, la portada escogerá una guía destacada y la irá renovando sin tocar el diseño.</p></div>
+				<div class="home-feature-body"><div class="content-dimensions"><span>Pommelo</span></div><strong>Guías prácticas para resolver dudas reales sobre comida.</strong><p>Explora alimentos, nutrición, seguridad, conservación y cocina con explicaciones claras y útiles.</p></div>
 			</div>
 		<?php endif; ?>
 	</div>
@@ -64,10 +65,10 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 	<div class="container">
 		<header class="section-intro section-intro-v5">
 			<div>
-				<span class="section-label">Primera dimensión</span>
-				<h2>Explora por alimento</h2>
+				<span class="section-label">Alimentos</span>
+				<h2>Encuentra información por tipo de alimento</h2>
 			</div>
-			<p>Una clasificación estable para crecer con cientos de artículos sin mezclar productos con tipos de consulta.</p>
+			<p>Carnes, pescados, quesos, aceites, frutas, verduras y más. Entra en cada familia para descubrir guías sobre calidad, conservación, nutrición y cocina.</p>
 		</header>
 
 		<div class="food-family-grid">
@@ -102,19 +103,20 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 <section class="section topic-directory-section">
 	<div class="container topic-directory-layout">
 		<header class="topic-directory-intro">
-			<span class="section-label">Segunda dimensión</span>
-			<h2>Explora por lo que quieres saber</h2>
-			<p>Un artículo puede ser de <em>Carnes</em> y a la vez de <em>Nutrición</em>, <em>Seguridad</em> o <em>Cocina y técnica</em>. Las dos clasificaciones son independientes.</p>
+			<span class="section-label">Guías por tema</span>
+			<h2>Resuelve tus dudas sobre alimentación</h2>
+			<p>Aprende a conservar mejor los alimentos, entender su valor nutricional, cocinar con más criterio, comparar productos y reconocer señales de calidad y seguridad.</p>
 		</header>
 
-		<div class="topic-directory-list">
-			<?php $topic_index = 0; foreach ( food_topic_definitions() as $topic_slug => $topic_definition ) : $topic_index++; $topic_term = get_term_by( 'slug', $topic_slug, 'food_topic' ); ?>
-				<a class="topic-directory-row" href="<?php echo esc_url( food_topic_url( $topic_slug, $topic_definition['name'] ) ); ?>">
-					<span class="topic-directory-number"><?php echo esc_html( str_pad( (string) $topic_index, 2, '0', STR_PAD_LEFT ) ); ?></span>
-					<strong><?php echo esc_html( $topic_definition['name'] ); ?></strong>
-					<span class="topic-directory-description"><?php echo esc_html( $topic_definition['description'] ); ?></span>
-					<span class="topic-directory-count"><?php echo $topic_term ? esc_html( (string) $topic_term->count ) : '0'; ?></span>
-					<span class="topic-directory-arrow" aria-hidden="true">→</span>
+		<div class="topic-card-grid">
+			<?php foreach ( food_topic_definitions() as $topic_slug => $topic_definition ) : ?>
+				<a class="topic-card topic-<?php echo esc_attr( $topic_slug ); ?>" href="<?php echo esc_url( food_topic_url( $topic_slug, $topic_definition['name'] ) ); ?>">
+					<span class="topic-card-art" aria-hidden="true"><?php echo food_topic_icon_svg( $topic_slug ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></span>
+					<span class="topic-card-copy">
+						<strong><?php echo esc_html( $topic_definition['name'] ); ?></strong>
+						<small><?php echo esc_html( $topic_definition['description'] ); ?></small>
+						<span class="topic-card-arrow" aria-hidden="true">↗</span>
+					</span>
 				</a>
 			<?php endforeach; ?>
 		</div>
@@ -129,7 +131,7 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 					<span class="section-label">Descubre algo nuevo</span>
 					<h2>Cinco lecturas para empezar</h2>
 				</div>
-				<p>Esta selección sale del contenido publicado y cambia periódicamente. No depende de ejemplos escritos a mano en la portada.</p>
+				<p>Una selección de guías útiles para descubrir respuestas sobre alimentos, cocina, nutrición, seguridad y calidad.</p>
 			</header>
 
 			<div class="discover-grid">
@@ -147,14 +149,15 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 				$discover_position = 0;
 				while ( $discover_query->have_posts() ) : $discover_query->the_post();
 					$discover_position++;
-					$food_term  = food_get_primary_food_category();
-					$topic_term = food_get_primary_topic();
+					$food_term      = food_get_primary_food_category();
+					$topic_term     = food_get_primary_topic();
+					$discover_visual = function_exists( 'food_get_post_visual_context' ) ? food_get_post_visual_context() : null;
 					?>
 					<a class="discover-card <?php echo 1 === $discover_position ? 'discover-card-lead' : ''; ?>" href="<?php the_permalink(); ?>">
 						<?php if ( 1 === $discover_position ) : ?>
 							<div class="discover-lead-media <?php echo has_post_thumbnail() ? 'has-image' : ''; ?>">
 								<?php if ( has_post_thumbnail() ) : the_post_thumbnail( 'food-card', array( 'loading' => 'lazy' ) ); else : ?>
-									<div class="discover-illustration family-<?php echo esc_attr( $food_term ? $food_term->slug : 'general' ); ?>"><?php echo food_category_icon_svg( $food_term ? $food_term->slug : '' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+									<div class="discover-illustration <?php echo esc_attr( $discover_visual ? $discover_visual['class'] : 'family-general' ); ?>"><?php echo $discover_visual ? $discover_visual['svg'] : food_category_icon_svg( '' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 								<?php endif; ?>
 							</div>
 						<?php endif; ?>
@@ -201,7 +204,7 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 				endwhile;
 				wp_reset_postdata();
 			else : ?>
-				<div class="home-empty-state"><strong>La portada ya está preparada para crecer.</strong><p>Las últimas guías aparecerán aquí automáticamente en cuanto empieces a publicar.</p></div>
+				<div class="home-empty-state"><strong>Estamos preparando las primeras guías.</strong><p>Muy pronto encontrarás aquí nuevos artículos sobre alimentos, nutrición, seguridad y cocina.</p></div>
 			<?php endif; ?>
 		</div>
 	</div>
