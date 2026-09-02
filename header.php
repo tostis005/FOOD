@@ -25,9 +25,15 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 	}
 }
 
-$food_english  = function_exists( 'food_is_english' ) && food_is_english();
-$food_home_url = function_exists( 'food_language_home_url' ) ? food_language_home_url() : home_url( '/' );
-$food_language_seo = get_template_directory() . '/inc/language-seo.php';
+$food_english          = function_exists( 'food_is_english' ) && food_is_english();
+$food_home_url         = function_exists( 'food_language_home_url' ) ? food_language_home_url() : home_url( '/' );
+$food_current_language = function_exists( 'food_current_language' ) ? food_current_language() : 'es';
+$food_languages        = function_exists( 'food_language_definitions' ) ? food_language_definitions() : array(
+	'es' => array( 'label' => 'Español', 'short' => 'ES', 'flag' => '🇪🇸', 'locale' => 'es-ES' ),
+	'en' => array( 'label' => 'English', 'short' => 'EN', 'flag' => '🇬🇧', 'locale' => 'en-US' ),
+);
+$food_current_flag     = isset( $food_languages[ $food_current_language ]['flag'] ) ? $food_languages[ $food_current_language ]['flag'] : '🌐';
+$food_language_seo     = get_template_directory() . '/inc/language-seo.php';
 if ( file_exists( $food_language_seo ) ) {
 	require_once $food_language_seo;
 }
@@ -54,6 +60,7 @@ if ( file_exists( $food_language_seo ) ) {
 		'pometum-v1.css',
 		'pometum-v2.css',
 		'pometum-v3.css',
+		'pometum-v4.css',
 	);
 	foreach ( $css_files as $css_file ) :
 		$css_path = get_template_directory() . '/assets/css/' . $css_file;
@@ -64,6 +71,10 @@ if ( file_exists( $food_language_seo ) ) {
 		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/' . $css_file . '?ver=' . filemtime( $css_path ) ); ?>">
 	<?php endforeach; ?>
 	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cellipse cx='23' cy='25' rx='14' ry='16' fill='none' stroke='%23394536' stroke-width='5'/%3E%3Cpath d='M32 9c4-4 8-4 11-1-2 5-6 7-11 6' fill='%23D96C55'/%3E%3C/svg%3E">
+	<?php $language_overlay_js = get_template_directory() . '/assets/js/pometum-language-overlay.js'; ?>
+	<?php if ( file_exists( $language_overlay_js ) ) : ?>
+		<script defer src="<?php echo esc_url( get_template_directory_uri() . '/assets/js/pometum-language-overlay.js?ver=' . filemtime( $language_overlay_js ) ); ?>"></script>
+	<?php endif; ?>
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
@@ -89,7 +100,9 @@ if ( file_exists( $food_language_seo ) ) {
 		</nav>
 
 		<div class="header-actions">
-			<?php if ( function_exists( 'food_language_switcher' ) ) { food_language_switcher(); } ?>
+			<button class="language-toggle" type="button" aria-controls="language-overlay" aria-expanded="false" aria-label="<?php echo esc_attr( $food_english ? 'Change language' : 'Cambiar idioma' ); ?>">
+				<span class="language-current-flag" aria-hidden="true"><?php echo esc_html( $food_current_flag ); ?></span>
+			</button>
 			<a class="header-search" href="<?php echo esc_url( add_query_arg( 's', '', $food_home_url ) ); ?>" aria-label="<?php echo esc_attr( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
 			</a>
@@ -136,6 +149,38 @@ if ( file_exists( $food_language_seo ) ) {
 				<button type="submit"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></button>
 			</form>
 			<p class="mobile-menu-note"><?php echo esc_html( $food_english ? 'Clear guides on food, quality, nutrition, safety, storage and cooking.' : 'Guías claras sobre alimentos, calidad, nutrición, seguridad, conservación y cocina.' ); ?></p>
+		</div>
+	</div>
+</div>
+
+<div class="language-overlay" id="language-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="<?php echo esc_attr( $food_english ? 'Choose language' : 'Elegir idioma' ); ?>">
+	<div class="language-overlay-shell">
+		<div class="language-overlay-top">
+			<a href="<?php echo esc_url( $food_home_url ); ?>" aria-label="Pometum"><?php food_pometum_logo( 'is-language-overlay' ); ?></a>
+			<button class="language-overlay-close" type="button" aria-label="<?php echo esc_attr( $food_english ? 'Close language selector' : 'Cerrar selector de idioma' ); ?>">
+				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+			</button>
+		</div>
+
+		<div class="language-overlay-content">
+			<div class="language-overlay-eyebrow"><?php echo esc_html( $food_english ? 'Languages' : 'Idiomas' ); ?></div>
+			<h2 class="language-overlay-title"><?php echo esc_html( $food_english ? 'Choose your edition.' : 'Elige tu edición.' ); ?></h2>
+			<div class="language-options">
+				<?php foreach ( $food_languages as $code => $definition ) : ?>
+					<?php
+					$language_url = function_exists( 'food_language_switch_url' ) ? food_language_switch_url( $code ) : ( 'en' === $code ? home_url( '/en/' ) : home_url( '/' ) );
+					$is_current   = $code === $food_current_language;
+					?>
+					<a class="language-option" href="<?php echo esc_url( $language_url ); ?>" hreflang="<?php echo esc_attr( $code ); ?>" <?php echo $is_current ? 'aria-current="page"' : ''; ?>>
+						<span class="language-option-flag" aria-hidden="true"><?php echo esc_html( $definition['flag'] ); ?></span>
+						<span class="language-option-copy">
+							<span class="language-option-name"><?php echo esc_html( $definition['label'] ); ?></span>
+							<span class="language-option-status"><?php echo esc_html( $is_current ? ( $food_english ? 'Current edition' : 'Edición actual' ) : ( $food_english ? 'Open edition' : 'Abrir edición' ) ); ?></span>
+						</span>
+						<span class="language-option-arrow" aria-hidden="true">→</span>
+					</a>
+				<?php endforeach; ?>
+			</div>
 		</div>
 	</div>
 </div>
