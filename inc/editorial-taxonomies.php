@@ -1,9 +1,10 @@
 <?php
 /**
- * FOOD editorial dimensions and homepage helpers.
+ * Pommelo editorial dimensions and homepage helpers.
  *
- * Categories answer "what food is this about?" while food_topic answers
- * "what kind of question does this article solve?".
+ * WordPress categories identify the food family. The food_topic taxonomy
+ * identifies the kind of information the guide provides. Either dimension is
+ * optional, so a post may use one, both, or neither when appropriate.
  *
  * @package FOOD
  */
@@ -12,43 +13,60 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+/** Definitive first-version classification by type of article. */
 function food_topic_definitions() {
 	return array(
-		'seguridad-alimentaria' => array(
-			'name'        => 'Seguridad alimentaria',
-			'description' => 'Cuándo un alimento es seguro, cuándo descartarlo y cómo reducir riesgos al manipularlo.',
+		'nutricion-composicion' => array(
+			'name'        => 'Nutrición y composición',
+			'description' => 'Proteínas, grasas, hidratos, fibra, vitaminas, minerales, calorías y composición de los alimentos explicadas con contexto.',
 		),
-		'nutricion' => array(
-			'name'        => 'Nutrición',
-			'description' => 'Proteínas, grasas, hidratos, fibra, energía y composición nutricional explicadas con contexto.',
-		),
-		'cocina-tecnica' => array(
-			'name'        => 'Cocina y técnica',
-			'description' => 'Qué ocurre al cocinar, por qué ocurre y cómo mejorar el resultado.',
-		),
-		'conservacion' => array(
-			'name'        => 'Conservación',
-			'description' => 'Cómo guardar, congelar, descongelar y mantener los alimentos en buenas condiciones.',
-		),
-		'compra-eleccion' => array(
-			'name'        => 'Compra y elección',
-			'description' => 'Claves prácticas para comparar productos, leer etiquetas y elegir con criterio.',
-		),
-		'origen-calidad' => array(
-			'name'        => 'Origen y calidad',
-			'description' => 'Procedencia, DOP, sellos, variedades, categorías comerciales y señales de calidad.',
+		'rankings-mejores-fuentes' => array(
+			'name'        => 'Rankings y mejores fuentes',
+			'description' => 'Listas y rankings para identificar los alimentos que más aportan un nutriente o cumplen mejor un criterio concreto.',
 		),
 		'comparativas' => array(
 			'name'        => 'Comparativas',
-			'description' => 'Diferencias entre alimentos, cortes, variedades o productos para decidir mejor.',
+			'description' => 'Diferencias entre alimentos, variedades, formatos o métodos para entender qué cambia y elegir con más criterio.',
 		),
-		'preguntas-frecuentes' => array(
-			'name'        => 'Preguntas frecuentes',
-			'description' => 'Dudas concretas y respuestas directas sobre situaciones habituales con alimentos.',
+		'seguridad-alimentaria' => array(
+			'name'        => 'Seguridad alimentaria',
+			'description' => 'Cuándo un alimento es seguro, cuándo conviene descartarlo y cómo reducir riesgos al manipular, cocinar o conservar comida.',
 		),
-		'platos-menus' => array(
-			'name'        => 'Platos y menús',
-			'description' => 'Combinaciones, platos cotidianos y maneras de construir comidas completas.',
+		'conservacion-almacenamiento' => array(
+			'name'        => 'Conservación y almacenamiento',
+			'description' => 'Cuánto duran los alimentos y cómo guardarlos en nevera, despensa o recipientes para mantenerlos en buenas condiciones.',
+		),
+		'congelacion-descongelacion' => array(
+			'name'        => 'Congelación y descongelación',
+			'description' => 'Qué alimentos se pueden congelar, cuánto duran congelados y cómo descongelarlos de forma segura y práctica.',
+		),
+		'cocina-ciencia-alimentos' => array(
+			'name'        => 'Cocina y ciencia de los alimentos',
+			'description' => 'Qué ocurre dentro de los alimentos al calentarlos, mezclarlos o transformarlos y por qué cambia el resultado al cocinar.',
+		),
+		'preparacion-tecnicas-cocina' => array(
+			'name'        => 'Preparación y técnicas de cocina',
+			'description' => 'Métodos, tiempos, temperaturas y técnicas para preparar alimentos con mejores resultados y menos errores.',
+		),
+		'salud-consumo-habitual' => array(
+			'name'        => 'Salud y consumo habitual',
+			'description' => 'Información general sobre frecuencia de consumo, patrones alimentarios y cómo encajan distintos alimentos en la dieta cotidiana.',
+		),
+		'conceptos-nutricion' => array(
+			'name'        => 'Conceptos de nutrición',
+			'description' => 'Explicaciones sencillas de conceptos como proteína, fibra, índice glucémico, densidad energética o calidad nutricional.',
+		),
+		'mitos-preguntas-frecuentes' => array(
+			'name'        => 'Mitos y preguntas frecuentes',
+			'description' => 'Respuestas directas a dudas habituales y revisión de afirmaciones populares sobre alimentos, cocina y nutrición.',
+		),
+		'procesamiento-produccion-elaboracion' => array(
+			'name'        => 'Procesamiento, producción y elaboración',
+			'description' => 'Cómo se producen, procesan, fermentan, curan o elaboran los alimentos y qué implica cada proceso.',
+		),
+		'compra-calidad-maduracion' => array(
+			'name'        => 'Compra, calidad y maduración',
+			'description' => 'Cómo elegir alimentos, interpretar señales de calidad, reconocer el punto de maduración y entender etiquetas, categorías y origen.',
 		),
 	);
 }
@@ -59,17 +77,17 @@ function food_register_topic_taxonomy() {
 		array( 'post' ),
 		array(
 			'labels' => array(
-				'name'                       => __( 'Temas', 'food' ),
-				'singular_name'              => __( 'Tema', 'food' ),
-				'search_items'               => __( 'Buscar temas', 'food' ),
-				'all_items'                  => __( 'Todos los temas', 'food' ),
-				'edit_item'                  => __( 'Editar tema', 'food' ),
-				'update_item'                => __( 'Actualizar tema', 'food' ),
-				'add_new_item'               => __( 'Añadir tema', 'food' ),
-				'new_item_name'              => __( 'Nombre del tema', 'food' ),
-				'menu_name'                  => __( 'Temas', 'food' ),
-				'popular_items'              => __( 'Temas frecuentes', 'food' ),
-				'separate_items_with_commas' => __( 'Separa temas con comas', 'food' ),
+				'name'                       => __( 'Tipos de artículo', 'food' ),
+				'singular_name'              => __( 'Tipo de artículo', 'food' ),
+				'search_items'               => __( 'Buscar tipos de artículo', 'food' ),
+				'all_items'                  => __( 'Todos los tipos', 'food' ),
+				'edit_item'                  => __( 'Editar tipo', 'food' ),
+				'update_item'                => __( 'Actualizar tipo', 'food' ),
+				'add_new_item'               => __( 'Añadir tipo', 'food' ),
+				'new_item_name'              => __( 'Nombre del tipo', 'food' ),
+				'menu_name'                  => __( 'Tipos de artículo', 'food' ),
+				'popular_items'              => __( 'Tipos frecuentes', 'food' ),
+				'separate_items_with_commas' => __( 'Separa tipos con comas', 'food' ),
 			),
 			'public'            => true,
 			'show_ui'           => true,
@@ -84,7 +102,7 @@ function food_register_topic_taxonomy() {
 add_action( 'init', 'food_register_topic_taxonomy', 8 );
 
 function food_ensure_topic_terms() {
-	$version = '1';
+	$version = '2';
 	if ( get_option( 'food_topic_structure_version' ) === $version ) {
 		return;
 	}
@@ -92,7 +110,14 @@ function food_ensure_topic_terms() {
 	foreach ( food_topic_definitions() as $slug => $definition ) {
 		$term = get_term_by( 'slug', $slug, 'food_topic' );
 		if ( $term ) {
-			wp_update_term( $term->term_id, 'food_topic', array( 'description' => $definition['description'] ) );
+			wp_update_term(
+				$term->term_id,
+				'food_topic',
+				array(
+					'name'        => $definition['name'],
+					'description' => $definition['description'],
+				)
+			);
 			continue;
 		}
 
@@ -112,25 +137,83 @@ function food_ensure_topic_terms() {
 add_action( 'init', 'food_ensure_topic_terms', 22 );
 
 /**
- * Carry the original transversal categories into the new independent taxonomy.
- * We keep the old category relationship for now so no existing URL is broken.
+ * Move assignments made with the previous provisional taxonomy into the final
+ * article-type vocabulary. Old empty terms are intentionally left in place so
+ * any previously exposed URL fails gracefully and remains noindex when thin.
  */
-function food_migrate_legacy_topics() {
-	if ( get_option( 'food_legacy_topics_migrated_v1' ) ) {
+function food_migrate_topic_terms_v2() {
+	if ( get_option( 'food_topic_terms_migrated_v2' ) ) {
+		return;
+	}
+
+	$map = array(
+		'nutricion'             => 'nutricion-composicion',
+		'cocina-tecnica'        => 'cocina-ciencia-alimentos',
+		'conservacion'          => 'conservacion-almacenamiento',
+		'compra-eleccion'       => 'compra-calidad-maduracion',
+		'origen-calidad'        => 'compra-calidad-maduracion',
+		'preguntas-frecuentes'  => 'mitos-preguntas-frecuentes',
+		'platos-menus'          => 'preparacion-tecnicas-cocina',
+		'comparativas'          => 'comparativas',
+		'seguridad-alimentaria' => 'seguridad-alimentaria',
+	);
+
+	foreach ( $map as $old_slug => $new_slug ) {
+		$old_term = get_term_by( 'slug', $old_slug, 'food_topic' );
+		$new_term = get_term_by( 'slug', $new_slug, 'food_topic' );
+		if ( ! $old_term || ! $new_term ) {
+			continue;
+		}
+
+		$post_ids = get_posts(
+			array(
+				'post_type'      => 'post',
+				'post_status'    => 'any',
+				'posts_per_page' => -1,
+				'fields'         => 'ids',
+				'tax_query'      => array(
+					array(
+						'taxonomy' => 'food_topic',
+						'field'    => 'term_id',
+						'terms'    => array( $old_term->term_id ),
+					),
+				),
+			)
+		);
+
+		foreach ( $post_ids as $post_id ) {
+			wp_set_object_terms( $post_id, (int) $new_term->term_id, 'food_topic', true );
+			if ( $old_slug !== $new_slug ) {
+				wp_remove_object_terms( $post_id, (int) $old_term->term_id, 'food_topic' );
+			}
+		}
+	}
+
+	update_option( 'food_topic_terms_migrated_v2', 1 );
+}
+add_action( 'init', 'food_migrate_topic_terms_v2', 42 );
+
+/**
+ * Carry legacy transversal WordPress categories into the current independent
+ * topic taxonomy when they still exist on old posts.
+ */
+function food_migrate_legacy_categories_to_topics_v2() {
+	if ( get_option( 'food_legacy_categories_to_topics_v2' ) ) {
 		return;
 	}
 
 	$map = array(
 		'seguridad-alimentaria' => 'seguridad-alimentaria',
-		'nutricion'             => 'nutricion',
-		'cocina'                => 'cocina-tecnica',
-		'platos-menus'          => 'platos-menus',
-		'origen-calidad'        => 'origen-calidad',
+		'nutricion'             => 'nutricion-composicion',
+		'cocina'                => 'cocina-ciencia-alimentos',
+		'platos-menus'          => 'preparacion-tecnicas-cocina',
+		'origen-calidad'        => 'compra-calidad-maduracion',
 	);
 
 	foreach ( $map as $category_slug => $topic_slug ) {
 		$category = get_category_by_slug( $category_slug );
-		if ( ! $category ) {
+		$topic    = get_term_by( 'slug', $topic_slug, 'food_topic' );
+		if ( ! $category || ! $topic ) {
 			continue;
 		}
 
@@ -145,38 +228,35 @@ function food_migrate_legacy_topics() {
 		);
 
 		foreach ( $post_ids as $post_id ) {
-			wp_set_object_terms( $post_id, $topic_slug, 'food_topic', true );
+			wp_set_object_terms( $post_id, (int) $topic->term_id, 'food_topic', true );
 		}
 	}
 
-	update_option( 'food_legacy_topics_migrated_v1', 1 );
+	update_option( 'food_legacy_categories_to_topics_v2', 1 );
 }
-add_action( 'init', 'food_migrate_legacy_topics', 45 );
+add_action( 'init', 'food_migrate_legacy_categories_to_topics_v2', 45 );
 
-/**
- * Correct the small amount of seed content that predates the two-dimensional
- * taxonomy. This is deliberately explicit, not a keyword-based classifier.
- */
-function food_migrate_known_food_families() {
-	if ( get_option( 'food_known_food_families_migrated_v1' ) ) {
+/** Keep the reference guide classified correctly after the vocabulary change. */
+function food_migrate_known_seed_content_v2() {
+	if ( get_option( 'food_known_seed_content_migrated_v2' ) ) {
 		return;
 	}
 
-	$known_posts = array(
-		'por-que-la-carne-suelta-agua-en-la-sarten' => 'carnes',
-	);
-
-	foreach ( $known_posts as $post_slug => $category_slug ) {
-		$post     = get_page_by_path( $post_slug, OBJECT, 'post' );
-		$category = get_category_by_slug( $category_slug );
-		if ( $post instanceof WP_Post && $category instanceof WP_Term ) {
+	$post = get_page_by_path( 'por-que-la-carne-suelta-agua-en-la-sarten', OBJECT, 'post' );
+	if ( $post instanceof WP_Post ) {
+		$category = get_category_by_slug( 'carnes' );
+		$topic    = get_term_by( 'slug', 'cocina-ciencia-alimentos', 'food_topic' );
+		if ( $category instanceof WP_Term ) {
 			wp_set_post_categories( $post->ID, array( $category->term_id ), true );
+		}
+		if ( $topic instanceof WP_Term ) {
+			wp_set_object_terms( $post->ID, (int) $topic->term_id, 'food_topic', true );
 		}
 	}
 
-	update_option( 'food_known_food_families_migrated_v1', 1 );
+	update_option( 'food_known_seed_content_migrated_v2', 1 );
 }
-add_action( 'init', 'food_migrate_known_food_families', 50 );
+add_action( 'init', 'food_migrate_known_seed_content_v2', 50 );
 
 function food_topic_url( $slug, $fallback_label = '' ) {
 	$term = get_term_by( 'slug', $slug, 'food_topic' );
@@ -194,10 +274,10 @@ function food_topic_url( $slug, $fallback_label = '' ) {
 function food_primary_nav_fallback() {
 	$items = array(
 		array( 'Alimentos', food_category_url( 'alimentos', 'Alimentos' ) ),
+		array( 'Nutrición', food_topic_url( 'nutricion-composicion', 'Nutrición y composición' ) ),
 		array( 'Seguridad', food_topic_url( 'seguridad-alimentaria', 'Seguridad alimentaria' ) ),
-		array( 'Nutrición', food_topic_url( 'nutricion', 'Nutrición' ) ),
-		array( 'Cocina', food_topic_url( 'cocina-tecnica', 'Cocina' ) ),
-		array( 'Origen y calidad', food_topic_url( 'origen-calidad', 'Origen y calidad' ) ),
+		array( 'Cocina', food_topic_url( 'cocina-ciencia-alimentos', 'Cocina y ciencia de los alimentos' ) ),
+		array( 'Conservación', food_topic_url( 'conservacion-almacenamiento', 'Conservación y almacenamiento' ) ),
 	);
 
 	echo '<ul class="menu food-fallback-menu">';
@@ -208,10 +288,23 @@ function food_primary_nav_fallback() {
 }
 
 function food_get_primary_food_category( $post_id = 0 ) {
-	$post_id    = $post_id ? $post_id : get_the_ID();
+	$post_id    = $post_id ? (int) $post_id : get_the_ID();
 	$categories = get_the_category( $post_id );
 	if ( empty( $categories ) ) {
 		return null;
+	}
+
+	$by_slug = array();
+	foreach ( $categories as $category ) {
+		$by_slug[ $category->slug ] = $category;
+	}
+
+	if ( function_exists( 'food_family_definitions' ) ) {
+		foreach ( array_keys( food_family_definitions() ) as $slug ) {
+			if ( isset( $by_slug[ $slug ] ) ) {
+				return $by_slug[ $slug ];
+			}
+		}
 	}
 
 	foreach ( $categories as $category ) {
@@ -231,42 +324,47 @@ function food_get_primary_food_category( $post_id = 0 ) {
 }
 
 function food_get_primary_topic( $post_id = 0 ) {
-	$post_id = $post_id ? $post_id : get_the_ID();
+	$post_id = $post_id ? (int) $post_id : get_the_ID();
 	$terms   = get_the_terms( $post_id, 'food_topic' );
 	if ( empty( $terms ) || is_wp_error( $terms ) ) {
 		return null;
 	}
-	return $terms[0];
+
+	$by_slug = array();
+	foreach ( $terms as $term ) {
+		$by_slug[ $term->slug ] = $term;
+	}
+	foreach ( array_keys( food_topic_definitions() ) as $slug ) {
+		if ( isset( $by_slug[ $slug ] ) ) {
+			return $by_slug[ $slug ];
+		}
+	}
+
+	return reset( $terms );
 }
 
-/**
- * Small vector illustrations used as professional, lightweight fallbacks.
- */
-function food_category_icon_svg( $slug ) {
-	$paths = array(
-		'carnes' => '<path d="M16 34c0-10 9-19 21-19 9 0 16 5 16 13 0 11-12 21-26 21-7 0-11-5-11-15Z"/><path d="M33 23c5-3 11-1 12 3 1 5-4 10-10 10-5 0-8-3-7-7 0-2 2-4 5-6Z"/>',
-		'pescados-mariscos' => '<path d="M12 32c9-11 20-16 31-12 6 2 10 7 11 12-2 6-6 10-12 12-11 3-21-1-30-12Z"/><path d="M12 32 5 23v18l7-9Z"/><circle cx="45" cy="28" r="1.8"/>',
-		'jamon-embutidos' => '<path d="M19 45c-5-5-4-13 2-22 6-9 15-13 22-8 8 5 8 15 2 23-7 10-20 14-26 7Z"/><path d="m19 45-7 7"/><circle cx="10" cy="54" r="4"/>',
-		'quesos-lacteos' => '<path d="m11 43 9-25 33 11-8 24H11Z"/><path d="M20 18 45 9l8 20"/><circle cx="28" cy="37" r="3"/><circle cx="40" cy="44" r="2.5"/>',
-		'aceites' => '<path d="M32 8c7 10 13 18 13 27 0 8-6 15-13 15s-13-7-13-15c0-9 6-17 13-27Z"/><path d="M42 16c4-5 9-7 14-7-1 6-5 10-11 11"/>',
-		'legumbres' => '<path d="M18 18c10-6 22 2 19 13-2 8-10 15-18 15-9 0-14-8-11-16 2-5 5-9 10-12Z"/><path d="M42 28c7-4 15 1 14 9-1 7-7 12-13 12-7 0-11-6-9-12 1-4 4-7 8-9Z"/>',
-		'frutas' => '<path d="M32 19c-4-5-2-10 3-13"/><path d="M35 13c5-4 10-4 15-1-4 5-9 7-15 5"/><path d="M32 20c14-8 24 3 21 16-3 12-13 19-21 19S14 48 11 36c-3-13 7-24 21-16Z"/>',
-		'verduras-hortalizas' => '<path d="M31 54C13 47 9 29 19 13c10 4 17 11 18 21 2-10 8-17 17-21 8 18-2 36-23 41Z"/><path d="M31 54c1-13 4-25 12-35"/>',
-		'cereales-pan-pasta' => '<path d="M31 56V13"/><path d="M31 21c-8 0-13-4-15-10 8 0 13 4 15 10Zm0 11c-8 0-13-4-15-10 8 0 13 4 15 10Zm0 11c-8 0-13-4-15-10 8 0 13 4 15 10Zm0-22c8 0 13-4 15-10-8 0-13 4-15 10Zm0 11c8 0 13-4 15-10-8 0-13 4-15 10Zm0 11c8 0 13-4 15-10-8 0-13 4-15 10Z"/>',
-		'huevos' => '<path d="M32 8c8 0 17 18 17 30 0 10-7 18-17 18s-17-8-17-18c0-12 9-30 17-30Z"/><path d="M23 39c2 6 6 9 12 9"/>',
-	);
+function food_get_article_topics( $post_id = 0 ) {
+	$post_id = $post_id ? (int) $post_id : get_the_ID();
+	$terms   = get_the_terms( $post_id, 'food_topic' );
+	if ( empty( $terms ) || is_wp_error( $terms ) ) {
+		return array();
+	}
 
-	$path = isset( $paths[ $slug ] )
-		? $paths[ $slug ]
-		: '<circle cx="32" cy="32" r="19"/><path d="M21 38c6-11 15-16 25-14-2 10-8 17-19 19"/><path d="M27 43c3-8 8-14 15-18"/>';
+	$by_slug = array();
+	foreach ( $terms as $term ) {
+		$by_slug[ $term->slug ] = $term;
+	}
 
-	return '<svg class="food-family-svg" viewBox="0 0 64 64" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round">' . $path . '</svg>';
+	$ordered = array();
+	foreach ( array_keys( food_topic_definitions() ) as $slug ) {
+		if ( isset( $by_slug[ $slug ] ) ) {
+			$ordered[] = $by_slug[ $slug ];
+		}
+	}
+	return $ordered;
 }
 
-/**
- * WordPress' localized default sample post is useful during installation, but
- * should never become a homepage recommendation.
- */
+/** WordPress sample content should never become a homepage recommendation. */
 function food_home_ignored_post_ids() {
 	$ids = array();
 	foreach ( array( 'hello-world', 'hola-mundo' ) as $sample_slug ) {

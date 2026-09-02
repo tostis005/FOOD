@@ -1,0 +1,257 @@
+/*
+ * Pommelo v4 — definitive taxonomy visual system.
+ * 16 food families + 13 article types, with food-first fallback priority.
+ */
+
+:root {
+  --pommelo-coral: #ef7865;
+  --pommelo-coral-deep: #c95649;
+  --pommelo-coral-soft: #f9ddd6;
+  --pommelo-cream: #fff9f3;
+  --pommelo-ink: #26383e;
+  --pommelo-yellow: #efd77f;
+}
+
+/* Brand is the visual anchor of the site. */
+.header-main { min-height: 100px; }
+.site-branding .pommelo-logo { gap: 14px; }
+.site-branding .pommelo-logo-mark {
+  width: 58px;
+  height: 58px;
+  filter: drop-shadow(0 7px 13px rgba(201, 86, 73, .14));
+}
+.site-branding .pommelo-wordmark {
+  font-size: 48px;
+  font-weight: 900;
+  letter-spacing: -.012em;
+}
+.site-branding .pommelo-double {
+  color: var(--pommelo-coral) !important;
+  font-weight: 950;
+}
+.site-branding .pommelo-double::after {
+  left: 3%;
+  right: 3%;
+  bottom: -7px;
+  height: 4px;
+  background: var(--pommelo-yellow);
+}
+.site-tagline {
+  padding-left: 72px;
+  margin-top: 9px;
+  font-size: 8.5px;
+  font-weight: 760;
+  letter-spacing: .13em;
+}
+
+/* Stop provisional CSS artwork from competing with the definitive SVGs. */
+.food-family-art::after,
+.home-feature-illustration[class*="family-"]::after,
+.discover-illustration[class*="family-"]::after,
+.card-placeholder.card-placeholder-illustrated[class*="family-"]::after,
+.article-hero-fallback[class*="family-"]::after,
+.taxonomy-hero-visual[class*="family-"]::after {
+  display: none !important;
+  content: none !important;
+}
+
+.food-family-art > .food-family-svg,
+.home-feature-illustration > .food-family-svg,
+.discover-illustration > .food-family-svg,
+.card-placeholder.card-placeholder-illustrated > .food-family-svg,
+.article-hero-fallback > .food-family-svg,
+.taxonomy-hero-visual > .food-family-svg {
+  display: block !important;
+  color: inherit;
+}
+
+.food-family-art > .food-family-svg {
+  width: 78px;
+  height: 78px;
+  position: static;
+  z-index: 2;
+}
+.home-feature-illustration > .food-family-svg,
+.discover-illustration > .food-family-svg {
+  width: min(180px, 46%);
+  height: auto;
+  aspect-ratio: 1;
+}
+.card-placeholder.card-placeholder-illustrated > .food-family-svg {
+  width: min(125px, 42%);
+  height: auto;
+  aspect-ratio: 1;
+}
+
+/* 16 food families. */
+.family-alimentacion-general { --family-soft:#f7e5dc; --family-card:#fff4ef; --family-accent:#b85a4c; }
+.family-carnes { --family-soft:#f1d9d2; --family-card:#faece7; --family-accent:#a84f45; }
+.family-pescados-mariscos { --family-soft:#dcecf0; --family-card:#edf6f7; --family-accent:#397486; }
+.family-huevos { --family-soft:#f2ead5; --family-card:#faf5e8; --family-accent:#867342; }
+.family-lacteos-quesos { --family-soft:#f3e5b5; --family-card:#fbf4d7; --family-accent:#8c6b28; }
+.family-legumbres-soja { --family-soft:#eadcc8; --family-card:#f7ede0; --family-accent:#805f3f; }
+.family-frutos-secos-semillas { --family-soft:#ead8c2; --family-card:#f6eadd; --family-accent:#795638; }
+.family-cereales-pseudocereales-derivados { --family-soft:#eee0bd; --family-card:#f8f0d9; --family-accent:#82662f; }
+.family-tuberculos { --family-soft:#e7d7c7; --family-card:#f4e9df; --family-accent:#785c43; }
+.family-verduras-hortalizas-setas { --family-soft:#dce9d7; --family-card:#edf4e9; --family-accent:#55775a; }
+.family-frutas { --family-soft:#f0d9dd; --family-card:#f9eaed; --family-accent:#a6505b; }
+.family-aceites-grasas { --family-soft:#e7e8c9; --family-card:#f2f3df; --family-accent:#6d793c; }
+.family-bebidas { --family-soft:#dce9eb; --family-card:#edf4f5; --family-accent:#4d7580; }
+.family-chocolate-cacao-dulces { --family-soft:#e8d6cf; --family-card:#f5e8e3; --family-accent:#785348; }
+.family-fermentados { --family-soft:#e2e4cf; --family-card:#f0f1e3; --family-accent:#697146; }
+.family-algas-especias-otros-alimentos { --family-soft:#dae8df; --family-card:#ecf3ee; --family-accent:#537261; }
+.family-general { --family-soft:#eee9e2; --family-card:#f8f4ee; --family-accent:#6b7273; }
+
+.food-family-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 15px;
+}
+.food-family-card {
+  grid-template-rows: 142px minmax(112px, auto);
+  background: var(--family-card) !important;
+}
+.food-family-art {
+  height: 142px !important;
+  min-height: 142px !important;
+  display: grid !important;
+  place-items: center !important;
+  background: var(--family-soft) !important;
+  color: var(--family-accent) !important;
+}
+.food-family-content {
+  min-height: 112px;
+  background: rgba(255,255,255,.72) !important;
+}
+.food-family-content strong { font-size: 16px; line-height: 1.18; }
+
+/* 13 article-type identities. */
+.topic-nutricion-composicion { --topic-bg:#fff0d9; --topic-accent:#b66b34; }
+.topic-rankings-mejores-fuentes { --topic-bg:#f5e7bd; --topic-accent:#977227; }
+.topic-comparativas { --topic-bg:#e7ece7; --topic-accent:#5f715e; }
+.topic-seguridad-alimentaria { --topic-bg:#e2efe4; --topic-accent:#4f7758; }
+.topic-conservacion-almacenamiento { --topic-bg:#e1edf1; --topic-accent:#507887; }
+.topic-congelacion-descongelacion { --topic-bg:#e1eef5; --topic-accent:#4c7691; }
+.topic-cocina-ciencia-alimentos { --topic-bg:#f8dfd9; --topic-accent:#b65349; }
+.topic-preparacion-tecnicas-cocina { --topic-bg:#f2e2d2; --topic-accent:#9c6541; }
+.topic-salud-consumo-habitual { --topic-bg:#f5e1e7; --topic-accent:#a05b70; }
+.topic-conceptos-nutricion { --topic-bg:#e8e5f1; --topic-accent:#6d6385; }
+.topic-mitos-preguntas-frecuentes { --topic-bg:#f4e6ed; --topic-accent:#915d73; }
+.topic-procesamiento-produccion-elaboracion { --topic-bg:#e9e4d9; --topic-accent:#786b52; }
+.topic-compra-calidad-maduracion { --topic-bg:#efe6d2; --topic-accent:#8a6b35; }
+
+.topic-card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+.topic-card { grid-template-rows: 116px minmax(148px, 1fr); }
+.topic-card-art { padding: 23px; }
+.topic-card-art .food-topic-svg { width: 68px; height: 68px; }
+.topic-card-copy strong { font-size: 16.5px; }
+.topic-card-copy small { font-size: 10.8px; line-height: 1.46; }
+
+/* Taxonomy/archive visuals share the same identity system. */
+.taxonomy-hero-visual,
+.article-hero-fallback,
+.home-feature-illustration,
+.discover-illustration,
+.card-placeholder.card-placeholder-illustrated {
+  background: var(--family-soft, var(--topic-bg, #eee9e2)) !important;
+  color: var(--family-accent, var(--topic-accent, var(--pommelo-coral-deep))) !important;
+}
+.taxonomy-hero-visual .food-family-svg,
+.taxonomy-hero-visual .food-topic-svg { width: 96px; height: 96px; }
+
+/* Mobile menu: warm Pommelo palette, not the old dark panel. */
+@media (max-width: 960px) {
+  .mobile-menu-overlay,
+  .mobile-menu-shell {
+    background:
+      radial-gradient(circle at 100% 0, rgba(239,120,101,.14), transparent 18rem),
+      #fff5ef !important;
+    color: var(--pommelo-ink) !important;
+  }
+  .mobile-menu-eyebrow,
+  .mobile-menu-explore-title { color: var(--pommelo-coral-deep) !important; }
+  .mobile-food-links {
+    display: grid !important;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 0 14px !important;
+  }
+  .mobile-food-links a {
+    min-width: 0;
+    padding: 10px 0 !important;
+    border-bottom: 1px solid rgba(38,56,62,.11) !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    font-size: 11.5px !important;
+    line-height: 1.25 !important;
+  }
+  .mobile-menu-search button { background: var(--pommelo-coral) !important; }
+}
+
+@media (max-width: 1180px) {
+  .header-main { min-height: 90px; }
+  .site-branding .pommelo-logo-mark { width: 49px; height: 49px; }
+  .site-branding .pommelo-wordmark { font-size: 41px; }
+  .site-tagline { padding-left: 62px; }
+  .food-family-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+}
+
+@media (max-width: 900px) {
+  .header-main { min-height: 82px; }
+  .site-branding .pommelo-logo-mark { width: 43px; height: 43px; }
+  .site-branding .pommelo-wordmark { font-size: 37px; }
+  .site-tagline { padding-left: 54px; }
+  .food-family-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .topic-card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 620px) {
+  .food-family-grid,
+  .topic-card-grid { grid-template-columns: 1fr; }
+
+  .food-family-card {
+    display: grid !important;
+    grid-template-columns: 104px minmax(0, 1fr);
+    grid-template-rows: 1fr;
+    min-height: 118px;
+  }
+  .food-family-art {
+    width: 104px !important;
+    height: 100% !important;
+    min-height: 118px !important;
+  }
+  .food-family-art > .food-family-svg { width: 62px; height: 62px; }
+  .food-family-content {
+    min-height: 118px;
+    padding: 18px 36px 18px 17px !important;
+    align-self: stretch;
+    display: flex !important;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 0 !important;
+    border-left: 1px solid rgba(38,56,62,.07);
+  }
+  .food-family-content small { margin-top: 6px; }
+
+  .topic-card {
+    grid-template-columns: 104px minmax(0, 1fr);
+    grid-template-rows: 1fr;
+    min-height: 122px;
+  }
+  .topic-card-art { min-height: 122px; }
+  .topic-card-copy { min-height: 122px; display:flex; flex-direction:column; justify-content:center; }
+}
+
+@media (max-width: 430px) {
+  .header-main { min-height: 78px; }
+  .site-branding .pommelo-logo { gap: 9px; }
+  .site-branding .pommelo-logo-mark { width: 38px; height: 38px; }
+  .site-branding .pommelo-wordmark { font-size: 35px; }
+  .site-branding .pommelo-double::after { height: 3px; bottom: -5px; }
+  .site-tagline { display: none; }
+
+  .mobile-brand .pommelo-logo-mark { width: 50px !important; height: 50px !important; }
+  .mobile-brand .pommelo-wordmark { font-size: 44px !important; }
+  .mobile-brand .pommelo-double { color: var(--pommelo-coral) !important; }
+
+  .mobile-food-links { grid-template-columns: 1fr 1fr; gap: 0 12px !important; }
+  .mobile-food-links a { font-size: 11px !important; }
+}
