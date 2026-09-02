@@ -26,7 +26,10 @@
 	<?php if ( has_post_thumbnail() ) : ?>
 		<figure class="article-hero"><?php the_post_thumbnail( 'food-hero' ); ?></figure>
 	<?php elseif ( $food_visual ) : ?>
-		<div class="article-hero-fallback <?php echo esc_attr( $food_visual['class'] ); ?>" aria-hidden="true"><?php echo $food_visual['svg']; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+		<div class="article-hero-fallback <?php echo esc_attr( $food_visual['class'] ); ?>" aria-hidden="true">
+			<span class="article-hero-art"></span>
+			<?php echo $food_visual['svg']; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+		</div>
 	<?php endif; ?>
 
 	<article <?php post_class( 'article-shell' ); ?>>
