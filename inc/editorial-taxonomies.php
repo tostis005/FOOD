@@ -1,6 +1,6 @@
 <?php
 /**
- * Pommelo editorial dimensions and homepage helpers.
+ * Quinnoa editorial dimensions and homepage helpers.
  *
  * WordPress categories identify the food family. The food_topic taxonomy
  * identifies the kind of information the guide provides. Either dimension is

@@ -16,8 +16,8 @@ document.addEventListener('DOMContentLoaded', function () {
 
   if (searchTitle) searchTitle.textContent = isEnglish ? 'Search' : 'Buscar';
   if (searchInput) searchInput.setAttribute('placeholder', isEnglish ? 'Type your search…' : 'Escribe tu búsqueda…');
-  if (heroSearch) heroSearch.setAttribute('placeholder', isEnglish ? 'Search Pometum…' : 'Busca en Pometum…');
-  if (mobileSearch) mobileSearch.setAttribute('placeholder', isEnglish ? 'Search Pometum…' : 'Busca en Pometum…');
+  if (heroSearch) heroSearch.setAttribute('placeholder', isEnglish ? 'Search Quinnoa…' : 'Busca en Quinnoa…');
+  if (mobileSearch) mobileSearch.setAttribute('placeholder', isEnglish ? 'Search Quinnoa…' : 'Busca en Quinnoa…');
 
   const configs = [
     {

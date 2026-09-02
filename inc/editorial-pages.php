@@ -1,6 +1,6 @@
 <?php
 /**
- * Virtual bilingual editorial pages for Pometum.
+ * Virtual bilingual editorial pages for Quinnoa.
  *
  * @package FOOD
  */
@@ -13,10 +13,10 @@ function food_editorial_pages() {
 	return array(
 		'about' => array(
 			'es' => array(
-				'slug' => 'sobre-pometum',
+				'slug' => 'acerca-de',
 				'title' => 'Acerca de',
-				'eyebrow' => 'Pometum',
-				'intro' => 'Pometum es un medio editorial sobre alimentos, calidad, nutrición, seguridad y cocina. Nuestro objetivo es explicar qué hay detrás de lo que comemos con claridad, contexto y criterio.',
+				'eyebrow' => 'Quinnoa',
+				'intro' => 'Quinnoa es un medio editorial sobre alimentos, calidad, nutrición, seguridad y cocina. Nuestro objetivo es explicar qué hay detrás de lo que comemos con claridad, contexto y criterio.',
 				'sections' => array(
 					array(
 						'title' => 'Entender la comida, sin ruido',
@@ -40,7 +40,7 @@ function food_editorial_pages() {
 					array(
 						'title' => 'Alcance editorial',
 						'paragraphs' => array(
-							'Pometum ofrece información divulgativa y no sustituye el diagnóstico, el tratamiento ni el consejo individual de un profesional sanitario. En cuestiones de seguridad alimentaria o salud, las indicaciones de las autoridades competentes y de profesionales cualificados tienen prioridad.',
+							'Quinnoa ofrece información divulgativa y no sustituye el diagnóstico, el tratamiento ni el consejo individual de un profesional sanitario. En cuestiones de seguridad alimentaria o salud, las indicaciones de las autoridades competentes y de profesionales cualificados tienen prioridad.',
 						),
 					),
 				),
@@ -48,8 +48,8 @@ function food_editorial_pages() {
 			'en' => array(
 				'slug' => 'about',
 				'title' => 'About',
-				'eyebrow' => 'Pometum',
-				'intro' => 'Pometum is an editorial publication about food, quality, nutrition, safety and cooking. Our aim is to explain what sits behind the food we eat with clarity, context and sound judgment.',
+				'eyebrow' => 'Quinnoa',
+				'intro' => 'Quinnoa is an editorial publication about food, quality, nutrition, safety and cooking. Our aim is to explain what sits behind the food we eat with clarity, context and sound judgment.',
 				'sections' => array(
 					array(
 						'title' => 'Understanding food without the noise',
@@ -73,7 +73,7 @@ function food_editorial_pages() {
 					array(
 						'title' => 'Editorial scope',
 						'paragraphs' => array(
-							'Pometum provides educational information and does not replace diagnosis, treatment or individual medical advice. For food-safety or health decisions, guidance from competent authorities and qualified professionals takes priority.',
+							'Quinnoa provides educational information and does not replace diagnosis, treatment or individual medical advice. For food-safety or health decisions, guidance from competent authorities and qualified professionals takes priority.',
 						),
 					),
 				),
@@ -84,7 +84,7 @@ function food_editorial_pages() {
 				'slug' => 'metodologia',
 				'title' => 'Metodología',
 				'eyebrow' => 'Cómo trabajamos',
-				'intro' => 'Cada guía de Pometum parte de una pregunta concreta y busca responderla de forma directa, verificable y útil.',
+				'intro' => 'Cada guía de Quinnoa parte de una pregunta concreta y busca responderla de forma directa, verificable y útil.',
 				'sections' => array(
 					array( 'title' => 'Cómo construimos una guía', 'paragraphs' => array( 'Primero definimos exactamente qué necesita saber una persona y qué comparaciones o cifras hacen falta para entender la respuesta. Después estructuramos el contenido desde la conclusión práctica hacia la explicación, evitando rodeos innecesarios.' ), 'items' => array( 'Respuesta clara al principio cuando la consulta lo permite.', 'Cantidades, unidades y referencias comparables cuando decimos que algo tiene más, menos o dura más.', 'Separación entre hechos, contexto práctico y recomendaciones.', 'Fuentes oficiales, científicas o técnicas especialmente en nutrición y seguridad alimentaria.', 'Revisión del contenido cuando cambian datos, recomendaciones o criterios relevantes.' ) ),
 					array( 'title' => 'Fuentes y precisión', 'paragraphs' => array( 'Para seguridad alimentaria y nutrición damos prioridad a organismos públicos, bases de datos de composición, instituciones sanitarias y literatura científica cuando aporta contexto adicional. En cuestiones culinarias o de calidad combinamos esa base con explicación técnica y aplicaciones prácticas.', 'No atribuimos revisiones profesionales que no hayan ocurrido y procuramos dejar claro cuándo una afirmación depende del tipo de alimento, la preparación, la cantidad o las condiciones de conservación.' ) ),
@@ -94,7 +94,7 @@ function food_editorial_pages() {
 				'slug' => 'methodology',
 				'title' => 'Methodology',
 				'eyebrow' => 'How we work',
-				'intro' => 'Every Pometum guide starts with a specific question and aims to answer it directly, accurately and usefully.',
+				'intro' => 'Every Quinnoa guide starts with a specific question and aims to answer it directly, accurately and usefully.',
 				'sections' => array(
 					array( 'title' => 'How we build a guide', 'paragraphs' => array( 'We first define exactly what a reader needs to know and which figures or comparisons are necessary to make the answer meaningful. We then structure the piece from the practical conclusion toward the explanation, avoiding unnecessary detours.' ), 'items' => array( 'A clear answer near the beginning whenever the question allows it.', 'Quantities, units and comparable references when we say something has more, less or lasts longer.', 'A clear distinction between facts, practical context and recommendations.', 'Authoritative, scientific or technical sources, especially for nutrition and food safety.', 'Updates when relevant data, recommendations or standards change.' ) ),
 					array( 'title' => 'Sources and accuracy', 'paragraphs' => array( 'For food safety and nutrition we prioritize public authorities, food-composition databases, health institutions and scientific literature when it adds useful context. For cooking and quality questions, we combine that foundation with technical explanation and practical application.', 'We do not claim professional review that has not taken place, and we aim to explain when an answer depends on the food, preparation, portion or storage conditions.' ) ),
@@ -105,14 +105,14 @@ function food_editorial_pages() {
 			'es' => array(
 				'slug' => 'contacto',
 				'title' => 'Contacto',
-				'eyebrow' => 'Pometum',
+				'eyebrow' => 'Quinnoa',
 				'intro' => '¿Quieres contactar con nosotros? Escríbenos a través del formulario.',
 				'sections' => array(),
 			),
 			'en' => array(
 				'slug' => 'contact',
 				'title' => 'Contact',
-				'eyebrow' => 'Pometum',
+				'eyebrow' => 'Quinnoa',
 				'intro' => 'Want to get in touch? Send us a message using the form below.',
 				'sections' => array(),
 			),
@@ -122,12 +122,12 @@ function food_editorial_pages() {
 				'slug' => 'privacidad',
 				'title' => 'Privacidad y cookies',
 				'eyebrow' => 'Información legal',
-				'intro' => 'En esta página reunimos la información sobre privacidad, datos personales y cookies de Pometum para que sea fácil de consultar. Última actualización: 2 de septiembre de 2026.',
+				'intro' => 'En esta página reunimos la información sobre privacidad, datos personales y cookies de Quinnoa para que sea fácil de consultar. Última actualización: 2 de septiembre de 2026.',
 				'sections' => array(
 					array(
 						'title' => 'Responsable y contacto',
 						'paragraphs' => array(
-							'Pometum es la denominación editorial de este sitio. Para cualquier consulta relacionada con privacidad o protección de datos puedes utilizar la página de Contacto.',
+							'Quinnoa es la denominación editorial de este sitio. Para cualquier consulta relacionada con privacidad o protección de datos puedes utilizar la página de Contacto.',
 							'Si el proyecto incorpora monetización u otra actividad económica que exija información identificativa adicional del prestador, esta sección se completará con los datos legalmente exigibles antes de activar dicha actividad.',
 						),
 					),
@@ -148,14 +148,14 @@ function food_editorial_pages() {
 					array(
 						'title' => 'Cookies',
 						'paragraphs' => array(
-							'Pometum puede utilizar cookies técnicas estrictamente necesarias para el funcionamiento, la seguridad y las funciones básicas del sitio. Estas cookies no se utilizan para elaborar perfiles publicitarios.',
+							'Quinnoa puede utilizar cookies técnicas estrictamente necesarias para el funcionamiento, la seguridad y las funciones básicas del sitio. Estas cookies no se utilizan para elaborar perfiles publicitarios.',
 							'Si se incorporan cookies de analítica, publicidad u otros usos no esenciales, se informará de su finalidad y, cuando la normativa lo exija, no se activarán hasta obtener una elección válida del usuario. Las opciones de aceptar y rechazar se ofrecerán con una visibilidad y facilidad equivalentes.',
 						),
 					),
 					array(
 						'title' => 'Publicidad y servicios de Google',
 						'paragraphs' => array(
-							'Pometum podrá utilizar Google AdSense u otros servicios publicitarios para financiar el proyecto. Cuando Google AdSense esté activo, Google y otros proveedores autorizados podrán utilizar cookies, direcciones IP u otros identificadores para servir, limitar y medir anuncios, de acuerdo con la configuración aplicable y las elecciones de privacidad del usuario.',
+							'Quinnoa podrá utilizar Google AdSense u otros servicios publicitarios para financiar el proyecto. Cuando Google AdSense esté activo, Google y otros proveedores autorizados podrán utilizar cookies, direcciones IP u otros identificadores para servir, limitar y medir anuncios, de acuerdo con la configuración aplicable y las elecciones de privacidad del usuario.',
 							'Antes de activar publicidad que requiera consentimiento para usuarios del Espacio Económico Europeo, Reino Unido o Suiza, se implementará el mecanismo de consentimiento exigible y se actualizará esta política con los proveedores y opciones que estén realmente activos.',
 						),
 					),
@@ -171,12 +171,12 @@ function food_editorial_pages() {
 				'slug' => 'privacy',
 				'title' => 'Privacy & cookies',
 				'eyebrow' => 'Legal information',
-				'intro' => 'This page brings together Pometum’s privacy, personal-data and cookie information in one place. Last updated: September 2, 2026.',
+				'intro' => 'This page brings together Quinnoa’s privacy, personal-data and cookie information in one place. Last updated: September 2, 2026.',
 				'sections' => array(
 					array(
 						'title' => 'Controller and contact',
 						'paragraphs' => array(
-							'Pometum is the editorial name of this website. For privacy or data-protection questions, please use the Contact page.',
+							'Quinnoa is the editorial name of this website. For privacy or data-protection questions, please use the Contact page.',
 							'If the project introduces monetization or another economic activity that requires additional provider identification, this section will be completed with the legally required details before that activity is activated.',
 						),
 					),
@@ -197,14 +197,14 @@ function food_editorial_pages() {
 					array(
 						'title' => 'Cookies',
 						'paragraphs' => array(
-							'Pometum may use strictly necessary technical cookies for operation, security and basic site functionality. These cookies are not used to build advertising profiles.',
+							'Quinnoa may use strictly necessary technical cookies for operation, security and basic site functionality. These cookies are not used to build advertising profiles.',
 							'If analytics, advertising or other non-essential cookies are introduced, their purpose will be disclosed and, where required by law, they will not be activated until the user has made a valid choice. Accept and reject options will be presented with equivalent prominence and ease of use.',
 						),
 					),
 					array(
 						'title' => 'Advertising and Google services',
 						'paragraphs' => array(
-							'Pometum may use Google AdSense or other advertising services to support the publication. When Google AdSense is active, Google and authorized vendors may use cookies, IP addresses or other identifiers to serve, limit and measure advertising in accordance with the applicable settings and the user’s privacy choices.',
+							'Quinnoa may use Google AdSense or other advertising services to support the publication. When Google AdSense is active, Google and authorized vendors may use cookies, IP addresses or other identifiers to serve, limit and measure advertising in accordance with the applicable settings and the user’s privacy choices.',
 							'Before advertising that requires consent is enabled for users in the European Economic Area, the United Kingdom or Switzerland, the required consent mechanism will be implemented and this policy will be updated to reflect the providers and options actually in use.',
 						),
 					),
@@ -241,9 +241,9 @@ function food_register_editorial_page_rewrites() {
 		add_rewrite_rule( '^' . preg_quote( $languages['es']['slug'], '#' ) . '/?$', 'index.php?food_editorial_page=' . $key . '&food_lang=es', 'top' );
 		add_rewrite_rule( '^en/' . preg_quote( $languages['en']['slug'], '#' ) . '/?$', 'index.php?food_editorial_page=' . $key . '&food_lang=en', 'top' );
 	}
-	if ( '4' !== get_option( 'food_editorial_pages_rewrite_version' ) ) {
+	if ( '5' !== get_option( 'food_editorial_pages_rewrite_version' ) ) {
 		flush_rewrite_rules( false );
-		update_option( 'food_editorial_pages_rewrite_version', '4' );
+		update_option( 'food_editorial_pages_rewrite_version', '5' );
 	}
 }
 add_action( 'init', 'food_register_editorial_page_rewrites', 99 );
@@ -313,7 +313,7 @@ function food_editorial_page_document_title( $title ) {
 	}
 	$language = function_exists( 'food_current_language' ) ? food_current_language() : 'es';
 	$pages = food_editorial_pages();
-	return isset( $pages[ $key ][ $language ] ) ? $pages[ $key ][ $language ]['title'] . ' | Pometum' : $title;
+	return isset( $pages[ $key ][ $language ] ) ? $pages[ $key ][ $language ]['title'] . ' | Quinnoa' : $title;
 }
 add_filter( 'pre_get_document_title', 'food_editorial_page_document_title', 20 );
 
@@ -351,7 +351,7 @@ function food_handle_contact_form() {
 		wp_safe_redirect( add_query_arg( 'contact', 'error', $current_url ) );
 		exit;
 	}
-	$subject = 'en' === $language ? 'Pometum contact form' : 'Formulario de contacto Pometum';
+	$subject = 'en' === $language ? 'Quinnoa contact form' : 'Formulario de contacto Quinnoa';
 	$body = "Name: {$name}\nEmail: {$email}\nLanguage: {$language}\n\n{$message}";
 	$headers = array( 'Reply-To: ' . $name . ' <' . $email . '>' );
 	$sent = wp_mail( get_option( 'admin_email' ), $subject, $body, $headers );
@@ -359,3 +359,18 @@ function food_handle_contact_form() {
 	exit;
 }
 add_action( 'template_redirect', 'food_handle_contact_form', 8 );
+
+
+/** Redirect the former Spanish About URL after the Quinnoa rebrand. */
+function food_redirect_legacy_about_slug() {
+	if ( is_admin() ) {
+		return;
+	}
+	$path = isset( $_SERVER['REQUEST_URI'] ) ? (string) wp_parse_url( wp_unslash( $_SERVER['REQUEST_URI'] ), PHP_URL_PATH ) : '';
+	$legacy_path = 'sobre-' . 'pometum';
+	if ( trim( $path, '/' ) === $legacy_path ) {
+		wp_safe_redirect( home_url( '/acerca-de/' ), 301 );
+		exit;
+	}
+}
+add_action( 'template_redirect', 'food_redirect_legacy_about_slug', 1 );

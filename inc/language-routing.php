@@ -1,6 +1,6 @@
 <?php
 /**
- * Native bilingual routing for Pometum.
+ * Native bilingual routing for Quinnoa.
  * Spanish is the root language; English lives under /en/.
  *
  * @package FOOD

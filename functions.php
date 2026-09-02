@@ -1,6 +1,6 @@
 <?php
 /**
- * Pometum theme functions.
+ * Quinnoa theme functions.
  *
  * @package FOOD
  */

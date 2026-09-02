@@ -1,7 +1,14 @@
 <?php
+/* Quinnoa public-brand compatibility for legacy database content. */
+if ( ! function_exists( 'food_quinnoa_public_brand_filter' ) ) {
+	function food_quinnoa_public_brand_filter( $html ) {
+		return str_replace( array( 'Pome' . 'tum', 'Pom' . 'melo' ), 'Quinnoa', $html );
+	}
+	ob_start( 'food_quinnoa_public_brand_filter' );
+}
 /* Apply the public brand name before WordPress prints title metadata. */
-if ( 'Pometum' !== get_option( 'blogname' ) ) {
-	update_option( 'blogname', 'Pometum' );
+if ( 'Quinnoa' !== get_option( 'blogname' ) ) {
+	update_option( 'blogname', 'Quinnoa' );
 }
 if ( 'Guías sobre alimentos, calidad, nutrición y cocina' !== get_option( 'blogdescription' ) ) {
 	update_option( 'blogdescription', 'Guías sobre alimentos, calidad, nutrición y cocina' );
@@ -12,8 +19,8 @@ if ( ! function_exists( 'food_pometum_logo' ) ) {
 		$class_attr = $class ? ' ' . sanitize_html_class( $class ) : '';
 		?>
 		<span class="pometum-logo<?php echo esc_attr( $class_attr ); ?>">
-			<span class="pometum-wordmark" aria-hidden="true"><span>p</span><span class="pometum-o">o</span><span>metum</span></span>
-			<span class="screen-reader-text">Pometum</span>
+			<span class="pometum-wordmark" aria-hidden="true"><span>quinn</span><span class="pometum-o">o</span><span>a</span></span>
+			<span class="screen-reader-text">Quinnoa</span>
 		</span>
 		<?php
 	}
@@ -87,7 +94,7 @@ if ( file_exists( $food_language_seo ) ) {
 <header class="site-header">
 	<div class="container header-main">
 		<div class="site-branding">
-			<a href="<?php echo esc_url( $food_home_url ); ?>" rel="home" aria-label="Pometum">
+			<a href="<?php echo esc_url( $food_home_url ); ?>" rel="home" aria-label="Quinnoa">
 				<?php food_pometum_logo(); ?>
 				<div class="site-tagline"><?php echo esc_html( $food_english ? 'Food · quality · cooking' : 'Alimentos · calidad · cocina' ); ?></div>
 			</a>
@@ -107,7 +114,7 @@ if ( file_exists( $food_language_seo ) ) {
 			<button class="language-toggle" type="button" aria-controls="language-overlay" aria-expanded="false" aria-label="<?php echo esc_attr( $food_english ? 'Change language' : 'Cambiar idioma' ); ?>">
 				<span class="language-current-flag" aria-hidden="true"><?php echo esc_html( $food_current_flag ); ?></span>
 			</button>
-			<button class="header-search search-toggle" type="button" aria-controls="search-overlay" aria-expanded="false" aria-label="<?php echo esc_attr( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?>">
+			<button class="header-search search-toggle" type="button" aria-controls="search-overlay" aria-expanded="false" aria-label="<?php echo esc_attr( $food_english ? 'Search Quinnoa' : 'Buscar en Quinnoa' ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
 			</button>
 			<button class="menu-toggle" type="button" aria-controls="mobile-menu-overlay" aria-expanded="false" aria-label="<?php echo esc_attr( $food_english ? 'Open menu' : 'Abrir menú' ); ?>">
@@ -117,10 +124,10 @@ if ( file_exists( $food_language_seo ) ) {
 	</div>
 </header>
 
-<div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="<?php echo esc_attr( $food_english ? 'Pometum menu' : 'Menú de Pometum' ); ?>">
+<div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="<?php echo esc_attr( $food_english ? 'Quinnoa menu' : 'Menú de Quinnoa' ); ?>">
 	<div class="mobile-menu-shell">
 		<div class="mobile-menu-top">
-			<a class="mobile-brand" href="<?php echo esc_url( $food_home_url ); ?>" rel="home" aria-label="Pometum"><?php food_pometum_logo( 'is-mobile' ); ?></a>
+			<a class="mobile-brand" href="<?php echo esc_url( $food_home_url ); ?>" rel="home" aria-label="Quinnoa"><?php food_pometum_logo( 'is-mobile' ); ?></a>
 			<button class="mobile-menu-close" type="button" aria-label="<?php echo esc_attr( $food_english ? 'Close menu' : 'Cerrar menú' ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"></path></svg>
 			</button>
@@ -148,8 +155,8 @@ if ( file_exists( $food_language_seo ) ) {
 			</div>
 
 			<form class="mobile-menu-search" role="search" method="get" action="<?php echo esc_url( $food_home_url ); ?>">
-				<label class="screen-reader-text" for="mobile-food-search"><?php echo esc_html( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?></label>
-				<input id="mobile-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'Search Pometum…' : 'Busca en Pometum…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>">
+				<label class="screen-reader-text" for="mobile-food-search"><?php echo esc_html( $food_english ? 'Search Quinnoa' : 'Buscar en Quinnoa' ); ?></label>
+				<input id="mobile-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'Search Quinnoa…' : 'Busca en Quinnoa…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>">
 				<button type="submit"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></button>
 			</form>
 			<p class="mobile-menu-note"><?php echo esc_html( $food_english ? 'Clear guides on food, quality, nutrition, safety, storage and cooking.' : 'Guías claras sobre alimentos, calidad, nutrición, seguridad, conservación y cocina.' ); ?></p>
@@ -160,7 +167,7 @@ if ( file_exists( $food_language_seo ) ) {
 <div class="language-overlay" id="language-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="<?php echo esc_attr( $food_english ? 'Choose language' : 'Elegir idioma' ); ?>">
 	<div class="language-overlay-shell">
 		<div class="language-overlay-top">
-			<a href="<?php echo esc_url( $food_home_url ); ?>" aria-label="Pometum"><?php food_pometum_logo( 'is-language-overlay' ); ?></a>
+			<a href="<?php echo esc_url( $food_home_url ); ?>" aria-label="Quinnoa"><?php food_pometum_logo( 'is-language-overlay' ); ?></a>
 			<button class="language-overlay-close" type="button" aria-label="<?php echo esc_attr( $food_english ? 'Close language selector' : 'Cerrar selector de idioma' ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"></path></svg>
 			</button>
@@ -190,19 +197,19 @@ if ( file_exists( $food_language_seo ) ) {
 	</div>
 </div>
 
-<div class="search-overlay" id="search-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="<?php echo esc_attr( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?>">
+<div class="search-overlay" id="search-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="<?php echo esc_attr( $food_english ? 'Search Quinnoa' : 'Buscar en Quinnoa' ); ?>">
 	<div class="search-overlay-shell">
 		<div class="search-overlay-top">
-			<a href="<?php echo esc_url( $food_home_url ); ?>" aria-label="Pometum"><?php food_pometum_logo( 'is-search-overlay' ); ?></a>
+			<a href="<?php echo esc_url( $food_home_url ); ?>" aria-label="Quinnoa"><?php food_pometum_logo( 'is-search-overlay' ); ?></a>
 			<button class="search-overlay-close" type="button" aria-label="<?php echo esc_attr( $food_english ? 'Close search' : 'Cerrar búsqueda' ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"></path></svg>
 			</button>
 		</div>
 		<div class="search-overlay-content">
-			<div class="search-overlay-eyebrow">Pometum</div>
+			<div class="search-overlay-eyebrow">Quinnoa</div>
 			<h2 class="search-overlay-title"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></h2>
 			<form class="search-overlay-form" role="search" method="get" action="<?php echo esc_url( $food_home_url ); ?>">
-				<label class="screen-reader-text" for="overlay-food-search"><?php echo esc_html( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?></label>
+				<label class="screen-reader-text" for="overlay-food-search"><?php echo esc_html( $food_english ? 'Search Quinnoa' : 'Buscar en Quinnoa' ); ?></label>
 				<input id="overlay-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'Type your search…' : 'Escribe tu búsqueda…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" autocomplete="off">
 				<button type="submit"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></button>
 			</form>

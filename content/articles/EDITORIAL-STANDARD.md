@@ -1,4 +1,4 @@
-# Pometum editorial standard
+# Quinnoa editorial standard
 
 These rules apply to every article in every language.
 

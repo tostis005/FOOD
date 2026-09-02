@@ -1,6 +1,6 @@
 <?php
 /**
- * Visual identities for the Pommelo editorial taxonomies.
+ * Visual identities for the Quinnoa editorial taxonomies.
  *
  * These SVGs are lightweight interface artwork, not article photography. A
  * post can belong to a food family, an article type, both or neither. When no
@@ -116,7 +116,7 @@ function food_get_post_visual_context( $post_id = 0 ) {
 	return array(
 		'type'  => 'general',
 		'slug'  => 'alimentacion-general',
-		'label' => 'Pommelo',
+		'label' => 'Quinnoa',
 		'class' => 'family-alimentacion-general',
 		'svg'   => food_category_icon_svg( 'alimentacion-general' ),
 	);

@@ -1,5 +1,5 @@
 <?php
-/** English-facing document title localization for the native Pometum language layer. */
+/** English-facing document title localization for the native Quinnoa language layer. */
 if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
@@ -26,7 +26,7 @@ function food_localize_english_document_title( $parts ) {
 	}
 
 	if ( function_exists( 'food_is_english_home_request' ) && food_is_english_home_request() ) {
-		$parts['title']   = 'Pometum';
+		$parts['title']   = 'Quinnoa';
 		$parts['tagline'] = 'Food, quality, nutrition and cooking guides';
 		return $parts;
 	}

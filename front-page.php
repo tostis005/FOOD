@@ -47,13 +47,13 @@ $topic_descriptions_en = array(
 		<div class="hero-main hero-main-v5">
 			<span class="hero-kicker"><?php echo esc_html( $english ? 'Food, quality and cooking' : 'Alimentos, calidad y cocina' ); ?></span>
 			<h1><?php echo esc_html( $english ? 'Better food choices start with better understanding.' : 'Comer mejor empieza por entender mejor.' ); ?></h1>
-			<p><?php echo esc_html( $english ? 'Pometum explains what is behind the food we eat: how to choose it, store it, cook it and compare its quality and composition, with clear practical guidance.' : 'Pometum explica qué hay detrás de los alimentos: cómo elegirlos, conservarlos, cocinarlos y comparar su calidad y composición, con información clara y práctica para el día a día.' ); ?></p>
+			<p><?php echo esc_html( $english ? 'Quinnoa explains what is behind the food we eat: how to choose it, store it, cook it and compare its quality and composition, with clear practical guidance.' : 'Quinnoa explica qué hay detrás de los alimentos: cómo elegirlos, conservarlos, cocinarlos y comparar su calidad y composición, con información clara y práctica para el día a día.' ); ?></p>
 			<form class="hero-search hero-search-v5" role="search" method="get" action="<?php echo esc_url( $language_url ); ?>">
 				<label class="screen-reader-text" for="food-search"><?php echo esc_html( $english ? 'Search' : 'Buscar' ); ?></label>
 				<input id="food-search" type="search" name="s" placeholder="<?php echo esc_attr( $english ? 'Search a food, question or technique…' : 'Busca un alimento, una duda o una técnica…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>">
 				<button type="submit"><?php echo esc_html( $english ? 'Search' : 'Buscar' ); ?></button>
 			</form>
-			<nav class="hero-topic-links" aria-label="<?php echo esc_attr( $english ? 'Explore Pometum' : 'Explorar Pometum' ); ?>">
+			<nav class="hero-topic-links" aria-label="<?php echo esc_attr( $english ? 'Explore Quinnoa' : 'Explorar Quinnoa' ); ?>">
 				<span><?php echo esc_html( $english ? 'Explore' : 'Explora' ); ?></span>
 				<a href="<?php echo esc_url( food_topic_url( 'seguridad-alimentaria', 'Food safety' ) ); ?>"><?php echo esc_html( $english ? 'Food safety' : 'Seguridad alimentaria' ); ?></a>
 				<a href="<?php echo esc_url( food_topic_url( 'nutricion-composicion', 'Nutrition' ) ); ?>"><?php echo esc_html( $english ? 'Nutrition' : 'Nutrición' ); ?></a>
@@ -84,7 +84,7 @@ $topic_descriptions_en = array(
 		<?php else : ?>
 			<div class="home-feature-card home-feature-empty">
 				<div class="home-feature-media has-illustration"><div class="home-feature-illustration family-alimentacion-general"><?php echo food_category_icon_svg( 'alimentacion-general' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div></div>
-				<div class="home-feature-body"><div class="content-dimensions"><span>Pometum</span></div><strong><?php echo esc_html( $english ? 'Useful knowledge for choosing and enjoying food better.' : 'Conocimiento útil para elegir y disfrutar mejor los alimentos.' ); ?></strong><p><?php echo esc_html( $english ? 'Clear guides on quality, nutrition, safety, storage and cooking.' : 'Guías sobre calidad, nutrición, seguridad, conservación y cocina explicadas con claridad.' ); ?></p></div>
+				<div class="home-feature-body"><div class="content-dimensions"><span>Quinnoa</span></div><strong><?php echo esc_html( $english ? 'Useful knowledge for choosing and enjoying food better.' : 'Conocimiento útil para elegir y disfrutar mejor los alimentos.' ); ?></strong><p><?php echo esc_html( $english ? 'Clear guides on quality, nutrition, safety, storage and cooking.' : 'Guías sobre calidad, nutrición, seguridad, conservación y cocina explicadas con claridad.' ); ?></p></div>
 			</div>
 		<?php endif; ?>
 	</div>

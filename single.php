@@ -20,7 +20,7 @@
 		</div>
 		<h1><?php the_title(); ?></h1>
 		<?php if ( has_excerpt() ) : ?><p class="article-deck"><?php echo esc_html( get_the_excerpt() ); ?></p><?php endif; ?>
-		<div class="article-meta"><span><?php echo esc_html( $food_english ? 'Pometum guide' : 'Guía Pometum' ); ?></span><span>·</span><span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span></div>
+		<div class="article-meta"><span><?php echo esc_html( $food_english ? 'Quinnoa guide' : 'Guía Quinnoa' ); ?></span><span>·</span><span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span></div>
 	</header>
 
 	<?php if ( has_post_thumbnail() ) : ?>

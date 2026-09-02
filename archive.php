@@ -21,7 +21,7 @@ $archive_term = ( is_category() || is_tax( 'food_topic' ) ) ? get_queried_object
 				} elseif ( is_category() ) {
 					echo esc_html( $food_english ? 'Guides by food' : 'Guías por alimento' );
 				} else {
-					echo esc_html( $food_english ? 'Pometum archive' : 'Archivo Pometum' );
+					echo esc_html( $food_english ? 'Quinnoa archive' : 'Archivo Quinnoa' );
 				}
 				?>
 			</div>
@@ -45,7 +45,7 @@ $archive_term = ( is_category() || is_tax( 'food_topic' ) ) ? get_queried_object
 			if ( ( is_category() || is_tax( 'food_topic' ) ) && $archive_description && ! $food_english ) : ?>
 				<div class="taxonomy-description"><?php echo wp_kses_post( $archive_description ); ?></div>
 			<?php elseif ( $food_english && $archive_term instanceof WP_Term ) : ?>
-				<div class="taxonomy-description"><p><?php echo esc_html( is_category() ? food_family_display( $archive_term->slug, 'short' ) : 'Practical Pometum guides in this topic, selected for the English edition.' ); ?></p></div>
+				<div class="taxonomy-description"><p><?php echo esc_html( is_category() ? food_family_display( $archive_term->slug, 'short' ) : 'Practical Quinnoa guides in this topic, selected for the English edition.' ); ?></p></div>
 			<?php endif; ?>
 		</div>
 
@@ -66,7 +66,7 @@ $archive_term = ( is_category() || is_tax( 'food_topic' ) ) ? get_queried_object
 		</div>
 		<div class="pagination"><?php the_posts_pagination( array( 'mid_size' => 1, 'prev_text' => $food_english ? '← Previous' : '← Anterior', 'next_text' => $food_english ? 'Next →' : 'Siguiente →' ) ); ?></div>
 	<?php else : ?>
-		<div class="answer-box"><strong><?php echo esc_html( $food_english ? 'No guides here yet' : 'Todavía no hay guías aquí' ); ?></strong><p><?php echo esc_html( $food_english ? 'We are preparing content for this section. You can explore other Pometum guides in the meantime.' : 'Estamos preparando contenido para esta sección. Mientras tanto puedes explorar otras guías de Pometum.' ); ?></p></div>
+		<div class="answer-box"><strong><?php echo esc_html( $food_english ? 'No guides here yet' : 'Todavía no hay guías aquí' ); ?></strong><p><?php echo esc_html( $food_english ? 'We are preparing content for this section. You can explore other Quinnoa guides in the meantime.' : 'Estamos preparando contenido para esta sección. Mientras tanto puedes explorar otras guías de Quinnoa.' ); ?></p></div>
 		<div class="search-panel"><?php get_search_form(); ?></div>
 	<?php endif; ?>
 </div>

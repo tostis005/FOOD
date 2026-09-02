@@ -1,5 +1,5 @@
 /*
- * Pommelo v3 — taxonomy-led visual system.
+ * Quinnoa v3 — taxonomy-led visual system.
  * User-facing copy and visuals are organised around foods and practical needs,
  * while the internal taxonomy mechanics remain invisible to readers.
  */
@@ -14,7 +14,7 @@
   --pommelo-yellow-2: #efd77f;
 }
 
-/* ---------- Brand: make Pommelo unmistakable ---------- */
+/* ---------- Brand: make Quinnoa unmistakable ---------- */
 .header-main {
   min-height: 94px;
 }

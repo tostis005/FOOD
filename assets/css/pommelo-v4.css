@@ -1,5 +1,5 @@
 /*
- * Pommelo v4 — definitive taxonomy visual system.
+ * Quinnoa v4 — definitive taxonomy visual system.
  * 16 food families + 13 article types, with food-first fallback priority.
  */
 
@@ -158,7 +158,7 @@
 .taxonomy-hero-visual .food-family-svg,
 .taxonomy-hero-visual .food-topic-svg { width: 96px; height: 96px; }
 
-/* Mobile menu: warm Pommelo palette, not the old dark panel. */
+/* Mobile menu: warm Quinnoa palette, not the old dark panel. */
 @media (max-width: 960px) {
   .mobile-menu-overlay,
   .mobile-menu-shell {
