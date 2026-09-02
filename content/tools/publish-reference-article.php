@@ -40,14 +40,16 @@ if ( false === $content || '' === trim( $content ) ) {
     exit( 1 );
 }
 
-$category = get_term_by( 'slug', 'carnes', 'category' );
+// The dominant search intent is cooking technique, so this reference article
+// belongs to Cocina rather than to the product family Carnes.
+$category = get_term_by( 'slug', 'cocina', 'category' );
 if ( ! $category ) {
     $created = wp_insert_term(
-        'Carnes',
+        'Cocina',
         'category',
         array(
-            'slug'        => 'carnes',
-            'description' => 'Guías sobre carne: tipos, calidad, conservación, cocina y nutrición práctica.',
+            'slug'        => 'cocina',
+            'description' => 'Técnicas, errores habituales y explicaciones de lo que ocurre cuando cocinamos.',
         )
     );
 
