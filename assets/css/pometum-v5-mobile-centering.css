@@ -1,23 +1,22 @@
 /*
- * Pometum v5 — strict artwork centering and home-card spacing.
+ * Pometum v5 — final category artwork source + reusable article-card spacing.
  *
- * Category cards previously rendered both the inline SVG and a ::after
- * background illustration. Even when they visually overlapped, both boxes
- * participated in layout and shifted the apparent centre to the right.
- * Keep one source of truth: the inline SVG returned by WordPress.
+ * The coloured taxonomy artwork defined by the later illustration layers is
+ * the visual source of truth. The older inline line-SVG remains in markup as a
+ * technical fallback, but is hidden whenever a known food family has a modern
+ * --family-icon. This prevents double rendering while preserving the newest
+ * artwork and centres it inside the full media field.
  */
 
-/* Category artwork: one SVG, one optical centre ------------------------- */
+/* -----------------------------------------------------------------------
+ * Latest taxonomy artwork, centred everywhere
+ * -------------------------------------------------------------------- */
 .food-family-card .food-family-art {
   position: relative !important;
   display: grid !important;
   grid-template-columns: 1fr !important;
   grid-template-rows: 1fr !important;
   place-items: center !important;
-  justify-items: center !important;
-  align-items: center !important;
-  justify-self: stretch !important;
-  align-self: stretch !important;
   width: 100% !important;
   min-width: 0 !important;
   box-sizing: border-box !important;
@@ -25,49 +24,76 @@
   text-align: center !important;
 }
 
-/* Remove legacy decorative/generated artwork. The real inline SVG remains. */
-.food-family-card .food-family-art::before,
-.food-family-card .food-family-art::after {
+.food-family-card .food-family-art::before {
   content: none !important;
   display: none !important;
 }
 
-.food-family-card .food-family-art > svg,
 .food-family-card .food-family-art > .food-family-svg {
+  display: none !important;
+}
+
+.food-family-card .food-family-art::after {
+  content: "" !important;
   display: block !important;
   position: static !important;
   inset: auto !important;
-  justify-self: center !important;
-  align-self: center !important;
   place-self: center !important;
-  width: 108px !important;
-  height: 76px !important;
-  max-width: 72% !important;
-  max-height: 72% !important;
-  margin: auto !important;
+  width: 104px !important;
+  height: 72px !important;
+  max-width: 78% !important;
+  max-height: 74% !important;
+  margin: 0 auto !important;
   padding: 0 !important;
-  translate: none !important;
+  opacity: 1 !important;
+  visibility: visible !important;
   transform: none !important;
-  transform-origin: 50% 50% !important;
-  object-position: 50% 50% !important;
-  overflow: visible !important;
+  background-color: transparent !important;
+  background-image: var(--family-icon) !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50% !important;
+  background-size: contain !important;
 }
 
-/* Latest guides: visible page margin + comfortable card padding ---------- */
-.latest-guides-v5 > .container {
-  box-sizing: border-box !important;
-  width: min(1240px, calc(100% - 64px)) !important;
-  max-width: 1240px !important;
-  margin-left: auto !important;
-  margin-right: auto !important;
-  padding: 36px clamp(28px, 3vw, 46px) 44px !important;
+.family-frutas .food-family-art::after { width: 116px !important; }
+.family-tuberculos .food-family-art::after { width: 110px !important; }
+
+.home-feature-illustration[class*="family-"] > .food-family-svg,
+.discover-illustration[class*="family-"] > .food-family-svg,
+.card-placeholder-illustrated[class*="family-"] > .food-family-svg,
+.taxonomy-hero-visual[class*="family-"] > .food-family-svg,
+.article-hero-fallback[class*="family-"] > .food-family-svg {
+  display: none !important;
 }
 
-.latest-guides-v5 .section-head-v5 {
-  margin: 0 0 28px !important;
+.home-feature-illustration[class*="family-"]::after,
+.discover-illustration[class*="family-"]::after,
+.card-placeholder-illustrated[class*="family-"]::after,
+.taxonomy-hero-visual[class*="family-"]::after,
+.article-hero-fallback[class*="family-"]::after {
+  content: "" !important;
+  display: block !important;
+  position: static !important;
+  inset: auto !important;
+  width: min(190px, 48%) !important;
+  height: min(132px, 58%) !important;
+  margin: auto !important;
+  transform: none !important;
+  background-image: var(--family-icon) !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50% !important;
+  background-size: contain !important;
 }
 
-.latest-guides-v5 .card-grid {
+.article-hero-fallback[class*="family-"]::after {
+  width: min(220px, 46%) !important;
+  height: min(154px, 58%) !important;
+}
+
+/* -----------------------------------------------------------------------
+ * One article-card system on home, archives, search and related content
+ * -------------------------------------------------------------------- */
+.card-grid {
   display: grid !important;
   grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
   gap: 28px 22px !important;
@@ -78,7 +104,7 @@
   box-sizing: border-box !important;
 }
 
-.latest-guides-v5 .post-card {
+.card-grid .post-card {
   min-width: 0 !important;
   width: 100% !important;
   overflow: hidden !important;
@@ -88,25 +114,49 @@
   box-sizing: border-box !important;
 }
 
-.latest-guides-v5 .post-card > a {
+.card-grid .post-card > a {
   display: block !important;
   width: 100% !important;
 }
 
-.latest-guides-v5 .card-media {
+.card-grid .card-media {
   width: 100% !important;
   margin: 0 !important;
   border: 0 !important;
   border-radius: 0 !important;
 }
 
-.latest-guides-v5 .card-body {
+.card-grid .card-body {
   box-sizing: border-box !important;
   padding: 18px 20px 22px !important;
 }
 
+.latest-guides-v5 > .container {
+  box-sizing: border-box !important;
+  width: min(1240px, calc(100% - 64px)) !important;
+  max-width: 1240px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding: 36px clamp(28px, 3vw, 46px) 44px !important;
+}
+.latest-guides-v5 .section-head-v5 { margin: 0 0 28px !important; }
+
+.archive-wrap,
+.related > .container {
+  box-sizing: border-box !important;
+  width: min(1240px, calc(100% - 64px)) !important;
+  max-width: 1240px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.archive-wrap > .card-grid,
+.related .card-grid {
+  margin-top: 8px !important;
+}
+
 @media (max-width: 1080px) {
-  .latest-guides-v5 .card-grid {
+  .card-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
   }
 }
@@ -117,48 +167,58 @@
     padding: 7px !important;
   }
 
-  .food-family-card .food-family-art > svg,
-  .food-family-card .food-family-art > .food-family-svg {
+  .food-family-card .food-family-art::after {
     width: 68px !important;
-    height: 58px !important;
+    height: 56px !important;
     max-width: 76% !important;
     max-height: 76% !important;
   }
+  .family-frutas .food-family-art::after,
+  .family-tuberculos .food-family-art::after {
+    width: 72px !important;
+    height: 56px !important;
+  }
 
-  .latest-guides-v5 > .container {
+  .latest-guides-v5 > .container,
+  .archive-wrap,
+  .related > .container {
     width: calc(100% - 28px) !important;
     margin-left: 14px !important;
     margin-right: 14px !important;
+  }
+
+  .latest-guides-v5 > .container {
     padding: 26px 18px 32px !important;
   }
 
-  .latest-guides-v5 .card-body {
+  .card-grid .card-body {
     padding: 17px 18px 20px !important;
   }
 }
 
 @media (max-width: 700px) {
-  .latest-guides-v5 .card-grid {
+  .card-grid {
     grid-template-columns: 1fr !important;
     gap: 18px !important;
   }
 }
 
 @media (max-width: 430px) {
-  .food-family-card .food-family-art > svg,
-  .food-family-card .food-family-art > .food-family-svg {
+  .food-family-card .food-family-art::after {
     width: 64px !important;
-    height: 56px !important;
-    max-width: 76% !important;
-    max-height: 76% !important;
+    height: 54px !important;
+  }
+  .family-frutas .food-family-art::after,
+  .family-tuberculos .food-family-art::after {
+    width: 70px !important;
+    height: 54px !important;
   }
 
   .latest-guides-v5 > .container {
-    width: calc(100% - 28px) !important;
     padding: 22px 14px 26px !important;
   }
 
-  .latest-guides-v5 .card-body {
+  .card-grid .card-body {
     padding: 16px 16px 19px !important;
   }
 }
