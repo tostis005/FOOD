@@ -1,0 +1,198 @@
+/*
+ * Pommelo v5 icon refinement.
+ * Restores the clearer, object-based illustrated pictogram language while
+ * keeping the definitive 16 + 13 taxonomy architecture unchanged.
+ */
+
+:root {
+  --pommelo-icon-shadow: drop-shadow(0 8px 10px rgba(38, 56, 62, .10));
+}
+
+/* Food-family artwork: use recognisable coloured objects instead of line icons. */
+.food-family-art > .food-family-svg,
+.home-feature-illustration[class*="family-"] > .food-family-svg,
+.discover-illustration[class*="family-"] > .food-family-svg,
+.card-placeholder.card-placeholder-illustrated[class*="family-"] > .food-family-svg,
+.article-hero-fallback[class*="family-"] > .food-family-svg,
+.taxonomy-hero-visual[class*="family-"] > .food-family-svg {
+  display: none !important;
+}
+
+.food-family-art::after,
+.home-feature-illustration[class*="family-"]::after,
+.discover-illustration[class*="family-"]::after,
+.card-placeholder.card-placeholder-illustrated[class*="family-"]::after,
+.article-hero-fallback[class*="family-"]::after,
+.taxonomy-hero-visual[class*="family-"]::after {
+  content: "" !important;
+  display: block !important;
+  position: static !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: var(--family-icon) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  filter: var(--pommelo-icon-shadow);
+}
+
+.food-family-art::after {
+  width: 94px !important;
+  height: 76px !important;
+  max-width: 78% !important;
+  max-height: 76% !important;
+}
+
+.home-feature-illustration[class*="family-"]::after,
+.discover-illustration[class*="family-"]::after {
+  width: min(220px, 56%) !important;
+  height: min(165px, 56%) !important;
+}
+
+.card-placeholder.card-placeholder-illustrated[class*="family-"]::after {
+  width: min(150px, 54%) !important;
+  height: min(112px, 54%) !important;
+}
+
+.article-hero-fallback[class*="family-"]::after {
+  width: min(270px, 56vw) !important;
+  height: min(200px, 42vw) !important;
+}
+
+.taxonomy-hero-visual[class*="family-"]::after {
+  width: 132px !important;
+  height: 100px !important;
+}
+
+/* The four strongest previous pictograms remain exactly in the visual language
+ * the site already used: Carnes, Pescados, Frutas and Huevos inherit their
+ * existing --family-icon definitions from food-v6.css. */
+
+.family-alimentacion-general { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Ccircle%20cx='48'%20cy='36'%20r='25'%20fill='%23fff7ef'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Ccircle%20cx='48'%20cy='36'%20r='15'%20fill='%23f7d9c9'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3Cpath%20d='M16%2015v42M12%2015v13c0%205%208%205%208%200V15'%20fill='none'%20stroke='%2326383e'%20stroke-width='2.5'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M80%2015v42M75%2015c8%206%208%2016%205%2023'%20fill='none'%20stroke='%2326383e'%20stroke-width='2.5'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M39%2031c5-5%2010-5%2015%200-2%207-6%2011-8%2011s-6-4-7-11Z'%20fill='%237fa56b'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3Ccircle%20cx='57'%20cy='31'%20r='5'%20fill='%23ef7865'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3C/svg%3E"); }
+
+.family-lacteos-quesos { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M17%2018h24l4%2010v34H13V28l4-10Z'%20fill='%23fffaf2'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M21%208h16v10H21Z'%20fill='%23dbe9ee'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M19%2036h20v16H19Z'%20fill='%23dcebf0'/%3E%0A%3Cpath%20d='M52%2057%2059%2031l27%207-7%2023H52Z'%20fill='%23efc84f'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='m59%2031%2018-10%209%2017-27-7Z'%20fill='%23f6dc76'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Ccircle%20cx='68'%20cy='45'%20r='3.5'%20fill='%23fff2a5'%20stroke='%2326383e'%20stroke-width='1.7'/%3E%0A%3Ccircle%20cx='76'%20cy='53'%20r='3'%20fill='%23fff2a5'%20stroke='%2326383e'%20stroke-width='1.7'/%3E%0A%3C/svg%3E"); }
+
+.family-legumbres-soja { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M15%2037h65c-2%2017-14%2027-32%2027S18%2054%2015%2037Z'%20fill='%23d3a66d'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M13%2037h69'%20fill='none'%20stroke='%2326383e'%20stroke-width='2.5'%20stroke-linecap='round'/%3E%0A%3Cellipse%20cx='30'%20cy='29'%20rx='7'%20ry='5'%20fill='%23b9784c'%20stroke='%2326383e'%20stroke-width='1.8'%20transform='rotate(-20%2030%2029)'/%3E%0A%3Cellipse%20cx='48'%20cy='27'%20rx='7'%20ry='5'%20fill='%23d9bf80'%20stroke='%2326383e'%20stroke-width='1.8'%20transform='rotate(16%2048%2027)'/%3E%0A%3Cellipse%20cx='66'%20cy='30'%20rx='7'%20ry='5'%20fill='%238ca35b'%20stroke='%2326383e'%20stroke-width='1.8'%20transform='rotate(-10%2066%2030)'/%3E%0A%3Cpath%20d='M57%2013c9-6%2018-4%2024%202-5%207-12%2010-22%207'%20fill='%237fa56b'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3Cpath%20d='M59%2022c6-2%2012-2%2018%201'%20fill='none'%20stroke='%2326383e'%20stroke-width='1.8'%20stroke-linecap='round'/%3E%0A%3C/svg%3E"); }
+
+.family-frutos-secos-semillas { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M17%2018c12-7%2025%202%2023%2016-2%2013-12%2026-23%2026-10%200-16-10-12-21%203-10%206-17%2012-21Z'%20fill='%23c99762'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M23%2020c4%2010%203%2024-2%2036M12%2034c8%202%2016%206%2023%2012'%20fill='none'%20stroke='%237b5738'%20stroke-width='2'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M53%2016c9%200%2016%209%2013%2018-3%2010-13%2017-21%2012-7-4-6-14%200-21%203-5%205-9%208-9Z'%20fill='%23e1b77b'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M52%2020c2%208%201%2015-3%2022'%20fill='none'%20stroke='%238a623d'%20stroke-width='1.8'/%3E%0A%3Cellipse%20cx='74'%20cy='48'%20rx='5'%20ry='8'%20fill='%236e8755'%20stroke='%2326383e'%20stroke-width='1.8'%20transform='rotate(25%2074%2048)'/%3E%0A%3Cellipse%20cx='84'%20cy='40'%20rx='4'%20ry='7'%20fill='%23d4b36b'%20stroke='%2326383e'%20stroke-width='1.8'%20transform='rotate(-18%2084%2040)'/%3E%0A%3C/svg%3E"); }
+
+.family-cereales-pseudocereales-derivados { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M12%2034c0-11%2010-20%2025-20s25%209%2025%2020v25H12V34Z'%20fill='%23d6a859'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M23%2031c4-5%208-8%2012-10M38%2032c4-5%208-8%2012-10'%20fill='none'%20stroke='%23fff1c5'%20stroke-width='3'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M76%2064V14'%20fill='none'%20stroke='%2326383e'%20stroke-width='2.2'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M76%2024c-8%200-13-4-15-10%208%200%2013%204%2015%2010ZM76%2038c8%200%2013-4%2015-10-8%200-13%204-15%2010ZM76%2051c-8%200-13-4-15-10%208%200%2013%204%2015%2010Z'%20fill='%23e6bb5d'%20stroke='%2326383e'%20stroke-width='1.8'/%3E%0A%3C/svg%3E"); }
+
+.family-tuberculos { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M16%2038c0-14%2012-25%2029-25%2015%200%2027%209%2027%2022%200%2016-14%2028-31%2028-14%200-25-9-25-25Z'%20fill='%23c89a6b'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Ccircle%20cx='32'%20cy='30'%20r='2.1'%20fill='%237b5c43'/%3E%0A%3Ccircle%20cx='51'%20cy='25'%20r='2.1'%20fill='%237b5c43'/%3E%0A%3Ccircle%20cx='55'%20cy='44'%20r='2.1'%20fill='%237b5c43'/%3E%0A%3Cpath%20d='M34%2014c-1-6%202-10%207-13M57%2016c3-5%207-7%2012-6'%20fill='none'%20stroke='%2326383e'%20stroke-width='2.2'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M42%209c7-5%2013-5%2018-1-4%206-10%208-17%205Z'%20fill='%2378945f'%20stroke='%2326383e'%20stroke-width='1.8'/%3E%0A%3C/svg%3E"); }
+
+.family-verduras-hortalizas-setas { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M42%2027%2031%2065c-1%205%205%207%208%203%2011-12%2019-26%2020-42L42%2027Z'%20fill='%23e68a47'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M43%2027C32%2023%2026%2016%2026%207c10%201%2017%206%2021%2015%201-10%207-17%2017-20%202%2011-2%2020-12%2028'%20fill='%237ca466'%20stroke='%2326383e'%20stroke-width='2.2'/%3E%0A%3Cpath%20d='M61%2039c2-9%208-14%2016-14s14%205%2016%2014H61Z'%20fill='%23d9b998'%20stroke='%2326383e'%20stroke-width='2.4'/%3E%0A%3Cpath%20d='M70%2039v21h14V39'%20fill='%23f1d7b8'%20stroke='%2326383e'%20stroke-width='2.4'/%3E%0A%3Cpath%20d='M70%2048h14'%20stroke='%23b98d67'%20stroke-width='1.8'/%3E%0A%3C/svg%3E"); }
+
+.family-aceites-grasas { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M25%2017h28l6%2012v33H19V29l6-12Z'%20fill='%23d9b84f'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M30%206h18v11H30Z'%20fill='%23f4e7a5'%20stroke='%2326383e'%20stroke-width='2.2'/%3E%0A%3Cpath%20d='M26%2038h26'%20stroke='%23fff7cf'%20stroke-width='3'%20opacity='.9'/%3E%0A%3Cpath%20d='M75%2020c8%2011%2013%2018%2013%2025%200%208-6%2014-13%2014s-13-6-13-14c0-7%205-14%2013-25Z'%20fill='%23e9c85f'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M70%2045c3%203%207%204%2011%201'%20fill='none'%20stroke='%23fff7cf'%20stroke-width='2'%20stroke-linecap='round'/%3E%0A%3C/svg%3E"); }
+
+.family-bebidas { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M18%2013h24l4%2010v39H14V23l4-10Z'%20fill='%239dc8d3'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M21%205h18v8H21Z'%20fill='%23d9eff3'%20stroke='%2326383e'%20stroke-width='2.2'/%3E%0A%3Cpath%20d='M19%2035h22v18H19Z'%20fill='%23d7edf0'/%3E%0A%3Cpath%20d='M57%2027h26l-3%2031H60l-3-31Z'%20fill='%23fffaf3'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M59%2043h22l-1%2015H60l-1-15Z'%20fill='%23efb65d'/%3E%0A%3Cpath%20d='M63%2027%2071%2012'%20fill='none'%20stroke='%2326383e'%20stroke-width='2.4'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M55%2027h30'%20stroke='%2326383e'%20stroke-width='2.4'/%3E%0A%3C/svg%3E"); }
+
+.family-chocolate-cacao-dulces { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Crect%20x='10'%20y='13'%20width='43'%20height='47'%20rx='3'%20fill='%238b5b47'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M24%2013v47M39%2013v47M10%2029h43M10%2045h43'%20stroke='%23d9b095'%20stroke-width='2'/%3E%0A%3Cpath%20d='M67%2017c13%204%2020%2015%2016%2027-4%2012-17%2018-28%2012%2011-7%2015-19%2012-39Z'%20fill='%23c57955'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M68%2022c4%209%203%2019-3%2028'%20fill='none'%20stroke='%23f0b88f'%20stroke-width='2.2'%20stroke-linecap='round'/%3E%0A%3Cellipse%20cx='78'%20cy='56'%20rx='6'%20ry='4'%20fill='%236a4638'%20stroke='%2326383e'%20stroke-width='1.8'%20transform='rotate(-18%2078%2056)'/%3E%0A%3C/svg%3E"); }
+
+.family-fermentados { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M20%2018h56l-4%2045H24l-4-45Z'%20fill='%23d9e2c2'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M17%2018h62v-9H17Z'%20fill='%23c9a879'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M29%2035c9-7%2016%205%2025-1s14%203%2018%207'%20fill='none'%20stroke='%236d8b58'%20stroke-width='4'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M31%2049c7-5%2013%204%2021-1s12%202%2017%205'%20fill='none'%20stroke='%23d99059'%20stroke-width='4'%20stroke-linecap='round'/%3E%0A%3Ccircle%20cx='35'%20cy='28'%20r='3'%20fill='%23fff6df'%20stroke='%2326383e'%20stroke-width='1.5'/%3E%0A%3Ccircle%20cx='58'%20cy='29'%20r='2.6'%20fill='%23fff6df'%20stroke='%2326383e'%20stroke-width='1.5'/%3E%0A%3Ccircle%20cx='49'%20cy='42'%20r='2.2'%20fill='%23fff6df'%20stroke='%2326383e'%20stroke-width='1.4'/%3E%0A%3C/svg%3E"); }
+
+.family-algas-especias-otros-alimentos { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M28%2064c-5-17-3-33%205-49M33%2040c-10-5-15-13-15-24%2011%203%2017%2011%2015%2024ZM37%2048c11-7%2018-16%2020-28%208%2012%203%2025-20%2028Z'%20fill='%236f9c73'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M58%2048h27c-1%2010-6%2015-14%2015s-12-5-13-15Z'%20fill='%23c99762'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M60%2048h23'%20stroke='%2326383e'%20stroke-width='2.2'/%3E%0A%3Cpath%20d='m69%2027%203%207%207-3-4%206%206%204-8-1-1%208-3-7-7%203%204-6-6-4%208%201%201-8Z'%20fill='%23d26d55'%20stroke='%2326383e'%20stroke-width='1.8'/%3E%0A%3C/svg%3E"); }
+
+.family-general { --family-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Ccircle%20cx='48'%20cy='36'%20r='25'%20fill='%23fff7ef'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Ccircle%20cx='48'%20cy='36'%20r='15'%20fill='%23f7d9c9'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3Cpath%20d='M16%2015v42M12%2015v13c0%205%208%205%208%200V15'%20fill='none'%20stroke='%2326383e'%20stroke-width='2.5'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M80%2015v42M75%2015c8%206%208%2016%205%2023'%20fill='none'%20stroke='%2326383e'%20stroke-width='2.5'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M39%2031c5-5%2010-5%2015%200-2%207-6%2011-8%2011s-6-4-7-11Z'%20fill='%237fa56b'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3Ccircle%20cx='57'%20cy='31'%20r='5'%20fill='%23ef7865'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3C/svg%3E"); }
+
+/* Article-type artwork: concrete metaphors instead of abstract line symbols. */
+.topic-card-art > .food-topic-svg,
+.home-feature-illustration[class*="topic-"] > .food-topic-svg,
+.discover-illustration[class*="topic-"] > .food-topic-svg,
+.card-placeholder.card-placeholder-illustrated[class*="topic-"] > .food-topic-svg,
+.article-hero-fallback[class*="topic-"] > .food-topic-svg,
+.taxonomy-hero-visual[class*="topic-"] > .food-topic-svg {
+  display: none !important;
+}
+
+.topic-card-art::after,
+.home-feature-illustration[class*="topic-"]::after,
+.discover-illustration[class*="topic-"]::after,
+.card-placeholder.card-placeholder-illustrated[class*="topic-"]::after,
+.article-hero-fallback[class*="topic-"]::after,
+.taxonomy-hero-visual[class*="topic-"]::after {
+  content: "" !important;
+  display: block !important;
+  position: static !important;
+  border: 0 !important;
+  border-radius: 0 !important;
+  background-color: transparent !important;
+  background-image: var(--topic-icon) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  filter: var(--pommelo-icon-shadow);
+}
+
+.topic-card-art::after {
+  width: 84px !important;
+  height: 66px !important;
+  max-width: 82% !important;
+}
+
+.home-feature-illustration[class*="topic-"]::after,
+.discover-illustration[class*="topic-"]::after {
+  width: min(210px, 54%) !important;
+  height: min(158px, 54%) !important;
+}
+
+.card-placeholder.card-placeholder-illustrated[class*="topic-"]::after {
+  width: min(142px, 52%) !important;
+  height: min(108px, 52%) !important;
+}
+
+.article-hero-fallback[class*="topic-"]::after {
+  width: min(250px, 54vw) !important;
+  height: min(188px, 41vw) !important;
+}
+
+.taxonomy-hero-visual[class*="topic-"]::after {
+  width: 126px !important;
+  height: 94px !important;
+}
+
+.topic-nutricion-composicion { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Crect%20x='14'%20y='10'%20width='68'%20height='52'%20rx='5'%20fill='%23fffaf3'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Ccircle%20cx='37'%20cy='36'%20r='15'%20fill='%23f2d7cd'%20stroke='%2326383e'%20stroke-width='2.1'/%3E%0A%3Cpath%20d='M37%2021v15h15'%20fill='%23ef7865'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3Cpath%20d='M59%2024h14M59%2033h14M59%2042h10M23%2056h50'%20stroke='%2326383e'%20stroke-width='2'%20stroke-linecap='round'/%3E%0A%3C/svg%3E"); }
+
+.topic-rankings-mejores-fuentes { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M14%2057h68'%20stroke='%2326383e'%20stroke-width='2.6'%20stroke-linecap='round'/%3E%0A%3Crect%20x='18'%20y='39'%20width='18'%20height='18'%20rx='2'%20fill='%23e9c56c'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Crect%20x='39'%20y='25'%20width='18'%20height='32'%20rx='2'%20fill='%23ef7865'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Crect%20x='60'%20y='33'%20width='18'%20height='24'%20rx='2'%20fill='%2391a486'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='m48%208%203%206%207%201-5%205%201%207-6-3-6%203%201-7-5-5%207-1%203-6Z'%20fill='%23efd77f'%20stroke='%2326383e'%20stroke-width='1.8'/%3E%0A%3C/svg%3E"); }
+
+.topic-comparativas { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M48%2013v44M19%2022h58M25%2022l-11%2022h22L25%2022ZM71%2022%2060%2044h22L71%2022Z'%20fill='none'%20stroke='%2326383e'%20stroke-width='2.5'%20stroke-linejoin='round'/%3E%0A%3Cpath%20d='M12%2044h26c-2%207-7%2011-13%2011S14%2051%2012%2044ZM58%2044h26c-2%207-7%2011-13%2011s-11-4-13-11Z'%20fill='%23dfeadd'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3Ccircle%20cx='48'%20cy='12'%20r='4'%20fill='%23ef7865'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3C/svg%3E"); }
+
+.topic-seguridad-alimentaria { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M48%207%2076%2017v20c0%2017-11%2028-28%2035-17-7-28-18-28-35V17L48%207Z'%20fill='%23dcebdc'%20stroke='%2326383e'%20stroke-width='2.6'/%3E%0A%3Cpath%20d='m34%2038%209%209%2019-22'%20fill='none'%20stroke='%234f7758'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'/%3E%0A%3C/svg%3E"); }
+
+.topic-conservacion-almacenamiento { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Crect%20x='25'%20y='8'%20width='46'%20height='57'%20rx='4'%20fill='%23dcebf0'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M25%2031h46M48%2031v34'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M34%2018h8M54%2018h8'%20stroke='%23507887'%20stroke-width='3'%20stroke-linecap='round'/%3E%0A%3Crect%20x='52'%20y='40'%20width='12'%20height='15'%20rx='2'%20fill='%23fffaf3'%20stroke='%2326383e'%20stroke-width='1.8'/%3E%0A%3C/svg%3E"); }
+
+.topic-congelacion-descongelacion { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Ccircle%20cx='35'%20cy='36'%20r='22'%20fill='%23dcecf5'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M35%2018v36M19%2027l32%2018M19%2045l32-18M29%2021l6%206%206-6M29%2051l6-6%206%206'%20fill='none'%20stroke='%234c7691'%20stroke-width='2.6'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M72%2020c8%2011%2012%2017%2012%2024%200%207-5%2012-12%2012s-12-5-12-12c0-7%204-13%2012-24Z'%20fill='%239cc9dc'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3C/svg%3E"); }
+
+.topic-cocina-ciencia-alimentos { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M12%2036h44v18H12Z'%20fill='%23d98961'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M18%2036c2-10%209-16%2016-16s14%206%2016%2016'%20fill='%23f3d3bf'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M28%2014h12M34%2014v6'%20stroke='%2326383e'%20stroke-width='2.4'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M70%2010v29c0%205-6%208-6%2015a10%2010%200%200%200%2020%200c0-7-6-10-6-15V10H70Z'%20fill='%23fffaf3'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M74%2019h4v27c4%202%205%205%205%208a7%207%200%200%201-14%200c0-3%201-6%205-8V19Z'%20fill='%23ef7865'/%3E%0A%3C/svg%3E"); }
+
+.topic-preparacion-tecnicas-cocina { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Crect%20x='10'%20y='39'%20width='72'%20height='25'%20rx='4'%20fill='%23d8b38a'%20stroke='%2326383e'%20stroke-width='2.4'/%3E%0A%3Cpath%20d='m26%2043%2037-34%208%208-37%2034Z'%20fill='%23cdd6d8'%20stroke='%2326383e'%20stroke-width='2.4'/%3E%0A%3Cpath%20d='m59%2013%208%208'%20stroke='%23fff'%20stroke-width='2'%20opacity='.8'/%3E%0A%3Cpath%20d='M17%2023c8%202%2013%206%2016%2013M14%2015l7%207M10%2022l7%207'%20fill='none'%20stroke='%236f9c73'%20stroke-width='3'%20stroke-linecap='round'/%3E%0A%3C/svg%3E"); }
+
+.topic-salud-consumo-habitual { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Ccircle%20cx='48'%20cy='36'%20r='27'%20fill='%23f7e5ea'%20stroke='%2326383e'%20stroke-width='2.4'/%3E%0A%3Cpath%20d='M29%2031c0-10%2013-13%2019-4%206-9%2019-6%2019%204%200%2012-19%2024-19%2024S29%2043%2029%2031Z'%20fill='%23df6e68'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M17%2036h10M69%2036h10'%20stroke='%2326383e'%20stroke-width='2.2'%20stroke-linecap='round'/%3E%0A%3C/svg%3E"); }
+
+.topic-conceptos-nutricion { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M10%2014h31c5%200%208%203%208%208v42c0-6-4-10-10-10H10V14Z'%20fill='%23e9e4f2'%20stroke='%2326383e'%20stroke-width='2.4'/%3E%0A%3Cpath%20d='M86%2014H55c-5%200-8%203-8%208v42c0-6%204-10%2010-10h29V14Z'%20fill='%23f5f1fa'%20stroke='%2326383e'%20stroke-width='2.4'/%3E%0A%3Cpath%20d='M19%2026h16M19%2035h16M60%2026h16M60%2035h16'%20stroke='%236d6385'%20stroke-width='2.2'%20stroke-linecap='round'/%3E%0A%3Ccircle%20cx='48'%20cy='24'%20r='5'%20fill='%23ef7865'%20stroke='%2326383e'%20stroke-width='1.8'/%3E%0A%3C/svg%3E"); }
+
+.topic-mitos-preguntas-frecuentes { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M12%2012h72v43H51L34%2067V55H12V12Z'%20fill='%23f4e6ed'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M34%2026c1-9%2019-10%2020%200%201%208-10%208-10%2017'%20fill='none'%20stroke='%23915d73'%20stroke-width='3.2'%20stroke-linecap='round'/%3E%0A%3Ccircle%20cx='44'%20cy='49'%20r='2.5'%20fill='%23915d73'/%3E%0A%3Cpath%20d='m64%2025%205%205%2010-11'%20fill='none'%20stroke='%235f8a68'%20stroke-width='3'%20stroke-linecap='round'/%3E%0A%3C/svg%3E"); }
+
+.topic-procesamiento-produccion-elaboracion { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M12%2034h25v29H12Z'%20fill='%23dfd6c4'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M37%2043%2051%2033v10l14-10v10l18-10v30H37Z'%20fill='%23c7b797'%20stroke='%2326383e'%20stroke-width='2.3'/%3E%0A%3Cpath%20d='M18%2026V12h11v22'%20fill='%23e9e4d9'%20stroke='%2326383e'%20stroke-width='2.2'/%3E%0A%3Ccircle%20cx='28'%20cy='48'%20r='8'%20fill='%23efd77f'%20stroke='%2326383e'%20stroke-width='2'/%3E%0A%3Cpath%20d='M28%2037v4M28%2055v4M17%2048h4M35%2048h4M20%2040l3%203M33%2053l3%203M20%2056l3-3M33%2043l3-3'%20stroke='%2326383e'%20stroke-width='1.8'/%3E%0A%3C/svg%3E"); }
+
+.topic-compra-calidad-maduracion { --topic-icon: url("data:image/svg+xml,%3Csvg%20xmlns='http%3A//www.w3.org/2000/svg'%20viewBox='0%200%2096%2072'%3E%0A%3Cpath%20d='M16%2028h54l-6%2034H22l-6-34Z'%20fill='%23efd9ad'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Cpath%20d='M28%2028c0-10%208-18%2015-18s15%208%2015%2018'%20fill='none'%20stroke='%2326383e'%20stroke-width='2.5'/%3E%0A%3Ccircle%20cx='69'%20cy='26'%20r='15'%20fill='%23f0d9dd'%20stroke='%2326383e'%20stroke-width='2.2'/%3E%0A%3Cpath%20d='m62%2026%205%205%209-11'%20fill='none'%20stroke='%235f8a68'%20stroke-width='3'%20stroke-linecap='round'/%3E%0A%3Cpath%20d='M36%2039c10-7%2019%201%2018%2010-1%208-7%2013-14%2013s-13-6-13-14c0-6%204-11%209-9Z'%20fill='%23ef7865'%20stroke='%2326383e'%20stroke-width='1.8'/%3E%0A%3C/svg%3E"); }
+
+@media (max-width: 620px) {
+  .food-family-art::after {
+    width: 76px !important;
+    height: 58px !important;
+    max-width: 78% !important;
+    max-height: 72% !important;
+  }
+
+  .topic-card-art::after {
+    width: 72px !important;
+    height: 56px !important;
+  }
+
+  .taxonomy-hero-visual[class*="family-"]::after,
+  .taxonomy-hero-visual[class*="topic-"]::after {
+    width: 112px !important;
+    height: 84px !important;
+  }
+}
