@@ -47,7 +47,7 @@ $topic_descriptions_en = array(
 		<div class="hero-main hero-main-v5">
 			<span class="hero-kicker"><?php echo esc_html( $english ? 'Food, quality and cooking' : 'Alimentos, calidad y cocina' ); ?></span>
 			<h1><?php echo esc_html( $english ? 'Better food choices start with better understanding.' : 'Comer mejor empieza por entender mejor.' ); ?></h1>
-			<p><?php echo esc_html( $english ? 'Quinnoa explains what is behind the food we eat: how to choose it, store it, cook it and compare its quality and composition, with clear practical guidance.' : 'Quinnoa explica qué hay detrás de los alimentos: cómo elegirlos, conservarlos, cocinarlos y comparar su calidad y composición, con información clara y práctica para el día a día.' ); ?></p>
+			<p><?php echo esc_html( $english ? 'Quinnoa explains what is behind the food we eat: how to choose it, store it, cook it and compare its quality and composition, with clear practical information.' : 'Quinnoa explica qué hay detrás de los alimentos: cómo elegirlos, conservarlos, cocinarlos y comparar su calidad y composición, con información clara y práctica para el día a día.' ); ?></p>
 			<form class="hero-search hero-search-v5" role="search" method="get" action="<?php echo esc_url( $language_url ); ?>">
 				<label class="screen-reader-text" for="food-search"><?php echo esc_html( $english ? 'Search' : 'Buscar' ); ?></label>
 				<input id="food-search" type="search" name="s" placeholder="<?php echo esc_attr( $english ? 'Search a food, question or technique…' : 'Busca un alimento, una duda o una técnica…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>">
@@ -78,13 +78,13 @@ $topic_descriptions_en = array(
 					</div>
 					<strong><?php echo esc_html( get_the_title( $feature_id ) ); ?></strong>
 					<p><?php echo esc_html( wp_trim_words( get_the_excerpt( $feature_id ), 20 ) ); ?></p>
-					<span class="feature-read"><?php echo esc_html( $english ? 'Featured guide' : 'Lectura destacada' ); ?> <span aria-hidden="true">↗</span></span>
+					<span class="feature-read"><?php echo esc_html( $english ? 'Featured article' : 'Artículo destacado' ); ?> <span aria-hidden="true">↗</span></span>
 				</div>
 			</a>
 		<?php else : ?>
 			<div class="home-feature-card home-feature-empty">
 				<div class="home-feature-media has-illustration"><div class="home-feature-illustration family-alimentacion-general"><?php echo food_category_icon_svg( 'alimentacion-general' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div></div>
-				<div class="home-feature-body"><div class="content-dimensions"><span>Quinnoa</span></div><strong><?php echo esc_html( $english ? 'Useful knowledge for choosing and enjoying food better.' : 'Conocimiento útil para elegir y disfrutar mejor los alimentos.' ); ?></strong><p><?php echo esc_html( $english ? 'Clear guides on quality, nutrition, safety, storage and cooking.' : 'Guías sobre calidad, nutrición, seguridad, conservación y cocina explicadas con claridad.' ); ?></p></div>
+				<div class="home-feature-body"><div class="content-dimensions"><span>Quinnoa</span></div><strong><?php echo esc_html( $english ? 'Useful knowledge for choosing and enjoying food better.' : 'Conocimiento útil para elegir y disfrutar mejor los alimentos.' ); ?></strong><p><?php echo esc_html( $english ? 'Clear articles on quality, nutrition, safety, storage and cooking.' : 'Artículos sobre calidad, nutrición, seguridad, conservación y cocina explicados con claridad.' ); ?></p></div>
 			</div>
 		<?php endif; ?>
 	</div>
@@ -111,7 +111,7 @@ $topic_descriptions_en = array(
 <section class="section topic-directory-section">
 	<div class="container topic-directory-layout">
 		<header class="topic-directory-intro">
-			<span class="section-label"><?php echo esc_html( $english ? 'Guides by topic' : 'Guías por tema' ); ?></span>
+			<span class="section-label"><?php echo esc_html( $english ? 'Articles by topic' : 'Artículos por tema' ); ?></span>
 			<h2><?php echo esc_html( $english ? 'Answers for choosing, storing and cooking with confidence' : 'Respuestas para comprar, conservar y cocinar con criterio' ); ?></h2>
 			<p><?php echo esc_html( $english ? 'Nutrition, food safety, storage, freezing, cooking, production, buying and quality: practical information for better food decisions.' : 'Nutrición, seguridad alimentaria, conservación, congelación, cocina, elaboración, compra y calidad: información práctica para tomar mejores decisiones alrededor de la comida.' ); ?></p>
 		</header>
@@ -129,7 +129,7 @@ $topic_descriptions_en = array(
 <?php if ( ! empty( $discover_ids ) ) : ?>
 	<section class="section discover-section">
 		<div class="container">
-			<header class="section-intro section-intro-v5"><div><span class="section-label"><?php echo esc_html( $english ? 'Keep learning' : 'Para seguir aprendiendo' ); ?></span><h2><?php echo esc_html( $english ? 'Five guides to start with' : 'Cinco lecturas para empezar' ); ?></h2></div><p><?php echo esc_html( $english ? 'A selection of guides for discovering food, answering common questions and understanding what happens when we buy, store and cook.' : 'Una selección de guías para descubrir alimentos, resolver dudas y entender mejor lo que ocurre al comprar, conservar y cocinar.' ); ?></p></header>
+			<header class="section-intro section-intro-v5"><div><span class="section-label"><?php echo esc_html( $english ? 'Keep learning' : 'Para seguir aprendiendo' ); ?></span><h2><?php echo esc_html( $english ? 'Five articles to start with' : 'Cinco artículos para empezar' ); ?></h2></div><p><?php echo esc_html( $english ? 'A selection of articles for discovering food, answering common questions and understanding what happens when we buy, store and cook.' : 'Una selección de artículos para descubrir alimentos, resolver dudas y entender mejor lo que ocurre al comprar, conservar y cocinar.' ); ?></p></header>
 			<div class="discover-grid">
 				<?php
 				$query = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => count( $discover_ids ), 'post__in' => $discover_ids, 'orderby' => 'post__in', 'ignore_sticky_posts' => true ) );
@@ -154,12 +154,12 @@ $topic_descriptions_en = array(
 
 <section class="section latest-guides latest-guides-v5">
 	<div class="container">
-		<div class="section-head section-head-v5"><div><div class="eyebrow"><?php echo esc_html( $english ? 'New reads' : 'Nuevas lecturas' ); ?></div><h2><?php echo esc_html( $english ? 'Latest guides' : 'Últimas guías' ); ?></h2></div></div>
+		<div class="section-head section-head-v5"><div><div class="eyebrow"><?php echo esc_html( $english ? 'New reads' : 'Nuevas lecturas' ); ?></div><h2><?php echo esc_html( $english ? 'Latest articles' : 'Últimos artículos' ); ?></h2></div></div>
 		<div class="card-grid">
 			<?php
 			$latest = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 6, 'ignore_sticky_posts' => false, 'post__not_in' => food_home_ignored_post_ids() ) );
 			if ( $latest->have_posts() ) : while ( $latest->have_posts() ) : $latest->the_post(); get_template_part( 'template-parts/card' ); endwhile; wp_reset_postdata();
-			else : ?><div class="home-empty-state"><strong><?php echo esc_html( $english ? 'The first guides are on their way.' : 'Estamos preparando las primeras guías.' ); ?></strong><p><?php echo esc_html( $english ? 'New guides on food, quality, nutrition, safety and cooking will appear here.' : 'Muy pronto encontrarás aquí nuevos artículos sobre alimentos, calidad, nutrición, seguridad y cocina.' ); ?></p></div><?php endif; ?>
+			else : ?><div class="home-empty-state"><strong><?php echo esc_html( $english ? 'The first articles are on their way.' : 'Estamos preparando los primeros artículos.' ); ?></strong><p><?php echo esc_html( $english ? 'New articles on food, quality, nutrition, safety and cooking will appear here.' : 'Muy pronto encontrarás aquí nuevos artículos sobre alimentos, calidad, nutrición, seguridad y cocina.' ); ?></p></div><?php endif; ?>
 		</div>
 	</div>
 </section>
