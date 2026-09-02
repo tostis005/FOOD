@@ -19,7 +19,7 @@
 		</div>
 		<h1><?php the_title(); ?></h1>
 		<?php if ( has_excerpt() ) : ?><p class="article-deck"><?php echo esc_html( get_the_excerpt() ); ?></p><?php endif; ?>
-		<div class="article-meta"><span>Guía Pommelo</span><span>·</span><span><?php echo esc_html( food_reading_time() ); ?></span></div>
+		<div class="article-meta"><span>Guía Pometum</span><span>·</span><span><?php echo esc_html( food_reading_time() ); ?></span></div>
 	</header>
 
 	<?php if ( has_post_thumbnail() ) : ?>

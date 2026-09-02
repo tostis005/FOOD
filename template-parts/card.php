@@ -24,12 +24,12 @@ $food_card_visual   = function_exists( 'food_get_post_visual_context' ) ? food_g
 				if ( $food_card_topic ) {
 					$labels[] = $food_card_topic->name;
 				}
-				echo esc_html( ! empty( $labels ) ? implode( ' · ', $labels ) : __( 'Guía Pommelo', 'food' ) );
+				echo esc_html( ! empty( $labels ) ? implode( ' · ', $labels ) : __( 'Guía Pometum', 'food' ) );
 				?>
 			</div>
 			<h2 class="card-title"><?php the_title(); ?></h2>
 			<p class="card-excerpt"><?php echo esc_html( get_the_excerpt() ); ?></p>
-			<div class="card-meta"><span>Guía Pommelo</span><span>·</span><span><?php echo esc_html( food_reading_time() ); ?></span></div>
+			<div class="card-meta"><span>Guía Pometum</span><span>·</span><span><?php echo esc_html( food_reading_time() ); ?></span></div>
 		</div>
 	</a>
 </article>

@@ -12,16 +12,16 @@ $discover_ids   = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_i
 <section class="home-hero home-hero-v5">
 	<div class="container home-hero-grid home-hero-grid-v5">
 		<div class="hero-main hero-main-v5">
-			<span class="hero-kicker">Guías claras sobre alimentos, nutrición y cocina</span>
-			<h1>Entiende mejor lo que comes.</h1>
-			<p>Pommelo reúne información práctica sobre alimentos, nutrición, seguridad alimentaria, conservación, calidad y cocina para ayudarte a elegir, guardar y preparar mejor la comida de cada día.</p>
+			<span class="hero-kicker">Alimentos, calidad y cocina</span>
+			<h1>Comer mejor empieza por entender mejor.</h1>
+			<p>Pometum explica qué hay detrás de los alimentos: cómo elegirlos, conservarlos, cocinarlos y comparar su calidad y composición, con información clara y práctica para el día a día.</p>
 			<form class="hero-search hero-search-v5" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<label class="screen-reader-text" for="food-search">Buscar</label>
 				<input id="food-search" type="search" name="s" placeholder="Busca un alimento, una duda o una técnica…" value="<?php echo esc_attr( get_search_query() ); ?>">
 				<button type="submit">Buscar</button>
 			</form>
-			<nav class="hero-topic-links" aria-label="Explorar Pommelo">
-				<span>Empieza por</span>
+			<nav class="hero-topic-links" aria-label="Explorar Pometum">
+				<span>Explora</span>
 				<a href="<?php echo esc_url( food_topic_url( 'seguridad-alimentaria', 'Seguridad alimentaria' ) ); ?>">Seguridad alimentaria</a>
 				<a href="<?php echo esc_url( food_topic_url( 'nutricion-composicion', 'Nutrición y composición' ) ); ?>">Nutrición</a>
 				<a href="<?php echo esc_url( food_topic_url( 'cocina-ciencia-alimentos', 'Cocina y ciencia de los alimentos' ) ); ?>">Cocina</a>
@@ -45,13 +45,13 @@ $discover_ids   = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_i
 					</div>
 					<strong><?php echo esc_html( get_the_title( $feature_id ) ); ?></strong>
 					<p><?php echo esc_html( wp_trim_words( get_the_excerpt( $feature_id ), 20 ) ); ?></p>
-					<span class="feature-read">Guía destacada <span aria-hidden="true">↗</span></span>
+					<span class="feature-read">Lectura destacada <span aria-hidden="true">↗</span></span>
 				</div>
 			</a>
 		<?php else : ?>
 			<div class="home-feature-card home-feature-empty">
 				<div class="home-feature-media has-illustration"><div class="home-feature-illustration family-alimentacion-general"><?php echo food_category_icon_svg( 'alimentacion-general' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div></div>
-				<div class="home-feature-body"><div class="content-dimensions"><span>Pommelo</span></div><strong>Guías prácticas para resolver dudas reales sobre comida.</strong><p>Explora alimentos, nutrición, seguridad, conservación y cocina con explicaciones claras y útiles.</p></div>
+				<div class="home-feature-body"><div class="content-dimensions"><span>Pometum</span></div><strong>Conocimiento útil para elegir y disfrutar mejor los alimentos.</strong><p>Guías sobre calidad, nutrición, seguridad, conservación y cocina explicadas con claridad.</p></div>
 			</div>
 		<?php endif; ?>
 	</div>
@@ -60,8 +60,8 @@ $discover_ids   = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_i
 <section class="section food-families-section">
 	<div class="container">
 		<header class="section-intro section-intro-v5">
-			<div><span class="section-label">Alimentos</span><h2>Encuentra información por tipo de alimento</h2></div>
-			<p>Desde carnes, pescados y lácteos hasta tubérculos, frutos secos, bebidas o fermentados. Encuentra guías sobre nutrición, seguridad, conservación, calidad y cocina.</p>
+			<div><span class="section-label">Alimentos</span><h2>Conoce mejor cada alimento</h2></div>
+			<p>De la carne y el pescado a las frutas, los quesos, las legumbres o el aceite. Descubre cómo reconocer calidad, conservar bien, cocinar mejor y entender lo que aporta cada alimento.</p>
 		</header>
 		<div class="food-family-grid">
 			<?php foreach ( food_family_definitions() as $slug => $family ) : ?>
@@ -79,8 +79,8 @@ $discover_ids   = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_i
 	<div class="container topic-directory-layout">
 		<header class="topic-directory-intro">
 			<span class="section-label">Guías por tema</span>
-			<h2>Resuelve tus dudas sobre alimentación</h2>
-			<p>Consulta información sobre composición nutricional, seguridad alimentaria, conservación, congelación, cocina, salud, elaboración, compra y calidad de los alimentos.</p>
+			<h2>Respuestas para comprar, conservar y cocinar con criterio</h2>
+			<p>Nutrición, seguridad alimentaria, conservación, congelación, cocina, elaboración, compra y calidad: información práctica para tomar mejores decisiones alrededor de la comida.</p>
 		</header>
 		<div class="topic-card-grid">
 			<?php foreach ( food_topic_definitions() as $slug => $topic ) : ?>
@@ -96,7 +96,7 @@ $discover_ids   = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_i
 <?php if ( ! empty( $discover_ids ) ) : ?>
 	<section class="section discover-section">
 		<div class="container">
-			<header class="section-intro section-intro-v5"><div><span class="section-label">Descubre algo nuevo</span><h2>Cinco lecturas para empezar</h2></div><p>Una selección de guías útiles para descubrir respuestas sobre alimentos, cocina, nutrición, seguridad y calidad.</p></header>
+			<header class="section-intro section-intro-v5"><div><span class="section-label">Para seguir aprendiendo</span><h2>Cinco lecturas para empezar</h2></div><p>Una selección de guías para descubrir alimentos, resolver dudas y entender mejor lo que ocurre al comprar, conservar y cocinar.</p></header>
 			<div class="discover-grid">
 				<?php
 				$query = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => count( $discover_ids ), 'post__in' => $discover_ids, 'orderby' => 'post__in', 'ignore_sticky_posts' => true ) );
@@ -121,12 +121,12 @@ $discover_ids   = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_i
 
 <section class="section latest-guides latest-guides-v5">
 	<div class="container">
-		<div class="section-head section-head-v5"><div><div class="eyebrow">Recién publicado</div><h2>Últimas guías</h2></div><a class="section-link" href="<?php echo esc_url( get_permalink( get_option( 'page_for_posts' ) ) ?: home_url( '/blog/' ) ); ?>">Ver todos los artículos →</a></div>
+		<div class="section-head section-head-v5"><div><div class="eyebrow">Nuevas lecturas</div><h2>Últimas guías</h2></div><a class="section-link" href="<?php echo esc_url( get_permalink( get_option( 'page_for_posts' ) ) ?: home_url( '/blog/' ) ); ?>">Ver todos los artículos →</a></div>
 		<div class="card-grid">
 			<?php
 			$latest = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 6, 'ignore_sticky_posts' => false, 'post__not_in' => food_home_ignored_post_ids() ) );
 			if ( $latest->have_posts() ) : while ( $latest->have_posts() ) : $latest->the_post(); get_template_part( 'template-parts/card' ); endwhile; wp_reset_postdata();
-			else : ?><div class="home-empty-state"><strong>Estamos preparando las primeras guías.</strong><p>Muy pronto encontrarás aquí nuevos artículos sobre alimentos, nutrición, seguridad y cocina.</p></div><?php endif; ?>
+			else : ?><div class="home-empty-state"><strong>Estamos preparando las primeras guías.</strong><p>Muy pronto encontrarás aquí nuevos artículos sobre alimentos, calidad, nutrición, seguridad y cocina.</p></div><?php endif; ?>
 		</div>
 	</div>
 </section>

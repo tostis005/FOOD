@@ -19,7 +19,7 @@ $archive_visual = ( is_category() || is_tax( 'food_topic' ) ) && function_exists
 				} elseif ( is_category() ) {
 					echo 'Guías por alimento';
 				} else {
-					echo 'Archivo Pommelo';
+					echo 'Archivo Pometum';
 				}
 				?>
 			</div>
@@ -62,7 +62,7 @@ $archive_visual = ( is_category() || is_tax( 'food_topic' ) ) && function_exists
 		</div>
 		<div class="pagination"><?php the_posts_pagination( array( 'mid_size' => 1, 'prev_text' => '← Anterior', 'next_text' => 'Siguiente →' ) ); ?></div>
 	<?php else : ?>
-		<div class="answer-box"><strong>Todavía no hay guías aquí</strong><p>Estamos preparando contenido para esta sección. Mientras tanto puedes explorar otras guías de Pommelo.</p></div>
+		<div class="answer-box"><strong>Todavía no hay guías aquí</strong><p>Estamos preparando contenido para esta sección. Mientras tanto puedes explorar otras guías de Pometum.</p></div>
 		<div class="search-panel"><?php get_search_form(); ?></div>
 	<?php endif; ?>
 </div>
