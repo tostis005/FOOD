@@ -78,7 +78,7 @@ jobs:
       - name: Run mobile visual audit
         run: |
           mkdir -p audit-output
-          cat > /tmp/food-mobile-audit.mjs <<'NODE'
+          cat > food-mobile-audit.mjs <<'NODE'
           import { chromium } from 'playwright-core';
           import fs from 'node:fs';
 
@@ -161,7 +161,7 @@ jobs:
           await browser.close();
           NODE
 
-          node /tmp/food-mobile-audit.mjs
+          node food-mobile-audit.mjs
 
       - name: Upload audit screenshots
         uses: actions/upload-artifact@v4
