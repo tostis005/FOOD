@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-041-highest-vitamin-c-foods",
+  "article_number": 41,
+  "translation_group": "041-highest-vitamin-c-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition and NIH ODS vitamin C context",
+  "title": "Foods Highest in Vitamin C: Bell Pepper, Kiwi, Citrus and More",
+  "slug": "highest-vitamin-c-foods",
+  "seo": {
+    "title": "Foods Highest in Vitamin C: Ranking by Serving",
+    "meta_description": "Red bell pepper, kiwi, strawberries and broccoli can provide as much or more vitamin C per serving than an orange. Heat can reduce vitamin C.",
+    "search_intent": "Compare vitamin-C-rich foods and explain how cooking and storage affect the amount."
+  },
+  "excerpt": "Oranges are a good source of vitamin C, but they are not the champion. Red bell pepper, kiwi and several other fruits and vegetables can provide as much or more per serving, and prolonged storage or cooking can reduce some of the vitamin.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>The orange is the classic symbol of vitamin C, but its reputation is larger than its nutritional lead. Half a cup of red bell pepper or a cup of strawberries can provide more.</p><p><strong>The strongest sources are often fruits and vegetables eaten raw or only lightly cooked</strong>, because vitamin C is water-soluble and sensitive to heat and prolonged storage.</p><h2>A realistic serving comparison</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Vitamin C, approx.</th></tr></thead><tbody><tr><td>Raw red bell pepper</td><td>½ cup</td><td>~95 mg</td></tr><tr><td>Strawberries</td><td>1 cup</td><td>~85–90 mg</td></tr><tr><td>Orange</td><td>1 medium</td><td>~70 mg</td></tr><tr><td>Kiwi</td><td>1 medium</td><td>~60–70 mg</td></tr><tr><td>Cooked broccoli</td><td>½ cup</td><td>~50 mg</td></tr><tr><td>Baked potato</td><td>1 medium</td><td>~20 mg</td></tr></tbody></table><p>Red bell pepper and a cup of strawberries can both edge past a medium orange. Kiwi sits in a similar range, so citrus is far from the only practical option.</p><h2>Red bell pepper stands out especially by weight</h2><p>Raw red bell pepper can exceed 120 mg of vitamin C per 100 grams, while orange is closer to roughly 50–60 mg per 100 grams. At equal weight, the pepper can provide more than twice as much.</p><h2>Kiwi competes with oranges in a small portion</h2><p>One medium kiwi provides roughly 60–70 mg, close to a medium orange. Two kiwis can exceed 120 mg without being a particularly large serving.</p><h2>Strawberries contribute more than many people expect</h2><p>A cup of strawberries provides close to 90 mg along with water and fiber. Like other produce, vitamin C can decline during prolonged storage.</p><h2>Cooking can reduce vitamin C</h2><p>Vitamin C degrades with heat and can leach into cooking water. Long boiling usually causes greater losses than shorter steaming or microwave cooking.</p><p>That does not mean cooked broccoli has ‘no vitamin C.’ Half a cup can still provide around 50 mg. The loss is partial, not all-or-nothing.</p><h2>Potatoes contribute too</h2><p>A medium baked potato provides around 20 mg. It does not compete with bell pepper by concentration, but the serving is large enough to make a meaningful contribution.</p><h2>The useful rule</h2><p>You do not need one winning fruit. <strong>Bell pepper, kiwi, citrus, strawberries, broccoli and other fruits and vegetables can provide plenty of vitamin C when they show up regularly and are not subjected to unnecessarily long cooking.</strong></p>",
+  "faq": [
+    {"question": "What has more vitamin C than an orange?", "answer": "Raw red bell pepper usually provides more vitamin C per 100 grams and per practical serving. A cup of strawberries can also exceed a medium orange."},
+    {"question": "Does cooking destroy all vitamin C?", "answer": "No. Heat can reduce vitamin C, especially with long boiling, but cooked vegetables can still retain meaningful amounts."},
+    {"question": "Is kiwi high in vitamin C?", "answer": "Yes. One medium kiwi typically provides about 60–70 mg."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Fruit and vegetable nutrient composition."},
+    {"name": "NIH Office of Dietary Supplements — Vitamin C", "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/", "note": "Food sources and the effects of storage and cooking."}
+  ],
+  "image": {
+    "concept": "Red bell pepper, kiwi, orange, strawberries and broccoli arranged in a fresh editorial food scene, no text.",
+    "alt": "Foods high in vitamin C"
+  },
+  "status": "publish"
+}
