@@ -1,0 +1,64 @@
+name: One-time Quinnoa logo detail
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/quinnoa-logo-detail.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  update-logo:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update Quinnoa wordmark details
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          header = Path('header.php')
+          text = header.read_text(encoding='utf-8')
+          old_logo = '<span class="pometum-wordmark" aria-hidden="true"><span>quinn</span><span class="pometum-o">o</span><span>a</span></span>'
+          new_logo = '<span class="pometum-wordmark" aria-hidden="true"><span>Qu</span><span class="quinnoa-i">ı</span><span>nn</span><span class="pometum-o">o</span><span>a</span></span>'
+          if old_logo not in text:
+              raise SystemExit('Expected Quinnoa wordmark markup not found')
+          text = text.replace(old_logo, new_logo, 1)
+
+          old_favicon = "<link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cellipse cx='23' cy='25' rx='14' ry='16' fill='none' stroke='%23394536' stroke-width='5'/%3E%3Cpath d='M32 9c4-4 8-4 11-1-2 5-6 7-11 6' fill='%23D96C55'/%3E%3C/svg%3E\">"
+          new_favicon = "<link rel=\"icon\" href=\"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='22' cy='22' r='13' fill='none' stroke='%23394536' stroke-width='5'/%3E%3Cpath d='M31 31l8 8' fill='none' stroke='%23394536' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E\">"
+          if old_favicon in text:
+              text = text.replace(old_favicon, new_favicon, 1)
+          header.write_text(text, encoding='utf-8')
+
+          css = Path('assets/css/pometum-v7-polish.css')
+          css_text = css.read_text(encoding='utf-8')
+          marker = '/* Quinnoa logo cleanup: no legacy leaf; quinoa-yellow i dot. */'
+          if marker not in css_text:
+              css_text += '''\n\n/* Quinnoa logo cleanup: no legacy leaf; quinoa-yellow i dot. */\n.pometum-o::after {\n  content: none !important;\n  display: none !important;\n}\n\n.pometum-wordmark > span:first-child {\n  text-transform: none !important;\n}\n\n.quinnoa-i {\n  position: relative;\n  display: inline-block;\n}\n\n.quinnoa-i::after {\n  content: \"\";\n  position: absolute;\n  width: .13em;\n  height: .13em;\n  min-width: 4px;\n  min-height: 4px;\n  left: 50%;\n  top: .02em;\n  border-radius: 50%;\n  background: var(--pometum-butter, #E8C76A);\n  transform: translateX(-50%);\n}\n'''
+          css.write_text(css_text, encoding='utf-8')
+          PY
+
+      - name: Validate logo change
+        run: |
+          set -euo pipefail
+          php -l header.php
+          grep -q 'class="quinnoa-i">ı</span>' header.php
+          grep -q 'pometum-o::after' assets/css/pometum-v7-polish.css
+          grep -q 'content: none !important' assets/css/pometum-v7-polish.css
+          grep -q 'background: var(--pometum-butter' assets/css/pometum-v7-polish.css
+
+      - name: Commit site files
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add header.php assets/css/pometum-v7-polish.css
+          git commit -m 'Refine Quinnoa wordmark accent'
+          git push origin HEAD:main
