@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-051-red-vs-white-meat",
+  "article_number": 51,
+  "translation_group": "051-red-vs-white-meat",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; IARC/WHO definitions and USDA composition",
+  "title": "Red Meat vs White Meat: Nutrition Differences",
+  "slug": "red-vs-white-meat",
+  "seo": {
+    "title": "Red vs White Meat: Protein, Iron and Fat",
+    "meta_description": "Red meat usually provides more heme iron and B12; white meat can be leaner in cuts like breast. Pork is classified as red meat.",
+    "search_intent": "Explain nutritional differences between red and white meat without confusing color, processing and cut."
+  },
+  "excerpt": "Red and white meat can provide very similar amounts of protein. Red meat—beef, pork, lamb—usually contains more heme iron and vitamin B12, while white meat such as poultry can be leaner in breast cuts. The cut, skin and processing can change fat more than the category itself.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["beef", "pork", "lamb", "chicken", "turkey"],
+    "article_types": ["comparisons", "nutrition-concepts", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>The color meat turns on the plate is not always the same thing as its nutrition category. Pork can look pale after cooking, but IARC classifies it as red meat because it comes from a mammal.</p><p><strong>Protein is often very similar across lean meats; the clearer differences are iron, vitamin B12 and fat depending on the cut.</strong></p><h2>What counts as red meat and white meat</h2><p>Red meat is mammalian muscle meat: beef, pork, lamb, goat and similar meats. In common nutrition language, white meat refers mainly to poultry such as chicken and turkey.</p><p>Processed meat is a separate category. Ham, sausage and bacon are processed regardless of the animal; deli turkey is processed even though it comes from poultry.</p><h2>A representative lean-cut comparison</h2><table><thead><tr><th>Per 100 g cooked</th><th>Lean beef</th><th>Skinless chicken breast</th></tr></thead><tbody><tr><td>Calories</td><td>~190–210</td><td>~165</td></tr><tr><td>Protein</td><td>~28–30 g</td><td>~31 g</td></tr><tr><td>Fat</td><td>~7–9 g</td><td>~3.6 g</td></tr><tr><td>Iron</td><td>~2–3 mg</td><td>~1 mg</td></tr></tbody></table><p>Protein sits in essentially the same range. Iron separates more clearly: lean beef can provide two or three times as much as chicken breast.</p><h2>Iron is one of the most consistent differences</h2><p>Red meat provides more heme iron, a form that is generally absorbed efficiently. White meat contains iron too, but usually less, especially in breast meat.</p><p>Dark poultry meat contains somewhat more iron than breast, though it generally remains below many beef or lamb cuts.</p><h2>Fat does not depend only on meat color</h2><p>Skinless chicken breast is very lean, but a skin-on thigh can contain much more fat. Likewise, pork tenderloin can be leaner than a highly marbled beef cut.</p><p>‘White equals low fat’ and ‘red equals fatty’ are therefore unreliable shortcuts. The cut matters more.</p><h2>Vitamin B12 and zinc often favor red meat</h2><p>Beef and lamb often provide more B12 and zinc than chicken breast, although both categories contain these nutrients. Pork also stands out for thiamin.</p><h2>Red does not mean processed</h2><p>A fresh beef steak is unprocessed red meat. A chicken sausage comes from white meat but is processed. Mixing these categories makes nutrition comparisons harder to interpret because sodium, fat and added ingredients can change substantially.</p><h2>The useful rule</h2><p><strong>For protein, lean red and white meats can be almost equivalent.</strong> Red meat tends to provide more heme iron, B12 and zinc; poultry breast tends to be leaner. For fat and calories, look at the cut, skin and processing before the color category.</p>",
+  "faq": [
+    {"question": "Is pork red meat or white meat?", "answer": "IARC/WHO classifies pork as red meat because it is mammalian muscle meat."},
+    {"question": "Which has more protein, red or white meat?", "answer": "Lean cuts can be nearly tied, often around 28–31 grams per 100 grams cooked."},
+    {"question": "Does red meat have more iron?", "answer": "Generally yes, especially heme iron. Lean beef may provide roughly 2–3 mg/100 g versus about 1 mg in chicken breast."}
+  ],
+  "sources": [
+    {"name": "IARC/WHO — Red Meat and Processed Meat", "url": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Red-Meat-And-Processed-Meat-2018", "note": "Definitions of red and processed meat."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Nutrient composition of meat and poultry cuts."}
+  ],
+  "image": {
+    "concept": "Lean beef, pork, chicken breast and turkey portions cooked and shown side by side, clean editorial food photography, no text.",
+    "alt": "Red and white meats compared"
+  },
+  "status": "publish"
+}
