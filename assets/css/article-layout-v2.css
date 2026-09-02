@@ -1,10 +1,10 @@
-/* Article layout refinements: keep category artwork useful without letting a generic hero dominate the first screen. */
+/* Article layout refinements: keep category artwork as a compact visual accent without letting a generic hero dominate the first screen. */
 body.single-post .article-hero,
 body.single-post .article-hero-fallback {
-  width: min(calc(100% - 48px), 780px) !important;
-  height: clamp(170px, 18vw, 240px) !important;
-  margin: 4px auto 30px !important;
-  border-radius: 18px !important;
+  width: min(calc(100% - 48px), 700px) !important;
+  height: clamp(105px, 9vw, 132px) !important;
+  margin: 4px auto 24px !important;
+  border-radius: 16px !important;
   overflow: hidden !important;
   background: #ddd4c4;
 }
@@ -26,29 +26,29 @@ body.single-post .article-hero-fallback .food-family-svg,
 body.single-post .article-hero-fallback .food-topic-svg {
   position: relative !important;
   z-index: 2;
-  width: clamp(76px, 8vw, 112px) !important;
-  height: clamp(76px, 8vw, 112px) !important;
+  width: clamp(54px, 5vw, 72px) !important;
+  height: clamp(54px, 5vw, 72px) !important;
 }
 
 body.single-post .article-hero-fallback .article-hero-art {
   position: absolute !important;
-  inset: 16% 11% !important;
+  inset: 15% 10% !important;
   border-radius: 999px;
-  opacity: .16;
+  opacity: .14;
 }
 
 @media (max-width: 680px) {
   body.single-post .article-hero,
   body.single-post .article-hero-fallback {
-    width: min(calc(100% - 28px), 780px) !important;
-    height: 160px !important;
-    margin: 2px auto 22px !important;
-    border-radius: 16px !important;
+    width: min(calc(100% - 28px), 700px) !important;
+    height: 104px !important;
+    margin: 2px auto 18px !important;
+    border-radius: 14px !important;
   }
 
   body.single-post .article-hero-fallback .food-family-svg,
   body.single-post .article-hero-fallback .food-topic-svg {
-    width: 82px !important;
-    height: 82px !important;
+    width: 58px !important;
+    height: 58px !important;
   }
 }

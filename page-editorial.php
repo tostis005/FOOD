@@ -9,10 +9,103 @@ $page     = isset( $pages[ $key ][ $language ] ) ? $pages[ $key ][ $language ] :
 $food_editorial_public_text = static function( $text ) use ( $language ) {
 	$text = (string) $text;
 	if ( 'en' === $language ) {
-		return strtr( $text, array( 'Guides' => 'Articles', 'guides' => 'articles', 'Guide' => 'Article', 'guide' => 'article' ) );
+		return strtr(
+			$text,
+			array(
+				'Guides' => 'Articles',
+				'guides' => 'articles',
+				'Guide'  => 'Article',
+				'guide'  => 'article',
+			)
+		);
 	}
-	return strtr( $text, array( 'Guías' => 'Artículos', 'guías' => 'artículos', 'Guía' => 'Artículo', 'guía' => 'artículo' ) );
+
+	return strtr(
+		$text,
+		array(
+			'Cómo construimos una guía' => 'Cómo construimos un artículo',
+			'cómo construimos una guía' => 'cómo construimos un artículo',
+			'Guías pensadas'            => 'Artículos pensados',
+			'guías pensadas'            => 'artículos pensados',
+			'Cada guía'                  => 'Cada artículo',
+			'cada guía'                  => 'cada artículo',
+			'Una guía'                   => 'Un artículo',
+			'una guía'                   => 'un artículo',
+			'Guías'                      => 'Artículos',
+			'guías'                      => 'artículos',
+			'Guía'                       => 'Artículo',
+			'guía'                       => 'artículo',
+		)
+	);
 };
+
+if ( $page && 'about' === $key ) {
+	if ( 'en' === $language ) {
+		$page['intro'] = 'Quinnoa is an editorial publication for understanding food better and making more informed everyday choices. We publish clear articles on nutrition, quality, food safety, storage, buying and cooking, with enough context to explain not only what happens, but why.';
+		$page['sections'] = array(
+			array(
+				'title' => 'Understanding the food we eat',
+				'paragraphs' => array(
+					'We start with real questions that come up when buying, storing or cooking food: why meat releases water, which foods provide more protein, how long something keeps in the fridge, how two options compare, or what a nutrition number actually means.',
+					'The aim is not to add noise or fill space. We want each article to give a useful answer quickly, then add the figures, comparisons and explanation needed to put that answer in context.',
+				),
+			),
+			array(
+				'title' => 'How we work',
+				'paragraphs' => array(
+					'Each article begins with a specific reader question and moves from the practical answer into the explanation. When a comparison depends on numbers, we include quantities, units and like-for-like references so “more”, “less” or “better” has a concrete meaning.',
+				),
+				'items' => array(
+					'We prioritize public authorities, established databases and scientific literature for nutrition and food-safety topics.',
+					'We separate facts, practical context and recommendations.',
+					'We avoid claims of professional review when that review has not taken place.',
+					'We update content when relevant evidence, guidance or standards change.',
+				),
+			),
+			array(
+				'title' => 'Editorial scope',
+				'paragraphs' => array(
+					'Quinnoa provides educational information and does not replace diagnosis, treatment or individual medical advice. For food-safety or health decisions, guidance from competent authorities and qualified professionals takes priority.',
+				),
+			),
+		);
+	} else {
+		$page['intro'] = 'Quinnoa es un medio editorial para entender mejor los alimentos y tomar decisiones cotidianas con más criterio. Publicamos artículos claros sobre nutrición, calidad, seguridad alimentaria, conservación, compra y cocina, con el contexto necesario para explicar no solo qué ocurre, sino también por qué.';
+		$page['sections'] = array(
+			array(
+				'title' => 'Entender mejor lo que comemos',
+				'paragraphs' => array(
+					'Partimos de dudas que aparecen de verdad al comprar, conservar o cocinar: por qué una carne suelta agua, qué alimentos aportan más proteína, cuánto dura algo en la nevera, cómo comparar dos opciones o qué significa realmente una cifra nutricional.',
+					'La idea no es añadir ruido ni llenar páginas. Queremos que cada artículo dé una respuesta útil desde el principio y, después, aporte las cifras, comparaciones y explicaciones necesarias para poner esa respuesta en contexto.',
+				),
+			),
+			array(
+				'title' => 'Cómo trabajamos',
+				'paragraphs' => array(
+					'Cada artículo empieza por una pregunta concreta y avanza desde la respuesta práctica hacia la explicación. Cuando una comparación depende de números, incluimos cantidades, unidades y referencias equivalentes para que “más”, “menos” o “mejor” tengan un significado concreto.',
+				),
+				'items' => array(
+					'Priorizamos organismos oficiales, bases de datos reconocidas y literatura científica en nutrición y seguridad alimentaria.',
+					'Separamos los hechos del contexto práctico y de las recomendaciones.',
+					'No atribuimos revisiones profesionales que no hayan ocurrido.',
+					'Actualizamos los contenidos cuando cambian datos, recomendaciones o criterios relevantes.',
+				),
+			),
+			array(
+				'title' => 'Alcance editorial',
+				'paragraphs' => array(
+					'Quinnoa ofrece información divulgativa y no sustituye el diagnóstico, el tratamiento ni el consejo individual de un profesional sanitario. En cuestiones de seguridad alimentaria o salud, tienen prioridad las indicaciones de las autoridades competentes y de profesionales cualificados.',
+				),
+			),
+		);
+	}
+}
+
+if ( $page && 'contact' === $key ) {
+	$page['intro'] = 'en' === $language
+		? 'If you have spotted an error, want to suggest a topic or simply need to get in touch with Quinnoa, send us a message using the form below.'
+		: 'Si has detectado un error, quieres proponer un tema o simplemente necesitas ponerte en contacto con Quinnoa, escríbenos a través del formulario.';
+}
 
 if ( ! $page ) {
 	status_header( 404 );

@@ -8,7 +8,7 @@ $food_footer_language = $food_english ? 'en' : 'es';
 	<div class="container footer-main footer-main-v5">
 		<div>
 			<div class="pometum-footer-brand"><?php if ( function_exists( 'food_pometum_logo' ) ) { food_pometum_logo( 'is-footer' ); } else { echo esc_html( get_bloginfo( 'name' ) ?: 'Quinnoa' ); } ?></div>
-			<p class="footer-copy"><?php echo esc_html( $food_english ? 'Clear guides for understanding food: how to choose quality, read composition, store it safely and cook with confidence.' : 'Guías claras para conocer mejor los alimentos: cómo elegir calidad, entender su composición, conservarlos con seguridad y cocinarlos con criterio.' ); ?></p>
+			<p class="footer-copy"><?php echo esc_html( $food_english ? 'Clear articles to understand food better: nutrition, quality, safety, storage, buying and cooking, with useful data and comparisons in context.' : 'Artículos claros para entender mejor los alimentos: nutrición, calidad, seguridad, conservación, compra y cocina, con datos y comparaciones que ponen cada respuesta en contexto.' ); ?></p>
 		</div>
 		<nav aria-label="<?php echo esc_attr( $food_english ? 'Footer links' : 'Enlaces del pie' ); ?>">
 			<ul class="footer-links-v5">
@@ -20,7 +20,7 @@ $food_footer_language = $food_english ? 'en' : 'es';
 	</div>
 	<div class="container footer-bottom">
 		<span>© <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?></span>
-		<span><?php echo esc_html( $food_english ? 'Editorial information about food. For medical or food-safety decisions, follow qualified or official guidance.' : 'Información editorial sobre alimentos. Para decisiones médicas o de seguridad alimentaria, consulta fuentes oficiales o profesionales.' ); ?></span>
+		<span><?php echo esc_html( $food_english ? 'Editorial content about food. For medical or food-safety decisions, prioritize guidance from qualified professionals and official authorities.' : 'Contenido editorial sobre alimentos. Para decisiones médicas o de seguridad alimentaria, prioriza las indicaciones de profesionales cualificados y organismos oficiales.' ); ?></span>
 	</div>
 </footer>
 
