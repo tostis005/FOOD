@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-045-best-complete-plant-proteins",
+  "article_number": 45,
+  "translation_group": "045-best-complete-plant-proteins",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; FAO amino-acid framework and USDA composition",
+  "title": "Best Complete Plant Proteins: Soy, Quinoa and Other Options",
+  "slug": "best-complete-plant-proteins",
+  "seo": {
+    "title": "Best Complete Plant Proteins",
+    "meta_description": "Soy, tofu and tempeh combine a strong amino-acid profile with substantial protein per serving. Quinoa and pseudocereals provide less total protein.",
+    "search_intent": "Identify plant foods with strong essential-amino-acid profiles without confusing protein quality with protein quantity."
+  },
+  "excerpt": "Among plant foods, soy and soy foods are the strongest practical options because they combine a complete essential-amino-acid profile with roughly 15–30 grams of protein per serving. Quinoa, amaranth and buckwheat also provide all essential amino acids, but a cooked serving contains much less total protein.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": ["soy"],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>A search for ‘complete plant protein’ can produce a list of foods that are nutritionally very different but treated as equals. A cup of cooked quinoa and about 5 ounces of tofu can both have favorable amino-acid profiles, yet they do not deliver the same amount of protein.</p><p><strong>Soy stands out because it combines amino-acid quality, digestibility and substantial protein per serving.</strong> Quinoa, amaranth and buckwheat widen the options, but they function more like grain bases or side dishes than primary protein anchors.</p><h2>The comparison needs grams of protein, not just the word ‘complete’</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Protein, approx.</th><th>Practical role</th></tr></thead><tbody><tr><td>Tempeh</td><td>5 oz</td><td>~27–30 g</td><td>Main protein</td></tr><tr><td>Firm tofu</td><td>5 oz</td><td>~20–25 g</td><td>Main protein</td></tr><tr><td>Edamame</td><td>1 cup</td><td>~17 g</td><td>Main protein or substantial add-on</td></tr><tr><td>Cooked amaranth</td><td>1 cup</td><td>~9 g</td><td>Base/side</td></tr><tr><td>Cooked quinoa</td><td>1 cup</td><td>~8 g</td><td>Base/side</td></tr><tr><td>Cooked buckwheat</td><td>1 cup</td><td>~6 g</td><td>Base/side</td></tr></tbody></table><p>The gap is obvious: a serving of tempeh can provide more than three times the protein in a cup of quinoa. ‘Complete’ therefore does not mean ‘equally effective for reaching a protein target.’</p><h2>Soy, tofu and tempeh are the strongest group</h2><p>Soy protein provides essential amino acids in favorable proportions and has good digestibility. Tofu and tempeh turn that amino-acid quality into a serving with enough protein to function as the center of a meal.</p><p>Tempeh is often more concentrated because it contains less water than many tofus. Exact values vary by product and firmness.</p><h2>Edamame keeps the protein inside the whole soybean</h2><p>A cup of cooked shelled edamame provides roughly 17 grams of protein plus fiber. It is less concentrated than tempeh but far more protein-dense than most vegetables or cooked grains.</p><h2>Quinoa is complete, but it is not a plant chicken breast</h2><p>One cup of cooked quinoa provides around 8 grams of protein. Five ounces of cooked chicken can exceed 40 grams. Quinoa contributes useful protein, but it would take a much larger amount to match a concentrated protein food.</p><p>Its strength is that it combines protein with carbohydrate, fiber and minerals in a useful meal base.</p><h2>Amaranth and buckwheat add variety</h2><p>Both have favorable amino-acid profiles and are naturally gluten-free. Cooked servings generally provide about 6–9 grams of protein per cup, so they work best alongside beans, tofu, nuts or seeds when the goal is a clearly high-protein meal.</p><h2>‘Complete’ does not make variety unnecessary</h2><p>Even a food with a strong essential-amino-acid pattern differs in fiber, iron, calcium, zinc, fat and other nutrients. A vegetarian or vegan diet does not need to revolve around one supposedly perfect protein.</p><h2>The useful rule</h2><p>If you want a complete plant protein that can anchor the plate, <strong>soybeans, tofu, tempeh and edamame are the most practical choices.</strong> Quinoa, amaranth and buckwheat are excellent supporting foods, but their lower protein per serving changes their role.</p>",
+  "faq": [
+    {"question": "What is the best complete plant protein?", "answer": "Soy and soy foods stand out because they combine a strong amino-acid profile, good digestibility and substantial protein per serving."},
+    {"question": "Is quinoa a complete protein?", "answer": "It has a favorable essential-amino-acid profile, but one cooked cup provides only about 8 grams of protein."},
+    {"question": "Is tofu a complete protein?", "answer": "Yes. Soy protein provides all nine essential amino acids in favorable proportions."}
+  ],
+  "sources": [
+    {"name": "FAO — Dietary protein quality evaluation in human nutrition", "url": "https://www.fao.org/4/i3124e/i3124e.pdf", "note": "Amino-acid patterns and protein quality."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein and nutrient composition by serving."}
+  ],
+  "image": {
+    "concept": "Tofu, tempeh, edamame, quinoa, amaranth and buckwheat arranged in bowls, clean editorial food photography, no text.",
+    "alt": "Complete plant proteins including soy and quinoa"
+  },
+  "status": "publish"
+}
