@@ -1,0 +1,63 @@
+/* Mobile navigation breakpoint alignment. The base theme switches away from the desktop nav at 960px. */
+@media (min-width: 921px) and (max-width: 960px) {
+  .site-topline {
+    display: none;
+  }
+
+  .header-main {
+    min-height: 76px;
+    grid-template-columns: 1fr auto;
+  }
+
+  .site-title {
+    font-size: 35px;
+  }
+
+  .site-tagline {
+    display: none;
+  }
+
+  .primary-nav {
+    display: none !important;
+  }
+
+  .header-actions {
+    grid-column: 2;
+  }
+
+  .menu-toggle {
+    display: inline-flex;
+  }
+
+  .mobile-menu-overlay {
+    position: fixed;
+    inset: 0;
+    z-index: 9999;
+    display: block;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+    opacity: 0;
+    visibility: hidden;
+    background: var(--paper);
+    transform: translateY(-10px);
+    transition: opacity .22s ease, visibility .22s ease, transform .22s ease;
+    pointer-events: none;
+  }
+
+  .mobile-menu-overlay.is-open {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+    pointer-events: auto;
+  }
+}
+
+.admin-bar .mobile-menu-overlay {
+  top: 32px;
+}
+
+@media (max-width: 782px) {
+  .admin-bar .mobile-menu-overlay {
+    top: 46px;
+  }
+}
