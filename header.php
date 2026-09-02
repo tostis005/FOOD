@@ -6,12 +6,28 @@ if ( ! function_exists( 'food_quinnoa_public_brand_filter' ) ) {
 	}
 	ob_start( 'food_quinnoa_public_brand_filter' );
 }
-/* Apply the public brand name before WordPress prints title metadata. */
+/* Apply the public brand name and finished site description before WordPress prints title metadata. */
 if ( 'Quinnoa' !== get_option( 'blogname' ) ) {
 	update_option( 'blogname', 'Quinnoa' );
 }
-if ( 'Artículos sobre alimentos, calidad, nutrición y cocina' !== get_option( 'blogdescription' ) ) {
-	update_option( 'blogdescription', 'Artículos sobre alimentos, calidad, nutrición y cocina' );
+$food_site_description = 'Publicación sobre alimentos, nutrición, calidad, seguridad, conservación y cocina';
+if ( $food_site_description !== get_option( 'blogdescription' ) ) {
+	update_option( 'blogdescription', $food_site_description );
+}
+
+/* Remove a legacy public category description that still used the old “guías” label. */
+if ( '1' !== get_option( 'food_public_copy_cleanup_v1' ) ) {
+	$food_general_term = get_term_by( 'slug', 'alimentacion-general', 'category' );
+	if ( $food_general_term instanceof WP_Term ) {
+		wp_update_term(
+			$food_general_term->term_id,
+			'category',
+			array(
+				'description' => 'Artículos sobre alimentos, hábitos cotidianos y cuestiones que afectan a distintas familias de productos.',
+			)
+		);
+	}
+	update_option( 'food_public_copy_cleanup_v1', '1' );
 }
 
 if ( ! function_exists( 'food_pometum_logo' ) ) {
@@ -95,7 +111,7 @@ if ( file_exists( $food_language_seo ) ) {
 		<div class="site-branding">
 			<a href="<?php echo esc_url( $food_home_url ); ?>" rel="home" aria-label="Quinnoa">
 				<?php food_pometum_logo(); ?>
-				<div class="site-tagline"><?php echo esc_html( $food_english ? 'Natural · Nutrition' : 'Nutrición · Natural' ); ?></div>
+				<div class="site-tagline"><?php echo esc_html( $food_english ? 'Food · Nutrition' : 'Alimentos · Nutrición' ); ?></div>
 			</a>
 		</div>
 
@@ -158,7 +174,7 @@ if ( file_exists( $food_language_seo ) ) {
 				<input id="mobile-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'Search Quinnoa…' : 'Busca en Quinnoa…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>">
 				<button type="submit"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></button>
 			</form>
-			<p class="mobile-menu-note"><?php echo esc_html( $food_english ? 'Clear articles on food, quality, nutrition, safety, storage and cooking.' : 'Artículos claros sobre alimentos, calidad, nutrición, seguridad, conservación y cocina.' ); ?></p>
+			<p class="mobile-menu-note"><?php echo esc_html( $food_english ? 'Food, nutrition, quality, safety, storage and cooking.' : 'Alimentos, nutrición, calidad, seguridad, conservación y cocina.' ); ?></p>
 		</div>
 	</div>
 </div>
@@ -173,7 +189,6 @@ if ( file_exists( $food_language_seo ) ) {
 		</div>
 
 		<div class="language-overlay-content">
-			<div class="language-overlay-eyebrow"><?php echo esc_html( $food_english ? 'Languages' : 'Idiomas' ); ?></div>
 			<h2 class="language-overlay-title"><?php echo esc_html( $food_english ? 'Choose your edition.' : 'Elige tu edición.' ); ?></h2>
 			<div class="language-options">
 				<?php foreach ( $food_languages as $code => $definition ) : ?>
