@@ -1,0 +1,321 @@
+/* FOOD editorial layer
+ * Gives the content-first site the browsing language of a future food platform
+ * without introducing commerce before it is needed.
+ */
+
+.hero-editorial .hero-copy {
+  position: relative;
+}
+
+.hero-editorial .hero-copy::before {
+  content: "";
+  position: absolute;
+  width: 110px;
+  height: 7px;
+  top: 0;
+  left: clamp(30px, 5vw, 62px);
+  background: var(--terracotta);
+  border-radius: 0 0 8px 8px;
+}
+
+.hero-editorial h1 {
+  max-width: 9.5ch;
+}
+
+.hero-prompts {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 7px 12px;
+  margin-top: 15px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.hero-prompts > span {
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: .08em;
+}
+
+.hero-prompts a {
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+}
+
+.hero-prompts a:hover {
+  color: var(--terracotta);
+  border-color: var(--terracotta);
+}
+
+.hero-feature {
+  display: block;
+  color: inherit;
+  text-decoration: none;
+}
+
+.hero-feature-mark {
+  position: absolute;
+  z-index: 3;
+  top: 24px;
+  left: 24px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: rgba(255, 253, 248, .92);
+  color: var(--green);
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+
+.hero-feature .hero-label {
+  transition: transform .2s ease;
+}
+
+.hero-feature:hover .hero-label {
+  transform: translateY(-4px);
+}
+
+.hero-feature .hero-label em {
+  display: block;
+  margin-top: 10px;
+  color: var(--terracotta);
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 800;
+}
+
+.editorial-section-head {
+  align-items: end;
+}
+
+.food-departments {
+  padding-top: 52px;
+}
+
+.department-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.department-card {
+  min-height: 158px;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  position: relative;
+  padding: 18px;
+  background: var(--paper);
+  border: 1px solid var(--line);
+  border-radius: 20px;
+  text-decoration: none;
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.department-card:hover {
+  transform: translateY(-3px);
+  border-color: #c9bfae;
+  box-shadow: var(--shadow);
+}
+
+.department-icon {
+  width: 44px;
+  height: 44px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 22px;
+  background: #eee7da;
+  border-radius: 14px;
+  font-size: 22px;
+}
+
+.department-copy {
+  display: block;
+}
+
+.department-copy strong {
+  display: block;
+  font: 700 19px/1.12 Georgia, "Times New Roman", serif;
+  letter-spacing: -.02em;
+}
+
+.department-copy small {
+  display: block;
+  margin-top: 7px;
+  color: var(--muted);
+  font-size: 12px;
+  line-height: 1.4;
+}
+
+.department-arrow {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  color: var(--terracotta);
+  font-weight: 900;
+}
+
+.intent-section {
+  padding-top: 56px;
+  padding-bottom: 56px;
+  background: var(--green);
+  color: #f6f1e7;
+}
+
+.intent-section .eyebrow {
+  color: #e8a27d;
+}
+
+.intent-section .section-head p {
+  color: #cad7cd;
+}
+
+.intent-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.intent-card {
+  min-height: 260px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background: rgba(255, 255, 255, .06);
+  border: 1px solid rgba(255, 255, 255, .14);
+  border-radius: 20px;
+  color: inherit;
+  text-decoration: none;
+  transition: background .18s ease, transform .18s ease;
+}
+
+.intent-card:hover {
+  transform: translateY(-3px);
+  background: rgba(255, 255, 255, .11);
+}
+
+.intent-number {
+  margin-bottom: 36px;
+  color: #aebfb2;
+  font-size: 11px;
+  font-weight: 900;
+  letter-spacing: .12em;
+}
+
+.intent-card strong {
+  font: 700 22px/1.1 Georgia, "Times New Roman", serif;
+  letter-spacing: -.02em;
+}
+
+.intent-card p {
+  margin: 10px 0 20px;
+  color: #cbd6cd;
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+.intent-card > span:last-child {
+  margin-top: auto;
+  color: #f0b08e;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.question-section {
+  padding-top: 62px;
+}
+
+.latest-guides {
+  padding-top: 58px;
+}
+
+/* Evergreen presentation: dates remain available to search engines in schema,
+ * but the visible interface behaves like a permanent reference library. */
+.article-header .article-meta,
+.card-meta {
+  letter-spacing: .015em;
+}
+
+.article-header .article-meta span:first-child,
+.card-meta span:first-child {
+  font-weight: 800;
+  color: var(--green);
+}
+
+/* The fallback navigation represents stable editorial areas, not every child
+ * category. Product families are browsed from the Alimentos landing experience. */
+.primary-nav .food-fallback-menu {
+  gap: 14px;
+}
+
+.primary-nav .food-fallback-menu a {
+  font-size: 13px;
+}
+
+@media (max-width: 1080px) {
+  .department-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .intent-grid {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 760px) {
+  .hero-prompts {
+    align-items: flex-start;
+  }
+
+  .editorial-section-head {
+    align-items: flex-start;
+  }
+
+  .department-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .department-card {
+    min-height: 146px;
+  }
+
+  .intent-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .intent-card {
+    min-height: 0;
+  }
+
+  .intent-number {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .department-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .department-card {
+    min-height: 0;
+    grid-template-columns: 48px 1fr auto;
+    grid-template-rows: auto;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .department-icon {
+    margin: 0;
+  }
+
+  .department-arrow {
+    position: static;
+  }
+
+  .department-copy small {
+    margin-top: 4px;
+  }
+}
