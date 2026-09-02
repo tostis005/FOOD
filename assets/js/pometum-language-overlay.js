@@ -1,68 +1,91 @@
 document.addEventListener('DOMContentLoaded', function () {
-  const openButton = document.querySelector('.language-toggle');
-  const overlay = document.querySelector('.language-overlay');
-  const closeButton = document.querySelector('.language-overlay-close');
+  const configs = [
+    {
+      openButton: document.querySelector('.language-toggle'),
+      overlay: document.querySelector('.language-overlay'),
+      closeButton: document.querySelector('.language-overlay-close'),
+      bodyClass: 'language-overlay-open',
+      initialFocus: function (overlay, closeButton) { return closeButton; }
+    },
+    {
+      openButton: document.querySelector('.search-toggle'),
+      overlay: document.querySelector('.search-overlay'),
+      closeButton: document.querySelector('.search-overlay-close'),
+      bodyClass: 'search-overlay-open',
+      initialFocus: function (overlay) { return overlay.querySelector('input[type="search"]'); }
+    }
+  ].filter(function (config) {
+    return config.openButton && config.overlay && config.closeButton;
+  });
 
-  if (!openButton || !overlay || !closeButton) return;
+  if (!configs.length) return;
 
+  const focusableSelector = 'a[href], button:not([disabled]), input:not([disabled]), textarea:not([disabled]), [tabindex]:not([tabindex="-1"])';
+  let activeConfig = null;
   let lastFocused = null;
-  const focusableSelector = 'a[href], button:not([disabled]), [tabindex]:not([tabindex="-1"])';
 
-  function setBodyState(open) {
-    document.body.classList.toggle('language-overlay-open', open);
-  }
-
-  function openOverlay() {
+  function closeMobileMenu() {
     const menuOverlay = document.querySelector('.mobile-menu-overlay.is-open');
     const menuClose = menuOverlay ? menuOverlay.querySelector('.mobile-menu-close') : null;
     if (menuClose) menuClose.click();
-
-    lastFocused = document.activeElement;
-    overlay.classList.add('is-open');
-    overlay.setAttribute('aria-hidden', 'false');
-    openButton.setAttribute('aria-expanded', 'true');
-    setBodyState(true);
-
-    window.requestAnimationFrame(function () {
-      closeButton.focus();
-    });
   }
 
-  function closeOverlay() {
-    overlay.classList.remove('is-open');
-    overlay.setAttribute('aria-hidden', 'true');
-    openButton.setAttribute('aria-expanded', 'false');
-    setBodyState(false);
+  function closeConfig(config, restoreFocus) {
+    if (!config || !config.overlay.classList.contains('is-open')) return;
+    config.overlay.classList.remove('is-open');
+    config.overlay.setAttribute('aria-hidden', 'true');
+    config.openButton.setAttribute('aria-expanded', 'false');
+    document.body.classList.remove(config.bodyClass);
+    if (activeConfig === config) activeConfig = null;
 
-    if (lastFocused && typeof lastFocused.focus === 'function') {
+    if (restoreFocus && lastFocused && typeof lastFocused.focus === 'function') {
       lastFocused.focus();
     }
   }
 
-  openButton.addEventListener('click', openOverlay);
-  closeButton.addEventListener('click', closeOverlay);
+  function closeOthers(current) {
+    configs.forEach(function (config) {
+      if (config !== current) closeConfig(config, false);
+    });
+  }
 
-  overlay.querySelectorAll('a[href]').forEach(function (link) {
-    link.addEventListener('click', function () {
-      overlay.classList.remove('is-open');
-      overlay.setAttribute('aria-hidden', 'true');
-      openButton.setAttribute('aria-expanded', 'false');
-      setBodyState(false);
+  function openConfig(config) {
+    closeMobileMenu();
+    closeOthers(config);
+    lastFocused = document.activeElement;
+    activeConfig = config;
+    config.overlay.classList.add('is-open');
+    config.overlay.setAttribute('aria-hidden', 'false');
+    config.openButton.setAttribute('aria-expanded', 'true');
+    document.body.classList.add(config.bodyClass);
+
+    window.requestAnimationFrame(function () {
+      const focusTarget = config.initialFocus ? config.initialFocus(config.overlay, config.closeButton) : config.closeButton;
+      if (focusTarget && typeof focusTarget.focus === 'function') focusTarget.focus();
+    });
+  }
+
+  configs.forEach(function (config) {
+    config.openButton.addEventListener('click', function () { openConfig(config); });
+    config.closeButton.addEventListener('click', function () { closeConfig(config, true); });
+
+    config.overlay.querySelectorAll('a[href]').forEach(function (link) {
+      link.addEventListener('click', function () { closeConfig(config, false); });
     });
   });
 
   document.addEventListener('keydown', function (event) {
-    if (!overlay.classList.contains('is-open')) return;
+    if (!activeConfig || !activeConfig.overlay.classList.contains('is-open')) return;
 
     if (event.key === 'Escape') {
       event.preventDefault();
-      closeOverlay();
+      closeConfig(activeConfig, true);
       return;
     }
 
     if (event.key !== 'Tab') return;
 
-    const focusable = Array.from(overlay.querySelectorAll(focusableSelector)).filter(function (element) {
+    const focusable = Array.from(activeConfig.overlay.querySelectorAll(focusableSelector)).filter(function (element) {
       return element.offsetParent !== null;
     });
 
