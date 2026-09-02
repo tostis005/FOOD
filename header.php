@@ -3,8 +3,8 @@
 if ( 'Pommelo' !== get_option( 'blogname' ) ) {
 	update_option( 'blogname', 'Pommelo' );
 }
-if ( 'Guía práctica de alimentación' !== get_option( 'blogdescription' ) ) {
-	update_option( 'blogdescription', 'Guía práctica de alimentación' );
+if ( 'Guías sobre alimentos, nutrición y cocina' !== get_option( 'blogdescription' ) ) {
+	update_option( 'blogdescription', 'Guías sobre alimentos, nutrición y cocina' );
 }
 
 if ( ! function_exists( 'food_pommelo_logo' ) ) {
@@ -46,6 +46,7 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 	$food_v6_icons_css = get_template_directory() . '/assets/css/food-v6-icons.css';
 	$pommelo_css       = get_template_directory() . '/assets/css/pommelo-v1.css';
 	$pommelo_v2_css    = get_template_directory() . '/assets/css/pommelo-v2.css';
+	$pommelo_v3_css    = get_template_directory() . '/assets/css/pommelo-v3.css';
 	?>
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v4.css?ver=' . ( file_exists( $food_v4_css ) ? filemtime( $food_v4_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v5.css?ver=' . ( file_exists( $food_v5_css ) ? filemtime( $food_v5_css ) : '1' ) ); ?>">
@@ -53,6 +54,7 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v6-icons.css?ver=' . ( file_exists( $food_v6_icons_css ) ? filemtime( $food_v6_icons_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pommelo-v1.css?ver=' . ( file_exists( $pommelo_css ) ? filemtime( $pommelo_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pommelo-v2.css?ver=' . ( file_exists( $pommelo_v2_css ) ? filemtime( $pommelo_v2_css ) : '1' ) ); ?>">
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pommelo-v3.css?ver=' . ( file_exists( $pommelo_v3_css ) ? filemtime( $pommelo_v3_css ) : '1' ) ); ?>">
 	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='22' cy='25' r='17' fill='%23ef7865'/%3E%3Ccircle cx='22' cy='25' r='13' fill='%23fff0df'/%3E%3Ccircle cx='22' cy='25' r='10.6' fill='%23ef7865'/%3E%3Cg stroke='%23fff0df' stroke-width='2.1'%3E%3Cpath d='M22 25V14.4'/%3E%3Cpath d='m22 25 9.2-5.3'/%3E%3Cpath d='m22 25 9.2 5.3'/%3E%3Cpath d='M22 25v10.6'/%3E%3Cpath d='m22 25-9.2 5.3'/%3E%3Cpath d='m22 25-9.2-5.3'/%3E%3C/g%3E%3Cpath d='M31.5 9.5c3.2-4.3 7.2-5.7 11.7-4.4-.8 5-4.2 8.1-10.2 9.1' fill='%2364805f'/%3E%3C/svg%3E">
 </head>
 <body <?php body_class(); ?>>
@@ -64,7 +66,7 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 		<div class="site-branding">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" aria-label="Pommelo, inicio">
 				<?php food_pommelo_logo(); ?>
-				<div class="site-tagline">Guía práctica de alimentación</div>
+				<div class="site-tagline">Alimentos · nutrición · cocina</div>
 			</a>
 		</div>
 
@@ -101,7 +103,6 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 		<div class="mobile-menu-top">
 			<a class="mobile-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" aria-label="Pommelo, inicio">
 				<?php food_pommelo_logo( 'is-mobile' ); ?>
-				<span>Guía práctica de alimentación</span>
 			</a>
 			<button class="mobile-menu-close" type="button" aria-label="<?php esc_attr_e( 'Cerrar menú', 'food' ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
@@ -111,7 +112,7 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 		</div>
 
 		<div class="mobile-menu-content">
-			<div class="mobile-menu-eyebrow">Explora Pommelo</div>
+			<div class="mobile-menu-eyebrow">Encuentra lo que buscas</div>
 			<nav class="mobile-primary-nav" aria-label="<?php esc_attr_e( 'Menú móvil', 'food' ); ?>">
 				<?php
 				wp_nav_menu(
@@ -125,12 +126,12 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 			</nav>
 
 			<div class="mobile-menu-explore">
-				<span class="mobile-menu-explore-title">Familias de alimentos</span>
+				<span class="mobile-menu-explore-title">Explora por alimento</span>
 				<div class="mobile-food-links">
 					<a href="<?php echo esc_url( food_category_url( 'carnes', 'Carnes' ) ); ?>">Carnes</a>
 					<a href="<?php echo esc_url( food_category_url( 'pescados-mariscos', 'Pescados y mariscos' ) ); ?>">Pescados</a>
 					<a href="<?php echo esc_url( food_category_url( 'jamon-embutidos', 'Jamón y embutidos' ) ); ?>">Jamón y paletas</a>
-					<a href="<?php echo esc_url( food_category_url( 'quesos-lacteos', 'Quesos y lácteos' ) ); ?>">Quesos</a>
+					<a href="<?php echo esc_url( food_category_url( 'quesos-lacteos', 'Quesos y lácteos' ) ); ?>">Quesos y lácteos</a>
 					<a href="<?php echo esc_url( food_category_url( 'aceites', 'Aceites' ) ); ?>">Aceites</a>
 					<a href="<?php echo esc_url( food_category_url( 'legumbres', 'Legumbres' ) ); ?>">Legumbres</a>
 					<a href="<?php echo esc_url( food_category_url( 'frutas', 'Frutas' ) ); ?>">Frutas</a>
@@ -144,7 +145,7 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 				<button type="submit">Buscar</button>
 			</form>
 
-			<p class="mobile-menu-note">Busca por alimento o por el tipo de duda que quieres resolver.</p>
+			<p class="mobile-menu-note">Guías prácticas sobre alimentos, nutrición, seguridad, conservación y cocina.</p>
 		</div>
 	</div>
 </div>
