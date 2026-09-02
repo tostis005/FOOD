@@ -19,57 +19,8 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Consolidate runtime CSS loading and brand tagline
-        shell: bash
-        run: |
-          python3 - <<'PY'
-          from pathlib import Path
-          import re
-
-          header = Path('header.php')
-          text = header.read_text(encoding='utf-8')
-
-          css_pattern = re.compile(
-              r"\t<\?php wp_head\(\); \?>\n\t<\?php\n\t\$css_files = array\(.*?\n\t<\?php endforeach; \?>",
-              re.S,
-          )
-          css_replacement = """\t<?php
-\tremove_action( 'wp_enqueue_scripts', 'food_enqueue_assets' );
-\twp_dequeue_style( 'food-style' );
-\twp_dequeue_style( 'food-editorial' );
-\twp_dequeue_style( 'food-article-layout-v2' );
-\twp_head();
-\t$food_consolidated_css = get_template_directory() . '/assets/css/quinnoa.css';
-\t?>
-\t<?php if ( file_exists( $food_consolidated_css ) ) : ?>
-\t\t<link rel=\"stylesheet\" href=\"<?php echo esc_url( get_template_directory_uri() . '/assets/css/quinnoa.css?ver=' . filemtime( $food_consolidated_css ) ); ?>\">
-\t<?php endif; ?>"""
-          text, count = css_pattern.subn(css_replacement, text, count=1)
-          if count != 1:
-              raise SystemExit(f'Expected to replace one CSS loader block, replaced {count}')
-
-          old_tagline = "\t\t\t\t<div class=\"site-tagline\"><?php echo esc_html( $food_english ? 'Food · Nutrition' : 'Alimentos · Nutrición' ); ?></div>"
-          new_tagline = """\t\t\t\t<div class=\"site-tagline\" aria-label=\"<?php echo esc_attr( $food_english ? 'Natural, Nutrition' : 'Nutrición, Natural' ); ?>\">
-\t\t\t\t\t<span class=\"site-tagline-word\"><?php echo esc_html( $food_english ? 'Natural' : 'Nutrición' ); ?></span>
-\t\t\t\t\t<span class=\"site-tagline-separator\" aria-hidden=\"true\">·</span>
-\t\t\t\t\t<span class=\"site-tagline-word\"><?php echo esc_html( $food_english ? 'Nutrition' : 'Natural' ); ?></span>
-\t\t\t\t</div>"""
-          if old_tagline not in text:
-              raise SystemExit('Expected header tagline was not found')
-          text = text.replace(old_tagline, new_tagline, 1)
-          header.write_text(text, encoding='utf-8')
-
-          single = Path('single.php')
-          single_text = single.read_text(encoding='utf-8')
-          single_pattern = re.compile(
-              r"^<\?php\n\$food_article_layout_css = .*?\nget_header\(\);\n\?>",
-              re.S,
-          )
-          single_text, count = single_pattern.subn("<?php\nget_header();\n?>", single_text, count=1)
-          if count != 1:
-              raise SystemExit(f'Expected to remove one article CSS enqueue block, removed {count}')
-          single.write_text(single_text, encoding='utf-8')
-          PY
+      - name: Apply CSS consolidation
+        run: python3 scripts/apply_css_consolidation.py
 
       - name: Validate PHP
         run: |
