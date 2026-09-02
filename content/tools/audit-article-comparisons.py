@@ -29,6 +29,27 @@ NUMBER_RE = re.compile(r'(?<![A-Za-z])\d+(?:[.,]\d+)?\s*(?:%|g|mg|µg|mcg|kcal|c
 TAG_RE = re.compile(r'<[^>]+>')
 BLOCK_RE = re.compile(r'<(?:p|li|td|h2|h3)\b[^>]*>(.*?)</(?:p|li|td|h2|h3)>', re.I | re.S)
 
+# Phrases that make the published article sound like an author explaining the
+# drafting process rather than answering the reader.
+PROCESS_RE = re.compile(
+    r'('
+    r'\b(?:hemos|se ha|se han|hemos decidido|decidimos)\s+(?:elegido|escogido|usado|utilizado|redondeado|excluido|ordenado)\b|'
+    r'\b(?:deliberadamente|intencionadamente)\b|'
+    r'\b(?:merece|merecer[ií]a)\s+(?:un|otro)\s+art[ií]culo\b|'
+    r'\b(?:lo veremos|se ver[aá]|se tratar[aá]|se desarrolla|se desarrollar[aá])\s+(?:en|mejor en)\s+(?:otro|un)\s+art[ií]culo\b|'
+    r'\b(?:esta|este)\s+(?:tabla|ranking|art[ií]culo)\s+(?:no pretende|pretende)\b|'
+    r'\b(?:we|this article|this ranking|this table)\s+(?:chose|use|used|exclude|excluded|round|rounded|do not intend|does not intend)\b|'
+    r'\b(?:deliberately|intentionally)\s+(?:exclude|excluded|round|rounded|use|used)\b|'
+    r'\b(?:deserves|would deserve)\s+(?:a|its own)\s+(?:separate\s+)?article\b|'
+    r'\b(?:we will|we’ll|will be)\s+(?:cover|covered|discuss|discussed)\s+(?:elsewhere|in another article)\b'
+    r')', re.I
+)
+
+# Database-style preparation labels that are usually too technical for display.
+TECHNICAL_PREP_RE = re.compile(
+    r'\b(cocinado con calor seco|cooked with dry heat|cooked, dry heat|heat-treated by dry heat)\b', re.I
+)
+
 
 def text_blocks(content_html):
     for block in BLOCK_RE.findall(content_html):
@@ -41,28 +62,39 @@ def text_blocks(content_html):
 def looks_like_comparison(text):
     if not COMPARATIVE_RE.search(text) or not MEASURABLE_RE.search(text):
         return False
-    # Two explicit numeric values normally mean both sides are quantified.
     nums = NUMBER_RE.findall(text)
     if len(nums) >= 2:
         return False
-    # Rankings/headings can state a comparative concept without making a binary claim.
     if len(text) < 90 and re.search(r'^(ranking|los |las |the |¿|what |which )', text, re.I):
         return False
     return True
 
+comparison_issues = []
+process_issues = []
+prep_issues = []
 
-issues = []
 for path in sorted(ROOT.glob('*/*.json')):
     data = json.loads(path.read_text(encoding='utf-8'))
     content = data.get('content_html', '')
     for text in text_blocks(content):
         if looks_like_comparison(text):
-            issues.append((str(path), text))
+            comparison_issues.append((str(path), text))
+        if PROCESS_RE.search(text):
+            process_issues.append((str(path), text))
+        if TECHNICAL_PREP_RE.search(text):
+            prep_issues.append((str(path), text))
 
-if issues:
-    print(f'COMPARISON_AUDIT_WARNINGS={len(issues)}')
-    for path, text in issues:
-        print(f'[{path}] {text}')
-    # Warning-only by design: human review decides whether a numerical comparison is meaningful.
-else:
-    print('COMPARISON_AUDIT_WARNINGS=0')
+print(f'COMPARISON_AUDIT_WARNINGS={len(comparison_issues)}')
+for path, text in comparison_issues:
+    print(f'[comparison][{path}] {text}')
+
+print(f'EDITORIAL_PROCESS_WARNINGS={len(process_issues)}')
+for path, text in process_issues:
+    print(f'[process][{path}] {text}')
+
+print(f'TECHNICAL_PREPARATION_WARNINGS={len(prep_issues)}')
+for path, text in prep_issues:
+    print(f'[preparation][{path}] {text}')
+
+# Warning-only: a human/editorial pass decides whether each flagged sentence
+# genuinely needs a numerical comparison or wording change.
