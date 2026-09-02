@@ -65,6 +65,29 @@ body.home .latest-guides-v5 {
   display: none !important;
 }
 
+/* English is the US edition, so always render the US flag visually. */
+.language-option[hreflang="en"] .language-option-flag {
+  font-size: 0 !important;
+}
+
+.language-option[hreflang="en"] .language-option-flag::before {
+  content: "🇺🇸";
+  display: inline-block;
+  font-size: 28px;
+  line-height: 1;
+}
+
+html[lang^="en"] .language-current-flag {
+  font-size: 0 !important;
+}
+
+html[lang^="en"] .language-current-flag::before {
+  content: "🇺🇸";
+  display: inline-block;
+  font-size: 20px;
+  line-height: 1;
+}
+
 /* Search overlay --------------------------------------------------------- */
 .search-overlay {
   position: fixed;
