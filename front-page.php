@@ -13,7 +13,7 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 		<div class="hero-main hero-main-v5">
 			<span class="hero-kicker">Una guía para entender lo que comes</span>
 			<h1>Comida, explicada con criterio.</h1>
-			<p>Busca por alimento o por la duda que quieres resolver. FOOD organiza cada guía en dos dimensiones: de qué alimento habla y qué tipo de información necesitas.</p>
+			<p>Busca por alimento o por la duda que quieres resolver. Pommelo organiza cada guía en dos dimensiones: de qué alimento habla y qué tipo de información necesitas.</p>
 
 			<form class="hero-search hero-search-v5" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<label class="screen-reader-text" for="food-search">Buscar</label>
@@ -54,7 +54,7 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 		<?php else : ?>
 			<div class="home-feature-card home-feature-empty">
 				<div class="home-feature-media has-illustration"><div class="home-feature-illustration family-general"><?php echo food_category_icon_svg( '' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div></div>
-				<div class="home-feature-body"><div class="content-dimensions"><span>FOOD</span></div><strong>Las guías destacadas aparecerán aquí automáticamente.</strong><p>Cuando publiques contenido, la portada escogerá una guía destacada y la irá renovando sin tocar el diseño.</p></div>
+				<div class="home-feature-body"><div class="content-dimensions"><span>Pommelo</span></div><strong>Las guías destacadas aparecerán aquí automáticamente.</strong><p>Cuando publiques contenido, la portada escogerá una guía destacada y la irá renovando sin tocar el diseño.</p></div>
 			</div>
 		<?php endif; ?>
 	</div>
@@ -75,7 +75,7 @@ $discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id
 			$families = array(
 				array( 'Carnes', 'carnes', 'Cortes, calidad, conservación y cocción.' ),
 				array( 'Pescados y mariscos', 'pescados-mariscos', 'Frescura, especies, seguridad y cocina.' ),
-				array( 'Jamón y embutidos', 'jamon-embutidos', 'Curados, procedencia, categorías y calidad.' ),
+				array( 'Jamón, paletas y embutidos', 'jamon-embutidos', 'Curados, procedencia, categorías y calidad.' ),
 				array( 'Quesos y lácteos', 'quesos-lacteos', 'Variedades, conservación, usos y elaboración.' ),
 				array( 'Aceites', 'aceites', 'Sabor, conservación, usos y aceite de oliva.' ),
 				array( 'Legumbres', 'legumbres', 'Tipos, remojo, cocción y composición.' ),
