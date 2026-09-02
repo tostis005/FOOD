@@ -20,8 +20,9 @@ jobs:
           fetch-depth: 0
 
       - name: Consolidate runtime CSS loading and brand tagline
-        shell: python
+        shell: bash
         run: |
+          python3 - <<'PY'
           from pathlib import Path
           import re
 
@@ -68,6 +69,7 @@ jobs:
           if count != 1:
               raise SystemExit(f'Expected to remove one article CSS enqueue block, removed {count}')
           single.write_text(single_text, encoding='utf-8')
+          PY
 
       - name: Validate PHP
         run: |
