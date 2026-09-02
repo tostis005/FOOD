@@ -1,0 +1,177 @@
+/*
+ * Pommelo v7 — clarity pass.
+ * One recognisable idea per pictogram, no decorative overlap, and one coherent
+ * editorial width for article content.
+ */
+
+:root {
+  --pommelo-article-width: 980px;
+}
+
+/* --------------------------------------------------------------------------
+   TAXONOMY ARTWORK
+   -------------------------------------------------------------------------- */
+
+.food-family-art,
+.topic-card-art {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+}
+
+.food-family-art::after,
+.topic-card-art::after {
+  width: 88px !important;
+  height: 64px !important;
+  flex: 0 0 auto !important;
+  margin: 0 !important;
+  transform: none !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: contain !important;
+}
+
+/* Food families: simple silhouettes/compositions with separated objects. */
+.family-alimentacion-general { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Ccircle cx='60' cy='44' r='25' fill='%23fffaf3' stroke='%2326383e' stroke-width='3'/%3E%3Ccircle cx='60' cy='44' r='14' fill='%23f2ddd1' stroke='%2326383e' stroke-width='2'/%3E%3Cpath d='M22 18v52M17 18v15c0 7 10 7 10 0V18M98 18v52M91 18c9 8 10 20 7 29' fill='none' stroke='%2326383e' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.family-carnes { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M27 18c17-11 43-9 59 3 16 12 15 32 1 45-15 14-43 16-60 5C10 60 9 31 27 18Z' fill='%23dc765f' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M52 28c9-6 21-2 24 7 3 10-4 20-14 23-10 3-21-2-22-12-1-7 4-14 12-18Z' fill='%23fff7ef' stroke='%2326383e' stroke-width='2.5'/%3E%3Cellipse cx='61' cy='42' rx='7' ry='9' fill='%23ecd2c5' stroke='%2326383e' stroke-width='2'/%3E%3C/svg%3E"); }
+.family-pescados-mariscos { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M22 44c14-20 39-28 61-15 8 5 14 10 18 15-5 7-11 12-19 16-22 11-46 3-60-16Z' fill='%237eb9c9' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M22 44 7 30v28l15-14Z' fill='%23b8dde5' stroke='%2326383e' stroke-width='3'/%3E%3Ccircle cx='82' cy='38' r='3.2' fill='%2326383e'/%3E%3Cpath d='M51 29c-5 8-5 21 0 29' fill='none' stroke='%2326383e' stroke-width='2.2'/%3E%3C/svg%3E"); }
+.family-huevos { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M22 53c0-17 9-36 20-36s20 19 20 36c0 12-8 20-20 20s-20-8-20-20Z' fill='%23fffaf3' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M65 50c0-14 8-31 18-31s18 17 18 31c0 12-7 20-18 20S65 62 65 50Z' fill='%23f6e5c8' stroke='%2326383e' stroke-width='3'/%3E%3C/svg%3E"); }
+.family-lacteos-quesos { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M15 20h27l5 11v43H10V31l5-11Z' fill='%23fffaf3' stroke='%2326383e' stroke-width='3'/%3E%3Crect x='20' y='9' width='17' height='11' rx='2' fill='%23cfe4eb' stroke='%2326383e' stroke-width='2.5'/%3E%3Crect x='17' y='44' width='23' height='17' rx='2' fill='%23d9edf2'/%3E%3Cpath d='M62 68 70 39l36 9-9 25H62Z' fill='%23efc84f' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='m70 39 23-12 13 21-36-9Z' fill='%23f5dc75' stroke='%2326383e' stroke-width='3'/%3E%3Ccircle cx='82' cy='52' r='3.5' fill='%23fff1a2'/%3E%3Ccircle cx='94' cy='62' r='3' fill='%23fff1a2'/%3E%3C/svg%3E"); }
+.family-legumbres-soja { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M20 48c-7-10 4-24 17-19 12 5 11 23 1 31-7 6-14-2-18-12Z' fill='%23b87552' stroke='%2326383e' stroke-width='2.8'/%3E%3Cpath d='M51 31c8-8 22-3 22 9 0 11-11 22-21 18-10-4-10-18-1-27Z' fill='%23d7bd7c' stroke='%2326383e' stroke-width='2.8'/%3E%3Cpath d='M84 28c13-4 24 8 18 20-5 10-21 15-29 7-7-8 0-23 11-27Z' fill='%238ba360' stroke='%2326383e' stroke-width='2.8'/%3E%3C/svg%3E"); }
+.family-frutos-secos-semillas { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M18 24c15-9 30 4 27 20-2 15-16 28-28 24-11-4-15-19-8-31 3-6 5-10 9-13Z' fill='%23c89461' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M25 27c4 10 4 24-2 36M13 41c9 3 18 8 25 15' fill='none' stroke='%2379583d' stroke-width='2.2' stroke-linecap='round'/%3E%3Cpath d='M61 25c10 0 18 10 15 21-3 12-15 21-24 15-8-5-7-16 0-25 3-6 5-11 9-11Z' fill='%23e1b97d' stroke='%2326383e' stroke-width='2.8'/%3E%3Cellipse cx='93' cy='34' rx='6' ry='11' fill='%236f8959' stroke='%2326383e' stroke-width='2' transform='rotate(23 93 34)'/%3E%3Cellipse cx='99' cy='59' rx='5' ry='10' fill='%23d5b46b' stroke='%2326383e' stroke-width='2' transform='rotate(-18 99 59)'/%3E%3C/svg%3E"); }
+.family-cereales-pseudocereales-derivados { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M9 44c0-14 13-25 32-25s32 11 32 25v30H9V44Z' fill='%23d5a657' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M24 37c5-6 10-10 16-13M43 38c5-6 10-10 16-13' fill='none' stroke='%23fff0c0' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M93 73V17' fill='none' stroke='%2326383e' stroke-width='2.5'/%3E%3Cpath d='M93 28c-9 0-14-5-16-12 9 0 14 5 16 12ZM93 43c9 0 14-5 16-12-9 0-14 5-16 12ZM93 58c-9 0-14-5-16-12 9 0 14 5 16 12Z' fill='%23e3bb60' stroke='%2326383e' stroke-width='2'/%3E%3C/svg%3E"); }
+.family-tuberculos { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M15 46c0-17 14-30 33-30 17 0 31 11 31 27 0 19-17 32-36 32-16 0-28-11-28-29Z' fill='%23c79a6c' stroke='%2326383e' stroke-width='3'/%3E%3Ccircle cx='35' cy='34' r='2.3' fill='%23745a47'/%3E%3Ccircle cx='55' cy='29' r='2.3' fill='%23745a47'/%3E%3Ccircle cx='59' cy='51' r='2.3' fill='%23745a47'/%3E%3Cpath d='M89 27c9-4 18 2 19 10 2 13-13 29-27 31-8 1-13-5-10-12 4-11 9-24 18-29Z' fill='%23d88458' stroke='%2326383e' stroke-width='3'/%3E%3C/svg%3E"); }
+.family-verduras-hortalizas-setas { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M22 28 38 73c2 5 8 4 10 0 8-15 13-31 14-49L22 28Z' fill='%23e58a49' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M25 28C14 24 10 16 11 7c11 1 19 7 23 17 1-10 7-17 17-21 3 11-1 20-11 27' fill='%237ba266' stroke='%2326383e' stroke-width='2.5'/%3E%3Cpath d='M72 43c2-11 10-18 20-18s18 7 20 18H72Z' fill='%23d5b28e' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M82 43v27h20V43' fill='%23f0d8bc' stroke='%2326383e' stroke-width='3'/%3E%3C/svg%3E"); }
+.family-frutas { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M15 45c0-15 9-26 22-26 13 0 22 11 22 26 0 17-10 29-22 29S15 62 15 45Z' fill='%23e56f5f' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M37 20c0-8 5-13 12-15' fill='none' stroke='%2326383e' stroke-width='2.5' stroke-linecap='round'/%3E%3Cpath d='M42 12c8-5 15-3 19 2-6 5-12 6-19 2Z' fill='%23749a62' stroke='%2326383e' stroke-width='2'/%3E%3Cpath d='M65 49c0-18 8-32 18-32s18 14 18 32c0 15-7 25-18 25S65 64 65 49Z' fill='%23d8b95c' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M83 18c0-7 4-11 9-14' fill='none' stroke='%2326383e' stroke-width='2.5' stroke-linecap='round'/%3E%3Cpath d='M103 30c8 6 11 15 9 25-2 10-9 18-18 20 4-6 6-12 6-19 0-10-3-19-9-26h12Z' fill='%23f1c64e' stroke='%2326383e' stroke-width='3'/%3E%3C/svg%3E"); }
+.family-aceites-grasas { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Crect x='43' y='8' width='34' height='12' rx='3' fill='%236f865d' stroke='%2326383e' stroke-width='2.5'/%3E%3Cpath d='M39 20h42l5 14v40H34V34l5-14Z' fill='%23e5bd4d' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M40 47h40v21H40Z' fill='%23f2d76d'/%3E%3Cpath d='M60 39c8 9 12 14 12 20a12 12 0 1 1-24 0c0-6 4-11 12-20Z' fill='%23fff3bd' stroke='%2326383e' stroke-width='2.3'/%3E%3C/svg%3E"); }
+.family-bebidas { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M18 18h25l3 15v40H15V33l3-15Z' fill='%2399c8d6' stroke='%2326383e' stroke-width='3'/%3E%3Crect x='23' y='8' width='15' height='10' rx='2' fill='%236d8790' stroke='%2326383e' stroke-width='2.3'/%3E%3Cpath d='M66 25h38l-5 48H71l-5-48Z' fill='%23fffaf3' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M72 51h26l-2 17H74l-2-17Z' fill='%23efb866'/%3E%3C/svg%3E"); }
+.family-chocolate-cacao-dulces { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Crect x='20' y='14' width='80' height='60' rx='7' fill='%238b5a42' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M47 14v60M73 14v60M20 44h80' stroke='%23c48a68' stroke-width='3'/%3E%3C/svg%3E"); }
+.family-fermentados { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Crect x='31' y='17' width='58' height='58' rx='8' fill='%23e6efcf' stroke='%2326383e' stroke-width='3'/%3E%3Crect x='27' y='9' width='66' height='13' rx='4' fill='%23b3b7a4' stroke='%2326383e' stroke-width='3'/%3E%3Ccircle cx='48' cy='44' r='7' fill='%237fa56b'/%3E%3Ccircle cx='69' cy='51' r='8' fill='%23d0a45c'/%3E%3Ccircle cx='58' cy='63' r='6' fill='%23b66c56'/%3E%3Ccircle cx='75' cy='34' r='3' fill='%23fffaf3' stroke='%2326383e' stroke-width='1.5'/%3E%3C/svg%3E"); }
+.family-algas-especias-otros { --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M22 73c4-12 3-22-2-31-5-10-2-20 8-29 3 11 9 17 16 20-8 9-10 18-7 29 2 6 1 10-2 15' fill='none' stroke='%236f9a72' stroke-width='7' stroke-linecap='round'/%3E%3Cpath d='M42 71c4-11 3-20-2-28-4-8-2-16 6-23 3 9 8 14 14 17-6 8-8 16-5 25 1 5 0 9-2 13' fill='none' stroke='%2380aa7d' stroke-width='6' stroke-linecap='round'/%3E%3Crect x='72' y='25' width='30' height='43' rx='5' fill='%23d9aa6e' stroke='%2326383e' stroke-width='3'/%3E%3Crect x='76' y='17' width='22' height='10' rx='3' fill='%23a9724e' stroke='%2326383e' stroke-width='2.5'/%3E%3Ccircle cx='82' cy='42' r='3' fill='%23724a34'/%3E%3Ccircle cx='91' cy='50' r='3' fill='%23724a34'/%3E%3Ccircle cx='84' cy='58' r='3' fill='%23724a34'/%3E%3C/svg%3E"); }
+
+/* Article topics: one bold concept per topic. */
+.topic-nutricion-composicion { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Ccircle cx='60' cy='44' r='29' fill='%23fffaf3' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M60 44V15a29 29 0 0 1 25 14Z' fill='%23ef7865' stroke='%2326383e' stroke-width='2'/%3E%3Cpath d='M60 44 85 29a29 29 0 0 1-5 39Z' fill='%23e4c85f' stroke='%2326383e' stroke-width='2'/%3E%3Cpath d='M60 44 80 68a29 29 0 0 1-49-5Z' fill='%238ca877' stroke='%2326383e' stroke-width='2'/%3E%3C/svg%3E"); }
+.topic-rankings-mejores-fuentes { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Crect x='14' y='50' width='28' height='25' rx='3' fill='%23d9c66e' stroke='%2326383e' stroke-width='3'/%3E%3Crect x='46' y='29' width='28' height='46' rx='3' fill='%23ef7865' stroke='%2326383e' stroke-width='3'/%3E%3Crect x='78' y='42' width='28' height='33' rx='3' fill='%2394aa88' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M60 10l4 8 9 1-7 6 2 9-8-5-8 5 2-9-7-6 9-1 4-8Z' fill='%23f0d46f' stroke='%2326383e' stroke-width='2'/%3E%3C/svg%3E"); }
+.topic-comparativas { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M60 15v55M25 27h70M30 27 16 53h28L30 27ZM90 27 76 53h28L90 27Z' fill='none' stroke='%2326383e' stroke-width='3' stroke-linejoin='round'/%3E%3Cpath d='M14 53h32c-3 10-9 15-16 15S17 63 14 53ZM74 53h32c-3 10-9 15-16 15s-13-5-16-15Z' fill='%23dbe8d8' stroke='%2326383e' stroke-width='2.5'/%3E%3C/svg%3E"); }
+.topic-seguridad-alimentaria { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M60 8 94 20v24c0 20-13 33-34 41-21-8-34-21-34-41V20L60 8Z' fill='%23dcebdc' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='m43 45 11 11 24-28' fill='none' stroke='%235a865f' stroke-width='6' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.topic-conservacion-almacenamiento { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Crect x='35' y='8' width='50' height='72' rx='6' fill='%23dbeaf0' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M35 39h50' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M47 21h9M47 51h9' stroke='%23547785' stroke-width='4' stroke-linecap='round'/%3E%3C/svg%3E"); }
+.topic-congelacion-descongelacion { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M38 17v54M15 30l46 28M15 58l46-28M27 18l11 10 11-10M27 70l11-10 11 10' fill='none' stroke='%23507f98' stroke-width='4' stroke-linecap='round'/%3E%3Cpath d='M88 22c10 14 15 22 15 31a15 15 0 1 1-30 0c0-9 5-17 15-31Z' fill='%239fcbdc' stroke='%2326383e' stroke-width='3'/%3E%3C/svg%3E"); }
+.topic-cocina-ciencia-alimentos { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M12 48h58v21H12Z' fill='%23d98a62' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M20 48c2-14 12-22 21-22s19 8 21 22' fill='%23f1d3c0' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M32 18h18M41 18v8' stroke='%2326383e' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M90 12v40c0 5-7 8-7 16a12 12 0 0 0 24 0c0-8-7-11-7-16V12H90Z' fill='%23fffaf3' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M95 27h5v31c4 3 5 6 5 10a8 8 0 0 1-16 0c0-4 1-7 6-10V27Z' fill='%23ef7865'/%3E%3C/svg%3E"); }
+.topic-preparacion-tecnicas-cocina { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Crect x='13' y='45' width='94' height='30' rx='5' fill='%23d5af86' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='m30 50 47-42 11 11-47 42Z' fill='%23d4dde0' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='m72 13 11 11' stroke='%23fff' stroke-width='2.5'/%3E%3C/svg%3E"); }
+.topic-salud-consumo-habitual { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M60 74S23 54 23 30c0-13 16-19 27-8l10 10 10-10c11-11 27-5 27 8 0 24-37 44-37 44Z' fill='%23e2766c' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='m44 42 10 10 22-25' fill='none' stroke='%23fff7ef' stroke-width='5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+.topic-conceptos-nutricion { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Ccircle cx='60' cy='20' r='10' fill='%23ef7865' stroke='%2326383e' stroke-width='2.5'/%3E%3Ccircle cx='31' cy='63' r='10' fill='%238ca877' stroke='%2326383e' stroke-width='2.5'/%3E%3Ccircle cx='89' cy='63' r='10' fill='%23e4c85f' stroke='%2326383e' stroke-width='2.5'/%3E%3Cpath d='M54 28 36 55M66 28l18 27M41 63h38' fill='none' stroke='%2326383e' stroke-width='3'/%3E%3C/svg%3E"); }
+.topic-mitos-preguntas-frecuentes { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M17 13h86v54H66L45 82V67H17V13Z' fill='%23f2e5ec' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M45 31c1-13 28-14 29 0 1 11-14 11-14 23' fill='none' stroke='%23915d73' stroke-width='5' stroke-linecap='round'/%3E%3Ccircle cx='60' cy='61' r='3.5' fill='%23915d73'/%3E%3C/svg%3E"); }
+.topic-procesamiento-produccion-elaboracion { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Ccircle cx='60' cy='44' r='28' fill='%23d8cdb9' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='m60 8 7 11 13-3 3 13 13 4-4 13 10 8-9 10 5 12-13 5-2 13-13-2-8 11-10-9-12 5-5-13-13-2 2-13-11-8 8-10-5-12 12-6 1-13 13 1 8-11 10 8Z' fill='%23c6b89c' stroke='%2326383e' stroke-width='2.5'/%3E%3Ccircle cx='60' cy='44' r='12' fill='%23fff8ef' stroke='%2326383e' stroke-width='3'/%3E%3C/svg%3E"); }
+.topic-compra-calidad-maduracion { --topic-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M19 49c0-15 10-27 24-27s24 12 24 27c0 17-11 29-24 29S19 66 19 49Z' fill='%23e57964' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M43 23c0-8 5-13 12-16' fill='none' stroke='%2326383e' stroke-width='2.5'/%3E%3Ccircle cx='84' cy='36' r='17' fill='none' stroke='%2326383e' stroke-width='4'/%3E%3Cpath d='m96 49 14 14' stroke='%2326383e' stroke-width='5' stroke-linecap='round'/%3E%3Cpath d='m77 36 5 5 10-12' fill='none' stroke='%236b9466' stroke-width='4' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"); }
+
+/* --------------------------------------------------------------------------
+   ARTICLE WIDTH SYSTEM
+   -------------------------------------------------------------------------- */
+
+.single .article-shell {
+  width: min(calc(100% - 36px), var(--pommelo-article-width)) !important;
+  margin-inline: auto !important;
+}
+
+.single .answer-box,
+.single .entry-content,
+.single .ad-slot {
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.single .entry-content > * {
+  width: 100% !important;
+  max-width: none !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+
+.single .entry-content .alignwide,
+.single .entry-content .alignfull {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  transform: none !important;
+}
+
+.single .entry-content {
+  font-size: 19px;
+  line-height: 1.74;
+}
+
+.single .entry-content p,
+.single .entry-content ul,
+.single .entry-content ol,
+.single .entry-content blockquote,
+.single .entry-content h2,
+.single .entry-content h3,
+.single .entry-content h4,
+.single .entry-content figure,
+.single .entry-content .wp-block-group,
+.single .entry-content .wp-block-table {
+  box-sizing: border-box;
+}
+
+.single .entry-content .wp-block-table,
+.single .entry-content figure.wp-block-table {
+  width: 100% !important;
+  max-width: 100% !important;
+  overflow-x: auto;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  -webkit-overflow-scrolling: touch;
+}
+
+.single .entry-content table {
+  width: auto;
+  max-width: 100%;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+  border-collapse: collapse;
+}
+
+.single .entry-content > table {
+  width: auto !important;
+  max-width: 100% !important;
+}
+
+.single .entry-content table th,
+.single .entry-content table td {
+  vertical-align: top;
+}
+
+@media (max-width: 760px) {
+  .food-family-art::after,
+  .topic-card-art::after {
+    width: 78px !important;
+    height: 57px !important;
+  }
+
+  .single .article-shell {
+    width: min(calc(100% - 28px), var(--pommelo-article-width)) !important;
+  }
+
+  .single .entry-content {
+    font-size: 18px;
+    line-height: 1.7;
+  }
+
+  .single .entry-content .wp-block-table table,
+  .single .entry-content figure.wp-block-table table {
+    width: max-content;
+    min-width: 100%;
+    max-width: none;
+  }
+
+  .single .entry-content > table {
+    display: block;
+    width: 100% !important;
+    overflow-x: auto;
+    white-space: normal;
+  }
+}
