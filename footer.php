@@ -8,7 +8,7 @@ $food_footer_language = $food_english ? 'en' : 'es';
 	<div class="container footer-main footer-main-v5">
 		<div>
 			<div class="pometum-footer-brand"><?php if ( function_exists( 'food_pometum_logo' ) ) { food_pometum_logo( 'is-footer' ); } else { echo esc_html( get_bloginfo( 'name' ) ?: 'Quinnoa' ); } ?></div>
-			<p class="footer-copy"><?php echo esc_html( $food_english ? 'Clear articles to understand food better: nutrition, quality, safety, storage, buying and cooking, with useful data and comparisons in context.' : 'Artículos claros para entender mejor los alimentos: nutrición, calidad, seguridad, conservación, compra y cocina, con datos y comparaciones que ponen cada respuesta en contexto.' ); ?></p>
+			<p class="footer-copy"><?php echo esc_html( $food_english ? 'A publication about food, nutrition, quality, food safety, storage and cooking.' : 'Una publicación sobre alimentos, nutrición, calidad, seguridad alimentaria, conservación y cocina.' ); ?></p>
 		</div>
 		<nav aria-label="<?php echo esc_attr( $food_english ? 'Footer links' : 'Enlaces del pie' ); ?>">
 			<ul class="footer-links-v5">
@@ -20,7 +20,7 @@ $food_footer_language = $food_english ? 'en' : 'es';
 	</div>
 	<div class="container footer-bottom">
 		<span>© <?php echo esc_html( gmdate( 'Y' ) ); ?> <?php bloginfo( 'name' ); ?></span>
-		<span><?php echo esc_html( $food_english ? 'Editorial content about food. For medical or food-safety decisions, prioritize guidance from qualified professionals and official authorities.' : 'Contenido editorial sobre alimentos. Para decisiones médicas o de seguridad alimentaria, prioriza las indicaciones de profesionales cualificados y organismos oficiales.' ); ?></span>
+		<span><?php echo esc_html( $food_english ? 'General educational information. Medical and food-safety advice from qualified professionals and official authorities takes priority.' : 'Información divulgativa de carácter general. En cuestiones médicas y de seguridad alimentaria prevalecen las indicaciones de profesionales cualificados y organismos oficiales.' ); ?></span>
 	</div>
 </footer>
 
