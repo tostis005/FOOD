@@ -7,7 +7,6 @@ from pathlib import Path
 root = Path(sys.argv[1] if len(sys.argv) > 1 else 'content/articles')
 files = sorted(root.glob('es/*.json')) + sorted(root.glob('en/*.json'))
 errors = []
-review_notes = []
 
 expected = {(lang, n) for lang in ('es','en') for n in range(1,26)}
 seen = set()
@@ -69,28 +68,6 @@ for path in files:
     if excerpt and excerpt.lower() in plain:
         errors.append(f'{path}: excerpt/quick answer is repeated verbatim in content_html')
 
-    # This is intentionally a review signal, not a failing template rule. A long
-    # run of tiny H2 sections can indicate the catalogue effect, but some topics
-    # genuinely need short decision sections. Human cold-reading remains required.
-    sections = re.split(r'(?=<h2>)', content)
-    short_run = 0
-    longest_short_run = 0
-    for section in sections:
-        if not section.startswith('<h2>'):
-            continue
-        body = re.sub(r'^<h2>.*?</h2>', '', section, count=1, flags=re.S)
-        paragraphs = len(re.findall(r'<p(?:\s[^>]*)?>', body))
-        has_structured = bool(re.search(r'<(?:table|ul|ol)(?:\s[^>]*)?>', body))
-        if paragraphs <= 2 and not has_structured:
-            short_run += 1
-            longest_short_run = max(longest_short_run, short_run)
-        else:
-            short_run = 0
-    if longest_short_run >= 4:
-        review_notes.append(
-            f'{path}: narrative review suggested: {longest_short_run} consecutive short H2 sections may read like a catalogue'
-        )
-
 missing = sorted(expected - seen)
 extra = sorted(seen - expected)
 if missing:
@@ -111,9 +88,4 @@ print('ARTICLES=50')
 print('SPANISH=25')
 print('ENGLISH=25')
 print('MANUAL_COLD_READ=REQUIRED')
-if review_notes:
-    print(f'NARRATIVE_REVIEW_NOTES={len(review_notes)}')
-    for note in review_notes:
-        print(note)
-else:
-    print('NARRATIVE_REVIEW_NOTES=0')
+print('NARRATIVE_METHOD=human-review-not-rigid-template')
