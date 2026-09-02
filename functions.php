@@ -1,6 +1,6 @@
 <?php
 /**
- * Pommelo theme functions.
+ * Pometum theme functions.
  *
  * @package FOOD
  */
@@ -358,4 +358,9 @@ if ( file_exists( $food_editorial_taxonomies ) ) {
 $food_visual_taxonomy = get_template_directory() . '/inc/visual-taxonomy.php';
 if ( file_exists( $food_visual_taxonomy ) ) {
 	require_once $food_visual_taxonomy;
+}
+
+$food_language_routing = get_template_directory() . '/inc/language-routing.php';
+if ( file_exists( $food_language_routing ) ) {
+	require_once $food_language_routing;
 }
