@@ -5,6 +5,7 @@ on:
     branches: [main]
     paths:
       - 'assets/js/pometum-language-overlay.js'
+      - 'assets/css/pometum-v6-ui.css'
       - 'header.php'
       - '.github/workflows/header-overlay-audit.yml'
   workflow_dispatch:
@@ -91,6 +92,10 @@ jobs:
             return { context, page };
           }
 
+          async function renderedBeforeContent(locator) {
+            return locator.evaluate((el) => getComputedStyle(el, '::before').content || '');
+          }
+
           {
             const { context, page } = await waitForCurrentUI('/', 'Encuentra la información que necesitas');
             const bodyText = await page.locator('body').innerText();
@@ -110,8 +115,8 @@ jobs:
 
             await page.click('.language-toggle');
             await page.waitForTimeout(100);
-            const usFlag = await page.locator('.language-option[hreflang="en"] .language-option-flag').textContent();
-            if ((usFlag || '').trim() !== '🇺🇸') throw new Error(`English option flag is ${usFlag}`);
+            const usFlag = await renderedBeforeContent(page.locator('.language-option[hreflang="en"] .language-option-flag'));
+            if (!usFlag.includes('🇺🇸')) throw new Error(`Rendered English option flag is ${usFlag}`);
             await context.close();
           }
 
@@ -119,8 +124,8 @@ jobs:
             const { context, page } = await waitForCurrentUI('/en/', 'Find the information you need');
             const bodyText = await page.locator('body').innerText();
             if (/critical error|error crítico/i.test(bodyText)) throw new Error('English home still shows a critical error');
-            const currentFlag = await page.locator('.language-current-flag').textContent();
-            if ((currentFlag || '').trim() !== '🇺🇸') throw new Error(`Current English flag is ${currentFlag}`);
+            const currentFlag = await renderedBeforeContent(page.locator('.language-current-flag'));
+            if (!currentFlag.includes('🇺🇸')) throw new Error(`Rendered current English flag is ${currentFlag}`);
 
             await page.click('.search-toggle');
             await page.waitForTimeout(100);
