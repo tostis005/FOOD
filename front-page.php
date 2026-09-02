@@ -1,16 +1,18 @@
 <?php get_header(); ?>
 
-<section class="hero hero-editorial">
-	<div class="container hero-grid">
-		<div class="hero-copy">
-			<div class="eyebrow">Entender la comida cambia cómo comes</div>
-			<h1>Conoce lo que comes. Come mejor.</h1>
-			<p>Guías claras sobre alimentos, seguridad alimentaria, nutrición, cocina, origen y calidad. Respuestas útiles para las dudas que aparecen antes de comprar, cocinar o comer.</p>
+<section class="home-hero">
+	<div class="container home-hero-grid">
+		<div class="hero-main">
+			<span class="hero-kicker">Comida explicada sin complicaciones</span>
+			<h1>Respuestas claras para comer mejor.</h1>
+			<p>Entiende lo que compras, cocinas y comes. FOOD reúne guías prácticas sobre alimentos, seguridad, nutrición, cocina, origen y calidad.</p>
+
 			<form class="hero-search" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<label class="screen-reader-text" for="food-search">Buscar</label>
 				<input id="food-search" type="search" name="s" placeholder="Ej.: ¿por qué amarga el aceite de oliva?" value="<?php echo esc_attr( get_search_query() ); ?>">
 				<button type="submit">Buscar respuesta</button>
 			</form>
+
 			<div class="hero-prompts" aria-label="Búsquedas populares">
 				<span>Prueba con:</span>
 				<a href="<?php echo esc_url( home_url( '/?s=patata+verde' ) ); ?>">patata verde</a>
@@ -19,81 +21,78 @@
 			</div>
 		</div>
 
-		<a class="hero-visual hero-feature" href="<?php echo esc_url( food_post_url_by_slug( 'por-que-la-carne-suelta-agua-en-la-sarten', 'carne suelta agua sartén' ) ); ?>">
-			<div class="hero-feature-mark">FOOD explica</div>
-			<div class="hero-label">
-				<span>Cocina · guía práctica</span>
-				<strong>¿Por qué suelta agua la carne en la sartén?</strong>
-				<em>Entenderlo es la clave para conseguir un mejor dorado →</em>
+		<aside class="hero-question">
+			<div class="hero-question-top">
+				<span>Pregunta destacada</span>
+				<span class="hero-question-number">01</span>
 			</div>
-		</a>
+			<h2>¿Por qué la carne suelta agua en la sartén?</h2>
+			<p>La temperatura, la cantidad de carne y su propia humedad explican por qué a veces se cuece en vez de dorarse.</p>
+			<a href="<?php echo esc_url( food_post_url_by_slug( 'por-que-la-carne-suelta-agua-en-la-sarten', 'carne suelta agua sartén' ) ); ?>">Leer la explicación →</a>
+		</aside>
 	</div>
 </section>
 
-<section class="section food-departments">
+<section class="section food-index">
 	<div class="container">
-		<div class="section-head editorial-section-head">
+		<header class="section-intro">
 			<div>
-				<div class="eyebrow">Explora por alimento</div>
+				<span class="section-label">Explora por alimento</span>
 				<h2>Empieza por lo que tienes delante</h2>
 			</div>
-			<p>Una estructura pensada para crecer: cada familia reúne dudas sobre calidad, conservación, cocina, nutrición y características del producto.</p>
-		</div>
+			<p>Cada familia reúne preguntas sobre conservación, calidad, cocina, nutrición y características del producto.</p>
+		</header>
 
-		<div class="department-grid">
+		<div class="food-index-grid">
 			<?php
 			$departments = array(
-				array( 'Carnes', 'carnes', '🥩', 'Cortes, conservación, cocción y calidad.' ),
-				array( 'Pescados y mariscos', 'pescados-mariscos', '🐟', 'Frescura, especies, seguridad y cocina.' ),
-				array( 'Jamón y embutidos', 'jamon-embutidos', '🍖', 'Jamón, paleta, curados, origen y calidad.' ),
-				array( 'Quesos y lácteos', 'quesos-lacteos', '🧀', 'Variedades, conservación, usos y calidad.' ),
-				array( 'Aceites', 'aceites', '🫒', 'Sabor, usos, conservación y aceite de oliva.' ),
-				array( 'Legumbres', 'legumbres', '🫘', 'Tipos, remojo, cocción y nutrición.' ),
+				array( 'Carnes', 'carnes', '🥩', 'Cortes, conservación y cocción.' ),
+				array( 'Pescados y mariscos', 'pescados-mariscos', '🐟', 'Frescura, especies y seguridad.' ),
+				array( 'Jamón y embutidos', 'jamon-embutidos', '🍖', 'Curados, origen y calidad.' ),
+				array( 'Quesos y lácteos', 'quesos-lacteos', '🧀', 'Variedades, usos y conservación.' ),
+				array( 'Aceites', 'aceites', '🫒', 'Sabor, calidad y aceite de oliva.' ),
+				array( 'Legumbres', 'legumbres', '🫘', 'Remojo, cocción y nutrición.' ),
 				array( 'Frutas', 'frutas', '🍎', 'Maduración, temporada y conservación.' ),
-				array( 'Verduras y hortalizas', 'verduras-hortalizas', '🥬', 'Estado, temporada, cocina y conservación.' ),
-				array( 'Cereales, pan y pasta', 'cereales-pan-pasta', '🌾', 'Arroz, panes, cereales y pastas.' ),
-				array( 'Huevos', 'huevos', '🥚', 'Etiquetado, seguridad, conservación y cocina.' ),
+				array( 'Verduras y hortalizas', 'verduras-hortalizas', '🥬', 'Estado, temporada y cocina.' ),
+				array( 'Cereales, pan y pasta', 'cereales-pan-pasta', '🌾', 'Arroz, panes, cereales y pasta.' ),
+				array( 'Huevos', 'huevos', '🥚', 'Etiquetado, seguridad y cocina.' ),
 			);
 
 			foreach ( $departments as $department ) : ?>
-				<a class="department-card" href="<?php echo esc_url( food_category_url( $department[1], $department[0] ) ); ?>">
-					<span class="department-icon" aria-hidden="true"><?php echo esc_html( $department[2] ); ?></span>
-					<span class="department-copy">
-						<strong><?php echo esc_html( $department[0] ); ?></strong>
-						<small><?php echo esc_html( $department[3] ); ?></small>
-					</span>
-					<span class="department-arrow" aria-hidden="true">→</span>
+				<a class="food-index-item" href="<?php echo esc_url( food_category_url( $department[1], $department[0] ) ); ?>">
+					<span class="food-index-icon" aria-hidden="true"><?php echo esc_html( $department[2] ); ?></span>
+					<span class="food-index-name"><?php echo esc_html( $department[0] ); ?></span>
+					<span class="food-index-arrow" aria-hidden="true">→</span>
+					<span class="food-index-note"><?php echo esc_html( $department[3] ); ?></span>
 				</a>
 			<?php endforeach; ?>
 		</div>
 	</div>
 </section>
 
-<section class="section intent-section">
-	<div class="container">
-		<div class="section-head editorial-section-head">
-			<div>
-				<div class="eyebrow">Explora por la duda que quieres resolver</div>
-				<h2>No todo empieza por un ingrediente</h2>
-			</div>
-			<p>Estas áreas agrupan búsquedas transversales: saber si algo se puede comer, comparar nutrientes, entender una técnica o reconocer un producto de calidad.</p>
+<section class="needs-section">
+	<div class="container needs-layout">
+		<div class="needs-intro">
+			<span class="section-label">También puedes empezar por tu duda</span>
+			<h2>¿Qué quieres resolver?</h2>
+			<p>No todas las búsquedas empiezan por un ingrediente. A veces lo importante es saber si algo se puede comer, comparar nutrientes o entender qué ha pasado al cocinar.</p>
 		</div>
 
-		<div class="intent-grid">
-			<a class="intent-card intent-safety" href="<?php echo esc_url( food_category_url( 'seguridad-alimentaria', 'Seguridad alimentaria' ) ); ?>">
-				<span class="intent-number">01</span><strong>Seguridad alimentaria</strong><p>¿Se puede comer? ¿Está en mal estado? ¿Cómo lo conservo?</p><span>Ver respuestas →</span>
+		<div class="needs-list">
+			<a class="need-row" href="<?php echo esc_url( food_category_url( 'seguridad-alimentaria', 'Seguridad alimentaria' ) ); ?>">
+				<span class="need-number">01</span><strong class="need-title">Seguridad alimentaria</strong><span class="need-copy">¿Se puede comer? ¿Está en mal estado? ¿Cómo conviene conservarlo?</span><span class="need-arrow">→</span>
 			</a>
-			<a class="intent-card" href="<?php echo esc_url( food_category_url( 'nutricion', 'Nutrición' ) ); ?>">
-				<span class="intent-number">02</span><strong>Nutrición</strong><p>Proteína, grasa, fibra y comparativas para entender mejor lo que comes.</p><span>Ver guías →</span>
+			<a class="need-row" href="<?php echo esc_url( food_category_url( 'nutricion', 'Nutrición' ) ); ?>">
+				<span class="need-number">02</span><strong class="need-title">Nutrición</strong><span class="need-copy">Proteína, grasa, fibra, energía y comparativas entre alimentos.</span><span class="need-arrow">→</span>
 			</a>
-			<a class="intent-card" href="<?php echo esc_url( food_category_url( 'cocina', 'Cocina' ) ); ?>">
-				<span class="intent-number">03</span><strong>Cocina</strong><p>Por qué ocurren las cosas en la sartén, el horno o la olla y cómo mejorarlas.</p><span>Aprender →</span>
+			<a class="need-row" href="<?php echo esc_url( food_category_url( 'cocina', 'Cocina' ) ); ?>">
+				<span class="need-number">03</span><strong class="need-title">Cocina</strong><span class="need-copy">Técnicas, errores y explicaciones de lo que ocurre en la sartén, el horno o la olla.</span><span class="need-arrow">→</span>
 			</a>
-			<a class="intent-card" href="<?php echo esc_url( food_category_url( 'platos-menus', 'Platos y menús' ) ); ?>">
-				<span class="intent-number">04</span><strong>Platos y menús</strong><p>Cómo combinar alimentos y construir comidas cotidianas completas y equilibradas.</p><span>Explorar →</span>
+			<a class="need-row" href="<?php echo esc_url( food_category_url( 'platos-menus', 'Platos y menús' ) ); ?>">
+				<span class="need-number">04</span><strong class="need-title">Platos y menús</strong><span class="need-copy">Ideas para combinar alimentos y construir comidas cotidianas completas.</span><span class="need-arrow">→</span>
 			</a>
-			<a class="intent-card" href="<?php echo esc_url( food_category_url( 'origen-calidad', 'Origen y calidad' ) ); ?>">
-				<span class="intent-number">05</span><strong>Origen y calidad</strong><p>DOP, sellos, etiquetado, procedencia y pistas para elegir mejor.</p><span>Entender →</span>
+			<a class="need-row" href="<?php echo esc_url( food_category_url( 'origen-calidad', 'Origen y calidad' ) ); ?>">
+				<span class="need-number">05</span><strong class="need-title">Origen y calidad</strong><span class="need-copy">DOP, sellos, etiquetado, procedencia y criterios para elegir mejor.</span><span class="need-arrow">→</span>
 			</a>
 		</div>
 	</div>
@@ -101,15 +100,27 @@
 
 <section class="section question-section">
 	<div class="container">
-		<div class="section-head">
-			<div><div class="eyebrow">Resolver dudas</div><h2>Preguntas que nos hacemos todos</h2></div>
-			<p>Consultas concretas, respuestas rápidas y explicaciones suficientemente profundas para tomar una decisión.</p>
-		</div>
-		<div class="quick-grid">
-			<a class="quick-link" href="<?php echo esc_url( home_url( '/?s=patata+verde' ) ); ?>"><span class="quick-icon">🥔</span><span><strong>¿Una patata verde se puede comer?</strong><br><span>Qué significa el color verde y cuándo conviene descartarla.</span></span><span class="quick-arrow">→</span></a>
-			<a class="quick-link" href="<?php echo esc_url( food_post_url_by_slug( 'por-que-la-carne-suelta-agua-en-la-sarten', 'carne agua sartén' ) ); ?>"><span class="quick-icon">🥩</span><span><strong>¿Por qué la carne suelta agua?</strong><br><span>Temperatura, cantidad y cómo conseguir un buen dorado.</span></span><span class="quick-arrow">→</span></a>
-			<a class="quick-link" href="<?php echo esc_url( home_url( '/?s=jamon+denominacion+origen' ) ); ?>"><span class="quick-icon">🍖</span><span><strong>Denominaciones de origen del jamón</strong><br><span>Qué significan y cómo reconocerlas.</span></span><span class="quick-arrow">→</span></a>
-			<a class="quick-link" href="<?php echo esc_url( home_url( '/?s=carne+proteina+grasa' ) ); ?>"><span class="quick-icon">⚖️</span><span><strong>Carnes con más proteína y menos grasa</strong><br><span>Comparativa práctica para entender sus diferencias.</span></span><span class="quick-arrow">→</span></a>
+		<header class="section-intro">
+			<div>
+				<span class="section-label">Dudas frecuentes</span>
+				<h2>Preguntas que aparecen en cualquier cocina</h2>
+			</div>
+			<p>Consultas concretas con una respuesta rápida primero y una explicación completa después.</p>
+		</header>
+
+		<div class="question-list">
+			<a class="question-row" href="<?php echo esc_url( home_url( '/?s=patata+verde' ) ); ?>">
+				<span class="question-icon" aria-hidden="true">🥔</span><span class="question-copy"><strong>¿Una patata verde se puede comer?</strong><span>Qué significa el color verde y cuándo conviene descartarla.</span></span><span class="question-arrow">→</span>
+			</a>
+			<a class="question-row" href="<?php echo esc_url( food_post_url_by_slug( 'por-que-la-carne-suelta-agua-en-la-sarten', 'carne agua sartén' ) ); ?>">
+				<span class="question-icon" aria-hidden="true">🥩</span><span class="question-copy"><strong>¿Por qué la carne suelta agua?</strong><span>Temperatura, cantidad y cómo conseguir un buen dorado.</span></span><span class="question-arrow">→</span>
+			</a>
+			<a class="question-row" href="<?php echo esc_url( home_url( '/?s=jamon+denominacion+origen' ) ); ?>">
+				<span class="question-icon" aria-hidden="true">🍖</span><span class="question-copy"><strong>¿Qué significan las denominaciones de origen del jamón?</strong><span>Cómo reconocerlas y qué información aportan.</span></span><span class="question-arrow">→</span>
+			</a>
+			<a class="question-row" href="<?php echo esc_url( home_url( '/?s=carne+proteina+grasa' ) ); ?>">
+				<span class="question-icon" aria-hidden="true">⚖️</span><span class="question-copy"><strong>¿Qué carnes tienen más proteína y menos grasa?</strong><span>Una comparativa práctica para entender sus diferencias.</span></span><span class="question-arrow">→</span>
+			</a>
 		</div>
 	</div>
 </section>
