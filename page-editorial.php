@@ -6,6 +6,14 @@ $language = function_exists( 'food_current_language' ) ? food_current_language()
 $pages    = function_exists( 'food_editorial_pages' ) ? food_editorial_pages() : array();
 $page     = isset( $pages[ $key ][ $language ] ) ? $pages[ $key ][ $language ] : null;
 
+$food_editorial_public_text = static function( $text ) use ( $language ) {
+	$text = (string) $text;
+	if ( 'en' === $language ) {
+		return strtr( $text, array( 'Guides' => 'Articles', 'guides' => 'articles', 'Guide' => 'Article', 'guide' => 'article' ) );
+	}
+	return strtr( $text, array( 'Guías' => 'Artículos', 'guías' => 'artículos', 'Guía' => 'Artículo', 'guía' => 'artículo' ) );
+};
+
 if ( ! $page ) {
 	status_header( 404 );
 	?>
@@ -20,25 +28,25 @@ if ( ! $page ) {
 	<nav class="breadcrumbs" aria-label="<?php echo esc_attr( 'en' === $language ? 'Breadcrumbs' : 'Migas de pan' ); ?>">
 		<a href="<?php echo esc_url( function_exists( 'food_language_home_url' ) ? food_language_home_url( $language ) : home_url( '/' ) ); ?>"><?php echo esc_html( 'en' === $language ? 'Home' : 'Inicio' ); ?></a>
 		<span aria-hidden="true">›</span>
-		<span aria-current="page"><?php echo esc_html( $page['title'] ); ?></span>
+		<span aria-current="page"><?php echo esc_html( $food_editorial_public_text( $page['title'] ) ); ?></span>
 	</nav>
 
 	<header class="editorial-page-header">
-		<div class="eyebrow"><?php echo esc_html( $page['eyebrow'] ); ?></div>
-		<h1><?php echo esc_html( $page['title'] ); ?></h1>
-		<p><?php echo esc_html( $page['intro'] ); ?></p>
+		<div class="eyebrow"><?php echo esc_html( $food_editorial_public_text( $page['eyebrow'] ) ); ?></div>
+		<h1><?php echo esc_html( $food_editorial_public_text( $page['title'] ) ); ?></h1>
+		<p><?php echo esc_html( $food_editorial_public_text( $page['intro'] ) ); ?></p>
 	</header>
 
 	<div class="editorial-page-content">
 		<?php foreach ( $page['sections'] as $section ) : ?>
 			<section>
-				<h2><?php echo esc_html( $section['title'] ); ?></h2>
+				<h2><?php echo esc_html( $food_editorial_public_text( $section['title'] ) ); ?></h2>
 				<?php foreach ( $section['paragraphs'] as $paragraph ) : ?>
-					<p><?php echo esc_html( $paragraph ); ?></p>
+					<p><?php echo esc_html( $food_editorial_public_text( $paragraph ) ); ?></p>
 				<?php endforeach; ?>
 				<?php if ( ! empty( $section['items'] ) ) : ?>
 					<ul>
-						<?php foreach ( $section['items'] as $item ) : ?><li><?php echo esc_html( $item ); ?></li><?php endforeach; ?>
+						<?php foreach ( $section['items'] as $item ) : ?><li><?php echo esc_html( $food_editorial_public_text( $item ) ); ?></li><?php endforeach; ?>
 					</ul>
 				<?php endif; ?>
 			</section>
