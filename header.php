@@ -39,7 +39,6 @@ $food_languages        = function_exists( 'food_language_definitions' ) ? food_l
 	'es' => array( 'label' => 'Español', 'short' => 'ES', 'flag' => '🇪🇸', 'locale' => 'es-ES' ),
 	'en' => array( 'label' => 'English', 'short' => 'EN', 'flag' => '🇺🇸', 'locale' => 'en-US' ),
 );
-$food_current_flag     = isset( $food_languages[ $food_current_language ]['flag'] ) ? $food_languages[ $food_current_language ]['flag'] : '🌐';
 $food_editorial_key    = get_query_var( 'food_editorial_page' );
 $food_language_seo     = get_template_directory() . '/inc/language-seo.php';
 if ( file_exists( $food_language_seo ) ) {
@@ -96,7 +95,7 @@ if ( file_exists( $food_language_seo ) ) {
 		<div class="site-branding">
 			<a href="<?php echo esc_url( $food_home_url ); ?>" rel="home" aria-label="Quinnoa">
 				<?php food_pometum_logo(); ?>
-				<div class="site-tagline"><?php echo esc_html( $food_english ? 'Food · quality · cooking' : 'Alimentos · calidad · cocina' ); ?></div>
+				<div class="site-tagline"><?php echo esc_html( $food_english ? 'Natural · Nutrition' : 'Natural · Nutrición' ); ?></div>
 			</a>
 		</div>
 
@@ -112,7 +111,7 @@ if ( file_exists( $food_language_seo ) ) {
 
 		<div class="header-actions">
 			<button class="language-toggle" type="button" aria-controls="language-overlay" aria-expanded="false" aria-label="<?php echo esc_attr( $food_english ? 'Change language' : 'Cambiar idioma' ); ?>">
-				<span class="language-current-flag" aria-hidden="true"><?php echo esc_html( $food_current_flag ); ?></span>
+				<span class="language-current-flag flag-<?php echo esc_attr( $food_current_language ); ?>" aria-hidden="true"></span>
 			</button>
 			<button class="header-search search-toggle" type="button" aria-controls="search-overlay" aria-expanded="false" aria-label="<?php echo esc_attr( $food_english ? 'Search Quinnoa' : 'Buscar en Quinnoa' ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
@@ -187,7 +186,7 @@ if ( file_exists( $food_language_seo ) ) {
 					$is_current = $code === $food_current_language;
 					?>
 					<a class="language-option" href="<?php echo esc_url( $language_url ); ?>" hreflang="<?php echo esc_attr( $code ); ?>" <?php echo $is_current ? 'aria-current="page"' : ''; ?>>
-						<span class="language-option-flag" aria-hidden="true"><?php echo esc_html( $definition['flag'] ); ?></span>
+						<span class="language-option-flag flag-<?php echo esc_attr( $code ); ?>" aria-hidden="true"></span>
 						<span class="language-option-copy"><span class="language-option-name"><?php echo esc_html( $definition['label'] ); ?></span></span>
 						<span class="language-option-arrow" aria-hidden="true">→</span>
 					</a>
@@ -206,7 +205,6 @@ if ( file_exists( $food_language_seo ) ) {
 			</button>
 		</div>
 		<div class="search-overlay-content">
-			<div class="search-overlay-eyebrow">Quinnoa</div>
 			<h2 class="search-overlay-title"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></h2>
 			<form class="search-overlay-form" role="search" method="get" action="<?php echo esc_url( $food_home_url ); ?>">
 				<label class="screen-reader-text" for="overlay-food-search"><?php echo esc_html( $food_english ? 'Search Quinnoa' : 'Buscar en Quinnoa' ); ?></label>
