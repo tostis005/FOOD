@@ -1,31 +1,28 @@
 <?php
 /* Apply the public brand name before WordPress prints title metadata. */
-if ( 'Pommelo' !== get_option( 'blogname' ) ) {
-	update_option( 'blogname', 'Pommelo' );
+if ( 'Pometum' !== get_option( 'blogname' ) ) {
+	update_option( 'blogname', 'Pometum' );
 }
-if ( 'Guías sobre alimentos, nutrición y cocina' !== get_option( 'blogdescription' ) ) {
-	update_option( 'blogdescription', 'Guías sobre alimentos, nutrición y cocina' );
+if ( 'Guías sobre alimentos, calidad, nutrición y cocina' !== get_option( 'blogdescription' ) ) {
+	update_option( 'blogdescription', 'Guías sobre alimentos, calidad, nutrición y cocina' );
 }
 
-if ( ! function_exists( 'food_pommelo_logo' ) ) {
-	function food_pommelo_logo( $class = '' ) {
+if ( ! function_exists( 'food_pometum_logo' ) ) {
+	function food_pometum_logo( $class = '' ) {
 		$class_attr = $class ? ' ' . sanitize_html_class( $class ) : '';
 		?>
-		<span class="pommelo-logo<?php echo esc_attr( $class_attr ); ?>">
-			<svg class="pommelo-logo-mark" viewBox="0 0 48 48" aria-hidden="true" focusable="false">
-				<circle cx="22" cy="25" r="17" fill="#ef7865"/>
-				<circle cx="22" cy="25" r="13" fill="#fff0df"/>
-				<circle cx="22" cy="25" r="10.6" fill="#ef7865"/>
-				<g stroke="#fff0df" stroke-width="2.1" stroke-linecap="round">
-					<path d="M22 25V14.4"/><path d="m22 25 9.2-5.3"/><path d="m22 25 9.2 5.3"/>
-					<path d="M22 25v10.6"/><path d="m22 25-9.2 5.3"/><path d="m22 25-9.2-5.3"/>
-				</g>
-				<circle cx="22" cy="25" r="2.2" fill="#fff0df"/>
-				<path d="M31.5 9.5c3.2-4.3 7.2-5.7 11.7-4.4-.8 5-4.2 8.1-10.2 9.1" fill="#64805f"/>
-			</svg>
-			<span class="pommelo-wordmark">Po<span class="pommelo-double">mm</span>elo</span>
+		<span class="pometum-logo<?php echo esc_attr( $class_attr ); ?>">
+			<span class="pometum-wordmark" aria-hidden="true"><span>p</span><span class="pometum-o">o</span><span>metum</span></span>
+			<span class="screen-reader-text">Pometum</span>
 		</span>
 		<?php
+	}
+}
+
+/* Backward-compatible alias for older templates while the visual layer settles. */
+if ( ! function_exists( 'food_pommelo_logo' ) ) {
+	function food_pommelo_logo( $class = '' ) {
+		food_pometum_logo( $class );
 	}
 }
 ?>
@@ -47,6 +44,7 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 	$pommelo_v5_icons_css     = get_template_directory() . '/assets/css/pommelo-v5-icons.css';
 	$pommelo_v6_artwork_css   = get_template_directory() . '/assets/css/pommelo-v6-artwork.css';
 	$pommelo_v6_optical_css   = get_template_directory() . '/assets/css/pommelo-v6-optical-tune.css';
+	$pometum_v1_css           = get_template_directory() . '/assets/css/pometum-v1.css';
 	?>
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v4.css?ver=' . ( file_exists( $food_v4_css ) ? filemtime( $food_v4_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v5.css?ver=' . ( file_exists( $food_v5_css ) ? filemtime( $food_v5_css ) : '1' ) ); ?>">
@@ -59,7 +57,8 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pommelo-v5-icons.css?ver=' . ( file_exists( $pommelo_v5_icons_css ) ? filemtime( $pommelo_v5_icons_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pommelo-v6-artwork.css?ver=' . ( file_exists( $pommelo_v6_artwork_css ) ? filemtime( $pommelo_v6_artwork_css ) : '1' ) ); ?>">
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pommelo-v6-optical-tune.css?ver=' . ( file_exists( $pommelo_v6_optical_css ) ? filemtime( $pommelo_v6_optical_css ) : '1' ) ); ?>">
-	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='22' cy='25' r='17' fill='%23ef7865'/%3E%3Ccircle cx='22' cy='25' r='13' fill='%23fff0df'/%3E%3Ccircle cx='22' cy='25' r='10.6' fill='%23ef7865'/%3E%3Cg stroke='%23fff0df' stroke-width='2.1'%3E%3Cpath d='M22 25V14.4'/%3E%3Cpath d='m22 25 9.2-5.3'/%3E%3Cpath d='m22 25 9.2 5.3'/%3E%3Cpath d='M22 25v10.6'/%3E%3Cpath d='m22 25-9.2 5.3'/%3E%3Cpath d='m22 25-9.2-5.3'/%3E%3C/g%3E%3Cpath d='M31.5 9.5c3.2-4.3 7.2-5.7 11.7-4.4-.8 5-4.2 8.1-10.2 9.1' fill='%2364805f'/%3E%3C/svg%3E">
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/pometum-v1.css?ver=' . ( file_exists( $pometum_v1_css ) ? filemtime( $pometum_v1_css ) : '1' ) ); ?>">
+	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cellipse cx='23' cy='25' rx='14' ry='16' fill='none' stroke='%23394536' stroke-width='5'/%3E%3Cpath d='M32 9c4-4 8-4 11-1-2 5-6 7-11 6' fill='%23D96C55'/%3E%3C/svg%3E">
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
@@ -68,9 +67,9 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 <header class="site-header">
 	<div class="container header-main">
 		<div class="site-branding">
-			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" aria-label="Pommelo, inicio">
-				<?php food_pommelo_logo(); ?>
-				<div class="site-tagline">Alimentos · nutrición · cocina</div>
+			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" aria-label="Pometum, inicio">
+				<?php food_pometum_logo(); ?>
+				<div class="site-tagline">Alimentos · calidad · cocina</div>
 			</a>
 		</div>
 
@@ -79,7 +78,7 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 		</nav>
 
 		<div class="header-actions">
-			<a class="header-search" href="<?php echo esc_url( home_url( '/?s=' ) ); ?>" aria-label="<?php esc_attr_e( 'Buscar en Pommelo', 'food' ); ?>">
+			<a class="header-search" href="<?php echo esc_url( home_url( '/?s=' ) ); ?>" aria-label="<?php esc_attr_e( 'Buscar en Pometum', 'food' ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
 			</a>
 			<button class="menu-toggle" type="button" aria-controls="mobile-menu-overlay" aria-expanded="false" aria-label="<?php esc_attr_e( 'Abrir menú', 'food' ); ?>">
@@ -89,17 +88,17 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 	</div>
 </header>
 
-<div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Menú de Pommelo">
+<div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Menú de Pometum">
 	<div class="mobile-menu-shell">
 		<div class="mobile-menu-top">
-			<a class="mobile-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" aria-label="Pommelo, inicio"><?php food_pommelo_logo( 'is-mobile' ); ?></a>
+			<a class="mobile-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" aria-label="Pometum, inicio"><?php food_pometum_logo( 'is-mobile' ); ?></a>
 			<button class="mobile-menu-close" type="button" aria-label="<?php esc_attr_e( 'Cerrar menú', 'food' ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"></path></svg>
 			</button>
 		</div>
 
 		<div class="mobile-menu-content">
-			<div class="mobile-menu-eyebrow">Encuentra lo que buscas</div>
+			<div class="mobile-menu-eyebrow">Conoce mejor lo que comes</div>
 			<nav class="mobile-primary-nav" aria-label="<?php esc_attr_e( 'Menú móvil', 'food' ); ?>">
 				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'fallback_cb' => 'food_primary_nav_fallback' ) ); ?>
 			</nav>
@@ -114,11 +113,11 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 			</div>
 
 			<form class="mobile-menu-search" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
-				<label class="screen-reader-text" for="mobile-food-search">Buscar en Pommelo</label>
+				<label class="screen-reader-text" for="mobile-food-search">Buscar en Pometum</label>
 				<input id="mobile-food-search" type="search" name="s" placeholder="¿Qué quieres saber?" value="<?php echo esc_attr( get_search_query() ); ?>">
 				<button type="submit">Buscar</button>
 			</form>
-			<p class="mobile-menu-note">Información práctica sobre alimentos, nutrición, seguridad, conservación, calidad y cocina.</p>
+			<p class="mobile-menu-note">Guías claras sobre alimentos, calidad, nutrición, seguridad, conservación y cocina.</p>
 		</div>
 	</div>
 </div>
