@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-048-chicken-breast-vs-thigh",
+  "article_number": 48,
+  "translation_group": "048-chicken-breast-vs-thigh",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition for cooked skinless chicken",
+  "title": "Chicken Breast vs Thigh: Protein, Fat and Calories",
+  "slug": "chicken-breast-vs-thigh",
+  "seo": {
+    "title": "Chicken Breast vs Thigh: Protein, Fat and Calories",
+    "meta_description": "Cooked skinless breast has about 31 g protein and 165 calories per 100 g; skinless thigh about 26 g and 209 calories. Compare realistic servings.",
+    "search_intent": "Compare chicken breast and thigh in the same cooked, skinless state."
+  },
+  "excerpt": "Cooked skinless chicken breast is leaner and more protein-dense, at roughly 31 g of protein and 165 calories per 100 g versus about 26 g and 209 calories in skinless thigh. Thigh contains more fat and is generally more forgiving and juicy; keeping the skin widens the gap.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["chicken"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Chicken breast and thigh come from the same bird, but they behave differently both in a skillet and on a nutrition label. Breast is leaner; thigh contains more intramuscular fat and tends to stay juicy through a wider range of cooking times.</p><p><strong>If the goal is the most protein for the fewest calories, breast has the advantage. If tenderness and flavor matter more, thigh trades extra fat for a more forgiving texture.</strong></p><h2>A fair comparison: both cooked and skinless</h2><table><thead><tr><th>Per 100 g</th><th>Breast</th><th>Thigh</th></tr></thead><tbody><tr><td>Calories</td><td>~165</td><td>~209</td></tr><tr><td>Protein</td><td>~31 g</td><td>~26 g</td></tr><tr><td>Fat</td><td>~3.6 g</td><td>~10.9 g</td></tr></tbody></table><p>Breast provides about 5 more grams of protein and roughly 7 fewer grams of fat per 100 grams. The calorie gap is about 44 calories at the same cooked weight.</p><h2>At a 5-ounce serving, the difference is easier to see</h2><p>Five ounces of cooked breast provide roughly <strong>44 g of protein, 234 calories and about 5 g of fat</strong>. Five ounces of thigh provide around <strong>37 g of protein, 296 calories and 15–16 g of fat</strong>.</p><p>That is roughly 7 grams more protein and about 60 fewer calories for breast in a common entrée-sized portion.</p><h2>Fat explains part of the texture difference</h2><p>Thigh contains more fat and connective tissue. During cooking, that combination helps preserve a juicier texture and makes the cut more forgiving if it stays on the heat a little longer.</p><p>Breast has very little fat and can go from tender to dry quickly when overcooked. Being leaner nutritionally does not make it easier to cook well.</p><h2>Keeping the skin changes the comparison</h2><p>The numbers above are for skinless meat. Eating the thigh with its skin increases fat and calories. Breast with skin rises too, although the exact result depends on how much skin and rendered fat are actually eaten.</p><p>Comparing skinless breast with skin-on thigh would therefore exaggerate a difference that is already present naturally.</p><h2>Thigh can edge higher in some minerals</h2><p>Dark meat generally contains somewhat more iron and zinc than breast, but the difference is much smaller than the fat gap. Choosing between the cuts based on tiny mineral differences rarely matters in an otherwise varied diet.</p><h2>Which one makes more sense?</h2><p>For a meal designed to maximize protein while keeping calories low, breast is more efficient. For braises, roasting or dishes where juiciness is important, thigh can be more forgiving.</p><p><strong>The nutrition difference is real, but it does not turn one cut into a healthy food and the other into an unhealthy one.</strong> Portion size, skin and cooking method still shape the final meal.</p>",
+  "faq": [
+    {"question": "Which has more protein, chicken breast or thigh?", "answer": "Cooked skinless breast has about 31 g/100 g versus roughly 26 g/100 g in skinless thigh."},
+    {"question": "Which has more fat?", "answer": "Chicken thigh. Skinless cooked thigh can contain around 11 g/100 g versus about 3.6 g/100 g in breast."},
+    {"question": "Does chicken thigh have more calories?", "answer": "Yes at the same cooked weight, mainly because it contains more fat."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of cooked skinless chicken breast and thigh."}
+  ],
+  "image": {
+    "concept": "Cooked skinless chicken breast and thigh on two matching plates, clean editorial food photography, no text.",
+    "alt": "Chicken breast and thigh compared side by side"
+  },
+  "status": "publish"
+}
