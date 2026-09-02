@@ -71,7 +71,10 @@ jobs:
         run: |
           set -euo pipefail
           for i in $(seq 1 30); do
-            if curl -fsSL "$SITE_URL/en/about/" | grep -q 'A practical way to understand food' && curl -fsSL "$SITE_URL/" | grep -q 'search-overlay'; then
+            if curl -fsSL "$SITE_URL/en/about/" -o /tmp/about.html \
+              && grep -q 'A practical way to understand food' /tmp/about.html \
+              && curl -fsSL "$SITE_URL/" -o /tmp/home.html \
+              && grep -q 'search-overlay' /tmp/home.html; then
               exit 0
             fi
             sleep 3
