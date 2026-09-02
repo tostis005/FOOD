@@ -1,4 +1,13 @@
 <?php
+$food_article_layout_css = get_template_directory() . '/assets/css/article-layout-v2.css';
+if ( file_exists( $food_article_layout_css ) ) {
+	wp_enqueue_style(
+		'food-article-layout-v2',
+		get_template_directory_uri() . '/assets/css/article-layout-v2.css',
+		array( 'food-style' ),
+		(string) filemtime( $food_article_layout_css )
+	);
+}
 get_header();
 ?>
 

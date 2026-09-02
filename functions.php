@@ -30,15 +30,16 @@ function food_theme_setup() {
 add_action( 'after_setup_theme', 'food_theme_setup' );
 
 function food_enqueue_assets() {
-	$version          = wp_get_theme()->get( 'Version' );
-	$consolidated_css = get_template_directory() . '/assets/css/quinnoa.css';
+	$version = wp_get_theme()->get( 'Version' );
+	wp_enqueue_style( 'food-style', get_stylesheet_uri(), array(), $version );
 
-	if ( file_exists( $consolidated_css ) ) {
+	$editorial_css = get_template_directory() . '/assets/css/editorial.css';
+	if ( file_exists( $editorial_css ) ) {
 		wp_enqueue_style(
-			'food-style',
-			get_template_directory_uri() . '/assets/css/quinnoa.css',
-			array(),
-			(string) filemtime( $consolidated_css )
+			'food-editorial',
+			get_template_directory_uri() . '/assets/css/editorial.css',
+			array( 'food-style' ),
+			(string) filemtime( $editorial_css )
 		);
 	}
 
