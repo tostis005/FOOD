@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-056-potato-vs-rice",
+  "article_number": 56,
+  "translation_group": "056-potato-vs-rice",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition for cooked potato and white rice",
+  "title": "Potato vs Rice: Calories, Carbs, Fiber and Satiety",
+  "slug": "potato-vs-rice",
+  "seo": {
+    "title": "Potato vs Rice: Calories, Carbs and Satiety",
+    "meta_description": "Cooked potato has fewer calories and carbs per 100 g than cooked white rice because it contains more water. Preparation changes the result substantially.",
+    "search_intent": "Compare cooked potato and rice for calories, carbohydrate, fiber and satiety without mixing cooking methods."
+  },
+  "excerpt": "At the same cooked weight, potato usually provides fewer calories and carbohydrates than white rice: roughly 90–95 calories and 21 grams of carbohydrate per 100 grams versus about 130 calories and 28 grams. The difference is largely water, and satiety also depends on serving size and preparation.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": ["potato", "rice"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Potatoes and rice often fill the same spot on a plate: they sit beside a protein and vegetables and provide much of the meal's carbohydrate. At the same cooked weight, however, they do not carry the same energy density.</p><p><strong>Potatoes contain more water, so they provide fewer calories and carbs per ounce.</strong> That advantage can disappear if the potato is fried or loaded with added fat.</p><h2>A comparison per 100 grams ready to eat</h2><table><thead><tr><th></th><th>Baked/boiled potato</th><th>Cooked white rice</th></tr></thead><tbody><tr><td>Calories</td><td>~90–95</td><td>~130</td></tr><tr><td>Carbohydrate</td><td>~21 g</td><td>~28 g</td></tr><tr><td>Protein</td><td>~2–2.5 g</td><td>~2.7 g</td></tr><tr><td>Fiber</td><td>~2 g</td><td>~0.4 g</td></tr></tbody></table><p>White rice provides roughly 35–40 more calories and about 7 more grams of carbohydrate per 100 grams. Protein is almost the same, while potato usually contains more fiber than white rice.</p><h2>Water explains most of the density difference</h2><p>A cooked potato holds a great deal of water in its tissue. Dry rice absorbs water during cooking too, but the cooked grain remains more concentrated in carbohydrate by weight than potato.</p><p>That does not make rice worse; it simply means a smaller physical volume can contain a similar amount of energy.</p><h2>Normal servings can end up surprisingly close in calories</h2><p>A large 9-ounce potato provides roughly 230–245 calories. A 6-ounce serving of cooked white rice is around 220 calories. Portions that look quite different on the plate can therefore land in a similar calorie range.</p><p>Per-100-gram numbers describe concentration, not necessarily what ends up in a meal.</p><h2>Potatoes can be very filling when cooked with little added fat</h2><p>Their high water content, volume, starch and some fiber let you build a substantial portion at moderate energy density. In an experimental satiety index, boiled potatoes produced a particularly high satiety response, although real-world fullness depends on the whole meal.</p><p>Frying changes the picture. Water is lost and oil is absorbed, so French fries can exceed 300 calories per 100 grams—more than three times the energy density of boiled potato.</p><h2>Rice can be part of a filling meal too</h2><p>White rice is low in fiber, but it does not have to be eaten alone. Beans, vegetables, eggs, fish, meat or tofu can raise the protein, fiber and volume of the meal substantially.</p><p>Brown rice also contains more fiber than white rice, so the type of rice changes the comparison.</p><h2>They have different micronutrient strengths</h2><p>Potatoes provide substantial potassium and vitamin C. Rice can contribute B vitamins and minerals; brown rice retains more magnesium and fiber, while enriched white rice may have selected nutrients added back.</p><h2>The useful rule</h2><p><strong>Per 100 grams cooked, potato is less calorie- and carbohydrate-dense than white rice.</strong> But a larger potato serving can match the calories in a smaller rice serving. For satiety and nutrition quality, preparation and what accompanies the starch matter as much as choosing one or the other.</p>",
+  "faq": [
+    {"question": "Which has more calories, potato or rice?", "answer": "At the same cooked weight, white rice has more: roughly 130 calories/100 g versus about 90–95 for potato."},
+    {"question": "Which has more carbs?", "answer": "Cooked white rice has about 28 g/100 g versus roughly 21 g/100 g in potato."},
+    {"question": "Which is more filling?", "answer": "Plain cooked potato can be very filling because of its volume and moderate energy density, but satiety depends on serving size, cooking method and the rest of the meal."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of cooked potato and rice."},
+    {"name": "European Journal of Clinical Nutrition — A satiety index of common foods", "url": "https://pubmed.ncbi.nlm.nih.gov/7498104/", "note": "Experimental comparison of satiety from common foods."}
+  ],
+  "image": {
+    "concept": "Plain baked or boiled potato and cooked white rice shown in realistic portions on matching plates, clean editorial food photography, no text.",
+    "alt": "Potato and rice compared for calories and carbs"
+  },
+  "status": "publish"
+}
