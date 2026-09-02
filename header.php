@@ -27,6 +27,10 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 
 $food_english  = function_exists( 'food_is_english' ) && food_is_english();
 $food_home_url = function_exists( 'food_language_home_url' ) ? food_language_home_url() : home_url( '/' );
+$food_language_seo = get_template_directory() . '/inc/language-seo.php';
+if ( file_exists( $food_language_seo ) ) {
+	require_once $food_language_seo;
+}
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -49,6 +53,7 @@ $food_home_url = function_exists( 'food_language_home_url' ) ? food_language_hom
 		'pommelo-v6-optical-tune.css',
 		'pometum-v1.css',
 		'pometum-v2.css',
+		'pometum-v3.css',
 	);
 	foreach ( $css_files as $css_file ) :
 		$css_path = get_template_directory() . '/assets/css/' . $css_file;
