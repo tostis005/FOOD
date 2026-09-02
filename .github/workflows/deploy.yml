@@ -56,7 +56,6 @@ jobs:
 
           if [ -z "$WP_CONFIGS" ]; then
             echo "ERROR: No se ha encontrado wp-config.php en las rutas habituales del VPS."
-            echo "Añade la ruta de WordPress al workflow o crea un secret WP_ROOT con la ruta exacta."
             exit 1
           fi
 
@@ -65,7 +64,6 @@ jobs:
           if [ "$COUNT" -ne 1 ]; then
             echo "ERROR: Se han encontrado varias instalaciones de WordPress. No se desplegará para evitar tocar la web equivocada:"
             printf '%s\n' "$WP_CONFIGS"
-            echo "En ese caso conviene crear un secret WP_ROOT con la ruta exacta del WordPress de FOOD."
             exit 1
           fi
 
@@ -73,13 +71,26 @@ jobs:
           echo "WordPress detectado en: $WP_ROOT"
           echo "WP_ROOT=$WP_ROOT" >> "$GITHUB_ENV"
 
-      - name: Prepare remote theme directory
+      - name: Determine deploy permissions
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
         run: |
           set -euo pipefail
-          ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" "mkdir -p '$WP_ROOT/wp-content/themes/food'"
+          TARGET="$WP_ROOT/wp-content/themes/food"
+
+          if ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" "mkdir -p '$TARGET' 2>/dev/null && test -w '$TARGET'"; then
+            echo "Despliegue con permisos normales."
+            echo "DEPLOY_MODE=user" >> "$GITHUB_ENV"
+          elif ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" 'sudo -n true' 2>/dev/null; then
+            echo "El usuario necesita sudo; sudo sin contraseña está disponible."
+            ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" "sudo -n mkdir -p '$TARGET'"
+            echo "DEPLOY_MODE=sudo" >> "$GITHUB_ENV"
+          else
+            echo "ERROR: VPS_USER puede entrar por SSH, pero no puede escribir en $TARGET y tampoco dispone de sudo sin contraseña."
+            echo "En el VPS hay que dar a VPS_USER permiso de escritura sobre wp-content/themes o permitir sudo sin contraseña para mkdir/rsync."
+            exit 1
+          fi
 
       - name: Deploy theme with rsync
         env:
@@ -87,13 +98,33 @@ jobs:
           VPS_USER: ${{ secrets.VPS_USER }}
         run: |
           set -euo pipefail
-          rsync -az --delete \
-            --exclude='.git/' \
-            --exclude='.github/' \
-            --exclude='README.md' \
-            -e "ssh -i ~/.ssh/food_deploy_key" \
-            ./ \
-            "$VPS_USER@$VPS_HOST:$WP_ROOT/wp-content/themes/food/"
+          TARGET="$WP_ROOT/wp-content/themes/food/"
+
+          RSYNC_ARGS=(
+            -az
+            --delete
+            --exclude=.git/
+            --exclude=.github/
+            --exclude=README.md
+            -e "ssh -i ~/.ssh/food_deploy_key"
+          )
+
+          if [ "$DEPLOY_MODE" = "sudo" ]; then
+            RSYNC_ARGS+=(--rsync-path="sudo -n rsync")
+          fi
+
+          rsync "${RSYNC_ARGS[@]}" ./ "$VPS_USER@$VPS_HOST:$TARGET"
+
+      - name: Set safe file permissions
+        if: env.DEPLOY_MODE == 'sudo'
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          TARGET="$WP_ROOT/wp-content/themes/food"
+          ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" \
+            "sudo -n find '$TARGET' -type d -exec chmod 755 {} + && sudo -n find '$TARGET' -type f -exec chmod 644 {} +"
 
       - name: Verify deployment
         env:
@@ -101,6 +132,7 @@ jobs:
           VPS_USER: ${{ secrets.VPS_USER }}
         run: |
           set -euo pipefail
+          TARGET="$WP_ROOT/wp-content/themes/food"
           ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" \
-            "test -f '$WP_ROOT/wp-content/themes/food/style.css' && test -f '$WP_ROOT/wp-content/themes/food/functions.php'"
-          echo "FOOD desplegado correctamente en $WP_ROOT/wp-content/themes/food/"
+            "test -f '$TARGET/style.css' && test -f '$TARGET/functions.php'"
+          echo "FOOD desplegado correctamente en $TARGET"
