@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-033-how-long-raw-meat-fridge",
+  "article_number": 33,
+  "translation_group": "033-how-long-raw-meat-fridge",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA FSIS refrigerator storage guidance by meat type",
+  "title": "How Long Does Raw Meat Last in the Fridge?",
+  "slug": "how-long-raw-meat-fridge",
+  "seo": {
+    "title": "How Long Raw Meat Lasts in the Fridge",
+    "meta_description": "Raw steaks, chops and roasts generally keep 3–5 days at 40°F/4°C or below, while ground meat and organ meats get only 1–2 days.",
+    "search_intent": "Know how long different types of raw meat can be refrigerated safely."
+  },
+  "excerpt": "There is no single refrigerator limit for all raw meat. USDA gives raw steaks, chops and roasts of beef, pork, veal and lamb about 3–5 days at 40°F / 4°C or below, while ground meat and many organ meats get only 1–2 days.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [],
+    "article_types": ["storage", "food-safety"],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>“Raw meat lasts X days” sounds useful until a steak and a package of ground beef are sitting next to each other in the refrigerator. They do not have the same storage window.</p><p>USDA home-storage guidance gives <strong>steaks, chops and roasts about 3–5 days</strong> at 40°F / 4°C or below, while <strong>ground meat and many organ meats get only 1–2 days</strong>.</p><h2>The type of meat changes the clock</h2><table><thead><tr><th>Raw product</th><th>Refrigerator at 40°F / 4°C or below</th></tr></thead><tbody><tr><td>Beef steaks and roasts</td><td>3–5 days</td></tr><tr><td>Pork chops and roasts</td><td>3–5 days</td></tr><tr><td>Lamb or veal chops and roasts</td><td>3–5 days</td></tr><tr><td>Ground beef, pork, lamb or veal</td><td>1–2 days</td></tr><tr><td>Organ meats</td><td>1–2 days</td></tr></tbody></table><p>That is not a trivial distinction. Ground meat can have less than half the refrigerator window of an intact cut.</p><h2>Why ground meat gets less time</h2><p>On an intact cut, contamination introduced during handling is concentrated mainly on the surface. Grinding breaks the meat apart, mixes surface organisms through the product and dramatically increases exposed area.</p><p>That is why a 1–2 day rule for ground beef should not be applied to a whole roast — and why a 3–5 day rule for steak should not be borrowed for raw hamburger.</p><h2>Package dates are not a substitute for storage guidance</h2><p>In the United States, many date labels are used for quality or store inventory rather than as a universal safety expiration. A later “sell by” date does not mean you should ignore how long the meat has been in your home refrigerator.</p><p>If a manufacturer provides a specific use-by or safety instruction, follow it. Otherwise, the USDA storage windows remain a practical home rule.</p><h2>Opening the package adds handling, not extra time</h2><p>Once opened, meat is exposed to hands, utensils, air and surfaces. Opening does not restart the 3–5 day or 1–2 day clock.</p><p>If you repackage meat, use a clean leak-proof container and keep it below ready-to-eat food so raw juices cannot drip.</p><h2>Color cannot award extra days</h2><p>Meat may darken as myoglobin changes and still be within its storage window. It can also look bright red after too much time has passed. A clearly bad odor, slime or mold tells you to discard sooner, but normal appearance does not justify extending the timeline.</p><h2>If you will not cook it, freeze it early</h2><p>If a roast bought on Monday will not be cooked until the following weekend, freezing it promptly is clearer than trying to stretch the refrigerator limit. The same is even more important for ground meat.</p><p>Freezing stops bacterial growth while the meat remains frozen, but it does not erase several days of poor refrigeration beforehand.</p><h2>The rule worth memorizing</h2><p><strong>Whole cuts: 3–5 days. Ground meat and organ meats: 1–2 days.</strong> Keep the refrigerator at 40°F / 4°C or below and freeze sooner when your plans do not fit the window.</p>",
+  "faq": [
+    {"question": "How long does a raw steak last in the fridge?", "answer": "USDA guidance gives raw steaks and other intact cuts about 3–5 days at 40°F/4°C or below."},
+    {"question": "How long does ground meat last?", "answer": "Only 1–2 days in the refrigerator under USDA home-storage guidance."},
+    {"question": "Can I use smell to decide after the time limit?", "answer": "No. Normal smell does not prove that raw meat is safe; storage time and temperature are more reliable decision points."}
+  ],
+  "sources": [
+    {"name": "USDA FSIS — Refrigeration & Food Safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration", "note": "3–5 days for fresh whole cuts and 1–2 days for ground and organ meats."}
+  ],
+  "image": {
+    "concept": "An intact raw steak and a package of ground meat stored separately in leak-proof containers on a low refrigerator shelf, editorial photography, no text.",
+    "alt": "Different types of raw meat stored in the refrigerator"
+  },
+  "status": "publish"
+}

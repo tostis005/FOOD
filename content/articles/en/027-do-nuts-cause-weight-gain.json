@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "en-027-do-nuts-cause-weight-gain",
+  "article_number": 27,
+  "translation_group": "027-do-nuts-cause-weight-gain",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; USDA composition and systematic reviews on nuts and body weight",
+  "title": "Do Nuts Make You Gain Weight? Calories, Fullness, and Portion Size",
+  "slug": "do-nuts-cause-weight-gain",
+  "seo": {
+    "title": "Do Nuts Make You Gain Weight? Calories and Portions",
+    "meta_description": "A handful of nuts has about 155–200 calories, but trials do not show that eating nuts automatically causes weight gain. Portion size and substitution matter.",
+    "search_intent": "Understand whether nuts promote weight gain and how portion size changes the answer."
+  },
+  "excerpt": "Nuts are calorie-dense, but that does not mean they automatically cause weight gain. Controlled trials have not found a meaningful increase in body weight when nuts are added to eating patterns; the practical question is how much you eat and what the nuts replace.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["nuts"],
+    "article_types": ["health-daily-consumption", "myths-faq", "nutrition-composition"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Nuts look like an obvious weight-gain food on paper. One ounce can contain 155–200 calories, and a few casual handfuls add up quickly. But body weight is shaped by the entire eating pattern, not by placing one calorie number on top of everything else.</p><p><strong>Clinical trials and systematic reviews do not show that eating nuts automatically produces meaningful weight gain.</strong> That does not make their calories imaginary. It means we have to ask whether the nuts are replacing another food, how large the portion is and whether later intake changes.</p><h2>Start with the amount people actually eat</h2><table><thead><tr><th>Nut</th><th>Calories/100 g</th><th>Calories/1 oz</th></tr></thead><tbody><tr><td>Cashews</td><td>553</td><td>155</td></tr><tr><td>Pistachios</td><td>560</td><td>157</td></tr><tr><td>Almonds</td><td>579</td><td>164</td></tr><tr><td>Walnuts</td><td>654</td><td>185</td></tr><tr><td>Macadamias</td><td>718</td><td>201</td></tr></tbody></table><p>A 100 g figure describes 3.5 ounces, not one casual handful. One ounce of almonds is about 164 calories; 3 ounces is nearly 500. That difference in quantity matters far more than small calorie gaps between one nut and another.</p><h2>High-calorie is not the same as weight-gaining</h2><p>Weight gain occurs when energy intake exceeds energy expenditure over time. Add an ounce of almonds every day without changing anything else and you have added about 164 calories. Replace a similarly energetic snack with those almonds and the net change can be close to zero.</p><p>That difference between <strong>addition</strong> and <strong>substitution</strong> is why a calorie count alone cannot predict what happens to body weight.</p><h2>What the trials actually find</h2><p>A 2021 systematic review and meta-analysis in <em>Obesity Reviews</em> included 86 randomized trials with more than 5,800 participants and found no adverse effect of nut intake on body weight. Another meta-analysis of 55 nut-feeding trials likewise found no meaningful increase in body weight, BMI or waist circumference.</p><p>Those findings are not evidence that nuts are a weight-loss treatment. They are evidence against the simpler claim that adding a normal amount of nuts inevitably makes people gain weight.</p><h2>Fullness may help, but it is not a calorie refund</h2><p>Nuts combine fat, protein, fiber and a structure that requires chewing. That can make them filling and may lead some people to eat less later.</p><p>But satiety is not guaranteed compensation. A 180-calorie snack only affects daily intake less if something else actually changes afterward.</p><h2>Portion size matters more than choosing the “lightest” nut</h2><p>An ounce of almonds has about 164 calories and an ounce of walnuts about 185 — a difference of roughly 21 calories. Eating 3 ounces of almonds instead of 1 ounce adds about 328 calories.</p><p>So if energy intake matters, putting a serving in a bowl is usually more useful than obsessing over whether pistachios beat almonds by a few calories.</p><h2>Coatings and mixes can change the comparison</h2><p>Chocolate-covered, honey-roasted or candied nuts can carry additional sugar and calories. Trail mixes may include dried fruit, chocolate pieces or other snacks. Heavily salted nuts may not be much higher in calories, but they can contain substantially more sodium.</p><h2>What counts as a reasonable serving?</h2><p>About <strong>1 ounce / 28 g</strong> is a useful reference point. That is roughly 155–200 calories for most common nuts. It is not a universal prescription, but it makes “a handful” concrete enough to compare.</p><h2>So do nuts make you gain weight?</h2><p>They can contribute to excess calories if large amounts are simply added to an already adequate diet, just like any energy-dense food. But the evidence does not support treating a typical serving of nuts as inherently fattening.</p><p>The useful rule is: <strong>respect the portion without fearing the food</strong>. A handful and a large bowl are nutritionally the same food, but they are not the same energy intake.</p>",
+  "faq": [
+    {"question": "Will eating nuts every day make me gain weight?", "answer": "Not automatically. Randomized trials do not show meaningful weight gain from including nuts as part of an eating pattern; portion size and what they replace still matter."},
+    {"question": "How many calories are in one serving of nuts?", "answer": "A 1-ounce serving usually contains about 155–200 calories. Almonds are about 164 calories per ounce and walnuts about 185."},
+    {"question": "Are almonds better than walnuts for weight control?", "answer": "The calorie difference per ounce is small. Portion size and the rest of the eating pattern matter much more than choosing between those two nuts for calories alone."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energy and composition of nuts."},
+    {"name": "Obesity Reviews — Nishi et al. 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/34494363/", "note": "Systematic review and meta-analysis of nuts and adiposity."},
+    {"name": "Advances in Nutrition — Guarneiri & Cooper 2021", "url": "https://pubmed.ncbi.nlm.nih.gov/32945861/", "note": "Meta-analysis of nut-feeding trials and body weight."}
+  ],
+  "image": {
+    "concept": "A measured bowl of mixed nuts beside an open larger bag, clean editorial photography emphasizing portion size, no text.",
+    "alt": "A one-serving portion of nuts beside a larger package"
+  },
+  "status": "publish"
+}

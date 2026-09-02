@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-034-cuanto-dura-carne-picada-nevera",
+  "article_number": 34,
+  "translation_group": "034-how-long-ground-meat-fridge",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; fecha de caducidad EFSA y referencia USDA de 1–2 días para carne picada cruda",
+  "title": "Cuánto dura la carne picada en la nevera",
+  "slug": "cuanto-dura-carne-picada-nevera",
+  "seo": {
+    "title": "Cuánto dura la carne picada en la nevera",
+    "meta_description": "La carne picada cruda tiene un margen corto: 1–2 días en nevera como referencia doméstica. Respeta además la fecha de caducidad y las instrucciones del envase.",
+    "search_intent": "Conservar carne picada cruda con seguridad y entender por qué dura menos que una pieza entera."
+  },
+  "excerpt": "La carne picada cruda conviene cocinarla o congelarla en 1–2 días como referencia doméstica, siempre sin superar la fecha de caducidad del envase. Dura menos que una pieza entera porque el picado distribuye microorganismos y multiplica la superficie expuesta.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["ground-meat"],
+    "article_types": ["storage", "food-safety"],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Una bandeja de carne picada no debería guardarse con la misma lógica que un filete. Aunque ambos sean ternera, cerdo o una mezcla, el picado cambia físicamente el alimento y acorta su margen en nevera.</p><p>Como referencia doméstica, USDA recomienda <strong>1–2 días a 4 °C o menos</strong> para carne picada cruda. En España hay que añadir otra condición: no superar nunca la fecha de caducidad y seguir cualquier indicación de “consumir tras abrir”.</p><h2>Por qué solo uno o dos días</h2><p>En una pieza entera, los microorganismos que llegan durante la manipulación se concentran principalmente en la superficie. Cuando se pica, esa superficie queda repartida por toda la masa y el área expuesta aumenta muchísimo.</p><p>Eso explica dos diferencias prácticas: la carne picada tiene un plazo de refrigeración más corto y, al cocinarla, el calor debe llegar al centro de toda la preparación.</p><h2>El calendario práctico</h2><table><thead><tr><th>Momento</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Día de compra</td><td>Refrigerar enseguida</td></tr><tr><td>Dentro de 1–2 días</td><td>Cocinar o congelar</td></tr><tr><td>Fecha de caducidad anterior</td><td>Respetar esa fecha</td></tr><tr><td>Envase abierto</td><td>Seguir el plazo indicado y usar cuanto antes</td></tr></tbody></table><p>Si la compras el lunes y no la vas a usar hasta el jueves, la decisión sensata es congelarla pronto, no esperar a ver cómo huele el jueves.</p><h2>La fecha de caducidad no es una sugerencia de calidad</h2><p>EFSA distingue claramente entre “consumo preferente”, relacionado sobre todo con calidad, y “fecha de caducidad”, relacionada con seguridad. La carne fresca y picada suele pertenecer al segundo grupo.</p><p>No se recomienda comerla después de esa fecha aunque el color y el olor parezcan normales.</p><h2>Marrón por dentro no significa automáticamente que esté mala</h2><p>En bandejas de carne picada, el exterior puede verse rojo por contacto con oxígeno y el interior gris-marrón por tener menos oxígeno. Ese contraste puede ser normal.</p><p>Si toda la carne ha cambiado de aspecto y además huele mal o está viscosa, el deterioro es más probable. Pero el color aislado nunca debería utilizarse para alargar el plazo de 1–2 días.</p><h2>Después de cocinar, el reloj cambia</h2><p>Una hamburguesa o carne picada ya cocinada no sigue el plazo de 1–2 días de la carne cruda. Las sobras cocinadas bien refrigeradas entran en un margen distinto: alrededor de 3 días como pauta prudente en España y 3–4 días en la referencia de USDA.</p><p>Eso solo vale si se refrigeraron pronto. Dejar hamburguesas cocinadas varias horas sobre la mesa y después meterlas en la nevera no recupera ese margen.</p><h2>No hace falta lavar la carne picada</h2><p>Lavar carne cruda no elimina de forma fiable los microorganismos y puede dispersar gotas contaminadas por fregadero y encimera. La seguridad se consigue con refrigeración correcta, higiene y cocción suficiente.</p><h2>Cuándo tirarla sin seguir evaluando</h2><ul><li>ha superado la fecha de caducidad;</li><li>lleva claramente más de 1–2 días cruda en casa sin una indicación específica que justifique otra cosa;</li><li>tiene olor fuerte anormal o textura viscosa;</li><li>ha pasado demasiado tiempo fuera de frío;</li><li>no sabes cuánto tiempo lleva abierta.</li></ul><h2>La regla útil</h2><p>Con carne picada cruda, el margen es corto por diseño: <strong>1–2 días, frío constante y congelación temprana si no vas a cocinarla</strong>. El color puede cambiar por oxígeno; el calendario y la cadena de frío no se deben reinterpretar por el aspecto.</p>",
+  "faq": [
+    {"question": "¿La carne picada puede durar 3 días en la nevera?", "answer": "La referencia doméstica de USDA para carne picada cruda es 1–2 días. Tres días ya superan ese margen, salvo que se trate de un producto industrial con instrucciones específicas que sigan siendo válidas y dentro de fecha."},
+    {"question": "¿Por qué la carne picada dura menos que un filete?", "answer": "Porque el picado distribuye microorganismos de la superficie por toda la masa y multiplica el área expuesta."},
+    {"question": "¿Si está marrón por dentro hay que tirarla?", "answer": "No necesariamente. La falta de oxígeno puede volver gris-marrón el interior. Olor, textura, fecha y tiempo de conservación son más útiles."}
+  ],
+  "sources": [
+    {"name": "USDA FSIS — Refrigeration & Food Safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration", "note": "1–2 días para carne picada cruda refrigerada."},
+    {"name": "USDA FSIS — Ground Beef and Food Safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/ground-beef-and-food-safety", "note": "Color interior, manipulación y sobras de carne picada."},
+    {"name": "EFSA — Food date labelling", "url": "https://www.efsa.europa.eu/en/safe2eat/food-date-labelling", "note": "Fecha de caducidad y seguridad."}
+  ],
+  "image": {
+    "concept": "Bandeja de carne picada cruda colocada en un recipiente cerrado en la parte baja de una nevera limpia, fotografía editorial sin texto.",
+    "alt": "Carne picada cruda almacenada correctamente en la nevera"
+  },
+  "status": "publish"
+}

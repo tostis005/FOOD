@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "en-028-healthy-fats-food-sources",
+  "article_number": 28,
+  "translation_group": "028-healthy-fats-food-sources",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; WHO guidance and USDA composition",
+  "title": "Healthy Fats: What They Are and Which Foods Provide Them",
+  "slug": "healthy-fats-food-sources",
+  "seo": {
+    "title": "Healthy Fats: What They Are and Food Sources",
+    "meta_description": "Unsaturated fats are generally the fats to prioritize. Olive oil, nuts, seeds, avocado and fatty fish are common food sources.",
+    "search_intent": "Understand what healthy fats means and identify foods rich in unsaturated fat."
+  },
+  "excerpt": "“Healthy fats” usually means prioritizing monounsaturated and polyunsaturated fats over saturated and trans fats. Olive oil, nuts, seeds, avocado and fatty fish are common sources, but all fats still provide about 9 calories per gram.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-concepts", "nutrition-composition"],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>“Healthy fat” can sound like a special category that no longer counts as fat. A more useful definition is simpler: <strong>favor unsaturated fats, especially when they replace saturated or trans fats</strong>.</p><p>That describes fat quality, not calorie content. Monounsaturated, polyunsaturated and saturated fats all provide about 9 calories per gram.</p><h2>Which fats are usually prioritized?</h2><table><thead><tr><th>Type</th><th>Common food sources</th><th>What to know</th></tr></thead><tbody><tr><td>Monounsaturated</td><td>Olive oil, avocado, almonds, hazelnuts</td><td>Useful replacement for some saturated fat</td></tr><tr><td>Polyunsaturated omega-6</td><td>Seeds and soybean, corn, sunflower oils</td><td>An essential part of normal dietary fat</td></tr><tr><td>Polyunsaturated omega-3</td><td>Fatty fish; walnuts, flax and chia for plant ALA</td><td>Fish provides EPA/DHA; plants mainly ALA</td></tr></tbody></table><p>Plant-based does not automatically mean unsaturated. Coconut and palm oils, for example, contain a high proportion of saturated fat.</p><h2>Olive oil is nearly all fat — and that is not a problem by itself</h2><p>A tablespoon of olive oil provides roughly 120 calories because nearly all of its weight is fat. Most of that fat is monounsaturated, especially oleic acid.</p><p>Using olive oil instead of butter changes the fatty-acid profile of the meal. Keeping the butter and pouring extra oil on top is different: that adds more total energy rather than making a substitution.</p><h2>Whole-food fat sources bring more than oil does</h2><p>Oil is almost pure fat. Whole foods have a different package. Almonds contain about 50 g fat, 21 g protein and 12.5 g fiber per 100 g. Avocado contains about 14.7 g fat and 6.7 g fiber per 100 g.</p><p>That is why a drizzle of oil, a handful of nuts and half an avocado are not nutritionally interchangeable even when all are rich in unsaturated fat.</p><h2>Fatty fish adds a different kind of omega-3</h2><p>Salmon, sardines and mackerel provide the long-chain omega-3s EPA and DHA. Walnuts, flax and chia provide mostly ALA, an essential plant omega-3 that the body converts to EPA and DHA only to a limited degree.</p><p>Calling both “omega-3” is correct, but the specific fatty acids are not identical.</p><h2>Where saturated fat fits</h2><p>WHO recommends keeping saturated fat below 10% of total energy intake and replacing some of it with unsaturated fats or carbohydrate from fiber-rich foods.</p><p>The word <strong>replace</strong> matters. Swapping butter for olive oil changes the mix of fatty acids. Adding olive oil while keeping the same butter does not accomplish the same thing.</p><h2>Foods are mixtures, not pure fat categories</h2><p>Nuts contain some saturated fat along with much larger amounts of unsaturated fat. Olive oil does too. Salmon contains saturated, monounsaturated and polyunsaturated fats in the same food.</p><p>So it is usually more useful to look at the overall pattern and proportion than to label a food good or bad because one type of fat appears somewhere in its nutrition profile.</p><h2>How to make the idea practical</h2><p>Think in substitutions rather than additions: cook with olive or other unsaturated oils more often in place of solid fats; use nuts or seeds instead of some highly refined snacks; include fatty fish when it fits your diet; add avocado as a food, not as permission to ignore portion size.</p><p>The goal is not unlimited “healthy fat.” It is for a larger share of the fat you eat to come from <strong>unsaturated sources within a balanced eating pattern</strong>.</p>",
+  "faq": [
+    {"question": "What kind of fat is considered healthy?", "answer": "Monounsaturated and polyunsaturated fats are generally the types to prioritize over saturated and trans fats."},
+    {"question": "Which foods are high in unsaturated fat?", "answer": "Olive oil, nuts, seeds, avocado and fatty fish are common examples."},
+    {"question": "Do healthy fats have fewer calories?", "answer": "No. All fats provide about 9 calories per gram. The difference is the fatty-acid profile and the food that carries it, not lower calorie density."}
+  ],
+  "sources": [
+    {"name": "World Health Organization — Healthy diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet", "note": "Guidance on unsaturated, saturated and trans fats."},
+    {"name": "World Health Organization — Saturated fatty acid and trans-fatty acid intake guideline", "url": "https://www.who.int/publications/i/item/9789240073630", "note": "Replacement recommendations for saturated and trans fat."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of olive oil, avocado, nuts and fish."}
+  ],
+  "image": {
+    "concept": "Olive oil, avocado, walnuts, seeds and salmon arranged on a light table, clean editorial food photography, no labels or text.",
+    "alt": "Foods that provide unsaturated fats"
+  },
+  "status": "publish"
+}

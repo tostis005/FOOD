@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-026-nuts-fat-calories-nutritious",
+  "article_number": 26,
+  "translation_group": "026-nuts-fat-calories-nutritious",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; USDA composition and WHO guidance on fat quality",
+  "title": "Nuts and Fat: Why They're High in Calories but Still Nutritious",
+  "slug": "nuts-fat-calories-nutritious",
+  "seo": {
+    "title": "Why Nuts Are High in Fat but Still Nutritious",
+    "meta_description": "Nuts are calorie-dense because they contain lots of fat and little water, but most of that fat is unsaturated and nuts also provide protein, fiber and micronutrients.",
+    "search_intent": "Understand why nuts are high in calories without confusing energy density with poor nutritional quality."
+  },
+  "excerpt": "Nuts are high in calories because they pack a lot of fat into very little water: a 1-ounce serving usually provides about 155–200 calories. That does not make them nutritionally poor; most of their fat is unsaturated, and the same handful also provides protein, fiber, vitamins and minerals.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["nuts"],
+    "article_types": ["nutrition-composition", "health-daily-consumption", "myths-faq"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>A handful of walnuts can contain close to 200 calories and still be a nutrient-rich food. Those ideas are not opposites. <strong>Calorie-dense describes how much energy a food packs into its weight; nutritious describes what comes with that energy.</strong></p><p>Nuts are both because they contain little water and a lot of fat. Fat provides about 9 calories per gram, more than twice the roughly 4 calories per gram in protein or carbohydrate.</p><h2>Fat explains much of the calorie density</h2><p>The table below compares common plain nuts per 100 g and in a 1-ounce / 28 g serving.</p><table><thead><tr><th>Nut</th><th>Fat/100 g</th><th>Calories/100 g</th><th>Calories/1 oz</th></tr></thead><tbody><tr><td>Cashews</td><td>43.9 g</td><td>553</td><td>155</td></tr><tr><td>Pistachios</td><td>45.3 g</td><td>560</td><td>157</td></tr><tr><td>Almonds</td><td>49.9 g</td><td>579</td><td>164</td></tr><tr><td>Hazelnuts</td><td>60.8 g</td><td>628</td><td>176</td></tr><tr><td>Walnuts</td><td>65.2 g</td><td>654</td><td>185</td></tr><tr><td>Pecans</td><td>72.0 g</td><td>691</td><td>194</td></tr><tr><td>Macadamias</td><td>75.8 g</td><td>718</td><td>201</td></tr></tbody></table><p>The pattern is clear. Cashews have about 44 g fat and 553 calories per 100 g, while macadamias approach 76 g fat and 718 calories. In a realistic serving, though, that spread is about 46 calories: 155 versus 201 per ounce.</p><h2>Most of the fat is unsaturated</h2><p>“High in fat” does not tell you what kind of fat is present. Almonds, hazelnuts, pistachios, pecans and macadamias are especially rich in monounsaturated fat. Walnuts contain more polyunsaturated fat and are notable for alpha-linolenic acid, or ALA, a plant omega-3.</p><p>WHO guidance favors unsaturated fats over saturated and trans fats. Nuts fit that pattern even though they are not low-fat foods.</p><h2>A serving tells a different story than 100 grams</h2><p>One hundred grams is 3.5 ounces — several handfuls. A 1-ounce serving brings the scale down to about <strong>155 calories for cashews, 164 for almonds, 185 for walnuts and 201 for macadamias</strong>.</p><p>Those calories still count, especially when eating straight from a large bag. But it would be equally misleading to describe one handful of almonds as a 579-calorie food.</p><h2>What comes with the calories matters</h2><p>One ounce of almonds provides roughly 6 g protein and 3.5 g fiber. An ounce of walnuts provides about 4 g protein, close to 2 g fiber and a substantial amount of polyunsaturated fat. Other nuts bring different combinations of minerals and vitamins.</p><p>That is the difference between energy density and nutritional quality. Two snacks can both provide 180 calories without offering the same protein, fiber, micronutrients or fat profile.</p><h2>Nutritious does not mean the calories disappear</h2><p>If you add 2 ounces of almonds to everything you already eat, that is roughly 328 extra calories. If the almonds replace another snack, the net change may be much smaller.</p><p>So the useful question is not whether nuts are “good” enough to ignore portion size. It is whether the portion fits what the rest of the day looks like.</p><h2>Roasted, salted and chocolate-covered are different products</h2><p>Dry roasting changes the basic nutrition only modestly. Added chocolate, sugar, honey or oil can change calories much more; heavy salting can raise sodium substantially.</p><p>Plain raw or roasted nuts are the cleanest reference when you want to understand the food itself.</p><h2>The apparent contradiction is not really a contradiction</h2><p>Nuts are high in calories <strong>because they concentrate fat and contain relatively little water</strong>. They can still be nutrient-rich because the same serving supplies mostly unsaturated fat along with protein, fiber and micronutrients.</p><p>Calories describe one property of the food, not its entire nutritional value.</p>",
+  "faq": [
+    {"question": "How many calories are in a handful of nuts?", "answer": "A 1-ounce serving typically has about 155–200 calories, depending on the nut. Almonds have about 164 calories per ounce and walnuts about 185."},
+    {"question": "Is the fat in nuts healthy?", "answer": "Most of the fat in common nuts is unsaturated. That does not make it calorie-free, but the fat profile differs from foods dominated by saturated fat."},
+    {"question": "Are roasted nuts less nutritious?", "answer": "Roasting alone usually changes the overall profile modestly. Added salt, sugar, chocolate or oils can make a larger difference."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energy, fat, protein and fiber in nuts."},
+    {"name": "World Health Organization — Healthy diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet", "note": "Guidance on dietary fat quality."}
+  ],
+  "image": {
+    "concept": "Small piles of almonds, walnuts, pistachios, hazelnuts and cashews with a small oil carafe, clean editorial food photography, no text.",
+    "alt": "Mixed nuts illustrating fat and calorie density"
+  },
+  "status": "publish"
+}

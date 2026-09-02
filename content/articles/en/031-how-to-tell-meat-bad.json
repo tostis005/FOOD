@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-031-how-to-tell-meat-bad",
+  "article_number": 31,
+  "translation_group": "031-how-to-tell-meat-bad",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA FSIS guidance on meat color, spoilage and refrigerated storage",
+  "title": "How to Tell if Meat Is Bad: Smell, Color, Texture, and Storage Time",
+  "slug": "how-to-tell-meat-bad",
+  "seo": {
+    "title": "How to Tell if Meat Is Bad: Reliable Signs",
+    "meta_description": "Persistent bad odor, slime or mold are reasons to discard meat, but color alone is unreliable and normal smell does not prove safety.",
+    "search_intent": "Recognize spoiled meat without confusing normal color changes with microbiological safety."
+  },
+  "excerpt": "Persistent off odor, a slimy or sticky surface, mold or obvious deterioration are reasons to discard meat. Color alone is less reliable: meat can turn brown as myoglobin changes without necessarily being spoiled, and meat that looks normal can still be unsafe if time or temperature limits were exceeded.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [],
+    "article_types": ["food-safety", "storage"],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>A steak can turn brown and still smell normal. Ground beef can be bright red on the outside and gray-brown in the center. Meanwhile, meat that still looks attractive may have spent too long warm. <strong>No single color is a perfect safety test.</strong></p><p>Your senses are useful for spotting obvious spoilage. They are much less useful for proving that apparently normal meat is free of foodborne pathogens.</p><h2>Which signs matter most?</h2><table><thead><tr><th>Sign</th><th>How to interpret it</th></tr></thead><tbody><tr><td>Sour, rotten or clearly abnormal odor</td><td>Discard</td></tr><tr><td>Sticky, tacky or slimy surface</td><td>Discard</td></tr><tr><td>Mold on fresh meat</td><td>Discard</td></tr><tr><td>Brown or gray color by itself</td><td>Not enough to decide</td></tr><tr><td>Storage time exceeded</td><td>Do not rely on smell or appearance</td></tr><tr><td>Long time at unsafe temperature</td><td>Discard even if it looks normal</td></tr></tbody></table><h2>A clearly bad smell is meaningful</h2><p>Fresh meat has a mild odor. A strong sour, rancid, rotten or otherwise unpleasant smell that persists is a good reason to stop evaluating and throw the meat away.</p><p>The logic only works in one direction: <strong>bad smell can tell you something is wrong; normal smell cannot certify safety</strong>.</p><h2>Texture can be more useful than color</h2><p>A slippery, sticky or slimy film that is clearly different from normal surface moisture often accompanies spoilage. If that texture appears with an off odor, there is little reason to keep testing the meat.</p><p>Handle raw meat as little as necessary and wash hands, knives, boards and surfaces after contact.</p><h2>Why meat can turn brown without being spoiled</h2><p>Meat color comes largely from myoglobin. Freshly cut meat can look purplish; oxygen turns myoglobin bright red; further oxidation can produce brown metmyoglobin. USDA notes that <strong>color change alone does not mean meat is spoiled</strong>.</p><p>Ground beef makes this especially visible. The outside may be red because it sees oxygen, while the center may be gray-brown because oxygen is limited.</p><h2>Time matters more than a perfect-looking surface</h2><p>USDA home-storage guidance gives fresh steaks, chops and roasts about <strong>3–5 days</strong> at 40°F / 4°C or below, while ground meat gets only <strong>1–2 days</strong>. Those limits do not stretch because the meat still looks red.</p><p>The same applies after time-temperature abuse. Meat left in a warm car for hours does not become safe again by chilling it afterward.</p><h2>Cooking is not a rescue plan for spoiled meat</h2><p>Proper cooking kills many pathogens, but it does not make spoiled food fresh again or reverse poor storage. Some microbial toxins can also remain after heating.</p><p>If meat already smells rotten or has developed a slimy surface, the answer is not to cook it longer.</p><h2>When the history is unknown, uncertainty matters</h2><p>If you cannot remember when a package was opened, how long it sat out or whether the refrigerator stayed cold, visual inspection cannot fill in all those blanks. The more perishable the product — especially ground meat — the less useful a sniff test becomes as a final decision tool.</p><h2>The rule that prevents most mistakes</h2><p><strong>Bad odor, slime or mold: discard. Brown color alone: use context. Storage time or temperature clearly exceeded: do not let normal appearance overrule the history.</strong></p><p>Senses help detect spoilage; time and temperature are what make the safety judgment more reliable.</p>",
+  "faq": [
+    {"question": "Is brown meat bad?", "answer": "Not necessarily. Myoglobin changes color as oxygen exposure changes. Brown color alone is not enough; odor, texture, storage time and temperature provide more context."},
+    {"question": "If meat smells fine, is it safe?", "answer": "Not necessarily. Foodborne pathogens may be present without changing smell, color or texture."},
+    {"question": "Can I cook slimy meat and make it safe?", "answer": "A clearly slimy surface, especially with an off odor, is a spoilage sign. Cooking is not a reliable way to rescue spoiled meat."}
+  ],
+  "sources": [
+    {"name": "USDA FSIS — Color of Meat and Poultry", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/color-meat-and-poultry", "note": "Myoglobin, normal color changes and spoilage signs."},
+    {"name": "USDA FSIS — Refrigeration & Food Safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration", "note": "Refrigerated storage windows for fresh and ground meat."}
+  ],
+  "image": {
+    "concept": "Two pieces of raw meat showing natural red and brown color variation on a clean cutting board, non-grotesque editorial photography, no text.",
+    "alt": "Raw meat showing normal color variation"
+  },
+  "status": "publish"
+}
