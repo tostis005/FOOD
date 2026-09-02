@@ -1,0 +1,93 @@
+name: Publish FOOD reference article
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/reference/por-que-la-carne-suelta-agua.html'
+      - 'content/tools/publish-reference-article.php'
+      - '.github/workflows/publish-reference-article.yml'
+  workflow_dispatch:
+
+concurrency:
+  group: food-reference-article
+  cancel-in-progress: true
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_publish_key
+          chmod 600 ~/.ssh/food_publish_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Detect WordPress installation
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+
+          WP_CONFIGS="$(
+            ssh -i ~/.ssh/food_publish_key "$VPS_USER@$VPS_HOST" '
+              for base in /var/www /home /srv/www /usr/share/nginx/html; do
+                if [ -d "$base" ]; then
+                  find "$base" -maxdepth 7 -type f -name wp-config.php 2>/dev/null
+                fi
+              done
+            ' | sort -u
+          )"
+
+          COUNT="$(printf '%s\n' "$WP_CONFIGS" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [ -z "$WP_CONFIGS" ] || [ "$COUNT" -ne 1 ]; then
+            echo "ERROR: No se ha podido identificar una única instalación de WordPress."
+            printf '%s\n' "$WP_CONFIGS"
+            exit 1
+          fi
+
+          WP_ROOT="${WP_CONFIGS%/wp-config.php}"
+          echo "WP_ROOT=$WP_ROOT" >> "$GITHUB_ENV"
+          echo "WordPress detectado en $WP_ROOT"
+
+      - name: Copy article and publisher to VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          scp -i ~/.ssh/food_publish_key \
+            content/reference/por-que-la-carne-suelta-agua.html \
+            "$VPS_USER@$VPS_HOST:/tmp/food-reference-article.html"
+          scp -i ~/.ssh/food_publish_key \
+            content/tools/publish-reference-article.php \
+            "$VPS_USER@$VPS_HOST:/tmp/food-publish-reference.php"
+
+      - name: Publish or update article
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/food_publish_key "$VPS_USER@$VPS_HOST" \
+            "php /tmp/food-publish-reference.php '$WP_ROOT' /tmp/food-reference-article.html"
+
+      - name: Cleanup temporary files
+        if: always()
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          ssh -i ~/.ssh/food_publish_key "$VPS_USER@$VPS_HOST" \
+            "rm -f /tmp/food-reference-article.html /tmp/food-publish-reference.php" || true
