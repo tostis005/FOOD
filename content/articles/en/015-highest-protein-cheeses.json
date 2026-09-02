@@ -1,19 +1,55 @@
 {
-  "schema_version":1,
-  "id":"en-015-highest-protein-cheeses",
-  "article_number":15,
-  "translation_group":"015-highest-protein-cheeses",
-  "language":"en",
-  "locale":"en-US",
-  "market_context":"United States/international; representative cheese composition",
-  "title":"Highest-Protein Cheeses: Ranking Per 100 Grams",
-  "slug":"highest-protein-cheeses",
-  "seo":{"title":"Highest-Protein Cheeses per 100 Grams","meta_description":"Compare Parmesan, Gruyère, cheddar, mozzarella and cottage cheese by protein, and see why aging and water content change the ranking.","search_intent":"Rank cheese by protein concentration."},
-  "excerpt":"Hard aged cheeses lead protein-per-100-gram rankings because they contain less water. Parmesan can approach 36 grams per 100 grams, but serving size, fat, sodium and calories change the practical comparison.",
-  "taxonomy":{"food_family":"dairy-cheese","food_subcategories":["cheese"],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},
-  "content_html":"<p>Aged cheese becomes nutritionally concentrated as moisture is lost. That is why Parmesan can contain more protein per 100 grams than many meats—even though people eat much smaller portions.</p>\n<h2>Representative ranking</h2>\n<table><thead><tr><th>Cheese</th><th>Approx. protein/100 g</th></tr></thead><tbody><tr><td>Parmesan</td><td>35–36 g</td></tr><tr><td>Other hard grating cheeses</td><td>32–35 g</td></tr><tr><td>Gruyère</td><td>29–30 g</td></tr><tr><td>Swiss-type cheese</td><td>26–28 g</td></tr><tr><td>Cheddar</td><td>24–25 g</td></tr><tr><td>Low-moisture mozzarella</td><td>22–25 g</td></tr><tr><td>Fresh mozzarella</td><td>16–20 g</td></tr><tr><td>Cottage cheese</td><td>11–13 g</td></tr></tbody></table>\n<h2>Why Parmesan ranks so high</h2>\n<p>Hard aging removes water, concentrating protein along with fat, calcium and sodium. A one-ounce serving provides roughly 10 grams of protein—not the 36 grams implied by a 100-gram column.</p>\n<h2>Fresh versus aged cheese</h2>\n<p>Fresh cheeses contain more water, so protein per 100 g is lower. That does not make them nutritionally weak. Cottage cheese, for example, is often eaten in a half-cup or one-cup serving and can deliver a large amount of protein with fewer calories than an equal weight of hard cheese.</p>\n<h2>Protein and fat rise together in many cheeses</h2>\n<p>Parmesan and cheddar are concentrated sources of both. If your priority is maximum protein per calorie, low-fat cottage cheese or high-protein yogurt may outperform a hard cheese.</p>\n<h2>Mozzarella is not one product</h2>\n<p>Fresh mozzarella holds much more water than low-moisture mozzarella used on pizza. Removing moisture raises protein, fat and calories per 100 grams.</p>\n<h2>Sodium deserves equal attention</h2>\n<p>Cheese can be a major sodium source. Hard and brined cheeses vary widely. A high protein number should therefore be interpreted alongside serving size and sodium on the label.</p>\n<h2>Serving-size comparison</h2>\n<table><thead><tr><th>Cheese</th><th>Serving</th><th>Approx. protein</th></tr></thead><tbody><tr><td>Parmesan</td><td>30 g</td><td>10–11 g</td></tr><tr><td>Cheddar</td><td>30 g</td><td>7–8 g</td></tr><tr><td>Low-moisture mozzarella</td><td>30 g</td><td>7 g</td></tr><tr><td>Cottage cheese</td><td>150 g</td><td>17–20 g</td></tr></tbody></table>\n<h2>Frequently asked questions</h2>\n<h3>Which cheese has the most protein?</h3><p>Parmesan and similar hard aged cheeses are among the most concentrated at roughly 33–36 g per 100 g.</p>\n<h3>Why does aged cheese have more protein?</h3><p>It contains less water, so nutrients are concentrated by weight.</p>\n<h3>Is cottage cheese lower in protein?</h3><p>Per 100 g, yes, but typical servings are larger and can provide more total protein with fewer calories than a large hard-cheese portion.</p>",
-  "faq":[{"question":"Which cheese is highest in protein?","answer":"Parmesan and other hard aged cheeses can provide roughly 33–36 g per 100 g."},{"question":"Why is aged cheese so protein-dense?","answer":"Moisture loss during production and aging concentrates protein per unit of weight."},{"question":"Does highest protein mean leanest cheese?","answer":"No. Hard cheeses often concentrate fat and calories too."}],
-  "sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Representative cheese composition."}],
-  "image":{"concept":"Editorial arrangement of Parmesan, Gruyère, cheddar, low-moisture mozzarella, fresh mozzarella and cottage cheese on a neutral board, no text.","alt":"Different cheeses ranked for protein content"},
-  "status":"draft"
+  "schema_version": 1,
+  "id": "en-015-highest-protein-cheeses",
+  "article_number": 15,
+  "translation_group": "015-highest-protein-cheeses",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; representative cheese composition",
+  "title": "Highest-Protein Cheeses: Ranking Per 100 Grams",
+  "slug": "highest-protein-cheeses",
+  "seo": {
+    "title": "Highest-Protein Cheeses per 100 Grams",
+    "meta_description": "Compare Parmesan, Gruyère, cheddar, mozzarella and cottage cheese by protein, and see why aging and water content change the ranking.",
+    "search_intent": "Rank cheese by protein concentration."
+  },
+  "excerpt": "Hard aged cheeses lead protein-per-100-gram rankings because they contain less water. Parmesan can approach 36 grams per 100 grams, but serving size, fat, sodium and calories change the practical comparison.",
+  "taxonomy": {
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "cheese"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Aged cheese becomes nutritionally concentrated as moisture is lost. That is why Parmesan can contain more protein per 100 grams than many meats—even though people eat much smaller portions.</p>\n<h2>Representative ranking</h2>\n<table><thead><tr><th>Cheese</th><th>Approx. protein/100 g</th></tr></thead><tbody><tr><td>Parmesan</td><td>35–36 g</td></tr><tr><td>Other hard grating cheeses</td><td>32–35 g</td></tr><tr><td>Gruyère</td><td>29–30 g</td></tr><tr><td>Swiss-type cheese</td><td>26–28 g</td></tr><tr><td>Cheddar</td><td>24–25 g</td></tr><tr><td>Low-moisture mozzarella</td><td>22–25 g</td></tr><tr><td>Fresh mozzarella</td><td>16–20 g</td></tr><tr><td>Cottage cheese</td><td>11–13 g</td></tr></tbody></table>\n<h2>Why Parmesan ranks so high</h2>\n<p>Hard aging removes water, concentrating protein along with fat, calcium and sodium. A one-ounce serving provides roughly 10 grams of protein—not the 36 grams implied by a 100-gram column.</p>\n<h2>Fresh versus aged cheese</h2>\n<p>Fresh cheeses contain more water, so protein per 100 g is lower. That does not make them nutritionally weak. Cottage cheese, for example, is often eaten in a half-cup or one-cup serving and can deliver a large amount of protein with fewer calories than an equal weight of hard cheese.</p>\n<h2>Protein and fat rise together in many cheeses</h2>\n<p>Parmesan and cheddar are concentrated sources of both. If your priority is maximum protein per calorie, low-fat cottage cheese or high-protein yogurt may outperform a hard cheese.</p>\n<h2>Mozzarella is not one product</h2>\n<p>Fresh mozzarella holds much more water than low-moisture mozzarella used on pizza. Removing moisture raises protein, fat and calories per 100 grams.</p>\n<h2>Sodium deserves equal attention</h2>\n<p>Cheese can be a major sodium source. Hard and brined cheeses vary widely. A high protein number should therefore be interpreted alongside serving size and sodium on the label.</p>\n<h2>Serving-size comparison</h2>\n<table><thead><tr><th>Cheese</th><th>Serving</th><th>Approx. protein</th></tr></thead><tbody><tr><td>Parmesan</td><td>30 g</td><td>10–11 g</td></tr><tr><td>Cheddar</td><td>30 g</td><td>7–8 g</td></tr><tr><td>Low-moisture mozzarella</td><td>30 g</td><td>7 g</td></tr><tr><td>Cottage cheese</td><td>150 g</td><td>17–20 g</td></tr></tbody></table>\n<h2>Frequently asked questions</h2>\n<h3>Which cheese has the most protein?</h3><p>Parmesan and similar hard aged cheeses are among the most concentrated at roughly 33–36 g per 100 g.</p>\n<h3>Why does aged cheese have more protein?</h3><p>It contains less water, so nutrients are concentrated by weight.</p>\n<h3>Is cottage cheese lower in protein?</h3><p>Per 100 g, yes, but typical servings are larger and can provide more total protein with fewer calories than a large hard-cheese portion.</p>",
+  "faq": [
+    {
+      "question": "Which cheese is highest in protein?",
+      "answer": "Parmesan and other hard aged cheeses can provide roughly 33–36 g per 100 g."
+    },
+    {
+      "question": "Why is aged cheese so protein-dense?",
+      "answer": "Moisture loss during production and aging concentrates protein per unit of weight."
+    },
+    {
+      "question": "Does highest protein mean leanest cheese?",
+      "answer": "No. Hard cheeses often concentrate fat and calories too."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Representative cheese composition."
+    }
+  ],
+  "image": {
+    "concept": "Editorial arrangement of Parmesan, Gruyère, cheddar, low-moisture mozzarella, fresh mozzarella and cottage cheese on a neutral board, no text.",
+    "alt": "Different cheeses ranked for protein content"
+  },
+  "status": "publish"
 }

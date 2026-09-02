@@ -1,0 +1,47 @@
+name: Final clean v2 articles 1-25
+
+on:
+  push:
+    branches:
+      - content/final-clean-pass-v2
+    paths:
+      - 'content/tools/final-clean-v2.py'
+      - '.github/workflows/final-clean-v2.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  clean:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/final-clean-pass-v2
+
+      - name: Clean all 50 article JSON files
+        run: python3 content/tools/final-clean-v2.py
+
+      - name: Validate JSON and article count
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          paths = sorted(Path('content/articles').glob('*/*.json'))
+          assert len(paths) == 50, len(paths)
+          for p in paths:
+              json.loads(p.read_text(encoding='utf-8'))
+          print('VALIDATED_ARTICLES=50')
+          PY
+
+      - name: Commit cleaned article set
+        run: |
+          if git diff --quiet -- content/articles; then
+            echo 'No article changes to commit'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/articles
+          git commit -m 'Final editorial cleanup for articles 1-25 ES and EN'
+          git push origin HEAD:content/final-clean-pass-v2

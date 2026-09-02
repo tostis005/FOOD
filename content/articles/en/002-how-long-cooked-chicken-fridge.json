@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "en-002-how-long-cooked-chicken-fridge",
   "article_number": 2,
-  "translation_group": "002-cooked-chicken-fridge",
+  "translation_group": "002-how-long-cooked-chicken-fridge",
   "language": "en",
   "locale": "en-US",
   "market_context": "United States; USDA/FoodSafety.gov household food-safety guidance",
@@ -16,24 +16,50 @@
   "excerpt": "USDA guidance gives cooked chicken about 3–4 days in the refrigerator at 40°F (4°C) or below. That window assumes it was refrigerated promptly; chicken left at room temperature too long should not be saved simply because it still smells normal.",
   "taxonomy": {
     "food_family": "meat",
-    "food_subcategories": ["chicken"],
-    "article_types": ["storage", "food-safety"],
+    "food_subcategories": [
+      "chicken"
+    ],
+    "article_types": [
+      "storage",
+      "food-safety"
+    ],
     "primary_article_type": "storage"
   },
   "content_html": "<p>Cooked chicken is one of the easiest leftovers to reuse, but the refrigerator does not stop bacterial growth completely. Under USDA household guidance, cooked chicken leftovers generally keep for <strong>3 to 4 days</strong> when the refrigerator stays at 40°F (4°C) or below.</p>\n<p>That number only works if the food was handled correctly before it reached the refrigerator. A five-hour-old tray of chicken on the counter does not get a fresh three-to-four-day safety window just because it is chilled afterward.</p>\n<h2>The short answer: 3–4 days</h2>\n<p>Use cooked chicken within three to four days, or freeze it sooner. Count the day it was cooked as part of your storage timeline rather than relying on smell alone. Dating containers makes this much easier.</p>\n<h2>Refrigerate within two hours</h2>\n<p>Perishable food should generally be refrigerated within <strong>two hours</strong>. If the surrounding temperature is above 90°F (32°C), such as at a hot picnic or in a warm car, the limit drops to one hour.</p>\n<p>The reason is the time spent in temperatures that support rapid microbial growth. Chilling slows growth; it does not reverse the growth that already occurred.</p>\n<h2>How to cool cooked chicken efficiently</h2>\n<p>You do not need to leave chicken on the counter until it becomes completely cold. For a large batch, divide it into smaller portions and use shallow containers so heat can escape more quickly. A deep stockpot or tightly packed casserole takes longer to cool in the center.</p>\n<ul><li>Portion large batches before refrigerating.</li><li>Use clean, covered containers.</li><li>Keep cooked foods above or away from raw meat and poultry to prevent drips.</li><li>Label the container with the date.</li><li>Keep the refrigerator at 40°F (4°C) or colder.</li></ul>\n<h2>Can you tell when cooked chicken has spoiled?</h2>\n<p>Strong off odors, slime, stickiness and obvious deterioration are reasons to discard chicken. But a normal smell is <strong>not proof that food is safe</strong>. Disease-causing bacteria can be present without making food smell or look spoiled.</p>\n<p>That is why time and temperature rules matter even when your senses detect nothing unusual.</p>\n<h2>Does reheating reset the clock?</h2>\n<p>No. Reheating on day three does not create another three or four days of safe refrigerator storage. Repeated cooling and reheating also adds opportunities for temperature abuse and contamination.</p>\n<p>When reheating leftovers, USDA guidance uses 165°F (74°C) as the target for leftovers. Heat food evenly; microwaves can leave cold spots, so stir or rotate when practical.</p>\n<h2>Can cooked chicken be eaten cold?</h2>\n<p>Yes, provided it was fully cooked, promptly refrigerated and is still within its safe storage window. Cold cooked chicken in a salad is not inherently less safe than reheated chicken. The important question is how it was handled.</p>\n<h2>What if the chicken has been in the fridge for five days?</h2>\n<p>Five days is beyond USDA's 3–4 day refrigerator recommendation for cooked poultry. The safest decision is to discard it rather than use smell or a taste test to extend the window.</p>\n<h2>Freezing cooked chicken</h2>\n<p>If you know you will not finish the chicken within a few days, freeze it while it is still in good condition. FoodSafety.gov lists several months of freezer time for quality depending on the preparation. Continuous freezing at 0°F (-18°C) or below keeps food safe much longer; the recommended freezer limits primarily describe quality loss.</p>\n<p>Freeze in meal-sized portions, remove excess air and label the package. This avoids thawing a large quantity when you only need one serving.</p>\n<h2>What about rotisserie chicken?</h2>\n<p>The same principle applies to store-cooked rotisserie chicken: get it refrigerated promptly and use it within the recommended leftover window. If you are not going to eat it soon, remove meat from the carcass, portion and freeze it.</p>\n<h2>A simple household rule</h2>\n<p><strong>Two hours to refrigerate, three to four days to eat, or freeze sooner.</strong> That rule is easier and safer than trying to judge age from appearance.</p>\n<h2>Frequently asked questions</h2>\n<h3>Is cooked chicken good after four days?</h3><p>Four days is the upper end of the USDA refrigerator guideline when the chicken was promptly chilled and held at 40°F or below. If storage conditions were uncertain, discard it.</p>\n<h3>Can I freeze cooked chicken on day four?</h3><p>It is better to freeze earlier, while quality is high and the storage history is clear. Freezing does not undo unsafe handling that occurred beforehand.</p>\n<h3>Can I taste a small piece to check?</h3><p>No. Tasting is not a safe test for pathogenic bacteria. When the time or temperature history is unsafe, discard the food.</p>",
   "faq": [
-    {"question":"How many days does cooked chicken last in the fridge?","answer":"USDA guidance is generally 3–4 days at 40°F (4°C) or below, assuming prompt refrigeration."},
-    {"question":"Does reheating cooked chicken make it last another 3–4 days?","answer":"No. Reheating does not reset the storage clock and repeated cooling creates additional handling opportunities."},
-    {"question":"Can you tell cooked chicken is safe by smell?","answer":"No. Spoilage may cause off odors or slime, but pathogenic bacteria can be present without obvious sensory changes."}
+    {
+      "question": "How many days does cooked chicken last in the fridge?",
+      "answer": "USDA guidance is generally 3–4 days at 40°F (4°C) or below, assuming prompt refrigeration."
+    },
+    {
+      "question": "Does reheating cooked chicken make it last another 3–4 days?",
+      "answer": "No. Reheating does not reset the storage clock and repeated cooling creates additional handling opportunities."
+    },
+    {
+      "question": "Can you tell cooked chicken is safe by smell?",
+      "answer": "No. Spoilage may cause off odors or slime, but pathogenic bacteria can be present without obvious sensory changes."
+    }
   ],
   "sources": [
-    {"name":"FoodSafety.gov — Cold Food Storage Chart","url":"https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts","note":"3–4 day refrigerator guidance for cooked meat and poultry leftovers."},
-    {"name":"USDA FSIS — Chicken from Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table","note":"Cooked chicken storage, freezing and handling guidance."},
-    {"name":"USDA FSIS — Refrigeration and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration","note":"Refrigerator temperature and general leftover guidance."}
+    {
+      "name": "FoodSafety.gov — Cold Food Storage Chart",
+      "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "note": "3–4 day refrigerator guidance for cooked meat and poultry leftovers."
+    },
+    {
+      "name": "USDA FSIS — Chicken from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+      "note": "Cooked chicken storage, freezing and handling guidance."
+    },
+    {
+      "name": "USDA FSIS — Refrigeration and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration",
+      "note": "Refrigerator temperature and general leftover guidance."
+    }
   ],
   "image": {
     "concept": "Realistic editorial photograph of sliced cooked chicken stored in a shallow glass food container on a clean refrigerator shelf, subtle date label without legible text, no branding.",
     "alt": "Cooked chicken stored in a covered container in the refrigerator"
   },
-  "status": "draft"
+  "status": "publish"
 }

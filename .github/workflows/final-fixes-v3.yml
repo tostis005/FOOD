@@ -1,0 +1,47 @@
+name: Final fixes v3 articles 1-25
+
+on:
+  push:
+    branches:
+      - content/final-clean-pass-v2
+    paths:
+      - 'content/tools/final-fixes-v3.py'
+      - '.github/workflows/final-fixes-v3.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  finalize:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: content/final-clean-pass-v2
+
+      - name: Apply final fixes and audits
+        run: python3 content/tools/final-fixes-v3.py
+
+      - name: Validate all article JSON
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          paths = sorted(Path('content/articles').glob('*/*.json'))
+          assert len(paths) == 50
+          for p in paths:
+              json.loads(p.read_text(encoding='utf-8'))
+          print('VALIDATED_ARTICLES=50')
+          PY
+
+      - name: Commit final article set
+        run: |
+          if git diff --quiet -- content/articles; then
+            echo 'No changes'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/articles
+          git commit -m 'Finalize self-contained bilingual articles 1-25'
+          git push origin HEAD:content/final-clean-pass-v2

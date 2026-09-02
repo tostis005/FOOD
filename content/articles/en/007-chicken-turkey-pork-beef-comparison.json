@@ -1,19 +1,63 @@
 {
-  "schema_version":1,
-  "id":"en-007-chicken-turkey-pork-beef-comparison",
-  "article_number":7,
-  "translation_group":"007-chicken-turkey-pork-beef-comparison",
-  "language":"en",
-  "locale":"en-US",
-  "market_context":"United States/international; representative cooked lean cuts",
-  "title":"Chicken, Turkey, Pork and Beef: Protein, Fat and Calorie Comparison",
-  "slug":"chicken-turkey-pork-beef-nutrition-comparison",
-  "seo":{"title":"Chicken vs Turkey vs Pork vs Beef: Nutrition","meta_description":"Compare chicken, turkey, pork and beef for protein, fat and calories. The cut often matters more than the animal, especially for fat.","search_intent":"Nutrition comparison among common meats."},
-  "excerpt":"Lean chicken, turkey, pork and beef are all protein-dense. The biggest differences usually come from the cut, skin and visible fat rather than the species name alone.",
-  "taxonomy":{"food_family":"meat","food_subcategories":["chicken","turkey","pork","beef"],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},
-  "content_html":"<p>“Chicken is lean and pork is fatty” is too crude to be useful. A skinless chicken breast is extremely lean; a skin-on thigh is not. Pork tenderloin can be leaner than many beef cuts. Ground beef can range from very lean to high-fat depending on the label.</p>\n<h2>Representative cooked lean cuts</h2>\n<table><thead><tr><th>Meat</th><th>Protein/100 g</th><th>Fat/100 g</th><th>Approx. calories</th></tr></thead><tbody><tr><td>Skinless chicken breast</td><td>31 g</td><td>3–4 g</td><td>about 165</td></tr><tr><td>Skinless turkey breast</td><td>29–30 g</td><td>2–4 g</td><td>150–165</td></tr><tr><td>Lean pork loin/tenderloin</td><td>26–28 g</td><td>4–8 g</td><td>160–200</td></tr><tr><td>Lean beef</td><td>26–29 g</td><td>5–10 g</td><td>170–220</td></tr></tbody></table>\n<p>These are useful reference points, not universal values. Cooking loss changes water concentration, and individual cuts vary.</p>\n<h2>Protein differences are smaller than people expect</h2>\n<p>Once you compare lean cooked cuts, all four meats provide roughly 26–31 grams of protein per 100 grams. A normal serving can therefore deliver a substantial amount regardless of species.</p>\n<h2>Fat is where the comparison spreads out</h2>\n<p>Chicken skin, beef marbling and external pork fat can move the numbers dramatically. A lean pork tenderloin can contain less fat than a skin-on chicken thigh. Choosing a cut tells you more than choosing an animal.</p>\n<h2>Chicken</h2>\n<p>Skinless breast is among the leanest, most protein-dense common meats. Thigh meat is darker and generally fattier, especially with skin, while remaining a strong protein source.</p>\n<h2>Turkey</h2>\n<p>Turkey breast is nutritionally close to chicken breast. Ground turkey and processed turkey deli meats can be very different because dark meat, skin, sodium and formulation vary.</p>\n<h2>Pork</h2>\n<p>Pork includes very lean tenderloin and loin cuts as well as much fattier belly, ribs and shoulder preparations. It is a particularly good example of why species-level comparisons can mislead.</p>\n<h2>Beef</h2>\n<p>Lean beef combines protein with heme iron, zinc and vitamin B12. Marbled cuts have more fat and calories. Ground beef labels make the difference especially visible: 90% lean and 70% lean ground beef are not nutritionally equivalent.</p>\n<h2>Iron and B12</h2>\n<p>All four can contribute B12. Beef often provides more heme iron and zinc than poultry, which can be nutritionally relevant for someone specifically comparing micronutrients rather than only protein.</p>\n<h2>Which is lowest in calories?</h2>\n<p>Skinless chicken and turkey breast often rank near the bottom among these examples, but lean pork can come close. Frying, breading, creamy sauces and cooking fats can create a larger calorie difference than switching between two lean cuts.</p>\n<h2>Which is healthiest?</h2>\n<p>The answer depends on the whole dietary pattern, degree of processing, portion and frequency. Fresh lean meat and highly processed sausage should not be treated as nutritionally identical because they came from the same animal.</p>\n<h2>Practical choices</h2>\n<ul><li>For high protein with low fat: skinless poultry or clearly lean pork/beef cuts.</li><li>For more heme iron: lean beef can be useful.</li><li>For ground meat: compare the lean percentage.</li><li>For deli meat: check sodium and ingredients rather than relying on “turkey” or “chicken” on the front.</li></ul>\n<h2>Frequently asked questions</h2>\n<h3>Is pork always fattier than chicken?</h3><p>No. Pork tenderloin can be leaner than skin-on chicken cuts.</p>\n<h3>Does turkey have more protein than chicken?</h3><p>They are very close. Cooked breast meat from either can approach 30 g per 100 g.</p>\n<h3>Why choose beef?</h3><p>Lean beef offers high protein plus relatively rich amounts of heme iron and zinc.</p>",
-  "faq":[{"question":"Which has the most protein: chicken, turkey, pork or beef?","answer":"Lean cooked cuts are close, typically about 26–31 g per 100 g; chicken breast is often near the high end."},{"question":"Is pork always fattier than chicken?","answer":"No. A lean pork cut can contain less fat than skin-on chicken."},{"question":"Which tends to provide more iron?","answer":"Beef often provides more heme iron than chicken or turkey."}],
-  "sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Representative meat composition values."},{"name":"NIH ODS — Iron","url":"https://ods.od.nih.gov/factsheets/iron-Consumer/","note":"Heme iron food-source context."}],
-  "image":{"concept":"Four equally sized cooked lean portions of chicken, turkey, pork and beef arranged in a clean editorial comparison, neutral plates and no text.","alt":"Chicken, turkey, pork and beef shown for nutrition comparison"},
-  "status":"draft"
+  "schema_version": 1,
+  "id": "en-007-chicken-turkey-pork-beef-comparison",
+  "article_number": 7,
+  "translation_group": "007-chicken-turkey-pork-beef-comparison",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; representative cooked lean cuts",
+  "title": "Chicken, Turkey, Pork and Beef: Protein, Fat and Calorie Comparison",
+  "slug": "chicken-turkey-pork-beef-nutrition-comparison",
+  "seo": {
+    "title": "Chicken vs Turkey vs Pork vs Beef: Nutrition",
+    "meta_description": "Compare chicken, turkey, pork and beef for protein, fat and calories. The cut often matters more than the animal, especially for fat.",
+    "search_intent": "Nutrition comparison among common meats."
+  },
+  "excerpt": "Lean chicken, turkey, pork and beef are all protein-dense. The biggest differences usually come from the cut, skin and visible fat rather than the species name alone.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "chicken",
+      "turkey",
+      "pork",
+      "beef"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>“Chicken is lean and pork is fatty” is too crude to be useful. A skinless chicken breast is extremely lean; a skin-on thigh is not. Pork tenderloin can be leaner than many beef cuts. Ground beef can range from very lean to high-fat depending on the label.</p>\n<h2>Representative cooked lean cuts</h2>\n<table><thead><tr><th>Meat</th><th>Protein/100 g</th><th>Fat/100 g</th><th>Approx. calories</th></tr></thead><tbody><tr><td>Skinless chicken breast</td><td>31 g</td><td>3–4 g</td><td>about 165</td></tr><tr><td>Skinless turkey breast</td><td>29–30 g</td><td>2–4 g</td><td>150–165</td></tr><tr><td>Lean pork loin/tenderloin</td><td>26–28 g</td><td>4–8 g</td><td>160–200</td></tr><tr><td>Lean beef</td><td>26–29 g</td><td>5–10 g</td><td>170–220</td></tr></tbody></table>\n<p>These are useful reference points, not universal values. Cooking loss changes water concentration, and individual cuts vary.</p>\n<h2>Protein differences are smaller than people expect</h2>\n<p>Once you compare lean cooked cuts, all four meats provide roughly 26–31 grams of protein per 100 grams. A normal serving can therefore deliver a substantial amount regardless of species.</p>\n<h2>Fat is where the comparison spreads out</h2>\n<p>Chicken skin, beef marbling and external pork fat can move the numbers dramatically. A lean pork tenderloin can contain less fat than a skin-on chicken thigh. Choosing a cut tells you more than choosing an animal.</p>\n<h2>Chicken</h2>\n<p>Skinless breast is among the leanest, most protein-dense common meats. Thigh meat is darker and generally fattier, especially with skin, while remaining a strong protein source.</p>\n<h2>Turkey</h2>\n<p>Turkey breast is nutritionally close to chicken breast. Ground turkey and processed turkey deli meats can be very different because dark meat, skin, sodium and formulation vary.</p>\n<h2>Pork</h2>\n<p>Pork includes very lean tenderloin and loin cuts as well as much fattier belly, ribs and shoulder preparations. It is a particularly good example of why species-level comparisons can mislead.</p>\n<h2>Beef</h2>\n<p>Lean beef combines protein with heme iron, zinc and vitamin B12. Marbled cuts have more fat and calories. Ground beef labels make the difference especially visible: 90% lean and 70% lean ground beef are not nutritionally equivalent.</p>\n<h2>Iron and B12</h2>\n<p>All four can contribute B12. Beef often provides more heme iron and zinc than poultry, which can be nutritionally relevant for someone specifically comparing micronutrients rather than only protein.</p>\n<h2>Which is lowest in calories?</h2>\n<p>Skinless chicken and turkey breast often rank near the bottom among these examples, but lean pork can come close. Frying, breading, creamy sauces and cooking fats can create a larger calorie difference than switching between two lean cuts.</p>\n<h2>Which is healthiest?</h2>\n<p>The answer depends on the whole dietary pattern, degree of processing, portion and frequency. Fresh lean meat and highly processed sausage should not be treated as nutritionally identical because they came from the same animal.</p>\n<h2>Practical choices</h2>\n<ul><li>For high protein with low fat: skinless poultry or clearly lean pork/beef cuts.</li><li>For more heme iron: lean beef can be useful.</li><li>For ground meat: compare the lean percentage.</li><li>For deli meat: check sodium and ingredients rather than relying on “turkey” or “chicken” on the front.</li></ul>\n<h2>Frequently asked questions</h2>\n<h3>Is pork always fattier than chicken?</h3><p>No. Pork tenderloin can be leaner than skin-on chicken cuts.</p>\n<h3>Does turkey have more protein than chicken?</h3><p>They are very close. Cooked breast meat from either can approach 30 g per 100 g.</p>\n<h3>Why choose beef?</h3><p>Lean beef offers high protein plus relatively rich amounts of heme iron and zinc.</p>",
+  "faq": [
+    {
+      "question": "Which has the most protein: chicken, turkey, pork or beef?",
+      "answer": "Lean cooked cuts are close, typically about 26–31 g per 100 g; chicken breast is often near the high end."
+    },
+    {
+      "question": "Is pork always fattier than chicken?",
+      "answer": "No. A lean pork cut can contain less fat than skin-on chicken."
+    },
+    {
+      "question": "Which tends to provide more iron?",
+      "answer": "Beef often provides more heme iron than chicken or turkey."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Representative meat composition values."
+    },
+    {
+      "name": "NIH ODS — Iron",
+      "url": "https://ods.od.nih.gov/factsheets/iron-Consumer/",
+      "note": "Heme iron food-source context."
+    }
+  ],
+  "image": {
+    "concept": "Four equally sized cooked lean portions of chicken, turkey, pork and beef arranged in a clean editorial comparison, neutral plates and no text.",
+    "alt": "Chicken, turkey, pork and beef shown for nutrition comparison"
+  },
+  "status": "publish"
 }

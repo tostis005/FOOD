@@ -1,19 +1,68 @@
 {
-  "schema_version":1,
-  "id":"en-014-highest-protein-fish",
-  "article_number":14,
-  "translation_group":"014-highest-protein-fish",
-  "language":"en",
-  "locale":"en-US",
-  "market_context":"United States/international; cooked fish and drained canned fish",
-  "title":"Highest-Protein Fish: Ranking Per 100 Grams",
-  "slug":"highest-protein-fish",
-  "seo":{"title":"Highest-Protein Fish per 100 Grams","meta_description":"Compare tuna, sardines, cod, salmon, mackerel and lean white fish by protein per 100 grams, with context on omega-3 and mercury.","search_intent":"Rank fish by protein density while preserving broader nutrition context."},
-  "excerpt":"Tuna is among the most protein-dense fish, but sardines, cod, salmon and mackerel are all close enough that omega-3, mercury and preparation often matter more than a few grams of protein.",
-  "taxonomy":{"food_family":"fish-seafood","food_subcategories":["tuna","sardines","cod","salmon","mackerel"],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},
-  "content_html":"<p>Most fish are already high-protein foods. A ranking can show concentration, but the spread is narrow enough that choosing fish solely because it has 25 instead of 22 grams of protein misses important differences in fat, omega-3s and mercury.</p>\n<h2>Representative protein ranking</h2>\n<table><thead><tr><th>Fish</th><th>Approx. protein/100 g</th></tr></thead><tbody><tr><td>Water-packed tuna, drained</td><td>24–26 g</td></tr><tr><td>Cooked tuna</td><td>24–29 g</td></tr><tr><td>Sardines</td><td>24–25 g</td></tr><tr><td>Cooked cod</td><td>22–24 g</td></tr><tr><td>Cooked salmon</td><td>22–25 g</td></tr><tr><td>Cooked mackerel</td><td>22–24 g</td></tr><tr><td>Lean white fish such as pollock</td><td>19–23 g</td></tr></tbody></table>\n<h2>Tuna</h2>\n<p>Tuna is extremely protein-dense, especially drained canned tuna in water. Species matters for mercury: larger tuna species generally accumulate more than smaller “light” tuna species.</p>\n<h2>Sardines</h2>\n<p>Sardines combine high protein with EPA/DHA omega-3. Canned sardines with edible bones also deliver substantial calcium, making them nutritionally distinctive despite not always taking first place in protein.</p>\n<h2>Cod and lean white fish</h2>\n<p>Cod, haddock and pollock are lean, low-calorie protein sources. Salted cod is a different food from fresh cod because sodium is dramatically higher.</p>\n<h2>Salmon and mackerel</h2>\n<p>They contain more fat and calories than lean white fish, but much of the nutritional interest lies in long-chain omega-3 fats. A protein-per-calorie ranking would therefore place them lower without making them less nutritious overall.</p>\n<h2>Mercury changes how “best” should be defined</h2>\n<p>FDA/EPA fish advice groups species by mercury and recommends particular choices for people who are or might become pregnant and for children. Protein density should not override those species-specific recommendations.</p>\n<h2>Canned in oil versus water</h2>\n<p>Oil adds fat and calories, not protein. Drain canned fish consistently when comparing labels or database values.</p>\n<h2>Frequently asked questions</h2>\n<h3>Which fish has the most protein?</h3><p>Tuna is commonly near the top, but sardines, cod, salmon and mackerel are all protein-dense.</p>\n<h3>Does fatty fish contain less protein?</h3><p>Not necessarily. Salmon remains high in protein; it simply carries more energy from fat.</p>\n<h3>Should I eat tuna every day for protein?</h3><p>Variety is preferable, particularly because mercury levels differ among fish species.</p>",
-  "faq":[{"question":"Which fish is highest in protein?","answer":"Tuna commonly ranks near the top at roughly 24–29 g per 100 g depending on species and preparation."},{"question":"Is salmon still high in protein?","answer":"Yes. Cooked salmon often provides roughly 22–25 g per 100 g while also supplying omega-3 fats."},{"question":"Why vary fish species?","answer":"Species differ in omega-3 content, mercury and other nutrients, so the highest protein number is not the only consideration."}],
-  "sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Fish composition values."},{"name":"FDA — Advice about Eating Fish","url":"https://www.fda.gov/food/consumers/advice-about-eating-fish","note":"Mercury-based fish-choice guidance."}],
-  "image":{"concept":"Editorial overhead photograph of tuna, sardines, cod, salmon, mackerel and white fish portions prepared simply, neutral background and no text.","alt":"High-protein fish varieties"},
-  "status":"draft"
+  "schema_version": 1,
+  "id": "en-014-highest-protein-fish",
+  "article_number": 14,
+  "translation_group": "014-highest-protein-fish",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; cooked fish and drained canned fish",
+  "title": "Highest-Protein Fish: Ranking Per 100 Grams",
+  "slug": "highest-protein-fish",
+  "seo": {
+    "title": "Highest-Protein Fish per 100 Grams",
+    "meta_description": "Compare tuna, sardines, cod, salmon, mackerel and lean white fish by protein per 100 grams, with context on omega-3 and mercury.",
+    "search_intent": "Rank fish by protein density while preserving broader nutrition context."
+  },
+  "excerpt": "Tuna is near 29 g of protein per 100 g, but sardines, mackerel, trout, cod and salmon are also highly concentrated sources. The comparison keeps preparation simple—cooked or canned—and explains separately how water, fat, sodium and mercury affect the bigger picture.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": [
+      "tuna",
+      "sardines",
+      "cod",
+      "salmon",
+      "mackerel"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Fish is generally a very concentrated source of protein. Most common choices provide roughly <strong>20 to 30 grams of protein per 100 grams</strong> once cooked or, for canned fish, drained.</p><p>To keep the comparison useful, this article does not turn every cooking method into a separate ranking. Fresh fish is shown simply as <strong>cooked</strong>, while canned fish is shown <strong>drained</strong>. Grilling, baking, steaming or pan-cooking can shift the number slightly because they change water content, but they do not transform an ordinary fish into a completely different protein food.</p><h2>Simple protein ranking per 100 grams</h2><table><thead><tr><th>Fish</th><th>Form compared</th><th>Approx. protein</th><th>Approx. calories</th></tr></thead><tbody><tr><td>Tuna</td><td>Cooked</td><td>29 g</td><td>130 kcal</td></tr><tr><td>Anchovies</td><td>Canned, drained</td><td>29 g</td><td>210 kcal</td></tr><tr><td>Sardines</td><td>Canned, drained</td><td>25 g</td><td>208 kcal</td></tr><tr><td>Mackerel</td><td>Cooked</td><td>24 g</td><td>262 kcal</td></tr><tr><td>Trout</td><td>Cooked</td><td>24 g</td><td>168 kcal</td></tr><tr><td>Swordfish</td><td>Cooked</td><td>23 g</td><td>172 kcal</td></tr><tr><td>Cod</td><td>Cooked</td><td>23 g</td><td>105 kcal</td></tr><tr><td>Salmon</td><td>Cooked</td><td>22 g</td><td>206 kcal</td></tr></tbody></table><p>The figures are rounded from USDA FoodData Central references. Rounding is intentional: tenths of a gram are not very useful when the real value also varies with species, cut and the amount of water lost during cooking.</p><h2>Tuna: a lot of protein for relatively few calories</h2><p>The cooked tuna reference used here provides about <strong>29 g of protein and 130 calories per 100 g</strong>. That makes it highly protein-dense.</p><p>It is not automatically the fish to eat most often. Some tuna species are large predators and can accumulate more mercury than smaller fish. Frequency therefore depends on the type of tuna, the variety of fish in the diet and, for people who are pregnant or may become pregnant and for children, current FDA/EPA fish guidance.</p><h2>Anchovies and sardines: concentrated, but portions are usually smaller</h2><p>Canned anchovies provide about <strong>29 g of protein per 100 g</strong>, while sardines provide about <strong>25 g</strong>. A 100 g serving of anchovies, however, is much larger than most people normally eat.</p><p>Canned fish also needs context. Anchovies can be very high in sodium; sardines with edible bones provide calcium; and oil-packed products carry more calories even after some of the oil is drained.</p><h2>Mackerel, trout and salmon: high protein with more fat</h2><p>Mackerel, trout and salmon remain high-protein fish at roughly <strong>22–24 g per 100 g</strong> in these references. The bigger difference from cod or very lean tuna is fat.</p><p>Cooked cod is about <strong>105 calories per 100 g</strong>, compared with roughly <strong>206 calories for salmon</strong> and <strong>262 for mackerel</strong>. Salmon and mackerel also provide substantial EPA and DHA omega-3 fats.</p><h2>Cod: similar protein with very little fat</h2><p>Cooked cod provides about <strong>23 g of protein and 105 calories per 100 g</strong>. Compared with salmon, the protein is almost the same—23 versus 22 g—but the calories are roughly half because cod is much leaner.</p><p>Salt cod is a different comparison because curing dramatically changes sodium and also changes water content.</p><h2>What if you eat fish raw, such as sushi or sashimi?</h2><p>Raw fish usually contains a little more water than the same fish after cooking. It can therefore show less protein <em>per 100 g</em>, even though cooking has not created protein; water has simply been lost and the nutrients are more concentrated by weight.</p><p>If you are comparing two sashimi choices, use raw values for both. For a general ranking, cooked fish and drained canned fish better reflect the usual form in which these foods are eaten without mixing states silently.</p><h2>Does white fish have less protein than oily fish?</h2><p>Not necessarily. Cod in this comparison provides about <strong>23 g per 100 g</strong>, while salmon provides about <strong>22 g</strong> and mackerel about <strong>24 g</strong>. The clearest difference between lean and oily fish is usually fat, not protein.</p><h2>Protein per serving</h2><table><thead><tr><th>Example</th><th>Serving</th><th>Approx. protein</th></tr></thead><tbody><tr><td>Cooked tuna</td><td>150 g</td><td>44 g</td></tr><tr><td>Cooked trout</td><td>150 g</td><td>36 g</td></tr><tr><td>Cooked cod</td><td>150 g</td><td>34 g</td></tr><tr><td>Cooked salmon</td><td>150 g</td><td>33 g</td></tr><tr><td>Canned sardines</td><td>100 g</td><td>25 g</td></tr></tbody></table><p>A difference between 22 and 24 g per 100 g is small in a normal meal. Once you know these are all strong protein sources, taste, variety, omega-3 content, sodium, calcium, fat and species-specific safety guidance become more useful tie-breakers.</p><h2>Bottom line</h2><p>If protein concentration is the only metric, tuna and anchovies sit near the top at about <strong>29 g per 100 g</strong>. Sardines, mackerel, trout, swordfish, cod and salmon are also high, generally around <strong>22–25 g</strong>.</p><p>The useful conclusion is not that one species wins. Most of these fish do the protein job extremely well; the more meaningful differences come from the rest of their nutrition profile and from eating a variety of species.</p><h2>Sources and method</h2><p>Values are rounded from USDA FoodData Central and the composition references already listed in the article sources. The table uses only two reader-friendly states—cooked fish and drained canned fish—and explains separately when preparation mainly changes water, sodium or calories.</p>",
+  "faq": [
+    {
+      "question": "Which fish has the most protein?",
+      "answer": "In the references compared here, cooked tuna and canned anchovies are around 29 g per 100 g. Sardines, mackerel, trout, swordfish, cod and salmon are generally around 22–25 g."
+    },
+    {
+      "question": "Does salmon have less protein than tuna?",
+      "answer": "In these references, yes: about 22 g/100 g for salmon versus 29 g/100 g for tuna. Salmon also contains more fat and long-chain omega-3s, so protein is only one part of the comparison."
+    },
+    {
+      "question": "Does grilling or baking change the protein number?",
+      "answer": "It can shift the value slightly by changing water content. Cooking does not create protein; losing moisture simply concentrates protein per 100 g."
+    },
+    {
+      "question": "Does white fish have less protein?",
+      "answer": "Not necessarily. Cooked cod is around 23 g/100 g, very similar to many oily fish. Fat content usually differs more than protein."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Fish composition values."
+    },
+    {
+      "name": "FDA — Advice about Eating Fish",
+      "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+      "note": "Mercury-based fish-choice guidance."
+    }
+  ],
+  "image": {
+    "concept": "Editorial overhead photograph of tuna, sardines, cod, salmon, mackerel and white fish portions prepared simply, neutral background and no text.",
+    "alt": "High-protein fish varieties"
+  },
+  "status": "publish"
 }

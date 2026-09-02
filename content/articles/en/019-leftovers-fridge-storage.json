@@ -1,9 +1,58 @@
 {
-  "schema_version":1,"id":"en-019-leftovers-fridge-storage","article_number":19,"translation_group":"019-leftovers-fridge-storage","language":"en","locale":"en-US","market_context":"United States; USDA/FoodSafety.gov leftover guidance with food-specific exceptions",
-  "title":"How Long Do Leftovers Last in the Fridge—and When Should You Throw Them Out?","slug":"how-long-leftovers-last-fridge",
-  "seo":{"title":"How Long Do Leftovers Last in the Fridge?","meta_description":"Most cooked leftovers keep 3–4 days at 40°F or below under USDA guidance. Learn cooling rules, exceptions, reheating and when to discard food.","search_intent":"General food-safety guidance for refrigerated leftovers."},
-  "excerpt":"USDA guidance gives most cooked leftovers about 3–4 days in a refrigerator at 40°F (4°C) or below. That window only applies when food was refrigerated within two hours and kept consistently cold.",
-  "taxonomy":{"food_family":"general","food_subcategories":[],"article_types":["storage","food-safety"],"primary_article_type":"storage"},
-  "content_html":"<p>For many cooked leftovers, the USDA rule is easy to remember: <strong>refrigerate within two hours and eat within three to four days</strong>. But it is a starting point, not permission to save food that sat warm all afternoon.</p>\n<h2>The basic U.S. rule</h2>\n<p>Keep the refrigerator at 40°F (4°C) or below. Refrigerate perishable food within two hours, or one hour when ambient temperature is above 90°F (32°C).</p>\n<h2>Common refrigerator windows</h2>\n<table><thead><tr><th>Food</th><th>Typical USDA/FoodSafety.gov range</th></tr></thead><tbody><tr><td>Cooked meat or poultry leftovers</td><td>3–4 days</td></tr><tr><td>Soups and stews</td><td>3–4 days</td></tr><tr><td>Cooked pizza</td><td>3–4 days</td></tr><tr><td>Hard-cooked eggs</td><td>1 week</td></tr><tr><td>Cooked fish/shellfish leftovers</td><td>generally 3–4 days</td></tr></tbody></table>\n<p>Some authorities issue more specific advice for individual foods. Rice is a good example: UK guidance is more conservative because of <em>Bacillus cereus</em>. A universal number should never erase a food-specific rule.</p>\n<h2>Cooling a large batch</h2>\n<p>Divide big pots into shallow containers so the center cools quickly. Leaving a deep pot on the counter for hours is not safer than putting food in the refrigerator.</p>\n<h2>Smell is not a safety test</h2>\n<p>Mold, slime, fermentation or off odors are obvious discard signals. But pathogens can grow without sensory changes, so a normal smell cannot extend the 3–4 day window.</p>\n<h2>Does reheating reset the clock?</h2>\n<p>No. Reheating day-three leftovers does not create another fresh four-day period. Reheat only the portion you need when practical, and heat leftovers to 165°F (74°C).</p>\n<h2>Freeze before you run out of time</h2>\n<p>If plans change, freeze leftovers while their storage history is still good. Freezing stops microbial growth but does not undo unsafe room-temperature exposure.</p>\n<h2>When to discard immediately</h2>\n<ul><li>Food sat out more than two hours, or one hour in high heat.</li><li>You cannot remember when it was cooked.</li><li>The refrigerator was too warm for an extended period.</li><li>There is visible mold or obvious spoilage.</li><li>It is beyond the recommended refrigerator window.</li></ul>\n<h2>Frequently asked questions</h2>\n<h3>Are leftovers safe after five days?</h3><p>Five days is beyond the USDA 3–4 day range for most cooked leftovers.</p>\n<h3>Can I rely on smell?</h3><p>No. Smell detects some spoilage but not all foodborne pathogens.</p>\n<h3>Should I freeze leftovers on day one?</h3><p>If you know you will not eat them within a few days, early freezing preserves both safety margin and quality.</p>",
-  "faq":[{"question":"How long do most leftovers last in the fridge?","answer":"USDA guidance is generally 3–4 days at 40°F (4°C) or below for many cooked leftovers."},{"question":"Does reheating restart the refrigerator clock?","answer":"No. Reheating does not create a new 3–4 day storage period."},{"question":"Can leftovers be safe if they smell normal?","answer":"A normal smell does not prove safety; time and temperature history still control the decision."}],"sources":[{"name":"USDA FSIS — Leftovers and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety","note":"Two-hour rule, reheating and storage."},{"name":"FoodSafety.gov — Cold Food Storage Chart","url":"https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts","note":"Food-specific refrigerator ranges."}],"image":{"concept":"Organized refrigerator shelf with shallow covered containers of several cooked leftovers, subtle date stickers without readable wording, clean realistic editorial photography.","alt":"Properly stored leftovers in covered refrigerator containers"},"status":"draft"
+  "schema_version": 1,
+  "id": "en-019-leftovers-fridge-storage",
+  "article_number": 19,
+  "translation_group": "019-leftovers-fridge-storage",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA/FoodSafety.gov leftover guidance with food-specific exceptions",
+  "title": "How Long Do Leftovers Last in the Fridge—and When Should You Throw Them Out?",
+  "slug": "how-long-leftovers-last-fridge",
+  "seo": {
+    "title": "How Long Do Leftovers Last in the Fridge?",
+    "meta_description": "Most cooked leftovers keep 3–4 days at 40°F or below under USDA guidance. Learn cooling rules, exceptions, reheating and when to discard food.",
+    "search_intent": "General food-safety guidance for refrigerated leftovers."
+  },
+  "excerpt": "USDA guidance gives most cooked leftovers about 3–4 days in a refrigerator at 40°F (4°C) or below. That window only applies when food was refrigerated within two hours and kept consistently cold.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": [
+      "storage",
+      "food-safety"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>For many cooked leftovers, the USDA rule is easy to remember: <strong>refrigerate within two hours and eat within three to four days</strong>. But it is a starting point, not permission to save food that sat warm all afternoon.</p>\n<h2>The basic U.S. rule</h2>\n<p>Keep the refrigerator at 40°F (4°C) or below. Refrigerate perishable food within two hours, or one hour when ambient temperature is above 90°F (32°C).</p>\n<h2>Common refrigerator windows</h2>\n<table><thead><tr><th>Food</th><th>Typical USDA/FoodSafety.gov range</th></tr></thead><tbody><tr><td>Cooked meat or poultry leftovers</td><td>3–4 days</td></tr><tr><td>Soups and stews</td><td>3–4 days</td></tr><tr><td>Cooked pizza</td><td>3–4 days</td></tr><tr><td>Hard-cooked eggs</td><td>1 week</td></tr><tr><td>Cooked fish/shellfish leftovers</td><td>generally 3–4 days</td></tr></tbody></table>\n<p>Some authorities issue more specific advice for individual foods. Rice is a good example: UK guidance is more conservative because of <em>Bacillus cereus</em>. A universal number should never erase a food-specific rule.</p>\n<h2>Cooling a large batch</h2>\n<p>Divide big pots into shallow containers so the center cools quickly. Leaving a deep pot on the counter for hours is not safer than putting food in the refrigerator.</p>\n<h2>Smell is not a safety test</h2>\n<p>Mold, slime, fermentation or off odors are obvious discard signals. But pathogens can grow without sensory changes, so a normal smell cannot extend the 3–4 day window.</p>\n<h2>Does reheating reset the clock?</h2>\n<p>No. Reheating day-three leftovers does not create another fresh four-day period. Reheat only the portion you need when practical, and heat leftovers to 165°F (74°C).</p>\n<h2>Freeze before you run out of time</h2>\n<p>If plans change, freeze leftovers while their storage history is still good. Freezing stops microbial growth but does not undo unsafe room-temperature exposure.</p>\n<h2>When to discard immediately</h2>\n<ul><li>Food sat out more than two hours, or one hour in high heat.</li><li>You cannot remember when it was cooked.</li><li>The refrigerator was too warm for an extended period.</li><li>There is visible mold or obvious spoilage.</li><li>It is beyond the recommended refrigerator window.</li></ul>\n<h2>Frequently asked questions</h2>\n<h3>Are leftovers safe after five days?</h3><p>Five days is beyond the USDA 3–4 day range for most cooked leftovers.</p>\n<h3>Can I rely on smell?</h3><p>No. Smell detects some spoilage but not all foodborne pathogens.</p>\n<h3>Should I freeze leftovers on day one?</h3><p>If you know you will not eat them within a few days, early freezing preserves both safety margin and quality.</p>",
+  "faq": [
+    {
+      "question": "How long do most leftovers last in the fridge?",
+      "answer": "USDA guidance is generally 3–4 days at 40°F (4°C) or below for many cooked leftovers."
+    },
+    {
+      "question": "Does reheating restart the refrigerator clock?",
+      "answer": "No. Reheating does not create a new 3–4 day storage period."
+    },
+    {
+      "question": "Can leftovers be safe if they smell normal?",
+      "answer": "A normal smell does not prove safety; time and temperature history still control the decision."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "note": "Two-hour rule, reheating and storage."
+    },
+    {
+      "name": "FoodSafety.gov — Cold Food Storage Chart",
+      "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "note": "Food-specific refrigerator ranges."
+    }
+  ],
+  "image": {
+    "concept": "Organized refrigerator shelf with shallow covered containers of several cooked leftovers, subtle date stickers without readable wording, clean realistic editorial photography.",
+    "alt": "Properly stored leftovers in covered refrigerator containers"
+  },
+  "status": "publish"
 }

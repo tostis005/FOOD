@@ -1,9 +1,55 @@
 {
-  "schema_version":1,"id":"en-018-highest-protein-vegetables","article_number":18,"translation_group":"018-highest-protein-vegetables","language":"en","locale":"en-US","market_context":"United States/international; non-legume vegetables",
-  "title":"Highest-Protein Vegetables: Which Ones Actually Provide the Most?","slug":"highest-protein-vegetables",
-  "seo":{"title":"Highest-Protein Vegetables: A Practical Ranking","meta_description":"Compare Brussels sprouts, artichokes, kale, spinach, broccoli and asparagus by protein, and see why vegetables still aren't concentrated protein foods.","search_intent":"Rank vegetables by protein while correcting misleading per-calorie claims."},
-  "excerpt":"Vegetables contribute protein, but their high water content keeps the absolute amount modest. Brussels sprouts, artichokes, kale, spinach and broccoli generally provide about 3 grams per 100 grams.",
-  "taxonomy":{"food_family":"vegetables-mushrooms","food_subcategories":["vegetables"],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},
-  "content_html":"<p>Broccoli is sometimes advertised as “surprisingly high in protein.” The surprise comes from looking at protein as a percentage of very few calories. In absolute terms, most vegetables contain only 2–4 grams per 100 grams because they are mostly water.</p>\n<h2>Representative ranking</h2>\n<table><thead><tr><th>Vegetable</th><th>Approx. protein/100 g</th></tr></thead><tbody><tr><td>Brussels sprouts</td><td>3–4 g</td></tr><tr><td>Artichoke</td><td>3–3.5 g</td></tr><tr><td>Kale</td><td>about 3 g</td></tr><tr><td>Spinach</td><td>2.9 g</td></tr><tr><td>Broccoli</td><td>2.8 g</td></tr><tr><td>Asparagus</td><td>2.2 g</td></tr><tr><td>Cauliflower</td><td>1.9 g</td></tr></tbody></table>\n<h2>What about peas?</h2>\n<p>Green peas provide roughly 5–6 g per 100 g and are sold as a vegetable, but botanically they are legumes. We exclude them from the main table to keep the categories consistent.</p>\n<h2>Broccoli in context</h2>\n<p>A generous 200 g serving may contribute 5–6 g of protein. That is meaningful as part of a meal, but far below a serving of beans, tofu, eggs, fish or chicken.</p>\n<h2>Leafy greens shrink when cooked</h2>\n<p>Spinach and kale lose volume during cooking, making it easy to eat more grams. Protein per 100 g can also change with water loss. They remain more important for micronutrients, fiber and phytochemicals than as stand-alone protein foods.</p>\n<h2>The protein-per-calorie trick</h2>\n<p>Because broccoli is so low in calories, a substantial fraction of those calories come from protein. But reaching 30 grams of protein would require roughly a kilogram. Percentages do not replace serving size.</p>\n<h2>Use vegetables to add, not replace</h2>\n<p>Pair broccoli with tofu, spinach with lentils, Brussels sprouts with salmon, or a vegetable soup with beans. The protein adds up while vegetables perform their main role: providing fiber, volume and micronutrients.</p>\n<h2>Frequently asked questions</h2>\n<h3>Which vegetable has the most protein?</h3><p>Among common non-legume vegetables, Brussels sprouts and artichokes are near the top at roughly 3–4 g per 100 g.</p>\n<h3>Does broccoli have more protein than beef per calorie?</h3><p>Percentage-based comparisons can produce that impression, but beef is vastly more concentrated in protein by weight and normal serving.</p>\n<h3>Are peas vegetables?</h3><p>Culinarily yes; botanically they are legumes and contain more protein than most vegetables.</p>",
-  "faq":[{"question":"Which vegetables contain the most protein?","answer":"Brussels sprouts, artichokes, kale, spinach and broccoli are among the higher common non-legume vegetables at roughly 3 g per 100 g."},{"question":"Is broccoli a high-protein food?","answer":"It contributes protein, but only about 2.8 g per 100 g, so it is not a concentrated primary source."},{"question":"Why exclude peas?","answer":"Peas are legumes botanically. If included as a culinary vegetable, they would rank higher at roughly 5–6 g per 100 g."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Vegetable composition."}],"image":{"concept":"Fresh Brussels sprouts, artichokes, kale, spinach, broccoli, asparagus and cauliflower arranged in a bright editorial flat lay, no text.","alt":"Vegetables with relatively high protein content"},"status":"draft"
+  "schema_version": 1,
+  "id": "en-018-highest-protein-vegetables",
+  "article_number": 18,
+  "translation_group": "018-highest-protein-vegetables",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; non-legume vegetables",
+  "title": "Highest-Protein Vegetables: Which Ones Actually Provide the Most?",
+  "slug": "highest-protein-vegetables",
+  "seo": {
+    "title": "Highest-Protein Vegetables: A Practical Ranking",
+    "meta_description": "Compare Brussels sprouts, artichokes, kale, spinach, broccoli and asparagus by protein, and see why vegetables still aren't concentrated protein foods.",
+    "search_intent": "Rank vegetables by protein while correcting misleading per-calorie claims."
+  },
+  "excerpt": "Vegetables contribute protein, but their high water content keeps the absolute amount modest. Brussels sprouts, artichokes, kale, spinach and broccoli generally provide about 3 grams per 100 grams.",
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [
+      "vegetables"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Broccoli is sometimes advertised as “surprisingly high in protein.” The surprise comes from looking at protein as a percentage of very few calories. In absolute terms, most vegetables contain only 2–4 grams per 100 grams because they are mostly water.</p>\n<h2>Representative ranking</h2>\n<table><thead><tr><th>Vegetable</th><th>Approx. protein/100 g</th></tr></thead><tbody><tr><td>Brussels sprouts</td><td>3–4 g</td></tr><tr><td>Artichoke</td><td>3–3.5 g</td></tr><tr><td>Kale</td><td>about 3 g</td></tr><tr><td>Spinach</td><td>2.9 g</td></tr><tr><td>Broccoli</td><td>2.8 g</td></tr><tr><td>Asparagus</td><td>2.2 g</td></tr><tr><td>Cauliflower</td><td>1.9 g</td></tr></tbody></table>\n<h2>What about peas?</h2>\n<p>Green peas provide roughly 5–6 g per 100 g and are sold as a vegetable, but botanically they are legumes. We exclude them from the main table to keep the categories consistent.</p>\n<h2>Broccoli in context</h2>\n<p>A generous 200 g serving may contribute 5–6 g of protein. That is meaningful as part of a meal, but far below a serving of beans, tofu, eggs, fish or chicken.</p>\n<h2>Leafy greens shrink when cooked</h2>\n<p>Spinach and kale lose volume during cooking, making it easy to eat more grams. Protein per 100 g can also change with water loss. They remain more important for micronutrients, fiber and phytochemicals than as stand-alone protein foods.</p>\n<h2>The protein-per-calorie trick</h2>\n<p>Because broccoli is so low in calories, a substantial fraction of those calories come from protein. But reaching 30 grams of protein would require roughly a kilogram. Percentages do not replace serving size.</p>\n<h2>Use vegetables to add, not replace</h2>\n<p>Pair broccoli with tofu, spinach with lentils, Brussels sprouts with salmon, or a vegetable soup with beans. The protein adds up while vegetables perform their main role: providing fiber, volume and micronutrients.</p>\n<h2>Frequently asked questions</h2>\n<h3>Which vegetable has the most protein?</h3><p>Among common non-legume vegetables, Brussels sprouts and artichokes are near the top at roughly 3–4 g per 100 g.</p>\n<h3>Does broccoli have more protein than beef per calorie?</h3><p>Percentage-based comparisons can produce that impression, but beef is vastly more concentrated in protein by weight and normal serving.</p>\n<h3>Are peas vegetables?</h3><p>Culinarily yes; botanically they are legumes and contain more protein than most vegetables.</p>",
+  "faq": [
+    {
+      "question": "Which vegetables contain the most protein?",
+      "answer": "Brussels sprouts, artichokes, kale, spinach and broccoli are among the higher common non-legume vegetables at roughly 3 g per 100 g."
+    },
+    {
+      "question": "Is broccoli a high-protein food?",
+      "answer": "It contributes protein, but only about 2.8 g per 100 g, so it is not a concentrated primary source."
+    },
+    {
+      "question": "Why exclude peas?",
+      "answer": "Peas are legumes botanically. If included as a culinary vegetable, they would rank higher at roughly 5–6 g per 100 g."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Vegetable composition."
+    }
+  ],
+  "image": {
+    "concept": "Fresh Brussels sprouts, artichokes, kale, spinach, broccoli, asparagus and cauliflower arranged in a bright editorial flat lay, no text.",
+    "alt": "Vegetables with relatively high protein content"
+  },
+  "status": "publish"
 }
