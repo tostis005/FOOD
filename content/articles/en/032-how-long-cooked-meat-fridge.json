@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-032-how-long-cooked-meat-fridge",
+  "article_number": 32,
+  "translation_group": "032-how-long-cooked-meat-fridge",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA FSIS guidance for cooked meat and leftovers",
+  "title": "How Long Does Cooked Meat Last in the Fridge?",
+  "slug": "how-long-cooked-meat-fridge",
+  "seo": {
+    "title": "How Long Cooked Meat Lasts in the Fridge",
+    "meta_description": "Cooked meat and most leftovers keep 3–4 days at 40°F/4°C or below if refrigerated promptly. Learn when to freeze, reheat or discard them.",
+    "search_intent": "Know how long cooked meat can be refrigerated and how cooling, reheating and freezing affect safety."
+  },
+  "excerpt": "USDA guidance gives most properly refrigerated cooked meat and leftovers 3–4 days at 40°F / 4°C or below. That window assumes the food was refrigerated promptly; reheating later cannot make up for hours spent warm.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [],
+    "article_types": ["storage", "food-safety"],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>A container of roast beef can smell perfectly normal on day four, but that is not the only question that matters. With cooked meat, <strong>the clock starts when the meal ends, and the cooling history matters as much as the final smell</strong>.</p><p>USDA guidance gives most cooked meat and leftovers <strong>3–4 days in the refrigerator at 40°F / 4°C or below</strong>, provided they were refrigerated promptly.</p><h2>The timeline starts before the container reaches the fridge</h2><table><thead><tr><th>Situation</th><th>What to do</th></tr></thead><tbody><tr><td>Cooked meat left after a meal</td><td>Refrigerate within 2 hours</td></tr><tr><td>Above 90°F / 32°C</td><td>Refrigerate within 1 hour</td></tr><tr><td>Properly chilled leftovers</td><td>Use within 3–4 days</td></tr><tr><td>Not eating them in time</td><td>Freeze early</td></tr></tbody></table><p>A large roast or deep casserole can stay warm in the center long after the surface cools. Divide big amounts into smaller portions and shallow containers so they chill faster.</p><h2>The refrigerator temperature is part of the rule</h2><p>The 3–4 day window assumes a refrigerator at <strong>40°F / 4°C or colder</strong>. A power outage, a door left open or hours at room temperature can shorten the safe window even if the calendar still says day two.</p><p>Keep cooked meat covered and above raw meat so drips from uncooked products cannot contaminate it.</p><h2>Meat in sauce does not automatically last longer</h2><p>Stew, barbecue, meat sauce and sliced roast are all perishable once cooked. A sauce can even make smell or surface texture harder to judge, which makes knowing the cooking date more useful.</p><p>Commercially packaged products with specific storage instructions are different: follow the label while the product remains within its intended conditions.</p><h2>Can cooked meat be eaten cold?</h2><p>Yes. If it was cooked safely, cooled promptly and stored within the 3–4 day window, cooked meat does not have to be reheated merely because it was refrigerated.</p><p>If you do reheat it, USDA recommends heating leftovers to <strong>165°F / 74°C</strong>.</p><h2>Reheating does not reset the four-day clock</h2><p>Heating leftovers on day three and putting them back in the refrigerator does not create a fresh three or four days. The entire storage history still matters, and each handling cycle creates another opportunity for contamination.</p><p>Reheating also cannot rescue meat that sat out overnight.</p><h2>Discard it sooner when the storage history is bad</h2><ul><li>It sat at room temperature longer than 2 hours, or longer than 1 hour above 90°F / 32°C.</li><li>The refrigerator was too warm for a significant period.</li><li>It has a clearly abnormal odor, slime or mold.</li><li>Raw meat juices may have contaminated it.</li><li>You cannot remember when it was cooked.</li></ul><h2>Freezing is easier when you decide early</h2><p>If you already know the leftovers will not be eaten within a few days, freeze them while they are still fresh rather than waiting until day four. Portioning first makes it easier to thaw only what you need.</p><h2>The rule worth carrying into the kitchen</h2><p>For most cooked meat at home: <strong>chill promptly, keep the refrigerator at 40°F / 4°C or below, and use within 3–4 days</strong>. Freeze earlier if needed, and do not let a normal smell overrule a poor time-temperature history.</p>",
+  "faq": [
+    {"question": "Can I eat cooked meat after 5 days in the fridge?", "answer": "USDA guidance for most cooked meat and leftovers is 3–4 days at 40°F/4°C or below. Day five is beyond that window."},
+    {"question": "Do I need to cool meat completely before refrigerating it?", "answer": "No. Leaving food out for hours is not safer. Divide large portions into shallow containers and refrigerate within 2 hours."},
+    {"question": "Does reheating give leftovers another 3–4 days?", "answer": "No. Reheating does not restart the storage clock or undo earlier temperature abuse."}
+  ],
+  "sources": [
+    {"name": "USDA FSIS — Beef From Farm to Table", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/beef-farm-table", "note": "3–4 day refrigerator guidance and 165°F reheating temperature."},
+    {"name": "FoodSafety.gov — Food Safety Basics", "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety", "note": "Prompt refrigeration and time-temperature safety principles."}
+  ],
+  "image": {
+    "concept": "Sliced cooked meat divided into shallow covered containers in a clean refrigerator, editorial photography, no text.",
+    "alt": "Cooked meat stored in shallow refrigerator containers"
+  },
+  "status": "publish"
+}
