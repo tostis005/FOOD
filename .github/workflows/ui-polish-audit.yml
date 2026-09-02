@@ -1,0 +1,206 @@
+name: Audit Pometum UI polish
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'header.php'
+      - 'footer.php'
+      - 'functions.php'
+      - 'inc/editorial-pages.php'
+      - 'page-editorial.php'
+      - 'assets/css/pometum-v6-ui.css'
+      - 'assets/js/pometum-language-overlay.js'
+      - '.github/workflows/ui-polish-audit.yml'
+  workflow_dispatch:
+
+jobs:
+  audit-ui-polish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate PHP
+        run: |
+          set -euo pipefail
+          php -l header.php
+          php -l footer.php
+          php -l functions.php
+          php -l inc/editorial-pages.php
+          php -l page-editorial.php
+
+      - name: Configure SSH
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_audit_key
+          chmod 600 ~/.ssh/food_audit_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Discover live URL
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          SITE_URL="$(ssh -i ~/.ssh/food_audit_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+          for CID in $(docker ps -q); do
+            ROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then echo "$p"; exit 0; fi
+              done
+            ' 2>/dev/null || true)"
+            if [ -n "$ROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              docker exec "$CID" php -r "require '$ROOT/wp-load.php'; echo home_url('/');"
+              exit 0
+            fi
+          done
+          exit 1
+          REMOTE
+          )"
+          test -n "$SITE_URL"
+          echo "::add-mask::$SITE_URL"
+          echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
+
+      - name: Wait for deployed UI
+        run: |
+          set -euo pipefail
+          for i in $(seq 1 30); do
+            if curl -fsSL "$SITE_URL/en/about/" | grep -q 'A practical way to understand food' && curl -fsSL "$SITE_URL/" | grep -q 'search-overlay'; then
+              exit 0
+            fi
+            sleep 3
+          done
+          echo 'Latest UI did not reach production in time'
+          exit 1
+
+      - name: Verify editorial routes
+        run: |
+          set -euo pipefail
+          for path in sobre-pometum metodologia contacto privacidad en/about en/methodology en/contact en/privacy; do
+            code=$(curl -LsS -o /tmp/page.html -w '%{http_code}' "$SITE_URL/$path/")
+            test "$code" = "200" || { echo "$path returned $code"; exit 1; }
+            grep -qi 'Pometum' /tmp/page.html
+          done
+
+      - name: Install browser dependency
+        run: |
+          set -euo pipefail
+          npm init -y >/dev/null 2>&1
+          npm install --no-save playwright-core@latest >/dev/null 2>&1
+          CHROME_BIN="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          test -n "$CHROME_BIN"
+          echo "CHROME_BIN=$CHROME_BIN" >> "$GITHUB_ENV"
+
+      - name: Audit topic banner overlays and footer
+        run: |
+          set -euo pipefail
+          mkdir -p ui-polish-audit
+          cat > ui-polish-audit.mjs <<'NODE'
+          import { chromium } from 'playwright-core';
+          import fs from 'node:fs';
+
+          const base = process.env.SITE_URL.replace(/\/$/, '');
+          const browser = await chromium.launch({ executablePath: process.env.CHROME_BIN, headless: true, args: ['--no-sandbox'] });
+          const report = {};
+
+          async function open(path, width, height) {
+            const context = await browser.newContext({ viewport: { width, height } });
+            const page = await context.newPage();
+            const response = await page.goto(base + path, { waitUntil: 'domcontentloaded', timeout: 60000 });
+            await page.waitForTimeout(900);
+            if (!response || response.status() !== 200) throw new Error(`${path} returned ${response?.status()}`);
+            return { context, page };
+          }
+
+          for (const item of [
+            {name:'topic-desktop', path:'/en/topics/nutrition-composition/', width:1440, height:1000},
+            {name:'topic-mobile', path:'/en/topics/nutrition-composition/', width:390, height:844}
+          ]) {
+            const {context, page} = await open(item.path, item.width, item.height);
+            const metrics = await page.evaluate(() => {
+              const header = document.querySelector('.archive-header');
+              const copy = document.querySelector('.archive-header-copy');
+              const hr = header?.getBoundingClientRect();
+              const cr = copy?.getBoundingClientRect();
+              return {
+                viewport: innerWidth,
+                scrollWidth: document.documentElement.scrollWidth,
+                headerLeft: hr ? Math.round(hr.left) : null,
+                headerRight: hr ? Math.round(innerWidth - hr.right) : null,
+                copyInset: hr && cr ? Math.round(cr.left - hr.left) : null
+              };
+            });
+            if (metrics.scrollWidth > metrics.viewport + 1) throw new Error(`${item.name}: overflow`);
+            if (metrics.copyInset === null || metrics.copyInset < 17) throw new Error(`${item.name}: archive copy is still glued to banner edge (${metrics.copyInset})`);
+            await page.screenshot({ path: `ui-polish-audit/${item.name}.png`, fullPage: true });
+            report[item.name] = metrics;
+            await context.close();
+          }
+
+          {
+            const {context, page} = await open('/', 1440, 1000);
+            const footerMetrics = await page.evaluate(() => {
+              const latest = document.querySelector('.latest-guides-v5');
+              const footer = document.querySelector('.site-footer');
+              const lr = latest?.getBoundingClientRect();
+              const fr = footer?.getBoundingClientRect();
+              return {
+                gap: lr && fr ? Math.round(fr.top - lr.bottom) : null,
+                footerLinks: [...document.querySelectorAll('.footer-links-v5 a')].map(a => a.textContent.trim())
+              };
+            });
+            if (footerMetrics.gap === null || Math.abs(footerMetrics.gap) > 2) throw new Error(`Home/footer gap is ${footerMetrics.gap}px`);
+            if (footerMetrics.footerLinks.length !== 4) throw new Error(`Expected 4 footer links, got ${footerMetrics.footerLinks.length}`);
+
+            await page.click('.language-toggle');
+            await page.waitForTimeout(150);
+            const language = await page.evaluate(() => ({
+              open: document.querySelector('.language-overlay')?.classList.contains('is-open'),
+              names: [...document.querySelectorAll('.language-option-name')].map(el => el.textContent.trim()),
+              statuses: document.querySelectorAll('.language-option-status').length
+            }));
+            if (!language.open || language.names.join('|') !== 'Español|English' || language.statuses !== 0) throw new Error(`Language overlay mismatch: ${JSON.stringify(language)}`);
+            await page.keyboard.press('Escape');
+
+            await page.click('.search-toggle');
+            await page.waitForTimeout(150);
+            const searchOpen = await page.evaluate(() => document.querySelector('.search-overlay')?.classList.contains('is-open'));
+            if (!searchOpen) throw new Error('Search overlay did not open');
+            await page.fill('#overlay-food-search', 'pollo');
+            await page.screenshot({ path: 'ui-polish-audit/search-desktop.png', fullPage: true });
+            await Promise.all([
+              page.waitForNavigation({ waitUntil: 'domcontentloaded', timeout: 60000 }),
+              page.click('.search-overlay-form button[type="submit"]')
+            ]);
+            const current = new URL(page.url());
+            if (current.searchParams.get('s') !== 'pollo') throw new Error(`Search did not submit expected query: ${page.url()}`);
+            await context.close();
+            report.home = { ...footerMetrics, language, searchQuery: current.searchParams.get('s') };
+          }
+
+          {
+            const {context, page} = await open('/en/about/', 390, 844);
+            const title = await page.locator('h1').first().textContent();
+            if (title.trim() !== 'About') throw new Error(`English About title mismatch: ${title}`);
+            await page.screenshot({ path: 'ui-polish-audit/about-mobile.png', fullPage: true });
+            await context.close();
+          }
+
+          fs.writeFileSync('ui-polish-audit/report.json', JSON.stringify(report, null, 2));
+          await browser.close();
+          NODE
+          node ui-polish-audit.mjs
+          cat ui-polish-audit/report.json
+
+      - name: Upload UI polish audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: pometum-ui-polish-audit
+          path: ui-polish-audit
+          retention-days: 7
