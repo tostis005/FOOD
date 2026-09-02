@@ -47,7 +47,7 @@ $topic_descriptions_en = array(
 		<div class="hero-main hero-main-v5">
 			<span class="hero-kicker"><?php echo esc_html( $english ? 'Food culture' : 'Cultura alimentaria' ); ?></span>
 			<h1><?php echo esc_html( $english ? 'There is always more to know about food.' : 'Siempre hay algo más que saber sobre los alimentos.' ); ?></h1>
-			<p><?php echo esc_html( $english ? 'Quinnoa is a place to explore ingredients, products, nutrition, quality, food safety, storage and cooking.' : 'Quinnoa es un espacio para conocer mejor ingredientes y productos, su nutrición, calidad, seguridad, conservación y cocina.' ); ?></p>
+			<p><?php echo esc_html( $english ? 'Quinnoa is a place to discover everyday foods and understand more about what lies behind them.' : 'Quinnoa es un lugar para descubrir los alimentos de cada día y entender mejor todo lo que hay detrás de ellos.' ); ?></p>
 			<form class="hero-search hero-search-v5" role="search" method="get" action="<?php echo esc_url( $language_url ); ?>">
 				<label class="screen-reader-text" for="food-search"><?php echo esc_html( $english ? 'Search' : 'Buscar' ); ?></label>
 				<input id="food-search" type="search" name="s" placeholder="<?php echo esc_attr( $english ? 'Search a food, question or technique…' : 'Busca un alimento, una duda o una técnica…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>">
@@ -84,7 +84,7 @@ $topic_descriptions_en = array(
 		<?php else : ?>
 			<div class="home-feature-card home-feature-empty">
 				<div class="home-feature-media has-illustration"><div class="home-feature-illustration family-alimentacion-general"><?php echo food_category_icon_svg( 'alimentacion-general' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div></div>
-				<div class="home-feature-body"><div class="content-dimensions"><span><?php echo esc_html( $english ? 'Food' : 'Alimentos' ); ?></span></div><strong><?php echo esc_html( $english ? 'A closer look at what we eat.' : 'Una mirada más cercana a lo que comemos.' ); ?></strong><p><?php echo esc_html( $english ? 'Articles on nutrition, quality, safety, storage and cooking.' : 'Artículos sobre nutrición, calidad, seguridad, conservación y cocina.' ); ?></p></div>
+				<div class="home-feature-body"><div class="content-dimensions"><span><?php echo esc_html( $english ? 'Food' : 'Alimentos' ); ?></span></div><strong><?php echo esc_html( $english ? 'A closer look at what we eat.' : 'Una mirada más cercana a lo que comemos.' ); ?></strong><p><?php echo esc_html( $english ? 'Articles for anyone who wants to know a little more about everyday food.' : 'Artículos para quienes quieren saber un poco más sobre los alimentos de cada día.' ); ?></p></div>
 			</div>
 		<?php endif; ?>
 	</div>
@@ -112,8 +112,8 @@ $topic_descriptions_en = array(
 	<div class="container topic-directory-layout">
 		<header class="topic-directory-intro">
 			<span class="section-label"><?php echo esc_html( $english ? 'Articles by topic' : 'Artículos por tema' ); ?></span>
-			<h2><?php echo esc_html( $english ? 'Nutrition, safety, quality and cooking' : 'Nutrición, seguridad, calidad y cocina' ); ?></h2>
-			<p><?php echo esc_html( $english ? 'Browse the collection by subject, from nutrition and food safety to storage, production, buying and cooking.' : 'Recorre los artículos por tema, desde nutrición y seguridad alimentaria hasta conservación, elaboración, compra y cocina.' ); ?></p>
+			<h2><?php echo esc_html( $english ? 'Food from different angles' : 'Los alimentos desde distintos ángulos' ); ?></h2>
+			<p><?php echo esc_html( $english ? 'Explore the articles by topic and follow the perspective that interests you most.' : 'Explora los artículos por tema y profundiza en los aspectos que más te interesen.' ); ?></p>
 		</header>
 		<div class="topic-card-grid">
 			<?php foreach ( food_topic_definitions() as $slug => $topic ) : ?>
@@ -129,7 +129,7 @@ $topic_descriptions_en = array(
 <?php if ( ! empty( $discover_ids ) ) : ?>
 	<section class="section discover-section">
 		<div class="container">
-			<header class="section-intro section-intro-v5"><div><span class="section-label"><?php echo esc_html( $english ? 'Discover' : 'Descubre' ); ?></span><h2><?php echo esc_html( $english ? 'Five articles worth reading' : 'Cinco artículos para seguir leyendo' ); ?></h2></div><p><?php echo esc_html( $english ? 'A selection from the latest Quinnoa articles.' : 'Una selección de los últimos artículos publicados en Quinnoa.' ); ?></p></header>
+			<header class="section-intro section-intro-v5"><div><span class="section-label"><?php echo esc_html( $english ? 'Discover' : 'Descubre' ); ?></span><h2><?php echo esc_html( $english ? 'Five articles worth reading' : 'Cinco artículos para seguir leyendo' ); ?></h2></div></header>
 			<div class="discover-grid">
 				<?php
 				$query = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => count( $discover_ids ), 'post__in' => $discover_ids, 'orderby' => 'post__in', 'ignore_sticky_posts' => true ) );
