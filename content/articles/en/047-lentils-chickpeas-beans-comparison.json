@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-047-lentils-chickpeas-beans-comparison",
+  "article_number": 47,
+  "translation_group": "047-lentils-chickpeas-beans-comparison",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition for cooked legumes",
+  "title": "Lentils vs Chickpeas vs Beans: A Full Nutrition Comparison",
+  "slug": "lentils-chickpeas-beans-comparison",
+  "seo": {
+    "title": "Lentils vs Chickpeas vs Beans: Nutrition Comparison",
+    "meta_description": "Compare protein, fiber, calories and iron in cooked lentils, chickpeas and kidney beans per 100 grams and per real serving.",
+    "search_intent": "Compare common cooked legumes using like-for-like numbers and translate them into realistic servings."
+  },
+  "excerpt": "Cooked lentils, chickpeas and beans are more alike than their reputations suggest: all provide roughly 8–9 grams of protein per 100 grams. Chickpeas are more calorie-dense, lentils tend to edge higher in iron, and bean values vary by type.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["lentils", "chickpeas", "beans"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Lentils, chickpeas and beans are often described as if each has a very different nutritional job. Put them in the same state—cooked and drained—and the gaps become much smaller.</p><p><strong>All three provide roughly 8–9 grams of protein per 100 grams and substantial fiber.</strong> Chickpeas are more calorie-dense, lentils usually carry a little more iron, and beans vary by variety.</p><h2>A like-for-like comparison per 100 grams cooked</h2><table><thead><tr><th>Legume</th><th>Calories</th><th>Protein</th><th>Fiber</th><th>Iron</th></tr></thead><tbody><tr><td>Lentils</td><td>116</td><td>9.0 g</td><td>7.9 g</td><td>3.3 mg</td></tr><tr><td>Chickpeas</td><td>164</td><td>8.9 g</td><td>7.6 g</td><td>2.9 mg</td></tr><tr><td>Kidney beans</td><td>127</td><td>8.7 g</td><td>6.4 g</td><td>2.9 mg</td></tr></tbody></table><p>Protein barely moves: 8.7 to 9.0 grams. Energy differs more. Chickpeas provide about 48 more calories than lentils and 37 more than kidney beans per 100 grams cooked.</p><h2>For protein, they are essentially tied</h2><p>A 7-ounce serving provides about 18 grams of protein from lentils, 17.8 grams from chickpeas and 17.4 grams from kidney beans. Choosing one of these solely for protein would be splitting hairs.</p><p>If a meal needs more protein, increasing the serving or pairing the legume with tofu, tempeh, eggs, fish, meat or a grain is usually more consequential than switching between the three.</p><h2>Chickpeas pack more calories into the same cooked weight</h2><p>Seven ounces of cooked chickpeas provide roughly 328 calories, compared with about 232 for lentils and 254 for kidney beans. That does not make chickpeas worse; it simply means the same cooked weight carries more energy.</p><h2>All three are high-fiber foods</h2><p>In about 7 ounces, lentils provide roughly 15.8 grams of fiber, chickpeas 15.2 grams and kidney beans 12.8 grams. The differences are real, but each is a major fiber contributor.</p><h2>Lentils have a small iron edge, not a landslide</h2><p>Cooked lentils provide about 3.3 mg of iron per 100 grams, compared with roughly 2.9 mg in chickpeas and kidney beans. Across a 7-ounce serving, that is about 6.6 versus 5.8 mg—less than a 1 mg difference.</p><p>This is nonheme iron. Eating the meal with vitamin C from bell pepper, tomato, citrus or kiwi can improve absorption.</p><h2>Bean variety moves the numbers</h2><p>Black, white, pinto and kidney beans are not nutritionally identical. Protein and fiber tend to stay in a similar range, while minerals and carbohydrate can shift. In practice, the difference between bean varieties is usually smaller than the difference between a dry legume and the same food after cooking.</p><h2>Dry and cooked legumes cannot be compared directly</h2><p>Dry legumes can show 20–25 grams of protein per 100 grams. During cooking they absorb a large amount of water, increasing their weight and lowering protein concentration to roughly 8–9 grams per 100 grams cooked. Cooking did not destroy two-thirds of the protein; absorbed water changed the denominator.</p><h2>The useful conclusion</h2><p><strong>There is no universal winner.</strong> For protein and fiber, all three are close; chickpeas are more energy-dense, lentils have a modest iron advantage, and bean varieties add smaller differences. Rotating them gives variety without sacrificing the basic nutritional strengths.</p>",
+  "faq": [
+    {"question": "Which has more protein, lentils or chickpeas?", "answer": "Cooked, they are essentially tied: about 9.0 g/100 g for lentils and 8.9 g/100 g for chickpeas."},
+    {"question": "Which has more fiber?", "answer": "In this comparison, lentils and chickpeas provide about 7.5–8 g/100 g, with kidney beans somewhat lower; bean variety changes the exact value."},
+    {"question": "Why do dry legumes look much higher in protein?", "answer": "They absorb water during cooking. Protein does not disappear; it becomes less concentrated per 100 grams of the cooked food."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of cooked lentils, chickpeas and kidney beans."}
+  ],
+  "image": {
+    "concept": "Three equal bowls of cooked lentils, chickpeas and kidney beans photographed from above, clean editorial style, no text.",
+    "alt": "Lentils, chickpeas and beans compared nutritionally"
+  },
+  "status": "publish"
+}
