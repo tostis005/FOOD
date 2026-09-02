@@ -1,6 +1,6 @@
 /* Final icon refinements for FOOD v6. */
 .family-carnes {
-  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 72'%3E%3Cpath fill='%23d97962' stroke='%2318313b' stroke-width='2.4' d='M13 42c-5-13 6-27 23-30 14-3 27 3 30 14 3 11-6 24-22 30-14 5-26-1-31-14Z'/%3E%3Cpath fill='%23fff6eb' stroke='%2318313b' stroke-width='2.3' d='M57 33c5 1 10 0 13-3l7-6c2-2 6-2 8 1 2 2 1 5-1 7l-7 6c-5 4-11 6-19 5l-5-1 4-9Z'/%3E%3Cpath d='M27 25c7-5 17-5 24-1M24 42c7 5 16 6 24 3' fill='none' stroke='%23fff0e8' stroke-width='3' stroke-linecap='round' opacity='.85'/%3E%3C/svg%3E");
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 72'%3E%3Cpath fill='%23cf6458' stroke='%2321343b' stroke-width='2.6' d='M13 39C10 29 17 19 29 14c9-4 16-1 23-4 10-4 21-1 28 7 8 9 7 22-2 31-10 11-28 16-44 10-11-4-18-10-21-19Z'/%3E%3Cpath d='M23 27c7-6 15-8 24-7M21 45c8 6 18 8 28 7' fill='none' stroke='%23f5a394' stroke-width='3.2' stroke-linecap='round'/%3E%3Cpath fill='%23fff0da' stroke='%2321343b' stroke-width='2.2' d='M61 24c5-2 11 1 12 5 1 5-4 9-10 9-5 0-8-3-7-7 0-3 2-5 5-7Z'/%3E%3Cpath d='M32 32 44 29M34 39l12-3' fill='none' stroke='%237b3029' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E") !important;
 }
 
 /* Article cards without a real featured photo use the same category pictogram
