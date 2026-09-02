@@ -5,18 +5,24 @@
 
 /* Article cards without a real featured photo use the same category pictogram
  * as the food directory, instead of the old abstract placeholder. */
-.card-placeholder-illustrated {
+.card-placeholder.card-placeholder-illustrated {
   display: grid;
   place-items: center;
   background: var(--family-soft, #dcebee) !important;
 }
-.card-placeholder-illustrated > .food-family-svg { display: none; }
-.card-placeholder-illustrated::after {
+.card-placeholder.card-placeholder-illustrated > .food-family-svg { display: none; }
+.card-placeholder.card-placeholder-illustrated::before { display: none; }
+.card-placeholder.card-placeholder-illustrated::after {
   content: "";
+  display: block;
+  position: static;
   width: 56%;
   height: 56%;
   max-width: 160px;
   max-height: 120px;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
   background-image: var(--family-icon);
   background-repeat: no-repeat;
   background-position: center;
