@@ -1,4 +1,4 @@
-name: Audit Pometum header overlays
+name: Audit Quinnoa header overlays
 
 on:
   push:
@@ -75,7 +75,7 @@ jobs:
           const base = process.env.SITE_URL.replace(/\/$/, '');
           const browser = await chromium.launch({ executablePath: process.env.CHROME_BIN, headless: true, args: ['--no-sandbox'] });
 
-          async function waitForCurrentUI(path, expectedTitle, width = 390, height = 844) {
+          async function waitForCurrentUI(path, expectedTitle, expectedTagline, width = 390, height = 844) {
             const context = await browser.newContext({ viewport: { width, height } });
             const page = await context.newPage();
             let ready = false;
@@ -84,7 +84,8 @@ jobs:
               await page.waitForTimeout(500);
               if (response && response.status() === 200) {
                 const title = await page.locator('.search-overlay-title').textContent().catch(() => '');
-                if ((title || '').trim() === expectedTitle) {
+                const tagline = await page.locator('.site-tagline').textContent().catch(() => '');
+                if ((title || '').trim() === expectedTitle && (tagline || '').trim() === expectedTagline) {
                   ready = true;
                   break;
                 }
@@ -95,12 +96,26 @@ jobs:
             return { context, page };
           }
 
-          async function renderedBeforeContent(locator) {
-            return locator.evaluate((el) => getComputedStyle(el, '::before').content || '');
+          async function backgroundImage(locator) {
+            return locator.evaluate((el) => getComputedStyle(el).backgroundImage || '');
+          }
+
+          async function quinoaGrain(locator) {
+            return locator.evaluate((el) => {
+              const style = getComputedStyle(el, '::after');
+              return {
+                content: style.content,
+                backgroundImage: style.backgroundImage,
+                borderRadius: style.borderRadius,
+                top: style.top,
+                width: style.width,
+                height: style.height
+              };
+            });
           }
 
           {
-            const { context, page } = await waitForCurrentUI('/', 'Buscar', 1440, 1000);
+            const { context, page } = await waitForCurrentUI('/', 'Buscar', 'Natural · Nutrición', 1440, 1000);
             const bodyText = await page.locator('body').innerText();
             if (/critical error|error crítico/i.test(bodyText)) throw new Error('Spanish home shows a critical error');
 
@@ -121,44 +136,56 @@ jobs:
             if (home.discoverBorder !== '0px') throw new Error(`Discovery top rule still visible: ${home.discoverBorder}`);
             if (home.footerLinks.join('|') !== 'Acerca de|Contacto|Privacidad') throw new Error(`Unexpected footer links: ${home.footerLinks.join('|')}`);
 
+            const grain = await quinoaGrain(page.locator('.site-header .quinnoa-i').first());
+            if (grain.content === 'none' || grain.backgroundImage === 'none') throw new Error(`Quinoa grain is not rendered: ${JSON.stringify(grain)}`);
+            if (grain.width === grain.height) throw new Error(`Quinoa grain is still perfectly circular: ${JSON.stringify(grain)}`);
+
             await page.click('.search-toggle');
             await page.waitForTimeout(100);
             const search = await page.evaluate(() => ({
               open: document.querySelector('.search-overlay')?.classList.contains('is-open'),
               title: document.querySelector('.search-overlay-title')?.textContent?.trim(),
-              placeholder: document.querySelector('#overlay-food-search')?.getAttribute('placeholder')
+              placeholder: document.querySelector('#overlay-food-search')?.getAttribute('placeholder'),
+              redundantBrand: document.querySelectorAll('.search-overlay-content .search-overlay-eyebrow').length
             }));
             if (!search.open) throw new Error('Spanish search overlay did not open');
             if (search.title !== 'Buscar') throw new Error(`Unexpected Spanish search title: ${search.title}`);
             if (search.placeholder !== 'Escribe tu búsqueda…') throw new Error(`Unexpected Spanish placeholder: ${search.placeholder}`);
+            if (search.redundantBrand !== 0) throw new Error('Redundant Quinnoa eyebrow remains inside search content');
             await page.keyboard.press('Escape');
 
             await page.click('.language-toggle');
             await page.waitForTimeout(100);
-            const usFlag = await renderedBeforeContent(page.locator('.language-option[hreflang="en"] .language-option-flag'));
-            if (!usFlag.includes('🇺🇸')) throw new Error(`Rendered English option flag is ${usFlag}`);
+            const esFlag = await backgroundImage(page.locator('.language-option[hreflang="es"] .language-option-flag'));
+            const usFlag = await backgroundImage(page.locator('.language-option[hreflang="en"] .language-option-flag'));
+            if (!esFlag.includes('linear-gradient')) throw new Error(`Spanish graphical flag missing: ${esFlag}`);
+            if (!usFlag.includes('data:image/svg+xml')) throw new Error(`US graphical flag missing: ${usFlag}`);
+            const flagText = await page.locator('.language-option[hreflang="en"] .language-option-flag').textContent();
+            if ((flagText || '').trim() !== '') throw new Error(`English flag contains fallback text: ${flagText}`);
             await context.close();
           }
 
           {
-            const { context, page } = await waitForCurrentUI('/en/', 'Search');
+            const { context, page } = await waitForCurrentUI('/en/', 'Search', 'Natural · Nutrition');
             const bodyText = await page.locator('body').innerText();
             if (/critical error|error crítico/i.test(bodyText)) throw new Error('English home shows a critical error');
-            const currentFlag = await renderedBeforeContent(page.locator('.language-current-flag'));
-            if (!currentFlag.includes('🇺🇸')) throw new Error(`Rendered current English flag is ${currentFlag}`);
+            const currentFlag = await backgroundImage(page.locator('.language-current-flag'));
+            if (!currentFlag.includes('data:image/svg+xml')) throw new Error(`Current English graphical flag missing: ${currentFlag}`);
 
             await page.click('.search-toggle');
             await page.waitForTimeout(100);
             const search = await page.evaluate(() => ({
               title: document.querySelector('.search-overlay-title')?.textContent?.trim(),
-              placeholder: document.querySelector('#overlay-food-search')?.getAttribute('placeholder')
+              placeholder: document.querySelector('#overlay-food-search')?.getAttribute('placeholder'),
+              redundantBrand: document.querySelectorAll('.search-overlay-content .search-overlay-eyebrow').length
             }));
             if (search.title !== 'Search') throw new Error(`Unexpected English search title: ${search.title}`);
             if (search.placeholder !== 'Type your search…') throw new Error(`Unexpected English placeholder: ${search.placeholder}`);
+            if (search.redundantBrand !== 0) throw new Error('Redundant Quinnoa eyebrow remains inside English search content');
             await context.close();
           }
 
           await browser.close();
-          console.log('Pometum home and overlays verified on live site');
+          console.log('Quinnoa home and overlays verified on live site');
           NODE
           node header-overlay-audit.mjs
