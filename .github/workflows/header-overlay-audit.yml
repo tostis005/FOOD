@@ -6,7 +6,10 @@ on:
     paths:
       - 'assets/js/pometum-language-overlay.js'
       - 'assets/css/pometum-v6-ui.css'
+      - 'assets/css/pometum-v7-polish.css'
       - 'header.php'
+      - 'footer.php'
+      - 'inc/editorial-pages.php'
       - '.github/workflows/header-overlay-audit.yml'
   workflow_dispatch:
 
@@ -63,7 +66,7 @@ jobs:
           test -n "$CHROME_BIN"
           echo "CHROME_BIN=$CHROME_BIN" >> "$GITHUB_ENV"
 
-      - name: Verify live search and language overlays
+      - name: Verify live home and overlays
         run: |
           set -euo pipefail
           cat > header-overlay-audit.mjs <<'NODE'
@@ -72,8 +75,8 @@ jobs:
           const base = process.env.SITE_URL.replace(/\/$/, '');
           const browser = await chromium.launch({ executablePath: process.env.CHROME_BIN, headless: true, args: ['--no-sandbox'] });
 
-          async function waitForCurrentUI(path, expectedTitle) {
-            const context = await browser.newContext({ viewport: { width: 390, height: 844 } });
+          async function waitForCurrentUI(path, expectedTitle, width = 390, height = 844) {
+            const context = await browser.newContext({ viewport: { width, height } });
             const page = await context.newPage();
             let ready = false;
             for (let i = 0; i < 30; i += 1) {
@@ -88,7 +91,7 @@ jobs:
               }
               await page.waitForTimeout(2000);
             }
-            if (!ready) throw new Error(`${path}: latest overlay UI did not reach production`);
+            if (!ready) throw new Error(`${path}: latest UI did not reach production`);
             return { context, page };
           }
 
@@ -97,9 +100,26 @@ jobs:
           }
 
           {
-            const { context, page } = await waitForCurrentUI('/', 'Encuentra la información que necesitas');
+            const { context, page } = await waitForCurrentUI('/', 'Buscar', 1440, 1000);
             const bodyText = await page.locator('body').innerText();
-            if (/critical error|error crítico/i.test(bodyText)) throw new Error('Spanish home still shows a critical error');
+            if (/critical error|error crítico/i.test(bodyText)) throw new Error('Spanish home shows a critical error');
+
+            const home = await page.evaluate(() => {
+              const h1 = document.querySelector('.hero-main-v5 h1');
+              const discover = document.querySelector('.discover-grid');
+              const rect = h1?.getBoundingClientRect();
+              const style = h1 ? getComputedStyle(h1) : null;
+              return {
+                heroFont: style ? parseFloat(style.fontSize) : null,
+                heroHeight: rect ? Math.round(rect.height) : null,
+                discoverBorder: discover ? getComputedStyle(discover).borderTopWidth : null,
+                footerLinks: [...document.querySelectorAll('.footer-links-v5 a')].map(a => a.textContent.trim())
+              };
+            });
+            if (home.heroFont === null || home.heroFont > 67) throw new Error(`Hero font too large: ${home.heroFont}`);
+            if (home.heroHeight === null || home.heroHeight > 230) throw new Error(`Hero headline too tall: ${home.heroHeight}`);
+            if (home.discoverBorder !== '0px') throw new Error(`Discovery top rule still visible: ${home.discoverBorder}`);
+            if (home.footerLinks.join('|') !== 'Acerca de|Contacto|Privacidad') throw new Error(`Unexpected footer links: ${home.footerLinks.join('|')}`);
 
             await page.click('.search-toggle');
             await page.waitForTimeout(100);
@@ -109,8 +129,8 @@ jobs:
               placeholder: document.querySelector('#overlay-food-search')?.getAttribute('placeholder')
             }));
             if (!search.open) throw new Error('Spanish search overlay did not open');
-            if (search.title !== 'Encuentra la información que necesitas') throw new Error(`Unexpected Spanish search title: ${search.title}`);
-            if (search.placeholder !== 'Escribe un alimento o una pregunta…') throw new Error(`Unexpected Spanish placeholder: ${search.placeholder}`);
+            if (search.title !== 'Buscar') throw new Error(`Unexpected Spanish search title: ${search.title}`);
+            if (search.placeholder !== 'Escribe tu búsqueda…') throw new Error(`Unexpected Spanish placeholder: ${search.placeholder}`);
             await page.keyboard.press('Escape');
 
             await page.click('.language-toggle');
@@ -121,9 +141,9 @@ jobs:
           }
 
           {
-            const { context, page } = await waitForCurrentUI('/en/', 'Find the information you need');
+            const { context, page } = await waitForCurrentUI('/en/', 'Search');
             const bodyText = await page.locator('body').innerText();
-            if (/critical error|error crítico/i.test(bodyText)) throw new Error('English home still shows a critical error');
+            if (/critical error|error crítico/i.test(bodyText)) throw new Error('English home shows a critical error');
             const currentFlag = await renderedBeforeContent(page.locator('.language-current-flag'));
             if (!currentFlag.includes('🇺🇸')) throw new Error(`Rendered current English flag is ${currentFlag}`);
 
@@ -133,12 +153,12 @@ jobs:
               title: document.querySelector('.search-overlay-title')?.textContent?.trim(),
               placeholder: document.querySelector('#overlay-food-search')?.getAttribute('placeholder')
             }));
-            if (search.title !== 'Find the information you need') throw new Error(`Unexpected English search title: ${search.title}`);
-            if (search.placeholder !== 'Type a food or question…') throw new Error(`Unexpected English placeholder: ${search.placeholder}`);
+            if (search.title !== 'Search') throw new Error(`Unexpected English search title: ${search.title}`);
+            if (search.placeholder !== 'Type your search…') throw new Error(`Unexpected English placeholder: ${search.placeholder}`);
             await context.close();
           }
 
           await browser.close();
-          console.log('Header overlays verified on live site');
+          console.log('Pometum home and overlays verified on live site');
           NODE
           node header-overlay-audit.mjs
