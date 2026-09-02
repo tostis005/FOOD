@@ -1,0 +1,294 @@
+/*
+ * Pommelo v1 — final brand pass.
+ * Warm pomelo-led palette, more legible display typography and clearer food pictograms.
+ */
+
+:root {
+  --pommelo: #ef7865;
+  --pommelo-deep: #c95649;
+  --pommelo-soft: #f9ddd6;
+  --pommelo-pale: #fff0ea;
+  --pommelo-peel: #f3d98d;
+  --pommelo-leaf: #64805f;
+  --pommelo-ink: #21343b;
+  --pommelo-muted: #65757a;
+  --pommelo-cream: #fffaf3;
+  --pommelo-line: #ddd8cf;
+  --pommelo-display: "Trebuchet MS", "Segoe UI", Arial, sans-serif;
+  --pommelo-text: "Segoe UI", Inter, system-ui, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+
+  /* Keep older layers in sync with the new brand. */
+  --v6-coral: var(--pommelo);
+  --v6-coral-soft: var(--pommelo-soft);
+  --v6-blue-deep: var(--pommelo-ink);
+  --food-tomato: var(--pommelo);
+  --food-brand-deep: var(--pommelo-ink);
+}
+
+html,
+body {
+  background: #fcfaf6;
+  color: var(--pommelo-ink);
+}
+
+body {
+  font-family: var(--pommelo-text);
+  letter-spacing: 0;
+  background:
+    radial-gradient(circle at 5% 4%, rgba(239, 120, 101, .08), transparent 27rem),
+    radial-gradient(circle at 96% 18%, rgba(243, 217, 141, .10), transparent 25rem),
+    #fcfaf6;
+}
+
+::selection {
+  background: #f8c8be;
+  color: #392723;
+}
+
+/* ---------- Brand / logo ---------- */
+.site-header {
+  background: rgba(255, 250, 243, .96);
+  border-bottom-color: rgba(33, 52, 59, .11);
+}
+
+.site-branding a,
+.mobile-brand,
+.pommelo-footer-brand {
+  text-decoration: none;
+}
+
+.pommelo-logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  color: var(--pommelo-ink);
+  white-space: nowrap;
+}
+
+.pommelo-logo-mark {
+  width: 34px;
+  height: 34px;
+  flex: 0 0 auto;
+  overflow: visible;
+}
+
+.pommelo-wordmark {
+  font-family: var(--pommelo-display);
+  font-size: 30px;
+  font-weight: 800;
+  line-height: .95;
+  letter-spacing: -.045em;
+  font-feature-settings: "liga" 0, "clig" 0;
+}
+
+.pommelo-double {
+  color: var(--pommelo);
+  letter-spacing: -.035em;
+}
+
+.site-tagline {
+  margin-top: 4px;
+  color: #788387;
+  font-family: var(--pommelo-text);
+  font-size: 8px;
+  font-weight: 750;
+  letter-spacing: .14em;
+}
+
+.mobile-brand .pommelo-logo-mark { width: 30px; height: 30px; }
+.mobile-brand .pommelo-wordmark { font-size: 27px; }
+.mobile-brand > span:last-child { margin-top: 4px; }
+
+.pommelo-footer-brand .pommelo-logo { gap: 12px; color: #fff9f3; }
+.pommelo-footer-brand .pommelo-logo-mark { width: 45px; height: 45px; }
+.pommelo-footer-brand .pommelo-wordmark { font-size: 42px; color: #fff9f3; }
+.pommelo-footer-brand .pommelo-double { color: #ff9986; }
+
+.primary-nav a:hover,
+.header-search:hover,
+.menu-toggle:hover {
+  color: var(--pommelo-deep);
+  border-color: var(--pommelo);
+}
+
+/* ---------- Typography: keep r + n unmistakable ---------- */
+.hero-main-v5 h1,
+.section-intro-v5 h2,
+.section-head-v5 h2,
+.topic-directory-intro h2,
+.archive-header h1,
+.article-header h1,
+.home-feature-body > strong,
+.discover-card-body > strong,
+.card-title,
+.food-family-content strong,
+.quick-link strong {
+  font-family: var(--pommelo-display);
+  font-feature-settings: "liga" 0, "clig" 0;
+  font-variant-ligatures: none;
+}
+
+.hero-main-v5 h1 {
+  color: var(--pommelo-ink);
+  letter-spacing: -.035em;
+}
+
+.archive-header h1,
+.article-header h1 {
+  color: var(--pommelo-ink);
+  font-weight: 750;
+  letter-spacing: -.018em;
+  word-spacing: .02em;
+}
+
+.section-intro-v5 h2,
+.section-head-v5 h2,
+.topic-directory-intro h2 {
+  letter-spacing: -.025em;
+}
+
+.card-title,
+.food-family-content strong,
+.discover-card-body > strong,
+.home-feature-body > strong {
+  letter-spacing: -.015em;
+}
+
+/* ---------- Pomelo-led palette ---------- */
+.home-hero-v5 {
+  background:
+    radial-gradient(circle at 89% 8%, rgba(239, 120, 101, .23), transparent 24rem),
+    radial-gradient(circle at 9% 98%, rgba(243, 217, 141, .24), transparent 26rem),
+    linear-gradient(112deg, #fff0e9 0%, #fffaf2 57%, #f5f4e8 100%);
+  border-bottom-color: rgba(239, 120, 101, .12);
+}
+
+.home-hero-v5::before {
+  background: rgba(239, 120, 101, .16);
+}
+
+.hero-kicker,
+.section-label,
+.eyebrow,
+.mobile-menu-eyebrow,
+.mobile-menu-explore-title,
+.card-kicker {
+  color: var(--pommelo-deep);
+}
+
+.hero-search-v5 {
+  border-color: rgba(201, 86, 73, .34);
+  box-shadow: 0 12px 32px rgba(128, 72, 61, .07);
+}
+
+.hero-search-v5 button,
+.search-panel button,
+.mobile-menu-search button {
+  background: var(--pommelo);
+  color: white;
+}
+
+.hero-search-v5 button:hover,
+.search-panel button:hover,
+.mobile-menu-search button:hover {
+  background: var(--pommelo-deep);
+}
+
+.hero-topic-links a,
+.feature-read,
+.discover-card-arrow,
+.food-family-arrow,
+.section-link {
+  color: var(--pommelo-deep);
+}
+
+.food-families-section {
+  background: linear-gradient(180deg, #fffdf9 0%, #fff8f3 100%);
+}
+
+.topic-directory-section {
+  background: #26383e;
+}
+
+.topic-directory-intro .section-label,
+.topic-directory-number,
+.topic-directory-arrow {
+  color: #ff9d8d;
+}
+
+.topic-directory-row:hover strong {
+  color: #ffd2c8;
+}
+
+.discover-section {
+  background: #f2eee7;
+}
+
+.site-footer {
+  background: #26383e;
+}
+
+/* ---------- Clearer pictograms ---------- */
+.family-carnes {
+  --family-soft: #f3d8d1;
+  --family-card: #f9ebe6;
+  --family-accent: #a94e45;
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 72'%3E%3Cpath fill='%23cf6458' stroke='%2321343b' stroke-width='2.6' d='M13 40C9 26 20 14 36 10c17-4 34 2 43 15 9 14 0 30-18 37-19 7-41 1-47-13-1-3-2-6-1-9Z'/%3E%3Cpath fill='%23fff0da' stroke='%2321343b' stroke-width='2.3' stroke-linejoin='round' d='M46 18h9v14h14v8H55v17h-9V40H33v-8h13V18Z'/%3E%3Cpath d='M22 28c5-7 12-11 20-12M20 48c9 7 21 9 32 6' fill='none' stroke='%23ef9a8b' stroke-width='3' stroke-linecap='round' opacity='.75'/%3E%3C/svg%3E");
+}
+
+.family-jamon-embutidos {
+  --family-soft: #f4ddd3;
+  --family-card: #faeee8;
+  --family-accent: #a95043;
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 72'%3E%3Cpath fill='%23d16a57' stroke='%2321343b' stroke-width='2.5' d='M25 24c9-9 26-13 41-8 12 4 19 13 16 22-3 10-15 17-29 18-15 2-30-4-35-13-3-6 0-13 7-19Z'/%3E%3Cpath fill='%23e8b49d' stroke='%2321343b' stroke-width='2.4' d='M25 24 14 18 8 22l11 12c1-4 3-7 6-10Z'/%3E%3Cpath fill='%23443a36' stroke='%2321343b' stroke-width='2.2' d='m8 22-4 2 8 9 7 1-11-12Z'/%3E%3Cpath d='M25 58h45M38 55v9M64 54v10' fill='none' stroke='%2321343b' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M31 31c9-6 22-8 34-4' fill='none' stroke='%23f6b1a2' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+.family-aceites {
+  --family-soft: #e7e7c8;
+  --family-card: #f2f2df;
+  --family-accent: #707a39;
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 72'%3E%3Cpath fill='%23f0cf58' stroke='%2321343b' stroke-width='2.5' d='M34 17h25l6 12v34H28V29l6-12Z'/%3E%3Cpath fill='%23f8e7a3' stroke='%2321343b' stroke-width='2.3' d='M39 6h15v11H39z'/%3E%3Cpath fill='%23fff8df' stroke='%2321343b' stroke-width='2' d='M34 36h25v17H34z'/%3E%3Cpath fill='%23e9b936' stroke='%2321343b' stroke-width='2.1' d='M47 40c5 6 7 9 7 12 0 4-3 7-7 7s-7-3-7-7c0-3 2-6 7-12Z'/%3E%3Cpath fill='%23e9b936' stroke='%2321343b' stroke-width='2.1' d='M76 25c5 7 8 11 8 15 0 5-4 9-8 9s-8-4-8-9c0-4 3-8 8-15Z'/%3E%3C/svg%3E");
+}
+
+.family-carnes .food-family-art::after,
+.family-jamon-embutidos .food-family-art::after,
+.family-aceites .food-family-art::after {
+  width: 80%;
+  height: 80%;
+  max-width: 168px;
+  max-height: 124px;
+}
+
+.family-carnes.card-placeholder-illustrated::after,
+.family-jamon-embutidos.card-placeholder-illustrated::after,
+.family-aceites.card-placeholder-illustrated::after {
+  width: 62%;
+  height: 62%;
+}
+
+/* Make cards read as a family first, not as a decorative illustration. */
+.food-family-content strong {
+  color: var(--pommelo-ink);
+  font-size: 16px;
+  font-weight: 750;
+}
+
+.food-family-content small {
+  color: #66757a;
+}
+
+/* ---------- Mobile ---------- */
+@media (max-width: 760px) {
+  .pommelo-logo-mark { width: 30px; height: 30px; }
+  .pommelo-wordmark { font-size: 27px; }
+  .site-tagline { font-size: 7px; letter-spacing: .12em; }
+  .archive-header h1,
+  .article-header h1 { letter-spacing: -.012em; }
+}
+
+@media (max-width: 430px) {
+  .pommelo-logo { gap: 7px; }
+  .pommelo-logo-mark { width: 28px; height: 28px; }
+  .pommelo-wordmark { font-size: 25px; }
+  .site-tagline { display: none; }
+}
