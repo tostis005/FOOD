@@ -27,7 +27,7 @@ function food_localize_english_document_title( $parts ) {
 
 	if ( function_exists( 'food_is_english_home_request' ) && food_is_english_home_request() ) {
 		$parts['title']   = 'Quinnoa';
-		$parts['tagline'] = 'Food, quality, nutrition and cooking guides';
+		$parts['tagline'] = 'Food, nutrition, quality, safety, storage and cooking';
 		return $parts;
 	}
 
