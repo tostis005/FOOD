@@ -10,8 +10,8 @@ if ( ! function_exists( 'food_quinnoa_public_brand_filter' ) ) {
 if ( 'Quinnoa' !== get_option( 'blogname' ) ) {
 	update_option( 'blogname', 'Quinnoa' );
 }
-if ( 'Guías sobre alimentos, calidad, nutrición y cocina' !== get_option( 'blogdescription' ) ) {
-	update_option( 'blogdescription', 'Guías sobre alimentos, calidad, nutrición y cocina' );
+if ( 'Artículos sobre alimentos, calidad, nutrición y cocina' !== get_option( 'blogdescription' ) ) {
+	update_option( 'blogdescription', 'Artículos sobre alimentos, calidad, nutrición y cocina' );
 }
 
 if ( ! function_exists( 'food_pometum_logo' ) ) {
@@ -159,7 +159,7 @@ if ( file_exists( $food_language_seo ) ) {
 				<input id="mobile-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'Search Quinnoa…' : 'Busca en Quinnoa…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>">
 				<button type="submit"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></button>
 			</form>
-			<p class="mobile-menu-note"><?php echo esc_html( $food_english ? 'Clear guides on food, quality, nutrition, safety, storage and cooking.' : 'Guías claras sobre alimentos, calidad, nutrición, seguridad, conservación y cocina.' ); ?></p>
+			<p class="mobile-menu-note"><?php echo esc_html( $food_english ? 'Clear articles on food, quality, nutrition, safety, storage and cooking.' : 'Artículos claros sobre alimentos, calidad, nutrición, seguridad, conservación y cocina.' ); ?></p>
 		</div>
 	</div>
 </div>
