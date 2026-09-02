@@ -1,0 +1,26 @@
+{
+  "$schema":"https://json-schema.org/draft/2020-12/schema",
+  "$id":"https://food.local/schemas/article-v1.json",
+  "title":"FOOD Article",
+  "type":"object",
+  "required":["schema_version","id","article_number","translation_group","language","locale","market_context","title","slug","seo","excerpt","taxonomy","content_html","faq","sources","image","status"],
+  "properties":{
+    "schema_version":{"const":1},
+    "id":{"type":"string"},
+    "article_number":{"type":"integer","minimum":1},
+    "translation_group":{"type":"string"},
+    "language":{"enum":["es","en"]},
+    "locale":{"type":"string"},
+    "market_context":{"type":"string"},
+    "title":{"type":"string"},
+    "slug":{"type":"string"},
+    "seo":{"type":"object","required":["title","meta_description","search_intent"],"properties":{"title":{"type":"string"},"meta_description":{"type":"string"},"search_intent":{"type":"string"}}},
+    "excerpt":{"type":"string"},
+    "taxonomy":{"type":"object","required":["food_family","article_types","primary_article_type"],"properties":{"food_family":{"type":"string"},"food_subcategories":{"type":"array","items":{"type":"string"}},"article_types":{"type":"array","items":{"type":"string"}},"primary_article_type":{"type":"string"}}},
+    "content_html":{"type":"string"},
+    "faq":{"type":"array","items":{"type":"object","required":["question","answer"],"properties":{"question":{"type":"string"},"answer":{"type":"string"}}}},
+    "sources":{"type":"array","items":{"type":"object","required":["name","url"],"properties":{"name":{"type":"string"},"url":{"type":"string"},"note":{"type":"string"}}}},
+    "image":{"type":"object","required":["concept","alt"],"properties":{"concept":{"type":"string"},"alt":{"type":"string"}}},
+    "status":{"enum":["draft","review","publish"]}
+  }
+}

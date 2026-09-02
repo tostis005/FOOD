@@ -1,0 +1,233 @@
+name: Import FOOD JSON articles
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/articles/**'
+      - 'content/tools/import-articles.php'
+      - '.github/workflows/import-articles.yml'
+  workflow_dispatch:
+    inputs:
+      language:
+        description: 'Language to import'
+        required: true
+        type: choice
+        options:
+          - es
+          - en
+          - all
+        default: es
+      from:
+        description: 'First article number'
+        required: true
+        default: '1'
+      to:
+        description: 'Last article number'
+        required: true
+        default: '999999'
+      status:
+        description: 'WordPress status override'
+        required: true
+        type: choice
+        options:
+          - publish
+          - draft
+          - json
+        default: publish
+
+concurrency:
+  group: food-json-article-import
+  cancel-in-progress: false
+
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    env:
+      IMPORT_LANGUAGE: ${{ inputs.language || 'es' }}
+      IMPORT_FROM: ${{ inputs.from || '1' }}
+      IMPORT_TO: ${{ inputs.to || '999999' }}
+      IMPORT_STATUS: ${{ inputs.status || 'publish' }}
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Validate importer syntax
+        run: php -l content/tools/import-articles.php
+
+      - name: Validate article JSON files
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          required = {
+              'schema_version', 'id', 'article_number', 'translation_group',
+              'language', 'title', 'slug', 'seo', 'excerpt', 'taxonomy',
+              'content_html', 'faq', 'sources', 'image', 'status'
+          }
+          count = 0
+          for path in sorted(Path('content/articles').glob('*/*.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              missing = required - data.keys()
+              if missing:
+                  raise SystemExit(f'{path}: missing {sorted(missing)}')
+              count += 1
+          if not count:
+              raise SystemExit('No article JSON files found')
+          print(f'Validated {count} article JSON files')
+          PY
+
+      - name: Package importer and articles
+        run: |
+          set -euo pipefail
+          tar -czf /tmp/food-articles.tgz content/articles
+          cp content/tools/import-articles.php /tmp/food-import-articles.php
+
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_import_key
+          chmod 600 ~/.ssh/food_import_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Detect WordPress installation
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+
+          WP_CONFIGS="$(
+            ssh -i ~/.ssh/food_import_key "$VPS_USER@$VPS_HOST" '
+              for base in /var/www /home /srv/www /usr/share/nginx/html; do
+                if [ -d "$base" ]; then
+                  find "$base" -maxdepth 7 -type f -name wp-config.php 2>/dev/null
+                fi
+              done
+            ' | sort -u
+          )"
+
+          COUNT="$(printf '%s\n' "$WP_CONFIGS" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [ -z "$WP_CONFIGS" ] || [ "$COUNT" -ne 1 ]; then
+            echo "ERROR: No se ha podido identificar una única instalación de WordPress."
+            printf '%s\n' "$WP_CONFIGS"
+            exit 1
+          fi
+
+          WP_ROOT="${WP_CONFIGS%/wp-config.php}"
+          echo "WP_ROOT=$WP_ROOT" >> "$GITHUB_ENV"
+          echo "WordPress detectado en $WP_ROOT"
+
+      - name: Copy import package to VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          scp -i ~/.ssh/food_import_key \
+            /tmp/food-articles.tgz \
+            /tmp/food-import-articles.php \
+            "$VPS_USER@$VPS_HOST:/tmp/"
+
+      - name: Import articles into WordPress
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/food_import_key "$VPS_USER@$VPS_HOST" \
+            "WP_ROOT='$WP_ROOT' IMPORT_LANGUAGE='$IMPORT_LANGUAGE' IMPORT_FROM='$IMPORT_FROM' IMPORT_TO='$IMPORT_TO' IMPORT_STATUS='$IMPORT_STATUS' bash -s" <<'REMOTE'
+          set -euo pipefail
+
+          rm -rf /tmp/food-article-import
+          mkdir -p /tmp/food-article-import
+          tar -xzf /tmp/food-articles.tgz -C /tmp/food-article-import
+          ARTICLES_ROOT=/tmp/food-article-import/content/articles
+
+          run_import() {
+            php /tmp/food-import-articles.php \
+              "$1" "$2" \
+              "--language=$IMPORT_LANGUAGE" \
+              "--from=$IMPORT_FROM" \
+              "--to=$IMPORT_TO" \
+              "--status=$IMPORT_STATUS"
+          }
+
+          if command -v php >/dev/null 2>&1; then
+            run_import "$WP_ROOT" "$ARTICLES_ROOT"
+            exit 0
+          fi
+
+          if ! command -v docker >/dev/null 2>&1; then
+            echo "ERROR: No hay PHP en el host y tampoco está disponible Docker."
+            exit 1
+          fi
+
+          if ! docker ps >/dev/null 2>&1; then
+            echo "ERROR: Docker existe, pero VPS_USER no puede consultar los contenedores."
+            exit 1
+          fi
+
+          CANDIDATES=""
+          while read -r CID; do
+            [ -z "$CID" ] && continue
+            CROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then
+                  echo "$p"
+                  exit 0
+                fi
+              done
+              FOUND="$(find /var/www /app -maxdepth 5 -type f -name wp-load.php 2>/dev/null | head -n 1)"
+              [ -n "$FOUND" ] && dirname "$FOUND"
+            ' 2>/dev/null || true)"
+
+            if [ -n "$CROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              CANDIDATES="${CANDIDATES}${CID}|${CROOT}\n"
+            fi
+          done < <(docker ps -q)
+
+          CANDIDATE_COUNT="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [ "$CANDIDATE_COUNT" -ne 1 ]; then
+            echo "ERROR: Se esperaba 1 contenedor WordPress con PHP y se han encontrado $CANDIDATE_COUNT."
+            printf '%b' "$CANDIDATES"
+            exit 1
+          fi
+
+          CANDIDATE="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | head -n 1)"
+          CONTAINER_ID="${CANDIDATE%%|*}"
+          CONTAINER_WP_ROOT="${CANDIDATE#*|}"
+
+          docker cp /tmp/food-articles.tgz "$CONTAINER_ID:/tmp/food-articles.tgz"
+          docker cp /tmp/food-import-articles.php "$CONTAINER_ID:/tmp/food-import-articles.php"
+          docker exec "$CONTAINER_ID" sh -lc 'rm -rf /tmp/food-article-import && mkdir -p /tmp/food-article-import && tar -xzf /tmp/food-articles.tgz -C /tmp/food-article-import'
+          docker exec \
+            -e IMPORT_LANGUAGE="$IMPORT_LANGUAGE" \
+            -e IMPORT_FROM="$IMPORT_FROM" \
+            -e IMPORT_TO="$IMPORT_TO" \
+            -e IMPORT_STATUS="$IMPORT_STATUS" \
+            "$CONTAINER_ID" \
+            php /tmp/food-import-articles.php \
+              "$CONTAINER_WP_ROOT" /tmp/food-article-import/content/articles \
+              "--language=$IMPORT_LANGUAGE" \
+              "--from=$IMPORT_FROM" \
+              "--to=$IMPORT_TO" \
+              "--status=$IMPORT_STATUS"
+          REMOTE
+
+      - name: Cleanup temporary files
+        if: always()
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          ssh -i ~/.ssh/food_import_key "$VPS_USER@$VPS_HOST" \
+            "rm -rf /tmp/food-article-import /tmp/food-articles.tgz /tmp/food-import-articles.php" || true
