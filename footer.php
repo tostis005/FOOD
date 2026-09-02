@@ -3,7 +3,7 @@
 <footer class="site-footer">
 	<div class="container footer-main footer-main-v5">
 		<div>
-			<div class="footer-brand pommelo-footer-brand"><?php if ( function_exists( 'food_pommelo_logo' ) ) { food_pommelo_logo( 'is-footer' ); } else { echo esc_html( get_bloginfo( 'name' ) ?: 'Pommelo' ); } ?></div>
+			<div class="pommelo-footer-brand"><?php if ( function_exists( 'food_pommelo_logo' ) ) { food_pommelo_logo( 'is-footer' ); } else { echo esc_html( get_bloginfo( 'name' ) ?: 'Pommelo' ); } ?></div>
 			<p class="footer-copy">Información práctica para entender mejor los alimentos: qué son, cómo elegirlos, conservarlos, cocinarlos y cuándo conviene tener precaución.</p>
 		</div>
 		<nav aria-label="Enlaces del pie">
