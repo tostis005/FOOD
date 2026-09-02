@@ -95,7 +95,7 @@ if ( $page && 'methodology' === $key ) {
 }
 
 if ( $page && 'contact' === $key ) {
-	$page['intro']    = '';
+	$page['intro']    = 'en' === $language ? 'You can contact us using the form below.' : 'Puedes ponerte en contacto con nosotros a través del siguiente formulario.';
 	$page['sections'] = array();
 }
 
