@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-061-tofu-vs-chicken",
+  "article_number": 61,
+  "translation_group": "061-tofu-vs-chicken",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition for firm tofu and cooked chicken breast",
+  "title": "Tofu vs Chicken: A Nutrition Comparison",
+  "slug": "tofu-vs-chicken",
+  "seo": {
+    "title": "Tofu vs Chicken: Protein, Calories, Fat and Nutrients",
+    "meta_description": "Chicken breast has much more protein per 100 g; tofu adds fiber, unsaturated fat and can provide substantial calcium depending on the coagulant.",
+    "search_intent": "Compare firm tofu and chicken breast using realistic amounts and explain why they are not nutritionally identical substitutes."
+  },
+  "excerpt": "Cooked chicken breast is much more protein-dense, at about 31 grams per 100 grams versus roughly 15–18 grams in firm tofu. Tofu contains more fat, some fiber and can be a major calcium source when made with calcium sulfate. Both can anchor a protein-rich meal, but they are not gram-for-gram equivalents.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": ["tofu", "chicken"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Tofu and chicken can occupy the same place in a meal, but nutritionally they are not a one-for-one swap. Chicken breast concentrates far more protein; tofu contributes fiber, plant fat and minerals that depend heavily on how the tofu was made.</p><p><strong>If the goal is maximum protein for relatively few calories, chicken has the advantage. If you want a plant protein that also contributes unsaturated fat and some fiber, tofu does a different job.</strong></p><h2>A per-100-gram comparison</h2><table><thead><tr><th></th><th>Firm tofu</th><th>Cooked chicken breast</th></tr></thead><tbody><tr><td>Calories</td><td>~130–150</td><td>~165</td></tr><tr><td>Protein</td><td>~15–18 g</td><td>~31 g</td></tr><tr><td>Fat</td><td>~8–9 g</td><td>~3.6 g</td></tr><tr><td>Fiber</td><td>~1–2 g</td><td>0 g</td></tr></tbody></table><p>The protein gap is large: chicken can provide almost twice as much at the same weight. The calorie gap is much smaller because tofu contains more fat.</p><h2>A normal serving of either can still provide substantial protein</h2><p>About 5 ounces of firm tofu provide roughly 21–25 grams of protein. Five ounces of chicken breast provide around 44 grams.</p><p>If a plant-based meal is aiming for 30 grams of protein, tofu may need support from edamame, beans, grains, seeds or another source. The same chicken serving already exceeds that target.</p><h2>Tofu fat comes mainly from soybeans</h2><p>Tofu contains more total fat, but much of it is unsaturated. Skinless chicken breast is much leaner.</p><p>This helps explain why tofu and chicken can be relatively close in calories despite a huge difference in protein per 100 grams.</p><h2>Tofu calcium can vary several-fold between products</h2><p>When tofu is set with calcium sulfate, a serving can provide several hundred milligrams of calcium. Tofu made with another coagulant may contain far less.</p><p>The label is therefore the best way to judge calcium; it is not a fixed property of every block of tofu.</p><h2>Chicken provides B12 naturally; tofu does not</h2><p>Chicken contributes vitamin B12, niacin, vitamin B6 and selenium. Tofu provides nonheme iron, some magnesium, fiber and soy compounds, but it is not a reliable natural source of B12 unless fortified.</p><h2>Soy protein is high quality</h2><p>The lower amount of protein does not mean tofu has an ‘incomplete’ protein. Soy supplies all nine essential amino acids in favorable proportions and has good digestibility.</p><p>The practical distinction is simply that there are fewer grams of protein in 100 grams of tofu than in 100 grams of chicken breast.</p><h2>Cooking method can overwhelm the base-food comparison</h2><p>Breaded fried tofu can absorb substantial oil; breaded fried chicken can too. The comparison above stops applying when one food is cooked with large amounts of added fat and the other is not.</p><h2>The useful rule</h2><p><strong>Chicken and tofu can both anchor a meal, but they have different profiles.</strong> Chicken is far more protein-dense; tofu combines plant protein with unsaturated fat, some fiber and, depending on the product, substantial calcium. Choose based on the whole diet rather than expecting exact gram-for-gram equivalence.</p>",
+  "faq": [
+    {"question": "Which has more protein, tofu or chicken?", "answer": "Cooked chicken breast has about 31 g/100 g versus roughly 15–18 g/100 g in firm tofu."},
+    {"question": "Is tofu a complete protein?", "answer": "Yes. Soy provides all nine essential amino acids in favorable proportions."},
+    {"question": "Does tofu contain calcium?", "answer": "It can contain a lot when set with calcium sulfate; other tofus contain much less, so check the label."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of firm tofu and chicken breast."},
+    {"name": "FAO — Dietary protein quality evaluation in human nutrition", "url": "https://www.fao.org/4/i3124e/i3124e.pdf", "note": "Protein quality and essential amino acids."}
+  ],
+  "image": {
+    "concept": "Browned firm tofu and cooked chicken breast on matching plates, clean editorial food photography, no text.",
+    "alt": "Tofu and chicken compared nutritionally"
+  },
+  "status": "publish"
+}
