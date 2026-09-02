@@ -95,7 +95,7 @@ if ( file_exists( $food_language_seo ) ) {
 		<div class="site-branding">
 			<a href="<?php echo esc_url( $food_home_url ); ?>" rel="home" aria-label="Quinnoa">
 				<?php food_pometum_logo(); ?>
-				<div class="site-tagline"><?php echo esc_html( $food_english ? 'Natural · Nutrition' : 'Natural · Nutrición' ); ?></div>
+				<div class="site-tagline"><?php echo esc_html( $food_english ? 'Natural · Nutrition' : 'Nutrición · Natural' ); ?></div>
 			</a>
 		</div>
 
