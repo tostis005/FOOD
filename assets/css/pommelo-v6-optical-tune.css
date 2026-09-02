@@ -1,0 +1,12 @@
+/* Final optical size tuning for the two most visually unequal family pictograms. */
+@media (min-width: 621px) {
+  .food-family-card.family-carnes .food-family-art::after {
+    width: 90px !important;
+    height: 66px !important;
+  }
+
+  .food-family-card.family-pescados-mariscos .food-family-art::after {
+    width: 106px !important;
+    height: 78px !important;
+  }
+}
