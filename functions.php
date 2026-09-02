@@ -364,3 +364,8 @@ $food_language_routing = get_template_directory() . '/inc/language-routing.php';
 if ( file_exists( $food_language_routing ) ) {
 	require_once $food_language_routing;
 }
+
+$food_editorial_pages = get_template_directory() . '/inc/editorial-pages.php';
+if ( file_exists( $food_editorial_pages ) ) {
+	require_once $food_editorial_pages;
+}
