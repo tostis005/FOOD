@@ -61,6 +61,7 @@ if ( file_exists( $food_language_seo ) ) {
 		'pometum-v2.css',
 		'pometum-v3.css',
 		'pometum-v4.css',
+		'pometum-v5-mobile-centering.css',
 	);
 	foreach ( $css_files as $css_file ) :
 		$css_path = get_template_directory() . '/assets/css/' . $css_file;
