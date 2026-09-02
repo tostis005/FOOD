@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Quinnoa">
+  <defs>
+    <linearGradient id="grain" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F1D67D"/>
+      <stop offset="0.54" stop-color="#E8C76A"/>
+      <stop offset="1" stop-color="#D5AD4E"/>
+    </linearGradient>
+  </defs>
+  <g transform="rotate(-11 32 32)">
+    <path d="M15.5 31.6C16.7 21.1 24.2 14.8 34.1 15.3C44.2 15.8 49.8 23.5 48.2 33.7C46.5 44.4 38.5 49.8 28.9 48.2C19.5 46.7 14.4 40.5 15.5 31.6Z" fill="url(#grain)" stroke="#765E4C" stroke-opacity="0.58" stroke-width="2"/>
+    <ellipse cx="27.2" cy="24.3" rx="4.8" ry="2.8" fill="#FFFFFF" fill-opacity="0.42" transform="rotate(-18 27.2 24.3)"/>
+    <path d="M39.8 38.7C36.6 42 32.7 43.4 28.9 42.8" fill="none" stroke="#765E4C" stroke-opacity="0.13" stroke-width="1.5" stroke-linecap="round"/>
+  </g>
+</svg>
