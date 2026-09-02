@@ -274,3 +274,8 @@ $food_editorial_taxonomies = get_template_directory() . '/inc/editorial-taxonomi
 if ( file_exists( $food_editorial_taxonomies ) ) {
 	require_once $food_editorial_taxonomies;
 }
+
+$food_visual_taxonomy = get_template_directory() . '/inc/visual-taxonomy.php';
+if ( file_exists( $food_visual_taxonomy ) ) {
+	require_once $food_visual_taxonomy;
+}
