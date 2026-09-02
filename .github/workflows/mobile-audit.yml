@@ -1,0 +1,171 @@
+name: Audit FOOD mobile UI
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/mobile-audit.yml'
+      - 'style.css'
+      - 'assets/css/**'
+      - 'assets/js/**'
+      - 'header.php'
+      - 'front-page.php'
+      - 'single.php'
+      - 'archive.php'
+  workflow_dispatch:
+
+jobs:
+  audit-mobile:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_audit_key
+          chmod 600 ~/.ssh/food_audit_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Discover live WordPress URL
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          SITE_URL="$(ssh -i ~/.ssh/food_audit_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+          if ! command -v docker >/dev/null 2>&1; then
+            exit 1
+          fi
+          for CID in $(docker ps -q); do
+            ROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then
+                  echo "$p"
+                  exit 0
+                fi
+              done
+            ' 2>/dev/null || true)"
+            if [ -n "$ROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              docker exec "$CID" php -r "require '$ROOT/wp-load.php'; echo home_url('/');"
+              exit 0
+            fi
+          done
+          exit 1
+          REMOTE
+          )"
+          test -n "$SITE_URL"
+          echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
+          echo "Live WordPress URL discovered."
+
+      - name: Install browser audit dependency
+        run: |
+          set -euo pipefail
+          npm init -y >/dev/null 2>&1
+          npm install --no-save playwright-core@latest >/dev/null 2>&1
+          CHROME_BIN="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          test -n "$CHROME_BIN"
+          echo "CHROME_BIN=$CHROME_BIN" >> "$GITHUB_ENV"
+
+      - name: Run mobile visual audit
+        run: |
+          mkdir -p audit-output
+          cat > /tmp/food-mobile-audit.mjs <<'NODE'
+          import { chromium } from 'playwright-core';
+          import fs from 'node:fs';
+
+          const browser = await chromium.launch({
+            executablePath: process.env.CHROME_BIN,
+            headless: true,
+            args: ['--no-sandbox', '--disable-dev-shm-usage']
+          });
+
+          const sizes = [
+            { name: 'iphone-se', width: 375, height: 667 },
+            { name: 'mobile-390', width: 390, height: 844 },
+            { name: 'mobile-430', width: 430, height: 932 }
+          ];
+          const report = [];
+
+          for (const size of sizes) {
+            const context = await browser.newContext({
+              viewport: { width: size.width, height: size.height },
+              deviceScaleFactor: 1,
+              isMobile: true,
+              hasTouch: true
+            });
+            const page = await context.newPage();
+            await page.goto(process.env.SITE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+            await page.waitForTimeout(1800);
+
+            const inspect = async (state) => {
+              return page.evaluate(({ state, targetWidth }) => {
+                const doc = document.documentElement;
+                const offenders = [];
+                for (const el of document.querySelectorAll('body *')) {
+                  const style = getComputedStyle(el);
+                  if (style.position === 'fixed' && style.visibility === 'hidden') continue;
+                  const r = el.getBoundingClientRect();
+                  if (!r.width || !r.height) continue;
+                  if (r.right > targetWidth + 1 || r.left < -1) {
+                    offenders.push({
+                      tag: el.tagName.toLowerCase(),
+                      id: el.id || '',
+                      class: (typeof el.className === 'string' ? el.className : '').slice(0, 160),
+                      left: Math.round(r.left * 10) / 10,
+                      right: Math.round(r.right * 10) / 10,
+                      width: Math.round(r.width * 10) / 10,
+                      text: (el.textContent || '').trim().replace(/\s+/g, ' ').slice(0, 100)
+                    });
+                  }
+                }
+                return {
+                  state,
+                  viewportWidth: window.innerWidth,
+                  scrollWidth: doc.scrollWidth,
+                  horizontalOverflow: Math.max(0, doc.scrollWidth - window.innerWidth),
+                  offenders: offenders.slice(0, 40)
+                };
+              }, { state, targetWidth: size.width });
+            };
+
+            report.push({ size: size.name, ...(await inspect('closed')) });
+
+            if (size.name === 'mobile-390') {
+              await page.screenshot({ path: 'audit-output/mobile-home-390.png', fullPage: true });
+            }
+
+            const toggle = page.locator('.menu-toggle');
+            if (await toggle.count()) {
+              await toggle.click();
+              await page.waitForTimeout(350);
+              report.push({ size: size.name, ...(await inspect('menu-open')) });
+              if (size.name === 'mobile-390') {
+                await page.screenshot({ path: 'audit-output/mobile-menu-390.png', fullPage: false });
+              }
+            }
+
+            await context.close();
+          }
+
+          fs.writeFileSync('audit-output/mobile-audit.json', JSON.stringify(report, null, 2));
+          console.log(JSON.stringify(report, null, 2));
+          await browser.close();
+          NODE
+
+          node /tmp/food-mobile-audit.mjs
+
+      - name: Upload audit screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: food-mobile-audit
+          path: audit-output/
+          retention-days: 7
