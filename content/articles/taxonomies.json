@@ -1,0 +1,36 @@
+{
+  "schema_version": 1,
+  "food_families": [
+    {"key":"general","es":"Alimentación general","en":"General food & nutrition"},
+    {"key":"meat","es":"Carnes","en":"Meat"},
+    {"key":"fish-seafood","es":"Pescados y mariscos","en":"Fish & seafood"},
+    {"key":"eggs","es":"Huevos","en":"Eggs"},
+    {"key":"dairy-cheese","es":"Lácteos y quesos","en":"Dairy & cheese"},
+    {"key":"legumes-soy","es":"Legumbres y soja","en":"Legumes & soy"},
+    {"key":"nuts-seeds","es":"Frutos secos y semillas","en":"Nuts & seeds"},
+    {"key":"grains-pseudocereals","es":"Cereales, pseudocereales y derivados","en":"Grains, pseudocereals & products"},
+    {"key":"tubers","es":"Tubérculos","en":"Tubers"},
+    {"key":"vegetables-mushrooms","es":"Verduras, hortalizas y setas","en":"Vegetables & mushrooms"},
+    {"key":"fruit","es":"Frutas","en":"Fruit"},
+    {"key":"oils-fats","es":"Aceites y grasas","en":"Oils & fats"},
+    {"key":"beverages","es":"Bebidas","en":"Beverages"},
+    {"key":"cocoa-sweets","es":"Chocolate, cacao y alimentos dulces","en":"Chocolate, cocoa & sweet foods"},
+    {"key":"fermented","es":"Fermentados","en":"Fermented foods"},
+    {"key":"other-foods","es":"Algas, especias y otros alimentos","en":"Seaweed, spices & other foods"}
+  ],
+  "article_types": [
+    {"key":"nutrition-composition","es":"Nutrición y composición","en":"Nutrition & composition"},
+    {"key":"rankings","es":"Rankings y mejores fuentes","en":"Rankings & best sources"},
+    {"key":"comparisons","es":"Comparativas","en":"Comparisons"},
+    {"key":"food-safety","es":"Seguridad alimentaria","en":"Food safety"},
+    {"key":"storage","es":"Conservación y almacenamiento","en":"Storage & shelf life"},
+    {"key":"freezing-thawing","es":"Congelación y descongelación","en":"Freezing & thawing"},
+    {"key":"cooking-science","es":"Cocina y ciencia de los alimentos","en":"Cooking science"},
+    {"key":"cooking-techniques","es":"Preparación y técnicas de cocina","en":"Cooking techniques"},
+    {"key":"health-daily-consumption","es":"Salud y consumo habitual","en":"Health & regular consumption"},
+    {"key":"nutrition-concepts","es":"Conceptos de nutrición","en":"Nutrition concepts"},
+    {"key":"myths-faq","es":"Mitos y preguntas frecuentes","en":"Food myths & FAQs"},
+    {"key":"processing-production","es":"Procesamiento, producción y elaboración","en":"Processing & production"},
+    {"key":"buying-quality-ripeness","es":"Compra, calidad y maduración","en":"Buying, quality & ripeness"}
+  ]
+}
