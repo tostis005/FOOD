@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "en-053-sardines-vs-tuna",
+  "article_number": 53,
+  "translation_group": "053-sardines-vs-tuna",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA/NIH ODS composition and FDA/EPA mercury advice",
+  "title": "Sardines vs Tuna: Protein, Omega-3 and Mercury",
+  "slug": "sardines-vs-tuna",
+  "seo": {
+    "title": "Sardines vs Tuna: Protein, Omega-3 and Mercury",
+    "meta_description": "Canned sardines and tuna provide similar protein, but sardines contain far more EPA and DHA and average much less mercury than tuna.",
+    "search_intent": "Compare sardines and tuna for protein, omega-3 and mercury while distinguishing tuna type and canned format."
+  },
+  "excerpt": "Canned sardines and tuna can both provide roughly 24–26 grams of protein per 100 grams, so the protein gap is small. Sardines stand out much more for EPA and DHA and have very low mercury levels; tuna mercury varies by species and is generally higher.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": ["sardines", "tuna"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>A can of sardines and a can of tuna seem to fill the same pantry role: inexpensive, convenient protein. On protein they are almost tied. The important differences appear in omega-3 fat, mercury and, when the sardine bones are eaten, calcium.</p><p><strong>For protein, it is essentially a draw. For EPA and DHA and low mercury, sardines have a clear advantage.</strong> Tuna can be much leaner, especially packed in water, but there is no single mercury profile that applies to every kind of tuna.</p><h2>A practical comparison of drained canned fish</h2><p>Exact numbers vary by species and packing liquid, so the following values are representative ranges rather than a claim that every can is identical.</p><table><thead><tr><th>Per 100 g drained</th><th>Sardines</th><th>Canned light tuna in water</th></tr></thead><tbody><tr><td>Protein</td><td>~24–25 g</td><td>~25–26 g</td></tr><tr><td>Fat</td><td>~10–12 g</td><td>~1 g</td></tr><tr><td>EPA + DHA</td><td>~1.3–1.5 g</td><td>~0.2 g</td></tr><tr><td>FDA average mercury</td><td>~0.01 ppm</td><td>~0.13 ppm</td></tr></tbody></table><p>Protein differs by only a gram or two per 100 grams. Omega-3 is a different story: sardines can provide six or seven times as much EPA+DHA as canned light tuna in water.</p><h2>Tuna is leaner, but sardine fat is part of the nutritional advantage</h2><p>Water-packed tuna is usually very low in fat. Sardines contain much more, particularly when packed in oil, but some of that fat includes EPA and DHA.</p><p>Packing oil can also raise calories if a substantial amount remains with the fish. Comparing un-drained sardines in oil with water-packed tuna would exaggerate the calorie difference, so the label and draining matter.</p><h2>Sardines clearly lead in long-chain omega-3</h2><p>NIH data list about 1.19 grams of EPA+DHA in 3 ounces of drained canned sardines in tomato sauce. That is about 1.4 grams per 100 grams.</p><p>Canned light tuna in water provides about 0.19 gram per 3 ounces, roughly 0.22 gram per 100 grams. This is a large difference, not a rounding issue.</p><h2>Mercury is another meaningful difference</h2><p>FDA commercial-fish data put sardines at an average of about 0.01 ppm mercury. Canned light tuna averages around 0.13 ppm, canned albacore about 0.35 ppm, yellowfin about 0.35 ppm and bigeye about 0.69 ppm.</p><p>FDA/EPA therefore places sardines and canned light tuna in the Best Choices category, albacore and yellowfin in Good Choices, and bigeye in Choices to Avoid for people covered by the pregnancy and child fish-advice chart.</p><p>The key point is that ‘tuna’ is not one mercury category.</p><h2>Edible sardine bones add calcium</h2><p>The softened bones in canned sardines are edible and provide substantial calcium. A 3-ounce serving can supply roughly 300 mg or more, while boneless canned tuna provides very little.</p><p>That does not change the protein comparison, but it changes the overall nutrition package.</p><h2>Which deserves more pantry space?</h2><p>Both can be useful. Water-packed tuna is extremely lean and easy to add to many meals. Sardines provide almost the same protein while adding far more EPA+DHA, calcium when the bones are eaten and very low mercury.</p><p><strong>If protein is the only metric, the result is a practical tie. If you look at the whole package, sardines bring advantages that the protein number does not show.</strong></p>",
+  "faq": [
+    {"question": "Which has more protein, sardines or tuna?", "answer": "They are very close: roughly 24–25 g/100 g for drained sardines and 25–26 g/100 g for canned light tuna in water."},
+    {"question": "Which has more omega-3?", "answer": "Sardines. They can provide about 1.3–1.5 g of EPA+DHA per 100 g versus roughly 0.2 g in canned light tuna."},
+    {"question": "Which has less mercury?", "answer": "Sardines average very low mercury. Tuna varies by type; canned light is lower than albacore or yellowfin, and bigeye is considerably higher."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein, fat and canned fish composition."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "EPA and DHA in sardines and tuna."},
+    {"name": "FDA/EPA — Advice about Eating Fish", "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish", "note": "Mercury-based fish-choice categories."},
+    {"name": "FDA — Technical Information on Mercury in Commercial Fish", "url": "https://www.fda.gov/food/environmental-contaminants-food/technical-information-development-fdaepa-advice-about-eating-fish-those-who-might-become-or-are", "note": "Average mercury concentrations by fish and tuna type."}
+  ],
+  "image": {
+    "concept": "Drained canned sardines and canned light tuna in water placed on two matching plates, clean editorial food photography, no text.",
+    "alt": "Canned sardines and tuna compared side by side"
+  },
+  "status": "publish"
+}
