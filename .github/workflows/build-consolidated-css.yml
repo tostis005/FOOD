@@ -7,9 +7,8 @@ on:
     paths:
       - 'style.css'
       - 'assets/css/**'
+      - '!assets/css/quinnoa.css'
       - '.github/workflows/build-consolidated-css.yml'
-    paths-ignore:
-      - 'assets/css/quinnoa.css'
   workflow_dispatch:
 
 permissions:
