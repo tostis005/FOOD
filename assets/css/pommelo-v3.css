@@ -1,0 +1,410 @@
+/*
+ * Pommelo v3 — taxonomy-led visual system.
+ * User-facing copy and visuals are organised around foods and practical needs,
+ * while the internal taxonomy mechanics remain invisible to readers.
+ */
+
+:root {
+  --pommelo-coral: #ef7865;
+  --pommelo-coral-deep: #c95649;
+  --pommelo-coral-pale: #fff0ea;
+  --pommelo-cream-2: #fff9f3;
+  --pommelo-ink-2: #26383e;
+  --pommelo-green-2: #657e63;
+  --pommelo-yellow-2: #efd77f;
+}
+
+/* ---------- Brand: make Pommelo unmistakable ---------- */
+.header-main {
+  min-height: 94px;
+}
+
+.site-branding .pommelo-logo {
+  gap: 13px;
+}
+
+.site-branding .pommelo-logo-mark {
+  width: 52px;
+  height: 52px;
+  filter: drop-shadow(0 6px 10px rgba(201, 86, 73, .12));
+}
+
+.site-branding .pommelo-wordmark {
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: -.018em;
+}
+
+.site-branding .pommelo-double {
+  color: var(--pommelo-coral) !important;
+  font-weight: 950;
+}
+
+.site-branding .pommelo-double::after {
+  height: 4px;
+  bottom: -6px;
+  background: var(--pommelo-yellow-2);
+}
+
+.site-tagline {
+  padding-left: 65px;
+  margin-top: 8px;
+  color: #68787c;
+  font-size: 8.5px;
+  letter-spacing: .12em;
+}
+
+/* ---------- Topic identities ---------- */
+.topic-seguridad-alimentaria { --topic-bg: #e6f0e7; --topic-accent: #4f765a; }
+.topic-nutricion { --topic-bg: #fff0d9; --topic-accent: #b86b36; }
+.topic-cocina-tecnica { --topic-bg: #fbe1dc; --topic-accent: #b95448; }
+.topic-conservacion { --topic-bg: #e2eef2; --topic-accent: #4e7482; }
+.topic-compra-eleccion { --topic-bg: #eee7f1; --topic-accent: #745a7f; }
+.topic-origen-calidad { --topic-bg: #f0e8d7; --topic-accent: #8a6a36; }
+.topic-comparativas { --topic-bg: #e8ece6; --topic-accent: #5f6f59; }
+.topic-preguntas-frecuentes { --topic-bg: #f7e8ee; --topic-accent: #9a5d73; }
+.topic-platos-menus { --topic-bg: #e5ece8; --topic-accent: #527267; }
+
+.food-topic-svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* ---------- Homepage copy-led topic browsing ---------- */
+.topic-directory-section {
+  background:
+    radial-gradient(circle at 92% 10%, rgba(239, 120, 101, .13), transparent 25rem),
+    linear-gradient(180deg, #fff4ee 0%, #fff9f4 100%) !important;
+  color: var(--pommelo-ink-2) !important;
+}
+
+.topic-directory-layout {
+  grid-template-columns: minmax(250px, .64fr) minmax(0, 1.5fr);
+  gap: clamp(36px, 6vw, 82px);
+}
+
+.topic-directory-intro {
+  position: sticky;
+  top: 120px;
+}
+
+.topic-directory-intro .section-label {
+  color: var(--pommelo-coral-deep) !important;
+}
+
+.topic-directory-intro h2 {
+  max-width: 11ch;
+  color: var(--pommelo-ink-2);
+}
+
+.topic-directory-intro p {
+  color: #66767a !important;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.topic-card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.topic-card {
+  min-width: 0;
+  display: grid;
+  grid-template-rows: 120px 1fr;
+  overflow: hidden;
+  border: 1px solid rgba(38, 56, 62, .10);
+  background: #fffdf9;
+  color: inherit;
+  text-decoration: none;
+  box-shadow: 0 10px 30px rgba(57, 45, 42, .035);
+  transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease;
+}
+
+.topic-card:hover {
+  transform: translateY(-2px);
+  border-color: rgba(201, 86, 73, .24);
+  box-shadow: 0 16px 36px rgba(57, 45, 42, .07);
+}
+
+.topic-card-art {
+  min-width: 0;
+  display: grid;
+  place-items: center;
+  padding: 26px;
+  background: var(--topic-bg, #f4e8e2);
+  color: var(--topic-accent, var(--pommelo-coral-deep));
+}
+
+.topic-card-art .food-topic-svg {
+  width: 64px;
+  height: 64px;
+}
+
+.topic-card-copy {
+  position: relative;
+  display: block;
+  padding: 17px 38px 19px 17px;
+}
+
+.topic-card-copy strong {
+  display: block;
+  color: var(--pommelo-ink-2);
+  font-family: var(--pommelo-display);
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.15;
+}
+
+.topic-card-copy small {
+  display: block;
+  margin-top: 8px;
+  color: #68777b;
+  font-size: 11px;
+  line-height: 1.48;
+}
+
+.topic-card-arrow {
+  position: absolute;
+  right: 15px;
+  bottom: 17px;
+  color: var(--pommelo-coral-deep);
+  font-weight: 900;
+}
+
+/* ---------- Visual fallback hierarchy ---------- */
+.home-feature-illustration,
+.discover-illustration,
+.card-placeholder.card-placeholder-illustrated,
+.article-hero-fallback,
+.taxonomy-hero-visual {
+  background: var(--family-soft, var(--topic-bg, #eee9e2)) !important;
+  color: var(--family-accent, var(--topic-accent, var(--pommelo-coral-deep))) !important;
+}
+
+.home-feature-illustration .food-topic-svg,
+.discover-illustration .food-topic-svg {
+  width: 42%;
+  max-width: 180px;
+  height: auto;
+  aspect-ratio: 1;
+}
+
+.card-placeholder.card-placeholder-illustrated .food-topic-svg {
+  width: 38%;
+  max-width: 120px;
+  height: auto;
+  aspect-ratio: 1;
+}
+
+/* Disable the older pseudo-art only for topic-driven placeholders. */
+.card-placeholder.card-placeholder-illustrated[class*="topic-"]::after,
+.home-feature-illustration[class*="topic-"]::after,
+.discover-illustration[class*="topic-"]::after {
+  display: none !important;
+}
+
+/* ---------- Taxonomy archive identity ---------- */
+.archive-header.has-taxonomy-visual {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 210px;
+  gap: clamp(28px, 5vw, 72px);
+  align-items: center;
+  padding: 30px 0 34px;
+}
+
+.archive-header-copy {
+  min-width: 0;
+}
+
+.taxonomy-hero-visual {
+  width: 210px;
+  height: 160px;
+  display: grid;
+  place-items: center;
+  justify-self: end;
+  overflow: hidden;
+  border: 1px solid rgba(38, 56, 62, .09);
+}
+
+.taxonomy-hero-visual .food-family-svg,
+.taxonomy-hero-visual .food-topic-svg {
+  width: 92px;
+  height: 92px;
+}
+
+.archive-header .taxonomy-description {
+  max-width: 720px;
+}
+
+/* ---------- Article fallback hero ---------- */
+.article-hero-fallback {
+  width: min(calc(100% - 48px), 1180px);
+  min-height: 330px;
+  margin: 0 auto 44px;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+}
+
+.article-hero-fallback .food-family-svg,
+.article-hero-fallback .food-topic-svg {
+  width: min(210px, 42vw);
+  height: min(210px, 42vw);
+}
+
+/* ---------- Mobile menu: lighter, branded and easier to scan ---------- */
+@media (max-width: 960px) {
+  .mobile-menu-overlay,
+  .mobile-menu-shell {
+    background: #fff5ef !important;
+    color: var(--pommelo-ink-2) !important;
+  }
+
+  .mobile-menu-top {
+    border-bottom-color: rgba(38, 56, 62, .13) !important;
+  }
+
+  .mobile-brand .pommelo-logo {
+    color: var(--pommelo-ink-2) !important;
+  }
+
+  .mobile-brand .pommelo-wordmark {
+    color: var(--pommelo-ink-2) !important;
+  }
+
+  .mobile-brand .pommelo-double {
+    color: var(--pommelo-coral) !important;
+  }
+
+  .mobile-menu-close {
+    border-color: rgba(38, 56, 62, .22) !important;
+    background: rgba(255,255,255,.58) !important;
+    color: var(--pommelo-ink-2) !important;
+  }
+
+  .mobile-menu-eyebrow,
+  .mobile-menu-explore-title {
+    color: var(--pommelo-coral-deep) !important;
+  }
+
+  .mobile-primary-nav a,
+  .mobile-food-links a {
+    color: var(--pommelo-ink-2) !important;
+    border-color: rgba(38, 56, 62, .12) !important;
+  }
+
+  .mobile-primary-nav a:hover,
+  .mobile-food-links a:hover {
+    color: var(--pommelo-coral-deep) !important;
+  }
+
+  .mobile-menu-explore {
+    border-color: rgba(38, 56, 62, .13) !important;
+  }
+
+  .mobile-menu-note {
+    color: #69777b !important;
+  }
+
+  .mobile-menu-search {
+    border-color: rgba(38, 56, 62, .20) !important;
+    background: #fffdf9 !important;
+  }
+
+  .mobile-menu-search input {
+    color: var(--pommelo-ink-2) !important;
+  }
+}
+
+@media (max-width: 900px) {
+  .header-main { min-height: 82px; }
+  .site-branding .pommelo-logo-mark { width: 42px; height: 42px; }
+  .site-branding .pommelo-wordmark { font-size: 36px; }
+  .site-tagline { padding-left: 53px; font-size: 7.5px; }
+
+  .topic-directory-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .topic-directory-intro {
+    position: static;
+    max-width: 620px;
+  }
+
+  .topic-card-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+@media (max-width: 620px) {
+  .site-branding .pommelo-logo-mark { width: 38px; height: 38px; }
+  .site-branding .pommelo-wordmark { font-size: 34px; }
+
+  .topic-card-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .topic-card {
+    grid-template-columns: 104px minmax(0, 1fr);
+    grid-template-rows: 1fr;
+    min-height: 118px;
+  }
+
+  .topic-card-art {
+    min-height: 118px;
+    padding: 22px;
+  }
+
+  .topic-card-art .food-topic-svg {
+    width: 58px;
+    height: 58px;
+  }
+
+  .topic-card-copy {
+    align-self: center;
+    padding: 18px 36px 18px 16px;
+  }
+
+  .archive-header.has-taxonomy-visual {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .taxonomy-hero-visual {
+    width: 100%;
+    height: 135px;
+    justify-self: stretch;
+    order: -1;
+  }
+
+  .taxonomy-hero-visual .food-family-svg,
+  .taxonomy-hero-visual .food-topic-svg {
+    width: 82px;
+    height: 82px;
+  }
+
+  .article-hero-fallback {
+    width: calc(100% - 32px);
+    min-height: 240px;
+    margin-bottom: 34px;
+  }
+}
+
+@media (max-width: 430px) {
+  .header-main { min-height: 76px; }
+  .site-branding .pommelo-logo { gap: 8px; }
+  .site-branding .pommelo-logo-mark { width: 34px; height: 34px; }
+  .site-branding .pommelo-wordmark { font-size: 31px; }
+
+  .mobile-brand .pommelo-logo-mark {
+    width: 46px !important;
+    height: 46px !important;
+  }
+
+  .mobile-brand .pommelo-wordmark {
+    font-size: 40px !important;
+  }
+}
