@@ -63,7 +63,7 @@ if ( $archive_term instanceof WP_Term && ( is_category() || is_tax( 'food_topic'
 				} elseif ( is_category() ) {
 					echo esc_html( $food_english ? 'Articles by food' : 'Artículos por alimento' );
 				} else {
-					echo esc_html( $food_english ? 'Quinnoa archive' : 'Archivo Quinnoa' );
+					echo esc_html( $food_english ? 'Archive' : 'Archivo' );
 				}
 				?>
 			</div>
@@ -87,7 +87,7 @@ if ( $archive_term instanceof WP_Term && ( is_category() || is_tax( 'food_topic'
 			if ( ( is_category() || is_tax( 'food_topic' ) ) && $archive_description && ! $food_english ) : ?>
 				<div class="taxonomy-description"><?php echo wp_kses_post( $archive_description ); ?></div>
 			<?php elseif ( $food_english && $archive_term instanceof WP_Term ) : ?>
-				<div class="taxonomy-description"><p><?php echo esc_html( is_category() ? food_family_display( $archive_term->slug, 'short' ) : 'Practical Quinnoa articles in this topic, selected for the English edition.' ); ?></p></div>
+				<div class="taxonomy-description"><p><?php echo esc_html( is_category() ? food_family_display( $archive_term->slug, 'short' ) : 'Articles about this topic.' ); ?></p></div>
 			<?php endif; ?>
 		</div>
 
@@ -120,7 +120,7 @@ if ( $archive_term instanceof WP_Term && ( is_category() || is_tax( 'food_topic'
 		if ( $pagination ) : ?><div class="pagination nav-links"><?php echo wp_kses_post( $pagination ); ?></div><?php endif; ?>
 		<?php wp_reset_postdata(); ?>
 	<?php else : ?>
-		<div class="answer-box"><strong><?php echo esc_html( $food_english ? 'No articles here yet' : 'Todavía no hay artículos aquí' ); ?></strong><p><?php echo esc_html( $food_english ? 'There are no published articles assigned to this section yet. You can browse other Quinnoa articles or use search.' : 'Todavía no hay artículos publicados asignados a esta sección. Puedes explorar otros artículos de Quinnoa o utilizar el buscador.' ); ?></p></div>
+		<div class="answer-box"><strong><?php echo esc_html( $food_english ? 'No articles found' : 'No hay artículos' ); ?></strong><p><?php echo esc_html( $food_english ? 'Try another search or browse a different section.' : 'Prueba con otra búsqueda o consulta otra sección.' ); ?></p></div>
 		<div class="search-panel"><?php get_search_form(); ?></div>
 	<?php endif; ?>
 </div>
