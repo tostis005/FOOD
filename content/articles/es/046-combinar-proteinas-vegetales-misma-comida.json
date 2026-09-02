@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-046-combinar-proteinas-vegetales-misma-comida",
+  "article_number": 46,
+  "translation_group": "046-combine-plant-proteins-same-meal",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; marco FAO de aminoácidos y composición USDA",
+  "title": "¿Hay que combinar proteínas vegetales en la misma comida?",
+  "slug": "combinar-proteinas-vegetales-misma-comida",
+  "seo": {
+    "title": "¿Hay que combinar proteínas vegetales en la misma comida?",
+    "meta_description": "No hace falta emparejar arroz y legumbres en cada plato. Una dieta vegetal variada puede complementar aminoácidos a lo largo del día.",
+    "search_intent": "Aclarar si las proteínas vegetales deben combinarse obligatoriamente en la misma comida."
+  },
+  "excerpt": "No hace falta combinar cereales y legumbres en la misma comida para que la proteína vegetal ‘funcione’. Lo importante es consumir suficiente proteína total y variedad de fuentes a lo largo del día; arroz con lentejas es una buena combinación, pero no una obligación bioquímica en cada plato.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-concepts", "myths-faq"],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>La idea de que una comida vegetal está ‘incompleta’ si no mezcla dos proteínas concretas ha sobrevivido mucho más que la regla que la originó. Cereales y legumbres sí se complementan, pero eso no significa que haya que juntarlos en cada plato.</p><p><strong>El organismo utiliza aminoácidos procedentes de las distintas comidas del día.</strong> Si la dieta aporta suficiente proteína y variedad, no es necesario convertir desayuno, comida y cena en una fórmula de emparejamientos obligatorios.</p><h2>De dónde viene la idea de combinar</h2><p>Muchas legumbres son relativamente más bajas en aminoácidos azufrados como metionina, mientras muchos cereales son relativamente bajos en lisina. Al comer ambos grupos, sus perfiles se complementan.</p><p>Eso explica por qué combinaciones tradicionales como arroz con legumbres, pan con hummus o maíz con frijoles tienen sentido nutricional. El error aparece al convertir una complementariedad útil en una exigencia de simultaneidad.</p><h2>El cuerpo no empieza de cero con cada plato</h2><p>Tras digerir proteínas, los aminoácidos pasan a un conjunto disponible que el organismo utiliza para renovar tejidos, fabricar enzimas y muchas otras funciones. La síntesis proteica no depende únicamente de que todos los aminoácidos lleguen dentro del mismo bocado.</p><p>Por eso una persona puede comer avena en el desayuno, lentejas al mediodía y tofu por la noche y obtener un patrón global de aminoácidos adecuado sin haber mezclado todas esas fuentes juntas.</p><h2>La cantidad total sigue siendo más importante que una pareja perfecta</h2><p>Doscientos gramos de lentejas cocidas aportan alrededor de 18 g de proteína; una taza de arroz cocido, unos 4 g. Juntarlos puede llevar una comida a más de 20 g, pero el aumento procede sobre todo de sumar proteína total, además de mejorar el equilibrio de aminoácidos.</p><p>Una dieta que combina alimentos de forma impecable pero aporta muy poca proteína total seguiría siendo insuficiente.</p><h2>La soja simplifica todavía más el problema</h2><p>Tofu, tempeh, edamame y otros alimentos de soja tienen un perfil de aminoácidos esenciales muy favorable. Una ración de 150 g de tofu firme puede aportar alrededor de 20–25 g de proteína sin necesitar que se añada un cereal para ‘completarla’.</p><h2>Cuándo sí puede ser útil pensar de forma más deliberada</h2><p>La variedad merece más atención cuando la dieta es muy restrictiva, la ingesta total de proteína es baja o la mayor parte procede de una sola fuente. También pueden existir necesidades mayores en personas muy activas, mayores o en determinadas situaciones clínicas.</p><p>En esos casos tiene sentido distribuir fuentes proteicas de calidad durante el día, pero eso sigue siendo distinto de exigir una combinación exacta en cada plato.</p><h2>La regla práctica</h2><p><strong>Come variedad, no parejas obligatorias.</strong> Legumbres, soja, cereales integrales, frutos secos y semillas pueden complementarse a lo largo del día. Si arroz y lentejas aparecen juntos, perfecto; si aparecen en comidas diferentes, la proteína no deja de ser útil.</p>",
+  "faq": [
+    {"question": "¿Hay que comer arroz y legumbres juntos?", "answer": "No. Se complementan bien, pero pueden consumirse en comidas diferentes dentro de una dieta variada."},
+    {"question": "¿Una dieta vegana necesita combinar proteínas?", "answer": "Necesita suficiente proteína y variedad de fuentes, no combinaciones obligatorias en cada comida."},
+    {"question": "¿El tofu necesita combinarse con cereales?", "answer": "No. La soja tiene un perfil de aminoácidos esenciales muy favorable por sí sola."}
+  ],
+  "sources": [
+    {"name": "FAO — Dietary protein quality evaluation in human nutrition", "url": "https://www.fao.org/4/i3124e/i3124e.pdf", "note": "Patrones de aminoácidos esenciales y calidad proteica."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína de legumbres, cereales y soja."}
+  ],
+  "image": {
+    "concept": "Arroz, lentejas, hummus con pan, tofu, frutos secos y semillas repartidos en varias comidas, fotografía editorial sin texto.",
+    "alt": "Fuentes vegetales de proteína que se complementan a lo largo del día"
+  },
+  "status": "publish"
+}
