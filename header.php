@@ -4,8 +4,12 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php wp_head(); ?>
-	<?php $food_v4_css = get_template_directory() . '/assets/css/food-v4.css'; ?>
+	<?php
+	$food_v4_css = get_template_directory() . '/assets/css/food-v4.css';
+	$food_v5_css = get_template_directory() . '/assets/css/food-v5.css';
+	?>
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v4.css?ver=' . ( file_exists( $food_v4_css ) ? filemtime( $food_v4_css ) : '1' ) ); ?>">
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/food-v5.css?ver=' . ( file_exists( $food_v5_css ) ? filemtime( $food_v5_css ) : '1' ) ); ?>">
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
@@ -26,7 +30,7 @@
 				array(
 					'theme_location' => 'primary',
 					'container'      => false,
-					'fallback_cb'    => 'food_category_fallback',
+					'fallback_cb'    => 'food_primary_nav_fallback',
 				)
 			);
 			?>
@@ -63,30 +67,30 @@
 		</div>
 
 		<div class="mobile-menu-content">
-			<div class="mobile-menu-eyebrow">Secciones</div>
+			<div class="mobile-menu-eyebrow">Explora FOOD</div>
 			<nav class="mobile-primary-nav" aria-label="<?php esc_attr_e( 'Menú móvil', 'food' ); ?>">
 				<?php
 				wp_nav_menu(
 					array(
 						'theme_location' => 'primary',
 						'container'      => false,
-						'fallback_cb'    => 'food_category_fallback',
+						'fallback_cb'    => 'food_primary_nav_fallback',
 					)
 				);
 				?>
 			</nav>
 
 			<div class="mobile-menu-explore">
-				<span class="mobile-menu-explore-title">Por alimento</span>
+				<span class="mobile-menu-explore-title">Familias de alimentos</span>
 				<div class="mobile-food-links">
-					<a href="<?php echo esc_url( food_category_url( 'carnes', 'Carnes' ) ); ?>">🥩 Carnes</a>
-					<a href="<?php echo esc_url( food_category_url( 'pescados-mariscos', 'Pescados y mariscos' ) ); ?>">🐟 Pescados</a>
-					<a href="<?php echo esc_url( food_category_url( 'jamon-embutidos', 'Jamón y embutidos' ) ); ?>">🍖 Jamón</a>
-					<a href="<?php echo esc_url( food_category_url( 'quesos-lacteos', 'Quesos y lácteos' ) ); ?>">🧀 Quesos</a>
-					<a href="<?php echo esc_url( food_category_url( 'aceites', 'Aceites' ) ); ?>">🫒 Aceites</a>
-					<a href="<?php echo esc_url( food_category_url( 'legumbres', 'Legumbres' ) ); ?>">🫘 Legumbres</a>
-					<a href="<?php echo esc_url( food_category_url( 'frutas', 'Frutas' ) ); ?>">🍎 Frutas</a>
-					<a href="<?php echo esc_url( food_category_url( 'verduras-hortalizas', 'Verduras y hortalizas' ) ); ?>">🥬 Verduras</a>
+					<a href="<?php echo esc_url( food_category_url( 'carnes', 'Carnes' ) ); ?>">Carnes</a>
+					<a href="<?php echo esc_url( food_category_url( 'pescados-mariscos', 'Pescados y mariscos' ) ); ?>">Pescados</a>
+					<a href="<?php echo esc_url( food_category_url( 'jamon-embutidos', 'Jamón y embutidos' ) ); ?>">Jamón</a>
+					<a href="<?php echo esc_url( food_category_url( 'quesos-lacteos', 'Quesos y lácteos' ) ); ?>">Quesos</a>
+					<a href="<?php echo esc_url( food_category_url( 'aceites', 'Aceites' ) ); ?>">Aceites</a>
+					<a href="<?php echo esc_url( food_category_url( 'legumbres', 'Legumbres' ) ); ?>">Legumbres</a>
+					<a href="<?php echo esc_url( food_category_url( 'frutas', 'Frutas' ) ); ?>">Frutas</a>
+					<a href="<?php echo esc_url( food_category_url( 'verduras-hortalizas', 'Verduras y hortalizas' ) ); ?>">Verduras</a>
 				</div>
 			</div>
 
@@ -96,7 +100,7 @@
 				<button type="submit">Buscar</button>
 			</form>
 
-			<p class="mobile-menu-note">Respuestas claras sobre alimentos, cocina, nutrición y seguridad alimentaria.</p>
+			<p class="mobile-menu-note">Busca por alimento o por el tipo de duda que quieres resolver.</p>
 		</div>
 	</div>
 </div>
