@@ -1,9 +1,7 @@
 <?php
 /**
  * Native bilingual routing for Pometum.
- *
- * Spanish is the default/root language. English lives under /en/.
- * Article language is stored in _food_language by the source-controlled importer.
+ * Spanish is the root language; English lives under /en/.
  *
  * @package FOOD
  */
@@ -14,8 +12,8 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 function food_language_definitions() {
 	return array(
-		'es' => array( 'label' => 'Español', 'short' => 'ES', 'flag' => '🇪🇸', 'locale' => 'es-ES', 'prefix' => '' ),
-		'en' => array( 'label' => 'English', 'short' => 'EN', 'flag' => '🇬🇧', 'locale' => 'en-US', 'prefix' => 'en' ),
+		'es' => array( 'label' => 'Español', 'short' => 'ES', 'flag' => '🇪🇸', 'locale' => 'es-ES' ),
+		'en' => array( 'label' => 'English', 'short' => 'EN', 'flag' => '🇬🇧', 'locale' => 'en-US' ),
 	);
 }
 
@@ -24,7 +22,6 @@ function food_current_language() {
 	if ( in_array( $requested, array( 'es', 'en' ), true ) ) {
 		return $requested;
 	}
-
 	$path = isset( $_SERVER['REQUEST_URI'] ) ? (string) wp_parse_url( wp_unslash( $_SERVER['REQUEST_URI'] ), PHP_URL_PATH ) : '';
 	return preg_match( '#^/en(?:/|$)#', $path ) ? 'en' : 'es';
 }
@@ -41,13 +38,8 @@ function food_language_home_url( $language = '' ) {
 function food_language_query_clause( $language = '' ) {
 	$language = $language ?: food_current_language();
 	if ( 'en' === $language ) {
-		return array(
-			'key'     => '_food_language',
-			'value'   => 'en',
-			'compare' => '=',
-		);
+		return array( 'key' => '_food_language', 'value' => 'en', 'compare' => '=' );
 	}
-
 	return array(
 		'relation' => 'OR',
 		array( 'key' => '_food_language', 'value' => 'es', 'compare' => '=' ),
@@ -83,15 +75,20 @@ function food_register_language_rewrites() {
 	add_rewrite_rule( '^en/tema/([^/]+)/?$', 'index.php?food_topic=$matches[1]&food_lang=en', 'top' );
 	add_rewrite_rule( '^en/(?!alimentos(?:/|$)|tema(?:/|$))([^/]+)/?$', 'index.php?name=$matches[1]&food_lang=en', 'top' );
 
-	if ( '1' !== get_option( 'food_language_rewrite_v1' ) ) {
+	if ( '2' !== get_option( 'food_language_rewrite_version' ) ) {
 		flush_rewrite_rules( false );
-		update_option( 'food_language_rewrite_v1', '1' );
+		update_option( 'food_language_rewrite_version', '2' );
 	}
 }
 add_action( 'init', 'food_register_language_rewrites', 90 );
 
+function food_is_english_home_request( $query = null ) {
+	$query = $query instanceof WP_Query ? $query : $GLOBALS['wp_query'];
+	return $query instanceof WP_Query && $query->get( 'food_lang_home' ) && ! $query->is_search() && ! $query->get( 's' );
+}
+
 function food_prepare_english_home_query( $query ) {
-	if ( is_admin() || ! $query->is_main_query() || ! $query->get( 'food_lang_home' ) ) {
+	if ( is_admin() || ! $query->is_main_query() || ! food_is_english_home_request( $query ) ) {
 		return;
 	}
 	$query->is_404 = false;
@@ -100,7 +97,7 @@ function food_prepare_english_home_query( $query ) {
 add_action( 'parse_query', 'food_prepare_english_home_query', 1 );
 
 function food_prevent_english_home_404( $preempt, $wp_query ) {
-	if ( $wp_query->get( 'food_lang_home' ) ) {
+	if ( food_is_english_home_request( $wp_query ) ) {
 		$wp_query->is_404 = false;
 		return false;
 	}
@@ -109,7 +106,7 @@ function food_prevent_english_home_404( $preempt, $wp_query ) {
 add_filter( 'pre_handle_404', 'food_prevent_english_home_404', 10, 2 );
 
 function food_english_home_template( $template ) {
-	if ( get_query_var( 'food_lang_home' ) ) {
+	if ( food_is_english_home_request() ) {
 		$front = get_template_directory() . '/front-page.php';
 		return file_exists( $front ) ? $front : $template;
 	}
@@ -121,7 +118,6 @@ function food_filter_main_query_language( $query ) {
 	if ( is_admin() || ! $query->is_main_query() || $query->get( 'food_language_bypass' ) ) {
 		return;
 	}
-
 	if ( $query->is_archive() || $query->is_search() || $query->is_home() ) {
 		food_merge_language_meta_query( $query );
 	}
@@ -132,7 +128,6 @@ function food_filter_secondary_queries_by_language( $query ) {
 	if ( is_admin() || $query->is_main_query() || $query->get( 'food_language_bypass' ) || ! did_action( 'wp' ) ) {
 		return;
 	}
-
 	$post_type = $query->get( 'post_type' );
 	if ( ! empty( $post_type ) && 'post' !== $post_type && ! ( is_array( $post_type ) && in_array( 'post', $post_type, true ) ) ) {
 		return;
@@ -142,15 +137,14 @@ function food_filter_secondary_queries_by_language( $query ) {
 add_action( 'pre_get_posts', 'food_filter_secondary_queries_by_language', 31 );
 
 function food_post_language( $post_id ) {
-	$language = get_post_meta( (int) $post_id, '_food_language', true );
-	return 'en' === $language ? 'en' : 'es';
+	return 'en' === get_post_meta( (int) $post_id, '_food_language', true ) ? 'en' : 'es';
 }
 
 function food_localized_post_link( $permalink, $post ) {
-	if ( ! $post instanceof WP_Post || 'post' !== $post->post_type || 'en' !== food_post_language( $post->ID ) ) {
-		return $permalink;
+	if ( $post instanceof WP_Post && 'post' === $post->post_type && 'en' === food_post_language( $post->ID ) ) {
+		return home_url( '/en/' . $post->post_name . '/' );
 	}
-	return home_url( '/en/' . $post->post_name . '/' );
+	return $permalink;
 }
 add_filter( 'post_link', 'food_localized_post_link', 20, 2 );
 
@@ -162,10 +156,7 @@ function food_localized_category_link( $link, $term_id ) {
 	if ( ! $term || is_wp_error( $term ) ) {
 		return $link;
 	}
-	if ( 'alimentos' === $term->slug ) {
-		return home_url( '/en/alimentos/' );
-	}
-	return home_url( '/en/alimentos/' . $term->slug . '/' );
+	return 'alimentos' === $term->slug ? home_url( '/en/alimentos/' ) : home_url( '/en/alimentos/' . $term->slug . '/' );
 }
 add_filter( 'category_link', 'food_localized_category_link', 20, 2 );
 
@@ -184,7 +175,9 @@ function food_category_url_for_language( $term, $language ) {
 	if ( 'en' === $language ) {
 		return 'alimentos' === $term->slug ? home_url( '/en/alimentos/' ) : home_url( '/en/alimentos/' . $term->slug . '/' );
 	}
+	remove_filter( 'category_link', 'food_localized_category_link', 20 );
 	$link = get_category_link( $term );
+	add_filter( 'category_link', 'food_localized_category_link', 20, 2 );
 	return is_wp_error( $link ) ? home_url( '/' ) : $link;
 }
 
@@ -195,7 +188,9 @@ function food_topic_url_for_language( $term, $language ) {
 	if ( 'en' === $language ) {
 		return home_url( '/en/tema/' . $term->slug . '/' );
 	}
+	remove_filter( 'term_link', 'food_localized_term_link', 20 );
 	$link = get_term_link( $term );
+	add_filter( 'term_link', 'food_localized_term_link', 20, 3 );
 	return is_wp_error( $link ) ? home_url( '/' ) : $link;
 }
 
@@ -239,15 +234,11 @@ function food_language_switcher() {
 	?>
 	<details class="language-switcher">
 		<summary aria-label="<?php echo esc_attr( 'es' === $current ? 'Cambiar idioma' : 'Change language' ); ?>">
-			<span class="language-flag" aria-hidden="true"><?php echo esc_html( $defs[ $current ]['flag'] ); ?></span>
-			<span><?php echo esc_html( $defs[ $current ]['short'] ); ?></span>
+			<span class="language-flag" aria-hidden="true"><?php echo esc_html( $defs[ $current ]['flag'] ); ?></span><span><?php echo esc_html( $defs[ $current ]['short'] ); ?></span>
 		</summary>
 		<div class="language-switcher-menu">
 			<?php foreach ( $defs as $code => $definition ) : ?>
-				<a href="<?php echo esc_url( food_language_switch_url( $code ) ); ?>" <?php echo $code === $current ? 'aria-current="page"' : ''; ?>>
-					<span class="language-flag" aria-hidden="true"><?php echo esc_html( $definition['flag'] ); ?></span>
-					<span><?php echo esc_html( $definition['label'] ); ?></span>
-				</a>
+				<a href="<?php echo esc_url( food_language_switch_url( $code ) ); ?>" <?php echo $code === $current ? 'aria-current="page"' : ''; ?>><span class="language-flag" aria-hidden="true"><?php echo esc_html( $definition['flag'] ); ?></span><span><?php echo esc_html( $definition['label'] ); ?></span></a>
 			<?php endforeach; ?>
 		</div>
 	</details>
@@ -256,10 +247,7 @@ function food_language_switcher() {
 
 function food_language_attributes( $output ) {
 	$locale = food_language_definitions()[ food_current_language() ]['locale'];
-	if ( preg_match( '/lang="[^"]*"/', $output ) ) {
-		return preg_replace( '/lang="[^"]*"/', 'lang="' . esc_attr( $locale ) . '"', $output );
-	}
-	return 'lang="' . esc_attr( $locale ) . '" ' . $output;
+	return preg_match( '/lang="[^"]*"/', $output ) ? preg_replace( '/lang="[^"]*"/', 'lang="' . esc_attr( $locale ) . '"', $output ) : 'lang="' . esc_attr( $locale ) . '" ' . $output;
 }
 add_filter( 'language_attributes', 'food_language_attributes' );
 
@@ -267,7 +255,7 @@ function food_localized_reading_time() {
 	$content = get_post_field( 'post_content', get_the_ID() );
 	$words   = str_word_count( wp_strip_all_tags( $content ) );
 	$minutes = max( 1, (int) ceil( $words / 210 ) );
-	return 'en' === food_current_language() ? sprintf( '%d min read', $minutes ) : sprintf( '%d min de lectura', $minutes );
+	return food_is_english() ? sprintf( '%d min read', $minutes ) : sprintf( '%d min de lectura', $minutes );
 }
 
 function food_family_english_labels() {
@@ -304,19 +292,7 @@ function food_family_display( $slug, $field = 'name' ) {
 
 function food_topic_english_labels() {
 	return array(
-		'nutricion-composicion' => 'Nutrition & composition',
-		'rankings-mejores-fuentes' => 'Rankings & best sources',
-		'comparativas' => 'Comparisons',
-		'seguridad-alimentaria' => 'Food safety',
-		'conservacion-almacenamiento' => 'Storage & shelf life',
-		'congelacion-descongelacion' => 'Freezing & thawing',
-		'cocina-ciencia-alimentos' => 'Cooking & food science',
-		'preparacion-tecnicas-cocina' => 'Preparation & cooking techniques',
-		'salud-consumo-habitual' => 'Health & everyday consumption',
-		'conceptos-nutricion' => 'Nutrition concepts',
-		'mitos-preguntas-frecuentes' => 'Myths & common questions',
-		'procesamiento-produccion-elaboracion' => 'Processing & production',
-		'compra-calidad-maduracion' => 'Buying, quality & ripeness',
+		'nutricion-composicion' => 'Nutrition & composition', 'rankings-mejores-fuentes' => 'Rankings & best sources', 'comparativas' => 'Comparisons', 'seguridad-alimentaria' => 'Food safety', 'conservacion-almacenamiento' => 'Storage & shelf life', 'congelacion-descongelacion' => 'Freezing & thawing', 'cocina-ciencia-alimentos' => 'Cooking & food science', 'preparacion-tecnicas-cocina' => 'Preparation & cooking techniques', 'salud-consumo-habitual' => 'Health & everyday consumption', 'conceptos-nutricion' => 'Nutrition concepts', 'mitos-preguntas-frecuentes' => 'Myths & common questions', 'procesamiento-produccion-elaboracion' => 'Processing & production', 'compra-calidad-maduracion' => 'Buying, quality & ripeness',
 	);
 }
 
@@ -337,21 +313,8 @@ function food_topic_display( $term_or_slug ) {
 
 function food_language_nav_fallback() {
 	$items = food_is_english()
-		? array(
-			array( 'Foods', food_category_url( 'alimentos', 'Foods' ) ),
-			array( 'Nutrition', food_topic_url( 'nutricion-composicion', 'Nutrition' ) ),
-			array( 'Safety', food_topic_url( 'seguridad-alimentaria', 'Food safety' ) ),
-			array( 'Cooking', food_topic_url( 'cocina-ciencia-alimentos', 'Cooking' ) ),
-			array( 'Storage', food_topic_url( 'conservacion-almacenamiento', 'Storage' ) ),
-		)
-		: array(
-			array( 'Alimentos', food_category_url( 'alimentos', 'Alimentos' ) ),
-			array( 'Nutrición', food_topic_url( 'nutricion-composicion', 'Nutrición' ) ),
-			array( 'Seguridad', food_topic_url( 'seguridad-alimentaria', 'Seguridad' ) ),
-			array( 'Cocina', food_topic_url( 'cocina-ciencia-alimentos', 'Cocina' ) ),
-			array( 'Conservación', food_topic_url( 'conservacion-almacenamiento', 'Conservación' ) ),
-		);
-
+		? array( array( 'Foods', food_category_url( 'alimentos', 'Foods' ) ), array( 'Nutrition', food_topic_url( 'nutricion-composicion', 'Nutrition' ) ), array( 'Safety', food_topic_url( 'seguridad-alimentaria', 'Food safety' ) ), array( 'Cooking', food_topic_url( 'cocina-ciencia-alimentos', 'Cooking' ) ), array( 'Storage', food_topic_url( 'conservacion-almacenamiento', 'Storage' ) ) )
+		: array( array( 'Alimentos', food_category_url( 'alimentos', 'Alimentos' ) ), array( 'Nutrición', food_topic_url( 'nutricion-composicion', 'Nutrición' ) ), array( 'Seguridad', food_topic_url( 'seguridad-alimentaria', 'Seguridad' ) ), array( 'Cocina', food_topic_url( 'cocina-ciencia-alimentos', 'Cocina' ) ), array( 'Conservación', food_topic_url( 'conservacion-almacenamiento', 'Conservación' ) ) );
 	echo '<ul class="menu food-fallback-menu">';
 	foreach ( $items as $item ) {
 		printf( '<li><a href="%s">%s</a></li>', esc_url( $item[1] ), esc_html( $item[0] ) );
@@ -360,13 +323,11 @@ function food_language_nav_fallback() {
 }
 
 function food_language_breadcrumbs() {
-	if ( is_front_page() || get_query_var( 'food_lang_home' ) ) {
+	if ( is_front_page() || food_is_english_home_request() ) {
 		return;
 	}
 	$english = food_is_english();
-	$home_label = $english ? 'Home' : 'Inicio';
-	$aria = $english ? 'Breadcrumbs' : 'Migas de pan';
-	echo '<nav class="breadcrumbs" aria-label="' . esc_attr( $aria ) . '"><a href="' . esc_url( food_language_home_url() ) . '">' . esc_html( $home_label ) . '</a><span>›</span>';
+	echo '<nav class="breadcrumbs" aria-label="' . esc_attr( $english ? 'Breadcrumbs' : 'Migas de pan' ) . '"><a href="' . esc_url( food_language_home_url() ) . '">' . esc_html( $english ? 'Home' : 'Inicio' ) . '</a><span>›</span>';
 	if ( is_single() ) {
 		$food_category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category() : null;
 		if ( $food_category ) {
@@ -375,8 +336,7 @@ function food_language_breadcrumbs() {
 		echo '<span aria-current="page">' . esc_html( get_the_title() ) . '</span>';
 	} elseif ( is_category() || is_tax( 'food_topic' ) ) {
 		$term = get_queried_object();
-		$label = is_category() ? food_family_display( $term->slug ) : food_topic_display( $term );
-		echo '<span aria-current="page">' . esc_html( $label ) . '</span>';
+		echo '<span aria-current="page">' . esc_html( is_category() ? food_family_display( $term->slug ) : food_topic_display( $term ) ) . '</span>';
 	} elseif ( is_search() ) {
 		echo '<span aria-current="page">' . esc_html( $english ? 'Search' : 'Buscar' ) . '</span>';
 	}
@@ -396,11 +356,7 @@ function food_language_hreflang() {
 add_action( 'wp_head', 'food_language_hreflang', 4 );
 
 function food_redirect_wrong_language_article() {
-	if ( ! is_singular( 'post' ) ) {
-		return;
-	}
-	$post_language = food_post_language( get_queried_object_id() );
-	if ( $post_language !== food_current_language() ) {
+	if ( is_singular( 'post' ) && food_post_language( get_queried_object_id() ) !== food_current_language() ) {
 		wp_safe_redirect( get_permalink( get_queried_object_id() ), 301 );
 		exit;
 	}
@@ -418,8 +374,7 @@ function food_migrate_existing_language_meta() {
 		}
 		$source_json = (string) get_post_meta( $post_id, '_food_source_json', true );
 		$source_id   = (string) get_post_meta( $post_id, '_food_source_id', true );
-		$language    = ( 0 === strpos( $source_json, 'en/' ) || 0 === strpos( $source_id, 'en-' ) ) ? 'en' : 'es';
-		update_post_meta( $post_id, '_food_language', $language );
+		update_post_meta( $post_id, '_food_language', ( 0 === strpos( $source_json, 'en/' ) || 0 === strpos( $source_id, 'en-' ) ) ? 'en' : 'es' );
 	}
 	update_option( 'food_language_meta_migration_v1', '1' );
 }
