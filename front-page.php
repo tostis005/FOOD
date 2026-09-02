@@ -1,156 +1,200 @@
-<?php get_header(); ?>
+<?php
+get_header();
 
-<section class="home-hero">
-	<div class="container home-hero-grid">
-		<div class="hero-main">
-			<span class="hero-kicker">Comida explicada sin complicaciones</span>
-			<h1>Respuestas claras para comer mejor.</h1>
-			<p>Entiende lo que compras, cocinas y comes. FOOD reúne guías prácticas sobre alimentos, seguridad, nutrición, cocina, origen y calidad.</p>
+$feature_post = food_get_home_feature_post();
+$feature_id   = $feature_post instanceof WP_Post ? (int) $feature_post->ID : 0;
+$feature_food = $feature_id ? food_get_primary_food_category( $feature_id ) : null;
+$feature_topic = $feature_id ? food_get_primary_topic( $feature_id ) : null;
+$discover_ids = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id ) : array() );
+?>
 
-			<form class="hero-search" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
+<section class="home-hero home-hero-v5">
+	<div class="container home-hero-grid home-hero-grid-v5">
+		<div class="hero-main hero-main-v5">
+			<span class="hero-kicker">Una guía para entender lo que comes</span>
+			<h1>Comida, explicada con criterio.</h1>
+			<p>Busca por alimento o por la duda que quieres resolver. FOOD organiza cada guía en dos dimensiones: de qué alimento habla y qué tipo de información necesitas.</p>
+
+			<form class="hero-search hero-search-v5" role="search" method="get" action="<?php echo esc_url( home_url( '/' ) ); ?>">
 				<label class="screen-reader-text" for="food-search">Buscar</label>
-				<input id="food-search" type="search" name="s" placeholder="Ej.: ¿por qué amarga el aceite de oliva?" value="<?php echo esc_attr( get_search_query() ); ?>">
-				<button type="submit">Buscar respuesta</button>
+				<input id="food-search" type="search" name="s" placeholder="Busca un alimento, una duda o una técnica…" value="<?php echo esc_attr( get_search_query() ); ?>">
+				<button type="submit">Buscar</button>
 			</form>
 
-			<div class="hero-prompts" aria-label="Búsquedas populares">
-				<span>Prueba con:</span>
-				<a href="<?php echo esc_url( home_url( '/?s=patata+verde' ) ); ?>">patata verde</a>
-				<a href="<?php echo esc_url( home_url( '/?s=aceite+amargo' ) ); ?>">aceite amargo</a>
-				<a href="<?php echo esc_url( home_url( '/?s=proteina+carne' ) ); ?>">proteína en carnes</a>
-			</div>
+			<nav class="hero-topic-links" aria-label="Explorar por tema">
+				<span>También por tema</span>
+				<a href="<?php echo esc_url( food_topic_url( 'seguridad-alimentaria', 'Seguridad alimentaria' ) ); ?>">Seguridad</a>
+				<a href="<?php echo esc_url( food_topic_url( 'nutricion', 'Nutrición' ) ); ?>">Nutrición</a>
+				<a href="<?php echo esc_url( food_topic_url( 'cocina-tecnica', 'Cocina y técnica' ) ); ?>">Cocina</a>
+				<a href="<?php echo esc_url( food_topic_url( 'origen-calidad', 'Origen y calidad' ) ); ?>">Calidad</a>
+			</nav>
 		</div>
 
-		<aside class="hero-question">
-			<div class="hero-question-top">
-				<span>Pregunta destacada</span>
-				<span class="hero-question-number">01</span>
+		<?php if ( $feature_id ) : ?>
+			<a class="home-feature-card" href="<?php echo esc_url( get_permalink( $feature_id ) ); ?>">
+				<div class="home-feature-media <?php echo has_post_thumbnail( $feature_id ) ? 'has-image' : 'has-illustration'; ?>">
+					<?php if ( has_post_thumbnail( $feature_id ) ) : ?>
+						<?php echo get_the_post_thumbnail( $feature_id, 'food-card', array( 'loading' => 'eager' ) ); ?>
+					<?php else : ?>
+						<div class="home-feature-illustration family-<?php echo esc_attr( $feature_food ? $feature_food->slug : 'general' ); ?>">
+							<?php echo food_category_icon_svg( $feature_food ? $feature_food->slug : '' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+						</div>
+					<?php endif; ?>
+				</div>
+				<div class="home-feature-body">
+					<div class="content-dimensions">
+						<?php if ( $feature_food ) : ?><span><?php echo esc_html( $feature_food->name ); ?></span><?php endif; ?>
+						<?php if ( $feature_topic ) : ?><span><?php echo esc_html( $feature_topic->name ); ?></span><?php endif; ?>
+					</div>
+					<strong><?php echo esc_html( get_the_title( $feature_id ) ); ?></strong>
+					<p><?php echo esc_html( wp_trim_words( get_the_excerpt( $feature_id ), 20 ) ); ?></p>
+					<span class="feature-read">Guía destacada <span aria-hidden="true">↗</span></span>
+				</div>
+			</a>
+		<?php else : ?>
+			<div class="home-feature-card home-feature-empty">
+				<div class="home-feature-media has-illustration"><div class="home-feature-illustration family-general"><?php echo food_category_icon_svg( '' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div></div>
+				<div class="home-feature-body"><div class="content-dimensions"><span>FOOD</span></div><strong>Las guías destacadas aparecerán aquí automáticamente.</strong><p>Cuando publiques contenido, la portada escogerá una guía destacada y la irá renovando sin tocar el diseño.</p></div>
 			</div>
-			<h2>¿Por qué la carne suelta agua en la sartén?</h2>
-			<p>La temperatura, la cantidad de carne y su propia humedad explican por qué a veces se cuece en vez de dorarse.</p>
-			<a href="<?php echo esc_url( food_post_url_by_slug( 'por-que-la-carne-suelta-agua-en-la-sarten', 'carne suelta agua sartén' ) ); ?>">Leer la explicación →</a>
-		</aside>
+		<?php endif; ?>
 	</div>
 </section>
 
-<section class="section food-index">
+<section class="section food-families-section">
 	<div class="container">
-		<header class="section-intro">
+		<header class="section-intro section-intro-v5">
 			<div>
-				<span class="section-label">Explora por alimento</span>
-				<h2>Empieza por lo que tienes delante</h2>
+				<span class="section-label">Primera dimensión</span>
+				<h2>Explora por alimento</h2>
 			</div>
-			<p>Cada familia reúne preguntas sobre conservación, calidad, cocina, nutrición y características del producto.</p>
+			<p>Una clasificación estable para crecer con cientos de artículos sin mezclar productos con tipos de consulta.</p>
 		</header>
 
-		<div class="food-index-grid">
+		<div class="food-family-grid">
 			<?php
-			$departments = array(
-				array( 'Carnes', 'carnes', '🥩', 'Cortes, conservación y cocción.' ),
-				array( 'Pescados y mariscos', 'pescados-mariscos', '🐟', 'Frescura, especies y seguridad.' ),
-				array( 'Jamón y embutidos', 'jamon-embutidos', '🍖', 'Curados, origen y calidad.' ),
-				array( 'Quesos y lácteos', 'quesos-lacteos', '🧀', 'Variedades, usos y conservación.' ),
-				array( 'Aceites', 'aceites', '🫒', 'Sabor, calidad y aceite de oliva.' ),
-				array( 'Legumbres', 'legumbres', '🫘', 'Remojo, cocción y nutrición.' ),
-				array( 'Frutas', 'frutas', '🍎', 'Maduración, temporada y conservación.' ),
-				array( 'Verduras y hortalizas', 'verduras-hortalizas', '🥬', 'Estado, temporada y cocina.' ),
-				array( 'Cereales, pan y pasta', 'cereales-pan-pasta', '🌾', 'Arroz, panes, cereales y pasta.' ),
-				array( 'Huevos', 'huevos', '🥚', 'Etiquetado, seguridad y cocina.' ),
+			$families = array(
+				array( 'Carnes', 'carnes', 'Cortes, calidad, conservación y cocción.' ),
+				array( 'Pescados y mariscos', 'pescados-mariscos', 'Frescura, especies, seguridad y cocina.' ),
+				array( 'Jamón y embutidos', 'jamon-embutidos', 'Curados, procedencia, categorías y calidad.' ),
+				array( 'Quesos y lácteos', 'quesos-lacteos', 'Variedades, conservación, usos y elaboración.' ),
+				array( 'Aceites', 'aceites', 'Sabor, conservación, usos y aceite de oliva.' ),
+				array( 'Legumbres', 'legumbres', 'Tipos, remojo, cocción y composición.' ),
+				array( 'Frutas', 'frutas', 'Maduración, temporada, conservación y calidad.' ),
+				array( 'Verduras y hortalizas', 'verduras-hortalizas', 'Estado, temporada, cocina y conservación.' ),
+				array( 'Cereales, pan y pasta', 'cereales-pan-pasta', 'Arroz, panes, cereales, pasta y harinas.' ),
+				array( 'Huevos', 'huevos', 'Etiquetado, frescura, seguridad y cocina.' ),
 			);
 
-			foreach ( $departments as $department ) : ?>
-				<a class="food-index-item" href="<?php echo esc_url( food_category_url( $department[1], $department[0] ) ); ?>">
-					<span class="food-index-icon" aria-hidden="true"><?php echo esc_html( $department[2] ); ?></span>
-					<span class="food-index-name"><?php echo esc_html( $department[0] ); ?></span>
-					<span class="food-index-arrow" aria-hidden="true">→</span>
-					<span class="food-index-note"><?php echo esc_html( $department[3] ); ?></span>
+			foreach ( $families as $family ) : ?>
+				<a class="food-family-card family-<?php echo esc_attr( $family[1] ); ?>" href="<?php echo esc_url( food_category_url( $family[1], $family[0] ) ); ?>">
+					<span class="food-family-art" aria-hidden="true"><?php echo food_category_icon_svg( $family[1] ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></span>
+					<span class="food-family-content">
+						<strong><?php echo esc_html( $family[0] ); ?></strong>
+						<small><?php echo esc_html( $family[2] ); ?></small>
+					</span>
+					<span class="food-family-arrow" aria-hidden="true">↗</span>
 				</a>
 			<?php endforeach; ?>
 		</div>
 	</div>
 </section>
 
-<section class="needs-section">
-	<div class="container needs-layout">
-		<div class="needs-intro">
-			<span class="section-label">También puedes empezar por tu duda</span>
-			<h2>¿Qué quieres resolver?</h2>
-			<p>No todas las búsquedas empiezan por un ingrediente. A veces lo importante es saber si algo se puede comer, comparar nutrientes o entender qué ha pasado al cocinar.</p>
-		</div>
-
-		<div class="needs-list">
-			<a class="need-row" href="<?php echo esc_url( food_category_url( 'seguridad-alimentaria', 'Seguridad alimentaria' ) ); ?>">
-				<span class="need-number">01</span><strong class="need-title">Seguridad alimentaria</strong><span class="need-copy">¿Se puede comer? ¿Está en mal estado? ¿Cómo conviene conservarlo?</span><span class="need-arrow">→</span>
-			</a>
-			<a class="need-row" href="<?php echo esc_url( food_category_url( 'nutricion', 'Nutrición' ) ); ?>">
-				<span class="need-number">02</span><strong class="need-title">Nutrición</strong><span class="need-copy">Proteína, grasa, fibra, energía y comparativas entre alimentos.</span><span class="need-arrow">→</span>
-			</a>
-			<a class="need-row" href="<?php echo esc_url( food_category_url( 'cocina', 'Cocina' ) ); ?>">
-				<span class="need-number">03</span><strong class="need-title">Cocina</strong><span class="need-copy">Técnicas, errores y explicaciones de lo que ocurre en la sartén, el horno o la olla.</span><span class="need-arrow">→</span>
-			</a>
-			<a class="need-row" href="<?php echo esc_url( food_category_url( 'platos-menus', 'Platos y menús' ) ); ?>">
-				<span class="need-number">04</span><strong class="need-title">Platos y menús</strong><span class="need-copy">Ideas para combinar alimentos y construir comidas cotidianas completas.</span><span class="need-arrow">→</span>
-			</a>
-			<a class="need-row" href="<?php echo esc_url( food_category_url( 'origen-calidad', 'Origen y calidad' ) ); ?>">
-				<span class="need-number">05</span><strong class="need-title">Origen y calidad</strong><span class="need-copy">DOP, sellos, etiquetado, procedencia y criterios para elegir mejor.</span><span class="need-arrow">→</span>
-			</a>
-		</div>
-	</div>
-</section>
-
-<section class="section question-section">
-	<div class="container">
-		<header class="section-intro">
-			<div>
-				<span class="section-label">Dudas frecuentes</span>
-				<h2>Preguntas que aparecen en cualquier cocina</h2>
-			</div>
-			<p>Consultas concretas con una respuesta rápida primero y una explicación completa después.</p>
+<section class="section topic-directory-section">
+	<div class="container topic-directory-layout">
+		<header class="topic-directory-intro">
+			<span class="section-label">Segunda dimensión</span>
+			<h2>Explora por lo que quieres saber</h2>
+			<p>Un artículo puede ser de <em>Carnes</em> y a la vez de <em>Nutrición</em>, <em>Seguridad</em> o <em>Cocina y técnica</em>. Las dos clasificaciones son independientes.</p>
 		</header>
 
-		<div class="question-list">
-			<a class="question-row" href="<?php echo esc_url( home_url( '/?s=patata+verde' ) ); ?>">
-				<span class="question-icon" aria-hidden="true">🥔</span><span class="question-copy"><strong>¿Una patata verde se puede comer?</strong><span>Qué significa el color verde y cuándo conviene descartarla.</span></span><span class="question-arrow">→</span>
-			</a>
-			<a class="question-row" href="<?php echo esc_url( food_post_url_by_slug( 'por-que-la-carne-suelta-agua-en-la-sarten', 'carne agua sartén' ) ); ?>">
-				<span class="question-icon" aria-hidden="true">🥩</span><span class="question-copy"><strong>¿Por qué la carne suelta agua?</strong><span>Temperatura, cantidad y cómo conseguir un buen dorado.</span></span><span class="question-arrow">→</span>
-			</a>
-			<a class="question-row" href="<?php echo esc_url( home_url( '/?s=jamon+denominacion+origen' ) ); ?>">
-				<span class="question-icon" aria-hidden="true">🍖</span><span class="question-copy"><strong>¿Qué significan las denominaciones de origen del jamón?</strong><span>Cómo reconocerlas y qué información aportan.</span></span><span class="question-arrow">→</span>
-			</a>
-			<a class="question-row" href="<?php echo esc_url( home_url( '/?s=carne+proteina+grasa' ) ); ?>">
-				<span class="question-icon" aria-hidden="true">⚖️</span><span class="question-copy"><strong>¿Qué carnes tienen más proteína y menos grasa?</strong><span>Una comparativa práctica para entender sus diferencias.</span></span><span class="question-arrow">→</span>
-			</a>
+		<div class="topic-directory-list">
+			<?php $topic_index = 0; foreach ( food_topic_definitions() as $topic_slug => $topic_definition ) : $topic_index++; $topic_term = get_term_by( 'slug', $topic_slug, 'food_topic' ); ?>
+				<a class="topic-directory-row" href="<?php echo esc_url( food_topic_url( $topic_slug, $topic_definition['name'] ) ); ?>">
+					<span class="topic-directory-number"><?php echo esc_html( str_pad( (string) $topic_index, 2, '0', STR_PAD_LEFT ) ); ?></span>
+					<strong><?php echo esc_html( $topic_definition['name'] ); ?></strong>
+					<span class="topic-directory-description"><?php echo esc_html( $topic_definition['description'] ); ?></span>
+					<span class="topic-directory-count"><?php echo $topic_term ? esc_html( (string) $topic_term->count ) : '0'; ?></span>
+					<span class="topic-directory-arrow" aria-hidden="true">→</span>
+				</a>
+			<?php endforeach; ?>
 		</div>
 	</div>
 </section>
+
+<?php if ( ! empty( $discover_ids ) ) : ?>
+	<section class="section discover-section">
+		<div class="container">
+			<header class="section-intro section-intro-v5">
+				<div>
+					<span class="section-label">Descubre algo nuevo</span>
+					<h2>Cinco lecturas para empezar</h2>
+				</div>
+				<p>Esta selección sale del contenido publicado y cambia periódicamente. No depende de ejemplos escritos a mano en la portada.</p>
+			</header>
+
+			<div class="discover-grid">
+				<?php
+				$discover_query = new WP_Query(
+					array(
+						'post_type'           => 'post',
+						'post_status'         => 'publish',
+						'posts_per_page'      => count( $discover_ids ),
+						'post__in'            => $discover_ids,
+						'orderby'             => 'post__in',
+						'ignore_sticky_posts' => true,
+					)
+				);
+				$discover_position = 0;
+				while ( $discover_query->have_posts() ) : $discover_query->the_post();
+					$discover_position++;
+					$food_term  = food_get_primary_food_category();
+					$topic_term = food_get_primary_topic();
+					?>
+					<a class="discover-card <?php echo 1 === $discover_position ? 'discover-card-lead' : ''; ?>" href="<?php the_permalink(); ?>">
+						<?php if ( 1 === $discover_position ) : ?>
+							<div class="discover-lead-media <?php echo has_post_thumbnail() ? 'has-image' : ''; ?>">
+								<?php if ( has_post_thumbnail() ) : the_post_thumbnail( 'food-card', array( 'loading' => 'lazy' ) ); else : ?>
+									<div class="discover-illustration family-<?php echo esc_attr( $food_term ? $food_term->slug : 'general' ); ?>"><?php echo food_category_icon_svg( $food_term ? $food_term->slug : '' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+								<?php endif; ?>
+							</div>
+						<?php endif; ?>
+						<div class="discover-card-body">
+							<div class="content-dimensions">
+								<?php if ( $food_term ) : ?><span><?php echo esc_html( $food_term->name ); ?></span><?php endif; ?>
+								<?php if ( $topic_term ) : ?><span><?php echo esc_html( $topic_term->name ); ?></span><?php endif; ?>
+							</div>
+							<strong><?php the_title(); ?></strong>
+							<?php if ( 1 === $discover_position ) : ?><p><?php echo esc_html( wp_trim_words( get_the_excerpt(), 24 ) ); ?></p><?php endif; ?>
+							<span class="discover-card-arrow" aria-hidden="true">↗</span>
+						</div>
+					</a>
+				<?php endwhile; wp_reset_postdata(); ?>
+			</div>
+		</div>
+	</section>
+<?php endif; ?>
 
 <?php if ( is_active_sidebar( 'home-ad' ) ) : ?>
 	<div class="container ad-slot"><?php dynamic_sidebar( 'home-ad' ); ?></div>
-<?php else : ?>
-	<div class="container ad-slot">Espacio preparado para publicidad / AdSense</div>
 <?php endif; ?>
 
-<section class="section latest-guides">
+<section class="section latest-guides latest-guides-v5">
 	<div class="container">
-		<div class="section-head">
-			<div><div class="eyebrow">Guías FOOD</div><h2>Para elegir, conservar, cocinar y comer mejor</h2></div>
+		<div class="section-head section-head-v5">
+			<div><div class="eyebrow">Recién publicado</div><h2>Últimas guías</h2></div>
 			<a class="section-link" href="<?php echo esc_url( get_permalink( get_option( 'page_for_posts' ) ) ?: home_url( '/blog/' ) ); ?>">Ver todos los artículos →</a>
 		</div>
 		<div class="card-grid">
 			<?php
-			$food_latest = new WP_Query( array( 'post_type' => 'post', 'posts_per_page' => 6, 'ignore_sticky_posts' => false ) );
+			$food_latest = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 6, 'ignore_sticky_posts' => false ) );
 			if ( $food_latest->have_posts() ) :
 				while ( $food_latest->have_posts() ) : $food_latest->the_post();
 					get_template_part( 'template-parts/card' );
 				endwhile;
 				wp_reset_postdata();
-			else :
-				for ( $i = 0; $i < 3; $i++ ) : ?>
-					<article class="post-card"><div class="card-media"><div class="card-placeholder"></div></div><div class="card-body"><div class="card-kicker">Guía FOOD</div><h2 class="card-title">Aquí aparecerán tus artículos</h2><p class="card-excerpt">Cada nueva guía se integrará automáticamente dentro de su categoría y en esta portada.</p></div></article>
-				<?php endfor;
-			endif;
-			?>
+			else : ?>
+				<div class="home-empty-state"><strong>La portada ya está preparada para crecer.</strong><p>Las últimas guías aparecerán aquí automáticamente en cuanto empieces a publicar.</p></div>
+			<?php endif; ?>
 		</div>
 	</div>
 </section>
