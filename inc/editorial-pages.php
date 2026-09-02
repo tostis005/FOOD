@@ -123,12 +123,12 @@ function food_register_editorial_page_rewrites() {
 		add_rewrite_rule( '^' . preg_quote( $languages['es']['slug'], '#' ) . '/?$', 'index.php?food_editorial_page=' . $key . '&food_lang=es', 'top' );
 		add_rewrite_rule( '^en/' . preg_quote( $languages['en']['slug'], '#' ) . '/?$', 'index.php?food_editorial_page=' . $key . '&food_lang=en', 'top' );
 	}
-	if ( '2' !== get_option( 'food_editorial_pages_rewrite_version' ) ) {
+	if ( '3' !== get_option( 'food_editorial_pages_rewrite_version' ) ) {
 		flush_rewrite_rules( false );
-		update_option( 'food_editorial_pages_rewrite_version', '2' );
+		update_option( 'food_editorial_pages_rewrite_version', '3' );
 	}
 }
-add_action( 'init', 'food_register_editorial_page_rewrites', 89 );
+add_action( 'init', 'food_register_editorial_page_rewrites', 99 );
 
 function food_prepare_editorial_page_query( $query ) {
 	if ( ! $query instanceof WP_Query || ! $query->is_main_query() || ! $query->get( 'food_editorial_page' ) ) {
