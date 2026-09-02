@@ -33,6 +33,7 @@ $food_languages        = function_exists( 'food_language_definitions' ) ? food_l
 	'en' => array( 'label' => 'English', 'short' => 'EN', 'flag' => '🇬🇧', 'locale' => 'en-US' ),
 );
 $food_current_flag     = isset( $food_languages[ $food_current_language ]['flag'] ) ? $food_languages[ $food_current_language ]['flag'] : '🌐';
+$food_editorial_key    = get_query_var( 'food_editorial_page' );
 $food_language_seo     = get_template_directory() . '/inc/language-seo.php';
 if ( file_exists( $food_language_seo ) ) {
 	require_once $food_language_seo;
@@ -62,6 +63,7 @@ if ( file_exists( $food_language_seo ) ) {
 		'pometum-v3.css',
 		'pometum-v4.css',
 		'pometum-v5-mobile-centering.css',
+		'pometum-v6-ui.css',
 	);
 	foreach ( $css_files as $css_file ) :
 		$css_path = get_template_directory() . '/assets/css/' . $css_file;
@@ -104,9 +106,9 @@ if ( file_exists( $food_language_seo ) ) {
 			<button class="language-toggle" type="button" aria-controls="language-overlay" aria-expanded="false" aria-label="<?php echo esc_attr( $food_english ? 'Change language' : 'Cambiar idioma' ); ?>">
 				<span class="language-current-flag" aria-hidden="true"><?php echo esc_html( $food_current_flag ); ?></span>
 			</button>
-			<a class="header-search" href="<?php echo esc_url( add_query_arg( 's', '', $food_home_url ) ); ?>" aria-label="<?php echo esc_attr( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?>">
+			<button class="header-search search-toggle" type="button" aria-controls="search-overlay" aria-expanded="false" aria-label="<?php echo esc_attr( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?>">
 				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
-			</a>
+			</button>
 			<button class="menu-toggle" type="button" aria-controls="mobile-menu-overlay" aria-expanded="false" aria-label="<?php echo esc_attr( $food_english ? 'Open menu' : 'Abrir menú' ); ?>">
 				<span class="menu-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span><span class="menu-toggle-label"><?php echo esc_html( $food_english ? 'Menu' : 'Menú' ); ?></span>
 			</button>
@@ -169,19 +171,40 @@ if ( file_exists( $food_language_seo ) ) {
 			<div class="language-options">
 				<?php foreach ( $food_languages as $code => $definition ) : ?>
 					<?php
-					$language_url = function_exists( 'food_language_switch_url' ) ? food_language_switch_url( $code ) : ( 'en' === $code ? home_url( '/en/' ) : home_url( '/' ) );
-					$is_current   = $code === $food_current_language;
+					if ( $food_editorial_key && function_exists( 'food_editorial_page_url' ) ) {
+						$language_url = food_editorial_page_url( $food_editorial_key, $code );
+					} else {
+						$language_url = function_exists( 'food_language_switch_url' ) ? food_language_switch_url( $code ) : ( 'en' === $code ? home_url( '/en/' ) : home_url( '/' ) );
+					}
+					$is_current = $code === $food_current_language;
 					?>
 					<a class="language-option" href="<?php echo esc_url( $language_url ); ?>" hreflang="<?php echo esc_attr( $code ); ?>" <?php echo $is_current ? 'aria-current="page"' : ''; ?>>
 						<span class="language-option-flag" aria-hidden="true"><?php echo esc_html( $definition['flag'] ); ?></span>
-						<span class="language-option-copy">
-							<span class="language-option-name"><?php echo esc_html( $definition['label'] ); ?></span>
-							<span class="language-option-status"><?php echo esc_html( $is_current ? ( $food_english ? 'Current edition' : 'Edición actual' ) : ( $food_english ? 'Open edition' : 'Abrir edición' ) ); ?></span>
-						</span>
+						<span class="language-option-copy"><span class="language-option-name"><?php echo esc_html( $definition['label'] ); ?></span></span>
 						<span class="language-option-arrow" aria-hidden="true">→</span>
 					</a>
 				<?php endforeach; ?>
 			</div>
+		</div>
+	</div>
+</div>
+
+<div class="search-overlay" id="search-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="<?php echo esc_attr( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?>">
+	<div class="search-overlay-shell">
+		<div class="search-overlay-top">
+			<a href="<?php echo esc_url( $food_home_url ); ?>" aria-label="Pometum"><?php food_pometum_logo( 'is-search-overlay' ); ?></a>
+			<button class="search-overlay-close" type="button" aria-label="<?php echo esc_attr( $food_english ? 'Close search' : 'Cerrar búsqueda' ); ?>">
+				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"></path></svg>
+			</button>
+		</div>
+		<div class="search-overlay-content">
+			<div class="search-overlay-eyebrow"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></div>
+			<h2 class="search-overlay-title"><?php echo esc_html( $food_english ? 'What do you want to know?' : '¿Qué quieres saber?' ); ?></h2>
+			<form class="search-overlay-form" role="search" method="get" action="<?php echo esc_url( $food_home_url ); ?>">
+				<label class="screen-reader-text" for="overlay-food-search"><?php echo esc_html( $food_english ? 'Search Pometum' : 'Buscar en Pometum' ); ?></label>
+				<input id="overlay-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'Food, question or cooking technique…' : 'Alimento, duda o técnica de cocina…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>" autocomplete="off">
+				<button type="submit"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></button>
+			</form>
 		</div>
 	</div>
 </div>
