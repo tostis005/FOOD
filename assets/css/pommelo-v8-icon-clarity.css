@@ -1,0 +1,77 @@
+/*
+ * Pommelo v8 — food-family clarity refinement.
+ * Every object is separated and immediately recognisable at card size.
+ */
+
+/* Always render the active family artwork explicitly in every editorial context. */
+.food-family-card[class*="family-"] .food-family-art::after,
+.home-feature-illustration[class*="family-"]::after,
+.discover-illustration[class*="family-"]::after,
+.card-placeholder.card-placeholder-illustrated[class*="family-"]::after,
+.article-hero-fallback[class*="family-"]::after,
+.taxonomy-hero-visual[class*="family-"]::after {
+  background-image: var(--family-icon) !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: contain !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Alimentación general: plate, fork and an unmistakable spoon. */
+.family-alimentacion-general {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Ccircle cx='60' cy='44' r='24' fill='%23fffaf3' stroke='%2326383e' stroke-width='3'/%3E%3Ccircle cx='60' cy='44' r='13' fill='%23f1ddd2' stroke='%2326383e' stroke-width='2'/%3E%3Cpath d='M13 17v14c0 7 10 7 10 0V17M18 17v18M18 35v35' fill='none' stroke='%2326383e' stroke-width='3' stroke-linecap='round'/%3E%3Cellipse cx='101' cy='25' rx='7' ry='10' fill='%23fffaf3' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M101 35v35' fill='none' stroke='%2326383e' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+/* Carnes: one high-contrast steak, centred and large enough to read immediately. */
+.family-carnes {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M18 45c0-17 13-29 34-32 22-3 46 5 51 22 5 18-10 34-31 39-23 5-47-2-53-18-1-4-1-8-1-11Z' fill='%23dc765f' stroke='%2326383e' stroke-width='3.5'/%3E%3Cpath d='M66 28c10-3 20 2 21 11 2 10-6 19-17 21-10 2-20-3-21-12-2-9 6-17 17-20Z' fill='%23fff8ef' stroke='%2326383e' stroke-width='2.7'/%3E%3Cellipse cx='69' cy='44' rx='6' ry='8' fill='%23ead0c3' stroke='%2326383e' stroke-width='2'/%3E%3Cpath d='M28 52c7 6 15 9 24 10M27 42c5 3 10 4 15 5' fill='none' stroke='%23b95649' stroke-width='2.3' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+.food-family-card.family-carnes .food-family-art::after {
+  width: 94px !important;
+  height: 68px !important;
+}
+
+/* Legumbres y soja: several small beans/lentils, separated rather than three big circles. */
+.family-legumbres-soja {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M14 32c-3-7 3-14 10-13 8 1 11 9 7 15-4 6-14 6-17-2Z' fill='%23a86145' stroke='%2326383e' stroke-width='2.2'/%3E%3Cpath d='M39 22c7-4 14 1 13 8-1 7-9 11-15 7-5-4-4-12 2-15Z' fill='%23d7b86f' stroke='%2326383e' stroke-width='2.2'/%3E%3Cpath d='M64 29c-2-7 5-13 12-11 7 2 9 10 4 15-5 5-14 3-16-4Z' fill='%238aa35e' stroke='%2326383e' stroke-width='2.2'/%3E%3Cpath d='M91 22c7-4 14 2 12 9-2 7-10 10-15 6-5-4-3-12 3-15Z' fill='%23c67b54' stroke='%2326383e' stroke-width='2.2'/%3E%3Cellipse cx='25' cy='56' rx='9' ry='6' fill='%23d4bd84' stroke='%2326383e' stroke-width='2.2' transform='rotate(-15 25 56)'/%3E%3Cellipse cx='50' cy='57' rx='8' ry='5.5' fill='%23b16b4c' stroke='%2326383e' stroke-width='2.2' transform='rotate(18 50 57)'/%3E%3Cellipse cx='75' cy='55' rx='8' ry='5.5' fill='%2397ad68' stroke='%2326383e' stroke-width='2.2' transform='rotate(-10 75 55)'/%3E%3Cellipse cx='99' cy='57' rx='8' ry='5.5' fill='%23e0c777' stroke='%2326383e' stroke-width='2.2' transform='rotate(14 99 57)'/%3E%3C/svg%3E");
+}
+
+/* Tubérculos: potato, sweet potato and turnip as three distinct objects. */
+.family-tuberculos {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M8 48c0-14 11-24 25-24 15 0 25 9 25 22 0 15-12 25-27 25C17 71 8 62 8 48Z' fill='%23c79a6c' stroke='%2326383e' stroke-width='3'/%3E%3Ccircle cx='25' cy='39' r='2' fill='%23755a47'/%3E%3Ccircle cx='40' cy='34' r='2' fill='%23755a47'/%3E%3Ccircle cx='42' cy='52' r='2' fill='%23755a47'/%3E%3Cpath d='M65 33c7-7 17-8 23-2 7 7 2 19-6 28-7 8-17 12-23 6-6-6-1-22 6-32Z' fill='%23d98154' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M98 39c0-9 6-15 12-15s10 6 10 15c0 11-6 19-11 19s-11-8-11-19Z' fill='%23f3eee4' stroke='%2326383e' stroke-width='2.5'/%3E%3Cpath d='M109 25c-4-8-2-14 4-18M109 25c4-8 8-11 13-10' fill='none' stroke='%23769a64' stroke-width='3' stroke-linecap='round'/%3E%3Cpath d='M99 35h19' stroke='%238b5b84' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E");
+}
+
+/* Verduras: restore a classic tapered carrot with leaves, plus one separate mushroom. */
+.family-verduras-hortalizas-setas {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M20 30c11-5 24-5 34 0-4 16-10 31-18 47-8-15-13-31-16-47Z' fill='%23e98a45' stroke='%2326383e' stroke-width='3' stroke-linejoin='round'/%3E%3Cpath d='M34 29C24 20 22 12 26 5c8 4 13 10 14 19 2-10 7-16 16-20 3 9-1 18-12 26' fill='%237ba166' stroke='%2326383e' stroke-width='2.5' stroke-linejoin='round'/%3E%3Cpath d='M75 42c2-11 10-18 20-18s18 7 20 18H75Z' fill='%23d5b28e' stroke='%2326383e' stroke-width='3'/%3E%3Cpath d='M85 42v28h20V42' fill='%23f1dcc4' stroke='%2326383e' stroke-width='3'/%3E%3C/svg%3E");
+}
+
+/* Frutas: exactly four non-overlapping fruits — apple, pear, avocado and banana. */
+.family-frutas {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M5 50c0-12 7-20 16-20 10 0 17 8 17 20 0 13-7 22-17 22S5 63 5 50Z' fill='%23e56f5f' stroke='%2326383e' stroke-width='2.5'/%3E%3Cpath d='M21 31c0-6 3-10 8-12M25 25c5-4 10-3 13 1-4 4-8 5-13 2Z' fill='%23769c63' stroke='%2326383e' stroke-width='1.8' stroke-linecap='round'/%3E%3Cpath d='M46 31c3-5 4-9 4-13M45 31c-7 6-10 14-9 23 1 12 8 19 17 19 10 0 17-8 17-20 0-9-4-17-10-22-3-3-5-6-5-10-4 4-6 7-10 10Z' fill='%23d7b85b' stroke='%2326383e' stroke-width='2.5' stroke-linejoin='round'/%3E%3Cpath d='M74 49c0-15 7-27 15-27s15 12 15 27c0 14-6 23-15 23s-15-9-15-23Z' fill='%237ca05f' stroke='%2326383e' stroke-width='2.5'/%3E%3Ccircle cx='89' cy='55' r='6' fill='%23bd7b54' stroke='%2326383e' stroke-width='1.8'/%3E%3Cpath d='M108 28c-1 17 2 29 11 36-4 6-9 8-14 5-8-5-11-17-8-30 2-8 5-13 11-17' fill='%23f1c64e' stroke='%2326383e' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E");
+}
+
+.food-family-card.family-frutas .food-family-art::after {
+  width: 96px !important;
+  height: 66px !important;
+}
+
+/* Algas y especias: a seaweed frond and a spice jar, separated and literal. */
+.family-algas-especias-otros-alimentos {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 88'%3E%3Cpath d='M16 72c7-15 3-26-1-39 11 8 15 18 13 31 5-13 5-27 0-42 13 11 18 25 14 42 7-12 10-24 8-36 10 12 12 27 4 44H16Z' fill='%23759668' stroke='%2326383e' stroke-width='2.8' stroke-linejoin='round'/%3E%3Crect x='73' y='24' width='31' height='47' rx='5' fill='%23fff8ef' stroke='%2326383e' stroke-width='3'/%3E%3Crect x='77' y='15' width='23' height='10' rx='3' fill='%23c66f58' stroke='%2326383e' stroke-width='2.5'/%3E%3Cpath d='M78 50h21v15H78Z' fill='%23d98455'/%3E%3Ccircle cx='83' cy='35' r='2' fill='%23b65f49'/%3E%3Ccircle cx='89' cy='35' r='2' fill='%23b65f49'/%3E%3Ccircle cx='95' cy='35' r='2' fill='%23b65f49'/%3E%3C/svg%3E");
+}
+
+/* Keep these refined pictograms optically centred on both desktop and mobile. */
+.food-family-card.family-alimentacion-general .food-family-art,
+.food-family-card.family-carnes .food-family-art,
+.food-family-card.family-legumbres-soja .food-family-art,
+.food-family-card.family-tuberculos .food-family-art,
+.food-family-card.family-verduras-hortalizas-setas .food-family-art,
+.food-family-card.family-frutas .food-family-art,
+.food-family-card.family-algas-especias-otros-alimentos .food-family-art {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
