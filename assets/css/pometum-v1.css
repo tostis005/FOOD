@@ -17,6 +17,7 @@
   --pometum-serif: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
   --pometum-sans: "Avenir Next", Avenir, "Segoe UI Variable", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
   --pometum-shadow: 0 18px 50px rgba(57, 69, 54, .07);
+  --pometum-article-width: 980px;
 }
 
 html { background: var(--pometum-cream); }
@@ -29,7 +30,6 @@ body {
 }
 
 ::selection { background: rgba(232, 199, 106, .55); color: var(--pometum-olive); }
-
 a { text-decoration-color: rgba(217, 108, 85, .45); }
 
 /* Brand ------------------------------------------------------------------ */
@@ -98,6 +98,8 @@ a { text-decoration-color: rgba(217, 108, 85, .45); }
 .section-head h2,
 .archive-header h1,
 .article-header h1,
+.entry-content h2,
+.entry-content h3,
 .card-title,
 .home-feature-body strong,
 .discover-card-body strong {
@@ -122,9 +124,7 @@ a { text-decoration-color: rgba(217, 108, 85, .45); }
 .card-excerpt,
 .home-feature-body p,
 .taxonomy-description,
-.article-deck {
-  color: var(--pometum-muted) !important;
-}
+.article-deck { color: var(--pometum-muted) !important; }
 .section-label,
 .hero-kicker,
 .eyebrow,
@@ -205,10 +205,7 @@ a { text-decoration-color: rgba(217, 108, 85, .45); }
 .section { background: transparent !important; }
 .food-families-section { padding-top: 62px !important; }
 .section-intro-v5 { border-bottom-color: var(--pometum-line) !important; }
-
-.food-family-grid {
-  gap: 16px !important;
-}
+.food-family-grid { gap: 16px !important; }
 .food-family-card {
   --category-accent: var(--pometum-earth);
   --category-soft: #EAE2D7;
@@ -229,9 +226,7 @@ a { text-decoration-color: rgba(217, 108, 85, .45); }
   border-bottom: 1px solid rgba(57,69,54,.10) !important;
 }
 .food-family-art::after,
-.topic-card-art::after {
-  filter: saturate(.72) contrast(.96) !important;
-}
+.topic-card-art::after { filter: saturate(.72) contrast(.96) !important; }
 .food-family-content { background: var(--pometum-paper) !important; }
 .food-family-content strong { color: var(--pometum-olive) !important; }
 .food-family-content small { color: var(--pometum-muted) !important; }
@@ -266,9 +261,7 @@ a { text-decoration-color: rgba(217, 108, 85, .45); }
 }
 .card-placeholder-illustrated,
 .article-hero-fallback,
-.taxonomy-hero-visual {
-  border-radius: 7px !important;
-}
+.taxonomy-hero-visual { border-radius: 7px !important; }
 
 /* Topic directory --------------------------------------------------------- */
 .topic-directory-section {
@@ -328,11 +321,57 @@ a { text-decoration-color: rgba(217, 108, 85, .45); }
 .taxonomy-description { font-family: var(--pometum-sans) !important; }
 
 /* Article ---------------------------------------------------------------- */
+.article-shell,
+.article-hero,
+.article-hero-fallback {
+  box-sizing: border-box !important;
+  width: min(var(--pometum-article-width), calc(100% - 28px)) !important;
+  max-width: var(--pometum-article-width) !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
 .article-header { text-align: left !important; }
 .article-header h1 { margin-left: 0 !important; margin-right: 0 !important; color: var(--pometum-olive) !important; }
 .article-deck { margin-left: 0 !important; margin-right: 0 !important; }
 .article-meta { justify-content: flex-start !important; color: var(--pometum-earth) !important; }
 .article-dimensions { justify-content: flex-start !important; }
+.article-hero {
+  overflow: hidden !important;
+  border-radius: 7px !important;
+  background: var(--pometum-paper) !important;
+}
+.article-hero img {
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  margin: 0 !important;
+}
+.article-hero-fallback {
+  min-height: clamp(210px, 25vw, 300px) !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  overflow: hidden !important;
+  border: 1px solid rgba(57,69,54,.12) !important;
+}
+.article-hero-fallback::after {
+  content: none !important;
+  display: none !important;
+}
+.article-hero-fallback > svg,
+.article-hero-fallback .food-family-svg,
+.article-hero-fallback .food-topic-svg {
+  display: block !important;
+  position: static !important;
+  inset: auto !important;
+  transform: none !important;
+  width: min(190px, 36vw) !important;
+  height: auto !important;
+  max-height: 160px !important;
+  margin: 0 !important;
+  color: var(--category-accent, var(--topic-accent, var(--pometum-olive))) !important;
+  opacity: 1 !important;
+}
 .answer-box {
   background: #E4E6DB !important;
   border: 1px solid rgba(57,69,54,.15) !important;
@@ -342,10 +381,12 @@ a { text-decoration-color: rgba(217, 108, 85, .45); }
 .answer-box strong { color: var(--pometum-olive) !important; }
 .entry-content {
   color: #33372F !important;
-  font-family: var(--pometum-serif) !important;
+  font-family: var(--pometum-sans) !important;
+  font-size: 1.055rem !important;
+  line-height: 1.78 !important;
 }
 .entry-content h2,
-.entry-content h3 { font-family: var(--pometum-serif) !important; color: var(--pometum-olive) !important; }
+.entry-content h3 { color: var(--pometum-olive) !important; }
 .entry-content table { font-family: var(--pometum-sans) !important; }
 .entry-content th { background: #E7E1D5 !important; color: var(--pometum-olive) !important; }
 .entry-content th,
@@ -400,4 +441,8 @@ a { text-decoration-color: rgba(217, 108, 85, .45); }
   .topic-card { border-radius: 5px !important; }
   .topic-card-art { background: rgba(57,69,54,.055) !important; }
   .article-header { padding-top: 18px !important; }
+  .article-hero-fallback { min-height: 190px !important; }
+  .article-hero-fallback > svg,
+  .article-hero-fallback .food-family-svg,
+  .article-hero-fallback .food-topic-svg { width: 124px !important; max-height: 118px !important; }
 }
