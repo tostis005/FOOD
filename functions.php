@@ -1,6 +1,6 @@
 <?php
 /**
- * FOOD theme functions.
+ * Pommelo theme functions.
  *
  * @package FOOD
  */
@@ -83,33 +83,113 @@ function food_reading_time() {
 }
 
 /**
- * Food families remain hierarchical WordPress categories.
- * The independent informational dimension lives in the food_topic taxonomy
- * loaded near the end of this file.
+ * Definitive first-version classification by food.
+ *
+ * A post may have one of these terms, or none when the subject is purely
+ * transversal. The independent article-type taxonomy is defined separately.
  */
+function food_family_definitions() {
+	return array(
+		'alimentacion-general' => array(
+			'name'        => 'Alimentación general',
+			'description' => 'Guías generales sobre alimentos, hábitos cotidianos y cuestiones que afectan a varias familias de productos.',
+			'short'       => 'Conceptos y dudas que abarcan distintos alimentos.',
+		),
+		'carnes' => array(
+			'name'        => 'Carnes',
+			'description' => 'Tipos de carne, cortes, calidad, conservación, preparación, cocción y composición nutricional.',
+			'short'       => 'Cortes, calidad, conservación y cocina.',
+		),
+		'pescados-mariscos' => array(
+			'name'        => 'Pescados y mariscos',
+			'description' => 'Pescados y mariscos: especies, frescura, seguridad, conservación, nutrición y técnicas de cocina.',
+			'short'       => 'Especies, frescura, seguridad y cocina.',
+		),
+		'huevos' => array(
+			'name'        => 'Huevos',
+			'description' => 'Huevos: etiquetado, frescura, conservación, seguridad alimentaria, nutrición y formas de cocinarlos.',
+			'short'       => 'Frescura, etiquetado, nutrición y cocina.',
+		),
+		'lacteos-quesos' => array(
+			'name'        => 'Lácteos y quesos',
+			'description' => 'Leche, yogur, quesos y otros lácteos: composición, variedades, conservación, calidad y elaboración.',
+			'short'       => 'Leche, yogur, quesos, calidad y conservación.',
+		),
+		'legumbres-soja' => array(
+			'name'        => 'Legumbres y soja',
+			'description' => 'Lentejas, garbanzos, judías, soja y derivados: nutrición, remojo, cocción, conservación y usos.',
+			'short'       => 'Legumbres, soja, remojo, cocción y nutrición.',
+		),
+		'frutos-secos-semillas' => array(
+			'name'        => 'Frutos secos y semillas',
+			'description' => 'Frutos secos y semillas: composición nutricional, conservación, tostado, consumo y diferencias entre variedades.',
+			'short'       => 'Nueces, almendras, semillas y sus propiedades.',
+		),
+		'cereales-pseudocereales-derivados' => array(
+			'name'        => 'Cereales, pseudocereales y derivados',
+			'description' => 'Arroz, avena, trigo, quinoa, pan, pasta, harinas y otros derivados: nutrición, conservación y cocina.',
+			'short'       => 'Arroz, avena, quinoa, pan, pasta y harinas.',
+		),
+		'tuberculos' => array(
+			'name'        => 'Tubérculos',
+			'description' => 'Patata, boniato y otros tubérculos: conservación, seguridad, composición, preparación y cocina.',
+			'short'       => 'Patata, boniato, conservación y cocina.',
+		),
+		'verduras-hortalizas-setas' => array(
+			'name'        => 'Verduras, hortalizas y setas',
+			'description' => 'Verduras, hortalizas y setas: temporada, frescura, conservación, seguridad, nutrición y técnicas de cocina.',
+			'short'       => 'Frescura, temporada, setas, verduras y cocina.',
+		),
+		'frutas' => array(
+			'name'        => 'Frutas',
+			'description' => 'Frutas: maduración, temporada, conservación, seguridad, composición nutricional y señales de calidad.',
+			'short'       => 'Maduración, temporada, conservación y calidad.',
+		),
+		'aceites-grasas' => array(
+			'name'        => 'Aceites y grasas',
+			'description' => 'Aceite de oliva, otros aceites y grasas culinarias: composición, calidad, conservación y usos en cocina.',
+			'short'       => 'Aceite de oliva, grasas, calidad y usos.',
+		),
+		'bebidas' => array(
+			'name'        => 'Bebidas',
+			'description' => 'Agua, café, té, infusiones y otras bebidas: composición, preparación, conservación y consumo.',
+			'short'       => 'Agua, café, té, infusiones y otras bebidas.',
+		),
+		'chocolate-cacao-dulces' => array(
+			'name'        => 'Chocolate, cacao y alimentos dulces',
+			'description' => 'Chocolate, cacao y alimentos dulces: ingredientes, composición, calidad, conservación y elaboración.',
+			'short'       => 'Chocolate, cacao, dulces, ingredientes y calidad.',
+		),
+		'fermentados' => array(
+			'name'        => 'Fermentados',
+			'description' => 'Alimentos fermentados: procesos, microorganismos, conservación, seguridad, elaboración y consumo.',
+			'short'       => 'Fermentación, elaboración, conservación y consumo.',
+		),
+		'algas-especias-otros-alimentos' => array(
+			'name'        => 'Algas, especias y otros alimentos',
+			'description' => 'Algas, especias, condimentos y otros alimentos: usos, calidad, composición y conservación.',
+			'short'       => 'Algas, especias, condimentos y otros alimentos.',
+		),
+	);
+}
+
 function food_editorial_categories() {
+	$children = array();
+	foreach ( food_family_definitions() as $slug => $definition ) {
+		$children[ $slug ] = array( $definition['name'], $definition['description'] );
+	}
+
 	return array(
 		'alimentos' => array(
 			'name'        => 'Alimentos',
-			'description' => 'Guías organizadas por familias de alimentos: cómo elegirlos, conservarlos, entenderlos y cocinarlos.',
-			'children'    => array(
-				'carnes'             => array( 'Carnes', 'Tipos de carne, cortes, calidad, conservación, cocina y nutrición práctica.' ),
-				'pescados-mariscos'  => array( 'Pescados y mariscos', 'Pescados, mariscos, frescura, conservación, cocina y características del producto.' ),
-				'jamon-embutidos'    => array( 'Jamón y embutidos', 'Jamón, paleta, embutidos, curados, calidades, origen, conservación y consumo.' ),
-				'quesos-lacteos'     => array( 'Quesos y lácteos', 'Quesos, leche y otros lácteos: variedades, calidad, conservación y usos.' ),
-				'aceites'             => array( 'Aceites', 'Aceite de oliva y otros aceites: sabor, calidad, conservación, usos y dudas frecuentes.' ),
-				'legumbres'           => array( 'Legumbres', 'Lentejas, garbanzos, judías y otras legumbres: propiedades, conservación y cocina.' ),
-				'frutas'              => array( 'Frutas', 'Frutas: maduración, conservación, calidad, temporada y dudas habituales.' ),
-				'verduras-hortalizas' => array( 'Verduras y hortalizas', 'Verduras y hortalizas: estado, conservación, cocina, temporada y calidad.' ),
-				'cereales-pan-pasta'  => array( 'Cereales, pan y pasta', 'Arroz, cereales, panes y pastas: variedades, conservación, cocina y nutrición.' ),
-				'huevos'              => array( 'Huevos', 'Huevos: conservación, etiquetado, cocina, seguridad y calidad.' ),
-			),
+			'description' => 'Información práctica sobre alimentos: nutrición, seguridad alimentaria, conservación, calidad, preparación y cocina.',
+			'children'    => $children,
 		),
 	);
 }
 
 function food_ensure_editorial_structure() {
-	$structure_version = '3';
+	$structure_version = '4';
 	if ( get_option( 'food_editorial_structure_version' ) === $structure_version ) {
 		return;
 	}
@@ -129,7 +209,14 @@ function food_ensure_editorial_structure() {
 				$parent = get_term( (int) $created['term_id'], 'category' );
 			}
 		} else {
-			wp_update_term( $parent->term_id, 'category', array( 'description' => $definition['description'] ) );
+			wp_update_term(
+				$parent->term_id,
+				'category',
+				array(
+					'name'        => $definition['name'],
+					'description' => $definition['description'],
+				)
+			);
 		}
 
 		if ( empty( $definition['children'] ) || ! $parent || is_wp_error( $parent ) ) {
@@ -153,6 +240,7 @@ function food_ensure_editorial_structure() {
 					$child_term->term_id,
 					'category',
 					array(
+						'name'        => $child[0],
 						'description' => $child[1],
 						'parent'      => (int) $parent->term_id,
 					)
@@ -189,18 +277,10 @@ function food_post_url_by_slug( $slug, $fallback_search = '' ) {
 	return home_url( '/?s=' . rawurlencode( $fallback_search ? $fallback_search : $slug ) );
 }
 
-/**
- * Legacy fallback kept for compatibility with older templates.
- */
+/** Legacy fallback kept for compatibility with older templates. */
 function food_category_fallback() {
-	$items = array(
-		'Alimentos' => 'alimentos',
-	);
-
 	echo '<ul class="menu food-fallback-menu">';
-	foreach ( $items as $label => $slug ) {
-		printf( '<li><a href="%s">%s</a></li>', esc_url( food_category_url( $slug, $label ) ), esc_html( $label ) );
-	}
+	printf( '<li><a href="%s">%s</a></li>', esc_url( food_category_url( 'alimentos', 'Alimentos' ) ), esc_html( 'Alimentos' ) );
 	echo '</ul>';
 }
 
@@ -211,9 +291,9 @@ function food_breadcrumbs() {
 
 	echo '<nav class="breadcrumbs" aria-label="Migas de pan"><a href="' . esc_url( home_url( '/' ) ) . '">Inicio</a><span>›</span>';
 	if ( is_single() ) {
-		$categories = get_the_category();
-		if ( ! empty( $categories ) ) {
-			echo '<a href="' . esc_url( get_category_link( $categories[0] ) ) . '">' . esc_html( $categories[0]->name ) . '</a><span>›</span>';
+		$food_category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category() : null;
+		if ( $food_category ) {
+			echo '<a href="' . esc_url( get_category_link( $food_category ) ) . '">' . esc_html( $food_category->name ) . '</a><span>›</span>';
 		}
 		echo '<span aria-current="page">' . esc_html( get_the_title() ) . '</span>';
 	} elseif ( is_category() || is_tax( 'food_topic' ) ) {
