@@ -1,4 +1,19 @@
 document.addEventListener('DOMContentLoaded', function () {
+  const isEnglish = document.documentElement.lang.toLowerCase().startsWith('en');
+
+  const englishOptionFlag = document.querySelector('.language-option[hreflang="en"] .language-option-flag');
+  if (englishOptionFlag) englishOptionFlag.textContent = '🇺🇸';
+
+  if (isEnglish) {
+    const currentFlag = document.querySelector('.language-current-flag');
+    if (currentFlag) currentFlag.textContent = '🇺🇸';
+  }
+
+  const searchTitle = document.querySelector('.search-overlay-title');
+  const searchInput = document.querySelector('#overlay-food-search');
+  if (searchTitle) searchTitle.textContent = isEnglish ? 'Find the information you need' : 'Encuentra la información que necesitas';
+  if (searchInput) searchInput.setAttribute('placeholder', isEnglish ? 'Type a food or question…' : 'Escribe un alimento o una pregunta…');
+
   const configs = [
     {
       openButton: document.querySelector('.language-toggle'),
