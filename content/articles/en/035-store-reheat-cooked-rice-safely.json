@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "en-035-store-reheat-cooked-rice-safely",
+  "article_number": 35,
+  "translation_group": "035-store-reheat-cooked-rice-safely",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; FoodSafety.gov leftovers guidance and FDA Bacillus cereus context",
+  "title": "How to Store and Reheat Cooked Rice Safely",
+  "slug": "store-reheat-cooked-rice-safely",
+  "seo": {
+    "title": "How to Store and Reheat Cooked Rice Safely",
+    "meta_description": "Cool cooked rice quickly, refrigerate within 2 hours and reheat evenly to 165°F. Reheating cannot fix rice that spent hours warm.",
+    "search_intent": "Learn the safe process for cooling, storing and reheating cooked rice in a U.S. household."
+  },
+  "excerpt": "Cooked rice is safest when it is cooled quickly, refrigerated within 2 hours and reheated evenly to 165°F / 74°C. The key hazard is not reheating itself: Bacillus cereus spores can survive cooking, and heat-stable toxin may form if rice spends too long warm.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": ["rice"],
+    "article_types": ["food-safety", "storage"],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>The biggest rice mistake often happens before the microwave ever turns on. A pot sits warm for most of the evening, finally goes into the refrigerator, and gets blasted with heat the next day as if reheating can erase the previous hours. <strong>It cannot.</strong></p><p><em>Bacillus cereus</em> can form spores that survive cooking. If cooked rice remains warm long enough, those spores can germinate and some strains can produce toxins that are resistant to heat.</p><h2>The safe routine starts as soon as the meal is over</h2><ol><li>Separate the rice you plan to save.</li><li>Move it into shallow containers instead of leaving it in a deep pot.</li><li>Refrigerate within 2 hours, or within 1 hour if the surrounding temperature is above 90°F / 32°C.</li><li>Keep the refrigerator at 40°F / 4°C or below.</li><li>Reheat only the portion you need and bring leftovers to 165°F / 74°C.</li></ol><p>This sequence matters more than whether the rice smells fresh the next day.</p><h2>Why a large pot is a poor cooling container</h2><p>The surface can feel cool while the center remains warm. Shallow containers increase surface area and help the rice move through warm temperatures faster. You do not need to leave rice on the counter until every grain reaches room temperature.</p><p>FoodSafety.gov advises refrigerating perishable leftovers within <strong>2 hours</strong>, or within <strong>1 hour above 90°F / 32°C</strong>.</p><h2>The issue is Bacillus cereus, not “reheated rice”</h2><p><em>B. cereus</em> spores are common in the environment and can occur in starchy foods. Normal cooking destroys many active bacteria but may not destroy all spores. Time spent warm after cooking gives surviving spores a chance to germinate.</p><p>FDA describes cereulide, the vomiting-type toxin made by some strains, as heat-resistant. That is why reheating is not a rescue step for rice that sat out for hours.</p><h2>How long can properly cooled rice stay refrigerated?</h2><p>In the United States, cooked rice fits within the general USDA/FoodSafety.gov leftover window of <strong>3–4 days at 40°F / 4°C or below</strong>. That timeline assumes prompt cooling and good refrigeration from the start.</p><p>The U.K. Food Standards Agency uses a stricter rice-specific limit of 24 hours. That is a more conservative approach, but it does not change the central U.S. rule: cool quickly and keep cold.</p><h2>How to reheat rice in a microwave</h2><p>Spread the rice evenly in a microwave-safe container, add a small splash of water if you want to restore moisture, cover appropriately and heat. Stir partway through and break up dense clumps.</p><p>USDA's leftover target is <strong>165°F / 74°C throughout</strong>. Stirring and a short standing time help reduce cold spots that a microwave can leave behind.</p><h2>A skillet works too — uniform heat is the goal</h2><p>Stovetop reheating can make it easier to stir continuously. Add only the liquid or oil the dish needs for texture and flavor; oil does not provide a special food-safety effect.</p><h2>Repeated heating and cooling adds unnecessary risk</h2><p>Rather than reheating the entire batch each time, remove only the portion you plan to eat. Every extra cycle adds handling and another period of warming and cooling.</p><p>Most importantly, no number of reheats makes rice safe if the original storage history was poor.</p><h2>Rice that should be discarded</h2><ul><li>Rice that sat out overnight.</li><li>Rice that spent more than 2 hours at room temperature, or more than 1 hour above 90°F / 32°C.</li><li>Rice with an unknown cooling history.</li><li>Rice that has been repeatedly warmed and cooled.</li><li>Rice with obvious spoilage.</li></ul><p>A normal smell does not prove the absence of <em>B. cereus</em> toxin.</p><h2>Freeze early if you will not use it soon</h2><p>Cooked rice freezes well when it is cooled promptly and portioned. Freezing on day one is a clearer plan than keeping a large batch in the refrigerator until the end of its storage window.</p><h2>The rule worth remembering</h2><p><strong>Cool quickly, refrigerate within 2 hours, keep it cold, and reheat leftovers evenly to 165°F / 74°C.</strong> The safety of reheated rice is largely determined by what happened before reheating began.</p>",
+  "faq": [
+    {"question": "Do I need to cool rice completely before putting it in the fridge?", "answer": "No. Divide it into shallow containers and refrigerate promptly rather than leaving a large pot at room temperature for hours."},
+    {"question": "What temperature should reheated rice reach?", "answer": "U.S. leftover guidance uses 165°F / 74°C throughout the food."},
+    {"question": "Can reheating kill Bacillus cereus toxin?", "answer": "Some B. cereus toxins, including cereulide, are heat-resistant, so reheating cannot reliably rescue rice that was stored improperly."}
+  ],
+  "sources": [
+    {"name": "FoodSafety.gov — Game Day Food Safety Tips", "url": "https://www.foodsafety.gov/blog/game-day-food-safety-tips", "note": "Prompt refrigeration, 3–4 day leftover window and 165°F reheating guidance."},
+    {"name": "FDA — BAM: Quantitative Analysis for Cereulide in Food Products", "url": "https://www.fda.gov/food/laboratory-methods-food/bam-quantitative-analysis-cereulide-food-products", "note": "Bacillus cereus, cereulide and heat resistance."},
+    {"name": "Food Standards Agency — Home food fact checker", "url": "https://www.food.gov.uk/safety-hygiene/home-food-fact-checker", "note": "Stricter rice-specific 24-hour guidance for comparison."}
+  ],
+  "image": {
+    "concept": "Cooked rice divided into shallow containers, one container cooling for refrigeration and one serving being reheated, clean editorial kitchen photography, no text.",
+    "alt": "Cooked rice being cooled, stored and reheated safely"
+  },
+  "status": "publish"
+}
