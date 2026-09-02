@@ -1,0 +1,69 @@
+/*
+ * Pometum v5 — strict mobile centering for category artwork.
+ * Every category uses the same square optical viewport; the SVG is contained
+ * inside it, so wide and tall drawings share exactly the same visual centre.
+ */
+
+@media (max-width: 900px) {
+  .food-family-card .food-family-art {
+    position: relative !important;
+    display: grid !important;
+    grid-template-columns: 1fr !important;
+    grid-template-rows: 1fr !important;
+    place-items: center !important;
+    justify-items: center !important;
+    align-items: center !important;
+    min-height: 70px !important;
+    padding: 7px !important;
+    box-sizing: border-box !important;
+    overflow: hidden !important;
+  }
+
+  .food-family-card .food-family-art::after,
+  .family-frutas .food-family-art::after,
+  .family-tuberculos .food-family-art::after,
+  .family-carnes .food-family-art::after {
+    content: "" !important;
+    position: static !important;
+    inset: auto !important;
+    place-self: center !important;
+    justify-self: center !important;
+    align-self: center !important;
+    display: block !important;
+    box-sizing: border-box !important;
+    width: 56px !important;
+    height: 56px !important;
+    min-width: 56px !important;
+    min-height: 56px !important;
+    max-width: 56px !important;
+    max-height: 56px !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    left: auto !important;
+    right: auto !important;
+    top: auto !important;
+    bottom: auto !important;
+    translate: none !important;
+    transform: none !important;
+    transform-origin: 50% 50% !important;
+    background-color: transparent !important;
+    background-image: var(--family-icon) !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
+    background-size: contain !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .food-family-card .food-family-art::after,
+  .family-frutas .food-family-art::after,
+  .family-tuberculos .food-family-art::after,
+  .family-carnes .food-family-art::after {
+    width: 54px !important;
+    height: 54px !important;
+    min-width: 54px !important;
+    min-height: 54px !important;
+    max-width: 54px !important;
+    max-height: 54px !important;
+  }
+}
