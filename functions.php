@@ -83,10 +83,9 @@ function food_reading_time() {
 }
 
 /**
- * Editorial architecture.
- *
- * FOOD uses categories as the only visible editorial taxonomy. Product families
- * live below "Alimentos"; transversal search intents remain top-level areas.
+ * Food families remain hierarchical WordPress categories.
+ * The independent informational dimension lives in the food_topic taxonomy
+ * loaded near the end of this file.
  */
 function food_editorial_categories() {
 	return array(
@@ -94,43 +93,23 @@ function food_editorial_categories() {
 			'name'        => 'Alimentos',
 			'description' => 'Guías organizadas por familias de alimentos: cómo elegirlos, conservarlos, entenderlos y cocinarlos.',
 			'children'    => array(
-				'carnes'                 => array( 'Carnes', 'Tipos de carne, cortes, calidad, conservación, cocina y nutrición práctica.' ),
-				'pescados-mariscos'      => array( 'Pescados y mariscos', 'Pescados, mariscos, frescura, conservación, cocina y características del producto.' ),
-				'jamon-embutidos'        => array( 'Jamón y embutidos', 'Jamón, paleta, embutidos, curados, calidades, origen, conservación y consumo.' ),
-				'quesos-lacteos'         => array( 'Quesos y lácteos', 'Quesos, leche y otros lácteos: variedades, calidad, conservación y usos.' ),
-				'aceites'                 => array( 'Aceites', 'Aceite de oliva y otros aceites: sabor, calidad, conservación, usos y dudas frecuentes.' ),
-				'legumbres'               => array( 'Legumbres', 'Lentejas, garbanzos, judías y otras legumbres: propiedades, conservación y cocina.' ),
-				'frutas'                  => array( 'Frutas', 'Frutas: maduración, conservación, calidad, temporada y dudas habituales.' ),
-				'verduras-hortalizas'     => array( 'Verduras y hortalizas', 'Verduras y hortalizas: estado, conservación, cocina, temporada y calidad.' ),
-				'cereales-pan-pasta'      => array( 'Cereales, pan y pasta', 'Arroz, cereales, panes y pastas: variedades, conservación, cocina y nutrición.' ),
-				'huevos'                  => array( 'Huevos', 'Huevos: conservación, etiquetado, cocina, seguridad y calidad.' ),
+				'carnes'             => array( 'Carnes', 'Tipos de carne, cortes, calidad, conservación, cocina y nutrición práctica.' ),
+				'pescados-mariscos'  => array( 'Pescados y mariscos', 'Pescados, mariscos, frescura, conservación, cocina y características del producto.' ),
+				'jamon-embutidos'    => array( 'Jamón y embutidos', 'Jamón, paleta, embutidos, curados, calidades, origen, conservación y consumo.' ),
+				'quesos-lacteos'     => array( 'Quesos y lácteos', 'Quesos, leche y otros lácteos: variedades, calidad, conservación y usos.' ),
+				'aceites'             => array( 'Aceites', 'Aceite de oliva y otros aceites: sabor, calidad, conservación, usos y dudas frecuentes.' ),
+				'legumbres'           => array( 'Legumbres', 'Lentejas, garbanzos, judías y otras legumbres: propiedades, conservación y cocina.' ),
+				'frutas'              => array( 'Frutas', 'Frutas: maduración, conservación, calidad, temporada y dudas habituales.' ),
+				'verduras-hortalizas' => array( 'Verduras y hortalizas', 'Verduras y hortalizas: estado, conservación, cocina, temporada y calidad.' ),
+				'cereales-pan-pasta'  => array( 'Cereales, pan y pasta', 'Arroz, cereales, panes y pastas: variedades, conservación, cocina y nutrición.' ),
+				'huevos'              => array( 'Huevos', 'Huevos: conservación, etiquetado, cocina, seguridad y calidad.' ),
 			),
-		),
-		'seguridad-alimentaria' => array(
-			'name'        => 'Seguridad alimentaria',
-			'description' => 'Respuestas claras para saber cuándo un alimento es seguro, cuándo conviene descartarlo y cómo conservarlo correctamente.',
-		),
-		'nutricion' => array(
-			'name'        => 'Nutrición',
-			'description' => 'Comparativas y explicaciones prácticas sobre proteínas, grasas, fibra, energía y composición de los alimentos.',
-		),
-		'cocina' => array(
-			'name'        => 'Cocina',
-			'description' => 'Técnicas, errores habituales y explicaciones de lo que ocurre cuando cocinamos.',
-		),
-		'platos-menus' => array(
-			'name'        => 'Platos y menús',
-			'description' => 'Ideas y guías para organizar platos completos, menús, comida cotidiana y opciones equilibradas.',
-		),
-		'origen-calidad' => array(
-			'name'        => 'Origen y calidad',
-			'description' => 'Denominaciones de origen, sellos, etiquetado, procedencia y criterios para entender la calidad de un alimento.',
 		),
 	);
 }
 
 function food_ensure_editorial_structure() {
-	$structure_version = '2';
+	$structure_version = '3';
 	if ( get_option( 'food_editorial_structure_version' ) === $structure_version ) {
 		return;
 	}
@@ -182,7 +161,6 @@ function food_ensure_editorial_structure() {
 		}
 	}
 
-	// Evergreen content should not expose dates in its URL structure.
 	if ( '/%postname%/' !== get_option( 'permalink_structure' ) ) {
 		update_option( 'permalink_structure', '/%postname%/' );
 		flush_rewrite_rules( false );
@@ -211,14 +189,12 @@ function food_post_url_by_slug( $slug, $fallback_search = '' ) {
 	return home_url( '/?s=' . rawurlencode( $fallback_search ? $fallback_search : $slug ) );
 }
 
+/**
+ * Legacy fallback kept for compatibility with older templates.
+ */
 function food_category_fallback() {
 	$items = array(
-		'Alimentos'              => 'alimentos',
-		'Seguridad alimentaria' => 'seguridad-alimentaria',
-		'Nutrición'              => 'nutricion',
-		'Cocina'                 => 'cocina',
-		'Platos y menús'         => 'platos-menus',
-		'Origen y calidad'       => 'origen-calidad',
+		'Alimentos' => 'alimentos',
 	);
 
 	echo '<ul class="menu food-fallback-menu">';
@@ -240,8 +216,8 @@ function food_breadcrumbs() {
 			echo '<a href="' . esc_url( get_category_link( $categories[0] ) ) . '">' . esc_html( $categories[0]->name ) . '</a><span>›</span>';
 		}
 		echo '<span aria-current="page">' . esc_html( get_the_title() ) . '</span>';
-	} elseif ( is_category() ) {
-		echo '<span aria-current="page">' . esc_html( single_cat_title( '', false ) ) . '</span>';
+	} elseif ( is_category() || is_tax( 'food_topic' ) ) {
+		echo '<span aria-current="page">' . esc_html( single_term_title( '', false ) ) . '</span>';
 	} elseif ( is_search() ) {
 		echo '<span aria-current="page">Buscar</span>';
 	}
@@ -293,3 +269,8 @@ function food_body_classes( $classes ) {
 	return $classes;
 }
 add_filter( 'body_class', 'food_body_classes' );
+
+$food_editorial_taxonomies = get_template_directory() . '/inc/editorial-taxonomies.php';
+if ( file_exists( $food_editorial_taxonomies ) ) {
+	require_once $food_editorial_taxonomies;
+}
