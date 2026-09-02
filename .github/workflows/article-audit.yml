@@ -1,0 +1,152 @@
+name: Audit Pommelo article layout
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/article-audit.yml'
+      - 'style.css'
+      - 'assets/css/**'
+      - 'single.php'
+      - 'content/reference/**'
+  workflow_dispatch:
+
+jobs:
+  audit-article:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_audit_key
+          chmod 600 ~/.ssh/food_audit_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Discover live WordPress URL
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          SITE_URL="$(ssh -i ~/.ssh/food_audit_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+          for CID in $(docker ps -q); do
+            ROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then echo "$p"; exit 0; fi
+              done
+            ' 2>/dev/null || true)"
+            if [ -n "$ROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              docker exec "$CID" php -r "require '$ROOT/wp-load.php'; echo home_url('/');"
+              exit 0
+            fi
+          done
+          exit 1
+          REMOTE
+          )"
+          test -n "$SITE_URL"
+          echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
+
+      - name: Install browser dependency
+        run: |
+          set -euo pipefail
+          npm init -y >/dev/null 2>&1
+          npm install --no-save playwright-core@latest >/dev/null 2>&1
+          CHROME_BIN="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          test -n "$CHROME_BIN"
+          echo "CHROME_BIN=$CHROME_BIN" >> "$GITHUB_ENV"
+
+      - name: Audit reference article
+        run: |
+          mkdir -p article-audit-output
+          cat > article-audit.mjs <<'NODE'
+          import { chromium } from 'playwright-core';
+          import fs from 'node:fs';
+
+          const browser = await chromium.launch({
+            executablePath: process.env.CHROME_BIN,
+            headless: true,
+            args: ['--no-sandbox', '--disable-dev-shm-usage']
+          });
+
+          const articleUrl = new URL('por-que-la-carne-suelta-agua-en-la-sarten/', process.env.SITE_URL).href;
+          const sizes = [
+            { name: 'mobile-390', width: 390, height: 844 },
+            { name: 'desktop-1440', width: 1440, height: 1000 }
+          ];
+          const report = [];
+
+          const box = async (page, selector) => page.locator(selector).first().evaluate((el) => {
+            const r = el.getBoundingClientRect();
+            return {
+              left: Math.round(r.left * 10) / 10,
+              right: Math.round(r.right * 10) / 10,
+              width: Math.round(r.width * 10) / 10
+            };
+          }).catch(() => null);
+
+          for (const size of sizes) {
+            const context = await browser.newContext({ viewport: { width: size.width, height: size.height } });
+            const page = await context.newPage();
+            await page.goto(articleUrl, { waitUntil: 'domcontentloaded', timeout: 60000 });
+            await page.waitForTimeout(1600);
+
+            const data = {
+              size: size.name,
+              viewport: size.width,
+              scrollWidth: await page.evaluate(() => document.documentElement.scrollWidth),
+              shell: await box(page, 'article.article-shell'),
+              answer: await box(page, '.answer-box'),
+              content: await box(page, '.entry-content'),
+              firstParagraph: await box(page, '.entry-content > p'),
+              firstTableBlock: await box(page, '.entry-content > .wp-block-table, .entry-content > figure.wp-block-table, .entry-content > table')
+            };
+            data.horizontalOverflow = Math.max(0, data.scrollWidth - size.width);
+            report.push(data);
+
+            await page.screenshot({
+              path: `article-audit-output/article-${size.name}.png`,
+              fullPage: true
+            });
+
+            if (size.name === 'desktop-1440') {
+              const referenceLeft = data.answer?.left ?? data.content?.left;
+              for (const [name, value] of Object.entries({ content: data.content, firstParagraph: data.firstParagraph, firstTableBlock: data.firstTableBlock })) {
+                if (value && referenceLeft !== null && Math.abs(value.left - referenceLeft) > 2) {
+                  throw new Error(`${name} is not aligned with the answer box: ${value.left} vs ${referenceLeft}`);
+                }
+              }
+              if (data.answer && data.firstParagraph && Math.abs(data.answer.width - data.firstParagraph.width) > 2) {
+                throw new Error(`Paragraph width differs from answer box: ${data.firstParagraph.width} vs ${data.answer.width}`);
+              }
+            }
+
+            if (data.horizontalOverflow > 0) {
+              throw new Error(`${size.name} has ${data.horizontalOverflow}px horizontal overflow`);
+            }
+
+            await context.close();
+          }
+
+          fs.writeFileSync('article-audit-output/article-layout.json', JSON.stringify(report, null, 2));
+          console.log(JSON.stringify(report, null, 2));
+          await browser.close();
+          NODE
+
+          node article-audit.mjs
+
+      - name: Upload article screenshots
+        uses: actions/upload-artifact@v4
+        with:
+          name: pommelo-article-layout-audit
+          path: article-audit-output/
+          retention-days: 7
