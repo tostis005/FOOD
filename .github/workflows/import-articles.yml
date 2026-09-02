@@ -37,6 +37,9 @@ on:
           - json
         default: publish
 
+permissions:
+  contents: write
+
 concurrency:
   group: food-json-article-import
   cancel-in-progress: false
@@ -80,6 +83,53 @@ jobs:
               raise SystemExit('No article JSON files found')
           print(f'Validated {count} article JSON files')
           PY
+
+      - name: Normalize canonical source sections
+        id: normalize_sources
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          source_block = re.compile(
+              r'<h2>\s*(?:Fuentes|Sources)\s*</h2>\s*<p>.*?</p>\s*$',
+              re.IGNORECASE | re.DOTALL,
+          )
+
+          changed = 0
+          for path in sorted(Path('content/articles').glob('*/*.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              content = data.get('content_html', '')
+              normalized = source_block.sub('', content).strip()
+              if normalized == content:
+                  continue
+              data['content_html'] = normalized
+              path.write_text(
+                  json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n',
+                  encoding='utf-8',
+              )
+              changed += 1
+
+          print(f'Normalized {changed} article JSON files')
+          PY
+
+          if git diff --quiet -- content/articles/es content/articles/en; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Persist normalized JSON
+        if: steps.normalize_sources.outputs.changed == 'true'
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/articles/es content/articles/en
+          git commit -m 'Normalize article source sections [skip ci]'
+          git push origin HEAD:main
 
       - name: Package importer and articles
         run: |

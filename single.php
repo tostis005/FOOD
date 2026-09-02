@@ -6,6 +6,19 @@
 	$food_category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category() : null;
 	$food_topics   = function_exists( 'food_get_article_topics' ) ? food_get_article_topics() : array();
 	$food_visual   = function_exists( 'food_get_post_visual_context' ) ? food_get_post_visual_context() : null;
+	$food_content  = apply_filters( 'the_content', get_the_content() );
+
+	// Older imported articles may contain a prose Sources/Fuentes block inside
+	// content_html as well as the structured source list appended by the importer.
+	// When the structured list is present, suppress only the earlier prose block.
+	if ( false !== strpos( $food_content, 'food-article-sources' ) ) {
+		$food_content = preg_replace(
+			'#<h2>\s*(?:Fuentes|Sources)\s*</h2>\s*<p>.*?</p>(?=.*?<ul[^>]*class=["\'][^"\']*food-article-sources[^"\']*["\'])#is',
+			'',
+			$food_content,
+			1
+		);
+	}
 	?>
 	<div class="article-shell"><?php function_exists( 'food_language_breadcrumbs' ) ? food_language_breadcrumbs() : food_breadcrumbs(); ?></div>
 
@@ -19,7 +32,6 @@
 			<?php endforeach; ?>
 		</div>
 		<h1><?php the_title(); ?></h1>
-		<?php if ( has_excerpt() ) : ?><p class="article-deck"><?php echo esc_html( get_the_excerpt() ); ?></p><?php endif; ?>
 		<div class="article-meta"><span><?php echo esc_html( $food_english ? 'Quinnoa guide' : 'Guía Quinnoa' ); ?></span><span>·</span><span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span></div>
 	</header>
 
@@ -35,7 +47,7 @@
 	<article <?php post_class( 'article-shell' ); ?>>
 		<?php if ( has_excerpt() ) : ?><div class="answer-box"><strong><?php echo esc_html( $food_english ? 'Quick answer' : 'Respuesta rápida' ); ?></strong><p><?php echo esc_html( get_the_excerpt() ); ?></p></div><?php endif; ?>
 		<?php if ( is_active_sidebar( 'article-ad' ) ) : ?><div class="ad-slot"><?php dynamic_sidebar( 'article-ad' ); ?></div><?php endif; ?>
-		<div class="entry-content"><?php the_content(); ?></div>
+		<div class="entry-content"><?php echo $food_content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
 	</article>
 
 	<?php
