@@ -69,8 +69,7 @@
 .home-feature-illustration[class*="family-"]::after,
 .discover-illustration[class*="family-"]::after,
 .card-placeholder-illustrated[class*="family-"]::after,
-.taxonomy-hero-visual[class*="family-"]::after,
-.article-hero-fallback[class*="family-"]::after {
+.taxonomy-hero-visual[class*="family-"]::after {
   content: "" !important;
   display: block !important;
   position: static !important;
@@ -85,9 +84,37 @@
   background-size: contain !important;
 }
 
+/* The single-article hero uses a real child instead of a percentage-height
+ * pseudo-element. That avoids the artwork collapsing when the parent height
+ * is determined by older responsive layers. */
 .article-hero-fallback[class*="family-"]::after {
-  width: min(220px, 46%) !important;
-  height: min(154px, 58%) !important;
+  content: none !important;
+  display: none !important;
+}
+
+.article-hero-fallback[class*="family-"] {
+  display: grid !important;
+  place-items: center !important;
+  min-height: clamp(230px, 31vw, 430px) !important;
+  overflow: hidden !important;
+}
+
+.article-hero-fallback[class*="family-"] > .article-hero-art {
+  display: block !important;
+  width: clamp(180px, 26vw, 330px) !important;
+  height: clamp(126px, 18vw, 230px) !important;
+  margin: auto !important;
+  background-color: transparent !important;
+  background-image: var(--family-icon) !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50% !important;
+  background-size: contain !important;
+}
+
+/* Topic-only articles retain their existing inline fallback if no food family
+ * is assigned. */
+.article-hero-fallback[class*="topic-"] > .article-hero-art {
+  display: none !important;
 }
 
 /* -----------------------------------------------------------------------
@@ -179,6 +206,15 @@
     height: 56px !important;
   }
 
+  .article-hero-fallback[class*="family-"] {
+    min-height: 250px !important;
+  }
+
+  .article-hero-fallback[class*="family-"] > .article-hero-art {
+    width: min(250px, 62vw) !important;
+    height: min(175px, 44vw) !important;
+  }
+
   .latest-guides-v5 > .container,
   .archive-wrap,
   .related > .container {
@@ -212,6 +248,15 @@
   .family-tuberculos .food-family-art::after {
     width: 70px !important;
     height: 54px !important;
+  }
+
+  .article-hero-fallback[class*="family-"] {
+    min-height: 220px !important;
+  }
+
+  .article-hero-fallback[class*="family-"] > .article-hero-art {
+    width: 210px !important;
+    height: 148px !important;
   }
 
   .latest-guides-v5 > .container {
