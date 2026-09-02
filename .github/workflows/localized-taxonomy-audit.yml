@@ -79,22 +79,32 @@ jobs:
           status_es=$(curl -sS -o /tmp/es.html -w '%{http_code}' "$SITE_URL/alimentos/carnes/")
           status_en=$(curl -sS -o /tmp/en.html -w '%{http_code}' "$SITE_URL/en/foods/meat/")
           status_topic_en=$(curl -sS -o /tmp/topic-en.html -w '%{http_code}' "$SITE_URL/en/topics/food-safety/")
-          test "$status_es" = "200"
-          test "$status_en" = "200"
-          test "$status_topic_en" = "200"
-          grep -qi 'Carnes' /tmp/es.html
-          grep -qi 'Meat' /tmp/en.html
-          grep -qi 'Food safety' /tmp/topic-en.html
-          ! grep -q '/en/alimentos/' /tmp/en.html
-          ! grep -q '/en/tema/' /tmp/en.html
-          grep -q '/en/foods/' /tmp/en.html
-          grep -q '/en/topics/' /tmp/en.html
-          legacy_food=$(curl -sS -o /dev/null -w '%{http_code} %{redirect_url}' "$SITE_URL/en/alimentos/carnes/")
-          legacy_topic=$(curl -sS -o /dev/null -w '%{http_code} %{redirect_url}' "$SITE_URL/en/tema/seguridad-alimentaria/")
-          echo "$legacy_food" | grep -q '^301 '
-          echo "$legacy_food" | grep -q '/en/foods/meat/'
-          echo "$legacy_topic" | grep -q '^301 '
-          echo "$legacy_topic" | grep -q '/en/topics/food-safety/'
+          echo "Spanish meat status: $status_es"
+          echo "English meat status: $status_en"
+          echo "English food-safety status: $status_topic_en"
+          test "$status_es" = "200" || { echo 'FAIL: Spanish category route'; exit 1; }
+          test "$status_en" = "200" || { echo 'FAIL: English food route'; exit 1; }
+          test "$status_topic_en" = "200" || { echo 'FAIL: English topic route'; exit 1; }
+          grep -qi 'Carnes' /tmp/es.html || { echo 'FAIL: Spanish category label'; exit 1; }
+          grep -qi 'Meat' /tmp/en.html || { echo 'FAIL: English category label'; exit 1; }
+          grep -qi 'Food safety' /tmp/topic-en.html || { echo 'FAIL: English topic label'; exit 1; }
+          if grep -q '/en/alimentos/' /tmp/en.html; then echo 'FAIL: Spanish food path leaked into English HTML'; exit 1; fi
+          if grep -q '/en/tema/' /tmp/en.html; then echo 'FAIL: Spanish topic path leaked into English HTML'; exit 1; fi
+          grep -q '/en/foods/' /tmp/en.html || { echo 'FAIL: no English food links'; exit 1; }
+          grep -q '/en/topics/' /tmp/topic-en.html || { echo 'FAIL: no English topic links'; exit 1; }
+
+          legacy_food_code=$(curl -sS -o /dev/null -w '%{http_code}' "$SITE_URL/en/alimentos/carnes/")
+          legacy_food_target=$(curl -sS -o /dev/null -w '%{redirect_url}' "$SITE_URL/en/alimentos/carnes/")
+          legacy_topic_code=$(curl -sS -o /dev/null -w '%{http_code}' "$SITE_URL/en/tema/seguridad-alimentaria/")
+          legacy_topic_target=$(curl -sS -o /dev/null -w '%{redirect_url}' "$SITE_URL/en/tema/seguridad-alimentaria/")
+          legacy_food_path=$(python -c 'import os,urllib.parse; print(urllib.parse.urlparse(os.environ["TARGET"]).path)' TARGET="$legacy_food_target")
+          legacy_topic_path=$(python -c 'import os,urllib.parse; print(urllib.parse.urlparse(os.environ["TARGET"]).path)' TARGET="$legacy_topic_target")
+          echo "Legacy food redirect: $legacy_food_code $legacy_food_path"
+          echo "Legacy topic redirect: $legacy_topic_code $legacy_topic_path"
+          test "$legacy_food_code" = "301" || { echo 'FAIL: legacy food status'; exit 1; }
+          test "$legacy_food_path" = "/en/foods/meat/" || { echo 'FAIL: legacy food target'; exit 1; }
+          test "$legacy_topic_code" = "301" || { echo 'FAIL: legacy topic status'; exit 1; }
+          test "$legacy_topic_path" = "/en/topics/food-safety/" || { echo 'FAIL: legacy topic target'; exit 1; }
 
       - name: Install browser audit dependency
         run: |
