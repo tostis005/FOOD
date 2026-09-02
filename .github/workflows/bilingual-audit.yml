@@ -14,6 +14,8 @@ on:
       - 'searchform.php'
       - 'template-parts/card.php'
       - 'assets/css/pometum-v2.css'
+      - 'assets/css/pometum-v4.css'
+      - 'assets/js/pometum-language-overlay.js'
       - '.github/workflows/bilingual-audit.yml'
   workflow_dispatch:
 
@@ -86,7 +88,7 @@ jobs:
           };
           const report = {};
 
-          async function audit(url, name, width = 1440, height = 1000) {
+          async function audit(url, name, width = 1440, height = 1000, testLanguageOverlay = false) {
             const context = await browser.newContext({ viewport: { width, height } });
             const page = await context.newPage();
             const response = await page.goto(url, { waitUntil: 'domcontentloaded', timeout: 60000 });
@@ -97,28 +99,54 @@ jobs:
               scrollWidth: document.documentElement.scrollWidth,
               viewport: window.innerWidth,
               cards: [...document.querySelectorAll('.post-card > a')].map(a => a.pathname),
-              hasSwitcher: !!document.querySelector('.language-switcher')
+              hasLanguageToggle: !!document.querySelector('.language-toggle'),
+              flagOnly: !!document.querySelector('.language-toggle .language-current-flag') && !document.querySelector('.language-toggle').textContent.trim().match(/\b(?:ES|EN)\b/)
             }));
             data.status = response?.status() ?? 0;
             data.overflow = Math.max(0, data.scrollWidth - data.viewport);
-            report[name] = data;
+
             await page.screenshot({ path: `bilingual-audit-output/${name}-${width}.png`, fullPage: true });
+
+            if (testLanguageOverlay) {
+              await page.click('.language-toggle');
+              await page.waitForSelector('.language-overlay.is-open', { state: 'visible', timeout: 5000 });
+              data.languageOverlay = await page.evaluate(() => ({
+                open: document.querySelector('.language-overlay')?.classList.contains('is-open') || false,
+                ariaHidden: document.querySelector('.language-overlay')?.getAttribute('aria-hidden'),
+                labels: [...document.querySelectorAll('.language-option-name')].map(el => el.textContent.trim()),
+                hrefs: [...document.querySelectorAll('.language-option')].map(el => new URL(el.href).pathname),
+                current: document.querySelectorAll('.language-option[aria-current="page"]').length,
+                bodyLocked: document.body.classList.contains('language-overlay-open')
+              }));
+              await page.screenshot({ path: `bilingual-audit-output/${name}-language-${width}.png`, fullPage: true });
+              await page.click('.language-overlay-close');
+              await page.waitForSelector('.language-overlay.is-open', { state: 'detached', timeout: 5000 }).catch(() => {});
+            }
+
+            report[name] = data;
             await context.close();
             return data;
           }
 
-          const es = await audit(routes.esHome, 'home-es');
-          const en = await audit(routes.enHome, 'home-en');
+          const es = await audit(routes.esHome, 'home-es', 1440, 1000, true);
+          const en = await audit(routes.enHome, 'home-en', 1440, 1000, true);
           const esArticle = await audit(routes.esArticle, 'article-es');
           const enArticle = await audit(routes.enArticle, 'article-en');
           const enCategory = await audit(routes.enCategory, 'category-en');
-          await audit(routes.esHome, 'home-es-mobile', 390, 844);
-          await audit(routes.enHome, 'home-en-mobile', 390, 844);
+          await audit(routes.esHome, 'home-es-mobile', 390, 844, true);
+          await audit(routes.enHome, 'home-en-mobile', 390, 844, true);
 
           for (const [name, data] of Object.entries(report)) {
             if (data.status >= 400) throw new Error(`${name} returned ${data.status}`);
             if (data.overflow > 0) throw new Error(`${name} has ${data.overflow}px horizontal overflow`);
-            if (!data.hasSwitcher) throw new Error(`${name} has no language switcher`);
+            if (!data.hasLanguageToggle) throw new Error(`${name} has no language flag control`);
+            if (!data.flagOnly) throw new Error(`${name} language control is not flag-only`);
+            if (data.languageOverlay) {
+              if (!data.languageOverlay.open || data.languageOverlay.ariaHidden !== 'false') throw new Error(`${name} language overlay did not open correctly`);
+              if (!data.languageOverlay.labels.includes('Español') || !data.languageOverlay.labels.includes('English')) throw new Error(`${name} language overlay is missing an edition`);
+              if (data.languageOverlay.current !== 1) throw new Error(`${name} should have exactly one current language`);
+              if (!data.languageOverlay.bodyLocked) throw new Error(`${name} did not lock body scroll while language overlay was open`);
+            }
           }
           if (!es.lang.toLowerCase().startsWith('es')) throw new Error(`Spanish home lang is ${es.lang}`);
           if (!en.lang.toLowerCase().startsWith('en')) throw new Error(`English home lang is ${en.lang}`);
