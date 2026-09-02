@@ -41,60 +41,52 @@ $food_editorial_public_text = static function( $text ) use ( $language ) {
 
 if ( $page && 'about' === $key ) {
 	if ( 'en' === $language ) {
-		$page['intro'] = 'Quinnoa is an editorial publication for understanding food better and making more informed everyday choices. We publish clear articles on nutrition, quality, food safety, storage, buying and cooking, with enough context to explain not only what happens, but why.';
+		$page['intro'] = 'Quinnoa is an editorial publication about food for people who want to understand better what they eat. We cover everyday ingredients and products through nutrition, quality, storage, food safety and cooking.';
 		$page['sections'] = array(
 			array(
-				'title' => 'Understanding the food we eat',
+				'title' => 'Getting to know food better',
 				'paragraphs' => array(
-					'We start with real questions that come up when buying, storing or cooking food: why meat releases water, which foods provide more protein, how long something keeps in the fridge, how two options compare, or what a nutrition number actually means.',
-					'The aim is not to add noise or fill space. We want each article to give a useful answer quickly, then add the figures, comparisons and explanation needed to put that answer in context.',
+					'Behind a cheese, an olive oil, a piece of fruit, a legume or a cut of meat there is a lot worth knowing: where its characteristics come from, what it contains, how to recognize quality, how to store it and what changes when it is cooked.',
+					'Quinnoa brings that knowledge together in one place, with an accessible approach that helps make food easier to understand rather than more complicated.',
 				),
 			),
 			array(
-				'title' => 'How we work',
+				'title' => 'From the shop to the kitchen',
 				'paragraphs' => array(
-					'Each article begins with a specific reader question and moves from the practical answer into the explanation. When a comparison depends on numbers, we include quantities, units and like-for-like references so “more”, “less” or “better” has a concrete meaning.',
-				),
-				'items' => array(
-					'We prioritize public authorities, established databases and scientific literature for nutrition and food-safety topics.',
-					'We separate facts, practical context and recommendations.',
-					'We avoid claims of professional review when that review has not taken place.',
-					'We update content when relevant evidence, guidance or standards change.',
+					'We are interested in food as it appears in everyday life: the products we buy, the ingredients we keep at home and the dishes we prepare. That is why Quinnoa covers meat, fish, dairy, legumes, fruit, vegetables, grains, oils and many other foods, alongside broader topics such as nutrition, food safety, storage and cooking.',
+					'The goal is simple: to make it easier to know what a food is, what makes it different, how to look after it and how to enjoy it better.',
 				),
 			),
 			array(
-				'title' => 'Editorial scope',
+				'title' => 'Information with context',
 				'paragraphs' => array(
-					'Quinnoa provides educational information and does not replace diagnosis, treatment or individual medical advice. For food-safety or health decisions, guidance from competent authorities and qualified professionals takes priority.',
+					'Quinnoa is an educational publication. We want to provide useful context so readers can understand food better and make their own decisions with more information.',
+					'Our content does not replace diagnosis, treatment or individual medical advice. For health or food-safety decisions, guidance from competent authorities and qualified professionals takes priority.',
 				),
 			),
 		);
 	} else {
-		$page['intro'] = 'Quinnoa es un medio editorial para entender mejor los alimentos y tomar decisiones cotidianas con más criterio. Publicamos artículos claros sobre nutrición, calidad, seguridad alimentaria, conservación, compra y cocina, con el contexto necesario para explicar no solo qué ocurre, sino también por qué.';
+		$page['intro'] = 'Quinnoa es un medio editorial sobre alimentos para quienes quieren conocer mejor lo que comen. Hablamos de ingredientes y productos cotidianos desde la nutrición, la calidad, la conservación, la seguridad alimentaria y la cocina.';
 		$page['sections'] = array(
 			array(
-				'title' => 'Entender mejor lo que comemos',
+				'title' => 'Conocer mejor los alimentos',
 				'paragraphs' => array(
-					'Partimos de dudas que aparecen de verdad al comprar, conservar o cocinar: por qué una carne suelta agua, qué alimentos aportan más proteína, cuánto dura algo en la nevera, cómo comparar dos opciones o qué significa realmente una cifra nutricional.',
-					'La idea no es añadir ruido ni llenar páginas. Queremos que cada artículo dé una respuesta útil desde el principio y, después, aporte las cifras, comparaciones y explicaciones necesarias para poner esa respuesta en contexto.',
+					'Detrás de un queso, un aceite, una fruta, una legumbre o un corte de carne hay muchas cosas que merece la pena conocer: de dónde vienen sus características, qué aporta, cómo reconocer su calidad, cómo conservarlo o qué cambia cuando lo cocinamos.',
+					'Quinnoa reúne ese conocimiento en un mismo lugar, con un enfoque accesible que ayude a entender mejor la comida sin convertirla en algo más complicado de lo que es.',
 				),
 			),
 			array(
-				'title' => 'Cómo trabajamos',
+				'title' => 'De la compra a la cocina',
 				'paragraphs' => array(
-					'Cada artículo empieza por una pregunta concreta y avanza desde la respuesta práctica hacia la explicación. Cuando una comparación depende de números, incluimos cantidades, unidades y referencias equivalentes para que “más”, “menos” o “mejor” tengan un significado concreto.',
-				),
-				'items' => array(
-					'Priorizamos organismos oficiales, bases de datos reconocidas y literatura científica en nutrición y seguridad alimentaria.',
-					'Separamos los hechos del contexto práctico y de las recomendaciones.',
-					'No atribuimos revisiones profesionales que no hayan ocurrido.',
-					'Actualizamos los contenidos cuando cambian datos, recomendaciones o criterios relevantes.',
+					'Nos interesan los alimentos tal y como aparecen en la vida cotidiana: los productos que compramos, los ingredientes que guardamos en casa y lo que cocinamos con ellos. Por eso en Quinnoa hablamos de carnes, pescados, lácteos, legumbres, frutas, verduras, cereales, aceites y muchos otros alimentos, además de temas como nutrición, seguridad alimentaria, conservación y cocina.',
+					'El objetivo es sencillo: que resulte más fácil saber qué es un alimento, qué lo diferencia, cómo cuidarlo y cómo disfrutarlo mejor.',
 				),
 			),
 			array(
-				'title' => 'Alcance editorial',
+				'title' => 'Información con contexto',
 				'paragraphs' => array(
-					'Quinnoa ofrece información divulgativa y no sustituye el diagnóstico, el tratamiento ni el consejo individual de un profesional sanitario. En cuestiones de seguridad alimentaria o salud, tienen prioridad las indicaciones de las autoridades competentes y de profesionales cualificados.',
+					'Quinnoa es un medio divulgativo. Queremos aportar contexto útil para conocer mejor los alimentos y tomar decisiones propias con más información.',
+					'Nuestros contenidos no sustituyen el diagnóstico, el tratamiento ni el consejo individual de un profesional sanitario. En cuestiones de salud o seguridad alimentaria, tienen prioridad las indicaciones de las autoridades competentes y de profesionales cualificados.',
 				),
 			),
 		);
