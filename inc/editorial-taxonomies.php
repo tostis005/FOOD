@@ -102,7 +102,7 @@ function food_register_topic_taxonomy() {
 add_action( 'init', 'food_register_topic_taxonomy', 8 );
 
 function food_ensure_topic_terms() {
-	$version = '2';
+	$version = '3';
 	if ( get_option( 'food_topic_structure_version' ) === $version ) {
 		return;
 	}
@@ -186,7 +186,6 @@ function food_migrate_topic_terms_v2() {
 			if ( $old_slug !== $new_slug ) {
 				wp_remove_object_terms( $post_id, (int) $old_term->term_id, 'food_topic' );
 			}
-		}
 	}
 
 	update_option( 'food_topic_terms_migrated_v2', 1 );
