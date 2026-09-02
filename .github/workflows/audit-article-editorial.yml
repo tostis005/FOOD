@@ -1,0 +1,22 @@
+name: Audit article editorial quality
+
+on:
+  pull_request:
+    paths:
+      - 'content/articles/**'
+      - 'content/tools/audit-article-editorial.py'
+      - '.github/workflows/audit-article-editorial.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/articles/**'
+      - 'content/tools/audit-article-editorial.py'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Audit final bilingual article set
+        run: python3 content/tools/audit-article-editorial.py content/articles

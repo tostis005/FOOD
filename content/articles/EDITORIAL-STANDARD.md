@@ -1,59 +1,45 @@
-# FOOD editorial standard
+# Pometum editorial standard
 
-This file defines non-negotiable editorial rules for generated and revised articles.
+These rules apply to every article in every language.
 
-## 1. Comparisons must be quantified
+## Reader-first prose
 
-Whenever an article compares foods, portions, nutrients, calories, storage times, temperatures or other measurable properties, give the numbers for both sides whenever a reliable like-for-like value exists.
+Articles must read like finished food journalism written by a knowledgeable editor, not like notes from a database or explanations of the writing process.
 
-Bad:
+Never expose editorial process in the article body. Avoid phrases such as “we chose”, “we rounded”, “deliberately”, “this ranking uses”, “the table is not intended to”, “another article”, “deserves its own article”, and equivalent Spanish wording.
 
-> An apple or orange has much less energy than avocado.
+Explain the food, not the decision to write about it in a certain way.
 
-Better:
+## Quantify measurable comparisons
 
-> Avocado provides about 160 kcal per 100 g, compared with roughly 52 kcal for apple and 47 kcal for orange per 100 g.
+When saying that one food has more or less protein, fiber, fat, calories, sodium, iron, storage time or another measurable property, give both values whenever a reliable like-for-like comparison exists.
 
-Bad:
+Example: avocado provides about 160 kcal/100 g, compared with about 52 kcal for apple and 47 kcal for orange.
 
-> Cooked lentils contain less protein per 100 g than dry lentils.
+Do not force numbers into genuinely qualitative statements where they would create false precision.
 
-Better:
+## Compare like with like
 
-> Dry lentils contain roughly 24–25 g protein per 100 g, while cooked lentils contain about 9 g per 100 g because they absorb water during cooking.
+Use ordinary preparation labels a reader understands: raw, cooked, grilled/pan-cooked when relevant, canned, drained, dry. Do not expose database terminology such as “cooked by dry heat”.
 
-The purpose is not keyword density. It is to let the reader understand the magnitude of the difference.
+Do not mix dry legumes with cooked legumes in a ranking without explicitly separating them. Do not mix canned fish into a cooked-fish ranking when oil, salt or draining changes the comparison substantially.
 
-### Apply this rule to
+## Explain why numbers change
 
-- more / less protein, fiber, fat, carbohydrate, sodium, sugar, calories or micronutrients;
-- more / less caloric, lean, concentrated, dense or satiating when the statement refers to a measurable food property;
-- raw vs cooked, dry vs cooked, fresh vs canned, drained vs undrained;
-- one food vs another food;
-- one serving size vs another;
-- storage-time or temperature comparisons;
-- rankings and statements such as “much higher”, “roughly twice”, “half as much” or “similar”.
+When water absorption, water loss, drying, curing, added fat or edible bone changes a value, explain the mechanism in plain language.
 
-### Exceptions
+## Every article stands alone
 
-A number is not required when the comparison is genuinely qualitative and a numerical value would be artificial or misleading, for example “a colder refrigerator slows microbial growth” or “a thinner container cools food faster”. Do not invent precision.
+A reader who reaches the end should understand the question promised by the title. Related topics may be linked later, but the article must not defer essential explanation to future content.
 
-## 2. Compare like with like
+## Sources
 
-Always state preparation and edible state when it materially changes composition: raw, cooked, roasted, drained, dry, canned, with/without skin, etc. Do not rank overlapping ranges. Use concrete reference foods and point values for ordered rankings.
+Use authoritative sources in the article when they materially support safety, nutrient reference values or contested facts. Spanish content should normally favor Spain/EU authorities such as AESAN and EFSA; English content should normally favor U.S. authorities such as USDA, FDA and CDC when the market context is U.S.
 
-## 3. Explain why the numbers differ
+## Localization
 
-Do not stop at the table. Explain the mechanism when useful: water gain/loss, fat content, concentration during drying, salt curing, edible bone, serving size, etc.
+Spanish and English versions share a translation group but are independently written. Food-safety rules, units, examples and authorities should match the target market.
 
-## 4. Sources belong in the article when they matter
+## Structure
 
-Use primary or high-authority sources whenever practical (AESAN/EFSA/BEDCA for Spanish/EU context; USDA/FDA/CDC and equivalent authorities for U.S./English context). Explain the source or methodological choice when it affects interpretation.
-
-## 5. Spanish and English are localized articles, not literal translations
-
-They share a `translation_group`, but examples, authorities, food-safety guidance and wording can differ by market. English articles should normally use U.S./general-English references where that better matches user intent; Spanish articles should normally use Spain/EU context.
-
-## 6. No template prose
-
-Use the structure that best answers the query. Tables, FAQs and recurring components are tools, not mandatory slots. Avoid a repetitive “H2 + two sentences” rhythm. Each article should have enough explanatory depth to stand on its own as a reference-quality answer.
+Tables, FAQs and headings are tools. Do not repeat a rigid template. Paragraphs should develop an idea rather than create a mechanical H2 + two-line rhythm.
