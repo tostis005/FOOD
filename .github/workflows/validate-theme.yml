@@ -1,0 +1,29 @@
+name: Validate Pommelo theme
+
+on:
+  pull_request:
+    paths:
+      - '**/*.php'
+      - '.github/workflows/validate-theme.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.php'
+      - '.github/workflows/validate-theme.yml'
+  workflow_dispatch:
+
+jobs:
+  php-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Show PHP version
+        run: php -v
+
+      - name: Lint theme PHP
+        run: |
+          set -euo pipefail
+          find . -type f -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l
