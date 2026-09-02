@@ -1,0 +1,379 @@
+/*
+ * Pometum v4 — inverse header, full-screen language picker and taxonomy alignment.
+ */
+
+/* Header ----------------------------------------------------------------- */
+.site-header {
+  background: var(--pometum-olive) !important;
+  border-bottom: 1px solid rgba(255,255,255,.13) !important;
+  box-shadow: 0 8px 26px rgba(31, 39, 30, .10);
+  backdrop-filter: none !important;
+}
+
+.site-header::after {
+  height: 3px !important;
+  background: linear-gradient(90deg, var(--pometum-coral) 0 22%, var(--pometum-butter) 22% 31%, rgba(255,255,255,.16) 31% 100%) !important;
+  opacity: 1 !important;
+}
+
+.site-header .site-branding a,
+.site-header .pometum-wordmark,
+.site-header .primary-nav a,
+.site-header .menu-toggle,
+.site-header .header-search {
+  color: var(--pometum-paper) !important;
+}
+
+.site-header .site-tagline {
+  color: rgba(251,248,241,.72) !important;
+}
+
+.site-header .pometum-o::after {
+  background: var(--pometum-butter) !important;
+}
+
+.site-header .primary-nav a:hover,
+.site-header .primary-nav a:focus-visible {
+  color: var(--pometum-butter) !important;
+}
+
+.site-header .header-search {
+  border-color: rgba(255,255,255,.24) !important;
+  background: rgba(255,255,255,.07) !important;
+}
+
+.site-header .header-search:hover,
+.site-header .header-search:focus-visible {
+  border-color: rgba(255,255,255,.55) !important;
+  background: rgba(255,255,255,.12) !important;
+}
+
+.site-header .menu-toggle-icon span {
+  background: var(--pometum-paper) !important;
+}
+
+/* Current-language control: flag only, no pill/circle. */
+.language-toggle {
+  appearance: none;
+  display: inline-grid;
+  place-items: center;
+  width: auto;
+  min-width: 30px;
+  height: 38px;
+  padding: 3px 4px;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  box-shadow: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+.language-toggle:hover,
+.language-toggle:focus-visible {
+  background: transparent;
+  outline: none;
+}
+
+.language-toggle:focus-visible {
+  box-shadow: 0 2px 0 var(--pometum-butter);
+}
+
+.language-current-flag {
+  display: block;
+  font-size: 22px;
+  line-height: 1;
+  filter: saturate(.95);
+  transform: translateY(-1px);
+}
+
+/* Full-screen language overlay ------------------------------------------ */
+.language-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 1200;
+  display: grid;
+  grid-template-rows: 1fr;
+  background:
+    radial-gradient(circle at 82% 18%, rgba(232,199,106,.12), transparent 30%),
+    var(--pometum-olive);
+  color: var(--pometum-paper);
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: opacity .22s ease, visibility .22s ease, transform .22s ease;
+}
+
+.language-overlay.is-open {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transform: none;
+}
+
+.language-overlay-shell {
+  width: min(1120px, calc(100% - 48px));
+  min-height: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.language-overlay-top {
+  min-height: 96px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(255,255,255,.14);
+}
+
+.language-overlay .pometum-wordmark {
+  color: var(--pometum-paper) !important;
+}
+
+.language-overlay .pometum-o::after {
+  background: var(--pometum-butter) !important;
+}
+
+.language-overlay-close {
+  appearance: none;
+  width: 48px;
+  height: 48px;
+  display: grid;
+  place-items: center;
+  border: 1px solid rgba(255,255,255,.22);
+  border-radius: 50%;
+  background: transparent;
+  color: var(--pometum-paper);
+  cursor: pointer;
+}
+
+.language-overlay-close svg {
+  width: 22px;
+  height: 22px;
+}
+
+.language-overlay-close:hover,
+.language-overlay-close:focus-visible {
+  border-color: var(--pometum-butter);
+  color: var(--pometum-butter);
+  outline: none;
+}
+
+.language-overlay-content {
+  flex: 1;
+  display: grid;
+  align-content: center;
+  padding: 64px 0 90px;
+}
+
+.language-overlay-eyebrow {
+  margin: 0 0 14px;
+  color: var(--pometum-butter);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+}
+
+.language-overlay-title {
+  max-width: 760px;
+  margin: 0 0 42px;
+  color: var(--pometum-paper) !important;
+  font-family: var(--pometum-serif);
+  font-size: clamp(46px, 6vw, 78px);
+  font-weight: 600;
+  line-height: .98;
+  letter-spacing: -.045em;
+}
+
+.language-options {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+  max-width: 900px;
+}
+
+.language-option {
+  position: relative;
+  min-height: 164px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  align-items: center;
+  gap: 22px;
+  padding: 28px 30px;
+  border: 1px solid rgba(255,255,255,.18);
+  border-radius: 8px;
+  background: rgba(251,248,241,.055);
+  color: var(--pometum-paper) !important;
+  text-decoration: none !important;
+  transition: background .18s ease, border-color .18s ease, transform .18s ease;
+}
+
+.language-option:hover,
+.language-option:focus-visible {
+  background: rgba(251,248,241,.10);
+  border-color: rgba(232,199,106,.72);
+  transform: translateY(-2px);
+  outline: none;
+}
+
+.language-option[aria-current="page"] {
+  border-color: rgba(232,199,106,.48);
+}
+
+.language-option-flag {
+  font-size: clamp(46px, 5vw, 64px);
+  line-height: 1;
+}
+
+.language-option-copy {
+  display: grid;
+  gap: 6px;
+}
+
+.language-option-name {
+  font-family: var(--pometum-serif);
+  font-size: clamp(27px, 3vw, 38px);
+  line-height: 1;
+}
+
+.language-option-status {
+  color: rgba(251,248,241,.62);
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: .10em;
+  text-transform: uppercase;
+}
+
+.language-option-arrow {
+  color: var(--pometum-butter);
+  font-size: 28px;
+  line-height: 1;
+}
+
+body.language-overlay-open,
+body.menu-open {
+  overflow: hidden;
+}
+
+/* Taxonomy artwork ------------------------------------------------------- */
+/*
+ * All category artwork gets the exact same optical frame. Older artwork
+ * layers may define different pseudo-element offsets/sizes; this final layer
+ * intentionally neutralises those differences.
+ */
+.food-family-card .food-family-art {
+  position: relative !important;
+  display: grid !important;
+  place-items: center !important;
+  min-height: 138px !important;
+  padding: 18px !important;
+  overflow: hidden !important;
+  text-align: center !important;
+}
+
+.food-family-card .food-family-art::after {
+  content: "" !important;
+  position: relative !important;
+  inset: auto !important;
+  display: block !important;
+  width: 104px !important;
+  height: 72px !important;
+  max-width: 74% !important;
+  max-height: 72% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  transform: none !important;
+  transform-origin: 50% 50% !important;
+  background-color: transparent !important;
+  background-image: var(--family-icon) !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50% !important;
+  background-size: contain !important;
+}
+
+/* The wider fruit/tuber compositions still remain centred, just gain room. */
+.family-frutas .food-family-art::after {
+  width: 116px !important;
+  height: 72px !important;
+}
+
+.family-tuberculos .food-family-art::after {
+  width: 110px !important;
+  height: 70px !important;
+}
+
+@media (max-width: 900px) {
+  .header-main {
+    min-height: 78px !important;
+  }
+
+  .language-current-flag {
+    font-size: 20px;
+  }
+
+  .language-overlay-shell {
+    width: min(100% - 28px, 760px);
+  }
+
+  .language-overlay-top {
+    min-height: 78px;
+  }
+
+  .language-overlay-content {
+    align-content: start;
+    padding: 54px 0 64px;
+  }
+
+  .language-options {
+    grid-template-columns: 1fr;
+  }
+
+  .language-option {
+    min-height: 122px;
+    padding: 22px;
+  }
+
+  .food-family-card .food-family-art {
+    min-height: 70px !important;
+    padding: 8px !important;
+  }
+
+  .food-family-card .food-family-art::after {
+    width: 60px !important;
+    height: 48px !important;
+    max-width: 78% !important;
+    max-height: 72% !important;
+  }
+
+  .family-frutas .food-family-art::after,
+  .family-tuberculos .food-family-art::after {
+    width: 66px !important;
+    height: 50px !important;
+  }
+}
+
+@media (max-width: 430px) {
+  .language-overlay-title {
+    margin-bottom: 30px;
+  }
+
+  .language-option {
+    grid-template-columns: auto 1fr auto;
+    gap: 16px;
+    min-height: 108px;
+    padding: 18px;
+  }
+
+  .language-option-flag {
+    font-size: 42px;
+  }
+
+  .language-option-name {
+    font-size: 27px;
+  }
+}
