@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "en-002-how-long-cooked-chicken-fridge",
   "article_number": 2,
-  "translation_group": "002-cooked-chicken-fridge",
+  "translation_group": "002-how-long-cooked-chicken-fridge",
   "language": "en",
   "locale": "en-US",
   "market_context": "United States; USDA/FoodSafety.gov household food-safety guidance",
@@ -61,5 +61,5 @@
     "concept": "Realistic editorial photograph of sliced cooked chicken stored in a shallow glass food container on a clean refrigerator shelf, subtle date label without legible text, no branding.",
     "alt": "Cooked chicken stored in a covered container in the refrigerator"
   },
-  "status": "draft"
+  "status": "publish"
 }

@@ -2,7 +2,7 @@
   "schema_version": 1,
   "id": "en-009-how-long-cooked-rice-fridge",
   "article_number": 9,
-  "translation_group": "009-cooked-rice-fridge",
+  "translation_group": "009-how-long-cooked-rice-fridge",
   "language": "en",
   "locale": "en-GB",
   "market_context": "English-language article using UK Food Standards Agency rice-specific guidance because it is more specific than generic leftovers advice",
@@ -56,5 +56,5 @@
     "concept": "Editorial kitchen photograph of cooked rice spread thinly in a shallow tray beside covered meal-size containers ready for refrigeration, no text.",
     "alt": "Cooked rice cooling quickly before refrigerator storage"
   },
-  "status": "draft"
+  "status": "publish"
 }
