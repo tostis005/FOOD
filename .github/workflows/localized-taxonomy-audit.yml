@@ -16,6 +16,7 @@ on:
 jobs:
   audit-localized-taxonomies:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
 
@@ -70,7 +71,6 @@ jobs:
           test -n "$SITE_URL"
           echo "::add-mask::$SITE_URL"
           echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
-          # The root render loads the public-routing layer and persists its rewrite table.
           curl -fsSL "$SITE_URL/" >/dev/null
 
       - name: Verify localized routes and redirects
