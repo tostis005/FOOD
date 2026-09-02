@@ -123,12 +123,43 @@ function food_register_editorial_page_rewrites() {
 		add_rewrite_rule( '^' . preg_quote( $languages['es']['slug'], '#' ) . '/?$', 'index.php?food_editorial_page=' . $key . '&food_lang=es', 'top' );
 		add_rewrite_rule( '^en/' . preg_quote( $languages['en']['slug'], '#' ) . '/?$', 'index.php?food_editorial_page=' . $key . '&food_lang=en', 'top' );
 	}
-	if ( '3' !== get_option( 'food_editorial_pages_rewrite_version' ) ) {
+	if ( '4' !== get_option( 'food_editorial_pages_rewrite_version' ) ) {
 		flush_rewrite_rules( false );
-		update_option( 'food_editorial_pages_rewrite_version', '3' );
+		update_option( 'food_editorial_pages_rewrite_version', '4' );
 	}
 }
 add_action( 'init', 'food_register_editorial_page_rewrites', 99 );
+
+/**
+ * Resolve editorial routes independently of WordPress rewrite precedence.
+ * This keeps /en/about/ et al. from ever being interpreted as article slugs.
+ */
+function food_resolve_editorial_page_request( $wp ) {
+	if ( ! $wp instanceof WP ) {
+		return;
+	}
+
+	$request = trim( (string) $wp->request, '/' );
+	if ( '' === $request ) {
+		return;
+	}
+
+	foreach ( food_editorial_pages() as $key => $languages ) {
+		foreach ( array( 'es', 'en' ) as $language ) {
+			$expected = 'en' === $language ? 'en/' . $languages[ $language ]['slug'] : $languages[ $language ]['slug'];
+			if ( $request !== $expected ) {
+				continue;
+			}
+
+			$wp->query_vars = array(
+				'food_editorial_page' => $key,
+				'food_lang'           => $language,
+			);
+			return;
+		}
+	}
+}
+add_action( 'parse_request', 'food_resolve_editorial_page_request', 1 );
 
 function food_prepare_editorial_page_query( $query ) {
 	if ( ! $query instanceof WP_Query || ! $query->is_main_query() || ! $query->get( 'food_editorial_page' ) ) {
