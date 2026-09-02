@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-051-carne-roja-vs-carne-blanca",
+  "article_number": 51,
+  "translation_group": "051-red-vs-white-meat",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; definición IARC/OMS y composición USDA",
+  "title": "Carne roja vs. carne blanca: diferencias nutricionales",
+  "slug": "carne-roja-vs-carne-blanca",
+  "seo": {
+    "title": "Carne roja vs. blanca: proteína, hierro y grasa",
+    "meta_description": "La carne roja suele aportar más hierro hemo y B12; la carne blanca puede ser más magra en cortes como pechuga. El cerdo cuenta como carne roja.",
+    "search_intent": "Explicar las diferencias nutricionales entre carne roja y blanca sin confundir color culinario, procesado y tipo de corte."
+  },
+  "excerpt": "Carne roja y blanca pueden aportar cantidades similares de proteína. La roja —ternera, cerdo, cordero— suele aportar más hierro hemo y vitamina B12; la blanca —principalmente aves— puede ser más magra en cortes como pechuga. El corte, la piel y el procesado pueden cambiar más la grasa que la categoría.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["beef", "pork", "lamb", "chicken", "turkey"],
+    "article_types": ["comparisons", "nutrition-concepts", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>El color que vemos en un plato no siempre coincide con la categoría nutricional. El cerdo puede parecer pálido después de cocinarse, pero organismos como IARC lo incluyen dentro de la carne roja porque procede de un mamífero.</p><p><strong>La proteína suele ser parecida entre carnes magras; las diferencias más claras aparecen en hierro, B12 y grasa según el corte.</strong></p><h2>Qué se considera carne roja y qué carne blanca</h2><p>Carne roja es el músculo de mamíferos: ternera, cerdo, cordero, cabra y similares. En el uso nutricional habitual, carne blanca se refiere sobre todo a aves como pollo y pavo.</p><p>‘Procesada’ es otra clasificación distinta. Jamón, salchichas o bacon son carnes procesadas aunque procedan de cerdo; un fiambre de pavo también es procesado aunque sea ave.</p><h2>Una comparación representativa entre cortes magros</h2><table><thead><tr><th>Por 100 g cocinados</th><th>Ternera magra</th><th>Pechuga de pollo sin piel</th></tr></thead><tbody><tr><td>Calorías</td><td>~190–210 kcal</td><td>~165 kcal</td></tr><tr><td>Proteína</td><td>~28–30 g</td><td>~31 g</td></tr><tr><td>Grasa</td><td>~7–9 g</td><td>~3,6 g</td></tr><tr><td>Hierro</td><td>~2–3 mg</td><td>~1 mg</td></tr></tbody></table><p>La proteína está prácticamente en el mismo rango. El hierro sí se separa: la ternera magra puede aportar dos o tres veces más que la pechuga.</p><h2>El hierro es una de las diferencias más consistentes</h2><p>La carne roja aporta más hierro hemo, una forma que se absorbe con facilidad. La carne blanca también contiene hierro, pero normalmente menos, especialmente en pechuga.</p><p>La carne oscura de pollo o pavo aporta algo más de hierro que la pechuga, aunque generalmente sigue por debajo de muchos cortes de ternera o cordero.</p><h2>La grasa no depende solo del color de la carne</h2><p>Pechuga de pollo sin piel es muy magra, pero un muslo con piel puede contener bastante más grasa. Del mismo modo, un solomillo de cerdo puede ser más magro que una pieza de ternera muy infiltrada.</p><p>Por eso ‘blanca = baja en grasa’ y ‘roja = grasa’ son atajos poco fiables. La pieza concreta importa más.</p><h2>Vitamina B12 y zinc suelen favorecer a la carne roja</h2><p>Ternera y cordero suelen aportar más B12 y zinc que pechuga de pollo, aunque ambas categorías contienen estos nutrientes. El cerdo destaca además por tiamina.</p><h2>Roja no significa procesada</h2><p>Un filete fresco de ternera es carne roja no procesada. Una salchicha de pollo es carne blanca de origen, pero procesada. Mezclar estas categorías hace que una comparación nutricional sea difícil de interpretar porque sodio, grasa y otros ingredientes pueden cambiar mucho.</p><h2>La idea útil</h2><p><strong>Para proteína, carne roja y blanca pueden ser casi equivalentes.</strong> La roja suele aportar más hierro hemo, B12 y zinc; una pechuga de ave suele ser más magra. Pero para grasa y calorías, mira antes el corte, la piel y el procesado que el color de la carne.</p>",
+  "faq": [
+    {"question": "¿El cerdo es carne roja o blanca?", "answer": "Nutricionalmente y en la definición de IARC/OMS, el cerdo se considera carne roja porque es carne de mamífero."},
+    {"question": "¿Qué tiene más proteína, carne roja o blanca?", "answer": "Los cortes magros pueden estar prácticamente empatados, alrededor de 28–31 g de proteína por 100 g cocinados."},
+    {"question": "¿La carne roja tiene más hierro?", "answer": "En general sí, especialmente más hierro hemo. Una ternera magra puede aportar 2–3 mg/100 g frente a alrededor de 1 mg en pechuga de pollo."}
+  ],
+  "sources": [
+    {"name": "IARC/WHO — Red Meat and Processed Meat", "url": "https://publications.iarc.who.int/Book-And-Report-Series/Iarc-Monographs-On-The-Identification-Of-Carcinogenic-Hazards-To-Humans/Red-Meat-And-Processed-Meat-2018", "note": "Definición de carne roja y procesada."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición nutricional de cortes de carne y aves."}
+  ],
+  "image": {
+    "concept": "Ternera magra, cerdo, pechuga de pollo y pavo cocinados en porciones equivalentes, fotografía editorial sin texto.",
+    "alt": "Carne roja y carne blanca comparadas"
+  },
+  "status": "publish"
+}
