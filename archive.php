@@ -12,7 +12,7 @@
 			} elseif ( is_category() ) {
 				echo 'Familia de alimentos';
 			} else {
-				echo 'Archivo FOOD';
+				echo 'Archivo Pommelo';
 			}
 			?>
 		</div>
