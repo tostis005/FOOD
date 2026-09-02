@@ -264,16 +264,18 @@ function food_category_icon_svg( $slug ) {
 }
 
 /**
- * WordPress' default sample post is useful during installation, but should not
- * ever become a homepage recommendation.
+ * WordPress' localized default sample post is useful during installation, but
+ * should never become a homepage recommendation.
  */
 function food_home_ignored_post_ids() {
-	$ids    = array();
-	$sample = get_page_by_path( 'hello-world', OBJECT, 'post' );
-	if ( $sample instanceof WP_Post ) {
-		$ids[] = (int) $sample->ID;
+	$ids = array();
+	foreach ( array( 'hello-world', 'hola-mundo' ) as $sample_slug ) {
+		$sample = get_page_by_path( $sample_slug, OBJECT, 'post' );
+		if ( $sample instanceof WP_Post ) {
+			$ids[] = (int) $sample->ID;
+		}
 	}
-	return $ids;
+	return array_values( array_unique( $ids ) );
 }
 
 function food_get_home_feature_post() {
