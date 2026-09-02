@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-034-how-long-ground-meat-fridge",
+  "article_number": 34,
+  "translation_group": "034-how-long-ground-meat-fridge",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA FSIS guidance for raw ground meat",
+  "title": "How Long Does Ground Meat Last in the Fridge?",
+  "slug": "how-long-ground-meat-fridge",
+  "seo": {
+    "title": "How Long Ground Meat Lasts in the Fridge",
+    "meta_description": "Raw ground beef, pork, lamb and veal should generally be cooked or frozen within 1–2 days at 40°F/4°C or below. Learn why ground meat spoils faster.",
+    "search_intent": "Store raw ground meat safely and understand why its refrigerator window is shorter than whole cuts."
+  },
+  "excerpt": "Raw ground meat has a short refrigerator window: USDA recommends cooking or freezing ground beef, pork, lamb or veal within 1–2 days at 40°F / 4°C or below. Grinding spreads surface organisms through the meat and greatly increases exposed area.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["ground-meat"],
+    "article_types": ["storage", "food-safety"],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>A package of ground beef should not be stored on the same timeline as a steak. Grinding changes the physical structure of the meat, and USDA gives raw ground meat a much shorter refrigerator window: <strong>1–2 days at 40°F / 4°C or below</strong>.</p><p>That guidance covers ground beef, pork, lamb and veal. If you will not cook it within that window, freezing early is the clearer choice.</p><h2>Why ground meat gets only one or two days</h2><p>On an intact cut, organisms introduced during slaughter and handling are concentrated mainly on the surface. Grinding breaks up that surface and distributes organisms throughout the mixture while increasing the amount of meat exposed to air.</p><p>This also explains why cooking ground meat requires attention to the center of the patty or loaf, not just the browned exterior.</p><h2>The practical timeline</h2><table><thead><tr><th>When</th><th>What to do</th></tr></thead><tbody><tr><td>Day of purchase</td><td>Refrigerate promptly</td></tr><tr><td>Within 1–2 days</td><td>Cook or freeze</td></tr><tr><td>Not cooking it soon</td><td>Freeze before the window is stretched</td></tr><tr><td>Cooked ground meat</td><td>Use the separate 3–4 day leftover window</td></tr></tbody></table><p>If you buy ground beef Monday and know dinner is Thursday, freezing it Monday or Tuesday makes more sense than inspecting it Thursday and hoping the smell answers the question.</p><h2>Package dates do not create a longer home-storage window</h2><p>A “sell by” date in the U.S. is generally not a universal safety expiration. It may help stores manage inventory, but it does not override USDA's home refrigerator guidance once the meat is in your kitchen.</p><p>If a package has specific manufacturer handling or use-by instructions, follow them as well.</p><h2>Brown in the center can be normal</h2><p>Ground beef may be bright red on the outside where oxygen is available and gray-brown in the center where oxygen is limited. USDA specifically notes that this color difference can occur without spoilage.</p><p>If the whole package develops a gray-brown appearance together with a strong off odor or sticky, slimy texture, spoilage becomes more likely. Color alone should not extend the 1–2 day timeline.</p><h2>Once cooked, the clock changes</h2><p>A cooked burger or cooked ground-meat casserole no longer follows the raw 1–2 day limit. Promptly refrigerated cooked leftovers generally keep <strong>3–4 days</strong>.</p><p>That new window assumes the food was refrigerated within 2 hours of cooking, or within 1 hour when the surrounding temperature is above 90°F / 32°C.</p><h2>Do not wash ground meat</h2><p>Rinsing raw meat does not reliably remove harmful organisms and can splash contaminated droplets around the sink and counter. Safe handling comes from cold storage, clean hands and equipment, and proper cooking.</p><h2>When to discard without more testing</h2><ul><li>It has been refrigerated raw beyond the 1–2 day window.</li><li>It has a strong abnormal odor or clearly slimy texture.</li><li>It spent too long at room temperature.</li><li>You cannot remember when it was opened or purchased.</li><li>The refrigerator was too warm for a meaningful period.</li></ul><h2>The simple rule</h2><p>Ground meat has a short clock for a reason: <strong>1–2 days refrigerated, then cook or freeze</strong>. Color may change with oxygen; time and temperature are the more reliable limits.</p>",
+  "faq": [
+    {"question": "Can raw ground beef stay in the fridge for 3 days?", "answer": "USDA recommends only 1–2 days for raw ground meat at 40°F/4°C or below. Three days is beyond that home-storage window."},
+    {"question": "Why does ground meat spoil faster than steak?", "answer": "Grinding spreads surface organisms throughout the meat and greatly increases exposed surface area."},
+    {"question": "Is ground beef bad if it is brown inside?", "answer": "Not necessarily. Low oxygen can make the interior gray-brown. Odor, texture, storage time and temperature are more useful than color alone."}
+  ],
+  "sources": [
+    {"name": "USDA FSIS — Refrigeration & Food Safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration", "note": "1–2 day refrigerator guidance for raw ground meat."},
+    {"name": "USDA FSIS — Ground Beef and Food Safety", "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/ground-beef-and-food-safety", "note": "Ground beef color, handling and cooked leftovers."}
+  ],
+  "image": {
+    "concept": "Raw ground meat in a sealed container on the bottom shelf of a clean refrigerator, editorial food photography, no text.",
+    "alt": "Ground meat stored safely in the refrigerator"
+  },
+  "status": "publish"
+}
