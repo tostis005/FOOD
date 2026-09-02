@@ -67,7 +67,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 
   window.addEventListener('resize', function () {
-    if (window.innerWidth > 920 && overlay.classList.contains('is-open')) {
+    if (window.innerWidth > 960 && overlay.classList.contains('is-open')) {
       closeMenu();
     }
   });
