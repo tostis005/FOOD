@@ -8,7 +8,7 @@ root = Path(sys.argv[1] if len(sys.argv) > 1 else 'content/articles')
 files = sorted(root.glob('es/*.json')) + sorted(root.glob('en/*.json'))
 errors = []
 
-expected = {(lang, n) for lang in ('es','en') for n in range(1,26)}
+expected = {(lang, n) for lang in ('es','en') for n in range(1,51)}
 seen = set()
 
 for path in files:
@@ -46,8 +46,8 @@ if missing:
     errors.append(f'missing article pairs: {missing}')
 if extra:
     errors.append(f'unexpected article pairs: {extra}')
-if len(files) != 50:
-    errors.append(f'expected 50 article JSON files, found {len(files)}')
+if len(files) != 100:
+    errors.append(f'expected 100 article JSON files, found {len(files)}')
 
 if errors:
     print('EDITORIAL_AUDIT=FAIL')
@@ -55,6 +55,6 @@ if errors:
         print(err)
     raise SystemExit(1)
 print('EDITORIAL_AUDIT=PASS')
-print('ARTICLES=50')
-print('SPANISH=25')
-print('ENGLISH=25')
+print('ARTICLES=100')
+print('SPANISH=50')
+print('ENGLISH=50')
