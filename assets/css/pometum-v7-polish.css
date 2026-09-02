@@ -4,7 +4,7 @@
 
 /* Brand wordmark: Quinnoa always starts with a capital Q. */
 .pometum-wordmark > span:first-child {
-  text-transform: capitalize;
+  text-transform: none !important;
 }
 
 /* Keep the home hero expressive without making the headline dominate an
@@ -53,15 +53,10 @@ body.home .discover-section .discover-grid {
   }
 }
 
-
-/* Quinnoa logo cleanup: no legacy leaf; quinoa-yellow i dot. */
+/* Quinnoa logo cleanup: no legacy leaf; the i dot is a small quinoa grain. */
 .pometum-o::after {
   content: none !important;
   display: none !important;
-}
-
-.pometum-wordmark > span:first-child {
-  text-transform: none !important;
 }
 
 .quinnoa-i {
@@ -72,13 +67,71 @@ body.home .discover-section .discover-grid {
 .quinnoa-i::after {
   content: "";
   position: absolute;
-  width: .13em;
-  height: .13em;
-  min-width: 4px;
+  width: .145em;
+  height: .115em;
+  min-width: 5px;
   min-height: 4px;
-  left: 50%;
-  top: .02em;
-  border-radius: 50%;
-  background: var(--pometum-butter, #E8C76A);
-  transform: translateX(-50%);
+  left: 51%;
+  top: .095em;
+  border: .018em solid rgba(118, 94, 76, .58);
+  border-radius: 56% 44% 52% 48% / 43% 58% 42% 57%;
+  background:
+    radial-gradient(circle at 34% 28%, rgba(255,255,255,.46) 0 14%, transparent 15%),
+    linear-gradient(145deg, #F1D67D 0%, var(--pometum-butter, #E8C76A) 54%, #D5AD4E 100%);
+  box-shadow:
+    inset -.018em -.014em 0 rgba(118, 94, 76, .13),
+    0 .018em .025em rgba(45, 51, 44, .16);
+  transform: translateX(-50%) rotate(-11deg);
+  transform-origin: center;
+}
+
+/* Render language flags ourselves instead of relying on emoji support. */
+.language-current-flag,
+.language-option-flag {
+  display: inline-block !important;
+  flex: 0 0 auto;
+  overflow: hidden;
+  font-size: 0 !important;
+  line-height: 0 !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  background-size: 100% 100% !important;
+  border-radius: 2px;
+  box-shadow: 0 0 0 1px rgba(251,248,241,.28);
+}
+
+.language-current-flag {
+  width: 22px;
+  height: 15px;
+}
+
+.language-option-flag {
+  width: 36px;
+  height: 24px;
+}
+
+.language-current-flag::before,
+.language-current-flag::after,
+.language-option-flag::before,
+.language-option-flag::after {
+  content: none !important;
+  display: none !important;
+}
+
+.flag-es {
+  background-image: linear-gradient(
+    to bottom,
+    #AA151B 0 25%,
+    #F1BF00 25% 75%,
+    #AA151B 75% 100%
+  ) !important;
+}
+
+.flag-en {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 26 18'%3E%3Crect width='26' height='18' fill='%23fff'/%3E%3Cg fill='%23B22234'%3E%3Crect y='0' width='26' height='1.385'/%3E%3Crect y='2.77' width='26' height='1.385'/%3E%3Crect y='5.54' width='26' height='1.385'/%3E%3Crect y='8.31' width='26' height='1.385'/%3E%3Crect y='11.08' width='26' height='1.385'/%3E%3Crect y='13.85' width='26' height='1.385'/%3E%3Crect y='16.615' width='26' height='1.385'/%3E%3C/g%3E%3Crect width='10.5' height='9.7' fill='%233C3B6E'/%3E%3Cg fill='%23fff'%3E%3Ccircle cx='1.4' cy='1.3' r='.42'/%3E%3Ccircle cx='3.5' cy='1.3' r='.42'/%3E%3Ccircle cx='5.6' cy='1.3' r='.42'/%3E%3Ccircle cx='7.7' cy='1.3' r='.42'/%3E%3Ccircle cx='9.8' cy='1.3' r='.42'/%3E%3Ccircle cx='2.45' cy='3.1' r='.42'/%3E%3Ccircle cx='4.55' cy='3.1' r='.42'/%3E%3Ccircle cx='6.65' cy='3.1' r='.42'/%3E%3Ccircle cx='8.75' cy='3.1' r='.42'/%3E%3Ccircle cx='1.4' cy='4.9' r='.42'/%3E%3Ccircle cx='3.5' cy='4.9' r='.42'/%3E%3Ccircle cx='5.6' cy='4.9' r='.42'/%3E%3Ccircle cx='7.7' cy='4.9' r='.42'/%3E%3Ccircle cx='9.8' cy='4.9' r='.42'/%3E%3Ccircle cx='2.45' cy='6.7' r='.42'/%3E%3Ccircle cx='4.55' cy='6.7' r='.42'/%3E%3Ccircle cx='6.65' cy='6.7' r='.42'/%3E%3Ccircle cx='8.75' cy='6.7' r='.42'/%3E%3Ccircle cx='1.4' cy='8.5' r='.42'/%3E%3Ccircle cx='3.5' cy='8.5' r='.42'/%3E%3Ccircle cx='5.6' cy='8.5' r='.42'/%3E%3Ccircle cx='7.7' cy='8.5' r='.42'/%3E%3Ccircle cx='9.8' cy='8.5' r='.42'/%3E%3C/g%3E%3C/svg%3E") !important;
+}
+
+/* With the eyebrow removed, the search title can sit directly in the center. */
+.search-overlay-title {
+  margin-top: 0 !important;
 }
