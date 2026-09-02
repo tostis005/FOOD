@@ -17,12 +17,8 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 				<circle cx="22" cy="25" r="13" fill="#fff0df"/>
 				<circle cx="22" cy="25" r="10.6" fill="#ef7865"/>
 				<g stroke="#fff0df" stroke-width="2.1" stroke-linecap="round">
-					<path d="M22 25V14.4"/>
-					<path d="m22 25 9.2-5.3"/>
-					<path d="m22 25 9.2 5.3"/>
-					<path d="M22 25v10.6"/>
-					<path d="m22 25-9.2 5.3"/>
-					<path d="m22 25-9.2-5.3"/>
+					<path d="M22 25V14.4"/><path d="m22 25 9.2-5.3"/><path d="m22 25 9.2 5.3"/>
+					<path d="M22 25v10.6"/><path d="m22 25-9.2 5.3"/><path d="m22 25-9.2-5.3"/>
 				</g>
 				<circle cx="22" cy="25" r="2.2" fill="#fff0df"/>
 				<path d="M31.5 9.5c3.2-4.3 7.2-5.7 11.7-4.4-.8 5-4.2 8.1-10.2 9.1" fill="#64805f"/>
@@ -71,71 +67,41 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 		</div>
 
 		<nav class="primary-nav" id="primary-menu" aria-label="<?php esc_attr_e( 'Menú principal', 'food' ); ?>">
-			<?php
-			wp_nav_menu(
-				array(
-					'theme_location' => 'primary',
-					'container'      => false,
-					'fallback_cb'    => 'food_primary_nav_fallback',
-				)
-			);
-			?>
+			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'fallback_cb' => 'food_primary_nav_fallback' ) ); ?>
 		</nav>
 
 		<div class="header-actions">
 			<a class="header-search" href="<?php echo esc_url( home_url( '/?s=' ) ); ?>" aria-label="<?php esc_attr_e( 'Buscar en Pommelo', 'food' ); ?>">
-				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
-					<circle cx="11" cy="11" r="6.5"></circle>
-					<path d="m16 16 4 4"></path>
-				</svg>
+				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><circle cx="11" cy="11" r="6.5"></circle><path d="m16 16 4 4"></path></svg>
 			</a>
-
 			<button class="menu-toggle" type="button" aria-controls="mobile-menu-overlay" aria-expanded="false" aria-label="<?php esc_attr_e( 'Abrir menú', 'food' ); ?>">
-				<span class="menu-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span>
-				<span class="menu-toggle-label">Menú</span>
+				<span class="menu-toggle-icon" aria-hidden="true"><span></span><span></span><span></span></span><span class="menu-toggle-label">Menú</span>
 			</button>
 		</div>
 	</div>
 </header>
 
-<div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true">
+<div class="mobile-menu-overlay" id="mobile-menu-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Menú de Pommelo">
 	<div class="mobile-menu-shell">
 		<div class="mobile-menu-top">
-			<a class="mobile-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" aria-label="Pommelo, inicio">
-				<?php food_pommelo_logo( 'is-mobile' ); ?>
-			</a>
+			<a class="mobile-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home" aria-label="Pommelo, inicio"><?php food_pommelo_logo( 'is-mobile' ); ?></a>
 			<button class="mobile-menu-close" type="button" aria-label="<?php esc_attr_e( 'Cerrar menú', 'food' ); ?>">
-				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round">
-					<path d="M6 6l12 12M18 6 6 18"></path>
-				</svg>
+				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"><path d="M6 6l12 12M18 6 6 18"></path></svg>
 			</button>
 		</div>
 
 		<div class="mobile-menu-content">
 			<div class="mobile-menu-eyebrow">Encuentra lo que buscas</div>
 			<nav class="mobile-primary-nav" aria-label="<?php esc_attr_e( 'Menú móvil', 'food' ); ?>">
-				<?php
-				wp_nav_menu(
-					array(
-						'theme_location' => 'primary',
-						'container'      => false,
-						'fallback_cb'    => 'food_primary_nav_fallback',
-					)
-				);
-				?>
+				<?php wp_nav_menu( array( 'theme_location' => 'primary', 'container' => false, 'fallback_cb' => 'food_primary_nav_fallback' ) ); ?>
 			</nav>
 
 			<div class="mobile-menu-explore">
 				<span class="mobile-menu-explore-title">Explora por alimento</span>
 				<div class="mobile-food-links">
-					<a href="<?php echo esc_url( food_category_url( 'carnes', 'Carnes' ) ); ?>">Carnes</a>
-					<a href="<?php echo esc_url( food_category_url( 'pescados-mariscos', 'Pescados y mariscos' ) ); ?>">Pescados</a>
-					<a href="<?php echo esc_url( food_category_url( 'jamon-embutidos', 'Jamón y embutidos' ) ); ?>">Jamón y paletas</a>
-					<a href="<?php echo esc_url( food_category_url( 'quesos-lacteos', 'Quesos y lácteos' ) ); ?>">Quesos y lácteos</a>
-					<a href="<?php echo esc_url( food_category_url( 'aceites', 'Aceites' ) ); ?>">Aceites</a>
-					<a href="<?php echo esc_url( food_category_url( 'legumbres', 'Legumbres' ) ); ?>">Legumbres</a>
-					<a href="<?php echo esc_url( food_category_url( 'frutas', 'Frutas' ) ); ?>">Frutas</a>
-					<a href="<?php echo esc_url( food_category_url( 'verduras-hortalizas', 'Verduras y hortalizas' ) ); ?>">Verduras</a>
+					<?php foreach ( food_family_definitions() as $slug => $family ) : ?>
+						<a href="<?php echo esc_url( food_category_url( $slug, $family['name'] ) ); ?>"><?php echo esc_html( $family['name'] ); ?></a>
+					<?php endforeach; ?>
 				</div>
 			</div>
 
@@ -144,8 +110,7 @@ if ( ! function_exists( 'food_pommelo_logo' ) ) {
 				<input id="mobile-food-search" type="search" name="s" placeholder="¿Qué quieres saber?" value="<?php echo esc_attr( get_search_query() ); ?>">
 				<button type="submit">Buscar</button>
 			</form>
-
-			<p class="mobile-menu-note">Guías prácticas sobre alimentos, nutrición, seguridad, conservación y cocina.</p>
+			<p class="mobile-menu-note">Información práctica sobre alimentos, nutrición, seguridad, conservación, calidad y cocina.</p>
 		</div>
 	</div>
 </div>
