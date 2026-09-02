@@ -40,14 +40,16 @@ if ( false === $content || '' === trim( $content ) ) {
     exit( 1 );
 }
 
-$category = get_term_by( 'slug', 'carnes', 'category' );
+// The dominant search intent is cooking technique, so this reference article
+// belongs to Cocina rather than to the product family Carnes.
+$category = get_term_by( 'slug', 'cocina', 'category' );
 if ( ! $category ) {
     $created = wp_insert_term(
-        'Carnes',
+        'Cocina',
         'category',
         array(
-            'slug'        => 'carnes',
-            'description' => 'Guías sobre carne: tipos, calidad, conservación, cocina y nutrición práctica.',
+            'slug'        => 'cocina',
+            'description' => 'Técnicas, errores habituales y explicaciones de lo que ocurre cuando cocinamos.',
         )
     );
 
@@ -73,15 +75,15 @@ $author_id = ! empty( $admins ) ? (int) $admins[0] : 1;
 $existing = get_page_by_path( $slug, OBJECT, 'post' );
 
 $post_data = array(
-    'post_title'    => $title,
-    'post_name'     => $slug,
-    'post_excerpt'  => $excerpt,
-    'post_content'  => $content,
-    'post_status'   => 'publish',
-    'post_type'     => 'post',
-    'post_author'   => $author_id,
-    'post_category' => array( $category_id ),
-    'comment_status'=> 'closed',
+    'post_title'     => $title,
+    'post_name'      => $slug,
+    'post_excerpt'   => $excerpt,
+    'post_content'   => $content,
+    'post_status'    => 'publish',
+    'post_type'      => 'post',
+    'post_author'    => $author_id,
+    'post_category'  => array( $category_id ),
+    'comment_status' => 'closed',
 );
 
 if ( $existing instanceof WP_Post ) {
@@ -98,11 +100,8 @@ if ( is_wp_error( $post_id ) ) {
     exit( 1 );
 }
 
-wp_set_post_tags(
-    $post_id,
-    array( 'carne', 'cocina', 'sartén', 'dorar carne', 'técnicas de cocina' ),
-    false
-);
+// FOOD uses categories as its visible editorial taxonomy. Keep posts tag-free.
+wp_set_post_tags( $post_id, array(), false );
 
 update_post_meta( $post_id, '_food_reference_article', '1' );
 update_post_meta( $post_id, '_food_reference_purpose', 'Modelo editorial SEO para futuros artículos FOOD' );

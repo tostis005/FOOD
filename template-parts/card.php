@@ -9,11 +9,11 @@
 		</div>
 		<div class="card-body">
 			<div class="card-kicker">
-				<?php $cats = get_the_category(); echo ! empty( $cats ) ? esc_html( $cats[0]->name ) : esc_html__( 'Guía', 'food' ); ?>
+				<?php $cats = get_the_category(); echo ! empty( $cats ) ? esc_html( $cats[0]->name ) : esc_html__( 'Guía FOOD', 'food' ); ?>
 			</div>
 			<h2 class="card-title"><?php the_title(); ?></h2>
 			<p class="card-excerpt"><?php echo esc_html( get_the_excerpt() ); ?></p>
-			<div class="card-meta"><span><?php echo esc_html( get_the_date() ); ?></span><span>·</span><span><?php echo esc_html( food_reading_time() ); ?></span></div>
+			<div class="card-meta"><span>Guía FOOD</span><span>·</span><span><?php echo esc_html( food_reading_time() ); ?></span></div>
 		</div>
 	</a>
 </article>

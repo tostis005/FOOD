@@ -32,6 +32,17 @@ add_action( 'after_setup_theme', 'food_theme_setup' );
 function food_enqueue_assets() {
 	$version = wp_get_theme()->get( 'Version' );
 	wp_enqueue_style( 'food-style', get_stylesheet_uri(), array(), $version );
+
+	$editorial_css = get_template_directory() . '/assets/css/editorial.css';
+	if ( file_exists( $editorial_css ) ) {
+		wp_enqueue_style(
+			'food-editorial',
+			get_template_directory_uri() . '/assets/css/editorial.css',
+			array( 'food-style' ),
+			(string) filemtime( $editorial_css )
+		);
+	}
+
 	wp_enqueue_script( 'food-theme', get_template_directory_uri() . '/assets/js/theme.js', array(), $version, true );
 }
 add_action( 'wp_enqueue_scripts', 'food_enqueue_assets' );
@@ -71,22 +82,148 @@ function food_reading_time() {
 	return sprintf( _n( '%s min de lectura', '%s min de lectura', $minutes, 'food' ), $minutes );
 }
 
+/**
+ * Editorial architecture.
+ *
+ * FOOD uses categories as the only visible editorial taxonomy. Product families
+ * live below "Alimentos"; transversal search intents remain top-level areas.
+ */
+function food_editorial_categories() {
+	return array(
+		'alimentos' => array(
+			'name'        => 'Alimentos',
+			'description' => 'Guías organizadas por familias de alimentos: cómo elegirlos, conservarlos, entenderlos y cocinarlos.',
+			'children'    => array(
+				'carnes'                 => array( 'Carnes', 'Tipos de carne, cortes, calidad, conservación, cocina y nutrición práctica.' ),
+				'pescados-mariscos'      => array( 'Pescados y mariscos', 'Pescados, mariscos, frescura, conservación, cocina y características del producto.' ),
+				'jamon-embutidos'        => array( 'Jamón y embutidos', 'Jamón, paleta, embutidos, curados, calidades, origen, conservación y consumo.' ),
+				'quesos-lacteos'         => array( 'Quesos y lácteos', 'Quesos, leche y otros lácteos: variedades, calidad, conservación y usos.' ),
+				'aceites'                 => array( 'Aceites', 'Aceite de oliva y otros aceites: sabor, calidad, conservación, usos y dudas frecuentes.' ),
+				'legumbres'               => array( 'Legumbres', 'Lentejas, garbanzos, judías y otras legumbres: propiedades, conservación y cocina.' ),
+				'frutas'                  => array( 'Frutas', 'Frutas: maduración, conservación, calidad, temporada y dudas habituales.' ),
+				'verduras-hortalizas'     => array( 'Verduras y hortalizas', 'Verduras y hortalizas: estado, conservación, cocina, temporada y calidad.' ),
+				'cereales-pan-pasta'      => array( 'Cereales, pan y pasta', 'Arroz, cereales, panes y pastas: variedades, conservación, cocina y nutrición.' ),
+				'huevos'                  => array( 'Huevos', 'Huevos: conservación, etiquetado, cocina, seguridad y calidad.' ),
+			),
+		),
+		'seguridad-alimentaria' => array(
+			'name'        => 'Seguridad alimentaria',
+			'description' => 'Respuestas claras para saber cuándo un alimento es seguro, cuándo conviene descartarlo y cómo conservarlo correctamente.',
+		),
+		'nutricion' => array(
+			'name'        => 'Nutrición',
+			'description' => 'Comparativas y explicaciones prácticas sobre proteínas, grasas, fibra, energía y composición de los alimentos.',
+		),
+		'cocina' => array(
+			'name'        => 'Cocina',
+			'description' => 'Técnicas, errores habituales y explicaciones de lo que ocurre cuando cocinamos.',
+		),
+		'platos-menus' => array(
+			'name'        => 'Platos y menús',
+			'description' => 'Ideas y guías para organizar platos completos, menús, comida cotidiana y opciones equilibradas.',
+		),
+		'origen-calidad' => array(
+			'name'        => 'Origen y calidad',
+			'description' => 'Denominaciones de origen, sellos, etiquetado, procedencia y criterios para entender la calidad de un alimento.',
+		),
+	);
+}
+
+function food_ensure_editorial_structure() {
+	$structure_version = '2';
+	if ( get_option( 'food_editorial_structure_version' ) === $structure_version ) {
+		return;
+	}
+
+	foreach ( food_editorial_categories() as $slug => $definition ) {
+		$parent = get_term_by( 'slug', $slug, 'category' );
+		if ( ! $parent ) {
+			$created = wp_insert_term(
+				$definition['name'],
+				'category',
+				array(
+					'slug'        => $slug,
+					'description' => $definition['description'],
+				)
+			);
+			if ( ! is_wp_error( $created ) ) {
+				$parent = get_term( (int) $created['term_id'], 'category' );
+			}
+		} else {
+			wp_update_term( $parent->term_id, 'category', array( 'description' => $definition['description'] ) );
+		}
+
+		if ( empty( $definition['children'] ) || ! $parent || is_wp_error( $parent ) ) {
+			continue;
+		}
+
+		foreach ( $definition['children'] as $child_slug => $child ) {
+			$child_term = get_term_by( 'slug', $child_slug, 'category' );
+			if ( ! $child_term ) {
+				wp_insert_term(
+					$child[0],
+					'category',
+					array(
+						'slug'        => $child_slug,
+						'description' => $child[1],
+						'parent'      => (int) $parent->term_id,
+					)
+				);
+			} else {
+				wp_update_term(
+					$child_term->term_id,
+					'category',
+					array(
+						'description' => $child[1],
+						'parent'      => (int) $parent->term_id,
+					)
+				);
+			}
+		}
+	}
+
+	// Evergreen content should not expose dates in its URL structure.
+	if ( '/%postname%/' !== get_option( 'permalink_structure' ) ) {
+		update_option( 'permalink_structure', '/%postname%/' );
+		flush_rewrite_rules( false );
+	}
+
+	update_option( 'food_editorial_structure_version', $structure_version );
+}
+add_action( 'init', 'food_ensure_editorial_structure', 30 );
+
+function food_category_url( $slug, $fallback_label = '' ) {
+	$term = get_category_by_slug( $slug );
+	if ( $term ) {
+		return get_category_link( $term );
+	}
+
+	$search = $fallback_label ? $fallback_label : str_replace( '-', ' ', $slug );
+	return home_url( '/?s=' . rawurlencode( $search ) );
+}
+
+function food_post_url_by_slug( $slug, $fallback_search = '' ) {
+	$post = get_page_by_path( $slug, OBJECT, 'post' );
+	if ( $post instanceof WP_Post ) {
+		return get_permalink( $post );
+	}
+
+	return home_url( '/?s=' . rawurlencode( $fallback_search ? $fallback_search : $slug ) );
+}
+
 function food_category_fallback() {
 	$items = array(
-		'Carnes'                => 'carnes',
-		'Jamón'                 => 'jamon',
-		'Quesos'                => 'quesos',
-		'Aceites'               => 'aceites',
-		'Legumbres'             => 'legumbres',
-		'Frutas y verduras'     => 'frutas-verduras',
+		'Alimentos'              => 'alimentos',
 		'Seguridad alimentaria' => 'seguridad-alimentaria',
+		'Nutrición'              => 'nutricion',
+		'Cocina'                 => 'cocina',
+		'Platos y menús'         => 'platos-menus',
+		'Origen y calidad'       => 'origen-calidad',
 	);
 
 	echo '<ul class="menu food-fallback-menu">';
 	foreach ( $items as $label => $slug ) {
-		$term = get_category_by_slug( $slug );
-		$url  = $term ? get_category_link( $term ) : home_url( '/?s=' . rawurlencode( $label ) );
-		printf( '<li><a href="%s">%s</a></li>', esc_url( $url ), esc_html( $label ) );
+		printf( '<li><a href="%s">%s</a></li>', esc_url( food_category_url( $slug, $label ) ), esc_html( $label ) );
 	}
 	echo '</ul>';
 }
@@ -141,6 +278,15 @@ function food_article_schema() {
 	echo '<script type="application/ld+json">' . wp_json_encode( $schema, JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE ) . '</script>';
 }
 add_action( 'wp_head', 'food_article_schema', 20 );
+
+function food_tag_archive_robots( $robots ) {
+	if ( is_tag() ) {
+		$robots['noindex'] = true;
+		$robots['follow']  = true;
+	}
+	return $robots;
+}
+add_filter( 'wp_robots', 'food_tag_archive_robots' );
 
 function food_body_classes( $classes ) {
 	$classes[] = 'food-theme';

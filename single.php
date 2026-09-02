@@ -10,8 +10,8 @@
 		<h1><?php the_title(); ?></h1>
 		<?php if ( has_excerpt() ) : ?><p class="article-deck"><?php echo esc_html( get_the_excerpt() ); ?></p><?php endif; ?>
 		<div class="article-meta">
-			<span>Por <?php the_author(); ?></span>
-			<span>Actualizado <?php echo esc_html( get_the_modified_date() ); ?></span>
+			<span>Guía FOOD</span>
+			<span>·</span>
 			<span><?php echo esc_html( food_reading_time() ); ?></span>
 		</div>
 	</header>
@@ -35,8 +35,6 @@
 		<div class="entry-content">
 			<?php the_content(); ?>
 		</div>
-
-		<?php if ( has_tag() ) : ?><div class="article-tags"><?php the_tags( '', ' ', '' ); ?></div><?php endif; ?>
 	</article>
 
 	<?php
@@ -53,7 +51,7 @@
 	if ( $related->have_posts() ) : ?>
 		<section class="related">
 			<div class="container">
-				<div class="section-head"><div><div class="eyebrow">Sigue aprendiendo</div><h2>También te puede interesar</h2></div></div>
+				<div class="section-head"><div><div class="eyebrow">Sigue aprendiendo</div><h2>Más guías sobre este tema</h2></div></div>
 				<div class="card-grid">
 					<?php while ( $related->have_posts() ) : $related->the_post(); get_template_part( 'template-parts/card' ); endwhile; wp_reset_postdata(); ?>
 				</div>
