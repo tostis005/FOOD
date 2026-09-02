@@ -1,0 +1,77 @@
+name: Build consolidated CSS
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'style.css'
+      - 'assets/css/**'
+      - '.github/workflows/build-consolidated-css.yml'
+    paths-ignore:
+      - 'assets/css/quinnoa.css'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-css:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Build quinnoa.css
+        shell: bash
+        run: |
+          set -euo pipefail
+          output='assets/css/quinnoa.css'
+          sources=(
+            'style.css'
+            'assets/css/editorial.css'
+            'assets/css/article-layout-v2.css'
+            'assets/css/food-v4.css'
+            'assets/css/food-v5.css'
+            'assets/css/food-v6.css'
+            'assets/css/food-v6-icons.css'
+            'assets/css/pommelo-v1.css'
+            'assets/css/pommelo-v2.css'
+            'assets/css/pommelo-v3.css'
+            'assets/css/pommelo-v4.css'
+            'assets/css/pommelo-v5-icons.css'
+            'assets/css/pommelo-v6-artwork.css'
+            'assets/css/pommelo-v6-optical-tune.css'
+            'assets/css/pometum-v1.css'
+            'assets/css/pometum-v2.css'
+            'assets/css/pometum-v3.css'
+            'assets/css/pometum-v4.css'
+            'assets/css/pometum-v5-mobile-centering.css'
+            'assets/css/pometum-v6-ui.css'
+            'assets/css/pometum-v7-polish.css'
+          )
+
+          : > "$output"
+          printf '/* Quinnoa consolidated stylesheet. Generated automatically; edit source fragments, not this file. */\n\n' >> "$output"
+          for source in "${sources[@]}"; do
+            if [[ -f "$source" ]]; then
+              printf '\n/* ===== %s ===== */\n' "$source" >> "$output"
+              cat "$source" >> "$output"
+              printf '\n' >> "$output"
+            fi
+          done
+
+      - name: Commit generated stylesheet
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- assets/css/quinnoa.css; then
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add assets/css/quinnoa.css
+          git commit -m 'Build consolidated Quinnoa stylesheet'
+          git push
