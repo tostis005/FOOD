@@ -29,11 +29,10 @@ jobs:
           from pathlib import Path
 
           root = Path('.')
-          allowed = {'.php', '.js', '.css', '.json', '.md', '.txt', '.yml', '.yaml', '.html', '.xml'}
-          skip = {Path('.github/workflows/rebrand-quinnoa.yml')}
+          allowed = {'.php', '.js', '.css', '.json', '.md', '.txt', '.html', '.xml'}
 
           for path in root.rglob('*'):
-              if not path.is_file() or '.git' in path.parts or path in skip:
+              if not path.is_file() or '.git' in path.parts or '.github' in path.parts:
                   continue
               if path.suffix.lower() not in allowed and path.name not in {'style.css'}:
                   continue
@@ -63,13 +62,11 @@ jobs:
               header.write_text(text, encoding='utf-8')
           PY
 
-          rm .github/workflows/rebrand-quinnoa.yml
-
       - name: Validate rebrand
         run: |
           set -euo pipefail
-          if grep -RIn --exclude-dir=.git -E 'Pometum|Pommelo|POMMELO' .; then
-            echo 'Legacy public brand reference remains.' >&2
+          if grep -RIn --exclude-dir=.git --exclude-dir=.github -E 'Pometum|Pommelo|POMMELO' .; then
+            echo 'Legacy public brand reference remains in site source.' >&2
             exit 1
           fi
           find . -type f -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l
@@ -83,6 +80,7 @@ jobs:
           set -euo pipefail
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -A
+          git add -A -- ':!.github'
+          git diff --cached --quiet && exit 0
           git commit -m 'Rebrand public site to Quinnoa'
           git push origin HEAD:main
