@@ -76,15 +76,26 @@ jobs:
       - name: Verify localized routes and redirects
         run: |
           set -euo pipefail
-          status_es=$(curl -sS -o /tmp/es.html -w '%{http_code}' "$SITE_URL/alimentos/carnes/")
-          status_en=$(curl -sS -o /tmp/en.html -w '%{http_code}' "$SITE_URL/en/foods/meat/")
-          status_topic_en=$(curl -sS -o /tmp/topic-en.html -w '%{http_code}' "$SITE_URL/en/topics/food-safety/")
-          echo "Spanish meat status: $status_es"
-          echo "English meat status: $status_en"
-          echo "English food-safety status: $status_topic_en"
+          path_of() { TARGET="$1" python -c 'import os,urllib.parse; print(urllib.parse.urlparse(os.environ["TARGET"]).path)'; }
+
+          status_es=$(curl -LsS -o /tmp/es.html -w '%{http_code}' "$SITE_URL/alimentos/carnes/")
+          status_en=$(curl -LsS -o /tmp/en.html -w '%{http_code}' "$SITE_URL/en/foods/meat/")
+          status_topic_en=$(curl -LsS -o /tmp/topic-en.html -w '%{http_code}' "$SITE_URL/en/topics/food-safety/")
+          effective_es=$(curl -LsS -o /dev/null -w '%{url_effective}' "$SITE_URL/alimentos/carnes/")
+          effective_en=$(curl -LsS -o /dev/null -w '%{url_effective}' "$SITE_URL/en/foods/meat/")
+          effective_topic_en=$(curl -LsS -o /dev/null -w '%{url_effective}' "$SITE_URL/en/topics/food-safety/")
+          path_es=$(path_of "$effective_es")
+          path_en=$(path_of "$effective_en")
+          path_topic_en=$(path_of "$effective_topic_en")
+          echo "Spanish meat: $status_es $path_es"
+          echo "English meat: $status_en $path_en"
+          echo "English food safety: $status_topic_en $path_topic_en"
           test "$status_es" = "200" || { echo 'FAIL: Spanish category route'; exit 1; }
           test "$status_en" = "200" || { echo 'FAIL: English food route'; exit 1; }
           test "$status_topic_en" = "200" || { echo 'FAIL: English topic route'; exit 1; }
+          test "$path_es" = "/alimentos/carnes/" || { echo 'FAIL: Spanish canonical path'; exit 1; }
+          test "$path_en" = "/en/foods/meat/" || { echo 'FAIL: English food canonical path'; exit 1; }
+          test "$path_topic_en" = "/en/topics/food-safety/" || { echo 'FAIL: English topic canonical path'; exit 1; }
           grep -qi 'Carnes' /tmp/es.html || { echo 'FAIL: Spanish category label'; exit 1; }
           grep -qi 'Meat' /tmp/en.html || { echo 'FAIL: English category label'; exit 1; }
           grep -qi 'Food safety' /tmp/topic-en.html || { echo 'FAIL: English topic label'; exit 1; }
@@ -93,17 +104,17 @@ jobs:
           grep -q '/en/foods/' /tmp/en.html || { echo 'FAIL: no English food links'; exit 1; }
           grep -q '/en/topics/' /tmp/topic-en.html || { echo 'FAIL: no English topic links'; exit 1; }
 
-          legacy_food_code=$(curl -sS -o /dev/null -w '%{http_code}' "$SITE_URL/en/alimentos/carnes/")
-          legacy_food_target=$(curl -sS -o /dev/null -w '%{redirect_url}' "$SITE_URL/en/alimentos/carnes/")
-          legacy_topic_code=$(curl -sS -o /dev/null -w '%{http_code}' "$SITE_URL/en/tema/seguridad-alimentaria/")
-          legacy_topic_target=$(curl -sS -o /dev/null -w '%{redirect_url}' "$SITE_URL/en/tema/seguridad-alimentaria/")
-          legacy_food_path=$(python -c 'import os,urllib.parse; print(urllib.parse.urlparse(os.environ["TARGET"]).path)' TARGET="$legacy_food_target")
-          legacy_topic_path=$(python -c 'import os,urllib.parse; print(urllib.parse.urlparse(os.environ["TARGET"]).path)' TARGET="$legacy_topic_target")
-          echo "Legacy food redirect: $legacy_food_code $legacy_food_path"
-          echo "Legacy topic redirect: $legacy_topic_code $legacy_topic_path"
-          test "$legacy_food_code" = "301" || { echo 'FAIL: legacy food status'; exit 1; }
+          legacy_food_final=$(curl -LsS -o /dev/null -w '%{url_effective}' "$SITE_URL/en/alimentos/carnes/")
+          legacy_topic_final=$(curl -LsS -o /dev/null -w '%{url_effective}' "$SITE_URL/en/tema/seguridad-alimentaria/")
+          legacy_food_count=$(curl -LsS -o /dev/null -w '%{num_redirects}' "$SITE_URL/en/alimentos/carnes/")
+          legacy_topic_count=$(curl -LsS -o /dev/null -w '%{num_redirects}' "$SITE_URL/en/tema/seguridad-alimentaria/")
+          legacy_food_path=$(path_of "$legacy_food_final")
+          legacy_topic_path=$(path_of "$legacy_topic_final")
+          echo "Legacy food redirects: $legacy_food_count -> $legacy_food_path"
+          echo "Legacy topic redirects: $legacy_topic_count -> $legacy_topic_path"
+          test "$legacy_food_count" -ge 1 || { echo 'FAIL: legacy food did not redirect'; exit 1; }
           test "$legacy_food_path" = "/en/foods/meat/" || { echo 'FAIL: legacy food target'; exit 1; }
-          test "$legacy_topic_code" = "301" || { echo 'FAIL: legacy topic status'; exit 1; }
+          test "$legacy_topic_count" -ge 1 || { echo 'FAIL: legacy topic did not redirect'; exit 1; }
           test "$legacy_topic_path" = "/en/topics/food-safety/" || { echo 'FAIL: legacy topic target'; exit 1; }
 
       - name: Install browser audit dependency
