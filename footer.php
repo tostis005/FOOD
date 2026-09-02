@@ -1,5 +1,6 @@
 <?php
 $food_english = function_exists( 'food_is_english' ) && food_is_english();
+$food_footer_language = $food_english ? 'en' : 'es';
 ?>
 </main>
 
@@ -11,10 +12,10 @@ $food_english = function_exists( 'food_is_english' ) && food_is_english();
 		</div>
 		<nav aria-label="<?php echo esc_attr( $food_english ? 'Footer links' : 'Enlaces del pie' ); ?>">
 			<ul class="footer-links-v5">
-				<li><a href="<?php echo esc_url( home_url( '/sobre-nosotros/' ) ); ?>"><?php echo esc_html( $food_english ? 'About Pometum' : 'Sobre Pometum' ); ?></a></li>
-				<li><a href="<?php echo esc_url( home_url( '/metodologia/' ) ); ?>"><?php echo esc_html( $food_english ? 'Methodology' : 'Metodología' ); ?></a></li>
-				<li><a href="<?php echo esc_url( home_url( '/contacto/' ) ); ?>"><?php echo esc_html( $food_english ? 'Contact' : 'Contacto' ); ?></a></li>
-				<li><a href="<?php echo esc_url( home_url( '/politica-de-privacidad/' ) ); ?>"><?php echo esc_html( $food_english ? 'Privacy' : 'Privacidad' ); ?></a></li>
+				<li><a href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'about', $food_footer_language ) : home_url( '/sobre-pometum/' ) ); ?>"><?php echo esc_html( $food_english ? 'About' : 'Sobre Pometum' ); ?></a></li>
+				<li><a href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'methodology', $food_footer_language ) : home_url( '/metodologia/' ) ); ?>"><?php echo esc_html( $food_english ? 'Methodology' : 'Metodología' ); ?></a></li>
+				<li><a href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'contact', $food_footer_language ) : home_url( '/contacto/' ) ); ?>"><?php echo esc_html( $food_english ? 'Contact' : 'Contacto' ); ?></a></li>
+				<li><a href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'privacy', $food_footer_language ) : home_url( '/privacidad/' ) ); ?>"><?php echo esc_html( $food_english ? 'Privacy' : 'Privacidad' ); ?></a></li>
 			</ul>
 		</nav>
 	</div>
