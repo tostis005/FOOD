@@ -1,0 +1,88 @@
+name: One-time Quinnoa rebrand
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/rebrand-quinnoa.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  rebrand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Save rollback branch
+        run: |
+          set -euo pipefail
+          git push origin "$GITHUB_SHA:refs/heads/rollback/pometum-before-quinnoa-brand-2026-09-02" || true
+
+      - name: Replace public brand
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          from pathlib import Path
+
+          root = Path('.')
+          allowed = {'.php', '.js', '.css', '.json', '.md', '.txt', '.yml', '.yaml', '.html', '.xml'}
+          skip = {Path('.github/workflows/rebrand-quinnoa.yml')}
+
+          for path in root.rglob('*'):
+              if not path.is_file() or '.git' in path.parts or path in skip:
+                  continue
+              if path.suffix.lower() not in allowed and path.name not in {'style.css'}:
+                  continue
+              try:
+                  text = path.read_text(encoding='utf-8')
+              except UnicodeDecodeError:
+                  continue
+              new = text.replace('Pometum', 'Quinnoa').replace('Pommelo', 'Quinnoa').replace('POMMELO', 'QUINNOA')
+              new = new.replace('sobre-pometum', 'acerca-de')
+              new = new.replace('<span>p</span><span class="pometum-o">o</span><span>metum</span>', '<span>quinn</span><span class="pometum-o">o</span><span>a</span>')
+              if path.as_posix() == 'inc/editorial-pages.php':
+                  new = new.replace("if ( '4' !== get_option( 'food_editorial_pages_rewrite_version' ) )", "if ( '5' !== get_option( 'food_editorial_pages_rewrite_version' ) )")
+                  new = new.replace("update_option( 'food_editorial_pages_rewrite_version', '4' );", "update_option( 'food_editorial_pages_rewrite_version', '5' );")
+                  if 'food_redirect_legacy_about_slug' not in new:
+                      new += '''\n\n/** Redirect the former Spanish About URL after the Quinnoa rebrand. */\nfunction food_redirect_legacy_about_slug() {\n\tif ( is_admin() ) {\n\t\treturn;\n\t}\n\t$path = isset( $_SERVER['REQUEST_URI'] ) ? (string) wp_parse_url( wp_unslash( $_SERVER['REQUEST_URI'] ), PHP_URL_PATH ) : '';\n\t$legacy_path = 'sobre-' . 'pometum';\n\tif ( trim( $path, '/' ) === $legacy_path ) {\n\t\twp_safe_redirect( home_url( '/acerca-de/' ), 301 );\n\t\texit;\n\t}\n}\nadd_action( 'template_redirect', 'food_redirect_legacy_about_slug', 1 );\n'''
+              if new != text:
+                  path.write_text(new, encoding='utf-8')
+
+          header = Path('header.php')
+          text = header.read_text(encoding='utf-8')
+          marker = "<?php\n"
+          snippet = """<?php\n/* Quinnoa public-brand compatibility for legacy database content. */\nif ( ! function_exists( 'food_quinnoa_public_brand_filter' ) ) {\n\tfunction food_quinnoa_public_brand_filter( $html ) {\n\t\treturn str_replace( array( 'Pome' . 'tum', 'Pom' . 'melo' ), 'Quinnoa', $html );\n\t}\n\tob_start( 'food_quinnoa_public_brand_filter' );\n}\n"""
+          if 'food_quinnoa_public_brand_filter' not in text:
+              if not text.startswith(marker):
+                  raise SystemExit('header.php does not start with PHP opening tag')
+              text = snippet + text[len(marker):]
+              header.write_text(text, encoding='utf-8')
+          PY
+
+          rm .github/workflows/rebrand-quinnoa.yml
+
+      - name: Validate rebrand
+        run: |
+          set -euo pipefail
+          if grep -RIn --exclude-dir=.git -E 'Pometum|Pommelo|POMMELO' .; then
+            echo 'Legacy public brand reference remains.' >&2
+            exit 1
+          fi
+          find . -type f -name '*.php' -not -path './vendor/*' -print0 | xargs -0 -n1 php -l
+          node --check assets/js/pometum-language-overlay.js
+          grep -q "update_option( 'blogname', 'Quinnoa' )" header.php
+          grep -q '<span>quinn</span><span class="pometum-o">o</span><span>a</span>' header.php
+          grep -q "'slug' => 'acerca-de'" inc/editorial-pages.php
+
+      - name: Commit Quinnoa brand
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git commit -m 'Rebrand public site to Quinnoa'
+          git push origin HEAD:main
