@@ -30,6 +30,7 @@
   font-weight: 850;
   line-height: .92;
   letter-spacing: -.022em;
+  white-space: nowrap;
 }
 
 .pommelo-double {
@@ -101,17 +102,30 @@
 }
 
 .mobile-brand .pommelo-wordmark {
-  display: inline-block !important;
+  display: inline-flex !important;
+  flex-wrap: nowrap !important;
+  align-items: baseline !important;
   color: #fffaf4 !important;
   font-size: 37px !important;
   font-weight: 850 !important;
   line-height: .92 !important;
   letter-spacing: -.018em !important;
   white-space: nowrap !important;
+  word-break: normal !important;
+  overflow-wrap: normal !important;
+  text-transform: none !important;
 }
 
 .mobile-brand .pommelo-double {
+  display: inline-block !important;
+  flex: 0 0 auto !important;
   color: #ff917e !important;
+  font-size: inherit !important;
+  font-weight: 900 !important;
+  line-height: inherit !important;
+  letter-spacing: inherit !important;
+  text-transform: none !important;
+  white-space: nowrap !important;
 }
 
 .mobile-brand .pommelo-double::after {
@@ -205,23 +219,46 @@
 
 @media (max-width: 760px) {
   .food-family-card {
-    grid-template-rows: 138px minmax(108px, auto);
+    grid-template-columns: 92px minmax(0, 1fr) !important;
+    grid-template-rows: minmax(104px, auto) !important;
+    min-height: 104px;
   }
 
   .food-family-art {
-    height: 138px !important;
-    min-height: 138px !important;
+    grid-column: 1;
+    grid-row: 1;
+    width: 92px !important;
+    height: 100% !important;
+    min-height: 104px !important;
+    border-right: 1px solid rgba(33, 52, 59, .08);
   }
 
   .food-family-art::after,
   .family-carnes .food-family-art::after,
   .family-jamon-embutidos .food-family-art::after,
   .family-aceites .food-family-art::after {
-    inset: 13px 20px !important;
+    inset: 16px 11px !important;
   }
 
   .food-family-content {
-    min-height: 108px;
+    grid-column: 2;
+    grid-row: 1;
+    min-height: 104px;
+    padding: 17px 34px 17px 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 0;
+    background: rgba(255, 255, 255, .84) !important;
+  }
+
+  .food-family-content small {
+    margin-top: 6px;
+  }
+
+  .food-family-arrow {
+    right: 13px;
+    bottom: 14px;
   }
 }
 
