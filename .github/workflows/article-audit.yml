@@ -1,4 +1,4 @@
-name: Audit Pommelo article layout
+name: Audit Pometum article layout
 
 on:
   push:
@@ -105,6 +105,7 @@ jobs:
               viewport: size.width,
               scrollWidth: await page.evaluate(() => document.documentElement.scrollWidth),
               shell: await box(page, 'article.article-shell'),
+              hero: await box(page, '.article-hero, .article-hero-fallback'),
               answer: await box(page, '.answer-box'),
               content: await box(page, '.entry-content'),
               firstParagraph: await box(page, '.entry-content > p'),
@@ -118,15 +119,17 @@ jobs:
               fullPage: true
             });
 
-            if (size.name === 'desktop-1440') {
-              const referenceLeft = data.answer?.left ?? data.content?.left;
-              for (const [name, value] of Object.entries({ content: data.content, firstParagraph: data.firstParagraph, firstTableBlock: data.firstTableBlock })) {
-                if (value && referenceLeft !== null && Math.abs(value.left - referenceLeft) > 2) {
-                  throw new Error(`${name} is not aligned with the answer box: ${value.left} vs ${referenceLeft}`);
+            const reference = data.answer ?? data.content ?? data.shell;
+            if (reference) {
+              for (const [name, value] of Object.entries({ hero: data.hero, content: data.content, firstParagraph: data.firstParagraph, firstTableBlock: data.firstTableBlock })) {
+                if (value && Math.abs(value.left - reference.left) > 2) {
+                  throw new Error(`${name} is not aligned with the editorial column: ${value.left} vs ${reference.left}`);
                 }
               }
-              if (data.answer && data.firstParagraph && Math.abs(data.answer.width - data.firstParagraph.width) > 2) {
-                throw new Error(`Paragraph width differs from answer box: ${data.firstParagraph.width} vs ${data.answer.width}`);
+              for (const [name, value] of Object.entries({ hero: data.hero, content: data.content, firstParagraph: data.firstParagraph })) {
+                if (value && Math.abs(value.width - reference.width) > 2) {
+                  throw new Error(`${name} width differs from the editorial column: ${value.width} vs ${reference.width}`);
+                }
               }
             }
 
@@ -147,6 +150,6 @@ jobs:
       - name: Upload article screenshots
         uses: actions/upload-artifact@v4
         with:
-          name: pommelo-article-layout-audit
+          name: pometum-article-layout-audit
           path: article-audit-output/
           retention-days: 7
