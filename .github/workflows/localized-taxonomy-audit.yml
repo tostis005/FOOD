@@ -1,0 +1,62 @@
+name: Audit Pometum localized taxonomy URLs
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'inc/language-slugs.php'
+      - 'inc/language-seo.php'
+      - 'inc/language-routing.php'
+      - 'assets/css/pometum-v5-mobile-centering.css'
+      - 'archive.php'
+      - 'template-parts/card.php'
+      - '.github/workflows/localized-taxonomy-audit.yml'
+  workflow_dispatch:
+
+jobs:
+  audit-localized-taxonomies:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Configure SSH
+        env:
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+      - name: Discover live URL and warm rewrites
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          SITE_URL=$(ssh "$VPS_USER@$VPS_HOST" 'docker ps --format "{{.ID}} {{.Image}}" | awk "tolower(\$0) ~ /wordpress/ {print \$1}" | head -n1 | xargs -r docker exec sh -lc "php -r '\''require \"/var/www/html/wp-load.php\"; echo home_url();'\''"')
+          test -n "$SITE_URL"
+          echo "::add-mask::$SITE_URL"
+          echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
+          curl -fsSL "$SITE_URL/" >/dev/null
+      - name: Verify localized routes and redirects
+        run: |
+          set -euo pipefail
+          status_es=$(curl -sS -o /tmp/es.html -w '%{http_code}' "$SITE_URL/alimentos/carnes/")
+          status_en=$(curl -sS -o /tmp/en.html -w '%{http_code}' "$SITE_URL/en/foods/meat/")
+          status_topic_en=$(curl -sS -o /tmp/topic-en.html -w '%{http_code}' "$SITE_URL/en/topics/food-safety/")
+          test "$status_es" = "200"
+          test "$status_en" = "200"
+          test "$status_topic_en" = "200"
+          grep -qi 'Carnes' /tmp/es.html
+          grep -qi 'Meat' /tmp/en.html
+          grep -qi 'Food safety' /tmp/topic-en.html
+          ! grep -q '/en/alimentos/' /tmp/en.html
+          ! grep -q '/en/tema/' /tmp/en.html
+          grep -q '/en/foods/' /tmp/en.html
+          grep -q '/en/topics/' /tmp/en.html
+          legacy_food=$(curl -sS -o /dev/null -w '%{http_code} %{redirect_url}' "$SITE_URL/en/alimentos/carnes/")
+          legacy_topic=$(curl -sS -o /dev/null -w '%{http_code} %{redirect_url}' "$SITE_URL/en/tema/seguridad-alimentaria/")
+          echo "$legacy_food" | grep -q '^301 '
+          echo "$legacy_food" | grep -q '/en/foods/meat/'
+          echo "$legacy_topic" | grep -q '^301 '
+          echo "$legacy_topic" | grep -q '/en/topics/food-safety/'
