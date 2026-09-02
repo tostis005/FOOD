@@ -11,8 +11,13 @@ document.addEventListener('DOMContentLoaded', function () {
 
   const searchTitle = document.querySelector('.search-overlay-title');
   const searchInput = document.querySelector('#overlay-food-search');
-  if (searchTitle) searchTitle.textContent = isEnglish ? 'Find the information you need' : 'Encuentra la información que necesitas';
-  if (searchInput) searchInput.setAttribute('placeholder', isEnglish ? 'Type a food or question…' : 'Escribe un alimento o una pregunta…');
+  const heroSearch = document.querySelector('#food-search');
+  const mobileSearch = document.querySelector('#mobile-food-search');
+
+  if (searchTitle) searchTitle.textContent = isEnglish ? 'Search' : 'Buscar';
+  if (searchInput) searchInput.setAttribute('placeholder', isEnglish ? 'Type your search…' : 'Escribe tu búsqueda…');
+  if (heroSearch) heroSearch.setAttribute('placeholder', isEnglish ? 'Search Pometum…' : 'Busca en Pometum…');
+  if (mobileSearch) mobileSearch.setAttribute('placeholder', isEnglish ? 'Search Pometum…' : 'Busca en Pometum…');
 
   const configs = [
     {
