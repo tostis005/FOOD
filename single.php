@@ -1,11 +1,20 @@
 <?php get_header(); ?>
 
 <?php while ( have_posts() ) : the_post(); ?>
+	<?php
+	$food_category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category() : null;
+	$food_topic    = function_exists( 'food_get_primary_topic' ) ? food_get_primary_topic() : null;
+	?>
 	<div class="article-shell"><?php food_breadcrumbs(); ?></div>
 
 	<header class="article-header article-shell">
-		<div class="post-category">
-			<?php $categories = get_the_category(); echo ! empty( $categories ) ? esc_html( $categories[0]->name ) : esc_html__( 'FOOD', 'food' ); ?>
+		<div class="article-dimensions">
+			<?php if ( $food_category ) : ?>
+				<a href="<?php echo esc_url( get_category_link( $food_category ) ); ?>"><?php echo esc_html( $food_category->name ); ?></a>
+			<?php endif; ?>
+			<?php if ( $food_topic ) : ?>
+				<a class="is-topic" href="<?php echo esc_url( get_term_link( $food_topic ) ); ?>"><?php echo esc_html( $food_topic->name ); ?></a>
+			<?php endif; ?>
 		</div>
 		<h1><?php the_title(); ?></h1>
 		<?php if ( has_excerpt() ) : ?><p class="article-deck"><?php echo esc_html( get_the_excerpt() ); ?></p><?php endif; ?>
@@ -44,14 +53,31 @@
 		'post__not_in'        => array( get_the_ID() ),
 		'ignore_sticky_posts' => true,
 	);
-	if ( ! empty( $categories ) ) {
-		$related_args['category__in'] = array( $categories[0]->term_id );
+
+	$related_tax_query = array( 'relation' => 'OR' );
+	if ( $food_category ) {
+		$related_tax_query[] = array(
+			'taxonomy' => 'category',
+			'field'    => 'term_id',
+			'terms'    => array( $food_category->term_id ),
+		);
 	}
+	if ( $food_topic ) {
+		$related_tax_query[] = array(
+			'taxonomy' => 'food_topic',
+			'field'    => 'term_id',
+			'terms'    => array( $food_topic->term_id ),
+		);
+	}
+	if ( count( $related_tax_query ) > 1 ) {
+		$related_args['tax_query'] = $related_tax_query;
+	}
+
 	$related = new WP_Query( $related_args );
 	if ( $related->have_posts() ) : ?>
 		<section class="related">
 			<div class="container">
-				<div class="section-head"><div><div class="eyebrow">Sigue aprendiendo</div><h2>Más guías sobre este tema</h2></div></div>
+				<div class="section-head"><div><div class="eyebrow">Sigue explorando</div><h2>Más guías relacionadas</h2></div></div>
 				<div class="card-grid">
 					<?php while ( $related->have_posts() ) : $related->the_post(); get_template_part( 'template-parts/card' ); endwhile; wp_reset_postdata(); ?>
 				</div>
