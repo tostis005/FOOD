@@ -16,20 +16,46 @@
   "excerpt": "A persistent off odor, slimy or tacky surface and obvious deterioration are reasons to throw chicken away. Color alone is less reliable, and dangerous bacteria can be present even when chicken smells and looks normal.",
   "taxonomy": {
     "food_family": "meat",
-    "food_subcategories": ["chicken"],
-    "article_types": ["food-safety", "buying-quality-ripeness"],
+    "food_subcategories": [
+      "chicken"
+    ],
+    "article_types": [
+      "food-safety",
+      "buying-quality-ripeness"
+    ],
     "primary_article_type": "food-safety"
   },
   "content_html": "<p>Smell, color and texture can tell you that chicken has spoiled, but they cannot prove that chicken is microbiologically safe. That difference matters. Spoilage organisms often create obvious sensory changes; pathogens such as Salmonella or Campylobacter may not.</p>\n<p>If chicken has a strong persistent off odor, an abnormally slimy or tacky surface, or clear signs of deterioration, discard it. If it has been held too warm or too long, discard it even when it still looks normal.</p>\n<h2>The most useful spoilage signs</h2>\n<h3>Persistent off odor</h3>\n<p>USDA FSIS notes that spoilage bacteria can create objectionable odors, darkening and slimy textures. Fresh raw chicken has a mild characteristic smell, but a strong sour, putrid or otherwise unpleasant odor that persists is a reason not to use it.</p>\n<h3>Slime or tackiness</h3>\n<p>Raw chicken is naturally moist. Moisture alone is not spoilage. What is concerning is an unusually sticky, tacky or slimy film combined with other signs or questionable storage.</p>\n<h3>Color changes in context</h3>\n<p>Color is often overinterpreted. Meat pigments respond to oxygen and storage conditions, and normal poultry color can vary. USDA specifically cautions that a color change alone does not mean meat or poultry is spoiled. When darkening occurs along with bad odor and slime, the picture is different.</p>\n<h2>Why smell cannot prove safety</h2>\n<p>The nose can detect many compounds produced during spoilage, but pathogens do not have to produce those compounds. Chicken can carry disease-causing organisms without a warning smell. This is why the advice “if it smells fine, it is fine” is not a food-safety standard.</p>\n<h2>Storage history is more important than a visual test</h2>\n<p>Fresh raw chicken is highly perishable. USDA refrigerator guidance is generally <strong>1–2 days at 40°F (4°C) or below</strong>. If it will not be cooked in that window, freeze it. Cooked chicken generally has a 3–4 day refrigerator window.</p>\n<p>Food that has spent excessive time at room temperature should not be judged by smell. Refrigeration later does not reverse earlier bacterial growth.</p>\n<h2>What if vacuum-packed chicken smells odd when opened?</h2>\n<p>Low-oxygen packaging can produce a temporary “closed package” odor that may dissipate after exposure to air. That is not a license to ignore a persistent offensive smell, swollen package, slime or poor temperature history. When the odor remains strong or you are unsure how the product was stored, discard it.</p>\n<h2>Can washing chicken remove spoilage?</h2>\n<p>No. Rinsing raw poultry does not make spoiled chicken safe and can spread contaminated droplets around the sink and nearby surfaces. Do not wash away an odor and then cook the chicken.</p>\n<h2>Can thorough cooking rescue questionable chicken?</h2>\n<p>Proper cooking is essential for chicken that has been handled safely, but it should not be used to rescue food that clearly spoiled or was badly temperature-abused. When storage history is unsafe, the conservative choice is disposal.</p>\n<h2>A practical decision checklist</h2>\n<ul><li>Is it still within the recommended refrigerator window?</li><li>Has it stayed continuously cold?</li><li>Is the package intact rather than swollen or leaking?</li><li>Is there no persistent off odor?</li><li>Is the surface free from abnormal slime or tackiness?</li></ul>\n<p>A “yes” to the sensory questions does not override a “no” to safe time and temperature. And when clear spoilage signs are present, there is no useful taste test to perform.</p>\n<h2>Raw versus cooked chicken</h2>\n<p>Cooked chicken can also develop off odors, slime and visible mold or deterioration. The same limitation applies: sensory quality is not a safety certificate. Use the shorter time-and-temperature rules first, then use sensory changes as additional reasons to discard.</p>\n<h2>Frequently asked questions</h2>\n<h3>Is gray chicken automatically bad?</h3><p>Not automatically. Color alone can change for reasons unrelated to spoilage. Gray or dark color combined with off odor, slime or excessive storage time is more concerning.</p>\n<h3>Does bad chicken always smell bad?</h3><p>No. Spoilage often creates odors, but pathogens can be present without detectable changes.</p>\n<h3>Can I taste a tiny piece to check?</h3><p>No. Do not taste food to determine whether it is safe. If the storage history or condition is questionable, discard it.</p>",
   "faq": [
-    {"question":"Does spoiled chicken always smell bad?","answer":"No. Spoilage often creates off odors, but pathogenic bacteria may be present without obvious sensory changes."},
-    {"question":"Does a color change mean chicken is spoiled?","answer":"Not by itself. Oxygen and storage change meat pigments. Color should be interpreted with odor, texture, time and temperature."},
-    {"question":"Can thorough cooking make questionable chicken safe?","answer":"Do not rely on cooking to rescue chicken that clearly spoiled or was stored unsafely. Discard it."}
+    {
+      "question": "Does spoiled chicken always smell bad?",
+      "answer": "No. Spoilage often creates off odors, but pathogenic bacteria may be present without obvious sensory changes."
+    },
+    {
+      "question": "Does a color change mean chicken is spoiled?",
+      "answer": "Not by itself. Oxygen and storage change meat pigments. Color should be interpreted with odor, texture, time and temperature."
+    },
+    {
+      "question": "Can thorough cooking make questionable chicken safe?",
+      "answer": "Do not rely on cooking to rescue chicken that clearly spoiled or was stored unsafely. Discard it."
+    }
   ],
   "sources": [
-    {"name":"USDA FSIS — How can I tell if chicken is spoiled?","url":"https://ask.fsis.usda.gov/article/How-can-I-tell-if-chicken-is-spoiled","note":"Official spoilage signs."},
-    {"name":"USDA FSIS — The Color of Meat and Poultry","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/color-meat-and-poultry","note":"Color change alone does not establish spoilage."},
-    {"name":"USDA FSIS — Chicken from Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table","note":"Storage and safe-handling context."}
+    {
+      "name": "USDA FSIS — How can I tell if chicken is spoiled?",
+      "url": "https://ask.fsis.usda.gov/article/How-can-I-tell-if-chicken-is-spoiled",
+      "note": "Official spoilage signs."
+    },
+    {
+      "name": "USDA FSIS — The Color of Meat and Poultry",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/color-meat-and-poultry",
+      "note": "Color change alone does not establish spoilage."
+    },
+    {
+      "name": "USDA FSIS — Chicken from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+      "note": "Storage and safe-handling context."
+    }
   ],
   "image": {
     "concept": "Clean non-grotesque editorial comparison photograph of normal raw chicken and visibly tacky discolored chicken on separate neutral plates, natural kitchen light, no labels or text.",
