@@ -1,0 +1,403 @@
+/*
+ * Pometum v1 — natural editorial identity.
+ * Warm, food-led and knowledgeable without looking clinical or generically eco.
+ */
+
+:root {
+  --pometum-cream: #F4EFE5;
+  --pometum-paper: #FBF8F1;
+  --pometum-olive: #394536;
+  --pometum-olive-soft: #E2E3D8;
+  --pometum-coral: #D96C55;
+  --pometum-butter: #E8C76A;
+  --pometum-earth: #765E4C;
+  --pometum-ink: #2D332C;
+  --pometum-muted: #6E6A61;
+  --pometum-line: rgba(57, 69, 54, .17);
+  --pometum-serif: Charter, "Iowan Old Style", "Palatino Linotype", "Book Antiqua", Georgia, serif;
+  --pometum-sans: "Avenir Next", Avenir, "Segoe UI Variable", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --pometum-shadow: 0 18px 50px rgba(57, 69, 54, .07);
+}
+
+html { background: var(--pometum-cream); }
+body {
+  background: var(--pometum-cream) !important;
+  color: var(--pometum-ink) !important;
+  font-family: var(--pometum-sans) !important;
+  font-kerning: normal;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: rgba(232, 199, 106, .55); color: var(--pometum-olive); }
+
+a { text-decoration-color: rgba(217, 108, 85, .45); }
+
+/* Brand ------------------------------------------------------------------ */
+.site-header {
+  background: rgba(244, 239, 229, .94) !important;
+  border-bottom: 1px solid var(--pometum-line) !important;
+  backdrop-filter: blur(18px);
+}
+.header-main { min-height: 96px !important; }
+.site-branding a { color: var(--pometum-olive) !important; text-decoration: none !important; }
+.pometum-logo { display: inline-flex; align-items: center; line-height: 1; }
+.pometum-wordmark {
+  display: inline-flex;
+  align-items: baseline;
+  color: var(--pometum-olive);
+  font-family: var(--pometum-serif);
+  font-size: clamp(42px, 4.2vw, 58px);
+  font-weight: 600;
+  letter-spacing: -.055em;
+  line-height: .9;
+}
+.pometum-o {
+  position: relative;
+  display: inline-block;
+  margin-right: .005em;
+  transform: scaleX(1.03);
+}
+.pometum-o::after {
+  content: "";
+  position: absolute;
+  width: .17em;
+  height: .09em;
+  top: -.045em;
+  right: -.045em;
+  border-radius: 100% 0 100% 0;
+  background: var(--pometum-coral);
+  transform: rotate(-24deg);
+}
+.site-tagline {
+  margin-top: 9px !important;
+  color: var(--pometum-earth) !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: .14em !important;
+  text-transform: uppercase;
+}
+.primary-nav a {
+  color: var(--pometum-olive) !important;
+  font-family: var(--pometum-sans) !important;
+  font-weight: 650 !important;
+  letter-spacing: .015em;
+}
+.primary-nav a:hover { color: var(--pometum-coral) !important; }
+.header-search {
+  border-color: var(--pometum-line) !important;
+  background: rgba(251, 248, 241, .65) !important;
+  color: var(--pometum-olive) !important;
+}
+.menu-toggle { color: var(--pometum-olive) !important; }
+.menu-toggle-icon span { background: var(--pometum-olive) !important; }
+
+/* Typography -------------------------------------------------------------- */
+.hero-main h1,
+.section-intro h2,
+.topic-directory-intro h2,
+.section-head h2,
+.archive-header h1,
+.article-header h1,
+.card-title,
+.home-feature-body strong,
+.discover-card-body strong {
+  font-family: var(--pometum-serif) !important;
+  color: var(--pometum-olive) !important;
+  font-kerning: normal;
+  font-variant-ligatures: common-ligatures;
+}
+.hero-main h1 {
+  font-size: clamp(52px, 7.1vw, 92px) !important;
+  line-height: .96 !important;
+  letter-spacing: -.052em !important;
+  max-width: 9.6ch !important;
+}
+.section-intro h2,
+.topic-directory-intro h2,
+.section-head h2 { letter-spacing: -.035em !important; line-height: 1.04 !important; }
+.article-header h1 { letter-spacing: -.035em !important; }
+.hero-main p,
+.section-intro p,
+.topic-directory-intro p,
+.card-excerpt,
+.home-feature-body p,
+.taxonomy-description,
+.article-deck {
+  color: var(--pometum-muted) !important;
+}
+.section-label,
+.hero-kicker,
+.eyebrow,
+.card-kicker {
+  color: var(--pometum-coral) !important;
+  font-family: var(--pometum-sans) !important;
+  font-weight: 800 !important;
+  letter-spacing: .11em !important;
+}
+
+/* Home hero --------------------------------------------------------------- */
+.home-hero-v5 { background: var(--pometum-cream) !important; padding-top: 46px !important; }
+.home-hero-grid-v5 { gap: 26px !important; }
+.hero-main-v5 {
+  position: relative;
+  overflow: hidden;
+  background: var(--pometum-paper) !important;
+  border: 1px solid var(--pometum-line) !important;
+  border-radius: 10px !important;
+  box-shadow: none !important;
+  padding: clamp(34px, 5.2vw, 72px) !important;
+}
+.hero-main-v5::before {
+  content: "";
+  position: absolute;
+  width: 94px;
+  height: 7px;
+  left: clamp(34px, 5.2vw, 72px);
+  top: 0;
+  background: linear-gradient(90deg, var(--pometum-coral) 0 58%, var(--pometum-butter) 58% 100%);
+}
+.hero-search-v5 {
+  background: var(--pometum-cream) !important;
+  border: 1px solid var(--pometum-line) !important;
+  border-radius: 4px !important;
+  padding: 6px !important;
+}
+.hero-search-v5 input { color: var(--pometum-ink) !important; }
+.hero-search-v5 button {
+  border-radius: 3px !important;
+  background: var(--pometum-olive) !important;
+  color: var(--pometum-cream) !important;
+}
+.hero-search-v5 button:hover { background: #2e392c !important; }
+.hero-topic-links { color: var(--pometum-muted) !important; }
+.hero-topic-links a {
+  background: transparent !important;
+  color: var(--pometum-olive) !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(57,69,54,.32) !important;
+  border-radius: 0 !important;
+  padding: 4px 0 !important;
+}
+.hero-topic-links a:hover { color: var(--pometum-coral) !important; border-color: var(--pometum-coral) !important; }
+
+.home-feature-card {
+  border-radius: 10px !important;
+  border: 1px solid var(--pometum-line) !important;
+  background: var(--pometum-paper) !important;
+  box-shadow: var(--pometum-shadow) !important;
+}
+.home-feature-media { background: #e8e0d3 !important; }
+.home-feature-body { background: var(--pometum-paper) !important; }
+.content-dimensions span,
+.article-dimensions a {
+  border-color: rgba(57,69,54,.2) !important;
+  background: rgba(57,69,54,.055) !important;
+  color: var(--pometum-olive) !important;
+}
+.content-dimensions span + span,
+.article-dimensions .is-topic { background: rgba(217,108,85,.075) !important; color: #98503f !important; }
+.feature-read,
+.discover-card-arrow,
+.food-family-arrow,
+.topic-card-arrow { color: var(--pometum-coral) !important; }
+
+/* Sections ---------------------------------------------------------------- */
+.section { background: transparent !important; }
+.food-families-section { padding-top: 62px !important; }
+.section-intro-v5 { border-bottom-color: var(--pometum-line) !important; }
+
+.food-family-grid {
+  gap: 16px !important;
+}
+.food-family-card {
+  --category-accent: var(--pometum-earth);
+  --category-soft: #EAE2D7;
+  background: var(--pometum-paper) !important;
+  border: 1px solid var(--pometum-line) !important;
+  border-radius: 7px !important;
+  box-shadow: none !important;
+  overflow: hidden !important;
+}
+.food-family-card:hover {
+  transform: translateY(-2px) !important;
+  border-color: color-mix(in srgb, var(--category-accent) 45%, transparent) !important;
+  box-shadow: 0 12px 30px rgba(57,69,54,.07) !important;
+}
+.food-family-art {
+  background: var(--category-soft) !important;
+  border: 0 !important;
+  border-bottom: 1px solid rgba(57,69,54,.10) !important;
+}
+.food-family-art::after,
+.topic-card-art::after {
+  filter: saturate(.72) contrast(.96) !important;
+}
+.food-family-content { background: var(--pometum-paper) !important; }
+.food-family-content strong { color: var(--pometum-olive) !important; }
+.food-family-content small { color: var(--pometum-muted) !important; }
+.food-family-card::after { background: var(--category-accent) !important; }
+
+/* Category accent system */
+.family-alimentacion-general { --category-accent: #765E4C; --category-soft: #E8DED1; }
+.family-carnes { --category-accent: #9D5142; --category-soft: #EED8D0; }
+.family-pescados-mariscos { --category-accent: #6E8790; --category-soft: #DDE6E7; }
+.family-huevos { --category-accent: #C19B46; --category-soft: #F0E4BD; }
+.family-lacteos-quesos { --category-accent: #C3A044; --category-soft: #F0E3B7; }
+.family-legumbres-soja,
+.family-frutos-secos-semillas,
+.family-cereales-pseudocereales-derivados { --category-accent: #A28050; --category-soft: #E9DDC7; }
+.family-tuberculos { --category-accent: #A66B4E; --category-soft: #EAD7C8; }
+.family-verduras-hortalizas-setas { --category-accent: #65745E; --category-soft: #DDE2D4; }
+.family-frutas { --category-accent: #D96C55; --category-soft: #F0D7CF; }
+.family-aceites-grasas { --category-accent: #7B794A; --category-soft: #E5E1C8; }
+.family-bebidas { --category-accent: #70858B; --category-soft: #DCE5E5; }
+.family-chocolate-cacao-dulces { --category-accent: #765E4C; --category-soft: #E4D8CD; }
+.family-fermentados { --category-accent: #8B7658; --category-soft: #E6DDD0; }
+.family-algas-especias-otros-alimentos { --category-accent: #687159; --category-soft: #DEE1D3; }
+
+/* Make reusable category imagery feel like one editorial system everywhere. */
+.home-feature-illustration,
+.discover-illustration,
+.card-placeholder-illustrated,
+.taxonomy-hero-visual,
+.article-hero-fallback {
+  background-color: var(--category-soft, #E8DED1) !important;
+  border-color: rgba(57,69,54,.12) !important;
+}
+.card-placeholder-illustrated,
+.article-hero-fallback,
+.taxonomy-hero-visual {
+  border-radius: 7px !important;
+}
+
+/* Topic directory --------------------------------------------------------- */
+.topic-directory-section {
+  background: #E7E5DB !important;
+  color: var(--pometum-ink) !important;
+  border-top: 1px solid var(--pometum-line);
+  border-bottom: 1px solid var(--pometum-line);
+}
+.topic-directory-intro h2 { color: var(--pometum-olive) !important; }
+.topic-directory-intro p { color: var(--pometum-muted) !important; }
+.topic-card {
+  --topic-accent: var(--pometum-olive);
+  background: rgba(251,248,241,.82) !important;
+  border: 1px solid rgba(57,69,54,.14) !important;
+  border-radius: 6px !important;
+  color: var(--pometum-ink) !important;
+  box-shadow: none !important;
+}
+.topic-card:hover { border-color: rgba(57,69,54,.32) !important; transform: translateY(-1px) !important; }
+.topic-card-art {
+  background: rgba(57,69,54,.055) !important;
+  border-right: 1px solid rgba(57,69,54,.10) !important;
+}
+.topic-card-copy strong { color: var(--pometum-olive) !important; }
+.topic-card-copy small { color: var(--pometum-muted) !important; }
+.topic-seguridad-alimentaria { --topic-accent: #394536; }
+.topic-nutricion-composicion,
+.topic-conceptos-nutricion { --topic-accent: #8A7650; }
+.topic-rankings-mejores-fuentes { --topic-accent: #C3A044; }
+.topic-comparativas { --topic-accent: #765E4C; }
+.topic-conservacion-almacenamiento,
+.topic-congelacion-descongelacion { --topic-accent: #6F8589; }
+.topic-cocina-ciencia-alimentos,
+.topic-preparacion-tecnicas-cocina { --topic-accent: #D96C55; }
+.topic-salud-consumo-habitual { --topic-accent: #65745E; }
+.topic-mitos-preguntas-frecuentes { --topic-accent: #9B745D; }
+.topic-procesamiento-produccion-elaboracion,
+.topic-compra-calidad-maduracion { --topic-accent: #765E4C; }
+.topic-card::before { background: var(--topic-accent) !important; }
+
+/* Post cards / archives --------------------------------------------------- */
+.post-card {
+  background: var(--pometum-paper) !important;
+  border-color: var(--pometum-line) !important;
+  border-radius: 7px !important;
+  box-shadow: none !important;
+}
+.post-card:hover { box-shadow: var(--pometum-shadow) !important; }
+.card-body { background: var(--pometum-paper) !important; }
+.card-meta { color: var(--pometum-earth) !important; }
+.archive-header.has-taxonomy-visual {
+  background: var(--pometum-paper) !important;
+  border-color: var(--pometum-line) !important;
+  border-radius: 8px !important;
+  box-shadow: none !important;
+}
+.taxonomy-description { font-family: var(--pometum-sans) !important; }
+
+/* Article ---------------------------------------------------------------- */
+.article-header { text-align: left !important; }
+.article-header h1 { margin-left: 0 !important; margin-right: 0 !important; color: var(--pometum-olive) !important; }
+.article-deck { margin-left: 0 !important; margin-right: 0 !important; }
+.article-meta { justify-content: flex-start !important; color: var(--pometum-earth) !important; }
+.article-dimensions { justify-content: flex-start !important; }
+.answer-box {
+  background: #E4E6DB !important;
+  border: 1px solid rgba(57,69,54,.15) !important;
+  border-left: 4px solid var(--pometum-olive) !important;
+  border-radius: 4px !important;
+}
+.answer-box strong { color: var(--pometum-olive) !important; }
+.entry-content {
+  color: #33372F !important;
+  font-family: var(--pometum-serif) !important;
+}
+.entry-content h2,
+.entry-content h3 { font-family: var(--pometum-serif) !important; color: var(--pometum-olive) !important; }
+.entry-content table { font-family: var(--pometum-sans) !important; }
+.entry-content th { background: #E7E1D5 !important; color: var(--pometum-olive) !important; }
+.entry-content th,
+.entry-content td { border-color: var(--pometum-line) !important; }
+.entry-content a { color: #6E4337 !important; text-decoration-color: rgba(217,108,85,.55) !important; }
+
+/* Footer ----------------------------------------------------------------- */
+.site-footer {
+  background: var(--pometum-olive) !important;
+  color: var(--pometum-cream) !important;
+  border-top: 5px solid var(--pometum-coral);
+}
+.site-footer .pometum-wordmark { color: var(--pometum-cream) !important; }
+.site-footer .pometum-o::after { background: var(--pometum-butter) !important; }
+.footer-copy { color: rgba(244,239,229,.74) !important; }
+.footer-links-v5 a { color: var(--pometum-cream) !important; }
+.footer-links-v5 a:hover { color: var(--pometum-butter) !important; }
+.footer-bottom { border-top-color: rgba(244,239,229,.16) !important; color: rgba(244,239,229,.66) !important; }
+
+/* Mobile ----------------------------------------------------------------- */
+.mobile-menu-overlay { background: rgba(45, 51, 44, .38) !important; }
+.mobile-menu-shell { background: var(--pometum-cream) !important; color: var(--pometum-ink) !important; }
+.mobile-brand { text-decoration: none !important; }
+.mobile-brand .pometum-wordmark { font-size: 42px !important; }
+.mobile-menu-close { color: var(--pometum-olive) !important; border-color: var(--pometum-line) !important; background: var(--pometum-paper) !important; }
+.mobile-menu-eyebrow { color: var(--pometum-coral) !important; }
+.mobile-primary-nav a { color: var(--pometum-olive) !important; border-color: var(--pometum-line) !important; }
+.mobile-food-links a { background: rgba(251,248,241,.72) !important; border-color: var(--pometum-line) !important; color: var(--pometum-olive) !important; }
+.mobile-menu-search input { background: var(--pometum-paper) !important; border-color: var(--pometum-line) !important; }
+.mobile-menu-search button { background: var(--pometum-olive) !important; color: var(--pometum-cream) !important; }
+.mobile-menu-note { color: var(--pometum-muted) !important; }
+
+@media (min-width: 1100px) {
+  .food-family-grid { grid-template-columns: repeat(4, minmax(0, 1fr)) !important; }
+}
+
+@media (max-width: 900px) {
+  .header-main { min-height: 76px !important; }
+  .pometum-wordmark { font-size: 39px !important; }
+  .site-tagline { display: none !important; }
+  .home-hero-v5 { padding-top: 24px !important; }
+  .hero-main-v5 { padding: 34px 26px !important; }
+  .hero-main-v5::before { left: 26px; }
+  .hero-main h1 { font-size: clamp(48px, 13vw, 68px) !important; max-width: 10ch !important; }
+  .topic-directory-section { background: #E7E5DB !important; }
+}
+
+@media (max-width: 620px) {
+  .food-family-card { border-radius: 5px !important; }
+  .food-family-art { background: var(--category-soft) !important; }
+  .food-family-art::after { width: 76px !important; height: 56px !important; }
+  .topic-card { border-radius: 5px !important; }
+  .topic-card-art { background: rgba(57,69,54,.055) !important; }
+  .article-header { padding-top: 18px !important; }
+}
