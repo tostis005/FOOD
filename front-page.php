@@ -1,11 +1,11 @@
 <?php
 get_header();
 
-$feature_post = food_get_home_feature_post();
-$feature_id   = $feature_post instanceof WP_Post ? (int) $feature_post->ID : 0;
-$feature_food = $feature_id ? food_get_primary_food_category( $feature_id ) : null;
+$feature_post  = food_get_home_feature_post();
+$feature_id    = $feature_post instanceof WP_Post ? (int) $feature_post->ID : 0;
+$feature_food  = $feature_id ? food_get_primary_food_category( $feature_id ) : null;
 $feature_topic = $feature_id ? food_get_primary_topic( $feature_id ) : null;
-$discover_ids = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id ) : array() );
+$discover_ids  = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id ) : array() );
 ?>
 
 <section class="home-hero home-hero-v5">
@@ -186,7 +186,15 @@ $discover_ids = food_get_rotating_post_ids( 5, $feature_id ? array( $feature_id 
 		</div>
 		<div class="card-grid">
 			<?php
-			$food_latest = new WP_Query( array( 'post_type' => 'post', 'post_status' => 'publish', 'posts_per_page' => 6, 'ignore_sticky_posts' => false ) );
+			$food_latest = new WP_Query(
+				array(
+					'post_type'           => 'post',
+					'post_status'         => 'publish',
+					'posts_per_page'      => 6,
+					'ignore_sticky_posts' => false,
+					'post__not_in'        => food_home_ignored_post_ids(),
+				)
+			);
 			if ( $food_latest->have_posts() ) :
 				while ( $food_latest->have_posts() ) : $food_latest->the_post();
 					get_template_part( 'template-parts/card' );
