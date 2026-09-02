@@ -96,7 +96,8 @@ if ( file_exists( $food_language_seo ) ) {
 		?>
 		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/' . $css_file . '?ver=' . filemtime( $css_path ) ); ?>">
 	<?php endforeach; ?>
-	<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Ccircle cx='22' cy='22' r='13' fill='none' stroke='%23394536' stroke-width='5'/%3E%3Cpath d='M31 31l8 8' fill='none' stroke='%23394536' stroke-width='5' stroke-linecap='round'/%3E%3C/svg%3E">
+	<?php $food_favicon = get_template_directory() . '/assets/quinnoa-grain.svg'; ?>
+	<link rel="icon" type="image/svg+xml" href="<?php echo esc_url( get_template_directory_uri() . '/assets/quinnoa-grain.svg?ver=' . ( file_exists( $food_favicon ) ? filemtime( $food_favicon ) : '1' ) ); ?>">
 	<?php $language_overlay_js = get_template_directory() . '/assets/js/pometum-language-overlay.js'; ?>
 	<?php if ( file_exists( $language_overlay_js ) ) : ?>
 		<script defer src="<?php echo esc_url( get_template_directory_uri() . '/assets/js/pometum-language-overlay.js?ver=' . filemtime( $language_overlay_js ) ); ?>"></script>
@@ -174,7 +175,7 @@ if ( file_exists( $food_language_seo ) ) {
 				<input id="mobile-food-search" type="search" name="s" placeholder="<?php echo esc_attr( $food_english ? 'Search Quinnoa…' : 'Busca en Quinnoa…' ); ?>" value="<?php echo esc_attr( get_search_query() ); ?>">
 				<button type="submit"><?php echo esc_html( $food_english ? 'Search' : 'Buscar' ); ?></button>
 			</form>
-			<p class="mobile-menu-note"><?php echo esc_html( $food_english ? 'Food, nutrition, quality, safety, storage and cooking.' : 'Alimentos, nutrición, calidad, seguridad, conservación y cocina.' ); ?></p>
+			<p class="mobile-menu-note"><?php echo esc_html( $food_english ? 'A place to keep discovering what we eat.' : 'Un lugar para seguir descubriendo lo que comemos.' ); ?></p>
 		</div>
 	</div>
 </div>
