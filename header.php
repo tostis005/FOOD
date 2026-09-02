@@ -66,36 +66,17 @@ if ( file_exists( $food_language_seo ) ) {
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<?php wp_head(); ?>
 	<?php
-	$css_files = array(
-		'food-v4.css',
-		'food-v5.css',
-		'food-v6.css',
-		'food-v6-icons.css',
-		'pommelo-v1.css',
-		'pommelo-v2.css',
-		'pommelo-v3.css',
-		'pommelo-v4.css',
-		'pommelo-v5-icons.css',
-		'pommelo-v6-artwork.css',
-		'pommelo-v6-optical-tune.css',
-		'pometum-v1.css',
-		'pometum-v2.css',
-		'pometum-v3.css',
-		'pometum-v4.css',
-		'pometum-v5-mobile-centering.css',
-		'pometum-v6-ui.css',
-		'pometum-v7-polish.css',
-	);
-	foreach ( $css_files as $css_file ) :
-		$css_path = get_template_directory() . '/assets/css/' . $css_file;
-		if ( ! file_exists( $css_path ) ) {
-			continue;
-		}
-		?>
-		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/' . $css_file . '?ver=' . filemtime( $css_path ) ); ?>">
-	<?php endforeach; ?>
+	remove_action( 'wp_enqueue_scripts', 'food_enqueue_assets' );
+	wp_dequeue_style( 'food-style' );
+	wp_dequeue_style( 'food-editorial' );
+	wp_dequeue_style( 'food-article-layout-v2' );
+	wp_head();
+	$food_consolidated_css = get_template_directory() . '/assets/css/quinnoa.css';
+	?>
+	<?php if ( file_exists( $food_consolidated_css ) ) : ?>
+		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/quinnoa.css?ver=' . filemtime( $food_consolidated_css ) ); ?>">
+	<?php endif; ?>
 	<?php $food_favicon = get_template_directory() . '/assets/quinnoa-grain.svg'; ?>
 	<link rel="icon" type="image/svg+xml" href="<?php echo esc_url( get_template_directory_uri() . '/assets/quinnoa-grain.svg?ver=' . ( file_exists( $food_favicon ) ? filemtime( $food_favicon ) : '1' ) ); ?>">
 	<?php $language_overlay_js = get_template_directory() . '/assets/js/pometum-language-overlay.js'; ?>
@@ -112,7 +93,11 @@ if ( file_exists( $food_language_seo ) ) {
 		<div class="site-branding">
 			<a href="<?php echo esc_url( $food_home_url ); ?>" rel="home" aria-label="Quinnoa">
 				<?php food_pometum_logo(); ?>
-				<div class="site-tagline"><?php echo esc_html( $food_english ? 'Food · Nutrition' : 'Alimentos · Nutrición' ); ?></div>
+				<div class="site-tagline" aria-label="<?php echo esc_attr( $food_english ? 'Natural, Nutrition' : 'Nutrición, Natural' ); ?>">
+					<span class="site-tagline-word"><?php echo esc_html( $food_english ? 'Natural' : 'Nutrición' ); ?></span>
+					<span class="site-tagline-separator" aria-hidden="true">·</span>
+					<span class="site-tagline-word"><?php echo esc_html( $food_english ? 'Nutrition' : 'Natural' ); ?></span>
+				</div>
 			</a>
 		</div>
 
