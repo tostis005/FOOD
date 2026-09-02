@@ -5446,6 +5446,48 @@ body.search-overlay-open {
   text-transform: none !important;
 }
 
+/* Brand lockup: the separator sits under the space between the two n's. */
+.site-branding > a {
+  display: inline-flex !important;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.site-branding .pometum-logo {
+  width: 100%;
+  justify-content: center;
+}
+
+.site-branding .site-tagline {
+  display: grid !important;
+  grid-template-columns: 55fr auto 45fr;
+  align-items: center;
+  column-gap: 7px;
+  width: 100%;
+  margin-top: 9px !important;
+  font-size: 10px !important;
+  font-weight: 700 !important;
+  letter-spacing: .14em !important;
+  line-height: 1.1;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.site-tagline-word:first-child {
+  text-align: right;
+}
+
+.site-tagline-word:last-child {
+  text-align: left;
+}
+
+.site-tagline-separator {
+  display: inline-block;
+  color: var(--pometum-butter, #E8C76A);
+  font-size: 1.15em;
+  line-height: 1;
+}
+
 /* Keep the home hero expressive without making the headline dominate an
    entire desktop viewport. */
 @media (min-width: 961px) {
