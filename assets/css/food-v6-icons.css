@@ -2,3 +2,24 @@
 .family-carnes {
   --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 96 72'%3E%3Cpath fill='%23d97962' stroke='%2318313b' stroke-width='2.4' d='M13 42c-5-13 6-27 23-30 14-3 27 3 30 14 3 11-6 24-22 30-14 5-26-1-31-14Z'/%3E%3Cpath fill='%23fff6eb' stroke='%2318313b' stroke-width='2.3' d='M57 33c5 1 10 0 13-3l7-6c2-2 6-2 8 1 2 2 1 5-1 7l-7 6c-5 4-11 6-19 5l-5-1 4-9Z'/%3E%3Cpath d='M27 25c7-5 17-5 24-1M24 42c7 5 16 6 24 3' fill='none' stroke='%23fff0e8' stroke-width='3' stroke-linecap='round' opacity='.85'/%3E%3C/svg%3E");
 }
+
+/* Article cards without a real featured photo use the same category pictogram
+ * as the food directory, instead of the old abstract placeholder. */
+.card-placeholder-illustrated {
+  display: grid;
+  place-items: center;
+  background: var(--family-soft, #dcebee) !important;
+}
+.card-placeholder-illustrated > .food-family-svg { display: none; }
+.card-placeholder-illustrated::after {
+  content: "";
+  width: 56%;
+  height: 56%;
+  max-width: 160px;
+  max-height: 120px;
+  background-image: var(--family-icon);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  filter: drop-shadow(0 8px 10px rgba(24, 49, 59, .08));
+}
