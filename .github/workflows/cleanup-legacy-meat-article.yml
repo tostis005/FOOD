@@ -1,0 +1,109 @@
+name: Cleanup legacy duplicate article
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/cleanup-legacy-meat-article.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_cleanup_key
+          chmod 600 ~/.ssh/food_cleanup_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Detect WordPress installation
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          WP_CONFIGS="$(ssh -i ~/.ssh/food_cleanup_key "$VPS_USER@$VPS_HOST" '
+            for base in /var/www /home /srv/www /usr/share/nginx/html; do
+              if [ -d "$base" ]; then
+                find "$base" -maxdepth 7 -type f -name wp-config.php 2>/dev/null
+              fi
+            done
+          ' | sort -u)"
+          COUNT="$(printf '%s\n' "$WP_CONFIGS" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [ -z "$WP_CONFIGS" ] || [ "$COUNT" -ne 1 ]; then
+            echo "ERROR: No se ha podido identificar una única instalación de WordPress."
+            printf '%s\n' "$WP_CONFIGS"
+            exit 1
+          fi
+          WP_ROOT="${WP_CONFIGS%/wp-config.php}"
+          echo "WP_ROOT=$WP_ROOT" >> "$GITHUB_ENV"
+
+      - name: Copy cleanup script
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          scp -i ~/.ssh/food_cleanup_key content/tools/cleanup-legacy-meat-article.php "$VPS_USER@$VPS_HOST:/tmp/food-cleanup-legacy-meat.php"
+
+      - name: Remove duplicate and register redirect
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/food_cleanup_key "$VPS_USER@$VPS_HOST" "WP_ROOT='$WP_ROOT' bash -s" <<'REMOTE'
+          set -euo pipefail
+          if command -v php >/dev/null 2>&1; then
+            php /tmp/food-cleanup-legacy-meat.php "$WP_ROOT"
+            exit 0
+          fi
+          if ! command -v docker >/dev/null 2>&1 || ! docker ps >/dev/null 2>&1; then
+            echo "ERROR: No PHP runtime available."
+            exit 1
+          fi
+          CANDIDATES=""
+          while read -r CID; do
+            [ -z "$CID" ] && continue
+            CROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then echo "$p"; exit 0; fi
+              done
+              FOUND="$(find /var/www /app -maxdepth 5 -type f -name wp-load.php 2>/dev/null | head -n 1)"
+              [ -n "$FOUND" ] && dirname "$FOUND"
+            ' 2>/dev/null || true)"
+            if [ -n "$CROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              CANDIDATES="${CANDIDATES}${CID}|${CROOT}\n"
+            fi
+          done < <(docker ps -q)
+          COUNT="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [ "$COUNT" -ne 1 ]; then
+            echo "ERROR: Expected one WordPress container, found $COUNT."
+            exit 1
+          fi
+          CANDIDATE="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | head -n 1)"
+          CID="${CANDIDATE%%|*}"
+          CROOT="${CANDIDATE#*|}"
+          docker cp /tmp/food-cleanup-legacy-meat.php "$CID:/tmp/food-cleanup-legacy-meat.php"
+          docker exec "$CID" php /tmp/food-cleanup-legacy-meat.php "$CROOT"
+          docker exec "$CID" rm -f /tmp/food-cleanup-legacy-meat.php || true
+          REMOTE
+
+      - name: Cleanup temporary file
+        if: always()
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          ssh -i ~/.ssh/food_cleanup_key "$VPS_USER@$VPS_HOST" 'rm -f /tmp/food-cleanup-legacy-meat.php' || true
