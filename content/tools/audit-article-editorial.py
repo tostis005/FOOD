@@ -22,23 +22,45 @@ for path in files:
     seen.add((lang, num))
     if data.get('status') != 'publish':
         errors.append(f'{path}: status is {data.get("status")!r}, expected publish')
+
     content = data.get('content_html','')
     plain = re.sub(r'<[^>]+>', ' ', content)
     plain = re.sub(r'\s+', ' ', plain).lower()
+
     forbidden = [
         'merece un artículo', 'merece otro artículo', 'otro artículo', 'en este artículo',
         'hemos elegido', 'hemos usado', 'hemos utilizado', 'deliberadamente',
         'se excluye deliberadamente', 'excluimos deliberadamente', 'para no manipular',
         'criterio de ordenación', 'fuentes y criterio', 'registro utilizado', 'registros concretos',
         'la tabla no pretende', 'no pretendemos', 'cocinado con calor seco',
+        'tabla principal', 'ranking principal', 'como vimos', 'como hemos visto',
+        'en otra guía', 'en otra entrada', 'en otro post', 'en otra página',
         'deserves its own article', 'another article', 'in this article',
         'we chose', 'we have chosen', 'we used', 'we have used', 'deliberately',
         'to avoid manipulating', 'ordering criteria', 'sources and methodology',
-        'record used', 'specific records', 'the table is not intended', 'cooked by dry heat'
+        'record used', 'specific records', 'the table is not intended', 'cooked by dry heat',
+        'main table', 'main ranking', 'as we saw', 'as we have seen',
+        'in another guide', 'in another article', 'in another post', 'on another page'
     ]
     for phrase in forbidden:
         if phrase in plain:
             errors.append(f'{path}: forbidden editorial/process phrase: {phrase!r}')
+
+    cross_article_patterns = [
+        r'como (?:ocurre|pasa|sucede) (?:con|en) las carnes',
+        r'como (?:ocurre|pasa|sucede) (?:con|en) los pescados',
+        r'igual que (?:en|con) las carnes',
+        r'al igual que (?:en|con) las carnes',
+        r'as (?:with|in) (?:the )?meat ranking',
+        r'as (?:with|in) (?:the )?fish ranking',
+    ]
+    for pattern in cross_article_patterns:
+        if re.search(pattern, plain):
+            errors.append(f'{path}: vague cross-article comparison: {pattern!r}')
+
+    excerpt = re.sub(r'\s+', ' ', str(data.get('excerpt',''))).strip()
+    if excerpt and excerpt.lower() in plain:
+        errors.append(f'{path}: excerpt/quick answer is repeated verbatim in content_html')
 
 missing = sorted(expected - seen)
 extra = sorted(seen - expected)

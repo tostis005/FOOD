@@ -1,11 +1,53 @@
 <?php get_header(); ?>
 
 <?php
-$food_english = function_exists( 'food_is_english' ) && food_is_english();
+$food_english  = function_exists( 'food_is_english' ) && food_is_english();
 $archive_visual = ( is_category() || is_tax( 'food_topic' ) ) && function_exists( 'food_get_term_visual_context' )
 	? food_get_term_visual_context()
 	: null;
 $archive_term = ( is_category() || is_tax( 'food_topic' ) ) ? get_queried_object() : null;
+$food_loop    = $GLOBALS['wp_query'];
+
+// Build taxonomy archives explicitly so clicking a food/category always means
+// “show the articles assigned to this category”, independently of search text.
+if ( $archive_term instanceof WP_Term && ( is_category() || is_tax( 'food_topic' ) ) ) {
+	$archive_args = array(
+		'post_type'            => 'post',
+		'post_status'          => 'publish',
+		'posts_per_page'       => (int) get_option( 'posts_per_page', 10 ),
+		'paged'                => max( 1, (int) get_query_var( 'paged' ) ),
+		'ignore_sticky_posts'  => true,
+		'food_language_bypass' => 1,
+	);
+
+	if ( is_category() && 'alimentacion-general' === $archive_term->slug ) {
+		// General imported articles deliberately used the parent Alimentos term in
+		// earlier imports. Their canonical family meta is empty, so include them here.
+		$archive_args['meta_query'] = array(
+			'relation' => 'AND',
+			function_exists( 'food_language_query_clause' ) ? food_language_query_clause() : array(),
+			array(
+				'relation' => 'OR',
+				array( 'key' => '_food_food_family', 'value' => '', 'compare' => '=' ),
+				array( 'key' => '_food_food_family', 'compare' => 'NOT EXISTS' ),
+			),
+		);
+	} else {
+		$archive_args['tax_query'] = array(
+			array(
+				'taxonomy'         => $archive_term->taxonomy,
+				'field'            => 'term_id',
+				'terms'            => array( (int) $archive_term->term_id ),
+				'include_children' => is_category(),
+			),
+		);
+		if ( function_exists( 'food_language_query_clause' ) ) {
+			$archive_args['meta_query'] = array( food_language_query_clause() );
+		}
+	}
+
+	$food_loop = new WP_Query( $archive_args );
+}
 ?>
 
 <div class="container archive-wrap">
@@ -17,9 +59,9 @@ $archive_term = ( is_category() || is_tax( 'food_topic' ) ) ? get_queried_object
 				if ( is_search() ) {
 					echo esc_html( $food_english ? 'Results' : 'Resultados' );
 				} elseif ( is_tax( 'food_topic' ) ) {
-					echo esc_html( $food_english ? 'Guides by topic' : 'Guías por tema' );
+					echo esc_html( $food_english ? 'Articles by topic' : 'Artículos por tema' );
 				} elseif ( is_category() ) {
-					echo esc_html( $food_english ? 'Guides by food' : 'Guías por alimento' );
+					echo esc_html( $food_english ? 'Articles by food' : 'Artículos por alimento' );
 				} else {
 					echo esc_html( $food_english ? 'Quinnoa archive' : 'Archivo Quinnoa' );
 				}
@@ -45,7 +87,7 @@ $archive_term = ( is_category() || is_tax( 'food_topic' ) ) ? get_queried_object
 			if ( ( is_category() || is_tax( 'food_topic' ) ) && $archive_description && ! $food_english ) : ?>
 				<div class="taxonomy-description"><?php echo wp_kses_post( $archive_description ); ?></div>
 			<?php elseif ( $food_english && $archive_term instanceof WP_Term ) : ?>
-				<div class="taxonomy-description"><p><?php echo esc_html( is_category() ? food_family_display( $archive_term->slug, 'short' ) : 'Practical Quinnoa guides in this topic, selected for the English edition.' ); ?></p></div>
+				<div class="taxonomy-description"><p><?php echo esc_html( is_category() ? food_family_display( $archive_term->slug, 'short' ) : 'Practical Quinnoa articles in this topic, selected for the English edition.' ); ?></p></div>
 			<?php endif; ?>
 		</div>
 
@@ -60,13 +102,25 @@ $archive_term = ( is_category() || is_tax( 'food_topic' ) ) ? get_queried_object
 		<div class="search-panel"><?php get_search_form(); ?></div>
 	<?php endif; ?>
 
-	<?php if ( have_posts() ) : ?>
+	<?php if ( $food_loop->have_posts() ) : ?>
 		<div class="card-grid">
-			<?php while ( have_posts() ) : the_post(); get_template_part( 'template-parts/card' ); endwhile; ?>
+			<?php while ( $food_loop->have_posts() ) : $food_loop->the_post(); get_template_part( 'template-parts/card' ); endwhile; ?>
 		</div>
-		<div class="pagination"><?php the_posts_pagination( array( 'mid_size' => 1, 'prev_text' => $food_english ? '← Previous' : '← Anterior', 'next_text' => $food_english ? 'Next →' : 'Siguiente →' ) ); ?></div>
+		<?php
+		$current_page = max( 1, (int) get_query_var( 'paged' ) );
+		$pagination   = paginate_links(
+			array(
+				'current'   => $current_page,
+				'total'     => max( 1, (int) $food_loop->max_num_pages ),
+				'mid_size'  => 1,
+				'prev_text' => $food_english ? '← Previous' : '← Anterior',
+				'next_text' => $food_english ? 'Next →' : 'Siguiente →',
+			)
+		);
+		if ( $pagination ) : ?><div class="pagination nav-links"><?php echo wp_kses_post( $pagination ); ?></div><?php endif; ?>
+		<?php wp_reset_postdata(); ?>
 	<?php else : ?>
-		<div class="answer-box"><strong><?php echo esc_html( $food_english ? 'No guides here yet' : 'Todavía no hay guías aquí' ); ?></strong><p><?php echo esc_html( $food_english ? 'We are preparing content for this section. You can explore other Quinnoa guides in the meantime.' : 'Estamos preparando contenido para esta sección. Mientras tanto puedes explorar otras guías de Quinnoa.' ); ?></p></div>
+		<div class="answer-box"><strong><?php echo esc_html( $food_english ? 'No articles here yet' : 'Todavía no hay artículos aquí' ); ?></strong><p><?php echo esc_html( $food_english ? 'There are no published articles assigned to this section yet. You can browse other Quinnoa articles or use search.' : 'Todavía no hay artículos publicados asignados a esta sección. Puedes explorar otros artículos de Quinnoa o utilizar el buscador.' ); ?></p></div>
 		<div class="search-panel"><?php get_search_form(); ?></div>
 	<?php endif; ?>
 </div>

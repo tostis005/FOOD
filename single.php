@@ -1,4 +1,15 @@
-<?php get_header(); ?>
+<?php
+$food_article_layout_css = get_template_directory() . '/assets/css/article-layout-v2.css';
+if ( file_exists( $food_article_layout_css ) ) {
+	wp_enqueue_style(
+		'food-article-layout-v2',
+		get_template_directory_uri() . '/assets/css/article-layout-v2.css',
+		array( 'food-style' ),
+		(string) filemtime( $food_article_layout_css )
+	);
+}
+get_header();
+?>
 
 <?php while ( have_posts() ) : the_post(); ?>
 	<?php
@@ -32,7 +43,7 @@
 			<?php endforeach; ?>
 		</div>
 		<h1><?php the_title(); ?></h1>
-		<div class="article-meta"><span><?php echo esc_html( $food_english ? 'Quinnoa guide' : 'Guía Quinnoa' ); ?></span><span>·</span><span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span></div>
+		<div class="article-meta"><span><?php echo esc_html( $food_english ? 'Quinnoa article' : 'Artículo Quinnoa' ); ?></span><span>·</span><span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span></div>
 	</header>
 
 	<?php if ( has_post_thumbnail() ) : ?>
@@ -72,7 +83,7 @@
 	if ( $related->have_posts() ) : ?>
 		<section class="related">
 			<div class="container">
-				<div class="section-head"><div><div class="eyebrow"><?php echo esc_html( $food_english ? 'Keep exploring' : 'Sigue explorando' ); ?></div><h2><?php echo esc_html( $food_english ? 'More related guides' : 'Más guías relacionadas' ); ?></h2></div></div>
+				<div class="section-head"><div><div class="eyebrow"><?php echo esc_html( $food_english ? 'Keep exploring' : 'Sigue explorando' ); ?></div><h2><?php echo esc_html( $food_english ? 'Related articles' : 'Artículos relacionados' ); ?></h2></div></div>
 				<div class="card-grid"><?php while ( $related->have_posts() ) : $related->the_post(); get_template_part( 'template-parts/card' ); endwhile; wp_reset_postdata(); ?></div>
 			</div>
 		</section>

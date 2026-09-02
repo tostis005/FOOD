@@ -25,7 +25,7 @@ $food_english       = function_exists( 'food_is_english' ) && food_is_english();
 				if ( $food_card_topic ) {
 					$labels[] = function_exists( 'food_topic_display' ) ? food_topic_display( $food_card_topic ) : $food_card_topic->name;
 				}
-				echo esc_html( ! empty( $labels ) ? implode( ' · ', $labels ) : ( $food_english ? 'Quinnoa guide' : 'Guía Quinnoa' ) );
+				echo esc_html( ! empty( $labels ) ? implode( ' · ', $labels ) : ( $food_english ? 'Quinnoa article' : 'Artículo Quinnoa' ) );
 				?>
 			</div>
 			<h2 class="card-title"><?php the_title(); ?></h2>
