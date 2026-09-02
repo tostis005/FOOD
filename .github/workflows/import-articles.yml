@@ -45,7 +45,7 @@ jobs:
   import:
     runs-on: ubuntu-latest
     env:
-      IMPORT_LANGUAGE: ${{ inputs.language || 'es' }}
+      IMPORT_LANGUAGE: ${{ inputs.language || 'all' }}
       IMPORT_FROM: ${{ inputs.from || '1' }}
       IMPORT_TO: ${{ inputs.to || '999999' }}
       IMPORT_STATUS: ${{ inputs.status || 'publish' }}
