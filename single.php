@@ -2,24 +2,25 @@
 
 <?php while ( have_posts() ) : the_post(); ?>
 	<?php
+	$food_english  = function_exists( 'food_is_english' ) && food_is_english();
 	$food_category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category() : null;
 	$food_topics   = function_exists( 'food_get_article_topics' ) ? food_get_article_topics() : array();
 	$food_visual   = function_exists( 'food_get_post_visual_context' ) ? food_get_post_visual_context() : null;
 	?>
-	<div class="article-shell"><?php food_breadcrumbs(); ?></div>
+	<div class="article-shell"><?php function_exists( 'food_language_breadcrumbs' ) ? food_language_breadcrumbs() : food_breadcrumbs(); ?></div>
 
 	<header class="article-header article-shell">
 		<div class="article-dimensions">
 			<?php if ( $food_category ) : ?>
-				<a href="<?php echo esc_url( get_category_link( $food_category ) ); ?>"><?php echo esc_html( $food_category->name ); ?></a>
+				<a href="<?php echo esc_url( get_category_link( $food_category ) ); ?>"><?php echo esc_html( function_exists( 'food_family_display' ) ? food_family_display( $food_category->slug ) : $food_category->name ); ?></a>
 			<?php endif; ?>
 			<?php foreach ( $food_topics as $food_topic ) : ?>
-				<a class="is-topic" href="<?php echo esc_url( get_term_link( $food_topic ) ); ?>"><?php echo esc_html( $food_topic->name ); ?></a>
+				<a class="is-topic" href="<?php echo esc_url( get_term_link( $food_topic ) ); ?>"><?php echo esc_html( function_exists( 'food_topic_display' ) ? food_topic_display( $food_topic ) : $food_topic->name ); ?></a>
 			<?php endforeach; ?>
 		</div>
 		<h1><?php the_title(); ?></h1>
 		<?php if ( has_excerpt() ) : ?><p class="article-deck"><?php echo esc_html( get_the_excerpt() ); ?></p><?php endif; ?>
-		<div class="article-meta"><span>Guía Pometum</span><span>·</span><span><?php echo esc_html( food_reading_time() ); ?></span></div>
+		<div class="article-meta"><span><?php echo esc_html( $food_english ? 'Pometum guide' : 'Guía Pometum' ); ?></span><span>·</span><span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span></div>
 	</header>
 
 	<?php if ( has_post_thumbnail() ) : ?>
@@ -29,7 +30,7 @@
 	<?php endif; ?>
 
 	<article <?php post_class( 'article-shell' ); ?>>
-		<?php if ( has_excerpt() ) : ?><div class="answer-box"><strong>Respuesta rápida</strong><p><?php echo esc_html( get_the_excerpt() ); ?></p></div><?php endif; ?>
+		<?php if ( has_excerpt() ) : ?><div class="answer-box"><strong><?php echo esc_html( $food_english ? 'Quick answer' : 'Respuesta rápida' ); ?></strong><p><?php echo esc_html( get_the_excerpt() ); ?></p></div><?php endif; ?>
 		<?php if ( is_active_sidebar( 'article-ad' ) ) : ?><div class="ad-slot"><?php dynamic_sidebar( 'article-ad' ); ?></div><?php endif; ?>
 		<div class="entry-content"><?php the_content(); ?></div>
 	</article>
@@ -56,7 +57,7 @@
 	if ( $related->have_posts() ) : ?>
 		<section class="related">
 			<div class="container">
-				<div class="section-head"><div><div class="eyebrow">Sigue explorando</div><h2>Más guías relacionadas</h2></div></div>
+				<div class="section-head"><div><div class="eyebrow"><?php echo esc_html( $food_english ? 'Keep exploring' : 'Sigue explorando' ); ?></div><h2><?php echo esc_html( $food_english ? 'More related guides' : 'Más guías relacionadas' ); ?></h2></div></div>
 				<div class="card-grid"><?php while ( $related->have_posts() ) : $related->the_post(); get_template_part( 'template-parts/card' ); endwhile; wp_reset_postdata(); ?></div>
 			</div>
 		</section>
