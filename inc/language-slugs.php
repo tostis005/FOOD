@@ -120,9 +120,9 @@ function food_register_fully_localized_taxonomy_rewrites() {
 		add_rewrite_rule( '^en/topics/' . preg_quote( $english_slug, '#' ) . '/?$', 'index.php?food_topic=' . $internal_slug . '&food_lang=en', 'top' );
 	}
 
-	if ( '1' !== get_option( 'food_localized_taxonomy_rewrite_version' ) ) {
+	if ( '2' !== get_option( 'food_localized_taxonomy_rewrite_version' ) ) {
 		flush_rewrite_rules( false );
-		update_option( 'food_localized_taxonomy_rewrite_version', '1' );
+		update_option( 'food_localized_taxonomy_rewrite_version', '2' );
 	}
 }
 add_action( 'init', 'food_register_fully_localized_taxonomy_rewrites', 91 );
