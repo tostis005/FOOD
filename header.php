@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<?php wp_head(); ?>
 	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/polish.css' ); ?>">
+	<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/mobile-nav.css' ); ?>">
 </head>
 <body <?php body_class(); ?>>
 <?php wp_body_open(); ?>
@@ -22,7 +23,7 @@
 		<div class="site-branding">
 			<a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home">
 				<div class="site-title"><?php echo esc_html( get_bloginfo( 'name' ) ?: 'FOOD' ); ?></div>
-				<div class="site-tagline"><?php echo esc_html( get_bloginfo( 'description' ) ?: 'Guía de alimentación' ); ?></div>
+				<div class="site-tagline">Guía de alimentación</div>
 			</a>
 		</div>
 
