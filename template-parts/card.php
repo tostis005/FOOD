@@ -1,6 +1,7 @@
 <?php
 $food_card_category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category() : null;
 $food_card_topic    = function_exists( 'food_get_primary_topic' ) ? food_get_primary_topic() : null;
+$food_card_visual   = function_exists( 'food_get_post_visual_context' ) ? food_get_post_visual_context() : null;
 ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class( 'post-card' ); ?>>
 	<a href="<?php the_permalink(); ?>" aria-label="<?php the_title_attribute(); ?>">
@@ -8,8 +9,8 @@ $food_card_topic    = function_exists( 'food_get_primary_topic' ) ? food_get_pri
 			<?php if ( has_post_thumbnail() ) : ?>
 				<?php the_post_thumbnail( 'food-card', array( 'loading' => 'lazy' ) ); ?>
 			<?php else : ?>
-				<div class="card-placeholder card-placeholder-illustrated family-<?php echo esc_attr( $food_card_category ? $food_card_category->slug : 'general' ); ?>" aria-hidden="true">
-					<?php echo function_exists( 'food_category_icon_svg' ) ? food_category_icon_svg( $food_card_category ? $food_card_category->slug : '' ) : ''; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
+				<div class="card-placeholder card-placeholder-illustrated <?php echo esc_attr( $food_card_visual ? $food_card_visual['class'] : 'family-general' ); ?>" aria-hidden="true">
+					<?php echo $food_card_visual ? $food_card_visual['svg'] : ( function_exists( 'food_category_icon_svg' ) ? food_category_icon_svg( '' ) : '' ); // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?>
 				</div>
 			<?php endif; ?>
 		</div>
