@@ -1,0 +1,31 @@
+name: Audit article comparisons
+
+on:
+  pull_request:
+    paths:
+      - 'content/articles/**'
+      - 'content/tools/audit-article-comparisons.py'
+      - '.github/workflows/audit-article-comparisons.yml'
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/articles/**'
+      - 'content/tools/audit-article-comparisons.py'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate JSON
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          for p in Path('content/articles').glob('*/*.json'):
+              json.loads(p.read_text(encoding='utf-8'))
+          print('JSON_OK=1')
+          PY
+      - name: Audit quantified comparisons
+        run: python3 content/tools/audit-article-comparisons.py content/articles
