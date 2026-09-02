@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-041-alimentos-con-mas-vitamina-c",
+  "article_number": 41,
+  "translation_group": "041-highest-vitamin-c-foods",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y contexto NIH ODS",
+  "title": "Los alimentos con más vitamina C: pimiento, kiwi, cítricos y más",
+  "slug": "alimentos-con-mas-vitamina-c",
+  "seo": {
+    "title": "Alimentos con más vitamina C: ranking por ración",
+    "meta_description": "Pimiento rojo, kiwi, fresas y brócoli pueden aportar tanta o más vitamina C por ración que una naranja. El calor puede reducir su contenido.",
+    "search_intent": "Comparar alimentos ricos en vitamina C y explicar el efecto de la cocción y el almacenamiento."
+  },
+  "excerpt": "La naranja es una buena fuente de vitamina C, pero no la campeona. Pimiento rojo, kiwi y algunas otras frutas y verduras pueden aportar tanto o más por ración; además, cocinar y almacenar durante mucho tiempo puede reducir parte de la vitamina.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>La naranja es el ejemplo clásico de vitamina C, pero su fama no equivale a una superioridad nutricional. Un pimiento rojo o dos kiwis pueden aportar bastante más.</p><p><strong>Las mejores fuentes suelen ser frutas y verduras que se comen crudas o con poca cocción</strong>, porque la vitamina C es soluble en agua y sensible al calor y al almacenamiento prolongado.</p><h2>Una comparación por ración habitual</h2><table><thead><tr><th>Alimento</th><th>Ración</th><th>Vitamina C aprox.</th></tr></thead><tbody><tr><td>Pimiento rojo crudo</td><td>½ taza</td><td>~95 mg</td></tr><tr><td>Fresas</td><td>1 taza</td><td>~85–90 mg</td></tr><tr><td>Naranja</td><td>1 mediana</td><td>~70 mg</td></tr><tr><td>Kiwi</td><td>1 mediano</td><td>~60–70 mg</td></tr><tr><td>Brócoli cocido</td><td>½ taza</td><td>~50 mg</td></tr><tr><td>Patata asada</td><td>1 mediana</td><td>~20 mg</td></tr></tbody></table><p>El pimiento rojo y una taza de fresas pueden superar a una naranja. El kiwi queda en un rango parecido, de modo que no hay razón nutricional para depender de los cítricos.</p><h2>El pimiento destaca especialmente por peso</h2><p>El pimiento rojo crudo puede superar 120 mg de vitamina C por 100 g. Una naranja ronda aproximadamente 50–60 mg/100 g. A igual peso, el pimiento puede aportar más del doble.</p><h2>El kiwi compite con la naranja en una porción pequeña</h2><p>Un kiwi mediano aporta alrededor de 60–70 mg, comparable a una naranja mediana. Dos kiwis pueden superar 120 mg sin necesidad de una ración especialmente grande.</p><h2>Las fresas suman más de lo que suele pensarse</h2><p>Una taza de fresas puede aportar cerca de 90 mg. Además, la ración aporta fibra y agua. Su contenido de vitamina C puede caer con el almacenamiento prolongado, como ocurre con otras frutas y verduras.</p><h2>La cocción puede reducir la vitamina C</h2><p>La vitamina C se degrada con calor y puede pasar al agua de cocción. Hervir durante mucho tiempo suele provocar más pérdidas que cocinar al vapor o en microondas durante periodos breves.</p><p>Eso no significa que el brócoli cocido se quede sin vitamina C: media taza cocida todavía puede aportar alrededor de 50 mg. La pérdida es parcial, no absoluta.</p><h2>La patata también contribuye</h2><p>Una patata mediana asada aporta alrededor de 20 mg. No compite con el pimiento por concentración, pero como se consume en cantidades grandes puede contribuir de manera apreciable al total diario.</p><h2>La idea útil</h2><p>No necesitas buscar una única fruta ganadora. <strong>Pimiento, kiwi, cítricos, fresas, brócoli y otras frutas y verduras pueden aportar mucha vitamina C cuando aparecen de forma habitual y se evita una cocción innecesariamente larga.</strong></p>",
+  "faq": [
+    {"question": "¿Qué alimento tiene más vitamina C que la naranja?", "answer": "El pimiento rojo crudo suele aportar más vitamina C por 100 g y por una ración razonable. Una taza de fresas también puede superar a una naranja mediana."},
+    {"question": "¿Cocinar destruye toda la vitamina C?", "answer": "No. El calor puede reducirla, especialmente con cocciones largas y agua abundante, pero muchos alimentos cocidos siguen aportando cantidades relevantes."},
+    {"question": "¿El kiwi tiene mucha vitamina C?", "answer": "Sí. Un kiwi mediano suele aportar alrededor de 60–70 mg."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición nutricional de frutas y verduras."},
+    {"name": "NIH Office of Dietary Supplements — Vitamin C", "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/", "note": "Fuentes alimentarias y efecto del almacenamiento y la cocción."}
+  ],
+  "image": {
+    "concept": "Pimiento rojo, kiwi, naranja, fresas y brócoli en una composición fresca, fotografía editorial sin texto.",
+    "alt": "Alimentos con mucha vitamina C"
+  },
+  "status": "publish"
+}
