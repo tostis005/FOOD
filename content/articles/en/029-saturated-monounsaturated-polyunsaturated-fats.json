@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-029-saturated-monounsaturated-polyunsaturated-fats",
+  "article_number": 29,
+  "translation_group": "029-saturated-monounsaturated-polyunsaturated-fats",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; WHO guidance on dietary fat quality",
+  "title": "Saturated vs. Monounsaturated vs. Polyunsaturated Fat: Differences and Food Sources",
+  "slug": "saturated-monounsaturated-polyunsaturated-fats",
+  "seo": {
+    "title": "Saturated vs. Monounsaturated vs. Polyunsaturated Fat",
+    "meta_description": "Saturated, monounsaturated and polyunsaturated fats differ in structure and food sources. The practical goal is to favor unsaturated fats.",
+    "search_intent": "Compare saturated, monounsaturated and polyunsaturated fats and understand their food sources."
+  },
+  "excerpt": "Saturated, monounsaturated and polyunsaturated fats are families of fatty acids with different chemical structures. In practical nutrition, the main distinction is that monounsaturated and polyunsaturated fats are generally favored, while saturated fat is limited and preferably replaced with unsaturated fat.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-concepts", "comparisons", "nutrition-composition"],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>A Nutrition Facts label may show 15 g total fat and then list 4 g saturated fat underneath. That second number matters because <strong>fat is not one single substance</strong>. Foods contain mixtures of different fatty acids.</p><p>The chemical distinction between saturated, monounsaturated and polyunsaturated fat sounds technical, but it leads to very practical differences between butter, olive oil, nuts, seeds and fish.</p><h2>The quick comparison</h2><table><thead><tr><th>Fat type</th><th>Structural difference</th><th>Common sources</th></tr></thead><tbody><tr><td>Saturated</td><td>No carbon-carbon double bonds</td><td>Butter, fatty meats, cheese, coconut and palm oils</td></tr><tr><td>Monounsaturated</td><td>One double bond</td><td>Olive oil, avocado, almonds, hazelnuts</td></tr><tr><td>Polyunsaturated</td><td>Two or more double bonds</td><td>Walnuts, seeds, seed oils, fatty fish</td></tr></tbody></table><p>Foods do not have to fit entirely in one column. Olive oil is mostly monounsaturated but contains some saturated and polyunsaturated fat. Butter is rich in saturated fat but is not 100% saturated fat.</p><h2>What “saturated” actually means</h2><p>Saturated fatty acids have no double bonds in their carbon chain. Many fats rich in saturated fatty acids are solid at room temperature, though that is not a perfect test.</p><p>Common sources include butter, full-fat dairy foods, fatty cuts of meat and tropical oils such as coconut and palm. WHO recommends keeping saturated fat below <strong>10% of total daily energy</strong>.</p><h2>Monounsaturated fat: the signature fat in olive oil</h2><p>Monounsaturated fatty acids contain one double bond. Oleic acid is the best-known example and is the dominant fatty acid in olive oil. It is also abundant in avocado, almonds and hazelnuts.</p><p>Replacing some saturated fat with monounsaturated fat changes the dietary fat profile without requiring a low-fat diet.</p><h2>Polyunsaturated fat includes both omega-6 and omega-3</h2><p>Polyunsaturated fat is a family, not one molecule. Omega-6 fats are common in soybean, corn and sunflower oils and many seeds. Plant omega-3 ALA is found in walnuts, flax and chia, while fatty fish provides EPA and DHA.</p><p>Both omega-6 and omega-3 fats belong in a healthy eating pattern. Treating omega-6 as inherently “bad” does not reflect mainstream dietary guidance.</p><h2>Replacement matters more than simply removing one fat</h2><p>Swapping some butter for olive oil replaces saturated fat with mostly monounsaturated fat. Keeping the butter and adding olive oil on top is not the same change.</p><p>That is why dietary guidance pays attention to <strong>what replaces saturated fat</strong>. Replacing it with unsaturated fat or fiber-rich carbohydrate is different from replacing it with refined starches and added sugars.</p><h2>Where trans fat fits</h2><p>Trans fat is another category. WHO recommends keeping total trans fat below 1% of energy intake and avoiding industrially produced trans fat as much as possible.</p><h2>How to read a label without doing chemistry</h2><p>If a product lists 15 g total fat and 3 g saturated fat, the remaining 12 g are not automatically all monounsaturated. They can include mono- and polyunsaturated fats plus smaller lipid fractions.</p><p>In the U.S., some labels do not list mono- and polyunsaturated fat unless the manufacturer chooses to. The food itself still gives useful clues: olive oil and avocado lean heavily monounsaturated; walnuts, seeds and fatty fish contribute more polyunsaturated fat.</p><h2>The practical rule</h2><p>You do not need to memorize fatty-acid chemistry. Remember this instead: <strong>favor unsaturated fat sources, limit excess saturated fat, and think in substitutions</strong>.</p><p>Total amount still matters because all fats provide about 9 calories per gram, but the types are not nutritionally interchangeable.</p>",
+  "faq": [
+    {"question": "What is the difference between saturated and monounsaturated fat?", "answer": "Saturated fat has no carbon-carbon double bonds; monounsaturated fat has one. Dietary guidance generally favors replacing some saturated fat with unsaturated fat."},
+    {"question": "Where do polyunsaturated fats come from?", "answer": "Common sources include walnuts, seeds, soybean/corn/sunflower oils and fatty fish."},
+    {"question": "Is coconut oil unsaturated because it is a plant oil?", "answer": "No. Coconut oil is plant-derived but contains a high proportion of saturated fat."}
+  ],
+  "sources": [
+    {"name": "World Health Organization — Healthy diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet", "note": "Food sources and guidance on dietary fat types."},
+    {"name": "World Health Organization — Saturated fatty acid and trans-fatty acid intake guideline", "url": "https://www.who.int/publications/i/item/9789240073630", "note": "Limits and replacement guidance for saturated and trans fat."}
+  ],
+  "image": {
+    "concept": "Butter, olive oil, avocado, walnuts, seeds and fatty fish arranged in a clean editorial still life, no labels or text.",
+    "alt": "Food sources of saturated, monounsaturated and polyunsaturated fats"
+  },
+  "status": "publish"
+}
