@@ -11,8 +11,8 @@
 
 <div class="site-topline">
 	<div class="container">
-		<span>Guías claras sobre lo que comes</span>
-		<span class="topline-secondary">Producto · cocina · nutrición · seguridad</span>
+		<span>Conoce el alimento. Come mejor.</span>
+		<span class="topline-secondary">Alimentos · seguridad · nutrición · cocina</span>
 	</div>
 </div>
 
