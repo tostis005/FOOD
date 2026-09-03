@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-095-is-it-healthy-to-eat-avocado-every-day",
+  "article_number": 95,
+  "translation_group": "095-is-it-healthy-to-eat-avocado-every-day",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; avocado composition and unsaturated-fat dietary guidance",
+  "title": "Is it healthy to eat avocado every day?",
+  "slug": "is-it-healthy-to-eat-avocado-every-day",
+  "seo": {
+    "title": "Is it healthy to eat avocado every day?",
+    "meta_description": "Avocado can fit daily: it provides monounsaturated fat, fiber, potassium and folate. Portion size and what it replaces in the diet matter.",
+    "search_intent": "Understand whether daily avocado consumption can fit a healthy diet and how portion size affects the answer."
+  },
+  "excerpt": "For most people, avocado can fit into a balanced diet every day. A 100 g portion provides about 160 calories, 15 g of fat—mostly monounsaturated—6–7 g of fiber and roughly 480 mg of potassium. The important question is not whether avocado is 'healthy' in isolation, but how much you eat and what it replaces.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": ["avocado"],
+    "article_types": ["health-daily-consumption", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>There is no nutrition rule requiring rest days between avocados. If you enjoy them, the more useful question is <strong>how much you eat and what role avocado plays in the rest of your diet</strong>.</p><h2>What a practical portion provides</h2><p>One hundred grams—roughly half a large avocado, although sizes vary substantially—provides around 160 calories, 15 g of fat, 6–7 g of fiber and 2 g of protein.</p><p>About 10 g of that fat is monounsaturated. The same portion also provides roughly 480 mg of potassium plus folate and other micronutrients.</p><h2>The main nutritional argument is fat quality</h2><p>Dietary guidance favors replacing saturated fats with unsaturated fats. Avocado fits that pattern because much of its fat is monounsaturated oleic acid.</p><p>The replacement matters. Avocado in place of butter or a saturated-fat-heavy spread changes the meal's fat profile; avocado added on top of a diet that already covers energy needs simply adds both nutrients and calories.</p><h2>Fiber matters too</h2><p>One hundred grams provides about 6.7 g of fiber. For comparison, a medium apple provides roughly 4 g. Avocado therefore combines a fairly high fiber amount with unsaturated fat.</p><h2>Half an avocado, a whole avocado or more?</h2><p>“One avocado” is imprecise because fruit size varies. If the edible portion weighs 150 g, it supplies about 240 calories and 22 g of fat; at 200 g, it approaches 320 calories and 30 g of fat.</p><p>A whole fruit may easily fit for someone with higher energy needs. For another person, half may be a more practical serving. There is no universal threshold where avocado suddenly becomes unhealthy.</p><h2>You do not need avocado every day to get unsaturated fats</h2><p>Olive oil, nuts, seeds and olives also provide unsaturated fats. Variety gives you different strengths: walnuts provide ALA omega-3, nuts supply more protein and extra-virgin olive oil brings a different set of phenolic compounds.</p><p>Eating avocado daily can be healthy; needing avocado daily for a healthy diet is a different claim.</p><h2>What about body weight?</h2><p>Avocado does not cause weight gain through a special property, and being nutritious does not make its calories disappear. If it replaces a similarly caloric food, energy intake may barely change. If you add 160–300 calories every day without replacing anything, total energy rises.</p><p>Thinking in substitutions is more useful than stacking “superfoods” on top of an unchanged diet.</p><h2>The answer</h2><p><strong>Yes, avocado can be part of an everyday diet.</strong> It provides mostly unsaturated fat, fiber, potassium and folate. Frequency itself is not the main concern; portion size, total energy and what the avocado replaces give the daily habit its nutritional context.</p>",
+  "faq": [
+    {"question": "Can I eat avocado every day?", "answer": "For most people, yes, it can fit into a balanced diet. Portion size and the rest of the diet matter more than daily frequency by itself."},
+    {"question": "How many calories are in half an avocado?", "answer": "It depends on size. A 100 g edible portion provides about 160 calories; half an avocado can weigh less or more than that."},
+    {"question": "What if I eat a whole avocado?", "answer": "An avocado with 150–200 g of edible flesh provides roughly 240–320 calories. That can fit into a diet, but it is a meaningful amount of energy."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Calories, fat, fiber, potassium and folate in avocado."},
+    {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/", "note": "Context for replacing saturated fats with unsaturated fats."}
+  ],
+  "image": {
+    "concept": "Avocado divided into realistic portions on toast and salad, natural editorial food photography, no text.",
+    "alt": "Everyday avocado portions in balanced meals"
+  },
+  "status": "publish"
+}
