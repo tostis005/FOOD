@@ -8,7 +8,7 @@ $food_footer_language = $food_english ? 'en' : 'es';
 	<div class="container footer-main footer-main-v5">
 		<div>
 			<div class="pometum-footer-brand"><?php if ( function_exists( 'food_pometum_logo' ) ) { food_pometum_logo( 'is-footer' ); } else { echo esc_html( get_bloginfo( 'name' ) ?: 'Quinnoa' ); } ?></div>
-			<p class="footer-copy"><?php echo esc_html( $food_english ? 'A publication about food, nutrition, quality, food safety, storage and cooking.' : 'Una publicación sobre alimentos, nutrición, calidad, seguridad alimentaria, conservación y cocina.' ); ?></p>
+			<p class="footer-copy"><?php echo esc_html( $food_english ? 'A place to understand food better and discover what lies behind what we eat.' : 'Un espacio para entender mejor los alimentos y descubrir lo que hay detrás de lo que comemos.' ); ?></p>
 		</div>
 		<nav aria-label="<?php echo esc_attr( $food_english ? 'Footer links' : 'Enlaces del pie' ); ?>">
 			<ul class="footer-links-v5">
