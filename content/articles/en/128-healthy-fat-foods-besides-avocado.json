@@ -8,12 +8,53 @@
   "market_context": "United States/general English; USDA composition and AHA/WHO unsaturated-fat context",
   "title": "Healthy-fat foods besides avocado",
   "slug": "healthy-fat-foods-besides-avocado",
-  "seo": {"title":"Healthy-fat foods besides avocado","meta_description":"Olive oil, nuts, seeds, olives, and fatty fish provide unsaturated fats. Compare realistic portions and the different types of fat they contain.","search_intent":"Find foods rich in unsaturated fat besides avocado and understand which fats each food provides."},
+  "seo": {
+    "title": "Healthy-fat foods besides avocado",
+    "meta_description": "Olive oil, nuts, seeds, olives, and fatty fish provide unsaturated fats. Compare realistic portions and the different types of fat they contain.",
+    "search_intent": "Find foods rich in unsaturated fat besides avocado and understand which fats each food provides."
+  },
   "excerpt": "Avocado is not the only source of unsaturated fat. One tablespoon olive oil provides about 14 g fat, 1 oz almonds about 14 g, 1 oz walnuts about 18–19 g, and a 5 oz salmon serving roughly 17–20 g depending on species. Olive oil and avocado lean monounsaturated; walnuts and seeds are richer in polyunsaturated fat; fatty fish provides EPA and DHA.",
-  "taxonomy": {"food_family":"general","food_subcategories":["healthy-fats"],"article_types":["nutrition-composition","ranking"],"primary_article_type":"nutrition-composition"},
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "healthy-fats"
+    ],
+    "article_types": [
+      "nutrition-composition",
+      "rankings"
+    ],
+    "primary_article_type": "nutrition-composition"
+  },
   "content_html": "<p>Avocado has become the visual shorthand for “healthy fat,” but <strong>unsaturated fats come from many foods and are not all the same</strong>. Olive oil and almonds lean monounsaturated, walnuts and seeds contribute more polyunsaturated fat, and fatty fish provides EPA and DHA.</p><h2>Useful sources by serving</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Total fat</th><th>Main pattern</th></tr></thead><tbody><tr><td>Extra-virgin olive oil</td><td>1 tbsp</td><td>~14 g</td><td>Monounsaturated</td></tr><tr><td>Almonds</td><td>1 oz</td><td>~14 g</td><td>Monounsaturated</td></tr><tr><td>Walnuts</td><td>1 oz</td><td>~18–19 g</td><td>Polyunsaturated + ALA</td></tr><tr><td>Chia seeds</td><td>1 oz</td><td>~8.7 g</td><td>Polyunsaturated + ALA</td></tr><tr><td>Salmon</td><td>5 oz</td><td>~17–20 g</td><td>EPA/DHA + monounsaturated</td></tr><tr><td>Olives</td><td>1.8 oz / 50 g</td><td>~5–8 g</td><td>Monounsaturated</td></tr><tr><td>Avocado</td><td>100 g</td><td>~15 g</td><td>Monounsaturated</td></tr></tbody></table><p>“Healthy fat” therefore describes several fatty-acid patterns rather than one nutrient.</p><h2>Olive oil is the most concentrated</h2><p>Oil is almost pure fat, so one tablespoon provides about 120 calories and 14 g fat. It is an efficient way to add monounsaturated fat, but portions accumulate calories quickly.</p><h2>Nuts and seeds bring fiber and protein too</h2><p>Unlike oil, almonds, walnuts, chia, and flax contain fat inside a food matrix with fiber, protein, and minerals. A 1 oz serving is usually around 150–200 calories or more while also contributing several grams of protein or fiber.</p><h2>Fatty fish provides long-chain omega-3</h2><p>Salmon, sardines, mackerel, and other oily fish provide EPA and DHA directly. That distinguishes them from walnuts, flax, and chia, whose omega-3 is mainly ALA.</p><h2>Olives and avocado contain much more water</h2><p>Both are less energy-dense than oil or nuts because they contain substantial water. Avocado also provides fiber; olives can be relatively high in sodium because of curing.</p><h2>Replacement matters more than simply adding fat</h2><p>The benefit of emphasizing unsaturated fats makes most sense when they <strong>replace some saturated fat</strong>. Swapping butter for olive oil or processed meat for fish is different from adding extra oil to an unchanged high-calorie diet.</p><h2>The useful takeaway</h2><p>You do not need avocado to get unsaturated fat. <strong>Olive oil, nuts, seeds, olives, and fatty fish cover different types of unsaturated fat</strong>, and rotating them produces a broader fatty-acid profile.</p>",
-  "faq": [{"question":"What foods have healthy fats besides avocado?","answer":"Olive oil, almonds, walnuts, chia, flax, olives, and fatty fish are strong sources of unsaturated fats."},{"question":"Are all healthy fats the same?","answer":"No. Some foods are mainly monounsaturated, others polyunsaturated. Fish provides EPA/DHA while seeds and walnuts provide ALA or omega-6 fats."},{"question":"Is olive oil healthier than avocado?","answer":"There is no universal winner. Olive oil is a concentrated monounsaturated fat; avocado also provides water and fiber. They serve different roles."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Fat and fatty-acid profiles of foods compared."},{"name":"American Heart Association — Fats","url":"https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats","note":"Replacing saturated fat with unsaturated fats."}],
-  "image": {"concept":"Olive oil, almonds, walnuts, chia, salmon, olives, and avocado in realistic portions, clean editorial food photography without text.","alt":"Foods rich in unsaturated fats besides avocado"},
-  "status":"publish"
+  "faq": [
+    {
+      "question": "What foods have healthy fats besides avocado?",
+      "answer": "Olive oil, almonds, walnuts, chia, flax, olives, and fatty fish are strong sources of unsaturated fats."
+    },
+    {
+      "question": "Are all healthy fats the same?",
+      "answer": "No. Some foods are mainly monounsaturated, others polyunsaturated. Fish provides EPA/DHA while seeds and walnuts provide ALA or omega-6 fats."
+    },
+    {
+      "question": "Is olive oil healthier than avocado?",
+      "answer": "There is no universal winner. Olive oil is a concentrated monounsaturated fat; avocado also provides water and fiber. They serve different roles."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Fat and fatty-acid profiles of foods compared."
+    },
+    {
+      "name": "American Heart Association — Fats",
+      "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats",
+      "note": "Replacing saturated fat with unsaturated fats."
+    }
+  ],
+  "image": {
+    "concept": "Olive oil, almonds, walnuts, chia, salmon, olives, and avocado in realistic portions, clean editorial food photography without text.",
+    "alt": "Foods rich in unsaturated fats besides avocado"
+  },
+  "status": "publish"
 }

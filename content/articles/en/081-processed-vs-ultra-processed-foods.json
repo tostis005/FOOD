@@ -15,20 +15,40 @@
   },
   "excerpt": "Every ultra-processed food is processed, but not every processed food is ultra-processed. Freezing vegetables, pasteurizing milk, canning beans or fermenting yogurt all process food without automatically making it ultra-processed. In NOVA, ultra-processed foods are industrial formulations that go well beyond preserving or preparing the original food.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["myths-faq", "nutrition-composition"],
+    "article_types": [
+      "myths-faq",
+      "nutrition-composition"
+    ],
     "primary_article_type": "myths-faq"
   },
   "content_html": "<p>A bag of frozen spinach and a soda are both industrial products, but nutritionally they tell very different stories. Calling both “processed” is accurate in a broad sense; treating processing as if it always means the same thing is not.</p><p>The useful question is <strong>what was done to the food and why</strong>.</p><h2>Processing simply means changing food in some way</h2><p>Washing, cutting, grinding, pasteurizing, fermenting, freezing, cooking and canning are all forms of processing. Some happen at home and some happen in factories.</p><p>Frozen vegetables, pasteurized milk, olive oil, plain yogurt, cheese, bread and canned beans are all processed to some degree. The word alone does not tell you their nutritional quality.</p><h2>What “ultra-processed” adds</h2><p>The NOVA system uses “ultra-processed” for industrial formulations made largely from substances extracted or derived from foods, refined ingredients and often additives that modify flavor, texture, color or shelf life.</p><p>Common examples include many soft drinks, candy, flavored extruded snacks, some sugary breakfast cereals, packaged desserts and certain reconstituted meat products.</p><h2>The distinction is easier to see with examples</h2><table><thead><tr><th>Product</th><th>Processing</th><th>Typical NOVA category</th></tr></thead><tbody><tr><td>Plain frozen vegetables</td><td>Washing, cutting, blanching/freezing</td><td>Minimally processed</td></tr><tr><td>Pasteurized milk</td><td>Heat treatment</td><td>Minimally processed</td></tr><tr><td>Canned beans with water and salt</td><td>Cooking and canning</td><td>Processed</td></tr><tr><td>Plain yogurt</td><td>Fermentation</td><td>Minimally processed/processed depending on formulation</td></tr><tr><td>Simple bread</td><td>Mixing, fermentation and baking</td><td>Processed</td></tr><tr><td>Regular soda</td><td>Industrial formulation</td><td>Ultra-processed</td></tr><tr><td>Flavored corn snack</td><td>Extrusion + formulation + flavors</td><td>Ultra-processed</td></tr></tbody></table><p><strong>The number of processing steps is not enough.</strong> A food can be cooked, frozen and packaged and still remain essentially the original food.</p><h2>An ingredient list gives clues, but there is no five-ingredient rule</h2><p>A long ingredient list can suggest a complex formulation, but counting ingredients is unreliable. A homemade curry can contain 15 ingredients and not be ultra-processed, while a shorter formula can contain highly refined substances.</p><p>Refined starches or oils, syrups, protein isolates, flavors, emulsifiers and other ingredients used to reconstruct taste and texture can be clues within the NOVA framework.</p><h2>“Ultra-processed” is not a required Nutrition Facts field</h2><p>U.S. labels show calories and nutrients such as fat, sodium, carbohydrate, added sugars and protein. They do not have a mandatory box declaring whether a product is ultra-processed.</p><p>NOVA is a classification used in research and public-health discussions, not a standard legal label printed on every package.</p><h2>Why the distinction matters</h2><p>Many ultra-processed products combine high energy density, added sugars, refined starches, fats and sodium in forms that are easy to eat quickly, although not every product has the same profile. That can make the category useful when studying dietary patterns.</p><p>Using it well also means not turning “processed” into a synonym for “bad.” <strong>Freezing vegetables, pasteurizing milk and canning beans can improve safety, convenience or shelf life without erasing nutritional value.</strong></p>",
   "faq": [
-    {"question": "Is every processed food ultra-processed?", "answer": "No. All ultra-processed foods are processed, but frozen vegetables, pasteurized milk and canned beans are processed without necessarily being ultra-processed."},
-    {"question": "How can I tell if a food is ultra-processed?", "answer": "NOVA focuses on industrial formulations made from derived food substances and additives, not simply the number of processing steps or ingredients."},
-    {"question": "Does the Nutrition Facts label say ultra-processed?", "answer": "No. Ultra-processed is a classification category, not a required U.S. label field."}
+    {
+      "question": "Is every processed food ultra-processed?",
+      "answer": "No. All ultra-processed foods are processed, but frozen vegetables, pasteurized milk and canned beans are processed without necessarily being ultra-processed."
+    },
+    {
+      "question": "How can I tell if a food is ultra-processed?",
+      "answer": "NOVA focuses on industrial formulations made from derived food substances and additives, not simply the number of processing steps or ingredients."
+    },
+    {
+      "question": "Does the Nutrition Facts label say ultra-processed?",
+      "answer": "No. Ultra-processed is a classification category, not a required U.S. label field."
+    }
   ],
   "sources": [
-    {"name": "FAO — Ultra-processed foods, diet quality and health using the NOVA classification system", "url": "https://www.fao.org/3/ca5644en/ca5644en.pdf", "note": "Definitions and groups in the NOVA system."},
-    {"name": "FDA — How to Understand and Use the Nutrition Facts Label", "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label", "note": "U.S. Nutrition Facts label context."}
+    {
+      "name": "FAO — Ultra-processed foods, diet quality and health using the NOVA classification system",
+      "url": "https://www.fao.org/3/ca5644en/ca5644en.pdf",
+      "note": "Definitions and groups in the NOVA system."
+    },
+    {
+      "name": "FDA — How to Understand and Use the Nutrition Facts Label",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+      "note": "U.S. Nutrition Facts label context."
+    }
   ],
   "image": {
     "concept": "Visual comparison of frozen vegetables, plain yogurt and canned beans versus soda, candy and flavored extruded snacks, editorial photography, no text.",

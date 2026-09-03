@@ -15,20 +15,40 @@
   },
   "excerpt": "No existe un alimento que sea siempre el más saciante. Los que mejor suelen funcionar combinan proteína, fibra, agua y volumen con una densidad energética moderada: legumbres, patata cocida, huevos, pescado, yogur rico en proteína, avena, fruta entera y verduras son buenos ejemplos. La preparación puede cambiar mucho el resultado.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["nutrition-composition", "health-daily-consumption"],
+    "article_types": [
+      "nutrition-composition",
+      "health-daily-consumption"
+    ],
     "primary_article_type": "nutrition-composition"
   },
   "content_html": "<p>Una comida puede tener 400 kcal y dejar hambre pronto, mientras otra con una energía parecida ocupa más espacio y mantiene la sensación de plenitud durante más tiempo. La diferencia no se explica por una sola propiedad.</p><p><strong>Proteína, fibra, agua, volumen, textura y densidad energética</strong> influyen en la saciedad. Por eso tiene más sentido hablar de patrones que coronar un único alimento.</p><h2>Alimentos que reúnen varias ventajas de saciedad</h2><table><thead><tr><th>Alimento</th><th>Qué aporta</th><th>Ejemplo de ración</th></tr></thead><tbody><tr><td>Legumbres cocidas</td><td>Proteína + fibra + agua</td><td>200 g: ~16–18 g proteína y ~15 g fibra</td></tr><tr><td>Patata cocida</td><td>Mucho agua y volumen, baja densidad energética</td><td>250 g: ~190 kcal</td></tr><tr><td>Huevos</td><td>Proteína y grasa</td><td>2 huevos: ~12–13 g proteína</td></tr><tr><td>Pescado o carne magra</td><td>Alta proporción de proteína</td><td>150 g: ~30–45 g proteína</td></tr><tr><td>Yogur griego/skyr natural</td><td>Proteína + agua</td><td>170–200 g: ~17–22 g proteína según producto</td></tr><tr><td>Avena cocida</td><td>Fibra soluble + agua</td><td>40 g seca preparada con líquido</td></tr><tr><td>Fruta entera</td><td>Agua + fibra + masticación</td><td>1 manzana mediana: ~4 g fibra</td></tr><tr><td>Verduras</td><td>Mucho volumen por pocas calorías</td><td>300 g pueden aportar menos de 150 kcal según tipo</td></tr></tbody></table><p>Estos ejemplos muestran por qué distintos alimentos pueden resultar saciantes por mecanismos diferentes; no existe un ganador único entre una legumbre y un huevo.</p><h2>La proteína suele ser una de las señales más potentes</h2><p>La proteína tiende a producir más saciedad por caloría que los carbohidratos o la grasa cuando se comparan dietas en condiciones controladas. Por eso una comida con 30 g de proteína suele comportarse de forma diferente a otra de la misma energía con muy poca proteína.</p><p>Eso explica el papel de pescado, huevos, carnes magras, lácteos ricos en proteína, tofu o legumbres.</p><h2>La fibra y el agua hacen que la comida ocupe más</h2><p>Doscientas calorías de verduras, fruta o patata cocida ocupan mucho más volumen que 200 kcal de aceite, frutos secos o chocolate. El estómago responde en parte a ese volumen físico.</p><p>La fibra añade otra capa: retrasa el vaciado gástrico en algunos contextos, aumenta la masticación y, en el caso de fibras viscosas como los beta-glucanos de la avena, modifica la textura del contenido digestivo.</p><h2>La preparación puede cambiar la saciedad</h2><p>Una patata cocida contiene alrededor de 75–80 kcal por 100 g; unas patatas fritas pueden superar 300 kcal por 100 g porque pierden agua y absorben grasa. El alimento base sigue siendo patata, pero la densidad energética se multiplica.</p><p>Algo parecido ocurre al pasar de fruta entera a zumo: se reduce la masticación, se pierde parte de la fibra y es mucho más fácil beber la energía de varias piezas en pocos minutos.</p><h2>Los alimentos muy calóricos también pueden saciar</h2><p>Frutos secos, semillas, aguacate o aceite no son “poco saciantes” por contener grasa. Los frutos secos, por ejemplo, aportan proteína, fibra y textura. Pero concentran alrededor de 550–700 kcal por 100 g, de modo que una porción pequeña ya aporta bastante energía.</p><p>La saciedad y las calorías son preguntas relacionadas, no idénticas.</p><h2>Cómo construir una comida que llene más</h2><p>Una fórmula útil es combinar <strong>una fuente clara de proteína + un alimento rico en fibra + bastante volumen de verduras o fruta + la grasa necesaria para sabor y estructura</strong>. Por ejemplo: lentejas con verduras y huevo; yogur natural alto en proteína con avena y fruta; o pescado con patata y ensalada.</p><h2>La idea que importa</h2><p>No necesitas encontrar el alimento que más sacia del mundo. Necesitas que la mayor parte de tus comidas tenga suficientes señales de saciedad. <strong>Proteína, fibra, agua y volumen son una combinación mucho más fiable que perseguir un único producto “saciante”.</strong></p>",
   "faq": [
-    {"question": "¿Qué alimentos suelen saciar más?", "answer": "Suelen funcionar bien los que combinan proteína, fibra, agua y volumen: legumbres, patata cocida, huevos, pescado, yogur rico en proteína, avena, fruta entera y verduras."},
-    {"question": "¿La proteína ayuda a sentirse lleno?", "answer": "Sí. En general, una mayor proporción de proteína aumenta la saciedad frente a comidas de energía similar con poca proteína."},
-    {"question": "¿La grasa sacia?", "answer": "Puede contribuir, pero es muy energética. La saciedad depende del alimento completo, la porción y la combinación con proteína, fibra y volumen."}
+    {
+      "question": "¿Qué alimentos suelen saciar más?",
+      "answer": "Suelen funcionar bien los que combinan proteína, fibra, agua y volumen: legumbres, patata cocida, huevos, pescado, yogur rico en proteína, avena, fruta entera y verduras."
+    },
+    {
+      "question": "¿La proteína ayuda a sentirse lleno?",
+      "answer": "Sí. En general, una mayor proporción de proteína aumenta la saciedad frente a comidas de energía similar con poca proteína."
+    },
+    {
+      "question": "¿La grasa sacia?",
+      "answer": "Puede contribuir, pero es muy energética. La saciedad depende del alimento completo, la porción y la combinación con proteína, fibra y volumen."
+    }
   ],
   "sources": [
-    {"name": "EFSA — Dietary Reference Values", "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values", "note": "Contexto nutricional de proteína y fibra."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Valores de energía, proteína y fibra de los alimentos comparados."}
+    {
+      "name": "EFSA — Dietary Reference Values",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
+      "note": "Contexto nutricional de proteína y fibra."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Valores de energía, proteína y fibra de los alimentos comparados."
+    }
   ],
   "image": {
     "concept": "Plato equilibrado con lentejas, patata cocida, huevo, verduras y un bol de yogur con avena y fruta al lado, fotografía editorial, sin texto.",

@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"en-526-superfoods-with-interesting-nutrition-profiles","article_number":526,"translation_group":"526-nutritionally-interesting-superfoods","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"‘Superfoods’ with genuinely interesting nutrition profiles","slug":"superfoods-interesting-nutrition-profiles","seo":{"title":"Superfoods with genuinely useful nutrition profiles","meta_description":"Oats, lentils, sardines, pumpkin seeds, cocoa and berries stand out for measurable nutrients—not for a superfood label. See the numbers in real servings.","search_intent":"Find foods with genuinely nutrient-dense profiles and understand why they stand out"},"excerpt":"The most useful ‘superfoods’ are foods whose strengths can be named and measured: oats for beta-glucan, lentils for protein and fiber, sardines with bones for protein and calcium, pumpkin seeds for magnesium, unsweetened cocoa for fiber and minerals, and berries for vitamin C and phytochemicals.","taxonomy":{"food_family":"general","food_subcategories":[],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>Remove the word ‘super’ and require a measurable reason for every food on the list. The result becomes much more useful. <strong>A strong nutrition profile should be explainable with nutrients and portions, not reputation.</strong></p><h2>Oats: soluble fiber with a meaningful dose</h2><p>Dry oats commonly contain roughly 3–5% beta-glucan by weight. At 4%, a 50 g serving would provide about 2 g. That is a concrete reason oats deserve attention: beta-glucan is a soluble, viscosity-forming fiber with well-established cholesterol-related evidence.</p><h2>Lentils: protein and fiber in a meal-size portion</h2><p>Cooked lentils provide about <strong>9 g protein and 7.9 g fiber per 100 g</strong>. A 200 g bowl therefore lands near 18 g protein and 16 g fiber. Their practical strength is not just concentration; people actually eat them in substantial portions.</p><h2>Sardines with bones: protein plus calcium</h2><p>Canned sardines eaten with their softened bones provide roughly <strong>25 g protein and around 380 mg calcium per 100 g</strong>, alongside vitamin B12 and long-chain omega-3 fats. Few foods combine those features in such a compact serving.</p><h2>Pumpkin seeds: minerals in a small handful</h2><p>Dried pumpkin seed kernels contain around <strong>30 g protein and close to 590 mg magnesium per 100 g</strong>. A 30 g handful works out to roughly 9 g protein and 175 mg magnesium. The trade-off is energy density: seeds concentrate calories as well as minerals.</p><h2>Unsweetened cocoa: impressive per 100 g, smaller in the spoon</h2><p>USDA reference data for unsweetened cocoa powder show about <strong>37 g fiber, 19.6 g protein and 499 mg magnesium per 100 g</strong>. A tablespoon around 5.4 g contributes roughly 2 g fiber and 27 mg magnesium. The serving calculation matters because few people eat 100 g of cocoa powder.</p><h2>Strawberries: low energy, high vitamin C</h2><p>Raw strawberries provide around <strong>32 calories and 58.8 mg vitamin C per 100 g</strong>. A 150 g bowl gives about 88 mg vitamin C for under 50 calories.</p><h2>The common thread</h2><p>These foods do not belong to one biological category. They excel for different reasons: fiber, protein, calcium, magnesium, vitamin C or fatty-acid profile. <strong>That is what a genuinely interesting nutrition profile looks like—something you can explain without relying on a marketing label.</strong></p>","faq":[{"question":"What is the best superfood?","answer":"There is no single best food. The answer changes depending on whether you need protein, fiber, calcium, omega-3, vitamin C or another nutrient."},{"question":"Can ordinary foods count as superfoods?","answer":"In the informal sense, yes. Oats, lentils and sardines can be exceptionally nutrient-dense without carrying a premium label."},{"question":"Why not compare everything per 100 g?","answer":"Because portions vary enormously. A 100 g cocoa or seed serving is not comparable in practice with 100–200 g of fruit or cooked lentils."},{"question":"Does nutrient-dense mean low-calorie?","answer":"No. Seeds and nuts are dense in both nutrients and energy, while berries can be rich in micronutrients with relatively few calories."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Reference composition data for lentils, sardines, pumpkin seeds, cocoa and strawberries."},{"name":"FDA — Health Claims: Soluble Fiber From Certain Foods and Risk of Coronary Heart Disease","url":"https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-E/section-101.81","note":"U.S. regulatory context for soluble fiber including eligible oat beta-glucan foods."}],"image":{"concept":"Oats, lentils, sardines, pumpkin seeds, cocoa and strawberries with one measurable nutrient highlighted for each.","alt":"Nutrient-dense foods shown with the nutrients that make each one stand out"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-526-superfoods-with-interesting-nutrition-profiles",
+  "article_number": 526,
+  "translation_group": "526-nutritionally-interesting-superfoods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "‘Superfoods’ with genuinely interesting nutrition profiles",
+  "slug": "superfoods-interesting-nutrition-profiles",
+  "seo": {
+    "title": "Superfoods with genuinely useful nutrition profiles",
+    "meta_description": "Oats, lentils, sardines, pumpkin seeds, cocoa and berries stand out for measurable nutrients—not for a superfood label. See the numbers in real servings.",
+    "search_intent": "Find foods with genuinely nutrient-dense profiles and understand why they stand out"
+  },
+  "excerpt": "The most useful ‘superfoods’ are foods whose strengths can be named and measured: oats for beta-glucan, lentils for protein and fiber, sardines with bones for protein and calcium, pumpkin seeds for magnesium, unsweetened cocoa for fiber and minerals, and berries for vitamin C and phytochemicals.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": [
+      "nutrition-composition"
+    ],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Remove the word ‘super’ and require a measurable reason for every food on the list. The result becomes much more useful. <strong>A strong nutrition profile should be explainable with nutrients and portions, not reputation.</strong></p><h2>Oats: soluble fiber with a meaningful dose</h2><p>Dry oats commonly contain roughly 3–5% beta-glucan by weight. At 4%, a 50 g serving would provide about 2 g. That is a concrete reason oats deserve attention: beta-glucan is a soluble, viscosity-forming fiber with well-established cholesterol-related evidence.</p><h2>Lentils: protein and fiber in a meal-size portion</h2><p>Cooked lentils provide about <strong>9 g protein and 7.9 g fiber per 100 g</strong>. A 200 g bowl therefore lands near 18 g protein and 16 g fiber. Their practical strength is not just concentration; people actually eat them in substantial portions.</p><h2>Sardines with bones: protein plus calcium</h2><p>Canned sardines eaten with their softened bones provide roughly <strong>25 g protein and around 380 mg calcium per 100 g</strong>, alongside vitamin B12 and long-chain omega-3 fats. Few foods combine those features in such a compact serving.</p><h2>Pumpkin seeds: minerals in a small handful</h2><p>Dried pumpkin seed kernels contain around <strong>30 g protein and close to 590 mg magnesium per 100 g</strong>. A 30 g handful works out to roughly 9 g protein and 175 mg magnesium. The trade-off is energy density: seeds concentrate calories as well as minerals.</p><h2>Unsweetened cocoa: impressive per 100 g, smaller in the spoon</h2><p>USDA reference data for unsweetened cocoa powder show about <strong>37 g fiber, 19.6 g protein and 499 mg magnesium per 100 g</strong>. A tablespoon around 5.4 g contributes roughly 2 g fiber and 27 mg magnesium. The serving calculation matters because few people eat 100 g of cocoa powder.</p><h2>Strawberries: low energy, high vitamin C</h2><p>Raw strawberries provide around <strong>32 calories and 58.8 mg vitamin C per 100 g</strong>. A 150 g bowl gives about 88 mg vitamin C for under 50 calories.</p><h2>The common thread</h2><p>These foods do not belong to one biological category. They excel for different reasons: fiber, protein, calcium, magnesium, vitamin C or fatty-acid profile. <strong>That is what a genuinely interesting nutrition profile looks like—something you can explain without relying on a marketing label.</strong></p>",
+  "faq": [
+    {
+      "question": "What is the best superfood?",
+      "answer": "There is no single best food. The answer changes depending on whether you need protein, fiber, calcium, omega-3, vitamin C or another nutrient."
+    },
+    {
+      "question": "Can ordinary foods count as superfoods?",
+      "answer": "In the informal sense, yes. Oats, lentils and sardines can be exceptionally nutrient-dense without carrying a premium label."
+    },
+    {
+      "question": "Why not compare everything per 100 g?",
+      "answer": "Because portions vary enormously. A 100 g cocoa or seed serving is not comparable in practice with 100–200 g of fruit or cooked lentils."
+    },
+    {
+      "question": "Does nutrient-dense mean low-calorie?",
+      "answer": "No. Seeds and nuts are dense in both nutrients and energy, while berries can be rich in micronutrients with relatively few calories."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Reference composition data for lentils, sardines, pumpkin seeds, cocoa and strawberries."
+    },
+    {
+      "name": "FDA — Health Claims: Soluble Fiber From Certain Foods and Risk of Coronary Heart Disease",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-E/section-101.81",
+      "note": "U.S. regulatory context for soluble fiber including eligible oat beta-glucan foods."
+    }
+  ],
+  "image": {
+    "concept": "Oats, lentils, sardines, pumpkin seeds, cocoa and strawberries with one measurable nutrient highlighted for each.",
+    "alt": "Nutrient-dense foods shown with the nutrients that make each one stand out"
+  },
+  "status": "publish"
+}

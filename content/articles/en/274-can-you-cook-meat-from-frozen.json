@@ -1,1 +1,67 @@
-{"schema_version":1,"id":"en-274-cook-meat-from-frozen","article_number":274,"translation_group":"274-cook-meat-from-frozen","language":"en","locale":"en-US","market_context":"United States/general English; cooking beef, pork and other meat cuts from frozen","title":"Can you cook meat directly from frozen?","slug":"can-you-cook-meat-from-frozen","seo":{"title":"Can you cook meat directly from frozen?","meta_description":"Yes. USDA says meat can be cooked from frozen in the oven, on the stove or grill; it may take about 50% longer and internal temperature must be verified.","search_intent":"Learn when frozen meat can be cooked without thawing and how to adjust time and temperature."},"excerpt":"USDA says it is safe to cook meat directly from frozen in the oven, on the stove or grill. Cooking may take about 50% longer than thawed meat. Whole red-meat cuts still need 145 °F plus a 3-minute rest, while ground red meat needs 160 °F.","taxonomy":{"food_family":"meat","food_subcategories":["meat","frozen","cooking"],"article_types":["cooking-techniques","food-safety"],"primary_article_type":"cooking-techniques"},"content_html":"<p>Forgetting to thaw a steak does not always require a new dinner plan. <strong>USDA says frozen meat can be cooked safely in an oven, on the stove or on a grill when the proper internal temperature is reached.</strong></p><h2>Plan on about 50% more time</h2><p>USDA's general estimate is roughly <strong>1.5 times</strong> the cooking time of thawed or fresh meat. A roast that normally takes 60 minutes might approach 90, although size and method can change the result substantially.</p><h2>Temperature depends on the product</h2><table><thead><tr><th>Product</th><th>USDA minimum</th></tr></thead><tbody><tr><td>Beef, pork, lamb or veal steaks, chops and roasts</td><td>145 °F + 3-minute rest</td></tr><tr><td>Ground beef, pork, lamb or veal</td><td>160 °F</td></tr><tr><td>Poultry</td><td>165 °F</td></tr></tbody></table><p>The outside can brown while the center is still thawing, so a thermometer is particularly valuable.</p><h2>Which shapes work best?</h2><p>Individually frozen steaks and patties are easier to control than a solid block of several pieces. Separate stuck pieces as soon as they loosen enough.</p><h2>Do not start raw frozen meat in a slow cooker</h2><p>USDA advises against it because the meat can take too long to move through the bacterial danger zone.</p><h2>Bottom line</h2><p><strong>Yes, meat can be cooked from frozen with relatively fast heat-transfer methods.</strong> Add about 50% more time as a starting estimate and verify internal temperature.</p>","faq":[{"question":"How much longer does frozen meat take?","answer":"USDA estimates about 50% longer than thawed meat, though thickness and cooking method matter."},{"question":"Can I cook a roast from frozen?","answer":"Yes when the method cooks it evenly and the correct internal temperature is verified."},{"question":"Can frozen meat go into a slow cooker?","answer":"USDA advises against starting raw frozen meat in a slow cooker."}],"sources":[{"name":"USDA FSIS — The Big Thaw","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods","note":"Cooking from frozen is safe and may require about 50% more time."},{"name":"USDA FSIS — Beef From Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/beef-farm-table","note":"Frozen beef can be cooked in oven, stove or grill; slow cooker is not recommended."},{"name":"USDA FSIS — Keep Food Safe!","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe","note":"Minimum internal temperatures for whole and ground meats."}],"image":{"concept":"Frozen steak beginning to cook in a skillet beside a food thermometer, clean editorial food photography without text.","alt":"Meat cooking directly from frozen"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-274-cook-meat-from-frozen",
+  "article_number": 274,
+  "translation_group": "274-cook-meat-from-frozen",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; cooking beef, pork and other meat cuts from frozen",
+  "title": "Can you cook meat directly from frozen?",
+  "slug": "can-you-cook-meat-from-frozen",
+  "seo": {
+    "title": "Can you cook meat directly from frozen?",
+    "meta_description": "Yes. USDA says meat can be cooked from frozen in the oven, on the stove or grill; it may take about 50% longer and internal temperature must be verified.",
+    "search_intent": "Learn when frozen meat can be cooked without thawing and how to adjust time and temperature."
+  },
+  "excerpt": "USDA says it is safe to cook meat directly from frozen in the oven, on the stove or grill. Cooking may take about 50% longer than thawed meat. Whole red-meat cuts still need 145 °F plus a 3-minute rest, while ground red meat needs 160 °F.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "meat",
+      "frozen",
+      "cooking"
+    ],
+    "article_types": [
+      "cooking-techniques",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p>Forgetting to thaw a steak does not always require a new dinner plan. <strong>USDA says frozen meat can be cooked safely in an oven, on the stove or on a grill when the proper internal temperature is reached.</strong></p><h2>Plan on about 50% more time</h2><p>USDA's general estimate is roughly <strong>1.5 times</strong> the cooking time of thawed or fresh meat. A roast that normally takes 60 minutes might approach 90, although size and method can change the result substantially.</p><h2>Temperature depends on the product</h2><table><thead><tr><th>Product</th><th>USDA minimum</th></tr></thead><tbody><tr><td>Beef, pork, lamb or veal steaks, chops and roasts</td><td>145 °F + 3-minute rest</td></tr><tr><td>Ground beef, pork, lamb or veal</td><td>160 °F</td></tr><tr><td>Poultry</td><td>165 °F</td></tr></tbody></table><p>The outside can brown while the center is still thawing, so a thermometer is particularly valuable.</p><h2>Which shapes work best?</h2><p>Individually frozen steaks and patties are easier to control than a solid block of several pieces. Separate stuck pieces as soon as they loosen enough.</p><h2>Do not start raw frozen meat in a slow cooker</h2><p>USDA advises against it because the meat can take too long to move through the bacterial danger zone.</p><h2>Thickness matters more than the simple fact that the meat is frozen</h2><p>A thin burger patty can move through the temperature range fairly quickly; a thick roast takes much longer and its exterior is exposed to heat for more time. The roughly 50% extra-time estimate is therefore a starting point, not a formula that replaces a thermometer.</p><p>Some cooking goals are also easier after thawing. Marinating, stuffing, or getting fast and even browning works better without an icy center. Cooking from frozen can be safe under the right conditions without being the best technique for every dish.</p><h2>Bottom line</h2><p><strong>Yes, meat can be cooked from frozen with relatively fast heat-transfer methods.</strong> Add about 50% more time as a starting estimate and verify internal temperature.</p>",
+  "faq": [
+    {
+      "question": "How much longer does frozen meat take?",
+      "answer": "USDA estimates about 50% longer than thawed meat, though thickness and cooking method matter."
+    },
+    {
+      "question": "Can I cook a roast from frozen?",
+      "answer": "Yes when the method cooks it evenly and the correct internal temperature is verified."
+    },
+    {
+      "question": "Can frozen meat go into a slow cooker?",
+      "answer": "USDA advises against starting raw frozen meat in a slow cooker."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — The Big Thaw",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods",
+      "note": "Cooking from frozen is safe and may require about 50% more time."
+    },
+    {
+      "name": "USDA FSIS — Beef From Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/beef-farm-table",
+      "note": "Frozen beef can be cooked in oven, stove or grill; slow cooker is not recommended."
+    },
+    {
+      "name": "USDA FSIS — Keep Food Safe!",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+      "note": "Minimum internal temperatures for whole and ground meats."
+    }
+  ],
+  "image": {
+    "concept": "Frozen steak beginning to cook in a skillet beside a food thermometer, clean editorial food photography without text.",
+    "alt": "Meat cooking directly from frozen"
+  },
+  "status": "publish"
+}

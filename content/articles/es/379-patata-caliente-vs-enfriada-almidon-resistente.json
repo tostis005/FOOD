@@ -1,1 +1,64 @@
-{"schema_version":1,"id":"es-379-patata-enfriada-almidon-resistente","article_number":379,"translation_group":"379-hot-vs-cooled-potato-resistant-starch","language":"es","locale":"es-ES","market_context":"España/Unión Europea; patata cocinada, enfriada y recalentada","title":"Patata caliente vs. patata enfriada: qué ocurre con el almidón resistente","slug":"patata-caliente-vs-enfriada-almidon-resistente","seo":{"title":"Patata caliente vs. patata enfriada: qué ocurre con el almidón resistente","meta_description":"Al enfriar una patata cocida, parte del almidón gelatinizado retrograda y se vuelve más resistente a la digestión. Estudios encuentran más almidón resistente en patata fría que caliente; recalentar puede reducir parte del efecto.","search_intent":"Explicar cómo cambia el almidón de la patata al enfriarla, qué es el almidón resistente y qué ocurre si se recalienta."},"excerpt":"Cuando una patata cocida se enfría, parte de su almidón gelatinizado se reorganiza en estructuras menos accesibles a las enzimas digestivas: almidón resistente tipo 3. En estudios con patatas, las muestras refrigeradas contienen más almidón resistente que las servidas calientes. El recalentado puede revertir parte de esa estructura, por lo que no siempre conserva todo el aumento.","taxonomy":{"food_family":"tubers","food_subcategories":["potato","resistant-starch","cooling","starch"],"article_types":["cooking-science","nutrition-concepts","comparisons"],"primary_article_type":"cooking-science"},"content_html":"<p>Una patata cocida hoy y comida fría mañana tiene prácticamente los mismos ingredientes, pero <strong>su almidón ya no está organizado exactamente igual</strong>. Durante el enfriamiento, parte del almidón que se hizo digerible con la cocción vuelve a ordenarse y se vuelve más resistente a las enzimas digestivas.</p><h2>Primero la cocción gelatiniza el almidón</h2><p>En la patata cruda, los gránulos de almidón tienen una estructura compacta. Con agua y calor se hinchan, pierden parte de su organización y gelatinizan. Así quedan mucho más accesibles a las enzimas que los digieren.</p><h2>Al enfriar aparece más almidón resistente tipo 3</h2><p>Cuando la patata cocida baja de temperatura, moléculas de almidón —especialmente amilosa— pueden asociarse de nuevo en estructuras más ordenadas. Este proceso se llama <strong>retrogradación</strong> y genera almidón resistente tipo 3.</p><p>Un estudio con tres variedades y dos métodos de cocción comparó patatas servidas calientes a <strong>65 °C</strong>, refrigeradas a <strong>4 °C</strong> y refrigeradas y después recalentadas. Las frías presentaron más almidón resistente que las calientes o recalentadas.</p><h2>Recalentar no siempre conserva todo el efecto</h2><p>En la patata, parte de las estructuras formadas durante el frío puede volver a desorganizarse con el calor. En ese estudio, el orden fue <strong>fría &gt; recalentada &gt; caliente</strong> en contenido de almidón resistente.</p><p>Eso no significa que cualquier recalentado elimine exactamente la misma cantidad: tiempo, temperatura, variedad y método de cocción cambian el resultado.</p><h2>¿Cambia mucho la respuesta de glucosa?</h2><p>Puede cambiar, pero no conviene prometer una reducción fija. Un ensayo pequeño con 30 mujeres con glucosa e insulina basales elevadas observó respuestas tempranas de glucosa e insulina menores con patata cocida y enfriada que con patata hervida caliente, aunque el área total de glucosa no fue diferente.</p><p>La comida completa, la ración y la persona importan tanto como la temperatura de servicio.</p><h2>Enfriar no significa dejarla horas fuera</h2><p>Si vas a guardar patata cocida para el día siguiente, enfríala y refrigérala de forma segura en lugar de dejarla durante horas a temperatura ambiente. El cambio de almidón ocurre durante el almacenamiento en frío; no necesita una larga espera sobre la encimera.</p><h2>La idea útil</h2><p><strong>Cocinar hace el almidón más accesible; enfriar reorganiza una parte y aumenta la fracción resistente.</strong> Es un cambio real, pero no convierte la patata fría en un alimento sin carbohidratos ni borra las calorías de la ración.</p>","faq":[{"question":"¿La patata fría tiene menos carbohidratos?","answer":"No desaparecen los carbohidratos. Parte del almidón cambia a una forma más resistente a la digestión, pero la cantidad total de carbohidratos de la patata sigue siendo similar."},{"question":"¿Recalentar elimina el almidón resistente?","answer":"Puede reducir parte del almidón resistente formado al enfriar. En estudios con patata, la cantidad después de recalentar fue menor que en la patata fría, aunque mayor que en la servida caliente inicialmente."},{"question":"¿Cuánto tiempo hay que enfriarla?","answer":"Los estudios utilizan condiciones diversas, desde horas hasta varios días de refrigeración. No existe un número doméstico único; lo importante es enfriarla y conservarla de forma segura."}],"sources":[{"name":"USDA ARS / Food Chemistry — Resistant starch analysis of commonly consumed potatoes","url":"https://pubmed.ncbi.nlm.nih.gov/27132853/","note":"Compara patatas calientes, refrigeradas y recalentadas y encuentra más almidón resistente en las refrigeradas."},{"name":"Nutrients — Chilled Potatoes Decrease Postprandial Glucose, Insulin and GIP","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6769955/","note":"Ensayo cruzado sobre respuesta posprandial a patata refrigerada frente a hervida caliente."}],"image":{"concept":"Dos platos con la misma patata cocida, uno caliente con vapor y otro refrigerado en ensalada, fotografía editorial natural sin texto.","alt":"Patata cocida caliente y patata cocida enfriada"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-379-patata-enfriada-almidon-resistente",
+  "article_number": 379,
+  "translation_group": "379-hot-vs-cooled-potato-resistant-starch",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; patata cocinada, enfriada y recalentada",
+  "title": "Patata caliente vs. patata enfriada: qué ocurre con el almidón resistente",
+  "slug": "patata-caliente-vs-enfriada-almidon-resistente",
+  "seo": {
+    "title": "Patata caliente vs. fría: almidón resistente",
+    "meta_description": "Al enfriar una patata cocida, parte del almidón gelatinizado retrograda y se vuelve más resistente a la digestión. Estudios encuentran más almidón resistente en patata fría que caliente; recalentar puede reducir parte del efecto.",
+    "search_intent": "Explicar cómo cambia el almidón de la patata al enfriarla, qué es el almidón resistente y qué ocurre si se recalienta."
+  },
+  "excerpt": "Cuando una patata cocida se enfría, parte de su almidón gelatinizado se reorganiza en estructuras menos accesibles a las enzimas digestivas: almidón resistente tipo 3. En estudios con patatas, las muestras refrigeradas contienen más almidón resistente que las servidas calientes. El recalentado puede revertir parte de esa estructura, por lo que no siempre conserva todo el aumento.",
+  "taxonomy": {
+    "food_family": "tubers",
+    "food_subcategories": [
+      "potato",
+      "resistant-starch",
+      "cooling",
+      "starch"
+    ],
+    "article_types": [
+      "cooking-science",
+      "nutrition-concepts",
+      "comparisons"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>Una patata cocida hoy y comida fría mañana tiene prácticamente los mismos ingredientes, pero <strong>su almidón ya no está organizado exactamente igual</strong>. Durante el enfriamiento, parte del almidón que se hizo digerible con la cocción vuelve a ordenarse y se vuelve más resistente a las enzimas digestivas.</p><h2>Primero la cocción gelatiniza el almidón</h2><p>En la patata cruda, los gránulos de almidón tienen una estructura compacta. Con agua y calor se hinchan, pierden parte de su organización y gelatinizan. Así quedan mucho más accesibles a las enzimas que los digieren.</p><h2>Al enfriar aparece más almidón resistente tipo 3</h2><p>Cuando la patata cocida baja de temperatura, moléculas de almidón —especialmente amilosa— pueden asociarse de nuevo en estructuras más ordenadas. Este proceso se llama <strong>retrogradación</strong> y genera almidón resistente tipo 3.</p><p>Un estudio con tres variedades y dos métodos de cocción comparó patatas servidas calientes a <strong>65 °C</strong>, refrigeradas a <strong>4 °C</strong> y refrigeradas y después recalentadas. Las frías presentaron más almidón resistente que las calientes o recalentadas.</p><h2>Recalentar no siempre conserva todo el efecto</h2><p>En la patata, parte de las estructuras formadas durante el frío puede volver a desorganizarse con el calor. En ese estudio, el orden fue <strong>fría &gt; recalentada &gt; caliente</strong> en contenido de almidón resistente.</p><p>Eso no significa que cualquier recalentado elimine exactamente la misma cantidad: tiempo, temperatura, variedad y método de cocción cambian el resultado.</p><h2>¿Cambia mucho la respuesta de glucosa?</h2><p>Puede cambiar, pero no conviene prometer una reducción fija. Un ensayo pequeño con 30 mujeres con glucosa e insulina basales elevadas observó respuestas tempranas de glucosa e insulina menores con patata cocida y enfriada que con patata hervida caliente, aunque el área total de glucosa no fue diferente.</p><p>La comida completa, la ración y la persona importan tanto como la temperatura de servicio.</p><h2>Enfriar no significa dejarla horas fuera</h2><p>Si vas a guardar patata cocida para el día siguiente, enfríala y refrigérala de forma segura en lugar de dejarla durante horas a temperatura ambiente. El cambio de almidón ocurre durante el almacenamiento en frío; no necesita una larga espera sobre la encimera.</p><h2>La idea útil</h2><p><strong>Cocinar hace el almidón más accesible; enfriar reorganiza una parte y aumenta la fracción resistente.</strong> Es un cambio real, pero no convierte la patata fría en un alimento sin carbohidratos ni borra las calorías de la ración.</p>",
+  "faq": [
+    {
+      "question": "¿La patata fría tiene menos carbohidratos?",
+      "answer": "No desaparecen los carbohidratos. Parte del almidón cambia a una forma más resistente a la digestión, pero la cantidad total de carbohidratos de la patata sigue siendo similar."
+    },
+    {
+      "question": "¿Recalentar elimina el almidón resistente?",
+      "answer": "Puede reducir parte del almidón resistente formado al enfriar. En estudios con patata, la cantidad después de recalentar fue menor que en la patata fría, aunque mayor que en la servida caliente inicialmente."
+    },
+    {
+      "question": "¿Cuánto tiempo hay que enfriarla?",
+      "answer": "Los estudios utilizan condiciones diversas, desde horas hasta varios días de refrigeración. No existe un número doméstico único; lo importante es enfriarla y conservarla de forma segura."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA ARS / Food Chemistry — Resistant starch analysis of commonly consumed potatoes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27132853/",
+      "note": "Compara patatas calientes, refrigeradas y recalentadas y encuentra más almidón resistente en las refrigeradas."
+    },
+    {
+      "name": "Nutrients — Chilled Potatoes Decrease Postprandial Glucose, Insulin and GIP",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC6769955/",
+      "note": "Ensayo cruzado sobre respuesta posprandial a patata refrigerada frente a hervida caliente."
+    }
+  ],
+  "image": {
+    "concept": "Dos platos con la misma patata cocida, uno caliente con vapor y otro refrigerado en ensalada, fotografía editorial natural sin texto.",
+    "alt": "Patata cocida caliente y patata cocida enfriada"
+  },
+  "status": "publish"
+}

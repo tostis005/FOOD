@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"es-289-pescados-con-mas-mercurio","article_number":289,"translation_group":"289-high-mercury-fish","language":"es","locale":"es-ES","market_context":"España/Unión Europea","title":"Qué pescados tienen más mercurio","slug":"pescados-con-mas-mercurio","seo":{"title":"Pescados con más mercurio y cuáles limitar","meta_description":"Los grandes depredadores longevos acumulan más metilmercurio. En España, AESAN identifica como especies de alto contenido al pez espada/emperador, atún rojo, tiburón y lucio, con restricciones especiales para embarazo, lactancia y menores.","search_intent":"Identificar especies de alto contenido en mercurio y saber qué recomendaciones se aplican en España."},"excerpt":"En España, las cuatro especies que AESAN destaca por su alto contenido en mercurio son pez espada/emperador, atún rojo, tiburón y lucio. El riesgo aumenta por bioacumulación: los grandes depredadores viven más tiempo y comen muchos organismos que ya contienen mercurio.","taxonomy":{"food_family":"fish-seafood","food_subcategories":["mercury","high-mercury-fish"],"article_types":["rankings","food-safety"],"primary_article_type":"food-safety"},"content_html":"<p>El mercurio no se reparte por igual entre todos los pescados. <strong>Los grandes depredadores que viven muchos años tienden a concentrar metilmercurio a medida que comen otros peces</strong>. Por eso las recomendaciones de seguridad se centran en especies concretas, no en eliminar todo el pescado.</p><h2>Las cuatro especies que AESAN destaca en España</h2><p>AESAN considera de alto contenido en mercurio al <strong>pez espada o emperador, atún rojo (<em>Thunnus thynnus</em>), tiburón —incluidos cazón, marrajo, mielgas, pintarroja y tintorera— y lucio</strong>.</p><p>Para mujeres embarazadas, que estén planificando embarazo o en lactancia, y niños de 0 a 10 años, la recomendación es <strong>evitar esas especies</strong>. Para niños de 10 a 14 años, AESAN limita su consumo a <strong>120 g al mes</strong>. La población general puede consumir pescado dentro de una dieta variada, procurando alternar especies.</p><h2>Qué muestran las concentraciones medidas</h2><p>Los datos históricos de vigilancia de FDA ayudan a visualizar la magnitud. En ellos, el pez espada ronda aproximadamente <strong>1 ppm</strong> de mercurio medio y el tiburón cerca de <strong>0,98 ppm</strong>. En el extremo opuesto, la sardina figura con <strong>0,013 ppm</strong> y la gamba con <strong>0,009 ppm</strong>. Un pez espada medio puede situarse así alrededor de 75 veces por encima de la sardina en concentración, aunque cada ejemplar individual puede variar.</p><h2>Por qué tamaño y longevidad importan</h2><p>El metilmercurio pasa de unas presas a otras y se acumula en los tejidos. Un depredador grande no solo vive durante más años: también consume numerosos peces que ya han incorporado mercurio. Esa combinación de bioacumulación y biomagnificación explica el patrón.</p><h2>El atún no es una sola categoría</h2><p>Conviene fijarse en la especie. Las recomendaciones de AESAN sobre alto mercurio se refieren al <strong>atún rojo</strong>, mientras que distintos productos de atún pueden presentar concentraciones diferentes. En la tabla de FDA, el atún claro en conserva promedia <strong>0,126 ppm</strong>, frente a aproximadamente <strong>0,35 ppm</strong> del atún blanco/albacora en conserva. La etiqueta y la especie importan más que la palabra «atún» por sí sola.</p><h2>La idea práctica</h2><p>El pescado sigue aportando nutrientes valiosos y AESAN recomienda consumirlo con variedad. Para reducir mercurio, rota especies y, si perteneces a un grupo vulnerable, sigue las restricciones específicas para los cuatro grandes depredadores señalados por la autoridad española.</p>","faq":[{"question":"¿Qué pescados tienen alto mercurio según AESAN?","answer":"Pez espada/emperador, atún rojo, tiburón y lucio."},{"question":"¿Puede comer pez espada una embarazada?","answer":"AESAN recomienda que mujeres embarazadas, que planean embarazo o en lactancia eviten las especies de alto contenido en mercurio."},{"question":"¿Todo el atún tiene el mismo mercurio?","answer":"No. La concentración cambia con la especie y el producto; por ejemplo, FDA registra medias distintas para atún claro y albacora en conserva."}],"sources":[{"name":"AESAN — Recomendaciones de consumo de pescado por presencia de mercurio","url":"https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/RECOMENDACIONES_consumo_pescado_MERCURIO_AESAN_WEB.PDF","note":"Identifica especies de alto mercurio y recomendaciones específicas por edad y embarazo."},{"name":"FDA — Mercury Levels in Commercial Fish and Shellfish (1990–2012)","url":"https://www.fda.gov/food/environmental-contaminants-food/mercury-levels-commercial-fish-and-shellfish-1990-2012","note":"Datos comparativos de concentración media de mercurio por especie."}],"image":{"concept":"Pez espada, atún grande y otros pescados depredadores en mostrador de pescadería, fotografía documental limpia, sin texto.","alt":"Pescados grandes depredadores asociados a mayor mercurio"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-289-pescados-con-mas-mercurio",
+  "article_number": 289,
+  "translation_group": "289-high-mercury-fish",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea",
+  "title": "Qué pescados tienen más mercurio",
+  "slug": "pescados-con-mas-mercurio",
+  "seo": {
+    "title": "Pescados con más mercurio y cuáles limitar",
+    "meta_description": "Los grandes depredadores longevos acumulan más metilmercurio. En España, AESAN identifica como especies de alto contenido al pez espada/emperador, atún rojo, tiburón y lucio, con restricciones especiales para embarazo, lactancia y menores.",
+    "search_intent": "Identificar especies de alto contenido en mercurio y saber qué recomendaciones se aplican en España."
+  },
+  "excerpt": "En España, las cuatro especies que AESAN destaca por su alto contenido en mercurio son pez espada/emperador, atún rojo, tiburón y lucio. El riesgo aumenta por bioacumulación: los grandes depredadores viven más tiempo y comen muchos organismos que ya contienen mercurio.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": [
+      "mercury",
+      "high-mercury-fish"
+    ],
+    "article_types": [
+      "rankings",
+      "food-safety"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>El mercurio no se reparte por igual entre todos los pescados. <strong>Los grandes depredadores que viven muchos años tienden a concentrar metilmercurio a medida que comen otros peces</strong>. Por eso las recomendaciones de seguridad se centran en especies concretas, no en eliminar todo el pescado.</p><h2>Las cuatro especies que AESAN destaca en España</h2><p>AESAN considera de alto contenido en mercurio al <strong>pez espada o emperador, atún rojo (<em>Thunnus thynnus</em>), tiburón —incluidos cazón, marrajo, mielgas, pintarroja y tintorera— y lucio</strong>.</p><p>Para mujeres embarazadas, que estén planificando embarazo o en lactancia, y niños de 0 a 10 años, la recomendación es <strong>evitar esas especies</strong>. Para niños de 10 a 14 años, AESAN limita su consumo a <strong>120 g al mes</strong>. La población general puede consumir pescado dentro de una dieta variada, procurando alternar especies.</p><h2>Qué muestran las concentraciones medidas</h2><p>Los datos históricos de vigilancia de FDA ayudan a visualizar la magnitud:</p><table><thead><tr><th>Pescado</th><th>Mercurio medio aprox. (ppm)</th></tr></thead><tbody><tr><td>Pez espada</td><td>~1,00</td></tr><tr><td>Tiburón</td><td>~0,98</td></tr><tr><td>Atún blanco/albacora en conserva</td><td>~0,35</td></tr><tr><td>Atún claro en conserva</td><td>~0,126</td></tr><tr><td>Sardina</td><td>~0,013</td></tr><tr><td>Gamba</td><td>~0,009</td></tr></tbody></table><p>El pez espada medio de esta referencia se sitúa alrededor de 75 veces por encima de la sardina en concentración, aunque cada ejemplar puede variar. La tabla sirve para entender el patrón; para decidir qué consumir en España, las recomendaciones de AESAN del apartado anterior son la referencia práctica.</p><h2>Por qué tamaño y longevidad importan</h2><p>El metilmercurio pasa de unas presas a otras y se acumula en los tejidos. Un depredador grande no solo vive durante más años: también consume numerosos peces que ya han incorporado mercurio. Esa combinación de bioacumulación y biomagnificación explica el patrón.</p><h2>El atún no es una sola categoría</h2><p>Conviene fijarse en la especie. Las recomendaciones de AESAN sobre alto mercurio se refieren al <strong>atún rojo</strong>, mientras que distintos productos de atún pueden presentar concentraciones diferentes. En la tabla de FDA, el atún claro en conserva promedia <strong>0,126 ppm</strong>, frente a aproximadamente <strong>0,35 ppm</strong> del atún blanco/albacora en conserva. La etiqueta y la especie importan más que la palabra «atún» por sí sola.</p><h2>La idea práctica</h2><p>El pescado sigue aportando nutrientes valiosos y AESAN recomienda consumirlo con variedad. Para reducir mercurio, rota especies y, si perteneces a un grupo vulnerable, sigue las restricciones específicas para los cuatro grandes depredadores señalados por la autoridad española.</p>",
+  "faq": [
+    {
+      "question": "¿Qué pescados tienen alto mercurio según AESAN?",
+      "answer": "Pez espada/emperador, atún rojo, tiburón y lucio."
+    },
+    {
+      "question": "¿Puede comer pez espada una embarazada?",
+      "answer": "AESAN recomienda que mujeres embarazadas, que planean embarazo o en lactancia eviten las especies de alto contenido en mercurio."
+    },
+    {
+      "question": "¿Todo el atún tiene el mismo mercurio?",
+      "answer": "No. La concentración cambia con la especie y el producto; por ejemplo, FDA registra medias distintas para atún claro y albacora en conserva."
+    }
+  ],
+  "sources": [
+    {
+      "name": "AESAN — Recomendaciones de consumo de pescado por presencia de mercurio",
+      "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/RECOMENDACIONES_consumo_pescado_MERCURIO_AESAN_WEB.PDF",
+      "note": "Identifica especies de alto mercurio y recomendaciones específicas por edad y embarazo."
+    },
+    {
+      "name": "FDA — Mercury Levels in Commercial Fish and Shellfish (1990–2012)",
+      "url": "https://www.fda.gov/food/environmental-contaminants-food/mercury-levels-commercial-fish-and-shellfish-1990-2012",
+      "note": "Datos comparativos de concentración media de mercurio por especie."
+    }
+  ],
+  "image": {
+    "concept": "Pez espada, atún grande y otros pescados depredadores en mostrador de pescadería, fotografía documental limpia, sin texto.",
+    "alt": "Pescados grandes depredadores asociados a mayor mercurio"
+  },
+  "status": "publish"
+}

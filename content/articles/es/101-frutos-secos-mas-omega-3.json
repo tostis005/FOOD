@@ -16,19 +16,41 @@
   "excerpt": "Las nueces son, con mucha diferencia, el fruto seco habitual con más omega-3: una ración de unos 28–30 g aporta alrededor de 2,6–2,7 g de ácido alfa-linolénico (ALA). Pecanas, pistachos, almendras, avellanas y anacardos aportan bastante menos. Ese ALA es un omega-3 vegetal y no equivale directamente al EPA y DHA del pescado.",
   "taxonomy": {
     "food_family": "nuts-seeds",
-    "food_subcategories": ["nuts"],
-    "article_types": ["nutrition-composition", "ranking"],
+    "food_subcategories": [
+      "nuts"
+    ],
+    "article_types": [
+      "nutrition-composition",
+      "rankings"
+    ],
     "primary_article_type": "nutrition-composition"
   },
   "content_html": "<p>Si buscas omega-3 dentro de los frutos secos, la comparación se resuelve bastante rápido: <strong>las nueces están en otra liga</strong>. No ganan por una diferencia pequeña, sino por varios órdenes de magnitud frente a almendras, avellanas o anacardos.</p><p>La comparación debe hacerse, además, con una precisión importante: el omega-3 de los frutos secos es sobre todo <strong>ácido alfa-linolénico (ALA)</strong>, mientras que el pescado azul aporta principalmente EPA y DHA. Los tres pertenecen a la familia omega-3, pero no cumplen exactamente el mismo papel metabólico.</p><h2>Ranking de omega-3 ALA por ración</h2><p>La siguiente tabla usa una ración de 28 g aproximadamente —una onza— para que la comparación se parezca más a una cantidad que realmente se come. Las cifras pueden variar algo según variedad y análisis.</p><table><thead><tr><th>Fruto seco</th><th>ALA aprox. por 28 g</th></tr></thead><tbody><tr><td>Nueces</td><td>2,57 g</td></tr><tr><td>Pecanas</td><td>0,28 g</td></tr><tr><td>Pistachos</td><td>0,08 g</td></tr><tr><td>Almendras</td><td>0,00–0,01 g</td></tr><tr><td>Avellanas</td><td>0,02 g</td></tr><tr><td>Anacardos</td><td>0,02 g</td></tr></tbody></table><p>La diferencia importante no está entre el segundo y el tercero, sino entre las nueces y todo lo demás. Una ración de nueces aporta alrededor de <strong>nueve veces más ALA que una de pecanas</strong> y decenas de veces más que pistachos, almendras o avellanas.</p><h2>Por qué las nueces destacan tanto</h2><p>Las nueces tienen un perfil de grasa distinto al de muchos otros frutos secos. En almendras, avellanas o macadamias predominan más las grasas monoinsaturadas; en las nueces hay una proporción elevada de poliinsaturadas, entre ellas ALA.</p><p>Eso no significa que los demás frutos secos sean nutricionalmente peores. Almendras, pistachos o avellanas pueden aportar más vitamina E, proteína u otros micronutrientes. Simplemente, si el criterio concreto es <strong>omega-3 vegetal</strong>, las nueces son la opción claramente más concentrada.</p><h2>ALA no es lo mismo que EPA y DHA</h2><p>El organismo puede convertir parte del ALA en EPA y posteriormente en DHA, pero esa conversión es limitada. Por eso no tiene sentido decir que 2,6 g de ALA en nueces equivalen a 2,6 g de EPA+DHA en pescado.</p><p>El NIH señala que el ALA es un ácido graso esencial —hay que obtenerlo de la dieta— y que la conversión a EPA y DHA es reducida. En una dieta sin pescado, nueces, lino, chía y determinados aceites pueden ser fuentes importantes de ALA, pero la comparación con omega-3 marino debe hacerse con esa diferencia en mente.</p><h2>Una ración de nueces ya aporta una cantidad relevante</h2><p>La ingesta adecuada de ALA establecida en Estados Unidos es de 1,6 g/día para hombres adultos y 1,1 g/día para mujeres adultas. Aunque esas referencias no son objetivos universales para todos los mercados, sirven para poner el dato en escala: <strong>28 g de nueces aportan unos 2,57 g de ALA</strong>.</p><p>No hace falta comer 100 g de nueces para obtener una cantidad apreciable. Una ración normal ya concentra bastante, lo que también evita olvidar que 100 g superarían ampliamente las 600 kcal.</p><h2>¿Y los cacahuetes?</h2><p>Botánicamente son una legumbre, aunque se consumen como fruto seco. Su contenido de ALA es muy bajo comparado con las nueces, por lo que no cambia la conclusión práctica del ranking.</p><h2>La regla útil</h2><p>Si quieres <strong>omega-3 vegetal dentro del grupo de los frutos secos</strong>, las nueces son la elección clara. Los demás pueden ser excelentes alimentos, pero no son sustitutos equivalentes por contenido de ALA.</p><p>Y si lo que buscas específicamente es EPA y DHA, entonces la comparación deja de ser entre frutos secos: ahí entran pescado azul, marisco y determinados alimentos o suplementos enriquecidos.</p>",
   "faq": [
-    {"question": "¿Qué fruto seco tiene más omega-3?", "answer": "Las nueces. Una ración de unos 28 g aporta alrededor de 2,57 g de ALA, muy por encima de pecanas, pistachos, almendras o avellanas."},
-    {"question": "¿El omega-3 de las nueces es igual al del salmón?", "answer": "No. Las nueces aportan sobre todo ALA; el salmón aporta EPA y DHA. El cuerpo puede convertir una parte del ALA, pero la conversión es limitada."},
-    {"question": "¿Cuántas nueces hacen falta para obtener omega-3?", "answer": "Una ración habitual de unos 28–30 g ya aporta alrededor de 2,6–2,7 g de ALA."}
+    {
+      "question": "¿Qué fruto seco tiene más omega-3?",
+      "answer": "Las nueces. Una ración de unos 28 g aporta alrededor de 2,57 g de ALA, muy por encima de pecanas, pistachos, almendras o avellanas."
+    },
+    {
+      "question": "¿El omega-3 de las nueces es igual al del salmón?",
+      "answer": "No. Las nueces aportan sobre todo ALA; el salmón aporta EPA y DHA. El cuerpo puede convertir una parte del ALA, pero la conversión es limitada."
+    },
+    {
+      "question": "¿Cuántas nueces hacen falta para obtener omega-3?",
+      "answer": "Una ración habitual de unos 28–30 g ya aporta alrededor de 2,6–2,7 g de ALA."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de ácidos grasos de frutos secos."},
-    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "ALA, EPA, DHA, conversión metabólica e ingestas adecuadas."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de ácidos grasos de frutos secos."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "note": "ALA, EPA, DHA, conversión metabólica e ingestas adecuadas."
+    }
   ],
   "image": {
     "concept": "Nueces abiertas en primer plano junto a pequeñas porciones de almendras, pistachos, pecanas y avellanas, fotografía editorial limpia sin texto.",

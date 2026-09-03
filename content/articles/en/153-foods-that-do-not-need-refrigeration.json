@@ -8,12 +8,43 @@
   "market_context": "United States/general English; USDA shelf-stable food guidance",
   "title": "Which foods do not need refrigeration?",
   "slug": "foods-that-do-not-need-refrigeration",
-  "seo": {"title":"Foods that do not need refrigeration","meta_description":"Dry rice and pasta, unopened canned foods, flour, oil, bread and many whole fruits and vegetables can stay at room temperature. Opening or cutting changes the rule.","search_intent":"Know which foods can be stored safely outside the refrigerator and when refrigeration becomes necessary."},
+  "seo": {
+    "title": "Foods that do not need refrigeration",
+    "meta_description": "Dry rice and pasta, unopened canned foods, flour, oil, bread and many whole fruits and vegetables can stay at room temperature. Opening or cutting changes the rule.",
+    "search_intent": "Know which foods can be stored safely outside the refrigerator and when refrigeration becomes necessary."
+  },
   "excerpt": "Dry or commercially shelf-stable foods — dry rice and pasta, flour, unopened cans, oil, bread and many unopened packaged products — do not need refrigeration when the label says room-temperature storage is appropriate. Many whole fruits and vegetables also do not. Opening, cutting, cooking or rehydrating can turn a shelf-stable food into a perishable one.",
-  "taxonomy": {"food_family":"general","food_subcategories":["storage"],"article_types":["storage","practical-guide"],"primary_article_type":"storage"},
-  "content_html": "<p>The refrigerator is not automatically the safest or best place for every food. Low moisture, commercial sterilization and sealed packaging allow many products to remain stable at room temperature.</p><table><thead><tr><th>Usually shelf-stable</th><th>Condition</th></tr></thead><tbody><tr><td>Dry rice, pasta, oats</td><td>Cool, dry storage</td></tr><tr><td>Flour, sugar, salt</td><td>Dry closed container</td></tr><tr><td>Canned food</td><td>Unopened, undamaged can</td></tr><tr><td>Cooking oils</td><td>Cool and protected from light/heat</td></tr><tr><td>Bread</td><td>Short-term room-temperature storage</td></tr><tr><td>Many whole fruits/vegetables</td><td>Depends on produce and ripeness</td></tr></tbody></table><h2>Opening changes the storage category</h2><p>An unopened can of tomatoes is shelf-stable; the leftovers are not. Shelf-stable milk can sit in the pantry unopened but must be refrigerated after opening. Always follow the package directions.</p><h2>Whole and cut produce are different</h2><p>A whole melon may sit at room temperature, while cut melon exposes moist tissue and should be refrigerated promptly.</p><h2>Cold may preserve quality even when not required for immediate safety</h2><p>Nuts, seeds and some oils can retain flavor longer in the refrigerator, especially in a hot kitchen, because cold slows oxidation.</p><h2>The rule</h2><p>Ask whether the product is dry and sealed or whether it has been opened, cut, cooked or hydrated. Then follow any specific manufacturer storage instructions.</p>",
-  "faq": [{"question":"Do unopened canned foods need refrigeration?","answer":"No, provided the can is intact and the product is labeled for shelf-stable storage. Refrigerate leftovers after opening."},{"question":"Does dry rice need refrigeration?","answer":"No. Store it cool and dry; cooked rice is perishable and needs prompt refrigeration."}],
-  "sources": [{"name":"USDA FSIS — Shelf-Stable Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food","note":"Examples and principles of shelf-stable foods."}],
-  "image": {"concept":"Pantry shelf with dry rice, pasta, flour, canned goods, oil, bread and whole produce, no text.","alt":"Shelf-stable foods that do not need refrigeration"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "storage"
+    ],
+    "article_types": [
+      "storage"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>The refrigerator is not automatically the safest or best place for every food. Low moisture, commercial sterilization and sealed packaging allow many products to remain stable at room temperature.</p><table><thead><tr><th>Usually shelf-stable</th><th>Condition</th></tr></thead><tbody><tr><td>Dry rice, pasta, oats</td><td>Cool, dry storage</td></tr><tr><td>Flour, sugar, salt</td><td>Dry closed container</td></tr><tr><td>Canned food</td><td>Unopened, undamaged can</td></tr><tr><td>Cooking oils</td><td>Cool and protected from light/heat</td></tr><tr><td>Bread</td><td>Short-term room-temperature storage</td></tr><tr><td>Many whole fruits/vegetables</td><td>Depends on produce and ripeness</td></tr></tbody></table><p>The turning point is often water and opening. Dry rice and cooked rice have the same name but very different microbiological conditions; an unopened can and the same food after opening do too. <strong>The state of the food matters as much as the food itself.</strong></p><h2>Opening changes the storage category</h2><p>An unopened can of tomatoes is shelf-stable; the leftovers are not. Shelf-stable milk can sit in the pantry unopened but must be refrigerated after opening. Always follow the package directions.</p><h2>Whole and cut produce are different</h2><p>A whole melon may sit at room temperature, while cut melon exposes moist tissue and should be refrigerated promptly.</p><h2>Cold may preserve quality even when not required for immediate safety</h2><p>Nuts, seeds and some oils can retain flavor longer in the refrigerator, especially in a hot kitchen, because cold slows oxidation.</p><p>It also helps to separate safety from quality. Storing whole tomatoes, bread, or oil too cold can change texture or flavor even when refrigeration was never required for safety. The best location protects safety first, then quality.</p><h2>The rule</h2><p>Ask whether the product is dry and sealed or whether it has been opened, cut, cooked or hydrated. Then follow any specific manufacturer storage instructions.</p>",
+  "faq": [
+    {
+      "question": "Do unopened canned foods need refrigeration?",
+      "answer": "No, provided the can is intact and the product is labeled for shelf-stable storage. Refrigerate leftovers after opening."
+    },
+    {
+      "question": "Does dry rice need refrigeration?",
+      "answer": "No. Store it cool and dry; cooked rice is perishable and needs prompt refrigeration."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Shelf-Stable Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food",
+      "note": "Examples and principles of shelf-stable foods."
+    }
+  ],
+  "image": {
+    "concept": "Pantry shelf with dry rice, pasta, flour, canned goods, oil, bread and whole produce, no text.",
+    "alt": "Shelf-stable foods that do not need refrigeration"
+  },
+  "status": "publish"
 }

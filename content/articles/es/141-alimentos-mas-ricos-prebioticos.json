@@ -8,12 +8,55 @@
   "market_context": "España/Unión Europea; fructanos/inulina en alimentos y criterios ISAPP",
   "title": "Los alimentos más ricos en prebióticos",
   "slug": "alimentos-mas-ricos-prebioticos",
-  "seo": {"title":"Los alimentos más ricos en prebióticos","meta_description":"Ajo, tupinambo, raíz de achicoria, alcachofa, cebolla y puerro destacan por inulina y fructanos. Las legumbres aportan GOS. Compara cifras aproximadas.","search_intent":"Identificar alimentos especialmente concentrados en compuestos prebióticos naturales."},
+  "seo": {
+    "title": "Los alimentos más ricos en prebióticos",
+    "meta_description": "Ajo, tupinambo, raíz de achicoria, alcachofa, cebolla y puerro destacan por inulina y fructanos. Las legumbres aportan GOS. Compara cifras aproximadas.",
+    "search_intent": "Identificar alimentos especialmente concentrados en compuestos prebióticos naturales."
+  },
   "excerpt": "Los alimentos más concentrados en inulina y fructanos incluyen raíz de achicoria, tupinambo y ajo. Estudios de composición sitúan el tupinambo y la achicoria alrededor de 15–20 g de inulina/100 g y el ajo aproximadamente entre 9 y 16 g/100 g, aunque los valores varían mucho. Cebolla, puerro, alcachofa y legumbres aportan cantidades menores pero son más habituales en una dieta normal.",
-  "taxonomy": {"food_family":"general","food_subcategories":["gut-health","vegetables"],"article_types":["ranking","nutrition-composition"],"primary_article_type":"ranking"},
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "gut-health",
+      "vegetables"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
   "content_html": "<p>No existe un ranking único de “prebióticos totales” porque el término incluye distintos sustratos y los datos de composición son mucho menos completos que los de proteína o fibra. Sí se puede comparar un grupo bien estudiado: <strong>inulina y fructanos</strong>.</p><table><thead><tr><th>Alimento fresco</th><th>Inulina/fructanos aproximados</th></tr></thead><tbody><tr><td>Tupinambo</td><td>~17–20 g/100 g</td></tr><tr><td>Raíz de achicoria</td><td>~15–20 g/100 g</td></tr><tr><td>Ajo</td><td>~9–16 g/100 g</td></tr><tr><td>Puerro</td><td>~3–10 g/100 g</td></tr><tr><td>Alcachofa</td><td>~2–7 g/100 g</td></tr><tr><td>Cebolla</td><td>~1–5 g/100 g</td></tr></tbody></table><p>Los rangos son amplios porque variedad, madurez, método analítico y almacenamiento cambian la cifra. Un estudio italiano, por ejemplo, encontró 25,1 g/100 g de fructanos tipo inulina en ajo y 16,7 g/100 g en tupinambo, mientras otros trabajos dan rangos algo distintos.</p><h2>Concentración no significa mayor aporte diario</h2><p>Comer 100 g de ajo sería una cantidad poco realista. Una cebolla o una ración de legumbres puede aportar menos por 100 g pero contribuir más a la ingesta habitual simplemente porque se consume en mayor cantidad.</p><h2>Las legumbres cuentan por otra vía</h2><p>Alubias, garbanzos y lentejas aportan galactooligosacáridos (GOS). En análisis de alimentos se han encontrado cantidades desde trazas hasta alrededor de 2 g/100 g según legumbre y procesamiento.</p><h2>Más concentración también puede significar más síntomas</h2><p>Fructanos y GOS son muy fermentables. Grandes cantidades pueden aumentar gases o distensión, especialmente en personas sensibles a FODMAP. No hace falta comer el alimento más concentrado para obtener variedad de sustratos.</p><h2>La conclusión</h2><p>Achicoria, tupinambo y ajo son campeones de concentración; cebolla, puerro, alcachofa y legumbres son probablemente más relevantes en la alimentación cotidiana. Una mezcla de fuentes suele tener más sentido que perseguir un único alimento.</p>",
-  "faq": [{"question":"¿Qué alimento tiene más inulina?","answer":"Raíz de achicoria y tupinambo suelen situarse entre los más concentrados, alrededor de 15–20 g/100 g en distintos análisis."},{"question":"¿Las legumbres son prebióticas?","answer":"Aportan GOS y otros sustratos fermentables. Determinados compuestos de las legumbres cumplen o se estudian bajo criterios prebióticos, pero no toda su fibra debe llamarse prebiótica."}],
-  "sources": [{"name":"ISAPP — Prebiotic criteria","url":"https://isappscience.org/isapp-elaborates-criteria-for-prebiotics/","note":"Qué requisitos debe cumplir un prebiótico."},{"name":"Review — Inulin sources","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12564896/","note":"Rangos de inulina en alimentos frescos."},{"name":"Journal of Food Composition and Analysis","url":"https://www.sciencedirect.com/science/article/pii/S0889157522002964","note":"Fructanos y GOS medidos en alimentos italianos."}],
-  "image": {"concept":"Raíz de achicoria, tupinambo, ajo, puerro, cebolla y legumbres ordenados por concentración, fotografía editorial sin texto.","alt":"Alimentos especialmente ricos en compuestos prebióticos"},
-  "status":"publish"
+  "faq": [
+    {
+      "question": "¿Qué alimento tiene más inulina?",
+      "answer": "Raíz de achicoria y tupinambo suelen situarse entre los más concentrados, alrededor de 15–20 g/100 g en distintos análisis."
+    },
+    {
+      "question": "¿Las legumbres son prebióticas?",
+      "answer": "Aportan GOS y otros sustratos fermentables. Determinados compuestos de las legumbres cumplen o se estudian bajo criterios prebióticos, pero no toda su fibra debe llamarse prebiótica."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ISAPP — Prebiotic criteria",
+      "url": "https://isappscience.org/isapp-elaborates-criteria-for-prebiotics/",
+      "note": "Qué requisitos debe cumplir un prebiótico."
+    },
+    {
+      "name": "Review — Inulin sources",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12564896/",
+      "note": "Rangos de inulina en alimentos frescos."
+    },
+    {
+      "name": "Journal of Food Composition and Analysis",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0889157522002964",
+      "note": "Fructanos y GOS medidos en alimentos italianos."
+    }
+  ],
+  "image": {
+    "concept": "Raíz de achicoria, tupinambo, ajo, puerro, cebolla y legumbres ordenados por concentración, fotografía editorial sin texto.",
+    "alt": "Alimentos especialmente ricos en compuestos prebióticos"
+  },
+  "status": "publish"
 }

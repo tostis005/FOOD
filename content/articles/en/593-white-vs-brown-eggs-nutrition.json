@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"en-593-white-vs-brown-eggs-nutrition","article_number":593,"translation_group":"593-white-vs-brown-eggs","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"White vs. brown eggs: are there nutrition differences?","slug":"white-vs-brown-eggs-nutrition","seo":{"title":"White vs. brown eggs: nutrition differences explained","meta_description":"Brown eggs are not inherently more nutritious than white eggs. USDA says shell color is determined by hen breed and does not significantly change nutrient levels.","search_intent":"Find out whether brown eggs are more nutritious than white eggs"},"excerpt":"USDA states that shell color does not significantly affect egg nutrients: breed determines whether a hen lays white, brown or other-colored eggs. Diet, egg size and deliberate nutrient enrichment can alter composition, but those factors are separate from shell color.","taxonomy":{"food_family":"eggs","food_subcategories":[],"article_types":["comparisons","myths-faq","nutrition-composition"],"primary_article_type":"myths-faq"},"content_html":"<p>Brown eggs often cost more and can look more “farm-like,” but <strong>shell color is not a nutrition grade.</strong></p><h2>What USDA says</h2><p>USDA's Food Safety and Inspection Service states that the breed of the hen determines shell color and that nutrient levels are <strong>not significantly different</strong> between white- and brown-shell eggs.</p><h2>Why can brown eggs cost more?</h2><p>Breed economics are one reason. USDA notes that brown-egg-laying hens have historically tended to be larger or less feed-efficient, which can increase production costs. Retail price also reflects housing claims, brand, organic certification and local demand.</p><h2>What actually can change egg nutrition?</h2><p><strong>Hen diet</strong> can alter certain nutrients. Omega-3-enriched eggs, for example, come from feeding strategies designed to change fatty-acid content. Either a white or brown egg can be nutritionally enriched.</p><p>Egg size matters too. A 60 g egg naturally contains more calories and protein than a 50 g egg simply because there is more egg.</p><h2>Does a darker yolk mean a better egg?</h2><p>Yolk color responds strongly to pigments in the hen's diet. A deeper orange yolk does not automatically mean more protein, better safety or greater freshness.</p><p><strong>Choose shell color for preference if you like; use the label and production claims for information that actually changes what you are buying.</strong></p>","faq":[{"question":"Are brown eggs more nutritious?","answer":"No. USDA says nutrient levels are not significantly different because of shell color."},{"question":"What determines shell color?","answer":"Primarily the hen's breed and genetics."},{"question":"Why are brown eggs sometimes more expensive?","answer":"Production costs, breed, housing system, certification, brand and demand can all affect price."},{"question":"Can egg nutrition be changed?","answer":"Yes. Hen diet can change nutrients such as omega-3, independently of whether the shell is white or brown."}],"sources":[{"name":"USDA FSIS — Shell Eggs from Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table","note":"States that breed determines shell color and nutrient levels do not significantly differ."},{"name":"USDA AMS — Shell Egg Grading Q&A","url":"https://www.ams.usda.gov/publications/qa-shell-eggs","note":"Explains that shell color does not affect quality and discusses production-cost differences."}],"image":{"concept":"A white egg and brown egg cracked side by side with an equals sign over their nutrition panels.","alt":"White and brown eggs showing no inherent nutrition advantage from shell color"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-593-white-vs-brown-eggs-nutrition",
+  "article_number": 593,
+  "translation_group": "593-white-vs-brown-eggs",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "White vs. brown eggs: are there nutrition differences?",
+  "slug": "white-vs-brown-eggs-nutrition",
+  "seo": {
+    "title": "White vs. brown eggs: nutrition differences explained",
+    "meta_description": "Brown eggs are not inherently more nutritious than white eggs. USDA says shell color is determined by hen breed and does not significantly change nutrient levels.",
+    "search_intent": "Find out whether brown eggs are more nutritious than white eggs"
+  },
+  "excerpt": "USDA states that shell color does not significantly affect egg nutrients: breed determines whether a hen lays white, brown or other-colored eggs. Diet, egg size and deliberate nutrient enrichment can alter composition, but those factors are separate from shell color.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "myths-faq",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "myths-faq"
+  },
+  "content_html": "<p>Brown eggs often cost more and can look more “farm-like,” but <strong>shell color is not a nutrition grade.</strong></p><h2>What USDA says</h2><p>USDA's Food Safety and Inspection Service states that the breed of the hen determines shell color and that nutrient levels are <strong>not significantly different</strong> between white- and brown-shell eggs.</p><h2>Why can brown eggs cost more?</h2><p>Breed economics are one reason. USDA notes that brown-egg-laying hens have historically tended to be larger or less feed-efficient, which can increase production costs. Retail price also reflects housing claims, brand, organic certification and local demand.</p><h2>What actually can change egg nutrition?</h2><p><strong>Hen diet</strong> can alter certain nutrients. Omega-3-enriched eggs, for example, come from feeding strategies designed to change fatty-acid content. Either a white or brown egg can be nutritionally enriched.</p><p>Egg size matters too. A 60 g egg naturally contains more calories and protein than a 50 g egg simply because there is more egg.</p><h2>A fair egg comparison needs equal sizes</h2><p>A 10–15 g size difference between two eggs changes the total protein, fat and micronutrients you eat far more than shell pigment does. A serious comparison therefore uses eggs of the same size or values per 100 g, then looks at feed or nutrient enrichment if it is searching for real compositional differences.</p><p>The practical consequence is simple: paying more for a brown egg only makes sense if the price reflects another feature you value—production system, certification, size or declared nutrient enrichment—not because brown shells are nutritionally superior.</p><h2>Does a darker yolk mean a better egg?</h2><p>Yolk color responds strongly to pigments in the hen's diet. A deeper orange yolk does not automatically mean more protein, better safety or greater freshness.</p><p><strong>Choose shell color for preference if you like; use the label and production claims for information that actually changes what you are buying.</strong></p>",
+  "faq": [
+    {
+      "question": "Are brown eggs more nutritious?",
+      "answer": "No. USDA says nutrient levels are not significantly different because of shell color."
+    },
+    {
+      "question": "What determines shell color?",
+      "answer": "Primarily the hen's breed and genetics."
+    },
+    {
+      "question": "Why are brown eggs sometimes more expensive?",
+      "answer": "Production costs, breed, housing system, certification, brand and demand can all affect price."
+    },
+    {
+      "question": "Can egg nutrition be changed?",
+      "answer": "Yes. Hen diet can change nutrients such as omega-3, independently of whether the shell is white or brown."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Shell Eggs from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "note": "States that breed determines shell color and nutrient levels do not significantly differ."
+    },
+    {
+      "name": "USDA AMS — Shell Egg Grading Q&A",
+      "url": "https://www.ams.usda.gov/publications/qa-shell-eggs",
+      "note": "Explains that shell color does not affect quality and discusses production-cost differences."
+    }
+  ],
+  "image": {
+    "concept": "A white egg and brown egg cracked side by side with an equals sign over their nutrition panels.",
+    "alt": "White and brown eggs showing no inherent nutrition advantage from shell color"
+  },
+  "status": "publish"
+}

@@ -1,1 +1,67 @@
-{"schema_version":1,"id":"en-611-foods-nine-amino-acids","article_number":611,"translation_group":"611-foods-all-nine-essential-amino-acids","language":"en","locale":"en-US","market_context":"United States; common animal and plant protein foods","title":"Foods with all nine essential amino acids","slug":"foods-all-nine-essential-amino-acids","seo":{"title":"Foods with all 9 essential amino acids","meta_description":"Eggs, dairy, meat, fish, soy and other foods provide all nine essential amino acids. Learn what “complete protein” actually means.","search_intent":"Identify foods that provide all nine essential amino acids and understand the meaning and limits of the term complete protein."},"excerpt":"Eggs, dairy, meat and fish provide all nine essential amino acids in favorable proportions, and so do plant foods such as soybeans, tofu, tempeh and quinoa. But “contains all nine” is not a magic dividing line: most food proteins contain many or all of them in different amounts. What matters is whether indispensable-amino-acid amounts, digestibility and total dietary protein meet your needs.","taxonomy":{"food_family":"general","food_subcategories":["protein","amino-acids","complete-protein"],"article_types":["rankings","nutrition-concepts","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>“Complete protein” is often treated like a pass-or-fail test: a food either has all nine essential amino acids or it does not. Nutrition is less binary. <strong>The meaningful question is whether each indispensable amino acid is present in enough usable quantity relative to human requirements.</strong></p>\n<p>The nine are histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine. Healthy adults cannot make enough of them and must obtain them through food.</p>\n<h2>Animal foods generally match the pattern well</h2>\n<p>Eggs, milk, yogurt, cheese, meat, poultry, and fish provide all nine essential amino acids and are generally highly digestible. For scale, one large egg contains about <strong>6 g of protein</strong>, 100 g of cooked chicken breast roughly <strong>31 g</strong>, and 100 g of cooked salmon about <strong>22 g</strong>.</p>\n<p>That does not make every animal food the best overall choice. Two proteins can have excellent amino-acid profiles while differing greatly in sodium, saturated fat, omega-3 fats, calcium, or other nutrients.</p>\n<h2>Soy is the clearest plant example</h2>\n<p>Soybeans, edamame, tofu, and tempeh provide all nine essential amino acids in a favorable pattern. Protein concentration changes with processing and water content: cooked edamame has about <strong>12 g of protein per 100 g</strong>, while firm tofu commonly ranges around <strong>12–18 g/100 g</strong>.</p>\n<p>Tempeh is usually more concentrated because it contains less water, often around <strong>19–20 g of protein per 100 g</strong>. A specific package label is more useful than assuming every soy product has the same number.</p>\n<h2>Quinoa and other pseudocereals count too</h2>\n<p>Quinoa is commonly called a complete protein, and its amino-acid profile supports that description. Quantity still matters: one cooked cup, about 185 g, provides roughly <strong>8 g of protein</strong>. It contains all nine essentials, but it is not as protein-concentrated as 100 g of firm tofu or chicken breast.</p>\n<p>Buckwheat, amaranth, and other pseudocereals also have useful amino-acid profiles. “All nine” never means that a normal serving automatically delivers a large protein dose.</p>\n<h2>What about beans, grains, nuts and seeds?</h2>\n<p>Many plant proteins contain all nine amino acids in some amount, but one may be relatively low compared with the human reference pattern. <strong>Lysine</strong> is often limiting in grains; <strong>methionine plus cysteine</strong> are often relatively limiting in legumes.</p>\n<p>That is the logic behind familiar pairings such as rice and beans, hummus with bread, or corn and beans. Healthy people do not need to combine complementary proteins in the same mouthful or even the same meal; a varied diet across the day can supply the needed pattern.</p>\n<h2>“Complete” does not make total intake irrelevant</h2>\n<p>Someone eating too little energy or too little total protein will not solve that by choosing only foods labeled complete. Conversely, a person meeting protein needs with a varied mix of beans, grains, nuts, seeds, and soy does not need to chase one perfect source.</p>\n<p>Growth, pregnancy, aging, athletic training, and illness can change how much protein or particular amino acids deserve attention, so individual context still matters.</p>\n<h2>A useful list without turning it into a hierarchy</h2>\n<p>For foods with all nine essential amino acids in especially favorable proportions, think <strong>eggs, dairy, fish, meat, poultry, and soy foods</strong>; quinoa and other pseudocereals expand the plant options.</p>\n<p>Do not let the word complete become a total-health rating. <strong>Your diet pools amino acids from many foods</strong>, and variety, quantity, digestibility, and the rest of the nutrient profile matter as much as checking nine boxes.</p>","faq":[{"question":"What are the nine essential amino acids?","answer":"Histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine."},{"question":"Which plant foods provide all nine?","answer":"Soy foods such as tofu, tempeh and edamame are prominent examples. Quinoa, amaranth and buckwheat also provide all nine, though total protein per serving varies."},{"question":"Do rice and beans have to be eaten in the same meal?","answer":"No. For healthy people eating a varied diet, complementary amino acids can be supplied across the day rather than in the same meal."}],"sources":[{"name":"FAO — Dietary protein quality evaluation in human nutrition","url":"https://www.fao.org/4/i3124e/i3124e.pdf","note":"Indispensable amino acids, reference patterns, digestibility, and protein-quality concepts."},{"name":"NCBI Bookshelf — Biochemistry, Essential Amino Acids","url":"https://www.ncbi.nlm.nih.gov/books/NBK557845/","note":"Definition and list of the nine essential amino acids."},{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Approximate protein values for the foods and serving sizes discussed."}],"image":{"concept":"Editorial plate with egg, salmon, tofu, edamame and cooked quinoa in small portions, natural food photography without text.","alt":"Animal and plant foods that provide all nine essential amino acids"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-611-foods-nine-amino-acids",
+  "article_number": 611,
+  "translation_group": "611-foods-all-nine-essential-amino-acids",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; common animal and plant protein foods",
+  "title": "Foods with all nine essential amino acids",
+  "slug": "foods-all-nine-essential-amino-acids",
+  "seo": {
+    "title": "Foods with all 9 essential amino acids",
+    "meta_description": "Eggs, dairy, meat, fish, soy and other foods provide all nine essential amino acids. Learn what “complete protein” actually means.",
+    "search_intent": "Identify foods that provide all nine essential amino acids and understand the meaning and limits of the term complete protein."
+  },
+  "excerpt": "Eggs, dairy, meat and fish provide all nine essential amino acids in favorable proportions, and so do plant foods such as soybeans, tofu, tempeh and quinoa. But “contains all nine” is not a magic dividing line: most food proteins contain many or all of them in different amounts. What matters is whether indispensable-amino-acid amounts, digestibility and total dietary protein meet your needs.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "protein",
+      "amino-acids",
+      "complete-protein"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>“Complete protein” is often treated like a pass-or-fail test: a food either has all nine essential amino acids or it does not. Nutrition is less binary. <strong>The meaningful question is whether each indispensable amino acid is present in enough usable quantity relative to human requirements.</strong></p>\n<p>The nine are histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine. Healthy adults cannot make enough of them and must obtain them through food.</p>\n<h2>Animal foods generally match the pattern well</h2>\n<p>Eggs, milk, yogurt, cheese, meat, poultry, and fish provide all nine essential amino acids and are generally highly digestible. For scale, one large egg contains about <strong>6 g of protein</strong>, 100 g of cooked chicken breast roughly <strong>31 g</strong>, and 100 g of cooked salmon about <strong>22 g</strong>.</p>\n<p>That does not make every animal food the best overall choice. Two proteins can have excellent amino-acid profiles while differing greatly in sodium, saturated fat, omega-3 fats, calcium, or other nutrients.</p>\n<h2>Soy is the clearest plant example</h2>\n<p>Soybeans, edamame, tofu, and tempeh provide all nine essential amino acids in a favorable pattern. Protein concentration changes with processing and water content: cooked edamame has about <strong>12 g of protein per 100 g</strong>, while firm tofu commonly ranges around <strong>12–18 g/100 g</strong>.</p>\n<p>Tempeh is usually more concentrated because it contains less water, often around <strong>19–20 g of protein per 100 g</strong>. A specific package label is more useful than assuming every soy product has the same number.</p>\n<h2>Quinoa and other pseudocereals count too</h2>\n<p>Quinoa is commonly called a complete protein, and its amino-acid profile supports that description. Quantity still matters: one cooked cup, about 185 g, provides roughly <strong>8 g of protein</strong>. It contains all nine essentials, but it is not as protein-concentrated as 100 g of firm tofu or chicken breast.</p>\n<p>Buckwheat, amaranth, and other pseudocereals also have useful amino-acid profiles. “All nine” never means that a normal serving automatically delivers a large protein dose.</p>\n<h2>What about beans, grains, nuts and seeds?</h2>\n<p>Many plant proteins contain all nine amino acids in some amount, but one may be relatively low compared with the human reference pattern. <strong>Lysine</strong> is often limiting in grains; <strong>methionine plus cysteine</strong> are often relatively limiting in legumes.</p>\n<p>That is the logic behind familiar pairings such as rice and beans, hummus with bread, or corn and beans. Healthy people do not need to combine complementary proteins in the same mouthful or even the same meal; a varied diet across the day can supply the needed pattern.</p>\n<h2>“Complete” does not make total intake irrelevant</h2>\n<p>Someone eating too little energy or too little total protein will not solve that by choosing only foods labeled complete. Conversely, a person meeting protein needs with a varied mix of beans, grains, nuts, seeds, and soy does not need to chase one perfect source.</p>\n<p>Growth, pregnancy, aging, athletic training, and illness can change how much protein or particular amino acids deserve attention, so individual context still matters.</p>\n<h2>A useful list without turning it into a hierarchy</h2>\n<p>For foods with all nine essential amino acids in especially favorable proportions, think <strong>eggs, dairy, fish, meat, poultry, and soy foods</strong>; quinoa and other pseudocereals expand the plant options.</p>\n<p>Do not let the word complete become a total-health rating. <strong>Your diet pools amino acids from many foods</strong>, and variety, quantity, digestibility, and the rest of the nutrient profile matter as much as checking nine boxes.</p>",
+  "faq": [
+    {
+      "question": "What are the nine essential amino acids?",
+      "answer": "Histidine, isoleucine, leucine, lysine, methionine, phenylalanine, threonine, tryptophan, and valine."
+    },
+    {
+      "question": "Which plant foods provide all nine?",
+      "answer": "Soy foods such as tofu, tempeh and edamame are prominent examples. Quinoa, amaranth and buckwheat also provide all nine, though total protein per serving varies."
+    },
+    {
+      "question": "Do rice and beans have to be eaten in the same meal?",
+      "answer": "No. For healthy people eating a varied diet, complementary amino acids can be supplied across the day rather than in the same meal."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FAO — Dietary protein quality evaluation in human nutrition",
+      "url": "https://www.fao.org/4/i3124e/i3124e.pdf",
+      "note": "Indispensable amino acids, reference patterns, digestibility, and protein-quality concepts."
+    },
+    {
+      "name": "NCBI Bookshelf — Biochemistry, Essential Amino Acids",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557845/",
+      "note": "Definition and list of the nine essential amino acids."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Approximate protein values for the foods and serving sizes discussed."
+    }
+  ],
+  "image": {
+    "concept": "Editorial plate with egg, salmon, tofu, edamame and cooked quinoa in small portions, natural food photography without text.",
+    "alt": "Animal and plant foods that provide all nine essential amino acids"
+  },
+  "status": "publish"
+}

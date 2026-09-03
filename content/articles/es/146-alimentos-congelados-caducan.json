@@ -8,12 +8,49 @@
   "market_context": "España/Unión Europea; congelación doméstica a -18 °C, AESAN",
   "title": "¿Los alimentos congelados caducan?",
   "slug": "alimentos-congelados-caducan",
-  "seo": {"title":"¿Los alimentos congelados caducan? Seguridad y calidad","meta_description":"A -18 °C el crecimiento microbiano se detiene, pero la calidad sigue deteriorándose. Las fechas del congelador son sobre todo de calidad y dependen del alimento y del historial térmico.","search_intent":"Saber cuánto importa el tiempo en el congelador y si un alimento congelado se vuelve inseguro solo por llevar muchos meses."},
+  "seo": {
+    "title": "¿Los alimentos congelados caducan? Seguridad y calidad",
+    "meta_description": "A -18 °C el crecimiento microbiano se detiene, pero la calidad sigue deteriorándose. Las fechas del congelador son sobre todo de calidad y dependen del alimento y del historial térmico.",
+    "search_intent": "Saber cuánto importa el tiempo en el congelador y si un alimento congelado se vuelve inseguro solo por llevar muchos meses."
+  },
   "excerpt": "Los alimentos congelados no 'caducan' de la misma manera mientras se mantienen continuamente a unos -18 °C: el crecimiento microbiano se detiene, pero sabor, textura, color y jugosidad empeoran con el tiempo. Los plazos de congelación doméstica son sobre todo límites de calidad; cualquier descongelación parcial o fallo de temperatura cambia la evaluación.",
-  "taxonomy": {"food_family":"general","food_subcategories":["freezing"],"article_types":["food-safety","storage"],"primary_article_type":"storage"},
-  "content_html": "<p>Un filete que lleva ocho meses congelado no se comporta como un filete que lleva ocho meses en la nevera. A temperaturas de congelación adecuadas, las bacterias dejan de multiplicarse; el tiempo afecta sobre todo a la calidad.</p><h2>Congelar detiene crecimiento, no el reloj químico</h2><p>AESAN recomienda -18 °C o menos para la congelación doméstica. A esa temperatura se frena el crecimiento microbiano, pero oxidación, pérdida de humedad y daño por cristales de hielo continúan lentamente.</p><table><thead><tr><th>Con mucho tiempo congelado</th><th>Qué puede ocurrir</th></tr></thead><tbody><tr><td>Seguridad microbiológica</td><td>Se mantiene si estuvo continuamente congelado y se manipuló bien</td></tr><tr><td>Sabor/aroma</td><td>Pueden deteriorarse</td></tr><tr><td>Textura</td><td>Puede volverse más seca o blanda al descongelar</td></tr><tr><td>Quemadura por congelación</td><td>Aumenta con mal envasado/aire</td></tr></tbody></table><h2>La fecha original sí importa antes de congelar</h2><p>Un alimento refrigerado debe congelarse antes de superar su fecha de caducidad. Congelar un producto que ya ha pasado demasiado tiempo refrigerado no borra su historial.</p><h2>Si el congelador falló, el tiempo deja de ser la pregunta principal</h2><p>Cuando un alimento se descongela parcial o totalmente hay que valorar cuánto tiempo estuvo por encima de temperatura segura. “Llevaba solo dos meses congelado” no compensa varias horas templado.</p><h2>La regla</h2><p>Usa los plazos de congelador para mantener buena calidad y rota los alimentos, pero no confundas una recomendación de meses con una caducidad microbiológica automática.</p>",
-  "faq": [{"question":"¿Es peligroso un alimento que lleva un año congelado?","answer":"No necesariamente si permaneció continuamente a -18 °C o menos y se congeló en condiciones seguras, pero su calidad puede ser mala."},{"question":"¿Puedo congelar algo el día de su caducidad?","answer":"Debe congelarse antes de superar la fecha de caducidad y siguiendo las instrucciones del producto; es mejor no esperar al límite si sabes que no lo consumirás."}],
-  "sources": [{"name":"AESAN — Cómo congelo los alimentos en casa","url":"https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/congelar_descongelar.pdf","note":"-18 °C, congelar antes de la fecha y efecto sobre crecimiento bacteriano."},{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"Tiempos de congelador como referencias de calidad."}],
-  "image": {"concept":"Cajón de congelador con recipientes etiquetados por meses y signos de pérdida de calidad, fotografía editorial sin texto.","alt":"Alimentos almacenados durante meses en congelador"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "freezing"
+    ],
+    "article_types": [
+      "food-safety",
+      "storage"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Un filete que lleva ocho meses congelado no se comporta como un filete que lleva ocho meses en la nevera. A temperaturas de congelación adecuadas, las bacterias dejan de multiplicarse; el tiempo afecta sobre todo a la calidad.</p><h2>Congelar detiene crecimiento, no el reloj químico</h2><p>AESAN recomienda -18 °C o menos para la congelación doméstica. A esa temperatura se frena el crecimiento microbiano, pero oxidación, pérdida de humedad y daño por cristales de hielo continúan lentamente.</p><table><thead><tr><th>Con mucho tiempo congelado</th><th>Qué puede ocurrir</th></tr></thead><tbody><tr><td>Seguridad microbiológica</td><td>Se mantiene si estuvo continuamente congelado y se manipuló bien</td></tr><tr><td>Sabor/aroma</td><td>Pueden deteriorarse</td></tr><tr><td>Textura</td><td>Puede volverse más seca o blanda al descongelar</td></tr><tr><td>Quemadura por congelación</td><td>Aumenta con mal envasado/aire</td></tr></tbody></table><p>Eso explica por qué las tablas de “cuántos meses dura en el congelador” deben leerse como guías de calidad. Un pollo congelado más tiempo del recomendado puede estar seco y con peor sabor sin haberse vuelto inseguro por el simple paso de los meses, siempre que haya permanecido continuamente congelado y se descongele de forma segura.</p><h2>La fecha original sí importa antes de congelar</h2><p>Un alimento refrigerado debe congelarse antes de superar su fecha de caducidad. Congelar un producto que ya ha pasado demasiado tiempo refrigerado no borra su historial.</p><h2>Si el congelador falló, el tiempo deja de ser la pregunta principal</h2><p>Cuando un alimento se descongela parcial o totalmente hay que valorar cuánto tiempo estuvo por encima de temperatura segura. “Llevaba solo dos meses congelado” no compensa varias horas templado.</p><p>El envase acelera o frena ese deterioro. Aire, fluctuaciones de temperatura y un paquete mal cerrado favorecen oxidación y quemaduras por congelación. Un buen envasado no cambia la microbiología básica, pero puede marcar una diferencia enorme en textura y sabor cuando el alimento se guarda durante meses.</p><h2>La regla</h2><p>Usa los plazos de congelador para mantener buena calidad y rota los alimentos, pero no confundas una recomendación de meses con una caducidad microbiológica automática.</p>",
+  "faq": [
+    {
+      "question": "¿Es peligroso un alimento que lleva un año congelado?",
+      "answer": "No necesariamente si permaneció continuamente a -18 °C o menos y se congeló en condiciones seguras, pero su calidad puede ser mala."
+    },
+    {
+      "question": "¿Puedo congelar algo el día de su caducidad?",
+      "answer": "Debe congelarse antes de superar la fecha de caducidad y siguiendo las instrucciones del producto; es mejor no esperar al límite si sabes que no lo consumirás."
+    }
+  ],
+  "sources": [
+    {
+      "name": "AESAN — Cómo congelo los alimentos en casa",
+      "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/congelar_descongelar.pdf",
+      "note": "-18 °C, congelar antes de la fecha y efecto sobre crecimiento bacteriano."
+    },
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "Tiempos de congelador como referencias de calidad."
+    }
+  ],
+  "image": {
+    "concept": "Cajón de congelador con recipientes etiquetados por meses y signos de pérdida de calidad, fotografía editorial sin texto.",
+    "alt": "Alimentos almacenados durante meses en congelador"
+  },
+  "status": "publish"
 }

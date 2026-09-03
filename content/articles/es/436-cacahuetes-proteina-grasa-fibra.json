@@ -1,1 +1,52 @@
-{"schema_version":1,"id":"es-436-cacahuetes-nutricion","article_number":436,"translation_group":"436-peanuts-nutrition","language":"es","locale":"es-ES","market_context":"España/Unión Europea; composición de cacahuete tostado o crudo sin recubrimientos.","title":"Cacahuetes: proteína, grasa y fibra","slug":"cacahuetes-proteina-grasa-fibra","seo":{"title":"Cacahuetes: proteína, grasa, fibra y calorías","meta_description":"Por 100 g, los cacahuetes aportan cerca de 26 g de proteína, 49 g de grasa y 8–9 g de fibra. Una ración de 30 g ronda 170 kcal y 8 g de proteína.","search_intent":"Conocer la composición nutricional de los cacahuetes y traducirla a una ración real."},"excerpt":"Los cacahuetes son energéticamente densos, pero también ricos en proteína y grasas insaturadas. Por 100 g rondan 26 g de proteína, 49 g de grasa y 8–9 g de fibra. Una ración de 30 g aporta aproximadamente 170 kcal, 8 g de proteína, 15 g de grasa y 2,5 g de fibra.","taxonomy":{"food_family":"nuts-seeds","food_subcategories":[],"article_types":["nutrition-composition"],"primary_article_type":"nutrition-composition"},"content_html":"<p>Botánicamente el cacahuete es una legumbre, aunque nutricional y culinariamente suele agruparse con los frutos secos. <strong>Su rasgo más llamativo es combinar mucha energía con una cantidad considerable de proteína.</strong></p><h2>Qué aportan 100 g</h2><table><thead><tr><th>Nutriente</th><th>Aprox./100 g</th><th>Aprox./30 g</th></tr></thead><tbody><tr><td>Energía</td><td>~567 kcal</td><td>~170 kcal</td></tr><tr><td>Proteína</td><td>~26 g</td><td>~7,8 g</td></tr><tr><td>Grasa</td><td>~49 g</td><td>~14,7 g</td></tr><tr><td>Fibra</td><td>~8,5 g</td><td>~2,6 g</td></tr></tbody></table><p>Los números cambian algo según estén crudos, tostados, fritos, salados o recubiertos.</p><h2>La mayor parte de la grasa es insaturada</h2><p>En el cacahuete predominan ácidos grasos monoinsaturados y poliinsaturados. Eso no elimina sus calorías: 1 g de grasa aporta alrededor de 9 kcal, por lo que pequeñas cantidades concentran bastante energía.</p><h2>Más proteína que la mayoría de frutos secos</h2><p>Con cerca de 26 g/100 g, el cacahuete suele superar a almendras, nueces o anacardos en proteína. Pero no es necesario comer 100 g para “aprovecharla”: una porción de 30 g ya ronda 8 g.</p><h2>El formato cambia mucho el producto</h2><p>Cacahuetes naturales o tostados sin sal son distintos de versiones fritas, caramelizadas, con miel o con coberturas. En estas últimas pueden aumentar sodio, azúcares añadidos y energía.</p><p><strong>Nutricionalmente son densos: una pequeña ración aporta proteína, grasa y fibra; por eso medir la porción suele ser más útil que juzgarlos sólo como “saludables” o “calóricos”.</strong></p>","faq":[{"question":"¿Cuánta proteína tienen los cacahuetes?","answer":"Alrededor de 26 g por 100 g; una ración de 30 g aporta cerca de 8 g."},{"question":"¿Tienen mucha grasa?","answer":"Sí, cerca de 49 g por 100 g, aunque predomina la grasa insaturada."},{"question":"¿Son legumbres o frutos secos?","answer":"Botánicamente son legumbres, pero en nutrición y cocina suelen consumirse y compararse con frutos secos."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/food-search/","note":"Composición de cacahuetes en energía, proteína, grasa, fibra y ácidos grasos."}],"image":{"concept":"Cuenco con una ración pequeña de cacahuetes naturales junto a una balanza de cocina, fotografía editorial nutricional realista, sin texto.","alt":"Ración de cacahuetes naturales"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-436-cacahuetes-nutricion",
+  "article_number": 436,
+  "translation_group": "436-peanuts-nutrition",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición de cacahuete tostado o crudo sin recubrimientos.",
+  "title": "Cacahuetes: proteína, grasa y fibra",
+  "slug": "cacahuetes-proteina-grasa-fibra",
+  "seo": {
+    "title": "Cacahuetes: proteína, grasa, fibra y calorías",
+    "meta_description": "Por 100 g, los cacahuetes aportan cerca de 26 g de proteína, 49 g de grasa y 8–9 g de fibra. Una ración de 30 g ronda 170 kcal y 8 g de proteína.",
+    "search_intent": "Conocer la composición nutricional de los cacahuetes y traducirla a una ración real."
+  },
+  "excerpt": "Los cacahuetes son energéticamente densos, pero también ricos en proteína y grasas insaturadas. Por 100 g rondan 26 g de proteína, 49 g de grasa y 8–9 g de fibra. Una ración de 30 g aporta aproximadamente 170 kcal, 8 g de proteína, 15 g de grasa y 2,5 g de fibra.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": [],
+    "article_types": [
+      "nutrition-composition"
+    ],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Botánicamente el cacahuete es una legumbre, aunque nutricional y culinariamente suele agruparse con los frutos secos. <strong>Su rasgo más llamativo es combinar mucha energía con una cantidad considerable de proteína.</strong></p><h2>Qué aportan 100 g</h2><table><thead><tr><th>Nutriente</th><th>Aprox./100 g</th><th>Aprox./30 g</th></tr></thead><tbody><tr><td>Energía</td><td>~567 kcal</td><td>~170 kcal</td></tr><tr><td>Proteína</td><td>~26 g</td><td>~7,8 g</td></tr><tr><td>Grasa</td><td>~49 g</td><td>~14,7 g</td></tr><tr><td>Fibra</td><td>~8,5 g</td><td>~2,6 g</td></tr></tbody></table><p>Los números cambian algo según estén crudos, tostados, fritos, salados o recubiertos.</p><h2>La mayor parte de la grasa es insaturada</h2><p>En el cacahuete predominan ácidos grasos monoinsaturados y poliinsaturados. Eso no elimina sus calorías: 1 g de grasa aporta alrededor de 9 kcal, por lo que pequeñas cantidades concentran bastante energía.</p><h2>Más proteína que la mayoría de frutos secos</h2><p>Con cerca de 26 g/100 g, el cacahuete suele superar a almendras, nueces o anacardos en proteína. Pero no es necesario comer 100 g para “aprovecharla”: una porción de 30 g ya ronda 8 g.</p><h2>Una ración cuenta una historia distinta de los 100 g</h2><p>Cien gramos sirven para comparar alimentos, pero son bastante más que una ración habitual de cacahuetes. Con unos 30 g, las calorías y la grasa bajan aproximadamente al 30 % de las cifras de la tabla, mientras sigues obteniendo una cantidad apreciable de proteína y fibra. Esa traducción explica mejor por qué pueden ser nutritivos y energéticamente densos al mismo tiempo.</p><p>También evita comparar una cucharada de crema de cacahuete, un puñado de cacahuetes y 100 g como si fueran consumos equivalentes. El alimento y la cantidad importan a la vez.</p><h2>El formato cambia mucho el producto</h2><p>Cacahuetes naturales o tostados sin sal son distintos de versiones fritas, caramelizadas, con miel o con coberturas. En estas últimas pueden aumentar sodio, azúcares añadidos y energía.</p><p><strong>Nutricionalmente son densos: una pequeña ración aporta proteína, grasa y fibra; por eso medir la porción suele ser más útil que juzgarlos sólo como “saludables” o “calóricos”.</strong></p>",
+  "faq": [
+    {
+      "question": "¿Cuánta proteína tienen los cacahuetes?",
+      "answer": "Alrededor de 26 g por 100 g; una ración de 30 g aporta cerca de 8 g."
+    },
+    {
+      "question": "¿Tienen mucha grasa?",
+      "answer": "Sí, cerca de 49 g por 100 g, aunque predomina la grasa insaturada."
+    },
+    {
+      "question": "¿Son legumbres o frutos secos?",
+      "answer": "Botánicamente son legumbres, pero en nutrición y cocina suelen consumirse y compararse con frutos secos."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/food-search/",
+      "note": "Composición de cacahuetes en energía, proteína, grasa, fibra y ácidos grasos."
+    }
+  ],
+  "image": {
+    "concept": "Cuenco con una ración pequeña de cacahuetes naturales junto a una balanza de cocina, fotografía editorial nutricional realista, sin texto.",
+    "alt": "Ración de cacahuetes naturales"
+  },
+  "status": "publish"
+}

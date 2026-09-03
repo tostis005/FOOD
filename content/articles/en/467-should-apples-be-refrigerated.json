@@ -1,1 +1,53 @@
-{"schema_version":1,"id":"en-467-refrigerate-apples","article_number":467,"translation_group":"467-refrigerate-apples","language":"en","locale":"en-US","market_context":"United States; home storage of apples.","title":"Should Apples Be Refrigerated?","slug":"should-apples-be-refrigerated","seo":{"title":"Should Apples Be Refrigerated?","meta_description":"Apples can sit out for short-term eating, but refrigeration keeps them firm much longer by slowing respiration and ripening. Use the crisper drawer for longer storage.","search_intent":"Choose between a fruit bowl and refrigerator based on how long apples need to keep."},"excerpt":"You do not have to refrigerate an apple that will be eaten in the next few days, but cold storage clearly preserves quality longer. At room temperature apples continue respiring and ripening much faster; in the refrigerator they hold firmness and acidity longer.","taxonomy":{"food_family":"fruit","food_subcategories":[],"article_types":["storage","buying-quality-ripeness"],"primary_article_type":"storage"},"content_html":"<p>A fruit bowl works when you buy only a few apples and eat them quickly. <strong>If you want them crisp for a week or longer, the refrigerator is the better tool.</strong></p><h2>Apples stay alive after harvest</h2><p>They respire, produce ethylene, and continue ripening. Lower temperature slows these processes and delays softening, acidity loss, and mealy texture.</p><h2>Counter: short-term convenience</h2><p>A cool kitchen can keep apples acceptably for a few days. Warm rooms accelerate the changes.</p><h2>Refrigerator: longer storage</h2><p>Use the produce drawer or a perforated bag that reduces water loss without trapping heavy condensation. Inspect fruit and remove bruised or decaying apples.</p><h2>Ethylene affects neighbors</h2><p>Ripe apples release ethylene. Lettuce, broccoli, and other sensitive produce can yellow or develop spotting faster when stored nearby for long periods.</p><h2>Cold can mute aroma</h2><p>Very cold fruit smells less aromatic. Let an apple sit for 15–30 minutes before eating if you prefer fuller aroma while keeping the storage benefit.</p><p><strong>Counter for a few days; refrigerator for keeping quality. This is mainly a ripening-speed decision, not an immediate safety rule.</strong></p>","faq":[{"question":"How long do apples last on the counter?","answer":"It varies by cultivar and room temperature, but firmness declines much faster than under refrigeration."},{"question":"Can apples be stored with bananas?","answer":"Yes, but the combined ethylene can accelerate ripening. Separate them if you want slower changes."},{"question":"Does refrigeration make apples mealy?","answer":"Usually the opposite: cold slows the softening and textural breakdown that create mealiness."}],"sources":[{"name":"UC Davis Postharvest Research and Extension Center — Apple","url":"https://postharvest.ucdavis.edu/produce-facts-sheets/apple","note":"Apple respiration, ethylene, temperature, and storage physiology."}],"image":{"concept":"Apples stored in a refrigerator crisper drawer with a few apples in a fruit bowl for immediate use, realistic editorial food photography, no text.","alt":"Apples stored in the refrigerator and on the counter"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-467-refrigerate-apples",
+  "article_number": 467,
+  "translation_group": "467-refrigerate-apples",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; home storage of apples.",
+  "title": "Should Apples Be Refrigerated?",
+  "slug": "should-apples-be-refrigerated",
+  "seo": {
+    "title": "Should Apples Be Refrigerated?",
+    "meta_description": "Apples can sit out for short-term eating, but refrigeration keeps them firm much longer by slowing respiration and ripening. Use the crisper drawer for longer storage.",
+    "search_intent": "Choose between a fruit bowl and refrigerator based on how long apples need to keep."
+  },
+  "excerpt": "You do not have to refrigerate an apple that will be eaten in the next few days, but cold storage clearly preserves quality longer. At room temperature apples continue respiring and ripening much faster; in the refrigerator they hold firmness and acidity longer.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": [],
+    "article_types": [
+      "storage",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>A fruit bowl works when you buy only a few apples and eat them quickly. <strong>If you want them crisp for a week or longer, the refrigerator is the better tool.</strong></p><h2>Apples stay alive after harvest</h2><p>They respire, produce ethylene, and continue ripening. Lower temperature slows these processes and delays softening, acidity loss, and mealy texture.</p><h2>Counter or refrigerator? It depends on your time horizon</h2><p>A cool kitchen can keep apples acceptably for a few days. Warm rooms accelerate the changes.</p><p>Use the produce drawer or a perforated bag that reduces water loss without trapping heavy condensation. Inspect fruit and remove bruised or decaying apples.</p><h2>Ethylene affects neighbors</h2><p>Ripe apples release ethylene. Lettuce, broccoli, and other sensitive produce can yellow or develop spotting faster when stored nearby for long periods.</p><p>If you will eat apples within a day or two, room temperature can prioritize aroma and convenience. For a purchase meant to last days or weeks, cold storage slows respiration, softening and overripening. Those are not contradictory recommendations; they answer different storage timelines.</p><p>It also helps to check the batch. A bruised apple can deteriorate sooner and interact differently with ethylene, so separating damaged fruit keeps one problem piece from affecting the rest.</p><h2>Cold can mute aroma</h2><p>Very cold fruit smells less aromatic. Let an apple sit for 15–30 minutes before eating if you prefer fuller aroma while keeping the storage benefit.</p><p><strong>Counter for a few days; refrigerator for keeping quality. This is mainly a ripening-speed decision, not an immediate safety rule.</strong></p>",
+  "faq": [
+    {
+      "question": "How long do apples last on the counter?",
+      "answer": "It varies by cultivar and room temperature, but firmness declines much faster than under refrigeration."
+    },
+    {
+      "question": "Can apples be stored with bananas?",
+      "answer": "Yes, but the combined ethylene can accelerate ripening. Separate them if you want slower changes."
+    },
+    {
+      "question": "Does refrigeration make apples mealy?",
+      "answer": "Usually the opposite: cold slows the softening and textural breakdown that create mealiness."
+    }
+  ],
+  "sources": [
+    {
+      "name": "UC Davis Postharvest Research and Extension Center — Apple",
+      "url": "https://postharvest.ucdavis.edu/produce-facts-sheets/apple",
+      "note": "Apple respiration, ethylene, temperature, and storage physiology."
+    }
+  ],
+  "image": {
+    "concept": "Apples stored in a refrigerator crisper drawer with a few apples in a fruit bowl for immediate use, realistic editorial food photography, no text.",
+    "alt": "Apples stored in the refrigerator and on the counter"
+  },
+  "status": "publish"
+}

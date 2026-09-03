@@ -15,21 +15,45 @@
   },
   "excerpt": "La fibra puede ayudar a sentirse lleno porque suele llegar en alimentos con más volumen y masticación, retiene agua y, cuando es viscosa, puede ralentizar el vaciado del estómago. Pero no toda fibra produce el mismo efecto: 5 g añadidos a una bebida no se comportan necesariamente igual que 5 g dentro de avena, legumbres, fruta o semillas.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["nutrition-composition", "health-daily-consumption"],
+    "article_types": [
+      "nutrition-composition",
+      "health-daily-consumption"
+    ],
     "primary_article_type": "nutrition-composition"
   },
   "content_html": "<p>La fibra suele aparecer en consejos para “llenarse más”, pero el mecanismo no es simplemente que cada gramo de fibra bloquee el hambre. <strong>Importan el tipo de fibra y el alimento que la contiene.</strong></p><h2>Parte del efecto empieza antes de digerir</h2><p>Fruta entera, verduras, legumbres y cereales integrales suelen exigir más masticación y ocupan más volumen que versiones refinadas o líquidas. Comer una manzana requiere más tiempo y trabajo oral que beber una cantidad equivalente de zumo.</p><p>Ese tiempo y ese volumen ya cambian la experiencia de la comida antes de entrar en detalles metabólicos.</p><h2>Las fibras viscosas retienen agua y espesan</h2><p>Beta-glucanos de la avena, mucílagos de chía y otras fibras solubles pueden formar soluciones más viscosas al hidratarse. Esa viscosidad puede ralentizar el vaciado gástrico y modificar la velocidad a la que los nutrientes llegan al intestino.</p><p>No toda fibra soluble es muy viscosa y no toda fibra insoluble produce el mismo efecto. “Fibra” reúne moléculas con comportamientos distintos.</p><h2>Cuánta fibra aportan alimentos reales</h2><table><thead><tr><th>Alimento</th><th>Ración</th><th>Fibra aprox.</th></tr></thead><tbody><tr><td>Lentejas cocidas</td><td>200 g</td><td>~16 g</td></tr><tr><td>Chía</td><td>20 g</td><td>~6,8 g</td></tr><tr><td>Avena</td><td>40 g seca</td><td>~4 g</td></tr><tr><td>Manzana con piel</td><td>1 mediana</td><td>~4 g</td></tr><tr><td>Brócoli cocido</td><td>200 g</td><td>~6–7 g</td></tr><tr><td>Almendras</td><td>30 g</td><td>~3,8 g</td></tr></tbody></table><p>Una comida de lentejas y verduras puede sumar más de 20 g de fibra sin necesidad de un ingrediente especial. Un desayuno de avena, fruta y semillas puede reunir varios tipos de fibra en cantidades menores.</p><h2>La fermentación ocurre más tarde</h2><p>Algunas fibras llegan al colon y son fermentadas por la microbiota, que produce ácidos grasos de cadena corta. Esos metabolitos participan en la fisiología intestinal y pueden influir en señales relacionadas con apetito y metabolismo.</p><p>Ese mecanismo es más lento que el volumen físico de una comida y no debe presentarse como un interruptor inmediato del hambre.</p><h2>Fibra añadida y alimento entero no son equivalentes automáticos</h2><p>Un producto puede anunciar 5 g de fibra añadida y seguir siendo muy fácil de beber o comer rápidamente. La fruta, las legumbres o la avena aportan fibra dentro de una matriz con agua, estructura, micronutrientes y, a veces, proteína.</p><p>Eso no hace inútil la fibra añadida; significa que <strong>igualar gramos de fibra no iguala necesariamente la saciedad</strong>.</p><h2>Aumentar demasiado rápido puede ser contraproducente</h2><p>Subir de golpe la fibra puede provocar gases, hinchazón o cambios en el tránsito. Una progresión gradual permite que el aparato digestivo y la microbiota se adapten mejor.</p><p>EFSA considera adecuada una ingesta de unos 25 g/día en adultos. Llegar a esa cifra a través de varios alimentos suele ser más fácil de tolerar que concentrarla de repente en grandes dosis de semillas o salvado.</p><h2>La idea práctica</h2><p>Para usar la fibra a favor de la saciedad, piensa menos en “añadir gramos” y más en <strong>comer alimentos que traen fibra con agua, volumen y estructura</strong>: legumbres, fruta entera, verduras, avena, otros cereales integrales, frutos secos y semillas.</p>",
   "faq": [
-    {"question": "¿La fibra quita el hambre?", "answer": "Puede aumentar la saciedad, especialmente cuando forma parte de alimentos con volumen y cuando la fibra es viscosa, pero el efecto depende del tipo de fibra y de la comida completa."},
-    {"question": "¿Toda la fibra sacia igual?", "answer": "No. Las fibras difieren en solubilidad, viscosidad y fermentabilidad, y el alimento que las contiene también cambia la respuesta."},
-    {"question": "¿Cuánta fibra se recomienda al día?", "answer": "EFSA considera adecuada una ingesta de unos 25 g diarios para adultos."}
+    {
+      "question": "¿La fibra quita el hambre?",
+      "answer": "Puede aumentar la saciedad, especialmente cuando forma parte de alimentos con volumen y cuando la fibra es viscosa, pero el efecto depende del tipo de fibra y de la comida completa."
+    },
+    {
+      "question": "¿Toda la fibra sacia igual?",
+      "answer": "No. Las fibras difieren en solubilidad, viscosidad y fermentabilidad, y el alimento que las contiene también cambia la respuesta."
+    },
+    {
+      "question": "¿Cuánta fibra se recomienda al día?",
+      "answer": "EFSA considera adecuada una ingesta de unos 25 g diarios para adultos."
+    }
   ],
   "sources": [
-    {"name": "EFSA — Dietary Reference Values for carbohydrates and dietary fibre", "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1462", "note": "Referencia europea para ingesta de fibra."},
-    {"name": "PubMed — Dietary fiber and satiety research", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=dietary+fiber+satiety+viscosity+review", "note": "Investigación sobre viscosidad, fermentación y saciedad."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Contenido de fibra de los alimentos utilizados como ejemplos."}
+    {
+      "name": "EFSA — Dietary Reference Values for carbohydrates and dietary fibre",
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1462",
+      "note": "Referencia europea para ingesta de fibra."
+    },
+    {
+      "name": "PubMed — Dietary fiber and satiety research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=dietary+fiber+satiety+viscosity+review",
+      "note": "Investigación sobre viscosidad, fermentación y saciedad."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Contenido de fibra de los alimentos utilizados como ejemplos."
+    }
   ],
   "image": {
     "concept": "Bol de avena con manzana y chía junto a lentejas, brócoli y almendras, fotografía editorial natural, sin texto.",

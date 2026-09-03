@@ -8,12 +8,44 @@
   "market_context": "United States/general English; USDA freezer-burn guidance",
   "title": "Freezer burn: what it is and whether the food is safe to eat",
   "slug": "freezer-burn-what-it-is-safe-eat",
-  "seo": {"title":"Freezer burn: what it is and is it safe?","meta_description":"Freezer burn is surface dehydration caused by air exposure. It does not make continuously frozen food unsafe, but it can make it dry, leathery and less flavorful.","search_intent":"Understand dry white or gray patches on frozen food and whether freezer-burned food can be eaten."},
+  "seo": {
+    "title": "Freezer burn: what it is and is it safe?",
+    "meta_description": "Freezer burn is surface dehydration caused by air exposure. It does not make continuously frozen food unsafe, but it can make it dry, leathery and less flavorful.",
+    "search_intent": "Understand dry white or gray patches on frozen food and whether freezer-burned food can be eaten."
+  },
   "excerpt": "Freezer burn is a quality problem, not food poisoning. Air exposure allows surface ice to sublimate, leaving dry, leathery or discolored patches. Food remains safe if it stayed properly frozen, although flavor and texture may be poor. Damaged areas can be trimmed away.",
-  "taxonomy": {"food_family":"general","food_subcategories":["freezing"],"article_types":["food-safety","food-science"],"primary_article_type":"food-science"},
-  "content_html": "<p>A frozen chicken breast can develop a pale, dry corner that looks “burned,” even though no heat was involved. What happened is moisture loss.</p><h2>What freezer burn actually is</h2><p>When packaging leaves food exposed to air, surface ice can move directly into the vapor phase. The dehydrated tissue becomes dry, leathery and sometimes gray-brown.</p><h2>It is not evidence of bacterial growth</h2><p>USDA classifies freezer burn as a quality issue. If the food remained safely frozen, those dry patches do not make it unsafe.</p><h2>Why it tastes worse</h2><p>Moisture loss and oxidation can leave freezer-burned meat tough and bland. Small damaged sections can be trimmed before or after cooking; severely damaged food may simply be unpleasant enough to discard.</p><h2>How to prevent it</h2><p>Use freezer-grade airtight packaging, press out excess air, consider vacuum sealing for longer storage, and rotate food before quality declines substantially.</p><h2>The rule</h2><p>Freezer burn means loss of quality, not an automatic safety failure. A separate thawing or temperature problem must be evaluated on its own.</p>",
-  "faq": [{"question":"Can you eat freezer-burned meat?","answer":"Yes, if it stayed continuously frozen. It may be dry or tough, and damaged areas can be trimmed."},{"question":"What causes freezer burn?","answer":"Air exposure and moisture loss during frozen storage are the main causes."}],
-  "sources": [{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"Freezer burn and food quality."}],
-  "image": {"concept":"Frozen chicken or meat with a visible pale dry freezer-burned area in clear packaging, no text.","alt":"Freezer burn on frozen meat"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "freezing"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-science"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>A frozen chicken breast can develop a pale, dry corner that looks “burned,” even though no heat was involved. What happened is moisture loss.</p><p>Water loss happens from the food surface toward the freezer environment. That is why exposed edges, corners, and foods surrounded by a lot of air in the package often show damage first.</p><h2>What freezer burn actually is</h2><p>When packaging leaves food exposed to air, surface ice can move directly into the vapor phase. The dehydrated tissue becomes dry, leathery and sometimes gray-brown.</p><h2>It is not evidence of bacterial growth</h2><p>USDA classifies freezer burn as a quality issue. If the food remained safely frozen, those dry patches do not make it unsafe.</p><h2>Why it tastes worse</h2><p>Moisture loss and oxidation can leave freezer-burned meat tough and bland. Small damaged sections can be trimmed before or after cooking; severely damaged food may simply be unpleasant enough to discard.</p><h2>How to prevent it</h2><p>Use freezer-grade airtight packaging, press out excess air, consider vacuum sealing for longer storage, and rotate food before quality declines substantially.</p><p>The distinction from unsafe thawing matters. A pale, dry patch after months in the freezer points to dehydration; a package that spent hours warm creates a separate safety question even if no freezer-burn mark is visible. <strong>Appearance and safety do not always move together.</strong></p><h2>Freezer burn does not “spread” through food like contamination</h2><p>The dry patches form where ice sublimes and tissue loses water to freezer air, which is why they are concentrated on poorly protected surfaces. Trimming a severely dried area may improve eating quality, but it is not a decontamination step. Safety depends on whether the food stayed properly frozen, not on the pale patch itself.</p><h2>The rule</h2><p>Freezer burn means loss of quality, not an automatic safety failure. A separate thawing or temperature problem must be evaluated on its own.</p>",
+  "faq": [
+    {
+      "question": "Can you eat freezer-burned meat?",
+      "answer": "Yes, if it stayed continuously frozen. It may be dry or tough, and damaged areas can be trimmed."
+    },
+    {
+      "question": "What causes freezer burn?",
+      "answer": "Air exposure and moisture loss during frozen storage are the main causes."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "Freezer burn and food quality."
+    }
+  ],
+  "image": {
+    "concept": "Frozen chicken or meat with a visible pale dry freezer-burned area in clear packaging, no text.",
+    "alt": "Freezer burn on frozen meat"
+  },
+  "status": "publish"
 }

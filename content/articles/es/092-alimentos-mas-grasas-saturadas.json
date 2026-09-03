@@ -15,20 +15,44 @@
   },
   "excerpt": "El aceite de coco encabeza la concentración con alrededor de 80–85 g de grasa saturada por 100 g; mantequilla, aceite de palma y grasas animales también aportan cantidades altas. Pero 100 g no es una ración real de aceite o mantequilla: una cucharada de aceite de coco puede aportar unos 11–12 g de saturadas y 30 g de cheddar alrededor de 5–6 g.",
   "taxonomy": {
-    "food_family": "fats-oils",
-    "food_subcategories": ["dairy", "oils", "meat"],
-    "article_types": ["ranking", "nutrition-composition"],
-    "primary_article_type": "ranking"
+    "food_family": "oils-fats",
+    "food_subcategories": [
+      "dairy",
+      "oils",
+      "meat"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
   },
   "content_html": "<p>Una tabla por 100 g hace que aceites y grasas puras dominen cualquier ranking de grasa saturada. Es matemáticamente correcto y, sin contexto, poco útil: nadie necesita comerse 100 g de mantequilla para que su aporte importe.</p><p>La comparación más clara muestra <strong>concentración y ración</strong>.</p><h2>Qué alimentos concentran más grasa saturada</h2><table><thead><tr><th>Alimento</th><th>Saturadas/100 g</th><th>Ración</th><th>Saturadas/ración</th></tr></thead><tbody><tr><td>Aceite de coco</td><td>~82 g</td><td>1 cucharada (14 g)</td><td>~11,5 g</td></tr><tr><td>Mantequilla</td><td>~51 g</td><td>1 cucharada (14 g)</td><td>~7 g</td></tr><tr><td>Aceite de palma</td><td>~49 g</td><td>1 cucharada (14 g)</td><td>~7 g</td></tr><tr><td>Manteca de cerdo</td><td>~39 g</td><td>1 cucharada (13 g)</td><td>~5 g</td></tr><tr><td>Chocolate negro 70–85 %</td><td>~24 g</td><td>30 g</td><td>~7 g</td></tr><tr><td>Queso cheddar</td><td>~19 g</td><td>30 g</td><td>~5,5–6 g</td></tr><tr><td>Nata</td><td>~19–23 g</td><td>30 g</td><td>~6–7 g</td></tr></tbody></table><p>La sorpresa frecuente es el aceite de coco: aunque sea vegetal, una cucharada puede aportar más grasa saturada que una ración pequeña de muchos alimentos animales.</p><h2>Vegetal no significa automáticamente insaturado</h2><p>Aceite de oliva, aguacate y muchos frutos secos están dominados por grasas insaturadas. Coco y palma son excepciones importantes: contienen una proporción mucho mayor de saturadas.</p><p>Por eso clasificar la grasa solo como “animal” o “vegetal” pierde información útil.</p><h2>El chocolate muestra por qué hay que mirar el alimento completo</h2><p>El chocolate negro contiene bastante grasa saturada procedente de la manteca de cacao. Una porción de 30 g puede rondar 7 g de saturadas, además de unas 170–180 kcal.</p><p>También aporta fibra y compuestos del cacao. Esos nutrientes no borran la grasa saturada; simplemente muestran que una cifra no describe todo el alimento.</p><h2>El queso concentra por pérdida de agua</h2><p>Los quesos curados tienen menos agua que la leche o el yogur, por lo que proteína, grasa, calcio y sal se concentran. Un cheddar puede rondar 19 g de saturadas/100 g; una ración de 30 g se queda alrededor de 5–6 g.</p><p>Compararlo con 100 g de yogur natural sería una comparación de raciones muy distintas.</p><h2>Qué significa el límite del 10 %</h2><p>La OMS recomienda mantener las grasas saturadas por debajo del 10 % de la energía total y sustituirlas preferentemente por grasas insaturadas. En una dieta de referencia de 2.000 kcal, el 10 % equivale a unas 200 kcal, o aproximadamente <strong>22 g de grasa saturada</strong>.</p><p>No es una prescripción individual de 22 g para todo el mundo; sirve para entender la escala. Una sola cucharada de aceite de coco puede acercarse a la mitad de esa referencia.</p><h2>Sustituir importa más que simplemente quitar</h2><p>Reducir mantequilla para reemplazarla por aceite de oliva cambia el perfil de grasa de saturada a mayoritariamente monoinsaturada. Reducirla y sustituirla por un alimento muy rico en azúcar refinado no es el mismo cambio nutricional.</p><h2>La regla práctica</h2><p><strong>Las fuentes más concentradas de saturadas son grasas como coco, mantequilla, palma y manteca, seguidas por alimentos grasos como ciertos chocolates, quesos y nata.</strong> Mira siempre la ración y, sobre todo, qué alimento va a sustituir esa grasa en la dieta.</p>",
   "faq": [
-    {"question": "¿Qué alimento tiene más grasa saturada?", "answer": "Entre grasas habituales, el aceite de coco está muy arriba con aproximadamente 80–85 g de grasa saturada por 100 g."},
-    {"question": "¿El aceite de coco tiene más grasa saturada que la mantequilla?", "answer": "Sí. El aceite de coco ronda 82 g/100 g frente a unos 51 g/100 g en mantequilla; por cucharada son aproximadamente 11–12 g frente a 7 g."},
-    {"question": "¿Cuánta grasa saturada recomienda limitar la OMS?", "answer": "La OMS recomienda mantenerla por debajo del 10 % de la energía total y priorizar su sustitución por grasas insaturadas."}
+    {
+      "question": "¿Qué alimento tiene más grasa saturada?",
+      "answer": "Entre grasas habituales, el aceite de coco está muy arriba con aproximadamente 80–85 g de grasa saturada por 100 g."
+    },
+    {
+      "question": "¿El aceite de coco tiene más grasa saturada que la mantequilla?",
+      "answer": "Sí. El aceite de coco ronda 82 g/100 g frente a unos 51 g/100 g en mantequilla; por cucharada son aproximadamente 11–12 g frente a 7 g."
+    },
+    {
+      "question": "¿Cuánta grasa saturada recomienda limitar la OMS?",
+      "answer": "La OMS recomienda mantenerla por debajo del 10 % de la energía total y priorizar su sustitución por grasas insaturadas."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Perfil de grasa saturada de aceites, mantequilla, chocolate, quesos y nata."},
-    {"name": "World Health Organization — Healthy diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet", "note": "Recomendación de limitar grasas saturadas y sustituirlas por insaturadas."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Perfil de grasa saturada de aceites, mantequilla, chocolate, quesos y nata."
+    },
+    {
+      "name": "World Health Organization — Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "note": "Recomendación de limitar grasas saturadas y sustituirlas por insaturadas."
+    }
   ],
   "image": {
     "concept": "Aceite de coco, mantequilla, chocolate negro, queso curado y nata en raciones pequeñas sobre una mesa, fotografía editorial sin texto.",

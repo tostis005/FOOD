@@ -8,12 +8,50 @@
   "market_context": "United States/general English; USDA composition and NIH vitamin C guidance",
   "title": "Is the orange really the fruit with the most vitamin C?",
   "slug": "is-orange-highest-vitamin-c-fruit",
-  "seo": {"title":"Is orange the fruit with the most vitamin C?","meta_description":"No. Kiwi, guava and some berries can provide more vitamin C than orange per 100 grams and per practical serving.","search_intent":"Check whether oranges actually contain more vitamin C than other fruits."},
+  "seo": {
+    "title": "Is orange the fruit with the most vitamin C?",
+    "meta_description": "No. Kiwi, guava and some berries can provide more vitamin C than orange per 100 grams and per practical serving.",
+    "search_intent": "Check whether oranges actually contain more vitamin C than other fruits."
+  },
   "excerpt": "No. Oranges are an excellent vitamin C source, but they do not top the fruit list. Orange provides about 53 mg per 100 g, green kiwi about 90 mg, and guava can exceed 200 mg per 100 g. Orange is famous because it is common and convenient, not because it holds the record.",
-  "taxonomy": {"food_family":"fruit","food_subcategories":["citrus"],"article_types":["myths-faq","nutrition-composition","comparison"],"primary_article_type":"myths-faq"},
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": [
+      "citrus"
+    ],
+    "article_types": [
+      "myths-faq",
+      "nutrition-composition",
+      "comparisons"
+    ],
+    "primary_article_type": "myths-faq"
+  },
   "content_html": "<p>Orange and vitamin C are almost inseparable in popular nutrition advice, yet the orange is not the highest-vitamin-C fruit. It is simply a very practical source that is widely available and easy to eat.</p><p>For a like-for-like comparison, these are approximate values for fresh fruit per 100 g.</p><table><thead><tr><th>Fruit</th><th>Vitamin C/100 g</th></tr></thead><tbody><tr><td>Guava</td><td>~228 mg</td></tr><tr><td>Green kiwi</td><td>~90 mg</td></tr><tr><td>Strawberries</td><td>~59 mg</td></tr><tr><td>Orange</td><td>~53 mg</td></tr><tr><td>Pineapple</td><td>~48 mg</td></tr><tr><td>Grapefruit</td><td>~31 mg</td></tr></tbody></table><p>Kiwi therefore contains roughly 70% more vitamin C per 100 g than orange, while guava is several times higher.</p><h2>A normal orange is still a meaningful serving</h2><p>A medium orange weighing around 130 g can supply roughly 65–70 mg of vitamin C. Two small kiwis can exceed 100 mg, while a cup of strawberries can also rival or surpass an orange because the serving weighs more than 100 g.</p><h2>Citrus does not own vitamin C</h2><p>Kiwi, guava, berries and several vegetables show why food reputation and nutrient ranking are not the same thing. Vitamin C is also sensitive to prolonged heat and storage, so fresh weight is only one part of the practical picture.</p><h2>The useful conclusion</h2><p>Orange deserves to be called a good vitamin C source. It just should not be described as the fruit with the most. Variety makes more sense than chasing a single winner.</p>",
-  "faq": [{"question":"Which fruits have more vitamin C than oranges?","answer":"Guava and green kiwi are clear examples. Guava can exceed 200 mg/100 g and kiwi is around 90 mg, compared with roughly 53 mg for orange."},{"question":"Does one orange provide a lot of vitamin C?","answer":"Yes. A medium orange can provide about 65–70 mg, which is a substantial contribution to daily needs."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Vitamin C values for fresh fruit."},{"name":"NIH Office of Dietary Supplements — Vitamin C","url":"https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/","note":"Vitamin C requirements and physiology."}],
-  "image": {"concept":"A sliced orange beside kiwi, strawberries and guava in clean editorial food photography, no text.","alt":"Orange compared with fruits higher in vitamin C"},
-  "status":"publish"
+  "faq": [
+    {
+      "question": "Which fruits have more vitamin C than oranges?",
+      "answer": "Guava and green kiwi are clear examples. Guava can exceed 200 mg/100 g and kiwi is around 90 mg, compared with roughly 53 mg for orange."
+    },
+    {
+      "question": "Does one orange provide a lot of vitamin C?",
+      "answer": "Yes. A medium orange can provide about 65–70 mg, which is a substantial contribution to daily needs."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Vitamin C values for fresh fruit."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Vitamin C",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "note": "Vitamin C requirements and physiology."
+    }
+  ],
+  "image": {
+    "concept": "A sliced orange beside kiwi, strawberries and guava in clean editorial food photography, no text.",
+    "alt": "Orange compared with fruits higher in vitamin C"
+  },
+  "status": "publish"
 }

@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-279-salmon-doneness","article_number":279,"translation_group":"279-salmon-doneness","language":"en","locale":"en-US","market_context":"United States/general English; safe salmon cooking and thermometer use","title":"How to tell when salmon is done","slug":"how-to-tell-salmon-done","seo":{"title":"How to tell when salmon is done: temperature and signs","meta_description":"The most reliable check is 145 °F in the thickest part. Without a thermometer, FDA says fish should be opaque and separate easily with a fork.","search_intent":"Learn how to verify salmon doneness without relying only on color."},"excerpt":"FDA and USDA use 145 °F (63 °C) as the safe internal temperature for finfish. Measure in the thickest part of the salmon. Without a thermometer, FDA says cooked fish should be opaque and separate easily with a fork, although temperature is more precise.","taxonomy":{"food_family":"fish-seafood","food_subcategories":["salmon","doneness","food-safety"],"article_types":["cooking-techniques","food-safety"],"primary_article_type":"cooking-techniques"},"content_html":"<p>Salmon color varies with species, feed and cooking method, so there is no single shade that certifies doneness. <strong>The most objective check is 145 °F/63 °C in the thickest part.</strong></p><h2>Where to place the thermometer</h2><p>Insert the probe into the center of the thickest area without touching the pan. For a thin fillet, inserting from the side makes it easier to position the sensing area in the center.</p><h2>What to look for without a thermometer</h2><p>FDA says cooked fish should be <strong>opaque and separate easily with a fork</strong>. That is useful, but less precise than temperature measurement.</p><h2>White albumin is not a doneness gauge</h2><p>The white material on cooked salmon is soluble protein pushed out as muscle contracts. Its amount depends on cooking rate and temperature, so it can appear before or after your desired endpoint.</p><h2>A translucent center needs context</h2><p>Salmon can remain translucent before reaching 145 °F. If following FDA/USDA safety guidance, verify temperature instead of relying only on appearance.</p><h2>A thermometer can also prevent overcooking</h2><p>Once the target is reached, additional cooking increases moisture loss. Measuring gives you a clearer stopping point than waiting for an extreme visual change.</p><h2>Bottom line</h2><p><strong>Use 145 °F in the thickest part as the objective target.</strong> Without a thermometer, look for opaque flesh that separates easily with a fork.</p>","faq":[{"question":"What temperature is salmon done?","answer":"FDA and USDA use 145 °F/63 °C as the safe internal temperature for finfish."},{"question":"How can I tell without a thermometer?","answer":"FDA says fish should become opaque and separate easily with a fork."},{"question":"Does white stuff mean salmon is overcooked?","answer":"Not necessarily. It is protein released during cooking and depends on the cooking conditions."}],"sources":[{"name":"FDA — Selecting and Serving Fresh and Frozen Seafood Safely","url":"https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely","note":"145 °F target and visual doneness signs for fish."},{"name":"FDA — Safe Food Handling","url":"https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling","note":"Minimum internal temperatures for finfish and seafood."}],"image":{"concept":"Cooked salmon fillet with a thermometer inserted sideways into the thickest section, realistic editorial food photography without text.","alt":"Checking salmon doneness with a food thermometer"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-279-salmon-doneness",
+  "article_number": 279,
+  "translation_group": "279-salmon-doneness",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; safe salmon cooking and thermometer use",
+  "title": "How to tell when salmon is done",
+  "slug": "how-to-tell-salmon-done",
+  "seo": {
+    "title": "How to tell when salmon is done: temperature and signs",
+    "meta_description": "The most reliable check is 145 °F in the thickest part. Without a thermometer, FDA says fish should be opaque and separate easily with a fork.",
+    "search_intent": "Learn how to verify salmon doneness without relying only on color."
+  },
+  "excerpt": "FDA and USDA use 145 °F (63 °C) as the safe internal temperature for finfish. Measure in the thickest part of the salmon. Without a thermometer, FDA says cooked fish should be opaque and separate easily with a fork, although temperature is more precise.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": [
+      "salmon",
+      "doneness",
+      "food-safety"
+    ],
+    "article_types": [
+      "cooking-techniques",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p>Salmon color varies with species, feed and cooking method, so there is no single shade that certifies doneness. <strong>The most objective check is 145 °F/63 °C in the thickest part.</strong></p><h2>Where to place the thermometer</h2><p>Insert the probe into the center of the thickest area without touching the pan. For a thin fillet, inserting from the side makes it easier to position the sensing area in the center.</p><h2>What to look for without a thermometer</h2><p>FDA says cooked fish should be <strong>opaque and separate easily with a fork</strong>. That is useful, but less precise than temperature measurement.</p><h2>White albumin is not a doneness gauge</h2><p>The white material on cooked salmon is soluble protein pushed out as muscle contracts. Its amount depends on cooking rate and temperature, so it can appear before or after your desired endpoint.</p><h2>A translucent center needs context</h2><p>Salmon can remain translucent before reaching 145 °F. If following FDA/USDA safety guidance, verify temperature instead of relying only on appearance.</p><h2>A thermometer can also prevent overcooking</h2><p>Once the target is reached, additional cooking increases moisture loss. Measuring gives you a clearer stopping point than waiting for an extreme visual change.</p><h2>Interior color does not replace a thermometer</h2><p>Salmon becomes more opaque and begins to flake as it cooks, but color and texture vary with thickness, species, fat content and method. One pink center may have reached a safe temperature while another that looks similar has not. When the question is safety, measuring the thickest part gives a much more reproducible answer than judging the shade of pink.</p><p><strong>Use 145 °F in the thickest part as the objective target.</strong> Without a thermometer, look for opaque flesh that separates easily with a fork.</p>",
+  "faq": [
+    {
+      "question": "What temperature is salmon done?",
+      "answer": "FDA and USDA use 145 °F/63 °C as the safe internal temperature for finfish."
+    },
+    {
+      "question": "How can I tell without a thermometer?",
+      "answer": "FDA says fish should become opaque and separate easily with a fork."
+    },
+    {
+      "question": "Does white stuff mean salmon is overcooked?",
+      "answer": "Not necessarily. It is protein released during cooking and depends on the cooking conditions."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Selecting and Serving Fresh and Frozen Seafood Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+      "note": "145 °F target and visual doneness signs for fish."
+    },
+    {
+      "name": "FDA — Safe Food Handling",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "note": "Minimum internal temperatures for finfish and seafood."
+    }
+  ],
+  "image": {
+    "concept": "Cooked salmon fillet with a thermometer inserted sideways into the thickest section, realistic editorial food photography without text.",
+    "alt": "Checking salmon doneness with a food thermometer"
+  },
+  "status": "publish"
+}

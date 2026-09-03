@@ -8,12 +8,49 @@
   "market_context": "España/Unión Europea; AESAN y USDA microbiología de congelación",
   "title": "¿Congelar los alimentos mata las bacterias?",
   "slug": "congelar-mata-bacterias",
-  "seo": {"title":"¿Congelar mata las bacterias de los alimentos?","meta_description":"No de forma fiable. Congelar detiene el crecimiento de la mayoría de microorganismos, pero muchos sobreviven y vuelven a multiplicarse tras descongelar.","search_intent":"Entender si el congelador desinfecta los alimentos y qué ocurre con las bacterias al descongelar."},
+  "seo": {
+    "title": "¿Congelar mata las bacterias de los alimentos?",
+    "meta_description": "No de forma fiable. Congelar detiene el crecimiento de la mayoría de microorganismos, pero muchos sobreviven y vuelven a multiplicarse tras descongelar.",
+    "search_intent": "Entender si el congelador desinfecta los alimentos y qué ocurre con las bacterias al descongelar."
+  },
   "excerpt": "No. La congelación doméstica no es un método fiable para matar bacterias. A unos -18 °C se detiene su crecimiento y muchos microorganismos quedan inactivos, pero pueden sobrevivir. Cuando el alimento se descongela, vuelven a multiplicarse si encuentran temperatura y tiempo favorables. Congelar tampoco neutraliza necesariamente toxinas que ya se hubieran formado.",
-  "taxonomy": {"food_family":"general","food_subcategories":["freezing"],"article_types":["food-safety","food-science"],"primary_article_type":"food-safety"},
-  "content_html": "<p>Meter un pollo dudoso en el congelador no lo “esteriliza”. La temperatura baja cambia la actividad de los microorganismos, pero no borra lo que había ocurrido antes.</p><h2>Qué hace realmente -18 °C</h2><p>El agua se congela y las condiciones dejan de permitir el crecimiento normal de bacterias, levaduras y mohos. USDA describe muchos microorganismos como inactivados o en estado latente durante la congelación.</p><h2>Qué ocurre al descongelar</h2><p>Cuando vuelve el agua líquida y aumenta la temperatura, los microorganismos supervivientes pueden recuperar actividad y multiplicarse. Por eso un alimento descongelado debe manejarse con las mismas precauciones que uno fresco.</p><h2>Congelar no corrige un historial inseguro</h2><p>Si la comida estuvo horas a temperatura ambiente, congelarla después no deshace el crecimiento previo ni garantiza eliminar posibles toxinas. La seguridad se decide por toda la cadena de tiempo y temperatura.</p><h2>¿Y los parásitos?</h2><p>Determinados tratamientos de congelación controlados pueden destruir algunos parásitos, pero temperatura y duración importan y un congelador doméstico no debe considerarse una solución universal. Cocción y protocolos específicos siguen siendo necesarios según el alimento.</p><h2>La regla</h2><p><strong>Congelar conserva; no desinfecta.</strong> Úsalo para frenar el crecimiento mientras el alimento todavía es seguro, no para rescatar comida que ya plantea dudas.</p>",
-  "faq": [{"question":"¿La salmonela muere al congelar?","answer":"La congelación puede reducir parte de la población, pero no es un método fiable para eliminar Salmonella; células supervivientes pueden volver a crecer tras descongelar."},{"question":"¿Congelar comida en mal estado la hace segura?","answer":"No. No corrige el crecimiento microbiano ni posibles toxinas producidas antes de congelar."}],
-  "sources": [{"name":"AESAN — Cómo congelo los alimentos","url":"https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/congelar_descongelar.pdf","note":"La congelación detiene el crecimiento bacteriano."},{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"Microorganismos inactivados que pueden reactivarse al descongelar."}],
-  "image": {"concept":"Bacterias conceptuales en un alimento congelado en pausa y reactivándose al descongelar, infografía editorial sin texto.","alt":"Bacterias sobreviviendo a la congelación y reactivándose al descongelar"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "freezing"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-science"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>Meter un pollo dudoso en el congelador no lo “esteriliza”. La temperatura baja cambia la actividad de los microorganismos, pero no borra lo que había ocurrido antes.</p><p>La cocción segura y la higiene siguen siendo necesarias después de descongelar. Y en alimentos listos para comer, donde no habrá una cocción final, es todavía más importante que el producto entrara al congelador en buenas condiciones y se descongele bajo control.</p><h2>Qué hace realmente -18 °C</h2><p>El agua se congela y las condiciones dejan de permitir el crecimiento normal de bacterias, levaduras y mohos. USDA describe muchos microorganismos como inactivados o en estado latente durante la congelación.</p><h2>Qué ocurre al descongelar</h2><p>Cuando vuelve el agua líquida y aumenta la temperatura, los microorganismos supervivientes pueden recuperar actividad y multiplicarse. Por eso un alimento descongelado debe manejarse con las mismas precauciones que uno fresco.</p><h2>Congelar no corrige un historial inseguro</h2><p>Si la comida estuvo horas a temperatura ambiente, congelarla después no deshace el crecimiento previo ni garantiza eliminar posibles toxinas. La seguridad se decide por toda la cadena de tiempo y temperatura.</p><h2>¿Y los parásitos?</h2><p>Determinados tratamientos de congelación controlados pueden destruir algunos parásitos, pero temperatura y duración importan y un congelador doméstico no debe considerarse una solución universal. Cocción y protocolos específicos siguen siendo necesarios según el alimento.</p><p>La diferencia entre “no crecen” y “han muerto” es la clave. Una población bacteriana puede quedar incapaz de multiplicarse mientras el alimento está congelado y volver a crecer cuando recupera temperatura. Por eso el congelador compra tiempo; no reinicia el alimento a un estado microbiológico limpio.</p><h2>La regla</h2><p><strong>Congelar conserva; no desinfecta.</strong> Úsalo para frenar el crecimiento mientras el alimento todavía es seguro, no para rescatar comida que ya plantea dudas.</p>",
+  "faq": [
+    {
+      "question": "¿La salmonela muere al congelar?",
+      "answer": "La congelación puede reducir parte de la población, pero no es un método fiable para eliminar Salmonella; células supervivientes pueden volver a crecer tras descongelar."
+    },
+    {
+      "question": "¿Congelar comida en mal estado la hace segura?",
+      "answer": "No. No corrige el crecimiento microbiano ni posibles toxinas producidas antes de congelar."
+    }
+  ],
+  "sources": [
+    {
+      "name": "AESAN — Cómo congelo los alimentos",
+      "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/congelar_descongelar.pdf",
+      "note": "La congelación detiene el crecimiento bacteriano."
+    },
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "Microorganismos inactivados que pueden reactivarse al descongelar."
+    }
+  ],
+  "image": {
+    "concept": "Bacterias conceptuales en un alimento congelado en pausa y reactivándose al descongelar, infografía editorial sin texto.",
+    "alt": "Bacterias sobreviviendo a la congelación y reactivándose al descongelar"
+  },
+  "status": "publish"
 }

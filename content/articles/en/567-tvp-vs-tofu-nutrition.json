@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-567-tvp-vs-tofu-nutrition","article_number":567,"translation_group":"567-tvp-vs-tofu","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"TVP vs. tofu: nutrition differences","slug":"tvp-vs-tofu-nutrition","seo":{"title":"TVP vs. tofu: protein, fat and fiber","meta_description":"Compare textured soy protein and firm tofu using realistic amounts, including protein, fiber, fat and calcium.","search_intent":"Compare TVP and tofu nutrition"},"excerpt":"TVP is dry and usually defatted; tofu contains far more water and retains more soybean fat. Comparing 100 g dry TVP with 100 g tofu exaggerates the practical difference.","taxonomy":{"food_family":"legumes-soy","food_subcategories":[],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>TVP and tofu both come from soy, but their processing sends them in different directions. <strong>TVP is dry and usually defatted; tofu is water-rich.</strong></p><h2>Why 100 g vs. 100 g misleads</h2><p>100 g dry TVP would provide about 52 g protein in the example; USDA firm tofu provides 17.3 g. That mixes dehydrated and moist foods.</p><h2>A more useful side by side</h2><table><thead><tr><th></th><th>Dry TVP, 23 g</th><th>Firm tofu, 100 g</th></tr></thead><tbody><tr><td>Calories</td><td>80</td><td>144</td></tr><tr><td>Protein</td><td>12 g</td><td>17.3 g</td></tr><tr><td>Fiber</td><td>4 g</td><td>2.3 g</td></tr><tr><td>Fat</td><td>0 g</td><td>8.7 g</td></tr></tbody></table><p>About 33 g dry TVP would deliver roughly 17 g protein, around 115 calories and close to 6 g fiber.</p><h2>Tofu retains more fat</h2><p>The firm tofu reference contains 8.7 g fat/100 g; the TVP example uses defatted soy flour.</p><h2>Calcium can strongly favor tofu</h2><p>Calcium-sulfate tofu can be calcium-rich: 683 mg/100 g in the reference.</p><h2>Different kitchen jobs</h2><p>TVP excels as crumbles; tofu brings moisture and body and can be cubed, scrambled or blended.</p>","faq":[{"question":"Which has more protein?","answer":"Dry TVP is more concentrated, but it is normally hydrated. 23 g dry provides 12 g versus 17.3 g in 100 g firm tofu."},{"question":"Which has more fat?","answer":"The firm tofu reference, 8.7 g/100 g."},{"question":"Which has more fiber?","answer":"Dry TVP is highly concentrated at 4 g per 23 g."},{"question":"Does tofu have more calcium?","answer":"It can, especially when calcium sulfate is used."}],"sources":[{"name":"Bob's Red Mill — TVP","url":"https://www.bobsredmill.com/product/tvp-textured-veg-protein","note":"Dry serving values."},{"name":"USDA FoodData Central — firm tofu","url":"https://fdc.nal.usda.gov/fdc-app.html#/food-details/172475/nutrients","note":"Protein, fat, fiber and calcium."}],"image":{"concept":"Dry TVP hydrating beside a block of tofu.","alt":"TVP and tofu compared while accounting for water content"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-567-tvp-vs-tofu-nutrition",
+  "article_number": 567,
+  "translation_group": "567-tvp-vs-tofu",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "TVP vs. tofu: nutrition differences",
+  "slug": "tvp-vs-tofu-nutrition",
+  "seo": {
+    "title": "TVP vs. tofu: protein, fat and fiber",
+    "meta_description": "Compare textured soy protein and firm tofu using realistic amounts, including protein, fiber, fat and calcium.",
+    "search_intent": "Compare TVP and tofu nutrition"
+  },
+  "excerpt": "TVP is dry and usually defatted; tofu contains far more water and retains more soybean fat. Comparing 100 g dry TVP with 100 g tofu exaggerates the practical difference.",
+  "taxonomy": {
+    "food_family": "legumes-soy",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>TVP and tofu both come from soy, but their processing sends them in different directions. <strong>TVP is dry and usually defatted; tofu is water-rich.</strong></p><h2>Why 100 g vs. 100 g misleads</h2><p>100 g dry TVP would provide about 52 g protein in the example; USDA firm tofu provides 17.3 g. That mixes dehydrated and moist foods.</p><h2>A more useful side by side</h2><table><thead><tr><th></th><th>Dry TVP, 23 g</th><th>Firm tofu, 100 g</th></tr></thead><tbody><tr><td>Calories</td><td>80</td><td>144</td></tr><tr><td>Protein</td><td>12 g</td><td>17.3 g</td></tr><tr><td>Fiber</td><td>4 g</td><td>2.3 g</td></tr><tr><td>Fat</td><td>0 g</td><td>8.7 g</td></tr></tbody></table><p>About 33 g dry TVP would deliver roughly 17 g protein, around 115 calories and close to 6 g fiber.</p><h2>Tofu retains more fat</h2><p>The firm tofu reference contains 8.7 g fat/100 g; the TVP example uses defatted soy flour.</p><h2>Calcium can strongly favor tofu</h2><p>Calcium-sulfate tofu can be calcium-rich: 683 mg/100 g in the reference.</p><h2>The difference is not only protein</h2><p>TVP starts from defatted, dried soy flour, while tofu retains much more water and more of soy's natural fat. That processing difference is why dry TVP looks extraordinarily concentrated per 100 g while tofu has a much lower energy density at the same weight.</p><p>In a real meal, the two can fill different roles. TVP works well in sauces and fillings when concentrated protein and a mince-like texture are useful; tofu contributes volume, fat and its own texture. Choosing between them makes more sense in the context of the whole dish than by declaring a universal winner.</p><h2>Different kitchen jobs</h2><p>TVP excels as crumbles; tofu brings moisture and body and can be cubed, scrambled or blended.</p>",
+  "faq": [
+    {
+      "question": "Which has more protein?",
+      "answer": "Dry TVP is more concentrated, but it is normally hydrated. 23 g dry provides 12 g versus 17.3 g in 100 g firm tofu."
+    },
+    {
+      "question": "Which has more fat?",
+      "answer": "The firm tofu reference, 8.7 g/100 g."
+    },
+    {
+      "question": "Which has more fiber?",
+      "answer": "Dry TVP is highly concentrated at 4 g per 23 g."
+    },
+    {
+      "question": "Does tofu have more calcium?",
+      "answer": "It can, especially when calcium sulfate is used."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Bob's Red Mill — TVP",
+      "url": "https://www.bobsredmill.com/product/tvp-textured-veg-protein",
+      "note": "Dry serving values."
+    },
+    {
+      "name": "USDA FoodData Central — firm tofu",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/172475/nutrients",
+      "note": "Protein, fat, fiber and calcium."
+    }
+  ],
+  "image": {
+    "concept": "Dry TVP hydrating beside a block of tofu.",
+    "alt": "TVP and tofu compared while accounting for water content"
+  },
+  "status": "publish"
+}

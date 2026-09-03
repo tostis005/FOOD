@@ -15,21 +15,49 @@
   },
   "excerpt": "Linoleic-acid-rich oils contain the most polyunsaturated fat by weight; conventional sunflower oil can be around 65 g per 100 g. Among whole foods, walnuts provide roughly 47 g/100 g, with flax and chia also ranking high. But the total hides an important distinction: sunflower oil is mostly omega-6, while flax and chia are notable for ALA, a plant omega-3.",
   "taxonomy": {
-    "food_family": "fats-oils",
-    "food_subcategories": ["nuts", "seeds", "oils"],
-    "article_types": ["ranking", "nutrition-composition"],
-    "primary_article_type": "ranking"
+    "food_family": "oils-fats",
+    "food_subcategories": [
+      "nuts",
+      "seeds",
+      "oils"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
   },
   "content_html": "<p>“Polyunsaturated fat” describes fatty acids with more than one double bond, but nutritionally there is a critical split: <strong>omega-6 and omega-3 are not the same thing</strong>. A ranking that adds them together can identify the highest total while hiding which family dominates.</p><h2>Foods that concentrate polyunsaturated fat</h2><table><thead><tr><th>Food</th><th>PUFA/100 g</th><th>Serving</th><th>PUFA/serving</th><th>Dominant profile</th></tr></thead><tbody><tr><td>Conventional sunflower oil</td><td>~65 g</td><td>1 tbsp</td><td>~9 g</td><td>Omega-6</td></tr><tr><td>Soybean oil</td><td>~58 g</td><td>1 tbsp</td><td>~8 g</td><td>Omega-6 + some ALA</td></tr><tr><td>Walnuts</td><td>~47 g</td><td>1 oz</td><td>~13 g</td><td>Omega-6 + ALA</td></tr><tr><td>Flaxseed</td><td>~29 g</td><td>20 g</td><td>~5.8 g</td><td>ALA omega-3</td></tr><tr><td>Chia seeds</td><td>~24 g</td><td>20 g</td><td>~4.8 g</td><td>ALA omega-3</td></tr><tr><td>Sunflower seeds</td><td>~23 g</td><td>1 oz</td><td>~6.5 g</td><td>Omega-6</td></tr></tbody></table><p>An ounce of walnuts can provide more total polyunsaturated fat than a tablespoon of oil. But if the question is specifically plant omega-3, flax and chia jump upward because much of their PUFA is ALA.</p><h2>Omega-6: linoleic acid dominates many oils and seeds</h2><p>Linoleic acid is an essential omega-6 fatty acid, meaning the body must obtain it from the diet. Conventional sunflower, soybean and corn oils, walnuts and many seeds provide substantial amounts.</p><p>Being rich in omega-6 does not automatically make a food “inflammatory.” Dietary guidance supports replacing saturated fat with polyunsaturated fat, including linoleic acid.</p><h2>ALA: the main plant omega-3</h2><p>Flax, chia and walnuts provide alpha-linolenic acid (ALA). Twenty grams of flax can supply roughly 4.5–5 g of ALA, while 20 g of chia provides around 3.5–4 g.</p><p>The body can convert some ALA to EPA and DHA, but conversion is limited. ALA grams should therefore not be treated as nutritionally identical to marine EPA and DHA grams.</p><h2>Fatty fish does not win on total PUFA</h2><p>Salmon can contain less total polyunsaturated fat per 100 g than walnuts and still be a much more direct source of EPA and DHA. That is why total “PUFA” is not enough when the real goal is omega-3.</p><h2>Servings prevent a distorted comparison</h2><p>One hundred grams of oil is more than seven tablespoons and nearly 900 calories. One tablespoon is far more useful. Nuts and seeds likewise make more sense in 1-ounce or 20–30 g portions.</p><h2>The practical answer</h2><p>For <strong>total polyunsaturated fat</strong>, linoleic-rich oils and walnuts rank high. For <strong>ALA omega-3</strong>, flax and chia are much more important. For <strong>EPA and DHA</strong>, look to fish and seafood rather than this plant-focused ranking.</p>",
   "faq": [
-    {"question": "What foods are highest in polyunsaturated fat?", "answer": "Linoleic-rich oils such as conventional sunflower oil and foods such as walnuts, flax, chia and sunflower seeds rank high."},
-    {"question": "Are polyunsaturated fats the same as omega-3?", "answer": "No. Some are omega-3, but linoleic acid is omega-6 while ALA, EPA and DHA belong to the omega-3 family."},
-    {"question": "Do flax and chia contain EPA and DHA?", "answer": "They mainly contain ALA. The body converts only a limited amount to EPA and DHA, so they are not direct equivalents to marine omega-3."}
+    {
+      "question": "What foods are highest in polyunsaturated fat?",
+      "answer": "Linoleic-rich oils such as conventional sunflower oil and foods such as walnuts, flax, chia and sunflower seeds rank high."
+    },
+    {
+      "question": "Are polyunsaturated fats the same as omega-3?",
+      "answer": "No. Some are omega-3, but linoleic acid is omega-6 while ALA, EPA and DHA belong to the omega-3 family."
+    },
+    {
+      "question": "Do flax and chia contain EPA and DHA?",
+      "answer": "They mainly contain ALA. The body converts only a limited amount to EPA and DHA, so they are not direct equivalents to marine omega-3."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Polyunsaturated-fat profiles of oils, walnuts and seeds."},
-    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "ALA, EPA, DHA and plant omega-3 conversion."},
-    {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/", "note": "Context for replacing saturated fats with unsaturated fats."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Polyunsaturated-fat profiles of oils, walnuts and seeds."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "note": "ALA, EPA, DHA and plant omega-3 conversion."
+    },
+    {
+      "name": "Dietary Guidelines for Americans",
+      "url": "https://www.dietaryguidelines.gov/",
+      "note": "Context for replacing saturated fats with unsaturated fats."
+    }
   ],
   "image": {
     "concept": "Sunflower oil, walnuts, flaxseed, chia and sunflower seeds in small containers, clean editorial food photography, no text.",

@@ -1,1 +1,53 @@
-{"schema_version":1,"id":"en-463-dark-milk-chocolate","article_number":463,"translation_group":"463-dark-vs-milk-chocolate","language":"en","locale":"en-US","market_context":"United States; approximate comparison of 70–85% dark chocolate and milk chocolate.","title":"Dark Chocolate vs. Milk Chocolate: Sugar, Fat, and Cocoa","slug":"dark-vs-milk-chocolate","seo":{"title":"Dark Chocolate vs. Milk Chocolate: Key Differences","meta_description":"Dark chocolate 70–85% usually has much less sugar and more cocoa than milk chocolate, but not fewer calories. Both are often around 550–600 calories per 100 g.","search_intent":"Compare dark and milk chocolate for sugar, fat, cocoa, calories, and minerals."},"excerpt":"Dark chocolate usually contains more cocoa mass and less sugar, but it is not a low-calorie food. A 70–85% dark chocolate may be around 600 calories and 20–30 g sugar per 100 g, while milk chocolate is often near 530–550 calories and about 50 g sugar. Brands vary substantially.","taxonomy":{"food_family":"cocoa-sweets","food_subcategories":[],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>“Dark” does not automatically mean “light.” <strong>As cocoa percentage rises, sugar usually falls, but cocoa solids and cocoa butter rise—and those ingredients are calorie-dense.</strong></p><h2>Typical comparison per 100 g</h2><table><thead><tr><th></th><th>70–85% dark</th><th>Milk chocolate</th></tr></thead><tbody><tr><td>Calories</td><td>~590–610</td><td>~530–550</td></tr><tr><td>Sugars</td><td>~20–30 g</td><td>~45–55 g</td></tr><tr><td>Fat</td><td>~40–45 g</td><td>~30–32 g</td></tr><tr><td>Fiber</td><td>~10–11 g</td><td>~3 g</td></tr></tbody></table><p>Exact bars can differ a lot even within the same cocoa percentage.</p><h2>More cocoa means more cocoa-derived nutrients</h2><p>Higher cocoa solids generally bring more fiber, magnesium, iron, and cocoa polyphenols. Processing changes flavanol content, so cocoa percentage cannot tell you an exact flavanol number.</p><h2>Milk chocolate adds milk and usually more sugar</h2><p>It can provide somewhat more calcium from milk ingredients, but its cocoa concentration is usually lower and sugar often makes up a larger share of the bar.</p><h2>Serving size matters more than small calorie differences</h2><p>A 20 g serving of chocolate at 600 calories per 100 g provides about 120 calories. Eating 60 g instead of 20 g changes total energy far more than choosing one style over another.</p><p><strong>For less sugar and more cocoa, high-cocoa dark chocolate generally wins; for calories, neither is a low-energy food and portion size matters most.</strong></p>","faq":[{"question":"Does dark chocolate have fewer calories?","answer":"Not necessarily. It can contain slightly more because it often has more cocoa fat."},{"question":"Does dark chocolate have less sugar?","answer":"Usually yes, especially at 70–85% cocoa compared with milk chocolate."},{"question":"Is 85% always healthier than 70%?","answer":"Not automatically. It generally has more cocoa and less sugar, but overall diet and portion size still matter."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/food-search/","note":"Composition data for dark and milk chocolate."}],"image":{"concept":"Pieces of 85% dark, 70% dark, and milk chocolate arranged in a row, realistic editorial food photography, no text.","alt":"Dark and milk chocolate compared"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-463-dark-milk-chocolate",
+  "article_number": 463,
+  "translation_group": "463-dark-vs-milk-chocolate",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; approximate comparison of 70–85% dark chocolate and milk chocolate.",
+  "title": "Dark Chocolate vs. Milk Chocolate: Sugar, Fat, and Cocoa",
+  "slug": "dark-vs-milk-chocolate",
+  "seo": {
+    "title": "Dark Chocolate vs. Milk Chocolate: Key Differences",
+    "meta_description": "Dark chocolate 70–85% usually has much less sugar and more cocoa than milk chocolate, but not fewer calories. Both are often around 550–600 calories per 100 g.",
+    "search_intent": "Compare dark and milk chocolate for sugar, fat, cocoa, calories, and minerals."
+  },
+  "excerpt": "Dark chocolate usually contains more cocoa mass and less sugar, but it is not a low-calorie food. A 70–85% dark chocolate may be around 600 calories and 20–30 g sugar per 100 g, while milk chocolate is often near 530–550 calories and about 50 g sugar. Brands vary substantially.",
+  "taxonomy": {
+    "food_family": "cocoa-sweets",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>“Dark” does not automatically mean “light.” <strong>As cocoa percentage rises, sugar usually falls, but cocoa solids and cocoa butter rise—and those ingredients are calorie-dense.</strong></p><h2>Typical comparison per 100 g</h2><table><thead><tr><th></th><th>70–85% dark</th><th>Milk chocolate</th></tr></thead><tbody><tr><td>Calories</td><td>~590–610</td><td>~530–550</td></tr><tr><td>Sugars</td><td>~20–30 g</td><td>~45–55 g</td></tr><tr><td>Fat</td><td>~40–45 g</td><td>~30–32 g</td></tr><tr><td>Fiber</td><td>~10–11 g</td><td>~3 g</td></tr></tbody></table><p>Exact bars can differ a lot even within the same cocoa percentage.</p><h2>More cocoa means more cocoa-derived nutrients</h2><p>Higher cocoa solids generally bring more fiber, magnesium, iron, and cocoa polyphenols. Processing changes flavanol content, so cocoa percentage cannot tell you an exact flavanol number.</p><h2>Milk chocolate adds milk and usually more sugar</h2><p>It can provide somewhat more calcium from milk ingredients, but its cocoa concentration is usually lower and sugar often makes up a larger share of the bar.</p><h2>Cocoa percentage is a clue, but the label decides</h2><p>Two products sold as dark chocolate can contain very different proportions of cocoa and sugar, just as two milk chocolates can. More cocoa usually leaves less room for sugar, but recipes also vary in cocoa butter, milk ingredients and other components.</p><p>The table is therefore representative rather than a rule for every bar. To understand a specific product, check grams of sugars and fat plus cocoa percentage on the label and translate them into the portion you actually eat.</p><h2>Serving size matters more than small calorie differences</h2><p>A 20 g serving of chocolate at 600 calories per 100 g provides about 120 calories. Eating 60 g instead of 20 g changes total energy far more than choosing one style over another.</p><p><strong>For less sugar and more cocoa, high-cocoa dark chocolate generally wins; for calories, neither is a low-energy food and portion size matters most.</strong></p>",
+  "faq": [
+    {
+      "question": "Does dark chocolate have fewer calories?",
+      "answer": "Not necessarily. It can contain slightly more because it often has more cocoa fat."
+    },
+    {
+      "question": "Does dark chocolate have less sugar?",
+      "answer": "Usually yes, especially at 70–85% cocoa compared with milk chocolate."
+    },
+    {
+      "question": "Is 85% always healthier than 70%?",
+      "answer": "Not automatically. It generally has more cocoa and less sugar, but overall diet and portion size still matter."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/food-search/",
+      "note": "Composition data for dark and milk chocolate."
+    }
+  ],
+  "image": {
+    "concept": "Pieces of 85% dark, 70% dark, and milk chocolate arranged in a row, realistic editorial food photography, no text.",
+    "alt": "Dark and milk chocolate compared"
+  },
+  "status": "publish"
+}

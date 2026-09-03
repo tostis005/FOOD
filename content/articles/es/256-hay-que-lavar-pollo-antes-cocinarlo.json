@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-256-lavar-pollo-antes-cocinar","article_number":256,"translation_group":"256-wash-chicken-before-cooking","language":"es","locale":"es-ES","market_context":"España/Unión Europea; manipulación doméstica de pollo crudo y prevención de contaminación cruzada","title":"¿Hay que lavar el pollo antes de cocinarlo?","slug":"hay-que-lavar-pollo-antes-cocinarlo","seo":{"title":"¿Hay que lavar el pollo antes de cocinarlo?","meta_description":"No. Lavar pollo crudo no elimina las bacterias y puede dispersarlas por fregadero, encimera y otros alimentos. La medida eficaz es cocinarlo a 74 °C.","search_intent":"Saber si conviene lavar pollo crudo y cómo manipularlo sin aumentar el riesgo de contaminación cruzada."},"excerpt":"Lavar pollo crudo no lo hace más seguro. USDA desaconseja enjuagar, lavar o remojar aves porque las salpicaduras pueden trasladar bacterias a fregadero, encimeras, utensilios y alimentos listos para comer. La seguridad se consigue con buena higiene y una cocción de al menos 74 °C en el centro.","taxonomy":{"food_family":"meat","food_subcategories":["chicken","cross-contamination","food-safety"],"article_types":["food-safety","cooking-techniques"],"primary_article_type":"food-safety"},"content_html":"<p>El agua del grifo no esteriliza una pechuga. <strong>Lavar pollo crudo no es una medida de seguridad y puede aumentar la contaminación cruzada en la cocina.</strong></p><h2>Por qué el lavado puede empeorar el problema</h2><p>USDA ha observado que al enjuagar aves crudas las gotas pueden dispersar microorganismos hacia el fregadero, grifo, encimera, utensilios o alimentos cercanos. El problema no es solo el pollo: son todas las superficies que toca el agua contaminada.</p><h2>Agua, vinagre o limón no sustituyen la cocción</h2><p>Remojar en agua, vinagre, sal o limón puede formar parte de una costumbre culinaria, pero no destruye de forma fiable los microorganismos que preocupan en seguridad alimentaria. USDA indica que lavar, enjuagar o remojar no es necesario.</p><h2>La barrera eficaz es la temperatura</h2><p>El pollo debe alcanzar <strong>74 °C/165 °F</strong> en la parte más gruesa, medidos con termómetro. Esa cocción sí está diseñada para reducir los microorganismos patógenos a niveles seguros.</p><h2>Qué hacer en vez de lavarlo</h2><ul><li>Abre el envase sin salpicar sus jugos.</li><li>Si quieres una superficie seca para dorar, sécala con papel de cocina y desecha el papel inmediatamente.</li><li>Lávate las manos con agua y jabón después de tocar pollo crudo.</li><li>Limpia utensilios y superficies que hayan estado en contacto con el pollo.</li><li>Mantén el pollo y sus jugos lejos de alimentos que se comerán sin cocción.</li></ul><h2>¿Y si ya lo he lavado?</h2><p>No significa que la comida esté perdida. Limpia y desinfecta fregadero, grifo, encimera y cualquier objeto alcanzado por las salpicaduras; lávate las manos y continúa con una cocción correcta.</p><h2>La idea útil</h2><p><strong>No laves el pollo para hacerlo seguro.</strong> Evita salpicaduras y contaminación cruzada y comprueba la temperatura interna durante la cocción.</p>","faq":[{"question":"¿El vinagre mata las bacterias del pollo?","answer":"No de forma fiable como método doméstico de seguridad. La cocción a temperatura adecuada es la barrera efectiva."},{"question":"¿Puedo secar el pollo con papel?","answer":"Sí, si quieres mejorar el dorado. Desecha el papel y lávate las manos después para evitar contaminación cruzada."},{"question":"¿A qué temperatura debe llegar el pollo?","answer":"A al menos 74 °C en la parte más gruesa, medidos con termómetro alimentario."}],"sources":[{"name":"USDA FSIS — Washing Food: Does it Promote Food Safety?","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/washing-food-does-it-promote-food","note":"Desaconseja lavar carne y aves por el riesgo de contaminación cruzada."},{"name":"USDA FSIS — Is it necessary to rinse, soak, or brine chicken to make it safe?","url":"https://ask.fsis.usda.gov/article/Is-it-necessary-to-rinse-soak-or-brine-chicken-to-make-it-safe","note":"No es necesario lavar, enjuagar o remojar pollo; las bacterias se destruyen con la cocción."}],"image":{"concept":"Pollo crudo junto a un fregadero limpio con símbolo visual de no salpicar, fotografía editorial sin texto.","alt":"Pollo crudo preparado sin lavarlo en el fregadero"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-256-lavar-pollo-antes-cocinar",
+  "article_number": 256,
+  "translation_group": "256-wash-chicken-before-cooking",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; manipulación doméstica de pollo crudo y prevención de contaminación cruzada",
+  "title": "¿Hay que lavar el pollo antes de cocinarlo?",
+  "slug": "hay-que-lavar-pollo-antes-cocinarlo",
+  "seo": {
+    "title": "¿Hay que lavar el pollo antes de cocinarlo?",
+    "meta_description": "No. Lavar pollo crudo no elimina las bacterias y puede dispersarlas por fregadero, encimera y otros alimentos. La medida eficaz es cocinarlo a 74 °C.",
+    "search_intent": "Saber si conviene lavar pollo crudo y cómo manipularlo sin aumentar el riesgo de contaminación cruzada."
+  },
+  "excerpt": "Lavar pollo crudo no lo hace más seguro. USDA desaconseja enjuagar, lavar o remojar aves porque las salpicaduras pueden trasladar bacterias a fregadero, encimeras, utensilios y alimentos listos para comer. La seguridad se consigue con buena higiene y una cocción de al menos 74 °C en el centro.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "chicken",
+      "cross-contamination",
+      "food-safety"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>El agua del grifo no esteriliza una pechuga. <strong>Lavar pollo crudo no es una medida de seguridad y puede aumentar la contaminación cruzada en la cocina.</strong></p><h2>Por qué el lavado puede empeorar el problema</h2><p>USDA ha observado que al enjuagar aves crudas las gotas pueden dispersar microorganismos hacia el fregadero, grifo, encimera, utensilios o alimentos cercanos. El problema no es solo el pollo: son todas las superficies que toca el agua contaminada.</p><h2>Agua, vinagre o limón no sustituyen la cocción</h2><p>Remojar en agua, vinagre, sal o limón puede formar parte de una costumbre culinaria, pero no destruye de forma fiable los microorganismos que preocupan en seguridad alimentaria. USDA indica que lavar, enjuagar o remojar no es necesario.</p><h2>La barrera eficaz es la temperatura</h2><p>El pollo debe alcanzar <strong>74 °C/165 °F</strong> en la parte más gruesa, medidos con termómetro. Esa cocción sí está diseñada para reducir los microorganismos patógenos a niveles seguros.</p><h2>Qué hacer en vez de lavarlo</h2><ul><li>Abre el envase sin salpicar sus jugos.</li><li>Si quieres una superficie seca para dorar, sécala con papel de cocina y desecha el papel inmediatamente.</li><li>Lávate las manos con agua y jabón después de tocar pollo crudo.</li><li>Limpia utensilios y superficies que hayan estado en contacto con el pollo.</li><li>Mantén el pollo y sus jugos lejos de alimentos que se comerán sin cocción.</li></ul><h2>¿Y si ya lo he lavado?</h2><p>No significa que la comida esté perdida. Limpia y desinfecta fregadero, grifo, encimera y cualquier objeto alcanzado por las salpicaduras; lávate las manos y continúa con una cocción correcta.</p><h2>El agua no elimina el riesgo y sí puede moverlo</h2><p>El problema de lavar pollo crudo no es que el agua vuelva más peligrosa la carne, sino que gotas y salpicaduras pueden llevar microorganismos desde su superficie al fregadero, encimera, utensilios o alimentos listos para comer. La cocción completa es la etapa diseñada para reducir ese riesgo. Si hay líquido visible en el envase, se puede retirar con cuidado sin convertir el fregadero en una zona de lavado de carne.</p><p><strong>No laves el pollo para hacerlo seguro.</strong> Evita salpicaduras y contaminación cruzada y comprueba la temperatura interna durante la cocción.</p>",
+  "faq": [
+    {
+      "question": "¿El vinagre mata las bacterias del pollo?",
+      "answer": "No de forma fiable como método doméstico de seguridad. La cocción a temperatura adecuada es la barrera efectiva."
+    },
+    {
+      "question": "¿Puedo secar el pollo con papel?",
+      "answer": "Sí, si quieres mejorar el dorado. Desecha el papel y lávate las manos después para evitar contaminación cruzada."
+    },
+    {
+      "question": "¿A qué temperatura debe llegar el pollo?",
+      "answer": "A al menos 74 °C en la parte más gruesa, medidos con termómetro alimentario."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Washing Food: Does it Promote Food Safety?",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/washing-food-does-it-promote-food",
+      "note": "Desaconseja lavar carne y aves por el riesgo de contaminación cruzada."
+    },
+    {
+      "name": "USDA FSIS — Is it necessary to rinse, soak, or brine chicken to make it safe?",
+      "url": "https://ask.fsis.usda.gov/article/Is-it-necessary-to-rinse-soak-or-brine-chicken-to-make-it-safe",
+      "note": "No es necesario lavar, enjuagar o remojar pollo; las bacterias se destruyen con la cocción."
+    }
+  ],
+  "image": {
+    "concept": "Pollo crudo junto a un fregadero limpio con símbolo visual de no salpicar, fotografía editorial sin texto.",
+    "alt": "Pollo crudo preparado sin lavarlo en el fregadero"
+  },
+  "status": "publish"
+}

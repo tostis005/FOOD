@@ -16,19 +16,42 @@
   "excerpt": "In a 1-ounce serving, almonds provide about 164 calories, 6 g of protein and 3.5 g of fiber; walnuts provide about 185 calories, 4.3 g of protein and 1.9 g of fiber. Walnuts, however, provide roughly 2.5 g of ALA omega-3, while almonds are far richer in vitamin E. Neither wins every category.",
   "taxonomy": {
     "food_family": "nuts-seeds",
-    "food_subcategories": ["almonds", "walnuts"],
-    "article_types": ["comparison", "nutrition-composition"],
-    "primary_article_type": "comparison"
+    "food_subcategories": [
+      "almonds",
+      "walnuts"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
   },
   "content_html": "<p>Almonds and walnuts sit in the same grocery aisle and share the same typical serving size, but their nutrition is not a small variation on the same nut. <strong>Almonds contain more protein, fiber and vitamin E; walnuts have a much more polyunsaturated fat profile and provide ALA omega-3.</strong></p><h2>Equal 1-ounce serving comparison</h2><table><thead><tr><th>Nutrient</th><th>Almonds 1 oz</th><th>Walnuts 1 oz</th></tr></thead><tbody><tr><td>Calories</td><td>~164</td><td>~185</td></tr><tr><td>Protein</td><td>~6 g</td><td>~4.3 g</td></tr><tr><td>Total fat</td><td>~14 g</td><td>~18.5 g</td></tr><tr><td>Fiber</td><td>~3.5 g</td><td>~1.9 g</td></tr><tr><td>Monounsaturated fat</td><td>~9 g</td><td>~2.5 g</td></tr><tr><td>Polyunsaturated fat</td><td>~3.5 g</td><td>~13 g</td></tr><tr><td>ALA omega-3</td><td>Trace</td><td>~2.5 g</td></tr></tbody></table><p>The calorie gap is only about 20 calories per serving, much less dramatic than comparing 579 calories per 100 g of almonds with 654 per 100 g of walnuts.</p><h2>For protein and fiber, almonds lead</h2><p>Almonds provide roughly 1.7 g more protein and about 1.6 g more fiber per ounce. Relative to walnuts, that is around 40% more protein and close to twice the fiber.</p><p>That does not make almonds a protein equivalent to meat, fish or legumes; it simply makes them more protein-dense within this comparison.</p><h2>For ALA omega-3, walnuts are in another category</h2><p>One ounce of walnuts provides roughly 2.5 g of alpha-linolenic acid. Almonds provide very little.</p><p>ALA is an essential omega-3, but it is not EPA or DHA. The body converts only a limited portion to these longer-chain forms.</p><h2>Monounsaturated versus polyunsaturated</h2><p>Almond fat is dominated by monounsaturated oleic acid—about 9 g per serving. Walnuts are dominated by polyunsaturated fat, with roughly 13 g per ounce.</p><p>Both profiles are mostly unsaturated; they are different, not opposites.</p><h2>Vitamin E creates another large difference</h2><p>One ounce of almonds provides around 7 mg of vitamin E. Walnuts provide much less alpha-tocopherol, the form used for the vitamin E requirement.</p><p>If vitamin E is the specific target within nuts, almonds are far more concentrated.</p><h2>Walnuts need slightly more storage care</h2><p>Their high polyunsaturated-fat content makes walnuts more susceptible to oxidation and rancidity. Heat, light and oxygen speed the process.</p><p>Both nuts benefit from airtight storage, but walnuts especially benefit from cool storage or refrigeration when kept for longer periods.</p><h2>So which is better?</h2><p>For protein, fiber and vitamin E: <strong>almonds</strong>. For ALA omega-3 and a more polyunsaturated fat profile: <strong>walnuts</strong>. A varied diet can use both instead of turning a real nutritional difference into an unnecessary either-or decision.</p><p>Either serving is still a concentrated food at roughly 160–190 calories, so portion size matters more than declaring an absolute winner.</p>",
   "faq": [
-    {"question": "Which has more protein, almonds or walnuts?", "answer": "Almonds: about 6 g per ounce versus roughly 4.3 g in walnuts."},
-    {"question": "Which has more omega-3?", "answer": "Walnuts, with about 2.5 g of ALA per ounce. Almonds provide only very small amounts."},
-    {"question": "Which has more fiber?", "answer": "Almonds: about 3.5 g per ounce versus roughly 1.9 g in walnuts."}
+    {
+      "question": "Which has more protein, almonds or walnuts?",
+      "answer": "Almonds: about 6 g per ounce versus roughly 4.3 g in walnuts."
+    },
+    {
+      "question": "Which has more omega-3?",
+      "answer": "Walnuts, with about 2.5 g of ALA per ounce. Almonds provide only very small amounts."
+    },
+    {
+      "question": "Which has more fiber?",
+      "answer": "Almonds: about 3.5 g per ounce versus roughly 1.9 g in walnuts."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Calories, protein, fiber, vitamin E and fatty-acid profiles of almonds and walnuts."},
-    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "ALA and its conversion to EPA/DHA."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Calories, protein, fiber, vitamin E and fatty-acid profiles of almonds and walnuts."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "note": "ALA and its conversion to EPA/DHA."
+    }
   ],
   "image": {
     "concept": "Equal one-ounce portions of almonds and walnuts side by side on a small kitchen scale, clean editorial food photography, no text.",

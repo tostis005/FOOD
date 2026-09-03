@@ -8,12 +8,54 @@
   "market_context": "United States/general English; USDA composition and NIH iron guidance",
   "title": "The best iron sources without meat",
   "slug": "best-iron-sources-without-meat",
-  "seo": {"title":"Best iron sources without meat","meta_description":"Lentils, tofu, beans, pumpkin seeds, fortified cereals, and some shellfish provide iron without meat. Plant iron is non-heme and absorbs less efficiently.","search_intent":"Find high-iron foods without meat and learn how serving size and absorption affect the comparison."},
+  "seo": {
+    "title": "Best iron sources without meat",
+    "meta_description": "Lentils, tofu, beans, pumpkin seeds, fortified cereals, and some shellfish provide iron without meat. Plant iron is non-heme and absorbs less efficiently.",
+    "search_intent": "Find high-iron foods without meat and learn how serving size and absorption affect the comparison."
+  },
   "excerpt": "You can get substantial iron without meat. Cooked lentils provide about 3.3 mg per 100 g, beans roughly 2.5–3.7 mg, many tofu products about 2–5 mg, and 1 oz pumpkin seeds about 2.5 mg. Plant foods provide non-heme iron, which is absorbed less efficiently than heme iron, so vitamin-C-rich foods can improve absorption.",
-  "taxonomy": {"food_family":"general","food_subcategories":["iron","plant-protein"],"article_types":["nutrition-composition","ranking"],"primary_article_type":"nutrition-composition"},
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "iron",
+      "plant-protein"
+    ],
+    "article_types": [
+      "nutrition-composition",
+      "rankings"
+    ],
+    "primary_article_type": "nutrition-composition"
+  },
   "content_html": "<p>Removing meat does not remove iron from the diet, but it changes the form of iron you rely on. <strong>Legumes, tofu, seeds, and fortified foods can provide several milligrams per serving</strong>, although most of that iron is non-heme and is less efficiently absorbed.</p><h2>Useful plant sources by serving</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Iron</th></tr></thead><tbody><tr><td>Cooked lentils</td><td>~1 cup / 200 g</td><td>~6.6 mg</td></tr><tr><td>Cooked beans</td><td>~1 cup / 180 g</td><td>~4.5–6.5 mg</td></tr><tr><td>Firm tofu</td><td>5.3 oz / 150 g</td><td>~3–7 mg</td></tr><tr><td>Pumpkin seeds</td><td>1 oz</td><td>~2.5 mg</td></tr><tr><td>Cooked chickpeas</td><td>~1 cup / 200 g</td><td>~5.8 mg</td></tr><tr><td>Fortified cereal</td><td>1 serving</td><td>Highly variable</td></tr></tbody></table><p>Tofu and fortified cereals vary enough that the package label is often more useful than one database number.</p><h2>Vitamin C helps non-heme iron</h2><p>Plant iron is more affected by the rest of the meal than heme iron from animal foods. Vitamin C can substantially increase non-heme iron absorption.</p><p>Lentils with bell pepper, tomatoes, citrus, or berries therefore make nutritional sense beyond the raw milligram count.</p><h2>Phytates, tea, and coffee can lower absorption</h2><p>Legumes, whole grains, nuts, and seeds contain phytates that can bind minerals. Tea and coffee contain polyphenols that can also reduce non-heme iron absorption when consumed with a meal.</p><p>Cooking, soaking, and fermentation reduce some phytates, and separating tea or coffee from an iron-focused meal may help.</p><h2>If “without meat” includes shellfish, the picture changes</h2><p>Clams, mussels, and oysters can provide large amounts of iron, including heme iron. They are not vegetarian foods, but they are technically meat-free in some people's usage, so it is useful to keep that interpretation separate from plant-only sources.</p><h2>The useful takeaway</h2><p><strong>Lentils, beans, chickpeas, tofu, seeds, and fortified foods can provide plenty of iron without meat</strong>. Pairing plant sources with vitamin C and eating a varied diet matters more than chasing a single highest number.</p>",
-  "faq": [{"question":"What plant food is highest in iron?","answer":"Legumes, tofu, pumpkin seeds, and fortified foods are among the most useful by serving, but exact values vary by product and preparation."},{"question":"Is iron from lentils absorbed as well as iron from meat?","answer":"No. Lentil iron is non-heme and is absorbed less efficiently; vitamin C can improve absorption."},{"question":"Do coffee and tea reduce iron absorption?","answer":"Their polyphenols can reduce non-heme iron absorption when consumed with an iron-rich meal."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Iron content of legumes, tofu, and seeds."},{"name":"NIH Office of Dietary Supplements — Iron","url":"https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/","note":"Heme/non-heme iron and absorption factors."}],
-  "image": {"concept":"Lentils, beans, tofu, chickpeas, and pumpkin seeds beside red bell pepper and citrus, clean editorial food photography without text.","alt":"Iron-rich foods without meat paired with vitamin-C-rich produce"},
-  "status":"publish"
+  "faq": [
+    {
+      "question": "What plant food is highest in iron?",
+      "answer": "Legumes, tofu, pumpkin seeds, and fortified foods are among the most useful by serving, but exact values vary by product and preparation."
+    },
+    {
+      "question": "Is iron from lentils absorbed as well as iron from meat?",
+      "answer": "No. Lentil iron is non-heme and is absorbed less efficiently; vitamin C can improve absorption."
+    },
+    {
+      "question": "Do coffee and tea reduce iron absorption?",
+      "answer": "Their polyphenols can reduce non-heme iron absorption when consumed with an iron-rich meal."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Iron content of legumes, tofu, and seeds."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Iron",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "note": "Heme/non-heme iron and absorption factors."
+    }
+  ],
+  "image": {
+    "concept": "Lentils, beans, tofu, chickpeas, and pumpkin seeds beside red bell pepper and citrus, clean editorial food photography without text.",
+    "alt": "Iron-rich foods without meat paired with vitamin-C-rich produce"
+  },
+  "status": "publish"
 }

@@ -15,20 +15,44 @@
   },
   "excerpt": "Oils lead by concentration because they are almost pure fat: olive oil provides roughly 70–75 g of monounsaturated fat per 100 g. Among whole foods, macadamias, hazelnuts, pecans and almonds stand out. In real portions, a tablespoon of olive oil provides about 10 g of monounsaturated fat and an ounce of macadamias about 17 g.",
   "taxonomy": {
-    "food_family": "fats-oils",
-    "food_subcategories": ["olive-oil", "nuts", "avocado"],
-    "article_types": ["ranking", "nutrition-composition"],
-    "primary_article_type": "ranking"
+    "food_family": "oils-fats",
+    "food_subcategories": [
+      "olive-oil",
+      "nuts",
+      "avocado"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
   },
   "content_html": "<p>If foods are ranked by monounsaturated fat per 100 g, oils inevitably take the top spots because almost all of their weight is fat. That does not make 100 g of avocado and 100 g of oil comparable servings.</p><p>The useful comparison needs both <strong>concentration and portion size</strong>.</p><h2>Foods that concentrate monounsaturated fat</h2><table><thead><tr><th>Food</th><th>MUFA/100 g</th><th>Serving</th><th>MUFA/serving</th></tr></thead><tbody><tr><td>Olive oil</td><td>~73 g</td><td>1 tbsp (14 g)</td><td>~10 g</td></tr><tr><td>Macadamias</td><td>~59 g</td><td>1 oz</td><td>~17 g</td></tr><tr><td>Hazelnuts</td><td>~46 g</td><td>1 oz</td><td>~13 g</td></tr><tr><td>Pecans</td><td>~41 g</td><td>1 oz</td><td>~12 g</td></tr><tr><td>Almonds</td><td>~32 g</td><td>1 oz</td><td>~9 g</td></tr><tr><td>Pistachios</td><td>~23 g</td><td>1 oz</td><td>~6.5 g</td></tr><tr><td>Avocado</td><td>~10 g</td><td>100 g</td><td>~10 g</td></tr></tbody></table><p>Avocado looks much lower on a 100 g ranking, yet a 100 g portion supplies about as much monounsaturated fat as a tablespoon of olive oil. The avocado also contains water, fiber and structure; oil is concentrated fat.</p><h2>Oleic acid is the main player</h2><p>The dominant monounsaturated fatty acid in olive oil is oleic acid. It also makes up a large share of the fat in avocado, macadamias, hazelnuts and almonds.</p><p>“Monounsaturated” describes chemical structure—one double bond—not a claim that every food in the table is nutritionally interchangeable.</p><h2>A serving of nuts can exceed a tablespoon of oil</h2><p>An ounce of macadamias provides about 17 g of monounsaturated fat, compared with roughly 10 g in a tablespoon of olive oil. The nuts also provide some protein and fiber and about 200 calories; the tablespoon of oil provides roughly 120 calories.</p><p>The better choice depends on what role the food plays in the meal, not simply which number is largest.</p><h2>Monounsaturated does not mean unlimited</h2><p>Dietary guidance favors replacing saturated fats with unsaturated fats, but all fat still provides around 9 calories per gram. Replacing butter with olive oil can improve fat quality; adding oil on top of everything else also raises total energy.</p><h2>Which sources are easiest to use?</h2><p>Olive oil is a straightforward way to replace more saturated cooking fats. Nuts provide monounsaturated fats in a solid food that also contains fiber and protein. Avocado delivers them with much more water and volume.</p><p><strong>There is no single practical winner: the best source depends on what it replaces and how much you use.</strong></p>",
   "faq": [
-    {"question": "What food has the most monounsaturated fat?", "answer": "Oils rich in oleic acid rank highest by weight. Olive oil provides roughly 70–75 g of monounsaturated fat per 100 g."},
-    {"question": "How much monounsaturated fat is in a tablespoon of olive oil?", "answer": "A 14 g tablespoon provides about 10 g of monounsaturated fat."},
-    {"question": "Is avocado high in monounsaturated fat?", "answer": "Yes. A 100 g serving provides about 10 g, though avocado contains much more water than oil or nuts."}
+    {
+      "question": "What food has the most monounsaturated fat?",
+      "answer": "Oils rich in oleic acid rank highest by weight. Olive oil provides roughly 70–75 g of monounsaturated fat per 100 g."
+    },
+    {
+      "question": "How much monounsaturated fat is in a tablespoon of olive oil?",
+      "answer": "A 14 g tablespoon provides about 10 g of monounsaturated fat."
+    },
+    {
+      "question": "Is avocado high in monounsaturated fat?",
+      "answer": "Yes. A 100 g serving provides about 10 g, though avocado contains much more water than oil or nuts."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Fatty-acid profiles of oils, nuts and avocado."},
-    {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/", "note": "Context for replacing saturated fats with unsaturated fats."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Fatty-acid profiles of oils, nuts and avocado."
+    },
+    {
+      "name": "Dietary Guidelines for Americans",
+      "url": "https://www.dietaryguidelines.gov/",
+      "note": "Context for replacing saturated fats with unsaturated fats."
+    }
   ],
   "image": {
     "concept": "Olive oil, macadamias, hazelnuts, almonds and avocado arranged together, clean editorial food photography, no text.",

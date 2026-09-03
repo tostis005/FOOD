@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-283-gambas-malas-senales","article_number":283,"translation_group":"283-how-to-tell-shrimp-bad","language":"es","locale":"es-ES","market_context":"España/Unión Europea; selección y deterioro de gambas crudas o cocinadas","title":"Cómo saber si unas gambas están malas","slug":"como-saber-si-gambas-estan-malas","seo":{"title":"Cómo saber si unas gambas están malas: olor y textura","meta_description":"Las gambas frescas deben tener carne firme, clara o perlada y poco olor. Olor agrio, rancio, muy pescado o amoniacal es una señal clara para desecharlas.","search_intent":"Reconocer señales de deterioro en gambas y saber cuándo no deben comerse."},"excerpt":"FDA describe gambas frescas con carne clara de aspecto perlado y poco o ningún olor. Los mariscos estropeados pueden desarrollar olores agrios, rancios, intensamente a pescado o amoniacales, que suelen hacerse más fuertes al cocinar. El olor no reemplaza los límites de conservación: crudas deben usarse o congelarse en 1–2 días.","taxonomy":{"food_family":"fish-seafood","food_subcategories":["shrimp","spoilage","food-safety"],"article_types":["food-safety","buying-quality-ripeness"],"primary_article_type":"food-safety"},"content_html":"<p>Las gambas tienen un olor marino suave, pero no deberían oler a amoníaco ni resultar desagradablemente “a pescado”. <strong>FDA describe la carne fresca como clara, perlada, firme y con poco o ningún olor.</strong></p><h2>El olor es una señal importante</h2><p>FDA advierte que el marisco deteriorado puede desarrollar olores <strong>agrios, rancios, intensamente a pescado o amoniacales</strong>. Esos olores pueden hacerse todavía más fuertes después de cocinar.</p><p>Si aparece olor amoniacal en gambas cocinadas, aunque sea fugaz o persistente, FDA indica que no deben comerse.</p><h2>La textura también ayuda</h2><p>Una gamba fresca debe tener carne firme. Una textura muy blanda, pastosa o una superficie claramente viscosa junto con olor anormal refuerzan la sospecha de deterioro.</p><h2>El color por sí solo no decide</h2><p>Especies, dieta, cocción y cambios en pigmentos pueden alterar el tono. Más adelante pueden aparecer manchas oscuras por melanosis sin que eso equivalga automáticamente a putrefacción; por eso color aislado es menos útil que olor, textura y conservación.</p><h2>Respeta el plazo aunque parezcan normales</h2><p>USDA recomienda mantener pescado y marisco crudos solo <strong>1–2 días</strong> en una nevera a 4 °C o menos antes de cocinar o congelar. Una apariencia normal no amplía ese margen.</p><h2>Qué buscar al comprar</h2><p>Además de carne perlada y firme, compra gambas refrigeradas o sobre una cama abundante de hielo. En congeladas, evita envases abiertos, dañados o con grandes cristales de hielo que sugieran descongelaciones previas o almacenamiento prolongado.</p><h2>La idea útil</h2><p><strong>Olor agrio, rancio o amoniacal es la señal más clara de descarte.</strong> Combínalo con textura, cadena de frío y tiempo de almacenamiento; no pruebes una gamba sospechosa para decidir.</p>","faq":[{"question":"¿A qué deben oler unas gambas frescas?","answer":"A poco o nada, con un aroma marino suave; no deberían oler agrio, rancio, intensamente a pescado o a amoníaco."},{"question":"¿Una gamba blanda está mala?","answer":"La carne fresca debe ser firme. Una textura muy blanda o viscosa, sobre todo con olor anormal, es una señal de deterioro."},{"question":"¿Cuánto duran crudas en la nevera?","answer":"USDA recomienda cocinar o congelar el marisco crudo dentro de 1–2 días a 4 °C o menos."}],"sources":[{"name":"FDA — Selecting and Serving Fresh and Frozen Seafood Safely","url":"https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely","note":"Aspecto de gambas frescas y olores de deterioro en marisco."},{"name":"USDA FSIS — How long can you store fish?","url":"https://ask.fsis.usda.gov/article/How-long-can-you-store-fish","note":"Marisco crudo: 1–2 días refrigerado antes de cocinar o congelar."}],"image":{"concept":"Gambas frescas firmes y perladas junto a un segundo grupo de aspecto deteriorado, fotografía editorial sin texto.","alt":"Gambas frescas comparadas con señales de deterioro"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-283-gambas-malas-senales",
+  "article_number": 283,
+  "translation_group": "283-how-to-tell-shrimp-bad",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; selección y deterioro de gambas crudas o cocinadas",
+  "title": "Cómo saber si unas gambas están malas",
+  "slug": "como-saber-si-gambas-estan-malas",
+  "seo": {
+    "title": "Cómo saber si unas gambas están malas: olor y textura",
+    "meta_description": "Las gambas frescas deben tener carne firme, clara o perlada y poco olor. Olor agrio, rancio, muy pescado o amoniacal es una señal clara para desecharlas.",
+    "search_intent": "Reconocer señales de deterioro en gambas y saber cuándo no deben comerse."
+  },
+  "excerpt": "FDA describe gambas frescas con carne clara de aspecto perlado y poco o ningún olor. Los mariscos estropeados pueden desarrollar olores agrios, rancios, intensamente a pescado o amoniacales, que suelen hacerse más fuertes al cocinar. El olor no reemplaza los límites de conservación: crudas deben usarse o congelarse en 1–2 días.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": [
+      "shrimp",
+      "spoilage",
+      "food-safety"
+    ],
+    "article_types": [
+      "food-safety",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>Las gambas tienen un olor marino suave, pero no deberían oler a amoníaco ni resultar desagradablemente “a pescado”. <strong>FDA describe la carne fresca como clara, perlada, firme y con poco o ningún olor.</strong></p><h2>El olor es una señal importante</h2><p>FDA advierte que el marisco deteriorado puede desarrollar olores <strong>agrios, rancios, intensamente a pescado o amoniacales</strong>. Esos olores pueden hacerse todavía más fuertes después de cocinar.</p><p>Si aparece olor amoniacal en gambas cocinadas, aunque sea fugaz o persistente, FDA indica que no deben comerse.</p><h2>La textura también ayuda</h2><p>Una gamba fresca debe tener carne firme. Una textura muy blanda, pastosa o una superficie claramente viscosa junto con olor anormal refuerzan la sospecha de deterioro.</p><h2>El color por sí solo no decide</h2><p>Especies, dieta, cocción y cambios en pigmentos pueden alterar el tono. Más adelante pueden aparecer manchas oscuras por melanosis sin que eso equivalga automáticamente a putrefacción; por eso color aislado es menos útil que olor, textura y conservación.</p><h2>Respeta el plazo aunque parezcan normales</h2><p>USDA recomienda mantener pescado y marisco crudos solo <strong>1–2 días</strong> en una nevera a 4 °C o menos antes de cocinar o congelar. Una apariencia normal no amplía ese margen.</p><h2>Qué buscar al comprar</h2><p>Además de carne perlada y firme, compra gambas refrigeradas o sobre una cama abundante de hielo. En congeladas, evita envases abiertos, dañados o con grandes cristales de hielo que sugieran descongelaciones previas o almacenamiento prolongado.</p><h2>Marisco fresco huele a mar; el deterioro cambia más que el olor</h2><p>Un aroma claramente amoniacal, agrio o desagradable es una señal de descarte, pero también importa la textura. Gambas viscosas, excesivamente blandas o con una superficie anormalmente pegajosa han perdido calidad de forma marcada. Aun así, ninguna prueba sensorial prolonga un plazo de almacenamiento que ya se ha superado: tiempo y temperatura siguen siendo la base de la decisión.</p><p><strong>Olor agrio, rancio o amoniacal es la señal más clara de descarte.</strong> Combínalo con textura, cadena de frío y tiempo de almacenamiento; no pruebes una gamba sospechosa para decidir.</p>",
+  "faq": [
+    {
+      "question": "¿A qué deben oler unas gambas frescas?",
+      "answer": "A poco o nada, con un aroma marino suave; no deberían oler agrio, rancio, intensamente a pescado o a amoníaco."
+    },
+    {
+      "question": "¿Una gamba blanda está mala?",
+      "answer": "La carne fresca debe ser firme. Una textura muy blanda o viscosa, sobre todo con olor anormal, es una señal de deterioro."
+    },
+    {
+      "question": "¿Cuánto duran crudas en la nevera?",
+      "answer": "USDA recomienda cocinar o congelar el marisco crudo dentro de 1–2 días a 4 °C o menos."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Selecting and Serving Fresh and Frozen Seafood Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+      "note": "Aspecto de gambas frescas y olores de deterioro en marisco."
+    },
+    {
+      "name": "USDA FSIS — How long can you store fish?",
+      "url": "https://ask.fsis.usda.gov/article/How-long-can-you-store-fish",
+      "note": "Marisco crudo: 1–2 días refrigerado antes de cocinar o congelar."
+    }
+  ],
+  "image": {
+    "concept": "Gambas frescas firmes y perladas junto a un segundo grupo de aspecto deteriorado, fotografía editorial sin texto.",
+    "alt": "Gambas frescas comparadas con señales de deterioro"
+  },
+  "status": "publish"
+}

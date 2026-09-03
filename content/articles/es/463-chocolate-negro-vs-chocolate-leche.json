@@ -1,1 +1,53 @@
-{"schema_version":1,"id":"es-463-chocolate-negro-leche","article_number":463,"translation_group":"463-dark-vs-milk-chocolate","language":"es","locale":"es-ES","market_context":"España/Unión Europea; comparación orientativa de chocolate negro 70–85% y chocolate con leche por 100 g y ración.","title":"Chocolate negro vs. chocolate con leche: azúcar, grasa y cacao","slug":"chocolate-negro-vs-chocolate-leche","seo":{"title":"Chocolate negro vs. chocolate con leche: diferencias","meta_description":"El chocolate negro 70–85% suele tener bastante menos azúcar y más cacao que el chocolate con leche, pero no necesariamente menos calorías: ambos rondan 550–600 kcal/100 g.","search_intent":"Comparar chocolate negro y con leche en azúcar, grasa, cacao, calorías y minerales."},"excerpt":"El chocolate negro suele contener más pasta de cacao y menos azúcar, pero no es un alimento bajo en calorías. Un negro 70–85% puede rondar 600 kcal y 20–30 g de azúcares por 100 g; uno con leche suele estar cerca de 530–550 kcal y 50 g de azúcares. Las marcas varían mucho.","taxonomy":{"food_family":"cocoa-sweets","food_subcategories":[],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>“Negro” no significa automáticamente “ligero”. <strong>Al subir el porcentaje de cacao suele bajar el azúcar, pero aumenta la proporción de pasta y manteca de cacao, que son energéticamente densas.</strong></p><h2>Comparación típica por 100 g</h2><table><thead><tr><th></th><th>Negro 70–85%</th><th>Con leche</th></tr></thead><tbody><tr><td>Energía</td><td>~590–610 kcal</td><td>~530–550 kcal</td></tr><tr><td>Azúcares</td><td>~20–30 g</td><td>~45–55 g</td></tr><tr><td>Grasa</td><td>~40–45 g</td><td>~30–32 g</td></tr><tr><td>Fibra</td><td>~10–11 g</td><td>~3 g</td></tr></tbody></table><p>Son cifras orientativas. Un chocolate 70% y uno 85% pueden diferir bastante, igual que dos chocolates con leche.</p><h2>Más cacao significa más compuestos del cacao</h2><p>Al aumentar los sólidos de cacao suelen aumentar fibra, magnesio, hierro y flavanoles. Sin embargo, el procesado y la variedad afectan mucho a los flavanoles, por lo que el porcentaje de cacao no permite saber exactamente cuántos quedan.</p><h2>El chocolate con leche añade leche y normalmente más azúcar</h2><p>Aporta algo más de calcio y proteína láctea, pero suele tener una concentración menor de cacao. En muchas tabletas el azúcar es el primer ingrediente.</p><h2>La ración cambia la escala</h2><p>20 g de chocolate negro a 600 kcal/100 g aportan unas 120 kcal. La diferencia entre comer 20 g y 60 g es mayor que la diferencia energética entre negro y con leche.</p><p><strong>Si buscas menos azúcar y más cacao, gana el negro alto en cacao; si la pregunta es calorías, ninguno es “light” y la cantidad manda.</strong></p>","faq":[{"question":"¿El chocolate negro tiene menos calorías?","answer":"No necesariamente. Puede tener incluso algo más porque contiene más grasa de cacao."},{"question":"¿Tiene menos azúcar?","answer":"Normalmente sí. Un 70–85% suele aportar bastante menos azúcar que un chocolate con leche."},{"question":"¿El 85% es siempre mejor que el 70%?","answer":"No de forma automática. Tiene más cacao y menos azúcar en general, pero el sabor, la ración y la composición concreta también importan."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/food-search/","note":"Composición de chocolate negro y chocolate con leche."}],"image":{"concept":"Onzas de chocolate negro 85%, 70% y chocolate con leche colocadas en fila, fotografía editorial realista, sin texto.","alt":"Chocolate negro y chocolate con leche comparados"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-463-chocolate-negro-leche",
+  "article_number": 463,
+  "translation_group": "463-dark-vs-milk-chocolate",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; comparación orientativa de chocolate negro 70–85% y chocolate con leche por 100 g y ración.",
+  "title": "Chocolate negro vs. chocolate con leche: azúcar, grasa y cacao",
+  "slug": "chocolate-negro-vs-chocolate-leche",
+  "seo": {
+    "title": "Chocolate negro vs. chocolate con leche: diferencias",
+    "meta_description": "El chocolate negro 70–85% suele tener bastante menos azúcar y más cacao que el chocolate con leche, pero no necesariamente menos calorías: ambos rondan 550–600 kcal/100 g.",
+    "search_intent": "Comparar chocolate negro y con leche en azúcar, grasa, cacao, calorías y minerales."
+  },
+  "excerpt": "El chocolate negro suele contener más pasta de cacao y menos azúcar, pero no es un alimento bajo en calorías. Un negro 70–85% puede rondar 600 kcal y 20–30 g de azúcares por 100 g; uno con leche suele estar cerca de 530–550 kcal y 50 g de azúcares. Las marcas varían mucho.",
+  "taxonomy": {
+    "food_family": "cocoa-sweets",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>“Negro” no significa automáticamente “ligero”. <strong>Al subir el porcentaje de cacao suele bajar el azúcar, pero aumenta la proporción de pasta y manteca de cacao, que son energéticamente densas.</strong></p><h2>Comparación típica por 100 g</h2><table><thead><tr><th></th><th>Negro 70–85%</th><th>Con leche</th></tr></thead><tbody><tr><td>Energía</td><td>~590–610 kcal</td><td>~530–550 kcal</td></tr><tr><td>Azúcares</td><td>~20–30 g</td><td>~45–55 g</td></tr><tr><td>Grasa</td><td>~40–45 g</td><td>~30–32 g</td></tr><tr><td>Fibra</td><td>~10–11 g</td><td>~3 g</td></tr></tbody></table><p>Son cifras orientativas. Un chocolate 70% y uno 85% pueden diferir bastante, igual que dos chocolates con leche.</p><h2>Más cacao significa más compuestos del cacao</h2><p>Al aumentar los sólidos de cacao suelen aumentar fibra, magnesio, hierro y flavanoles. Sin embargo, el procesado y la variedad afectan mucho a los flavanoles, por lo que el porcentaje de cacao no permite saber exactamente cuántos quedan.</p><h2>El chocolate con leche añade leche y normalmente más azúcar</h2><p>Aporta algo más de calcio y proteína láctea, pero suele tener una concentración menor de cacao. En muchas tabletas el azúcar es el primer ingrediente.</p><h2>El porcentaje de cacao orienta, pero la etiqueta decide</h2><p>Dos chocolates “negros” pueden tener proporciones de cacao y azúcar muy distintas, igual que dos chocolates con leche. Un porcentaje mayor de cacao suele dejar menos espacio para azúcar, pero la receta también cambia la cantidad de manteca de cacao, leche y otros ingredientes.</p><p>Por eso la comparación de la tabla es representativa, no una regla para cualquier tableta. Si quieres saber cuánto cambia tu producto concreto, mira gramos de azúcares, grasa y cacao en la etiqueta y tradúcelos a la porción que realmente comes.</p><h2>La ración cambia la escala</h2><p>20 g de chocolate negro a 600 kcal/100 g aportan unas 120 kcal. La diferencia entre comer 20 g y 60 g es mayor que la diferencia energética entre negro y con leche.</p><p><strong>Si buscas menos azúcar y más cacao, gana el negro alto en cacao; si la pregunta es calorías, ninguno es “light” y la cantidad manda.</strong></p>",
+  "faq": [
+    {
+      "question": "¿El chocolate negro tiene menos calorías?",
+      "answer": "No necesariamente. Puede tener incluso algo más porque contiene más grasa de cacao."
+    },
+    {
+      "question": "¿Tiene menos azúcar?",
+      "answer": "Normalmente sí. Un 70–85% suele aportar bastante menos azúcar que un chocolate con leche."
+    },
+    {
+      "question": "¿El 85% es siempre mejor que el 70%?",
+      "answer": "No de forma automática. Tiene más cacao y menos azúcar en general, pero el sabor, la ración y la composición concreta también importan."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/food-search/",
+      "note": "Composición de chocolate negro y chocolate con leche."
+    }
+  ],
+  "image": {
+    "concept": "Onzas de chocolate negro 85%, 70% y chocolate con leche colocadas en fila, fotografía editorial realista, sin texto.",
+    "alt": "Chocolate negro y chocolate con leche comparados"
+  },
+  "status": "publish"
+}

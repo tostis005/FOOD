@@ -1,1 +1,56 @@
-{"schema_version":1,"id":"en-158-raw-vs-cooked-tomato-lycopene","article_number":158,"translation_group":"158-raw-vs-cooked-tomato-lycopene","language":"en","locale":"en-US","market_context":"United States/general English; USDA composition and carotenoid bioavailability","title":"Raw vs. cooked tomato: what happens to lycopene?","slug":"raw-vs-cooked-tomato-lycopene","seo":{"title":"Raw vs. cooked tomato: lycopene and vitamins","meta_description":"Cooking tomato can lower vitamin C but break the plant matrix and make lycopene more bioavailable. Dietary fat also improves carotenoid absorption.","search_intent":"Understand why cooked tomato can improve lycopene availability despite losses of heat-sensitive vitamins."},"excerpt":"Cooking tomato does not create lycopene, but it can make the pigment more bioavailable by disrupting cell walls and changing its physical form. Vitamin C and other heat-sensitive compounds can decline at the same time. Eating tomato with some fat, such as olive oil, also supports absorption of fat-soluble carotenoids.","taxonomy":{"food_family":"vegetables","food_subcategories":["tomato"],"article_types":["comparison","food-science"],"primary_article_type":"comparison"},"content_html":"<p>Tomatoes show why “raw preserves more nutrients” is too simple a rule. <strong>Heat can reduce vitamin C while making lycopene easier to absorb.</strong> Cooking does not manufacture lycopene: it disrupts the plant matrix, changes some of the pigment's physical forms, and—when tomato is concentrated—raises the amount per 100 g because there is less water.</p><h2>Total lycopene and bioavailability are different questions</h2><p>A USDA reference for raw red tomato contains roughly <strong>2.6 mg lycopene per 100 g</strong>. Tomato paste can approach <strong>29 mg per 100 g</strong>. That more-than-tenfold gap does not mean heat created lycopene; paste concentrates the solids from multiple tomatoes into far less water.</p><p>Then comes a second question: how much of that lycopene can be absorbed. Crushing and heating disrupt cell structures that otherwise trap carotenoids, and processing can increase cis forms that are incorporated more readily into digestive micelles.</p><h2>Fat in the meal can change absorption substantially</h2><p>Lycopene is fat-soluble. In one human study, people ate cooked tomatoes for five days. The group consuming the tomatoes with olive oil had an approximately <strong>82% increase in plasma trans-lycopene and a 40% increase in cis-lycopene</strong>. The group eating cooked tomatoes without oil had no significant increase in trans-lycopene and about a 15% increase in cis-lycopene.</p><p>That study used a specific meal with 25 mL olive oil, so it does not establish a required amount for everyday cooking. It does clearly show that the food matrix and dietary fat affect lycopene availability.</p><h2>Vitamin C moves in the opposite direction</h2><p>The raw tomato reference provides about <strong>13.7 mg vitamin C per 100 g</strong>. Vitamin C is heat-sensitive and can also be lost into cooking liquid, so prolonged cooking generally reduces it.</p><p>That is why “Is cooked tomato more nutritious?” has no single answer. The result depends on which nutrient you care about.</p><h2>Tomato sauce is not one nutritional product</h2><p>Homemade cooked tomato and commercial pasta sauce may both provide lycopene, but packaged sauces can also bring added sodium, sugar, or oil. Their labels still matter.</p><h2>The practical takeaway</h2><p><strong>Raw and cooked tomatoes are complementary.</strong> Raw tomato is useful for vitamin C, freshness, and volume; sauce, roasted tomato, and sofrito make lycopene more accessible, especially when the meal contains some fat. You do not need to choose one form exclusively.</p>","faq":[{"question":"Does cooked tomato contain more lycopene?","answer":"It may be more concentrated per 100 g when water is lost, but the key effect is improved bioavailability rather than heat creating lycopene."},{"question":"Does olive oil help?","answer":"Yes. Dietary fat helps absorb lycopene and other fat-soluble carotenoids."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Raw and cooked tomato composition."},{"name":"PubMed — Tomatoes cooked with olive oil and plasma lycopene","url":"https://pubmed.ncbi.nlm.nih.gov/15927929/","note":"Human intervention on olive oil and lycopene absorption."}],"image":{"concept":"Fresh tomatoes beside cooked tomato sauce with a small amount of olive oil, clean editorial food photography without text.","alt":"Raw and cooked tomato compared for lycopene"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-158-raw-vs-cooked-tomato-lycopene",
+  "article_number": 158,
+  "translation_group": "158-raw-vs-cooked-tomato-lycopene",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and carotenoid bioavailability",
+  "title": "Raw vs. cooked tomato: what happens to lycopene?",
+  "slug": "raw-vs-cooked-tomato-lycopene",
+  "seo": {
+    "title": "Raw vs. cooked tomato: lycopene and vitamins",
+    "meta_description": "Cooking tomato can lower vitamin C but break the plant matrix and make lycopene more bioavailable. Dietary fat also improves carotenoid absorption.",
+    "search_intent": "Understand why cooked tomato can improve lycopene availability despite losses of heat-sensitive vitamins."
+  },
+  "excerpt": "Cooking tomato does not create lycopene, but it can make the pigment more bioavailable by disrupting cell walls and changing its physical form. Vitamin C and other heat-sensitive compounds can decline at the same time. Eating tomato with some fat, such as olive oil, also supports absorption of fat-soluble carotenoids.",
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [
+      "tomato"
+    ],
+    "article_types": [
+      "comparisons",
+      "cooking-science"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Tomatoes show why “raw preserves more nutrients” is too simple a rule. <strong>Heat can reduce vitamin C while making lycopene easier to absorb.</strong> Cooking does not manufacture lycopene: it disrupts the plant matrix, changes some of the pigment's physical forms, and—when tomato is concentrated—raises the amount per 100 g because there is less water.</p><h2>Total lycopene and bioavailability are different questions</h2><p>A USDA reference for raw red tomato contains roughly <strong>2.6 mg lycopene per 100 g</strong>. Tomato paste can approach <strong>29 mg per 100 g</strong>. That more-than-tenfold gap does not mean heat created lycopene; paste concentrates the solids from multiple tomatoes into far less water.</p><p>Then comes a second question: how much of that lycopene can be absorbed. Crushing and heating disrupt cell structures that otherwise trap carotenoids, and processing can increase cis forms that are incorporated more readily into digestive micelles.</p><h2>Fat in the meal can change absorption substantially</h2><p>Lycopene is fat-soluble. In one human study, people ate cooked tomatoes for five days. The group consuming the tomatoes with olive oil had an approximately <strong>82% increase in plasma trans-lycopene and a 40% increase in cis-lycopene</strong>. The group eating cooked tomatoes without oil had no significant increase in trans-lycopene and about a 15% increase in cis-lycopene.</p><p>That study used a specific meal with 25 mL olive oil, so it does not establish a required amount for everyday cooking. It does clearly show that the food matrix and dietary fat affect lycopene availability.</p><h2>Vitamin C moves in the opposite direction</h2><p>The raw tomato reference provides about <strong>13.7 mg vitamin C per 100 g</strong>. Vitamin C is heat-sensitive and can also be lost into cooking liquid, so prolonged cooking generally reduces it.</p><p>That is why “Is cooked tomato more nutritious?” has no single answer. The result depends on which nutrient you care about.</p><h2>Tomato sauce is not one nutritional product</h2><p>Homemade cooked tomato and commercial pasta sauce may both provide lycopene, but packaged sauces can also bring added sodium, sugar, or oil. Their labels still matter.</p><h2>The practical takeaway</h2><p><strong>Raw and cooked tomatoes are complementary.</strong> Raw tomato is useful for vitamin C, freshness, and volume; sauce, roasted tomato, and sofrito make lycopene more accessible, especially when the meal contains some fat. You do not need to choose one form exclusively.</p>",
+  "faq": [
+    {
+      "question": "Does cooked tomato contain more lycopene?",
+      "answer": "It may be more concentrated per 100 g when water is lost, but the key effect is improved bioavailability rather than heat creating lycopene."
+    },
+    {
+      "question": "Does olive oil help?",
+      "answer": "Yes. Dietary fat helps absorb lycopene and other fat-soluble carotenoids."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Raw and cooked tomato composition."
+    },
+    {
+      "name": "PubMed — Tomatoes cooked with olive oil and plasma lycopene",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/15927929/",
+      "note": "Human intervention on olive oil and lycopene absorption."
+    }
+  ],
+  "image": {
+    "concept": "Fresh tomatoes beside cooked tomato sauce with a small amount of olive oil, clean editorial food photography without text.",
+    "alt": "Raw and cooked tomato compared for lycopene"
+  },
+  "status": "publish"
+}

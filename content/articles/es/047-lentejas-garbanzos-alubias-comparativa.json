@@ -15,19 +15,39 @@
   },
   "excerpt": "Lentejas, garbanzos y alubias se parecen más de lo que sugiere su fama: cocidas aportan alrededor de 8–9 g de proteína por 100 g. Los garbanzos concentran más calorías; las lentejas suelen destacar algo más en hierro y las alubias pueden variar bastante según el tipo.",
   "taxonomy": {
-    "food_family": "legumes",
-    "food_subcategories": ["lentils", "chickpeas", "beans"],
-    "article_types": ["comparisons", "nutrition-composition"],
+    "food_family": "legumes-soy",
+    "food_subcategories": [
+      "lentils",
+      "chickpeas",
+      "beans"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
     "primary_article_type": "comparisons"
   },
   "content_html": "<p>Lentejas, garbanzos y alubias suelen presentarse como si cada una tuviera una función nutricional muy distinta. Cuando se comparan en el mismo estado —cocidas y escurridas— las diferencias se vuelven bastante más pequeñas.</p><p><strong>Las tres rondan 8–9 g de proteína por 100 g y aportan mucha fibra.</strong> Los garbanzos son algo más energéticos; las lentejas suelen aportar algo más de hierro; las alubias cambian según la variedad.</p><h2>Comparación por 100 g cocidos</h2><table><thead><tr><th>Legumbre</th><th>kcal</th><th>Proteína</th><th>Fibra</th><th>Hierro</th></tr></thead><tbody><tr><td>Lentejas</td><td>116</td><td>9,0 g</td><td>7,9 g</td><td>3,3 mg</td></tr><tr><td>Garbanzos</td><td>164</td><td>8,9 g</td><td>7,6 g</td><td>2,9 mg</td></tr><tr><td>Alubias rojas</td><td>127</td><td>8,7 g</td><td>6,4 g</td><td>2,9 mg</td></tr></tbody></table><p>La proteína apenas cambia: entre 8,7 y 9,0 g por 100 g. La diferencia energética sí es mayor: los garbanzos aportan unas 48 kcal más que las lentejas y 37 más que las alubias rojas por la misma cantidad cocida.</p><h2>Por proteína, prácticamente empatan</h2><p>Una ración de 200 g aporta alrededor de 18 g de proteína con lentejas, 17,8 g con garbanzos y 17,4 g con alubias rojas. Elegir una de las tres solo por proteína tendría poco sentido.</p><p>Si una comida necesita más proteína, suele ser más eficaz aumentar la ración o combinar la legumbre con tofu, tempeh, huevo, pescado, carne o un cereal según el patrón alimentario.</p><h2>Los garbanzos concentran más energía</h2><p>Doscientos gramos de garbanzos cocidos rondan 328 kcal, frente a unas 232 kcal de lentejas y 254 kcal de alubias rojas. La diferencia procede de su composición y no convierte a los garbanzos en una peor opción; simplemente hace que la misma cantidad aporte más energía.</p><h2>La fibra es alta en las tres</h2><p>En 200 g, las lentejas aportan unos 15,8 g de fibra, los garbanzos 15,2 g y las alubias rojas 12,8 g. Las diferencias existen, pero todas son fuentes muy relevantes.</p><h2>Las lentejas tienen una pequeña ventaja en hierro, no una victoria absoluta</h2><p>Por 100 g cocidos, las lentejas rondan 3,3 mg de hierro y garbanzos y alubias rojas alrededor de 2,9 mg. En 200 g son 6,6 frente a 5,8 mg: menos de 1 mg de diferencia.</p><p>Además, se trata de hierro no hemo. Acompañar la comida con vitamina C —pimiento, tomate, cítricos o kiwi— puede mejorar su absorción.</p><h2>La variedad de alubia puede mover las cifras</h2><p>Alubias blancas, negras, pintas o rojas no son nutricionalmente idénticas. Proteína y fibra suelen mantenerse en un rango parecido, mientras minerales y carbohidratos pueden variar. Para una comparación práctica, la diferencia entre variedades suele ser menor que la diferencia entre una legumbre cocida y la misma legumbre seca.</p><h2>Secas y cocidas no se pueden comparar directamente</h2><p>Las legumbres secas pueden mostrar 20–25 g de proteína por 100 g. Al cocerse absorben mucha agua, aumenta el peso y la proteína se diluye por cada 100 g hasta alrededor de 8–9 g. La cocción no ha destruido dos tercios de la proteína; ha cambiado la concentración por agua absorbida.</p><h2>La conclusión útil</h2><p><strong>No hay una ganadora universal.</strong> Para proteína y fibra, las tres están muy cerca; los garbanzos aportan más energía, las lentejas algo más de hierro y cada variedad de alubia introduce pequeños matices. Alternarlas ofrece más variedad sin sacrificar el perfil nutricional básico.</p>",
   "faq": [
-    {"question": "¿Qué tiene más proteína, lentejas o garbanzos?", "answer": "Cocidos están prácticamente empatados: alrededor de 9,0 g/100 g en lentejas y 8,9 g/100 g en garbanzos."},
-    {"question": "¿Qué legumbre tiene más fibra?", "answer": "En esta comparación, lentejas y garbanzos rondan 7,5–8 g/100 g y las alubias rojas algo menos, aunque la variedad cambia el dato."},
-    {"question": "¿Por qué las legumbres secas tienen más proteína por 100 g?", "answer": "Porque al cocinarse absorben agua. La proteína total no desaparece; queda menos concentrada en cada 100 g del alimento cocido."}
+    {
+      "question": "¿Qué tiene más proteína, lentejas o garbanzos?",
+      "answer": "Cocidos están prácticamente empatados: alrededor de 9,0 g/100 g en lentejas y 8,9 g/100 g en garbanzos."
+    },
+    {
+      "question": "¿Qué legumbre tiene más fibra?",
+      "answer": "En esta comparación, lentejas y garbanzos rondan 7,5–8 g/100 g y las alubias rojas algo menos, aunque la variedad cambia el dato."
+    },
+    {
+      "question": "¿Por qué las legumbres secas tienen más proteína por 100 g?",
+      "answer": "Porque al cocinarse absorben agua. La proteína total no desaparece; queda menos concentrada en cada 100 g del alimento cocido."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de lentejas, garbanzos y alubias cocidas."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de lentejas, garbanzos y alubias cocidas."
+    }
   ],
   "image": {
     "concept": "Tres cuencos iguales con lentejas, garbanzos y alubias cocidas, fotografía editorial cenital sin texto.",

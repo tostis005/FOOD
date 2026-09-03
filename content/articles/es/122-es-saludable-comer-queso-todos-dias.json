@@ -15,20 +15,43 @@
   },
   "excerpt": "El queso puede formar parte de la dieta diaria, pero la ración y el tipo importan. AESAN considera aproximadamente 85–125 g de queso fresco o 40–60 g de queso curado como una ración dentro de un máximo general de 3 raciones de lácteos al día. Los curados concentran más proteína y calcio, pero también suelen concentrar más calorías, grasa saturada y sal.",
   "taxonomy": {
-    "food_family": "eggs-dairy",
-    "food_subcategories": ["cheese"],
-    "article_types": ["health-daily-consumption", "nutrition-composition", "myths-faq"],
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "cheese"
+    ],
+    "article_types": [
+      "health-daily-consumption",
+      "nutrition-composition",
+      "myths-faq"
+    ],
     "primary_article_type": "health-daily-consumption"
   },
   "content_html": "<p>Comer queso todos los días puede encajar en una alimentación saludable, pero <strong>una loncha de queso curado y un plato de queso fresco no son la misma ración</strong>. El agua que pierde el queso durante la maduración concentra proteína, calcio, grasa, energía y sal.</p><h2>La ración cambia según el tipo de queso</h2><p>AESAN usa como referencia unos <strong>85–125 g de queso fresco</strong> o <strong>40–60 g de queso curado</strong> como una ración de lácteos. Además, recomienda un máximo general de tres raciones de leche y productos lácteos al día.</p><p>Eso permite que una ración de queso aparezca a diario, siempre que el resto de lácteos y de la dieta se ajusten alrededor de ella.</p><h2>El queso curado está mucho más concentrado</h2><p>Un queso curado puede aportar aproximadamente 350–430 kcal, 25–30 g de proteína y 25–35 g de grasa por 100 g. Traducido a una ración de 40 g, hablamos de unas 140–170 kcal y alrededor de 10–12 g de proteína.</p><p>Un queso fresco contiene bastante más agua, por lo que normalmente aporta menos calorías y grasa por 100 g, aunque las cifras varían mucho entre productos.</p><h2>La grasa saturada puede ser el factor limitante</h2><p>Los quesos enteros y curados suelen contener una cantidad relevante de grasa saturada. Una ración moderada puede encajar, pero varias raciones grandes cada día pueden elevar rápidamente el total de grasa saturada de la dieta.</p><p>Por eso el contexto importa: no es lo mismo una pequeña porción de queso dentro de una dieta basada en aceite de oliva, pescado, legumbres y verduras que una dieta donde se suma a mantequilla, embutidos y otros alimentos ricos en grasa saturada.</p><h2>La sal también se concentra con la maduración</h2><p>Muchos quesos curados contienen bastante sodio. El queso fresco suele ser menos salado, aunque hay excepciones. Si se consume a diario, comparar la sal por 100 g y por ración es especialmente útil.</p><h2>Proteína y calcio son ventajas reales</h2><p>La concentración del queso no solo afecta a grasa y sal. Los curados también pueden aportar alrededor de 25–35 g de proteína por 100 g y cantidades altas de calcio. Una ración pequeña puede contribuir bastante a ambos nutrientes.</p><h2>No todos los “quesos” del supermercado son equivalentes</h2><p>Queso fresco, mozzarella, cottage, manchego, cheddar o parmesano tienen composiciones muy distintas. También existen preparados de queso y productos fundidos con ingredientes añadidos y niveles de sal variables.</p><h2>La regla práctica</h2><p><strong>Una ración moderada de queso puede aparecer todos los días</strong>, pero conviene ajustar la cantidad al tipo. Si el queso es curado, una porción pequeña ya concentra bastante energía, grasa saturada, sal, proteína y calcio. Variar con yogur, leche u otras fuentes de proteína y calcio evita que todo el consumo de lácteos dependa del queso.</p>",
   "faq": [
-    {"question": "¿Cuánto queso curado es una ración?", "answer": "AESAN utiliza aproximadamente 40–60 g como ración orientativa de queso curado."},
-    {"question": "¿Es mejor queso fresco que curado para tomar a diario?", "answer": "El fresco suele ser menos concentrado en calorías, grasa y sal, aunque depende del producto. El curado aporta más proteína y calcio en menos cantidad."},
-    {"question": "¿El queso tiene demasiada grasa saturada?", "answer": "Muchos quesos enteros y curados aportan cantidades relevantes. La ración y el resto de alimentos ricos en grasa saturada del día determinan cuánto pesa en el total."}
+    {
+      "question": "¿Cuánto queso curado es una ración?",
+      "answer": "AESAN utiliza aproximadamente 40–60 g como ración orientativa de queso curado."
+    },
+    {
+      "question": "¿Es mejor queso fresco que curado para tomar a diario?",
+      "answer": "El fresco suele ser menos concentrado en calorías, grasa y sal, aunque depende del producto. El curado aporta más proteína y calcio en menos cantidad."
+    },
+    {
+      "question": "¿El queso tiene demasiada grasa saturada?",
+      "answer": "Muchos quesos enteros y curados aportan cantidades relevantes. La ración y el resto de alimentos ricos en grasa saturada del día determinan cuánto pesa en el total."
+    }
   ],
   "sources": [
-    {"name": "AESAN — Recomendaciones dietéticas saludables y sostenibles", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf", "note": "Raciones de queso fresco y curado y máximo general de lácteos."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína, energía, grasa, sodio y calcio de distintos quesos."}
+    {
+      "name": "AESAN — Recomendaciones dietéticas saludables y sostenibles",
+      "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf",
+      "note": "Raciones de queso fresco y curado y máximo general de lácteos."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Proteína, energía, grasa, sodio y calcio de distintos quesos."
+    }
   ],
   "image": {
     "concept": "Pequeña porción de queso curado junto a una porción mayor de queso fresco para mostrar diferencias de ración, fotografía editorial sin texto.",

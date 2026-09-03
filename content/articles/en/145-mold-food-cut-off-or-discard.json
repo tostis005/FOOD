@@ -8,12 +8,43 @@
   "market_context": "United States/general English; USDA FSIS mold guidance",
   "title": "Mold on food: when can you cut it off and when should you throw it away?",
   "slug": "mold-food-cut-off-or-discard",
-  "seo": {"title":"Mold on food: cut it off or throw it away?","meta_description":"Discard moldy bread, soft produce, jams and soft cheeses. For hard cheese, USDA says cut at least 1 inch around and below the mold spot.","search_intent":"Decide whether moldy food can be trimmed safely or should be discarded entirely."},
+  "seo": {
+    "title": "Mold on food: cut it off or throw it away?",
+    "meta_description": "Discard moldy bread, soft produce, jams and soft cheeses. For hard cheese, USDA says cut at least 1 inch around and below the mold spot.",
+    "search_intent": "Decide whether moldy food can be trimmed safely or should be discarded entirely."
+  },
   "excerpt": "Texture matters. Mold can spread below the surface of soft or porous foods such as bread, soft fruit, jam, yogurt and soft cheese, so discard the whole item. With hard cheese and some firm vegetables, contamination is more localized; USDA recommends cutting at least 1 inch around and below mold on hard cheese.",
-  "taxonomy": {"food_family":"general","food_subcategories":["food-safety"],"article_types":["food-safety","practical-guide"],"primary_article_type":"food-safety"},
-  "content_html": "<p>The fuzzy spot is only the visible part of a mold colony. In moist, porous food, microscopic filaments can penetrate well beyond what you see. Dense, hard food limits that penetration more effectively.</p><table><thead><tr><th>Unexpected mold on...</th><th>Action</th></tr></thead><tbody><tr><td>Bread and baked goods</td><td>Discard</td></tr><tr><td>Soft fruits/vegetables</td><td>Discard</td></tr><tr><td>Yogurt, cream, soft cheese</td><td>Discard</td></tr><tr><td>Jams/jellies</td><td>Discard</td></tr><tr><td>Hard cheese block</td><td>Cut at least 1 inch around and below</td></tr><tr><td>Very firm vegetables</td><td>May trim generously if remaining tissue is sound</td></tr></tbody></table><h2>Why bread cannot be rescued by removing one slice</h2><p>Bread's porous structure allows mold to spread invisibly. A clean-looking neighboring slice is not equivalent to a dense block of cheese.</p><h2>Hard cheese is the classic exception</h2><p>USDA advises cutting at least one inch around and below the mold spot on hard cheese, keeping the knife out of the mold itself. This does not apply to shredded, sliced or soft cheese.</p><h2>Intentional cheese mold is different</h2><p>Blue cheese, Brie and similar cheeses use controlled molds as part of production. Unexpected mold on a cheese that should not have it is a separate issue.</p><h2>The rule to remember</h2><p>Soft, wet and porous means discard. Hard and dense sometimes allows generous trimming. When in doubt with a high-moisture food, do not treat the visible edge as the true boundary.</p>",
-  "faq": [{"question":"Can I cut mold off bread?","answer":"USDA recommends discarding moldy bread and baked goods because mold can spread through porous food."},{"question":"How much hard cheese should I cut away?","answer":"At least 1 inch around and below the mold spot, keeping the knife out of the contaminated area."}],
-  "sources": [{"name":"USDA FSIS — Mold on food","url":"https://ask.fsis.usda.gov/article/If-food-has-mold-is-it-safe-to-eat","note":"Current USDA trimming and discard guidance."}],
-  "image": {"concept":"Moldy bread marked for disposal beside hard cheese with a wide trimmed section, editorial food-safety image without text.","alt":"Moldy bread and hard cheese showing discard versus trimming"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "food-safety"
+    ],
+    "article_types": [
+      "food-safety"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>The fuzzy spot is only the visible part of a mold colony. In moist, porous food, microscopic filaments can penetrate well beyond what you see. Dense, hard food limits that penetration more effectively.</p><table><thead><tr><th>Unexpected mold on...</th><th>Action</th></tr></thead><tbody><tr><td>Bread and baked goods</td><td>Discard</td></tr><tr><td>Soft fruits/vegetables</td><td>Discard</td></tr><tr><td>Yogurt, cream, soft cheese</td><td>Discard</td></tr><tr><td>Jams/jellies</td><td>Discard</td></tr><tr><td>Hard cheese block</td><td>Cut at least 1 inch around and below</td></tr><tr><td>Very firm vegetables</td><td>May trim generously if remaining tissue is sound</td></tr></tbody></table><p>The table is not an invitation to measure every mold spot with millimeter precision. The logic is structural: in a moist or porous food you cannot see how far fungal threads have spread, while a dense hard block gives more room to remove a generous area without assuming the entire food is colonized.</p><h2>Why bread cannot be rescued by removing one slice</h2><p>Bread's porous structure allows mold to spread invisibly. A clean-looking neighboring slice is not equivalent to a dense block of cheese.</p><h2>Hard cheese is the classic exception</h2><p>USDA advises cutting at least one inch around and below the mold spot on hard cheese, keeping the knife out of the mold itself. This does not apply to shredded, sliced or soft cheese.</p><h2>Intentional cheese mold is different</h2><p>Blue cheese, Brie and similar cheeses use controlled molds as part of production. Unexpected mold on a cheese that should not have it is a separate issue.</p><p>When trimming a hard food that can be salvaged, keep the knife out of the mold so it does not drag contamination through the clean section. If there are multiple spots, off odors, or a broader texture change, stop treating it as one isolated patch. <strong>The hard-cheese exception does not make every moldy food salvageable.</strong></p><h2>The rule to remember</h2><p>Soft, wet and porous means discard. Hard and dense sometimes allows generous trimming. When in doubt with a high-moisture food, do not treat the visible edge as the true boundary.</p>",
+  "faq": [
+    {
+      "question": "Can I cut mold off bread?",
+      "answer": "USDA recommends discarding moldy bread and baked goods because mold can spread through porous food."
+    },
+    {
+      "question": "How much hard cheese should I cut away?",
+      "answer": "At least 1 inch around and below the mold spot, keeping the knife out of the contaminated area."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Mold on food",
+      "url": "https://ask.fsis.usda.gov/article/If-food-has-mold-is-it-safe-to-eat",
+      "note": "Current USDA trimming and discard guidance."
+    }
+  ],
+  "image": {
+    "concept": "Moldy bread marked for disposal beside hard cheese with a wide trimmed section, editorial food-safety image without text.",
+    "alt": "Moldy bread and hard cheese showing discard versus trimming"
+  },
+  "status": "publish"
 }

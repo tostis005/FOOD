@@ -1,1 +1,54 @@
-{"schema_version":1,"id":"en-466-apple-browning","article_number":466,"translation_group":"466-prevent-cut-apple-browning","language":"en","locale":"en-US","market_context":"United States; home control of enzymatic browning in cut apples.","title":"How to Keep a Cut Apple From Turning Brown","slug":"how-to-keep-cut-apple-from-browning","seo":{"title":"How to Keep Cut Apples From Turning Brown","meta_description":"Lemon juice, ascorbic acid, refrigeration, and limiting air exposure slow enzymatic browning. Brown color alone does not mean the apple is spoiled.","search_intent":"Prevent browning in cut apples and understand why acid and antioxidants work."},"excerpt":"Cut apples darken because slicing brings enzymes, phenolic compounds, and oxygen together. Acidifying the surface with lemon juice or ascorbic acid, refrigerating, and limiting air exposure all slow the reaction. Browning itself is mainly a color change, not instant spoilage.","taxonomy":{"food_family":"fruit","food_subcategories":[],"article_types":["cooking-science","cooking-techniques","storage"],"primary_article_type":"cooking-science"},"content_html":"<p>An apple can turn brown within minutes of slicing. <strong>The cause is enzymatic browning, not sudden decay.</strong></p><h2>What happens after cutting</h2><p>Cells rupture and polyphenol oxidase comes into contact with phenolic compounds and oxygen. The reaction forms quinones that eventually produce brown pigments.</p><h2>Lemon juice works in two ways</h2><p>Acid lowers enzyme activity, while vitamin C acts as an antioxidant. A diluted lemon-water treatment is often enough, though it can add a slight tart flavor.</p><h2>Ascorbic acid is more neutral</h2><p>Vitamin C powder or commercial anti-browning preparations are highly effective and are recommended by the National Center for Home Food Preservation for prepared fruit.</p><h2>Cold and less air help too</h2><p>Store cut apples in a small closed container or bag with minimal air and refrigerate. This slows browning and also helps preserve quality.</p><h2>Water alone is temporary</h2><p>Submerging pieces reduces oxygen contact, but long soaking can dilute flavor and affect texture. For a lunchbox or a few hours, acid plus cold is more practical.</p><p><strong>If the apple is only brown, it is usually still edible; mold, fermentation odor, or rotten texture are different signals.</strong></p>","faq":[{"question":"Does lemon stop browning completely?","answer":"Not always completely, but it slows the reaction substantially."},{"question":"Is a brown apple spoiled?","answer":"Not necessarily. Enzymatic browning can occur while the fruit is still fresh."},{"question":"Can I prep apples hours ahead?","answer":"Yes. Treat with lemon or ascorbic acid, seal, and refrigerate."}],"sources":[{"name":"National Center for Home Food Preservation — Preventing Darkening in Fruits","url":"https://nchfp.uga.edu/how/freeze/enough.html","note":"Ascorbic-acid and anti-browning treatments for prepared fruit."}],"image":{"concept":"Apple slices treated with lemon beside untreated slices beginning to brown, realistic editorial food photography, no text.","alt":"Apple slices protected from browning with lemon"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-466-apple-browning",
+  "article_number": 466,
+  "translation_group": "466-prevent-cut-apple-browning",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; home control of enzymatic browning in cut apples.",
+  "title": "How to Keep a Cut Apple From Turning Brown",
+  "slug": "how-to-keep-cut-apple-from-browning",
+  "seo": {
+    "title": "How to Keep Cut Apples From Turning Brown",
+    "meta_description": "Lemon juice, ascorbic acid, refrigeration, and limiting air exposure slow enzymatic browning. Brown color alone does not mean the apple is spoiled.",
+    "search_intent": "Prevent browning in cut apples and understand why acid and antioxidants work."
+  },
+  "excerpt": "Cut apples darken because slicing brings enzymes, phenolic compounds, and oxygen together. Acidifying the surface with lemon juice or ascorbic acid, refrigerating, and limiting air exposure all slow the reaction. Browning itself is mainly a color change, not instant spoilage.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": [],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques",
+      "storage"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>An apple can turn brown within minutes of slicing. <strong>The cause is enzymatic browning, not sudden decay.</strong></p><h2>What happens after cutting</h2><p>Cells rupture and polyphenol oxidase comes into contact with phenolic compounds and oxygen. The reaction forms quinones that eventually produce brown pigments.</p><h2>Lemon juice works in two ways</h2><p>Acid lowers enzyme activity, while vitamin C acts as an antioxidant. A diluted lemon-water treatment is often enough, though it can add a slight tart flavor.</p><h2>Ascorbic acid is more neutral</h2><p>Vitamin C powder or commercial anti-browning preparations are highly effective and are recommended by the National Center for Home Food Preservation for prepared fruit.</p><h2>Cold and less air help too</h2><p>Store cut apples in a small closed container or bag with minimal air and refrigerate. This slows browning and also helps preserve quality.</p><h2>You do not have to exclude every trace of oxygen to slow browning</h2><p>The browning enzyme needs oxygen and a suitable pH. Acid, antioxidants, cold and reduced air exposure act on different parts of the process, so several moderate measures can work better than one extreme measure. A little lemon juice plus refrigeration, for example, is usually enough for a few hours.</p><p>The brown color is mainly a quality change. If the apple was cut with clean utensils and stored appropriately, enzymatic browning by itself does not make it unsafe.</p><h2>Water alone is temporary</h2><p>Submerging pieces reduces oxygen contact, but long soaking can dilute flavor and affect texture. For a lunchbox or a few hours, acid plus cold is more practical.</p><p><strong>If the apple is only brown, it is usually still edible; mold, fermentation odor, or rotten texture are different signals.</strong></p>",
+  "faq": [
+    {
+      "question": "Does lemon stop browning completely?",
+      "answer": "Not always completely, but it slows the reaction substantially."
+    },
+    {
+      "question": "Is a brown apple spoiled?",
+      "answer": "Not necessarily. Enzymatic browning can occur while the fruit is still fresh."
+    },
+    {
+      "question": "Can I prep apples hours ahead?",
+      "answer": "Yes. Treat with lemon or ascorbic acid, seal, and refrigerate."
+    }
+  ],
+  "sources": [
+    {
+      "name": "National Center for Home Food Preservation — Preventing Darkening in Fruits",
+      "url": "https://nchfp.uga.edu/how/freeze/enough.html",
+      "note": "Ascorbic-acid and anti-browning treatments for prepared fruit."
+    }
+  ],
+  "image": {
+    "concept": "Apple slices treated with lemon beside untreated slices beginning to brown, realistic editorial food photography, no text.",
+    "alt": "Apple slices protected from browning with lemon"
+  },
+  "status": "publish"
+}

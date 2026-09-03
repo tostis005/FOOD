@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-258-raw-chicken-room-temperature","article_number":258,"translation_group":"258-raw-chicken-room-temperature","language":"en","locale":"en-US","market_context":"United States/general English; raw chicken time at room temperature and cold-chain safety","title":"How long can raw chicken sit out?","slug":"how-long-raw-chicken-out-of-fridge","seo":{"title":"How long can raw chicken sit out of the fridge?","meta_description":"Raw chicken should not sit out for more than 2 hours, or more than 1 hour when the temperature is above 90 °F. Time during transport and prep counts.","search_intent":"Know how long raw chicken can remain at room temperature and when it should be discarded."},"excerpt":"USDA's practical limit for perishable food is 2 hours outside refrigeration, reduced to 1 hour when the temperature is above 90 °F (32 °C). Exposure is cumulative, so grocery transport, prep and counter time all count.","taxonomy":{"food_family":"meat","food_subcategories":["chicken","room-temperature","cold-chain"],"article_types":["food-safety","storage"],"primary_article_type":"food-safety"},"content_html":"<p>Raw chicken does not need to feel warm for bacteria to multiply quickly. <strong>USDA's conservative rule is no more than 2 hours outside refrigeration, or 1 hour when the surrounding temperature is above 90 °F (32 °C).</strong></p><h2>The two hours are cumulative</h2><p>The clock includes time in the car, time on the counter while other ingredients are prepared and any later delay before cooking.</p><h2>The danger zone starts well below room temperature</h2><p>USDA describes roughly 40–140 °F as the temperature range where bacteria can grow rapidly. An ordinary kitchen counter is already inside that range.</p><h2>Do you need to bring chicken to room temperature?</h2><p>No food-safety rule requires it. A short prep period can fit within the limit, but minimizing unnecessary counter time preserves more safety margin.</p><h2>What if it has been out longer than two hours?</h2><p>There is no smell or color test that measures bacterial growth. Once chicken has clearly exceeded the time limit, discarding it is the prudent choice.</p><h2>Bottom line</h2><p><strong>Use 2 hours as the maximum total, or 1 hour in hot conditions.</strong> Take chicken out when you are ready to prepare it rather than leaving it on the counter.</p>","faq":[{"question":"Can raw chicken sit out for 3 hours?","answer":"That is beyond USDA's conservative 2-hour limit, so discarding it is the safer choice."},{"question":"Does the limit change in hot weather?","answer":"Yes. Above 90 °F/32 °C, the recommended maximum drops to 1 hour."},{"question":"If it smells fine, is it safe?","answer":"Smell cannot tell you how much bacterial growth occurred during prolonged room-temperature exposure."}],"sources":[{"name":"USDA FSIS — Chicken from Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table","note":"Safe chicken handling and cold-chain guidance."},{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"2-hour rule and 1-hour rule above 90 °F for perishable food."}],"image":{"concept":"Raw chicken just removed from a refrigerator beside a kitchen clock, realistic editorial photography without text.","alt":"Raw chicken and room-temperature time control"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-258-raw-chicken-room-temperature",
+  "article_number": 258,
+  "translation_group": "258-raw-chicken-room-temperature",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; raw chicken time at room temperature and cold-chain safety",
+  "title": "How long can raw chicken sit out?",
+  "slug": "how-long-raw-chicken-out-of-fridge",
+  "seo": {
+    "title": "How long can raw chicken sit out of the fridge?",
+    "meta_description": "Raw chicken should not sit out for more than 2 hours, or more than 1 hour when the temperature is above 90 °F. Time during transport and prep counts.",
+    "search_intent": "Know how long raw chicken can remain at room temperature and when it should be discarded."
+  },
+  "excerpt": "USDA's practical limit for perishable food is 2 hours outside refrigeration, reduced to 1 hour when the temperature is above 90 °F (32 °C). Exposure is cumulative, so grocery transport, prep and counter time all count.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "chicken",
+      "room-temperature",
+      "cold-chain"
+    ],
+    "article_types": [
+      "food-safety",
+      "storage"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>Raw chicken does not need to feel warm for bacteria to multiply quickly. <strong>USDA's conservative rule is no more than 2 hours outside refrigeration, or 1 hour when the surrounding temperature is above 90 °F (32 °C).</strong></p><h2>The two hours are cumulative</h2><p>The clock includes time in the car, time on the counter while other ingredients are prepared and any later delay before cooking.</p><h2>The danger zone starts well below room temperature</h2><p>USDA describes roughly 40–140 °F as the temperature range where bacteria can grow rapidly. An ordinary kitchen counter is already inside that range.</p><h2>Do you need to bring chicken to room temperature?</h2><p>No food-safety rule requires it. A short prep period can fit within the limit, but minimizing unnecessary counter time preserves more safety margin.</p><h2>What if it has been out longer than two hours?</h2><p>There is no smell or color test that measures bacterial growth. Once chicken has clearly exceeded the time limit, discarding it is the prudent choice.</p><h2>How to use the rule without treating it like a magic cutoff</h2><p>The limit is a decision rule, not a claim that chicken is perfectly safe at 119 minutes and suddenly unsafe at 121. Microbial growth depends on temperature, starting contamination and time, so the recommendation includes a safety margin. The easiest habit is to take chicken out only when you are ready to handle it and return any unused portion to the refrigerator.</p><p>Marinate chicken in the refrigerator rather than on the counter. For transport, an insulated bag with ice packs keeps you from using up much of that margin before the chicken even reaches the kitchen.</p><h2>Bottom line</h2><p><strong>Use 2 hours as the maximum total, or 1 hour in hot conditions.</strong> Take chicken out when you are ready to prepare it rather than leaving it on the counter.</p>",
+  "faq": [
+    {
+      "question": "Can raw chicken sit out for 3 hours?",
+      "answer": "That is beyond USDA's conservative 2-hour limit, so discarding it is the safer choice."
+    },
+    {
+      "question": "Does the limit change in hot weather?",
+      "answer": "Yes. Above 90 °F/32 °C, the recommended maximum drops to 1 hour."
+    },
+    {
+      "question": "If it smells fine, is it safe?",
+      "answer": "Smell cannot tell you how much bacterial growth occurred during prolonged room-temperature exposure."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Chicken from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+      "note": "Safe chicken handling and cold-chain guidance."
+    },
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "2-hour rule and 1-hour rule above 90 °F for perishable food."
+    }
+  ],
+  "image": {
+    "concept": "Raw chicken just removed from a refrigerator beside a kitchen clock, realistic editorial photography without text.",
+    "alt": "Raw chicken and room-temperature time control"
+  },
+  "status": "publish"
+}

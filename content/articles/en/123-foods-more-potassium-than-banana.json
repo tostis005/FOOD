@@ -8,12 +8,53 @@
   "market_context": "United States/general English; USDA composition and NIH potassium context",
   "title": "Foods with more potassium than a banana",
   "slug": "foods-more-potassium-than-banana",
-  "seo": {"title": "Foods with more potassium than a banana", "meta_description": "Banana has about 358 mg potassium per 100 g, but potatoes, cooked spinach, beans, avocado, and other foods can provide more by weight or serving.", "search_intent": "Find foods with more potassium than banana and compare amounts per 100 g and realistic serving."},
+  "seo": {
+    "title": "Foods with more potassium than a banana",
+    "meta_description": "Banana has about 358 mg potassium per 100 g, but potatoes, cooked spinach, beans, avocado, and other foods can provide more by weight or serving.",
+    "search_intent": "Find foods with more potassium than banana and compare amounts per 100 g and realistic serving."
+  },
   "excerpt": "Bananas are a useful potassium source, but they are not among the most concentrated foods. A banana provides about 358 mg per 100 g. Baked potatoes, cooked spinach, beans, avocado, and some fish can exceed that amount, and one medium baked potato can provide roughly 700–900+ mg depending on size and preparation.",
-  "taxonomy": {"food_family": "general", "food_subcategories": ["potassium"], "article_types": ["nutrition-composition", "ranking"], "primary_article_type": "nutrition-composition"},
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "potassium"
+    ],
+    "article_types": [
+      "nutrition-composition",
+      "rankings"
+    ],
+    "primary_article_type": "nutrition-composition"
+  },
   "content_html": "<p>Bananas have become almost synonymous with potassium, but <strong>their reputation is stronger than their ranking</strong>. At about 358 mg per 100 g, they are useful, not exceptional.</p><h2>Potassium per 100 grams and per serving</h2><table><thead><tr><th>Food</th><th>Potassium/100 g</th><th>Typical serving</th><th>Potassium/serving</th></tr></thead><tbody><tr><td>Baked potato with skin</td><td>~535 mg</td><td>180 g</td><td>~960 mg</td></tr><tr><td>Cooked spinach</td><td>~466 mg</td><td>150 g</td><td>~700 mg</td></tr><tr><td>Cooked white beans</td><td>~560 mg</td><td>180 g</td><td>~1,000 mg</td></tr><tr><td>Avocado</td><td>~485 mg</td><td>100 g</td><td>~485 mg</td></tr><tr><td>Cooked salmon</td><td>~380–490 mg</td><td>142 g</td><td>~540–700 mg</td></tr><tr><td>Banana</td><td>~358 mg</td><td>120 g</td><td>~430 mg</td></tr></tbody></table><p>A medium potato or a cup of beans can provide roughly twice as much potassium as a medium banana.</p><h2>Why potatoes and beans stand out</h2><p>A potato is eaten in a relatively large portion, while beans combine substantial potassium with fiber and protein. Cooking method and draining can move the exact values.</p><h2>Avocado beats banana gram for gram</h2><p>At roughly 485 versus 358 mg per 100 g, avocado contains about 35% more potassium by weight. It is also more calorie-dense, at about 160 calories per 100 g versus about 89 for banana.</p><h2>Variety works better than one champion</h2><p>Potassium is spread across fruits, vegetables, legumes, potatoes, dairy, and fish. A varied diet can provide plenty without relying on a single food.</p><h2>The useful takeaway</h2><p>Bananas are convenient, but <strong>potatoes, beans, spinach, and avocado can provide more potassium</strong>. For people who have been told to restrict potassium, individualized dietary guidance takes priority over general rankings.</p>",
-  "faq": [{"question": "What has more potassium than a banana?", "answer": "A medium potato, a cup of white beans, or a serving of cooked spinach can provide substantially more potassium than a medium banana."},{"question": "How much potassium is in a banana?", "answer": "About 358 mg per 100 g; a medium banana around 120 g provides roughly 430 mg."},{"question": "Does avocado have more potassium than banana?", "answer": "Yes per 100 g: about 485 mg versus 358 mg, although avocado is also more calorie-dense."}],
-  "sources": [{"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Potassium and calorie values for foods compared."},{"name": "NIH Office of Dietary Supplements — Potassium", "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/", "note": "Potassium nutrition context."}],
-  "image": {"concept": "Banana beside a baked potato, avocado, cooked spinach, and white beans in realistic portions, clean editorial food photography without text.", "alt": "Foods containing more potassium than banana"},
+  "faq": [
+    {
+      "question": "What has more potassium than a banana?",
+      "answer": "A medium potato, a cup of white beans, or a serving of cooked spinach can provide substantially more potassium than a medium banana."
+    },
+    {
+      "question": "How much potassium is in a banana?",
+      "answer": "About 358 mg per 100 g; a medium banana around 120 g provides roughly 430 mg."
+    },
+    {
+      "question": "Does avocado have more potassium than banana?",
+      "answer": "Yes per 100 g: about 485 mg versus 358 mg, although avocado is also more calorie-dense."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Potassium and calorie values for foods compared."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Potassium",
+      "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/",
+      "note": "Potassium nutrition context."
+    }
+  ],
+  "image": {
+    "concept": "Banana beside a baked potato, avocado, cooked spinach, and white beans in realistic portions, clean editorial food photography without text.",
+    "alt": "Foods containing more potassium than banana"
+  },
   "status": "publish"
 }

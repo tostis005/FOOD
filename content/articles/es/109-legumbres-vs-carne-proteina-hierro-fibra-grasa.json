@@ -16,19 +16,42 @@
   "excerpt": "La carne suele concentrar mucha más proteína por 100 g: pechuga de pollo cocida ronda 31 g y ternera magra unos 29 g, frente a 9 g en lentejas o garbanzos cocidos. Las legumbres, en cambio, aportan 6–8 g de fibra por 100 g y pueden contener tanto o más hierro total, aunque es hierro no hemo y se absorbe peor que el hierro hemo de la carne.",
   "taxonomy": {
     "food_family": "general",
-    "food_subcategories": ["legumes", "meat"],
-    "article_types": ["comparison", "nutrition-composition"],
-    "primary_article_type": "comparison"
+    "food_subcategories": [
+      "legumes",
+      "meat"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
   },
   "content_html": "<p>Comparar legumbres y carne solo por proteína deja fuera media historia. <strong>La carne gana claramente en concentración proteica; las legumbres aportan fibra, carbohidratos y un perfil de grasa muy distinto</strong>. Con el hierro, incluso el número bruto necesita interpretación porque el tipo de hierro cambia su absorción.</p><h2>Comparación por 100 gramos cocidos</h2><p>Todos los alimentos de la tabla están ya cocinados para evitar comparar legumbres secas con carne lista para comer.</p><table><thead><tr><th>Alimento</th><th>Proteína</th><th>Fibra</th><th>Grasa</th><th>Hierro</th><th>kcal</th></tr></thead><tbody><tr><td>Lentejas cocidas</td><td>~9,0 g</td><td>~7,9 g</td><td>~0,4 g</td><td>~3,3 mg</td><td>~116</td></tr><tr><td>Garbanzos cocidos</td><td>~8,9 g</td><td>~7,6 g</td><td>~2,6 g</td><td>~2,9 mg</td><td>~164</td></tr><tr><td>Alubias cocidas</td><td>~8,7 g</td><td>~6–7 g</td><td>~0,5 g</td><td>~2,9 mg</td><td>~125–130</td></tr><tr><td>Pechuga de pollo cocida</td><td>~31 g</td><td>0 g</td><td>~3,6 g</td><td>~1,0 mg</td><td>~165</td></tr><tr><td>Ternera magra cocida</td><td>~29 g</td><td>0 g</td><td>~8 g</td><td>~2,5 mg</td><td>~200</td></tr></tbody></table><p>La diferencia de proteína es grande: la carne aporta alrededor de <strong>tres veces más por 100 g</strong>. Pero las legumbres aportan algo que la carne no aporta en absoluto: fibra.</p><h2>Una ración real reduce parte de la diferencia</h2><p>Una ración de legumbres cocidas puede ser de 180–200 g, mientras una ración de carne puede rondar 120–150 g. Con 200 g de lentejas se obtienen unos 18 g de proteína y casi 16 g de fibra. Con 150 g de pechuga de pollo, unos 46 g de proteína y nada de fibra.</p><p>La carne sigue ganando claramente en proteína, pero las legumbres pueden ser una fuente proteica principal si la cantidad y el resto de la comida están bien planteados.</p><h2>El hierro bruto no cuenta toda la historia</h2><p>Las lentejas pueden mostrar más hierro por 100 g que el pollo e incluso cifras comparables a la ternera. Sin embargo, el hierro de las legumbres es <strong>no hemo</strong>, cuya absorción es menor y más sensible a otros componentes de la comida.</p><p>La carne aporta hierro hemo, que se absorbe con mayor eficiencia. En las legumbres, combinar la comida con vitamina C —por ejemplo pimiento, tomate, cítricos o kiwi— ayuda a mejorar la absorción del hierro no hemo.</p><h2>La grasa depende mucho del corte de carne</h2><p>No existe una sola “carne”. Una pechuga de pollo sin piel puede rondar 3–4 g de grasa por 100 g, mientras algunos cortes de cerdo o ternera superan ampliamente 15–20 g. Las lentejas y alubias cocidas contienen muy poca grasa; los garbanzos algo más.</p><p>Por eso decir que “la carne tiene mucha grasa” es tan impreciso como decir que todas las legumbres tienen la misma composición.</p><h2>Las legumbres aportan carbohidratos y fibra; la carne casi ninguno</h2><p>La energía de una legumbre se reparte entre proteína y carbohidratos, con una fracción importante de almidón y fibra. La carne obtiene su energía sobre todo de proteína y grasa. Esa diferencia cambia textura, saciedad y la función del alimento dentro del plato.</p><h2>No son sustitutos idénticos, pero pueden cumplir funciones parecidas</h2><p>Sustituir 100 g de pollo por 100 g de lentejas reduce mucho la proteína de esa porción. Una sustitución más realista puede usar una ración mayor de legumbres y combinarla con cereal, tofu, frutos secos u otra fuente proteica según el objetivo.</p><p>La conclusión útil es que <strong>carne y legumbres no son equivalentes gramo por gramo</strong>: la carne concentra más proteína y hierro más biodisponible; las legumbres aportan fibra, carbohidratos, muy poca grasa saturada y una combinación distinta de micronutrientes.</p>",
   "faq": [
-    {"question": "¿Qué tiene más proteína, carne o legumbres?", "answer": "Por 100 g cocidos, la carne suele tener mucha más: pollo y ternera magra rondan 29–31 g frente a unos 9 g en lentejas o garbanzos."},
-    {"question": "¿Las lentejas tienen más hierro que la carne?", "answer": "Pueden tener más hierro total por 100 g que algunos tipos de carne, pero es hierro no hemo y se absorbe peor que el hierro hemo de la carne."},
-    {"question": "¿Las legumbres pueden sustituir a la carne?", "answer": "Sí pueden cumplir un papel proteico principal, pero no son equivalentes gramo por gramo. Normalmente se necesita una ración mayor y conviene considerar el conjunto de la dieta."}
+    {
+      "question": "¿Qué tiene más proteína, carne o legumbres?",
+      "answer": "Por 100 g cocidos, la carne suele tener mucha más: pollo y ternera magra rondan 29–31 g frente a unos 9 g en lentejas o garbanzos."
+    },
+    {
+      "question": "¿Las lentejas tienen más hierro que la carne?",
+      "answer": "Pueden tener más hierro total por 100 g que algunos tipos de carne, pero es hierro no hemo y se absorbe peor que el hierro hemo de la carne."
+    },
+    {
+      "question": "¿Las legumbres pueden sustituir a la carne?",
+      "answer": "Sí pueden cumplir un papel proteico principal, pero no son equivalentes gramo por gramo. Normalmente se necesita una ración mayor y conviene considerar el conjunto de la dieta."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína, fibra, grasa, hierro y energía de legumbres y carnes cocidas."},
-    {"name": "NIH Office of Dietary Supplements — Iron", "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/", "note": "Diferencias entre hierro hemo y no hemo y factores que afectan a la absorción."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Proteína, fibra, grasa, hierro y energía de legumbres y carnes cocidas."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Iron",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "note": "Diferencias entre hierro hemo y no hemo y factores que afectan a la absorción."
+    }
   ],
   "image": {
     "concept": "Un plato dividido visualmente entre lentejas y garbanzos cocidos y porciones de pollo y ternera magra, fotografía editorial sin texto.",

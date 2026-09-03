@@ -1,1 +1,58 @@
-{"schema_version":1,"id":"en-483-quinoa-pseudocereal","article_number":483,"translation_group":"483-quinoa-cereal-seed-pseudocereal","language":"en","locale":"en-US","market_context":"United States; botanical and culinary classification.","title":"Quinoa: Cereal, Seed, or Pseudocereal?","slug":"quinoa-cereal-seed-or-pseudocereal","seo":{"title":"Quinoa: Cereal, Seed, or Pseudocereal?","meta_description":"Quinoa is botanically a seed and is called a pseudocereal because it is cooked and used like cereal grains without belonging to the grass family.","search_intent":"Understand why quinoa is called a pseudocereal even though it is cooked like a grain."},"excerpt":"Quinoa is the seed of Chenopodium quinoa, a plant more closely related to spinach and beets than to wheat or rice. It is called a pseudocereal because its seeds are cooked, milled, and used much like cereal grains even though the plant is not a grass.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":[],"article_types":["nutrition-concepts","myths-faq"],"primary_article_type":"nutrition-concepts"},"content_html":"<p>It sits next to rice and cooks in the same kind of pot, but <strong>quinoa is not botanically a cereal grain. It is a seed used like one.</strong></p><h2>What makes a cereal a cereal?</h2><p>Wheat, rice, corn, barley, and oats belong to the grass family. Their edible grains share a botanical structure of bran, germ, and endosperm.</p><h2>Quinoa belongs elsewhere</h2><p>Chenopodium quinoa is more closely related to spinach, chard, and beets. The part we eat is its seed.</p><h2>Why call it a pseudocereal?</h2><p>Because it plays a cereal-like role in the kitchen and diet. It can be dried, stored, milled into flour, cooked as a side dish, and used as a major carbohydrate source.</p><p>Amaranth and buckwheat are other well-known pseudocereals.</p><h2>Why the distinction matters</h2><p>Because quinoa is not a gluten-containing grass, it is naturally gluten-free. It also has a somewhat different amino-acid and mineral profile from common cereal grains.</p><p><strong>Pseudocereal means a non-grass seed used like a cereal—not a “fake” grain.</strong></p>","faq":[{"question":"Is quinoa a seed?","answer":"Yes. The edible part is the seed of Chenopodium quinoa."},{"question":"Why is it not a cereal grain?","answer":"Because the plant does not belong to the grass family that includes wheat, rice, corn, and oats."},{"question":"What are other pseudocereals?","answer":"Amaranth and buckwheat are the most common examples."}],"sources":[{"name":"FAO — Quinoa Platform","url":"https://www.fao.org/in-action/quinoa-platform/en/","note":"Botanical and food context for quinoa."},{"name":"Celiac Disease Foundation — Gluten-Free Foods","url":"https://celiac.org/gluten-free-living/gluten-free-foods/","note":"Quinoa, amaranth, and buckwheat as naturally gluten-free foods."}],"image":{"concept":"Quinoa plant and seeds shown beside rice and wheat grains in separate containers, realistic editorial botanical food photography, no text.","alt":"Quinoa seed compared with cereal grains"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-483-quinoa-pseudocereal",
+  "article_number": 483,
+  "translation_group": "483-quinoa-cereal-seed-pseudocereal",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; botanical and culinary classification.",
+  "title": "Quinoa: Cereal, Seed, or Pseudocereal?",
+  "slug": "quinoa-cereal-seed-or-pseudocereal",
+  "seo": {
+    "title": "Quinoa: Cereal, Seed, or Pseudocereal?",
+    "meta_description": "Quinoa is botanically a seed and is called a pseudocereal because it is cooked and used like cereal grains without belonging to the grass family.",
+    "search_intent": "Understand why quinoa is called a pseudocereal even though it is cooked like a grain."
+  },
+  "excerpt": "Quinoa is the seed of Chenopodium quinoa, a plant more closely related to spinach and beets than to wheat or rice. It is called a pseudocereal because its seeds are cooked, milled, and used much like cereal grains even though the plant is not a grass.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [],
+    "article_types": [
+      "nutrition-concepts",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Quinoa can sit next to rice, cook in the same saucepan, and end up in a “grain bowl,” but it is not a botanical cereal grain. <strong>It is a seed that we use in the kitchen like a grain, which is why it is called a pseudocereal.</strong> That distinction sounds academic, yet it helps explain gluten status, plant relationships, and some nutritional differences.</p>\n<h2>What makes a cereal a cereal?</h2>\n<p>Wheat, rice, corn, barley, rye, and oats belong to the grass family. Their kernels have the familiar bran, germ, and endosperm structure, even though refining can remove some of those parts.</p>\n<p>Turning a grain into flour, flakes, bread, or pasta does not change its botanical family. “Cereal” first describes the plant, not simply the way a food is cooked.</p>\n<h2>Quinoa belongs to a different family</h2>\n<p><em>Chenopodium quinoa</em> is more closely related to plants such as spinach, chard, and beets than to wheat or rice. The part we eat is the plant's seed.</p>\n<p>That is why calling quinoa a “gluten-free grain” is convenient everyday language but not precise botany: it is a gluten-free seed that fills many of the same culinary roles as grains.</p>\n<h2>So what does pseudocereal mean?</h2>\n<p>“Pseudo” does not mean fake or nutritionally inferior. It means a seed from a non-grass plant that is used much like a cereal: it can be dried and stored, milled into flour, boiled as a side dish, or incorporated into breads and other foods.</p>\n<p>Amaranth and buckwheat are two other examples. They share the pseudocereal label, but they do not have identical flavor, texture, or nutrient profiles.</p>\n<h2>The classification has practical consequences</h2>\n<p>Because quinoa is not wheat, barley, or rye, it is naturally gluten-free. It also has a different amino-acid profile from many cereal grains and provides about 4.4 g protein per 100 g cooked.</p>\n<p>Still, carbohydrate is its dominant macronutrient. Calling it a seed should not make us compare a bowl of quinoa to a tablespoon of chia or a handful of nuts; in the kitchen, quinoa is eaten in portions much more like rice.</p>\n<p><strong>The easiest way to remember it is: botanically a seed, culinarily grain-like, and “pseudocereal” is the word that connects those two facts.</strong></p>",
+  "faq": [
+    {
+      "question": "Is quinoa a seed?",
+      "answer": "Yes. The edible part is the seed of Chenopodium quinoa."
+    },
+    {
+      "question": "Why is it not a cereal grain?",
+      "answer": "Because the plant does not belong to the grass family that includes wheat, rice, corn, and oats."
+    },
+    {
+      "question": "What are other pseudocereals?",
+      "answer": "Amaranth and buckwheat are the most common examples."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FAO — Quinoa Platform",
+      "url": "https://www.fao.org/in-action/quinoa-platform/en/",
+      "note": "Botanical and food context for quinoa."
+    },
+    {
+      "name": "Celiac Disease Foundation — Gluten-Free Foods",
+      "url": "https://celiac.org/gluten-free-living/gluten-free-foods/",
+      "note": "Quinoa, amaranth, and buckwheat as naturally gluten-free foods."
+    }
+  ],
+  "image": {
+    "concept": "Quinoa plant and seeds shown beside rice and wheat grains in separate containers, realistic editorial botanical food photography, no text.",
+    "alt": "Quinoa seed compared with cereal grains"
+  },
+  "status": "publish"
+}

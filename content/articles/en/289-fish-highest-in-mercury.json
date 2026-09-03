@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"en-289-fish-highest-in-mercury","article_number":289,"translation_group":"289-high-mercury-fish","language":"en","locale":"en-US","market_context":"United States","title":"Which fish are highest in mercury?","slug":"fish-highest-in-mercury","seo":{"title":"Fish highest in mercury and which to avoid","meta_description":"FDA/EPA list king mackerel, marlin, orange roughy, shark, swordfish, Gulf of Mexico tilefish, and bigeye tuna as Choices to Avoid for pregnancy, breastfeeding, and young children because of mercury.","search_intent":"Identify higher-mercury fish and understand current U.S. fish-consumption advice."},"excerpt":"Large, long-lived predators accumulate the most methylmercury. FDA/EPA's Choices to Avoid are king mackerel, marlin, orange roughy, shark, swordfish, Gulf of Mexico tilefish, and bigeye tuna for people who are pregnant or breastfeeding and for young children.","taxonomy":{"food_family":"fish-seafood","food_subcategories":["mercury","high-mercury-fish"],"article_types":["rankings","food-safety"],"primary_article_type":"food-safety"},"content_html":"<p>Mercury is not evenly distributed across seafood. <strong>Large predators that live for years and eat many other fish tend to accumulate the highest methylmercury concentrations.</strong> That is why U.S. advice singles out particular species rather than warning people away from seafood as a whole.</p><h2>The seven FDA/EPA Choices to Avoid</h2><p>For people who might become or are pregnant or breastfeeding, and for young children, FDA/EPA list <strong>king mackerel, marlin, orange roughy, shark, swordfish, tilefish from the Gulf of Mexico, and bigeye tuna</strong> as Choices to Avoid because they have the highest mercury levels in the chart.</p><p>The same agencies encourage lower-mercury seafood because fish also supplies nutrients important in healthy eating. During pregnancy or breastfeeding, their guidance is <strong>2–3 servings totaling 8–12 ounces per week</strong> from Best Choices.</p><h2>How large is the concentration gap?</h2><p>FDA monitoring data put shark near <strong>0.98 ppm</strong> mean mercury and swordfish around <strong>1 ppm</strong>. Sardines, by comparison, average <strong>0.013 ppm</strong>, and shrimp <strong>0.009 ppm</strong>. A mean near 1 ppm is therefore roughly 75 times the sardine mean, even though individual samples within any species vary.</p><h2>Why predators accumulate so much</h2><p>Methylmercury enters aquatic food webs and remains in animal tissues. A predator consumes mercury already present in its prey, then keeps accumulating it over a long life. Size is therefore a useful clue, but species-specific guidance is more reliable than judging a fillet by how large it looks at the store.</p><h2>Tuna is a good example of why species matters</h2><p>FDA/EPA put canned light tuna in Best Choices, albacore/white and yellowfin tuna in Good Choices, and bigeye tuna in Choices to Avoid. FDA monitoring lists canned light tuna at about <strong>0.126 ppm</strong> mean mercury versus roughly <strong>0.35 ppm</strong> for canned albacore. The word “tuna” alone is not enough to describe exposure.</p><h2>The useful rule</h2><p>Keep seafood varied and favor the lower-mercury categories. If pregnancy, breastfeeding, or feeding young children makes mercury guidance especially relevant, use the FDA/EPA chart by species rather than trying to estimate risk from size, price, or whether the fish is fresh or frozen.</p>","faq":[{"question":"Which fish should pregnant people avoid because of mercury?","answer":"FDA/EPA list king mackerel, marlin, orange roughy, shark, swordfish, Gulf of Mexico tilefish, and bigeye tuna as Choices to Avoid."},{"question":"Is all tuna equally high in mercury?","answer":"No. Canned light tuna, albacore, yellowfin, and bigeye fall into different FDA/EPA categories."},{"question":"Does a large fish always have high mercury?","answer":"Not necessarily. Size and lifespan help explain the pattern, but species-specific FDA/EPA guidance is the better tool."}],"sources":[{"name":"FDA/EPA — Advice about Eating Fish","url":"https://www.fda.gov/food/consumers/advice-about-eating-fish","note":"Current U.S. Best Choices, Good Choices, and Choices to Avoid categories."},{"name":"FDA — Mercury Levels in Commercial Fish and Shellfish (1990–2012)","url":"https://www.fda.gov/food/environmental-contaminants-food/mercury-levels-commercial-fish-and-shellfish-1990-2012","note":"Mean mercury measurements used to illustrate concentration differences."}],"image":{"concept":"Large predatory fish including swordfish and tuna displayed at a fish market, clean documentary food photography, no text.","alt":"Large predatory fish associated with higher mercury"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-289-fish-highest-in-mercury",
+  "article_number": 289,
+  "translation_group": "289-high-mercury-fish",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States",
+  "title": "Which fish are highest in mercury?",
+  "slug": "fish-highest-in-mercury",
+  "seo": {
+    "title": "Fish highest in mercury and which to avoid",
+    "meta_description": "FDA/EPA list king mackerel, marlin, orange roughy, shark, swordfish, Gulf of Mexico tilefish, and bigeye tuna as Choices to Avoid for pregnancy, breastfeeding, and young children because of mercury.",
+    "search_intent": "Identify higher-mercury fish and understand current U.S. fish-consumption advice."
+  },
+  "excerpt": "Large, long-lived predators accumulate the most methylmercury. FDA/EPA's Choices to Avoid are king mackerel, marlin, orange roughy, shark, swordfish, Gulf of Mexico tilefish, and bigeye tuna for people who are pregnant or breastfeeding and for young children.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": [
+      "mercury",
+      "high-mercury-fish"
+    ],
+    "article_types": [
+      "rankings",
+      "food-safety"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>Mercury is not evenly distributed across seafood. <strong>Large predators that live for years and eat many other fish tend to accumulate the highest methylmercury concentrations.</strong> That is why U.S. advice singles out particular species rather than warning people away from seafood as a whole.</p><h2>The seven FDA/EPA Choices to Avoid</h2><p>For people who might become or are pregnant or breastfeeding, and for young children, FDA/EPA list <strong>king mackerel, marlin, orange roughy, shark, swordfish, tilefish from the Gulf of Mexico, and bigeye tuna</strong> as Choices to Avoid because they have the highest mercury levels in the chart.</p><p>The same agencies encourage lower-mercury seafood because fish also supplies nutrients important in healthy eating. During pregnancy or breastfeeding, their guidance is <strong>2–3 servings totaling 8–12 ounces per week</strong> from Best Choices.</p><h2>How large is the concentration gap?</h2><p>Historical FDA monitoring data make the scale easier to see:</p><table><thead><tr><th>Fish</th><th>Approx. mean mercury (ppm)</th></tr></thead><tbody><tr><td>Swordfish</td><td>~1.00</td></tr><tr><td>Shark</td><td>~0.98</td></tr><tr><td>Canned albacore/white tuna</td><td>~0.35</td></tr><tr><td>Canned light tuna</td><td>~0.126</td></tr><tr><td>Sardine</td><td>~0.013</td></tr><tr><td>Shrimp</td><td>~0.009</td></tr></tbody></table><p>In this reference, average swordfish is roughly 75 times higher than sardine, although individual fish vary. The table explains the pattern; current local public-health advice should guide actual consumption decisions.</p><h2>Why predators accumulate so much</h2><p>Methylmercury enters aquatic food webs and remains in animal tissues. A predator consumes mercury already present in its prey, then keeps accumulating it over a long life. Size is therefore a useful clue, but species-specific guidance is more reliable than judging a fillet by how large it looks at the store.</p><h2>Tuna is a good example of why species matters</h2><p>FDA/EPA put canned light tuna in Best Choices, albacore/white and yellowfin tuna in Good Choices, and bigeye tuna in Choices to Avoid. FDA monitoring lists canned light tuna at about <strong>0.126 ppm</strong> mean mercury versus roughly <strong>0.35 ppm</strong> for canned albacore. The word “tuna” alone is not enough to describe exposure.</p><h2>The useful rule</h2><p>Keep seafood varied and favor the lower-mercury categories. If pregnancy, breastfeeding, or feeding young children makes mercury guidance especially relevant, use the FDA/EPA chart by species rather than trying to estimate risk from size, price, or whether the fish is fresh or frozen.</p>",
+  "faq": [
+    {
+      "question": "Which fish should pregnant people avoid because of mercury?",
+      "answer": "FDA/EPA list king mackerel, marlin, orange roughy, shark, swordfish, Gulf of Mexico tilefish, and bigeye tuna as Choices to Avoid."
+    },
+    {
+      "question": "Is all tuna equally high in mercury?",
+      "answer": "No. Canned light tuna, albacore, yellowfin, and bigeye fall into different FDA/EPA categories."
+    },
+    {
+      "question": "Does a large fish always have high mercury?",
+      "answer": "Not necessarily. Size and lifespan help explain the pattern, but species-specific FDA/EPA guidance is the better tool."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA/EPA — Advice about Eating Fish",
+      "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+      "note": "Current U.S. Best Choices, Good Choices, and Choices to Avoid categories."
+    },
+    {
+      "name": "FDA — Mercury Levels in Commercial Fish and Shellfish (1990–2012)",
+      "url": "https://www.fda.gov/food/environmental-contaminants-food/mercury-levels-commercial-fish-and-shellfish-1990-2012",
+      "note": "Mean mercury measurements used to illustrate concentration differences."
+    }
+  ],
+  "image": {
+    "concept": "Large predatory fish including swordfish and tuna displayed at a fish market, clean documentary food photography, no text.",
+    "alt": "Large predatory fish associated with higher mercury"
+  },
+  "status": "publish"
+}

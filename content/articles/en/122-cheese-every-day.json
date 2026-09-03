@@ -15,20 +15,43 @@
   },
   "excerpt": "A small serving of cheese can fit into a daily diet, but type and portion matter. The American Heart Association recommends two to three dairy servings per day and favors fat-free or low-fat options. About 1.5 oz of hard cheese counts as a dairy serving; full-fat hard cheeses can provide useful protein and calcium while also concentrating saturated fat and sodium.",
   "taxonomy": {
-    "food_family": "eggs-dairy",
-    "food_subcategories": ["cheese"],
-    "article_types": ["health-daily-consumption", "nutrition-composition", "myths-faq"],
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "cheese"
+    ],
+    "article_types": [
+      "health-daily-consumption",
+      "nutrition-composition",
+      "myths-faq"
+    ],
     "primary_article_type": "health-daily-consumption"
   },
   "content_html": "<p>Cheese can appear every day in a healthy diet, but <strong>a 1.5 oz slice of hard cheese is very different from eating several ounces without noticing</strong>. Aging removes water, which concentrates protein and calcium but also calories, saturated fat, and sodium.</p><h2>Start with the serving, not 100 grams</h2><p>About 1.5 oz of hard cheese counts as one dairy serving in U.S. guidance. AHA recommends two to three dairy servings per day for adults and favors fat-free or low-fat dairy choices.</p><p>A daily cheese serving can therefore fit, but it occupies part of the same dairy pattern as milk and yogurt.</p><h2>Hard cheese is highly concentrated</h2><p>Cheddar, Parmesan, and similar aged cheeses often provide roughly 350–430 calories and 25–35 g fat per 100 g. A realistic 1–1.5 oz portion brings that down to roughly 110–170 calories while still contributing around 7–12 g protein depending on the cheese.</p><p>Fresh cheeses contain more water and are generally less energy-dense, although products vary widely.</p><h2>Saturated fat is the main reason portion matters</h2><p>Full-fat cheese can contribute several grams of saturated fat in a modest serving. If the rest of the day also includes butter, fatty meat, cream, or other saturated-fat-rich foods, the total rises quickly.</p><p>AHA specifically favors lower-fat cheeses and suggests choosing products with no more than about 3 g total fat and 1 g saturated fat per ounce when possible.</p><h2>Sodium can be just as important</h2><p>Aged and processed cheeses may be high in sodium. Fresh mozzarella, cottage cheese, feta, Parmesan, and processed slices can differ dramatically, so the label matters more than assuming all cheese is equally salty.</p><h2>Protein and calcium are real strengths</h2><p>Cheese is not just fat and salt. A small serving can provide meaningful protein and calcium, especially in aged cheeses where water loss concentrates both nutrients.</p><h2>The practical rule</h2><p><strong>A modest cheese serving can fit every day</strong>, but full-fat aged cheese is concentrated enough that portion size matters. If cheese is daily, rotating with plain yogurt or milk and choosing lower-sodium or lower-saturated-fat options can make the overall dairy pattern easier to balance.</p>",
   "faq": [
-    {"question": "How much cheese is a serving?", "answer": "About 1.5 oz of hard cheese counts as one dairy serving in U.S. dietary guidance."},
-    {"question": "Is cheese too high in saturated fat to eat daily?", "answer": "Not necessarily, but full-fat cheese can contribute several grams per serving. The portion and the rest of your saturated-fat intake matter."},
-    {"question": "Is fresh cheese better than aged cheese?", "answer": "Fresh cheese is often less calorie-dense because it contains more water. Aged cheese usually concentrates more protein and calcium but also more fat and sodium."}
+    {
+      "question": "How much cheese is a serving?",
+      "answer": "About 1.5 oz of hard cheese counts as one dairy serving in U.S. dietary guidance."
+    },
+    {
+      "question": "Is cheese too high in saturated fat to eat daily?",
+      "answer": "Not necessarily, but full-fat cheese can contribute several grams per serving. The portion and the rest of your saturated-fat intake matter."
+    },
+    {
+      "question": "Is fresh cheese better than aged cheese?",
+      "answer": "Fresh cheese is often less calorie-dense because it contains more water. Aged cheese usually concentrates more protein and calcium but also more fat and sodium."
+    }
   ],
   "sources": [
-    {"name": "American Heart Association — Dairy Products: Milk, Yogurt and Cheese", "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/dairy-products-milk-yogurt-and-cheese", "note": "Dairy serving guidance and preference for lower-fat cheese."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Calories, protein, fat, sodium, and calcium in different cheeses."}
+    {
+      "name": "American Heart Association — Dairy Products: Milk, Yogurt and Cheese",
+      "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/dairy-products-milk-yogurt-and-cheese",
+      "note": "Dairy serving guidance and preference for lower-fat cheese."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Calories, protein, fat, sodium, and calcium in different cheeses."
+    }
   ],
   "image": {
     "concept": "A measured 1.5 oz portion of hard cheese beside a larger portion of fresh cheese, clean editorial food photography without text.",

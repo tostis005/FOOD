@@ -1,1 +1,59 @@
-{"schema_version":1,"id":"en-447-raw-cooked-vegetables","article_number":447,"translation_group":"447-raw-vs-cooked-vegetables","language":"en","locale":"en-US","market_context":"United States; cooking effects on vitamins, minerals, carotenoids, and digestibility.","title":"Raw vs. Cooked Vegetables: How Nutrition Changes","slug":"raw-vs-cooked-vegetables-nutrition","seo":{"title":"Raw vs. Cooked Vegetables: How Nutrition Changes","meta_description":"Cooking can reduce vitamin C and folate but increase the availability of carotenoids such as tomato lycopene or beta-carotene. Raw is not always better.","search_intent":"Understand which nutrients decrease or become more available when vegetables are cooked."},"excerpt":"There is no universal winner. Cooking can reduce heat- and water-sensitive nutrients such as vitamin C and folate, while also breaking cell walls and increasing the availability of carotenoids such as lycopene in tomatoes and beta-carotene in carrots and spinach.","taxonomy":{"food_family":"vegetables-mushrooms","food_subcategories":[],"article_types":["comparisons","cooking-science","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>“Raw keeps everything” and “cooked absorbs better” are both half-truths. <strong>The effect of cooking depends on the nutrient, the vegetable, and the method.</strong></p><h2>Vitamin C and folate are sensitive</h2><p>Vitamin C breaks down with prolonged heat and can leach into cooking water. Long boiling therefore tends to preserve less than brief steaming or microwaving.</p><h2>Carotenoids can become more available</h2><p>Heat disrupts cell structures and can make fat-soluble pigments easier to extract. UC Davis reviews note greater lycopene bioavailability in heat-treated tomato and improved carotenoid assimilation from cooked carrots and spinach.</p><h2>A little fat can help absorption</h2><p>Beta-carotene, lutein, and lycopene are fat-soluble. Eating cooked vegetables with some oil can increase absorption compared with a completely fat-free meal.</p><h2>Minerals and fiber do not vanish</h2><p>Minerals are not destroyed by heat, although some can leach into water. Fiber changes texture and structure but is not eliminated the way a heat-sensitive vitamin can be reduced.</p><h2>Variety wins</h2><p>Raw tomato in a salad and cooked tomato sauce offer different strengths. The same is true of carrots, spinach, and broccoli.</p><p><strong>There is no nutritional reason to turn raw versus cooked into an ideology; a mix of methods is usually the most useful approach.</strong></p>","faq":[{"question":"Does cooking destroy all vitamins?","answer":"No. Some heat-sensitive vitamins decline, while minerals remain and some compounds become more available."},{"question":"Is cooked tomato more nutritious?","answer":"Not in every nutrient, but lycopene is generally more bioavailable after heat processing."},{"question":"Which method preserves vitamin C best?","answer":"Short methods using little water, such as steaming or microwaving, generally preserve more than long boiling."}],"sources":[{"name":"Harvard T.H. Chan — Vitamin C","url":"https://nutritionsource.hsph.harvard.edu/vitamin-c/","note":"Describes vitamin C loss from heat and cooking water."},{"name":"UC Davis — Nutritional Quality of Fruits and Vegetables","url":"https://crisosto.ucdavis.edu/sites/g/files/dgvnsk6166/files/inline-files/130-09-Nutritional-quality-of-fruits-and-vegetables-Chapter-5.pdf","note":"Reviews cooking effects on carotenoid and lycopene bioavailability."}],"image":{"concept":"Tomatoes, carrots, spinach, and broccoli shown raw on one side and cooked on the other, realistic nutrition editorial photography, no text.","alt":"Raw and cooked vegetables compared"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-447-raw-cooked-vegetables",
+  "article_number": 447,
+  "translation_group": "447-raw-vs-cooked-vegetables",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; cooking effects on vitamins, minerals, carotenoids, and digestibility.",
+  "title": "Raw vs. Cooked Vegetables: How Nutrition Changes",
+  "slug": "raw-vs-cooked-vegetables-nutrition",
+  "seo": {
+    "title": "Raw vs. Cooked Vegetables: How Nutrition Changes",
+    "meta_description": "Cooking can reduce vitamin C and folate but increase the availability of carotenoids such as tomato lycopene or beta-carotene. Raw is not always better.",
+    "search_intent": "Understand which nutrients decrease or become more available when vegetables are cooked."
+  },
+  "excerpt": "There is no universal winner. Cooking can reduce heat- and water-sensitive nutrients such as vitamin C and folate, while also breaking cell walls and increasing the availability of carotenoids such as lycopene in tomatoes and beta-carotene in carrots and spinach.",
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "cooking-science",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>“Raw keeps everything” and “cooked absorbs better” are both half-truths. <strong>The effect of cooking depends on the nutrient, the vegetable, and the method.</strong></p><h2>Vitamin C and folate are sensitive</h2><p>Vitamin C breaks down with prolonged heat and can leach into cooking water. Long boiling therefore tends to preserve less than brief steaming or microwaving.</p><h2>Carotenoids can become more available</h2><p>Heat disrupts cell structures and can make fat-soluble pigments easier to extract. UC Davis reviews note greater lycopene bioavailability in heat-treated tomato and improved carotenoid assimilation from cooked carrots and spinach.</p><h2>A little fat can help absorption</h2><p>Beta-carotene, lutein, and lycopene are fat-soluble. Eating cooked vegetables with some oil can increase absorption compared with a completely fat-free meal.</p><h2>Minerals and fiber do not vanish</h2><p>Minerals are not destroyed by heat, although some can leach into water. Fiber changes texture and structure but is not eliminated the way a heat-sensitive vitamin can be reduced.</p><h2>Raw and cooked are not two fixed nutritional categories</h2><p>“Cooked” can mean five minutes of steaming, twenty minutes of boiling or roasting with oil. Each method changes water, temperature and time differently. A useful comparison therefore needs to specify the process, especially for water-soluble vitamins.</p><p>Per-100-gram concentration can also rise simply because the food loses water even when the total amount of a nutrient has not increased. To understand what a person actually gets, composition data need to be read together with the cooking mechanism and a realistic serving.</p><h2>Variety wins</h2><p>Raw tomato in a salad and cooked tomato sauce offer different strengths. The same is true of carrots, spinach, and broccoli.</p><p><strong>There is no nutritional reason to turn raw versus cooked into an ideology; a mix of methods is usually the most useful approach.</strong></p>",
+  "faq": [
+    {
+      "question": "Does cooking destroy all vitamins?",
+      "answer": "No. Some heat-sensitive vitamins decline, while minerals remain and some compounds become more available."
+    },
+    {
+      "question": "Is cooked tomato more nutritious?",
+      "answer": "Not in every nutrient, but lycopene is generally more bioavailable after heat processing."
+    },
+    {
+      "question": "Which method preserves vitamin C best?",
+      "answer": "Short methods using little water, such as steaming or microwaving, generally preserve more than long boiling."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Harvard T.H. Chan — Vitamin C",
+      "url": "https://nutritionsource.hsph.harvard.edu/vitamin-c/",
+      "note": "Describes vitamin C loss from heat and cooking water."
+    },
+    {
+      "name": "UC Davis — Nutritional Quality of Fruits and Vegetables",
+      "url": "https://crisosto.ucdavis.edu/sites/g/files/dgvnsk6166/files/inline-files/130-09-Nutritional-quality-of-fruits-and-vegetables-Chapter-5.pdf",
+      "note": "Reviews cooking effects on carotenoid and lycopene bioavailability."
+    }
+  ],
+  "image": {
+    "concept": "Tomatoes, carrots, spinach, and broccoli shown raw on one side and cooked on the other, realistic nutrition editorial photography, no text.",
+    "alt": "Raw and cooked vegetables compared"
+  },
+  "status": "publish"
+}

@@ -8,12 +8,43 @@
   "market_context": "España/Unión Europea; alimentos estables y almacenamiento doméstico",
   "title": "Qué alimentos no necesitan nevera",
   "slug": "alimentos-no-necesitan-nevera",
-  "seo": {"title":"Qué alimentos no necesitan nevera","meta_description":"Arroz y pasta secos, conservas cerradas, harina, aceite, pan y muchas frutas/verduras enteras pueden guardarse a temperatura ambiente. Tras abrir, las reglas cambian.","search_intent":"Saber qué alimentos pueden almacenarse de forma segura fuera del frigorífico y cuándo deben refrigerarse tras abrir."},
+  "seo": {
+    "title": "Qué alimentos no necesitan nevera",
+    "meta_description": "Arroz y pasta secos, conservas cerradas, harina, aceite, pan y muchas frutas/verduras enteras pueden guardarse a temperatura ambiente. Tras abrir, las reglas cambian.",
+    "search_intent": "Saber qué alimentos pueden almacenarse de forma segura fuera del frigorífico y cuándo deben refrigerarse tras abrir."
+  },
   "excerpt": "Los alimentos secos o comercialmente estables —arroz y pasta secos, harina, conservas cerradas, aceite, pan y muchos productos envasados sin abrir— no necesitan nevera si la etiqueta indica conservación a temperatura ambiente. Muchas frutas y verduras enteras tampoco. Pero abrir, cortar, cocinar o hidratar un alimento puede convertirlo en perecedero y cambiar por completo la regla.",
-  "taxonomy": {"food_family":"general","food_subcategories":["storage"],"article_types":["storage","practical-guide"],"primary_article_type":"storage"},
-  "content_html": "<p>La nevera no es automáticamente el mejor lugar para todo. Algunos alimentos están diseñados para permanecer estables porque tienen poca agua disponible, han sido esterilizados comercialmente o su envase evita la contaminación.</p><table><thead><tr><th>Suele poder guardarse fuera</th><th>Condición</th></tr></thead><tbody><tr><td>Arroz, pasta, avena secos</td><td>Lugar fresco y seco</td></tr><tr><td>Harina, azúcar, sal</td><td>Recipiente seco y cerrado</td></tr><tr><td>Conservas</td><td>Sin abrir y envase intacto</td></tr><tr><td>Aceite de oliva</td><td>Oscuro, fresco y lejos de calor</td></tr><tr><td>Pan</td><td>Corto plazo, protegido de humedad</td></tr><tr><td>Muchas frutas/verduras enteras</td><td>Según especie y madurez</td></tr></tbody></table><h2>Abrir cambia las reglas</h2><p>Una lata de tomate cerrada es estable; abierta debe refrigerarse en un recipiente adecuado. Una leche UHT cerrada puede estar en despensa; abierta necesita frío. La etiqueta del fabricante manda.</p><h2>Entero y cortado tampoco son lo mismo</h2><p>Una sandía entera puede mantenerse fuera durante un tiempo; una vez cortada, la pulpa húmeda queda expuesta y debe refrigerarse. Lo mismo ocurre con muchas frutas y hortalizas cortadas.</p><h2>La nevera puede mejorar calidad aunque no sea imprescindible</h2><p>Frutos secos, semillas o algunos aceites pueden conservar mejor sabor durante más tiempo en frío, especialmente con calor ambiental, aunque no sean alimentos que necesiten refrigeración inmediata por seguridad.</p><h2>La regla</h2><p>Pregunta primero si el producto está seco, esterilizado y cerrado o si ya está abierto, cortado o cocinado. Y ante una instrucción específica de la etiqueta, sigue la etiqueta.</p>",
-  "faq": [{"question":"¿Las conservas necesitan nevera?","answer":"No mientras estén cerradas, intactas y la etiqueta indique conservación a temperatura ambiente. Tras abrir, normalmente deben refrigerarse."},{"question":"¿El arroz seco necesita nevera?","answer":"No. Se conserva bien en un lugar fresco, seco y protegido de plagas; el arroz cocido sí es perecedero."}],
-  "sources": [{"name":"USDA FSIS — Shelf-Stable Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food","note":"Principios de alimentos estables a temperatura ambiente."}],
-  "image": {"concept":"Despensa con arroz, pasta, harina, conservas, aceite y pan junto a fruta entera, fotografía editorial sin texto.","alt":"Alimentos que pueden almacenarse fuera de la nevera"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "storage"
+    ],
+    "article_types": [
+      "storage"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>La nevera no es automáticamente el mejor lugar para todo. Algunos alimentos están diseñados para permanecer estables porque tienen poca agua disponible, han sido esterilizados comercialmente o su envase evita la contaminación.</p><table><thead><tr><th>Suele poder guardarse fuera</th><th>Condición</th></tr></thead><tbody><tr><td>Arroz, pasta, avena secos</td><td>Lugar fresco y seco</td></tr><tr><td>Harina, azúcar, sal</td><td>Recipiente seco y cerrado</td></tr><tr><td>Conservas</td><td>Sin abrir y envase intacto</td></tr><tr><td>Aceite de oliva</td><td>Oscuro, fresco y lejos de calor</td></tr><tr><td>Pan</td><td>Corto plazo, protegido de humedad</td></tr><tr><td>Muchas frutas/verduras enteras</td><td>Según especie y madurez</td></tr></tbody></table><p>El punto de inflexión suele ser el agua y la apertura. Arroz seco y arroz cocido comparten nombre, pero no condiciones microbiológicas; una conserva cerrada y la misma conserva abierta tampoco. <strong>El estado del alimento importa tanto como el alimento.</strong></p><h2>Abrir cambia las reglas</h2><p>Una lata de tomate cerrada es estable; abierta debe refrigerarse en un recipiente adecuado. Una leche UHT cerrada puede estar en despensa; abierta necesita frío. La etiqueta del fabricante manda.</p><h2>Entero y cortado tampoco son lo mismo</h2><p>Una sandía entera puede mantenerse fuera durante un tiempo; una vez cortada, la pulpa húmeda queda expuesta y debe refrigerarse. Lo mismo ocurre con muchas frutas y hortalizas cortadas.</p><h2>La nevera puede mejorar calidad aunque no sea imprescindible</h2><p>Frutos secos, semillas o algunos aceites pueden conservar mejor sabor durante más tiempo en frío, especialmente con calor ambiental, aunque no sean alimentos que necesiten refrigeración inmediata por seguridad.</p><p>También conviene distinguir seguridad de calidad. Guardar tomates enteros, pan o aceite en un lugar demasiado frío puede cambiar textura o sabor aunque no fuera obligatorio refrigerarlos. La mejor ubicación es la que respeta primero la seguridad y después conserva la calidad.</p><h2>La regla</h2><p>Pregunta primero si el producto está seco, esterilizado y cerrado o si ya está abierto, cortado o cocinado. Y ante una instrucción específica de la etiqueta, sigue la etiqueta.</p>",
+  "faq": [
+    {
+      "question": "¿Las conservas necesitan nevera?",
+      "answer": "No mientras estén cerradas, intactas y la etiqueta indique conservación a temperatura ambiente. Tras abrir, normalmente deben refrigerarse."
+    },
+    {
+      "question": "¿El arroz seco necesita nevera?",
+      "answer": "No. Se conserva bien en un lugar fresco, seco y protegido de plagas; el arroz cocido sí es perecedero."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Shelf-Stable Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food",
+      "note": "Principios de alimentos estables a temperatura ambiente."
+    }
+  ],
+  "image": {
+    "concept": "Despensa con arroz, pasta, harina, conservas, aceite y pan junto a fruta entera, fotografía editorial sin texto.",
+    "alt": "Alimentos que pueden almacenarse fuera de la nevera"
+  },
+  "status": "publish"
 }

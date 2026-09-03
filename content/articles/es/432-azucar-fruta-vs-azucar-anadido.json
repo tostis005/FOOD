@@ -1,1 +1,58 @@
-{"schema_version":1,"id":"es-432-azucar-fruta-anadido","article_number":432,"translation_group":"432-fruit-sugar-vs-added-sugar","language":"es","locale":"es-ES","market_context":"España/Unión Europea; conceptos de azúcares intrínsecos, libres y añadidos.","title":"Azúcar de la fruta vs. azúcar añadido","slug":"azucar-fruta-vs-azucar-anadido","seo":{"title":"Azúcar de la fruta vs. azúcar añadido: qué cambia","meta_description":"La glucosa, fructosa y sacarosa son químicamente similares, pero en fruta entera llegan con agua, fibra y micronutrientes. El zumo cambia ese contexto y cuenta como azúcar libre para la OMS.","search_intent":"Entender por qué los azúcares de fruta entera y los azúcares añadidos no se evalúan igual nutricionalmente."},"excerpt":"La molécula de fructosa no se vuelve distinta por estar dentro de una manzana, pero el alimento que la contiene sí cambia mucho. En fruta entera, los azúcares están dentro de una matriz con agua, fibra y micronutrientes; en refrescos o dulces añadidos llegan mucho más concentrados y con menos saciedad.","taxonomy":{"food_family":"fruit","food_subcategories":[],"article_types":["nutrition-concepts","comparisons"],"primary_article_type":"nutrition-concepts"},"content_html":"<p>“El azúcar es azúcar” tiene una parte de verdad química y una conclusión nutricional demasiado simple. <strong>La glucosa, fructosa y sacarosa pueden ser las mismas moléculas, pero la forma en la que llegan al cuerpo cambia con el alimento.</strong></p><h2>Fruta entera: azúcar dentro de una matriz</h2><p>Una manzana aporta azúcares, pero también mucha agua, fibra, vitaminas, minerales y compuestos vegetales. Masticarla lleva tiempo y su volumen contribuye a la saciedad. Por eso 15 g de azúcares dentro de fruta entera no producen la misma experiencia alimentaria que 15 g disueltos en una bebida.</p><h2>Qué significa “azúcar añadido”</h2><p>Es el azúcar incorporado durante fabricación o preparación: sacarosa, jarabes, miel y otros endulzantes cuando se añaden a un alimento. En productos procesados puede elevar la energía sin aportar la misma fibra o densidad nutricional.</p><h2>La OMS usa además el concepto de azúcares libres</h2><p>La OMS incluye en “azúcares libres” los añadidos y también los presentes de forma natural en miel, jarabes y zumos de fruta. No incluye los azúcares contenidos dentro de la estructura celular de fruta y verdura enteras.</p><p>Por eso un zumo 100% fruta no equivale exactamente a un refresco, pero tampoco se trata como fruta entera cuando se habla de azúcares libres.</p><h2>Un ejemplo con números</h2><p>Una naranja de unos 130 g puede aportar alrededor de 12 g de azúcares junto a fibra y agua. Un vaso de 250 ml de refresco azucarado puede superar 25 g de azúcar añadido. No sólo cambia la cantidad: también cambia la velocidad de consumo y la saciedad.</p><p><strong>La pregunta útil no es sólo “cuántos gramos de azúcar hay”, sino “en qué alimento, en qué cantidad y con qué estructura nutricional llegan”.</strong></p>","faq":[{"question":"¿La fructosa de la fruta es químicamente distinta?","answer":"No. La diferencia principal está en la matriz del alimento, la fibra, el agua, la cantidad y la forma de consumo."},{"question":"¿El zumo cuenta como fruta entera?","answer":"No a efectos de azúcares libres. La OMS incluye los azúcares de zumos dentro de los azúcares libres."},{"question":"¿Hay que evitar la fruta por su azúcar?","answer":"Para la mayoría de personas, las guías alimentarias promueven el consumo de fruta entera. Situaciones clínicas concretas pueden requerir ajustar raciones con un profesional."}],"sources":[{"name":"OMS — Guideline: Sugars intake for adults and children","url":"https://www.who.int/publications/i/item/9789241549028","note":"Define azúcares libres y excluye los azúcares intrínsecos de frutas y verduras enteras."},{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/food-search/","note":"Composición nutricional de frutas y bebidas usada para ejemplos cuantitativos."}],"image":{"concept":"Una naranja entera junto a un vaso de zumo y una lata de refresco azucarado, fotografía editorial nutricional realista, sin texto.","alt":"Comparación entre fruta entera, zumo y bebida con azúcar añadido"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-432-azucar-fruta-anadido",
+  "article_number": 432,
+  "translation_group": "432-fruit-sugar-vs-added-sugar",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; conceptos de azúcares intrínsecos, libres y añadidos.",
+  "title": "Azúcar de la fruta vs. azúcar añadido",
+  "slug": "azucar-fruta-vs-azucar-anadido",
+  "seo": {
+    "title": "Azúcar de la fruta vs. azúcar añadido: qué cambia",
+    "meta_description": "La glucosa, fructosa y sacarosa son químicamente similares, pero en fruta entera llegan con agua, fibra y micronutrientes. El zumo cambia ese contexto y cuenta como azúcar libre para la OMS.",
+    "search_intent": "Entender por qué los azúcares de fruta entera y los azúcares añadidos no se evalúan igual nutricionalmente."
+  },
+  "excerpt": "La molécula de fructosa no se vuelve distinta por estar dentro de una manzana, pero el alimento que la contiene sí cambia mucho. En fruta entera, los azúcares están dentro de una matriz con agua, fibra y micronutrientes; en refrescos o dulces añadidos llegan mucho más concentrados y con menos saciedad.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": [],
+    "article_types": [
+      "nutrition-concepts",
+      "comparisons"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>“El azúcar es azúcar” tiene una parte de verdad química y una conclusión nutricional demasiado simple. <strong>La glucosa, fructosa y sacarosa pueden ser las mismas moléculas, pero la forma en la que llegan al cuerpo cambia con el alimento.</strong></p><h2>Fruta entera: azúcar dentro de una matriz</h2><p>Una manzana aporta azúcares, pero también mucha agua, fibra, vitaminas, minerales y compuestos vegetales. Masticarla lleva tiempo y su volumen contribuye a la saciedad. Por eso 15 g de azúcares dentro de fruta entera no producen la misma experiencia alimentaria que 15 g disueltos en una bebida.</p><h2>Qué significa “azúcar añadido”</h2><p>Es el azúcar incorporado durante fabricación o preparación: sacarosa, jarabes, miel y otros endulzantes cuando se añaden a un alimento. En productos procesados puede elevar la energía sin aportar la misma fibra o densidad nutricional.</p><h2>La OMS usa además el concepto de azúcares libres</h2><p>La OMS incluye en “azúcares libres” los añadidos y también los presentes de forma natural en miel, jarabes y zumos de fruta. No incluye los azúcares contenidos dentro de la estructura celular de fruta y verdura enteras.</p><p>Por eso un zumo 100% fruta no equivale exactamente a un refresco, pero tampoco se trata como fruta entera cuando se habla de azúcares libres.</p><h2>La molécula puede ser la misma; el alimento no</h2><p>Glucosa, fructosa o sacarosa no se vuelven químicamente distintas por proceder de una fruta o de azúcar añadido. Lo que cambia es el entorno: en fruta entera vienen acompañadas de agua, fibra, micronutrientes y una estructura que ralentiza el consumo; el azúcar añadido puede aumentar energía sin añadir ese mismo conjunto. Por eso las recomendaciones dietéticas distinguen azúcares libres o añadidos del azúcar naturalmente presente en fruta entera.</p><h2>Un ejemplo con números</h2><p>Una naranja de unos 130 g puede aportar alrededor de 12 g de azúcares junto a fibra y agua. Un vaso de 250 ml de refresco azucarado puede superar 25 g de azúcar añadido. No sólo cambia la cantidad: también cambia la velocidad de consumo y la saciedad.</p><p><strong>La pregunta útil no es sólo “cuántos gramos de azúcar hay”, sino “en qué alimento, en qué cantidad y con qué estructura nutricional llegan”.</strong></p>",
+  "faq": [
+    {
+      "question": "¿La fructosa de la fruta es químicamente distinta?",
+      "answer": "No. La diferencia principal está en la matriz del alimento, la fibra, el agua, la cantidad y la forma de consumo."
+    },
+    {
+      "question": "¿El zumo cuenta como fruta entera?",
+      "answer": "No a efectos de azúcares libres. La OMS incluye los azúcares de zumos dentro de los azúcares libres."
+    },
+    {
+      "question": "¿Hay que evitar la fruta por su azúcar?",
+      "answer": "Para la mayoría de personas, las guías alimentarias promueven el consumo de fruta entera. Situaciones clínicas concretas pueden requerir ajustar raciones con un profesional."
+    }
+  ],
+  "sources": [
+    {
+      "name": "OMS — Guideline: Sugars intake for adults and children",
+      "url": "https://www.who.int/publications/i/item/9789241549028",
+      "note": "Define azúcares libres y excluye los azúcares intrínsecos de frutas y verduras enteras."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/food-search/",
+      "note": "Composición nutricional de frutas y bebidas usada para ejemplos cuantitativos."
+    }
+  ],
+  "image": {
+    "concept": "Una naranja entera junto a un vaso de zumo y una lata de refresco azucarado, fotografía editorial nutricional realista, sin texto.",
+    "alt": "Comparación entre fruta entera, zumo y bebida con azúcar añadido"
+  },
+  "status": "publish"
+}

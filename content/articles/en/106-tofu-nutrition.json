@@ -15,20 +15,42 @@
   },
   "excerpt": "Firm tofu often provides roughly 12–17 g protein per 100 g, 7–10 g fat, and 120–160 calories, although water content and brand make a large difference. A 5.3 oz (150 g) serving can provide about 18–26 g protein. Calcium varies substantially depending on whether calcium salts were used as the coagulant.",
   "taxonomy": {
-    "food_family": "legumes",
-    "food_subcategories": ["soy", "tofu"],
-    "article_types": ["nutrition-composition"],
+    "food_family": "legumes-soy",
+    "food_subcategories": [
+      "soy",
+      "tofu"
+    ],
+    "article_types": [
+      "nutrition-composition"
+    ],
     "primary_article_type": "nutrition-composition"
   },
   "content_html": "<p>Asking how much protein is in “tofu” sounds straightforward until two packages show very different numbers. <strong>Water content and tofu style can change the concentration dramatically</strong>.</p><h2>Firm tofu is more concentrated than silken tofu</h2><p>Firm tofu has had more water pressed out, so it usually contains more protein and fat per 100 g. A common range looks roughly like this.</p><table><thead><tr><th>Nutrient</th><th>Per 100 g</th><th>Per 150 g</th></tr></thead><tbody><tr><td>Calories</td><td>~120–160</td><td>~180–240</td></tr><tr><td>Protein</td><td>~12–17 g</td><td>~18–26 g</td></tr><tr><td>Fat</td><td>~7–10 g</td><td>~11–15 g</td></tr><tr><td>Carbohydrate</td><td>~2–4 g</td><td>~3–6 g</td></tr></tbody></table><p>Silken tofu contains more water and generally falls below that protein range per 100 g. That does not make it inferior; it is simply less concentrated.</p><h2>The protein comes from soy</h2><p>Tofu retains a substantial share of soy protein and contains all nine essential amino acids. A generous serving of firm tofu can exceed 20 g protein, enough to serve as the main protein source in a meal.</p><h2>Calcium can vary enormously</h2><p>Some tofu is coagulated with calcium sulfate and can provide a large amount of calcium. Other products use magnesium chloride, nigari, or different coagulants and may contain much less.</p><p>That is why it is unreliable to say every tofu is “high in calcium.” <strong>The nutrition label on the specific package is the best reference</strong>.</p><h2>Most of the fat is unsaturated</h2><p>Tofu is not fat-free, but most of its naturally occurring soy fat is unsaturated. It also contributes a small amount of ALA omega-3.</p><h2>Iron and other minerals</h2><p>Tofu can provide iron, magnesium, phosphorus, and other micronutrients. Its iron is non-heme iron, which is absorbed less efficiently than heme iron from meat. Pairing tofu with vitamin-C-rich foods can improve non-heme iron absorption.</p><h2>Frying changes calories more than pressing does</h2><p>Pressing removes water and concentrates the tofu. Frying adds external fat. Fried tofu can therefore end up substantially higher in calories than the same tofu baked, grilled, or sautéed with less oil.</p><h2>The useful rule</h2><p>To understand your tofu, check <strong>protein per 100 g or serving, serving size, and calcium on the label</strong>. Tofu is a family of foods, not one fixed nutrient profile.</p>",
   "faq": [
-    {"question": "How much protein is in tofu?", "answer": "Firm tofu often provides about 12–17 g per 100 g; a 150 g serving can provide roughly 18–26 g."},
-    {"question": "Is all tofu high in calcium?", "answer": "No. Calcium varies greatly with the coagulant. Calcium-set tofu can provide much more than other types."},
-    {"question": "Is tofu a complete protein?", "answer": "Yes. Soy protein contains all nine essential amino acids."}
+    {
+      "question": "How much protein is in tofu?",
+      "answer": "Firm tofu often provides about 12–17 g per 100 g; a 150 g serving can provide roughly 18–26 g."
+    },
+    {
+      "question": "Is all tofu high in calcium?",
+      "answer": "No. Calcium varies greatly with the coagulant. Calcium-set tofu can provide much more than other types."
+    },
+    {
+      "question": "Is tofu a complete protein?",
+      "answer": "Yes. Soy protein contains all nine essential amino acids."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of different tofu types."},
-    {"name": "FAO — Dietary protein quality evaluation", "url": "https://www.fao.org/", "note": "Protein quality and essential amino acids."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composition of different tofu types."
+    },
+    {
+      "name": "FAO — Dietary protein quality evaluation",
+      "url": "https://www.fao.org/",
+      "note": "Protein quality and essential amino acids."
+    }
   ],
   "image": {
     "concept": "Blocks of firm tofu and silken tofu side by side on a neutral surface, clean editorial food photography without text.",

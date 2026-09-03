@@ -16,19 +16,43 @@
   "excerpt": "Chía y lino son muy parecidos nutricionalmente, pero no idénticos. En 30 g, la chía aporta alrededor de 10,3 g de fibra y 5,3 g de ALA; el lino, unos 8,2 g de fibra y 6,8 g de ALA. El lino conviene consumirlo triturado para acceder mejor a sus nutrientes, mientras la chía puede comerse entera.",
   "taxonomy": {
     "food_family": "nuts-seeds",
-    "food_subcategories": ["seeds", "chia", "flax"],
-    "article_types": ["comparison", "nutrition-composition"],
-    "primary_article_type": "comparison"
+    "food_subcategories": [
+      "seeds",
+      "chia",
+      "flax"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
   },
   "content_html": "<p>Chía y lino suelen aparecer juntos porque comparten dos fortalezas poco habituales: <strong>mucha fibra y mucho ALA omega-3 en una ración pequeña</strong>. La comparación no tiene un ganador absoluto; cambia según qué nutriente y qué forma de uso te importen.</p><h2>Comparación por 30 gramos</h2><p>Usar la misma ración evita que la concentración por 100 g exagere diferencias que en una cucharada o dos son bastante pequeñas.</p><table><thead><tr><th>Nutriente</th><th>Chía, 30 g</th><th>Lino, 30 g</th></tr></thead><tbody><tr><td>Energía</td><td>~146 kcal</td><td>~160 kcal</td></tr><tr><td>Proteína</td><td>~5,0 g</td><td>~5,5 g</td></tr><tr><td>Fibra</td><td>~10,3 g</td><td>~8,2 g</td></tr><tr><td>Grasa</td><td>~9,2 g</td><td>~12,7 g</td></tr><tr><td>ALA omega-3</td><td>~5,3 g</td><td>~6,8 g</td></tr></tbody></table><p>La chía gana en fibra; el lino aporta algo más de ALA y grasa total. En proteína la diferencia ronda medio gramo por ración, demasiado pequeña para que por sí sola determine la elección.</p><h2>El lino conviene triturarlo</h2><p>La cubierta del lino es dura y una parte de las semillas enteras puede atravesar el aparato digestivo sin romperse completamente. Triturarlas o molerlas facilita el acceso a la grasa, los lignanos y otros componentes internos.</p><p>La chía, en cambio, puede consumirse entera y sus nutrientes siguen siendo accesibles. Esa diferencia práctica importa más que muchas diferencias pequeñas de la tabla.</p><h2>Los dos aportan ALA, no EPA y DHA</h2><p>El omega-3 predominante en ambas semillas es ácido alfa-linolénico. Aunque el cuerpo puede convertir una parte en EPA y DHA, la conversión es limitada. Por eso no son equivalentes gramo por gramo al omega-3 marino.</p><h2>La textura también cambia cómo se usan</h2><p>La chía forma un gel muy visible al hidratarse y funciona bien para puddings o para espesar. El lino molido también absorbe agua y puede ayudar a dar estructura a masas, pero produce una textura distinta y un sabor más marcado.</p><p>Si la prioridad es añadir fibra con una textura neutra, la chía puede resultar más cómoda. Si buscas maximizar ALA y no te importa moler la semilla, el lino tiene una ligera ventaja.</p><h2>Calcio, magnesio y otros minerales</h2><p>Ambas semillas aportan minerales, aunque el perfil no es idéntico. La chía suele destacar más por calcio; el lino aporta cantidades interesantes de magnesio y fósforo. Como ocurre con otras semillas, los fitatos pueden reducir la absorción de una parte de esos minerales.</p><h2>No hace falta elegir solo una</h2><p>Una cucharada de chía y otra de lino molido pueden coexistir en la misma dieta. La diferencia nutricional entre ambos es menor que la diferencia entre <strong>tomarlos con regularidad o no incluir ninguna fuente de semillas</strong>.</p><p>La regla práctica es sencilla: chía si quieres algo muy rico en fibra y fácil de usar entero; lino molido si quieres exprimir un poco más el ALA.</p>",
   "faq": [
-    {"question": "¿Qué tiene más omega-3, chía o lino?", "answer": "El lino suele aportar algo más de ALA: alrededor de 6,8 g por 30 g frente a unos 5,3 g en chía."},
-    {"question": "¿Qué tiene más fibra?", "answer": "La chía: aproximadamente 10,3 g por 30 g frente a unos 8,2 g en lino."},
-    {"question": "¿Hay que triturar la chía como el lino?", "answer": "No es necesario. El lino se aprovecha mejor triturado; la chía puede consumirse entera."}
+    {
+      "question": "¿Qué tiene más omega-3, chía o lino?",
+      "answer": "El lino suele aportar algo más de ALA: alrededor de 6,8 g por 30 g frente a unos 5,3 g en chía."
+    },
+    {
+      "question": "¿Qué tiene más fibra?",
+      "answer": "La chía: aproximadamente 10,3 g por 30 g frente a unos 8,2 g en lino."
+    },
+    {
+      "question": "¿Hay que triturar la chía como el lino?",
+      "answer": "No es necesario. El lino se aprovecha mejor triturado; la chía puede consumirse entera."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de chía y lino."},
-    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "ALA y conversión a EPA y DHA."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de chía y lino."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "note": "ALA y conversión a EPA y DHA."
+    }
   ],
   "image": {
     "concept": "Dos pequeños montones de semillas, chía negra y lino marrón molido parcialmente, fotografía editorial cenital sin texto.",

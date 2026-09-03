@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-272-descongelar-carne-temperatura-ambiente","article_number":272,"translation_group":"272-thaw-meat-room-temperature","language":"es","locale":"es-ES","market_context":"España/Unión Europea; riesgo de descongelar carne en encimera","title":"¿Se puede descongelar carne a temperatura ambiente?","slug":"se-puede-descongelar-carne-temperatura-ambiente","seo":{"title":"¿Se puede descongelar carne a temperatura ambiente?","meta_description":"No es un método seguro. El exterior puede superar 4 °C durante horas mientras el centro sigue congelado. Usa nevera, agua fría o microondas.","search_intent":"Entender por qué descongelar carne sobre la encimera es inseguro y qué hacer en su lugar."},"excerpt":"USDA desaconseja descongelar carne en la encimera. El problema es el gradiente de temperatura: el centro puede seguir duro y congelado mientras la superficie ya se encuentra entre unos 4 y 60 °C, intervalo donde las bacterias pueden multiplicarse rápidamente. Las alternativas seguras son nevera, agua fría y microondas.","taxonomy":{"food_family":"meat","food_subcategories":["meat","thawing","room-temperature"],"article_types":["food-safety","freezing-thawing"],"primary_article_type":"food-safety"},"content_html":"<p>Una pieza puede estar congelada en el centro y, al mismo tiempo, demasiado caliente en la superficie. <strong>Por eso USDA no considera segura la descongelación durante horas a temperatura ambiente.</strong></p><h2>El centro congelado crea una falsa sensación de seguridad</h2><p>La capa exterior absorbe calor primero. Puede superar <strong>4 °C/40 °F</strong> mucho antes de que el hielo del centro desaparezca. Entre aproximadamente 4 y 60 °C, las bacterias pueden multiplicarse con rapidez.</p><h2>La regla de dos horas sigue contando</h2><p>Los alimentos perecederos no deberían permanecer más de <strong>2 horas</strong> a temperatura ambiente, o más de 1 hora por encima de 32 °C. Una pieza grande puede tardar muchas más horas que eso en descongelarse por completo sobre una encimera.</p><h2>¿Y si la cocina está fresca?</h2><p>Una cocina a 18–22 °C sigue estando muy por encima de la temperatura segura de refrigeración. Que la habitación no resulte cálida para una persona no significa que sea fría para la carne.</p><h2>¿Puedo cocinarla si solo estuvo fuera un rato?</h2><p>Una exposición breve durante la preparación puede entrar dentro del margen general. El problema es usar la encimera como método de descongelación durante horas. Si la carne ha superado claramente los límites de tiempo, cocinarla después no es una forma fiable de recuperar la seguridad.</p><h2>La alternativa más parecida pero segura</h2><p>Si necesitas rapidez, usa agua <strong>fría</strong> con la carne dentro de una bolsa estanca y cambia el agua cada 30 minutos. El intercambio de calor es mucho más rápido que en aire y mantiene la superficie más fría.</p><h2>La idea útil</h2><p><strong>No descongeles carne durante horas sobre la encimera.</strong> Elige nevera, agua fría o microondas para controlar la temperatura de la superficie.</p>","faq":[{"question":"¿Por qué no puedo descongelar carne en la encimera?","answer":"Porque la superficie puede permanecer durante horas por encima de 4 °C mientras el centro continúa congelado."},{"question":"¿Una cocina a 20 °C es suficientemente fría?","answer":"No. 20 °C está dentro del intervalo favorable al crecimiento bacteriano, muy por encima de la refrigeración segura."},{"question":"¿Puedo usar agua templada?","answer":"USDA recomienda agua fría, no caliente o templada, y cambiarla cada 30 minutos."}],"sources":[{"name":"USDA FSIS — The Big Thaw","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods","note":"Explica por qué el exterior entra en la zona de peligro durante descongelación en encimera."},{"name":"USDA FSIS — Keep Food Safe! Food Safety Basics","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe","note":"Regla general de 2 horas para perecederos fuera de refrigeración."}],"image":{"concept":"Pieza de carne parcialmente congelada sobre una encimera junto a termómetro mostrando exterior templado, fotografía editorial sin texto.","alt":"Carne descongelándose de forma insegura a temperatura ambiente"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-272-descongelar-carne-temperatura-ambiente",
+  "article_number": 272,
+  "translation_group": "272-thaw-meat-room-temperature",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; riesgo de descongelar carne en encimera",
+  "title": "¿Se puede descongelar carne a temperatura ambiente?",
+  "slug": "se-puede-descongelar-carne-temperatura-ambiente",
+  "seo": {
+    "title": "¿Se puede descongelar carne a temperatura ambiente?",
+    "meta_description": "No es un método seguro. El exterior puede superar 4 °C durante horas mientras el centro sigue congelado. Usa nevera, agua fría o microondas.",
+    "search_intent": "Entender por qué descongelar carne sobre la encimera es inseguro y qué hacer en su lugar."
+  },
+  "excerpt": "USDA desaconseja descongelar carne en la encimera. El problema es el gradiente de temperatura: el centro puede seguir duro y congelado mientras la superficie ya se encuentra entre unos 4 y 60 °C, intervalo donde las bacterias pueden multiplicarse rápidamente. Las alternativas seguras son nevera, agua fría y microondas.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "meat",
+      "thawing",
+      "room-temperature"
+    ],
+    "article_types": [
+      "food-safety",
+      "freezing-thawing"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>Una pieza puede estar congelada en el centro y, al mismo tiempo, demasiado caliente en la superficie. <strong>Por eso USDA no considera segura la descongelación durante horas a temperatura ambiente.</strong></p><h2>El centro congelado crea una falsa sensación de seguridad</h2><p>La capa exterior absorbe calor primero. Puede superar <strong>4 °C/40 °F</strong> mucho antes de que el hielo del centro desaparezca. Entre aproximadamente 4 y 60 °C, las bacterias pueden multiplicarse con rapidez.</p><h2>La regla de dos horas sigue contando</h2><p>Los alimentos perecederos no deberían permanecer más de <strong>2 horas</strong> a temperatura ambiente, o más de 1 hora por encima de 32 °C. Una pieza grande puede tardar muchas más horas que eso en descongelarse por completo sobre una encimera.</p><h2>¿Y si la cocina está fresca?</h2><p>Una cocina a 18–22 °C sigue estando muy por encima de la temperatura segura de refrigeración. Que la habitación no resulte cálida para una persona no significa que sea fría para la carne.</p><h2>¿Puedo cocinarla si solo estuvo fuera un rato?</h2><p>Una exposición breve durante la preparación puede entrar dentro del margen general. El problema es usar la encimera como método de descongelación durante horas. Si la carne ha superado claramente los límites de tiempo, cocinarla después no es una forma fiable de recuperar la seguridad.</p><h2>La alternativa más parecida pero segura</h2><p>Si necesitas rapidez, usa agua <strong>fría</strong> con la carne dentro de una bolsa estanca y cambia el agua cada 30 minutos. El intercambio de calor es mucho más rápido que en aire y mantiene la superficie más fría.</p><p><strong>No descongeles carne durante horas sobre la encimera.</strong> Elige nevera, agua fría o microondas para controlar la temperatura de la superficie.</p>",
+  "faq": [
+    {
+      "question": "¿Por qué no puedo descongelar carne en la encimera?",
+      "answer": "Porque la superficie puede permanecer durante horas por encima de 4 °C mientras el centro continúa congelado."
+    },
+    {
+      "question": "¿Una cocina a 20 °C es suficientemente fría?",
+      "answer": "No. 20 °C está dentro del intervalo favorable al crecimiento bacteriano, muy por encima de la refrigeración segura."
+    },
+    {
+      "question": "¿Puedo usar agua templada?",
+      "answer": "USDA recomienda agua fría, no caliente o templada, y cambiarla cada 30 minutos."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — The Big Thaw",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods",
+      "note": "Explica por qué el exterior entra en la zona de peligro durante descongelación en encimera."
+    },
+    {
+      "name": "USDA FSIS — Keep Food Safe! Food Safety Basics",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+      "note": "Regla general de 2 horas para perecederos fuera de refrigeración."
+    }
+  ],
+  "image": {
+    "concept": "Pieza de carne parcialmente congelada sobre una encimera junto a termómetro mostrando exterior templado, fotografía editorial sin texto.",
+    "alt": "Carne descongelándose de forma insegura a temperatura ambiente"
+  },
+  "status": "publish"
+}

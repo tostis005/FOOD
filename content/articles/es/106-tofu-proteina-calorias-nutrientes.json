@@ -15,20 +15,42 @@
   },
   "excerpt": "El tofu firme suele aportar aproximadamente 12–17 g de proteína por 100 g, 7–10 g de grasa y 120–160 kcal, aunque la marca y la cantidad de agua cambian bastante las cifras. Una ración de 150 g puede aportar alrededor de 18–26 g de proteína. El calcio puede variar mucho según se haya coagulado con sales de calcio.",
   "taxonomy": {
-    "food_family": "legumes",
-    "food_subcategories": ["soy", "tofu"],
-    "article_types": ["nutrition-composition"],
+    "food_family": "legumes-soy",
+    "food_subcategories": [
+      "soy",
+      "tofu"
+    ],
+    "article_types": [
+      "nutrition-composition"
+    ],
     "primary_article_type": "nutrition-composition"
   },
   "content_html": "<p>Preguntar cuánta proteína tiene “el tofu” parece sencillo hasta que comparas dos envases y uno marca 8 g por 100 g y otro más de 15. <strong>La cantidad de agua y el tipo de tofu cambian mucho la concentración</strong>.</p><h2>El tofu firme concentra más que el sedoso</h2><p>El tofu firme ha perdido más agua durante el prensado, por lo que suele concentrar más proteína y grasa por 100 g. Un rango habitual para tofu firme es aproximadamente este.</p><table><thead><tr><th>Nutriente</th><th>Por 100 g</th><th>Por 150 g</th></tr></thead><tbody><tr><td>Energía</td><td>~120–160 kcal</td><td>~180–240 kcal</td></tr><tr><td>Proteína</td><td>~12–17 g</td><td>~18–26 g</td></tr><tr><td>Grasa</td><td>~7–10 g</td><td>~11–15 g</td></tr><tr><td>Carbohidratos</td><td>~2–4 g</td><td>~3–6 g</td></tr></tbody></table><p>El tofu sedoso contiene más agua y normalmente cae por debajo de ese rango de proteína por 100 g. No es peor: simplemente está menos concentrado.</p><h2>La proteína procede de la soja</h2><p>El tofu conserva una parte importante de la proteína de la soja y contiene los nueve aminoácidos esenciales. Una ración grande de tofu firme puede superar los 20 g de proteína, suficiente para funcionar como fuente proteica principal de una comida.</p><h2>El calcio puede cambiar muchísimo</h2><p>Algunos tofu se coagulan con sulfato cálcico y pueden aportar cantidades altas de calcio. Otros usan cloruro de magnesio, nigari u otros coagulantes y pueden contener bastante menos.</p><p>Por eso no es fiable afirmar que cualquier tofu tiene “mucho calcio”. <strong>La etiqueta nutricional del producto concreto es la mejor referencia</strong>.</p><h2>La grasa es mayoritariamente insaturada</h2><p>El tofu no es un alimento bajo en grasa, pero gran parte procede naturalmente de la soja y es insaturada. También aporta una pequeña cantidad de ALA omega-3.</p><h2>Hierro y otros minerales</h2><p>El tofu puede aportar hierro, magnesio, fósforo y otros micronutrientes. Como fuente vegetal, el hierro es no hemo y su absorción es menor que la del hierro hemo de la carne. Combinarlo con alimentos ricos en vitamina C puede favorecer la absorción del hierro no hemo.</p><h2>Freírlo cambia más las calorías que prensarlo</h2><p>Prensar elimina agua y concentra el alimento; freír añade grasa externa. Un tofu frito puede terminar con bastante más energía que el mismo tofu horneado, a la plancha o salteado con poco aceite.</p><h2>La regla útil</h2><p>Para saber qué aporta tu tofu, mira primero <strong>proteína por 100 g, tamaño de la ración y calcio en la etiqueta</strong>. “Tofu” describe una familia de productos, no una composición fija.</p>",
   "faq": [
-    {"question": "¿Cuánta proteína tiene el tofu?", "answer": "El tofu firme suele aportar alrededor de 12–17 g por 100 g; una ración de 150 g puede aportar unos 18–26 g."},
-    {"question": "¿Todo el tofu tiene mucho calcio?", "answer": "No. El calcio depende mucho del coagulante. El tofu preparado con sales de calcio puede aportar bastante más que otros tipos."},
-    {"question": "¿El tofu es una proteína completa?", "answer": "Sí. La proteína de soja contiene los nueve aminoácidos esenciales."}
+    {
+      "question": "¿Cuánta proteína tiene el tofu?",
+      "answer": "El tofu firme suele aportar alrededor de 12–17 g por 100 g; una ración de 150 g puede aportar unos 18–26 g."
+    },
+    {
+      "question": "¿Todo el tofu tiene mucho calcio?",
+      "answer": "No. El calcio depende mucho del coagulante. El tofu preparado con sales de calcio puede aportar bastante más que otros tipos."
+    },
+    {
+      "question": "¿El tofu es una proteína completa?",
+      "answer": "Sí. La proteína de soja contiene los nueve aminoácidos esenciales."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de distintos tipos de tofu."},
-    {"name": "FAO — Dietary protein quality evaluation", "url": "https://www.fao.org/", "note": "Calidad de proteína y aminoácidos esenciales."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de distintos tipos de tofu."
+    },
+    {
+      "name": "FAO — Dietary protein quality evaluation",
+      "url": "https://www.fao.org/",
+      "note": "Calidad de proteína y aminoácidos esenciales."
+    }
   ],
   "image": {
     "concept": "Bloques de tofu firme y tofu sedoso lado a lado sobre una superficie neutra, fotografía editorial sin texto.",

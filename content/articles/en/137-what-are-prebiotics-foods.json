@@ -8,12 +8,48 @@
   "market_context": "United States/general English; ISAPP consensus definition",
   "title": "Prebiotics: what they are and which foods contain them",
   "slug": "what-are-prebiotics-foods",
-  "seo": {"title":"Prebiotics: what they are and food sources","meta_description":"Prebiotics are substrates selectively used by host microorganisms that confer a health benefit. Inulin, fructans and GOS occur in many plant foods.","search_intent":"Understand what prebiotics are and where prebiotic compounds occur in foods."},
+  "seo": {
+    "title": "Prebiotics: what they are and food sources",
+    "meta_description": "Prebiotics are substrates selectively used by host microorganisms that confer a health benefit. Inulin, fructans and GOS occur in many plant foods.",
+    "search_intent": "Understand what prebiotics are and where prebiotic compounds occur in foods."
+  },
   "excerpt": "A prebiotic is not a bacterium. It is a substrate selectively used by host microorganisms that provides a health benefit. Inulin and fructans occur in chicory root, garlic, onions, leeks and artichokes; galactooligosaccharides occur in legumes. Not every type of dietary fiber automatically qualifies as a prebiotic.",
-  "taxonomy": {"food_family":"general","food_subcategories":["gut-health"],"article_types":["nutrition-explainer"],"primary_article_type":"nutrition-explainer"},
-  "content_html": "<p>Prebiotic and probiotic sound almost interchangeable, but they describe different things. <strong>A prebiotic is the substrate; a probiotic is a live microorganism with a demonstrated health benefit.</strong></p><p>The scientific consensus definition describes a prebiotic as a substrate selectively utilized by host microorganisms that confers a health benefit.</p><h2>Not all fiber is prebiotic</h2><p>Many prebiotics are nondigestible carbohydrates, but merely reaching the colon or fermenting is not enough. Selective microbial use and a health benefit are part of the definition.</p><h2>Food sources</h2><table><thead><tr><th>Compound</th><th>Common food sources</th></tr></thead><tbody><tr><td>Inulin and fructans</td><td>Chicory root, garlic, onion, leeks, asparagus, artichokes</td></tr><tr><td>Galactooligosaccharides (GOS)</td><td>Beans and other legumes</td></tr><tr><td>Some resistant starches</td><td>Certain grains, legumes and starchy foods depending on preparation</td></tr></tbody></table><p>Amounts vary widely by variety, ripeness and preparation, so a food list is not the same as a precise prebiotic dose.</p><h2>More can mean more gas</h2><p>Highly fermentable substrates can increase gas and bloating when introduced quickly. People who are sensitive to FODMAPs may tolerate some fructan-rich foods poorly even though those same compounds can be useful substrates for gut microbes.</p><h2>The practical idea</h2><p>A varied diet containing legumes, whole grains, onions, garlic, leeks, fruit and vegetables naturally exposes the gut microbiota to many fermentable substrates. A packaged product does not need a “prebiotic” halo to fit that pattern.</p>",
-  "faq": [{"question":"Are prebiotics bacteria?","answer":"No. Prebiotics are substrates. Live microorganisms with a demonstrated benefit are probiotics."},{"question":"Is all dietary fiber prebiotic?","answer":"No. The prebiotic definition requires selective microbial use and a demonstrated health benefit."}],
-  "sources": [{"name":"ISAPP — Prebiotic definition","url":"https://isappscience.org/prebiotic-definition-updated-isapp/","note":"Consensus definition of prebiotic."},{"name":"ISAPP — Scientific criteria for prebiotics","url":"https://isappscience.org/isapp-elaborates-criteria-for-prebiotics/","note":"Criteria for classifying prebiotic substances."}],
-  "image": {"concept":"Garlic, onions, leeks, artichokes, beans and chicory root on a table, clean editorial photography without text.","alt":"Foods containing prebiotic substrates"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "gut-health"
+    ],
+    "article_types": [
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Prebiotic and probiotic sound almost interchangeable, but they describe different things. <strong>A prebiotic is the substrate; a probiotic is a live microorganism with a demonstrated health benefit.</strong></p><p>The scientific consensus definition describes a prebiotic as a substrate selectively utilized by host microorganisms that confers a health benefit.</p><h2>Not all fiber is prebiotic</h2><p>Many prebiotics are nondigestible carbohydrates, but merely reaching the colon or fermenting is not enough. Selective microbial use and a health benefit are part of the definition.</p><h2>Food sources</h2><table><thead><tr><th>Compound</th><th>Common food sources</th></tr></thead><tbody><tr><td>Inulin and fructans</td><td>Chicory root, garlic, onion, leeks, asparagus, artichokes</td></tr><tr><td>Galactooligosaccharides (GOS)</td><td>Beans and other legumes</td></tr><tr><td>Some resistant starches</td><td>Certain grains, legumes and starchy foods depending on preparation</td></tr></tbody></table><p>A concrete example makes the definition easier to use. Onions and garlic provide fructans; legumes provide galactooligosaccharides and other fermentable carbohydrates. Eating them is not the same as taking a standardized “prebiotic dose”; it means including foods that contain substrates certain microbial communities can use.</p><p>Amounts vary widely by variety, ripeness and preparation, so a food list is not the same as a precise prebiotic dose.</p><h2>More can mean more gas</h2><p>Highly fermentable substrates can increase gas and bloating when introduced quickly. People who are sensitive to FODMAPs may tolerate some fructan-rich foods poorly even though those same compounds can be useful substrates for gut microbes.</p><p>Tolerance is part of usefulness too. Someone can benefit from adding fiber-rich foods and still need to increase them gradually because a sudden jump in fructans or GOS can cause gas and bloating. <strong>More fermentation is not automatically better if it makes the eating pattern impossible to sustain.</strong></p><h2>The practical idea</h2><p>A varied diet containing legumes, whole grains, onions, garlic, leeks, fruit and vegetables naturally exposes the gut microbiota to many fermentable substrates. A packaged product does not need a “prebiotic” halo to fit that pattern.</p>",
+  "faq": [
+    {
+      "question": "Are prebiotics bacteria?",
+      "answer": "No. Prebiotics are substrates. Live microorganisms with a demonstrated benefit are probiotics."
+    },
+    {
+      "question": "Is all dietary fiber prebiotic?",
+      "answer": "No. The prebiotic definition requires selective microbial use and a demonstrated health benefit."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ISAPP — Prebiotic definition",
+      "url": "https://isappscience.org/prebiotic-definition-updated-isapp/",
+      "note": "Consensus definition of prebiotic."
+    },
+    {
+      "name": "ISAPP — Scientific criteria for prebiotics",
+      "url": "https://isappscience.org/isapp-elaborates-criteria-for-prebiotics/",
+      "note": "Criteria for classifying prebiotic substances."
+    }
+  ],
+  "image": {
+    "concept": "Garlic, onions, leeks, artichokes, beans and chicory root on a table, clean editorial photography without text.",
+    "alt": "Foods containing prebiotic substrates"
+  },
+  "status": "publish"
 }

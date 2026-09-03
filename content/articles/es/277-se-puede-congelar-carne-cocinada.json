@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-277-congelar-carne-cocinada","article_number":277,"translation_group":"277-freeze-cooked-meat","language":"es","locale":"es-ES","market_context":"España/Unión Europea; congelación doméstica de carne cocinada y sobras","title":"¿Se puede congelar carne cocinada?","slug":"se-puede-congelar-carne-cocinada","seo":{"title":"¿Se puede congelar carne cocinada? Cómo hacerlo bien","meta_description":"Sí. USDA recomienda unos 2–3 meses para mejor calidad de carne cocinada congelada. Enfríala pronto, congela en porciones y evita esperar al último día.","search_intent":"Saber cómo congelar carne ya cocinada, cuánto mantiene buena calidad y cómo descongelarla después."},"excerpt":"La carne cocinada se puede congelar. USDA usa 2–3 meses como referencia general de mejor calidad para carne cocinada y guisos, aunque a −18 °C un alimento mantenido continuamente congelado sigue siendo seguro durante más tiempo. Conviene congelar las sobras pronto y bien envasadas.","taxonomy":{"food_family":"meat","food_subcategories":["meat","freezing","leftovers"],"article_types":["freezing-thawing","storage"],"primary_article_type":"freezing-thawing"},"content_html":"<p>Congelar carne cocinada es una forma segura de evitar alargar demasiado la nevera. <strong>USDA sitúa alrededor de 2–3 meses como referencia general de mejor calidad para carne cocinada congelada.</strong></p><h2>El plazo es de calidad, no una caducidad de seguridad</h2><p>Los alimentos mantenidos continuamente a <strong>−18 °C/0 °F</strong> permanecen seguros durante mucho más tiempo. A partir de los 2–3 meses, el principal problema es pérdida de humedad, sabor y textura.</p><h2>No esperes hasta que la sobra esté al límite</h2><p>USDA recomienda consumir la mayoría de sobras refrigeradas en 3–4 días. Si sabes que no vas a utilizar una porción, congélala durante ese margen, preferentemente cuanto antes para preservar calidad.</p><h2>Porciones pequeñas funcionan mejor</h2><p>Divide asados, filetes, carne picada o guisos en cantidades que puedas descongelar de una vez. Un envase con poco aire reduce quemaduras por congelación y deshidratación.</p><h2>¿Y si la carne ya había sido congelada en crudo?</h2><p>Después de cocinar un alimento que antes estuvo congelado, USDA permite volver a congelarlo ya cocinado. La nueva congelación es segura si la manipulación previa fue correcta.</p><h2>Cómo descongelarla</h2><p>Nevera, agua fría y microondas son métodos seguros. Las sobras también pueden recalentarse directamente desde congelado cuando el método calienta de forma uniforme; el objetivo de recalentamiento es <strong>74 °C</strong>.</p><h2>La idea útil</h2><p><strong>Sí, puedes congelar carne cocinada.</strong> Para buena calidad, úsala aproximadamente dentro de 2–3 meses, bien cerrada y en porciones.</p>","faq":[{"question":"¿Cuánto dura la carne cocinada congelada?","answer":"USDA usa 2–3 meses como referencia general de mejor calidad; continuamente congelada puede seguir siendo segura después."},{"question":"¿Puedo congelarla si antes estuvo congelada cruda?","answer":"Sí. Una vez cocinado el alimento, es seguro congelar la carne cocinada si se manipuló correctamente."},{"question":"¿Cuándo conviene congelar las sobras?","answer":"Dentro de su margen refrigerado de 3–4 días, y preferentemente pronto para conservar mejor calidad."}],"sources":[{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"Carne cocinada: 2–3 meses de mejor calidad; seguridad indefinida a 0 °F y reglas de recongelación."},{"name":"USDA FSIS — Keep Food Safe!","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe","note":"Sobras 3–4 días refrigeradas y temperaturas de recalentamiento."}],"image":{"concept":"Porciones de carne cocinada en recipientes herméticos etiquetados dentro de un congelador, fotografía editorial sin texto.","alt":"Carne cocinada preparada en porciones para congelar"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-277-congelar-carne-cocinada",
+  "article_number": 277,
+  "translation_group": "277-freeze-cooked-meat",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; congelación doméstica de carne cocinada y sobras",
+  "title": "¿Se puede congelar carne cocinada?",
+  "slug": "se-puede-congelar-carne-cocinada",
+  "seo": {
+    "title": "¿Se puede congelar carne cocinada? Cómo hacerlo bien",
+    "meta_description": "Sí. USDA recomienda unos 2–3 meses para mejor calidad de carne cocinada congelada. Enfríala pronto, congela en porciones y evita esperar al último día.",
+    "search_intent": "Saber cómo congelar carne ya cocinada, cuánto mantiene buena calidad y cómo descongelarla después."
+  },
+  "excerpt": "La carne cocinada se puede congelar. USDA usa 2–3 meses como referencia general de mejor calidad para carne cocinada y guisos, aunque a −18 °C un alimento mantenido continuamente congelado sigue siendo seguro durante más tiempo. Conviene congelar las sobras pronto y bien envasadas.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "meat",
+      "freezing",
+      "leftovers"
+    ],
+    "article_types": [
+      "freezing-thawing",
+      "storage"
+    ],
+    "primary_article_type": "freezing-thawing"
+  },
+  "content_html": "<p>Congelar carne cocinada es una forma segura de evitar alargar demasiado la nevera. <strong>USDA sitúa alrededor de 2–3 meses como referencia general de mejor calidad para carne cocinada congelada.</strong></p><h2>El plazo es de calidad, no una caducidad de seguridad</h2><p>Los alimentos mantenidos continuamente a <strong>−18 °C/0 °F</strong> permanecen seguros durante mucho más tiempo. A partir de los 2–3 meses, el principal problema es pérdida de humedad, sabor y textura.</p><h2>No esperes hasta que la sobra esté al límite</h2><p>USDA recomienda consumir la mayoría de sobras refrigeradas en 3–4 días. Si sabes que no vas a utilizar una porción, congélala durante ese margen, preferentemente cuanto antes para preservar calidad.</p><h2>Porciones pequeñas funcionan mejor</h2><p>Divide asados, filetes, carne picada o guisos en cantidades que puedas descongelar de una vez. Un envase con poco aire reduce quemaduras por congelación y deshidratación.</p><h2>¿Y si la carne ya había sido congelada en crudo?</h2><p>Después de cocinar un alimento que antes estuvo congelado, USDA permite volver a congelarlo ya cocinado. La nueva congelación es segura si la manipulación previa fue correcta.</p><h2>Cómo descongelarla</h2><p>Nevera, agua fría y microondas son métodos seguros. Las sobras también pueden recalentarse directamente desde congelado cuando el método calienta de forma uniforme; el objetivo de recalentamiento es <strong>74 °C</strong>.</p><h2>Congelar no mejora una sobra que ya está deteriorándose</h2><p>El congelador pausa el crecimiento microbiano, pero no devuelve tiempo ni calidad. Si una carne cocinada ya lleva varios días en la nevera, congelarla no la convierte en una sobra “nueva”. El mejor momento para congelar es mientras todavía está claramente dentro de su margen refrigerado y mantiene buen sabor y textura.</p><p>Al etiquetar, anota qué contiene el envase además de la fecha. Parece un detalle menor, pero ayuda a rotar las sobras y evita que paquetes anónimos se queden meses acumulando pérdida de calidad.</p><p><strong>Sí, puedes congelar carne cocinada.</strong> Para buena calidad, úsala aproximadamente dentro de 2–3 meses, bien cerrada y en porciones.</p>",
+  "faq": [
+    {
+      "question": "¿Cuánto dura la carne cocinada congelada?",
+      "answer": "USDA usa 2–3 meses como referencia general de mejor calidad; continuamente congelada puede seguir siendo segura después."
+    },
+    {
+      "question": "¿Puedo congelarla si antes estuvo congelada cruda?",
+      "answer": "Sí. Una vez cocinado el alimento, es seguro congelar la carne cocinada si se manipuló correctamente."
+    },
+    {
+      "question": "¿Cuándo conviene congelar las sobras?",
+      "answer": "Dentro de su margen refrigerado de 3–4 días, y preferentemente pronto para conservar mejor calidad."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "Carne cocinada: 2–3 meses de mejor calidad; seguridad indefinida a 0 °F y reglas de recongelación."
+    },
+    {
+      "name": "USDA FSIS — Keep Food Safe!",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+      "note": "Sobras 3–4 días refrigeradas y temperaturas de recalentamiento."
+    }
+  ],
+  "image": {
+    "concept": "Porciones de carne cocinada en recipientes herméticos etiquetados dentro de un congelador, fotografía editorial sin texto.",
+    "alt": "Carne cocinada preparada en porciones para congelar"
+  },
+  "status": "publish"
+}

@@ -15,20 +15,43 @@
   },
   "excerpt": "Sí. Las patatas cocidas, al vapor o asadas pueden formar parte de la dieta con frecuencia: suelen aportar unas 80–95 kcal por 100 g y son fuente de potasio y vitamina C. El resultado cambia mucho al freírlas: 100 g de patatas fritas pueden superar 300 kcal y contener alrededor de 15 g de grasa por el aceite absorbido.",
   "taxonomy": {
-    "food_family": "vegetables",
-    "food_subcategories": ["potatoes"],
-    "article_types": ["health-daily-consumption", "nutrition-composition", "myths-faq"],
+    "food_family": "tubers",
+    "food_subcategories": [
+      "potatoes"
+    ],
+    "article_types": [
+      "health-daily-consumption",
+      "nutrition-composition",
+      "myths-faq"
+    ],
     "primary_article_type": "health-daily-consumption"
   },
   "content_html": "<p>La patata puede ser un alimento cotidiano y seguir encajando en una dieta saludable. Lo que cambia la respuesta es <strong>cómo se cocina, qué cantidad se come y qué alimentos desplaza del plato</strong>.</p><h2>Cocida o asada no es un alimento especialmente calórico</h2><p>Cien gramos de patata cocida o asada suelen aportar aproximadamente 80–95 kcal, alrededor de 18–21 g de carbohidratos y cerca de 2 g de proteína.</p><p>Una patata mediana de unos 180 g puede rondar 150–170 kcal antes de añadir aceite, mantequilla, queso o salsas.</p><h2>Freír cambia completamente la densidad energética</h2><p>La patata contiene mucha agua y casi nada de grasa de forma natural. Al freír, pierde parte de ese agua y absorbe aceite. Por eso 100 g de patatas fritas pueden superar <strong>300 kcal y 15 g de grasa</strong>.</p><p>La diferencia no significa que el tubérculo haya generado calorías: procede del aceite añadido y de la pérdida de agua.</p><h2>La patata aporta más que almidón</h2><p>También contiene potasio, vitamina C, vitamina B6 y algo de fibra, especialmente si se consume con piel cuando sea apropiado y esté bien lavada.</p><p>Una patata mediana puede aportar varios cientos de miligramos de potasio, de modo que no es nutricionalmente equivalente a un carbohidrato refinado sin micronutrientes.</p><h2>La preparación cambia también la saciedad</h2><p>Una patata cocida servida con verduras y proteína aporta mucho volumen por caloría. En forma de chips o patatas fritas, la pérdida de agua y la grasa añadida permiten concentrar mucha más energía en un volumen pequeño.</p><h2>No debería desplazar toda la variedad vegetal</h2><p>Aunque botánicamente es una hortaliza, nutricionalmente la patata funciona sobre todo como alimento feculento. Si aparece con frecuencia, conviene que el plato incluya también verduras no feculentas, además de una fuente de proteína.</p><h2>Enfriar la patata cambia parte del almidón</h2><p>Al cocinar y después enfriar la patata, una fracción del almidón se reorganiza y se convierte en almidón resistente. Eso puede reducir algo la digestibilidad inmediata del almidón, aunque no convierte una ensalada de patata en un alimento sin carbohidratos.</p><h2>La regla práctica</h2><p><strong>Las patatas pueden comerse con frecuencia</strong> si predominan preparaciones cocidas, asadas, al vapor o con cantidades moderadas de aceite. Lo que conviene limitar como hábito no es la patata en sí, sino las versiones fritas y muy acompañadas de grasa y sal.</p>",
   "faq": [
-    {"question": "¿Engorda comer patatas con frecuencia?", "answer": "La forma de cocción importa mucho. Cocidas o asadas rondan 80–95 kcal/100 g; fritas pueden superar 300 kcal/100 g."},
-    {"question": "¿Las patatas cuentan como verdura?", "answer": "Botánicamente sí, pero nutricionalmente se comportan principalmente como un alimento feculento rico en carbohidratos."},
-    {"question": "¿Es mejor la patata cocida que frita?", "answer": "Si se busca menor densidad energética, sí. La fritura añade grasa y elimina agua, elevando mucho las calorías por 100 g."}
+    {
+      "question": "¿Engorda comer patatas con frecuencia?",
+      "answer": "La forma de cocción importa mucho. Cocidas o asadas rondan 80–95 kcal/100 g; fritas pueden superar 300 kcal/100 g."
+    },
+    {
+      "question": "¿Las patatas cuentan como verdura?",
+      "answer": "Botánicamente sí, pero nutricionalmente se comportan principalmente como un alimento feculento rico en carbohidratos."
+    },
+    {
+      "question": "¿Es mejor la patata cocida que frita?",
+      "answer": "Si se busca menor densidad energética, sí. La fritura añade grasa y elimina agua, elevando mucho las calorías por 100 g."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de patata cocida, asada y frita."},
-    {"name": "AESAN — Recomendaciones dietéticas saludables y sostenibles", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf", "note": "Contexto de variedad vegetal y métodos de preparación dentro de una dieta saludable."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de patata cocida, asada y frita."
+    },
+    {
+      "name": "AESAN — Recomendaciones dietéticas saludables y sostenibles",
+      "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf",
+      "note": "Contexto de variedad vegetal y métodos de preparación dentro de una dieta saludable."
+    }
   ],
   "image": {
     "concept": "Patata cocida, patata asada y patatas fritas en tres pequeñas porciones comparadas, fotografía editorial sin texto.",

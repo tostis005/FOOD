@@ -8,12 +8,49 @@
   "market_context": "United States/general English; USDA composition and NIH iron guidance",
   "title": "Is spinach really a good source of iron?",
   "slug": "is-spinach-good-iron-source",
-  "seo": {"title":"Is spinach really a good source of iron?","meta_description":"Spinach contains iron, but it is nonheme iron and oxalates reduce how efficiently it is absorbed. Serving size changes the practical picture.","search_intent":"Understand how much iron spinach provides and whether its reputation is deserved."},
+  "seo": {
+    "title": "Is spinach really a good source of iron?",
+    "meta_description": "Spinach contains iron, but it is nonheme iron and oxalates reduce how efficiently it is absorbed. Serving size changes the practical picture.",
+    "search_intent": "Understand how much iron spinach provides and whether its reputation is deserved."
+  },
   "excerpt": "Spinach does contain meaningful iron, but the reputation needs context. Raw spinach has about 2.7 mg/100 g, while cooked spinach can look higher per 100 g because water and volume are lost. The iron is nonheme, and spinach oxalates reduce mineral availability, so the amount listed is not the same as the amount absorbed.",
-  "taxonomy": {"food_family":"vegetables","food_subcategories":["leafy-greens"],"article_types":["myths-faq","nutrition-composition"],"primary_article_type":"myths-faq"},
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [
+      "leafy-greens"
+    ],
+    "article_types": [
+      "myths-faq",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "myths-faq"
+  },
   "content_html": "<p>Spinach really contains iron. The myth is not that the mineral is absent; it is that the number on a nutrient table tells you exactly how useful that iron will be to the body.</p><p>Raw spinach provides roughly 2.7 mg per 100 g, but a typical handful may weigh only 30 g and therefore supply around 0.8 mg. Cooking collapses the leaves and removes water, making it easier to eat a much larger weight and often raising the iron concentration per 100 g.</p><h2>Iron content and iron absorption are different</h2><p>Plant iron is nonheme iron. Its absorption is more variable than heme iron from meat and seafood. Spinach also contains oxalates, which can bind minerals and reduce availability.</p><p>So a serving can contain several milligrams of iron without delivering the same absorbed amount as an equal number of milligrams from heme-rich foods.</p><h2>Spinach is not the only strong plant option</h2><table><thead><tr><th>Food</th><th>Iron/100 g</th></tr></thead><tbody><tr><td>Raw spinach</td><td>~2.7 mg</td></tr><tr><td>Cooked lentils</td><td>~3.3 mg</td></tr><tr><td>Cooked white beans</td><td>~3.7 mg</td></tr><tr><td>Pumpkin seeds</td><td>~8–9 mg</td></tr></tbody></table><p>Pumpkin seeds look extremely high per 100 g but are eaten in small servings. Lentils and beans are particularly practical because a cup-sized portion supplies both iron and a substantial amount of protein and fiber.</p><h2>Vitamin C improves nonheme iron absorption</h2><p>Pairing spinach, beans or lentils with vitamin-C-rich foods such as peppers, tomatoes, citrus or kiwi improves nonheme iron absorption. That strategy is more useful than relying on spinach alone.</p><h2>The useful answer</h2><p>Spinach is a legitimate iron-containing vegetable, but it is not an unusually efficient way to absorb iron. Treat it as one contributor within a varied pattern rather than as the iron champion.</p>",
-  "faq": [{"question":"How much iron is in spinach?","answer":"Raw spinach contains about 2.7 mg per 100 g, but a typical raw serving weighs much less than 100 g."},{"question":"Why is spinach iron less available?","answer":"It is nonheme iron, and spinach contains oxalates that can reduce mineral bioavailability."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Iron values for spinach and comparison foods."},{"name":"NIH Office of Dietary Supplements — Iron","url":"https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/","note":"Nonheme iron and factors affecting absorption."}],
-  "image": {"concept":"Fresh and cooked spinach beside lentils and pumpkin seeds, clean editorial food photography without text.","alt":"Spinach compared with other plant sources of iron"},
-  "status":"publish"
+  "faq": [
+    {
+      "question": "How much iron is in spinach?",
+      "answer": "Raw spinach contains about 2.7 mg per 100 g, but a typical raw serving weighs much less than 100 g."
+    },
+    {
+      "question": "Why is spinach iron less available?",
+      "answer": "It is nonheme iron, and spinach contains oxalates that can reduce mineral bioavailability."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Iron values for spinach and comparison foods."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Iron",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "note": "Nonheme iron and factors affecting absorption."
+    }
+  ],
+  "image": {
+    "concept": "Fresh and cooked spinach beside lentils and pumpkin seeds, clean editorial food photography without text.",
+    "alt": "Spinach compared with other plant sources of iron"
+  },
+  "status": "publish"
 }

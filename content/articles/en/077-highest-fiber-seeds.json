@@ -16,18 +16,36 @@
   "excerpt": "Chia provides about 34 g of fiber per 100 g and flax about 27 g, well ahead of sesame, sunflower, pumpkin and hulled hemp. In a 20 g portion, chia contributes roughly 6.8 g of fiber and flax about 5.4 g, so this ranking has a genuinely large practical gap.",
   "taxonomy": {
     "food_family": "nuts-seeds",
-    "food_subcategories": ["seeds"],
-    "article_types": ["ranking", "nutrition-composition"],
-    "primary_article_type": "ranking"
+    "food_subcategories": [
+      "seeds"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
   },
   "content_html": "<p>The seeds that rank highest for protein are not the same ones that lead for fiber. Hemp and pumpkin seeds are protein-dense; <strong>chia and flax are the clear fiber standouts</strong>.</p><p>Because 100 g is a large amount of seeds, the table also shows a 20 g portion.</p><h2>Fiber in common seeds</h2><table><thead><tr><th>Seed</th><th>Fiber/100 g</th><th>Fiber in 20 g</th></tr></thead><tbody><tr><td>Chia</td><td>~34 g</td><td>~6.8 g</td></tr><tr><td>Flax</td><td>~27 g</td><td>~5.4 g</td></tr><tr><td>Sesame</td><td>~12 g</td><td>~2.4 g</td></tr><tr><td>Sunflower</td><td>~8.6 g</td><td>~1.7 g</td></tr><tr><td>Pumpkin</td><td>~6 g</td><td>~1.2 g</td></tr><tr><td>Hulled hemp</td><td>~4 g</td><td>~0.8 g</td></tr></tbody></table><p>This is not a ranking decided by tiny decimal differences. Twenty grams of chia can provide roughly five times as much fiber as the same weight of hulled pumpkin seeds.</p><h2>Why chia turns into a gel</h2><p>Chia's outer layer contains fiber that holds water and forms a mucilage gel. That explains the texture change in chia pudding and soaked seeds. Chia still contains both soluble and insoluble fiber; the gel does not mean all of its fiber is soluble.</p><h2>Flax is fiber-rich, but grinding matters</h2><p>Whole flax seeds can pass through the digestive tract partly intact. Grinding them makes the interior more accessible, including alpha-linolenic acid, while preserving their fiber.</p><p>A 20 g portion supplies about 5.4 g of fiber, not the 27 g shown by a 100 g comparison.</p><h2>High-protein seeds are not automatically high-fiber seeds</h2><p>Hulled hemp and pumpkin seeds can provide around 30 g of protein per 100 g but far less fiber than chia or flax. Removing hulls also removes some of the fiber-rich outer structure.</p><p>That means different seeds solve different nutritional problems: hemp and pumpkin seeds are useful for protein, while chia and flax are much stronger fiber additions.</p><h2>Increase fiber gradually</h2><p>Adding several tablespoons of chia or flax overnight to a previously low-fiber diet can cause gas, bloating or bowel changes. Increasing gradually and drinking enough fluid is usually more comfortable.</p><h2>The practical answer</h2><p><strong>Chia and flax are the two clear fiber leaders among common seeds.</strong> A modest portion can add roughly 5–7 g of fiber, while other seeds stand out for different nutrients.</p>",
   "faq": [
-    {"question": "Which seed has the most fiber?", "answer": "Chia is near the top at about 34 g of fiber per 100 g, followed by flax at roughly 27 g."},
-    {"question": "How much fiber is in 20 g of chia?", "answer": "About 6.8 g of fiber."},
-    {"question": "Are hemp seeds high in fiber?", "answer": "Hulled hemp is high in protein but relatively low in fiber, often around 4 g per 100 g depending on the product."}
+    {
+      "question": "Which seed has the most fiber?",
+      "answer": "Chia is near the top at about 34 g of fiber per 100 g, followed by flax at roughly 27 g."
+    },
+    {
+      "question": "How much fiber is in 20 g of chia?",
+      "answer": "About 6.8 g of fiber."
+    },
+    {
+      "question": "Are hemp seeds high in fiber?",
+      "answer": "Hulled hemp is high in protein but relatively low in fiber, often around 4 g per 100 g depending on the product."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Fiber and macronutrient composition of chia, flax, sesame, sunflower, pumpkin and hemp seeds."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Fiber and macronutrient composition of chia, flax, sesame, sunflower, pumpkin and hemp seeds."
+    }
   ],
   "image": {
     "concept": "Spoons holding chia, flax, sesame, sunflower, pumpkin and hemp seeds on a neutral surface, editorial food photography, no text.",

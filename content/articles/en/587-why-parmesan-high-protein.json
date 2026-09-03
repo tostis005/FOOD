@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"en-587-why-parmesan-high-protein","article_number":587,"translation_group":"587-why-parmesan-high-protein","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"Why is Parmesan so high in protein?","slug":"why-parmesan-high-protein","seo":{"title":"Why Parmesan has so much protein","meta_description":"Hard Parmesan can contain about 36 g protein per 100 g because cheesemaking and aging remove water and concentrate milk solids. See what that means per serving.","search_intent":"Understand why Parmesan is high in protein"},"excerpt":"Hard Parmesan contains roughly 35–36 g protein per 100 g, more than ten times the concentration in milk. Aging does not create new protein: curd formation, pressing and months of moisture loss concentrate the casein and other milk solids that remain in the cheese.","taxonomy":{"food_family":"dairy-cheese","food_subcategories":[],"article_types":["cooking-science","processing-production","nutrition-composition"],"primary_article_type":"cooking-science"},"content_html":"<p>Milk contains only about 3.2 g protein per 100 g, so Parmesan's roughly 36 g can look mysterious. <strong>The protein is concentrated, not created.</strong></p><h2>What the numbers look like</h2><p>A USDA hard-Parmesan reference provides about <strong>35.8 g protein and 392 calories per 100 g</strong>. Whole-milk mozzarella is around 22 g protein, while fluid milk is only a little over 3 g.</p><h2>Water leaves; casein stays</h2><p>Cheesemaking traps much of milk's casein in the curd. Whey drains away, the wheel is pressed, and aging removes still more moisture. Each gram of finished hard cheese therefore contains more milk solids.</p><h2>Aging changes proteins without making more of them</h2><p>Enzymes break some proteins into peptides and amino acids during maturation. That proteolysis matters for flavor and texture, but the dramatic protein-per-100-g number mainly comes from dehydration.</p><h2>Other nutrients concentrate too</h2><p>Parmesan is also dense in calcium, phosphorus, fat and sodium. A food can be very protein-rich and still be best interpreted in a smaller serving.</p><h2>What a realistic serving provides</h2><p>Twenty grams of a 35.8%-protein Parmesan gives about <strong>7.2 g protein and 78 calories</strong>. That is a substantial contribution from a small amount, but it is not the 35.8 g shown on a per-100-g table.</p><p><strong>Parmesan is high in protein because it is a very dry, concentrated cheese.</strong></p>","faq":[{"question":"How much protein does Parmesan have?","answer":"A hard-Parmesan USDA reference contains about 35.8 g/100 g; 20 g provides around 7.2 g."},{"question":"Does aging create protein?","answer":"No. Aging changes protein structure and flavor; moisture loss concentrates the protein already present."},{"question":"Why does Parmesan have more protein than mozzarella?","answer":"It is generally much drier and more concentrated."},{"question":"Does Parmesan also concentrate sodium?","answer":"Yes. Calcium, fat and sodium are concentrated along with protein, so serving size still matters."}],"sources":[{"name":"USDA FoodData Central — Parmesan cheese, hard","url":"https://fdc.nal.usda.gov/","note":"Protein, energy and mineral composition of hard Parmesan."},{"name":"USDA FoodData Central — Milk and mozzarella references","url":"https://fdc.nal.usda.gov/","note":"Used to illustrate how moisture loss raises protein concentration."}],"image":{"concept":"Milk becoming a hard Parmesan wheel while water leaves and protein concentration rises.","alt":"Moisture loss concentrating protein in Parmesan cheese"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-587-why-parmesan-high-protein",
+  "article_number": 587,
+  "translation_group": "587-why-parmesan-high-protein",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "Why is Parmesan so high in protein?",
+  "slug": "why-parmesan-high-protein",
+  "seo": {
+    "title": "Why Parmesan has so much protein",
+    "meta_description": "Hard Parmesan can contain about 36 g protein per 100 g because cheesemaking and aging remove water and concentrate milk solids. See what that means per serving.",
+    "search_intent": "Understand why Parmesan is high in protein"
+  },
+  "excerpt": "Hard Parmesan contains roughly 35–36 g protein per 100 g, more than ten times the concentration in milk. Aging does not create new protein: curd formation, pressing and months of moisture loss concentrate the casein and other milk solids that remain in the cheese.",
+  "taxonomy": {
+    "food_family": "dairy-cheese",
+    "food_subcategories": [],
+    "article_types": [
+      "cooking-science",
+      "processing-production",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>Milk contains only about 3.2 g protein per 100 g, so Parmesan's roughly 36 g can look mysterious. <strong>The protein is concentrated, not created.</strong></p><h2>What the numbers look like</h2><p>A USDA hard-Parmesan reference provides about <strong>35.8 g protein and 392 calories per 100 g</strong>. Whole-milk mozzarella is around 22 g protein, while fluid milk is only a little over 3 g.</p><h2>Water leaves; casein stays</h2><p>Cheesemaking traps much of milk's casein in the curd. Whey drains away, the wheel is pressed, and aging removes still more moisture. Each gram of finished hard cheese therefore contains more milk solids.</p><h2>What aging changes besides water content</h2><p>Enzymes break some proteins into peptides and amino acids during maturation. That proteolysis matters for flavor and texture, but the dramatic protein-per-100-g number mainly comes from dehydration.</p><p>Parmesan is also dense in calcium, phosphorus, fat and sodium. A food can be very protein-rich and still be best interpreted in a smaller serving.</p><h2>What a realistic serving provides</h2><p>Twenty grams of a 35.8%-protein Parmesan gives about <strong>7.2 g protein and 78 calories</strong>. That is a substantial contribution from a small amount, but it is not the 35.8 g shown on a per-100-g table.</p><p><strong>Parmesan is high in protein because it is a very dry, concentrated cheese.</strong></p>",
+  "faq": [
+    {
+      "question": "How much protein does Parmesan have?",
+      "answer": "A hard-Parmesan USDA reference contains about 35.8 g/100 g; 20 g provides around 7.2 g."
+    },
+    {
+      "question": "Does aging create protein?",
+      "answer": "No. Aging changes protein structure and flavor; moisture loss concentrates the protein already present."
+    },
+    {
+      "question": "Why does Parmesan have more protein than mozzarella?",
+      "answer": "It is generally much drier and more concentrated."
+    },
+    {
+      "question": "Does Parmesan also concentrate sodium?",
+      "answer": "Yes. Calcium, fat and sodium are concentrated along with protein, so serving size still matters."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central — Parmesan cheese, hard",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Protein, energy and mineral composition of hard Parmesan."
+    },
+    {
+      "name": "USDA FoodData Central — Milk and mozzarella references",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Used to illustrate how moisture loss raises protein concentration."
+    }
+  ],
+  "image": {
+    "concept": "Milk becoming a hard Parmesan wheel while water leaves and protein concentration rises.",
+    "alt": "Moisture loss concentrating protein in Parmesan cheese"
+  },
+  "status": "publish"
+}

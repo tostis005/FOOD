@@ -1,1 +1,53 @@
-{"schema_version":1,"id":"en-435-vegetables-vitamin-c","article_number":435,"translation_group":"435-vegetables-highest-vitamin-c","language":"en","locale":"en-US","market_context":"United States; approximate ranking of raw vegetables per 100 g.","title":"Vegetables Highest in Vitamin C","slug":"vegetables-highest-vitamin-c","seo":{"title":"Vegetables Highest in Vitamin C per 100 Grams","meta_description":"Yellow and red bell peppers are among the richest sources, often above 120 mg/100 g; broccoli and Brussels sprouts are around 80–90 mg.","search_intent":"Compare vitamin C-rich vegetables with concrete values per 100 grams."},"excerpt":"Bell peppers are standouts: yellow peppers can exceed 180 mg vitamin C per 100 g and red peppers are around 125 mg in common composition tables. Raw broccoli and Brussels sprouts are often around 80–90 mg per 100 g.","taxonomy":{"food_family":"vegetables-mushrooms","food_subcategories":[],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>Oranges get most of the vitamin C attention, but <strong>several vegetables match or exceed citrus on a per-100-g basis.</strong></p><h2>Especially concentrated sources</h2><table><thead><tr><th>Raw vegetable</th><th>Approx. vitamin C/100 g</th></tr></thead><tbody><tr><td>Yellow bell pepper</td><td>~180 mg</td></tr><tr><td>Red bell pepper</td><td>~125 mg</td></tr><tr><td>Broccoli</td><td>~89 mg</td></tr><tr><td>Brussels sprouts</td><td>~85 mg</td></tr><tr><td>Green bell pepper</td><td>~80 mg</td></tr></tbody></table><p>Exact values change with cultivar, maturity, storage, and database entry.</p><h2>Cooking matters</h2><p>Vitamin C is water-soluble and heat-sensitive. Long boiling can reduce it through both heat degradation and leaching into cooking water. Shorter methods using little water, such as steaming or microwaving, generally preserve more.</p><h2>A normal serving can provide a lot</h2><p>Half a large red bell pepper weighing around 80 g may provide roughly 100 mg vitamin C when raw—more than the adult Daily Value in the United States.</p><h2>Not every vegetable needs to win the ranking</h2><p>Tomatoes, spinach, cauliflower, and many others contribute smaller amounts that add up across a varied diet. Variety matters more than eating the single highest source every day.</p><p><strong>If concentration is the goal, bell peppers are hard to beat; if overall nutrition is the goal, eat a range of vegetables and preparation styles.</strong></p>","faq":[{"question":"Which vegetable has the most vitamin C?","answer":"Yellow bell pepper is among the highest common vegetables and can exceed 180 mg per 100 g."},{"question":"Do peppers have more vitamin C than oranges?","answer":"Many red and yellow peppers do on a per-100-g basis."},{"question":"Does cooking destroy vitamin C?","answer":"Some is lost, especially with long heating and lots of water. Shorter cooking methods usually retain more."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/food-search/","note":"Approximate vitamin C values for peppers, broccoli, Brussels sprouts, and other vegetables."}],"image":{"concept":"Yellow, red, and green bell peppers beside broccoli and Brussels sprouts, realistic nutrition editorial photography, no text.","alt":"Vegetables especially rich in vitamin C"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-435-vegetables-vitamin-c",
+  "article_number": 435,
+  "translation_group": "435-vegetables-highest-vitamin-c",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; approximate ranking of raw vegetables per 100 g.",
+  "title": "Vegetables Highest in Vitamin C",
+  "slug": "vegetables-highest-vitamin-c",
+  "seo": {
+    "title": "Vegetables Highest in Vitamin C per 100 Grams",
+    "meta_description": "Yellow and red bell peppers are among the richest sources, often above 120 mg/100 g; broccoli and Brussels sprouts are around 80–90 mg.",
+    "search_intent": "Compare vitamin C-rich vegetables with concrete values per 100 grams."
+  },
+  "excerpt": "Bell peppers are standouts: yellow peppers can exceed 180 mg vitamin C per 100 g and red peppers are around 125 mg in common composition tables. Raw broccoli and Brussels sprouts are often around 80–90 mg per 100 g.",
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Oranges get most of the vitamin C attention, but <strong>several vegetables match or exceed citrus on a per-100-g basis.</strong></p><h2>Especially concentrated sources</h2><table><thead><tr><th>Raw vegetable</th><th>Approx. vitamin C/100 g</th></tr></thead><tbody><tr><td>Yellow bell pepper</td><td>~180 mg</td></tr><tr><td>Red bell pepper</td><td>~125 mg</td></tr><tr><td>Broccoli</td><td>~89 mg</td></tr><tr><td>Brussels sprouts</td><td>~85 mg</td></tr><tr><td>Green bell pepper</td><td>~80 mg</td></tr></tbody></table><p>Exact values change with cultivar, maturity, storage, and database entry.</p><h2>Cooking matters</h2><p>Vitamin C is water-soluble and heat-sensitive. Long boiling can reduce it through both heat degradation and leaching into cooking water. Shorter methods using little water, such as steaming or microwaving, generally preserve more.</p><h2>A normal serving can provide a lot</h2><p>Half a large red bell pepper weighing around 80 g may provide roughly 100 mg vitamin C when raw—more than the adult Daily Value in the United States.</p><h2>Cooking and serving size can change the ranking more than it first appears</h2><p>A per-100-gram table puts vegetables on the same starting line, but it does not always describe what reaches the plate. Peppers can be eaten raw and retain vitamin C well; broccoli is often cooked, and losses depend on time, temperature and how much water is used. A normal serving may also be much larger or smaller than 100 g.</p><p>The useful lesson is not to memorize one winner but to recognize several strong sources and rotate them. That keeps a database value from becoming false precision about every pepper, broccoli head or cabbage.</p><h2>Not every vegetable needs to win the ranking</h2><p>Tomatoes, spinach, cauliflower, and many others contribute smaller amounts that add up across a varied diet. Variety matters more than eating the single highest source every day.</p><p><strong>If concentration is the goal, bell peppers are hard to beat; if overall nutrition is the goal, eat a range of vegetables and preparation styles.</strong></p>",
+  "faq": [
+    {
+      "question": "Which vegetable has the most vitamin C?",
+      "answer": "Yellow bell pepper is among the highest common vegetables and can exceed 180 mg per 100 g."
+    },
+    {
+      "question": "Do peppers have more vitamin C than oranges?",
+      "answer": "Many red and yellow peppers do on a per-100-g basis."
+    },
+    {
+      "question": "Does cooking destroy vitamin C?",
+      "answer": "Some is lost, especially with long heating and lots of water. Shorter cooking methods usually retain more."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/food-search/",
+      "note": "Approximate vitamin C values for peppers, broccoli, Brussels sprouts, and other vegetables."
+    }
+  ],
+  "image": {
+    "concept": "Yellow, red, and green bell peppers beside broccoli and Brussels sprouts, realistic nutrition editorial photography, no text.",
+    "alt": "Vegetables especially rich in vitamin C"
+  },
+  "status": "publish"
+}

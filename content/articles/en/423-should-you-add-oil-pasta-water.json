@@ -1,1 +1,58 @@
-{"schema_version":1,"id":"en-423-oil-pasta-water","article_number":423,"translation_group":"423-oil-in-pasta-water","language":"en","locale":"en-US","market_context":"United States; home technique for cooking dry pasta.","title":"Should You Add Oil to Pasta Water?","slug":"should-you-add-oil-pasta-water","seo":{"title":"Should You Add Oil to Pasta Water?","meta_description":"No. Oil floats and does little to prevent sticking; it may also coat drained pasta and make sauce cling less well. Stirring early works better.","search_intent":"Learn whether oil in pasta water prevents sticking and what technique works better."},"excerpt":"You do not need oil in pasta water. Oil and water do not mix, so most of it stays at the surface instead of coating each piece while it cooks. A roomy pot and frequent stirring during the first minutes are much more effective against sticking.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":[],"article_types":["cooking-techniques","myths-faq"],"primary_article_type":"cooking-techniques"},"content_html":"<p>Adding a splash of oil to pasta water is a common habit, but <strong>it is not the best way to keep pasta from sticking.</strong></p><h2>Oil mostly stays on top</h2><p>Oil is less dense than water and does not dissolve in it. Boiling may break it into droplets, but it does not create a reliable film around every noodle. Barilla explicitly recommends skipping oil because it does not prevent sticking well and can interfere with sauce adhesion later.</p><h2>What actually prevents sticking</h2><p>Pasta releases starch, especially early in cooking. Use a large enough pot, keep the water moving, and stir immediately after adding the pasta and several times during the first few minutes. Mechanical separation matters more than floating oil.</p><h2>Why sauce may cling less well</h2><p>If oil coats the pasta as it is drained, a water-based sauce can slide across that greasy film. For many pasta dishes, you want some surface starch left in place so pasta water and sauce can form a glossy emulsion.</p><h2>Oil can still be useful later</h2><p>If plain cooked pasta is being cooled and stored without sauce, a small amount of oil can reduce clumping. That is a different use from adding it to the cooking pot.</p><p><strong>For pasta that is going straight into sauce, use water, salt, stirring, and reserved starchy cooking water; the oil in the pot is unnecessary.</strong></p>","faq":[{"question":"Does oil stop spaghetti from sticking?","answer":"Not effectively. Stirring during the first minutes works much better."},{"question":"Can oil make sauce cling less well?","answer":"Yes. An oily film can reduce contact between pasta and a water-based sauce."},{"question":"Can I add oil after cooking?","answer":"Yes, especially if plain pasta will be cooled and stored, although it is usually unnecessary when serving immediately with sauce."}],"sources":[{"name":"Barilla — How to Cook Pasta","url":"https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/how-to-cook-pasta","note":"Recommends skipping oil and stirring pasta to prevent sticking."},{"name":"Barilla — Pasta Water Tips & Tricks","url":"https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/pasta-water-tips-tricks","note":"Explains why oil and water do not mix and how starchy pasta water helps sauces."}],"image":{"concept":"Pot of spaghetti boiling while a spoon stirs it, with an unused bottle of olive oil nearby, realistic editorial food photography, no text.","alt":"Pasta being stirred without oil in the cooking water"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-423-oil-pasta-water",
+  "article_number": 423,
+  "translation_group": "423-oil-in-pasta-water",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; home technique for cooking dry pasta.",
+  "title": "Should You Add Oil to Pasta Water?",
+  "slug": "should-you-add-oil-pasta-water",
+  "seo": {
+    "title": "Should You Add Oil to Pasta Water?",
+    "meta_description": "No. Oil floats and does little to prevent sticking; it may also coat drained pasta and make sauce cling less well. Stirring early works better.",
+    "search_intent": "Learn whether oil in pasta water prevents sticking and what technique works better."
+  },
+  "excerpt": "You do not need oil in pasta water. Oil and water do not mix, so most of it stays at the surface instead of coating each piece while it cooks. A roomy pot and frequent stirring during the first minutes are much more effective against sticking.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [],
+    "article_types": [
+      "cooking-techniques",
+      "myths-faq"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p>Adding a splash of oil to pasta water is a common habit, but <strong>it is not the best way to keep pasta from sticking.</strong></p><h2>Oil mostly stays on top</h2><p>Oil is less dense than water and does not dissolve in it. Boiling may break it into droplets, but it does not create a reliable film around every noodle. Barilla explicitly recommends skipping oil because it does not prevent sticking well and can interfere with sauce adhesion later.</p><h2>What actually prevents sticking</h2><p>Pasta releases starch, especially early in cooking. Use a large enough pot, keep the water moving, and stir immediately after adding the pasta and several times during the first few minutes. Mechanical separation matters more than floating oil.</p><h2>Why sauce may cling less well</h2><p>If oil coats the pasta as it is drained, a water-based sauce can slide across that greasy film. For many pasta dishes, you want some surface starch left in place so pasta water and sauce can form a glossy emulsion.</p><h2>Oil floats where the pasta does not yet need it</h2><p>Oil added to cooking water stays mostly at the surface and does not reliably stop pasta pieces from sticking to one another. Enough water, early stirring and avoiding an overcrowded pot work better. An oily film on drained pasta can also make sauce cling less effectively, which is the opposite of what many pasta dishes need.</p><h2>Oil can still be useful later</h2><p>If plain cooked pasta is being cooled and stored without sauce, a small amount of oil can reduce clumping. That is a different use from adding it to the cooking pot.</p><p><strong>For pasta that is going straight into sauce, use water, salt, stirring, and reserved starchy cooking water; the oil in the pot is unnecessary.</strong></p>",
+  "faq": [
+    {
+      "question": "Does oil stop spaghetti from sticking?",
+      "answer": "Not effectively. Stirring during the first minutes works much better."
+    },
+    {
+      "question": "Can oil make sauce cling less well?",
+      "answer": "Yes. An oily film can reduce contact between pasta and a water-based sauce."
+    },
+    {
+      "question": "Can I add oil after cooking?",
+      "answer": "Yes, especially if plain pasta will be cooled and stored, although it is usually unnecessary when serving immediately with sauce."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Barilla — How to Cook Pasta",
+      "url": "https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/how-to-cook-pasta",
+      "note": "Recommends skipping oil and stirring pasta to prevent sticking."
+    },
+    {
+      "name": "Barilla — Pasta Water Tips & Tricks",
+      "url": "https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/pasta-water-tips-tricks",
+      "note": "Explains why oil and water do not mix and how starchy pasta water helps sauces."
+    }
+  ],
+  "image": {
+    "concept": "Pot of spaghetti boiling while a spoon stirs it, with an unused bottle of olive oil nearby, realistic editorial food photography, no text.",
+    "alt": "Pasta being stirred without oil in the cooking water"
+  },
+  "status": "publish"
+}

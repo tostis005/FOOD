@@ -8,12 +8,44 @@
   "market_context": "United States/general English; USDA FoodData Central values",
   "title": "High-protein foods that aren't meat",
   "slug": "high-protein-foods-not-meat",
-  "seo": {"title": "High-protein foods that aren't meat", "meta_description": "Eggs, dairy, fish, soy foods, legumes, seitan, nuts and seeds can all provide protein without meat. Compare realistic servings, not just 100-gram rankings.", "search_intent": "Find substantial protein sources that do not require meat and compare them in realistic portions."},
+  "seo": {
+    "title": "High-protein foods that aren't meat",
+    "meta_description": "Eggs, dairy, fish, soy foods, legumes, seitan, nuts and seeds can all provide protein without meat. Compare realistic servings, not just 100-gram rankings.",
+    "search_intent": "Find substantial protein sources that do not require meat and compare them in realistic portions."
+  },
   "excerpt": "You can get a substantial amount of protein without meat. Greek yogurt, cottage cheese, eggs, fish, tofu, tempeh, seitan, edamame and legumes can all contribute meaningfully; the useful comparison is how much protein a normal serving supplies, not which food looks most concentrated per 100 grams.",
-  "taxonomy": {"food_family": "mixed", "food_subcategories": ["protein-sources"], "article_types": ["ranking", "nutrition-composition"], "primary_article_type": "ranking"},
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "protein-sources"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
   "content_html": "<p>Removing meat does not leave a protein vacuum. The bigger question is what else you eat and in what quantity. A tablespoon of peanut butter technically contains protein, but it is not equivalent to a cup of Greek yogurt or a serving of tempeh.</p><p>The following comparison uses realistic portions so foods are judged in the way they are actually eaten.</p><table><thead><tr><th>Food</th><th>Typical serving</th><th>Protein</th></tr></thead><tbody><tr><td>Seitan</td><td>100 g</td><td>about 24–25 g</td></tr><tr><td>Greek yogurt, plain</td><td>200 g</td><td>about 18–20 g</td></tr><tr><td>Cottage cheese</td><td>1 cup / ~200 g</td><td>about 22–26 g</td></tr><tr><td>Tempeh</td><td>100 g</td><td>about 19–20 g</td></tr><tr><td>Firm tofu</td><td>150 g</td><td>about 18–25 g</td></tr><tr><td>Edamame</td><td>1 cup cooked</td><td>about 17–18 g</td></tr><tr><td>Lentils</td><td>1 cup cooked</td><td>about 18 g</td></tr><tr><td>Eggs</td><td>2 large</td><td>about 12–13 g</td></tr><tr><td>Almonds</td><td>1 oz</td><td>about 6 g</td></tr></tbody></table><p>The table shows why serving size matters. Nuts are protein-containing foods, but a one-ounce serving adds about 6 g; lentils, tofu or dairy can provide three or four times as much in a normal meal-sized portion.</p><h2>Plant foods can be major protein sources, not just side dishes</h2><p>Soy foods, seitan and legumes work best when they are treated as the protein anchor of the meal. A bowl built around 1 cup of lentils can provide roughly 18 g of protein before bread, grains or toppings are counted. A 150 g serving of firm tofu can reach around 20 g or more, depending on the product.</p><h2>Eggs and dairy make the target easier for vegetarians</h2><p>Two eggs provide about 12–13 g, while strained yogurt and cottage cheese can reach roughly 20–25 g per substantial serving. That makes them useful for breakfast or snacks when the rest of the meal is not especially protein-rich.</p><h2>Fish is not meat, but it changes the dietary pattern</h2><p>If the goal is literally to avoid meat rather than follow a vegetarian diet, fish is another highly concentrated source: many cooked fish provide roughly 20–30 g protein per 100 g. A pescatarian pattern therefore has different options from a vegetarian or vegan one.</p><h2>The practical rule</h2><p>Choose one clearly substantial protein source at each main meal, then let grains, vegetables, nuts and seeds add to it. The most useful question is not whether a food contains protein, but whether the portion you actually eat contributes 5 g, 15 g or 25 g.</p>",
-  "faq": [{"question":"What are the highest-protein foods without meat?","answer":"Seitan, strained dairy, tempeh, firm tofu, edamame and legumes are among the most useful options by realistic serving. Eggs and fish also qualify if they fit the dietary pattern."},{"question":"Are nuts a main protein source?","answer":"They contribute protein, but a 1-ounce serving of almonds provides only about 6 g, so nuts usually complement rather than replace a meal-sized protein source."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Protein values for representative foods and serving calculations."}],
-  "image": {"concept":"A table with tofu, lentils, eggs, Greek yogurt, cottage cheese, tempeh and nuts arranged as protein alternatives, editorial food photography without text.","alt":"High-protein foods that are not meat"},
+  "faq": [
+    {
+      "question": "What are the highest-protein foods without meat?",
+      "answer": "Seitan, strained dairy, tempeh, firm tofu, edamame and legumes are among the most useful options by realistic serving. Eggs and fish also qualify if they fit the dietary pattern."
+    },
+    {
+      "question": "Are nuts a main protein source?",
+      "answer": "They contribute protein, but a 1-ounce serving of almonds provides only about 6 g, so nuts usually complement rather than replace a meal-sized protein source."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Protein values for representative foods and serving calculations."
+    }
+  ],
+  "image": {
+    "concept": "A table with tofu, lentils, eggs, Greek yogurt, cottage cheese, tempeh and nuts arranged as protein alternatives, editorial food photography without text.",
+    "alt": "High-protein foods that are not meat"
+  },
   "status": "publish"
 }

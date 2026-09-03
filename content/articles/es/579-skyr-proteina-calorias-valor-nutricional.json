@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-579-skyr-proteina-calorias-valor-nutricional","article_number":579,"translation_group":"579-skyr-protein-calories-nutrition","language":"es","locale":"es-ES","market_context":"España y Unión Europea","title":"Skyr: proteína, calorías y valor nutricional","slug":"skyr-proteina-calorias-valor-nutricional","seo":{"title":"Skyr: proteína, calorías y valor nutricional","meta_description":"Un skyr natural actual aporta alrededor de 9 g de proteína y 51 kcal por 100 g. Explicamos por qué concentra proteína y cómo leer sus versiones con sabores.","search_intent":"Conocer cuánta proteína y calorías tiene el skyr y qué aporta"},"excerpt":"El skyr natural destaca por concentrar proteína con poca grasa. Un producto actual en España aporta 51 kcal, 9 g de proteína, 0,1 g de grasa y 3,4 g de azúcares por 100 g. Una ración de 150 g ronda 77 kcal y 13,5 g de proteína.","taxonomy":{"food_family":"dairy-cheese","food_subcategories":[],"article_types":["nutrition-composition","processing-production"],"primary_article_type":"nutrition-composition"},"content_html":"<p>El skyr se parece a un yogur muy espeso, pero su rasgo nutricional más reconocible es otro: <strong>mucha proteína para pocas calorías cuando se elige natural y bajo en grasa</strong>.</p><h2>Qué aporta un skyr natural actual</h2><p>El skyr natural Danone comercializado en España declara por 100 g:</p><ul><li><strong>51 kcal</strong></li><li><strong>9 g de proteína</strong></li><li>0,1 g de grasa</li><li>3,4 g de hidratos, todos declarados como azúcares</li><li>0,09 g de sal</li></ul><p>Una ración de 150 g aporta aproximadamente <strong>77 kcal y 13,5 g de proteína</strong>.</p><h2>Por qué tiene tanta proteína</h2><p>Tradicionalmente el skyr se obtiene fermentando leche y retirando parte del suero, lo que concentra los sólidos. En la producción industrial el resultado final depende del proceso concreto, pero la idea se mantiene: menos agua por unidad de peso significa más proteína que en un yogur natural corriente.</p><p>Como referencia, un yogur natural Danone ronda 3,3 g de proteína/100 g. El skyr citado aporta 9 g: aproximadamente <strong>2,7 veces más</strong> por el mismo peso.</p><h2>¿Tiene azúcar añadido?</h2><p>El skyr natural de referencia lleva leche desnatada y fermentos y declara 3,4 g de azúcares/100 g, procedentes principalmente de la lactosa residual. Una versión de frutas o vainilla puede incorporar azúcar, puré de fruta u otros ingredientes y cambia la comparación.</p><h2>¿Tiene poca grasa siempre?</h2><p>No por definición universal. Muchas versiones europeas se elaboran con leche desnatada y quedan cerca de 0% de grasa; también existen skyr de leche entera en otros mercados. La palabra “skyr” no sustituye a la tabla nutricional.</p><h2>¿Es mejor que el yogur?</h2><p>Si buscas maximizar proteína con pocas calorías, tiene una ventaja clara frente a un yogur natural estándar. Pero yogur, kéfir y otros fermentados pueden aportar diferentes texturas, cultivos y niveles de grasa.</p><p><strong>El valor práctico del skyr es sencillo:</strong> concentra bastante proteína en una ración pequeña sin necesitar azúcar añadido.</p>","faq":[{"question":"¿Cuánta proteína tiene el skyr?","answer":"El producto natural de referencia aporta 9 g/100 g, unos 13,5 g en 150 g."},{"question":"¿Cuántas calorías tiene?","answer":"51 kcal/100 g en la referencia utilizada, alrededor de 77 kcal en 150 g."},{"question":"¿El skyr natural lleva azúcar añadido?","answer":"El producto citado no; sus 3,4 g de azúcares/100 g proceden principalmente de la leche."},{"question":"¿Todo skyr es 0% grasa?","answer":"No. Hay versiones bajas en grasa y de leche entera; hay que revisar la etiqueta."}],"sources":[{"name":"DIA — Skyr natural Danone","url":"https://www.dia.es/yogures-y-postres/kefir-y-postres-vegetales/p/307396","note":"Composición actual: 51 kcal, 9 g de proteína y 0,1 g de grasa/100 g."},{"name":"Arla — Beneficios del Skyr","url":"https://www.arlafoods.es/alimentacion/beneficios-del-skyr/","note":"Descripción del proceso tradicional de fermentación y escurrido y composición general."}],"image":{"concept":"Un bol de skyr natural con 100 g en una balanza y destacados de 9 g de proteína y 51 kcal.","alt":"Skyr natural mostrando proteína y calorías por 100 gramos"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-579-skyr-proteina-calorias-valor-nutricional",
+  "article_number": 579,
+  "translation_group": "579-skyr-protein-calories-nutrition",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España y Unión Europea",
+  "title": "Skyr: proteína, calorías y valor nutricional",
+  "slug": "skyr-proteina-calorias-valor-nutricional",
+  "seo": {
+    "title": "Skyr: proteína, calorías y valor nutricional",
+    "meta_description": "Un skyr natural actual aporta alrededor de 9 g de proteína y 51 kcal por 100 g. Explicamos por qué concentra proteína y cómo leer sus versiones con sabores.",
+    "search_intent": "Conocer cuánta proteína y calorías tiene el skyr y qué aporta"
+  },
+  "excerpt": "El skyr natural destaca por concentrar proteína con poca grasa. Un producto actual en España aporta 51 kcal, 9 g de proteína, 0,1 g de grasa y 3,4 g de azúcares por 100 g. Una ración de 150 g ronda 77 kcal y 13,5 g de proteína.",
+  "taxonomy": {
+    "food_family": "dairy-cheese",
+    "food_subcategories": [],
+    "article_types": [
+      "nutrition-composition",
+      "processing-production"
+    ],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>El skyr se parece a un yogur muy espeso, pero su rasgo nutricional más reconocible es otro: <strong>mucha proteína para pocas calorías cuando se elige natural y bajo en grasa</strong>.</p><h2>Qué aporta un skyr natural actual</h2><p>El skyr natural Danone comercializado en España declara por 100 g:</p><ul><li><strong>51 kcal</strong></li><li><strong>9 g de proteína</strong></li><li>0,1 g de grasa</li><li>3,4 g de hidratos, todos declarados como azúcares</li><li>0,09 g de sal</li></ul><p>Una ración de 150 g aporta aproximadamente <strong>77 kcal y 13,5 g de proteína</strong>.</p><h2>Por qué tiene tanta proteína</h2><p>Tradicionalmente el skyr se obtiene fermentando leche y retirando parte del suero, lo que concentra los sólidos. En la producción industrial el resultado final depende del proceso concreto, pero la idea se mantiene: menos agua por unidad de peso significa más proteína que en un yogur natural corriente.</p><p>Como referencia, un yogur natural Danone ronda 3,3 g de proteína/100 g. El skyr citado aporta 9 g: aproximadamente <strong>2,7 veces más</strong> por el mismo peso.</p><h2>El nombre no basta: natural, saborizado y nivel de grasa</h2><p>El skyr natural de referencia lleva leche desnatada y fermentos y declara 3,4 g de azúcares/100 g, procedentes principalmente de la lactosa residual. Una versión de frutas o vainilla puede incorporar azúcar, puré de fruta u otros ingredientes y cambia la comparación.</p><p>No por definición universal. Muchas versiones europeas se elaboran con leche desnatada y quedan cerca de 0% de grasa; también existen skyr de leche entera en otros mercados. La palabra “skyr” no sustituye a la tabla nutricional.</p><h2>¿Es mejor que el yogur?</h2><p>Si buscas maximizar proteína con pocas calorías, tiene una ventaja clara frente a un yogur natural estándar. Pero yogur, kéfir y otros fermentados pueden aportar diferentes texturas, cultivos y niveles de grasa.</p><p><strong>El valor práctico del skyr es sencillo:</strong> concentra bastante proteína en una ración pequeña sin necesitar azúcar añadido.</p>",
+  "faq": [
+    {
+      "question": "¿Cuánta proteína tiene el skyr?",
+      "answer": "El producto natural de referencia aporta 9 g/100 g, unos 13,5 g en 150 g."
+    },
+    {
+      "question": "¿Cuántas calorías tiene?",
+      "answer": "51 kcal/100 g en la referencia utilizada, alrededor de 77 kcal en 150 g."
+    },
+    {
+      "question": "¿El skyr natural lleva azúcar añadido?",
+      "answer": "El producto citado no; sus 3,4 g de azúcares/100 g proceden principalmente de la leche."
+    },
+    {
+      "question": "¿Todo skyr es 0% grasa?",
+      "answer": "No. Hay versiones bajas en grasa y de leche entera; hay que revisar la etiqueta."
+    }
+  ],
+  "sources": [
+    {
+      "name": "DIA — Skyr natural Danone",
+      "url": "https://www.dia.es/yogures-y-postres/kefir-y-postres-vegetales/p/307396",
+      "note": "Composición actual: 51 kcal, 9 g de proteína y 0,1 g de grasa/100 g."
+    },
+    {
+      "name": "Arla — Beneficios del Skyr",
+      "url": "https://www.arlafoods.es/alimentacion/beneficios-del-skyr/",
+      "note": "Descripción del proceso tradicional de fermentación y escurrido y composición general."
+    }
+  ],
+  "image": {
+    "concept": "Un bol de skyr natural con 100 g en una balanza y destacados de 9 g de proteína y 51 kcal.",
+    "alt": "Skyr natural mostrando proteína y calorías por 100 gramos"
+  },
+  "status": "publish"
+}

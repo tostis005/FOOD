@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"es-587-por-que-parmesano-tiene-tanta-proteina","article_number":587,"translation_group":"587-why-parmesan-high-protein","language":"es","locale":"es-ES","market_context":"España y Unión Europea","title":"Por qué el parmesano tiene tanta proteína","slug":"por-que-parmesano-tiene-tanta-proteina","seo":{"title":"Por qué el parmesano tiene tanta proteína","meta_description":"El parmesano ronda 35–36 g de proteína por 100 g porque el curado elimina mucha agua y concentra los sólidos de la leche. Lo comparamos con leche y mozzarella.","search_intent":"Entender por qué el parmesano es tan rico en proteína"},"excerpt":"El parmesano no genera proteína durante la maduración: la concentra. Una referencia USDA ronda 35,8 g de proteína/100 g, frente a unos 3,2 g en leche y 22 g en mozzarella. Al cuajar, prensar y madurar durante meses se elimina gran parte del agua y quedan concentradas caseínas, grasa, calcio y sal.","taxonomy":{"food_family":"dairy-cheese","food_subcategories":[],"article_types":["cooking-science","processing-production","nutrition-composition"],"primary_article_type":"cooking-science"},"content_html":"<p>Que el parmesano tenga más de 30 g de proteína por 100 g puede parecer extraño si procede de leche, que ronda solo 3,2 g. La explicación no es que la fermentación fabrique proteína: <strong>el queso elimina agua y concentra los sólidos que ya estaban en la leche.</strong></p><h2>Cuánta proteína concentra</h2><p>Una referencia USDA de parmesano duro aporta aproximadamente <strong>35,8 g de proteína y 392 kcal por 100 g</strong>. Una mozzarella entera de referencia ronda 22 g de proteína, y la leche unos 3,2 g.</p><p>Comparado con la leche, el parmesano tiene más de diez veces la proteína por unidad de peso porque contiene muchísima menos agua.</p><h2>Qué ocurre durante la elaboración</h2><p>Al coagular la leche, gran parte de las caseínas quedan atrapadas en la cuajada. Se separa suero, se prensa el queso y durante la maduración continúa perdiendo humedad. El resultado final es una matriz muy densa.</p><h2>El curado cambia la proteína, pero sobre todo su concentración</h2><p>Enzimas de la leche, el cuajo y los microorganismos rompen parte de las proteínas en péptidos y aminoácidos. Esto influye en sabor y textura, pero no explica el gran aumento por 100 g. La pérdida de agua es el factor dominante.</p><h2>También se concentran otras cosas</h2><p>El mismo proceso concentra <strong>calcio, fósforo, grasa y sodio</strong>. La referencia de parmesano supera 1.000 mg de calcio/100 g, pero también ronda 25–26 g de grasa y más de 1 g de sodio.</p><h2>La ración importa</h2><p>Cien gramos de parmesano no suelen ser una ración. Con 20 g, la referencia aporta unas <strong>78 kcal y 7,2 g de proteína</strong>. Sigue siendo una cantidad relevante, pero muy distinta de leer 35,8 g y asumir que eso es lo que añade una cucharada a la pasta.</p><p><strong>El parmesano es proteico porque es queso muy seco y concentrado, no porque el curado cree proteína nueva.</strong></p>","faq":[{"question":"¿Cuánta proteína tiene el parmesano?","answer":"Una referencia USDA ronda 35,8 g/100 g; 20 g aportarían alrededor de 7,2 g."},{"question":"¿Por qué tiene mucha más proteína que la leche?","answer":"Porque durante el quesado y la maduración se elimina gran parte del agua y se concentran las proteínas de la leche."},{"question":"¿El curado crea proteína?","answer":"No. Modifica y rompe parte de las proteínas, pero el aumento por 100 g se debe sobre todo a la pérdida de agua."},{"question":"¿También concentra sal y grasa?","answer":"Sí. Es un alimento denso también en grasa, calcio y sodio, por eso conviene interpretar una ración real."}],"sources":[{"name":"USDA FoodData Central — Parmesan cheese, hard","url":"https://fdc.nal.usda.gov/","note":"Proteína, energía, grasa, calcio y sodio del parmesano duro."},{"name":"USDA FoodData Central — Whole milk","url":"https://fdc.nal.usda.gov/","note":"Referencia de proteína de la leche para explicar la concentración."}],"image":{"concept":"Leche transformándose en una rueda de parmesano mientras el agua sale y la proteína queda concentrada.","alt":"Proceso de curado que concentra la proteína del parmesano al perder agua"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-587-por-que-parmesano-tiene-tanta-proteina",
+  "article_number": 587,
+  "translation_group": "587-why-parmesan-high-protein",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España y Unión Europea",
+  "title": "Por qué el parmesano tiene tanta proteína",
+  "slug": "por-que-parmesano-tiene-tanta-proteina",
+  "seo": {
+    "title": "Por qué el parmesano tiene tanta proteína",
+    "meta_description": "El parmesano ronda 35–36 g de proteína por 100 g porque el curado elimina mucha agua y concentra los sólidos de la leche. Lo comparamos con leche y mozzarella.",
+    "search_intent": "Entender por qué el parmesano es tan rico en proteína"
+  },
+  "excerpt": "El parmesano no genera proteína durante la maduración: la concentra. Una referencia USDA ronda 35,8 g de proteína/100 g, frente a unos 3,2 g en leche y 22 g en mozzarella. Al cuajar, prensar y madurar durante meses se elimina gran parte del agua y quedan concentradas caseínas, grasa, calcio y sal.",
+  "taxonomy": {
+    "food_family": "dairy-cheese",
+    "food_subcategories": [],
+    "article_types": [
+      "cooking-science",
+      "processing-production",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>Que el parmesano tenga más de 30 g de proteína por 100 g puede parecer extraño si procede de leche, que ronda solo 3,2 g. La explicación no es que la fermentación fabrique proteína: <strong>el queso elimina agua y concentra los sólidos que ya estaban en la leche.</strong></p><h2>Cuánta proteína concentra</h2><p>Una referencia USDA de parmesano duro aporta aproximadamente <strong>35,8 g de proteína y 392 kcal por 100 g</strong>. Una mozzarella entera de referencia ronda 22 g de proteína, y la leche unos 3,2 g.</p><p>Comparado con la leche, el parmesano tiene más de diez veces la proteína por unidad de peso porque contiene muchísima menos agua.</p><h2>Qué ocurre durante la elaboración</h2><p>Al coagular la leche, gran parte de las caseínas quedan atrapadas en la cuajada. Se separa suero, se prensa el queso y durante la maduración continúa perdiendo humedad. El resultado final es una matriz muy densa.</p><h2>Qué cambia durante el curado además del agua</h2><p>Enzimas de la leche, el cuajo y los microorganismos rompen parte de las proteínas en péptidos y aminoácidos. Esto influye en sabor y textura, pero no explica el gran aumento por 100 g. La pérdida de agua es el factor dominante.</p><p>El mismo proceso concentra <strong>calcio, fósforo, grasa y sodio</strong>. La referencia de parmesano supera 1.000 mg de calcio/100 g, pero también ronda 25–26 g de grasa y más de 1 g de sodio.</p><h2>La ración importa</h2><p>Cien gramos de parmesano no suelen ser una ración. Con 20 g, la referencia aporta unas <strong>78 kcal y 7,2 g de proteína</strong>. Sigue siendo una cantidad relevante, pero muy distinta de leer 35,8 g y asumir que eso es lo que añade una cucharada a la pasta.</p><p><strong>El parmesano es proteico porque es queso muy seco y concentrado, no porque el curado cree proteína nueva.</strong></p>",
+  "faq": [
+    {
+      "question": "¿Cuánta proteína tiene el parmesano?",
+      "answer": "Una referencia USDA ronda 35,8 g/100 g; 20 g aportarían alrededor de 7,2 g."
+    },
+    {
+      "question": "¿Por qué tiene mucha más proteína que la leche?",
+      "answer": "Porque durante el quesado y la maduración se elimina gran parte del agua y se concentran las proteínas de la leche."
+    },
+    {
+      "question": "¿El curado crea proteína?",
+      "answer": "No. Modifica y rompe parte de las proteínas, pero el aumento por 100 g se debe sobre todo a la pérdida de agua."
+    },
+    {
+      "question": "¿También concentra sal y grasa?",
+      "answer": "Sí. Es un alimento denso también en grasa, calcio y sodio, por eso conviene interpretar una ración real."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central — Parmesan cheese, hard",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Proteína, energía, grasa, calcio y sodio del parmesano duro."
+    },
+    {
+      "name": "USDA FoodData Central — Whole milk",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Referencia de proteína de la leche para explicar la concentración."
+    }
+  ],
+  "image": {
+    "concept": "Leche transformándose en una rueda de parmesano mientras el agua sale y la proteína queda concentrada.",
+    "alt": "Proceso de curado que concentra la proteína del parmesano al perder agua"
+  },
+  "status": "publish"
+}

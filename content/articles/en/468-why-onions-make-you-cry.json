@@ -1,1 +1,53 @@
-{"schema_version":1,"id":"en-468-onions-cry","article_number":468,"translation_group":"468-why-onions-make-you-cry","language":"en","locale":"en-US","market_context":"United States; chemistry of onion cutting and practical ways to reduce eye irritation.","title":"Why Onions Make You Cry and How to Reduce It","slug":"why-onions-make-you-cry","seo":{"title":"Why Onions Make You Cry and How to Reduce It","meta_description":"Cutting onion ruptures cells and produces syn-propanethial-S-oxide, a volatile eye irritant. Chilling, a sharp knife, ventilation, and goggles reduce exposure.","search_intent":"Understand the chemical that causes onion tears and which practical methods reduce irritation."},"excerpt":"Cutting an onion ruptures cells that normally keep enzymes and sulfur-containing precursors separate. The reaction produces syn-propanethial-S-oxide, the onion’s lachrymatory factor, which reaches the eyes as vapor and stimulates sensory nerves, triggering tears.","taxonomy":{"food_family":"vegetables-mushrooms","food_subcategories":[],"article_types":["cooking-science","cooking-techniques"],"primary_article_type":"cooking-science"},"content_html":"<p>An onion does not simply “release acid into your eyes.” <strong>A short chemical pathway begins when the cells are broken.</strong></p><h2>What forms when you cut</h2><p>Cell rupture allows alliinase to act on sulfur-containing precursors, producing sulfenic acids. Another enzyme, lachrymatory factor synthase, helps convert these into syn-propanethial-S-oxide, a volatile compound that irritates the eyes.</p><h2>Why tears appear</h2><p>The vapor reaches the eye surface and stimulates sensitive nerve endings. Tear glands respond by producing fluid to dilute and wash away the irritant.</p><h2>What actually helps</h2><ul><li><strong>Sharp knife:</strong> crushes less tissue and destroys fewer cells.</li><li><strong>Chilled onion:</strong> can slow reactions and volatilization; refrigerate rather than freeze.</li><li><strong>Ventilation:</strong> a range hood or fan moves vapor away from your face.</li><li><strong>Sealed goggles:</strong> create the most direct physical barrier for very sensitive cooks.</li></ul><h2>Weaker kitchen folklore</h2><p>Biting bread, holding a spoon in your mouth, or other rituals do not remove the underlying chemistry. Cutting under running water can trap the volatile compound but is awkward and creates a slippery knife-safety problem.</p><p><strong>The useful strategy is to damage less tissue and move the vapor away from your eyes.</strong></p>","faq":[{"question":"What chemical makes onions cause tears?","answer":"The principal lachrymatory factor is syn-propanethial-S-oxide."},{"question":"Does chilling an onion help?","answer":"It can reduce reaction rate and volatility, so many cooks experience less irritation."},{"question":"Do onion goggles work?","answer":"Yes. A good seal physically prevents the vapor from reaching the eye surface."}],"sources":[{"name":"Enzyme That Makes You Cry — Lachrymatory Factor Synthase","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC5693239/","note":"Biochemistry and structure of the enzyme producing onion lachrymatory factor."}],"image":{"concept":"Cook slicing onion with a sharp knife under a running range hood, realistic editorial food photography, no text.","alt":"Onion being sliced with ventilation to reduce eye irritation"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-468-onions-cry",
+  "article_number": 468,
+  "translation_group": "468-why-onions-make-you-cry",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; chemistry of onion cutting and practical ways to reduce eye irritation.",
+  "title": "Why Onions Make You Cry and How to Reduce It",
+  "slug": "why-onions-make-you-cry",
+  "seo": {
+    "title": "Why Onions Make You Cry and How to Reduce It",
+    "meta_description": "Cutting onion ruptures cells and produces syn-propanethial-S-oxide, a volatile eye irritant. Chilling, a sharp knife, ventilation, and goggles reduce exposure.",
+    "search_intent": "Understand the chemical that causes onion tears and which practical methods reduce irritation."
+  },
+  "excerpt": "Cutting an onion ruptures cells that normally keep enzymes and sulfur-containing precursors separate. The reaction produces syn-propanethial-S-oxide, the onion’s lachrymatory factor, which reaches the eyes as vapor and stimulates sensory nerves, triggering tears.",
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>An onion does not simply “release acid into your eyes.” <strong>A short chemical pathway begins when the cells are broken.</strong></p><h2>What forms when you cut</h2><p>Cell rupture allows alliinase to act on sulfur-containing precursors, producing sulfenic acids. Another enzyme, lachrymatory factor synthase, helps convert these into syn-propanethial-S-oxide, a volatile compound that irritates the eyes.</p><h2>Why tears appear</h2><p>The vapor reaches the eye surface and stimulates sensitive nerve endings. Tear glands respond by producing fluid to dilute and wash away the irritant.</p><h2>What actually helps</h2><ul><li><strong>Sharp knife:</strong> crushes less tissue and destroys fewer cells.</li><li><strong>Chilled onion:</strong> can slow reactions and volatilization; refrigerate rather than freeze.</li><li><strong>Ventilation:</strong> a range hood or fan moves vapor away from your face.</li><li><strong>Sealed goggles:</strong> create the most direct physical barrier for very sensitive cooks.</li></ul><h2>The best strategy is to damage less tissue and move vapors away</h2><p>A sharp knife crushes fewer cells than a dull one and can reduce release of the precursors that form the irritant. Ventilation or a range hood helps move volatile compounds away from the eyes. Chilling the onion can slow reactions and volatility, although it does not remove the mechanism.</p><p>By contrast, tricks such as holding bread in your mouth or placing objects beside the cutting board do not clearly act on the chemistry that creates the irritant. Understanding the mechanism helps separate plausible measures from kitchen rituals.</p><h2>Weaker kitchen folklore</h2><p>Biting bread, holding a spoon in your mouth, or other rituals do not remove the underlying chemistry. Cutting under running water can trap the volatile compound but is awkward and creates a slippery knife-safety problem.</p><p><strong>The useful strategy is to damage less tissue and move the vapor away from your eyes.</strong></p>",
+  "faq": [
+    {
+      "question": "What chemical makes onions cause tears?",
+      "answer": "The principal lachrymatory factor is syn-propanethial-S-oxide."
+    },
+    {
+      "question": "Does chilling an onion help?",
+      "answer": "It can reduce reaction rate and volatility, so many cooks experience less irritation."
+    },
+    {
+      "question": "Do onion goggles work?",
+      "answer": "Yes. A good seal physically prevents the vapor from reaching the eye surface."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Enzyme That Makes You Cry — Lachrymatory Factor Synthase",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5693239/",
+      "note": "Biochemistry and structure of the enzyme producing onion lachrymatory factor."
+    }
+  ],
+  "image": {
+    "concept": "Cook slicing onion with a sharp knife under a running range hood, realistic editorial food photography, no text.",
+    "alt": "Onion being sliced with ventilation to reduce eye irritation"
+  },
+  "status": "publish"
+}

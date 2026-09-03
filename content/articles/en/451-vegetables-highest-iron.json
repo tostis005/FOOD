@@ -1,1 +1,58 @@
-{"schema_version":1,"id":"en-451-vegetables-iron","article_number":451,"translation_group":"451-vegetables-highest-iron","language":"en","locale":"en-US","market_context":"United States; approximate iron comparison for raw vegetables and context of nonheme absorption.","title":"Vegetables Highest in Iron","slug":"vegetables-highest-iron","seo":{"title":"Vegetables Highest in Iron per 100 Grams","meta_description":"Raw spinach and beet greens are about 2.5–2.7 mg iron/100 g, asparagus near 2.1 mg, and Swiss chard around 1.8 mg. Plant iron is nonheme and absorption varies.","search_intent":"Compare iron-rich vegetables with numbers and understand plant-iron absorption."},"excerpt":"Among common vegetables, raw spinach provides about 2.7 mg iron per 100 g, beet greens about 2.6 mg, asparagus near 2.1 mg, and Swiss chard around 1.8 mg. These are total-iron numbers; vegetable iron is nonheme and is generally absorbed less efficiently than heme iron.","taxonomy":{"food_family":"vegetables-mushrooms","food_subcategories":[],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>Spinach deserves some of its iron reputation, but the story is more nuanced than a ranking. <strong>Several leafy vegetables are close, and the amount in a table is not the same as the amount your body absorbs.</strong></p><h2>Approximate raw values per 100 g</h2><table><thead><tr><th>Vegetable</th><th>Approx. iron</th></tr></thead><tbody><tr><td>Spinach</td><td>~2.7 mg</td></tr><tr><td>Beet greens</td><td>~2.6 mg</td></tr><tr><td>Asparagus</td><td>~2.1 mg</td></tr><tr><td>Swiss chard</td><td>~1.8 mg</td></tr><tr><td>Kale</td><td>~1.5 mg</td></tr><tr><td>Broccoli</td><td>~0.7 mg</td></tr></tbody></table><p>Values are rounded and vary by cultivar and preparation.</p><h2>Vegetable iron is nonheme iron</h2><p>NIH explains that nonheme iron has more variable absorption than heme iron. Phytates and some polyphenols can inhibit absorption, while vitamin C consumed in the same meal improves it.</p><h2>Serving size changes the number</h2><p>A salad containing 50 g of spinach provides about 1.3 mg iron, not 2.7 mg. Adding red pepper, tomatoes, or vitamin-C-rich fruit can improve use of that nonheme iron.</p><h2>Legumes are a different category</h2><p>If the comparison expands beyond vegetables, lentils, beans, chickpeas, and soy are important plant iron sources and often provide more per realistic serving.</p><p><strong>Spinach contains useful iron, but portion size, bioavailability, and the rest of the meal matter as much as the per-100-g number.</strong></p>","faq":[{"question":"Is spinach the highest-iron vegetable?","answer":"It is among the higher common vegetables at about 2.7 mg/100 g, but beet greens are very similar."},{"question":"Is plant iron absorbed like meat iron?","answer":"No. Nonheme iron has lower and more variable absorption than heme iron."},{"question":"What helps absorb vegetable iron?","answer":"Vitamin C eaten in the same meal can increase nonheme iron absorption."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/food-search/","note":"Iron values for vegetables."},{"name":"NIH Office of Dietary Supplements — Iron Fact Sheet","url":"https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/","note":"Heme and nonheme iron and absorption factors."}],"image":{"concept":"Spinach, beet greens, asparagus, Swiss chard, kale, and broccoli arranged together, realistic nutrition editorial photography, no text.","alt":"Vegetables containing meaningful amounts of iron"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-451-vegetables-iron",
+  "article_number": 451,
+  "translation_group": "451-vegetables-highest-iron",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; approximate iron comparison for raw vegetables and context of nonheme absorption.",
+  "title": "Vegetables Highest in Iron",
+  "slug": "vegetables-highest-iron",
+  "seo": {
+    "title": "Vegetables Highest in Iron per 100 Grams",
+    "meta_description": "Raw spinach and beet greens are about 2.5–2.7 mg iron/100 g, asparagus near 2.1 mg, and Swiss chard around 1.8 mg. Plant iron is nonheme and absorption varies.",
+    "search_intent": "Compare iron-rich vegetables with numbers and understand plant-iron absorption."
+  },
+  "excerpt": "Among common vegetables, raw spinach provides about 2.7 mg iron per 100 g, beet greens about 2.6 mg, asparagus near 2.1 mg, and Swiss chard around 1.8 mg. These are total-iron numbers; vegetable iron is nonheme and is generally absorbed less efficiently than heme iron.",
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Spinach deserves some of its iron reputation, but the story is more nuanced than a ranking. <strong>Several leafy vegetables are close, and the amount in a table is not the same as the amount your body absorbs.</strong></p><h2>Approximate raw values per 100 g</h2><table><thead><tr><th>Vegetable</th><th>Approx. iron</th></tr></thead><tbody><tr><td>Spinach</td><td>~2.7 mg</td></tr><tr><td>Beet greens</td><td>~2.6 mg</td></tr><tr><td>Asparagus</td><td>~2.1 mg</td></tr><tr><td>Swiss chard</td><td>~1.8 mg</td></tr><tr><td>Kale</td><td>~1.5 mg</td></tr><tr><td>Broccoli</td><td>~0.7 mg</td></tr></tbody></table><p>Values are rounded and vary by cultivar and preparation.</p><h2>Vegetable iron is nonheme iron</h2><p>NIH explains that nonheme iron has more variable absorption than heme iron. Phytates and some polyphenols can inhibit absorption, while vitamin C consumed in the same meal improves it.</p><h2>Serving size changes the number</h2><p>A salad containing 50 g of spinach provides about 1.3 mg iron, not 2.7 mg. Adding red pepper, tomatoes, or vitamin-C-rich fruit can improve use of that nonheme iron.</p><h2>Absorption matters as much as the number in the table</h2><p>Plant iron is non-heme iron, and its absorption varies more than heme iron from animal foods. Pairing vegetables or legumes with a vitamin C source can improve absorption, while large amounts of certain inhibitors in the same meal can reduce it.</p><p>That does not make the ranking useless, but it changes how to read it. A vegetable containing 2 mg per 100 g does not automatically mean 2 mg is absorbed, and a large serving of legumes can provide more total iron than a small side serving of the vegetable at the top of the list.</p><h2>Legumes are a different category</h2><p>If the comparison expands beyond vegetables, lentils, beans, chickpeas, and soy are important plant iron sources and often provide more per realistic serving.</p><p><strong>Spinach contains useful iron, but portion size, bioavailability, and the rest of the meal matter as much as the per-100-g number.</strong></p>",
+  "faq": [
+    {
+      "question": "Is spinach the highest-iron vegetable?",
+      "answer": "It is among the higher common vegetables at about 2.7 mg/100 g, but beet greens are very similar."
+    },
+    {
+      "question": "Is plant iron absorbed like meat iron?",
+      "answer": "No. Nonheme iron has lower and more variable absorption than heme iron."
+    },
+    {
+      "question": "What helps absorb vegetable iron?",
+      "answer": "Vitamin C eaten in the same meal can increase nonheme iron absorption."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/food-search/",
+      "note": "Iron values for vegetables."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Iron Fact Sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "note": "Heme and nonheme iron and absorption factors."
+    }
+  ],
+  "image": {
+    "concept": "Spinach, beet greens, asparagus, Swiss chard, kale, and broccoli arranged together, realistic nutrition editorial photography, no text.",
+    "alt": "Vegetables containing meaningful amounts of iron"
+  },
+  "status": "publish"
+}

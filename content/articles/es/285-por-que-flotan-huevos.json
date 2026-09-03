@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-285-por-que-flotan-huevos","article_number":285,"translation_group":"285-why-eggs-float","language":"es","locale":"es-ES","market_context":"España/Unión Europea; prueba de flotación de huevos, cámara de aire y calidad","title":"¿Por qué flotan algunos huevos?","slug":"por-que-flotan-algunos-huevos","seo":{"title":"¿Por qué flotan algunos huevos? Qué indica la prueba del agua","meta_description":"Un huevo flota cuando su cámara de aire ha crecido lo suficiente para aumentar su flotabilidad. Indica edad y pérdida de calidad, no demuestra por sí solo que esté malo.","search_intent":"Entender por qué un huevo flota y qué puede y no puede decir la prueba del agua sobre frescura y seguridad."},"excerpt":"USDA explica que un huevo puede flotar cuando su cámara de aire se ha agrandado lo suficiente. Con el tiempo, agua y dióxido de carbono salen a través de la cáscara y entra aire, aumentando la flotabilidad. Eso indica menor frescura o calidad, pero un huevo flotante puede seguir siendo seguro.","taxonomy":{"food_family":"eggs","food_subcategories":["eggs","freshness","float-test"],"article_types":["myths-faq","buying-quality-ripeness"],"primary_article_type":"myths-faq"},"content_html":"<p>La prueba del vaso de agua parece una prueba de “bueno o malo”, pero mide sobre todo otra cosa. <strong>Un huevo flota cuando su cámara de aire se ha hecho suficientemente grande para aumentar su flotabilidad.</strong></p><h2>La cámara de aire crece con el tiempo</h2><p>Cuando el huevo recién puesto se enfría, se forma una pequeña cámara de aire en el extremo ancho. Durante el almacenamiento, humedad y dióxido de carbono atraviesan los poros de la cáscara y entra más aire.</p><p>A medida que aumenta el volumen de aire y disminuye la densidad media del huevo, puede pasar de permanecer tumbado en el fondo a inclinarse, ponerse de pie y finalmente flotar.</p><h2>Flotar indica edad, no una condena automática</h2><p>USDA es explícito: un huevo que flota es de <strong>peor calidad</strong>, pero puede ser perfectamente seguro. La prueba no detecta Salmonella ni otros patógenos.</p><h2>Qué cambia dentro de un huevo viejo</h2><p>La clara se vuelve más fluida, la yema más plana y frágil y las chalazas pierden fuerza. Por eso un huevo antiguo se extiende más al abrirse y funciona peor para algunas técnicas culinarias.</p><h2>Cómo comprobar un huevo flotante</h2><p>USDA recomienda cascarlos de uno en uno en un recipiente aparte y examinar olor y aspecto antes de decidir. Un huevo estropeado desarrolla un olor claramente desagradable al romper la cáscara, crudo o cocido.</p><h2>La refrigeración ralentiza el proceso</h2><p>El frío reduce la pérdida de calidad y ralentiza el crecimiento de la cámara de aire. Mantener temperatura estable también evita condensación y cambios innecesarios.</p><h2>La idea útil</h2><p><strong>Flotar significa que el huevo tiene una cámara de aire grande y normalmente es más viejo.</strong> No significa automáticamente que esté podrido ni que sea microbiológicamente seguro: la prueba sirve para calidad aproximada, no como análisis de seguridad.</p>","faq":[{"question":"¿Hay que tirar siempre un huevo que flota?","answer":"No. USDA indica que puede ser de peor calidad pero seguir siendo seguro; rómpelo en un recipiente aparte y comprueba olor y aspecto."},{"question":"¿Por qué aumenta la cámara de aire?","answer":"Con el tiempo salen humedad y dióxido de carbono por los poros de la cáscara y entra más aire."},{"question":"¿La prueba del agua detecta Salmonella?","answer":"No. Indica principalmente envejecimiento y densidad, no presencia de microorganismos patógenos."}],"sources":[{"name":"USDA FSIS — What does it mean when an egg floats in water?","url":"https://ask.fsis.usda.gov/article/What-does-it-mean-when-an-egg-floats-in-water","note":"Un huevo flota al crecer su cámara de aire; puede seguir siendo seguro."},{"name":"USDA FSIS — Shell Eggs from Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table","note":"Formación y crecimiento de la cámara de aire y pérdida de calidad durante almacenamiento."}],"image":{"concept":"Tres huevos en un vaso transparente: uno tumbado, uno vertical y uno flotando, fotografía editorial sin texto.","alt":"Huevos con distinta flotabilidad según el tamaño de la cámara de aire"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-285-por-que-flotan-huevos",
+  "article_number": 285,
+  "translation_group": "285-why-eggs-float",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; prueba de flotación de huevos, cámara de aire y calidad",
+  "title": "¿Por qué flotan algunos huevos?",
+  "slug": "por-que-flotan-algunos-huevos",
+  "seo": {
+    "title": "¿Por qué flotan algunos huevos? Qué indica la prueba del agua",
+    "meta_description": "Un huevo flota cuando su cámara de aire ha crecido lo suficiente para aumentar su flotabilidad. Indica edad y pérdida de calidad, no demuestra por sí solo que esté malo.",
+    "search_intent": "Entender por qué un huevo flota y qué puede y no puede decir la prueba del agua sobre frescura y seguridad."
+  },
+  "excerpt": "USDA explica que un huevo puede flotar cuando su cámara de aire se ha agrandado lo suficiente. Con el tiempo, agua y dióxido de carbono salen a través de la cáscara y entra aire, aumentando la flotabilidad. Eso indica menor frescura o calidad, pero un huevo flotante puede seguir siendo seguro.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "eggs",
+      "freshness",
+      "float-test"
+    ],
+    "article_types": [
+      "myths-faq",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "myths-faq"
+  },
+  "content_html": "<p>La prueba del vaso de agua parece una prueba de “bueno o malo”, pero mide sobre todo otra cosa. <strong>Un huevo flota cuando su cámara de aire se ha hecho suficientemente grande para aumentar su flotabilidad.</strong></p><h2>La cámara de aire crece con el tiempo</h2><p>Cuando el huevo recién puesto se enfría, se forma una pequeña cámara de aire en el extremo ancho. Durante el almacenamiento, humedad y dióxido de carbono atraviesan los poros de la cáscara y entra más aire.</p><p>A medida que aumenta el volumen de aire y disminuye la densidad media del huevo, puede pasar de permanecer tumbado en el fondo a inclinarse, ponerse de pie y finalmente flotar.</p><h2>Flotar indica edad, no una condena automática</h2><p>USDA es explícito: un huevo que flota es de <strong>peor calidad</strong>, pero puede ser perfectamente seguro. La prueba no detecta Salmonella ni otros patógenos.</p><h2>Qué cambia dentro de un huevo viejo</h2><p>La clara se vuelve más fluida, la yema más plana y frágil y las chalazas pierden fuerza. Por eso un huevo antiguo se extiende más al abrirse y funciona peor para algunas técnicas culinarias.</p><h2>Cómo comprobar un huevo flotante</h2><p>USDA recomienda cascarlos de uno en uno en un recipiente aparte y examinar olor y aspecto antes de decidir. Un huevo estropeado desarrolla un olor claramente desagradable al romper la cáscara, crudo o cocido.</p><h2>La refrigeración ralentiza el proceso</h2><p>El frío reduce la pérdida de calidad y ralentiza el crecimiento de la cámara de aire. Mantener temperatura estable también evita condensación y cambios innecesarios.</p><p><strong>Flotar significa que el huevo tiene una cámara de aire grande y normalmente es más viejo.</strong> No significa automáticamente que esté podrido ni que sea microbiológicamente seguro: la prueba sirve para calidad aproximada, no como análisis de seguridad.</p>",
+  "faq": [
+    {
+      "question": "¿Hay que tirar siempre un huevo que flota?",
+      "answer": "No. USDA indica que puede ser de peor calidad pero seguir siendo seguro; rómpelo en un recipiente aparte y comprueba olor y aspecto."
+    },
+    {
+      "question": "¿Por qué aumenta la cámara de aire?",
+      "answer": "Con el tiempo salen humedad y dióxido de carbono por los poros de la cáscara y entra más aire."
+    },
+    {
+      "question": "¿La prueba del agua detecta Salmonella?",
+      "answer": "No. Indica principalmente envejecimiento y densidad, no presencia de microorganismos patógenos."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — What does it mean when an egg floats in water?",
+      "url": "https://ask.fsis.usda.gov/article/What-does-it-mean-when-an-egg-floats-in-water",
+      "note": "Un huevo flota al crecer su cámara de aire; puede seguir siendo seguro."
+    },
+    {
+      "name": "USDA FSIS — Shell Eggs from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "note": "Formación y crecimiento de la cámara de aire y pérdida de calidad durante almacenamiento."
+    }
+  ],
+  "image": {
+    "concept": "Tres huevos en un vaso transparente: uno tumbado, uno vertical y uno flotando, fotografía editorial sin texto.",
+    "alt": "Huevos con distinta flotabilidad según el tamaño de la cámara de aire"
+  },
+  "status": "publish"
+}

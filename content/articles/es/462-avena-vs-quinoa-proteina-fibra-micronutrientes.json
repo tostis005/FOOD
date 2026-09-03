@@ -1,1 +1,53 @@
-{"schema_version":1,"id":"es-462-avena-quinoa","article_number":462,"translation_group":"462-oats-vs-quinoa","language":"es","locale":"es-ES","market_context":"España/Unión Europea; comparación de avena y quinoa secas por 100 g y porción habitual.","title":"Avena vs. quinoa: proteína, fibra y micronutrientes","slug":"avena-vs-quinoa-proteina-fibra-micronutrientes","seo":{"title":"Avena vs. quinoa: proteína, fibra y micronutrientes","meta_description":"En seco, ambas rondan 13–14 g de proteína/100 g. La avena suele aportar más fibra, especialmente beta-glucanos; la quinoa destaca por su perfil de aminoácidos y ausencia natural de gluten.","search_intent":"Comparar avena y quinoa en proteína, fibra, carbohidratos y micronutrientes sin mezclar datos cocidos y secos."},"excerpt":"En seco, avena y quinoa son bastante parecidas en proteína: aproximadamente 13–14 g por 100 g. La avena suele aportar alrededor de 10 g de fibra frente a unos 7 g en quinoa, y contiene beta-glucanos. La quinoa ofrece un perfil de aminoácidos muy completo y es naturalmente libre de gluten.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":[],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Comparar un bol de porridge con un plato de quinoa cocida puede engañar porque ambos absorben cantidades distintas de agua. <strong>Para comparar composición, es más limpio usar el alimento seco.</strong></p><h2>Comparación aproximada por 100 g en seco</h2><table><thead><tr><th></th><th>Avena</th><th>Quinoa</th></tr></thead><tbody><tr><td>Energía</td><td>~375–390 kcal</td><td>~365–370 kcal</td></tr><tr><td>Proteína</td><td>~13–14 g</td><td>~14 g</td></tr><tr><td>Fibra</td><td>~10 g</td><td>~7 g</td></tr><tr><td>Grasa</td><td>~6–7 g</td><td>~6 g</td></tr></tbody></table><h2>La avena destaca por los beta-glucanos</h2><p>Una parte de su fibra es soluble y está formada por beta-glucanos, conocidos por aumentar viscosidad en el intestino y contribuir a reducir colesterol LDL cuando se consumen en cantidades suficientes.</p><h2>La quinoa destaca por la calidad de su proteína</h2><p>La quinoa contiene todos los aminoácidos esenciales en proporciones relativamente favorables para un alimento vegetal. Eso no significa que una ración tenga “proteína de carne”: 60 g secos aportan alrededor de 8–9 g de proteína.</p><h2>Micronutrientes diferentes</h2><p>Ambas aportan magnesio, fósforo, manganeso y hierro. La quinoa suele destacar en magnesio y folato; la avena en tiamina, manganeso y beta-glucanos. Las cifras exactas cambian con variedad y procesado.</p><h2>Gluten</h2><p>La quinoa es naturalmente libre de gluten. La avena también lo es en origen, pero puede contaminarse con trigo, cebada o centeno; para enfermedad celíaca se necesita avena certificada sin gluten.</p><p><strong>No hay un ganador universal: avena si priorizas beta-glucanos y desayuno cremoso; quinoa si buscas un pseudocereal versátil, sin gluten y con buen perfil de aminoácidos.</strong></p>","faq":[{"question":"¿Cuál tiene más proteína?","answer":"En seco están muy cerca: ambas rondan aproximadamente 13–14 g por 100 g."},{"question":"¿Cuál tiene más fibra?","answer":"La avena suele estar alrededor de 10 g/100 g frente a unos 7 g de quinoa."},{"question":"¿Las dos son sin gluten?","answer":"La quinoa sí de forma natural. La avena necesita certificación sin gluten para evitar contaminación cruzada en personas con celiaquía."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/food-search/","note":"Valores nutricionales de avena y quinoa secas."}],"image":{"concept":"Avena en copos y quinoa seca en dos cuencos con pequeñas porciones cocidas al fondo, fotografía editorial nutricional realista, sin texto.","alt":"Avena y quinoa comparadas"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-462-avena-quinoa",
+  "article_number": 462,
+  "translation_group": "462-oats-vs-quinoa",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; comparación de avena y quinoa secas por 100 g y porción habitual.",
+  "title": "Avena vs. quinoa: proteína, fibra y micronutrientes",
+  "slug": "avena-vs-quinoa-proteina-fibra-micronutrientes",
+  "seo": {
+    "title": "Avena vs. quinoa: proteína, fibra y micronutrientes",
+    "meta_description": "En seco, ambas rondan 13–14 g de proteína/100 g. La avena suele aportar más fibra, especialmente beta-glucanos; la quinoa destaca por su perfil de aminoácidos y ausencia natural de gluten.",
+    "search_intent": "Comparar avena y quinoa en proteína, fibra, carbohidratos y micronutrientes sin mezclar datos cocidos y secos."
+  },
+  "excerpt": "En seco, avena y quinoa son bastante parecidas en proteína: aproximadamente 13–14 g por 100 g. La avena suele aportar alrededor de 10 g de fibra frente a unos 7 g en quinoa, y contiene beta-glucanos. La quinoa ofrece un perfil de aminoácidos muy completo y es naturalmente libre de gluten.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Comparar un bol de porridge con un plato de quinoa cocida puede engañar porque ambos absorben cantidades distintas de agua. <strong>Para comparar composición, es más limpio usar el alimento seco.</strong></p><h2>Comparación aproximada por 100 g en seco</h2><table><thead><tr><th></th><th>Avena</th><th>Quinoa</th></tr></thead><tbody><tr><td>Energía</td><td>~375–390 kcal</td><td>~365–370 kcal</td></tr><tr><td>Proteína</td><td>~13–14 g</td><td>~14 g</td></tr><tr><td>Fibra</td><td>~10 g</td><td>~7 g</td></tr><tr><td>Grasa</td><td>~6–7 g</td><td>~6 g</td></tr></tbody></table><h2>La avena destaca por los beta-glucanos</h2><p>Una parte de su fibra es soluble y está formada por beta-glucanos, conocidos por aumentar viscosidad en el intestino y contribuir a reducir colesterol LDL cuando se consumen en cantidades suficientes.</p><h2>La quinoa destaca por la calidad de su proteína</h2><p>La quinoa contiene todos los aminoácidos esenciales en proporciones relativamente favorables para un alimento vegetal. Eso no significa que una ración tenga “proteína de carne”: 60 g secos aportan alrededor de 8–9 g de proteína.</p><h2>Micronutrientes diferentes</h2><p>Ambas aportan magnesio, fósforo, manganeso y hierro. La quinoa suele destacar en magnesio y folato; la avena en tiamina, manganeso y beta-glucanos. Las cifras exactas cambian con variedad y procesado.</p><h2>La forma de comerlas cambia la comparación</h2><p>La tabla en seco iguala el contenido de agua y sirve para comparar composición, pero avena y quinoa no siempre llegan al plato en cantidades equivalentes. La quinoa absorbe agua al cocerse; la avena puede prepararse con agua, leche o yogur y en espesores muy distintos. Una comparación por ración necesita especificar cómo se preparó cada una.</p><p>En la práctica, la avena destaca cuando buscas beta-glucanos y una base de desayuno; la quinoa aporta una proteína con un perfil de aminoácidos especialmente interesante y funciona como grano cocido en platos salados. No hay un ganador único fuera del objetivo concreto.</p><h2>Gluten</h2><p>La quinoa es naturalmente libre de gluten. La avena también lo es en origen, pero puede contaminarse con trigo, cebada o centeno; para enfermedad celíaca se necesita avena certificada sin gluten.</p><p><strong>No hay un ganador universal: avena si priorizas beta-glucanos y desayuno cremoso; quinoa si buscas un pseudocereal versátil, sin gluten y con buen perfil de aminoácidos.</strong></p>",
+  "faq": [
+    {
+      "question": "¿Cuál tiene más proteína?",
+      "answer": "En seco están muy cerca: ambas rondan aproximadamente 13–14 g por 100 g."
+    },
+    {
+      "question": "¿Cuál tiene más fibra?",
+      "answer": "La avena suele estar alrededor de 10 g/100 g frente a unos 7 g de quinoa."
+    },
+    {
+      "question": "¿Las dos son sin gluten?",
+      "answer": "La quinoa sí de forma natural. La avena necesita certificación sin gluten para evitar contaminación cruzada en personas con celiaquía."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/food-search/",
+      "note": "Valores nutricionales de avena y quinoa secas."
+    }
+  ],
+  "image": {
+    "concept": "Avena en copos y quinoa seca en dos cuencos con pequeñas porciones cocidas al fondo, fotografía editorial nutricional realista, sin texto.",
+    "alt": "Avena y quinoa comparadas"
+  },
+  "status": "publish"
+}

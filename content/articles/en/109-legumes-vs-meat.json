@@ -16,19 +16,42 @@
   "excerpt": "Meat is much more protein-dense per 100 g: cooked chicken breast provides about 31 g and lean beef around 29 g, compared with roughly 9 g in cooked lentils or chickpeas. Legumes, however, provide about 6–8 g fiber per 100 g and can contain as much or more total iron, although it is non-heme iron and is absorbed less efficiently than heme iron from meat.",
   "taxonomy": {
     "food_family": "general",
-    "food_subcategories": ["legumes", "meat"],
-    "article_types": ["comparison", "nutrition-composition"],
-    "primary_article_type": "comparison"
+    "food_subcategories": [
+      "legumes",
+      "meat"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
   },
   "content_html": "<p>Comparing legumes and meat only by protein leaves out half the story. <strong>Meat clearly wins on protein concentration; legumes provide fiber, carbohydrate, and a very different fat profile</strong>. Even the iron number needs context because the form of iron changes how well it is absorbed.</p><h2>Side by side per 100 grams cooked</h2><p>Every food in the table is already cooked so dry legumes are not being compared with ready-to-eat meat.</p><table><thead><tr><th>Food</th><th>Protein</th><th>Fiber</th><th>Fat</th><th>Iron</th><th>Calories</th></tr></thead><tbody><tr><td>Cooked lentils</td><td>~9.0 g</td><td>~7.9 g</td><td>~0.4 g</td><td>~3.3 mg</td><td>~116</td></tr><tr><td>Cooked chickpeas</td><td>~8.9 g</td><td>~7.6 g</td><td>~2.6 g</td><td>~2.9 mg</td><td>~164</td></tr><tr><td>Cooked beans</td><td>~8.7 g</td><td>~6–7 g</td><td>~0.5 g</td><td>~2.9 mg</td><td>~125–130</td></tr><tr><td>Cooked chicken breast</td><td>~31 g</td><td>0 g</td><td>~3.6 g</td><td>~1.0 mg</td><td>~165</td></tr><tr><td>Cooked lean beef</td><td>~29 g</td><td>0 g</td><td>~8 g</td><td>~2.5 mg</td><td>~200</td></tr></tbody></table><p>The protein gap is large: meat provides roughly <strong>three times as much per 100 g</strong>. Legumes contribute something meat does not provide at all: fiber.</p><h2>Real serving sizes narrow part of the gap</h2><p>A cooked-legume serving may be 1 cup or more, roughly 180–200 g, while a meat portion may be closer to 4–5 oz (113–142 g). Two hundred grams of lentils provides about 18 g protein and almost 16 g fiber. Five ounces of chicken breast provides about 44 g protein and no fiber.</p><p>Meat still wins clearly on protein, but legumes can serve as the main protein food when the portion and the rest of the meal are planned accordingly.</p><h2>Total iron does not tell the whole story</h2><p>Lentils can show more iron per 100 g than chicken and numbers similar to beef. But legume iron is <strong>non-heme iron</strong>, which is absorbed less efficiently and is more affected by other foods in the meal.</p><p>Meat provides heme iron, which is absorbed more efficiently. Vitamin C from peppers, tomatoes, citrus, berries, or other produce can improve non-heme iron absorption from legumes.</p><h2>Fat depends heavily on the cut of meat</h2><p>There is no single “meat” fat number. Skinless chicken breast can be around 3–4 g fat per 100 g, while fatty cuts of beef or pork can exceed 15–20 g. Cooked lentils and many beans contain very little fat; chickpeas contain somewhat more.</p><h2>Legumes provide carbohydrate and fiber; meat provides almost none</h2><p>A legume's calories are distributed among protein and carbohydrate, including starch and fiber. Meat gets most of its energy from protein and fat. That difference changes texture, fullness, and the role each food plays on the plate.</p><h2>They are not identical substitutes</h2><p>Replacing 100 g chicken with 100 g lentils would sharply reduce protein in that portion. A more realistic substitution may use a larger legume portion and combine it with grains, tofu, nuts, or another protein source depending on the goal.</p><p>The useful conclusion is that <strong>meat and legumes are not nutritionally equivalent gram for gram</strong>: meat concentrates protein and more bioavailable iron; legumes provide fiber, carbohydrate, little saturated fat, and a different micronutrient package.</p>",
   "faq": [
-    {"question": "Which has more protein, meat or legumes?", "answer": "Per 100 g cooked, meat usually has much more: chicken and lean beef are around 29–31 g versus about 9 g in cooked lentils or chickpeas."},
-    {"question": "Do lentils have more iron than meat?", "answer": "They can contain more total iron per 100 g than some meats, but it is non-heme iron and is absorbed less efficiently than heme iron from meat."},
-    {"question": "Can legumes replace meat?", "answer": "They can serve as a main protein food, but they are not gram-for-gram equivalents. A larger portion and the overall diet need to be considered."}
+    {
+      "question": "Which has more protein, meat or legumes?",
+      "answer": "Per 100 g cooked, meat usually has much more: chicken and lean beef are around 29–31 g versus about 9 g in cooked lentils or chickpeas."
+    },
+    {
+      "question": "Do lentils have more iron than meat?",
+      "answer": "They can contain more total iron per 100 g than some meats, but it is non-heme iron and is absorbed less efficiently than heme iron from meat."
+    },
+    {
+      "question": "Can legumes replace meat?",
+      "answer": "They can serve as a main protein food, but they are not gram-for-gram equivalents. A larger portion and the overall diet need to be considered."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein, fiber, fat, iron, and calories in cooked legumes and meats."},
-    {"name": "NIH Office of Dietary Supplements — Iron", "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/", "note": "Heme versus non-heme iron and absorption factors."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Protein, fiber, fat, iron, and calories in cooked legumes and meats."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Iron",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "note": "Heme versus non-heme iron and absorption factors."
+    }
   ],
   "image": {
     "concept": "A plate visually divided between cooked lentils and chickpeas and portions of lean chicken and beef, clean editorial food photography without text.",

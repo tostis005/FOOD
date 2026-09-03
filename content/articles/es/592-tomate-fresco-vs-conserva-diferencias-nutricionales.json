@@ -1,1 +1,68 @@
-{"schema_version":1,"id":"es-592-tomate-fresco-vs-conserva-diferencias-nutricionales","article_number":592,"translation_group":"592-fresh-vs-canned-tomatoes","language":"es","locale":"es-ES","market_context":"España y Unión Europea","title":"Tomate fresco vs. tomate en conserva: diferencias nutricionales","slug":"tomate-fresco-vs-conserva-diferencias-nutricionales","seo":{"title":"Tomate fresco vs. conserva: nutrientes y licopeno","meta_description":"El tomate fresco aporta más vitamina C en referencias comparables; la conserva mantiene fibra y el procesado puede aumentar la disponibilidad del licopeno. Comparamos cifras.","search_intent":"Comparar tomate fresco y tomate en conserva nutricionalmente"},"excerpt":"Por 100 g, una referencia de tomate fresco aporta 18 kcal, 1,2 g de fibra y unos 12,7 mg de vitamina C. Un tomate en conserva en su jugo aporta 16 kcal, 1,9 g de fibra, 2,6 mg de vitamina C y 115 mg de sodio. El calor reduce vitamina C pero puede hacer el licopeno más accesible para su absorción.","taxonomy":{"food_family":"vegetables-mushrooms","food_subcategories":[],"article_types":["comparisons","nutrition-composition","cooking-science"],"primary_article_type":"comparisons"},"content_html":"<p>El tomate en conserva no es una versión nutricionalmente “muerta” del tomate fresco. <strong>El calor perjudica algunos nutrientes, pero puede favorecer la disponibilidad de otros compuestos como el licopeno.</strong></p><h2>Comparación de dos referencias por 100 g</h2><table><thead><tr><th></th><th>Tomate fresco</th><th>En conserva, en su jugo</th></tr></thead><tbody><tr><td>Energía</td><td>18 kcal</td><td>16 kcal</td></tr><tr><td>Fibra</td><td>1,2 g</td><td>1,9 g</td></tr><tr><td>Vitamina C</td><td>~12,7 mg</td><td>~2,6 mg</td></tr><tr><td>Sodio</td><td>~5 mg</td><td>~115 mg</td></tr></tbody></table><p>La energía cambia poquísimo. La gran pérdida de esta referencia es vitamina C; la gran diferencia añadida es sodio.</p><h2>El sodio depende de la lata, no del tomate</h2><p>Hay tomates en conserva sin sal añadida con sodio muy bajo. Si se utiliza sal durante el procesado, la cifra puede superar ampliamente al tomate fresco. Para comparar correctamente, mira “sal” o “sodio” en la etiqueta.</p><h2>Qué ocurre con el licopeno</h2><p>El licopeno es el carotenoide rojo característico del tomate. Estudios en humanos han observado <strong>mayor biodisponibilidad a partir de tomate procesado</strong> que de tomate crudo, especialmente cuando hay calor y algo de grasa en la comida.</p><p>Esto no significa que cocinar cree necesariamente más licopeno total. El calor rompe estructuras celulares y puede facilitar su liberación y conversión a formas más absorbibles.</p><h2>¿Fresco gana por vitamina C?</h2><p>En general sí. La vitamina C es sensible al calor y al almacenamiento. Pero si la dieta ya aporta vitamina C de fruta y verdura, utilizar tomate triturado o entero en conserva sigue siendo una forma nutritiva de comer tomate.</p><h2>Qué formato conviene</h2><p>Fresco para ensaladas y textura; conserva para sofritos, guisos y disponibilidad todo el año. <strong>Nutricionalmente no hace falta elegir uno y excluir el otro:</strong> tienen fortalezas distintas y se complementan.</p>","faq":[{"question":"¿La conserva tiene muchas más calorías?","answer":"No. En las referencias comparadas son 16 kcal/100 g en conserva frente a 18 en fresco."},{"question":"¿Cuál tiene más vitamina C?","answer":"El fresco claramente en estas referencias: unos 12,7 frente a 2,6 mg/100 g."},{"question":"¿Por qué la conserva puede tener más sodio?","answer":"Por la sal añadida durante el procesado; existen versiones sin sal añadida."},{"question":"¿El licopeno se absorbe mejor del tomate cocinado?","answer":"La evidencia en humanos indica que el procesado térmico puede aumentar su biodisponibilidad, especialmente junto a grasa alimentaria."}],"sources":[{"name":"USDA-derived data — Raw red tomato","url":"https://www.ultimatenutritiontables.com/foods-by-nutrient/Lycopene.html","note":"Referencia USDA: 18 kcal, 1,2 g de fibra y licopeno del tomate fresco."},{"name":"USDA-derived data — Canned tomatoes in tomato juice","url":"https://nutri-db.com/en/foods/170051","note":"16 kcal, 1,9 g de fibra, 115 mg de sodio y 2,6 mg de vitamina C/100 g."},{"name":"Journal of Nutrition — carotenoid bioavailability from processed tomatoes","url":"https://pubmed.ncbi.nlm.nih.gov/10801917/","note":"Estudio humano: mayor biodisponibilidad del licopeno de tomate procesado frente a fresco."}],"image":{"concept":"Tomate fresco y tomate en conserva con columnas de vitamina C, fibra, sodio y una flecha de biodisponibilidad del licopeno.","alt":"Tomate fresco y en conserva comparados por vitamina C, fibra, sodio y licopeno"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-592-tomate-fresco-vs-conserva-diferencias-nutricionales",
+  "article_number": 592,
+  "translation_group": "592-fresh-vs-canned-tomatoes",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España y Unión Europea",
+  "title": "Tomate fresco vs. tomate en conserva: diferencias nutricionales",
+  "slug": "tomate-fresco-vs-conserva-diferencias-nutricionales",
+  "seo": {
+    "title": "Tomate fresco vs. conserva: nutrientes y licopeno",
+    "meta_description": "El tomate fresco aporta más vitamina C en referencias comparables; la conserva mantiene fibra y el procesado puede aumentar la disponibilidad del licopeno. Comparamos cifras.",
+    "search_intent": "Comparar tomate fresco y tomate en conserva nutricionalmente"
+  },
+  "excerpt": "Por 100 g, una referencia de tomate fresco aporta 18 kcal, 1,2 g de fibra y unos 12,7 mg de vitamina C. Un tomate en conserva en su jugo aporta 16 kcal, 1,9 g de fibra, 2,6 mg de vitamina C y 115 mg de sodio. El calor reduce vitamina C pero puede hacer el licopeno más accesible para su absorción.",
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition",
+      "cooking-science"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>El tomate en conserva no es una versión nutricionalmente “muerta” del tomate fresco. <strong>El calor perjudica algunos nutrientes, pero puede favorecer la disponibilidad de otros compuestos como el licopeno.</strong></p><h2>Comparación de dos referencias por 100 g</h2><table><thead><tr><th></th><th>Tomate fresco</th><th>En conserva, en su jugo</th></tr></thead><tbody><tr><td>Energía</td><td>18 kcal</td><td>16 kcal</td></tr><tr><td>Fibra</td><td>1,2 g</td><td>1,9 g</td></tr><tr><td>Vitamina C</td><td>~12,7 mg</td><td>~2,6 mg</td></tr><tr><td>Sodio</td><td>~5 mg</td><td>~115 mg</td></tr></tbody></table><p>La energía cambia poquísimo. La gran pérdida de esta referencia es vitamina C; la gran diferencia añadida es sodio.</p><h2>El sodio depende de la lata, no del tomate</h2><p>Hay tomates en conserva sin sal añadida con sodio muy bajo. Si se utiliza sal durante el procesado, la cifra puede superar ampliamente al tomate fresco. Para comparar correctamente, mira “sal” o “sodio” en la etiqueta.</p><h2>Qué ocurre con el licopeno</h2><p>El licopeno es el carotenoide rojo característico del tomate. Estudios en humanos han observado <strong>mayor biodisponibilidad a partir de tomate procesado</strong> que de tomate crudo, especialmente cuando hay calor y algo de grasa en la comida.</p><p>Esto no significa que cocinar cree necesariamente más licopeno total. El calor rompe estructuras celulares y puede facilitar su liberación y conversión a formas más absorbibles.</p><h2>¿Fresco gana por vitamina C?</h2><p>En general sí. La vitamina C es sensible al calor y al almacenamiento. Pero si la dieta ya aporta vitamina C de fruta y verdura, utilizar tomate triturado o entero en conserva sigue siendo una forma nutritiva de comer tomate.</p><h2>El procesado mueve nutrientes en direcciones distintas</h2><p>El calor puede reducir parte de la vitamina C, mientras la ruptura de la matriz y la cocción favorecen la disponibilidad del licopeno. La conserva además puede incorporar sal y cambia la concentración por pérdida o adición de agua. Por eso no hay una respuesta única de “fresco conserva más nutrientes”: depende de qué nutriente, qué producto y cómo se utiliza en la comida.</p><h2>Qué formato conviene</h2><p>Fresco para ensaladas y textura; conserva para sofritos, guisos y disponibilidad todo el año. <strong>Nutricionalmente no hace falta elegir uno y excluir el otro:</strong> tienen fortalezas distintas y se complementan.</p>",
+  "faq": [
+    {
+      "question": "¿La conserva tiene muchas más calorías?",
+      "answer": "No. En las referencias comparadas son 16 kcal/100 g en conserva frente a 18 en fresco."
+    },
+    {
+      "question": "¿Cuál tiene más vitamina C?",
+      "answer": "El fresco claramente en estas referencias: unos 12,7 frente a 2,6 mg/100 g."
+    },
+    {
+      "question": "¿Por qué la conserva puede tener más sodio?",
+      "answer": "Por la sal añadida durante el procesado; existen versiones sin sal añadida."
+    },
+    {
+      "question": "¿El licopeno se absorbe mejor del tomate cocinado?",
+      "answer": "La evidencia en humanos indica que el procesado térmico puede aumentar su biodisponibilidad, especialmente junto a grasa alimentaria."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA-derived data — Raw red tomato",
+      "url": "https://www.ultimatenutritiontables.com/foods-by-nutrient/Lycopene.html",
+      "note": "Referencia USDA: 18 kcal, 1,2 g de fibra y licopeno del tomate fresco."
+    },
+    {
+      "name": "USDA-derived data — Canned tomatoes in tomato juice",
+      "url": "https://nutri-db.com/en/foods/170051",
+      "note": "16 kcal, 1,9 g de fibra, 115 mg de sodio y 2,6 mg de vitamina C/100 g."
+    },
+    {
+      "name": "Journal of Nutrition — carotenoid bioavailability from processed tomatoes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10801917/",
+      "note": "Estudio humano: mayor biodisponibilidad del licopeno de tomate procesado frente a fresco."
+    }
+  ],
+  "image": {
+    "concept": "Tomate fresco y tomate en conserva con columnas de vitamina C, fibra, sodio y una flecha de biodisponibilidad del licopeno.",
+    "alt": "Tomate fresco y en conserva comparados por vitamina C, fibra, sodio y licopeno"
+  },
+  "status": "publish"
+}

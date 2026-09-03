@@ -15,21 +15,45 @@
   },
   "excerpt": "Fat can contribute to satiety because it triggers digestive signals, can slow stomach emptying and makes meals more palatable and satisfying. But fat is also the most energy-dense macronutrient at about 9 calories per gram. That is why an ounce of nuts or half an avocado does not behave like several tablespoons of oil: food structure, fiber, protein, water and portion size matter.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["nutrition-composition", "health-daily-consumption"],
+    "article_types": [
+      "nutrition-composition",
+      "health-daily-consumption"
+    ],
     "primary_article_type": "nutrition-composition"
   },
   "content_html": "<p>For years, “cut the fat” was often treated as shorthand for making a meal lighter and easier to control. The problem is that a salad containing almost no fat, protein or substantial food can be low in calories and leave hunger returning quickly.</p><p>Fat <strong>does participate in satiety signaling</strong>. What it does not provide is a lot of food volume for very little energy.</p><h2>Fat is highly energy-dense</h2><p>One gram of fat provides about 9 calories, compared with roughly 4 calories per gram for protein or carbohydrate. That is why oils approach 900 calories per 100 g and nuts commonly fall around 550–700 calories per 100 g.</p><p>One tablespoon of olive oil, about 14 g, provides roughly 120 calories. Three tablespoons can add about 360 calories without adding much physical volume.</p><h2>So why can fat help with fullness?</h2><p>Fat reaching the intestine participates in digestive signaling involving hormones such as cholecystokinin and can slow gastric emptying. Fat also carries flavor and changes texture, potentially making a meal more satisfying.</p><p>Fullness is not determined only by how much stomach space a food occupies at the moment you eat it.</p><h2>The whole food changes the comparison</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Approx. fat</th><th>Approx. calories</th></tr></thead><tbody><tr><td>Almonds</td><td>1 oz</td><td>~14 g</td><td>~164</td></tr><tr><td>Walnuts</td><td>1 oz</td><td>~18.5 g</td><td>~185</td></tr><tr><td>Avocado</td><td>100 g</td><td>~15 g</td><td>~160</td></tr><tr><td>Olive oil</td><td>1 tbsp</td><td>~14 g</td><td>~120</td></tr></tbody></table><p>Almonds and avocado contain fat along with fiber, structure and volume. Oil is essentially pure fat. Matching grams of fat does not match the satiety experience.</p><h2>Combinations usually work better than fat alone</h2><p>Plain yogurt with fruit and walnuts combines protein, fiber, water and fat. A salad with beans and olive oil does something similar. In those meals, fat complements other satiety signals rather than trying to do all the work.</p><p>That is why “add fat to stay full” is too simplistic.</p><h2>Removing all fat does not automatically improve a meal</h2><p>Nonfat yogurt can be an excellent choice when it is high in protein and fits the meal. Replacing every bit of fat with added sugar or refined starch does not automatically make a product more filling or nutritionally stronger.</p><p>The complete food matters more than one line on the label.</p><h2>Fat type matters for health, not just fullness</h2><p>For cardiovascular health, fat quality matters. Dietary guidance favors replacing saturated fats with unsaturated fats.</p><p>That supports foods such as olive oil, nuts, seeds, avocado and fish as common fat sources while recognizing that their calories still count.</p><h2>The practical idea</h2><p><strong>Fat is neither an enemy of satiety nor a guarantee of satiety by itself.</strong> A moderate amount within a meal containing protein, fiber and volume can make it more satisfying. Portion size matters precisely because fat packs so much energy into a small amount.</p>",
   "faq": [
-    {"question": "Does fat make you feel full?", "answer": "It can contribute through digestive signaling and slower gastric emptying, but the effect depends on the whole food and portion."},
-    {"question": "Why does fat have so many calories?", "answer": "Fat provides about 9 calories per gram, more than twice the roughly 4 calories per gram in protein or carbohydrate."},
-    {"question": "What fats are better everyday choices?", "answer": "Dietary guidance generally favors unsaturated-fat sources such as olive oil, nuts, seeds, avocado and fish over foods dominated by saturated fat."}
+    {
+      "question": "Does fat make you feel full?",
+      "answer": "It can contribute through digestive signaling and slower gastric emptying, but the effect depends on the whole food and portion."
+    },
+    {
+      "question": "Why does fat have so many calories?",
+      "answer": "Fat provides about 9 calories per gram, more than twice the roughly 4 calories per gram in protein or carbohydrate."
+    },
+    {
+      "question": "What fats are better everyday choices?",
+      "answer": "Dietary guidance generally favors unsaturated-fat sources such as olive oil, nuts, seeds, avocado and fish over foods dominated by saturated fat."
+    }
   ],
   "sources": [
-    {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/", "note": "Context for replacing saturated fats with unsaturated fats."},
-    {"name": "PubMed — Dietary fat and satiety research", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=dietary+fat+satiety+gastric+emptying+review", "note": "Research on fat, digestive signaling and satiety."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Fat and calorie values for oil, nuts and avocado."}
+    {
+      "name": "Dietary Guidelines for Americans",
+      "url": "https://www.dietaryguidelines.gov/",
+      "note": "Context for replacing saturated fats with unsaturated fats."
+    },
+    {
+      "name": "PubMed — Dietary fat and satiety research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=dietary+fat+satiety+gastric+emptying+review",
+      "note": "Research on fat, digestive signaling and satiety."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Fat and calorie values for oil, nuts and avocado."
+    }
   ],
   "image": {
     "concept": "Avocado, almonds, walnuts and olive oil beside a balanced meal with vegetables and protein, editorial food photography, no text.",

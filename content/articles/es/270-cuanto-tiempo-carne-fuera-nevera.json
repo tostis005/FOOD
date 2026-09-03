@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-270-carne-fuera-nevera","article_number":270,"translation_group":"270-meat-room-temperature","language":"es","locale":"es-ES","market_context":"España/Unión Europea; carne cruda o cocinada fuera de refrigeración","title":"Cuánto tiempo puede estar la carne fuera de la nevera","slug":"cuanto-tiempo-carne-fuera-nevera","seo":{"title":"Cuánto tiempo puede estar la carne fuera de la nevera","meta_description":"Carne cruda o cocinada no debería permanecer más de 2 horas a temperatura ambiente, o 1 hora si supera unos 32 °C. El tiempo total es acumulativo.","search_intent":"Saber cuánto tiempo puede estar carne cruda o cocinada fuera del frío y cuándo debe desecharse."},"excerpt":"USDA aplica a la carne y otros perecederos una regla de 2 horas fuera del frío, reducida a 1 hora cuando la temperatura ambiental supera aproximadamente 32 °C. El tiempo total cuenta desde que pierde refrigeración: transporte, preparación, servicio y espera forman parte del mismo reloj.","taxonomy":{"food_family":"meat","food_subcategories":["meat","room-temperature","cold-chain"],"article_types":["food-safety","storage"],"primary_article_type":"food-safety"},"content_html":"<p>Una bandeja de carne no necesita oler mal para haber pasado demasiado tiempo templada. <strong>La regla conservadora es un máximo de 2 horas fuera de refrigeración, o 1 hora si el ambiente supera unos 32 °C.</strong></p><h2>La regla vale para carne cruda y cocinada</h2><p>USDA aplica el límite a alimentos perecederos: carne cruda, hamburguesas, asados cocinados y sobras. Entre aproximadamente <strong>4 y 60 °C</strong>, las bacterias pueden multiplicarse con rapidez.</p><h2>El tiempo es acumulativo</h2><p>Treinta minutos del supermercado a casa, 45 minutos preparando la comida y una hora en la mesa suman 2 horas y 15 minutos. Volver a meter la carne en la nevera no borra la exposición anterior.</p><h2>Con calor, el margen se reduce a la mitad</h2><p>Por encima de <strong>32 °C/90 °F</strong>, USDA reduce el límite a 1 hora. Un coche al sol o una mesa exterior en verano pueden alcanzar temperaturas muy superiores a una cocina normal.</p><h2>¿Cocinarla después soluciona una exposición larga?</h2><p>No es una estrategia segura. La cocción destruye muchas bacterias, pero algunos microorganismos pueden producir toxinas resistentes al calor. Si la carne ha permanecido claramente fuera del margen recomendado, la opción prudente es desecharla.</p><h2>Olor y color no miden el riesgo</h2><p>Una carne puede verse y oler normal pese a un crecimiento bacteriano significativo. El historial de tiempo y temperatura es una información más fiable que una prueba sensorial.</p><h2>La idea útil</h2><p><strong>Cuenta todas las exposiciones: 2 horas en condiciones normales, 1 hora con calor por encima de 32 °C.</strong> Mantén la carne fría hasta que realmente vayas a cocinarla o servirla.</p>","faq":[{"question":"¿Puedo cocinar carne que lleva 3 horas fuera?","answer":"Tres horas supera la recomendación general de 2 horas; desecharla es la opción más segura."},{"question":"¿La carne cocinada tiene el mismo límite?","answer":"Sí. Las sobras y carnes cocinadas también deben refrigerarse dentro de 2 horas, o 1 hora con calor intenso."},{"question":"¿Si vuelve a la nevera se reinicia el tiempo?","answer":"No. La exposición es acumulativa y refrigerar de nuevo no elimina el crecimiento que pudo ocurrir antes."}],"sources":[{"name":"USDA FSIS — Keep Food Safe! Food Safety Basics","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe","note":"Regla de 2 horas y 1 hora por encima de 90 °F/32 °C para perecederos."},{"name":"USDA FSIS — Ground Beef and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/ground-beef-and-food-safety","note":"No dejar carne picada ni otros perecederos más de 2 horas, o 1 hora con calor."}],"image":{"concept":"Carne cruda y carne cocinada junto a un reloj y una nevera, fotografía editorial sin texto.","alt":"Control del tiempo de carne fuera de refrigeración"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-270-carne-fuera-nevera",
+  "article_number": 270,
+  "translation_group": "270-meat-room-temperature",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; carne cruda o cocinada fuera de refrigeración",
+  "title": "Cuánto tiempo puede estar la carne fuera de la nevera",
+  "slug": "cuanto-tiempo-carne-fuera-nevera",
+  "seo": {
+    "title": "Cuánto tiempo puede estar la carne fuera de la nevera",
+    "meta_description": "Carne cruda o cocinada no debería permanecer más de 2 horas a temperatura ambiente, o 1 hora si supera unos 32 °C. El tiempo total es acumulativo.",
+    "search_intent": "Saber cuánto tiempo puede estar carne cruda o cocinada fuera del frío y cuándo debe desecharse."
+  },
+  "excerpt": "USDA aplica a la carne y otros perecederos una regla de 2 horas fuera del frío, reducida a 1 hora cuando la temperatura ambiental supera aproximadamente 32 °C. El tiempo total cuenta desde que pierde refrigeración: transporte, preparación, servicio y espera forman parte del mismo reloj.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "meat",
+      "room-temperature",
+      "cold-chain"
+    ],
+    "article_types": [
+      "food-safety",
+      "storage"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>Una bandeja de carne no necesita oler mal para haber pasado demasiado tiempo templada. <strong>La regla conservadora es un máximo de 2 horas fuera de refrigeración, o 1 hora si el ambiente supera unos 32 °C.</strong></p><h2>La regla vale para carne cruda y cocinada</h2><p>USDA aplica el límite a alimentos perecederos: carne cruda, hamburguesas, asados cocinados y sobras. Entre aproximadamente <strong>4 y 60 °C</strong>, las bacterias pueden multiplicarse con rapidez.</p><h2>El tiempo es acumulativo</h2><p>Treinta minutos del supermercado a casa, 45 minutos preparando la comida y una hora en la mesa suman 2 horas y 15 minutos. Volver a meter la carne en la nevera no borra la exposición anterior.</p><h2>Con calor, el margen se reduce a la mitad</h2><p>Por encima de <strong>32 °C/90 °F</strong>, USDA reduce el límite a 1 hora. Un coche al sol o una mesa exterior en verano pueden alcanzar temperaturas muy superiores a una cocina normal.</p><h2>¿Cocinarla después soluciona una exposición larga?</h2><p>No es una estrategia segura. La cocción destruye muchas bacterias, pero algunos microorganismos pueden producir toxinas resistentes al calor. Si la carne ha permanecido claramente fuera del margen recomendado, la opción prudente es desecharla.</p><h2>Olor y color no miden el riesgo</h2><p>Una carne puede verse y oler normal pese a un crecimiento bacteriano significativo. El historial de tiempo y temperatura es una información más fiable que una prueba sensorial.</p><h2>Una comida larga es el escenario que más fácilmente engaña</h2><p>En casa solemos pensar en el tiempo de la encimera, pero comidas al aire libre, barbacoas y buffets pueden sumar exposición sin que nadie la contabilice. Servir cantidades pequeñas y reponer desde la nevera o desde una fuente caliente reduce el tiempo que cada porción pasa en la zona de peligro.</p><p>La misma lógica vale para llevar sobras a casa: refrigerarlas pronto es más importante que esperar a que alcancen “temperatura ambiente”. El objetivo es limitar el tiempo total templado, no enfriar la comida lentamente.</p><p><strong>Cuenta todas las exposiciones: 2 horas en condiciones normales, 1 hora con calor por encima de 32 °C.</strong> Mantén la carne fría hasta que realmente vayas a cocinarla o servirla.</p>",
+  "faq": [
+    {
+      "question": "¿Puedo cocinar carne que lleva 3 horas fuera?",
+      "answer": "Tres horas supera la recomendación general de 2 horas; desecharla es la opción más segura."
+    },
+    {
+      "question": "¿La carne cocinada tiene el mismo límite?",
+      "answer": "Sí. Las sobras y carnes cocinadas también deben refrigerarse dentro de 2 horas, o 1 hora con calor intenso."
+    },
+    {
+      "question": "¿Si vuelve a la nevera se reinicia el tiempo?",
+      "answer": "No. La exposición es acumulativa y refrigerar de nuevo no elimina el crecimiento que pudo ocurrir antes."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Keep Food Safe! Food Safety Basics",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+      "note": "Regla de 2 horas y 1 hora por encima de 90 °F/32 °C para perecederos."
+    },
+    {
+      "name": "USDA FSIS — Ground Beef and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/ground-beef-and-food-safety",
+      "note": "No dejar carne picada ni otros perecederos más de 2 horas, o 1 hora con calor."
+    }
+  ],
+  "image": {
+    "concept": "Carne cruda y carne cocinada junto a un reloj y una nevera, fotografía editorial sin texto.",
+    "alt": "Control del tiempo de carne fuera de refrigeración"
+  },
+  "status": "publish"
+}

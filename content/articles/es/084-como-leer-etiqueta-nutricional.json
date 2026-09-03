@@ -15,20 +15,40 @@
   },
   "excerpt": "Para comparar dos productos en España o la UE, empieza por la columna por 100 g o 100 ml: evita que dos tamaños de ración distintos engañen la comparación. Después mira los nutrientes que importan para ese alimento —proteína, fibra, grasas saturadas, azúcares o sal— y termina con la lista de ingredientes, ordenada de mayor a menor cantidad.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["nutrition-composition", "myths-faq"],
+    "article_types": [
+      "nutrition-composition",
+      "myths-faq"
+    ],
     "primary_article_type": "nutrition-composition"
   },
   "content_html": "<p>Una etiqueta puede parecer una pared de cifras, pero no hace falta leerla de arriba abajo con la misma atención. La forma más útil es responder tres preguntas: <strong>¿cuánto voy a comer?, ¿qué nutrientes importan aquí? y ¿de qué está hecho realmente el producto?</strong></p><h2>Para comparar productos, empieza por 100 g o 100 ml</h2><p>En la UE, la declaración nutricional obligatoria se expresa por 100 g o 100 ml. Esa columna permite una comparación directa aunque un fabricante llame “ración” a 30 g y otro a 45 g.</p><p>Ejemplo: un cereal aporta 12 g de azúcar/100 g y otro 24 g/100 g. El segundo contiene el doble, independientemente del tamaño de ración sugerido en el envase.</p><h2>Después traduce el dato a la cantidad que realmente comes</h2><p>La comparación por 100 g no sustituye a la ración. Si unas almendras aportan 579 kcal/100 g, una ración de 30 g son unas 174 kcal. Si un queso aporta 1,5 g de sal/100 g y comes 30 g, la porción aporta unos 0,45 g.</p><p>La fórmula es sencilla: <strong>valor por 100 g × gramos de la ración ÷ 100</strong>.</p><h2>Qué datos aparecen obligatoriamente</h2><p>La declaración nutricional europea incluye energía y las cantidades de grasa, grasas saturadas, hidratos de carbono, azúcares, proteína y sal. Puede incluir además fibra, grasas monoinsaturadas o poliinsaturadas, vitaminas y minerales si se cumplen las condiciones de declaración.</p><table><thead><tr><th>Dato</th><th>Qué te dice</th></tr></thead><tbody><tr><td>Energía</td><td>kJ y kcal que aporta el alimento</td></tr><tr><td>Grasa</td><td>Grasa total</td></tr><tr><td>de las cuales saturadas</td><td>Parte de la grasa que es saturada</td></tr><tr><td>Hidratos de carbono</td><td>Carbohidratos disponibles</td></tr><tr><td>de los cuales azúcares</td><td>Azúcares totales presentes, no solo añadidos</td></tr><tr><td>Proteína</td><td>Proteína total</td></tr><tr><td>Sal</td><td>Equivalente de sal calculado a partir del sodio</td></tr></tbody></table><h2>“Azúcares” no significa “azúcar añadido”</h2><p>La línea “de los cuales azúcares” incluye azúcares naturalmente presentes y añadidos. Un yogur natural puede mostrar unos 4–5 g de azúcares/100 g por la lactosa de la leche aunque no lleve azúcar añadido.</p><p>Para saber si se ha añadido azúcar, hay que mirar también la lista de ingredientes: azúcar, jarabes, miel, concentrados y otros ingredientes dulces pueden aparecer allí.</p><h2>Sal y sodio no son la misma cifra</h2><p>En la etiqueta europea suele aparecer “sal”, no sodio. El valor de sal se obtiene multiplicando aproximadamente el sodio por 2,5. Así, 400 mg de sodio equivalen a alrededor de 1 g de sal.</p><p>Eso importa al comparar información europea con tablas estadounidenses, donde normalmente se declara sodio directamente.</p><h2>La lista de ingredientes cuenta otra parte de la historia</h2><p>Los ingredientes aparecen en orden decreciente de peso en el momento de fabricación. Si azúcar aparece al principio, representa una proporción relevante del producto. Si un alimento presume de un ingrediente en el nombre o envase, suele tener que indicar su porcentaje en determinadas condiciones.</p><p>Los alérgenos obligatorios se destacan tipográficamente dentro de la lista.</p><h2>No existe un número “bueno” para todos los productos</h2><p>Un queso curado puede ser alto en sal y saturadas pero aportar mucha proteína y calcio. Un cereal puede ser bajo en grasa y tener mucho azúcar. Un aceite aporta casi 900 kcal/100 g y puede estar compuesto principalmente por grasa insaturada.</p><p>La etiqueta sirve para responder una pregunta concreta, no para aprobar o suspender un alimento por una sola cifra.</p><h2>Una secuencia de 30 segundos</h2><ol><li>Compara por 100 g/ml.</li><li>Calcula tu ración real.</li><li>Mira 2–3 nutrientes relevantes para ese producto.</li><li>Comprueba ingredientes y su orden.</li><li>Compara productos de la misma categoría, no alimentos que cumplen funciones distintas.</li></ol><p>Con esa secuencia, la etiqueta deja de ser una tabla que hay que memorizar y se convierte en una herramienta de comparación.</p>",
   "faq": [
-    {"question": "¿Es mejor comparar por ración o por 100 g?", "answer": "Para comparar dos productos, por 100 g o 100 ml. Después conviene convertir el resultado a la ración que realmente vas a comer."},
-    {"question": "¿Los azúcares de la etiqueta son azúcares añadidos?", "answer": "No necesariamente. Incluyen también azúcares naturales, como la lactosa del yogur o los azúcares de la fruta."},
-    {"question": "¿Por qué aparece sal y no sodio?", "answer": "La normativa europea declara sal. Aproximadamente, gramos de sal = gramos de sodio × 2,5."}
+    {
+      "question": "¿Es mejor comparar por ración o por 100 g?",
+      "answer": "Para comparar dos productos, por 100 g o 100 ml. Después conviene convertir el resultado a la ración que realmente vas a comer."
+    },
+    {
+      "question": "¿Los azúcares de la etiqueta son azúcares añadidos?",
+      "answer": "No necesariamente. Incluyen también azúcares naturales, como la lactosa del yogur o los azúcares de la fruta."
+    },
+    {
+      "question": "¿Por qué aparece sal y no sodio?",
+      "answer": "La normativa europea declara sal. Aproximadamente, gramos de sal = gramos de sodio × 2,5."
+    }
   ],
   "sources": [
-    {"name": "Reglamento (UE) n.º 1169/2011", "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj", "note": "Requisitos de información alimentaria, declaración nutricional, ingredientes y alérgenos."},
-    {"name": "AESAN — Información alimentaria al consumidor", "url": "https://www.aesan.gob.es/", "note": "Contexto español sobre etiquetado nutricional."}
+    {
+      "name": "Reglamento (UE) n.º 1169/2011",
+      "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj",
+      "note": "Requisitos de información alimentaria, declaración nutricional, ingredientes y alérgenos."
+    },
+    {
+      "name": "AESAN — Información alimentaria al consumidor",
+      "url": "https://www.aesan.gob.es/",
+      "note": "Contexto español sobre etiquetado nutricional."
+    }
   ],
   "image": {
     "concept": "Envase genérico con tabla nutricional europea y lista de ingredientes visible junto a dos productos comparándose, fotografía editorial sin marcas.",

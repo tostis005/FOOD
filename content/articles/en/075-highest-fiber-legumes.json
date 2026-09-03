@@ -15,20 +15,44 @@
   },
   "excerpt": "Most cooked beans provide roughly 7–9 g of fiber per 100 g, while lentils and chickpeas are commonly around 7–8 g. A 1-cup serving can easily deliver about 12–17 g of fiber, so eating legumes regularly matters more than chasing a tiny difference between varieties.",
   "taxonomy": {
-    "food_family": "legumes",
-    "food_subcategories": ["beans", "lentils", "chickpeas"],
-    "article_types": ["ranking", "nutrition-composition"],
-    "primary_article_type": "ranking"
+    "food_family": "legumes-soy",
+    "food_subcategories": [
+      "beans",
+      "lentils",
+      "chickpeas"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
   },
   "content_html": "<p>Legume rankings become misleading fast when dry beans are compared with cooked lentils. Cooking adds a large amount of water, so nutrients become less concentrated per 100 g even though they have not simply vanished.</p><p>For a useful plate-level comparison, the fairest starting point is <strong>cooked, drained legumes</strong>.</p><h2>Fiber in common cooked legumes</h2><p>The figures below are approximate and can shift with variety and cooking method.</p><table><thead><tr><th>Cooked legume</th><th>Fiber/100 g</th><th>Fiber in about 1 cup</th></tr></thead><tbody><tr><td>Navy beans</td><td>~10 g</td><td>~19 g</td></tr><tr><td>Pinto beans</td><td>~9 g</td><td>~15 g</td></tr><tr><td>Black beans</td><td>~8.7 g</td><td>~15 g</td></tr><tr><td>Lentils</td><td>~7.9 g</td><td>~16 g</td></tr><tr><td>Chickpeas</td><td>~7.6 g</td><td>~12–13 g</td></tr><tr><td>Split peas</td><td>~8.3 g</td><td>~16 g</td></tr></tbody></table><p>The useful takeaway is not that one bean wins by a gram or two. It is that <strong>a normal bowl of legumes can supply a very large share of a day's fiber</strong>.</p><h2>Why dry-legume numbers look so much higher</h2><p>Dry lentils and beans contain little water. After cooking, they absorb water and weigh much more. Fiber and protein are therefore spread across a larger cooked weight, which lowers the value per 100 g without implying a comparable nutrient loss.</p><h2>Does first place matter?</h2><p>If one cup of beans provides roughly 15–19 g of fiber and chickpeas provide around 12–13 g, there is a difference, but it is much smaller than the difference between eating legumes and skipping them entirely.</p><p>U.S. guidance generally places adult fiber targets in the neighborhood of <strong>25–38 g per day</strong> depending on age and sex. A generous serving of legumes can cover a substantial part of that.</p><h2>Fiber comes with protein too</h2><p>Legumes are not isolated fiber supplements. One cup of cooked lentils provides roughly 18 g of protein along with folate, iron and complex carbohydrates. Chickpeas provide a similar amount of protein in a cup, plus fiber and minerals.</p><p>That combination of fiber, protein, water and starch helps explain why legumes tend to be filling.</p><h2>Canned beans still count</h2><p>Canned legumes remain a useful source of fiber. Rinsing them can lower some of the sodium in the packing liquid without washing away the structural fiber inside the bean.</p><h2>The practical answer</h2><p>If maximum concentration is your only criterion, several beans sit near the top. In everyday eating, however, <strong>beans, lentils and chickpeas are close enough that serving size, frequency and variety matter more than a narrow ranking</strong>.</p>",
   "faq": [
-    {"question": "Which legumes have the most fiber?", "answer": "Several cooked beans provide around 8–10 g of fiber per 100 g, with lentils and chickpeas close behind at roughly 7–8 g."},
-    {"question": "How much fiber is in a cup of legumes?", "answer": "Depending on the legume, a cup commonly provides about 12–19 g of fiber."},
-    {"question": "Do canned beans still have fiber?", "answer": "Yes. Canned beans remain fiber-rich, and rinsing them mainly helps reduce sodium rather than fiber."}
+    {
+      "question": "Which legumes have the most fiber?",
+      "answer": "Several cooked beans provide around 8–10 g of fiber per 100 g, with lentils and chickpeas close behind at roughly 7–8 g."
+    },
+    {
+      "question": "How much fiber is in a cup of legumes?",
+      "answer": "Depending on the legume, a cup commonly provides about 12–19 g of fiber."
+    },
+    {
+      "question": "Do canned beans still have fiber?",
+      "answer": "Yes. Canned beans remain fiber-rich, and rinsing them mainly helps reduce sodium rather than fiber."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Fiber and nutrient composition of cooked beans, lentils, chickpeas and split peas."},
-    {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/", "note": "U.S. dietary context for fiber intake."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Fiber and nutrient composition of cooked beans, lentils, chickpeas and split peas."
+    },
+    {
+      "name": "Dietary Guidelines for Americans",
+      "url": "https://www.dietaryguidelines.gov/",
+      "note": "U.S. dietary context for fiber intake."
+    }
   ],
   "image": {
     "concept": "Bowls of cooked black beans, pinto beans, lentils and chickpeas on a simple table, editorial food photography, no text.",

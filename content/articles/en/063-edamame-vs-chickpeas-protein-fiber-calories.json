@@ -15,20 +15,44 @@
   },
   "excerpt": "Cooked edamame is usually higher in protein and lower in carbohydrate than chickpeas: about 12 g protein and 121 calories per 100 g versus roughly 9 g and 164 calories. Chickpeas generally provide more fiber—around 7–8 g versus about 5 g. Both are nutritious legumes, but edamame is more protein-efficient per calorie.",
   "taxonomy": {
-    "food_family": "legumes",
-    "food_subcategories": ["edamame", "chickpeas", "soy"],
-    "article_types": ["comparison", "nutrition-composition"],
-    "primary_article_type": "comparison"
+    "food_family": "legumes-soy",
+    "food_subcategories": [
+      "edamame",
+      "chickpeas",
+      "soy"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
   },
   "content_html": "<p>Edamame and chickpeas belong to the same broad food family—legumes—but their macronutrient balance is quite different. Edamame is immature soybean: <strong>it carries more protein and fat and much less starch</strong>. Mature chickpeas contain more carbohydrate and usually more fiber.</p><h2>Cooked edamame is higher in protein</h2><p>The table below compares both foods cooked and ready to eat.</p><table><thead><tr><th>Per 100 g cooked</th><th>Edamame</th><th>Chickpeas</th></tr></thead><tbody><tr><td>Protein</td><td>~12 g</td><td>~8.9 g</td></tr><tr><td>Calories</td><td>~121 kcal</td><td>~164 kcal</td></tr><tr><td>Carbohydrate</td><td>~9 g</td><td>~27 g</td></tr><tr><td>Fiber</td><td>~5 g</td><td>~7.6 g</td></tr><tr><td>Fat</td><td>~5 g</td><td>~2.6 g</td></tr></tbody></table><p>Edamame provides about 3 g more protein and 43 fewer calories per 100 g. The biggest split is carbohydrate: chickpeas contain roughly three times as much because the mature seed stores much more starch.</p><h2>A normal serving makes the protein gap visible</h2><p>At 1 cup cooked, roughly 155 g, edamame provides about 18–19 g protein and close to 190 calories. A similar 155 g amount of chickpeas provides about 14 g protein and roughly 250 calories.</p><p>Both can make a meaningful contribution to a meal's protein, but edamame reaches a higher protein amount with less total energy.</p><h2>Chickpeas win on fiber</h2><p>A 150 g serving of chickpeas can provide roughly 11–12 g fiber versus about 7–8 g from edamame. Both are good sources, but chickpeas have the clearer advantage here.</p><p>Their combination of fiber and starch also explains why their carbohydrate number is higher without meaning the food is mostly sugar.</p><h2>Edamame's extra fat is not automatically a drawback</h2><p>Edamame provides about 5 g fat per 100 g, roughly twice as much as chickpeas. Most of that fat is unsaturated, reflecting the natural fat profile of soybeans.</p><p>That fat is part of why edamame can have far fewer carbs without being dramatically lower in calories than a simple carb comparison might suggest.</p><h2>Soy has an especially strong amino acid profile</h2><p>Soy protein contains all nine essential amino acids in favorable proportions. Chickpeas contain them too, but sulfur-containing amino acids such as methionine are present in lower proportions.</p><p>That does not mean chickpeas must be combined with rice at the same meal. A varied diet over the day readily complements amino acids from different plant foods.</p><h2>Both contribute folate, iron, and minerals</h2><p>Edamame and chickpeas provide folate, iron, magnesium, and potassium. Their iron is non-heme, so absorption can be improved by eating them with vitamin-C-rich foods.</p><h2>Which should you choose?</h2><p>If you want <strong>more protein with fewer calories and fewer carbs</strong>, edamame has the advantage. If you want <strong>more fiber and a starchier legume that supplies more carbohydrate energy</strong>, chickpeas fit better.</p><p>They complement each other well: these are not two interchangeable beans, but <strong>two legumes with distinctly different proportions of protein, fiber, fat, and starch</strong>.</p>",
   "faq": [
-    {"question": "Which has more protein, edamame or chickpeas?", "answer": "Cooked edamame provides about 12 g protein per 100 g versus roughly 8.9 g in cooked chickpeas."},
-    {"question": "Which has more fiber?", "answer": "Chickpeas usually do: about 7.6 g fiber per 100 g cooked versus roughly 5 g in edamame."},
-    {"question": "Is edamame a complete protein?", "answer": "Yes. As a soy food, edamame contains all nine essential amino acids in a high-quality plant-protein profile."}
+    {
+      "question": "Which has more protein, edamame or chickpeas?",
+      "answer": "Cooked edamame provides about 12 g protein per 100 g versus roughly 8.9 g in cooked chickpeas."
+    },
+    {
+      "question": "Which has more fiber?",
+      "answer": "Chickpeas usually do: about 7.6 g fiber per 100 g cooked versus roughly 5 g in edamame."
+    },
+    {
+      "question": "Is edamame a complete protein?",
+      "answer": "Yes. As a soy food, edamame contains all nine essential amino acids in a high-quality plant-protein profile."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of cooked edamame and chickpeas."},
-    {"name": "FAO — Dietary protein quality evaluation", "url": "https://www.fao.org/3/i3124e/i3124e.pdf", "note": "Plant protein quality context."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composition of cooked edamame and chickpeas."
+    },
+    {
+      "name": "FAO — Dietary protein quality evaluation",
+      "url": "https://www.fao.org/3/i3124e/i3124e.pdf",
+      "note": "Plant protein quality context."
+    }
   ],
   "image": {
     "concept": "Two bowls, one with cooked shelled edamame and one with cooked chickpeas, clean editorial food photography, no text.",

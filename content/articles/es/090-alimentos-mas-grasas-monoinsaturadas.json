@@ -15,20 +15,44 @@
   },
   "excerpt": "Los aceites encabezan la concentración porque son casi grasa pura: el aceite de oliva aporta alrededor de 70–75 g de grasa monoinsaturada por 100 g. Entre alimentos enteros destacan macadamias, avellanas, pecanas y almendras. En una ración real, una cucharada de aceite de oliva aporta unos 10 g de monoinsaturadas y 30 g de macadamias alrededor de 18 g.",
   "taxonomy": {
-    "food_family": "fats-oils",
-    "food_subcategories": ["olive-oil", "nuts", "avocado"],
-    "article_types": ["ranking", "nutrition-composition"],
-    "primary_article_type": "ranking"
+    "food_family": "oils-fats",
+    "food_subcategories": [
+      "olive-oil",
+      "nuts",
+      "avocado"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
   },
   "content_html": "<p>Si ordenamos alimentos por grasa monoinsaturada por 100 g, los aceites ocupan inevitablemente los primeros puestos: casi todo su peso es grasa. Eso no significa que una cucharada de aceite y 100 g de aguacate sean raciones comparables.</p><p>Por eso conviene mirar <strong>concentración y porción</strong>.</p><h2>Qué alimentos concentran más grasa monoinsaturada</h2><table><thead><tr><th>Alimento</th><th>Monoinsaturadas/100 g</th><th>Ración</th><th>Monoinsaturadas/ración</th></tr></thead><tbody><tr><td>Aceite de oliva</td><td>~73 g</td><td>1 cucharada (14 g)</td><td>~10 g</td></tr><tr><td>Macadamias</td><td>~59 g</td><td>30 g</td><td>~18 g</td></tr><tr><td>Avellanas</td><td>~46 g</td><td>30 g</td><td>~14 g</td></tr><tr><td>Pecanas</td><td>~41 g</td><td>30 g</td><td>~12 g</td></tr><tr><td>Almendras</td><td>~32 g</td><td>30 g</td><td>~9,5 g</td></tr><tr><td>Pistachos</td><td>~23 g</td><td>30 g</td><td>~7 g</td></tr><tr><td>Aguacate</td><td>~10 g</td><td>100 g</td><td>~10 g</td></tr></tbody></table><p>El aguacate parece quedar muy abajo por 100 g, pero una porción de 100 g aporta una cantidad de monoinsaturadas parecida a una cucharada de aceite. La diferencia es que el aguacate trae agua, fibra y estructura y el aceite concentra grasa.</p><h2>El ácido oleico es el protagonista</h2><p>La principal grasa monoinsaturada del aceite de oliva es el ácido oleico. También domina buena parte de la grasa de aguacate, macadamias, avellanas y almendras.</p><p>“Monoinsaturada” describe la estructura química: el ácido graso contiene un doble enlace. No significa que todos los alimentos de la tabla sean nutricionalmente intercambiables.</p><h2>Una ración de frutos secos puede superar a una cucharada de aceite</h2><p>Treinta gramos de macadamias aportan cerca de 18 g de monoinsaturadas, frente a unos 10 g en una cucharada de aceite de oliva. Pero las macadamias aportan además algo de proteína y fibra y unas 215 kcal; la cucharada de aceite ronda 120 kcal.</p><p>La elección depende de la función en la comida, no de perseguir el mayor número.</p><h2>Monoinsaturada no significa “sin límite”</h2><p>La OMS recomienda que la grasa de la dieta proceda principalmente de grasas insaturadas, pero toda grasa sigue aportando unas 9 kcal/g. Cambiar mantequilla por aceite de oliva puede mejorar el perfil de grasa; añadir aceite sin sustituir nada aumenta la energía total.</p><h2>Qué fuentes resultan más fáciles de usar</h2><p>En una dieta mediterránea, el aceite de oliva es una forma sencilla de sustituir grasas más saturadas al cocinar o aliñar. Frutos secos aportan monoinsaturadas en un alimento sólido con fibra y proteína. El aguacate suma grasa monoinsaturada con mucha más agua.</p><p><strong>No hay un único ganador práctico: la mejor fuente depende de qué alimento está reemplazando y de la ración.</strong></p>",
   "faq": [
-    {"question": "¿Qué alimento tiene más grasa monoinsaturada?", "answer": "Los aceites ricos en ácido oleico están en la parte alta. El aceite de oliva aporta aproximadamente 70–75 g de grasa monoinsaturada por 100 g."},
-    {"question": "¿Cuánta grasa monoinsaturada tiene una cucharada de aceite de oliva?", "answer": "Una cucharada de unos 14 g aporta aproximadamente 10 g de grasa monoinsaturada."},
-    {"question": "¿El aguacate tiene mucha grasa monoinsaturada?", "answer": "Sí. Cien gramos de aguacate aportan alrededor de 10 g de grasa monoinsaturada, aunque contiene mucha más agua que un aceite o fruto seco."}
+    {
+      "question": "¿Qué alimento tiene más grasa monoinsaturada?",
+      "answer": "Los aceites ricos en ácido oleico están en la parte alta. El aceite de oliva aporta aproximadamente 70–75 g de grasa monoinsaturada por 100 g."
+    },
+    {
+      "question": "¿Cuánta grasa monoinsaturada tiene una cucharada de aceite de oliva?",
+      "answer": "Una cucharada de unos 14 g aporta aproximadamente 10 g de grasa monoinsaturada."
+    },
+    {
+      "question": "¿El aguacate tiene mucha grasa monoinsaturada?",
+      "answer": "Sí. Cien gramos de aguacate aportan alrededor de 10 g de grasa monoinsaturada, aunque contiene mucha más agua que un aceite o fruto seco."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Perfil de ácidos grasos de aceites, frutos secos y aguacate."},
-    {"name": "World Health Organization — Healthy diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet", "note": "Recomendaciones sobre grasas insaturadas y saturadas."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Perfil de ácidos grasos de aceites, frutos secos y aguacate."
+    },
+    {
+      "name": "World Health Organization — Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "note": "Recomendaciones sobre grasas insaturadas y saturadas."
+    }
   ],
   "image": {
     "concept": "Aceite de oliva, macadamias, avellanas, almendras y aguacate en una composición mediterránea limpia, fotografía editorial sin texto.",

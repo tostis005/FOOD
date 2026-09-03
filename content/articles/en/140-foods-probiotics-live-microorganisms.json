@@ -8,12 +8,50 @@
   "market_context": "United States/general English; ISAPP definitions and fermented foods",
   "title": "Foods with probiotics: which ones may contain live microorganisms?",
   "slug": "foods-probiotics-live-microorganisms",
-  "seo": {"title":"Foods with probiotics and live microorganisms","meta_description":"Yogurt, kefir and some refrigerated fermented foods may contain live microbes, but live does not automatically mean probiotic. Here's what to look for.","search_intent":"Identify foods that may contain live microorganisms and distinguish them from evidence-based probiotics."},
+  "seo": {
+    "title": "Foods with probiotics and live microorganisms",
+    "meta_description": "Yogurt, kefir and some refrigerated fermented foods may contain live microbes, but live does not automatically mean probiotic. Here's what to look for.",
+    "search_intent": "Identify foods that may contain live microorganisms and distinguish them from evidence-based probiotics."
+  },
   "excerpt": "Yogurt and kefir usually contain live cultures when they are not heat-treated after fermentation; refrigerated kimchi, sauerkraut and similar ferments may also retain live microorganisms. But 'live microorganism' is not automatically the same as 'probiotic': the latter requires a defined strain, an adequate amount and a demonstrated health benefit.",
-  "taxonomy": {"food_family":"general","food_subcategories":["fermented-foods","gut-health"],"article_types":["nutrition-explainer","myths-faq"],"primary_article_type":"nutrition-explainer"},
-  "content_html": "<p>Searching for “probiotic foods” blurs three different categories: fermented foods, foods containing live dietary microbes, and foods containing a probiotic strain with demonstrated benefit.</p><table><thead><tr><th>Food</th><th>May contain live microbes when eaten?</th><th>Automatically probiotic?</th></tr></thead><tbody><tr><td>Yogurt with live cultures</td><td>Usually</td><td>No</td></tr><tr><td>Kefir</td><td>Usually</td><td>No</td></tr><tr><td>Refrigerated unpasteurized kimchi/sauerkraut</td><td>Often</td><td>No</td></tr><tr><td>Unheated miso</td><td>May</td><td>No</td></tr><tr><td>Sourdough bread</td><td>No after baking</td><td>No</td></tr><tr><td>Heat-treated fermented vegetables</td><td>Usually not</td><td>No</td></tr></tbody></table><h2>“Live cultures” and “probiotic” are different claims</h2><p>A food can carry safe living microbes without those organisms being identified at the strain level or tested at a specific dose. That does not satisfy the strict scientific probiotic definition.</p><h2>What happens after fermentation matters</h2><p>Pasteurizing, baking, filtering or cooking can remove or kill microbes. Sourdough remains a fermented food after baking, but it is no longer a source of live fermentation organisms.</p><h2>What to look for on a label</h2><p>“Contains live cultures” is useful if the goal is live dietary microbes. A probiotic claim should go further and identify a strain and amount linked to evidence, rather than relying on vague words such as “fermented” or “gut-friendly.”</p><h2>The bottom line</h2><p>Yogurt, kefir and some unpasteurized refrigerated ferments are practical ways to consume live microbes. Most traditional fermented foods, however, should not automatically be called probiotic foods.</p>",
-  "faq": [{"question":"Does yogurt contain probiotics?","answer":"Some yogurts contain specific probiotic strains, while many simply contain live starter cultures. The terms are not automatically interchangeable."},{"question":"Does store-bought sauerkraut have live bacteria?","answer":"It depends on processing. Pasteurized shelf-stable products may not; refrigerated unpasteurized products are more likely to retain live microbes."}],
-  "sources": [{"name":"ISAPP — Fermented foods","url":"https://isappscience.org/topic/fermented-foods/","note":"Live microbes vary with processing and storage."},{"name":"ISAPP — Probiotics","url":"https://isappscience.org/resource/probiotics/","note":"Scientific criteria for probiotics."}],
-  "image": {"concept":"Yogurt, kefir, kimchi and refrigerated sauerkraut beside baked sourdough, editorial photography without text.","alt":"Foods that may contain live microorganisms"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "fermented-foods",
+      "gut-health"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Searching for “probiotic foods” blurs three different categories: fermented foods, foods containing live dietary microbes, and foods containing a probiotic strain with demonstrated benefit.</p><table><thead><tr><th>Food</th><th>May contain live microbes when eaten?</th><th>Automatically probiotic?</th></tr></thead><tbody><tr><td>Yogurt with live cultures</td><td>Usually</td><td>No</td></tr><tr><td>Kefir</td><td>Usually</td><td>No</td></tr><tr><td>Refrigerated unpasteurized kimchi/sauerkraut</td><td>Often</td><td>No</td></tr><tr><td>Unheated miso</td><td>May</td><td>No</td></tr><tr><td>Sourdough bread</td><td>No after baking</td><td>No</td></tr><tr><td>Heat-treated fermented vegetables</td><td>Usually not</td><td>No</td></tr></tbody></table><p>The most useful way to read a label is to ask two separate questions: “does this food still contain live cultures?” and “is the strain and amount supported for a specific benefit?” A label may sometimes answer the first; the second requires much more information than phrases such as “fermented” or “good bacteria.”</p><h2>“Live cultures” and “probiotic” are different claims</h2><p>A food can carry safe living microbes without those organisms being identified at the strain level or tested at a specific dose. That does not satisfy the strict scientific probiotic definition.</p><h2>What happens after fermentation matters</h2><p>Pasteurizing, baking, filtering or cooking can remove or kill microbes. Sourdough remains a fermented food after baking, but it is no longer a source of live fermentation organisms.</p><h2>What to look for on a label</h2><p>“Contains live cultures” is useful if the goal is live dietary microbes. A probiotic claim should go further and identify a strain and amount linked to evidence, rather than relying on vague words such as “fermented” or “gut-friendly.”</p><p>What happens after fermentation is decisive. Yogurt heated after culturing, pasteurized vegetables, or miso boiled in a dish can retain fermentation products while greatly reducing viable microorganisms. <strong>That does not make the food worthless; it changes what can reasonably be claimed about it.</strong></p><h2>The bottom line</h2><p>Yogurt, kefir and some unpasteurized refrigerated ferments are practical ways to consume live microbes. Most traditional fermented foods, however, should not automatically be called probiotic foods.</p>",
+  "faq": [
+    {
+      "question": "Does yogurt contain probiotics?",
+      "answer": "Some yogurts contain specific probiotic strains, while many simply contain live starter cultures. The terms are not automatically interchangeable."
+    },
+    {
+      "question": "Does store-bought sauerkraut have live bacteria?",
+      "answer": "It depends on processing. Pasteurized shelf-stable products may not; refrigerated unpasteurized products are more likely to retain live microbes."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ISAPP — Fermented foods",
+      "url": "https://isappscience.org/topic/fermented-foods/",
+      "note": "Live microbes vary with processing and storage."
+    },
+    {
+      "name": "ISAPP — Probiotics",
+      "url": "https://isappscience.org/resource/probiotics/",
+      "note": "Scientific criteria for probiotics."
+    }
+  ],
+  "image": {
+    "concept": "Yogurt, kefir, kimchi and refrigerated sauerkraut beside baked sourdough, editorial photography without text.",
+    "alt": "Foods that may contain live microorganisms"
+  },
+  "status": "publish"
 }
