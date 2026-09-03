@@ -59,6 +59,20 @@ get_header();
 		<?php if ( has_excerpt() ) : ?><div class="answer-box"><strong><?php echo esc_html( $food_english ? 'Quick answer' : 'Respuesta rápida' ); ?></strong><p><?php echo esc_html( get_the_excerpt() ); ?></p></div><?php endif; ?>
 		<?php if ( is_active_sidebar( 'article-ad' ) ) : ?><div class="ad-slot"><?php dynamic_sidebar( 'article-ad' ); ?></div><?php endif; ?>
 		<div class="entry-content"><?php echo $food_content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
+		<div class="article-share">
+			<button
+				class="article-share-button"
+				type="button"
+				data-share-url="<?php echo esc_url( get_permalink() ); ?>"
+				data-share-title="<?php echo esc_attr( get_the_title() ); ?>"
+				data-share-label="<?php echo esc_attr( $food_english ? 'Share article' : 'Compartir artículo' ); ?>"
+				data-copy-label="<?php echo esc_attr( $food_english ? 'Link copied' : 'Enlace copiado' ); ?>"
+			>
+				<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="2.5"></circle><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"></path></svg>
+				<span class="article-share-label"><?php echo esc_html( $food_english ? 'Share article' : 'Compartir artículo' ); ?></span>
+			</button>
+			<span class="article-share-status screen-reader-text" aria-live="polite"></span>
+		</div>
 	</article>
 
 	<?php
