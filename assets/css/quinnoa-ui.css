@@ -5092,3 +5092,61 @@ body.single-post .article-hero-fallback > .food-topic-svg {
   }
 }
 
+/* -----------------------------------------------------------------------
+ * Final taxonomy artwork lock
+ *
+ * Keep the coloured illustration set restored in 9c6fdc5 as the definitive
+ * visual layer. The legacy inline SVGs may remain in markup for fallback, but
+ * they must never win the cascade over the modern --family-icon artwork.
+ * The three families refined afterwards keep their final corrected drawings.
+ * -------------------------------------------------------------------- */
+.family-carnes {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 128 88'%3E%3Cpath d='M25 18c20-12 49-9 66 6 15 13 13 34-3 47-17 13-48 14-67 2C3 61 6 31 25 18Z' fill='%23B95F4D' stroke='%23394536' stroke-width='3.2'/%3E%3Cpath d='M56 27c10-6 24-2 28 8 4 10-4 21-15 25-11 4-24-1-26-12-2-8 4-17 13-21Z' fill='%23F7EBDD' stroke='%23394536' stroke-width='2.8'/%3E%3Cellipse cx='68' cy='43' rx='7.5' ry='9.5' fill='%23D8B9A7' stroke='%23394536' stroke-width='2.2'/%3E%3Cpath d='M29 36c7-5 14-7 21-7M25 53c7 5 13 7 20 8' fill='none' stroke='%23D88470' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E") !important;
+}
+
+.family-frutas {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 144 88'%3E%3Cpath d='M6 45c0-11 6-19 15-19 4 0 7 1 9 4 2-3 5-4 8-4 9 0 15 8 14 19-1 13-9 23-17 23-3 0-5-1-7-3-2 2-5 3-8 3-8 0-14-10-14-23Z' fill='%23D96C55' stroke='%23394536' stroke-width='2.4' stroke-linejoin='round'/%3E%3Cpath d='M29 27c-1-6 2-10 7-13' fill='none' stroke='%23394536' stroke-width='2.4' stroke-linecap='round'/%3E%3Cpath d='M32 19c6-4 11-3 15 1-4 4-9 5-15 3Z' fill='%23788664' stroke='%23394536' stroke-width='2'/%3E%3Cpath d='M61 17c0 7-2 11-6 15-5 5-8 11-8 18 0 12 7 20 16 20 10 0 17-8 17-20 0-8-4-14-9-18-4-4-6-8-6-15h-4Z' fill='%23E8C76A' stroke='%23394536' stroke-width='2.4' stroke-linejoin='round'/%3E%3Cpath d='M63 17c0-4 2-7 5-10' fill='none' stroke='%23394536' stroke-width='2.3' stroke-linecap='round'/%3E%3Cpath d='M93 18c8 0 15 17 15 31 0 12-6 21-15 21s-15-9-15-21c0-14 7-31 15-31Z' fill='%237B8F63' stroke='%23394536' stroke-width='2.4'/%3E%3Ccircle cx='93' cy='51' r='6.5' fill='%23765E4C' stroke='%23394536' stroke-width='2'/%3E%3Cpath d='M118 24c11 5 19 15 21 27 2 11-2 20-10 27 3-8 3-15 1-22-2-10-8-18-17-24l5-8Z' fill='%23E8C76A' stroke='%23394536' stroke-width='2.4' stroke-linejoin='round'/%3E%3Cpath d='M121 33c7 5 11 12 13 20' fill='none' stroke='%23C69B31' stroke-width='2.1' stroke-linecap='round'/%3E%3C/svg%3E") !important;
+}
+
+.family-tuberculos {
+  --family-icon: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 132 88'%3E%3Cpath d='M13 44c0-17 13-29 31-29 17 0 29 10 29 25 0 18-15 31-33 31-16 0-27-10-27-27Z' fill='%23C8A274' stroke='%23394536' stroke-width='3'/%3E%3Ccircle cx='31' cy='32' r='2' fill='%23765E4C'/%3E%3Ccircle cx='51' cy='28' r='2' fill='%23765E4C'/%3E%3Ccircle cx='47' cy='51' r='2' fill='%23765E4C'/%3E%3Cpath d='M79 48c5-13 18-24 32-27 10-2 18 2 19 9 2 10-12 24-29 33-14 7-27 7-29-1-1-4 2-9 7-14Z' fill='%23C96F4F' stroke='%23394536' stroke-width='3' stroke-linejoin='round'/%3E%3Cpath d='M84 45c10-8 21-13 32-15M80 57c11 1 22-2 32-8' fill='none' stroke='%23E39A77' stroke-width='2.3' stroke-linecap='round'/%3E%3C/svg%3E") !important;
+}
+
+.food-family-card[class*="family-"] .food-family-art > .food-family-svg,
+.home-feature-illustration[class*="family-"] > .food-family-svg,
+.discover-illustration[class*="family-"] > .food-family-svg,
+.card-placeholder-illustrated[class*="family-"] > .food-family-svg,
+.taxonomy-hero-visual[class*="family-"] > .food-family-svg,
+.article-hero-fallback[class*="family-"] > .food-family-svg {
+  display: none !important;
+}
+
+.food-family-card[class*="family-"] .food-family-art::after,
+.home-feature-illustration[class*="family-"]::after,
+.discover-illustration[class*="family-"]::after,
+.card-placeholder-illustrated[class*="family-"]::after,
+.taxonomy-hero-visual[class*="family-"]::after {
+  content: "" !important;
+  opacity: 1 !important;
+  visibility: visible !important;
+  background-color: transparent !important;
+  background-image: var(--family-icon) !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50% !important;
+  background-size: contain !important;
+}
+
+body.single-post .article-hero-fallback[class*="family-"]::after {
+  content: none !important;
+  display: none !important;
+}
+
+body.single-post .article-hero-fallback[class*="family-"] > .article-hero-art {
+  display: block !important;
+  background-color: transparent !important;
+  background-image: var(--family-icon) !important;
+  background-repeat: no-repeat !important;
+  background-position: 50% 50% !important;
+  background-size: contain !important;
+}
+
