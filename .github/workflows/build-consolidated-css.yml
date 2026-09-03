@@ -5,9 +5,9 @@ on:
     branches:
       - main
     paths:
-      - 'style.css'
       - 'assets/css/**'
       - '!assets/css/quinnoa.css'
+      - '!assets/css/quinnoa-ui.css'
       - '.github/workflows/build-consolidated-css.yml'
   workflow_dispatch:
 
@@ -23,15 +23,12 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Build quinnoa.css
+      - name: Build safe runtime UI bundle
         shell: bash
         run: |
           set -euo pipefail
-          output='assets/css/quinnoa.css'
+          output='assets/css/quinnoa-ui.css'
           sources=(
-            'style.css'
-            'assets/css/editorial.css'
-            'assets/css/article-layout-v2.css'
             'assets/css/food-v4.css'
             'assets/css/food-v5.css'
             'assets/css/food-v6.css'
@@ -53,24 +50,26 @@ jobs:
           )
 
           : > "$output"
-          printf '/* Quinnoa consolidated stylesheet. Generated automatically; edit source fragments, not this file. */\n\n' >> "$output"
+          printf '/* Quinnoa runtime UI bundle. Generated automatically; edit source fragments, not this file. */\n\n' >> "$output"
           for source in "${sources[@]}"; do
-            if [[ -f "$source" ]]; then
-              printf '\n/* ===== %s ===== */\n' "$source" >> "$output"
-              cat "$source" >> "$output"
-              printf '\n' >> "$output"
+            if [[ ! -f "$source" ]]; then
+              echo "Missing CSS source: $source" >&2
+              exit 1
             fi
+            printf '\n/* ===== %s ===== */\n' "$source" >> "$output"
+            cat "$source" >> "$output"
+            printf '\n' >> "$output"
           done
 
       - name: Commit generated stylesheet
         shell: bash
         run: |
           set -euo pipefail
-          if [[ -z "$(git status --porcelain -- assets/css/quinnoa.css)" ]]; then
+          if [[ -z "$(git status --porcelain -- assets/css/quinnoa-ui.css)" ]]; then
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add assets/css/quinnoa.css
-          git commit -m 'Build consolidated Quinnoa stylesheet'
+          git add assets/css/quinnoa-ui.css
+          git commit -m 'Build Quinnoa runtime UI bundle'
           git push
