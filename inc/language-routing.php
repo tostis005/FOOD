@@ -77,6 +77,7 @@ function food_language_query_vars( $vars ) {
 	$vars[] = 'food_lang';
 	$vars[] = 'food_lang_home';
 	$vars[] = 'food_language_bypass';
+	$vars[] = 'food_directory';
 	return $vars;
 }
 add_filter( 'query_vars', 'food_language_query_vars' );
@@ -90,10 +91,12 @@ function food_register_language_rewrites() {
 	add_rewrite_rule( '^en/tema/([^/]+)/page/([0-9]+)/?$', 'index.php?food_topic=$matches[1]&food_lang=en&paged=$matches[2]', 'top' );
 	add_rewrite_rule( '^en/tema/([^/]+)/?$', 'index.php?food_topic=$matches[1]&food_lang=en', 'top' );
 	add_rewrite_rule( '^en/(?!alimentos(?:/|$)|tema(?:/|$))([^/]+)/?$', 'index.php?name=$matches[1]&food_lang=en', 'top' );
+	add_rewrite_rule( '^temas/?$', 'index.php?food_directory=topics&food_lang=es', 'top' );
+	add_rewrite_rule( '^en/topics/?$', 'index.php?food_directory=topics&food_lang=en', 'top' );
 
-	if ( '2' !== get_option( 'food_language_rewrite_version' ) ) {
+	if ( '3' !== get_option( 'food_language_rewrite_version' ) ) {
 		flush_rewrite_rules( false );
-		update_option( 'food_language_rewrite_version', '2' );
+		update_option( 'food_language_rewrite_version', '3' );
 	}
 }
 add_action( 'init', 'food_register_language_rewrites', 90 );
@@ -129,6 +132,33 @@ function food_english_home_template( $template ) {
 	return $template;
 }
 add_filter( 'template_include', 'food_english_home_template', 99 );
+
+function food_early_prepare_directory_query( $query ) {
+	if ( ! $query instanceof WP_Query || ! $query->is_main_query() || 'topics' !== $query->get( 'food_directory' ) ) {
+		return;
+	}
+	$query->is_404 = false;
+	$query->is_home = false;
+}
+add_action( 'parse_query', 'food_early_prepare_directory_query', 1 );
+
+function food_early_directory_prevent_404( $preempt, $query ) {
+	if ( $query instanceof WP_Query && 'topics' === $query->get( 'food_directory' ) ) {
+		$query->is_404 = false;
+		return false;
+	}
+	return $preempt;
+}
+add_filter( 'pre_handle_404', 'food_early_directory_prevent_404', 9, 2 );
+
+function food_early_directory_template( $template ) {
+	if ( 'topics' === get_query_var( 'food_directory' ) ) {
+		$directory_template = get_template_directory() . '/taxonomy-directory.php';
+		return file_exists( $directory_template ) ? $directory_template : $template;
+	}
+	return $template;
+}
+add_filter( 'template_include', 'food_early_directory_template', 96 );
 
 function food_filter_main_query_language( $query ) {
 	if ( is_admin() || ! $query->is_main_query() || $query->get( 'food_language_bypass' ) ) {
@@ -333,7 +363,7 @@ function food_topic_display( $term_or_slug ) {
 
 function food_language_nav_fallback() {
 	$foods_url  = function_exists( 'food_directory_url' ) ? food_directory_url( 'foods' ) : food_category_url( 'alimentos', food_is_english() ? 'Foods' : 'Alimentos' );
-	$topics_url = function_exists( 'food_directory_url' ) ? food_directory_url( 'topics' ) : food_language_home_url();
+	$topics_url = function_exists( 'food_directory_url' ) ? food_directory_url( 'topics' ) : ( food_is_english() ? home_url( '/en/topics/' ) : home_url( '/temas/' ) );
 	$latest_url = food_language_home_url() . '#ultimos-articulos';
 	$items = food_is_english()
 		? array( array( 'Foods', $foods_url ), array( 'Topics', $topics_url ), array( 'Latest articles', $latest_url ) )
