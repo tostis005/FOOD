@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-116-es-saludable-comer-legumbres-todos-dias",
+  "article_number": 116,
+  "translation_group": "116-legumes-every-day",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; recomendaciones AESAN y composición USDA",
+  "title": "¿Es saludable comer legumbres todos los días?",
+  "slug": "es-saludable-comer-legumbres-todos-dias",
+  "seo": {
+    "title": "¿Es saludable comer legumbres todos los días?",
+    "meta_description": "Sí, las legumbres pueden comerse a diario dentro de una dieta variada. AESAN recomienda al menos 4 raciones semanales; el principal ajuste suele ser la fibra y la tolerancia digestiva.",
+    "search_intent": "Saber si es saludable comer legumbres cada día y qué cantidad o variedad conviene."
+  },
+  "excerpt": "Sí. Para la mayoría de personas, comer legumbres todos los días puede encajar en una dieta saludable y AESAN recomienda como mínimo 4 raciones semanales. Una ración de 180–200 g de lentejas cocidas aporta unos 16–18 g de proteína y 14–16 g de fibra. Si aumentas el consumo rápidamente, la fibra y los carbohidratos fermentables pueden provocar gases al principio.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["legumes"],
+    "article_types": ["health-daily-consumption", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Las legumbres no necesitan reservarse para dos platos de cuchara a la semana. <strong>Pueden aparecer a diario</strong> si la dieta sigue siendo variada y la cantidad se adapta a tu tolerancia.</p><h2>AESAN recomienda al menos cuatro raciones por semana</h2><p>Las recomendaciones españolas actuales sitúan las legumbres entre los alimentos que conviene aumentar y aconsejan <strong>al menos 4 raciones semanales</strong>. Esa cifra es un mínimo orientativo, no un límite máximo que convierta la quinta ración en excesiva.</p><h2>Una ración aporta mucho más que proteína</h2><p>Con 200 g de lentejas cocidas obtienes aproximadamente 18 g de proteína, casi 16 g de fibra y unas 230 kcal. Una cantidad similar de garbanzos aporta alrededor de 18 g de proteína, 15 g de fibra y algo más de 320 kcal.</p><p>La fibra y los carbohidratos complejos son una diferencia importante frente a carne, pescado o huevos, que aportan proteína pero no fibra.</p><h2>El principal problema al empezar puede ser digestivo</h2><p>Pasar de comer poca fibra a tomar un plato grande de legumbres todos los días puede aumentar gases, hinchazón o molestias. No significa que las legumbres “sienten mal” para siempre.</p><p>Aumentar la cantidad gradualmente, beber suficiente agua y empezar con raciones moderadas suele ayudar. Algunas personas toleran mejor lentejas peladas, tofu, tempeh o legumbres muy cocidas.</p><h2>Variar es mejor que repetir siempre la misma</h2><p>Lentejas, garbanzos, alubias, guisantes, soja y derivados no tienen exactamente el mismo perfil. Alternarlos cambia fibra, proteína, hierro, folato, grasa y otros micronutrientes.</p><h2>Las legumbres de bote también cuentan</h2><p>Son nutricionalmente válidas y muy prácticas. El punto que más puede cambiar es el sodio del líquido de cobertura. Escurrir y enjuagar puede reducir una parte de ese sodio.</p><h2>¿Puede ser demasiada fibra?</h2><p>Una ración diaria grande puede aportar 12–16 g de fibra solo desde las legumbres. Sumada a cereales integrales, fruta, verduras, frutos secos y semillas, la ingesta total puede subir bastante.</p><p>Para la mayoría de personas eso puede ser positivo, pero si provoca molestias persistentes conviene ajustar cantidades en vez de asumir que “más fibra siempre es mejor”.</p><h2>La regla práctica</h2><p><strong>Comer legumbres a diario puede ser saludable</strong>. Prioriza variedad, empieza progresivamente si antes comías pocas y deja espacio para otras fuentes de proteína y otros grupos de alimentos.</p>",
+  "faq": [
+    {"question": "¿Cuántas veces por semana recomienda legumbres AESAN?", "answer": "Las recomendaciones españolas actuales indican al menos 4 raciones semanales."},
+    {"question": "¿Comer legumbres todos los días produce gases?", "answer": "Puede aumentar gases al principio si la fibra sube de golpe. La tolerancia suele mejorar al aumentar la cantidad gradualmente."},
+    {"question": "¿Las legumbres de bote son saludables?", "answer": "Sí. Aportan proteína y fibra de forma similar; si tienen mucho sodio, escurrirlas y enjuagarlas puede reducir parte de la sal."}
+  ],
+  "sources": [
+    {"name": "AESAN — Recomendaciones dietéticas saludables y sostenibles", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf", "note": "Al menos cuatro raciones de legumbres a la semana."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína, fibra y energía de legumbres cocidas."}
+  ],
+  "image": {
+    "concept": "Varios cuencos pequeños con lentejas, garbanzos, alubias y edamame representando variedad semanal, fotografía editorial sin texto.",
+    "alt": "Variedad de legumbres para consumo frecuente"
+  },
+  "status": "publish"
+}
