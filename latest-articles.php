@@ -32,7 +32,7 @@ $base_url     = function_exists( 'food_directory_url' ) ? food_directory_url( 'l
 			<div class="eyebrow"><?php echo esc_html( $english ? 'Quinnoa articles' : 'Artículos de Quinnoa' ); ?></div>
 			<h1><?php echo esc_html( $english ? 'Latest articles' : 'Últimos artículos' ); ?></h1>
 			<div class="taxonomy-description">
-				<p><?php echo esc_html( $english ? 'The complete Quinnoa article archive, covering different foods and the topics connected with their composition, storage, preparation and consumption.' : 'El archivo completo de artículos de Quinnoa, con contenidos sobre distintos alimentos y temas relacionados con su composición, conservación, preparación y consumo.' ); ?></p>
+				<p><?php echo esc_html( $english ? 'All Quinnoa articles brought together in one place, covering food from a wide range of perspectives.' : 'Todos los artículos de Quinnoa reunidos en una sola página, con contenidos sobre alimentos abordados desde distintos enfoques.' ); ?></p>
 			</div>
 			<div class="search-panel latest-articles-search">
 				<?php get_search_form(); ?>
