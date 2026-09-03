@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-099-walnuts-nutrition-omega3",
+  "article_number": 99,
+  "translation_group": "099-walnuts-nutrition-omega3",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition, ALA and 1-ounce serving",
+  "title": "Walnuts: nutrition and omega-3 content",
+  "slug": "walnuts-nutrition-omega3",
+  "seo": {
+    "title": "Walnut nutrition: protein, fiber, fat, calories and omega-3",
+    "meta_description": "1 ounce of walnuts provides about 185 calories, 4.3 g protein, 1.9 g fiber, 18.5 g fat and roughly 2.5 g of ALA omega-3.",
+    "search_intent": "Look up walnut nutrition and understand what type of omega-3 walnuts provide."
+  },
+  "excerpt": "A 1-ounce serving of walnuts provides about 185 calories, 4.3 g of protein, 1.9 g of fiber and 18.5 g of fat. Their distinctive feature among common nuts is ALA: roughly 2.5 g of this plant omega-3 per ounce. ALA is not the EPA or DHA found in fish, but it is an essential fatty acid the body cannot make.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["walnuts"],
+    "article_types": ["nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Walnuts do not lead common nut rankings for protein or fiber. Their most distinctive nutritional feature sits somewhere else: <strong>their fat is especially rich in polyunsaturated fatty acids and provides a meaningful amount of ALA omega-3</strong>.</p><h2>What one serving of walnuts provides</h2><table><thead><tr><th>Nutrient</th><th>Per 100 g</th><th>Per 1 oz</th></tr></thead><tbody><tr><td>Calories</td><td>~654</td><td>~185</td></tr><tr><td>Protein</td><td>~15.2 g</td><td>~4.3 g</td></tr><tr><td>Fat</td><td>~65.2 g</td><td>~18.5 g</td></tr><tr><td>Fiber</td><td>~6.7 g</td><td>~1.9 g</td></tr><tr><td>ALA omega-3</td><td>~9 g</td><td>~2.5 g</td></tr></tbody></table><p>The roughly 185 calories in the ounce come mainly from fat. What sets walnuts apart is not lower energy, but <strong>the fatty-acid composition of that fat</strong>.</p><h2>Walnut omega-3 is ALA</h2><p>Alpha-linolenic acid (ALA) is an essential omega-3. The body can convert some ALA to EPA and then DHA, but conversion is limited.</p><p>That means 2.5 g of ALA from walnuts should not be presented as equivalent to 2.5 g of EPA+DHA from fish. They belong to the same omega-3 family but are different molecules with different metabolic pathways.</p><h2>How meaningful is 2.5 g of ALA?</h2><p>U.S. Adequate Intake values for ALA are 1.6 g/day for adult men and 1.1 g/day for adult women. One ounce of walnuts therefore provides a concentrated amount of this plant omega-3.</p><p>That does not create an EPA+DHA requirement equivalence; it simply shows why walnuts stand out as an ALA source.</p><h2>Other nuts provide more protein</h2><p>One ounce of walnuts provides about 4.3 g of protein. Almonds provide around 6 g and pistachios about 5.7 g in the same weight.</p><p>The difference is roughly 1.5–1.7 g per serving. Real, but not enough to call walnuts protein-poor; protein simply is not their strongest comparative feature.</p><h2>They also contain less fiber than almonds or pistachios</h2><p>An ounce provides about 1.9 g of fiber, compared with roughly 3.5 g in almonds and 2.9 g in pistachios.</p><p>If maximizing fiber is the only goal, other nuts rank higher. If the goal is ALA within the nut category, walnuts move to the front.</p><h2>Total fat is high and mostly unsaturated</h2><p>More than 60 g of every 100 g of walnuts is fat. Much of it is polyunsaturated, including linoleic omega-6 and ALA omega-3; saturated fat is only around 6 g per 100 g.</p><p>That composition explains both their fatty-acid profile and their high calorie density.</p><h2>Storage matters</h2><p>The abundance of polyunsaturated fat also makes walnuts more susceptible to oxidation than nuts dominated by monounsaturated fat. Heat, light and oxygen speed rancidity.</p><p>An airtight container in a cool, dark place—or refrigeration for longer storage—helps preserve flavor and fat quality.</p><h2>The practical idea</h2><p><strong>One ounce of walnuts provides about 2.5 g of ALA omega-3 along with roughly 4.3 g of protein and 1.9 g of fiber.</strong> Their nutritional strength is not winning every nut ranking; it is a polyunsaturated-fat profile that few common nuts match.</p>",
+  "faq": [
+    {"question": "How much omega-3 is in walnuts?", "answer": "One ounce provides roughly 2.5 g of ALA, the main plant omega-3 in walnuts."},
+    {"question": "Is walnut omega-3 the same as salmon omega-3?", "answer": "No. Walnuts provide ALA; salmon provides mainly EPA and DHA. The body converts only a limited portion of ALA."},
+    {"question": "How many calories are in an ounce of walnuts?", "answer": "About 185 calories."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Calories, macronutrients and fatty acids in walnuts."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "ALA Adequate Intake values and conversion to EPA/DHA."}
+  ],
+  "image": {
+    "concept": "One-ounce serving of walnut halves beside a small kitchen scale, natural editorial food photography, no text.",
+    "alt": "Walnuts as a concentrated plant source of ALA omega-3"
+  },
+  "status": "publish"
+}
