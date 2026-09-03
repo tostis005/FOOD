@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-107-tempeh-proteina-valor-nutricional",
+  "article_number": 107,
+  "translation_group": "107-tempeh-nutrition",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y contexto sobre fermentación de soja",
+  "title": "Tempeh: qué es y por qué tiene tanta proteína",
+  "slug": "tempeh-proteina-valor-nutricional",
+  "seo": {
+    "title": "Tempeh: proteína, calorías y valor nutricional",
+    "meta_description": "El tempeh aporta alrededor de 20 g de proteína y 11 g de grasa por 100 g. Conserva la soja entera y contiene menos agua que muchos tofu.",
+    "search_intent": "Entender qué es el tempeh, cuánto aporta y por qué concentra tanta proteína."
+  },
+  "excerpt": "El tempeh es soja cocida fermentada y compactada en un bloque. Suele aportar alrededor de 20 g de proteína, 11 g de grasa y 190–200 kcal por 100 g. Su alta concentración se explica porque conserva la soja entera y contiene menos agua que muchos tofu; la fermentación modifica el alimento, pero no crea mágicamente la proteína.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["soy", "tempeh"],
+    "article_types": ["nutrition-composition", "fermentation"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>El tempeh parece mucho más proteico que muchos tofu, pero la explicación no es que la fermentación fabrique proteína. <strong>Conserva prácticamente la soja entera y tiene relativamente poca agua</strong>, de modo que los nutrientes quedan concentrados.</p><h2>Qué aporta por 100 gramos</h2><table><thead><tr><th>Nutriente</th><th>Tempeh, 100 g</th><th>Ración de 150 g</th></tr></thead><tbody><tr><td>Energía</td><td>~190–200 kcal</td><td>~285–300 kcal</td></tr><tr><td>Proteína</td><td>~20 g</td><td>~30 g</td></tr><tr><td>Grasa</td><td>~11 g</td><td>~16–17 g</td></tr><tr><td>Carbohidratos</td><td>~8 g</td><td>~12 g</td></tr></tbody></table><p>Una ración de 150 g puede rondar los <strong>30 g de proteína</strong>, suficiente para ser claramente la fuente proteica principal de una comida.</p><h2>Por qué está más concentrado que el tofu</h2><p>El tofu se forma a partir de bebida de soja coagulada y puede contener mucha agua. El tempeh, en cambio, parte de granos de soja cocidos que se fermentan y quedan unidos por el micelio del cultivo.</p><p>Al conservar más parte de la semilla y menos agua, concentra proteína, grasa, fibra y micronutrientes por 100 g.</p><h2>Qué hace realmente la fermentación</h2><p>Durante la fermentación, microorganismos transforman componentes de la soja y pueden reducir parte de ciertos antinutrientes, además de cambiar sabor y textura. El resultado tiene un sabor más intenso y una estructura firme.</p><p>Pero <strong>tempeh fermentado no significa automáticamente alimento probiótico</strong>. Normalmente se cocina antes de comerlo y el calor reduce o elimina la viabilidad de los microorganismos.</p><h2>Proteína completa y fibra</h2><p>Al proceder de soja, el tempeh contiene los nueve aminoácidos esenciales. Además, como conserva el grano, aporta fibra que prácticamente no existe en la carne y que puede ser menor en algunos tofu.</p><h2>Grasa y calorías</h2><p>El tempeh tiene bastante más grasa que lentejas o alubias cocidas. Gran parte es insaturada y procede naturalmente de la soja. Esa grasa, junto con la menor cantidad de agua, explica que sea más calórico por 100 g que muchas legumbres cocidas.</p><h2>El preparado puede cambiar mucho el resultado</h2><p>Saltearlo con poco aceite mantiene la energía relativamente cerca del alimento original. Freírlo o cubrirlo con salsas azucaradas puede aumentar bastante calorías, grasa o sodio.</p><h2>La regla útil</h2><p>El tempeh es una fuente vegetal de proteína muy concentrada porque <strong>combina soja entera, poca agua y fermentación</strong>. La fermentación cambia digestibilidad, sabor y estructura; la concentración de proteína procede sobre todo del propio alimento y de su baja humedad.</p>",
+  "faq": [
+    {"question": "¿Cuánta proteína tiene el tempeh?", "answer": "Alrededor de 20 g por 100 g; una ración de 150 g puede aportar cerca de 30 g."},
+    {"question": "¿Por qué tiene más proteína que el tofu?", "answer": "Porque conserva la soja entera y suele tener menos agua, de modo que la proteína queda más concentrada por 100 g."},
+    {"question": "¿El tempeh tiene probióticos?", "answer": "Es un alimento fermentado, pero normalmente se cocina y el calor reduce la viabilidad de los microorganismos. Fermentado no significa necesariamente probiótico en el plato final."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición nutricional del tempeh."},
+    {"name": "FAO — Fermented foods", "url": "https://www.fao.org/", "note": "Contexto general sobre fermentación de alimentos."}
+  ],
+  "image": {
+    "concept": "Bloque de tempeh cortado mostrando los granos de soja unidos, fotografía editorial limpia sin texto.",
+    "alt": "Tempeh cortado mostrando la soja fermentada"
+  },
+  "status": "publish"
+}
