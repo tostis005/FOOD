@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "en-133-how-much-protein-in-egg",
+  "article_number": 133,
+  "translation_group": "133-how-much-protein-egg",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA standard large egg and FoodData Central composition",
+  "title": "How much protein is really in an egg?",
+  "slug": "how-much-protein-in-egg",
+  "seo": {"title":"How much protein is really in an egg?","meta_description":"A large egg contains about 6.3 g of protein. The white supplies roughly 3.6 g and the yolk around 2.7 g; size changes the total.","search_intent":"Find the actual protein in one egg and understand how size, white and yolk affect it."},
+  "excerpt": "A U.S. large egg, about 50 g edible weight, contains roughly 6.3 g of protein. The white contributes about 3.6 g and the yolk about 2.7 g. Smaller eggs provide less and extra-large eggs more, so 'one egg' is not a perfectly fixed unit.",
+  "taxonomy": {"food_family":"eggs","food_subcategories":["eggs"],"article_types":["nutrition-composition","myths-faq"],"primary_article_type":"nutrition-composition"},
+  "content_html": "<p>A large egg is a convenient nutrition unit, but eggs come in different sizes. The familiar “6 grams of protein per egg” is therefore a useful shorthand, not a universal constant.</p><p>USDA data put a large egg at about 50 g edible weight and roughly 6.3 g protein.</p><table><thead><tr><th>Amount</th><th>Protein</th></tr></thead><tbody><tr><td>1 large whole egg</td><td>~6.3 g</td></tr><tr><td>Large egg white</td><td>~3.6 g</td></tr><tr><td>Large yolk</td><td>~2.7 g</td></tr><tr><td>2 large eggs</td><td>~12.6 g</td></tr><tr><td>3 large eggs</td><td>~19 g</td></tr></tbody></table><h2>The yolk contains protein too</h2><p>The white supplies slightly more than half of the egg's protein, but the yolk is not just fat. Removing it also removes around 2.5–3 g protein per large egg along with nutrients such as choline, vitamin B12 and vitamin D.</p><h2>Size changes the total</h2><p>Small eggs may be closer to 5 g protein, while extra-large and jumbo eggs can approach 7–8 g. If a recipe or nutrition target depends on precision, “large egg” is a better unit than simply “egg.”</p><h2>Cooking changes structure, not the basic amount</h2><p>Heat denatures egg proteins and makes cooked egg easier to digest, but it does not create additional protein. Small changes in protein per 100 g mostly reflect changes in water and final weight.</p><h2>The practical number</h2><p>Use <strong>about 6.3 g per large egg</strong> for everyday calculations. Two eggs supply about 12–13 g; three bring the meal close to 19 g.</p>",
+  "faq": [{"question":"How much protein is in two eggs?","answer":"Two U.S. large eggs provide about 12.6 g of protein."},{"question":"Does the egg white contain all the protein?","answer":"No. A large white has about 3.6 g while the yolk contributes roughly 2.7 g."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Protein values for whole egg, white and yolk."}],
+  "image": {"concept":"Two large eggs with one separated into white and yolk, clean editorial food photography without text.","alt":"Whole egg, egg white and yolk showing where egg protein comes from"},
+  "status":"publish"
+}
