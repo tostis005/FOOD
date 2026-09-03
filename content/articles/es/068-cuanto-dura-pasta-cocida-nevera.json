@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-068-cuanto-dura-pasta-cocida-nevera",
+  "article_number": 68,
+  "translation_group": "068-how-long-cooked-pasta-fridge",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; AESAN recomienda no mantener alimentos cocinados más de 3 días en nevera",
+  "title": "Cuánto dura la pasta cocida en la nevera",
+  "slug": "cuanto-dura-pasta-cocida-nevera",
+  "seo": {
+    "title": "Cuánto dura la pasta cocida en la nevera y cómo guardarla",
+    "meta_description": "Como referencia en España, la pasta cocida refrigerada conviene consumirla en un máximo de 3 días. Enfríala pronto, guárdala cerrada y no confíes solo en el olor.",
+    "search_intent": "Saber cuántos días dura la pasta cocida refrigerada, cómo enfriarla, guardarla y recalentarla de forma segura."
+  },
+  "excerpt": "Como pauta conservadora para casa en España, la pasta cocida debería refrigerarse pronto y consumirse en un máximo de 3 días, manteniendo la nevera fría. No la dejes a temperatura ambiente más de unas 2 horas. La salsa puede acortar el plazo si contiene ingredientes más perecederos, y que la pasta huela normal no demuestra que haya tenido una conservación segura.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": ["pasta"],
+    "article_types": ["storage", "food-safety"],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Una olla de pasta que sobra después de comer parece un alimento sencillo, pero una vez cocida contiene agua y almidón disponibles para el crecimiento microbiano. <strong>La seguridad depende más de cómo se enfría y se refrigera que de si al tercer día sigue oliendo bien.</strong></p><h2>En España, una regla doméstica prudente es un máximo de 3 días</h2><p>AESAN recomienda que los alimentos cocinados refrigerados no permanezcan más de tres días en la nevera. Para pasta cocida, esa pauta ofrece una referencia sencilla y conservadora.</p><p>El plazo empieza cuando se cocina, no cuando se abre el táper por primera vez. Si preparaste pasta el lunes, el calendario no se reinicia al recalentarla el miércoles.</p><h2>Refrigérala antes de que pasen 2 horas</h2><p>AESAN y EFSA aconsejan no dejar alimentos cocinados a temperatura ambiente más de unas dos horas. Divide una cantidad grande en recipientes poco profundos para que pierda calor con rapidez.</p><p>No hace falta esperar a que una olla enorme esté completamente fría sobre la encimera. Ese método puede mantener el centro templado durante demasiado tiempo.</p><h2>Pasta sola y pasta con salsa no siempre duran lo mismo</h2><p>La pasta con tomate simple puede seguir un margen parecido al de otras sobras cocinadas. Pero una salsa con nata, marisco, carne picada o ingredientes muy perecederos puede hacer que debas seguir el plazo más corto del conjunto.</p><p>Si mezclas pasta de ayer con una salsa de tres días, el plato no se convierte en “nuevo”. La edad del ingrediente más antiguo sigue contando.</p><h2>El recipiente influye en calidad y contaminación</h2><p>Guarda la pasta en un recipiente limpio, cerrado y de tamaño adecuado. Esto reduce deshidratación, absorción de olores y contaminación por contacto con otros alimentos.</p><p>Un poco de aceite puede evitar que se pegue, pero no alarga la vida segura. La conservación depende de tiempo y temperatura, no de que los macarrones queden sueltos.</p><h2>¿Cómo saber si está mala?</h2><p>Moho, olor desagradable, viscosidad extraña o cambios evidentes son motivos para tirarla. Pero la ausencia de esos signos no demuestra que sea segura.</p><p>Algunas bacterias capaces de causar enfermedad no producen un olor o aspecto fácilmente reconocible. Si ha pasado demasiado tiempo o estuvo horas fuera de frío, no uses una prueba de olor para recuperarla.</p><h2>Cómo recalentarla</h2><p>Recalienta solo la cantidad que vayas a comer y haz que quede muy caliente de forma uniforme. En microondas, remover a mitad ayuda a evitar zonas frías; en sartén, una pequeña cantidad de agua o salsa puede devolver humedad.</p><p>Recalentar destruye muchas bacterias activas, pero no corrige un historial de conservación insegura ni garantiza eliminar toxinas que algunos microorganismos pueden haber producido.</p><h2>¿Se puede congelar?</h2><p>Sí. Si sabes que no vas a consumirla en los próximos días, congélala pronto en porciones. La textura puede quedar algo más blanda después de descongelar, especialmente si estaba muy cocida.</p><p>Congelar al tercer día no es tan buena estrategia como congelar el primer día: el congelador detiene el reloj microbiológico, no lo rebobina.</p><h2>La regla práctica</h2><p><strong>Enfría rápido, refrigera antes de dos horas y consume en un máximo de tres días.</strong> Si no vas a llegar a tiempo, congela pronto.</p><p>Con pasta, igual que con otras sobras, la seguridad se decide por el historial de tiempo y frío, no por lo apetecible que siga pareciendo.</p>",
+  "faq": [
+    {"question": "¿Puedo comer pasta cocida de hace 4 días?", "answer": "La pauta conservadora de AESAN para alimentos cocinados refrigerados es no mantenerlos más de 3 días. Cuatro días ya supera esa referencia."},
+    {"question": "¿La pasta con salsa dura lo mismo?", "answer": "Depende de la salsa. Si contiene carne, marisco, nata u otros ingredientes perecederos, sigue siempre el plazo más corto del conjunto."},
+    {"question": "¿Puedo congelar pasta cocida?", "answer": "Sí. Si no la vas a comer dentro del plazo de nevera, congélala cuanto antes en porciones cerradas."}
+  ],
+  "sources": [
+    {"name": "AESAN — Cocina segura fuera de casa", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/cocina_oficina.pdf", "note": "Regla de 2 horas y máximo de 3 días para alimentos cocinados refrigerados."},
+    {"name": "EFSA — Proper food handling", "url": "https://www.efsa.europa.eu/en/safe2eat/proper-food-handling", "note": "Refrigeración rápida y conservación por debajo de 5 °C."}
+  ],
+  "image": {
+    "concept": "Pasta cocida guardada en un recipiente bajo y cerrado dentro de una nevera, fotografía editorial limpia sin texto.",
+    "alt": "Pasta cocida almacenada correctamente en la nevera"
+  },
+  "status": "publish"
+}
