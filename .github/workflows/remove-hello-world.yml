@@ -1,0 +1,89 @@
+name: Remove default Hello World post
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/remove-hello-world.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  remove-default-post:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_cleanup_key
+          chmod 600 ~/.ssh/food_cleanup_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Remove Hello World from WordPress
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          ssh -i ~/.ssh/food_cleanup_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+          for CID in $(docker ps -q); do
+            ROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then echo "$p"; exit 0; fi
+              done
+            ' 2>/dev/null || true)"
+            if [ -z "$ROOT" ] || ! docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              continue
+            fi
+
+            docker exec "$CID" php -r '
+              require "'"$ROOT"'/wp-load.php";
+              $posts = get_posts(array(
+                "post_type" => "post",
+                "post_status" => "any",
+                "posts_per_page" => -1,
+                "orderby" => "ID",
+                "order" => "ASC",
+                "suppress_filters" => true,
+              ));
+              $deleted = array();
+              foreach ($posts as $post) {
+                $slug = strtolower((string) $post->post_name);
+                $title = remove_accents(mb_strtolower(trim(wp_strip_all_tags((string) $post->post_title))));
+                $title = trim($title, " \t\n\r\0\x0B!¡.");
+                if (in_array($slug, array("hola-mundo", "hello-world"), true) || in_array($title, array("hola mundo", "hello world"), true)) {
+                  $deleted[] = $post->ID . ":" . $post->post_title;
+                  wp_delete_post($post->ID, true);
+                }
+              }
+
+              $remaining = get_posts(array(
+                "post_type" => "post",
+                "post_status" => "any",
+                "posts_per_page" => -1,
+                "suppress_filters" => true,
+              ));
+              foreach ($remaining as $post) {
+                $slug = strtolower((string) $post->post_name);
+                $title = remove_accents(mb_strtolower(trim(wp_strip_all_tags((string) $post->post_title))));
+                $title = trim($title, " \t\n\r\0\x0B!¡.");
+                if (in_array($slug, array("hola-mundo", "hello-world"), true) || in_array($title, array("hola mundo", "hello world"), true)) {
+                  fwrite(STDERR, "Default Hello World post still exists.\n");
+                  exit(1);
+                }
+              }
+
+              echo empty($deleted) ? "No matching default post existed.\n" : "Deleted: " . implode(", ", $deleted) . "\n";
+            '
+            exit 0
+          done
+          echo 'No WordPress PHP container found.' >&2
+          exit 1
+          REMOTE
