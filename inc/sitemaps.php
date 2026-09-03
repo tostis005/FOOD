@@ -3,8 +3,8 @@
  * Dynamic bilingual XML sitemaps for Quinnoa.
  *
  * /sitemap.xml    -> sitemap index
- * /sitemap-es.xml -> Spanish home, editorial pages and published posts
- * /sitemap-en.xml -> English home, editorial pages and published posts
+ * /sitemap-es.xml -> Spanish home, editorial pages, taxonomy archives and posts
+ * /sitemap-en.xml -> English home, editorial pages, taxonomy archives and posts
  *
  * @package FOOD
  */
@@ -13,52 +13,49 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
-/**
- * Keep the custom bilingual sitemap as the single sitemap system.
- */
+/** Keep the custom bilingual sitemap as the single sitemap system. */
 function food_disable_core_sitemaps() {
 	return false;
 }
 add_filter( 'wp_sitemaps_enabled', 'food_disable_core_sitemaps' );
 
-/**
- * Escape a value for XML output.
- */
+/** Escape a value for XML output. */
 function food_sitemap_xml_escape( $value ) {
 	return function_exists( 'esc_xml' )
 		? esc_xml( (string) $value )
 		: htmlspecialchars( (string) $value, ENT_QUOTES | ENT_XML1, 'UTF-8' );
 }
 
-/**
- * Return all published blog posts for one language.
- */
-function food_sitemap_posts( $language ) {
+/** Return the post-meta clause used to isolate one public language. */
+function food_sitemap_language_clause( $language ) {
 	$language = 'en' === $language ? 'en' : 'es';
-
 	if ( function_exists( 'food_language_query_clause' ) ) {
-		$language_clause = food_language_query_clause( $language );
-	} elseif ( 'en' === $language ) {
-		$language_clause = array(
+		return food_language_query_clause( $language );
+	}
+	if ( 'en' === $language ) {
+		return array(
 			'key'     => '_food_language',
 			'value'   => 'en',
 			'compare' => '=',
 		);
-	} else {
-		$language_clause = array(
-			'relation' => 'OR',
-			array(
-				'key'     => '_food_language',
-				'value'   => 'es',
-				'compare' => '=',
-			),
-			array(
-				'key'     => '_food_language',
-				'compare' => 'NOT EXISTS',
-			),
-		);
 	}
+	return array(
+		'relation' => 'OR',
+		array(
+			'key'     => '_food_language',
+			'value'   => 'es',
+			'compare' => '=',
+		),
+		array(
+			'key'     => '_food_language',
+			'compare' => 'NOT EXISTS',
+		),
+	);
+}
 
+/** Return all published blog posts for one language. */
+function food_sitemap_posts( $language ) {
+	$language = 'en' === $language ? 'en' : 'es';
 	return get_posts(
 		array(
 			'post_type'              => 'post',
@@ -70,15 +67,40 @@ function food_sitemap_posts( $language ) {
 			'no_found_rows'          => true,
 			'update_post_meta_cache' => false,
 			'update_post_term_cache' => false,
-			'meta_query'             => array( $language_clause ),
+			'meta_query'             => array( food_sitemap_language_clause( $language ) ),
 			'food_language_bypass'   => 1,
 		)
 	);
 }
 
-/**
- * Return the static/public editorial URLs for one language.
- */
+/** Return whether a taxonomy archive has at least one published post in a language. */
+function food_sitemap_term_has_posts( $taxonomy, $term_id, $language, $include_children = false ) {
+	$query = new WP_Query(
+		array(
+			'post_type'              => 'post',
+			'post_status'            => 'publish',
+			'posts_per_page'         => 1,
+			'fields'                 => 'ids',
+			'ignore_sticky_posts'    => true,
+			'no_found_rows'          => true,
+			'update_post_meta_cache' => false,
+			'update_post_term_cache' => false,
+			'meta_query'             => array( food_sitemap_language_clause( $language ) ),
+			'tax_query'              => array(
+				array(
+					'taxonomy'         => $taxonomy,
+					'field'            => 'term_id',
+					'terms'            => array( (int) $term_id ),
+					'include_children' => (bool) $include_children,
+				),
+			),
+			'food_language_bypass'   => 1,
+		)
+	);
+	return $query->have_posts();
+}
+
+/** Return the static/public editorial URLs for one language. */
 function food_sitemap_static_urls( $language ) {
 	$language = 'en' === $language ? 'en' : 'es';
 	$urls     = array();
@@ -96,9 +118,50 @@ function food_sitemap_static_urls( $language ) {
 	return array_values( array_unique( array_filter( $urls ) ) );
 }
 
-/**
- * Output the sitemap index containing exactly the Spanish and English maps.
- */
+/** Return category and topic archive URLs that contain published content in one language. */
+function food_sitemap_taxonomy_urls( $language ) {
+	$language = 'en' === $language ? 'en' : 'es';
+	$urls     = array();
+
+	$parent = get_category_by_slug( 'alimentos' );
+	if ( $parent instanceof WP_Term && food_sitemap_term_has_posts( 'category', $parent->term_id, $language, true ) ) {
+		$urls[] = 'en' === $language ? home_url( '/en/foods/' ) : home_url( '/alimentos/' );
+	}
+
+	if ( function_exists( 'food_family_definitions' ) ) {
+		$english_family_slugs = function_exists( 'food_english_family_slugs' ) ? food_english_family_slugs() : array();
+		foreach ( array_keys( food_family_definitions() ) as $slug ) {
+			$term = get_category_by_slug( $slug );
+			if ( ! $term instanceof WP_Term || ! food_sitemap_term_has_posts( 'category', $term->term_id, $language, false ) ) {
+				continue;
+			}
+			if ( 'en' === $language && isset( $english_family_slugs[ $slug ] ) ) {
+				$urls[] = home_url( '/en/foods/' . $english_family_slugs[ $slug ] . '/' );
+			} else {
+				$urls[] = home_url( '/alimentos/' . $slug . '/' );
+			}
+		}
+	}
+
+	if ( function_exists( 'food_topic_definitions' ) ) {
+		$english_topic_slugs = function_exists( 'food_english_topic_slugs' ) ? food_english_topic_slugs() : array();
+		foreach ( array_keys( food_topic_definitions() ) as $slug ) {
+			$term = get_term_by( 'slug', $slug, 'food_topic' );
+			if ( ! $term instanceof WP_Term || ! food_sitemap_term_has_posts( 'food_topic', $term->term_id, $language, false ) ) {
+				continue;
+			}
+			if ( 'en' === $language && isset( $english_topic_slugs[ $slug ] ) ) {
+				$urls[] = home_url( '/en/topics/' . $english_topic_slugs[ $slug ] . '/' );
+			} else {
+				$urls[] = home_url( '/tema/' . $slug . '/' );
+			}
+		}
+	}
+
+	return array_values( array_unique( array_filter( $urls ) ) );
+}
+
+/** Output the sitemap index containing exactly the Spanish and English maps. */
 function food_render_sitemap_index() {
 	status_header( 200 );
 	nocache_headers();
@@ -116,9 +179,7 @@ function food_render_sitemap_index() {
 	exit;
 }
 
-/**
- * Output one language-specific URL sitemap.
- */
+/** Output one language-specific URL sitemap. */
 function food_render_language_sitemap( $language ) {
 	$language = 'en' === $language ? 'en' : 'es';
 	$posts    = food_sitemap_posts( $language );
@@ -131,7 +192,8 @@ function food_render_language_sitemap( $language ) {
 	echo '<?xml version="1.0" encoding="UTF-8"?>' . "\n";
 	echo '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">' . "\n";
 
-	foreach ( food_sitemap_static_urls( $language ) as $url ) {
+	$public_urls = array_merge( food_sitemap_static_urls( $language ), food_sitemap_taxonomy_urls( $language ) );
+	foreach ( $public_urls as $url ) {
 		if ( isset( $seen[ $url ] ) ) {
 			continue;
 		}
@@ -161,10 +223,7 @@ function food_render_language_sitemap( $language ) {
 	exit;
 }
 
-/**
- * Serve the XML endpoints directly from the request path so they do not rely
- * on permalink rewrite state or a physical sitemap file in the web root.
- */
+/** Serve the XML endpoints directly from the request path. */
 function food_handle_sitemap_request( $wp ) {
 	if ( ! $wp instanceof WP ) {
 		return;
@@ -183,9 +242,7 @@ function food_handle_sitemap_request( $wp ) {
 }
 add_action( 'parse_request', 'food_handle_sitemap_request', 1 );
 
-/**
- * Advertise the sitemap index in WordPress' virtual robots.txt.
- */
+/** Advertise the sitemap index in WordPress' virtual robots.txt. */
 function food_sitemap_robots_txt( $output ) {
 	$sitemap = home_url( '/sitemap.xml' );
 	if ( false === strpos( $output, $sitemap ) ) {
