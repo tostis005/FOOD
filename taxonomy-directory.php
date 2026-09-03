@@ -24,8 +24,8 @@ $topic_descriptions_en = array(
 $page_label = $is_foods ? ( $english ? 'Foods' : 'Alimentos' ) : ( $english ? 'Topics' : 'Temas' );
 $page_title = $is_foods ? ( $english ? 'Explore by food' : 'Explora por alimento' ) : ( $english ? 'Explore by topic' : 'Explora por tema' );
 $page_intro = $is_foods
-	? ( $english ? 'Start with the food you are interested in and discover guides, comparisons and practical answers about its nutrition, quality, storage and cooking.' : 'Empieza por el alimento que te interesa y descubre guías, comparativas y respuestas prácticas sobre su nutrición, calidad, conservación y cocina.' )
-	: ( $english ? 'Explore Quinnoa through the question you want to answer, from nutrition and comparisons to storage, cooking, food safety and buying.' : 'Explora Quinnoa según la pregunta que quieras resolver: nutrición, comparativas, conservación, cocina, seguridad alimentaria, compra y otros aspectos prácticos de los alimentos.' );
+	? ( $english ? 'Quinnoa articles organized by food family, from meat, fish and dairy to fruit, grains, oils and other groups.' : 'Los artículos de Quinnoa organizados por familias de alimentos, desde carnes, pescados y lácteos hasta frutas, cereales, aceites y otros grupos.' )
+	: ( $english ? 'Quinnoa articles organized by topic, including nutrition, comparisons, storage, cooking, food safety, buying and other areas.' : 'Los artículos de Quinnoa organizados por tema, con contenidos sobre nutrición, comparativas, conservación, cocina, seguridad alimentaria, compra y otros ámbitos.' );
 ?>
 
 <div class="container archive-wrap directory-page-wrap">
