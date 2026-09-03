@@ -10,10 +10,10 @@ That file is the canonical editorial standard for Quinnoa. Do not rely on memory
 
 ## Mandatory topic master list
 
-Before creating any new numbered article, **read the canonical article sequence in `content/articles/TOPIC-MASTER-LIST.md` from branch `content/articles-161-165-bilingual-2026-09-03`**.
+Before creating any new numbered article, **read `content/articles/TOPIC-MASTER-LIST.md` from `main`**.
 
 Canonical GitHub reference:
-`https://github.com/tostis005/FOOD/blob/content/articles-161-165-bilingual-2026-09-03/content/articles/TOPIC-MASTER-LIST.md`
+`https://github.com/tostis005/FOOD/blob/main/content/articles/TOPIC-MASTER-LIST.md`
 
 This master list contains the approved sequence of **635 article topics** and is the source of truth for article numbering and topic order.
 
