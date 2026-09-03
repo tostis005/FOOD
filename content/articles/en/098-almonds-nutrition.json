@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-098-almonds-nutrition",
+  "article_number": 98,
+  "translation_group": "098-almonds-nutrition",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and 1-ounce serving",
+  "title": "Almonds: protein, fiber, fat and calories",
+  "slug": "almonds-nutrition",
+  "seo": {
+    "title": "Almond nutrition: protein, fiber, fat and calories per serving",
+    "meta_description": "1 ounce of almonds provides about 164 calories, 6 g protein, 3.5 g fiber and 14 g fat, mostly monounsaturated, plus vitamin E and magnesium.",
+    "search_intent": "Look up almond nutrition and understand the difference between per-100-g values and a realistic serving."
+  },
+  "excerpt": "Almonds are concentrated foods: 100 g provides about 579 calories, 21 g of protein, 12.5 g of fiber and 50 g of fat. A more realistic 1-ounce serving provides about 164 calories, 6 g of protein, 3.5 g of fiber and 14 g of fat, mostly monounsaturated. Almonds are also notable for vitamin E and magnesium.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["almonds"],
+    "article_types": ["nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Almonds can accurately be described as high in protein, high in fat and high in calories at the same time. They contain very little water, so nutrients are concentrated into a small weight.</p><p>The clean way to understand them is to separate the per-100-g comparison from <strong>a typical 1-ounce serving</strong>.</p><h2>What one serving of almonds provides</h2><table><thead><tr><th>Nutrient</th><th>Per 100 g</th><th>Per 1 oz</th></tr></thead><tbody><tr><td>Calories</td><td>~579</td><td>~164</td></tr><tr><td>Protein</td><td>~21.2 g</td><td>~6 g</td></tr><tr><td>Fat</td><td>~49.9 g</td><td>~14 g</td></tr><tr><td>Fiber</td><td>~12.5 g</td><td>~3.5 g</td></tr><tr><td>Total carbohydrate</td><td>~21.6 g</td><td>~6.1 g</td></tr></tbody></table><p>The visual jump from 579 calories to 164 calories shows why 100 g should not be read as if it were “a handful.” One hundred grams is more than 3.5 one-ounce servings.</p><h2>The fat is mostly monounsaturated</h2><p>Of the roughly 50 g of fat per 100 g, about 32 g is monounsaturated and around 12 g polyunsaturated; saturated fat is roughly 3.8 g.</p><p>In a 1-ounce serving, that works out to about 9 g of monounsaturated fat and just over 1 g of saturated fat.</p><h2>Are almonds really a good protein source?</h2><p>At 21 g per 100 g, protein concentration is substantial. Serving size changes the interpretation: one ounce provides about 6 g.</p><p>For comparison, one large egg also provides around 6–7 g of protein with roughly 70–80 calories. Cooked chicken breast contains about 31 g per 100 g. Almonds contribute useful protein but are not usually the most protein-efficient anchor for a meal.</p><h2>Fiber is one of their strongest features</h2><p>At about 12.5 g per 100 g, almonds rank among the highest-fiber common nuts. One ounce provides roughly 3.5 g.</p><p>That is a useful contribution from a small serving, although legumes, fruit, vegetables and whole grains still do much of the work in a high-fiber diet.</p><h2>Vitamin E and magnesium stand out</h2><p>One hundred grams of almonds provides roughly 25 mg of vitamin E and about 270 mg of magnesium. A 1-ounce serving supplies around 7 mg of vitamin E and 75–80 mg of magnesium.</p><p>Almonds also contain calcium, phosphorus, manganese and other minerals, though food value is never determined by one micronutrient number alone.</p><h2>Raw vs. roasted: the basic profile stays recognizable</h2><p>Roasting lowers some moisture and can change small amounts of heat-sensitive compounds, but plain roasted almonds remain nutritionally close to raw almonds. Added salt, sugar, honey, chocolate or oil often creates the larger practical difference.</p><h2>The useful takeaway</h2><p><strong>One ounce provides about 164 calories, 6 g of protein, 3.5 g of fiber and 14 g of mostly unsaturated fat.</strong> Almonds are nutritionally rich and energy-dense at the same time; those are two parts of the same profile.</p>",
+  "faq": [
+    {"question": "How much protein is in 1 ounce of almonds?", "answer": "About 6 g of protein."},
+    {"question": "How much fiber is in a serving of almonds?", "answer": "One ounce provides about 3.5 g of fiber."},
+    {"question": "How many calories are in 1 ounce of almonds?", "answer": "About 164 calories, with small variation by variety and roasting."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Calories, macronutrients, vitamin E and minerals in almonds."}
+  ],
+  "image": {
+    "concept": "One-ounce portion of almonds beside a small kitchen scale and whole almonds, clean editorial food photography, no text.",
+    "alt": "One serving of almonds showing their concentrated nutrition"
+  },
+  "status": "publish"
+}
