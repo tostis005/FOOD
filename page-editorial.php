@@ -8,7 +8,7 @@ $page     = isset( $pages[ $key ][ $language ] ) ? $pages[ $key ][ $language ] :
 
 if ( $page && 'about' === $key ) {
 	if ( 'en' === $language ) {
-		$page['intro'] = 'Quinnoa is a digital publication devoted to food and the culture around it. We cover nutrition, quality, storage, food safety and cooking with an accessible and rigorous approach.';
+		$page['intro'] = 'Quinnoa is a digital space for anyone who wants to understand food better. We look at foods themselves and at the questions that surround them, with a clear and rigorous approach.';
 		$page['sections'] = array(
 			array(
 				'title' => 'Food in all its variety',
@@ -21,7 +21,7 @@ if ( $page && 'about' === $key ) {
 				'title' => 'From origin to table',
 				'paragraphs' => array(
 					'Good food knowledge goes beyond nutrition labels. It also includes understanding how a product is made, how to recognize its qualities, how it changes over time and what happens to it in the kitchen.',
-					'Quinnoa brings these perspectives together in a publication designed for curious readers who enjoy knowing more about what they eat.',
+					'Quinnoa brings these perspectives together for curious readers who enjoy knowing more about what they eat.',
 				),
 			),
 			array(
@@ -32,7 +32,7 @@ if ( $page && 'about' === $key ) {
 			),
 		);
 	} else {
-		$page['intro'] = 'Quinnoa es una publicación digital dedicada a los alimentos y a la cultura que los rodea. Hablamos de nutrición, calidad, conservación, seguridad alimentaria y cocina con un enfoque cercano y riguroso.';
+		$page['intro'] = 'Quinnoa es un espacio digital para quienes quieren entender mejor los alimentos. Hablamos de los propios alimentos y de las preguntas que los rodean, con un enfoque cercano, claro y riguroso.';
 		$page['sections'] = array(
 			array(
 				'title' => 'Los alimentos en toda su variedad',
@@ -45,49 +45,13 @@ if ( $page && 'about' === $key ) {
 				'title' => 'Del origen a la mesa',
 				'paragraphs' => array(
 					'Conocer un alimento va mucho más allá de leer una etiqueta nutricional. También significa entender cómo se elabora, cómo reconocer sus cualidades, cómo evoluciona con el tiempo y qué ocurre cuando llega a la cocina.',
-					'Quinnoa reúne esas distintas miradas en una publicación pensada para quienes sienten curiosidad por saber más sobre lo que comen.',
+					'Quinnoa reúne esas distintas miradas para quienes sienten curiosidad por saber más sobre lo que comen.',
 				),
 			),
 			array(
 				'title' => 'Alcance editorial',
 				'paragraphs' => array(
 					'Quinnoa ofrece información divulgativa de carácter general sobre alimentación. Sus contenidos no sustituyen el consejo médico individual, el diagnóstico ni el tratamiento. En cuestiones de salud y seguridad alimentaria, tienen prioridad las indicaciones de profesionales cualificados y organismos competentes.',
-				),
-			),
-		);
-	}
-}
-
-if ( $page && 'methodology' === $key ) {
-	if ( 'en' === $language ) {
-		$page['intro'] = 'Quinnoa aims to publish reliable, understandable and useful information about food.';
-		$page['sections'] = array(
-			array(
-				'title' => 'Sources and editorial judgment',
-				'paragraphs' => array(
-					'For nutrition and food-safety topics, we give particular weight to public authorities, recognized food-composition databases, scientific institutions and relevant research. For quality, production and cooking topics, we also use technical and specialist sources appropriate to the subject.',
-				),
-			),
-			array(
-				'title' => 'Accuracy and updates',
-				'paragraphs' => array(
-					'Food knowledge changes over time. We review and update published information when important data, official guidance or established evidence changes, and we correct errors when they are identified.',
-				),
-			),
-		);
-	} else {
-		$page['intro'] = 'En Quinnoa buscamos publicar información fiable, comprensible y útil sobre alimentación.';
-		$page['sections'] = array(
-			array(
-				'title' => 'Fuentes y criterio editorial',
-				'paragraphs' => array(
-					'En nutrición y seguridad alimentaria damos especial importancia a organismos públicos, bases de datos reconocidas de composición de alimentos, instituciones científicas y literatura relevante. Para temas de calidad, elaboración y cocina recurrimos también a fuentes técnicas y especializadas adecuadas a cada materia.',
-				),
-			),
-			array(
-				'title' => 'Precisión y actualización',
-				'paragraphs' => array(
-					'El conocimiento sobre alimentación evoluciona. Revisamos y actualizamos la información publicada cuando cambian datos importantes, recomendaciones oficiales o evidencias consolidadas, y corregimos los errores que detectamos.',
 				),
 			),
 		);
