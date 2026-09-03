@@ -26,7 +26,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          cat > /tmp/verify-css.mjs <<'NODE'
+          cat > verify-css.mjs <<'NODE'
           import { chromium } from 'playwright-core';
           import fs from 'node:fs';
 
@@ -75,7 +75,7 @@ jobs:
           console.log(JSON.stringify(result));
           if (!result.same) process.exit(1);
           NODE
-          node /tmp/verify-css.mjs
+          node verify-css.mjs
 
       - name: Verify live theme stylesheet count
         shell: bash
