@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "en-160-raw-vs-cooked-spinach",
+  "article_number": 160,
+  "translation_group": "160-raw-vs-cooked-spinach",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA raw/cooked spinach composition",
+  "title": "Raw vs. cooked spinach: nutrients and differences",
+  "slug": "raw-vs-cooked-spinach",
+  "seo": {"title":"Raw vs. cooked spinach: nutrition compared","meta_description":"Cooking collapses spinach volume and concentrates minerals per 100 g, while vitamin C and folate can decline. Cooking water and oxalates affect the practical comparison.","search_intent":"Compare raw and cooked spinach and understand why nutrient numbers change so much."},
+  "excerpt": "The biggest difference between raw and cooked spinach is volume. One hundred grams raw is a large bowl; 100 g cooked is compact. Iron and calcium therefore look higher per 100 g after cooking, while vitamin C and folate can fall with heat and water. Boiling can also remove some soluble oxalate into the cooking water.",
+  "taxonomy": {"food_family":"vegetables","food_subcategories":["spinach","leafy-greens"],"article_types":["comparison","food-science"],"primary_article_type":"comparison"},
+  "content_html": "<p>A bowl overflowing with raw spinach can collapse into a few spoonfuls after cooking. That change in volume explains much of what looks dramatic in a 100-gram nutrition table.</p><table><thead><tr><th>Approx. per 100 g</th><th>Raw</th><th>Boiled/drained</th></tr></thead><tbody><tr><td>Iron</td><td>~2.7 mg</td><td>~3.5–3.7 mg</td></tr><tr><td>Calcium</td><td>~100 mg</td><td>~130–140 mg</td></tr><tr><td>Vitamin C</td><td>~28 mg</td><td>~10 mg</td></tr><tr><td>Fiber</td><td>~2.2 g</td><td>~2.4 g</td></tr></tbody></table><p>Cooking did not create iron. Water balance, volume and the specific samples used in food databases explain much of the concentration change.</p><h2>A cooked serving contains far more leaves</h2><p>Thirty grams of raw spinach supplies only around 0.8 mg iron. A 180 g cooked portion can exceed 6 mg because that serving represents a much larger quantity of collapsed leaves.</p><h2>Sensitive vitamins pay a heat cost</h2><p>Vitamin C and folate can be degraded or lost into cooking water. Boiling and draining generally loses more water-soluble nutrients than methods using less water.</p><h2>Oxalates complicate the mineral numbers</h2><p>Spinach is high in oxalates, which reduce mineral bioavailability. Boiling can transfer some soluble oxalate into discarded water, but a high calcium or iron number still does not equal equally high absorption.</p><h2>The takeaway</h2><p>Raw spinach better preserves some sensitive vitamins and adds volume; cooked spinach lets you eat much more leaf in a compact serving. Both are useful, and serving weight explains much of the nutritional difference.</p>",
+  "faq": [{"question":"Why does cooked spinach have more iron per 100 g?","answer":"Mostly because water, volume and concentration change. Cooking does not create iron."},{"question":"Does cooking spinach reduce oxalate?","answer":"Boiling can move some soluble oxalate into the cooking water, which is then discarded."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Raw and cooked spinach nutrient values."}],
+  "image": {"concept":"Large bowl of raw spinach beside a small compact serving of cooked spinach representing similar leaves, no text.","alt":"Raw spinach compared with cooked spinach"},
+  "status":"publish"
+}

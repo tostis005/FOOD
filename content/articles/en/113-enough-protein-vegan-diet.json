@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "en-113-enough-protein-vegan-diet",
+  "article_number": 113,
+  "translation_group": "113-enough-protein-vegan-diet",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; adult protein RDA and USDA composition",
+  "title": "How to get enough protein on a vegan diet",
+  "slug": "how-to-get-enough-protein-vegan-diet",
+  "seo": {
+    "title": "How to get enough protein on a vegan diet",
+    "meta_description": "Legumes, tofu, tempeh, textured soy protein, seitan, and soy milk can cover vegan protein needs. Learn practical targets and meal structure.",
+    "search_intent": "Learn how to meet protein needs on a vegan diet with realistic portions and a sample day."
+  },
+  "excerpt": "A vegan diet can meet protein needs without perfect protein combinations at every meal. The U.S. adult RDA is 0.8 g/kg/day, about 55 g for a 150 lb adult. The simplest strategy is to include 3–4 strong protein foods each day, such as tofu, tempeh, legumes, textured soy protein, seitan, or soy milk.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": ["vegan", "plant-protein"],
+    "article_types": ["nutrition-explainer", "practical-how-to"],
+    "primary_article_type": "practical-how-to"
+  },
+  "content_html": "<p>Vegan protein usually becomes a problem not because plants “have no protein,” but because some meals are built from vegetables, rice, and a little avocado with <strong>no central protein food</strong>. The fix is structural rather than complicated.</p><h2>Start with a useful baseline</h2><p>The U.S. adult RDA is 0.8 g protein per kilogram of body weight per day, roughly 0.36 g per pound. That is about 48 g at 132 lb, 55 g at 150 lb, and 64 g at 176 lb.</p><p>Training, age, pregnancy, lactation, and medical circumstances can raise needs, but the RDA gives scale to the problem.</p><h2>The foods that actually move the total</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Protein</th></tr></thead><tbody><tr><td>Tempeh</td><td>5.3 oz / 150 g</td><td>~30 g</td></tr><tr><td>Firm tofu</td><td>5.3 oz / 150 g</td><td>~18–26 g</td></tr><tr><td>Cooked lentils</td><td>~1 cup / 200 g</td><td>~18 g</td></tr><tr><td>Edamame</td><td>5.3 oz / 150 g</td><td>~18 g</td></tr><tr><td>Seitan</td><td>3.5 oz / 100 g</td><td>~20–25 g</td></tr><tr><td>Soy milk</td><td>1 cup</td><td>~7–9 g</td></tr><tr><td>Hemp seeds</td><td>1 oz</td><td>~9 g</td></tr></tbody></table><p>Two or three of these foods across the day already cover a large share of a typical target.</p><h2>A vegan day can exceed 70 grams without protein powder</h2><p>Breakfast with a cup of soy milk, oatmeal, and seeds can approach 20 g. Lunch with a cup of lentils contributes about 18 g. Dinner with 5.3 oz firm tofu can add 20–25 g. Bread, pasta, grains, nuts, and vegetables contribute additional grams, bringing the day into the <strong>65–75 g range or higher</strong>.</p><h2>Vegetables should not carry the protein goal</h2><p>Broccoli, spinach, and peas do contain protein, but the volume needed to reach 20 g with many vegetables would be large. They are valuable foods, but they work better alongside tofu, legumes, or seitan than in place of them.</p><h2>You do not need to combine amino acids in every bowl</h2><p>Legumes and grains have complementary amino-acid patterns, but they do not have to be eaten together at every meal. A varied diet across the day provides different amino acids and allows the body to use the overall pool.</p><h2>Soy makes vegan protein much easier</h2><p>Tofu, tempeh, edamame, soy milk, and textured soy protein are especially useful because soy protein has high quality and these foods can deliver substantial amounts per serving.</p><h2>Seitan is concentrated but should not be the only source</h2><p>Seitan can exceed 20 g protein per 100 g, but wheat gluten is relatively low in lysine. Eating legumes or soy elsewhere in the day improves the overall amino-acid pattern without precise meal-by-meal combining.</p><h2>Supplements are a tool, not a requirement</h2><p>Soy, pea, and blended protein powders can be convenient for athletes or people with low appetite, but a food-based vegan diet can meet moderate protein targets without them.</p><h2>The practical rule</h2><p><strong>Build each main meal around a strong protein source: legumes, tofu/tempeh, textured soy protein, or seitan.</strong> Use soy milk, nuts, and seeds to add more. With that structure, protein stops being something you need to chase all day.</p>",
+  "faq": [
+    {"question": "Is it hard to get enough protein as a vegan?", "answer": "Not necessarily. Legumes, tofu, tempeh, seitan, and soy foods can meet the needs of most healthy adults when included regularly."},
+    {"question": "Do beans and rice need to be eaten in the same meal?", "answer": "No. Variety across the day is enough; essential amino acids do not need to be perfectly paired in each plate."},
+    {"question": "Do vegans need protein powder?", "answer": "Not by definition. Protein powder can be convenient for high needs or low appetite, but it is not required for a moderate protein target."}
+  ],
+  "sources": [
+    {"name": "National Academies — Dietary Reference Intakes", "url": "https://www.nationalacademies.org/", "note": "Adult protein RDA context."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein values for vegan foods."},
+    {"name": "FAO — Dietary protein quality evaluation", "url": "https://www.fao.org/3/i3124e/i3124e.pdf", "note": "Protein quality and complementary amino-acid patterns."}
+  ],
+  "image": {
+    "concept": "Vegan meals with tofu, lentils, tempeh, soy milk, oats, and seeds arranged across a day, clean editorial photography without text.",
+    "alt": "High-protein vegan foods across several meals"
+  },
+  "status": "publish"
+}

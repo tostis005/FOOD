@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "en-118-canned-tuna-frequently",
+  "article_number": 118,
+  "translation_group": "118-canned-tuna-frequently",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; FDA/EPA mercury advice and USDA composition",
+  "title": "Is it healthy to eat canned tuna frequently?",
+  "slug": "is-it-healthy-to-eat-canned-tuna-frequently",
+  "seo": {
+    "title": "Is it healthy to eat canned tuna often?",
+    "meta_description": "Canned tuna is high in protein, but mercury varies by type. FDA lists canned light as a Best Choice and albacore as a Good Choice for pregnancy-related guidance.",
+    "search_intent": "Understand how often canned tuna can be eaten and how canned light, albacore, mercury, sodium, and oil differ."
+  },
+  "excerpt": "Canned tuna can be a healthy protein food, but the type matters. FDA/EPA lists canned light tuna, usually skipjack, as a Best Choice and albacore/white tuna as a Good Choice because albacore typically contains about three times more mercury. For people who are pregnant or breastfeeding, canned light can fit 2–3 fish servings per week, while albacore is limited to one serving in a week.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": ["tuna", "canned-fish"],
+    "article_types": ["health-daily-consumption", "food-safety", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Canned tuna is convenient, lean, and protein-dense, but <strong>“tuna” is not one mercury level</strong>. Canned light and albacore come from different tuna populations and are placed in different FDA/EPA categories.</p><h2>Canned light and albacore are not equivalent</h2><p>FDA/EPA classifies canned light tuna, which most often includes skipjack, as a <strong>Best Choice</strong>. Albacore or white tuna is a <strong>Good Choice</strong> and typically contains about three times as much mercury as canned light tuna.</p><p>For people who are pregnant, may become pregnant, or are breastfeeding, FDA/EPA advice allows 2–3 servings per week from Best Choices. If albacore is chosen, the advice is one serving that week and no other fish.</p><h2>What about adults outside those groups?</h2><p>The pregnancy and child chart is designed for mercury-sensitive groups, not as a universal adult maximum. Still, the same principle is useful for everyone: <strong>vary seafood rather than using tuna as the only fish every day</strong>.</p><h2>A can can provide a large amount of protein</h2><p>Drained canned tuna commonly provides about 25–27 g protein per 100 g. A can with 3–4 oz drained tuna can therefore contribute roughly 22–30 g protein.</p><p>It is efficient protein, but rotating salmon, sardines, trout, shrimp, and other seafood changes omega-3, calcium, vitamin D, and mercury exposure.</p><h2>Water-packed and oil-packed change calories</h2><p>Water-packed tuna is very lean. Oil-packed tuna retains some oil even after draining, which raises fat and calories. That is not automatically unhealthy, but the two products are not calorie-equivalent.</p><h2>Sodium varies by brand</h2><p>Canned fish can also contribute substantial sodium. Low-sodium versions and label comparisons matter more when tuna is eaten often.</p><h2>The practical rule</h2><p><strong>Canned tuna can appear regularly, but make seafood varied.</strong> Canned light is the lower-mercury choice compared with albacore, while sodium and packing medium determine additional differences between cans.</p>",
+  "faq": [
+    {"question": "Can I eat canned tuna every day?", "answer": "Using tuna as your only fish every day is not ideal. Mercury varies by type, and seafood variety gives a broader nutrient profile."},
+    {"question": "Which canned tuna has less mercury?", "answer": "Canned light tuna generally has less mercury. FDA says albacore typically contains about three times more mercury than canned light tuna."},
+    {"question": "Is tuna in water healthier than tuna in oil?", "answer": "Water-packed tuna is lower in fat and calories. Oil-packed tuna can still fit a healthy diet, but it retains additional oil and energy."}
+  ],
+  "sources": [
+    {"name": "FDA/EPA — Advice about Eating Fish", "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish", "note": "Mercury categories for canned light, albacore, yellowfin, and other fish."},
+    {"name": "FDA — Questions and Answers about Eating Fish", "url": "https://www.fda.gov/food/consumers/questions-answers-fdaepa-advice-about-eating-fish-those-who-might-become-or-are-pregnant-or", "note": "Canned light 2–3 servings per week and albacore mercury comparison for sensitive groups."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein, calories, fat, and sodium in canned tuna."}
+  ],
+  "image": {
+    "concept": "Open cans labeled visually by light tuna and white tuna without brand text, beside salmon and sardines for variety, clean editorial food photography.",
+    "alt": "Different canned tuna types alongside other seafood"
+  },
+  "status": "publish"
+}

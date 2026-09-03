@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-039-highest-potassium-foods",
+  "article_number": 39,
+  "translation_group": "039-highest-potassium-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition and NIH ODS potassium context",
+  "title": "Foods Highest in Potassium: It Is Not Just Bananas",
+  "slug": "highest-potassium-foods",
+  "seo": {
+    "title": "Foods Highest in Potassium: Ranking by Serving",
+    "meta_description": "Potatoes, beans, greens, fish, yogurt and avocado can provide as much or more potassium per serving than a banana.",
+    "search_intent": "Compare potassium-rich foods by realistic serving and put the banana's reputation in context."
+  },
+  "excerpt": "Bananas are a good potassium source, but they are not exceptional: a medium potato, a cup of beans or a serving of some cooked greens and fish can provide considerably more. The serving on the plate matters more than the food's reputation.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>The banana has become almost synonymous with potassium. The association is not wrong, but it gives bananas more nutritional celebrity than their actual ranking supports.</p><p><strong>Potatoes, beans, greens, fish, yogurt, avocado and dried fruit</strong> can all contribute substantial amounts. Potassium is spread widely across foods, so the overall pattern matters more than one famous example.</p><h2>Serving size changes the ranking</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Potassium, approx.</th></tr></thead><tbody><tr><td>Baked potato with skin</td><td>1 medium</td><td>~900 mg</td></tr><tr><td>Cooked spinach</td><td>1 cup</td><td>~840 mg</td></tr><tr><td>Cooked salmon</td><td>5 oz</td><td>~750–900 mg</td></tr><tr><td>Cooked lentils</td><td>1 cup</td><td>~730 mg</td></tr><tr><td>Avocado</td><td>~3.5 oz</td><td>~485 mg</td></tr><tr><td>Banana</td><td>1 medium</td><td>~420 mg</td></tr><tr><td>Plain yogurt</td><td>7 oz</td><td>~300–500 mg</td></tr></tbody></table><p>A medium potato can provide roughly twice as much potassium as a medium banana. That does not make the banana a bad source; it simply means its reputation is not the same thing as first place.</p><h2>Potatoes stand out partly because the serving is large</h2><p>Per 100 grams, a potato does not look extraordinary. But a medium potato can weigh 6–7 ounces and approach 900 mg of potassium. Portion size changes the practical result.</p><p>Boiling and discarding the water can reduce potassium, which matters for people who have been medically advised to limit it, while baking with the skin retains more.</p><h2>Beans add potassium together with fiber and protein</h2><p>A cup of cooked lentils provides roughly 700–750 mg. Beans and soy foods can also supply several hundred milligrams per serving. Their practical advantage is that the potassium comes with fiber and plant protein.</p><h2>Dried fruit is concentrated because water has been removed</h2><p>Dried apricots, prunes and raisins can look extremely high in potassium per 100 grams, but a realistic serving is much smaller. Water loss concentrates potassium, sugar and calories at the same time.</p><h2>Fish and dairy contribute too</h2><p>A 5-ounce serving of salmon can provide roughly 750–900 mg depending on species and preparation. A serving of yogurt can add a few hundred milligrams. Potassium does not have to come only from fruits and vegetables.</p><h2>More potassium is not automatically better for everyone</h2><p>For healthy people, a potassium-rich diet usually reflects a varied intake of minimally processed foods. People with kidney disease or those taking certain medications, however, may need individualized potassium limits.</p><p>Salt substitutes containing potassium chloride deserve particular care because they can deliver large amounts in a small volume.</p><h2>The useful rule</h2><p>Bananas provide potassium, but they do not own the nutrient. <strong>A diet that regularly includes potatoes, beans, vegetables, fruit, fish and dairy can contribute far more potassium than relying on one famous food.</strong></p>",
+  "faq": [
+    {"question": "What has more potassium than a banana?", "answer": "A medium baked potato, a cup of cooked lentils or a cup of cooked spinach can each provide substantially more potassium than a medium banana."},
+    {"question": "How much potassium is in a banana?", "answer": "A medium banana provides roughly 400–450 mg."},
+    {"question": "Can too much potassium be a problem?", "answer": "Yes for some people with kidney disease or certain medications; potassium intake may need to be individualized."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Food nutrient composition."},
+    {"name": "NIH Office of Dietary Supplements — Potassium", "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/", "note": "Food sources and cautions for kidney disease and salt substitutes."}
+  ],
+  "image": {
+    "concept": "A baked potato, lentils, cooked spinach, salmon, avocado, banana and yogurt arranged on a table, clean editorial food photography, no text.",
+    "alt": "A variety of potassium-rich foods"
+  },
+  "status": "publish"
+}

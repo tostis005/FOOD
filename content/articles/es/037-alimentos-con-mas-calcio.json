@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-037-alimentos-con-mas-calcio",
+  "article_number": 37,
+  "translation_group": "037-highest-calcium-foods",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y contexto de absorción y fortificación NIH ODS",
+  "title": "Los alimentos con más calcio: lácteos, pescado, tofu y fuentes vegetales",
+  "slug": "alimentos-con-mas-calcio",
+  "seo": {
+    "title": "Alimentos con más calcio: ranking por ración",
+    "meta_description": "Yogur, queso, leche, sardinas con espina y tofu con calcio pueden aportar 250–400 mg por ración. Semillas y verduras también suman.",
+    "search_intent": "Comparar fuentes de calcio por ración y explicar por qué fortificación, espinas comestibles y absorción cambian la lectura."
+  },
+  "excerpt": "Yogur, leche, queso, sardinas con espina y tofu elaborado con sales de calcio pueden aportar alrededor de 250–400 mg por ración. Las semillas y algunas verduras también contienen calcio, pero no siempre se comen en cantidades comparables ni se absorben igual.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>El calcio suele asociarse con la leche, pero una comparación real incluye alimentos muy distintos: yogur, queso, sardinas con espina, tofu coagulado con calcio, bebidas fortificadas, semillas y verduras.</p><p>La pregunta útil no es solo quién tiene más por 100 g. <strong>Importa cuánto calcio aporta una ración normal, si el alimento está fortificado y qué parte puede absorberse.</strong></p><h2>Cuánto calcio aporta una ración habitual</h2><p>En la siguiente tabla se comparan raciones que sí podrían aparecer en una comida.</p><table><thead><tr><th>Alimento</th><th>Ración</th><th>Calcio aprox.</th></tr></thead><tbody><tr><td>Yogur natural bajo en grasa</td><td>225 g</td><td>415 mg</td></tr><tr><td>Mozzarella parcialmente desnatada</td><td>42 g</td><td>333 mg</td></tr><tr><td>Sardinas en conserva con espina</td><td>85 g</td><td>325 mg</td></tr><tr><td>Leche</td><td>240 ml</td><td>275–300 mg</td></tr><tr><td>Bebida de soja enriquecida</td><td>240 ml</td><td>~300 mg</td></tr><tr><td>Tofu firme con sulfato cálcico</td><td>½ taza</td><td>~250 mg</td></tr><tr><td>Chía</td><td>1 cucharada</td><td>76 mg</td></tr></tbody></table><p>En una comida normal, las diferencias entre leche, sardinas y tofu con calcio son mucho menores de lo que sugeriría un ranking por 100 g. Todos pueden aportar varios cientos de miligramos.</p><h2>El queso concentra calcio, pero la ración es pequeña</h2><p>Quesos curados como parmesano pueden superar 1.000 mg de calcio por 100 g. Esa cifra es alta porque el queso tiene poca agua y concentra sólidos lácteos. Una ración de 30 g se mueve más cerca de 300–350 mg, todavía mucho, pero no 1.000 mg.</p><p>Además, un queso curado puede aportar bastante sodio y grasa saturada. El calcio es una ventaja nutricional, no una razón para ignorar el resto del alimento.</p><h2>Las sardinas aportan calcio gracias a la espina</h2><p>Las sardinas en conserva con espinas blandas y comestibles rondan 325 mg por 85 g. Si se retiran las espinas, se pierde buena parte de esa ventaja. Lo mismo ocurre con algunos salmones en conserva que incluyen huesos blandos.</p><h2>Con tofu, el coagulante cambia completamente el dato</h2><p>Un tofu elaborado con sulfato cálcico puede aportar alrededor de 250 mg por media taza. Otro tofu coagulado con sales diferentes puede contener mucho menos. Por eso en este alimento la etiqueta es más fiable que asumir una cifra genérica.</p><h2>Las bebidas vegetales pueden igualar a la leche si están enriquecidas</h2><p>Una bebida de soja fortificada suele rondar 300 mg de calcio por taza, muy cerca de la leche. La diferencia es que ese calcio ha sido añadido y puede depositarse en el fondo del envase. Agitar antes de servir ayuda a que la concentración sea la esperada.</p><h2>No todo el calcio vegetal se absorbe igual</h2><p>Verduras como kale, bok choy o brócoli aportan menos calcio por ración que los lácteos, pero su calcio puede tener buena disponibilidad. La espinaca contiene bastante calcio total y, al mismo tiempo, mucho oxalato, que reduce su absorción.</p><p>Por eso usar la espinaca como ejemplo de ‘la verdura con más calcio’ sin hablar de absorción puede resultar engañoso.</p><h2>Las semillas son concentradas, pero la ración cambia la lectura</h2><p>La chía ronda 630 mg de calcio por 100 g, una cifra muy alta. Una cucharada de unos 12 g aporta alrededor de 76 mg. Es una contribución útil, pero una ración de yogur aporta más de cinco veces esa cantidad.</p><h2>La idea práctica</h2><p>Para sumar calcio de forma consistente, busca alimentos que aporten <strong>unos 200–400 mg en la cantidad que realmente comes</strong>: lácteos, sardinas con espina, tofu con calcio o bebidas vegetales fortificadas. Semillas y verduras pueden completar el total, pero su papel se entiende mejor por ración que por 100 g.</p>",
+  "faq": [
+    {"question": "¿Qué alimentos tienen más calcio aparte de la leche?", "answer": "Yogur, queso, sardinas con espina, tofu elaborado con sulfato cálcico y bebidas vegetales fortificadas pueden aportar varios cientos de miligramos por ración."},
+    {"question": "¿La chía tiene más calcio que la leche?", "answer": "Por 100 g la chía concentra mucho más, pero una cucharada aporta unos 76 mg, frente a unos 275–300 mg de 240 ml de leche."},
+    {"question": "¿Todo el tofu tiene mucho calcio?", "answer": "No. Depende del coagulante. El tofu elaborado con sulfato cálcico puede ser muy rico en calcio; otros tipos contienen bastante menos."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición nutricional de los alimentos."},
+    {"name": "NIH Office of Dietary Supplements — Calcium", "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/", "note": "Fuentes alimentarias, fortificación y diferencias de absorción."}
+  ],
+  "image": {
+    "concept": "Yogur, leche, sardinas con espina, tofu, chía y verduras verdes en una composición editorial limpia, sin texto.",
+    "alt": "Alimentos variados ricos en calcio"
+  },
+  "status": "publish"
+}

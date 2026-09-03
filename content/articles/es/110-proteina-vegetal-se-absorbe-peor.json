@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-110-proteina-vegetal-se-absorbe-peor",
+  "article_number": 110,
+  "translation_group": "110-plant-protein-absorption",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; criterios FAO de calidad proteica y digestibilidad",
+  "title": "¿La proteína vegetal se absorbe peor que la animal?",
+  "slug": "proteina-vegetal-se-absorbe-peor",
+  "seo": {
+    "title": "¿La proteína vegetal se absorbe peor que la animal?",
+    "meta_description": "En promedio, muchas proteínas vegetales se digieren algo peor y pueden tener menos de algún aminoácido esencial, pero la diferencia depende mucho del alimento y del procesado.",
+    "search_intent": "Entender si la proteína vegetal se digiere y aprovecha peor que la animal y qué significa eso en la práctica."
+  },
+  "excerpt": "En promedio, muchas proteínas vegetales tienen una digestibilidad algo menor que las animales y algunas aportan menos de uno o varios aminoácidos esenciales. Pero no existe un único porcentaje de “absorción vegetal”: soja, tofu, tempeh, legumbres, cereales y proteínas aisladas se comportan de forma distinta. Una dieta vegetal variada puede cubrir perfectamente las necesidades de proteína.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": ["plant-protein", "protein"],
+    "article_types": ["nutrition-explainer", "myths-faq"],
+    "primary_article_type": "nutrition-explainer"
+  },
+  "content_html": "<p>Decir que la proteína vegetal “se absorbe peor” mezcla varias cosas distintas. <strong>La diferencia real está en cuánto se digiere cada proteína y en qué proporción aporta los aminoácidos esenciales</strong>, no en que el cuerpo rechace automáticamente la proteína de las plantas.</p><h2>Absorción, digestibilidad y calidad no son exactamente lo mismo</h2><p>Primero hay que digerir la proteína hasta aminoácidos y pequeños péptidos. Después se absorben en el intestino y el organismo los utiliza para fabricar sus propias proteínas. Una proteína puede digerirse bien y aun así ser relativamente baja en un aminoácido esencial concreto.</p><p>Por eso FAO evalúa calidad proteica con métodos que combinan digestibilidad y perfil de aminoácidos, como DIAAS, en lugar de usar un único porcentaje de absorción.</p><h2>Por qué muchas proteínas vegetales tienen menor digestibilidad</h2><p>Las células vegetales tienen paredes de fibra y pueden contener fitatos, inhibidores de proteasas y otros componentes que dificultan parcialmente el acceso de las enzimas digestivas. En alimentos animales la matriz suele ofrecer menos barreras de este tipo.</p><p>La diferencia no es fija. Cocer legumbres, triturar, fermentar, germinar o aislar la proteína puede aumentar mucho la digestibilidad.</p><h2>No todas las proteínas vegetales son iguales</h2><p>La proteína de soja tiene una calidad elevada y un perfil de aminoácidos especialmente completo. Las proteínas aisladas de soja o guisante pueden digerirse mejor que el grano o la legumbre entera porque se ha retirado parte de la fibra y otros componentes.</p><p>En cambio, algunos cereales son relativamente bajos en lisina y muchas legumbres son relativamente más bajas en aminoácidos azufrados como metionina. Eso no significa que “no cuenten”: significa que su perfil se complementa fácilmente con otros alimentos.</p><h2>La cantidad también compensa parte de la diferencia</h2><p>Si una fuente vegetal tiene algo menos de digestibilidad o de un aminoácido concreto, una ingesta total de proteína suficiente y variada suele compensarlo. No hace falta multiplicar por dos la proteína vegetal ni asumir que la mitad se pierde.</p><p>En dietas exclusivamente vegetales puede ser razonable prestar algo más de atención a la cantidad total y a fuentes ricas en proteína —legumbres, tofu, tempeh, soja texturizada, seitán, frutos secos y semillas—, especialmente en personas con necesidades altas.</p><h2>No hay que combinar proteínas en cada plato</h2><p>El organismo mantiene un pool de aminoácidos y no exige que todos los aminoácidos esenciales lleguen en proporción perfecta en el mismo bocado. Una dieta variada a lo largo del día puede complementar legumbres y cereales sin necesidad de convertir cada comida en una fórmula exacta.</p><h2>Procesar puede mejorar la digestibilidad</h2><p>En este contexto, “procesado” no es necesariamente negativo. Cocer una legumbre hace su proteína mucho más accesible y segura; fermentar soja para producir tempeh modifica la matriz; fabricar tofu o una proteína aislada elimina parte de las barreras físicas del grano.</p><h2>La conclusión práctica</h2><p>Sí, <strong>muchas proteínas vegetales tienen de media una digestibilidad algo menor</strong> que proteínas animales como huevo, leche, carne o pescado. Pero la diferencia varía mucho entre alimentos y no impide cubrir necesidades.</p><p>La pregunta útil no es “¿se absorbe o no?”, sino <strong>cuánta proteína total comes, qué fuentes utilizas y si el conjunto aporta suficientes aminoácidos esenciales</strong>.</p>",
+  "faq": [
+    {"question": "¿Qué porcentaje de proteína vegetal se absorbe?", "answer": "No existe un porcentaje único. La digestibilidad depende del alimento, el procesado y el aminoácido; soja, legumbres enteras y proteínas aisladas no tienen el mismo comportamiento."},
+    {"question": "¿Hay que comer más proteína si la dieta es vegana?", "answer": "Puede ser útil prestar algo más de atención a la cantidad y variedad, sobre todo con necesidades altas, pero no hace falta duplicar la ingesta."},
+    {"question": "¿La soja se absorbe peor que la carne?", "answer": "La proteína de soja tiene una calidad alta para una fuente vegetal. Puede haber diferencias de digestibilidad respecto a algunas proteínas animales, pero es una fuente proteica eficaz."}
+  ],
+  "sources": [
+    {"name": "FAO — Dietary protein quality evaluation in human nutrition", "url": "https://www.fao.org/3/i3124e/i3124e.pdf", "note": "DIAAS, digestibilidad y calidad de aminoácidos."},
+    {"name": "EFSA — Dietary Reference Values for protein", "url": "https://www.efsa.europa.eu/", "note": "Contexto europeo sobre necesidades de proteína."}
+  ],
+  "image": {
+    "concept": "Fuentes de proteína vegetal como tofu, lentejas, garbanzos y cereales junto a huevo y pescado como referencia, fotografía editorial sin texto.",
+    "alt": "Fuentes de proteína vegetal y animal comparadas"
+  },
+  "status": "publish"
+}

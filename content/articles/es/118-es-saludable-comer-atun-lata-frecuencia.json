@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-118-es-saludable-comer-atun-lata-frecuencia",
+  "article_number": 118,
+  "translation_group": "118-canned-tuna-frequently",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; recomendaciones AESAN sobre pescado y mercurio",
+  "title": "¿Es saludable comer atún en lata con frecuencia?",
+  "slug": "es-saludable-comer-atun-lata-frecuencia",
+  "seo": {
+    "title": "¿Es saludable comer atún en lata con frecuencia?",
+    "meta_description": "El atún en lata aporta mucha proteína, pero no conviene que sea el único pescado. AESAN recomienda 3 raciones semanales de pescado y variar especies por el mercurio.",
+    "search_intent": "Saber con qué frecuencia puede comerse atún en conserva y cómo influyen mercurio, especie, sal y aceite."
+  },
+  "excerpt": "El atún en lata puede formar parte de una dieta saludable, pero no conviene usarlo como único pescado todos los días. AESAN recomienda al menos 3 raciones de pescado a la semana y aconseja variar especies. El mercurio depende de la especie y tamaño del atún; además, las conservas cambian mucho en sal y calorías según sean al natural o en aceite.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": ["tuna", "canned-fish"],
+    "article_types": ["health-daily-consumption", "food-safety", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Una lata de atún es una forma cómoda de obtener mucha proteína, pero <strong>“atún” no describe una sola especie ni un único nivel de mercurio</strong>. Por eso la mejor estrategia no es fijar una cifra universal de latas diarias, sino variar el pescado.</p><h2>Qué recomienda AESAN para el pescado</h2><p>Las recomendaciones españolas indican al menos <strong>3 raciones de pescado a la semana</strong>, priorizando también pescado azul y variando especies. Una ración orientativa es de 125–150 g.</p><p>El pescado en conserva puede tener un valor nutricional similar al fresco, aunque AESAN aconseja escoger opciones bajas en sal.</p><h2>Atún rojo no es lo mismo que cualquier conserva de atún</h2><p>AESAN incluye el atún rojo (<em>Thunnus thynnus</em>) entre las especies con alto contenido en mercurio, junto con pez espada, tiburón y lucio. Las conservas habituales pueden utilizar otras especies de atún, con niveles de mercurio diferentes.</p><p>La población general puede consumir pescado, pero la recomendación de seguridad sigue siendo <strong>variar especies</strong> en lugar de concentrar todo el consumo en grandes depredadores.</p><h2>Una lata aporta mucha proteína</h2><p>El atún al natural escurrido suele aportar alrededor de 25–27 g de proteína por 100 g. Una lata con 80–100 g escurridos puede proporcionar aproximadamente 20–27 g.</p><p>Eso lo convierte en una fuente proteica muy eficiente, pero no aporta la variedad de omega-3, calcio u otros nutrientes que se obtiene alternando con sardinas, caballa, salmón, boquerón, mejillones u otros pescados y mariscos.</p><h2>Al natural y en aceite cambian las calorías</h2><p>El atún al natural es muy magro. Una conserva en aceite puede retener parte del aceite incluso después de escurrirla, elevando grasa y calorías. No es necesariamente peor: el contexto y el tipo de aceite importan, pero las dos latas no son nutricionalmente equivalentes.</p><h2>La sal también puede variar mucho</h2><p>Algunas conservas contienen cantidades relevantes de sal. Si se consumen con frecuencia, comparar gramos de sal por 100 g o por lata es más útil que asumir que todas son iguales.</p><h2>Embarazo y niños requieren más precaución con el mercurio</h2><p>AESAN establece restricciones específicas para especies de alto mercurio en embarazo, lactancia y población infantil. Como la especie importa, en estos grupos conviene seguir las recomendaciones de AESAN y no extrapolar una regla genérica de “una lata al día”.</p><h2>La regla práctica</h2><p><strong>El atún en conserva puede repetirse durante la semana, pero no debería desplazar la variedad de pescado.</strong> Alternar especies, elegir conservas con poca sal y variar entre al natural y aceite según el resto de la dieta ofrece un patrón más equilibrado que comer atún todos los días.</p>",
+  "faq": [
+    {"question": "¿Se puede comer atún en lata todos los días?", "answer": "No es la opción más recomendable como patrón habitual porque reduce la variedad y la exposición al mercurio depende de la especie. Es mejor alternarlo con otros pescados."},
+    {"question": "¿El atún en lata es atún rojo?", "answer": "No necesariamente. Las conservas pueden usar distintas especies; el atún rojo Thunnus thynnus es la especie que AESAN clasifica entre las de alto mercurio."},
+    {"question": "¿Atún al natural o en aceite?", "answer": "El natural suele aportar menos grasa y calorías. El de aceite puede aportar más energía incluso escurrido; también conviene comparar la sal."}
+  ],
+  "sources": [
+    {"name": "AESAN — Recomendaciones dietéticas saludables y sostenibles", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf", "note": "Frecuencia de pescado y uso de conservas."},
+    {"name": "AESAN — Recomendaciones de consumo de pescado por presencia de mercurio", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/RECOMENDACIONES_consumo_pescado_MERCURIO_AESAN_WEB.PDF", "note": "Especies de alto mercurio y recomendación de variar pescado."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína y energía del atún en conserva."}
+  ],
+  "image": {
+    "concept": "Lata de atún abierta junto a sardinas, caballa y salmón como alternativas de pescado, fotografía editorial sin texto.",
+    "alt": "Atún en conserva junto a otras especies de pescado"
+  },
+  "status": "publish"
+}

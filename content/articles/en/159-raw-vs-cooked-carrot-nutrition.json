@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "en-159-raw-vs-cooked-carrot-nutrition",
+  "article_number": 159,
+  "translation_group": "159-raw-vs-cooked-carrot",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and beta-carotene bioavailability",
+  "title": "Raw vs. cooked carrots: how nutrition changes",
+  "slug": "raw-vs-cooked-carrot-nutrition",
+  "seo": {"title":"Raw vs. cooked carrots: nutrition compared","meta_description":"Cooking softens carrot cell walls and can improve beta-carotene availability. Fiber and minerals remain, while some heat-sensitive vitamins may decline.","search_intent":"Compare raw and cooked carrots and understand beta-carotene, fiber and glycemic differences."},
+  "excerpt": "Cooked carrots do not lose their main nutritional advantage. Beta-carotene remains and can become easier to absorb because heat softens the plant matrix. Fiber largely remains; some heat-sensitive vitamins can decline. Cooking may speed carbohydrate digestion, but a normal carrot serving still contains relatively little available carbohydrate.",
+  "taxonomy": {"food_family":"vegetables","food_subcategories":["carrot"],"article_types":["comparison","food-science"],"primary_article_type":"comparison"},
+  "content_html": "<p>Carrots soften during cooking because their cell walls lose structure. That physical change also affects how easily digestive processes can reach carotenoids.</p><h2>Beta-carotene can become more accessible</h2><p>The total amount does not magically rise, but cooking and pureeing disrupt plant tissue and can improve beta-carotene release. Eating carrots with some dietary fat further supports carotenoid absorption.</p><h2>Soft texture does not mean fiber is gone</h2><p>Cooked carrots feel less fibrous in the mouth, yet much of the dietary fiber remains. Heat changes structure more than total fiber quantity.</p><table><thead><tr><th>Feature</th><th>Raw</th><th>Cooked</th></tr></thead><tbody><tr><td>Beta-carotene</td><td>High, less disrupted matrix</td><td>High, more accessible</td></tr><tr><td>Fiber</td><td>Firm structure</td><td>Still present, softer tissue</td></tr><tr><td>Heat-sensitive vitamins</td><td>Better retained</td><td>Some loss possible</td></tr><tr><td>Carbohydrate digestion</td><td>Generally slower</td><td>May be faster</td></tr></tbody></table><h2>Higher GI does not necessarily mean high glycemic load</h2><p>Cooking can increase measured GI for carrots, but a normal serving contains relatively little available carbohydrate. Portion size still determines the total carbohydrate dose.</p><h2>The takeaway</h2><p>Raw carrots provide crunch and chewing; cooked carrots make carotenoids easier to access. Both forms offer nutritional value.</p>",
+  "faq": [{"question":"Do cooked carrots lose beta-carotene?","answer":"Some chemical changes occur, but cooking also improves access to the beta-carotene that remains by breaking down plant structure."},{"question":"Do cooked carrots still have fiber?","answer":"Yes. They soften substantially, but dietary fiber largely remains."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Raw and cooked carrot composition."}],
+  "image": {"concept":"Raw carrots beside steamed cooked carrots with a small amount of oil, clean editorial photography without text.","alt":"Raw carrots compared with cooked carrots"},
+  "status":"publish"
+}

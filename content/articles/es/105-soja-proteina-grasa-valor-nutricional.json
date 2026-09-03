@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-105-soja-proteina-grasa-valor-nutricional",
+  "article_number": 105,
+  "translation_group": "105-soybeans-nutrition",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y referencias generales EFSA sobre soja",
+  "title": "Soja: proteína, grasa y valor nutricional",
+  "slug": "soja-proteina-grasa-valor-nutricional",
+  "seo": {
+    "title": "Soja: proteína, grasa, fibra y calorías",
+    "meta_description": "100 g de soja madura cocida aportan unas 18 g de proteína, 9 g de grasa, 6 g de fibra y 172 kcal. El dato seco es mucho más concentrado por la falta de agua.",
+    "search_intent": "Conocer la composición nutricional de la soja y entender por qué las cifras cambian entre seca y cocida."
+  },
+  "excerpt": "La soja madura cocida es una de las legumbres más ricas en proteína: aporta alrededor de 18 g por 100 g, junto con unos 9 g de grasa, 6 g de fibra y 172 kcal. La soja seca supera los 35 g de proteína por 100 g, pero esa cifra no es comparable directamente porque al cocinarse absorbe agua y aumenta de peso.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["soy"],
+    "article_types": ["nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>La soja es una legumbre, pero nutricionalmente no se comporta exactamente como lentejas, garbanzos o alubias. <strong>Aporta más proteína y también bastante más grasa</strong>, lo que explica parte de su mayor densidad energética y la variedad de alimentos que pueden fabricarse a partir de ella.</p><h2>La referencia útil es la soja cocida</h2><p>Comparar 100 g de soja seca con 100 g de legumbres cocidas crea una diferencia artificial. La soja absorbe agua durante la cocción, aumenta de peso y diluye la concentración de nutrientes por 100 g.</p><table><thead><tr><th>Nutriente</th><th>Soja madura cocida, 100 g</th><th>Ración de 180 g</th></tr></thead><tbody><tr><td>Energía</td><td>~172 kcal</td><td>~310 kcal</td></tr><tr><td>Proteína</td><td>~18,2 g</td><td>~32,8 g</td></tr><tr><td>Grasa</td><td>~9,0 g</td><td>~16,2 g</td></tr><tr><td>Fibra</td><td>~6,0 g</td><td>~10,8 g</td></tr><tr><td>Carbohidratos</td><td>~8,4 g</td><td>~15,1 g</td></tr></tbody></table><p>Una ración de unos 180 g puede superar los <strong>30 g de proteína</strong>, una cantidad alta para una legumbre cocida.</p><h2>Por qué la soja seca parece tener el doble de proteína</h2><p>La soja seca ronda los 36 g de proteína por 100 g. Después de cocerla, el agua absorbida aumenta mucho el peso, de modo que la misma proteína queda repartida en una masa mayor.</p><p>No es que la cocción haya destruido la mitad de la proteína. La principal explicación es <strong>dilución por agua</strong>.</p><h2>La grasa es una diferencia importante frente a otras legumbres</h2><p>Las lentejas y alubias cocidas suelen aportar menos de 1 g de grasa por 100 g. La soja cocida ronda los 9 g. Esa diferencia ayuda a explicar por qué 100 g de soja cocida aportan alrededor de 172 kcal mientras muchas otras legumbres cocidas se mueven más cerca de 115–165 kcal según el tipo.</p><p>Gran parte de la grasa de la soja es insaturada, con una proporción importante de poliinsaturadas. También contiene ALA, un omega-3 vegetal.</p><h2>Proteína de alta calidad para un alimento vegetal</h2><p>La soja contiene los nueve aminoácidos esenciales y presenta una calidad proteica alta frente a muchas otras fuentes vegetales. Eso no significa que todas las proteínas de la dieta tengan que proceder de soja ni que las demás legumbres sean “incompletas” en el sentido de inútiles.</p><p>Significa que tofu, tempeh, soja cocida o bebida de soja pueden aportar una proteína especialmente útil en dietas vegetarianas y veganas.</p><h2>Fibra, hierro y otros micronutrientes</h2><p>La soja entera conserva fibra que no aparece en algunos derivados muy refinados. También aporta hierro, magnesio, potasio, fósforo y folato, aunque la cantidad absorbida de algunos minerales puede verse reducida por fitatos.</p><h2>Soja, edamame, tofu y bebida de soja no son lo mismo</h2><p>Edamame es soja cosechada inmadura y contiene más agua. El tofu se forma a partir de bebida de soja coagulada y su composición varía mucho con la firmeza y el coagulante. El tempeh conserva la soja entera fermentada y suele ser más concentrado. La bebida de soja es mucho más diluida.</p><p>Por eso “soja” no puede usarse como una cifra única para todos sus derivados.</p><h2>La idea útil</h2><p>La soja madura cocida combina algo poco habitual entre legumbres: <strong>mucha proteína, fibra y una cantidad relevante de grasa insaturada</strong>. Para entender sus números, compara siempre alimentos en el mismo estado y no enfrentes soja seca con lentejas cocidas.</p>",
+  "faq": [
+    {"question": "¿Cuánta proteína tiene la soja cocida?", "answer": "La soja madura cocida aporta alrededor de 18 g de proteína por 100 g; una ración de 180 g puede rondar los 33 g."},
+    {"question": "¿Por qué la soja seca tiene más proteína por 100 g?", "answer": "Porque contiene mucha menos agua. Al cocinarse absorbe líquido y la proteína queda diluida en un peso mayor."},
+    {"question": "¿La soja tiene mucha grasa?", "answer": "Tiene más grasa que la mayoría de legumbres: alrededor de 9 g por 100 g cocidos, principalmente grasas insaturadas."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de soja madura cocida y seca."},
+    {"name": "FAO — Dietary protein quality evaluation", "url": "https://www.fao.org/", "note": "Contexto sobre calidad de proteínas y aminoácidos esenciales."}
+  ],
+  "image": {
+    "concept": "Soja madura cocida en un cuenco junto a unas pocas semillas secas y productos de soja desenfocados al fondo, fotografía editorial sin texto.",
+    "alt": "Soja cocida y seca mostrando la diferencia de concentración"
+  },
+  "status": "publish"
+}

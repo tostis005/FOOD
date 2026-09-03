@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-037-highest-calcium-foods",
+  "article_number": 37,
+  "translation_group": "037-highest-calcium-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition and NIH ODS calcium absorption and fortification context",
+  "title": "Foods Highest in Calcium: Dairy, Fish, Tofu and Plant Sources",
+  "slug": "highest-calcium-foods",
+  "seo": {
+    "title": "Foods Highest in Calcium: Ranking by Serving",
+    "meta_description": "Yogurt, cheese, milk, sardines with bones and calcium-set tofu can provide about 250–400 mg per serving. Seeds and greens also contribute.",
+    "search_intent": "Compare calcium-rich foods by realistic serving and explain how fortification, edible bones and absorption change the picture."
+  },
+  "excerpt": "Yogurt, milk, cheese, sardines with edible bones and tofu made with calcium salts can each provide roughly 250–400 mg of calcium in a normal serving. Seeds and some greens contribute too, but serving size and absorption make per-100-gram rankings misleading.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Calcium is often treated as a synonym for milk, but a useful comparison has to include very different foods: yogurt, cheese, sardines with bones, calcium-set tofu, fortified plant milk, seeds and greens.</p><p>The useful question is not simply which food has the most per 100 grams. <strong>What matters is how much calcium comes in a realistic serving, whether it was added through fortification and how well it is absorbed.</strong></p><h2>What a normal serving actually provides</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Calcium, approx.</th></tr></thead><tbody><tr><td>Plain low-fat yogurt</td><td>8 oz</td><td>415 mg</td></tr><tr><td>Part-skim mozzarella</td><td>1.5 oz</td><td>333 mg</td></tr><tr><td>Canned sardines with bones</td><td>3 oz</td><td>325 mg</td></tr><tr><td>Milk</td><td>1 cup</td><td>275–300 mg</td></tr><tr><td>Fortified soy milk</td><td>1 cup</td><td>~300 mg</td></tr><tr><td>Firm tofu made with calcium sulfate</td><td>½ cup</td><td>~250 mg</td></tr><tr><td>Chia seeds</td><td>1 tbsp</td><td>76 mg</td></tr></tbody></table><p>At serving level, milk, sardines and calcium-set tofu are much closer than a per-100-gram ranking might suggest. Each can deliver a few hundred milligrams.</p><h2>Cheese concentrates calcium, but the serving is small</h2><p>Aged cheeses such as Parmesan can exceed 1,000 mg of calcium per 100 grams because they contain relatively little water and concentrate milk solids. A 1-ounce serving is closer to roughly 300 mg—still substantial, but not 1,000 mg.</p><p>Aged cheese can also carry plenty of sodium and saturated fat. Calcium is one advantage of the food, not a reason to ignore everything else in the package.</p><h2>Sardines get much of their calcium from the bones</h2><p>Canned sardines with soft edible bones provide about 325 mg in 3 ounces. Remove the bones and much of that calcium advantage disappears. The same principle applies to some canned salmon that includes softened bones.</p><h2>With tofu, the coagulant can change the number dramatically</h2><p>Tofu made with calcium sulfate can provide around 250 mg in half a cup. Tofu made with other coagulants can contain far less. This is one food where the nutrition label is more useful than assuming a single generic value.</p><h2>Fortified plant milk can match dairy milk</h2><p>Fortified soy milk often provides about 300 mg per cup, very close to cow's milk. The calcium is added, and some of it can settle toward the bottom of the container, so shaking before pouring helps keep the concentration consistent.</p><h2>Plant calcium is not absorbed equally from every vegetable</h2><p>Kale, bok choy and broccoli provide less calcium per serving than dairy foods, but their calcium can be relatively well absorbed. Spinach contains a substantial amount of total calcium yet also contains oxalate, which reduces absorption.</p><p>That is why calling spinach the ‘highest-calcium vegetable’ without discussing absorption can be misleading.</p><h2>Seeds are concentrated, but serving size changes the story</h2><p>Chia seeds contain roughly 630 mg of calcium per 100 grams. A tablespoon, however, provides about 76 mg. That is useful, but an 8-ounce yogurt can deliver more than five times as much calcium.</p><h2>The practical rule</h2><p>For a dependable contribution, look for foods that deliver <strong>about 200–400 mg in the amount you actually eat</strong>: dairy, sardines with bones, calcium-set tofu or fortified plant milk. Seeds and greens can help round out the total, but serving size matters.</p>",
+  "faq": [
+    {"question": "What foods are high in calcium besides milk?", "answer": "Yogurt, cheese, sardines with bones, calcium-set tofu and fortified plant milks can each provide several hundred milligrams per serving."},
+    {"question": "Does chia have more calcium than milk?", "answer": "Per 100 grams, yes, but a tablespoon of chia provides about 76 mg compared with roughly 275–300 mg in a cup of milk."},
+    {"question": "Is all tofu high in calcium?", "answer": "No. Tofu made with calcium sulfate can be high in calcium, while tofu made with other coagulants may contain much less."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Food nutrient composition."},
+    {"name": "NIH Office of Dietary Supplements — Calcium", "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/", "note": "Food sources, fortification and absorption differences."}
+  ],
+  "image": {
+    "concept": "Yogurt, milk, canned sardines with bones, tofu, chia seeds and green vegetables arranged in a clean editorial composition, no text.",
+    "alt": "A variety of calcium-rich foods"
+  },
+  "status": "publish"
+}

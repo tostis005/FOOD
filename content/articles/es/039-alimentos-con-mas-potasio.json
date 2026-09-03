@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-039-alimentos-con-mas-potasio",
+  "article_number": 39,
+  "translation_group": "039-highest-potassium-foods",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y contexto NIH ODS",
+  "title": "Los alimentos con más potasio: no solo el plátano",
+  "slug": "alimentos-con-mas-potasio",
+  "seo": {
+    "title": "Alimentos con más potasio: ranking por ración",
+    "meta_description": "Patata, legumbres, verduras, pescado, yogur y aguacate pueden aportar tanto o más potasio por ración que un plátano.",
+    "search_intent": "Comparar fuentes de potasio por ración y desmontar la idea de que el plátano es excepcional."
+  },
+  "excerpt": "El plátano es una buena fuente de potasio, pero no es extraordinario: una patata mediana, una taza de legumbres o una ración de algunas verduras y pescados pueden aportar bastante más. La ración real importa más que la fama del alimento.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>El plátano se ha convertido casi en sinónimo de potasio. La asociación es útil, pero exagera su posición real: muchos alimentos cotidianos aportan tanto o más por ración.</p><p><strong>Patata, legumbres, verduras, pescado, yogur, aguacate y frutas desecadas</strong> pueden ser fuentes muy relevantes. El potasio, además, está ampliamente distribuido en los alimentos, así que el patrón completo pesa más que un único alimento icónico.</p><h2>Comparar por ración cambia el ranking</h2><p>En la siguiente tabla se usan cantidades habituales ya preparadas.</p><table><thead><tr><th>Alimento</th><th>Ración</th><th>Potasio aprox.</th></tr></thead><tbody><tr><td>Patata asada con piel</td><td>1 mediana</td><td>~900 mg</td></tr><tr><td>Espinacas cocidas</td><td>1 taza</td><td>~840 mg</td></tr><tr><td>Salmón cocinado</td><td>150 g</td><td>~750–900 mg</td></tr><tr><td>Lentejas cocidas</td><td>1 taza</td><td>~730 mg</td></tr><tr><td>Aguacate</td><td>~100 g</td><td>~485 mg</td></tr><tr><td>Plátano</td><td>1 mediano</td><td>~420 mg</td></tr><tr><td>Yogur natural</td><td>200 g</td><td>~300–500 mg</td></tr></tbody></table><p>Una patata mediana puede aportar aproximadamente el doble de potasio que un plátano. Eso no hace peor al plátano; simplemente muestra que su fama no equivale a un primer puesto.</p><h2>La patata destaca porque la ración es grande</h2><p>Por 100 g, una patata no parece descomunal. Pero una patata mediana puede pesar 170–200 g y acercarse a 900 mg de potasio. El tamaño de la porción cambia mucho la lectura.</p><p>Hervir y desechar el agua puede reducir potasio, algo relevante para personas que médicamente necesitan limitarlo, mientras que asar con piel conserva más.</p><h2>Las legumbres suman mucho potasio junto con fibra y proteína</h2><p>Una taza de lentejas cocidas ronda 700–750 mg. Alubias y soja también pueden superar varios cientos de miligramos por ración. Su ventaja práctica es que el potasio llega junto con fibra y proteína vegetal.</p><h2>Las frutas desecadas concentran potasio, pero también energía</h2><p>Albaricoques secos, ciruelas pasas y pasas pueden mostrar cifras muy altas por 100 g porque han perdido agua. Una ración razonable es bastante menor de 100 g, por lo que conviene no confundir concentración con tamaño de consumo.</p><h2>El pescado y los lácteos también cuentan</h2><p>Una ración de salmón de 150 g puede aportar alrededor de 750–900 mg de potasio según la especie y preparación. Un yogur natural aporta varios cientos de miligramos. No hace falta obtener todo el potasio de frutas y verduras.</p><h2>Más potasio no siempre es mejor para todo el mundo</h2><p>En personas sanas, una dieta rica en alimentos con potasio suele ser una buena señal de variedad alimentaria. Pero quienes tienen enfermedad renal o toman ciertos medicamentos pueden necesitar controlar el potasio y deben seguir indicaciones clínicas individuales.</p><p>Los sustitutos de la sal con cloruro potásico merecen especial atención porque pueden aportar grandes cantidades en poco volumen.</p><h2>La idea útil</h2><p>El plátano aporta potasio, pero no monopoliza el nutriente. <strong>Una dieta con patata, legumbres, verduras, frutas, pescado y lácteos puede sumar mucho más potasio que depender de un solo alimento.</strong></p>",
+  "faq": [
+    {"question": "¿Qué alimento tiene más potasio que el plátano?", "answer": "Una patata mediana, una taza de lentejas o una taza de espinacas cocidas pueden aportar bastante más potasio que un plátano mediano."},
+    {"question": "¿Cuánto potasio tiene un plátano?", "answer": "Un plátano mediano aporta aproximadamente 400–450 mg."},
+    {"question": "¿El potasio puede ser un problema?", "answer": "Sí en algunas personas con enfermedad renal o con determinados medicamentos; en esos casos la cantidad debe individualizarse."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición nutricional de los alimentos."},
+    {"name": "NIH Office of Dietary Supplements — Potassium", "url": "https://ods.od.nih.gov/factsheets/Potassium-HealthProfessional/", "note": "Fuentes alimentarias y precauciones con enfermedad renal y sustitutos de sal."}
+  ],
+  "image": {
+    "concept": "Patata, lentejas, espinacas, salmón, aguacate, plátano y yogur sobre una mesa, fotografía editorial sin texto.",
+    "alt": "Alimentos variados ricos en potasio"
+  },
+  "status": "publish"
+}

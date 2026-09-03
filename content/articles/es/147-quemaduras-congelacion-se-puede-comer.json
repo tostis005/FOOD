@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "es-147-quemaduras-congelacion-se-puede-comer",
+  "article_number": 147,
+  "translation_group": "147-freezer-burn-safe-eat",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; ciencia de congelación y guía USDA",
+  "title": "Quemaduras por congelación: qué son y si el alimento se puede comer",
+  "slug": "quemaduras-congelacion-se-puede-comer",
+  "seo": {"title":"Quemaduras por congelación: qué son y si son seguras","meta_description":"La quemadura por congelación es deshidratación superficial causada por contacto con aire. No vuelve inseguro el alimento, pero empeora textura y sabor.","search_intent":"Saber qué significan las zonas secas o blanquecinas del alimento congelado y si se pueden comer."},
+  "excerpt": "La quemadura por congelación es un problema de calidad, no una intoxicación: el aire favorece que el hielo de la superficie se sublime y deja zonas secas, correosas o descoloridas. El alimento sigue siendo seguro si permaneció correctamente congelado, aunque puede saber peor. Las partes dañadas pueden recortarse.",
+  "taxonomy": {"food_family":"general","food_subcategories":["freezing"],"article_types":["food-safety","food-science"],"primary_article_type":"food-science"},
+  "content_html": "<p>Una pechuga congelada aparece con una esquina blanquecina y seca. Parece “quemada”, pero no ha recibido calor: ha perdido agua.</p><h2>Qué ocurre físicamente</h2><p>Cuando el envase deja entrar aire o no está bien ajustado, parte del hielo superficial puede pasar directamente a vapor. Esa deshidratación deja tejido seco, duro y a veces gris o marrón.</p><h2>No es una señal de bacterias</h2><p>USDA considera la quemadura por congelación un problema de calidad. Si el alimento se mantuvo a temperatura segura, la zona seca no lo convierte en peligroso.</p><h2>Qué cambia al cocinar</h2><p>La parte quemada suele quedar más dura, fibrosa y con peor sabor porque ha perdido humedad y puede haber sufrido oxidación. En daños pequeños puede recortarse antes o después de cocinar.</p><h2>Cómo prevenirla</h2><p>Usa envases con poca cámara de aire, bolsas específicas de congelación, vacío cuando sea posible y evita mantener el producto durante mucho más tiempo del recomendado para buena calidad.</p><h2>La regla</h2><p>Quemadura por congelación no significa “caducado”. Significa que el alimento ha perdido calidad por exposición al aire. Si además hubo descongelación prolongada, esa es una cuestión de seguridad distinta.</p>",
+  "faq": [{"question":"¿Puedo comer carne con quemadura por congelación?","answer":"Sí si se mantuvo correctamente congelada. Puede tener peor textura y sabor; las zonas muy secas pueden recortarse."},{"question":"¿Por qué aparece?","answer":"Principalmente por exposición al aire y pérdida de humedad durante el almacenamiento congelado."}],
+  "sources": [{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"Freezer burn como problema de calidad, no de seguridad."}],
+  "image": {"concept":"Trozo de carne congelada con una zona seca blanquecina visible dentro de un envase, fotografía editorial sin texto.","alt":"Ejemplo de quemadura por congelación en un alimento"},
+  "status":"publish"
+}

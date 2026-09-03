@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-086-todas-calorias-iguales-nutricionalmente",
+  "article_number": 86,
+  "translation_group": "086-are-all-calories-nutritionally-equal",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; fisiología energética, efecto térmico y matriz alimentaria",
+  "title": "¿Todas las calorías son iguales desde el punto de vista nutricional?",
+  "slug": "todas-calorias-iguales-nutricionalmente",
+  "seo": {
+    "title": "¿Todas las calorías son iguales? La respuesta nutricional",
+    "meta_description": "Una kilocaloría es la misma unidad de energía, pero proteína, grasa, carbohidratos, fibra y matriz alimentaria no se digieren ni sacian igual.",
+    "search_intent": "Entender qué significa decir que una caloría es una caloría y por qué alimentos con la misma energía pueden tener efectos nutricionales distintos."
+  },
+  "excerpt": "Sí como unidad de energía; no como experiencia nutricional completa. Una kilocaloría mide la misma cantidad de energía venga de proteína, grasa o carbohidratos, pero el cuerpo no procesa todos los alimentos igual: cambian el coste de digestión, la saciedad, la absorción, la fibra, la glucemia y los nutrientes que acompañan a esa energía.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": [],
+    "article_types": ["myths-faq", "nutrition-composition"],
+    "primary_article_type": "myths-faq"
+  },
+  "content_html": "<p>Decir “una caloría es una caloría” puede ser completamente correcto o muy incompleto según lo que se quiera decir.</p><p>Como unidad física, <strong>una kilocaloría siempre representa la misma cantidad de energía</strong>. Pero un alimento no es solo energía: tiene una estructura, nutrientes y un proceso digestivo concreto.</p><h2>La igualdad física: una kilocaloría no cambia de tamaño</h2><p>Los valores energéticos aproximados que se utilizan en nutrición son unos 4 kcal/g para proteína, 4 kcal/g para carbohidratos, 9 kcal/g para grasa y 7 kcal/g para alcohol.</p><p>Si dos dietas aportan realmente la misma energía metabolizable y el gasto es el mismo, la energía no desaparece porque una proceda de un alimento “saludable”.</p><h2>El cuerpo gasta energía para procesar esa energía</h2><p>Digerir, absorber y metabolizar nutrientes tiene un coste, conocido como efecto térmico de los alimentos. La proteína suele tener el coste más alto: aproximadamente un 20–30 % de su energía puede gastarse en su procesamiento; para carbohidratos suele estimarse alrededor de 5–10 % y para grasa, 0–3 %.</p><p>Eso no convierte 100 kcal de proteína en “70 kcal” en una etiqueta. Explica que el balance energético neto y la fisiología posterior no son idénticos para todos los macronutrientes.</p><h2>La saciedad puede cambiar cuánto comes después</h2><p>Una comida con suficiente proteína y fibra suele producir más saciedad que otra de energía parecida basada en alimentos refinados y líquidos. La diferencia más importante a menudo no está en lo que ocurre con esas 500 kcal, sino en si después resulta fácil o difícil consumir otras 500.</p><p>Por eso la calidad de los alimentos puede influir indirectamente en el balance energético.</p><h2>La fibra no se comporta como almidón o azúcar</h2><p>Parte de la fibra no se digiere en el intestino delgado. Algunas fibras llegan al colon, donde la microbiota puede fermentarlas y producir ácidos grasos de cadena corta; la energía utilizable resultante es menor que la de un gramo de almidón completamente digerible.</p><p>Etiquetas y tablas utilizan factores energéticos estandarizados, por lo que la cifra declarada es una estimación práctica, no una medición exacta de cada molécula absorbida por cada persona.</p><h2>La matriz alimentaria también importa</h2><p>En un fruto seco entero, parte de la grasa queda encerrada dentro de paredes celulares y no se absorbe completamente. Molerlo en crema rompe más esa estructura y puede aumentar la accesibilidad de la grasa.</p><p>Esto ayuda a explicar por qué la energía realmente metabolizable de algunos frutos secos puede ser menor que la calculada con factores generales.</p><h2>La misma energía puede aportar nutrición muy distinta</h2><p>Unas 200 kcal de almendras aportan proteína, fibra, magnesio, vitamina E y grasa insaturada. Doscientas kcal de refresco aportan principalmente azúcar y agua. Ninguna de esas diferencias viola la física: simplemente describen algo que la unidad “kcal” no pretende medir.</p><h2>Entonces, ¿qué frase es correcta?</h2><p><strong>Para el balance energético, las calorías cuentan. Para predecir saciedad, salud nutricional, absorción y facilidad para regular la ingesta, la fuente de esas calorías también cuenta.</strong></p><p>Las dos ideas pueden ser ciertas al mismo tiempo.</p>",
+  "faq": [
+    {"question": "¿Una caloría de proteína es igual a una de grasa?", "answer": "Es la misma unidad de energía, pero proteína y grasa tienen efectos distintos sobre digestión, efecto térmico, saciedad y nutrientes asociados."},
+    {"question": "¿El cuerpo absorbe todas las calorías de una etiqueta?", "answer": "La etiqueta es una estimación basada en factores estandarizados. La absorción real puede variar por fibra, matriz alimentaria, preparación y diferencias individuales."},
+    {"question": "¿La calidad de los alimentos importa para el peso?", "answer": "Sí puede importar indirectamente porque influye en saciedad, densidad energética y facilidad para mantener una ingesta determinada, aunque el balance energético siga siendo relevante."}
+  ],
+  "sources": [
+    {"name": "FAO — Food energy: methods of analysis and conversion factors", "url": "https://www.fao.org/4/y5022e/y5022e00.htm", "note": "Factores de conversión energética y energía metabolizable."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición energética de alimentos utilizados como ejemplos."}
+  ],
+  "image": {
+    "concept": "Balanza conceptual con alimentos proteicos, carbohidratos, aceite y frutos secos mostrando igual energía pero estructuras distintas, fotografía editorial sin texto.",
+    "alt": "Distintos alimentos que aportan energía de macronutrientes diferentes"
+  },
+  "status": "publish"
+}

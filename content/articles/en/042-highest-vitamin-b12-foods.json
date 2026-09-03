@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-042-highest-vitamin-b12-foods",
+  "article_number": 42,
+  "translation_group": "042-highest-vitamin-b12-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition and NIH ODS vitamin B12 context",
+  "title": "Foods Highest in Vitamin B12: Shellfish, Liver, Fish, Dairy and Fortified Foods",
+  "slug": "highest-vitamin-b12-foods",
+  "seo": {
+    "title": "Foods Highest in Vitamin B12: Ranking by Serving",
+    "meta_description": "Liver, clams and oysters contain huge amounts of B12; fish, meat, milk, yogurt and eggs provide smaller but regular amounts.",
+    "search_intent": "Compare food sources of vitamin B12 and clarify the role of fortified foods."
+  },
+  "excerpt": "Beef liver, clams and oysters are extraordinarily rich in vitamin B12. Salmon, tuna, meat, milk, yogurt and eggs provide less per serving but can contribute regularly. Plant foods do not provide reliable B12 unless they are fortified.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Vitamin B12 has an unusually lopsided ranking. A serving of liver can contain tens of micrograms, while a large egg contains about half a microgram.</p><p>That does not mean liver needs to be an everyday food. <strong>B12 can accumulate across fish, meat, dairy, eggs and fortified foods</strong>; the important part is having a dependable source.</p><h2>The gaps between servings are enormous</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Vitamin B12, approx.</th></tr></thead><tbody><tr><td>Cooked beef liver</td><td>3 oz</td><td>70.7 mcg</td></tr><tr><td>Cooked clams</td><td>3 oz</td><td>17 mcg</td></tr><tr><td>Cooked oysters</td><td>3 oz</td><td>14.9 mcg</td></tr><tr><td>Cooked Atlantic salmon</td><td>3 oz</td><td>2.6 mcg</td></tr><tr><td>Canned light tuna</td><td>3 oz</td><td>2.5 mcg</td></tr><tr><td>Milk</td><td>1 cup</td><td>1.3 mcg</td></tr><tr><td>Cooked egg</td><td>1 large</td><td>0.5 mcg</td></tr></tbody></table><p>Beef liver supplies more than 25 times as much B12 as a similar serving of salmon. The gap is real, but the body does not need every meal to maximize concentration.</p><h2>Shellfish and liver are exceptional rather than necessary daily foods</h2><p>Clams, oysters and liver can exceed the U.S. Daily Value of 2.4 mcg in a single serving. Liver is also extremely rich in preformed vitamin A, so its extraordinary B12 concentration is not a reason to treat large daily servings as automatically better.</p><h2>Fish provides a moderate amount that is easy to use regularly</h2><p>Three ounces of salmon or tuna provide about 2.5–2.6 mcg. Other fish and shellfish vary, but many species make a meaningful contribution.</p><h2>Dairy and eggs add up in familiar servings</h2><p>A cup of milk provides about 1.3 mcg, a serving of yogurt around 1 mcg and a large egg about 0.5 mcg. None comes close to liver, but regular servings can build a steady intake.</p><h2>Plant foods are not reliable natural B12 sources</h2><p>Beans, vegetables, grains, nuts and seeds do not naturally provide reliable vitamin B12. Some fermented foods may contain traces or inactive analogs, but they should not be treated as a dependable strategy.</p><p>A vegan diet therefore needs fortified foods or a reliable supplement. Nutritional yeast can provide substantial B12 when fortified, but the amount varies by brand and should be checked on the label.</p><h2>A huge dose does not mean proportionally huge absorption</h2><p>B12 absorption changes with dose and food source. As the amount in a meal rises, a smaller fraction is absorbed through the intrinsic-factor-dependent pathway. Seventy micrograms on a label therefore does not mean the body absorbs 30 times as much as it would from 2.4 micrograms.</p><h2>The useful rule</h2><p>If you eat animal foods, fish, dairy, eggs and meat can provide B12 regularly, while liver and shellfish are especially concentrated. <strong>If you avoid animal foods, the goal is not to find a plant that supposedly contains B12; it is to use a reliable fortified or supplemental source.</strong></p>",
+  "faq": [
+    {"question": "What food is highest in vitamin B12?", "answer": "Beef liver is among the most concentrated sources, and clams and oysters are also exceptionally high."},
+    {"question": "Do plant foods contain vitamin B12?", "answer": "Not naturally in a dependable amount. Vegan diets use fortified foods or supplements."},
+    {"question": "Does an egg contain vitamin B12?", "answer": "Yes. One large cooked egg provides about 0.5 mcg."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Food nutrient composition."},
+    {"name": "NIH Office of Dietary Supplements — Vitamin B12", "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/", "note": "Amounts per serving, absorption and fortified sources."}
+  ],
+  "image": {
+    "concept": "Beef liver, clams, oysters, salmon, milk, yogurt and an egg arranged in an editorial food scene, no text.",
+    "alt": "Foods rich in vitamin B12"
+  },
+  "status": "publish"
+}

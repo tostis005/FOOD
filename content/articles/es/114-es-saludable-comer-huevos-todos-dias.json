@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-114-es-saludable-comer-huevos-todos-dias",
+  "article_number": 114,
+  "translation_group": "114-eggs-every-day",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; recomendación dietética AESAN y composición USDA",
+  "title": "¿Es saludable comer huevos todos los días?",
+  "slug": "es-saludable-comer-huevos-todos-dias",
+  "seo": {
+    "title": "¿Es saludable comer huevos todos los días?",
+    "meta_description": "El huevo es nutritivo, pero AESAN recomienda en España un máximo general de 4 huevos medianos por semana. Importa el patrón dietético y el colesterol LDL individual.",
+    "search_intent": "Saber si comer huevos a diario es saludable y qué cantidad encaja con las recomendaciones españolas."
+  },
+  "excerpt": "El huevo puede formar parte de una dieta saludable, pero comerlo todos los días no coincide con la recomendación general de AESAN para España, que sitúa el máximo en 4 huevos medianos a la semana. Un huevo aporta unos 6–7 g de proteína y alrededor de 70–80 kcal, pero también una cantidad elevada de colesterol dietético; el contexto de la dieta y el colesterol LDL individual importan.",
+  "taxonomy": {
+    "food_family": "eggs-dairy",
+    "food_subcategories": ["eggs"],
+    "article_types": ["health-daily-consumption", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Un huevo es un alimento nutritivo, pero eso no significa que más sea siempre mejor. <strong>En España, AESAN recomienda un máximo general de cuatro huevos medianos a la semana</strong>, por lo que un huevo entero cada día supera esa pauta.</p><h2>Qué aporta un huevo</h2><p>Un huevo mediano-grande aporta aproximadamente 70–80 kcal, 6–7 g de proteína y 4–5 g de grasa. También contiene vitamina B12, colina, selenio y otros micronutrientes.</p><p>La mayor parte de la proteína está repartida entre clara y yema. La yema concentra prácticamente toda la grasa, el colesterol y buena parte de las vitaminas liposolubles.</p><h2>El colesterol del huevo no actúa igual que la grasa saturada</h2><p>Un huevo grande puede acercarse a 180–200 mg de colesterol dietético. Para muchas personas, el efecto del colesterol de los alimentos sobre el LDL sanguíneo es menor que el de una dieta rica en grasas saturadas, pero la respuesta individual varía.</p><p>Por eso importa qué acompaña al huevo. Un huevo con verduras, pan integral y aceite de oliva no representa el mismo patrón que huevos diarios con bacon, embutidos, mantequilla y otros alimentos ricos en grasa saturada.</p><h2>La recomendación española es más conservadora que otras guías</h2><p>AESAN recomienda actualmente un máximo de <strong>4 huevos medianos por semana</strong> dentro de una alimentación saludable y sostenible. Otras autoridades internacionales permiten frecuencias mayores para personas sanas, lo que refleja que la evidencia no se resume en un límite biológico exacto.</p><p>Para una persona en España que busca una pauta general, la referencia más directa es la recomendación de AESAN.</p><h2>Si tienes LDL alto, el contexto individual pesa más</h2><p>Las personas con hipercolesterolemia, enfermedad cardiovascular u otros factores de riesgo no deberían convertir una cifra general de población en una prescripción personal. En esos casos conviene valorar el conjunto de colesterol dietético, grasas saturadas y patrón alimentario con el profesional sanitario.</p><h2>¿Y las claras?</h2><p>Las claras aportan proteína sin el colesterol de la yema. Usar una combinación de huevo entero y claras permite aumentar proteína sin multiplicar el colesterol dietético, aunque también se pierden nutrientes que están en la yema.</p><h2>La regla práctica</h2><p>El huevo no necesita tratarse como un alimento peligroso, pero tampoco hace falta comerlo a diario para obtener sus nutrientes. <strong>En España, una pauta de hasta cuatro huevos medianos por semana encaja con la recomendación general de AESAN</strong>; el resto de la proteína puede variar entre legumbres, pescado, lácteos, carne, tofu y otras fuentes.</p>",
+  "faq": [
+    {"question": "¿Cuántos huevos recomienda AESAN?", "answer": "Las recomendaciones dietéticas de AESAN indican un máximo general de 4 huevos medianos a la semana."},
+    {"question": "¿Un huevo al día sube el colesterol?", "answer": "La respuesta varía entre personas. El colesterol dietético influye, pero también importan mucho la grasa saturada y el patrón global de la dieta."},
+    {"question": "¿Las claras tienen colesterol?", "answer": "Prácticamente no. El colesterol del huevo está concentrado en la yema; la clara aporta sobre todo proteína y agua."}
+  ],
+  "sources": [
+    {"name": "AESAN — Recomendaciones dietéticas saludables y sostenibles", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf", "note": "Recomendación de un máximo de cuatro huevos medianos a la semana."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína, energía, grasa y colesterol del huevo."}
+  ],
+  "image": {
+    "concept": "Cuatro huevos junto a un plato con huevo, verduras y pan integral, fotografía editorial limpia sin texto.",
+    "alt": "Huevos dentro de un patrón de alimentación saludable"
+  },
+  "status": "publish"
+}

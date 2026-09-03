@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-108-edamame-nutrition",
+  "article_number": 108,
+  "translation_group": "108-edamame-nutrition",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition of cooked green soybeans",
+  "title": "Edamame: protein, fiber, and nutrients",
+  "slug": "edamame-protein-fiber-nutrients",
+  "seo": {
+    "title": "Edamame: protein, fiber, calories, and nutrients",
+    "meta_description": "Cooked shelled edamame provides about 121 calories, 12 g protein, 5 g fiber, and 5 g fat per 100 g. A 150 g serving provides about 18 g protein.",
+    "search_intent": "Understand edamame nutrition and what a normal serving provides."
+  },
+  "excerpt": "Edamame is soybean harvested while immature. Cooked and shelled, it provides about 12 g protein, 5 g fiber, 5 g fat, and 121 calories per 100 g. A 150 g serving provides roughly 18 g protein and 8 g fiber, an unusually useful combination in one food.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["soy", "edamame"],
+    "article_types": ["nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Edamame looks more like a green vegetable than a bean, but nutritionally it is soybean. That shows up immediately: <strong>it provides far more protein than most vegetables while still contributing a meaningful amount of fiber</strong>.</p><h2>What shelled edamame provides</h2><p>The edible portion is the bean. Weighing whole pods would be misleading because the pod is normally discarded.</p><table><thead><tr><th>Nutrient</th><th>Per 100 g cooked</th><th>Per 150 g</th></tr></thead><tbody><tr><td>Calories</td><td>~121</td><td>~182</td></tr><tr><td>Protein</td><td>~12 g</td><td>~18 g</td></tr><tr><td>Fiber</td><td>~5.2 g</td><td>~7.8 g</td></tr><tr><td>Fat</td><td>~5.2 g</td><td>~7.8 g</td></tr><tr><td>Carbohydrate</td><td>~9 g</td><td>~13.5 g</td></tr></tbody></table><p>A 150 g serving therefore supplies about <strong>18 g protein and almost 8 g fiber</strong>, enough to make edamame more than a garnish.</p><h2>Why it has less protein than mature soybeans</h2><p>Edamame is harvested before the soybean fully matures and dries. It contains more water than mature dry soybeans, so nutrients are less concentrated per 100 g.</p><p>It has not “lost” protein; maturity and water content explain most of the difference.</p><h2>Soy protein contains all essential amino acids</h2><p>Like other soy foods, edamame contains all nine essential amino acids. That makes it an especially useful plant protein source.</p><h2>It also contains meaningful fat</h2><p>Unlike cooked lentils or many beans, which are very low in fat, edamame contains around 5 g per 100 g. Most of that fat is unsaturated and naturally present in soy.</p><h2>Folate, iron, and other micronutrients</h2><p>Edamame provides folate, iron, magnesium, potassium, vitamin K, and other nutrients. Its iron is non-heme iron, so absorption is lower than for heme iron in meat; eating it with vitamin-C-rich foods can help.</p><h2>Sodium depends on how it is served</h2><p>Plain edamame is naturally low in sodium, but restaurant versions are often heavily salted. For the food itself, cooked edamame without added salt is the cleaner reference.</p><h2>The useful takeaway</h2><p>Edamame occupies a practical middle ground: <strong>more protein than a vegetable, less concentrated than mature soybeans, and still rich in fiber</strong>. It can work as a snack, side dish, or meaningful protein component of a meal.</p>",
+  "faq": [
+    {"question": "How much protein is in edamame?", "answer": "About 12 g per 100 g cooked; a 150 g serving provides roughly 18 g."},
+    {"question": "Is edamame high in fiber?", "answer": "It provides about 5.2 g fiber per 100 g and nearly 8 g in a 150 g serving."},
+    {"question": "Is edamame the same as soybeans?", "answer": "Edamame is soybean harvested while immature. It contains more water and is less concentrated than mature dry soybeans."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of cooked green soybeans/edamame."},
+    {"name": "FAO — Dietary protein quality evaluation", "url": "https://www.fao.org/", "note": "Context on soy protein and essential amino acids."}
+  ],
+  "image": {
+    "concept": "Cooked edamame with a few open pods and bright green beans visible, clean editorial food photography without text.",
+    "alt": "Cooked edamame showing green soybeans"
+  },
+  "status": "publish"
+}

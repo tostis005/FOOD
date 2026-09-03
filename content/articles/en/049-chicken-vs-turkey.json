@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-049-chicken-vs-turkey",
+  "article_number": 49,
+  "translation_group": "049-chicken-vs-turkey",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition for cooked skinless breast meat",
+  "title": "Chicken vs Turkey: Nutrition Differences",
+  "slug": "chicken-vs-turkey",
+  "seo": {
+    "title": "Chicken vs Turkey: Protein, Fat and Calories",
+    "meta_description": "Chicken and turkey breast are nearly tied in protein. Turkey can be slightly leaner, but cut and skin matter more than the species.",
+    "search_intent": "Compare chicken and turkey without confusing species differences with cut and skin differences."
+  },
+  "excerpt": "Cooked skinless chicken and turkey breast both provide roughly 29–31 grams of protein per 100 grams. Turkey breast can be a little leaner and lower in calories, but the difference between breast, thigh and skin-on meat is larger than the difference between the two birds.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["chicken", "turkey"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Chicken and turkey are often compared as if one were obviously the leaner, higher-protein choice. Put equivalent cuts side by side and the distinction becomes much less dramatic.</p><p><strong>Cooked skinless breast meat from both birds provides about 30 grams of protein per 100 grams.</strong> Turkey breast can be somewhat leaner, but breast versus thigh and skin-on versus skinless matter more than switching species.</p><h2>Breast against breast, both cooked and skinless</h2><table><thead><tr><th>Per 100 g</th><th>Chicken</th><th>Turkey</th></tr></thead><tbody><tr><td>Calories</td><td>~165</td><td>~135–150</td></tr><tr><td>Protein</td><td>~31 g</td><td>~29–30 g</td></tr><tr><td>Fat</td><td>~3.6 g</td><td>~1–2.5 g</td></tr></tbody></table><p>The protein gap is only about 1–2 grams per 100 grams. Even across a 5-ounce serving, that is just a few grams of protein.</p><h2>Turkey can save some fat, but the exact cut changes the number</h2><p>Very lean turkey breast can contain around 1–2 grams of fat per 100 grams compared with roughly 3.6 grams in cooked chicken breast. The calorie difference can land around 15–30 calories per 100 grams.</p><p>In a full meal, a tablespoon of cooking oil can add roughly 120 calories—far more than the typical species difference.</p><h2>The cut matters more than the bird</h2><p>Cooked skinless chicken thigh can contain about 26 grams of protein and around 11 grams of fat per 100 grams, much more fat than turkey breast. Turkey thigh is also fattier than turkey breast.</p><p>That is why ‘chicken versus turkey’ is too broad unless the cut is specified.</p><h2>Skin widens the calorie gap further</h2><p>Eating the skin adds fat to either bird. Comparing skinless turkey with skin-on chicken would make the species difference look much larger than it really is.</p><h2>Micronutrients do not create a dramatic winner either</h2><p>Both provide B vitamins, phosphorus, selenium and some zinc and iron. Amounts vary with cut and preparation, but there is no huge micronutrient advantage that automatically makes one bird superior.</p><h2>Processed turkey is a different comparison</h2><p>Fresh turkey breast and deli turkey are not interchangeable. Deli meat can contain much more sodium and additional ingredients. The same issue applies to processed chicken products.</p><p>For a useful nutrition comparison, compare fresh meat with fresh meat or processed products with processed products.</p><h2>The useful rule</h2><p><strong>Chicken and turkey are nutritionally very similar when equivalent cuts are compared.</strong> Protein differences are tiny; fat and calories are influenced more by breast versus thigh, skin and the amount of added cooking fat.</p>",
+  "faq": [
+    {"question": "Which has more protein, chicken or turkey?", "answer": "Cooked skinless breast meat is very close: about 31 g/100 g for chicken and roughly 29–30 g/100 g for turkey."},
+    {"question": "Is turkey lower in fat?", "answer": "Turkey breast can be slightly leaner, but the cut and whether the skin is eaten matter more."},
+    {"question": "Is deli turkey the same nutritionally as fresh turkey breast?", "answer": "No. Deli turkey can contain much more sodium and other added ingredients."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Chicken and turkey composition and variation by cut."}
+  ],
+  "image": {
+    "concept": "Cooked skinless chicken breast and turkey breast on matching plates, clean editorial food photography, no text.",
+    "alt": "Chicken and turkey compared nutritionally"
+  },
+  "status": "publish"
+}

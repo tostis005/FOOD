@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "es-053-sardinas-vs-atun",
+  "article_number": 53,
+  "translation_group": "053-sardines-vs-tuna",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA/NIH ODS y recomendaciones AESAN/FDA sobre mercurio",
+  "title": "Sardinas vs. atún: proteína, omega-3 y mercurio",
+  "slug": "sardinas-vs-atun",
+  "seo": {
+    "title": "Sardinas vs. atún: proteína, omega-3 y mercurio",
+    "meta_description": "Sardinas y atún en conserva aportan proteína similar, pero las sardinas tienen mucho más EPA y DHA y, en promedio, menos mercurio que el atún.",
+    "search_intent": "Comparar sardinas y atún por proteína, omega-3 y mercurio distinguiendo el tipo de conserva y de atún."
+  },
+  "excerpt": "Sardinas y atún en conserva pueden aportar alrededor de 24–26 g de proteína por 100 g, así que la diferencia proteica es pequeña. Las sardinas destacan mucho más por EPA y DHA y presentan niveles de mercurio muy bajos; en el atún, el mercurio cambia según la especie y suele ser mayor.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": ["sardines", "tuna"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Una lata de sardinas y una de atún parecen competir por el mismo hueco: proteína rápida, barata y de despensa. En proteína están muy cerca. Las diferencias importantes aparecen cuando se mira el tipo de grasa, el mercurio y, en las sardinas con espina, el calcio.</p><p><strong>Para proteína, casi empatan. Para EPA y DHA y bajo mercurio, las sardinas tienen una ventaja clara.</strong> El atún puede ser más magro, sobre todo cuando va al natural, pero no existe un único perfil de mercurio para todos los atunes.</p><h2>Una comparación práctica entre conservas escurridas</h2><p>Las cifras cambian por especie y líquido de cobertura, así que conviene leerlas como rangos representativos de productos escurridos.</p><table><thead><tr><th>Por 100 g escurridos</th><th>Sardinas</th><th>Atún claro al natural</th></tr></thead><tbody><tr><td>Proteína</td><td>~24–25 g</td><td>~25–26 g</td></tr><tr><td>Grasa</td><td>~10–12 g</td><td>~1 g</td></tr><tr><td>EPA + DHA</td><td>~1,3–1,5 g</td><td>~0,2 g</td></tr><tr><td>Mercurio medio FDA</td><td>~0,01 ppm</td><td>~0,13 ppm</td></tr></tbody></table><p>La proteína difiere apenas 1–2 g por 100 g. En omega-3, en cambio, una ración de sardinas puede aportar seis o siete veces más EPA+DHA que el atún claro en agua.</p><h2>El atún es más magro, pero eso no convierte la grasa de la sardina en un inconveniente</h2><p>El atún al natural suele tener muy poca grasa. Las sardinas tienen bastante más, especialmente si van en aceite, pero parte de esa grasa incluye EPA y DHA.</p><p>El aceite de cobertura también puede aumentar las calorías si queda adherido al pescado. Comparar una lata de sardinas en aceite sin escurrir con atún al natural exageraría la diferencia; por eso la etiqueta y el escurrido importan.</p><h2>Las sardinas destacan claramente en omega-3</h2><p>NIH recoge alrededor de 1,19 g de EPA+DHA en 85 g de sardinas en conserva escurridas en salsa de tomate. Eso equivale aproximadamente a 1,4 g por 100 g.</p><p>El atún claro en agua escurrido aporta alrededor de 0,19 g por 85 g, aproximadamente 0,22 g por 100 g. La diferencia es grande y no depende de unas décimas.</p><h2>También hay una diferencia importante en mercurio</h2><p>AESAN incluye la sardina entre las especies de bajo contenido en mercurio. Para el atún, la situación depende de la especie: el atún rojo aparece entre las especies de alto contenido, mientras otros atunes tienen perfiles diferentes.</p><p>Los promedios de FDA ayudan a visualizarlo: sardina alrededor de 0,01 ppm; atún claro en conserva 0,13 ppm; albacora y aleta amarilla alrededor de 0,35 ppm; patudo alrededor de 0,69 ppm.</p><p>Por eso ‘atún’ no debería utilizarse como una sola categoría cuando el tema es mercurio.</p><h2>La espina de la sardina añade una ventaja que el atún no comparte</h2><p>Las espinas blandas de las sardinas en conserva son comestibles y concentran calcio. Una ración de 85 g puede aportar alrededor de 300 mg o más, mientras el atún en conserva sin huesos aporta muy poco calcio.</p><p>Este punto no cambia la comparación de proteína, pero sí el valor nutricional completo de la conserva.</p><h2>¿Cuál merece más espacio en la despensa?</h2><p>Ambos pueden encajar. El atún al natural ofrece proteína muy magra y un sabor fácil de incorporar a muchos platos. Las sardinas aportan una cantidad proteica prácticamente igual, pero añaden mucho más EPA+DHA, calcio si se comen las espinas y niveles muy bajos de mercurio.</p><p><strong>Si solo miras proteína, el resultado es un empate práctico. Si miras el conjunto, las sardinas ofrecen ventajas que una cifra de proteína no muestra.</strong></p>",
+  "faq": [
+    {"question": "¿Qué tiene más proteína, sardinas o atún?", "answer": "Están muy cerca: alrededor de 24–25 g/100 g en sardinas escurridas y 25–26 g/100 g en atún claro al natural."},
+    {"question": "¿Qué tiene más omega-3?", "answer": "Las sardinas. Pueden aportar alrededor de 1,3–1,5 g de EPA+DHA por 100 g frente a aproximadamente 0,2 g en atún claro al natural."},
+    {"question": "¿Qué tiene menos mercurio?", "answer": "Las sardinas presentan niveles muy bajos. En el atún el nivel depende de la especie y suele ser mayor; atún claro, albacora, aleta amarilla, patudo y atún rojo no son equivalentes."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína, grasa y composición de conservas de pescado."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "EPA y DHA de sardinas y atún por ración."},
+    {"name": "AESAN — Recomendaciones sobre consumo de pescado y mercurio", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/RECOMENDACIONES_consumo_pescado_MERCURIO_AESAN_WEB.PDF", "note": "Sardina como especie de bajo mercurio y atún rojo entre especies de alto contenido."},
+    {"name": "FDA — Technical Information on Mercury in Commercial Fish", "url": "https://www.fda.gov/food/environmental-contaminants-food/technical-information-development-fdaepa-advice-about-eating-fish-those-who-might-become-or-are", "note": "Promedios de mercurio por especie y tipo de atún."}
+  ],
+  "image": {
+    "concept": "Sardinas en conserva y atún claro en conserva escurridos en dos platos similares, fotografía editorial limpia sin texto.",
+    "alt": "Sardinas y atún en conserva comparados"
+  },
+  "status": "publish"
+}

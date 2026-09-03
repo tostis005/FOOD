@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-036-highest-iron-foods",
+  "article_number": 36,
+  "translation_group": "036-highest-iron-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition and NIH ODS iron absorption context",
+  "title": "Foods Highest in Iron: What Actually Provides the Most",
+  "slug": "highest-iron-foods",
+  "seo": {
+    "title": "Foods Highest in Iron: Ranking and Absorption",
+    "meta_description": "Oysters, liver, beans, tofu and seeds can all provide substantial iron, but heme and nonheme iron are absorbed differently.",
+    "search_intent": "Compare iron-rich foods using realistic servings and explain why absorption differs between animal and plant sources."
+  },
+  "excerpt": "Oysters and liver stand out among animal foods, while beans, tofu, seeds and fortified foods can also provide substantial iron. The useful comparison is not just milligrams on a chart: serving size and the difference between heme and nonheme iron matter too.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Calling a food ‘high in iron’ sounds simple until you compare oysters, a bowl of beans and a spoonful of seeds. Iron per 100 grams can rank foods, but it does not tell you how much iron lands on a normal plate or how much your body can absorb.</p><p><strong>The most useful sources combine a meaningful amount per serving with favorable absorption.</strong> Animal foods can provide heme iron, which is generally absorbed more efficiently. Plant foods provide nonheme iron, whose absorption is more affected by the rest of the meal.</p><h2>A practical serving-level comparison</h2><p>The following amounts use common prepared or ready-to-eat servings.</p><table><thead><tr><th>Food</th><th>Serving</th><th>Iron, approx.</th></tr></thead><tbody><tr><td>Cooked oysters</td><td>3 oz</td><td>8 mg</td></tr><tr><td>White beans</td><td>1 cup</td><td>8 mg</td></tr><tr><td>Cooked beef liver</td><td>3 oz</td><td>5 mg</td></tr><tr><td>Cooked lentils</td><td>½ cup</td><td>3 mg</td></tr><tr><td>Firm tofu</td><td>½ cup</td><td>3 mg</td></tr><tr><td>Cooked spinach</td><td>½ cup</td><td>3 mg</td></tr><tr><td>Cooked lean beef</td><td>3 oz</td><td>2 mg</td></tr></tbody></table><p>The table shows why there is no single winner that answers every question. A cup of white beans can match a serving of oysters in total iron, yet the type of iron and the food matrix are very different.</p><h2>Heme iron is absorbed more efficiently</h2><p>Meat, organ meats, fish and shellfish provide heme iron. Its absorption is generally higher and less affected by other components of a meal. That means a moderate number of milligrams can still be nutritionally significant.</p><p>For example, a 3-ounce serving of beef may provide about 2 mg of iron, less than the roughly 3 mg in half a cup of lentils, but a larger share of the beef's iron is in the heme form.</p><h2>Plant foods can provide plenty, but the meal matters</h2><p>Beans, tofu, seeds, nuts and leafy greens provide nonheme iron. Vitamin C can improve its absorption, so lentils with bell pepper, tomatoes or a vitamin-C-rich fruit create a more favorable meal than lentils alone.</p><p>Phytates and some polyphenols can reduce absorption in a particular meal. That does not make beans a poor iron source; it explains why the whole dietary pattern matters more than the laboratory number alone.</p><h2>Spinach contains iron, but it is not the perfect reference food</h2><p>Half a cup of cooked spinach provides about 3 mg of iron, which is meaningful. However, spinach also contains compounds that limit mineral absorption. More iron on a chart therefore does not automatically mean more iron absorbed.</p><h2>Seeds look especially high because they contain little water</h2><p>Sesame and pumpkin seeds can show impressive iron values per 100 grams, but a normal serving is closer to 1 ounce. About 1 ounce of pumpkin seeds provides roughly 2–3 mg of iron—useful, but very different from treating 100 grams as a routine snack.</p><h2>Fortified foods can completely change the ranking</h2><p>Some breakfast cereals contain added iron and may provide 8, 12 or even 18 mg in one serving depending on the product. Because that iron is added, the label matters more than a generic value for ‘cereal.’</p><h2>The useful rule</h2><p>If you want to increase iron intake, you do not need one magic food. <strong>Use heme-rich animal foods if they fit your diet, or make plant sources such as beans, tofu and seeds regular foods and pair them with vitamin C.</strong> Total intake and absorption matter as much as a ranking position.</p>",
+  "faq": [
+    {"question": "What food is highest in iron?", "answer": "Oysters, liver and some fortified foods are among the most concentrated sources. Beans, tofu and seeds are strong plant sources, though their nonheme iron is absorbed differently."},
+    {"question": "Do lentils have more iron than beef?", "answer": "They can provide a similar or higher amount of total iron per serving, but beef contains heme iron, which is generally absorbed more efficiently."},
+    {"question": "Does vitamin C help iron absorption?", "answer": "Yes. Vitamin C can improve absorption of nonheme iron from beans, tofu, grains and vegetables."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Food nutrient composition."},
+    {"name": "NIH Office of Dietary Supplements — Iron", "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/", "note": "Food sources, heme and nonheme iron, and absorption factors."}
+  ],
+  "image": {
+    "concept": "Oysters, beef liver, lentils, tofu, pumpkin seeds and leafy greens arranged on a clean table, editorial food photography, no text.",
+    "alt": "A variety of iron-rich foods"
+  },
+  "status": "publish"
+}

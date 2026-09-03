@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-082-what-are-ultra-processed-foods",
+  "article_number": 82,
+  "translation_group": "082-what-are-ultra-processed-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; NOVA classification and common packaged-food examples",
+  "title": "What ultra-processed foods actually are",
+  "slug": "what-are-ultra-processed-foods",
+  "seo": {
+    "title": "What are ultra-processed foods, really?",
+    "meta_description": "Ultra-processed does not simply mean factory-made or long ingredient list. NOVA focuses on industrial formulations built from derived food substances and additives.",
+    "search_intent": "Understand what defines an ultra-processed food and how to recognize the category without simplistic rules."
+  },
+  "excerpt": "An ultra-processed food is not defined simply by coming from a factory, being wrapped in plastic or having a long ingredient list. In NOVA, it is typically an industrial formulation built largely from refined ingredients or substances derived from foods, often combined with flavors, emulsifiers, colors, sweeteners or other additives that shape taste, texture and appearance.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": [],
+    "article_types": ["myths-faq", "nutrition-composition"],
+    "primary_article_type": "myths-faq"
+  },
+  "content_html": "<p>“Ultra-processed” is used so broadly that it can end up meaning little more than “packaged food I think is unhealthy.” That is not a useful definition.</p><p>The term mainly comes from <strong>NOVA</strong>, a system that classifies foods by the nature and purpose of processing rather than by one nutrient such as sugar, fat or calories.</p><h2>The core idea: a formulation rather than a modified whole food</h2><p>An ultra-processed product is commonly assembled from components derived from foods—refined starches, oils, sugars, protein isolates—and may include flavors, colors, emulsifiers, sweeteners, thickeners or other additives used to create a particular taste, texture or appearance.</p><p>That is different from taking a recognizable food and preserving it through freezing, pasteurization or canning.</p><h2>Typical examples</h2><ul><li>regular and diet soft drinks;</li><li>candy and many filled confections;</li><li>flavored extruded snacks;</li><li>many sugary breakfast cereals;</li><li>formulated packaged desserts;</li><li>some frozen pizzas, nuggets and reconstituted meat products;</li><li>certain bars, shakes and formulated meal replacements.</li></ul><p>“Many” and “some” matter: classification depends on the actual formulation, not the name of the food category.</p><h2>Factory-made does not automatically mean ultra-processed</h2><p>A bag of frozen peas may contain only peas. A can of beans may contain beans, water and salt. Pasteurized milk remains milk that has received a heat treatment.</p><p>All came through industrial processing; none has to be an ultra-processed formulation.</p><h2>There is no five-ingredient rule</h2><p>Ingredient count is a weak shortcut. Bread made from flour, water, yeast and salt may be processed but not ultra-processed; a traditional recipe can contain many herbs and spices without resembling an industrial formulation.</p><p>A better question is <strong>what the ingredients are and what they are doing in the product</strong>.</p><h2>One additive does not settle the question either</h2><p>The presence of an additive does not automatically turn every food into an ultra-processed product. Additives can be used in processed foods for safety, stability or technical reasons.</p><p>NOVA considers the formulation as a whole and its industrial purpose. Reducing the system to “contains additives” creates plenty of false positives.</p><h2>Why researchers care about the category</h2><p>Diets high in ultra-processed foods often contain more products that are energy-dense and high in added sugars, refined starches, fats or sodium, while displacing whole foods rich in fiber. Observational studies also report associations between higher intake and several adverse health outcomes.</p><p>That does not mean every product in the category has an identical effect, or that the word can replace all nutrition analysis. The concept is most useful for describing <strong>dietary patterns</strong>.</p><h2>The useful question at the package</h2><p>Do not ask only, “Has this been processed?” Ask: <strong>Is this still mainly a recognizable food, or is it a formulation reconstructed from refined components?</strong> Then also look at protein, fiber, added sugars, fat, sodium, portion size and the role it plays in your diet.</p>",
+  "faq": [
+    {"question": "What makes a food ultra-processed?", "answer": "In NOVA, it is typically an industrial formulation based on substances derived from foods and often additives used to create flavor, texture or appearance."},
+    {"question": "Does more than five ingredients mean ultra-processed?", "answer": "No. There is no valid five-ingredient rule; what the ingredients are and how the product is formulated matter more."},
+    {"question": "Is every food with additives ultra-processed?", "answer": "Not necessarily. Classification depends on the overall formulation and purpose, not the presence of one additive."}
+  ],
+  "sources": [
+    {"name": "FAO — Ultra-processed foods, diet quality and health using the NOVA classification system", "url": "https://www.fao.org/3/ca5644en/ca5644en.pdf", "note": "Description of the NOVA classification and ultra-processed-food definition."}
+  ],
+  "image": {
+    "concept": "Generic packages representing soda, sugary cereal, extruded snacks and packaged dessert beside refined food ingredients, editorial photography without brands or text.",
+    "alt": "Examples of ultra-processed food formulations"
+  },
+  "status": "publish"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-044-complete-incomplete-proteins",
+  "article_number": 44,
+  "translation_group": "044-complete-incomplete-proteins",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; FAO protein-quality framework and USDA composition",
+  "title": "Complete vs Incomplete Proteins: What Those Terms Really Mean",
+  "slug": "complete-incomplete-proteins",
+  "seo": {
+    "title": "Complete vs Incomplete Protein: What It Means",
+    "meta_description": "A complete protein supplies all nine essential amino acids in adequate proportions. Incomplete does not mean an amino acid is entirely missing.",
+    "search_intent": "Explain complete and incomplete proteins without oversimplification or unnecessary food-combining rules."
+  },
+  "excerpt": "A complete protein provides all nine essential amino acids in proportions high enough relative to a reference pattern. A so-called incomplete protein usually contains those amino acids too; one is simply present in a lower proportion and becomes the limiting amino acid.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-concepts", "myths-faq"],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>The phrase ‘beans are an incomplete protein’ is easy to misunderstand. It can sound as if lentils are literally missing an amino acid. They are not.</p><p><strong>Plant foods contain essential amino acids; what differs is the proportion.</strong> When one amino acid is relatively low compared with a reference pattern, it can limit how efficiently that protein supports protein synthesis.</p><h2>What ‘complete’ actually means</h2><p>The body needs nine essential amino acids from food. A protein is described as complete when it provides all nine in amounts and proportions that adequately match a human amino-acid reference pattern.</p><p>Eggs, dairy, meat and fish generally meet that criterion easily. Soy is a notable plant example with a strong essential-amino-acid profile.</p><h2>‘Incomplete’ does not mean ‘no lysine’ or ‘no methionine’</h2><p>Grains contain lysine, and beans contain methionine. The issue is quantitative. Many grains are relatively low in lysine, while many legumes are relatively lower in sulfur-containing amino acids such as methionine and cysteine.</p><p>‘Limiting amino acid’ is therefore more accurate than imagining a missing ingredient.</p><h2>Total protein still matters</h2><p>A food can have an excellent amino-acid profile and still provide modest protein in a normal serving. One cup of cooked quinoa provides about 8 grams of protein. A serving of firm tofu may provide 15–20 grams, while a serving of chicken breast can exceed 40 grams.</p><p>Protein quality and protein quantity are separate questions.</p><h2>Digestibility adds another layer</h2><p>Two proteins with similar amino-acid profiles may not be digested equally. Food structure, processing and compounds such as phytates or enzyme inhibitors can affect how much amino acid becomes available.</p><p>That is why systems such as PDCAAS and DIAAS try to combine amino-acid composition with digestibility rather than simply labeling foods complete or incomplete.</p><h2>Plant proteins complement one another naturally</h2><p>Grains and legumes tend to offset each other's weaker points: grains are relatively stronger in sulfur amino acids, while legumes provide more lysine. Rice and beans, pita and hummus, or corn and beans are familiar examples.</p><p>They do not have to be eaten in the same bite or even the same meal. A varied diet can supply complementary amino acids across the day.</p><h2>Soy breaks the animal-complete, plant-incomplete shortcut</h2><p>Soybeans, tofu and tempeh provide a high-quality essential-amino-acid profile. Quinoa, amaranth and buckwheat also have favorable profiles, although they provide less total protein per serving than soy foods.</p><h2>The label is useful, but it should not run the whole diet</h2><p>People do not eat isolated protein scores. Beans bring fiber; nuts bring unsaturated fat; dairy brings calcium; fish can bring long-chain omega-3s. Reducing a food to its amino-acid label misses much of the nutritional decision.</p><h2>The idea worth keeping</h2><p><strong>‘Complete’ describes amino-acid proportions, not a border between good and bad protein.</strong> A varied diet with enough total protein can provide all essential amino acids even when many individual foods have a limiting amino acid.</p>",
+  "faq": [
+    {"question": "What does complete protein mean?", "answer": "It means the protein provides all nine essential amino acids in proportions that adequately match a reference pattern."},
+    {"question": "Does an incomplete protein actually lack an amino acid?", "answer": "Usually no. It generally contains all essential amino acids, but one is present in a relatively lower proportion and becomes limiting."},
+    {"question": "Do you have to combine rice and beans in the same meal?", "answer": "No. A varied diet can complement amino-acid profiles across the day."}
+  ],
+  "sources": [
+    {"name": "FAO — Dietary protein quality evaluation in human nutrition", "url": "https://www.fao.org/4/i3124e/i3124e.pdf", "note": "Essential amino-acid patterns, digestibility and protein-quality evaluation."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Food composition and protein amounts."}
+  ],
+  "image": {
+    "concept": "Beans, rice, tofu, egg, fish and quinoa grouped as protein sources, clean editorial food photography, no text.",
+    "alt": "Protein foods with different amino-acid profiles"
+  },
+  "status": "publish"
+}

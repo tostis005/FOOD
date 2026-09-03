@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-036-alimentos-con-mas-hierro",
+  "article_number": 36,
+  "translation_group": "036-highest-iron-foods",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y contexto de absorción NIH ODS",
+  "title": "Los alimentos con más hierro: cuáles aportan más y cómo compararlos",
+  "slug": "alimentos-con-mas-hierro",
+  "seo": {
+    "title": "Alimentos con más hierro: ranking y absorción",
+    "meta_description": "Marisco, hígado, legumbres, tofu y semillas pueden aportar mucho hierro, pero la cantidad no cuenta toda la historia: hemo y no hemo se absorben distinto.",
+    "search_intent": "Comparar alimentos ricos en hierro con cantidades útiles y explicar por qué la absorción cambia entre fuentes animales y vegetales."
+  },
+  "excerpt": "Las ostras y el hígado destacan entre las fuentes animales; legumbres, tofu, semillas y alimentos fortificados también pueden aportar mucho hierro. Pero un ranking solo es útil si distingue la ración y la diferente absorción del hierro hemo y no hemo.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Decir que un alimento ‘tiene mucho hierro’ parece sencillo hasta que se comparan una ostra, un plato de lentejas y una cucharada de semillas. La cifra por 100 g ayuda a ordenar, pero no explica por sí sola cuánto hierro llega a una comida ni cuánto puede absorber el organismo.</p><p><strong>Las mejores fuentes prácticas combinan una cantidad relevante por ración con un contexto favorable de absorción.</strong> En los alimentos animales aparece hierro hemo, que se absorbe con mayor facilidad; en los vegetales predomina el hierro no hemo, cuya absorción depende más del resto de la comida.</p><h2>Una comparación útil por ración</h2><p>En la siguiente tabla se comparan porciones habituales de alimentos preparados o listos para comer.</p><table><thead><tr><th>Alimento</th><th>Ración</th><th>Hierro aprox.</th></tr></thead><tbody><tr><td>Ostras cocinadas</td><td>85 g</td><td>8 mg</td></tr><tr><td>Alubias blancas</td><td>1 taza</td><td>8 mg</td></tr><tr><td>Hígado de ternera cocinado</td><td>85 g</td><td>5 mg</td></tr><tr><td>Lentejas cocidas</td><td>½ taza</td><td>3 mg</td></tr><tr><td>Tofu firme</td><td>½ taza</td><td>3 mg</td></tr><tr><td>Espinacas cocidas</td><td>½ taza</td><td>3 mg</td></tr><tr><td>Ternera magra cocinada</td><td>85 g</td><td>2 mg</td></tr></tbody></table><p>La tabla muestra por qué no existe un único ganador que sirva para todos. Una taza de alubias blancas puede igualar en hierro total a una ración de ostras, pero el tipo de hierro y la matriz del alimento son distintos.</p><h2>El hierro hemo se absorbe mejor</h2><p>Carne, vísceras, pescado y marisco contienen hierro hemo. Su absorción suele ser mayor y está menos condicionada por otros componentes de la comida. Eso hace que una cifra moderada pueda ser nutricionalmente muy eficaz.</p><p>Por ejemplo, una ración de ternera puede aportar alrededor de 2 mg, menos que media taza de lentejas con unos 3 mg, pero una proporción mayor del hierro de la carne está en forma hemo.</p><h2>Las fuentes vegetales pueden aportar mucho, pero importa con qué se comen</h2><p>Legumbres, tofu, semillas, frutos secos y verduras de hoja contienen hierro no hemo. La vitamina C puede aumentar su absorción, por lo que unas lentejas con pimiento, tomate o una fruta rica en vitamina C forman una combinación más favorable que las lentejas aisladas.</p><p>En sentido contrario, fitatos y algunos polifenoles pueden reducir la absorción en una comida concreta. Eso no convierte a las legumbres en una mala fuente; explica por qué la dieta completa importa más que una cifra de laboratorio.</p><h2>Las espinacas son ricas en hierro, pero no son la referencia perfecta</h2><p>Media taza de espinacas cocidas aporta alrededor de 3 mg de hierro, una cantidad relevante. Sin embargo, contienen oxalatos y otros compuestos que limitan la absorción. Por eso más hierro en una tabla no significa automáticamente más hierro aprovechado.</p><h2>Las semillas concentran hierro porque contienen poca agua</h2><p>Sésamo y semillas de calabaza pueden superar varios miligramos de hierro por 100 g, pero una ración real suele ser de 20–30 g. Treinta gramos de semillas de calabaza aportan aproximadamente 2,5 mg: una cantidad útil, aunque muy distinta de imaginar que se comen 100 g como una ración normal.</p><h2>Los alimentos fortificados pueden alterar cualquier ranking</h2><p>Algunos cereales de desayuno contienen hierro añadido y una sola ración puede aportar 8, 12 o incluso 18 mg según el producto. Esa cantidad no procede naturalmente del cereal, por lo que conviene leer la etiqueta en lugar de trasladar la cifra de una marca a todas.</p><h2>La regla práctica</h2><p>Si el objetivo es aumentar el hierro, no hace falta perseguir un único alimento. <strong>Combina fuentes animales ricas en hierro hemo, si forman parte de tu dieta, o fuentes vegetales frecuentes como legumbres, tofu y semillas acompañadas de vitamina C.</strong> El total de la dieta y la absorción cuentan tanto como el puesto del ranking.</p>",
+  "faq": [
+    {"question": "¿Qué alimento tiene más hierro?", "answer": "Ostras, hígado y algunos alimentos fortificados están entre las fuentes más concentradas. Entre los vegetales destacan legumbres, tofu y semillas, aunque el hierro no hemo se absorbe de forma distinta."},
+    {"question": "¿Las lentejas tienen más hierro que la carne?", "answer": "Por ración pueden aportar una cantidad similar o mayor de hierro total, pero el hierro de la carne incluye hierro hemo, que se absorbe mejor."},
+    {"question": "¿La vitamina C ayuda a absorber hierro?", "answer": "Sí. La vitamina C puede mejorar la absorción del hierro no hemo de legumbres, tofu, cereales y verduras."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición nutricional de los alimentos."},
+    {"name": "NIH Office of Dietary Supplements — Iron", "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/", "note": "Fuentes alimentarias, hierro hemo y no hemo y factores de absorción."}
+  ],
+  "image": {
+    "concept": "Marisco, hígado, lentejas, tofu, semillas y verduras de hoja dispuestos en una mesa limpia, fotografía editorial sin texto.",
+    "alt": "Alimentos variados ricos en hierro"
+  },
+  "status": "publish"
+}

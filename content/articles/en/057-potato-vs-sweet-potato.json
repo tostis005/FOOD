@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-057-potato-vs-sweet-potato",
+  "article_number": 57,
+  "translation_group": "057-potato-vs-sweet-potato",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition for cooked tubers",
+  "title": "Potato vs Sweet Potato: Nutrition Differences",
+  "slug": "potato-vs-sweet-potato",
+  "seo": {
+    "title": "Potato vs Sweet Potato: Calories, Fiber and Nutrients",
+    "meta_description": "Potatoes and sweet potatoes have very similar calories and carbs. Orange sweet potato stands out for beta-carotene; potato often provides more potassium.",
+    "search_intent": "Compare cooked potato and sweet potato without exaggerating small calorie and carbohydrate differences."
+  },
+  "excerpt": "Potatoes and sweet potatoes are much closer in calories and carbohydrate than their reputations suggest: both are around 90 calories and 20–21 grams of carbohydrate per 100 grams cooked. Orange sweet potatoes stand out for beta-carotene; potatoes often provide more potassium and slightly more protein.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": ["potato", "sweet-potato"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Sweet potatoes are often presented as a healthier replacement for white potatoes, but calories and carbohydrate barely separate the two. The more interesting differences are micronutrients.</p><p><strong>At the same cooked weight, both are around 90 calories per 100 grams.</strong> Orange sweet potato stands out for provitamin-A carotenoids, while potato often provides more potassium and vitamin C depending on preparation.</p><h2>A cooked comparison per 100 grams</h2><table><thead><tr><th></th><th>Potato</th><th>Orange sweet potato</th></tr></thead><tbody><tr><td>Calories</td><td>~90–95</td><td>~90</td></tr><tr><td>Carbohydrate</td><td>~21 g</td><td>~21 g</td></tr><tr><td>Protein</td><td>~2–2.5 g</td><td>~2 g</td></tr><tr><td>Fiber</td><td>~2 g</td><td>~3 g</td></tr></tbody></table><p>Energy and carbohydrate are essentially tied. Sweet potato may provide about 1 extra gram of fiber per 100 grams, while potato has a small protein edge that is unlikely to change a meal.</p><h2>The orange color marks a real nutritional difference</h2><p>Orange-fleshed sweet potatoes are concentrated in beta-carotene, which the body can convert to vitamin A. A normal serving can provide several times the daily reference amount of provitamin A.</p><p>White and purple sweet potatoes do not have the same carotenoid profile, so ‘sweet potato’ does not describe one identical nutrient composition either.</p><h2>Potato often provides more potassium</h2><p>A cooked potato with skin can exceed 500 mg of potassium per 100 grams, while sweet potato is often closer to 300–400 mg. Across a 7-ounce serving, the difference can exceed 200 mg.</p><p>Cooking method matters: boiling and discarding the water can reduce potassium in either tuber.</p><h2>Vitamin C often favors potato</h2><p>Potatoes contribute vitamin C, although storage and long cooking can reduce it. Sweet potatoes provide some too, but often less in comparable varieties and preparations.</p><h2>Sweet taste does not mean dramatically more carbohydrate</h2><p>During cooking, enzymes and heat can turn some sweet-potato starch into sugars, making it taste sweeter. The total carbohydrate per 100 grams still remains very close to potato.</p><p>Taste alone does not reveal how many calories a food contains.</p><h2>Frying changes more than choosing one tuber over the other</h2><p>Both absorb oil and lose water when fried. French fries or sweet-potato chips can easily exceed 300 calories per 100 grams compared with roughly 90 when baked or boiled with little added fat.</p><p>The cooking method can create a far larger energy difference than the choice of tuber.</p><h2>The useful rule</h2><p><strong>Potatoes and sweet potatoes are practically tied in calories and carbs.</strong> Orange sweet potato stands out for beta-carotene and somewhat more fiber; potato often provides more potassium and vitamin C. Alternating them brings more variety than trying to crown one universally healthier.</p>",
+  "faq": [
+    {"question": "Which has more calories, potato or sweet potato?", "answer": "Cooked with little added fat, they are essentially tied at around 90 calories per 100 grams."},
+    {"question": "Does sweet potato have more sugar?", "answer": "It tastes sweeter because some starch is converted to sugars during cooking, but total carbohydrate is very similar to potato."},
+    {"question": "Which has more vitamin A?", "answer": "Orange-fleshed sweet potato by a very large margin because it is rich in beta-carotene."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of cooked potato and sweet potato."}
+  ],
+  "image": {
+    "concept": "Baked white potato and orange sweet potato split open on matching plates, clean editorial food photography, no text.",
+    "alt": "Potato and sweet potato compared nutritionally"
+  },
+  "status": "publish"
+}

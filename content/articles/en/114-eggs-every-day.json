@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-114-eggs-every-day",
+  "article_number": 114,
+  "translation_group": "114-eggs-every-day",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; American Heart Association guidance and USDA composition",
+  "title": "Is it healthy to eat eggs every day?",
+  "slug": "is-it-healthy-to-eat-eggs-every-day",
+  "seo": {
+    "title": "Is it healthy to eat eggs every day?",
+    "meta_description": "For healthy people, the AHA says up to one whole egg per day can fit a heart-healthy diet. LDL cholesterol, saturated fat, and the rest of the diet still matter.",
+    "search_intent": "Understand whether one egg a day is healthy and when dietary cholesterol becomes more important."
+  },
+  "excerpt": "For healthy people, the American Heart Association says up to one whole egg per day can fit a healthy dietary pattern. A large egg provides about 6–7 g protein and roughly 70–80 calories, but also close to 200 mg dietary cholesterol. People with high LDL cholesterol or certain cardiovascular risks may need a more individualized limit.",
+  "taxonomy": {
+    "food_family": "eggs-dairy",
+    "food_subcategories": ["eggs"],
+    "article_types": ["health-daily-consumption", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Eggs are nutrient-dense, but the question is not whether they are “good” or “bad.” It is how they fit into the whole diet. <strong>For healthy individuals, the American Heart Association says up to one whole egg per day can fit a heart-healthy dietary pattern</strong>.</p><h2>What one egg provides</h2><p>A large egg contains roughly 70–80 calories, 6–7 g protein, and 4–5 g fat. It also provides vitamin B12, choline, selenium, and other nutrients.</p><p>The yolk contains essentially all of the egg's fat and cholesterol as well as many of its vitamins and minerals. The white is mostly water and protein.</p><h2>Dietary cholesterol is only part of the LDL story</h2><p>A large egg contains close to 200 mg dietary cholesterol. For many people, saturated fat and the overall dietary pattern have a larger effect on LDL cholesterol than a single food's cholesterol content, but individual responses vary.</p><p>That is why eggs eaten with vegetables, whole grains, and unsaturated fats are a different pattern from eggs routinely paired with bacon, sausage, butter, and other saturated-fat-rich foods.</p><h2>One per day is not a universal prescription</h2><p>The AHA's advisory allows up to one whole egg daily for healthy individuals, but it adds caveats for people with dyslipidemia and certain cardiovascular risks. “Allowed” also does not mean everyone needs an egg every day.</p><p>If LDL cholesterol is high, lowering both saturated fat and dietary cholesterol may be appropriate, and individual medical advice matters more than a population-level number.</p><h2>Egg whites change the equation</h2><p>Egg whites provide protein without the yolk's dietary cholesterol. Combining one whole egg with extra whites is one way to raise protein while keeping cholesterol intake lower, although the extra whites do not replace the yolk's micronutrients.</p><h2>The rest of the diet decides much of the outcome</h2><p>One daily egg inside a diet rich in vegetables, fruit, whole grains, legumes, nuts, fish, and unsaturated oils is not nutritionally equivalent to the same egg inside a pattern high in processed meat and saturated fat.</p><h2>The practical rule</h2><p>For a healthy adult with normal cholesterol, <strong>up to one whole egg a day can fit</strong> according to AHA guidance. If LDL is elevated or cardiovascular risk is a concern, the appropriate amount may be lower and should be considered alongside saturated fat and the overall diet.</p>",
+  "faq": [
+    {"question": "Is one egg a day healthy?", "answer": "The American Heart Association says healthy individuals can include up to one whole egg per day as part of a healthy dietary pattern."},
+    {"question": "How much cholesterol is in an egg?", "answer": "A large whole egg contains roughly 180–200 mg dietary cholesterol, concentrated in the yolk."},
+    {"question": "Are egg whites healthier than whole eggs?", "answer": "Egg whites provide protein without cholesterol, but whole eggs provide additional fat-soluble nutrients, choline, and other micronutrients."}
+  ],
+  "sources": [
+    {"name": "American Heart Association — Dietary Cholesterol and Cardiovascular Risk", "url": "https://professional.heart.org/en/science-news/dietary-cholesterol-and-cardiovascular-risk/top-things-to-know", "note": "Guidance that healthy individuals can include up to one whole egg per day, with caveats for higher-risk groups."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Egg calories, protein, fat, and cholesterol."}
+  ],
+  "image": {
+    "concept": "One whole egg with vegetables, whole-grain toast, and olive oil on a balanced breakfast plate, clean editorial photography without text.",
+    "alt": "One egg as part of a balanced meal"
+  },
+  "status": "publish"
+}

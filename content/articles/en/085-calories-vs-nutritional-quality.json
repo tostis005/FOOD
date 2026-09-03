@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-085-calories-vs-nutritional-quality",
+  "article_number": 85,
+  "translation_group": "085-calories-vs-nutritional-quality",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; nutrient composition and energy density",
+  "title": "Calories vs. nutritional quality: why calories do not tell the whole story",
+  "slug": "calories-vs-nutritional-quality",
+  "seo": {
+    "title": "Calories vs. nutritional quality: why calories are not enough",
+    "meta_description": "Calories measure energy, not protein, fiber, vitamins, minerals or fat quality. Two 200-calorie foods can be nutritionally very different.",
+    "search_intent": "Understand why calorie content alone does not describe a food's nutritional quality."
+  },
+  "excerpt": "Calories tell you how much energy a food provides, not what comes with that energy. Two 200-calorie choices can differ dramatically in protein, fiber, vitamins, minerals, fat type, water and fullness. Tracking energy can be useful; using calories as the only measure of food quality leaves out most of the nutritional picture.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-composition", "myths-faq"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Two hundred calories is two hundred calories as a unit of energy. But that number cannot tell you whether the energy came from soda, yogurt with oats, a handful of nuts or lentils with vegetables.</p><p><strong>The energy can match while the nutritional package does not.</strong></p><h2>What a calorie actually measures</h2><p>In nutrition, the kilocalorie is a unit of energy. Fat provides about 9 calories per gram; protein and carbohydrate about 4 calories per gram; alcohol about 7 calories per gram.</p><p>Foods that contain lots of fat and little water therefore tend to be energy-dense, while fresh fruit and vegetables contain much more water and fewer calories per 100 g.</p><h2>What the calorie number does not tell you</h2><table><thead><tr><th>Feature</th><th>Does “200 calories” tell you?</th></tr></thead><tbody><tr><td>Protein</td><td>No</td></tr><tr><td>Fiber</td><td>No</td></tr><tr><td>Vitamins and minerals</td><td>No</td></tr><tr><td>Type of fat</td><td>No</td></tr><tr><td>Added sugars</td><td>No</td></tr><tr><td>Sodium</td><td>No</td></tr><tr><td>Water and volume</td><td>No</td></tr></tbody></table><p>Two foods can match in energy and differ on nearly every one of those points.</p><h2>An example: 200 calories of nuts versus 200 calories of soda</h2><p>About 1.2 ounces of almonds lands close to 190–200 calories and supplies roughly 7 g of protein, 4 g of fiber, vitamin E, magnesium and mostly unsaturated fat.</p><p>Enough regular soda to provide 200 calories contains roughly 50 g of sugar and essentially no protein or fiber. The energy is comparable; the composition is not.</p><p>That does not mean soda calories “do not count.” It means calories alone do not describe the nutritional value of the choice.</p><h2>A nutritious food can still be very calorie-dense</h2><p>The opposite mistake is assuming “nutritious” means portion size no longer matters. Walnuts provide roughly 650 calories per 100 g; a 1-ounce serving is about 185 calories. Olive oil is close to 900 calories per 100 g.</p><p>Both can fit into a healthy eating pattern and still move total calorie intake substantially if portions grow.</p><h2>Energy density and nutrient density are different ideas</h2><p>Energy density describes calories per weight. Nutrient density describes how much useful nutrition a food provides relative to calories, weight or serving.</p><p>Spinach is low in energy density and rich in selected micronutrients. Walnuts are high in energy density and also nutrient-rich. Those statements are not contradictory.</p><h2>Calories still matter</h2><p>Energy balance influences body weight over time. Calling a food healthy does not make its energy disappear.</p><p>The better question is broader: <strong>What nutrition, fullness and dietary function do I get along with those calories?</strong></p><h2>A better way to compare foods</h2><p>When two products serve a similar purpose, compare calories and also protein, fiber, saturated versus unsaturated fat, added sugars, sodium and ingredients. Then translate the label into the amount you actually eat.</p><p>Calories matter. <strong>They just do not tell the whole story.</strong></p>",
+  "faq": [
+    {"question": "Do calories tell you whether a food is healthy?", "answer": "Not by themselves. Calories measure energy, not protein, fiber, vitamins, minerals, fat quality, sodium or other aspects of nutritional quality."},
+    {"question": "Can a nutritious food be high in calories?", "answer": "Yes. Nuts, seeds, avocado and olive oil are calorie-dense foods that can provide valuable nutrients."},
+    {"question": "So do calories not matter?", "answer": "They do matter for energy balance. The problem is using calories as the only measure of food quality."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energy and nutrient composition of example foods."},
+    {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/", "note": "Dietary context for nutrient-dense food choices and energy balance."}
+  ],
+  "image": {
+    "concept": "Two contrasting 200-calorie food setups: almonds and yogurt on one side, sugary soda on the other, editorial photography with no printed text.",
+    "alt": "Foods with similar calories but different nutritional quality"
+  },
+  "status": "publish"
+}

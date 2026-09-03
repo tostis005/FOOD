@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "en-138-probiotics-vs-prebiotics",
+  "article_number": 138,
+  "translation_group": "138-probiotics-vs-prebiotics",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; ISAPP consensus definitions",
+  "title": "Probiotics vs. prebiotics: the difference",
+  "slug": "probiotics-vs-prebiotics",
+  "seo": {"title":"Probiotics vs. prebiotics: the difference","meta_description":"Probiotics are live microorganisms with a demonstrated benefit; prebiotics are substrates selectively used by host microorganisms that confer a benefit.","search_intent":"Clearly distinguish probiotics from prebiotics and understand how they relate."},
+  "excerpt": "Probiotics are live microorganisms that, when given in adequate amounts, confer a demonstrated health benefit. Prebiotics are substrates selectively used by host microorganisms that also confer a benefit. One is the microorganism; the other is material used by parts of the microbial community.",
+  "taxonomy": {"food_family":"general","food_subcategories":["gut-health"],"article_types":["comparison","nutrition-explainer"],"primary_article_type":"comparison"},
+  "content_html": "<p>The simplest distinction is <strong>probiotic = live microorganism; prebiotic = substrate used by microorganisms.</strong> Marketing makes the terms seem fuzzier than the scientific definitions actually are.</p><table><thead><tr><th></th><th>Probiotic</th><th>Prebiotic</th></tr></thead><tbody><tr><td>What it is</td><td>Live microorganism</td><td>Substrate</td></tr><tr><td>Requirement</td><td>Demonstrated benefit at an adequate amount</td><td>Selective microbial use plus demonstrated benefit</td></tr><tr><td>Typical example</td><td>A defined Lactobacillus or Bifidobacterium strain with evidence</td><td>Evidence-backed inulin/fructans or GOS</td></tr></tbody></table><h2>Fermented does not automatically mean probiotic</h2><p>Yogurt, kefir and fermented vegetables may contain live microbes, but “contains bacteria” is not enough to establish a probiotic. A probiotic is identified at an appropriate taxonomic level and linked to a demonstrated health benefit.</p><h2>Fiber does not automatically mean prebiotic</h2><p>The substrate must be selectively used by host microorganisms and confer a benefit. Many fibers are valuable without meeting that more specific definition.</p><h2>They can be combined</h2><p>A synbiotic combines live microorganisms and substrate components in a formulation intended to produce a health benefit, but the combination still needs to meet evidence-based criteria.</p><h2>The memory trick</h2><p>If you mean the living organism, think probiotic. If you mean the substrate being used by microbes, think prebiotic. In both cases, the scientific label implies more evidence than a front-of-package claim.</p>",
+  "faq": [{"question":"Which is better, probiotics or prebiotics?","answer":"They are not direct substitutes. Their usefulness depends on the specific strain or substrate, dose and intended outcome."},{"question":"Is kefir automatically probiotic?","answer":"It may contain live microorganisms, but not every microorganism in kefir automatically meets the scientific probiotic definition with strain-specific evidence."}],
+  "sources": [{"name":"ISAPP — Biotics definitions","url":"https://isappscience.org/resource/probiotics-prebiotics-synbiotics-postbiotics-and-fermented-foods-defined/","note":"Consensus definitions of probiotics and prebiotics."}],
+  "image": {"concept":"Cultured yogurt beside onions, garlic and beans representing probiotics and prebiotic substrates, editorial photography without text.","alt":"Probiotics compared with prebiotics"},
+  "status":"publish"
+}

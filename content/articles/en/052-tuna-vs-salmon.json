@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "en-052-tuna-vs-salmon",
+  "article_number": 52,
+  "translation_group": "052-tuna-vs-salmon",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA/NIH ODS composition and FDA/EPA mercury advice",
+  "title": "Tuna vs Salmon: Protein, Omega-3, Fat and Calories",
+  "slug": "tuna-vs-salmon",
+  "seo": {
+    "title": "Tuna vs Salmon: Protein, Omega-3 and Calories",
+    "meta_description": "Yellowfin tuna is leaner and packs more protein per calorie; salmon provides far more EPA and DHA. Mercury varies substantially by tuna species.",
+    "search_intent": "Compare tuna and salmon on protein, fat, omega-3, calories and mercury without treating all tuna as one species."
+  },
+  "excerpt": "Lean fresh tuna provides more protein per calorie, while salmon contains much more total fat and especially much more EPA and DHA. Per 100 grams cooked, yellowfin tuna has roughly 29 grams of protein and 130 calories versus about 22 grams and 200–210 calories in Atlantic salmon. Mercury depends heavily on the type of tuna.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": ["tuna", "salmon"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Tuna and salmon are two very different ways to build a high-protein meal. Fresh tuna is usually extremely lean; salmon carries much more fat. In salmon, however, that fat is one of the food's major nutritional strengths.</p><p><strong>If you want the most protein for the fewest calories, tuna has the edge. If you want EPA and DHA, salmon wins by a very large margin.</strong> And mercury cannot be judged from the word ‘tuna’ alone because species differ substantially.</p><h2>A like-for-like comparison: cooked fresh fish</h2><p>To avoid mixing in oil, sodium and draining differences from canned products, the following table compares cooked yellowfin tuna with cooked Atlantic salmon.</p><table><thead><tr><th>Per 100 g cooked</th><th>Yellowfin tuna</th><th>Atlantic salmon</th></tr></thead><tbody><tr><td>Calories</td><td>~130</td><td>~205</td></tr><tr><td>Protein</td><td>~29 g</td><td>~22 g</td></tr><tr><td>Fat</td><td>~0.6 g</td><td>~12 g</td></tr><tr><td>EPA + DHA</td><td>~0.1–0.2 g</td><td>~2.1 g</td></tr></tbody></table><p>The differences are meaningful. Tuna provides about 7 more grams of protein and roughly 75 fewer calories per 100 grams. Salmon, however, can deliver more than ten times the EPA+DHA of cooked yellowfin tuna.</p><h2>Tuna is exceptionally lean</h2><p>With less than 1 gram of fat per 100 grams in this example, almost all of yellowfin tuna's calories come from protein. Roughly 5 ounces can provide around 40 grams of protein for about 180 calories.</p><p>About 6 ounces of Atlantic salmon provide a similar amount of protein but closer to 350–370 calories because the serving also carries roughly 20 grams of fat.</p><h2>More fat in salmon does not mean a worse fat profile</h2><p>Salmon contains much more total fat, including substantial amounts of the long-chain marine omega-3s EPA and DHA. NIH data list about 1.83 grams of EPA+DHA in 3 ounces of cooked farmed Atlantic salmon.</p><p>The same serving of cooked yellowfin tuna provides only about 0.10 gram. Looking only at ‘grams of fat’ would miss that nutritional difference completely.</p><h2>Mercury cannot be reduced to one number for tuna</h2><p>FDA/EPA advice places canned light tuna in the <strong>Best Choices</strong> category, albacore/white and yellowfin tuna in <strong>Good Choices</strong>, and bigeye tuna in <strong>Choices to Avoid</strong> for people covered by the pregnancy/child fish-advice chart. Salmon is a Best Choice.</p><p>FDA commercial-fish data illustrate the spread: canned light tuna averages about 0.13 ppm mercury, canned albacore and yellowfin about 0.35 ppm, bigeye about 0.69 ppm, and fresh/frozen salmon about 0.02 ppm.</p><p>So ‘tuna has X mercury’ is not a useful statement unless the type of tuna is specified.</p><h2>Canned tuna is a separate nutrition comparison</h2><p>Canned light tuna in water, white/albacore tuna and tuna packed in oil do not have the same calorie, fat, sodium or mercury profile. Packing liquid and how thoroughly the fish is drained also change the numbers.</p><p>For example, canned light tuna is generally lower in mercury than albacore, even though both are sold simply as tuna.</p><h2>Which one should you choose?</h2><p>You do not have to turn them into perfect substitutes. <strong>Lean tuna is highly efficient for protein with few calories; salmon provides somewhat less protein per ounce but far more EPA and DHA and generally low mercury.</strong></p><p>Rotating salmon, lower-mercury tuna options and other fish gives you a broader nutrient profile than choosing a single winner.</p>",
+  "faq": [
+    {"question": "Which has more protein, tuna or salmon?", "answer": "Cooked yellowfin tuna has about 29 g/100 g versus roughly 22 g/100 g in Atlantic salmon."},
+    {"question": "Which has more omega-3?", "answer": "Salmon by a very large margin for EPA and DHA: roughly 2 g/100 g versus about 0.1–0.2 g in cooked yellowfin tuna."},
+    {"question": "Does tuna have more mercury than salmon?", "answer": "Many tuna species and products do, but the amount varies substantially. Canned light tuna is lower than albacore or yellowfin, while bigeye is much higher; salmon is typically low."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein, fat and energy in cooked tuna and salmon."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "EPA and DHA by fish serving."},
+    {"name": "FDA/EPA — Advice about Eating Fish", "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish", "note": "Fish categories by mercury level."},
+    {"name": "FDA — Technical Information on Mercury in Commercial Fish", "url": "https://www.fda.gov/food/environmental-contaminants-food/technical-information-development-fdaepa-advice-about-eating-fish-those-who-might-become-or-are", "note": "Average mercury values for tuna types and salmon."}
+  ],
+  "image": {
+    "concept": "Cooked fresh tuna steak and cooked salmon fillet on matching plates, clean editorial food photography, no text.",
+    "alt": "Tuna and salmon compared for protein and fat"
+  },
+  "status": "publish"
+}

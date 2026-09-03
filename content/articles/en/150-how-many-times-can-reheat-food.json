@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "en-150-how-many-times-can-reheat-food",
+  "article_number": 150,
+  "translation_group": "150-how-many-times-reheat-food",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA leftovers guidance",
+  "title": "How many times can you reheat food?",
+  "slug": "how-many-times-can-reheat-food",
+  "seo": {"title":"How many times can you safely reheat food?","meta_description":"USDA does not set a one-reheat maximum: leftovers reheated to 165°F can be refrigerated promptly and reheated again. Portioning once is still simpler and better for quality.","search_intent":"Understand whether leftovers can be reheated more than once under U.S. food-safety guidance."},
+  "excerpt": "Under USDA guidance, there is no universal 'only once' rule: leftovers reheated to 165°F can be refrigerated promptly and reheated again. But every cycle adds opportunities for temperature abuse and quality loss, so the simplest practice is to reheat only the portion you plan to eat and leave the rest refrigerated.",
+  "taxonomy": {"food_family":"general","food_subcategories":["leftovers"],"article_types":["food-safety","practical-guide"],"primary_article_type":"food-safety"},
+  "content_html": "<p>In U.S. guidance, the second reheat is not automatically unsafe. The important variables are what happened between reheats: how quickly the food cooled, how cold it stayed and whether it reached a safe temperature again.</p><h2>USDA allows reheated leftovers to be chilled and reheated again</h2><p>USDA advises reheating leftovers to <strong>165°F</strong>. If you reheat more than you eat, the remaining portion can be refrigerated promptly and reheated again later.</p><h2>Why reheating one portion is still smarter</h2><p>Every warm-up and cool-down can reduce quality and creates another chance to leave food in the danger zone. Keeping the main container cold and heating one serving minimizes both issues.</p><h2>Microwave cold spots matter</h2><p>Cover, rotate or stir the food, and check temperature in several places. A bubbling edge does not prove that the center reached 165°F.</p><h2>Some foods deserve extra caution</h2><p>Rice and other starchy leftovers can present risks if they were cooled poorly. Reheating cannot reliably destroy every toxin that may have formed during unsafe storage.</p><h2>The practical rule</h2><p>U.S. guidance does not impose a strict reheating count, but fewer cycles are easier to control. Portion leftovers cold, reheat each serving thoroughly, and refrigerate any reheated remainder promptly if you plan to keep it.</p>",
+  "faq": [{"question":"Can I reheat leftovers twice?","answer":"Yes under USDA guidance if they were cooled and refrigerated promptly between reheats and each reheat reaches 165°F."},{"question":"Why do some sources say only reheat once?","answer":"Some authorities, including the UK Food Standards Agency, use a conservative one-reheat household rule to reduce repeated temperature cycling."}],
+  "sources": [{"name":"USDA FSIS — Leftovers and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety","note":"165°F reheating and safe handling of reheated leftovers."}],
+  "image": {"concept":"Several refrigerated meal portions with one portion being reheated to temperature, clean editorial image without text.","alt":"Reheating individual leftover portions safely"},
+  "status":"publish"
+}

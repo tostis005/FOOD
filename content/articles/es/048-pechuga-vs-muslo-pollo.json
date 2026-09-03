@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "es-048-pechuga-vs-muslo-pollo",
+  "article_number": 48,
+  "translation_group": "048-chicken-breast-vs-thigh",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA de pollo cocinado sin piel",
+  "title": "Pechuga vs. muslo de pollo: proteína, grasa y calorías",
+  "slug": "pechuga-vs-muslo-pollo",
+  "seo": {
+    "title": "Pechuga vs. muslo de pollo: proteína y calorías",
+    "meta_description": "La pechuga cocinada sin piel ronda 31 g de proteína y 165 kcal/100 g; el muslo, unos 26 g y 209 kcal. Comparamos grasa y raciones.",
+    "search_intent": "Comparar pechuga y muslo de pollo en el mismo estado de cocción y sin piel."
+  },
+  "excerpt": "La pechuga de pollo cocinada sin piel es más magra y concentra más proteína: ronda 31 g de proteína y 165 kcal por 100 g, frente a unos 26 g y 209 kcal en muslo sin piel. El muslo aporta más grasa y suele resultar más jugoso; con piel, la diferencia aumenta.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["chicken"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Pechuga y muslo proceden del mismo pollo, pero no se comportan igual ni en la sartén ni en una tabla nutricional. La pechuga es más magra; el muslo tiene más grasa intramuscular y tolera mejor una cocción algo más larga sin secarse.</p><p><strong>Si el objetivo es maximizar proteína con menos calorías, gana la pechuga. Si se priorizan jugosidad y sabor, el muslo acepta más grasa a cambio.</strong></p><h2>Comparación justa: ambos cocinados y sin piel</h2><table><thead><tr><th>Por 100 g</th><th>Pechuga</th><th>Muslo</th></tr></thead><tbody><tr><td>Calorías</td><td>~165 kcal</td><td>~209 kcal</td></tr><tr><td>Proteína</td><td>~31 g</td><td>~26 g</td></tr><tr><td>Grasa</td><td>~3,6 g</td><td>~10,9 g</td></tr></tbody></table><p>La pechuga aporta unos 5 g más de proteína y alrededor de 7 g menos de grasa por 100 g. La diferencia de energía ronda 44 kcal por la misma cantidad cocinada.</p><h2>En una ración de 150 g la diferencia se hace más visible</h2><p>Una porción de 150 g de pechuga cocinada aporta aproximadamente <strong>46,5 g de proteína, 248 kcal y 5,4 g de grasa</strong>. La misma cantidad de muslo ronda <strong>39 g de proteína, 314 kcal y 16 g de grasa</strong>.</p><p>Es decir, la pechuga suma unos 7–8 g más de proteína y ahorra alrededor de 65 kcal en una ración de ese tamaño.</p><h2>La grasa explica buena parte de la textura</h2><p>El muslo tiene más grasa y tejido conectivo. Durante la cocción, esa combinación ayuda a conservar una sensación más jugosa y hace que sea menos sensible a unos minutos de más.</p><p>La pechuga, con muy poca grasa, puede pasar de tierna a seca con rapidez cuando se sobrecocina. Su perfil nutricional más magro no garantiza una mejor textura.</p><h2>La piel puede cambiar bastante el resultado</h2><p>Las cifras anteriores son sin piel. Si el muslo se cocina y se come con piel, aumentan la grasa y las calorías. La pechuga con piel también sube, aunque el efecto depende de cuánto de esa piel y grasa se consuma realmente.</p><p>Por eso comparar una pechuga sin piel con un muslo con piel exageraría una diferencia que ya existe de forma natural.</p><h2>El muslo puede aportar algo más de ciertos minerales</h2><p>La carne oscura suele contener algo más de hierro y zinc que la pechuga, aunque la diferencia es mucho menor que la que existe en grasa. Ninguno de los dos cortes debe elegirse solo por unas décimas de mineral si la dieta ya es variada.</p><h2>¿Cuál conviene elegir?</h2><p>Para una comida en la que se busca mucha proteína con pocas calorías, la pechuga es la opción más eficiente. Para guisos, asados o preparaciones en las que importa mantener jugosidad, el muslo puede ser más agradecido.</p><p><strong>La diferencia nutricional es real, pero no convierte uno en saludable y otro en poco saludable.</strong> Son dos cortes con funciones culinarias distintas; la piel, la cantidad y la forma de cocinarlos pueden mover más el resultado de lo que parece.</p>",
+  "faq": [
+    {"question": "¿Qué tiene más proteína, pechuga o muslo?", "answer": "La pechuga cocinada sin piel ronda 31 g/100 g frente a unos 26 g/100 g del muslo sin piel."},
+    {"question": "¿Qué tiene más grasa?", "answer": "El muslo. Sin piel puede rondar 11 g/100 g frente a unos 3,6 g/100 g en pechuga."},
+    {"question": "¿El muslo engorda más que la pechuga?", "answer": "A igual peso aporta más calorías por su mayor contenido de grasa, pero el efecto sobre el peso depende de la dieta total y de la cantidad consumida."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de pechuga y muslo de pollo cocinados sin piel."}
+  ],
+  "image": {
+    "concept": "Pechuga y muslo de pollo cocinados sin piel en dos platos iguales, fotografía editorial limpia sin texto.",
+    "alt": "Pechuga y muslo de pollo comparados"
+  },
+  "status": "publish"
+}

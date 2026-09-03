@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-045-mejores-proteinas-vegetales-completas",
+  "article_number": 45,
+  "translation_group": "045-best-complete-plant-proteins",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; marco FAO de aminoácidos y composición USDA",
+  "title": "Las mejores proteínas vegetales completas: soja, quinoa y otras opciones",
+  "slug": "mejores-proteinas-vegetales-completas",
+  "seo": {
+    "title": "Mejores proteínas vegetales completas",
+    "meta_description": "Soja, tofu y tempeh combinan un buen perfil de aminoácidos con mucha proteína por ración. Quinoa y otros pseudocereales aportan menos cantidad.",
+    "search_intent": "Identificar fuentes vegetales con buen perfil de aminoácidos sin confundir calidad con cantidad."
+  },
+  "excerpt": "Entre las fuentes vegetales, la soja y sus derivados son las opciones más potentes porque combinan un perfil completo de aminoácidos con 15–30 g de proteína por ración. Quinoa, amaranto y trigo sarraceno también aportan los esenciales, pero en una ración cocida suelen aportar bastante menos proteína.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": ["soy"],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Buscar una ‘proteína vegetal completa’ puede llevar a una lista de alimentos muy distintos tratados como equivalentes. Una taza de quinoa cocida y 150 g de tofu pueden tener perfiles de aminoácidos favorables, pero no aportan la misma cantidad de proteína.</p><p><strong>La soja destaca porque combina calidad de aminoácidos, digestibilidad y una cantidad alta por ración.</strong> Quinoa, amaranto y trigo sarraceno amplían las opciones, aunque funcionan más como bases o acompañamientos que como ancla proteica principal.</p><h2>La comparación debe incluir gramos de proteína, no solo la etiqueta ‘completa’</h2><table><thead><tr><th>Alimento</th><th>Ración</th><th>Proteína aprox.</th><th>Papel práctico</th></tr></thead><tbody><tr><td>Tempeh</td><td>150 g</td><td>~28–30 g</td><td>Fuente principal</td></tr><tr><td>Tofu firme</td><td>150 g</td><td>~20–25 g</td><td>Fuente principal</td></tr><tr><td>Edamame</td><td>1 taza</td><td>~17 g</td><td>Fuente principal o complemento</td></tr><tr><td>Amaranto cocido</td><td>1 taza</td><td>~9 g</td><td>Base/acompañamiento</td></tr><tr><td>Quinoa cocida</td><td>1 taza</td><td>~8 g</td><td>Base/acompañamiento</td></tr><tr><td>Trigo sarraceno cocido</td><td>1 taza</td><td>~6 g</td><td>Base/acompañamiento</td></tr></tbody></table><p>La distancia es clara: 150 g de tempeh pueden aportar más de tres veces la proteína de una taza de quinoa. Por eso ‘completa’ no significa ‘igual de eficaz para alcanzar una cantidad concreta’.</p><h2>Soja, tofu y tempeh son el grupo más sólido</h2><p>La proteína de soja aporta los aminoácidos esenciales en proporciones favorables y tiene buena digestibilidad. El tofu y el tempeh permiten convertir esa calidad en una ración con una cantidad relevante de proteína.</p><p>El tempeh suele concentrar más porque contiene menos agua que muchos tofus. La cifra exacta cambia por marca, tipo y firmeza.</p><h2>Edamame mantiene la proteína dentro del alimento entero</h2><p>Una taza de edamame cocido ronda 17 g de proteína, además de fibra. Es menos concentrado que el tempeh pero mucho más proteico que la mayoría de verduras y cereales cocidos.</p><h2>Quinoa es completa, pero no es una ‘pechuga vegetal’</h2><p>Una taza de quinoa cocida aporta alrededor de 8 g de proteína. Una ración de 150 g de pollo cocinado supera 40 g. La quinoa puede contribuir de forma interesante, pero necesitaría una cantidad mucho mayor para igualar una fuente proteica concentrada.</p><p>Su valor está en combinar proteína con carbohidratos, fibra y minerales dentro de una base de comida.</p><h2>Amaranto y trigo sarraceno amplían la variedad</h2><p>Ambos aportan perfiles de aminoácidos favorables y no contienen gluten de forma natural. En raciones cocidas suelen moverse alrededor de 6–9 g de proteína por taza, por lo que funcionan mejor junto con legumbres, tofu, frutos secos o semillas si el objetivo es una comida claramente alta en proteína.</p><h2>‘Completa’ no hace innecesaria la variedad</h2><p>Aunque una fuente cumpla un patrón favorable de aminoácidos esenciales, variar alimentos sigue teniendo sentido por fibra, hierro, calcio, zinc, grasas y otros nutrientes. Una dieta vegetariana o vegana no necesita construirse alrededor de una única proteína perfecta.</p><h2>La regla útil</h2><p>Si quieres una proteína vegetal completa que pueda ser el centro del plato, <strong>soja, tofu, tempeh y edamame son las opciones más prácticas</strong>. Quinoa, amaranto y trigo sarraceno son excelentes complementos, pero su menor cantidad de proteína por ración cambia su función en la comida.</p>",
+  "faq": [
+    {"question": "¿Cuál es la mejor proteína vegetal completa?", "answer": "La soja y sus derivados destacan por combinar buen perfil de aminoácidos, digestibilidad y bastante proteína por ración."},
+    {"question": "¿La quinoa es una proteína completa?", "answer": "Tiene un perfil muy favorable de aminoácidos esenciales, pero una taza cocida aporta solo unos 8 g de proteína."},
+    {"question": "¿El tofu es proteína completa?", "answer": "Sí. La proteína de soja aporta los nueve aminoácidos esenciales en proporciones favorables."}
+  ],
+  "sources": [
+    {"name": "FAO — Dietary protein quality evaluation in human nutrition", "url": "https://www.fao.org/4/i3124e/i3124e.pdf", "note": "Patrones de aminoácidos y calidad proteica."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína y composición por ración."}
+  ],
+  "image": {
+    "concept": "Tofu, tempeh, edamame, quinoa, amaranto y trigo sarraceno en cuencos, fotografía editorial sin texto.",
+    "alt": "Proteínas vegetales completas como soja y quinoa"
+  },
+  "status": "publish"
+}

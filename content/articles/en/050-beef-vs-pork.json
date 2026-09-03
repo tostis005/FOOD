@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-050-beef-vs-pork",
+  "article_number": 50,
+  "translation_group": "050-beef-vs-pork",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition for cooked lean cuts",
+  "title": "Beef vs Pork: Protein, Fat, Iron and Calories",
+  "slug": "beef-vs-pork",
+  "seo": {
+    "title": "Beef vs Pork: Protein, Fat, Iron and Calories",
+    "meta_description": "Lean beef and pork tenderloin provide similar protein. Beef usually contains more iron; pork stands out for thiamin. Cut matters most for fat.",
+    "search_intent": "Compare beef and pork using representative lean cuts and explain why the cut matters more than a single species-wide number."
+  },
+  "excerpt": "Lean beef and lean pork can provide very similar amounts of protein. Beef usually supplies more iron and vitamin B12, while pork is notably rich in thiamin. For fat and calories, the specific cut matters more than whether the meat came from cattle or pigs.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["beef", "pork"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Comparing ‘beef’ with ‘pork’ as if each were one food is difficult because both animals contain very lean cuts and very fatty ones. Pork tenderloin can be leaner than many beef steaks, and a lean beef cut can be very different from a heavily marbled one.</p><p><strong>With lean cooked cuts, protein is very similar. The more consistent difference is iron: beef usually provides more.</strong></p><h2>A representative comparison of lean cooked cuts</h2><table><thead><tr><th>Per 100 g cooked</th><th>Lean beef</th><th>Lean pork tenderloin/loin</th></tr></thead><tbody><tr><td>Calories</td><td>~190–210</td><td>~150–170</td></tr><tr><td>Protein</td><td>~28–30 g</td><td>~26–28 g</td></tr><tr><td>Fat</td><td>~7–9 g</td><td>~3–5 g</td></tr><tr><td>Iron</td><td>~2–3 mg</td><td>~0.8–1.2 mg</td></tr></tbody></table><p>Protein overlaps heavily, with only a few grams separating representative cuts. Iron separates more clearly: a serving of lean beef can provide roughly twice as much as lean pork.</p><h2>Pork can be surprisingly lean</h2><p>Pork tenderloin and some loin cuts contain little visible fat. Cooked and trimmed, they can land around 3–5 grams of fat per 100 grams, less than many beef cuts.</p><p>That is why ‘pork’ should not automatically mean fatty meat. Bacon, pork belly and ribs do not describe tenderloin.</p><h2>Beef has a clearer iron advantage</h2><p>A lean beef cut can provide around 2–3 mg of iron per 100 grams compared with roughly 1 mg in lean pork. Part of that iron is heme iron, which is generally absorbed more efficiently than nonheme iron from plant foods.</p><p>If iron intake is the specific goal, this difference matters more than a tiny protein gap.</p><h2>Pork stands out for thiamin</h2><p>Pork is particularly rich in vitamin B1, or thiamin. Beef provides thiamin too, but usually much less. Both meats also contribute vitamin B12, zinc, selenium and other B vitamins in varying amounts.</p><h2>Fat depends heavily on the cut and trimming</h2><p>A very lean beef steak can approach lean pork; a heavily marbled steak can be far fattier. Pork shows the same spread between tenderloin, chops, ribs and belly.</p><p>A species-wide comparison therefore only works when the cut and visible fat are specified.</p><h2>Processed meats belong in a different comparison</h2><p>Bacon, sausage and cured pork should not be compared with fresh lean beef as if they were the same kind of food. Processing can raise sodium substantially and alter fat, water and calorie density. Processed beef products have the same issue.</p><h2>The useful rule</h2><p>For protein, <strong>lean beef and lean pork are very close.</strong> Beef usually wins for iron; pork is stronger in thiamin. For calories and fat, ask about the cut first—that choice can matter more than the animal.</p>",
+  "faq": [
+    {"question": "Which has more protein, beef or pork?", "answer": "Lean cooked cuts are very close, generally around 26–30 grams of protein per 100 grams."},
+    {"question": "Which has more iron?", "answer": "Beef usually provides more, often around 2–3 mg/100 g in lean cuts versus about 1 mg in lean pork."},
+    {"question": "Is pork always fattier than beef?", "answer": "No. Pork tenderloin and lean loin cuts can contain less fat than many beef cuts; the specific cut matters greatly."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of cooked beef and pork cuts."},
+    {"name": "NIH Office of Dietary Supplements — Iron", "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/", "note": "Heme iron and absorption context."}
+  ],
+  "image": {
+    "concept": "A lean beef cut and pork tenderloin cooked and placed on matching plates, clean editorial food photography, no text.",
+    "alt": "Lean beef and pork compared side by side"
+  },
+  "status": "publish"
+}

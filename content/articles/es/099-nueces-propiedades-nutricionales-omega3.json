@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-099-nueces-propiedades-nutricionales-omega3",
+  "article_number": 99,
+  "translation_group": "099-walnuts-nutrition-omega3",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA, ALA y ración de 30 g",
+  "title": "Nueces: propiedades nutricionales y omega-3",
+  "slug": "nueces-propiedades-nutricionales-omega3",
+  "seo": {
+    "title": "Nueces: proteína, fibra, grasas, calorías y omega-3",
+    "meta_description": "30 g de nueces aportan unas 196 kcal, 4,6 g de proteína, 2 g de fibra, 19,6 g de grasa y cerca de 2,7 g de ALA omega-3.",
+    "search_intent": "Consultar el perfil nutricional de las nueces y entender qué tipo de omega-3 aportan."
+  },
+  "excerpt": "Una ración de 30 g de nueces aporta aproximadamente 196 kcal, 4,6 g de proteína, 2 g de fibra y casi 20 g de grasa. Su rasgo diferencial entre los frutos secos es el ALA: unos 2,7 g de este omega-3 vegetal por 30 g. No es EPA ni DHA del pescado, pero sí un ácido graso esencial que el cuerpo no puede fabricar.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["walnuts"],
+    "article_types": ["nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Las nueces no lideran los rankings de proteína ni de fibra entre frutos secos. Su característica más distintiva está en otro lugar: <strong>su grasa es especialmente rica en poliinsaturadas y aporta una cantidad relevante de ALA omega-3</strong>.</p><h2>Qué aporta una ración de nueces</h2><table><thead><tr><th>Nutriente</th><th>Por 100 g</th><th>Por 30 g</th></tr></thead><tbody><tr><td>Energía</td><td>~654 kcal</td><td>~196 kcal</td></tr><tr><td>Proteína</td><td>~15,2 g</td><td>~4,6 g</td></tr><tr><td>Grasa</td><td>~65,2 g</td><td>~19,6 g</td></tr><tr><td>Fibra</td><td>~6,7 g</td><td>~2 g</td></tr><tr><td>ALA omega-3</td><td>~9 g</td><td>~2,7 g</td></tr></tbody></table><p>Las casi 200 kcal del puñado se explican sobre todo por la grasa. La diferencia con otros frutos secos no es que tengan menos energía, sino <strong>qué ácidos grasos forman esa grasa</strong>.</p><h2>El omega-3 de las nueces es ALA</h2><p>El ácido alfa-linolénico (ALA) es un omega-3 esencial. El organismo puede convertir una parte en EPA y después en DHA, pero la conversión es limitada.</p><p>Por eso 2,7 g de ALA de nueces no deben presentarse como equivalentes a 2,7 g de EPA+DHA de pescado. Ambos pertenecen a la familia omega-3, pero no son la misma molécula ni tienen el mismo destino metabólico.</p><h2>¿Cuánto ALA es una cantidad relevante?</h2><p>EFSA estableció una ingesta adecuada de ALA equivalente al 0,5 % de la energía total. Otras referencias internacionales utilizan cifras del orden de 1–2 g/día para adultos según sexo y energía.</p><p>Una ración de 30 g de nueces aporta alrededor de 2,7 g, por lo que constituye una fuente concentrada de este omega-3 vegetal.</p><h2>En proteína, otros frutos secos las superan</h2><p>Treinta gramos de nueces aportan unos 4,6 g de proteína. La misma cantidad de almendras aporta alrededor de 6,4 g y pistachos unos 6,1 g.</p><p>La diferencia es de aproximadamente 1,5–1,8 g por ración. Existe, pero no convierte a las nueces en un alimento pobre en proteína; simplemente no es su principal ventaja comparativa.</p><h2>También tienen menos fibra que almendras o pistachos</h2><p>Una ración de 30 g aporta unos 2 g de fibra, frente a aproximadamente 3,8 g en almendras y 3,1 g en pistachos.</p><p>Si la prioridad absoluta es aumentar fibra, hay opciones mejores. Si la prioridad es incluir ALA dentro de los frutos secos, las nueces cambian el ranking.</p><h2>La grasa total es alta y mayoritariamente insaturada</h2><p>Más de 60 g de cada 100 g de nueces son grasa. La mayor parte es poliinsaturada, con ácido linoleico omega-6 y ALA omega-3, mientras la grasa saturada ronda 6 g/100 g.</p><p>Eso explica tanto su perfil de ácidos grasos como su densidad energética.</p><h2>Conservarlas bien importa</h2><p>La abundancia de poliinsaturadas las hace más susceptibles a oxidarse que frutos secos dominados por grasas monoinsaturadas. Calor, luz y oxígeno aceleran el enranciamiento.</p><p>Un recipiente hermético en un lugar fresco y oscuro —o la nevera para periodos largos— ayuda a conservar mejor sabor y grasa.</p><h2>La idea práctica</h2><p><strong>Una ración de 30 g de nueces aporta cerca de 2,7 g de ALA omega-3 junto con unos 4,6 g de proteína y 2 g de fibra.</strong> Su fortaleza nutricional no está en ganar todos los rankings, sino en un perfil de grasa poliinsaturada que pocos frutos secos igualan.</p>",
+  "faq": [
+    {"question": "¿Cuánto omega-3 tienen las nueces?", "answer": "Una ración de 30 g aporta aproximadamente 2,7 g de ALA, el principal omega-3 vegetal de las nueces."},
+    {"question": "¿El omega-3 de las nueces es igual al del salmón?", "answer": "No. Las nueces aportan ALA; el salmón aporta principalmente EPA y DHA. El cuerpo convierte solo una parte limitada del ALA."},
+    {"question": "¿Cuántas calorías tienen 30 g de nueces?", "answer": "Aproximadamente 196 kcal."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energía, macronutrientes y ácidos grasos de nueces."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "ALA, EPA, DHA y conversión metabólica."},
+    {"name": "EFSA — Dietary Reference Values for fats", "url": "https://www.efsa.europa.eu/en/efsajournal/pub/1461", "note": "Referencia europea para ALA y otros ácidos grasos."}
+  ],
+  "image": {
+    "concept": "Ración de 30 gramos de nueces partidas junto a aceite natural de nuez y una báscula pequeña, fotografía editorial sin texto.",
+    "alt": "Nueces como fuente vegetal de ALA omega-3"
+  },
+  "status": "publish"
+}

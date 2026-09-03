@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-050-ternera-vs-cerdo",
+  "article_number": 50,
+  "translation_group": "050-beef-vs-pork",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA de cortes magros cocinados",
+  "title": "Ternera vs. cerdo: proteína, grasa, hierro y calorías",
+  "slug": "ternera-vs-cerdo",
+  "seo": {
+    "title": "Ternera vs. cerdo: proteína, grasa e hierro",
+    "meta_description": "Un corte magro de ternera y un solomillo de cerdo aportan proteína similar. La ternera suele aportar más hierro; el cerdo destaca por tiamina.",
+    "search_intent": "Comparar ternera y cerdo usando cortes magros equivalentes y explicar por qué el corte importa más que una cifra única por especie."
+  },
+  "excerpt": "Ternera y cerdo pueden aportar cantidades muy parecidas de proteína cuando se comparan cortes magros. La ternera suele aportar más hierro y vitamina B12; el cerdo destaca especialmente por tiamina. En grasa y calorías, la pieza concreta importa más que la especie.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["beef", "pork"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Comparar ‘ternera’ con ‘cerdo’ como dos alimentos únicos es complicado porque dentro de cada animal hay cortes muy magros y otros con mucha grasa. Un solomillo de cerdo puede ser bastante más magro que una pieza grasa de ternera, y también ocurre al revés.</p><p><strong>Con cortes magros cocinados, la proteína es muy parecida. La diferencia más consistente está en el hierro: la ternera suele aportar más.</strong></p><h2>Una comparación representativa entre cortes magros</h2><table><thead><tr><th>Por 100 g cocinados</th><th>Ternera magra</th><th>Solomillo/lomo magro de cerdo</th></tr></thead><tbody><tr><td>Calorías</td><td>~190–210 kcal</td><td>~150–170 kcal</td></tr><tr><td>Proteína</td><td>~28–30 g</td><td>~26–28 g</td></tr><tr><td>Grasa</td><td>~7–9 g</td><td>~3–5 g</td></tr><tr><td>Hierro</td><td>~2–3 mg</td><td>~0,8–1,2 mg</td></tr></tbody></table><p>La proteína se solapa mucho: unos 2–3 g de diferencia por 100 g. El hierro se separa más; una ración de ternera magra puede aportar aproximadamente el doble que una de cerdo magro.</p><h2>El cerdo puede ser sorprendentemente magro</h2><p>El solomillo y algunos cortes de lomo de cerdo tienen poca grasa visible. Cocinados y recortados pueden rondar 3–5 g de grasa por 100 g, una cifra menor que la de muchos cortes de ternera.</p><p>Eso contradice la idea de que ‘cerdo’ significa automáticamente carne grasa. Bacon, panceta o costillas no describen el perfil de un solomillo.</p><h2>La ternera tiene una ventaja más clara en hierro</h2><p>Un corte magro de ternera puede aportar alrededor de 2–3 mg de hierro por 100 g, frente a aproximadamente 1 mg en cerdo magro. Además, parte de ese hierro es hemo y se absorbe con mayor facilidad que el hierro no hemo vegetal.</p><p>Si el hierro es una prioridad concreta, esta diferencia es más relevante que una pequeña distancia de proteína.</p><h2>El cerdo destaca por tiamina</h2><p>La carne de cerdo es una fuente especialmente rica en vitamina B1 o tiamina. La ternera aporta tiamina, pero normalmente bastante menos. Las dos carnes aportan también B12, zinc, selenio y otras vitaminas del grupo B en cantidades variables.</p><h2>La grasa depende mucho del corte y de lo que se recorta</h2><p>Un filete de ternera muy magro puede acercarse al cerdo magro; una chuleta con grasa visible puede alejarse. En el cerdo ocurre lo mismo entre solomillo, chuleta, costilla y panceta.</p><p>Por eso una comparación de especie solo sirve si se especifica qué pieza y si se come la grasa visible.</p><h2>Los productos procesados son otra categoría</h2><p>Jamón, bacon, salchichas y embutidos de cerdo no deberían compararse con carne fresca de ternera como si fueran equivalentes. El procesado puede aumentar mucho sodio y cambiar grasa, agua y densidad energética. Lo mismo ocurre con cecinas y carnes procesadas de vacuno.</p><h2>La regla útil</h2><p>Para proteína, <strong>ternera magra y cerdo magro están muy cerca</strong>. Si buscas hierro, la ternera suele tener ventaja; si miras tiamina, el cerdo destaca. Para calorías y grasa, pregunta primero por el corte: esa decisión puede importar más que el animal.</p>",
+  "faq": [
+    {"question": "¿Qué tiene más proteína, ternera o cerdo?", "answer": "Los cortes magros cocinados están muy cerca, generalmente alrededor de 26–30 g de proteína por 100 g."},
+    {"question": "¿Qué tiene más hierro?", "answer": "La ternera suele aportar más: aproximadamente 2–3 mg/100 g en cortes magros frente a alrededor de 1 mg en cerdo magro."},
+    {"question": "¿El cerdo es siempre más graso?", "answer": "No. Solomillo y cortes magros de lomo pueden tener menos grasa que muchos cortes de ternera; la pieza concreta importa mucho."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de cortes cocinados de ternera y cerdo."},
+    {"name": "NIH Office of Dietary Supplements — Iron", "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/", "note": "Hierro hemo y absorción."}
+  ],
+  "image": {
+    "concept": "Corte magro de ternera y solomillo de cerdo cocinados, colocados en platos iguales, fotografía editorial sin texto.",
+    "alt": "Ternera y cerdo magros comparados"
+  },
+  "status": "publish"
+}

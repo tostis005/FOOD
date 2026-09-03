@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-066-cuanto-duran-huevos-cocidos-nevera",
+  "article_number": 66,
+  "translation_group": "066-how-long-hard-boiled-eggs-fridge",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; pauta doméstica conservadora de 1 semana apoyada por FDA y refrigeración general EFSA por debajo de 5 °C",
+  "title": "Cuánto duran los huevos cocidos en la nevera",
+  "slug": "cuanto-duran-huevos-cocidos-nevera",
+  "seo": {
+    "title": "Cuánto duran los huevos cocidos en la nevera",
+    "meta_description": "Como pauta doméstica, los huevos duros bien refrigerados pueden conservarse hasta 1 semana. Enfríalos pronto, guárdalos a ≤5 °C y no los dejes horas fuera.",
+    "search_intent": "Saber cuánto tiempo puede guardarse un huevo duro en la nevera, con o sin cáscara, y cómo conservarlo de forma segura."
+  },
+  "excerpt": "Como pauta doméstica conservadora, un huevo duro bien cocido, enfriado y refrigerado pronto puede mantenerse hasta 1 semana en la nevera. Guárdalo a 5 °C o menos y no lo dejes a temperatura ambiente más de unas 2 horas. Con cáscara suele conservar mejor la humedad y absorber menos olores; pelado debe ir siempre en un recipiente cerrado.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": ["hard-boiled-eggs"],
+    "article_types": ["storage", "food-safety"],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Hervir un huevo no convierte un alimento perecedero en un producto de despensa. Después de cocerlo, <strong>hay que enfriarlo y refrigerarlo pronto</strong>. Como referencia doméstica sencilla, FDA establece un máximo de una semana para huevos duros refrigerados, con o sin cáscara.</p><h2>La regla práctica: hasta una semana en frío</h2><p>Ese plazo supone que el huevo se ha cocinado bien, no ha pasado horas sobre la encimera y se mantiene en un frigorífico frío. EFSA recomienda refrigerar los alimentos cocinados y perecederos por debajo de 5 °C y no dejarlos a temperatura ambiente más de 2 horas.</p><p>Si no recuerdas cuándo lo cociste, la solución más útil es fechar el recipiente. Un huevo que “parece normal” no permite reconstruir su historial de tiempo y temperatura.</p><h2>Con cáscara suele conservar mejor la calidad</h2><p>La cáscara ya cocida actúa como una barrera física frente a pérdida de humedad, olores del frigorífico y manipulación. Si no necesitas pelarlos antes, guardarlos enteros suele mantener mejor la textura.</p><p>Eso no significa que la cáscara esterilice el huevo. Después de cocerlo sigue necesitando refrigeración.</p><h2>Si está pelado, recipiente cerrado</h2><p>Un huevo pelado queda expuesto directamente al aire y a las manos. Guárdalo en un recipiente limpio y cerrado y evita dejarlo suelto en una balda.</p><p>Puede secarse antes que uno con cáscara, por lo que la pérdida de calidad puede notarse antes incluso dentro de la semana.</p><h2>¿Hay que enfriarlos con agua?</h2><p>Pasarlos por agua fría o un baño de hielo ayuda a detener la cocción y a bajar la temperatura con rapidez. Después hay que secarlos y refrigerarlos, no dejarlos durante horas dentro de un bol a temperatura ambiente.</p><p>El objetivo de seguridad no es que estén completamente fríos antes de entrar en la nevera, sino que no permanezcan mucho tiempo en la zona templada.</p><h2>Un olor fuerte al pelarlos no siempre significa deterioro</h2><p>Los huevos cocidos pueden desarrollar un olor sulfuroso, especialmente si se han cocido demasiado. También puede aparecer un borde verdoso alrededor de la yema por una reacción entre hierro y azufre. Ninguno de los dos fenómenos, por sí solo, significa que el huevo esté estropeado.</p><p>En cambio, un olor claramente putrefacto, textura viscosa, moho u otros signos de deterioro son motivos para desecharlo. Y si ha superado el plazo o ha pasado demasiado tiempo fuera de frío, no hay que usar el olor para concederle días extra.</p><h2>Cuánto pueden estar fuera de la nevera</h2><p>La regla general de seguridad para alimentos perecederos es unas <strong>2 horas a temperatura ambiente</strong>. En ambientes muy calurosos el margen debe ser menor; FDA lo reduce a 1 hora por encima de 32 °C.</p><p>Esto importa en pícnics, bufés y huevos preparados para llevar: si no van a consumirse pronto, necesitan una bolsa o nevera isotérmica con frío suficiente.</p><h2>¿Se pueden congelar?</h2><p>Los huevos duros enteros no congelan bien. La clara se vuelve gomosa y acuosa al descongelarse. Es mejor cocinar únicamente la cantidad que vaya a consumirse durante la semana.</p><h2>La regla que conviene recordar</h2><p><strong>Hasta una semana en la nevera, refrigerados pronto y siempre protegidos.</strong> La cáscara ayuda a mantener calidad; el frío es lo que mantiene controlado el crecimiento microbiano.</p><p>Si el huevo pasó horas templado o no sabes cuándo se cocinó, el calendario y el historial pesan más que un aspecto aparentemente normal.</p>",
+  "faq": [
+    {"question": "¿Cuánto dura un huevo duro con cáscara en la nevera?", "answer": "Como referencia doméstica, hasta 1 semana si se enfrió y refrigeró correctamente."},
+    {"question": "¿Y si ya está pelado?", "answer": "Puede mantenerse dentro del mismo margen, pero debe guardarse en un recipiente cerrado y suele perder calidad antes por deshidratación."},
+    {"question": "¿Puedo comer un huevo cocido que estuvo toda la noche fuera?", "answer": "No es recomendable. Los alimentos perecederos no deberían permanecer a temperatura ambiente más de unas 2 horas."}
+  ],
+  "sources": [
+    {"name": "FDA — What You Need to Know About Egg Safety", "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety", "note": "Pauta de una semana para huevos duros refrigerados."},
+    {"name": "EFSA — Proper food handling", "url": "https://www.efsa.europa.eu/en/safe2eat/proper-food-handling", "note": "Refrigeración de alimentos cocinados por debajo de 5 °C y regla de 2 horas."}
+  ],
+  "image": {
+    "concept": "Huevos cocidos con cáscara y pelados dentro de recipientes cerrados en una nevera, fotografía editorial limpia sin texto.",
+    "alt": "Huevos cocidos correctamente almacenados en la nevera"
+  },
+  "status": "publish"
+}

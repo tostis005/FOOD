@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-115-nuts-every-day",
+  "article_number": 115,
+  "translation_group": "115-nuts-every-day",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; American Heart Association serving guidance and USDA composition",
+  "title": "Is it healthy to eat nuts every day?",
+  "slug": "is-it-healthy-to-eat-nuts-every-day",
+  "seo": {
+    "title": "Is it healthy to eat nuts every day?",
+    "meta_description": "Yes, a daily 1 oz serving can fit a healthy diet. Nuts provide unsaturated fat, fiber, protein, and minerals, but typically contain 160–200+ calories per ounce.",
+    "search_intent": "Understand whether eating nuts every day is healthy and what a sensible daily portion looks like."
+  },
+  "excerpt": "Yes. For most people, a daily 1 oz (28 g) serving of unsalted nuts can fit well in a healthy diet. The American Heart Association uses 1 oz as a standard serving. Depending on the nut, that portion provides roughly 155–200+ calories, so replacing another snack is different from simply adding nuts on top of everything else.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["nuts"],
+    "article_types": ["health-daily-consumption", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Eating nuts every day can fit very well into a healthy dietary pattern. The important word is “serving”: <strong>a small handful is not the same as eating straight from a large bag until it is half empty</strong>.</p><h2>What counts as a serving?</h2><p>The American Heart Association uses 1 oz of whole nuts as a standard serving. Depending on the nut, that amount usually contains roughly 155–200+ calories.</p><table><thead><tr><th>Nut</th><th>Calories per 1 oz</th><th>Protein</th></tr></thead><tbody><tr><td>Almonds</td><td>~164</td><td>~6 g</td></tr><tr><td>Pistachios</td><td>~159</td><td>~5.7 g</td></tr><tr><td>Walnuts</td><td>~185</td><td>~4.3 g</td></tr><tr><td>Cashews</td><td>~157</td><td>~5.1 g</td></tr><tr><td>Macadamias</td><td>~204</td><td>~2.2 g</td></tr></tbody></table><p>Nuts are energy-dense because they contain a lot of fat and little water, but most of that fat is unsaturated.</p><h2>Daily does not mean unlimited</h2><p>One ounce per day can add more than 1,100–1,400 calories across a week. If those nuts replace cookies, chips, or another snack, the nutritional trade can be favorable without adding the full calorie amount to the diet.</p><p>If nuts are simply added on top of an unchanged diet, the energy still counts.</p><h2>Unsalted and minimally sweetened versions are easier to fit</h2><p>Plain or dry-roasted nuts stay close to the original food. Heavily salted nuts add sodium; honey-roasted, candied, or chocolate-coated versions add sugar and often more calories.</p><h2>Different nuts bring different strengths</h2><p>Walnuts stand out for ALA omega-3, almonds for vitamin E, and pistachios for protein and other micronutrients. Rotating among them broadens the nutrient mix without needing to identify a single “best” nut.</p><h2>The practical rule</h2><p><strong>A small 1 oz handful each day can fit comfortably for most people</strong>. Treat it as a real food serving, preferably unsalted, and let it replace—not invisibly add to—other calorie-dense snacks when energy intake matters.</p>",
+  "faq": [
+    {"question": "How many nuts should I eat per day?", "answer": "A standard serving is about 1 oz (28 g), roughly a small handful."},
+    {"question": "Will eating nuts every day cause weight gain?", "answer": "It depends on total energy intake. One ounce adds roughly 155–200+ calories; replacing another snack is different from adding it on top of your usual intake."},
+    {"question": "Are raw nuts better than roasted nuts?", "answer": "Both can fit. Added salt, sugar, coatings, and oil usually matter more than roasting itself."}
+  ],
+  "sources": [
+    {"name": "American Heart Association — Go Nuts (But Just a Little!)", "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/fats/go-nuts-but-just-a-little", "note": "Standard 1 oz serving and healthier nut choices."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Calories and protein by nut type."}
+  ],
+  "image": {
+    "concept": "A measured small handful of mixed nuts beside a much larger bowl, clean editorial photography without text.",
+    "alt": "One-ounce daily serving of mixed nuts"
+  },
+  "status": "publish"
+}

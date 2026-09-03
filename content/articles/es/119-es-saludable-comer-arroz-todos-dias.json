@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-119-es-saludable-comer-arroz-todos-dias",
+  "article_number": 119,
+  "translation_group": "119-rice-every-day",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; recomendaciones AESAN de variedad de cereales y evaluación de arsénico",
+  "title": "¿Es saludable comer arroz todos los días?",
+  "slug": "es-saludable-comer-arroz-todos-dias",
+  "seo": {
+    "title": "¿Es saludable comer arroz todos los días?",
+    "meta_description": "El arroz puede formar parte de la dieta diaria, pero conviene variar cereales. El arroz es una fuente relevante de arsénico inorgánico y el tipo y la preparación importan.",
+    "search_intent": "Saber si comer arroz a diario es saludable y cómo influyen variedad, fibra, porción y arsénico."
+  },
+  "excerpt": "El arroz puede comerse con frecuencia, incluso a diario en una dieta bien construida, pero no es necesario que sea el único cereal. AESAN y EFSA identifican el arroz y sus derivados entre las principales fuentes dietéticas de arsénico inorgánico, por lo que variar con avena, trigo, maíz, cebada, quinoa u otros cereales reduce la dependencia de una sola fuente y mejora la variedad nutricional.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": ["rice"],
+    "article_types": ["health-daily-consumption", "nutrition-composition", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>En muchas culturas el arroz aparece todos los días y puede formar parte de una dieta saludable. El problema no es que el séptimo plato semanal se vuelva dañino de repente, sino <strong>qué cantidad comes, con qué lo acompañas y si desplaza toda la variedad de cereales</strong>.</p><h2>Una ración de arroz es sobre todo una fuente de carbohidratos</h2><p>Cien gramos de arroz blanco cocido aportan aproximadamente 130 kcal, 28 g de carbohidratos, 2–3 g de proteína y menos de 1 g de fibra. Un plato de 200 g ronda 260 kcal y 56 g de carbohidratos antes de añadir aceite, salsas o acompañamientos.</p><p>El arroz integral aporta una cantidad parecida de calorías, pero más fibra y minerales porque conserva el salvado.</p><h2>Variar los cereales sigue teniendo sentido</h2><p>AESAN recomienda consumir distintos tipos de cereales y priorizar las versiones integrales. Alternar arroz con avena, pan integral, pasta, cebada, maíz, bulgur, quinoa o trigo sarraceno cambia fibra, micronutrientes, textura y respuesta glucémica de las comidas.</p><h2>El arsénico es el motivo para no depender exclusivamente del arroz</h2><p>El arroz absorbe arsénico del suelo y del agua con más facilidad que muchos otros cultivos. AESAN y EFSA lo identifican, junto con productos derivados del arroz y otros cereales, como una fuente relevante de exposición a arsénico inorgánico.</p><p>Eso no significa que haya que eliminarlo. Significa que <strong>la variedad dietética reduce la exposición repetida a una sola fuente</strong>, especialmente en personas que consumen muchos productos de arroz.</p><h2>Integral no gana en todos los criterios</h2><p>El arroz integral conserva más fibra y micronutrientes, pero el arsénico se concentra en las capas externas del grano, por lo que puede contener más arsénico inorgánico que el blanco. Elegir integral por fibra sigue teniendo ventajas; simplemente no convierte al alimento en superior en cada variable.</p><h2>Lavar el arroz no elimina de forma importante el arsénico</h2><p>El enjuague normal puede retirar almidón superficial, pero los estudios de FDA indican que su efecto sobre el arsénico del arroz cocido es mínimo.</p><p>Cocer con abundante agua —aproximadamente 6–10 partes de agua por 1 de arroz— y escurrir puede reducir el arsénico inorgánico alrededor de un 40–60 %, aunque también puede arrastrar vitaminas y minerales, especialmente en arroz enriquecido.</p><h2>Lo que acompaña al arroz cambia mucho la comida</h2><p>Un bol de arroz con verduras y legumbres no es nutricionalmente igual que un gran plato de arroz blanco con poca proteína, poca fibra y una salsa muy energética. Si el arroz es diario, conviene que el resto del plato aporte verduras, proteína y grasas de buena calidad.</p><h2>La regla práctica</h2><p><strong>El arroz puede aparecer a diario, pero variar los cereales es una estrategia mejor</strong> para ampliar nutrientes y reducir la dependencia de una fuente relevante de arsénico. Si lo comes muy a menudo, rota tipos y acompáñalo de alimentos ricos en fibra y proteína.</p>",
+  "faq": [
+    {"question": "¿Es malo comer arroz todos los días?", "answer": "No necesariamente. Puede encajar, pero conviene variar cereales para ampliar el perfil nutricional y reducir la dependencia del arroz como fuente de arsénico inorgánico."},
+    {"question": "¿El arroz integral tiene más arsénico?", "answer": "Puede contener más porque conserva las capas externas donde se concentra una parte del arsénico, aunque también aporta más fibra y micronutrientes."},
+    {"question": "¿Lavar el arroz elimina el arsénico?", "answer": "El enjuague normal tiene un efecto mínimo. Cocinar con mucha agua y escurrir puede reducir más el arsénico, aunque también arrastra algunos nutrientes."}
+  ],
+  "sources": [
+    {"name": "AESAN — Ficha Arsénico", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/seguridad_alimentaria/gestion_riesgos/ficha_arsenico_2023.pdf", "note": "Arroz y productos de arroz como fuentes de exposición a arsénico inorgánico."},
+    {"name": "AESAN — Recomendaciones dietéticas saludables y sostenibles", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf", "note": "Variedad de cereales y preferencia por integrales."},
+    {"name": "FDA — What You Can Do to Limit Exposure to Arsenic", "url": "https://www.fda.gov/food/environmental-contaminants-food/what-you-can-do-limit-exposure-arsenic", "note": "Efecto del enjuague y cocción con exceso de agua sobre el arsénico."}
+  ],
+  "image": {
+    "concept": "Cuenco de arroz junto a avena, cebada, maíz, quinoa y otros cereales mostrando variedad, fotografía editorial sin texto.",
+    "alt": "Arroz junto a otros cereales para mostrar variedad alimentaria"
+  },
+  "status": "publish"
+}

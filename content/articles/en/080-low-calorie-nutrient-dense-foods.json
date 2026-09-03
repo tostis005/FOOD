@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-080-low-calorie-nutrient-dense-foods",
+  "article_number": 80,
+  "translation_group": "080-low-calorie-nutrient-dense-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and nutrient-density concept",
+  "title": "Low-calorie foods with high nutrient density",
+  "slug": "low-calorie-nutrient-dense-foods",
+  "seo": {
+    "title": "Low-calorie, nutrient-dense foods: useful examples",
+    "meta_description": "Vegetables, fruit, shellfish, lean fish, yogurt and legumes can deliver many nutrients for moderate calories. Nutrient density is not the same as zero calories.",
+    "search_intent": "Find foods that supply vitamins, minerals, protein or fiber for relatively modest energy."
+  },
+  "excerpt": "Vegetables such as spinach, broccoli and peppers; fruits such as berries and citrus; shellfish and lean fish; plain high-protein yogurt; and some legumes can deliver a lot of nutrition for moderate calories. There is no single universal nutrient-density ranking because the result depends on which nutrients and serving sizes are emphasized.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": [],
+    "article_types": ["ranking", "nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>“Nutritious” and “low calorie” are not synonyms. Olive oil, nuts and seeds can be nutrient-dense and energy-dense at the same time. But if the question is which foods provide <strong>a lot of nutritional value for relatively few calories</strong>, several groups stand out.</p><p>There is no single universally accepted score that can rank every food. Results change depending on whether protein, fiber, vitamins or minerals get more weight.</p><h2>Examples of high nutrition with modest calories</h2><table><thead><tr><th>Food</th><th>Approx. calories/100 g</th><th>Notable nutrients</th></tr></thead><tbody><tr><td>Raw spinach</td><td>~23</td><td>Folate, vitamin K, carotenoids, magnesium</td></tr><tr><td>Broccoli</td><td>~35</td><td>Vitamin C, folate, fiber</td></tr><tr><td>Red bell pepper</td><td>~31</td><td>Vitamin C, carotenoids</td></tr><tr><td>Strawberries</td><td>~32</td><td>Vitamin C, fiber</td></tr><tr><td>Mushrooms</td><td>~22</td><td>B vitamins, minerals, some protein</td></tr><tr><td>Cooked cod</td><td>~90</td><td>~20 g protein, B12, selenium</td></tr><tr><td>Cooked shrimp</td><td>~100</td><td>~20–24 g protein, B12, selenium</td></tr><tr><td>Plain high-protein yogurt</td><td>~60–100</td><td>Protein, calcium, B12</td></tr></tbody></table><p>Vegetables dominate when micronutrients per calorie are emphasized because they contain so much water. Lean seafood performs well for a different reason: it packs protein and selected micronutrients into relatively little energy.</p><h2>Low calorie does not automatically mean nutrient-dense</h2><p>A zero-calorie soft drink can provide virtually no energy and very little nutrition. That does not make it more nutrient-dense than an 80-calorie yogurt that supplies protein, calcium and vitamin B12.</p><p>Nutrient density asks <strong>what you get along with the calories</strong>, not merely how low the calorie number is.</p><h2>Vegetables have a physical advantage: water</h2><p>Spinach and mushrooms are more than 90% water. Water adds weight and volume without calories, so several cups of vegetables can fill a large part of a plate for much less energy than a small amount of oil or nuts.</p><p>That does not make dietary fat bad; it explains why different foods serve different purposes.</p><h2>Protein per calorie favors lean seafood and lean protein foods</h2><p>Cooked cod can provide roughly 20 g of protein for around 90 calories per 100 g. Cooked chicken breast is around 31 g of protein for 165 calories. Both deliver a high protein return for their energy.</p><p>Yogurt and fresh dairy vary widely, so labels matter: added cream, sugar or large amounts of fat can change the comparison substantially.</p><h2>Legumes are not ultra-low calorie, but their package is strong</h2><p>Cooked lentils are around 116 calories per 100 g, higher than most vegetables, yet they provide about 9 g of protein and 8 g of fiber. A 200 g serving supplies roughly 18 g of protein and 16 g of fiber.</p><p>Leaving legumes out of a nutrient-dense diet simply because they contain more calories than broccoli would miss the point.</p><h2>Nutrient density is not a command to eat only very light foods</h2><p>A healthy diet still needs energy. Olive oil, nuts, seeds, avocado and fatty fish can be excellent foods even though they are more calorie-dense.</p><p><strong>The useful goal is to make much of the diet come from foods that offer something valuable beyond calories</strong>, not to turn every meal into a contest for the lowest number.</p>",
+  "faq": [
+    {"question": "What foods are low in calories but high in nutrients?", "answer": "Vegetables, some fruits, lean fish, shellfish and plain high-protein dairy are strong examples, though they provide different nutrients."},
+    {"question": "What does nutrient-dense mean?", "answer": "It describes how much useful nutrition a food provides relative to its calories, weight or serving. There is no single universal scoring system."},
+    {"question": "Can a high-calorie food still be nutritious?", "answer": "Yes. Nuts, seeds, olive oil and avocado are calorie-dense but can have valuable nutrient profiles."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energy and nutrient composition of the example foods."},
+    {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/", "note": "General framework for nutrient-dense food choices."}
+  ],
+  "image": {
+    "concept": "Table with spinach, broccoli, red pepper, strawberries, white fish, shrimp and plain yogurt, bright editorial food photography, no text.",
+    "alt": "Low-calorie nutrient-dense foods"
+  },
+  "status": "publish"
+}

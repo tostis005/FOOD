@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-112-como-obtener-proteina-dieta-vegetariana",
+  "article_number": 112,
+  "translation_group": "112-enough-protein-vegetarian-diet",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; referencia EFSA de 0,83 g/kg/día para adultos sanos",
+  "title": "Cómo obtener suficiente proteína en una dieta vegetariana",
+  "slug": "como-obtener-suficiente-proteina-dieta-vegetariana",
+  "seo": {
+    "title": "Cómo obtener suficiente proteína en una dieta vegetariana",
+    "meta_description": "Una dieta vegetariana puede cubrir fácilmente la proteína con huevos, lácteos, legumbres, tofu y cereales. Aprende a calcular y repartir la cantidad diaria.",
+    "search_intent": "Aprender a cubrir las necesidades de proteína en una dieta vegetariana con ejemplos de comidas y cantidades."
+  },
+  "excerpt": "Para un adulto sano, EFSA establece una ingesta de referencia de 0,83 g de proteína por kg de peso al día: unos 50 g para 60 kg, 58 g para 70 kg y 66 g para 80 kg. En una dieta vegetariana, repartir huevos, lácteos, legumbres, soja y cereales entre las comidas permite alcanzar esas cifras sin dificultad en la mayoría de casos.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": ["vegetarian", "protein"],
+    "article_types": ["nutrition-explainer", "practical-how-to"],
+    "primary_article_type": "practical-how-to"
+  },
+  "content_html": "<p>Una dieta vegetariana no necesita una estrategia complicada para cubrir proteína. El error más habitual es quitar carne o pescado de un plato y no poner <strong>ninguna fuente proteica clara en su lugar</strong>. Si cada comida principal tiene una, el total diario suele llegar con bastante facilidad.</p><h2>Primero calcula una referencia razonable</h2><p>EFSA establece para adultos sanos una ingesta de referencia de <strong>0,83 g de proteína por kg de peso corporal al día</strong>.</p><table><thead><tr><th>Peso</th><th>Referencia diaria aprox.</th></tr></thead><tbody><tr><td>60 kg</td><td>~50 g</td></tr><tr><td>70 kg</td><td>~58 g</td></tr><tr><td>80 kg</td><td>~66 g</td></tr><tr><td>90 kg</td><td>~75 g</td></tr></tbody></table><p>Es una referencia para adultos sanos, no una prescripción individual. Deporte intenso, edad, embarazo, lactancia o determinadas situaciones clínicas pueden cambiar las necesidades.</p><h2>Piensa en tres o cuatro anclas proteicas al día</h2><p>En lugar de sumar cada gramo, resulta más práctico asegurar una fuente principal en desayuno, comida y cena, y usar una merienda proteica si hace falta.</p><ul><li>200 g de yogur griego: ~18–20 g;</li><li>2 huevos: ~13 g;</li><li>200 g de lentejas cocidas: ~18 g;</li><li>150 g de tofu firme: ~18–26 g;</li><li>180 g de cottage cheese: ~20–23 g;</li><li>250 ml de leche: ~8 g.</li></ul><h2>Un día vegetariano puede superar 70 g sin suplementos</h2><p>Por ejemplo: 200 g de yogur griego con 50 g de avena pueden rondar 25–26 g; una comida con 200 g de lentejas, unos 18 g solo de la legumbre; un vaso de leche, unos 8 g; y dos huevos con pan y verduras pueden superar 18 g. El total se sitúa alrededor de <strong>70 g o más</strong> sin usar proteína en polvo.</p><p>No es un menú obligatorio. Sirve para mostrar que el problema suele ser de estructura de las comidas, no de falta inevitable de proteína.</p><h2>Las legumbres no necesitan acompañarse siempre de cereal</h2><p>Lentejas, garbanzos y alubias tienen todos los aminoácidos esenciales, aunque algunos aparecen en proporciones menos favorables. Los cereales complementan bien ese perfil, pero no es necesario comer arroz con legumbres en cada plato. La variedad a lo largo del día es suficiente.</p><h2>Huevos y lácteos hacen la planificación más sencilla</h2><p>En una dieta ovolactovegetariana, yogur, leche, queso fresco y huevos aportan proteína de alta calidad con poco volumen. Eso permite que las legumbres y cereales no tengan que cubrir por sí solos todo el objetivo diario.</p><h2>Los alimentos que parecen proteicos no siempre aportan mucho por ración</h2><p>Frutos secos y semillas ayudan, pero 30 g suelen aportar entre 4 y 10 g según el tipo. Verduras como brócoli o espinacas contienen proteína, pero en una ración habitual aportan pocos gramos. Conviene contarlos como complemento, no como el ancla principal de una comida.</p><h2>Cuándo puede costar más</h2><p>Dietas muy hipocalóricas, personas con poco apetito o necesidades deportivas altas pueden requerir alimentos más concentrados. En esos casos, yogur alto en proteína, tofu, tempeh, huevos, cottage o una proteína en polvo pueden facilitar el objetivo.</p><h2>La regla que evita tener que contar todo</h2><p><strong>Incluye una fuente proteica reconocible en cada comida principal y varía entre lácteos/huevos, legumbres y soja.</strong> Si haces eso, cereales, frutos secos y el resto de alimentos suelen completar el total.</p>",
+  "faq": [
+    {"question": "¿Cuánta proteína necesita una persona vegetariana?", "answer": "Como referencia general para adultos sanos, EFSA establece 0,83 g/kg/día. Una persona de 70 kg estaría alrededor de 58 g diarios."},
+    {"question": "¿Hace falta proteína en polvo?", "answer": "No en la mayoría de casos. Puede ser práctica con necesidades altas o poco apetito, pero huevos, lácteos, legumbres y soja pueden cubrir la proteína."},
+    {"question": "¿Hay que combinar legumbres y cereales en la misma comida?", "answer": "No. Una dieta variada a lo largo del día puede aportar todos los aminoácidos esenciales sin combinar fuentes de forma exacta en cada plato."}
+  ],
+  "sources": [
+    {"name": "EFSA — Dietary Reference Values for protein", "url": "https://www.efsa.europa.eu/en/efsajournal/pub/2557", "note": "Ingesta de referencia de proteína para adultos sanos."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína de alimentos utilizados en los ejemplos."}
+  ],
+  "image": {
+    "concept": "Día de comidas vegetarianas con yogur y avena, lentejas, huevos, tofu y leche distribuidos en varios platos, fotografía editorial sin texto.",
+    "alt": "Comidas vegetarianas ricas en proteína a lo largo del día"
+  },
+  "status": "publish"
+}

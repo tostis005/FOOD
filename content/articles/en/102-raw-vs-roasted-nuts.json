@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-102-raw-vs-roasted-nuts",
+  "article_number": 102,
+  "translation_group": "102-raw-vs-roasted-nuts",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and heat-related changes",
+  "title": "Raw vs. roasted nuts: nutritional differences",
+  "slug": "raw-vs-roasted-nuts",
+  "seo": {
+    "title": "Raw vs. roasted nuts: what actually changes",
+    "meta_description": "Roasting changes moisture, flavor, and some heat-sensitive compounds, but protein, minerals, and total fat usually remain similar.",
+    "search_intent": "Understand whether roasted nuts are nutritionally worse than raw nuts."
+  },
+  "excerpt": "Roasted nuts are not automatically less healthy than raw nuts. Roasting lowers moisture and can reduce some heat-sensitive compounds, but protein, minerals, and most of the fat profile change little. Added oil, salt, sugar, or coatings often matter more than roasting itself.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["nuts"],
+    "article_types": ["comparison", "nutrition-composition", "cooking-science"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>Roasted nuts taste stronger and crunch differently, but <strong>their nutritional profile is usually much closer to raw nuts than the flavor change suggests</strong>.</p><p>Heat changes moisture and some heat-sensitive compounds, but it does not remove the protein or minerals. The most useful first distinction is dry-roasted nuts versus products that also contain added oil, salt, sugar, or coatings.</p><h2>Moisture loss can make the numbers look higher</h2><p>Roasting drives off some water. That can make fat, protein, and calories look slightly higher per 100 g even though heat did not create those nutrients. There is simply less water in the same weight.</p><h2>Protein, fat, and minerals change little</h2><p>With moderate roasting, protein and mineral content remain broadly similar. Total fat also changes little if no oil is added.</p><p>Polyunsaturated fats are more vulnerable to oxidation than monounsaturated fats, so very high temperatures and long storage can matter. That does not mean ordinary roasted nuts are automatically oxidized or nutritionally poor.</p><h2>Some vitamins and antioxidants are more heat-sensitive</h2><p>Roasting can reduce some vitamin E and certain phenolic compounds depending on the nut, temperature, and roasting time. The effect is selective rather than a wholesale loss of nutrition.</p><h2>Dry-roasted is not the same as oil-roasted</h2><p>If oil appears in the ingredient list, you are no longer comparing only a raw nut with a heated nut. Added oil can change calories and fatty-acid composition. Sugar, honey, chocolate, and other coatings change the product even more.</p><h2>Salt may matter more than roasting</h2><p>Plain nuts are naturally low in sodium. Heavily salted versions can contain hundreds of milligrams per 100 g. In that case the meaningful comparison is <strong>unsalted versus salted</strong>, not raw versus roasted.</p><h2>Which should you choose?</h2><p>Both raw and dry-roasted nuts can fit well into a healthy diet. If you prefer roasted nuts, check the ingredient list and sodium level: those usually tell you more than the word “roasted.”</p>",
+  "faq": [
+    {"question": "Do roasted nuts lose nutrients?", "answer": "They can lose small amounts of some heat-sensitive compounds, but protein, minerals, and total fat change little with moderate roasting."},
+    {"question": "Do roasted nuts have more calories?", "answer": "They can look slightly higher per 100 g because roasting removes water. Added oil or sugar can increase calories further."},
+    {"question": "Is dry-roasted better than oil-roasted?", "answer": "Dry-roasted nuts stay closer to the original nut nutritionally. If oil is added, check the ingredient list and nutrition label."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of raw and roasted nuts."},
+    {"name": "European Food Information Council", "url": "https://www.eufic.org/", "note": "General context on food processing and heat-related nutrient changes."}
+  ],
+  "image": {
+    "concept": "Two bowls of almonds and walnuts, one raw and one roasted, clean editorial food photography without text.",
+    "alt": "Raw and roasted nuts compared side by side"
+  },
+  "status": "publish"
+}

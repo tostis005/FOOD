@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "en-152-how-organize-refrigerator-food-safety",
+  "article_number": 152,
+  "translation_group": "152-organize-fridge-food-storage",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; FDA/USDA refrigeration guidance",
+  "title": "How to organize your refrigerator to keep food safe longer",
+  "slug": "how-organize-refrigerator-food-safety",
+  "seo": {"title":"How to organize your refrigerator for food safety","meta_description":"Keep ready-to-eat food above raw meat, raw poultry on the lowest level in leakproof containers, produce in drawers and the refrigerator at 40°F or below.","search_intent":"Arrange a refrigerator to reduce cross-contamination and maintain safe cold storage."},
+  "excerpt": "Refrigerator organization is mainly about cold temperature and cross-contamination. Keep ready-to-eat and cooked foods above raw meat and poultry; store raw items low in leakproof containers; use produce drawers; and keep the refrigerator at 40°F or below. The door is warmer and better for less temperature-sensitive items.",
+  "taxonomy": {"food_family":"general","food_subcategories":["refrigeration"],"article_types":["food-safety","practical-guide"],"primary_article_type":"practical-guide"},
+  "content_html": "<p>A tidy refrigerator is useful, but the real safety goal is to make it physically difficult for raw chicken juice to reach food that will be eaten without further cooking.</p><table><thead><tr><th>Area</th><th>Best use</th></tr></thead><tbody><tr><td>Upper/middle shelves</td><td>Cooked and ready-to-eat foods</td></tr><tr><td>Lowest shelf</td><td>Raw meat, poultry and seafood in leakproof containers</td></tr><tr><td>Produce drawers</td><td>Fruits and vegetables</td></tr><tr><td>Door</td><td>Less temperature-sensitive condiments</td></tr></tbody></table><h2>Contain raw juices</h2><p>Original meat packaging may leak. Put raw meat and poultry on a tray or in a container capable of catching liquid and keep it below ready-to-eat foods.</p><h2>40°F is the important number</h2><p>FDA recommends keeping the refrigerator at 40°F or below. An appliance thermometer gives more useful information than assuming a dial setting is accurate.</p><h2>Do not pack so tightly that air cannot circulate</h2><p>Cold air needs room to move. Overloading can create warmer pockets and make it harder for freshly stored leftovers to cool.</p><h2>Use dates you can understand</h2><p>Label leftovers and move older items forward. Refrigerator organization should reduce both foodborne risk and forgotten food waste.</p><h2>The rule</h2><p>Ready-to-eat food above, raw animal foods below, produce in drawers, and everything at 40°F or colder. Exact shelf temperatures vary by appliance, so containment and thermometer readings matter more than decorative zones.</p>",
+  "faq": [{"question":"Where should raw chicken go in the fridge?","answer":"On the lowest practical shelf in a leakproof container, away from foods that will be eaten without cooking."},{"question":"What temperature should a refrigerator be?","answer":"FDA recommends 40°F or below."}],
+  "sources": [{"name":"FDA — Safe Food Handling","url":"https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling","note":"40°F refrigerator temperature and prompt chilling."}],
+  "image": {"concept":"Well-organized U.S. refrigerator with ready-to-eat food above and raw poultry in a tray at the bottom, no text.","alt":"Refrigerator organized for food safety"},
+  "status":"publish"
+}

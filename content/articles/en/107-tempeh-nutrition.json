@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-107-tempeh-nutrition",
+  "article_number": 107,
+  "translation_group": "107-tempeh-nutrition",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and general fermentation context",
+  "title": "Tempeh: what it is and why it is so high in protein",
+  "slug": "tempeh-protein-nutrition",
+  "seo": {
+    "title": "Tempeh: protein, calories, fat, and nutrition",
+    "meta_description": "Tempeh provides about 20 g protein and 11 g fat per 100 g. It retains the whole soybean and contains less water than many tofu products.",
+    "search_intent": "Understand what tempeh is, how much protein it provides, and why it is so concentrated."
+  },
+  "excerpt": "Tempeh is cooked soybeans fermented and bound into a firm cake. It usually provides about 20 g protein, 11 g fat, and 190–200 calories per 100 g. Its high protein concentration comes mainly from retaining the whole soybean and containing less water than many tofu products; fermentation changes the food but does not magically create the protein.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["soy", "tempeh"],
+    "article_types": ["nutrition-composition", "fermentation"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Tempeh can look dramatically higher in protein than tofu, but fermentation is not manufacturing protein from nothing. <strong>Tempeh retains most of the whole soybean and contains relatively little water</strong>, so the nutrients are concentrated.</p><h2>What 100 grams provides</h2><table><thead><tr><th>Nutrient</th><th>Tempeh, 100 g</th><th>150 g serving</th></tr></thead><tbody><tr><td>Calories</td><td>~190–200</td><td>~285–300</td></tr><tr><td>Protein</td><td>~20 g</td><td>~30 g</td></tr><tr><td>Fat</td><td>~11 g</td><td>~16–17 g</td></tr><tr><td>Carbohydrate</td><td>~8 g</td><td>~12 g</td></tr></tbody></table><p>A 150 g serving can provide about <strong>30 g protein</strong>, enough to function clearly as the main protein source in a meal.</p><h2>Why it is more concentrated than tofu</h2><p>Tofu is made from coagulated soy milk and can contain a substantial amount of water. Tempeh starts with cooked soybeans that are fermented and bound together by the culture.</p><p>Because it keeps more of the whole bean and less water, tempeh concentrates protein, fat, fiber, and micronutrients per 100 g.</p><h2>What fermentation actually does</h2><p>During fermentation, microorganisms transform parts of the soybean, changing flavor and texture and potentially reducing some antinutritional compounds.</p><p>But <strong>fermented does not automatically mean probiotic</strong>. Tempeh is normally cooked before eating, and heat reduces or eliminates live microorganisms.</p><h2>Complete protein plus fiber</h2><p>Because it comes from soy, tempeh contains all nine essential amino acids. Since it retains the bean, it also contributes fiber that meat does not provide and that may be lower in some tofu products.</p><h2>Fat and calories</h2><p>Tempeh contains substantially more fat than cooked lentils or beans. Much of that fat is unsaturated and naturally present in soy. The combination of fat and lower water content makes tempeh more calorie-dense than many cooked legumes.</p><h2>Preparation can change the final dish</h2><p>Pan-cooking with a small amount of oil keeps the final calorie content relatively close to the original food. Deep-frying or using sugary sauces can raise calories, fat, or sodium much more.</p><h2>The useful rule</h2><p>Tempeh is a concentrated plant protein because it combines <strong>whole soybeans, relatively low water content, and fermentation</strong>. Fermentation changes flavor, structure, and digestibility; the protein concentration mostly comes from the soybean itself and the lack of dilution by water.</p>",
+  "faq": [
+    {"question": "How much protein is in tempeh?", "answer": "About 20 g per 100 g; a 150 g serving can provide roughly 30 g."},
+    {"question": "Why does tempeh have more protein than tofu?", "answer": "It retains the whole soybean and usually contains less water, so protein is more concentrated per 100 g."},
+    {"question": "Does tempeh contain probiotics?", "answer": "It is fermented, but it is usually cooked before eating. Cooking reduces live microorganisms, so fermented does not necessarily mean probiotic in the final dish."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Nutritional composition of tempeh."},
+    {"name": "FAO — Fermented foods", "url": "https://www.fao.org/", "note": "General fermentation context."}
+  ],
+  "image": {
+    "concept": "A sliced block of tempeh showing whole soybeans bound together, clean editorial food photography without text.",
+    "alt": "Sliced tempeh showing fermented soybeans"
+  },
+  "status": "publish"
+}

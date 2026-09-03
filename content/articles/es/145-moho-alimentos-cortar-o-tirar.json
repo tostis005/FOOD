@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "es-145-moho-alimentos-cortar-o-tirar",
+  "article_number": 145,
+  "translation_group": "145-mold-food-cut-or-discard",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; seguridad alimentaria doméstica, criterio USDA para penetración del moho",
+  "title": "Moho en los alimentos: cuándo cortar una parte y cuándo tirarlo todo",
+  "slug": "moho-alimentos-cortar-o-tirar",
+  "seo": {"title":"Moho en alimentos: cuándo cortar y cuándo tirar","meta_description":"En alimentos blandos, pan, mermeladas y quesos blandos hay que desechar todo. En queso duro o verduras firmes puede cortarse ampliamente alrededor del moho.","search_intent":"Decidir cuándo un alimento con moho puede recortarse y cuándo debe desecharse entero."},
+  "excerpt": "La textura decide mucho. En alimentos blandos o porosos —pan, fruta blanda, mermelada, yogur, queso blando— el moho puede extenderse bajo la superficie y conviene desechar todo. En queso duro y algunas verduras firmes puede retirarse una zona amplia: USDA recomienda cortar al menos 2,5 cm alrededor y por debajo del punto visible en queso duro.",
+  "taxonomy": {"food_family":"general","food_subcategories":["food-safety"],"article_types":["food-safety","practical-guide"],"primary_article_type":"food-safety"},
+  "content_html": "<p>La mancha visible es solo la parte del hongo que podemos ver. En un alimento húmedo y blando, filamentos microscópicos pueden penetrar mucho más allá de esa zona; en uno duro y compacto, la penetración suele quedar más localizada.</p><table><thead><tr><th>Alimento con moho no intencionado</th><th>Qué hacer</th></tr></thead><tbody><tr><td>Pan y bollería</td><td>Desechar</td></tr><tr><td>Fruta/verdura blanda</td><td>Desechar</td></tr><tr><td>Yogur, nata, queso fresco o blando</td><td>Desechar</td></tr><tr><td>Mermeladas y alimentos húmedos preparados</td><td>Desechar</td></tr><tr><td>Queso duro</td><td>Cortar al menos ~2,5 cm alrededor y debajo</td></tr><tr><td>Verdura muy firme</td><td>Puede recortarse generosamente si el resto está sano</td></tr></tbody></table><h2>No basta con quitar la pelusa del pan</h2><p>El pan es poroso. Aunque solo haya una mancha verde, las hifas pueden haberse extendido sin hacerse visibles. Lo mismo ocurre en fruta muy blanda y alimentos húmedos.</p><h2>El queso duro es la gran excepción doméstica</h2><p>En un bloque de cheddar o un queso curado compacto, USDA permite recortar alrededor y por debajo del punto, manteniendo el cuchillo fuera del moho para no contaminar la parte limpia. Esto no se aplica a queso rallado, loncheado o blando.</p><h2>No confundas moho deseado con contaminación</h2><p><em>Penicillium</em> forma parte del proceso de elaboración de quesos azules y de la corteza de determinados quesos. Una colonia extraña en un queso que no debería tenerla es otra situación.</p><h2>La regla</h2><p>Cuanto más blando, húmedo y poroso sea el alimento, menos sentido tiene “salvar” la parte que parece limpia. Cuanto más duro y compacto, más plausible es eliminar una zona amplia y conservar el resto.</p>",
+  "faq": [{"question":"¿Puedo cortar el moho del pan y comer el resto?","answer":"No es recomendable. El pan es poroso y el crecimiento puede extenderse por debajo de la zona visible."},{"question":"¿Cuánto hay que cortar alrededor del moho de un queso duro?","answer":"USDA recomienda al menos 1 pulgada, unos 2,5 cm, alrededor y por debajo de la zona visible."}],
+  "sources": [{"name":"USDA FSIS — Mold on food","url":"https://ask.fsis.usda.gov/article/If-food-has-mold-is-it-safe-to-eat","note":"Criterios para desechar alimentos blandos y recortar queso duro."}],
+  "image": {"concept":"Pan mohoso marcado para desechar junto a un bloque de queso duro con un corte amplio alrededor de una mancha, sin texto.","alt":"Cuándo cortar o desechar un alimento con moho"},
+  "status":"publish"
+}

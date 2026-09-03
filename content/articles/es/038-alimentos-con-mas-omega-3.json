@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-038-alimentos-con-mas-omega-3",
+  "article_number": 38,
+  "translation_group": "038-highest-omega-3-foods",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y formas de omega-3 NIH ODS",
+  "title": "Los alimentos con más omega-3: pescado, semillas y nueces sin mezclar ALA con EPA y DHA",
+  "slug": "alimentos-con-mas-omega-3",
+  "seo": {
+    "title": "Alimentos con más omega-3: ALA, EPA y DHA",
+    "meta_description": "Chía, lino y nueces destacan por ALA; salmón, arenque, sardinas y caballa por EPA y DHA. No conviene mezclarlos en un único ranking.",
+    "search_intent": "Comparar alimentos ricos en omega-3 separando ALA vegetal de EPA y DHA marinos."
+  },
+  "excerpt": "Chía, lino y nueces concentran mucho omega-3 vegetal ALA; salmón, arenque, sardinas y caballa aportan sobre todo EPA y DHA. Son la misma familia de grasas, pero no son nutricionalmente intercambiables, así que un único ranking sería engañoso.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Un ranking de ‘alimentos con más omega-3’ puede colocar a la chía por encima del salmón y aun así responder mal a la pregunta. La razón es que <strong>omega-3 no es una sola grasa</strong>.</p><p>El ALA aparece sobre todo en semillas, nueces y aceites vegetales. EPA y DHA se encuentran principalmente en pescado y marisco. El organismo puede convertir ALA en EPA y DHA, pero lo hace en cantidades pequeñas; por eso conviene mirar ambos grupos por separado.</p><h2>Fuentes vegetales: mucho ALA por ración</h2><table><thead><tr><th>Alimento</th><th>Ración</th><th>ALA aprox.</th></tr></thead><tbody><tr><td>Aceite de lino</td><td>1 cucharada</td><td>7,26 g</td></tr><tr><td>Semillas de chía</td><td>28 g</td><td>5,06 g</td></tr><tr><td>Nueces</td><td>28 g</td><td>2,57 g</td></tr><tr><td>Semillas de lino</td><td>1 cucharada</td><td>2,35 g</td></tr><tr><td>Aceite de canola/colza</td><td>1 cucharada</td><td>1,28 g</td></tr></tbody></table><p>La chía y el lino destacan claramente por ALA. Una ración de 28 g de chía aporta más de 5 g, mientras un puñado de nueces aporta unos 2,6 g.</p><h2>Pescado: menos gramos totales, pero directamente como EPA y DHA</h2><table><thead><tr><th>Alimento</th><th>Ración</th><th>EPA + DHA aprox.</th></tr></thead><tbody><tr><td>Salmón atlántico de acuicultura, cocinado</td><td>85 g</td><td>1,83 g</td></tr><tr><td>Arenque atlántico, cocinado</td><td>85 g</td><td>1,71 g</td></tr><tr><td>Sardinas en conserva</td><td>85 g</td><td>1,19 g</td></tr><tr><td>Caballa atlántica, cocinada</td><td>85 g</td><td>1,02 g</td></tr><tr><td>Trucha arcoíris salvaje, cocinada</td><td>85 g</td><td>0,84 g</td></tr></tbody></table><p>Si solo se sumaran gramos, parecería que la chía ‘gana’ al salmón. Pero el salmón aporta EPA y DHA ya formados, mientras la chía aporta sobre todo ALA. Son comparaciones diferentes.</p><h2>Por qué la conversión de ALA no iguala los dos grupos</h2><p>El ALA es esencial y debe obtenerse de la dieta. Parte puede transformarse en EPA y después en DHA, pero la conversión es limitada. Por eso una dieta con chía o nueces puede cubrir ALA perfectamente sin aportar la misma cantidad de EPA y DHA que el pescado.</p><p>Quien no consume pescado puede obtener EPA y DHA preformados a partir de alimentos o suplementos basados en microalgas, aunque eso ya es una fuente distinta de las semillas.</p><h2>El tipo de pescado importa tanto como ‘comer pescado’</h2><p>Los pescados grasos concentran mucho más EPA y DHA que especies muy magras. Por ejemplo, 85 g de bacalao del Pacífico rondan 0,14 g de EPA+DHA, frente a 1,83 g en una ración similar de salmón atlántico de acuicultura: más de diez veces menos.</p><h2>Las nueces tienen un papel distinto del pescado</h2><p>Un puñado de nueces aporta alrededor de 2,6 g de ALA, además de fibra y otros nutrientes. No es correcto describirlas como un sustituto directo de 2,6 g de EPA+DHA, pero sí como una de las fuentes alimentarias más prácticas de ALA.</p><h2>La regla útil</h2><p>Piensa en dos columnas, no en un podio único: <strong>chía, lino y nueces para ALA; salmón, arenque, sardinas, caballa y trucha para EPA y DHA</strong>. Separar las formas de omega-3 explica mucho mejor lo que realmente aporta cada alimento.</p>",
+  "faq": [
+    {"question": "¿Qué alimento tiene más omega-3?", "answer": "Depende del tipo. Chía y lino destacan por ALA; entre los alimentos con EPA y DHA destacan pescados grasos como salmón y arenque."},
+    {"question": "¿El omega-3 de la chía es igual al del salmón?", "answer": "No. La chía aporta principalmente ALA; el salmón aporta EPA y DHA ya formados."},
+    {"question": "¿Las nueces aportan omega-3?", "answer": "Sí. Unos 28 g de nueces aportan alrededor de 2,6 g de ALA."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición nutricional de los alimentos."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "Contenido de ALA, EPA y DHA y diferencias metabólicas."}
+  ],
+  "image": {
+    "concept": "Chía, lino y nueces a un lado; salmón, sardinas y caballa al otro, fotografía editorial limpia sin texto.",
+    "alt": "Fuentes vegetales y marinas de omega-3"
+  },
+  "status": "publish"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-046-combine-plant-proteins-same-meal",
+  "article_number": 46,
+  "translation_group": "046-combine-plant-proteins-same-meal",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; FAO amino-acid framework and USDA composition",
+  "title": "Do You Need to Combine Plant Proteins in the Same Meal?",
+  "slug": "combine-plant-proteins-same-meal",
+  "seo": {
+    "title": "Do Plant Proteins Need to Be Combined at Every Meal?",
+    "meta_description": "You do not have to pair rice and beans at every meal. Enough total protein and a variety of plant sources across the day can cover essential amino acids.",
+    "search_intent": "Clarify whether plant proteins must be paired in the same meal."
+  },
+  "excerpt": "You do not have to combine grains and beans in the same meal for plant protein to ‘work.’ What matters is enough total protein and a variety of sources across the day. Rice and beans are a useful combination, not a biochemical requirement at every plate.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-concepts", "myths-faq"],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>The idea that a plant-based meal is ‘incomplete’ unless two specific proteins are paired has outlived the rule that created it. Grains and legumes do complement each other, but they do not have to arrive in the same bowl.</p><p><strong>The body uses amino acids from foods eaten across the day.</strong> When total protein intake is adequate and the diet includes varied sources, breakfast, lunch and dinner do not need to become matching exercises.</p><h2>Where the combining idea came from</h2><p>Many legumes are relatively lower in sulfur-containing amino acids such as methionine, while many grains are relatively lower in lysine. Eating both groups improves the overall amino-acid pattern.</p><p>That is why traditional pairings such as rice and beans, pita and hummus, or corn and beans make nutritional sense. The mistake is turning useful complementarity into a same-meal requirement.</p><h2>Your body does not reset its amino-acid supply after every plate</h2><p>After protein is digested, amino acids enter an available pool used for tissue turnover, enzymes and many other functions. Protein metabolism does not depend on all essential amino acids appearing in the exact same bite.</p><p>Someone can eat oatmeal at breakfast, lentils at lunch and tofu at dinner and still achieve a balanced amino-acid intake without putting all three foods together.</p><h2>Total protein matters more than a perfect pairing</h2><p>About 7 ounces of cooked lentils provide roughly 18 grams of protein, while a cup of cooked rice adds around 4 grams. Eating them together can take a meal above 20 grams, but much of that benefit simply comes from adding more total protein as well as complementary amino acids.</p><p>A diet that pairs foods perfectly but supplies too little total protein would still be inadequate.</p><h2>Soy makes the issue even simpler</h2><p>Tofu, tempeh, edamame and other soy foods have a strong essential-amino-acid profile. A 5-ounce serving of firm tofu can provide roughly 20–25 grams of protein without needing a grain to ‘complete’ it.</p><h2>When more deliberate planning can help</h2><p>Variety deserves extra attention when a diet is highly restrictive, total protein intake is low or most protein comes from one food. Protein needs can also be higher for very active people, older adults or in certain medical situations.</p><p>In those cases, distributing substantial protein sources across the day makes sense. That is still different from requiring one exact food pairing at every meal.</p><h2>The practical rule</h2><p><strong>Aim for variety, not mandatory pairs.</strong> Beans, soy foods, whole grains, nuts and seeds can complement one another across the day. If rice and beans happen to be together, great; if they are eaten in different meals, the protein still counts.</p>",
+  "faq": [
+    {"question": "Do rice and beans have to be eaten together?", "answer": "No. They complement one another well, but they can be eaten in separate meals within a varied diet."},
+    {"question": "Does a vegan diet need protein combining?", "answer": "It needs enough total protein and varied sources, not mandatory pairings at every meal."},
+    {"question": "Does tofu need to be combined with grains?", "answer": "No. Soy has a strong essential-amino-acid profile on its own."}
+  ],
+  "sources": [
+    {"name": "FAO — Dietary protein quality evaluation in human nutrition", "url": "https://www.fao.org/4/i3124e/i3124e.pdf", "note": "Essential amino-acid patterns and protein quality."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein amounts in legumes, grains and soy foods."}
+  ],
+  "image": {
+    "concept": "Rice, lentils, hummus with bread, tofu, nuts and seeds distributed across several meal settings, clean editorial photography, no text.",
+    "alt": "Plant protein foods that complement each other across the day"
+  },
+  "status": "publish"
+}

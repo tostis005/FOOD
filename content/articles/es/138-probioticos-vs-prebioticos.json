@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "es-138-probioticos-vs-prebioticos",
+  "article_number": 138,
+  "translation_group": "138-probiotics-vs-prebiotics",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; definiciones de consenso ISAPP",
+  "title": "Probióticos vs. prebióticos: diferencias",
+  "slug": "probioticos-vs-prebioticos",
+  "seo": {"title":"Probióticos vs. prebióticos: diferencias claras","meta_description":"Los probióticos son microorganismos vivos con beneficio demostrado; los prebióticos son sustratos utilizados selectivamente por microorganismos del huésped.","search_intent":"Distinguir claramente probióticos y prebióticos y entender cómo se relacionan."},
+  "excerpt": "Los probióticos son microorganismos vivos que, administrados en cantidades adecuadas, producen un beneficio demostrado. Los prebióticos son sustratos que microorganismos del huésped utilizan selectivamente y que también confieren un beneficio. Uno es el microorganismo; el otro, el material que ciertas comunidades microbianas utilizan.",
+  "taxonomy": {"food_family":"general","food_subcategories":["gut-health"],"article_types":["comparison","nutrition-explainer"],"primary_article_type":"comparison"},
+  "content_html": "<p>La diferencia básica cabe en una frase: <strong>probiótico = microorganismo vivo; prebiótico = sustrato utilizado por microorganismos.</strong> Lo que complica el tema es que el lenguaje comercial usa ambas palabras con mucha más libertad que la definición científica.</p><table><thead><tr><th></th><th>Probiótico</th><th>Prebiótico</th></tr></thead><tbody><tr><td>Qué es</td><td>Microorganismo vivo</td><td>Sustrato</td></tr><tr><td>Requisito</td><td>Beneficio demostrado en cantidad adecuada</td><td>Utilización selectiva + beneficio demostrado</td></tr><tr><td>Ejemplo</td><td>Cepa concreta de Lactobacillus o Bifidobacterium con evidencia</td><td>Inulina/fructanos o GOS con evidencia</td></tr></tbody></table><h2>Un yogur fermentado no es automáticamente un probiótico</h2><p>Puede contener cultivos vivos, pero para llamar probiótico a un microorganismo en sentido científico hay que conocer la cepa y demostrar un beneficio a la dosis correspondiente. “Contiene bacterias” no basta.</p><h2>Una fibra tampoco es automáticamente prebiótica</h2><p>Debe demostrarse que microorganismos del huésped la utilizan selectivamente y que ese proceso se asocia a un beneficio. Por eso fibra y prebiótico se solapan, pero no son equivalentes.</p><h2>Pueden aparecer juntos</h2><p>Cuando un producto combina microorganismos vivos y sustratos diseñados para trabajar conjuntamente se habla de simbiótico, siempre que cumpla los criterios científicos correspondientes.</p><h2>La forma sencilla de recordarlo</h2><p>Si estás hablando del organismo vivo, piensa en probiótico. Si hablas de lo que determinadas comunidades microbianas utilizan como sustrato, piensa en prebiótico. Y en ambos casos, la palabra implica más evidencia que una simple estrategia de marketing.</p>",
+  "faq": [{"question":"¿Qué es mejor, prebióticos o probióticos?","answer":"No son alternativas equivalentes. Cumplen funciones distintas y la utilidad depende del compuesto, cepa, dosis y objetivo."},{"question":"¿El kéfir es probiótico?","answer":"Puede contener microorganismos vivos, pero no todos los microorganismos de un kéfir cumplen automáticamente la definición científica de probiótico con beneficio demostrado a nivel de cepa."}],
+  "sources": [{"name":"ISAPP — Definitions of biotics","url":"https://isappscience.org/resource/probiotics-prebiotics-synbiotics-postbiotics-and-fermented-foods-defined/","note":"Definiciones de consenso de probióticos y prebióticos."}],
+  "image": {"concept":"Yogur con cultivos vivos junto a ajo, cebolla y legumbres como fuentes de sustratos prebióticos, sin texto.","alt":"Diferencia entre probióticos y prebióticos"},
+  "status":"publish"
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-089-grasas-saciedad",
+  "article_number": 89,
+  "translation_group": "089-fat-and-satiety",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; fisiología digestiva, densidad energética y alimentos ricos en grasa",
+  "title": "Grasas y saciedad: por qué la grasa no siempre es el enemigo",
+  "slug": "grasas-saciedad",
+  "seo": {
+    "title": "Grasas y saciedad: cómo influye la grasa en sentirse lleno",
+    "meta_description": "La grasa puede ralentizar el vaciado gástrico y mejorar la satisfacción de una comida, pero aporta 9 kcal/g. El alimento y la ración cambian el resultado.",
+    "search_intent": "Entender cómo afecta la grasa a la saciedad y por qué no debe confundirse saciedad con baja densidad calórica."
+  },
+  "excerpt": "La grasa puede contribuir a la saciedad porque activa señales digestivas, ralentiza el vaciado gástrico y hace una comida más palatable y satisfactoria. Pero también es el macronutriente más energético, con unas 9 kcal por gramo. Por eso 30 g de nueces o medio aguacate no se comportan igual que añadir varias cucharadas de aceite: el alimento completo, la fibra, la proteína, el agua y la ración importan.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-composition", "health-daily-consumption"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Durante años, “quitar grasa” se presentó casi como sinónimo de hacer una comida más ligera y más fácil de controlar. El problema es que una ensalada sin ninguna grasa, proteína o alimento sustancioso puede tener pocas calorías y dejar hambre muy pronto.</p><p>La grasa <strong>sí participa en las señales de saciedad</strong>. Lo que no hace es aportar mucho volumen por poca energía.</p><h2>La grasa tiene una densidad energética alta</h2><p>Un gramo de grasa aporta unas 9 kcal, frente a aproximadamente 4 kcal/g de proteína o carbohidratos. Eso explica por qué el aceite se acerca a 900 kcal/100 g y los frutos secos suelen rondar 550–700 kcal/100 g.</p><p>Una cucharada de aceite de oliva de unos 14 g aporta aproximadamente 120 kcal. Tres cucharadas pueden añadir unas 360 kcal sin aumentar mucho el volumen del plato.</p><h2>Entonces, ¿por qué puede ayudar a saciar?</h2><p>La llegada de grasa al intestino participa en señales digestivas como la colecistoquinina y puede ralentizar el vaciado del estómago. Además, la grasa transporta sabor y modifica textura, lo que puede aumentar la satisfacción de una comida.</p><p>La saciedad no depende solo de cuánto espacio ocupa el alimento en el momento de comerlo.</p><h2>El alimento completo cambia mucho la comparación</h2><table><thead><tr><th>Alimento</th><th>Ración</th><th>Grasa aprox.</th><th>Energía aprox.</th></tr></thead><tbody><tr><td>Almendras</td><td>30 g</td><td>~15 g</td><td>~174 kcal</td></tr><tr><td>Nueces</td><td>30 g</td><td>~20 g</td><td>~196 kcal</td></tr><tr><td>Aguacate</td><td>100 g</td><td>~15 g</td><td>~160 kcal</td></tr><tr><td>Aceite de oliva</td><td>14 g (1 cucharada)</td><td>~14 g</td><td>~120 kcal</td></tr></tbody></table><p>Almendras y aguacate aportan grasa, pero también fibra, estructura y volumen. El aceite es prácticamente grasa pura. Igualar gramos de grasa no iguala la experiencia de saciedad.</p><h2>La combinación suele funcionar mejor que la grasa sola</h2><p>Un yogur natural con fruta y unas nueces reúne proteína, fibra, agua y grasa. Una ensalada con legumbres y aceite de oliva hace algo parecido. En esas comidas, la grasa complementa otras señales en lugar de intentar hacer todo el trabajo.</p><p>Eso explica por qué “añade grasa para saciarte” es demasiado simple.</p><h2>Quitar toda la grasa tampoco mejora automáticamente una comida</h2><p>Un yogur 0 % puede ser una buena elección si aporta suficiente proteína y encaja en la dieta. Pero sustituir toda grasa por azúcar o almidones refinados no crea automáticamente un alimento más saciante ni más nutritivo.</p><p>Conviene mirar el producto completo y no una sola línea del etiquetado.</p><h2>El tipo de grasa importa para la salud, no solo la saciedad</h2><p>Desde el punto de vista cardiovascular, la calidad de la grasa importa. La OMS recomienda que la grasa de la dieta proceda principalmente de grasas insaturadas y limitar las saturadas.</p><p>Eso favorece alimentos como aceite de oliva, frutos secos, semillas, aguacate y pescado azul como fuentes habituales de grasa, sin que sus calorías desaparezcan.</p><h2>La idea práctica</h2><p><strong>La grasa no es un enemigo de la saciedad ni una garantía de saciedad por sí sola.</strong> Una cantidad moderada dentro de una comida con proteína, fibra y volumen puede ayudar a que resulte más satisfactoria. La ración importa precisamente porque la grasa concentra mucha energía.</p>",
+  "faq": [
+    {"question": "¿La grasa sacia?", "answer": "Puede contribuir a la saciedad mediante señales digestivas y vaciado gástrico, pero su efecto depende del alimento completo y de la ración."},
+    {"question": "¿Por qué la grasa tiene tantas calorías?", "answer": "Aporta unas 9 kcal por gramo, más del doble que proteína o carbohidratos, que aportan aproximadamente 4 kcal/g."},
+    {"question": "¿Qué grasas son mejores como fuente habitual?", "answer": "Las recomendaciones priorizan grasas insaturadas presentes en aceite de oliva, frutos secos, semillas, aguacate y pescado, limitando las grasas saturadas."}
+  ],
+  "sources": [
+    {"name": "World Health Organization — Healthy diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet", "note": "Recomendaciones sobre grasas insaturadas y saturadas."},
+    {"name": "PubMed — Dietary fat and satiety research", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=dietary+fat+satiety+gastric+emptying+review", "note": "Investigación sobre grasa, señalización digestiva y saciedad."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Grasa y energía de aceite, frutos secos y aguacate."}
+  ],
+  "image": {
+    "concept": "Aguacate, almendras, nueces y aceite de oliva junto a una comida con verduras y proteína, fotografía editorial sin texto.",
+    "alt": "Fuentes de grasa en una comida equilibrada y saciante"
+  },
+  "status": "publish"
+}

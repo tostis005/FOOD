@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-115-es-saludable-comer-frutos-secos-todos-dias",
+  "article_number": 115,
+  "translation_group": "115-nuts-every-day",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; recomendaciones AESAN sobre frutos secos",
+  "title": "¿Es saludable comer frutos secos todos los días?",
+  "slug": "es-saludable-comer-frutos-secos-todos-dias",
+  "seo": {
+    "title": "¿Es saludable comer frutos secos todos los días?",
+    "meta_description": "Sí, una ración diaria puede encajar. AESAN recomienda al menos 3 raciones semanales y contempla hasta una al día, sin sal, azúcar ni grasas añadidas.",
+    "search_intent": "Saber si comer frutos secos a diario es saludable y qué cantidad constituye una ración."
+  },
+  "excerpt": "Sí. Para la mayoría de personas, una ración diaria de frutos secos naturales o tostados sin sal puede encajar en una dieta saludable. AESAN recomienda al menos 3 raciones por semana y señala que puede alcanzarse hasta 1 ración diaria. La clave es la cantidad: 30 g suelen aportar unas 165–215 kcal según el fruto seco.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["nuts"],
+    "article_types": ["health-daily-consumption", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Comer frutos secos todos los días puede ser perfectamente compatible con una dieta saludable. El matiz está en la palabra “ración”: <strong>un puñado pequeño no es lo mismo que comer directamente media bolsa</strong>.</p><h2>Qué cantidad significa una ración</h2><p>Una referencia práctica es unos 30 g. Dependiendo del tipo, esa cantidad aporta aproximadamente 165–215 kcal.</p><table><thead><tr><th>Fruto seco</th><th>kcal en 30 g</th><th>Proteína aprox.</th></tr></thead><tbody><tr><td>Almendras</td><td>~174</td><td>~6,4 g</td></tr><tr><td>Pistachos</td><td>~168</td><td>~6,1 g</td></tr><tr><td>Nueces</td><td>~196</td><td>~4,6 g</td></tr><tr><td>Anacardos</td><td>~166</td><td>~5,5 g</td></tr><tr><td>Macadamias</td><td>~215</td><td>~2,4 g</td></tr></tbody></table><p>Son alimentos densos en energía porque contienen mucha grasa y poca agua, pero la mayor parte de esa grasa es insaturada.</p><h2>Qué recomienda AESAN</h2><p>Las recomendaciones españolas indican <strong>al menos 3 raciones de frutos secos a la semana</strong>, sin sal ni grasas añadidas. El Comité Científico de AESAN señala que puede alcanzarse hasta una ración diaria, siempre equilibrando su energía con el resto de la dieta.</p><h2>“Saludable” no significa que las calorías no cuenten</h2><p>Añadir 30 g diarios supone aproximadamente 1.200–1.500 kcal a la semana. Si ese puñado sustituye galletas, patatas fritas u otro snack, el cambio puede mejorar mucho la calidad nutricional sin aumentar tanto la energía total.</p><p>Si simplemente se suma encima de todo lo que ya se comía, el balance energético sí cambia.</p><h2>Natural, tostado y salado no son equivalentes</h2><p>Los frutos secos naturales o tostados en seco mantienen un perfil muy parecido. Las versiones con mucha sal elevan el sodio; las caramelizadas, con chocolate o miel pueden añadir azúcar y energía; las fritas pueden incorporar grasa extra.</p><h2>Variar tiene más sentido que comer siempre el mismo</h2><p>Nueces destacan por ALA omega-3, almendras por vitamina E, pistachos por proteína y distintos micronutrientes. Alternarlos amplía el perfil nutricional sin necesidad de buscar un “mejor fruto seco” absoluto.</p><h2>La regla práctica</h2><p><strong>Un puñado de unos 30 g al día puede encajar muy bien</strong>. Elige versiones sin sal ni azúcar añadida y cuenta esa ración como parte de la comida, no como calorías invisibles que se añaden automáticamente.</p>",
+  "faq": [
+    {"question": "¿Cuántos frutos secos se pueden comer al día?", "answer": "Una ración habitual es unos 30 g. AESAN contempla que el consumo pueda alcanzar una ración diaria."},
+    {"question": "¿Engorda comer frutos secos todos los días?", "answer": "Depende del balance total. Una ración aporta unas 165–215 kcal; sustituir otro snack no tiene el mismo efecto que añadirla encima de la dieta habitual."},
+    {"question": "¿Es mejor comerlos crudos o tostados?", "answer": "Ambos pueden encajar. Lo más importante es evitar exceso de sal, azúcar, coberturas o grasas añadidas."}
+  ],
+  "sources": [
+    {"name": "AESAN — Recomendaciones dietéticas saludables y sostenibles", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf", "note": "Frecuencia recomendada de frutos secos."},
+    {"name": "AESAN — Comité Científico, recomendaciones dietéticas", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/revistas_comite_cientifico/comite_cientifico_36.pdf", "note": "Posibilidad de alcanzar una ración diaria y necesidad de equilibrar la energía."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energía y proteína por ración."}
+  ],
+  "image": {
+    "concept": "Un pequeño puñado de frutos secos variados medido junto a un cuenco grande, fotografía editorial sin texto.",
+    "alt": "Ración diaria de frutos secos variados"
+  },
+  "status": "publish"
+}

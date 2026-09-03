@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-058-greek-vs-regular-yogurt",
+  "article_number": 58,
+  "translation_group": "058-greek-vs-regular-yogurt",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition and variation by fat level and added sugar",
+  "title": "Greek Yogurt vs Regular Yogurt: Protein, Fat and Sugar",
+  "slug": "greek-vs-regular-yogurt",
+  "seo": {
+    "title": "Greek vs Regular Yogurt: Protein, Fat and Sugar",
+    "meta_description": "Plain Greek yogurt often has 8–10 g protein/100 g versus 3–5 g in regular yogurt. Fat depends on milkfat level, and added sugar can outweigh style differences.",
+    "search_intent": "Compare Greek and regular yogurt without confusing straining with milkfat level or added sugar."
+  },
+  "excerpt": "Plain Greek yogurt usually contains about twice as much protein as conventional plain yogurt, roughly 8–10 grams versus 3–5 grams per 100 grams. It can be high-fat or fat-free depending on the product, and flavored yogurt can contain far more added sugar than either plain style.",
+  "taxonomy": {
+    "food_family": "dairy",
+    "food_subcategories": ["yogurt", "greek-yogurt"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>‘Greek’ does not automatically mean high-fat, and ‘regular’ does not automatically mean low-sugar. Those are separate questions: one describes a more concentrated yogurt style, while fat and added sugar depend on how the product is formulated.</p><p><strong>The most consistent difference is protein: strained Greek yogurt usually contains about twice as much.</strong> For fat and sugar, you still have to check whether the yogurt is whole, low-fat or nonfat and whether sweeteners were added.</p><h2>A representative comparison of plain whole-milk versions</h2><table><thead><tr><th>Per 100 g</th><th>Plain regular yogurt</th><th>Plain Greek yogurt</th></tr></thead><tbody><tr><td>Calories</td><td>~60–65</td><td>~90–100</td></tr><tr><td>Protein</td><td>~3.5–4 g</td><td>~8–10 g</td></tr><tr><td>Fat</td><td>~3–3.5 g</td><td>~4–5 g</td></tr><tr><td>Natural sugars</td><td>~4.5–5 g</td><td>~3–4 g</td></tr></tbody></table><p>The protein difference is substantial. A 6-ounce serving of Greek yogurt can provide roughly 15–17 grams, compared with about 6–7 grams in the same weight of conventional yogurt.</p><h2>Straining explains the protein concentration</h2><p>Traditional Greek yogurt is strained to remove part of the whey. Losing water and dissolved lactose leaves the solids more concentrated, so protein rises per 100 grams.</p><p>No protein has been created; the finished food simply contains less water for the same weight.</p><h2>Fat depends more on milkfat level than on the word Greek</h2><p>Whole Greek yogurt can contain around 5 grams of fat per 100 grams, while nonfat Greek yogurt can contain less than 1 gram. Regular whole yogurt may have around 3–4 grams, while nonfat regular yogurt has almost none.</p><p>Comparing whole Greek yogurt with nonfat regular yogurt and concluding that Greek yogurt is inherently high-fat mixes two variables.</p><h2>Plain Greek yogurt often contains slightly less lactose</h2><p>Some lactose leaves with the whey, so plain Greek yogurt can contain around 3–4 grams of sugar per 100 grams versus roughly 4.5–5 grams in regular plain yogurt.</p><p>That 1–2 gram difference becomes minor if the product contains added sugar, honey, syrup or fruit preparation. Sweetened yogurts can exceed 10–15 grams of total sugar per 100 grams.</p><h2>No added sugar does not mean no sugar</h2><p>Milk naturally contains lactose. A plain yogurt with no added sugar will still list several grams of total sugar on the Nutrition Facts label; those grams are not automatically added table sugar.</p><h2>Regular yogurt can sometimes provide more calcium</h2><p>Some calcium leaves with the whey during certain straining processes, so conventional yogurt can provide more calcium per serving than some Greek products. Formulas vary by brand, making the label especially useful here.</p><h2>The useful rule</h2><p><strong>Choose Greek yogurt when you want more protein in a small volume; choose either style for taste and texture when protein is not the priority.</strong> To judge fat and sugar, temporarily ignore the style name and check milkfat percentage, added sugars and ingredients.</p>",
+  "faq": [
+    {"question": "Which has more protein, Greek or regular yogurt?", "answer": "Greek yogurt usually provides about 8–10 g/100 g versus roughly 3–5 g/100 g in conventional plain yogurt."},
+    {"question": "Is Greek yogurt higher in fat?", "answer": "Not necessarily. It depends on whether the product is whole, low-fat or nonfat; fat-free Greek yogurts are common."},
+    {"question": "Which has less sugar?", "answer": "Plain Greek yogurt often contains a little less lactose. In flavored products, added sugar can matter far more than that difference."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of plain Greek and regular yogurts at different fat levels."}
+  ],
+  "image": {
+    "concept": "Plain regular yogurt and plain Greek yogurt in matching white bowls showing different texture, clean editorial food photography, no text.",
+    "alt": "Greek yogurt and regular yogurt compared side by side"
+  },
+  "status": "publish"
+}

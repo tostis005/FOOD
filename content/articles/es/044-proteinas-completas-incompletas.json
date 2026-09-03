@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-044-proteinas-completas-incompletas",
+  "article_number": 44,
+  "translation_group": "044-complete-incomplete-proteins",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; marco FAO de calidad proteica y composición USDA",
+  "title": "Proteínas completas e incompletas: qué significa realmente",
+  "slug": "proteinas-completas-incompletas",
+  "seo": {
+    "title": "Proteínas completas e incompletas: significado real",
+    "meta_description": "Una proteína completa aporta los nueve aminoácidos esenciales en proporciones adecuadas. Incompleta no significa que un aminoácido esté ausente.",
+    "search_intent": "Explicar el concepto de proteína completa sin simplificaciones ni reglas innecesarias de combinación."
+  },
+  "excerpt": "Una proteína completa aporta los nueve aminoácidos esenciales en proporciones suficientemente altas respecto a un patrón de referencia. Una proteína llamada ‘incompleta’ también contiene esos aminoácidos: normalmente uno aparece en una proporción relativamente menor y actúa como aminoácido limitante.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-concepts", "myths-faq"],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>La frase ‘las legumbres son proteínas incompletas’ suele entenderse peor de lo que parece. Puede sonar como si a las lentejas les faltara un aminoácido entero. No es así.</p><p><strong>Los alimentos vegetales contienen aminoácidos esenciales; lo que cambia es la proporción.</strong> Cuando uno de ellos está relativamente bajo frente a un patrón de referencia, limita cuánto de esa proteína puede aprovecharse para síntesis proteica.</p><h2>Qué significa realmente ‘completa’</h2><p>El organismo necesita nueve aminoácidos esenciales de la dieta. Una proteína se describe como completa cuando aporta los nueve en cantidades y proporciones suficientes respecto a las necesidades humanas de referencia.</p><p>Huevos, lácteos, carne y pescado suelen cumplir este criterio con facilidad. La soja también tiene un perfil de aminoácidos especialmente sólido entre las fuentes vegetales.</p><h2>‘Incompleta’ no significa ‘sin lisina’ o ‘sin metionina’</h2><p>Los cereales contienen lisina y las legumbres contienen metionina. La diferencia es cuantitativa. En muchos cereales la lisina es relativamente baja; en muchas legumbres lo son los aminoácidos azufrados, especialmente metionina y cisteína.</p><p>Por eso hablar de aminoácido limitante es más preciso que imaginar un ingrediente ausente.</p><h2>La cantidad total de proteína sigue importando</h2><p>Un alimento puede tener un perfil de aminoácidos excelente y aportar poca proteína en una ración. La quinoa contiene los nueve aminoácidos esenciales, pero una taza cocida aporta alrededor de 8 g de proteína. Una ración de tofu firme puede aportar 15–20 g y una de pechuga de pollo más de 40 g.</p><p>Calidad y cantidad son dos preguntas diferentes.</p><h2>La digestibilidad añade otra capa</h2><p>Dos proteínas con un perfil similar de aminoácidos no siempre se digieren igual. La estructura del alimento, el procesado y compuestos como fitatos o inhibidores enzimáticos pueden cambiar cuánto aminoácido queda disponible.</p><p>Por eso sistemas como PDCAAS y DIAAS intentan combinar composición de aminoácidos y digestibilidad, en lugar de clasificar los alimentos solo como completos o incompletos.</p><h2>Las proteínas vegetales se complementan de forma natural</h2><p>Cereales y legumbres tienen perfiles que se compensan: los cereales suelen aportar relativamente más aminoácidos azufrados y las legumbres más lisina. Arroz con lentejas, pan con hummus o maíz con frijoles son ejemplos clásicos.</p><p>Pero no hace falta comerlos exactamente en el mismo plato. Una alimentación variada puede aportar los aminoácidos necesarios a lo largo del día.</p><h2>La soja rompe la simplificación ‘animal completa, vegetal incompleta’</h2><p>Soja, tofu y tempeh ofrecen un perfil de aminoácidos esenciales de alta calidad. Otros vegetales como quinoa, amaranto y trigo sarraceno también presentan perfiles favorables, aunque aportan menos proteína por ración que la soja.</p><h2>La etiqueta es útil, pero no debería dirigir toda la dieta</h2><p>Una persona no come proteína aislada: come alimentos. Legumbres aportan fibra; frutos secos grasas insaturadas; lácteos calcio; pescado omega-3. Reducir cada alimento a una puntuación de aminoácidos deja fuera una parte importante de la decisión.</p><h2>La idea que merece quedarse</h2><p><strong>‘Completa’ describe proporciones de aminoácidos, no una frontera entre proteínas buenas y malas.</strong> Una dieta variada con suficiente proteína total puede cubrir los aminoácidos esenciales incluso cuando muchas de sus fuentes, consideradas por separado, tengan un aminoácido limitante.</p>",
+  "faq": [
+    {"question": "¿Qué significa proteína completa?", "answer": "Que aporta los nueve aminoácidos esenciales en proporciones adecuadas respecto a un patrón de referencia."},
+    {"question": "¿Una proteína incompleta carece de un aminoácido?", "answer": "Normalmente no. Suele contener todos, pero uno está en una proporción relativamente menor y actúa como limitante."},
+    {"question": "¿Hay que combinar arroz y legumbres en la misma comida?", "answer": "No necesariamente. Una dieta variada a lo largo del día puede complementar los aminoácidos."}
+  ],
+  "sources": [
+    {"name": "FAO — Dietary protein quality evaluation in human nutrition", "url": "https://www.fao.org/4/i3124e/i3124e.pdf", "note": "Patrones de aminoácidos esenciales, digestibilidad y evaluación de calidad proteica."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de alimentos y proteína por ración."}
+  ],
+  "image": {
+    "concept": "Legumbres, arroz, tofu, huevo, pescado y quinoa agrupados como fuentes de proteína, fotografía editorial sin texto.",
+    "alt": "Fuentes de proteína con distintos perfiles de aminoácidos"
+  },
+  "status": "publish"
+}

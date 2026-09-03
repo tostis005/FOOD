@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "es-151-comida-caliente-directamente-nevera",
+  "article_number": 151,
+  "translation_group": "151-hot-food-directly-fridge",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; AESAN conservación doméstica",
+  "title": "¿Se puede meter comida caliente directamente en la nevera?",
+  "slug": "comida-caliente-directamente-nevera",
+  "seo": {"title":"¿Se puede meter comida caliente en la nevera?","meta_description":"No conviene dejar una olla horas fuera para que se enfríe. Divide la comida en recipientes poco profundos y refrigera lo antes posible; grandes masas calientes enfrían demasiado lento.","search_intent":"Saber si hay que esperar a que la comida se enfríe por completo antes de refrigerarla."},
+  "excerpt": "No hay que esperar a que la comida llegue completamente a temperatura ambiente. AESAN recomienda refrigerar o congelar los alimentos cocinados lo antes posible y dividirlos en porciones para que se enfríen antes. Lo que conviene evitar es una olla enorme y muy caliente que tarde horas en perder temperatura o caliente todo el interior del frigorífico.",
+  "taxonomy": {"food_family":"general","food_subcategories":["leftovers","refrigeration"],"article_types":["food-safety","practical-guide"],"primary_article_type":"food-safety"},
+  "content_html": "<p>La vieja regla de “espera a que se enfríe del todo antes de meterlo en la nevera” puede hacer justo lo que se pretende evitar: dejar comida cocinada demasiado tiempo a temperatura favorable para el crecimiento microbiano.</p><h2>El objetivo es atravesar rápido la zona templada</h2><p>Una olla de cinco litros conserva calor en el centro durante mucho tiempo. Repartir el guiso en recipientes bajos y pequeños multiplica la superficie y acelera el enfriamiento.</p><h2>No hace falta esperar horas en la encimera</h2><p>AESAN recomienda refrigerar o congelar alimentos cocinados lo antes posible y señala que separarlos en porciones ayuda a enfriarlos. Si el recipiente está extremadamente caliente y voluminoso, puede enfriarse brevemente o en baño frío mientras se divide, pero no debe quedarse olvidado varias horas.</p><h2>La nevera también necesita mantener su temperatura</h2><p>Meter una olla enorme recién retirada del fuego puede elevar temporalmente la temperatura alrededor de otros alimentos. La solución no es dejarla toda la tarde fuera, sino <strong>reducir volumen, usar recipientes poco profundos y refrigerar pronto</strong>.</p><h2>Tapar sin atrapar una masa caliente</h2><p>Protege la comida de contaminación, pero permite que pierda calor de forma eficiente siguiendo el diseño del recipiente y las recomendaciones del frigorífico. Una vez fría, mantenla bien cerrada.</p><h2>La regla</h2><p>Piensa en enfriar rápido, no en esperar a temperatura ambiente. Las porciones pequeñas resuelven el conflicto entre enfriar la comida y no calentar innecesariamente el frigorífico.</p>",
+  "faq": [{"question":"¿Tengo que dejar enfriar la comida dos horas antes de meterla en la nevera?","answer":"No. Debe refrigerarse lo antes posible; dividirla en recipientes pequeños acelera el enfriamiento."},{"question":"¿Puedo meter una olla grande hirviendo?","answer":"No es lo ideal porque enfría lentamente en el centro y puede calentar el frigorífico. Reparte el contenido en recipientes poco profundos."}],
+  "sources": [{"name":"AESAN — Recomendaciones para conservar alimentos en la nevera","url":"https://www.aesan.gob.es/AECOSAN/docs/documentos/para_consumidor/nevera.pdf","note":"Refrigerar alimentos cocinados lo antes posible y dividir en porciones."}],
+  "image": {"concept":"Guiso caliente repartido desde una olla grande a varios recipientes bajos antes de entrar en la nevera, sin texto.","alt":"Enfriar comida caliente en recipientes pequeños antes de refrigerar"},
+  "status":"publish"
+}

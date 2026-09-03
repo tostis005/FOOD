@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "es-055-arroz-blanco-vs-integral",
+  "article_number": 55,
+  "translation_group": "055-white-vs-brown-rice",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA de arroz cocido y explicación del refinado",
+  "title": "Arroz blanco vs. arroz integral: diferencias nutricionales",
+  "slug": "arroz-blanco-vs-integral",
+  "seo": {
+    "title": "Arroz blanco vs. integral: fibra, calorías y nutrientes",
+    "meta_description": "Blanco e integral tienen calorías y carbohidratos parecidos. El integral conserva salvado y germen, por lo que aporta más fibra y magnesio.",
+    "search_intent": "Comparar arroz blanco e integral cocidos con cifras equivalentes y explicar qué cambia realmente al refinar el grano."
+  },
+  "excerpt": "Arroz blanco e integral cocidos aportan cantidades parecidas de calorías, carbohidratos y proteína. La diferencia importante es que el integral conserva salvado y germen: ronda 1,5–2 g de fibra por 100 g frente a menos de 1 g en el blanco y suele aportar más magnesio y otros micronutrientes.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": ["rice"],
+    "article_types": ["comparisons", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>El arroz integral suele presentarse como nutricionalmente opuesto al blanco, pero una vez cocidos ambos siguen siendo, ante todo, alimentos ricos en carbohidratos. No hay una transformación radical de calorías o proteína.</p><p><strong>La diferencia más consistente está en la fibra y en los componentes del grano que se conservan.</strong> El integral mantiene el salvado y el germen; el blanco ha perdido esas capas durante el refinado.</p><h2>Comparación por 100 g cocidos</h2><p>La cantidad de agua absorbida cambia ligeramente las cifras entre variedades y métodos de cocción, así que conviene leer estos valores como referencias representativas.</p><table><thead><tr><th>Por 100 g cocidos</th><th>Arroz blanco</th><th>Arroz integral</th></tr></thead><tbody><tr><td>Calorías</td><td>~130 kcal</td><td>~120–125 kcal</td></tr><tr><td>Carbohidratos</td><td>~28 g</td><td>~25–26 g</td></tr><tr><td>Proteína</td><td>~2,7 g</td><td>~2,7–2,8 g</td></tr><tr><td>Fibra</td><td>~0,4 g</td><td>~1,6 g</td></tr></tbody></table><p>Calorías y proteína están muy cerca. La fibra sí cambia de forma clara: el integral aporta alrededor de cuatro veces más en esta comparación, aunque la cifra absoluta por 100 g sigue siendo moderada.</p><h2>Una ración muestra mejor qué significa esa fibra</h2><p>En 150 g cocidos, el arroz blanco aporta aproximadamente 195 kcal, 42 g de carbohidratos y menos de 1 g de fibra. La misma cantidad de integral ronda 185 kcal, 38–39 g de carbohidratos y unos 2,4 g de fibra.</p><p>La diferencia de energía es pequeña y puede invertirse según la variedad y cuánta agua haya absorbido. La ventaja de fibra del integral es mucho más estable.</p><h2>Qué desaparece cuando se refina el arroz</h2><p>El grano integral conserva endospermo, germen y salvado. Para producir arroz blanco se eliminan el salvado y el germen, reduciendo fibra y parte de minerales y vitaminas.</p><p>En algunos países el arroz blanco se enriquece con vitaminas del grupo B y hierro después del refinado. Eso puede recuperar ciertos micronutrientes, pero no devuelve la fibra ni reproduce exactamente el grano entero.</p><h2>El integral suele aportar más magnesio</h2><p>El arroz integral cocido puede rondar 40–45 mg de magnesio por 100 g, mientras el blanco suele quedar bastante más bajo, alrededor de 10–15 mg según el producto. En una ración de 150 g, la diferencia puede ser del orden de 60 mg frente a menos de 20 mg.</p><p>Ese tipo de diferencia mineral es más relevante que discutir si uno tiene cinco o diez calorías más por ración.</p><h2>Ninguno es un alimento especialmente rico en proteína</h2><p>Con unos 2,7 g por 100 g, una ración de 150 g aporta alrededor de 4 g de proteína en cualquiera de los dos. Si la comida necesita 20–30 g, la diferencia entre blanco e integral no resolverá el problema: harán falta legumbres, tofu, huevo, pescado, carne, lácteos u otra fuente proteica.</p><h2>El integral suele saciar más, pero no por magia</h2><p>Su mayor fibra y textura más firme pueden hacer que se coma más despacio y que la comida resulte algo más saciante. Sin embargo, la saciedad depende también de la ración y de qué acompaña al arroz.</p><p>Un plato de arroz blanco con verduras y una buena fuente de proteína puede resultar más saciante que arroz integral comido solo.</p><h2>El tiempo de cocción también cambia</h2><p>El salvado que conserva el integral dificulta la entrada de agua, por lo que suele necesitar más tiempo de cocción. Esa capa es parte de la razón por la que mantiene más fibra y también por la que la textura es más firme.</p><h2>La idea útil</h2><p><strong>El arroz integral no es ‘bajo en carbohidratos’ y el blanco no es nutricionalmente vacío.</strong> Son muy parecidos en energía y proteína; el integral tiene una ventaja clara en fibra y en varios micronutrientes. Elegir uno u otro puede depender también del plato, la textura y de si el resto de la dieta ya aporta suficientes cereales integrales y fibra.</p>",
+  "faq": [
+    {"question": "¿Qué tiene más calorías, arroz blanco o integral?", "answer": "Cocidos están muy cerca. Por 100 g, el blanco ronda 130 kcal y el integral unas 120–125, pero la hidratación y variedad pueden mover las cifras."},
+    {"question": "¿Cuál tiene más fibra?", "answer": "El integral claramente: alrededor de 1,6 g/100 g frente a unos 0,4 g/100 g del blanco en una comparación representativa."},
+    {"question": "¿El arroz integral tiene más proteína?", "answer": "La diferencia es mínima. Ambos rondan 2,7–2,8 g de proteína por 100 g cocidos."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de arroz blanco e integral cocidos."}
+  ],
+  "image": {
+    "concept": "Dos cuencos iguales con arroz blanco y arroz integral cocidos, fotografía editorial cenital sin texto.",
+    "alt": "Arroz blanco e integral comparados nutricionalmente"
+  },
+  "status": "publish"
+}

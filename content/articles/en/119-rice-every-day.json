@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-119-rice-every-day",
+  "article_number": 119,
+  "translation_group": "119-rice-every-day",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; FDA arsenic guidance and USDA grain context",
+  "title": "Is it healthy to eat rice every day?",
+  "slug": "is-it-healthy-to-eat-rice-every-day",
+  "seo": {
+    "title": "Is it healthy to eat rice every day?",
+    "meta_description": "Rice can fit a daily diet, but grain variety is useful. FDA notes rice absorbs arsenic more readily than many crops, so rotating grains reduces dependence on one source.",
+    "search_intent": "Understand whether daily rice is healthy and how portion size, fiber, grain variety, and arsenic affect the answer."
+  },
+  "excerpt": "Rice can be eaten frequently, even daily, as part of a balanced diet, but it does not need to be the only grain. FDA notes that rice absorbs arsenic more readily than many crops and recommends dietary variety. Rotating rice with oats, wheat, corn, barley, quinoa, and other grains broadens nutrition and reduces dependence on one food source.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": ["rice"],
+    "article_types": ["health-daily-consumption", "nutrition-composition", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Rice is eaten every day in many healthy dietary patterns. The issue is not that a seventh weekly serving suddenly becomes harmful; it is <strong>how much rice you eat, what comes with it, and whether it crowds out all other grains</strong>.</p><h2>Rice is mainly a carbohydrate food</h2><p>Cooked white rice provides roughly 130 calories and 28 g carbohydrate per 100 g, with about 2–3 g protein and less than 1 g fiber. A 200 g bowl therefore approaches 260 calories and 56 g carbohydrate before oil, sauces, or toppings.</p><p>Brown rice has a similar calorie level but more fiber and minerals because it retains the bran.</p><h2>Grain variety still matters</h2><p>Rotating rice with oats, whole-wheat bread or pasta, barley, corn, bulgur, quinoa, and buckwheat changes fiber, micronutrients, texture, and the glycemic profile of meals.</p><h2>Arsenic is one reason not to rely exclusively on rice</h2><p>FDA notes that rice tends to absorb arsenic more readily than many other crops. That does not mean rice needs to be eliminated. It means <strong>dietary variety is a practical way to reduce repeated exposure from one source</strong>, especially for people who eat rice and rice-based foods very frequently.</p><h2>Brown rice does not win every category</h2><p>Brown rice keeps more fiber and micronutrients, but arsenic is concentrated more heavily in the outer layers of the grain, so brown rice can contain more inorganic arsenic than white rice. Its higher fiber remains a nutritional advantage; it simply is not superior on every measure.</p><h2>Rinsing does little for arsenic</h2><p>FDA research shows normal rinsing has minimal effect on arsenic in cooked rice. Cooking rice like pasta—with about 6–10 parts water to 1 part rice and draining the excess—can reduce inorganic arsenic by roughly 40–60% depending on the rice.</p><p>That method can also remove 50–70% of added folate, iron, niacin, and thiamin from enriched white or parboiled rice, so it is a tradeoff rather than a universally superior cooking method.</p><h2>What you eat with rice changes the meal</h2><p>A bowl of rice with vegetables and beans is nutritionally different from a very large portion of white rice with little protein or fiber. If rice is a daily staple, the rest of the plate should bring vegetables, a protein source, and appropriate fats.</p><h2>The practical rule</h2><p><strong>Rice can be eaten daily, but rotating grains is a stronger long-term pattern</strong>. It broadens nutrients and reduces reliance on a crop that contributes more arsenic exposure than many other grains.</p>",
+  "faq": [
+    {"question": "Is it bad to eat rice every day?", "answer": "Not necessarily. Daily rice can fit, but rotating grains broadens nutrition and reduces reliance on rice as an arsenic source."},
+    {"question": "Does brown rice have more arsenic?", "answer": "It can, because it retains outer bran layers where arsenic is more concentrated. Brown rice also provides more fiber and micronutrients."},
+    {"question": "Does rinsing rice remove arsenic?", "answer": "Normal rinsing has minimal effect. Cooking in excess water and draining can reduce more arsenic, but it can also remove nutrients from enriched rice."}
+  ],
+  "sources": [
+    {"name": "FDA — What You Can Do to Limit Exposure to Arsenic", "url": "https://www.fda.gov/food/environmental-contaminants-food/what-you-can-do-limit-exposure-arsenic", "note": "Rice, dietary variety, rinsing, and excess-water cooking."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "White and brown rice nutrient composition."}
+  ],
+  "image": {
+    "concept": "A bowl of rice beside oats, barley, corn, quinoa, and other grains emphasizing dietary variety, clean editorial photography without text.",
+    "alt": "Rice alongside a variety of other grains"
+  },
+  "status": "publish"
+}

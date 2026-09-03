@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-065-hay-que-guardar-huevos-nevera",
+  "article_number": 65,
+  "translation_group": "065-should-eggs-be-refrigerated",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; huevos de categoría A no refrigerados normalmente en comercio y conservación doméstica estable en frío",
+  "title": "¿Hay que guardar los huevos en la nevera?",
+  "slug": "hay-que-guardar-huevos-nevera",
+  "seo": {
+    "title": "¿Hay que guardar los huevos en la nevera?",
+    "meta_description": "En España es normal que los huevos no estén refrigerados en la tienda, pero en casa conviene conservarlos a temperatura fría y estable. Explicamos la aparente contradicción.",
+    "search_intent": "Entender por qué los huevos se venden sin frío en España pero se recomienda mantenerlos refrigerados y sin cambios bruscos de temperatura en casa."
+  },
+  "excerpt": "Sí: en casa es razonable conservar los huevos en la nevera, a temperatura fría y estable, y mantenerlos allí hasta usarlos. Que en España se vendan normalmente sin refrigerar no es una contradicción: la normativa europea busca evitar oscilaciones térmicas y condensación antes de la venta. Una vez refrigerados, no conviene sacarlos y volverlos a guardar repetidamente.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": ["shell-eggs"],
+    "article_types": ["food-safety", "storage", "myths-faq"],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>En el supermercado español los huevos suelen estar en una estantería, pero muchas personas llegan a casa y los meten directamente en la nevera. Las dos cosas pueden tener sentido a la vez. <strong>Lo importante no es que el huevo pase toda su vida a una temperatura concreta, sino evitar calor y cambios repetidos de temperatura que favorezcan condensación sobre la cáscara.</strong></p><h2>En casa, mantenerlos refrigerados ofrece un margen más estable</h2><p>La refrigeración ralentiza el crecimiento de <em>Salmonella</em> si estuviera presente y ayuda a conservar durante más tiempo la calidad interna del huevo. Un informe reciente del Comité Científico de AESAN señala que a temperaturas de 7 °C o inferiores la multiplicación de <em>Salmonella</em> dentro del huevo es insignificante y que la refrigeración ayuda a preservar la membrana de la yema.</p><p>La regla práctica es sencilla: una vez que los guardas en frío, <strong>mantén una cadena de temperatura lo más constante posible hasta utilizarlos</strong>.</p><h2>Entonces, ¿por qué no están en la nevera del supermercado?</h2><p>En la Unión Europea los huevos de mesa se gestionan para mantenerse limpios, secos y a una temperatura preferiblemente constante antes de llegar al consumidor. Refrigerarlos en la tienda y después transportarlos a temperatura ambiente podría favorecer que apareciera condensación al calentarse la cáscara.</p><p>La humedad superficial no interesa porque la cáscara es porosa y la condensación puede facilitar el movimiento de microorganismos desde la superficie.</p><h2>El error es el cambio constante de frío a calor</h2><p>Sacar la huevera cada mañana, dejarla una hora sobre la encimera y volver a meterla en el frigorífico crea más oscilación que mantenerla siempre dentro. Saca únicamente los huevos que vayas a utilizar.</p><p>Si una receta pide huevo a temperatura ambiente, puedes sacar esas unidades poco antes de cocinar; no hace falta templar toda la caja.</p><h2>¿Puerta o balda interior?</h2><p>La puerta del frigorífico sufre más cambios de temperatura cada vez que se abre. Una balda interior mantiene condiciones más estables. Lo ideal es conservar los huevos en su envase original, que además protege la cáscara y mantiene visible la fecha.</p><p>El objetivo no es enfriar al máximo, sino evitar golpes, olores, humedad y oscilaciones innecesarias.</p><h2>No laves los huevos antes de guardarlos</h2><p>La cáscara tiene una cutícula protectora. Lavar el huevo puede dañarla y, si se hace de forma inadecuada, favorecer que microorganismos de la superficie se desplacen a través de los poros.</p><p>Si un huevo está muy sucio, agrietado o presenta una cáscara dañada, es mejor descartarlo en lugar de intentar “desinfectarlo” para almacenarlo.</p><h2>La fecha sigue importando aunque estén fríos</h2><p>En la UE, la fecha de duración mínima de los huevos de gallina se fija como máximo a 28 días desde la puesta. Refrigerar no convierte esa fecha en irrelevante ni justifica almacenar huevos durante meses.</p><p>Además, cuanto más viejo es el huevo, más cambia su calidad: aumenta la cámara de aire, la clara se vuelve más fluida y la membrana de la yema pierde resistencia.</p><h2>La regla que resuelve la aparente contradicción</h2><p><strong>Que los huevos se vendan sin refrigerar no significa que deban quedarse en la encimera en casa.</strong> El sistema europeo intenta mantener una temperatura estable antes de la compra; el frigorífico doméstico ofrece después un entorno frío y estable.</p><p>Guárdalos dentro de la nevera, en su caja, y evita el viaje repetido de frío a calor hasta el momento de usarlos.</p>",
+  "faq": [
+    {"question": "¿Por qué los huevos no están refrigerados en los supermercados de España?", "answer": "Porque antes de la venta se busca mantenerlos a una temperatura relativamente constante y evitar condensación causada por pasar de frío a calor."},
+    {"question": "¿Dónde es mejor guardar los huevos en la nevera?", "answer": "En una balda interior, dentro de su envase original. La puerta sufre más oscilaciones de temperatura."},
+    {"question": "¿Hay que lavar los huevos antes de guardarlos?", "answer": "No. Lavar la cáscara puede dañar su cutícula protectora y favorecer la penetración de contaminación si se hace de forma inadecuada."}
+  ],
+  "sources": [
+    {"name": "AESAN — Huevos y ovoproductos", "url": "https://www.aesan.gob.es/seguridad-alimentaria/higiene-alimentos/huevos-ovoproductos", "note": "Conservación, transporte y fecha de duración mínima de huevos en la UE."},
+    {"name": "Comité Científico AESAN — Huevos y ovoproductos 2026", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/seguridad_alimentaria/evaluacion_riesgos/informes_comite/HUEVOS_OVOPRODUCTOS.pdf", "note": "Efecto de refrigeración y estabilidad térmica sobre el riesgo de Salmonella."}
+  ],
+  "image": {
+    "concept": "Caja de huevos colocada en una balda interior de un frigorífico doméstico limpio, fotografía editorial sin texto.",
+    "alt": "Huevos guardados en su caja dentro de la nevera"
+  },
+  "status": "publish"
+}

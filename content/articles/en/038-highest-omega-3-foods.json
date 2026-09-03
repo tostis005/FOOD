@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-038-highest-omega-3-foods",
+  "article_number": 38,
+  "translation_group": "038-highest-omega-3-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition and NIH ODS omega-3 forms",
+  "title": "Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA",
+  "slug": "highest-omega-3-foods",
+  "seo": {
+    "title": "Foods Highest in Omega-3: ALA vs EPA and DHA",
+    "meta_description": "Chia, flax and walnuts lead for ALA; salmon, herring, sardines and mackerel provide EPA and DHA. A single ranking mixes unlike forms.",
+    "search_intent": "Compare omega-3-rich foods while separating plant ALA from marine EPA and DHA."
+  },
+  "excerpt": "Chia, flax and walnuts are concentrated sources of the plant omega-3 ALA, while salmon, herring, sardines and mackerel provide mostly EPA and DHA. They belong to the same fatty-acid family but are not nutritionally interchangeable, so one combined ranking can mislead.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>A list of ‘foods highest in omega-3’ can put chia above salmon and still give the wrong impression. The reason is simple: <strong>omega-3 is not one single fat.</strong></p><p>ALA is found mainly in seeds, walnuts and plant oils. EPA and DHA come mainly from fish and seafood. The body can convert some ALA into EPA and DHA, but only in limited amounts, so these foods are better compared in separate groups.</p><h2>Plant sources: a lot of ALA in a small serving</h2><table><thead><tr><th>Food</th><th>Serving</th><th>ALA, approx.</th></tr></thead><tbody><tr><td>Flaxseed oil</td><td>1 tbsp</td><td>7.26 g</td></tr><tr><td>Chia seeds</td><td>1 oz</td><td>5.06 g</td></tr><tr><td>English walnuts</td><td>1 oz</td><td>2.57 g</td></tr><tr><td>Whole flaxseed</td><td>1 tbsp</td><td>2.35 g</td></tr><tr><td>Canola oil</td><td>1 tbsp</td><td>1.28 g</td></tr></tbody></table><p>Chia and flax stand out clearly for ALA. An ounce of chia provides more than 5 grams, while an ounce of walnuts provides about 2.6 grams.</p><h2>Fish: fewer total grams, but directly as EPA and DHA</h2><table><thead><tr><th>Food</th><th>Serving</th><th>EPA + DHA, approx.</th></tr></thead><tbody><tr><td>Atlantic farmed salmon, cooked</td><td>3 oz</td><td>1.83 g</td></tr><tr><td>Atlantic herring, cooked</td><td>3 oz</td><td>1.71 g</td></tr><tr><td>Canned sardines</td><td>3 oz</td><td>1.19 g</td></tr><tr><td>Atlantic mackerel, cooked</td><td>3 oz</td><td>1.02 g</td></tr><tr><td>Wild rainbow trout, cooked</td><td>3 oz</td><td>0.84 g</td></tr></tbody></table><p>If you only totaled grams, chia would appear to ‘beat’ salmon. But salmon supplies preformed EPA and DHA, while chia supplies mostly ALA. Those are different comparisons.</p><h2>Why ALA conversion does not make the two groups equivalent</h2><p>ALA is essential and must come from the diet. Some can be converted to EPA and then DHA, but the conversion is limited. A diet with chia or walnuts can therefore provide plenty of ALA without delivering the same amount of EPA and DHA as fatty fish.</p><p>People who avoid fish can obtain preformed EPA and DHA from microalgae-based foods or supplements, which is a separate source from seeds and nuts.</p><h2>The type of fish matters as much as simply eating fish</h2><p>Fatty fish contain far more EPA and DHA than very lean species. Three ounces of Pacific cod provide roughly 0.14 g of EPA+DHA, compared with about 1.83 g in the same serving of farmed Atlantic salmon—more than a tenfold difference.</p><h2>Walnuts have a different role from fish</h2><p>An ounce of walnuts provides about 2.6 g of ALA along with fiber and other nutrients. It is not accurate to call that equivalent to 2.6 g of EPA+DHA, but walnuts remain one of the most practical food sources of ALA.</p><h2>The useful rule</h2><p>Think in two columns rather than one podium: <strong>chia, flax and walnuts for ALA; salmon, herring, sardines, mackerel and trout for EPA and DHA.</strong> Separating the forms of omega-3 tells you much more about what each food actually provides.</p>",
+  "faq": [
+    {"question": "What food has the most omega-3?", "answer": "It depends on the type. Chia and flax are rich in ALA, while fatty fish such as salmon and herring are strong sources of EPA and DHA."},
+    {"question": "Is the omega-3 in chia the same as in salmon?", "answer": "No. Chia provides mainly ALA; salmon provides preformed EPA and DHA."},
+    {"question": "Do walnuts contain omega-3?", "answer": "Yes. One ounce of walnuts provides about 2.6 grams of ALA."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Food nutrient composition."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "ALA, EPA and DHA content and metabolic differences."}
+  ],
+  "image": {
+    "concept": "Chia, flax and walnuts on one side; salmon, sardines and mackerel on the other, clean editorial food photography, no text.",
+    "alt": "Plant and marine sources of omega-3"
+  },
+  "status": "publish"
+}

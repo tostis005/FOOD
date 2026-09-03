@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-104-chia-vs-flax",
+  "article_number": 104,
+  "translation_group": "104-chia-vs-flax",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and NIH context on ALA",
+  "title": "Chia vs. flax: fiber, omega-3, and key differences",
+  "slug": "chia-vs-flax-fiber-omega-3",
+  "seo": {
+    "title": "Chia vs. flax: fiber, omega-3, protein, and calories",
+    "meta_description": "Per 1 oz, chia provides more fiber while flax provides a little more ALA and protein. Flax is best ground; chia can be eaten whole.",
+    "search_intent": "Compare chia and flax for fiber, protein, omega-3, calories, and practical use."
+  },
+  "excerpt": "Chia and flax are nutritionally similar but not identical. Per 1 oz, chia provides about 9.8 g fiber and 5.0 g ALA; flax provides about 7.7 g fiber and 6.4 g ALA. Flax is best eaten ground so its nutrients are easier to access, while chia can be eaten whole.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["seeds", "chia", "flax"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>Chia and flax are often grouped together because both deliver two unusual strengths in a small serving: <strong>a lot of fiber and a lot of ALA omega-3</strong>. Neither wins every category, and the practical differences matter as much as the nutrient table.</p><h2>Side by side per 1 oz</h2><p>Using the same 1 oz (28 g) serving keeps the comparison realistic for foods normally added by the spoonful.</p><table><thead><tr><th>Nutrient</th><th>Chia, 1 oz</th><th>Flax, 1 oz</th></tr></thead><tbody><tr><td>Calories</td><td>~138</td><td>~150</td></tr><tr><td>Protein</td><td>~4.7 g</td><td>~5.1 g</td></tr><tr><td>Fiber</td><td>~9.8 g</td><td>~7.7 g</td></tr><tr><td>Fat</td><td>~8.7 g</td><td>~11.8 g</td></tr><tr><td>ALA omega-3</td><td>~5.0 g</td><td>~6.4 g</td></tr></tbody></table><p>Chia provides more fiber, while flax supplies somewhat more ALA and total fat. The protein difference is less than half a gram per serving, too small to drive the choice on its own.</p><h2>Flax is better ground</h2><p>Whole flax seeds have a tough outer coat, and some can pass through the digestive tract without being fully broken. Grinding improves access to the oil, lignans, and other nutrients inside.</p><p>Chia does not require the same treatment. It can be eaten whole, which makes it easier to add directly to yogurt, oatmeal, or drinks.</p><h2>Both provide ALA, not EPA and DHA</h2><p>The dominant omega-3 in both seeds is alpha-linolenic acid. The body can convert some ALA into EPA and DHA, but conversion is limited. These seeds therefore should not be described as gram-for-gram substitutes for fatty fish.</p><h2>Texture changes how they work in food</h2><p>Chia develops a pronounced gel when hydrated and works especially well in puddings and thickened mixtures. Ground flax also absorbs water and can help bind baked goods, but its texture and flavor are different.</p><p>If the goal is maximum fiber with minimal preparation, chia has an advantage. If you want slightly more ALA and are willing to grind the seed, flax edges ahead.</p><h2>Minerals differ too</h2><p>Both provide magnesium, phosphorus, and other minerals. Chia is particularly notable for calcium, while flax contributes a strong magnesium profile. As with many seeds, phytates can reduce absorption of some of those minerals.</p><h2>You do not have to choose one</h2><p>Chia and ground flax can easily coexist in the same diet. The practical difference between them is smaller than the difference between <strong>regularly eating nutrient-rich seeds and eating none at all</strong>.</p>",
+  "faq": [
+    {"question": "Which has more omega-3, chia or flax?", "answer": "Flax usually provides a little more ALA: about 6.4 g per 1 oz compared with roughly 5.0 g in chia."},
+    {"question": "Which has more fiber?", "answer": "Chia, with about 9.8 g per 1 oz versus roughly 7.7 g in flax."},
+    {"question": "Do chia seeds need to be ground like flax?", "answer": "No. Flax is better used ground, while chia can be eaten whole."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of chia and flax seeds."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "ALA and conversion to EPA and DHA."}
+  ],
+  "image": {
+    "concept": "Two small piles of seeds, black chia and brown flax with some flax freshly ground, clean overhead editorial photography without text.",
+    "alt": "Chia and flax seeds compared side by side"
+  },
+  "status": "publish"
+}

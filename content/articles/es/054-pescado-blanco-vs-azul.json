@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "es-054-pescado-blanco-vs-azul",
+  "article_number": 54,
+  "translation_group": "054-white-vs-oily-fish",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; clasificación culinaria habitual, composición USDA/NIH ODS y recomendaciones AESAN",
+  "title": "Pescado blanco vs. pescado azul: diferencias nutricionales y ejemplos",
+  "slug": "pescado-blanco-vs-azul",
+  "seo": {
+    "title": "Pescado blanco vs. azul: diferencias nutricionales",
+    "meta_description": "El pescado blanco suele ser más magro y bajo en calorías; el azul aporta mucha más grasa y omega-3 EPA y DHA. La proteína es similar.",
+    "search_intent": "Explicar las diferencias reales entre pescado blanco y azul, con ejemplos, proteína, grasa, calorías y omega-3."
+  },
+  "excerpt": "El pescado blanco suele tener poca grasa y aportar unas 80–130 kcal por 100 g cocinados; el pescado azul puede superar 180–250 kcal porque contiene más grasa, pero también mucho más EPA y DHA. En proteína, ambos grupos suelen moverse alrededor de 18–25 g por 100 g.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": ["white-fish", "oily-fish"],
+    "article_types": ["comparisons", "nutrition-concepts", "nutrition-composition"],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>‘Pescado blanco’ y ‘pescado azul’ no son categorías que separen pescado bueno de malo ni pescado con proteína de pescado sin ella. La diferencia principal está en la cantidad y distribución de la grasa.</p><p><strong>El blanco suele ser más magro y ligero; el azul aporta más calorías porque contiene más grasa, pero también concentra mucho más EPA y DHA.</strong> La proteína, en cambio, puede ser muy parecida.</p><h2>Ejemplos que ayudan a situar cada grupo</h2><p>Entre los pescados blancos habituales están merluza, pescadilla, bacalao, lenguado, gallo o abadejo. Entre los azules se encuentran sardina, salmón, caballa, arenque, boquerón y jurel.</p><p>La frontera no es matemática: el contenido de grasa puede variar con la especie, la época del año, la alimentación y el estado del pescado. La clasificación sirve como orientación culinaria y nutricional, no como una ley química.</p><h2>Una comparación representativa por 100 g cocinados</h2><table><thead><tr><th></th><th>Pescado blanco magro</th><th>Pescado azul graso</th></tr></thead><tbody><tr><td>Calorías</td><td>~80–130 kcal</td><td>~180–250 kcal</td></tr><tr><td>Proteína</td><td>~18–24 g</td><td>~20–25 g</td></tr><tr><td>Grasa</td><td>~1–3 g</td><td>~8–15 g</td></tr><tr><td>EPA + DHA</td><td>Frecuentemente ~0,1–0,4 g</td><td>Frecuentemente ~1–2+ g</td></tr></tbody></table><p>La proteína se solapa ampliamente. La diferencia energética procede sobre todo de la grasa: cada gramo de grasa aporta unas 9 kcal, frente a unas 4 kcal por gramo de proteína.</p><h2>Merluza o bacalao: mucha proteína con poca grasa</h2><p>Un pescado blanco cocinado puede aportar alrededor de 20–23 g de proteína por 100 g con muy poca grasa. Eso lo convierte en una opción eficiente cuando se busca una comida proteica con pocas calorías.</p><p>La forma de cocinarlo puede cambiar el resultado: rebozado y frito deja de tener el mismo perfil que al horno, al vapor o a la plancha.</p><h2>Salmón, sardina o caballa: más energía, pero también más omega-3</h2><p>El salmón atlántico cocinado ronda 12 g de grasa por 100 g y puede aportar alrededor de 2 g de EPA+DHA. La sardina y la caballa también se sitúan muy por encima de pescados magros en omega-3 de cadena larga.</p><p>Por eso describir el pescado azul solo como ‘más graso’ deja fuera la razón nutricional por la que esa grasa es interesante.</p><h2>La vitamina D también suele favorecer a varios pescados azules</h2><p>Salmón, sardina, arenque y caballa pueden aportar cantidades relevantes de vitamina D, aunque existe mucha variabilidad entre especies y productos. Los pescados blancos no están vacíos de micronutrientes, pero suelen contener menos grasa y, con ella, menos vitaminas liposolubles en muchos casos.</p><h2>Mercurio no significa blanco frente a azul</h2><p>El mercurio depende sobre todo de la especie, tamaño, longevidad y posición en la cadena alimentaria. Sardina y salmón son pescados azules y AESAN los incluye entre las especies de bajo mercurio.</p><p>Por tanto, no es correcto asumir que un pescado graso tiene más mercurio o que uno blanco tiene menos. La especie concreta es la que importa.</p><h2>No hace falta elegir un solo grupo</h2><p>AESAN recomienda variar las especies de pescado y alternar pescados blancos y azules. Esa variedad tiene lógica nutricional: el blanco aporta proteína muy magra; el azul añade cantidades mayores de EPA, DHA y, en varias especies, vitamina D.</p><h2>La idea útil</h2><p><strong>El pescado blanco no es ‘mejor’ por tener menos grasa y el azul no es ‘peor’ por tener más calorías.</strong> Son perfiles distintos: uno facilita proteína magra; el otro aporta proteína junto con grasas marinas que el pescado blanco suele contener en mucha menor cantidad.</p>",
+  "faq": [
+    {"question": "¿Qué diferencia hay entre pescado blanco y azul?", "answer": "La principal diferencia es el contenido de grasa. El blanco suele tener alrededor de 1–3 g/100 g; muchos pescados azules rondan 8–15 g/100 g."},
+    {"question": "¿Cuál tiene más proteína?", "answer": "No hay una ventaja clara: ambos grupos suelen aportar aproximadamente 18–25 g de proteína por 100 g cocinados."},
+    {"question": "¿Cuál tiene más omega-3?", "answer": "El pescado azul suele aportar mucho más EPA y DHA, especialmente salmón, sardina, caballa y arenque."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína, grasa y energía de distintas especies de pescado."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "EPA y DHA de pescados grasos y magros."},
+    {"name": "AESAN — Recomendaciones dietéticas saludables y sostenibles", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf", "note": "Recomendación de consumo de pescado y variedad de especies."},
+    {"name": "AESAN — Recomendaciones sobre consumo de pescado y mercurio", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/RECOMENDACIONES_consumo_pescado_MERCURIO_AESAN_WEB.PDF", "note": "Especies de bajo y alto contenido en mercurio."}
+  ],
+  "image": {
+    "concept": "Merluza y bacalao a un lado, salmón, sardinas y caballa al otro, fotografía editorial limpia sin texto.",
+    "alt": "Ejemplos de pescado blanco y pescado azul"
+  },
+  "status": "publish"
+}

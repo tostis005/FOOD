@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-078-most-satiating-foods",
+  "article_number": 78,
+  "translation_group": "078-most-satiating-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; evidence on protein, fiber, water and energy density",
+  "title": "The most satiating foods",
+  "slug": "most-satiating-foods",
+  "seo": {
+    "title": "The most satiating foods and why they keep you full",
+    "meta_description": "Protein, fiber, water and low energy density tend to increase fullness. Legumes, potatoes, eggs, yogurt, oats, fruit and vegetables are useful examples.",
+    "search_intent": "Identify foods that tend to keep people full and understand the nutritional features behind satiety."
+  },
+  "excerpt": "There is no single food that is always the most filling. Foods that combine protein, fiber, water and volume with moderate energy density tend to work well: legumes, boiled potatoes, eggs, fish, high-protein yogurt, oats, whole fruit and vegetables are strong examples. Preparation can change the result dramatically.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-composition", "health-daily-consumption"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Two meals can contain roughly the same calories and leave very different levels of hunger an hour later. Fullness is not controlled by one magic nutrient.</p><p><strong>Protein, fiber, water, food volume, texture and energy density</strong> all influence satiety, which is why it is more useful to look for patterns than crown one universal winner.</p><h2>Foods that combine several satiety advantages</h2><table><thead><tr><th>Food</th><th>Why it can be filling</th><th>Serving example</th></tr></thead><tbody><tr><td>Cooked legumes</td><td>Protein + fiber + water</td><td>1 cup: often ~15–18 g protein and ~12–16 g fiber</td></tr><tr><td>Boiled potato</td><td>High water and volume, modest energy density</td><td>250 g: roughly 190 calories</td></tr><tr><td>Eggs</td><td>Protein + fat</td><td>2 large eggs: ~12–13 g protein</td></tr><tr><td>Fish or lean meat</td><td>High protein density</td><td>5 oz: often ~30–40 g protein</td></tr><tr><td>Greek yogurt or skyr</td><td>Protein + water</td><td>6–7 oz: often ~17–22 g protein</td></tr><tr><td>Oatmeal</td><td>Soluble fiber + water</td><td>1/2 cup dry oats cooked with liquid</td></tr><tr><td>Whole fruit</td><td>Water + fiber + chewing</td><td>1 medium apple: ~4 g fiber</td></tr><tr><td>Vegetables</td><td>Large volume for relatively few calories</td><td>Several cups can stay under 150 calories</td></tr></tbody></table><p>This is not a claim that lentils always beat eggs. It shows that different foods can support fullness through different mechanisms.</p><h2>Protein is one of the strongest recurring signals</h2><p>Higher-protein meals generally produce more satiety than similarly caloric meals with much less protein. That helps explain why fish, eggs, lean meat, high-protein dairy, tofu and legumes often anchor filling meals.</p><h2>Fiber and water stretch calories over more food</h2><p>Two hundred calories of vegetables, fruit or boiled potatoes occupies far more space than 200 calories of oil, chocolate or nuts. The stomach responds partly to that physical volume.</p><p>Fiber adds another effect. It can increase chewing, slow gastric emptying in some settings and, for viscous fibers such as oat beta-glucan, change the physical properties of the meal in the digestive tract.</p><h2>Cooking method can change the answer</h2><p>Boiled potatoes contain roughly 75–80 calories per 100 g. French fries can exceed 300 calories per 100 g because they lose water and absorb fat. It is still potato, but the calorie density is several times higher.</p><p>Whole fruit versus juice tells a similar story: juice reduces chewing, removes some fiber and makes it easier to consume the energy from several pieces of fruit quickly.</p><h2>High-calorie foods can still be filling</h2><p>Nuts, seeds and avocado are not automatically unsatisfying because they contain fat. Nuts also provide protein, fiber and texture. But they commonly contain 550–700 calories per 100 g, so portion size changes the energy total quickly.</p><p>Satiety and calories are related questions, not the same question.</p><h2>A useful way to build a filling meal</h2><p>A practical formula is <strong>a clear protein source + a fiber-rich food + plenty of vegetables or fruit + enough fat for flavor and structure</strong>. Lentils with vegetables and eggs, Greek yogurt with oats and berries, or fish with potatoes and salad all follow that logic.</p><h2>The takeaway</h2><p>You do not need to identify the single most satiating food. You need meals that provide enough satiety signals. <strong>Protein, fiber, water and volume are a more dependable combination than any one “filling” product.</strong></p>",
+  "faq": [
+    {"question": "What foods tend to be the most filling?", "answer": "Foods that combine protein, fiber, water and volume tend to work well, including legumes, boiled potatoes, eggs, fish, high-protein yogurt, oats, whole fruit and vegetables."},
+    {"question": "Does protein help you feel full?", "answer": "Yes. Higher-protein meals generally increase satiety compared with equally caloric meals that contain much less protein."},
+    {"question": "Does fat make food filling?", "answer": "Fat can contribute to fullness, but it is energy-dense. The effect depends on the whole food, portion and combination with protein, fiber and volume."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energy, protein and fiber values for example foods."},
+    {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/", "note": "General dietary context for protein-rich and fiber-rich foods."}
+  ],
+  "image": {
+    "concept": "Balanced plate with lentils, boiled potatoes, eggs and vegetables beside a bowl of high-protein yogurt with oats and berries, editorial food photography, no text.",
+    "alt": "Protein- and fiber-rich foods that can support fullness"
+  },
+  "status": "publish"
+}

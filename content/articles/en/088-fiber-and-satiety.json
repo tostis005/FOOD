@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "en-088-fiber-and-satiety",
+  "article_number": 88,
+  "translation_group": "088-fiber-and-satiety",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; fiber types, viscosity, food volume and whole-food structure",
+  "title": "Fiber and satiety: why fiber can help you feel full",
+  "slug": "fiber-and-satiety",
+  "seo": {
+    "title": "Fiber and satiety: why fiber helps with fullness",
+    "meta_description": "Fiber can add volume, chewing and viscosity and slow gastric emptying. Different fibers and food forms do not produce identical fullness.",
+    "search_intent": "Understand how fiber contributes to satiety and which foods provide useful amounts."
+  },
+  "excerpt": "Fiber can support fullness because it often comes in foods that require more chewing and provide more volume, it holds water, and viscous fibers can slow stomach emptying. But not all fiber behaves the same way: 5 g of added fiber in a drink does not necessarily act like 5 g inside oats, beans, whole fruit or seeds.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-composition", "health-daily-consumption"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Fiber is often recommended for “staying full,” but the mechanism is not that every gram of fiber switches hunger off. <strong>The type of fiber and the food carrying it both matter.</strong></p><h2>Some of the effect starts before digestion</h2><p>Whole fruit, vegetables, legumes and whole grains usually require more chewing and occupy more physical volume than refined or liquid versions. Eating an apple takes more time and oral processing than drinking an equivalent amount of juice.</p><p>That extra time and volume can affect the eating experience before any metabolic mechanism enters the picture.</p><h2>Viscous fibers hold water and thicken</h2><p>Oat beta-glucans, chia mucilage and other soluble fibers can create thicker solutions when hydrated. Viscosity can slow gastric emptying and change the rate at which nutrients reach the intestine.</p><p>Not every soluble fiber is highly viscous and not every insoluble fiber behaves the same way. “Fiber” describes a diverse group of compounds.</p><h2>What useful fiber amounts look like in real food</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Approx. fiber</th></tr></thead><tbody><tr><td>Cooked lentils</td><td>1 cup</td><td>~16 g</td></tr><tr><td>Chia seeds</td><td>2 tbsp (~24 g)</td><td>~8 g</td></tr><tr><td>Rolled oats</td><td>1/2 cup dry</td><td>~4 g</td></tr><tr><td>Apple with skin</td><td>1 medium</td><td>~4 g</td></tr><tr><td>Cooked broccoli</td><td>2 cups</td><td>~10 g</td></tr><tr><td>Almonds</td><td>1 oz</td><td>~3.5 g</td></tr></tbody></table><p>A bowl of lentils with vegetables can easily reach a high fiber total without a special “fiber food.” Oatmeal with fruit and seeds can combine several fiber types in smaller amounts.</p><h2>Fermentation happens later</h2><p>Some fibers reach the colon and are fermented by the gut microbiota, producing short-chain fatty acids. These metabolites participate in intestinal physiology and may influence appetite- and metabolism-related signaling.</p><p>That is a slower mechanism than the immediate physical volume of a meal and should not be treated as an instant hunger switch.</p><h2>Added fiber and whole foods are not automatically equivalent</h2><p>A product can advertise 5 g of added fiber and still be easy to drink or eat very quickly. Fruit, legumes and oats deliver fiber inside a matrix that also contains water, structure, micronutrients and sometimes protein.</p><p>Added fiber can be useful; the point is that <strong>matching fiber grams does not necessarily match satiety</strong>.</p><h2>Increasing fiber too quickly can backfire</h2><p>A sudden large increase can cause gas, bloating or bowel changes. Gradual increases are usually easier for the digestive system and microbiota to tolerate.</p><p>U.S. fiber Daily Values are around 28 g on a 2,000-calorie diet. Reaching that amount through varied foods is generally more practical than loading most of it into one large dose of bran or seeds.</p><h2>The practical idea</h2><p>To use fiber for fullness, think less about “adding grams” and more about <strong>foods that bring fiber together with water, volume and structure</strong>: beans and lentils, whole fruit, vegetables, oats and other whole grains, nuts and seeds.</p>",
+  "faq": [
+    {"question": "Does fiber reduce hunger?", "answer": "It can increase satiety, especially when it is viscous or comes in high-volume whole foods, but the effect depends on the fiber type and the complete meal."},
+    {"question": "Is all fiber equally filling?", "answer": "No. Fibers differ in solubility, viscosity and fermentability, and food form changes the response too."},
+    {"question": "How much fiber is the Daily Value?", "answer": "The U.S. Daily Value is 28 g for a 2,000-calorie diet."}
+  ],
+  "sources": [
+    {"name": "FDA — Daily Value on the Nutrition Facts Label", "url": "https://www.fda.gov/food/new-nutrition-facts-label/daily-value-new-nutrition-and-supplement-facts-labels", "note": "U.S. Daily Value context for dietary fiber."},
+    {"name": "PubMed — Dietary fiber and satiety research", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=dietary+fiber+satiety+viscosity+review", "note": "Research on fiber viscosity, fermentation and satiety."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Fiber values for example foods."}
+  ],
+  "image": {
+    "concept": "Bowl of oatmeal with apple and chia beside lentils, broccoli and almonds, natural editorial food photography, no text.",
+    "alt": "High-fiber foods that can contribute to fullness"
+  },
+  "status": "publish"
+}

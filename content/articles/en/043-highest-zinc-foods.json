@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-043-highest-zinc-foods",
+  "article_number": 43,
+  "translation_group": "043-highest-zinc-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA composition and NIH ODS zinc absorption context",
+  "title": "Foods Highest in Zinc: Oysters, Meat, Seafood, Seeds and Beans",
+  "slug": "highest-zinc-foods",
+  "seo": {
+    "title": "Foods Highest in Zinc: Ranking and Absorption",
+    "meta_description": "Oysters dominate the zinc ranking; meat and seafood provide meaningful amounts, while seeds and beans contribute zinc that is less readily absorbed.",
+    "search_intent": "Compare zinc-rich foods by serving and explain differences in absorption."
+  },
+  "excerpt": "Oysters are in a different league for zinc: a 3-ounce serving can provide about 28–32 mg. Beef and other seafood provide less, while plant foods such as seeds and beans can contribute too, although phytate generally lowers zinc absorption from plant-based meals.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": ["rankings", "nutrition-composition"],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Some nutrient rankings are decided by tiny differences. Zinc is not one of them: oysters sit in a category of their own.</p><p><strong>A serving of oysters can provide several times more zinc than a serving of beef.</strong> Beef, crab and other seafood form the next practical group, while seeds, beans and nuts contribute plant zinc with more variable absorption.</p><h2>The gap between oysters and everything else is huge</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Zinc, approx.</th></tr></thead><tbody><tr><td>Eastern oysters, raw</td><td>3 oz</td><td>32 mg</td></tr><tr><td>Pacific oysters, cooked</td><td>3 oz</td><td>28.2 mg</td></tr><tr><td>Roasted beef</td><td>3 oz</td><td>3.8 mg</td></tr><tr><td>Cooked blue crab</td><td>3 oz</td><td>3.2 mg</td></tr><tr><td>Pumpkin seeds</td><td>1 oz</td><td>~2–3 mg</td></tr><tr><td>Cooked chickpeas</td><td>½ cup</td><td>~1–1.5 mg</td></tr></tbody></table><p>A serving of oysters can provide eight to ten times the zinc in a serving of beef. This is not a ranking created by rounding error.</p><h2>Beef is less concentrated but more common in many diets</h2><p>Beef often provides roughly 3–5 mg per 3–3.5 ounces depending on the cut. That is far below oysters, yet beef may be eaten much more frequently and therefore contribute regularly.</p><h2>Plant zinc is less available when phytate is high</h2><p>Beans, whole grains, seeds and nuts contain zinc, but they also contain phytate, which can bind minerals and reduce zinc absorption. Looking only at milligrams can therefore overstate how much is available from a particular plant-based meal.</p><p>Soaking, fermenting and sprouting can lower phytate in some foods, although the effect depends on the product and process.</p><h2>Pumpkin seeds are a practical plant source</h2><p>One ounce provides roughly 2–3 mg of zinc. That does not approach oysters, but it is meaningful in a realistic serving and comes with magnesium, unsaturated fat and protein.</p><h2>Fortified foods can change any ranking</h2><p>Some breakfast cereals contain added zinc. The amount varies widely by brand, so the nutrition label is the only useful value; there is no universal zinc number for ‘breakfast cereal.’</p><h2>The useful rule</h2><p>Oysters are the obvious concentration leader. For everyday intake, <strong>meat, seafood, dairy, seeds, beans and fortified foods can all contribute.</strong> In heavily plant-based diets, it is worth remembering that phytate can lower zinc absorption.</p>",
+  "faq": [
+    {"question": "What food is highest in zinc?", "answer": "Oysters are among the most concentrated natural sources and can provide about 28–32 mg in a 3-ounce serving."},
+    {"question": "Do seeds contain zinc?", "answer": "Yes. Pumpkin seeds provide roughly 2–3 mg per ounce."},
+    {"question": "Is zinc from plants absorbed as well?", "answer": "Not always. Phytates in beans, whole grains, nuts and seeds can reduce zinc absorption."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Food nutrient composition."},
+    {"name": "NIH Office of Dietary Supplements — Zinc", "url": "https://ods.od.nih.gov/factsheets/Zinc-HealthProfessional/", "note": "Food sources and the effect of phytate on absorption."}
+  ],
+  "image": {
+    "concept": "Oysters, beef, blue crab, pumpkin seeds and chickpeas arranged in a clean editorial food scene, no text.",
+    "alt": "Foods rich in zinc"
+  },
+  "status": "publish"
+}
