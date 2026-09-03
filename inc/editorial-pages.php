@@ -9,6 +9,12 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+/* Directory and localized taxonomy routing must be registered before init. */
+$food_language_slugs_early = get_template_directory() . '/inc/language-slugs.php';
+if ( file_exists( $food_language_slugs_early ) ) {
+	require_once $food_language_slugs_early;
+}
+
 function food_editorial_pages() {
 	return array(
 		'about' => array(
