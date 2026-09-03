@@ -24,8 +24,8 @@ $topic_descriptions_en = array(
 $page_label = $is_foods ? ( $english ? 'Foods' : 'Alimentos' ) : ( $english ? 'Topics' : 'Temas' );
 $page_title = $is_foods ? ( $english ? 'Explore by food' : 'Explora por alimento' ) : ( $english ? 'Explore by topic' : 'Explora por tema' );
 $page_intro = $is_foods
-	? ( $english ? 'Quinnoa articles organized by food family, from meat, fish and dairy to fruit, grains, oils and other groups.' : 'Los artículos de Quinnoa organizados por familias de alimentos, desde carnes, pescados y lácteos hasta frutas, cereales, aceites y otros grupos.' )
-	: ( $english ? 'Quinnoa articles organized by topic, including nutrition, comparisons, storage, cooking, food safety, buying and other areas.' : 'Los artículos de Quinnoa organizados por tema, con contenidos sobre nutrición, comparativas, conservación, cocina, seguridad alimentaria, compra y otros ámbitos.' );
+	? ( $english ? 'Quinnoa content grouped by food family: meat, fish, dairy, fruit, grains, oils and other groups.' : 'Los contenidos de Quinnoa agrupados por familias de alimentos: carnes, pescados, lácteos, frutas, cereales, aceites y otros grupos.' )
+	: ( $english ? 'Quinnoa content grouped by subject, including nutrition, comparisons, storage, cooking, food safety, production, buying and quality.' : 'Los contenidos de Quinnoa agrupados por temas como nutrición, comparativas, conservación, cocina, seguridad alimentaria, producción, compra y calidad.' );
 ?>
 
 <div class="container archive-wrap directory-page-wrap">
