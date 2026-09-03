@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-120-potatoes-frequently",
+  "article_number": 120,
+  "translation_group": "120-potatoes-frequently",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and MyPlate starchy-vegetable context",
+  "title": "Is it healthy to eat potatoes frequently?",
+  "slug": "is-it-healthy-to-eat-potatoes-frequently",
+  "seo": {
+    "title": "Is it healthy to eat potatoes often?",
+    "meta_description": "Boiled or baked potatoes can fit often: about 80–95 calories per 100 g. French fries can exceed 300 calories per 100 g because of oil absorption.",
+    "search_intent": "Understand whether potatoes can be eaten often and how cooking method changes calories and nutrition."
+  },
+  "excerpt": "Yes. Boiled, steamed, or baked potatoes can fit regularly into a healthy diet and usually provide about 80–95 calories per 100 g along with potassium and vitamin C. Frying changes the food substantially: 100 g of French fries can exceed 300 calories and contain around 15 g fat because water is lost and oil is absorbed.",
+  "taxonomy": {
+    "food_family": "vegetables",
+    "food_subcategories": ["potatoes"],
+    "article_types": ["health-daily-consumption", "nutrition-composition", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Potatoes can be a regular food and still fit a healthy diet. The answer changes with <strong>how they are cooked, how much you eat, and what they replace on the plate</strong>.</p><h2>Boiled or baked potatoes are not especially calorie-dense</h2><p>Boiled or baked potatoes usually provide about 80–95 calories per 100 g, roughly 18–21 g carbohydrate, and around 2 g protein.</p><p>A medium potato around 6–7 oz (170–200 g) is therefore roughly 150–180 calories before butter, oil, cheese, sour cream, or sauces are added.</p><h2>Frying changes the energy density dramatically</h2><p>Potatoes naturally contain a lot of water and almost no fat. Frying removes water and adds oil. That is why 100 g of French fries can exceed <strong>300 calories and 15 g fat</strong>.</p><p>The extra calories do not come from the potato somehow becoming different starch; they come mainly from absorbed oil and lower water content.</p><h2>Potatoes provide more than starch</h2><p>They also supply potassium, vitamin C, vitamin B6, and some fiber, especially when the skin is eaten when appropriate and thoroughly washed.</p><h2>Preparation changes fullness too</h2><p>A boiled potato served with vegetables and protein gives a lot of food volume for its calorie level. Chips and fries concentrate much more energy into a smaller, easier-to-eat portion.</p><h2>Potatoes should not crowd out all other vegetables</h2><p>MyPlate treats potatoes as a starchy vegetable. If they appear often, meals still benefit from non-starchy vegetables plus an appropriate protein source rather than treating potatoes as the only vegetable on the plate.</p><h2>Cooling changes some of the starch</h2><p>After cooking and cooling, some potato starch retrogrades into resistant starch. That can modestly reduce immediate digestibility, but it does not turn potato salad into a low-carbohydrate food.</p><h2>The practical rule</h2><p><strong>Potatoes can be eaten often</strong> when boiled, baked, steamed, or cooked with moderate amounts of oil. The pattern worth limiting is frequent fried potatoes or versions loaded with added fat and salt—not the potato itself.</p>",
+  "faq": [
+    {"question": "Do potatoes cause weight gain if eaten often?", "answer": "Cooking method matters greatly. Boiled or baked potatoes are around 80–95 calories per 100 g; fries can exceed 300 calories per 100 g."},
+    {"question": "Do potatoes count as a vegetable?", "answer": "MyPlate classifies potatoes as a starchy vegetable. Nutritionally, they function mainly as a carbohydrate-rich starchy food."},
+    {"question": "Are boiled potatoes healthier than fries?", "answer": "If lower energy density is the goal, yes. Frying adds oil and removes water, greatly increasing calories per 100 g."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of boiled, baked, and fried potatoes."},
+    {"name": "MyPlate — Vegetable Group", "url": "https://www.myplate.gov/eat-healthy/vegetables", "note": "Potatoes as a starchy vegetable."}
+  ],
+  "image": {
+    "concept": "Boiled potato, baked potato, and French fries in three small portions for comparison, clean editorial photography without text.",
+    "alt": "Boiled, baked, and fried potatoes compared by preparation"
+  },
+  "status": "publish"
+}
