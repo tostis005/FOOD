@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-054-white-fish-vs-oily-fish-nutrition",
+  "article_number": 54,
+  "translation_group": "054-white-fish-vs-oily-fish-nutrition",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; common white fish/oily fish terminology and USDA composition",
+  "title": "White fish vs. oily fish: nutrition differences and examples",
+  "slug": "white-fish-vs-oily-fish-nutrition",
+  "seo": {
+    "title": "White fish vs. oily fish: nutrition differences and examples",
+    "meta_description": "White fish is usually leaner and lower in calories; oily fish provides more omega-3. Compare cod, hake, salmon, sardines, and mackerel with numbers.",
+    "search_intent": "Understand how white and oily fish differ in protein, fat, calories, and omega-3."
+  },
+  "excerpt": "The biggest difference between white and oily fish is fat, not protein. Cooked cod or hake may provide roughly 20–24 g protein and 1–3 g fat per 100 g; salmon, sardines, and mackerel provide similar protein but often more than 10 g fat and substantially more EPA and DHA omega-3.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": ["white-fish", "oily-fish"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>White fish is not nutritionally inferior, and oily fish is not simply “fattier.” The labels mainly describe <strong>how much fat the fish stores and where that fat is stored</strong>. That difference changes calories and omega-3 much more than it changes protein.</p><p>Cod, hake, sole, and monkfish are typically lean. Salmon, sardines, mackerel, and herring store more fat in their flesh and fall into the oily-fish group.</p><h2>Protein is surprisingly similar</h2><p>Comparing cooked fish with cooked fish makes the pattern easier to see.</p><table><thead><tr><th>Cooked fish</th><th>Protein/100 g</th><th>Fat/100 g</th><th>Calories/100 g</th></tr></thead><tbody><tr><td>Cod</td><td>~23 g</td><td>~1 g</td><td>~105 kcal</td></tr><tr><td>Hake</td><td>~20–24 g</td><td>~1–3 g</td><td>~100–120 kcal</td></tr><tr><td>Sardines</td><td>~25 g</td><td>~11 g</td><td>~208 kcal</td></tr><tr><td>Salmon</td><td>~22 g</td><td>~12 g</td><td>~206 kcal</td></tr><tr><td>Mackerel</td><td>~24 g</td><td>~14 g</td><td>~260 kcal</td></tr></tbody></table><p>Protein stays within a fairly narrow range, while fat can vary by tenfold or more. That means 5 ounces of cod and 5 ounces of salmon can provide similar amounts of protein, yet salmon carries considerably more energy.</p><h2>Oily fish has the omega-3 advantage</h2><p>The extra fat in oily fish is not just extra calories. Salmon, sardines, mackerel, and herring are strong sources of the long-chain omega-3 fats EPA and DHA. A normal serving can easily provide more than 1 g EPA+DHA and, depending on the fish, several grams.</p><p>White fish contains omega-3 too, but its much lower total fat usually means less EPA and DHA per serving.</p><h2>White fish makes a leaner meal</h2><p>If your priority is protein with fewer calories, white fish has a clear advantage. Cooked cod may provide about 105 calories per 100 g compared with roughly 206 for salmon. In a 5-ounce serving, that is about 149 versus 293 calories before oil or sauce is added.</p><p>That does not make salmon's calories a nutritional problem. Much of the difference comes from fat that also contributes omega-3. The foods simply have different energy density.</p><h2>The categories are not separated by a perfect universal cutoff</h2><p>Nutrition writing often treats fish below roughly 2–3% fat as lean and fish above around 5% as oily, with intermediate species in between. But a fish's fat content can change with season, diet, location, and life stage.</p><p>The labels are useful for understanding the overall pattern, not for assuming every specimen has one fixed fat percentage.</p><h2>Mercury does not follow the white-versus-oily split</h2><p>Another common mistake is to assume oily fish contains more mercury. Mercury is driven much more by species, size, age, and position in the food chain. Sardines and salmon are oily fish and generally low in mercury; larger predatory fish may accumulate much more.</p><h2>Which kind should you eat?</h2><p>You do not need to choose one category. White fish supplies high-quality protein with very little fat and works well when you want a lighter meal. Oily fish adds EPA and DHA and makes it easier to obtain marine omega-3.</p><p>The practical principle is to <strong>rotate both</strong>: white fish for especially lean protein and oily fish for its higher omega-3 content.</p>",
+  "faq": [
+    {"question": "Which has more protein, white fish or oily fish?", "answer": "There is no large general difference. Many fish in both groups provide about 20–25 g protein per 100 g cooked."},
+    {"question": "Why does oily fish have more calories?", "answer": "Because it contains more fat. That extra fat also includes EPA and DHA omega-3, so more calories do not automatically mean a worse nutrient profile."},
+    {"question": "Does oily fish contain more mercury?", "answer": "Not necessarily. Mercury depends much more on species, size, age, and the food chain than on fat content."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Approximate composition of several cooked fish species."},
+    {"name": "FDA — Advice about Eating Fish", "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish", "note": "Species-specific mercury context."}
+  ],
+  "image": {
+    "concept": "Cod and hake fillets beside salmon, sardines, and mackerel, clean editorial food photography, no text.",
+    "alt": "Examples of white fish and oily fish"
+  },
+  "status": "publish"
+}
