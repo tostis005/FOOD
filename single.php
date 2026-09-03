@@ -14,14 +14,10 @@ get_header();
 <?php while ( have_posts() ) : the_post(); ?>
 	<?php
 	$food_english  = function_exists( 'food_is_english' ) && food_is_english();
-	$food_language = $food_english ? 'en' : 'es';
 	$food_category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category() : null;
 	$food_topics   = function_exists( 'food_get_article_topics' ) ? food_get_article_topics() : array();
 	$food_visual   = function_exists( 'food_get_post_visual_context' ) ? food_get_post_visual_context() : null;
 	$food_content  = apply_filters( 'the_content', get_the_content() );
-	$food_about_url = function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'about', $food_language ) : home_url( $food_english ? '/en/about/' : '/acerca-de/' );
-	$food_modified_iso = get_the_modified_date( DATE_W3C );
-	$food_modified_display = get_the_modified_date( 'Y-m-d' );
 
 	// Older imported articles may contain a prose Sources/Fuentes block inside
 	// content_html as well as the structured source list appended by the importer.
@@ -47,13 +43,7 @@ get_header();
 			<?php endforeach; ?>
 		</div>
 		<h1><?php the_title(); ?></h1>
-		<div class="article-meta">
-			<span><?php echo esc_html( $food_english ? 'By' : 'Por' ); ?> <a href="<?php echo esc_url( $food_about_url ); ?>" rel="author">Quinnoa</a></span>
-			<span aria-hidden="true">·</span>
-			<time datetime="<?php echo esc_attr( $food_modified_iso ); ?>"><?php echo esc_html( ( $food_english ? 'Updated ' : 'Actualizado ' ) . $food_modified_display ); ?></time>
-			<span aria-hidden="true">·</span>
-			<span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span>
-		</div>
+		<div class="article-meta"><span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span></div>
 	</header>
 
 	<?php if ( has_post_thumbnail() ) : ?>
