@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-108-edamame-proteina-fibra-nutrientes",
+  "article_number": 108,
+  "translation_group": "108-edamame-nutrition",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA de soja verde cocida",
+  "title": "Edamame: proteína, fibra y nutrientes",
+  "slug": "edamame-proteina-fibra-nutrientes",
+  "seo": {
+    "title": "Edamame: proteína, fibra, calorías y nutrientes",
+    "meta_description": "100 g de edamame cocido aportan unas 121 kcal, 12 g de proteína, 5 g de fibra y 5 g de grasa. Una ración de 150 g ronda los 18 g de proteína.",
+    "search_intent": "Conocer el valor nutricional del edamame y cuánto aporta una ración normal."
+  },
+  "excerpt": "El edamame es soja cosechada inmadura. Cocido y sin vaina aporta alrededor de 12 g de proteína, 5 g de fibra, 5 g de grasa y 121 kcal por 100 g. Una ración de 150 g puede aportar unos 18 g de proteína y 8 g de fibra, una combinación poco habitual en un solo alimento.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["soy", "edamame"],
+    "article_types": ["nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>El edamame se parece a una verdura verde, pero nutricionalmente es soja. Esa diferencia se nota enseguida: <strong>aporta mucha más proteína que la mayoría de verduras y, al mismo tiempo, conserva una cantidad relevante de fibra</strong>.</p><h2>Qué aporta sin la vaina</h2><p>La parte comestible es el grano. Comparar el peso de las vainas enteras sería engañoso porque la vaina normalmente no se come.</p><table><thead><tr><th>Nutriente</th><th>Por 100 g cocidos</th><th>Por 150 g</th></tr></thead><tbody><tr><td>Energía</td><td>~121 kcal</td><td>~182 kcal</td></tr><tr><td>Proteína</td><td>~12 g</td><td>~18 g</td></tr><tr><td>Fibra</td><td>~5,2 g</td><td>~7,8 g</td></tr><tr><td>Grasa</td><td>~5,2 g</td><td>~7,8 g</td></tr><tr><td>Carbohidratos</td><td>~9 g</td><td>~13,5 g</td></tr></tbody></table><p>Una ración de 150 g ofrece alrededor de <strong>18 g de proteína y casi 8 g de fibra</strong>, combinación que ayuda a explicar por qué puede funcionar como algo más que un simple acompañamiento.</p><h2>Por qué tiene menos proteína que la soja madura</h2><p>El edamame se cosecha antes de que la semilla madure y se seque por completo. Contiene más agua que la soja madura seca y, por tanto, está menos concentrado por 100 g.</p><p>No ha “perdido” proteína: el estado de maduración y la cantidad de agua cambian la concentración.</p><h2>La proteína de soja contiene los aminoácidos esenciales</h2><p>Como otros alimentos de soja, el edamame contiene los nueve aminoácidos esenciales. Eso lo convierte en una fuente proteica especialmente interesante dentro de una dieta vegetal.</p><h2>También aporta grasa</h2><p>A diferencia de lentejas o alubias cocidas, que contienen muy poca grasa, el edamame ronda los 5 g por 100 g. La mayor parte de esa grasa es insaturada y procede naturalmente de la soja.</p><h2>Folato, hierro y otros micronutrientes</h2><p>El edamame aporta folato, hierro, magnesio, potasio y vitamina K, entre otros nutrientes. El hierro es no hemo, por lo que su absorción es menor que la del hierro hemo de la carne; acompañarlo con vitamina C puede favorecerla.</p><h2>La sal depende de cómo se sirva</h2><p>El edamame natural contiene poco sodio, pero a menudo se sirve con abundante sal gruesa. Si el objetivo es comparar el alimento en sí, la referencia útil es edamame cocido sin sal añadida.</p><h2>La idea útil</h2><p>El edamame ocupa un punto intermedio muy práctico: <strong>más proteína que una verdura, menos concentración que la soja madura y una buena cantidad de fibra</strong>. Por eso puede funcionar como aperitivo, guarnición o parte proteica de una comida.</p>",
+  "faq": [
+    {"question": "¿Cuánta proteína tiene el edamame?", "answer": "Alrededor de 12 g por 100 g cocidos; una ración de 150 g aporta aproximadamente 18 g."},
+    {"question": "¿El edamame tiene fibra?", "answer": "Sí. Aporta alrededor de 5,2 g por 100 g y casi 8 g en una ración de 150 g."},
+    {"question": "¿Edamame y soja son lo mismo?", "answer": "El edamame es soja cosechada inmadura. Tiene más agua y está menos concentrado que la soja madura seca."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de edamame o soja verde cocida."},
+    {"name": "FAO — Dietary protein quality evaluation", "url": "https://www.fao.org/", "note": "Contexto sobre proteína de soja y aminoácidos esenciales."}
+  ],
+  "image": {
+    "concept": "Edamame cocido con algunas vainas abiertas y granos verdes visibles, fotografía editorial sin texto.",
+    "alt": "Edamame cocido mostrando los granos de soja verde"
+  },
+  "status": "publish"
+}
