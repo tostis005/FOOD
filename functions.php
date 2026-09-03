@@ -369,3 +369,9 @@ $food_editorial_pages = get_template_directory() . '/inc/editorial-pages.php';
 if ( file_exists( $food_editorial_pages ) ) {
 	require_once $food_editorial_pages;
 }
+
+$food_sitemaps = get_template_directory() . '/inc/sitemaps.php';
+if ( file_exists( $food_sitemaps ) ) {
+	require_once $food_sitemaps;
+}
+
