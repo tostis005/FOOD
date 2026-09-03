@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-103-chia-seeds-nutrition",
+  "article_number": 103,
+  "translation_group": "103-chia-seeds-nutrition",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and NIH context on ALA",
+  "title": "Chia seeds: fiber, protein, omega-3, and nutrition",
+  "slug": "chia-seeds-fiber-protein-omega-3",
+  "seo": {
+    "title": "Chia seeds: fiber, protein, omega-3, and calories",
+    "meta_description": "A 1 oz serving of chia provides about 138 calories, 4.7 g protein, 9.8 g fiber, and roughly 5 g ALA omega-3.",
+    "search_intent": "Understand what chia seeds actually provide and what a normal serving contributes."
+  },
+  "excerpt": "Chia stands out mainly for fiber and ALA omega-3. A 1 oz (28 g) serving provides about 138 calories, 4.7 g protein, 9.8 g fiber, and roughly 5 g ALA. It is nutrient-dense in a small portion, but it usually works better as a protein contributor than as the main protein source in a meal.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["seeds", "chia"],
+    "article_types": ["nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Chia is often sold as if it does everything at once: protein, omega-3, fiber, minerals, and fullness. The more useful description is simpler: <strong>chia is especially concentrated in fiber and ALA omega-3, with a moderate amount of protein</strong>.</p><h2>What a normal serving provides</h2><p>One hundred grams is useful for databases but not very realistic for a food normally sprinkled into oatmeal, yogurt, or pudding. A 1 oz (28 g) serving gives a clearer picture.</p><table><thead><tr><th>Nutrient</th><th>Per 100 g</th><th>Per 1 oz</th></tr></thead><tbody><tr><td>Calories</td><td>486</td><td>138</td></tr><tr><td>Protein</td><td>16.5 g</td><td>4.7 g</td></tr><tr><td>Fiber</td><td>34.4 g</td><td>9.8 g</td></tr><tr><td>Fat</td><td>30.7 g</td><td>8.7 g</td></tr><tr><td>ALA omega-3</td><td>~17.8 g</td><td>~5.0 g</td></tr></tbody></table><p>Fiber is the standout number in practice. A single ounce contributes <strong>close to 10 g</strong>, which is substantial for such a small portion.</p><h2>The omega-3 in chia is ALA</h2><p>Most of chia's omega-3 is alpha-linolenic acid. The body can convert some ALA into EPA and DHA, but conversion is limited. That means 5 g of ALA from chia should not be described as equivalent to 5 g of EPA plus DHA from fatty fish.</p><p>ALA still matters because it is essential and must come from food. Chia is simply a plant omega-3 source rather than a direct source of marine EPA and DHA.</p><h2>Protein contributes, but usually does not lead the meal</h2><p>About 4.7 g of protein per ounce can raise the protein content of breakfast or a snack. But typical servings of Greek yogurt, tofu, lentils, eggs, or chicken provide considerably more.</p><p>So chia makes more sense as a <strong>protein add-on</strong> than as the main protein food.</p><h2>Why chia turns into a gel</h2><p>When chia contacts water, soluble fibers and mucilage around the seed absorb liquid and create a gel-like coating. That is why chia pudding thickens and why the seeds expand dramatically when hydrated.</p><p>Chia does not have to be soaked before eating, but larger dry amounts should be accompanied by adequate fluid.</p><h2>Minerals come with an absorption caveat</h2><p>Chia provides calcium, magnesium, phosphorus, and other minerals. Seeds also contain phytates, however, which can reduce absorption of some minerals. The amount listed in a nutrient table is not identical to the amount the body ultimately absorbs.</p><h2>The useful takeaway</h2><p>Chia works best as <strong>a concentrated source of fiber, ALA, and minerals</strong>. One or two spoonfuls can improve the nutritional profile of a meal, but no single seed replaces the value of an overall balanced diet.</p>",
+  "faq": [
+    {"question": "How much fiber is in 1 oz of chia seeds?", "answer": "About 9.8 g, although values vary slightly by product."},
+    {"question": "How much protein is in chia seeds?", "answer": "About 16.5 g per 100 g and roughly 4.7 g per 1 oz serving."},
+    {"question": "Is chia omega-3 the same as fish omega-3?", "answer": "No. Chia mainly provides ALA, while fatty fish provides EPA and DHA. Only part of ALA is converted in the body."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Calories, protein, fiber, fat, and fatty-acid profile of chia seeds."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "Differences between ALA, EPA, DHA, and metabolic conversion."}
+  ],
+  "image": {
+    "concept": "Dry chia seeds beside a small bowl of hydrated gelled chia, clean editorial food photography without text.",
+    "alt": "Dry and hydrated chia seeds showing their gel texture"
+  },
+  "status": "publish"
+}
