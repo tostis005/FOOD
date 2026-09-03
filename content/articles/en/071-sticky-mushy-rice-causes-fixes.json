@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-071-sticky-mushy-rice-causes-fixes",
+  "article_number": 71,
+  "translation_group": "071-sticky-mushy-rice-causes-fixes",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; long- or medium-grain rice when a separate, fluffy texture is intended",
+  "title": "Sticky or mushy rice: causes and how to prevent it",
+  "slug": "sticky-mushy-rice-causes-fixes",
+  "seo": {
+    "title": "Sticky or mushy rice: causes and how to prevent it",
+    "meta_description": "Rice turns mushy from too much water, overcooking, excessive stirring, or a naturally sticky variety. Learn how water, rinsing, heat, and resting affect texture.",
+    "search_intent": "Understand why rice that should be fluffy becomes sticky or mushy and how to fix water ratio, rinsing, cooking, and resting."
+  },
+  "excerpt": "When rice that should be fluffy turns mushy, there is usually too much gelatinized starch and moisture around the grains. Common causes are excess water, cooking too long, stirring too much, or using a naturally sticky rice variety. Rinsing can remove surface starch from long-grain rice, but it cannot fix an overly wet ratio or make sushi rice behave like basmati.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": ["rice"],
+    "article_types": ["cooking-science", "kitchen-technique"],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>The rice goes into the pot as separate grains and comes out as a wet mass that sticks to the spoon. When that was not the goal, the underlying problem is usually <strong>too much gelatinized starch and too much moisture around the grains.</strong></p><p>There is no single magic fix because water, variety, cooking time, and agitation all work together.</p><h2>Too much water is the most direct cause</h2><p>Starch absorbs water and swells as it heats. If more water is available than the rice needs, the grains keep hydrating, lose structure, and release more starch into the surrounding liquid.</p><p>The ideal ratio depends on variety, pot width, evaporation, and whether the rice was soaked. As a rough starting point, many long-grain absorption methods use around <strong>1 part rice to 1.5 parts water</strong>, but the package directions are a better baseline than pretending one ratio fits every rice and pot.</p><h2>Cooking too long breaks down the grain</h2><p>Even with a reasonable amount of water, extended cooking keeps starch hot and hydrated. The outside of the grain softens, may split, and releases more material that thickens the liquid.</p><p>Once the water has been absorbed, leaving rice over heat “just to be safe” often makes the texture worse.</p><h2>Stirring turns surface starch into glue</h2><p>Moving grains against one another creates friction and sheds starch. In risotto, that is useful because the goal is a creamy sauce. In basmati or long-grain rice meant to stay separate, the same mechanism works against you.</p><p>Once absorption cooking begins, avoid repeated stirring unless the recipe specifically calls for it.</p><h2>Rice variety matters more than people expect</h2><p>Higher-amylose rices, including many basmati and long-grain varieties, tend to cook into more separate grains. Rices richer in amylopectin, such as sushi rice and glutinous rice, are naturally more adhesive.</p><p>No technique will make properly cooked sticky rice have the texture of basmati. Check the variety before changing everything else.</p><h2>Rinsing can remove surface starch</h2><p>Rinsing long-grain rice washes away some starch and fine powder left on the surface from milling and grains rubbing together. That can help produce a cleaner, less sticky finish.</p><p>It does not remove starch from inside the grain. Too much cooking water or excessive heat time can still make rinsed rice mushy.</p><h2>The final rest is part of cooking</h2><p>After the water is absorbed, turning off the heat and leaving the rice covered for about <strong>5–10 minutes</strong> lets moisture redistribute. Then fluff gently with a fork.</p><p>Opening the lid and aggressively stirring immediately can break grains while they are still very soft.</p><h2>What if the rice is already mushy?</h2><p>You cannot fully reverse an overhydrated grain. If free water remains, drain it. Spread the rice on a tray so steam can escape and cooking stops quickly.</p><p>If the texture is already very soft, repurpose it in rice cakes, fritters, thick soups, or other dishes where cohesion is useful rather than trying to restore a fluffy texture.</p><h2>The sequence for fluffier rice</h2><p>Choose a suitable variety, rinse when the method benefits from it, <strong>measure the water instead of guessing</strong>, avoid stirring during absorption, and stop cooking on time. Let the rice rest before fluffing.</p><p>Mushy rice rarely needs a secret ingredient. It usually needs less available water, less mechanical damage, or a less adhesive variety.</p>",
+  "faq": [
+    {"question": "Why is my rice mushy even after rinsing?", "answer": "Rinsing only reduces surface starch. Too much water, overcooking, or a naturally sticky variety can still create a mushy texture."},
+    {"question": "Should I stir rice while it cooks?", "answer": "Usually not if you want fluffy separate grains. Stirring releases starch; that is desirable for risotto but often counterproductive for long-grain rice."},
+    {"question": "How long should rice rest after cooking?", "answer": "About 5–10 minutes covered often helps moisture redistribute before you fluff the grains."}
+  ],
+  "sources": [
+    {"name": "Harold McGee — On Food and Cooking", "url": "https://www.curiouscook.com/site/on-food-and-cooking.html", "note": "Starch gelatinization and grain cooking science."},
+    {"name": "International Rice Research Institute", "url": "https://www.irri.org/", "note": "Rice starch composition and varietal differences."}
+  ],
+  "image": {
+    "concept": "Two pots of rice, one fluffy with separate grains and one visibly mushy and clumped, clean editorial food photography, no text.",
+    "alt": "Fluffy rice compared with sticky mushy rice"
+  },
+  "status": "publish"
+}
