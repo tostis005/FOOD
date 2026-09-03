@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "en-155-fresh-vs-frozen-vegetables",
+  "article_number": 155,
+  "translation_group": "155-fresh-vs-frozen-vegetables",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; blanching, freezing and USDA composition",
+  "title": "Fresh vs. frozen vegetables: nutritional differences",
+  "slug": "fresh-vs-frozen-vegetables",
+  "seo": {"title":"Fresh vs. frozen vegetables: nutrition compared","meta_description":"Frozen vegetables are blanched before freezing, which reduces some sensitive vitamins, but freezing then preserves nutrients well. Stored fresh vegetables also lose vitamins over time.","search_intent":"Compare fresh and frozen vegetables and understand how blanching and storage affect nutrition."},
+  "excerpt": "Frozen vegetables are not nutritionally second-rate. Blanching before freezing can reduce vitamin C and folate, but freezing then slows further loss. Fresh vegetables also lose sensitive vitamins during transport and refrigerator storage. Fiber, minerals and carotenoids are generally well retained in both forms.",
+  "taxonomy": {"food_family":"vegetables","food_subcategories":["frozen-vegetables"],"article_types":["comparison","nutrition-composition"],"primary_article_type":"comparison"},
+  "content_html": "<p>The key technical difference between a fresh green bean and a frozen one is not just ice. Most frozen vegetables are briefly <strong>blanched</strong> before freezing to inactivate enzymes that would damage flavor, color and texture.</p><h2>Blanching causes an initial loss</h2><p>Vitamin C, folate and other water-soluble vitamins can decline with heat and water. Once frozen, however, vegetables deteriorate much more slowly than they do in a refrigerator.</p><h2>Fresh vegetables keep changing after harvest</h2><p>Broccoli and spinach continue to respire. Days in distribution and household storage can reduce sensitive vitamins, so quickly frozen produce may end up similar to “fresh” produce that has been stored for a week.</p><table><thead><tr><th>Feature</th><th>Fresh</th><th>Frozen</th></tr></thead><tbody><tr><td>Fiber</td><td>Very stable</td><td>Very stable</td></tr><tr><td>Minerals</td><td>Stable</td><td>Stable</td></tr><tr><td>Vitamin C/folate</td><td>Decline with storage/cooking</td><td>Some blanching loss, then slow decline</td></tr><tr><td>Carotenoids</td><td>Well retained</td><td>Well retained</td></tr></tbody></table><h2>Home cooking may matter more</h2><p>Boiling vegetables for a long time and discarding the water can cause larger water-soluble nutrient losses than the original fresh-versus-frozen difference. Steaming, microwaving and shorter cooking often reduce leaching.</p><h2>The takeaway</h2><p>Seasonal fresh vegetables and plain frozen vegetables are both excellent choices. Frozen wins on convenience and storage; fresh may win on texture. “Frozen” is not a synonym for nutritionally depleted.</p>",
+  "faq": [{"question":"Why are vegetables blanched before freezing?","answer":"Blanching inactivates enzymes that would otherwise degrade color, flavor and quality in frozen storage."},{"question":"Do frozen vegetables lose all their vitamin C?","answer":"No. Some is lost during blanching, but a meaningful amount remains and frozen storage slows further decline."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Fresh, frozen and cooked vegetable composition."}],
+  "image": {"concept":"Fresh broccoli, peas and spinach beside their frozen counterparts, clean editorial food photography without text.","alt":"Fresh vegetables compared with frozen vegetables"},
+  "status":"publish"
+}

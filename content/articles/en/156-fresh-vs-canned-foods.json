@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "en-156-fresh-vs-canned-foods",
+  "article_number": 156,
+  "translation_group": "156-fresh-vs-canned-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA food composition",
+  "title": "Fresh vs. canned foods: nutritional differences",
+  "slug": "fresh-vs-canned-foods",
+  "seo": {"title":"Fresh vs. canned foods: nutritional differences","meta_description":"Canning can lower heat-sensitive vitamins, but fiber, protein and minerals remain. Sodium, syrup, oil and packing liquid often create the biggest practical differences.","search_intent":"Compare fresh and canned food without assuming that canning removes nutritional value."},
+  "excerpt": "Canning changes food but does not erase its nutritional value. Heat can reduce vitamin C and some B vitamins, while fiber, protein and minerals are generally retained much better. The biggest practical difference is often the packing medium: brine adds sodium, syrup adds sugar and oil adds calories.",
+  "taxonomy": {"food_family":"general","food_subcategories":["canned-foods"],"article_types":["comparison","nutrition-composition"],"primary_article_type":"comparison"},
+  "content_html": "<p>A can does not turn beans into a nutrient-free food. Commercial heat treatment affects heat-sensitive compounds most while leaving many other nutrients largely intact.</p><h2>What survives canning well</h2><p>Fiber, protein, iron, calcium and most minerals remain. Canned beans can therefore be nutritionally very close to home-cooked beans where it matters most for a meal.</p><h2>What can decline</h2><p>Vitamin C and some water-soluble B vitamins may decline with heat and storage. Tomatoes illustrate the opposite side: heat processing can make lycopene more accessible.</p><table><thead><tr><th>Canned product</th><th>Main thing to check</th></tr></thead><tbody><tr><td>Beans in brine</td><td>Sodium; draining/rinsing can reduce some</td></tr><tr><td>Fruit in syrup</td><td>Added sugar</td></tr><tr><td>Fish in oil</td><td>Calories from retained oil</td></tr><tr><td>Canned tomatoes</td><td>Sodium; carotenoid availability may improve</td></tr></tbody></table><h2>The liquid matters</h2><p>Water-soluble nutrients can move into packing liquid. Draining lowers sodium, sugar or oil depending on the product, but can also remove some dissolved nutrients.</p><h2>Long shelf life is a nutritional advantage too</h2><p>Canned food makes beans, tomatoes, fruit and fish available without rapid spoilage. A nutritious food that stays in the pantry and actually gets eaten can be more useful than produce that is discarded.</p><h2>The takeaway</h2><p>Compare specific products rather than treating “fresh” and “canned” as health categories. Read sodium, added sugar and oil, and canned food can fit extremely well in a nutritious diet.</p>",
+  "faq": [{"question":"Does canning destroy all nutrients?","answer":"No. Heat-sensitive vitamins may decline, but fiber, protein and minerals are generally well retained."},{"question":"Should I rinse canned beans?","answer":"Rinsing can reduce some sodium and packing liquid while leaving the beans' fiber and protein intact."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Fresh and canned food composition."}],
+  "image": {"concept":"Fresh tomatoes, beans and fish beside canned versions, clean editorial food comparison without text.","alt":"Fresh foods compared with canned foods"},
+  "status":"publish"
+}

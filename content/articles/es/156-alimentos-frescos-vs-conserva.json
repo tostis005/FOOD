@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "es-156-alimentos-frescos-vs-conserva",
+  "article_number": 156,
+  "translation_group": "156-fresh-vs-canned-foods",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición de conservas y alimentos frescos",
+  "title": "Alimentos frescos vs. en conserva: diferencias nutricionales",
+  "slug": "alimentos-frescos-vs-conserva",
+  "seo": {"title":"Alimentos frescos vs. en conserva: diferencias","meta_description":"Las conservas pierden algunas vitaminas sensibles al calor, pero mantienen fibra, proteína y minerales. Sodio, azúcar, aceite y líquido de cobertura pueden cambiar mucho el producto.","search_intent":"Comparar alimentos frescos y en conserva sin asumir que conservar equivale a perder todo su valor nutricional."},
+  "excerpt": "La conserva cambia el alimento, pero no elimina su valor nutricional. El tratamiento térmico puede reducir vitamina C y algunas vitaminas B; fibra, proteína y minerales suelen mantenerse mucho mejor. El mayor cambio práctico suele venir del líquido de cobertura: salmuera aumenta sodio, almíbar añade azúcar y aceite aumenta energía.",
+  "taxonomy": {"food_family":"general","food_subcategories":["canned-foods"],"article_types":["comparison","nutrition-composition"],"primary_article_type":"comparison"},
+  "content_html": "<p>Una lata no transforma unas alubias en un alimento “sin nutrientes”. La esterilización térmica cambia sobre todo los compuestos sensibles al calor, mientras otros sobreviven muy bien.</p><h2>Qué resiste bien</h2><p>Fibra, proteína, hierro, calcio y la mayoría de minerales permanecen. En legumbres de bote, por ejemplo, la diferencia nutricional frente a legumbres cocidas en casa suele ser mucho menor que la diferencia de comodidad.</p><h2>Qué puede bajar</h2><p>Vitamina C y parte de vitaminas B sensibles al calor o al agua pueden reducirse durante el tratamiento y almacenamiento. En tomates ocurre a la vez algo interesante: el calor puede aumentar la disponibilidad del licopeno.</p><table><thead><tr><th>Conserva</th><th>Factor a vigilar</th></tr></thead><tbody><tr><td>Legumbres en salmuera</td><td>Sodio; enjuagar puede reducir parte</td></tr><tr><td>Fruta en almíbar</td><td>Azúcar añadido</td></tr><tr><td>Pescado en aceite</td><td>Más energía según aceite retenido</td></tr><tr><td>Tomate en conserva</td><td>Puede concentrar/licuar carotenoides; revisar sal</td></tr></tbody></table><h2>El líquido también contiene nutrientes</h2><p>Parte de vitaminas y minerales hidrosolubles puede pasar al líquido. Escurrir reduce sal, azúcar o aceite según el producto, pero también puede arrastrar parte de esos nutrientes.</p><h2>La vida útil es una ventaja real</h2><p>Conservas cerradas duran meses o años sin frío y reducen desperdicio. Esa estabilidad puede hacer que legumbres, pescado o tomate estén disponibles cuando no hay producto fresco práctico.</p><h2>La conclusión</h2><p>Compara producto con producto, no “fresco” contra “lata” como categorías morales. Mira ingredientes, sodio, azúcar y aceite; la conserva puede seguir siendo una opción muy nutritiva.</p>",
+  "faq": [{"question":"¿Las conservas pierden todos los nutrientes?","answer":"No. Las vitaminas sensibles al calor pueden disminuir, pero fibra, proteína y minerales se conservan en gran medida."},{"question":"¿Enjuagar legumbres de bote sirve?","answer":"Sí para reducir parte del sodio y el líquido de cobertura; también elimina algunos compuestos disueltos, pero la legumbre conserva su fibra y proteína."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Composición de alimentos frescos y en conserva."}],
+  "image": {"concept":"Tomates, legumbres y pescado frescos junto a sus versiones en lata, fotografía editorial comparativa sin texto.","alt":"Alimentos frescos comparados con alimentos en conserva"},
+  "status":"publish"
+}

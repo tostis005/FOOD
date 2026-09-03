@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "es-157-cocinar-verduras-destruye-vitaminas",
+  "article_number": 157,
+  "translation_group": "157-does-cooking-vegetables-destroy-vitamins",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; estabilidad térmica y biodisponibilidad de nutrientes",
+  "title": "¿Cocinar las verduras destruye las vitaminas?",
+  "slug": "cocinar-verduras-destruye-vitaminas",
+  "seo": {"title":"¿Cocinar verduras destruye las vitaminas?","meta_description":"Cocinar reduce algunas vitaminas sensibles como C y folato, sobre todo al hervir y tirar el agua; pero puede aumentar la disponibilidad de carotenoides y no destruye minerales o fibra.","search_intent":"Entender qué nutrientes se pierden o se vuelven más disponibles al cocinar verduras."},
+  "excerpt": "Cocinar verduras sí puede reducir vitaminas sensibles al calor y al agua, especialmente vitamina C y folato, pero no 'destruye sus nutrientes'. Fibra y minerales permanecen en gran medida y el calor puede aumentar la disponibilidad de carotenoides como licopeno y beta-caroteno. El método importa: hervir y tirar el agua suele provocar más pérdidas que vapor, microondas o cocciones breves.",
+  "taxonomy": {"food_family":"vegetables","food_subcategories":["cooking"],"article_types":["food-science","myths-faq"],"primary_article_type":"food-science"},
+  "content_html": "<p>La pregunta “¿crudo o cocinado?” presupone que todos los nutrientes reaccionan igual al calor. No lo hacen. Cocinar puede reducir unos y hacer más accesibles otros.</p><h2>Lo que más se pierde</h2><p>Vitamina C y folato son sensibles a calor, oxígeno y agua. Cortar mucho una verdura, hervirla durante largo tiempo y tirar el líquido combina varias vías de pérdida.</p><h2>Lo que no desaparece con calor doméstico</h2><p>Hierro, calcio, potasio y otros minerales no se destruyen. Pueden pasar al agua, por eso una sopa conserva lo que una verdura hervida y escurrida puede perder. La fibra tampoco se evapora; cambia su estructura, pero sigue presente.</p><h2>Algunos carotenoides se aprovechan mejor cocinados</h2><p>El calor rompe paredes celulares y puede facilitar la liberación de licopeno del tomate o beta-caroteno de zanahoria. Una pequeña cantidad de grasa en la comida favorece además la absorción de carotenoides liposolubles.</p><table><thead><tr><th>Método</th><th>Patrón general</th></tr></thead><tbody><tr><td>Hervir y escurrir</td><td>Mayor pérdida por agua de vitaminas/minerales solubles</td></tr><tr><td>Vapor</td><td>Menor contacto con agua</td></tr><tr><td>Microondas</td><td>Tiempo corto y poca agua pueden conservar bien</td></tr><tr><td>Asar/saltear</td><td>Poca lixiviación; más calor superficial</td></tr></tbody></table><h2>La conclusión</h2><p>Comer algunas verduras crudas y otras cocinadas da acceso a perfiles distintos. No hay una preparación universalmente “más nutritiva”; la variedad de verduras y métodos importa más.</p>",
+  "faq": [{"question":"¿Qué método conserva más vitaminas?","answer":"Vapor, microondas con poca agua y cocciones cortas suelen limitar las pérdidas de vitaminas hidrosolubles frente a hervidos largos y escurridos."},{"question":"¿Cocinar elimina la fibra?","answer":"No. La estructura puede ablandarse, pero la fibra sigue presente en gran medida."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Composición de verduras crudas y cocidas."},{"name":"NIH ODS — Vitamin C","url":"https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/","note":"Sensibilidad de vitamina C al procesamiento."}],
+  "image": {"concept":"Brócoli y zanahoria crudos junto a versiones al vapor, hervidas y asadas, fotografía editorial sin texto.","alt":"Verduras crudas y cocinadas con distintos métodos"},
+  "status":"publish"
+}

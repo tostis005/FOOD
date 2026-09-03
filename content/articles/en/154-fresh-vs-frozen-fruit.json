@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "en-154-fresh-vs-frozen-fruit",
+  "article_number": 154,
+  "translation_group": "154-fresh-vs-frozen-fruit",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and nutrient stability",
+  "title": "Fresh vs. frozen fruit: nutritional differences",
+  "slug": "fresh-vs-frozen-fruit",
+  "seo": {"title":"Fresh vs. frozen fruit: nutritional differences","meta_description":"Frozen fruit retains fiber, minerals and much of its vitamin content. Fresh fruit can lose sensitive vitamins during transport and storage, so frozen is not inherently less nutritious.","search_intent":"Compare fresh and frozen fruit nutritionally and understand how storage affects vitamins."},
+  "excerpt": "Frozen fruit can be nutritionally very similar to fresh fruit. Fiber and minerals change little; vitamin C and other sensitive compounds may decline somewhat during processing or storage, but freezing then slows further deterioration. Fruit frozen soon after harvest can retain some nutrients as well as or better than fresh fruit stored for many days.",
+  "taxonomy": {"food_family":"fruit","food_subcategories":["frozen-fruit"],"article_types":["comparison","nutrition-composition"],"primary_article_type":"comparison"},
+  "content_html": "<p>“Fresh” tells you how fruit is sold, not how recently it left the plant. Fresh berries may spend days in transport and refrigeration; frozen berries may have been processed soon after harvest.</p><h2>Fiber and minerals are stable</h2><p>Freezing does not remove dietary fiber or destroy minerals. The macronutrient profile also remains broadly similar when comparing plain fruit with plain frozen fruit.</p><h2>Sensitive vitamins can move either way</h2><p>Vitamin C and folate decline with oxygen, heat and time. Fruit generally does not require the blanching step used for many frozen vegetables, so initial losses may be modest and subsequent frozen storage slows deterioration.</p><table><thead><tr><th>Feature</th><th>Fresh</th><th>Frozen</th></tr></thead><tbody><tr><td>Fiber/minerals</td><td>Well retained</td><td>Well retained</td></tr><tr><td>Sensitive vitamins</td><td>Can decline during storage</td><td>Some processing/storage loss, then slow change</td></tr><tr><td>Texture</td><td>Firm</td><td>Softer after thawing</td></tr><tr><td>Ingredients</td><td>Usually none</td><td>Check for added sugar/syrup</td></tr></tbody></table><h2>Texture changes more dramatically than nutrition</h2><p>Ice crystals damage cell walls, so thawed strawberries become soft and release juice. If the juice is eaten too, that physical change does not imply that the same proportion of nutrients disappeared.</p><h2>The product matters</h2><p>Plain frozen fruit is the fair comparison. Sweetened fruit, frozen dessert and smoothie mixes with added syrup are different foods.</p><h2>The takeaway</h2><p>Fresh and frozen fruit are both nutritious. Choose fresh for texture and peak ripeness; frozen for convenience, price stability and long storage. The nutritional gap is usually small.</p>",
+  "faq": [{"question":"Does frozen fruit lose vitamins?","answer":"Some sensitive vitamins can decline, but freezing slows further loss. Fiber and minerals remain largely intact."},{"question":"Is frozen fruit healthy for smoothies?","answer":"Yes when it is plain fruit without added sugar. Nutritionally it can be very similar to fresh."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Fresh and frozen fruit composition."}],
+  "image": {"concept":"Fresh berries beside the same berries frozen in a clear bowl, editorial comparison without text.","alt":"Fresh fruit compared with frozen fruit"},
+  "status":"publish"
+}
