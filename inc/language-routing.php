@@ -364,7 +364,7 @@ function food_topic_display( $term_or_slug ) {
 function food_language_nav_fallback() {
 	$foods_url  = function_exists( 'food_directory_url' ) ? food_directory_url( 'foods' ) : food_category_url( 'alimentos', food_is_english() ? 'Foods' : 'Alimentos' );
 	$topics_url = function_exists( 'food_directory_url' ) ? food_directory_url( 'topics' ) : ( food_is_english() ? home_url( '/en/topics/' ) : home_url( '/temas/' ) );
-	$latest_url = food_language_home_url() . '#ultimos-articulos';
+	$latest_url = function_exists( 'food_directory_url' ) ? food_directory_url( 'latest' ) : ( food_is_english() ? home_url( '/en/articles/' ) : home_url( '/articulos/' ) );
 	$items = food_is_english()
 		? array( array( 'Foods', $foods_url ), array( 'Topics', $topics_url ), array( 'Latest articles', $latest_url ) )
 		: array( array( 'Alimentos', $foods_url ), array( 'Temas', $topics_url ), array( 'Últimos artículos', $latest_url ) );
