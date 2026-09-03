@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-112-enough-protein-vegetarian-diet",
+  "article_number": 112,
+  "translation_group": "112-enough-protein-vegetarian-diet",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; adult RDA of 0.8 g/kg/day",
+  "title": "How to get enough protein on a vegetarian diet",
+  "slug": "how-to-get-enough-protein-vegetarian-diet",
+  "seo": {
+    "title": "How to get enough protein on a vegetarian diet",
+    "meta_description": "A vegetarian diet can easily meet protein needs with eggs, dairy, legumes, tofu, and grains. Learn how to estimate and distribute your daily protein.",
+    "search_intent": "Learn how to meet protein needs on a vegetarian diet with practical amounts and meal examples."
+  },
+  "excerpt": "The U.S. adult RDA is 0.8 g protein per kg of body weight per day: about 48 g at 132 lb, 55 g at 150 lb, and 66 g at 180 lb. On a vegetarian diet, spreading eggs, dairy, legumes, soy foods, and grains across meals can meet those amounts comfortably for most healthy adults.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": ["vegetarian", "protein"],
+    "article_types": ["nutrition-explainer", "practical-how-to"],
+    "primary_article_type": "practical-how-to"
+  },
+  "content_html": "<p>A vegetarian diet does not require complicated protein math. The common problem is removing meat or fish from a plate and putting <strong>no clear protein food in its place</strong>. If each main meal has one, the daily total usually adds up quickly.</p><h2>Start with a reasonable target</h2><p>The U.S. adult RDA is <strong>0.8 g protein per kilogram of body weight per day</strong>, or about 0.36 g per pound.</p><table><thead><tr><th>Body weight</th><th>Approx. daily RDA</th></tr></thead><tbody><tr><td>132 lb / 60 kg</td><td>~48 g</td></tr><tr><td>150 lb / 68 kg</td><td>~55 g</td></tr><tr><td>176 lb / 80 kg</td><td>~64 g</td></tr><tr><td>198 lb / 90 kg</td><td>~72 g</td></tr></tbody></table><p>That is a general reference for healthy adults, not an individualized prescription. Training, age, pregnancy, lactation, and medical circumstances can change needs.</p><h2>Think in three or four protein anchors</h2><p>Instead of tracking every gram, make breakfast, lunch, and dinner contain an obvious protein source and add a protein-rich snack when useful.</p><ul><li>7 oz Greek yogurt: ~18–20 g;</li><li>2 large eggs: ~13 g;</li><li>1 cup cooked lentils: ~18 g;</li><li>5.3 oz firm tofu: ~18–26 g;</li><li>3/4 cup cottage cheese: ~20–23 g;</li><li>1 cup milk: ~8 g.</li></ul><h2>A vegetarian day can exceed 70 grams without supplements</h2><p>For example, Greek yogurt plus oatmeal can provide roughly 25 g; a cup of lentils about 18 g; a cup of milk about 8 g; and two eggs with bread and vegetables can exceed 18 g. That puts the day around <strong>70 g or more</strong> without protein powder.</p><p>The point is not to prescribe that menu. It shows that meal structure matters more than the idea that vegetarian protein is inherently scarce.</p><h2>Legumes do not have to be paired with grains at every meal</h2><p>Lentils, chickpeas, and beans contain all essential amino acids, although some are present in less favorable proportions. Grains complement legumes well, but the pairing does not need to happen in the same bowl. Dietary variety across the day is enough.</p><h2>Eggs and dairy make planning easier</h2><p>In an ovo-lacto vegetarian diet, yogurt, milk, cottage cheese, and eggs provide high-quality protein in a relatively small volume. That means legumes and grains do not need to carry the entire protein target alone.</p><h2>Foods that sound protein-rich may only add a few grams</h2><p>Nuts and seeds help, but a 1 oz serving often provides about 4–9 g depending on the type. Vegetables such as broccoli and spinach contain protein, but typical servings contribute only a few grams. Treat them as supporting sources, not the main protein anchor.</p><h2>When it can be harder</h2><p>Very low-calorie diets, low appetite, or high athletic needs can make concentrated foods more useful. Greek yogurt, cottage cheese, tofu, tempeh, eggs, and protein powder can make a high target easier to reach.</p><h2>The rule that avoids constant counting</h2><p><strong>Put a recognizable protein source in every main meal and rotate among dairy/eggs, legumes, and soy foods.</strong> Grains, nuts, seeds, and the rest of the diet then add to that foundation.</p>",
+  "faq": [
+    {"question": "How much protein does a vegetarian need?", "answer": "The general U.S. adult RDA is 0.8 g/kg/day, about 55 g for a 150 lb adult. Individual needs can be higher."},
+    {"question": "Do vegetarians need protein powder?", "answer": "Usually not. It can be convenient with high needs or low appetite, but eggs, dairy, legumes, and soy foods can cover protein."},
+    {"question": "Do beans and rice have to be eaten together?", "answer": "No. A varied diet across the day can provide all essential amino acids without precise protein combining at every meal."}
+  ],
+  "sources": [
+    {"name": "National Academies — Dietary Reference Intakes", "url": "https://www.nationalacademies.org/", "note": "Adult protein RDA context."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein values for foods used in examples."}
+  ],
+  "image": {
+    "concept": "A day of vegetarian meals featuring yogurt and oats, lentils, eggs, tofu, and milk arranged across several plates, clean editorial photography without text.",
+    "alt": "High-protein vegetarian meals across a day"
+  },
+  "status": "publish"
+}
