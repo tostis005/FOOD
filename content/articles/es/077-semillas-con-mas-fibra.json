@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "es-077-semillas-con-mas-fibra",
+  "article_number": 77,
+  "translation_group": "077-highest-fiber-seeds",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y raciones de 20–30 g",
+  "title": "Las semillas con más fibra",
+  "slug": "semillas-con-mas-fibra",
+  "seo": {
+    "title": "Las semillas con más fibra: chía, lino, sésamo y más",
+    "meta_description": "La chía y el lino destacan claramente en fibra. Comparamos gramos por 100 g y por una ración real de 20–30 g.",
+    "search_intent": "Comparar qué semillas aportan más fibra y cuánto supone una cantidad habitual."
+  },
+  "excerpt": "La chía destaca con unos 34 g de fibra por 100 g y el lino ronda 27 g; sésamo, girasol, calabaza y cáñamo quedan bastante por debajo. En una ración de 20 g, la chía aporta alrededor de 6,8 g de fibra y el lino unos 5,4 g, por lo que aquí sí hay una diferencia práctica clara.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["seeds"],
+    "article_types": ["ranking", "nutrition-composition"],
+    "primary_article_type": "ranking"
+  },
+  "content_html": "<p>En proteína, cáñamo y calabaza suelen ocupar la parte alta entre las semillas. En fibra, el dibujo cambia por completo: <strong>chía y lino se separan con claridad del resto</strong>.</p><p>Como nadie necesita comer 100 g de semillas para aprovecharlas, conviene mirar también una cantidad real de 20 g.</p><h2>Fibra de las principales semillas</h2><table><thead><tr><th>Semilla</th><th>Fibra/100 g</th><th>Fibra en 20 g</th></tr></thead><tbody><tr><td>Chía</td><td>~34 g</td><td>~6,8 g</td></tr><tr><td>Lino</td><td>~27 g</td><td>~5,4 g</td></tr><tr><td>Sésamo</td><td>~12 g</td><td>~2,4 g</td></tr><tr><td>Girasol</td><td>~8,6 g</td><td>~1,7 g</td></tr><tr><td>Calabaza</td><td>~6 g</td><td>~1,2 g</td></tr><tr><td>Cáñamo pelado</td><td>~4 g</td><td>~0,8 g</td></tr></tbody></table><p>Aquí la diferencia no es una décima estadística. Veinte gramos de chía pueden aportar unas cinco veces más fibra que la misma cantidad de semillas de calabaza peladas.</p><h2>Por qué la chía forma gel</h2><p>Buena parte de la fibra de la chía tiene capacidad para retener agua. Al hidratarse, la cubierta forma un gel de mucílago. Eso explica el cambio de textura en puddings o bebidas; no significa que toda su fibra sea soluble, porque también contiene una fracción insoluble importante.</p><h2>El lino aporta mucha fibra, pero conviene triturarlo</h2><p>El lino entero puede atravesar el aparato digestivo sin romperse completamente. Triturarlo facilita el acceso a su interior y a nutrientes como el ácido alfa-linolénico, además de mantener su fibra.</p><p>Una cucharada generosa de lino molido no aporta los 27 g de fibra que aparecen por 100 g: con unos 20 g estaríamos hablando de aproximadamente 5,4 g.</p><h2>Las semillas de proteína alta no son necesariamente las de fibra alta</h2><p>El cáñamo pelado y la semilla de calabaza concentran alrededor de 30 g de proteína por 100 g, pero su fibra es bastante menor que la de chía o lino. Parte de la razón es que los productos pelados han perdido capas externas donde se localiza fibra.</p><p>Eso hace que cada semilla pueda cumplir un papel diferente: cáñamo o calabaza para sumar más proteína; chía o lino cuando la prioridad es aumentar fibra.</p><h2>Aumentar de golpe puede dar molestias</h2><p>Pasar de poca fibra a añadir varias cucharadas de chía o lino cada día puede provocar gases, distensión o cambios intestinales. El aumento gradual y una ingesta adecuada de líquidos suelen ser más razonables que multiplicar la dosis de un día para otro.</p><h2>La regla práctica</h2><p><strong>Para fibra, chía y lino son los dos líderes claros entre las semillas habituales.</strong> Una porción pequeña ya puede aportar 5–7 g, mientras otras semillas destacan por nutrientes diferentes.</p>",
+  "faq": [
+    {"question": "¿Qué semilla tiene más fibra?", "answer": "La chía ronda 34 g de fibra por 100 g, seguida por el lino con alrededor de 27 g."},
+    {"question": "¿Cuánta fibra hay en 20 g de chía?", "answer": "Aproximadamente 6,8 g de fibra."},
+    {"question": "¿Las semillas de cáñamo tienen mucha fibra?", "answer": "El cáñamo pelado aporta bastante proteína, pero relativamente poca fibra, alrededor de 4 g por 100 g según el producto."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Fibra y macronutrientes de semillas de chía, lino, sésamo, girasol, calabaza y cáñamo."}
+  ],
+  "image": {
+    "concept": "Cucharas con semillas de chía, lino, sésamo, girasol, calabaza y cáñamo, fotografía editorial limpia, sin texto.",
+    "alt": "Semillas de chía, lino y otras variedades comparadas por fibra"
+  },
+  "status": "publish"
+}
