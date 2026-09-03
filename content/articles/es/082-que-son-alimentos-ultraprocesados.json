@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "es-082-que-son-alimentos-ultraprocesados",
+  "article_number": 82,
+  "translation_group": "082-what-are-ultra-processed-foods",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; clasificación NOVA y ejemplos de productos europeos",
+  "title": "Qué son realmente los alimentos ultraprocesados",
+  "slug": "que-son-alimentos-ultraprocesados",
+  "seo": {
+    "title": "Qué son realmente los alimentos ultraprocesados",
+    "meta_description": "Ultraprocesado no significa simplemente industrial o con muchos ingredientes. NOVA se fija en formulaciones hechas con sustancias derivadas de alimentos y aditivos.",
+    "search_intent": "Entender qué define a un alimento ultraprocesado y cómo reconocerlo sin reglas simplistas."
+  },
+  "excerpt": "Un ultraprocesado no se define solo por venir de una fábrica, llevar plástico o tener una lista larga de ingredientes. En la clasificación NOVA, suele ser una formulación industrial construida en buena parte con ingredientes refinados o sustancias derivadas de alimentos, a menudo junto a aromas, emulsionantes, colorantes u otros aditivos que modifican sabor, textura o apariencia.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": [],
+    "article_types": ["myths-faq", "nutrition-composition"],
+    "primary_article_type": "myths-faq"
+  },
+  "content_html": "<p>“Ultraprocesado” se usa tanto que a veces acaba significando simplemente “producto que no me parece saludable”. Esa no es una definición útil.</p><p>La palabra procede sobre todo de <strong>NOVA</strong>, una clasificación que agrupa los alimentos según la naturaleza y el propósito del procesamiento, no según una única cifra de azúcar, grasa o calorías.</p><h2>La idea central: una formulación más que un alimento modificado</h2><p>Un ultraprocesado suele estar construido a partir de componentes obtenidos de alimentos —almidones, aceites refinados, azúcares, proteínas aisladas— y puede incorporar aromas, colorantes, emulsionantes, edulcorantes, espesantes u otros aditivos para crear una textura, sabor o apariencia concretos.</p><p>Eso es distinto de tomar un alimento reconocible y conservarlo mediante congelación, pasteurización o enlatado.</p><h2>Ejemplos típicos</h2><ul><li>refrescos azucarados o con edulcorantes;</li><li>golosinas y muchos chocolates rellenos;</li><li>snacks extrusionados y saborizados;</li><li>muchos cereales de desayuno azucarados;</li><li>postres lácteos formulados;</li><li>algunas pizzas, nuggets y carnes reconstituidas industriales;</li><li>determinadas barritas, batidos y sustitutos de comida formulados.</li></ul><p>La palabra importante es “muchos” o “algunos”: la categoría depende de la formulación exacta, no del nombre comercial del alimento.</p><h2>Un producto industrial no es automáticamente ultraprocesado</h2><p>Una bolsa de guisantes congelados puede contener solo guisantes. Un bote de garbanzos puede contener garbanzos, agua y sal. Una botella de leche pasteurizada sigue siendo leche tratada térmicamente.</p><p>Todos han pasado por una industria; ninguno necesita ser una formulación ultraprocesada.</p><h2>No existe la regla de los cinco ingredientes</h2><p>El número de ingredientes es una pista pobre si se usa sola. Pan con harina, agua, levadura y sal puede ser procesado pero no ultraprocesado; una receta tradicional con muchas especias puede tener una lista larga sin parecerse en nada a una formulación industrial.</p><p>Más útil que contar es preguntar <strong>qué son esos ingredientes y qué función cumplen</strong>.</p><h2>Tampoco basta con buscar un aditivo</h2><p>La presencia de un aditivo no convierte automáticamente cualquier alimento en ultraprocesado. Algunos aditivos se utilizan en alimentos procesados por razones de seguridad, estabilidad o elaboración.</p><p>NOVA mira el conjunto de la formulación y su propósito industrial. Reducir la clasificación a “tiene E-números” produce muchos falsos positivos.</p><h2>¿Por qué interesa estudiar esta categoría?</h2><p>Las dietas con una proporción elevada de ultraprocesados suelen mostrar, en conjunto, más productos con alta densidad energética, azúcares libres, grasas o sal y menos alimentos enteros ricos en fibra. Estudios observacionales también encuentran asociaciones entre un consumo alto y distintos resultados adversos de salud.</p><p>Eso no demuestra que todos los productos clasificados tengan exactamente el mismo efecto ni permite juzgar un alimento solo por una palabra. La categoría funciona mejor para describir <strong>patrones de dieta</strong> que para sustituir toda lectura nutricional.</p><h2>La pregunta útil al mirar un envase</h2><p>No te preguntes solo “¿está procesado?”. Pregunta: <strong>¿sigue siendo principalmente un alimento reconocible o es una formulación reconstruida a partir de componentes refinados?</strong> Después mira también proteína, fibra, azúcares, grasa, sal, ración y el papel que ocupa en la dieta.</p>",
+  "faq": [
+    {"question": "¿Qué hace que un alimento sea ultraprocesado?", "answer": "En NOVA suele ser una formulación industrial basada en sustancias derivadas de alimentos y, frecuentemente, aditivos destinados a crear sabor, textura o apariencia."},
+    {"question": "¿Si tiene más de cinco ingredientes es ultraprocesado?", "answer": "No. No existe una regla válida de cinco ingredientes; importa qué ingredientes son y cómo está formulado el producto."},
+    {"question": "¿Un alimento con aditivos siempre es ultraprocesado?", "answer": "No necesariamente. La clasificación depende del conjunto y propósito de la formulación, no de detectar un solo aditivo."}
+  ],
+  "sources": [
+    {"name": "FAO — Ultra-processed foods, diet quality and health using the NOVA classification system", "url": "https://www.fao.org/3/ca5644en/ca5644en.pdf", "note": "Descripción de la clasificación NOVA y definición de ultraprocesados."}
+  ],
+  "image": {
+    "concept": "Envases genéricos de refresco, cereal azucarado, snack extrusionado y postre industrial junto a ingredientes refinados, fotografía editorial sin marcas ni texto.",
+    "alt": "Ejemplos de formulaciones alimentarias ultraprocesadas"
+  },
+  "status": "publish"
+}
