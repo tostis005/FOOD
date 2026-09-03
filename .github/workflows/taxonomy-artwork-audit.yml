@@ -1,0 +1,189 @@
+name: Audit Quinnoa taxonomy artwork
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/taxonomy-artwork-audit.yml'
+      - 'assets/css/**'
+      - 'front-page.php'
+      - 'functions.php'
+  workflow_dispatch:
+
+jobs:
+  audit-taxonomy-artwork:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_taxonomy_audit_key
+          chmod 600 ~/.ssh/food_taxonomy_audit_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Discover live WordPress URL
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          SITE_URL="$(ssh -i ~/.ssh/food_taxonomy_audit_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
+          set -euo pipefail
+          for CID in $(docker ps -q); do
+            ROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then echo "$p"; exit 0; fi
+              done
+            ' 2>/dev/null || true)"
+            if [ -n "$ROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              docker exec "$CID" php -r "require '$ROOT/wp-load.php'; echo home_url('/');"
+              exit 0
+            fi
+          done
+          exit 1
+          REMOTE
+          )"
+          test -n "$SITE_URL"
+          echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
+
+      - name: Install browser dependency
+        run: |
+          set -euo pipefail
+          npm init -y >/dev/null 2>&1
+          npm install --no-save playwright-core@latest >/dev/null 2>&1
+          CHROME_BIN="$(command -v google-chrome || command -v chromium || command -v chromium-browser)"
+          test -n "$CHROME_BIN"
+          echo "CHROME_BIN=$CHROME_BIN" >> "$GITHUB_ENV"
+
+      - name: Audit all 29 taxonomy illustrations
+        run: |
+          cat > taxonomy-artwork-audit.mjs <<'NODE'
+          import { chromium } from 'playwright-core';
+
+          const expectedFamilies = [
+            'family-alimentacion-general',
+            'family-carnes',
+            'family-pescados-mariscos',
+            'family-huevos',
+            'family-lacteos-quesos',
+            'family-legumbres-soja',
+            'family-frutos-secos-semillas',
+            'family-cereales-pseudocereales-derivados',
+            'family-tuberculos',
+            'family-verduras-hortalizas-setas',
+            'family-frutas',
+            'family-aceites-grasas',
+            'family-bebidas',
+            'family-chocolate-cacao-dulces',
+            'family-fermentados',
+            'family-algas-especias-otros-alimentos'
+          ];
+
+          const expectedTopics = [
+            'topic-nutricion-composicion',
+            'topic-rankings-mejores-fuentes',
+            'topic-comparativas',
+            'topic-seguridad-alimentaria',
+            'topic-conservacion-almacenamiento',
+            'topic-congelacion-descongelacion',
+            'topic-cocina-ciencia-alimentos',
+            'topic-preparacion-tecnicas-cocina',
+            'topic-salud-consumo-habitual',
+            'topic-conceptos-nutricion',
+            'topic-mitos-preguntas-frecuentes',
+            'topic-procesamiento-produccion-elaboracion',
+            'topic-compra-calidad-maduracion'
+          ];
+
+          const browser = await chromium.launch({
+            executablePath: process.env.CHROME_BIN,
+            headless: true,
+            args: ['--no-sandbox', '--disable-dev-shm-usage']
+          });
+
+          const sizes = [
+            { name: 'desktop', width: 1440, height: 1000 },
+            { name: 'mobile', width: 390, height: 844 }
+          ];
+
+          for (const size of sizes) {
+            const context = await browser.newContext({ viewport: { width: size.width, height: size.height } });
+            const page = await context.newPage();
+            await page.goto(process.env.SITE_URL, { waitUntil: 'domcontentloaded', timeout: 60000 });
+            await page.waitForTimeout(1200);
+
+            const result = await page.evaluate(({ expectedFamilies, expectedTopics }) => {
+              const inspect = (selector, prefix, artSelector, variable) =>
+                [...document.querySelectorAll(selector)].map((card) => {
+                  const identity = [...card.classList].find((name) => name.startsWith(prefix)) || '';
+                  const art = card.querySelector(artSelector);
+                  const cardStyle = getComputedStyle(card);
+                  const pseudo = art ? getComputedStyle(art, '::after') : null;
+                  const rect = art ? art.getBoundingClientRect() : null;
+                  return {
+                    identity,
+                    variable: cardStyle.getPropertyValue(variable).trim(),
+                    backgroundImage: pseudo?.backgroundImage || 'none',
+                    display: pseudo?.display || 'none',
+                    opacity: pseudo?.opacity || '0',
+                    width: rect?.width || 0,
+                    height: rect?.height || 0
+                  };
+                });
+
+              const families = inspect('.food-family-card[class*="family-"]', 'family-', '.food-family-art', '--family-icon');
+              const topics = inspect('.topic-card[class*="topic-"]', 'topic-', '.topic-card-art', '--topic-icon');
+
+              return {
+                families,
+                topics,
+                expectedFamilies,
+                expectedTopics,
+                scrollWidth: document.documentElement.scrollWidth,
+                viewportWidth: innerWidth
+              };
+            }, { expectedFamilies, expectedTopics });
+
+            const assertGroup = (actual, expected, label) => {
+              const actualNames = actual.map((item) => item.identity).sort();
+              const expectedNames = [...expected].sort();
+              if (JSON.stringify(actualNames) !== JSON.stringify(expectedNames)) {
+                throw new Error(`${size.name}: ${label} identities differ. Expected ${expectedNames.join(', ')}, got ${actualNames.join(', ')}`);
+              }
+              for (const item of actual) {
+                if (!item.variable || item.variable === 'none') {
+                  throw new Error(`${size.name}: ${item.identity} has no active artwork variable`);
+                }
+                if (!item.backgroundImage || item.backgroundImage === 'none') {
+                  throw new Error(`${size.name}: ${item.identity} has no rendered ::after artwork`);
+                }
+                if (item.display === 'none' || Number(item.opacity) === 0 || item.width <= 0 || item.height <= 0) {
+                  throw new Error(`${size.name}: ${item.identity} artwork is not visibly rendered`);
+                }
+              }
+            };
+
+            assertGroup(result.families, expectedFamilies, 'family');
+            assertGroup(result.topics, expectedTopics, 'topic');
+
+            if (result.scrollWidth > result.viewportWidth) {
+              throw new Error(`${size.name}: page has horizontal overflow (${result.scrollWidth}px > ${result.viewportWidth}px)`);
+            }
+
+            console.log(`${size.name}: 16/16 food-family illustrations and 13/13 topic illustrations are active.`);
+            await context.close();
+          }
+
+          await browser.close();
+          NODE
+
+          node taxonomy-artwork-audit.mjs
