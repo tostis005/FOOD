@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-056-potato-vs-rice-calories-carbs-fiber-satiety",
+  "article_number": 56,
+  "translation_group": "056-potato-vs-rice-calories-carbs-fiber-satiety",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; cooked potato and cooked white rice compared without added fat",
+  "title": "Potato vs. rice: calories, carbs, fiber, and satiety",
+  "slug": "potato-vs-rice-calories-carbs-fiber-satiety",
+  "seo": {
+    "title": "Potato vs. rice: calories, carbs, fiber, and satiety",
+    "meta_description": "Cooked potato is lower in calories and carbs per 100 g than cooked rice because it contains more water. Compare fiber, potassium, servings, and satiety.",
+    "search_intent": "Compare potatoes and rice as starchy sides for calories, carbs, fiber, potassium, portion size, and satiety."
+  },
+  "excerpt": "At the same cooked weight, potato is usually less calorie-dense than rice: about 85–90 calories and 20 g carbohydrate per 100 g boiled potato versus roughly 130 calories and 28 g in cooked white rice. Water explains most of the gap. Potato also provides more potassium and somewhat more fiber, although cooking method can completely change the comparison.",
+  "taxonomy": {
+    "food_family": "mixed",
+    "food_subcategories": ["potato", "rice"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>Potatoes and rice often play the same role on a plate: a starchy base beside vegetables, meat, fish, eggs, or legumes. But at the same cooked weight, they do not carry the same amount of energy. <strong>Potatoes contain much more water, so they usually provide fewer calories and carbohydrates per 100 grams.</strong></p><h2>Cooked food is the useful comparison</h2><p>The table below compares boiled potato and cooked white rice without added oil or sauce.</p><table><thead><tr><th>Per 100 g cooked</th><th>Potato</th><th>White rice</th></tr></thead><tbody><tr><td>Calories</td><td>~87 kcal</td><td>~130 kcal</td></tr><tr><td>Carbohydrate</td><td>~20 g</td><td>~28 g</td></tr><tr><td>Protein</td><td>~1.9 g</td><td>~2.7 g</td></tr><tr><td>Fiber</td><td>~1.8 g</td><td>~0.4 g</td></tr><tr><td>Potassium</td><td>~380 mg</td><td>~35 mg</td></tr></tbody></table><p>Rice provides about 43 more calories per 100 g in this example. That is not because rice is a “worse carb.” It is simply more concentrated after cooking because less of its cooked weight is water.</p><h2>A normal serving makes the difference easier to see</h2><p>At 200 g cooked, potato would provide roughly 174 calories and 40 g carbohydrate. The same weight of white rice would be about 260 calories and 56 g carbohydrate.</p><p>Servings do not have to weigh the same, of course. Someone may eat 150 g rice but 250 g potato. Per-100-g values describe concentration; the plate depends on the amount served.</p><h2>Potato usually provides more fiber and far more potassium</h2><p>The fiber difference is not enough to turn potato into an exceptionally high-fiber food, but it is clear compared with white rice: about 1.8 g versus 0.4 g per 100 g in this example. Keeping the skin on can raise fiber somewhat depending on the potato.</p><p>The potassium gap is much larger. Cooked potato may provide roughly 380 mg per 100 g, while cooked white rice contributes only a few dozen milligrams.</p><h2>Which is more filling?</h2><p>Boiled potato has low energy density: a relatively large, water-rich portion can be eaten for comparatively few calories. That can support fullness. Experimental satiety studies have also found boiled potato to be highly satiating compared with several other carbohydrate-rich foods.</p><p>Real-world satiety still depends on the whole meal. Potato with vegetables and protein is not meaningfully comparable with rice covered in a rich sauce—or with deep-fried potatoes.</p><h2>Cooking method can reverse the calorie comparison</h2><p>Boiling or roasting potato with little added fat keeps energy density fairly low. Deep-frying adds oil and can push potatoes well above 250–300 calories per 100 g, far beyond plain cooked rice.</p><p>Rice changes too when cooked with butter, oil, coconut milk, or other ingredients. “Potato vs. rice” only makes sense when preparation is specified.</p><h2>Cooling changes some of the starch in both foods</h2><p>When cooked potato or rice cools, part of the starch reorganizes into resistant starch. That does not turn either food into something nutritionally unrecognizable, but it can modestly reduce the fraction of starch that is rapidly digested.</p><h2>Which should you choose?</h2><p>If you want <strong>more food volume for fewer calories per gram</strong>, cooked potato has the advantage. If you want a compact, easy-to-store starch that suits many dishes, rice may be more practical.</p><p>The useful comparison is simple: <strong>cooked potato = more water, lower energy density, much more potassium; cooked rice = more carbohydrate and energy at the same weight</strong>. Portion and preparation can matter more than the basic choice.</p>",
+  "faq": [
+    {"question": "Which has more calories, potato or rice?", "answer": "At the same cooked weight and without added fat, white rice is usually higher: about 130 calories per 100 g versus roughly 87 for boiled potato."},
+    {"question": "Which has more carbs?", "answer": "Cooked white rice is typically around 28 g carbohydrate per 100 g versus about 20 g in boiled potato."},
+    {"question": "Are potatoes more filling?", "answer": "They can be very satiating because they contain lots of water and have low energy density, but fullness also depends on preparation, portion size, and the rest of the meal."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Approximate composition of boiled potato and cooked white rice."},
+    {"name": "European Journal of Clinical Nutrition — A satiety index of common foods", "url": "https://www.nature.com/articles/1600238", "note": "Experimental context on satiety of common foods."}
+  ],
+  "image": {
+    "concept": "A bowl of boiled potatoes and a bowl of cooked white rice in comparable portions, clean editorial food photography, no text.",
+    "alt": "Cooked potato and white rice compared side by side"
+  },
+  "status": "publish"
+}
