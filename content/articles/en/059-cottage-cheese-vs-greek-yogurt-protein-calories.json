@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-059-cottage-cheese-vs-greek-yogurt-protein-calories",
+  "article_number": 59,
+  "translation_group": "059-cottage-cheese-vs-greek-yogurt-protein-calories",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; low-fat cottage cheese and strained Greek yogurt with attention to sodium and fat level",
+  "title": "Cottage cheese vs. Greek yogurt: protein, calories, and differences",
+  "slug": "cottage-cheese-vs-greek-yogurt-protein-calories",
+  "seo": {
+    "title": "Cottage cheese vs. Greek yogurt: protein and calories",
+    "meta_description": "Cottage cheese and Greek yogurt are both protein-rich. Cottage often has slightly more protein, while Greek yogurt is usually much lower in sodium.",
+    "search_intent": "Compare cottage cheese and Greek yogurt for protein, calories, fat, sodium, serving size, and practical use."
+  },
+  "excerpt": "Cottage cheese and strained Greek yogurt are both protein-dense dairy foods. Low-fat cottage cheese often provides about 11–13 g protein and 80–100 calories per 100 g; Greek yogurt commonly provides about 9–10 g protein and 60–100 calories depending on fat level. The biggest practical difference is often sodium: cottage cheese usually contains far more.",
+  "taxonomy": {
+    "food_family": "dairy",
+    "food_subcategories": ["cottage-cheese", "greek-yogurt"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>Cottage cheese and Greek yogurt often show up on the same high-protein shopping list because both pack a substantial amount of dairy protein into a modest serving. But they are not identical: <strong>cottage cheese often has a small protein edge and a large sodium disadvantage, while nonfat Greek yogurt can be exceptionally high in protein for its calories.</strong></p><h2>Protein is close in both foods</h2><p>Because both come in multiple fat levels, representative ranges are more useful than pretending there is one fixed number.</p><table><thead><tr><th>Per 100 g</th><th>Low-fat cottage cheese</th><th>Strained Greek yogurt</th></tr></thead><tbody><tr><td>Protein</td><td>~11–13 g</td><td>~9–10 g</td></tr><tr><td>Calories</td><td>~80–100 kcal</td><td>~60–100 kcal</td></tr><tr><td>Fat</td><td>~2–4 g</td><td>~0–5 g</td></tr><tr><td>Sodium</td><td>often ~300–400 mg</td><td>often ~35–60 mg</td></tr></tbody></table><p>A 2–3 g protein gap per 100 g exists, but both are clearly protein-rich. Product fat level and added salt can matter more than that small difference.</p><h2>A serving of either can provide 15 grams or more protein</h2><p>A 1/2-cup to 3/4-cup serving of cottage cheese, about 150 g, at 12 g protein per 100 g provides roughly 18 g protein. A 6-ounce Greek yogurt, about 170 g, at 9 g per 100 g provides about 15 g.</p><p>That 3 g difference is modest compared with the gap between either food and conventional yogurt at roughly 4 g protein per 100 g.</p><h2>Sodium is the difference people often miss</h2><p>Cottage cheese curds are typically salted. Many products contain around 300–400 mg sodium per 100 g, although reduced-sodium versions exist. Plain Greek yogurt may contain only a few dozen milligrams.</p><p>At 200 g, cottage cheese containing 350 mg sodium per 100 g would deliver about 700 mg. For someone trying to limit sodium, that can matter more than squeezing out an extra gram or two of protein.</p><h2>Calories depend mostly on fat level</h2><p>Nonfat Greek yogurt can be around 60 calories per 100 g while still providing close to 10 g protein, giving it a very high protein-to-calorie ratio. Whole Greek yogurt can be closer to 100 calories.</p><p>Cottage cheese also comes in nonfat, low-fat, and full-fat versions. There is no universal calorie winner unless the fat levels are specified.</p><h2>Texture and cooking use are completely different</h2><p>Cottage cheese has distinct curds and a mildly salty flavor, making it useful on toast, in salads, or in savory dishes. Greek yogurt is smooth and tangy and works well for breakfast, sauces, marinades, and desserts.</p><p>When the protein numbers are this close, that practical difference can be more important than the nutrition gap.</p><h2>What about calcium?</h2><p>Values vary and neither food is guaranteed to win. Straining removes some whey from Greek yogurt, while cottage-cheese production also changes how much calcium remains in the finished product. Check the label if calcium is a major priority.</p><h2>Which should you choose?</h2><p>For the highest <strong>protein concentration</strong>, cottage cheese often has a small advantage. For <strong>high protein with much less sodium</strong>, plain Greek yogurt is usually the stronger choice. A nonfat version can also be particularly efficient for protein per calorie.</p><p>Both are excellent high-protein foods. In practice, <strong>sodium, fat level, and how you plan to eat them matter more than a small protein difference</strong>.</p>",
+  "faq": [
+    {"question": "Which has more protein, cottage cheese or Greek yogurt?", "answer": "Cottage cheese often provides about 11–13 g protein per 100 g versus roughly 9–10 g in strained Greek yogurt, though brands vary."},
+    {"question": "Which has fewer calories?", "answer": "Nonfat Greek yogurt can be lowest at around 60 calories per 100 g, while whole versions of either food may approach 90–100 calories or more."},
+    {"question": "Why is cottage cheese higher in sodium?", "answer": "Salt is normally added to the curds during production, so cottage cheese often contains much more sodium than plain yogurt."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Reference composition for cottage cheese and Greek yogurt."},
+    {"name": "FDA — Sodium in Your Diet", "url": "https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet", "note": "Sodium context and labeling."}
+  ],
+  "image": {
+    "concept": "A bowl of cottage cheese and a bowl of plain Greek yogurt with spoons beside them, clean editorial food photography, no text.",
+    "alt": "Cottage cheese and Greek yogurt compared side by side"
+  },
+  "status": "publish"
+}
