@@ -15,6 +15,12 @@ if ( file_exists( $food_language_slugs_early ) ) {
 	require_once $food_language_slugs_early;
 }
 
+/* Language preference handling is kept separate from the routing layer. */
+$food_language_preference = get_template_directory() . '/inc/language-preference.php';
+if ( file_exists( $food_language_preference ) ) {
+	require_once $food_language_preference;
+}
+
 function food_editorial_pages() {
 	return array(
 		'about' => array(
@@ -52,14 +58,30 @@ function food_editorial_pages() {
 		'privacy' => array(
 			'es' => array(
 				'slug'     => 'privacidad',
-				'title'    => 'Privacidad y cookies',
+				'title'    => 'Privacidad',
 				'eyebrow'  => 'Información legal',
 				'intro'    => '',
 				'sections' => array(),
 			),
 			'en' => array(
 				'slug'     => 'privacy',
-				'title'    => 'Privacy & cookies',
+				'title'    => 'Privacy',
+				'eyebrow'  => 'Legal information',
+				'intro'    => '',
+				'sections' => array(),
+			),
+		),
+		'cookies' => array(
+			'es' => array(
+				'slug'     => 'politica-de-cookies',
+				'title'    => 'Política de cookies',
+				'eyebrow'  => 'Información legal',
+				'intro'    => '',
+				'sections' => array(),
+			),
+			'en' => array(
+				'slug'     => 'cookie-policy',
+				'title'    => 'Cookie policy',
 				'eyebrow'  => 'Legal information',
 				'intro'    => '',
 				'sections' => array(),
@@ -89,9 +111,9 @@ function food_register_editorial_page_rewrites() {
 		add_rewrite_rule( '^' . preg_quote( $languages['es']['slug'], '#' ) . '/?$', 'index.php?food_editorial_page=' . $key . '&food_lang=es', 'top' );
 		add_rewrite_rule( '^en/' . preg_quote( $languages['en']['slug'], '#' ) . '/?$', 'index.php?food_editorial_page=' . $key . '&food_lang=en', 'top' );
 	}
-	if ( '6' !== get_option( 'food_editorial_pages_rewrite_version' ) ) {
+	if ( '7' !== get_option( 'food_editorial_pages_rewrite_version' ) ) {
 		flush_rewrite_rules( false );
-		update_option( 'food_editorial_pages_rewrite_version', '6' );
+		update_option( 'food_editorial_pages_rewrite_version', '7' );
 	}
 }
 add_action( 'init', 'food_register_editorial_page_rewrites', 99 );
@@ -146,8 +168,11 @@ function food_editorial_page_prevent_404( $preempt, $query ) {
 add_filter( 'pre_handle_404', 'food_editorial_page_prevent_404', 10, 2 );
 
 function food_editorial_page_template( $template ) {
-	if ( get_query_var( 'food_editorial_page' ) ) {
-		$editorial_template = get_template_directory() . '/page-editorial.php';
+	$key = get_query_var( 'food_editorial_page' );
+	if ( $key ) {
+		$editorial_template = 'cookies' === $key
+			? get_template_directory() . '/page-cookie-policy.php'
+			: get_template_directory() . '/page-editorial.php';
 		return file_exists( $editorial_template ) ? $editorial_template : $template;
 	}
 	return $template;

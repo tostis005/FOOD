@@ -15,6 +15,7 @@ $food_footer_language = $food_english ? 'en' : 'es';
 				<li><a href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'about', $food_footer_language ) : home_url( '/acerca-de/' ) ); ?>"><?php echo esc_html( $food_english ? 'About' : 'Acerca de' ); ?></a></li>
 				<li><a href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'contact', $food_footer_language ) : home_url( '/contacto/' ) ); ?>"><?php echo esc_html( $food_english ? 'Contact' : 'Contacto' ); ?></a></li>
 				<li><a href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'privacy', $food_footer_language ) : home_url( '/privacidad/' ) ); ?>"><?php echo esc_html( $food_english ? 'Privacy' : 'Privacidad' ); ?></a></li>
+				<li><a href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'cookies', $food_footer_language ) : home_url( '/politica-de-cookies/' ) ); ?>"><?php echo esc_html( $food_english ? 'Cookies' : 'Cookies' ); ?></a></li>
 			</ul>
 		</nav>
 	</div>

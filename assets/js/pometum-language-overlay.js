@@ -9,6 +9,16 @@ document.addEventListener('DOMContentLoaded', function () {
     if (currentFlag) currentFlag.textContent = '🇺🇸';
   }
 
+  document.querySelectorAll('.language-option[hreflang]').forEach(function (link) {
+    link.addEventListener('click', function () {
+      const language = (link.getAttribute('hreflang') || '').toLowerCase();
+      if (language !== 'es' && language !== 'en') return;
+
+      const secure = window.location.protocol === 'https:' ? '; Secure' : '';
+      document.cookie = 'quinnoa_language=' + encodeURIComponent(language) + '; Max-Age=15552000; Path=/; SameSite=Lax' + secure;
+    });
+  });
+
   const searchTitle = document.querySelector('.search-overlay-title');
   const searchInput = document.querySelector('#overlay-food-search');
   const heroSearch = document.querySelector('#food-search');
