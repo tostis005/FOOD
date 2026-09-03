@@ -30,11 +30,12 @@ jobs:
           path = Path('header.php')
           text = path.read_text(encoding='utf-8')
           pattern = re.compile(r"\t<\?php\n\t\$css_files = array\(.*?\t<\?php endforeach; \?>\n", re.S)
-          replacement = """\t<?php $food_ui_css = get_template_directory() . '/assets/css/quinnoa-ui.css'; ?>
-\t<?php if ( file_exists( $food_ui_css ) ) : ?>
-\t\t<link rel=\"stylesheet\" href=\"<?php echo esc_url( get_template_directory_uri() . '/assets/css/quinnoa-ui.css?ver=' . filemtime( $food_ui_css ) ); ?>\">
-\t<?php endif; ?>
-"""
+          replacement = (
+              "\t<?php $food_ui_css = get_template_directory() . '/assets/css/quinnoa-ui.css'; ?>\n"
+              "\t<?php if ( file_exists( $food_ui_css ) ) : ?>\n"
+              "\t\t<link rel=\"stylesheet\" href=\"<?php echo esc_url( get_template_directory_uri() . '/assets/css/quinnoa-ui.css?ver=' . filemtime( $food_ui_css ) ); ?>\">\n"
+              "\t<?php endif; ?>\n"
+          )
           updated, count = pattern.subn(replacement, text, count=1)
           if count != 1:
               raise SystemExit(f'Expected one legacy CSS block, replaced {count}')
