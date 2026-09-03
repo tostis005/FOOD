@@ -52,6 +52,14 @@ function food_english_topic_slugs() {
 	);
 }
 
+function food_directory_url( $directory, $language = '' ) {
+	$language = $language ?: ( function_exists( 'food_current_language' ) ? food_current_language() : 'es' );
+	if ( 'topics' === $directory ) {
+		return 'en' === $language ? home_url( '/en/topics/' ) : home_url( '/temas/' );
+	}
+	return 'en' === $language ? home_url( '/en/foods/' ) : home_url( '/alimentos/' );
+}
+
 function food_is_editorial_food_category_slug( $slug ) {
 	return 'alimentos' === $slug || ( function_exists( 'food_family_definitions' ) && isset( food_family_definitions()[ $slug ] ) );
 }
@@ -91,9 +99,18 @@ function food_localized_spanish_category_link( $link, $term_id ) {
 }
 add_filter( 'category_link', 'food_localized_spanish_category_link', 40, 2 );
 
+function food_directory_query_vars( $vars ) {
+	$vars[] = 'food_directory';
+	return $vars;
+}
+add_filter( 'query_vars', 'food_directory_query_vars' );
+
 function food_register_fully_localized_taxonomy_rewrites() {
 	$families = food_english_family_slugs();
 	$topics   = food_english_topic_slugs();
+
+	add_rewrite_rule( '^temas/?$', 'index.php?food_directory=topics&food_lang=es', 'top' );
+	add_rewrite_rule( '^en/topics/?$', 'index.php?food_directory=topics&food_lang=en', 'top' );
 
 	add_rewrite_rule( '^alimentos/?$', 'index.php?category_name=alimentos&food_lang=es', 'top' );
 	add_rewrite_rule( '^alimentos/page/([0-9]+)/?$', 'index.php?category_name=alimentos&food_lang=es&paged=$matches[1]', 'top' );
@@ -120,12 +137,56 @@ function food_register_fully_localized_taxonomy_rewrites() {
 		add_rewrite_rule( '^en/topics/' . preg_quote( $english_slug, '#' ) . '/?$', 'index.php?food_topic=' . $internal_slug . '&food_lang=en', 'top' );
 	}
 
-	if ( '2' !== get_option( 'food_localized_taxonomy_rewrite_version' ) ) {
+	if ( '3' !== get_option( 'food_localized_taxonomy_rewrite_version' ) ) {
 		flush_rewrite_rules( false );
-		update_option( 'food_localized_taxonomy_rewrite_version', '2' );
+		update_option( 'food_localized_taxonomy_rewrite_version', '3' );
 	}
 }
 add_action( 'init', 'food_register_fully_localized_taxonomy_rewrites', 91 );
+
+function food_prepare_directory_query( $query ) {
+	if ( ! $query instanceof WP_Query || ! $query->is_main_query() || ! $query->get( 'food_directory' ) ) {
+		return;
+	}
+	$query->is_404 = false;
+	$query->is_home = false;
+}
+add_action( 'parse_query', 'food_prepare_directory_query', 1 );
+
+function food_directory_prevent_404( $preempt, $query ) {
+	if ( $query instanceof WP_Query && $query->get( 'food_directory' ) ) {
+		$query->is_404 = false;
+		return false;
+	}
+	return $preempt;
+}
+add_filter( 'pre_handle_404', 'food_directory_prevent_404', 10, 2 );
+
+function food_directory_template( $template ) {
+	if ( 'topics' === get_query_var( 'food_directory' ) ) {
+		$directory_template = get_template_directory() . '/taxonomy-directory.php';
+		return file_exists( $directory_template ) ? $directory_template : $template;
+	}
+	return $template;
+}
+add_filter( 'template_include', 'food_directory_template', 97 );
+
+function food_directory_document_title( $title ) {
+	if ( 'topics' !== get_query_var( 'food_directory' ) ) {
+		return $title;
+	}
+	return ( function_exists( 'food_is_english' ) && food_is_english() ? 'Topics' : 'Temas' ) . ' | Quinnoa';
+}
+add_filter( 'pre_get_document_title', 'food_directory_document_title', 20 );
+
+function food_directory_canonical() {
+	if ( 'topics' !== get_query_var( 'food_directory' ) ) {
+		return;
+	}
+	$language = function_exists( 'food_current_language' ) ? food_current_language() : 'es';
+	echo '<link rel="canonical" href="' . esc_url( food_directory_url( 'topics', $language ) ) . '">' . "\n";
+}
+add_action( 'wp_head', 'food_directory_canonical', 3 );
 
 function food_expected_taxonomy_url_with_page( $base_url ) {
 	$paged = max( 1, (int) get_query_var( 'paged' ) );
@@ -136,7 +197,7 @@ function food_expected_taxonomy_url_with_page( $base_url ) {
 }
 
 function food_redirect_localized_taxonomy_canonical() {
-	if ( is_admin() || wp_doing_ajax() ) {
+	if ( is_admin() || wp_doing_ajax() || get_query_var( 'food_directory' ) ) {
 		return;
 	}
 
