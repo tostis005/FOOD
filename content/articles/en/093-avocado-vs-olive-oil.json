@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-093-avocado-vs-olive-oil",
+  "article_number": 93,
+  "translation_group": "093-avocado-vs-olive-oil",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and olive-oil fatty-acid profile",
+  "title": "Avocado vs. olive oil: fats and nutritional differences",
+  "slug": "avocado-vs-olive-oil",
+  "seo": {
+    "title": "Avocado vs. olive oil: fat, calories and nutrition compared",
+    "meta_description": "Both are rich in monounsaturated fat, but avocado provides water and fiber while olive oil concentrates nearly all of its energy in fat. Compare realistic portions.",
+    "search_intent": "Compare avocado and olive oil by fat type, calories, fiber and practical nutritional role."
+  },
+  "excerpt": "Avocado and olive oil share a fat profile dominated by oleic acid, but they are not equivalent foods: 100 g of avocado provides about 160 calories, 15 g of fat and 6–7 g of fiber; one tablespoon of olive oil provides about 120 calories and 14 g of fat with virtually no fiber or protein. Avocado is a water-rich whole food; oil is concentrated fat.",
+  "taxonomy": {
+    "food_family": "fats-oils",
+    "food_subcategories": ["avocado", "olive-oil"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>Avocado and olive oil are often grouped under the label “healthy fats,” which can make them sound interchangeable. They share one major feature—<strong>fat dominated by monounsaturated oleic acid</strong>—and differ on almost everything around that fat.</p><h2>A useful comparison needs different serving sizes</h2><p>One hundred grams of oil is not a normal serving. Comparing 100 g of avocado with one tablespoon of oil makes more sense because both are realistic amounts and their calorie totals are relatively close.</p><table><thead><tr><th></th><th>Avocado, 100 g</th><th>Olive oil, 1 tbsp (14 g)</th></tr></thead><tbody><tr><td>Calories</td><td>~160</td><td>~120</td></tr><tr><td>Total fat</td><td>~15 g</td><td>~14 g</td></tr><tr><td>Monounsaturated fat</td><td>~10 g</td><td>~10 g</td></tr><tr><td>Fiber</td><td>~6.7 g</td><td>0 g</td></tr><tr><td>Protein</td><td>~2 g</td><td>0 g</td></tr><tr><td>Water</td><td>~73 g</td><td>Almost 0 g</td></tr></tbody></table><p>The striking similarity is that both portions provide around 10 g of monounsaturated fat. The physical difference is just as large: 100 g of avocado is a much bigger volume of food.</p><h2>Avocado carries fat inside a water- and fiber-rich matrix</h2><p>Roughly three-quarters of avocado is water. Fiber and plant structure add chewing and volume, allowing about 15 g of fat to be spread through 100 g of food.</p><p>Oil has removed almost all of that structure and concentrates the lipid fraction. One tablespoon contains nearly as much total fat as 100 g of avocado.</p><h2>Extra-virgin olive oil contains compounds not captured by macros</h2><p>Virgin and extra-virgin olive oils contain phenolic compounds and vitamin E in varying amounts. Phenolic content depends on olive variety, maturity, processing and storage and is not usually shown on the standard Nutrition Facts panel.</p><p>Refining removes much of these minor compounds, so generic refined olive oil is not compositionally identical to extra-virgin olive oil.</p><h2>Avocado brings fiber, folate and potassium</h2><p>One hundred grams of avocado provides about 6–7 g of fiber and roughly 480 mg of potassium, plus folate and other micronutrients. Olive oil contains no fiber and negligible potassium.</p><p>That does not make avocado “better oil.” They serve different food roles.</p><h2>For cooking, oil is much more functional</h2><p>Oil coats pans, dresses vegetables and works as a cooking medium. Avocado adds texture and volume but cannot replace that technical function in most recipes.</p><p>If the goal is to replace butter or another more saturated cooking fat, olive oil directly shifts the recipe's fat profile toward monounsaturated fat.</p><h2>Which one is lower in calories?</h2><p>Per 100 g, avocado by a huge margin: around 160 calories versus about 884 in olive oil. But that comparison exaggerates normal use. One tablespoon of oil is about 120 calories; 100 g of avocado is about 160.</p><p>The amount used matters far more than the headline that oil has several times as many calories per 100 g.</p><h2>The practical decision</h2><p><strong>Avocado and olive oil are complementary foods.</strong> Avocado delivers monounsaturated fat in a whole food with water, fiber and micronutrients; olive oil provides that fat in concentrated form and is especially useful for cooking, dressing and replacing more saturated fats.</p>",
+  "faq": [
+    {"question": "Which has more fat, avocado or olive oil?", "answer": "Per 100 g, olive oil because it is nearly pure fat. But one tablespoon of oil contains about 14 g of fat, close to the 15 g in 100 g of avocado."},
+    {"question": "Do avocado and olive oil contain the same type of fat?", "answer": "Both are dominated by monounsaturated fat, especially oleic acid, although the foods around that fat are very different."},
+    {"question": "Which has more fiber?", "answer": "Avocado. One hundred grams provides about 6–7 g of fiber, while olive oil contains none."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of avocado and olive oil."},
+    {"name": "International Olive Council", "url": "https://www.internationaloliveoil.org/", "note": "Composition and characteristics of virgin olive oils."}
+  ],
+  "image": {
+    "concept": "Half an avocado beside one tablespoon of extra-virgin olive oil on a clean table, editorial food photography, no text.",
+    "alt": "Avocado and olive oil compared as monounsaturated-fat sources"
+  },
+  "status": "publish"
+}
