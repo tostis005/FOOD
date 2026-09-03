@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-068-how-long-cooked-pasta-fridge",
+  "article_number": 68,
+  "translation_group": "068-how-long-cooked-pasta-fridge",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; USDA/FoodSafety.gov general 3–4 day leftover guidance",
+  "title": "How long does cooked pasta last in the fridge?",
+  "slug": "how-long-cooked-pasta-fridge",
+  "seo": {
+    "title": "How long does cooked pasta last in the fridge?",
+    "meta_description": "Cooked pasta should generally be refrigerated within 2 hours and used within 3–4 days. Sauce ingredients can shorten the practical storage window.",
+    "search_intent": "Find the safe refrigerator life of cooked pasta and learn how to cool, store, and reheat it."
+  },
+  "excerpt": "Cooked pasta should generally be refrigerated within 2 hours and eaten within 3–4 days, following USDA guidance for leftovers. Keep the refrigerator at 40°F (4°C) or below. A sauce containing meat, seafood, or other highly perishable ingredients may set the shorter limit for the dish, and a normal smell does not prove the pasta was stored safely.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": ["pasta"],
+    "article_types": ["storage", "food-safety"],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>A pot of leftover pasta looks harmless, but once cooked it contains plenty of water and starch that microorganisms can use. <strong>Its safety depends more on cooling and refrigeration history than on whether it still smells fine on day four.</strong></p><h2>The practical refrigerator window is 3–4 days</h2><p>USDA gives most cooked leftovers a refrigerator life of three to four days at 40°F (4°C) or below. Plain cooked pasta fits comfortably within that general rule.</p><p>The clock starts when the pasta is cooked, not when you first reopen the container. Reheating it does not reset its age.</p><h2>Refrigerate within 2 hours</h2><p>Cooked food should not sit at room temperature for more than two hours, or one hour above 90°F (32°C). Divide a large batch into shallow containers so heat can escape quickly.</p><p>You do not need to leave a huge pot on the counter until every noodle is completely cold. That can keep the center warm for too long.</p><h2>Pasta with sauce may have a different practical limit</h2><p>Simple tomato sauce can generally follow the same leftover window. A sauce containing seafood, meat, cream, or another highly perishable ingredient should follow whichever component has the shorter safe storage time.</p><p>Mixing yesterday's pasta with a three-day-old sauce does not create a fresh dish. The oldest ingredient still counts.</p><h2>A covered container protects quality and reduces contamination</h2><p>Store pasta in a clean, covered container. This limits drying, refrigerator odors, and contact contamination from other foods.</p><p>A little oil may keep noodles from sticking, but it does not extend safe storage. Time and temperature—not looseness of the noodles—control the microbiological clock.</p><h2>How can you tell when pasta is bad?</h2><p>Mold, an unpleasant odor, unusual slime, or obvious deterioration are reasons to throw it away. The reverse is not reliable: normal appearance and smell do not certify safety.</p><p>If the pasta has been refrigerated too long or sat out for hours, a sniff test should not be used to grant it extra time.</p><h2>How to reheat it</h2><p>Heat only the amount you plan to eat and make sure it becomes hot throughout. In a microwave, stirring midway helps eliminate cold spots. On the stove, a splash of water or sauce can restore moisture.</p><p>Reheating kills many active bacteria, but it does not erase unsafe storage history or reliably destroy every toxin that certain bacteria may have produced.</p><h2>Can cooked pasta be frozen?</h2><p>Yes. If you know you will not eat it within a few days, freeze it early in meal-size portions. Pasta that was already very soft may become softer after thawing.</p><p>Freezing on day one is better than waiting until the end of day four. A freezer pauses microbial growth; it does not rewind the previous refrigerator time.</p><h2>The rule worth keeping</h2><p><strong>Cool promptly, refrigerate within two hours, and use within three to four days.</strong> Freeze earlier if that timeline does not work.</p><p>With pasta, as with other leftovers, the time-and-temperature history is more informative than how appetizing it still looks.</p>",
+  "faq": [
+    {"question": "Can I eat cooked pasta after 5 days?", "answer": "USDA's general leftover guidance is 3–4 refrigerated days. Five days is beyond that recommended window."},
+    {"question": "Does pasta with sauce last the same amount of time?", "answer": "Not always. Meat, seafood, cream, or other perishable ingredients may set a shorter safe limit for the whole dish."},
+    {"question": "Can cooked pasta be frozen?", "answer": "Yes. Freeze it early in covered portions if you will not eat it within the 3–4 day refrigerator window."}
+  ],
+  "sources": [
+    {"name": "USDA FSIS — How long can you keep leftovers in the refrigerator?", "url": "https://ask.fsis.usda.gov/article/How-long-can-you-keep-leftovers-in-the-refrigerator", "note": "3–4 day refrigerator guidance for leftovers."},
+    {"name": "FDA — Are You Storing Food Safely?", "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely", "note": "40°F refrigerator temperature and two-hour rule."}
+  ],
+  "image": {
+    "concept": "Cooked pasta stored in a shallow covered container inside a refrigerator, clean editorial food photography, no text.",
+    "alt": "Cooked pasta stored safely in the refrigerator"
+  },
+  "status": "publish"
+}
