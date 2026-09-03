@@ -73,33 +73,6 @@ function food_sitemap_posts( $language ) {
 	);
 }
 
-/** Return whether a taxonomy archive has at least one published post in a language. */
-function food_sitemap_term_has_posts( $taxonomy, $term_id, $language, $include_children = false ) {
-	$query = new WP_Query(
-		array(
-			'post_type'              => 'post',
-			'post_status'            => 'publish',
-			'posts_per_page'         => 1,
-			'fields'                 => 'ids',
-			'ignore_sticky_posts'    => true,
-			'no_found_rows'          => true,
-			'update_post_meta_cache' => false,
-			'update_post_term_cache' => false,
-			'meta_query'             => array( food_sitemap_language_clause( $language ) ),
-			'tax_query'              => array(
-				array(
-					'taxonomy'         => $taxonomy,
-					'field'            => 'term_id',
-					'terms'            => array( (int) $term_id ),
-					'include_children' => (bool) $include_children,
-				),
-			),
-			'food_language_bypass'   => 1,
-		)
-	);
-	return $query->have_posts();
-}
-
 /** Return the static/public editorial URLs for one language. */
 function food_sitemap_static_urls( $language ) {
 	$language = 'en' === $language ? 'en' : 'es';
@@ -118,13 +91,13 @@ function food_sitemap_static_urls( $language ) {
 	return array_values( array_unique( array_filter( $urls ) ) );
 }
 
-/** Return category and topic archive URLs that contain published content in one language. */
+/** Return every public category and topic archive URL for one language. */
 function food_sitemap_taxonomy_urls( $language ) {
 	$language = 'en' === $language ? 'en' : 'es';
 	$urls     = array();
 
 	$parent = get_category_by_slug( 'alimentos' );
-	if ( $parent instanceof WP_Term && food_sitemap_term_has_posts( 'category', $parent->term_id, $language, true ) ) {
+	if ( $parent instanceof WP_Term ) {
 		$urls[] = 'en' === $language ? home_url( '/en/foods/' ) : home_url( '/alimentos/' );
 	}
 
@@ -132,7 +105,7 @@ function food_sitemap_taxonomy_urls( $language ) {
 		$english_family_slugs = function_exists( 'food_english_family_slugs' ) ? food_english_family_slugs() : array();
 		foreach ( array_keys( food_family_definitions() ) as $slug ) {
 			$term = get_category_by_slug( $slug );
-			if ( ! $term instanceof WP_Term || ! food_sitemap_term_has_posts( 'category', $term->term_id, $language, false ) ) {
+			if ( ! $term instanceof WP_Term ) {
 				continue;
 			}
 			if ( 'en' === $language && isset( $english_family_slugs[ $slug ] ) ) {
@@ -147,7 +120,7 @@ function food_sitemap_taxonomy_urls( $language ) {
 		$english_topic_slugs = function_exists( 'food_english_topic_slugs' ) ? food_english_topic_slugs() : array();
 		foreach ( array_keys( food_topic_definitions() ) as $slug ) {
 			$term = get_term_by( 'slug', $slug, 'food_topic' );
-			if ( ! $term instanceof WP_Term || ! food_sitemap_term_has_posts( 'food_topic', $term->term_id, $language, false ) ) {
+			if ( ! $term instanceof WP_Term ) {
 				continue;
 			}
 			if ( 'en' === $language && isset( $english_topic_slugs[ $slug ] ) ) {
