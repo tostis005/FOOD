@@ -24,6 +24,9 @@ if ( file_exists( $food_language_slugs ) ) {
 	if ( function_exists( 'food_redirect_localized_taxonomy_canonical' ) ) {
 		food_redirect_localized_taxonomy_canonical();
 	}
+	if ( function_exists( 'food_directory_canonical' ) ) {
+		remove_action( 'wp_head', 'food_directory_canonical', 3 );
+	}
 }
 
 function food_seo_is_english() {
@@ -47,6 +50,11 @@ function food_seo_editorial_key() {
 	return is_string( $key ) ? $key : '';
 }
 
+function food_seo_directory_key() {
+	$key = get_query_var( 'food_directory' );
+	return is_string( $key ) ? $key : '';
+}
+
 function food_seo_trim_description( $text, $length = 160 ) {
 	$text = trim( preg_replace( '/\s+/u', ' ', wp_strip_all_tags( strip_shortcodes( (string) $text ) ) ) );
 	if ( '' === $text ) {
@@ -64,12 +72,8 @@ function food_seo_trim_description( $text, $length = 160 ) {
 function food_seo_editorial_description( $key, $language ) {
 	$descriptions = array(
 		'about' => array(
-			'es' => 'Conoce Quinnoa, una publicación digital sobre alimentos, nutrición, calidad, conservación, seguridad alimentaria y cocina.',
-			'en' => 'About Quinnoa, a digital publication covering food, nutrition, quality, storage, food safety and cooking.',
-		),
-		'methodology' => array(
-			'es' => 'Cómo trabaja Quinnoa: fuentes, criterio editorial, precisión y actualización de nuestros contenidos sobre alimentación.',
-			'en' => 'How Quinnoa works: sources, editorial judgment, accuracy and updates across our food content.',
+			'es' => 'Conoce Quinnoa, un espacio digital para entender mejor los alimentos y las preguntas que los rodean.',
+			'en' => 'About Quinnoa, a digital space for understanding food better and exploring the questions around it.',
 		),
 		'contact' => array(
 			'es' => 'Página de contacto de Quinnoa. Puedes enviarnos un mensaje a través del formulario.',
@@ -89,8 +93,14 @@ function food_seo_description() {
 
 	if ( food_seo_is_home() ) {
 		return $english
-			? 'Clear articles about food, nutrition, quality, food safety, storage and cooking, with useful data and practical context.'
-			: 'Artículos claros sobre alimentos, nutrición, calidad, seguridad alimentaria, conservación y cocina, con datos y contexto práctico.';
+			? 'Clear articles to understand food better, with useful data, practical context and answers to everyday questions.'
+			: 'Artículos claros para entender mejor los alimentos, con datos útiles, contexto práctico y respuestas a dudas cotidianas.';
+	}
+
+	if ( 'topics' === food_seo_directory_key() ) {
+		return $english
+			? 'Explore Quinnoa articles by topic and choose the kind of food question you want to understand better.'
+			: 'Explora los artículos de Quinnoa por tema y elige el tipo de pregunta sobre alimentación en el que quieres profundizar.';
 	}
 
 	$editorial_key = food_seo_editorial_key();
@@ -118,7 +128,10 @@ function food_seo_description() {
 			if ( $description ) {
 				return food_seo_trim_description( $description );
 			}
-			return food_seo_trim_description( sprintf( 'Artículos de Quinnoa sobre %s: nutrición, calidad, conservación, seguridad y cocina.', $term->name ) );
+			if ( 'alimentos' === $term->slug ) {
+				return 'Explora Quinnoa por grupos de alimentos y accede a todos los artículos relacionados con cada uno.';
+			}
+			return food_seo_trim_description( sprintf( 'Artículos de Quinnoa sobre %s, explicados desde distintos enfoques y preguntas.', $term->name ) );
 		}
 	}
 
@@ -162,6 +175,10 @@ function food_seo_canonical_url() {
 		return food_seo_add_page_number( $url );
 	}
 
+	if ( 'topics' === food_seo_directory_key() && function_exists( 'food_directory_url' ) ) {
+		return food_directory_url( 'topics', $language );
+	}
+
 	$editorial_key = food_seo_editorial_key();
 	if ( $editorial_key && function_exists( 'food_editorial_page_url' ) ) {
 		return food_editorial_page_url( $editorial_key, $language );
@@ -195,7 +212,14 @@ function food_seo_document_title( $parts ) {
 
 	if ( food_seo_is_home() ) {
 		$parts['title']   = 'Quinnoa';
-		$parts['tagline'] = $english ? 'Food, nutrition, quality, safety, storage and cooking' : 'Alimentos, nutrición, calidad, seguridad, conservación y cocina';
+		$parts['tagline'] = $english ? 'Understand food better' : 'Entender mejor los alimentos';
+		return $parts;
+	}
+
+	if ( 'topics' === food_seo_directory_key() ) {
+		$parts['title'] = $english ? 'Topics' : 'Temas';
+		$parts['site']  = 'Quinnoa';
+		unset( $parts['tagline'] );
 		return $parts;
 	}
 
@@ -316,6 +340,12 @@ function food_seo_hreflang_urls() {
 		return $pairs;
 	}
 
+	if ( 'topics' === food_seo_directory_key() && function_exists( 'food_directory_url' ) ) {
+		$pairs['es'] = food_directory_url( 'topics', 'es' );
+		$pairs['en'] = food_directory_url( 'topics', 'en' );
+		return $pairs;
+	}
+
 	$editorial_key = food_seo_editorial_key();
 	if ( $editorial_key && function_exists( 'food_editorial_page_url' ) ) {
 		$pairs['es'] = food_editorial_page_url( $editorial_key, 'es' );
@@ -367,7 +397,7 @@ function food_seo_hreflang() {
 add_action( 'wp_head', 'food_seo_hreflang', 4 );
 
 /* Replace the basic Article block with a single @graph that also identifies
- * the publication and page, improving entity consistency across the site. */
+ * the site and page, improving entity consistency across the site. */
 remove_action( 'wp_head', 'food_article_schema', 20 );
 
 function food_seo_schema() {
@@ -453,7 +483,7 @@ function food_seo_schema() {
 		$breadcrumbs[] = array(
 			'@type'    => 'ListItem',
 			'position' => $position,
-			'name'     => is_singular( 'post' ) ? get_the_title( get_queried_object_id() ) : wp_strip_all_tags( get_the_archive_title() ?: wp_get_document_title() ),
+			'name'     => is_singular( 'post' ) ? get_the_title( get_queried_object_id() ) : wp_get_document_title(),
 			'item'     => $canonical,
 		);
 	}
