@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "en-136-soluble-vs-insoluble-fiber",
+  "article_number": 136,
+  "translation_group": "136-soluble-vs-insoluble-fiber",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; fiber physiology and food composition",
+  "title": "Soluble vs. insoluble fiber: differences and food sources",
+  "slug": "soluble-vs-insoluble-fiber",
+  "seo": {"title":"Soluble vs. insoluble fiber: differences and sources","meta_description":"Soluble fiber can dissolve, form gels or ferment; insoluble fiber retains more structure and adds bulk. Most plant foods contain a mixture.","search_intent":"Understand how soluble and insoluble fiber differ and where each is found."},
+  "excerpt": "Soluble fiber disperses in water, and some forms become viscous or highly fermentable; insoluble fiber retains more structure and contributes bulk. Oats, barley, legumes and fruit supply soluble fiber, while wheat bran, whole grains and many vegetables contribute more insoluble fiber. Most whole plant foods contain both.",
+  "taxonomy": {"food_family":"general","food_subcategories":["fiber"],"article_types":["comparison","nutrition-explainer"],"primary_article_type":"comparison"},
+  "content_html": "<p>“Soluble versus insoluble” is a useful shortcut, but fiber biology is more complicated than two boxes. Foods usually contain mixtures, and properties such as viscosity and fermentability can matter as much as whether a fiber dissolves in water.</p><h2>What soluble fiber does</h2><p>Soluble fibers disperse in water. Some, including oat and barley beta-glucans and psyllium, form viscous solutions that can slow nutrient movement through the gut. Many soluble fibers are also fermented by colonic microbes.</p><h2>What insoluble fiber does</h2><p>Insoluble fibers retain more physical structure. Cellulose and parts of hemicellulose add fecal bulk and can help stool move through the intestine. Wheat bran is the classic example.</p><table><thead><tr><th>Fiber pattern</th><th>Common sources</th></tr></thead><tbody><tr><td>More soluble/viscous or fermentable</td><td>Oats, barley, legumes, apples, citrus, psyllium</td></tr><tr><td>More insoluble</td><td>Wheat bran, whole grains, vegetable skins, nuts</td></tr><tr><td>Meaningful mixture</td><td>Beans, fruit, vegetables, nuts and seeds</td></tr></tbody></table><h2>Soluble does not automatically mean prebiotic</h2><p>A prebiotic must be selectively used by host microorganisms and produce a demonstrated health benefit. Some fibers meet that definition and others do not. Soluble, fermentable and prebiotic are therefore overlapping ideas, not synonyms.</p><h2>You usually want both</h2><p>Legumes, whole grains, fruit, vegetables, nuts and seeds naturally supply different fiber fractions. A varied plant-rich diet is generally more useful than trying to micromanage soluble and insoluble grams.</p>",
+  "faq": [{"question":"Which type of fiber is better for constipation?","answer":"It depends. Psyllium and other viscous fibers can help, while insoluble fiber can increase stool bulk. Increasing fiber gradually and drinking enough fluid are important."},{"question":"Does oatmeal contain soluble fiber?","answer":"Yes. Oats are particularly known for beta-glucan, a soluble viscous fiber, while also containing other fiber fractions."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Total fiber values in foods."},{"name":"NIDDK — Digestive health and fiber","url":"https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition","note":"Practical fiber guidance."}],
+  "image": {"concept":"Oats, beans, apple and wheat bran arranged as overlapping soluble and insoluble fiber sources, no text.","alt":"Foods containing soluble and insoluble fiber"},
+  "status":"publish"
+}
