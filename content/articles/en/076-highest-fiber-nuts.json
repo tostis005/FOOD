@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-076-highest-fiber-nuts",
+  "article_number": 76,
+  "translation_group": "076-highest-fiber-nuts",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and 1-ounce serving context",
+  "title": "The highest-fiber nuts",
+  "slug": "highest-fiber-nuts",
+  "seo": {
+    "title": "Highest-fiber nuts: ranked per 100 g and per serving",
+    "meta_description": "Almonds and pistachios rank high for fiber, but a real serving is about 1 ounce. Compare fiber per 100 g and per handful.",
+    "search_intent": "Identify the highest-fiber nuts while translating per-100-g values into realistic portions."
+  },
+  "excerpt": "Almonds lead many common nuts at about 12.5 g of fiber per 100 g, followed by pistachios and hazelnuts around 10 g. In a 1-ounce serving, that becomes roughly 3–3.5 g of fiber, which is useful but much less dramatic than the 100 g ranking suggests.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["nuts"],
+    "article_types": ["ranking", "nutrition-composition"],
+    "primary_article_type": "ranking"
+  },
+  "content_html": "<p>Nuts are concentrated foods: they pack fiber, fat and calories into a small weight. That makes a per-100-g ranking useful for comparison, but not a great description of how people usually eat them. A typical serving is closer to <strong>1 ounce, or 28 g</strong>.</p><h2>Fiber in common nuts</h2><p>The table compares plain nuts without coatings or added ingredients.</p><table><thead><tr><th>Nut</th><th>Fiber/100 g</th><th>Fiber per 1 oz</th></tr></thead><tbody><tr><td>Almonds</td><td>~12.5 g</td><td>~3.5 g</td></tr><tr><td>Pistachios</td><td>~10.3 g</td><td>~2.9 g</td></tr><tr><td>Hazelnuts</td><td>~9.7 g</td><td>~2.7 g</td></tr><tr><td>Pecans</td><td>~9.6 g</td><td>~2.7 g</td></tr><tr><td>Peanuts</td><td>~8.5 g</td><td>~2.4 g</td></tr><tr><td>Walnuts</td><td>~6.7 g</td><td>~1.9 g</td></tr><tr><td>Cashews</td><td>~3.3 g</td><td>~0.9 g</td></tr></tbody></table><p>Almonds do lead, but the gap between almonds and pistachios is well under 1 g of fiber in a normal serving. That is a meaningful difference on paper, not a reason to treat the others as low-fiber foods.</p><h2>Serving size matters because calories are concentrated too</h2><p>One hundred grams of almonds provides roughly 579 calories. One ounce is about 164 calories and around 3.5 g of fiber. The serving-level figure is far more useful for planning a snack.</p><p>If the goal is simply to increase fiber, it usually makes more sense to combine nuts with legumes, fruit, vegetables and whole grains rather than dramatically increasing nut portions.</p><h2>Peanuts are the botanical exception</h2><p>Peanuts are legumes, not tree nuts, but they are eaten like nuts and are useful to include for context. They provide roughly 8.5 g of fiber per 100 g and around 2.4 g per ounce.</p><h2>Fiber does not arrive alone</h2><p>An ounce of almonds also provides about 6 g of protein and 14 g of fat, mostly unsaturated. Pistachios and peanuts similarly combine fiber with protein and fat.</p><p>That package helps make a modest portion more filling than the same weight of a highly refined snack.</p><h2>The useful takeaway</h2><p><strong>Almonds, pistachios, hazelnuts and pecans are among the strongest nut choices for fiber.</strong> But the practical difference between the top few is small enough that preference, portion size and overall diet matter more than the exact ranking.</p>",
+  "faq": [
+    {"question": "Which nut has the most fiber?", "answer": "Among common nuts, almonds are near the top at about 12.5 g of fiber per 100 g."},
+    {"question": "How much fiber is in an ounce of almonds?", "answer": "About 3.5 g of fiber per 1-ounce serving."},
+    {"question": "Are cashews high in fiber?", "answer": "They contain less fiber than almonds or pistachios: about 3.3 g per 100 g, or roughly 0.9 g per ounce."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Fiber, energy and macronutrient composition of nuts."}
+  ],
+  "image": {
+    "concept": "Small bowls of almonds, pistachios, hazelnuts, walnuts and cashews arranged on a table, clean editorial food photography, no text.",
+    "alt": "Different nuts compared for fiber content"
+  },
+  "status": "publish"
+}
