@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-067-moldy-cheese-when-safe-discard",
+  "article_number": 67,
+  "translation_group": "067-moldy-cheese-when-safe-discard",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA mold guidance by cheese texture and moisture",
+  "title": "Moldy cheese: when can you cut it off and when should you throw it away?",
+  "slug": "moldy-cheese-when-safe-discard",
+  "seo": {
+    "title": "Moldy cheese: when to cut it off and when to throw it away",
+    "meta_description": "Hard cheese can sometimes be saved by cutting at least 1 inch around and below mold. Soft, shredded, sliced, or crumbled cheese should be discarded.",
+    "search_intent": "Determine when accidental mold on cheese can be safely trimmed and when the entire product should be discarded."
+  },
+  "excerpt": "It depends on the cheese. On a solid block of hard cheese, accidental mold can be removed by cutting at least 1 inch (2.5 cm) around and below the visible spot without dragging the knife through the mold. Soft or fresh cheese, plus shredded, sliced, or crumbled cheese, should be discarded because growth can spread below the surface. Intentional mold in blue cheese or Brie is a different case.",
+  "taxonomy": {
+    "food_family": "dairy",
+    "food_subcategories": ["cheese"],
+    "article_types": ["food-safety", "storage", "myths-faq"],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>A green spot on cheese does not always mean the entire block belongs in the trash, but scraping the colored surface is not enough either. The decision depends mainly on <strong>how firm and moist the cheese is and whether it is a solid block or already shredded or sliced.</strong></p><h2>Hard cheese can often be trimmed generously</h2><p>On firm cheeses such as Cheddar, Parmesan, or similar hard blocks, mold has more difficulty penetrating deeply. USDA recommends cutting at least <strong>1 inch around and below</strong> the visible mold spot.</p><p>Keep the knife out of the mold itself so you do not drag spores through the portion you plan to keep. After trimming, rewrap the cheese in clean material.</p><h2>Soft and fresh cheese should be discarded</h2><p>Cream cheese, cottage cheese, ricotta, fresh cheese, and other high-moisture cheeses do not offer the same safety margin. Mold can spread well beneath the visible surface.</p><p>For these foods, removing the colored patch is not enough. <strong>Discard the entire container or piece.</strong></p><h2>Shredded, sliced, and crumbled cheese should also go</h2><p>Even when the original cheese was hard, shredding or slicing creates many exposed surfaces and distributes pieces throughout the package. There is no longer a clean solid area that can be separated with a wide cut.</p><p>A package of shredded Parmesan, sliced Cheddar, or crumbled cheese with unintended mold should therefore be thrown away.</p><h2>Intentional cheese mold is different</h2><p>Roquefort, Gorgonzola, Stilton, and other blue cheeses are made with selected mold cultures. Brie and Camembert also develop their characteristic white mold rind as part of normal production.</p><p>That does not mean every new mold growth is desirable. A color, smell, or texture that is clearly different from the cheese's normal mold—especially on a damaged or slimy area—should be treated as unintended spoilage.</p><h2>Why isn't scraping enough?</h2><p>The colored patch is only the visible part of a mold colony. Microscopic filaments can extend inside the food. In hard cheese that penetration is generally limited, which is why USDA allows a generous 1-inch trim; in soft foods it can extend much farther.</p><p>Some molds can also occur alongside bacteria, and some species can produce mycotoxins. You cannot reliably identify the risk by color alone.</p><h2>After trimming a hard cheese</h2><p>Clean the knife and work surface, use fresh wrapping, and check foods that were touching the cheese. Keep the refrigerator cold and clean.</p><p>If there are multiple mold spots, widespread deterioration, an abnormal odor, or the piece is too small to leave a full 1-inch margin, discarding the whole cheese is the more sensible choice.</p><h2>The rule to remember</h2><p><strong>Solid hard cheese: trim generously. Soft, fresh, shredded, crumbled, or sliced cheese: discard the whole product.</strong></p><p>And mold that belongs in a blue or mold-ripened cheese is not interpreted the same way as accidental growth on a cheese that should not be moldy.</p>",
+  "faq": [
+    {"question": "Can I cut mold off hard cheese?", "answer": "Yes, when the mold is localized on a solid hard cheese. Cut at least 1 inch around and below the visible spot."},
+    {"question": "What about soft cheese?", "answer": "Discard it entirely. Mold can spread below the visible surface in high-moisture cheese."},
+    {"question": "Can shredded cheese be saved if only one piece is moldy?", "answer": "No. Shredded, sliced, or crumbled cheese should be discarded when unintended mold appears."}
+  ],
+  "sources": [
+    {"name": "USDA FSIS — If food has mold, is it safe to eat?", "url": "https://ask.fsis.usda.gov/article/If-food-has-mold-is-it-safe-to-eat", "note": "Hard-cheese trimming rule and soft-cheese discard guidance."},
+    {"name": "FDA — Are You Storing Food Safely?", "url": "https://www.fda.gov/consumers/consumer-updates/are-you-storing-food-safely", "note": "General refrigerator and food-storage safety context."}
+  ],
+  "image": {
+    "concept": "A hard cheese block with one small mold spot beside a container of soft fresh cheese, clean editorial food photography, no text.",
+    "alt": "Hard and soft cheeses illustrating different mold-safety rules"
+  },
+  "status": "publish"
+}
