@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-079-high-protein-high-fiber-foods",
+  "article_number": 79,
+  "translation_group": "079-high-protein-high-fiber-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and realistic serving sizes",
+  "title": "Foods high in both protein and fiber",
+  "slug": "high-protein-high-fiber-foods",
+  "seo": {
+    "title": "High-protein, high-fiber foods: the best combinations",
+    "meta_description": "Legumes, edamame, nuts, seeds and some whole grains provide protein and fiber together. Compare realistic serving amounts.",
+    "search_intent": "Find foods that provide meaningful amounts of protein and fiber in the same serving."
+  },
+  "excerpt": "Legumes are the clearest high-protein, high-fiber foods: 1 cup of cooked lentils provides about 18 g of protein and 16 g of fiber, while black beans and chickpeas deliver similarly strong combinations. Edamame, peas, nuts, seeds and whole grains add both nutrients too, but in different proportions.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": ["legumes", "nuts", "seeds", "whole-grains"],
+    "article_types": ["ranking", "nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Many classic protein foods contain no fiber at all: meat, fish, eggs and most dairy products are obvious examples. Plenty of fiber-rich foods, meanwhile, do not provide much protein. The list gets shorter when you ask one food to deliver <strong>meaningful amounts of both</strong>.</p><h2>Legumes are the strongest overlap</h2><p>The comparisons below use cooked portions rather than dry weights.</p><table><thead><tr><th>Food and serving</th><th>Protein</th><th>Fiber</th><th>Approx. calories</th></tr></thead><tbody><tr><td>Cooked lentils, 1 cup</td><td>~18 g</td><td>~16 g</td><td>~230</td></tr><tr><td>Cooked black beans, 1 cup</td><td>~15 g</td><td>~15 g</td><td>~225</td></tr><tr><td>Cooked chickpeas, 1 cup</td><td>~15 g</td><td>~12–13 g</td><td>~270</td></tr><tr><td>Cooked edamame, 1 cup</td><td>~18 g</td><td>~8 g</td><td>~190</td></tr><tr><td>Cooked green peas, 1 cup</td><td>~8–9 g</td><td>~9 g</td><td>~135</td></tr><tr><td>Almonds, 1 oz</td><td>~6 g</td><td>~3.5 g</td><td>~164</td></tr><tr><td>Chia seeds, 2 tbsp (~24 g)</td><td>~4 g</td><td>~8 g</td><td>~117</td></tr></tbody></table><p>Legumes stand out because a normal bowl can supply roughly <strong>15–18 g of protein and 12–16 g of fiber at the same time</strong>.</p><h2>Edamame leans more heavily toward protein</h2><p>Edamame is immature soy. A cup provides roughly 18 g of protein and 8 g of fiber. That is less fiber than lentils or beans but still an unusual combination compared with most protein-rich foods.</p><h2>Nuts and seeds help, but serving size changes the picture</h2><p>Per 100 g, nuts and seeds can look spectacular. A realistic nut serving is about 1 ounce, however. An ounce of almonds provides about 6 g of protein and 3.5 g of fiber.</p><p>Chia goes the other direction: two tablespoons can provide around 8 g of fiber but only about 4 g of protein. It is an excellent fiber addition, not usually the main protein anchor of a meal.</p><h2>Whole grains contribute both, but usually less than legumes</h2><p>Oats, quinoa, buckwheat and other whole grains or pseudograins contribute protein and fiber. Half a cup of dry rolled oats, for example, provides roughly 5 g of protein and 4 g of fiber before cooking. Useful, but still well below a cup of lentils for both nutrients.</p><h2>Why the combination is useful</h2><p>Protein supplies amino acids for tissues and normal body functions; fiber supports bowel function and provides substrate for parts of the gut microbiome. In practical meal design, both can also contribute to fullness.</p><h2>Not every ingredient has to do both jobs</h2><p>A meal can be high in protein and fiber even when its main protein food has no fiber. Chicken with beans and vegetables, for example, can provide more total protein than beans alone while keeping fiber high.</p><h2>The simplest starting point</h2><p>If you want both nutrients in one ingredient, <strong>start with legumes</strong>. Lentils, beans, chickpeas, soy foods and peas are difficult to beat for the combination of protein, fiber and a serving size that fits naturally into a meal.</p>",
+  "faq": [
+    {"question": "What food is high in both protein and fiber?", "answer": "Legumes are among the best combinations. A cup of cooked lentils provides about 18 g of protein and 16 g of fiber."},
+    {"question": "Does meat have fiber?", "answer": "No. Meat, fish and eggs provide protein but essentially no dietary fiber."},
+    {"question": "Do nuts have both protein and fiber?", "answer": "Yes, though the amounts in a 1-ounce serving are moderate. Almonds provide about 6 g of protein and 3.5 g of fiber."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein, fiber and energy values for legumes, edamame, nuts, seeds and oats."},
+    {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/", "note": "Dietary context for protein foods and fiber-rich plant foods."}
+  ],
+  "image": {
+    "concept": "Bowl with lentils, black beans and edamame beside almonds, chia and oats, clean editorial food photography, no text.",
+    "alt": "Foods that provide both protein and fiber"
+  },
+  "status": "publish"
+}
