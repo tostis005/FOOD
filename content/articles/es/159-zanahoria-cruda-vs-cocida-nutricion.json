@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "id": "es-159-zanahoria-cruda-vs-cocida-nutricion",
+  "article_number": 159,
+  "translation_group": "159-raw-vs-cooked-carrot",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y biodisponibilidad de beta-caroteno",
+  "title": "Zanahoria cruda vs. cocida: cómo cambia nutricionalmente",
+  "slug": "zanahoria-cruda-vs-cocida-nutricion",
+  "seo": {"title":"Zanahoria cruda vs. cocida: diferencias nutricionales","meta_description":"Cocinar zanahoria ablanda la matriz vegetal y puede mejorar la absorción de beta-caroteno; fibra y minerales permanecen, mientras algunas vitaminas sensibles pueden disminuir.","search_intent":"Comparar zanahoria cruda y cocida y entender qué ocurre con beta-caroteno, fibra y respuesta glucémica."},
+  "excerpt": "La zanahoria cocida no pierde su principal interés nutricional. El beta-caroteno sigue presente y puede aprovecharse mejor porque el calor ablanda las paredes celulares. La fibra permanece en gran medida; algunas vitaminas sensibles al calor pueden bajar. Cocinar puede aumentar la rapidez con que se digieren sus carbohidratos, pero una ración sigue teniendo una carga glucémica relativamente baja.",
+  "taxonomy": {"food_family":"vegetables","food_subcategories":["carrot"],"article_types":["comparison","food-science"],"primary_article_type":"comparison"},
+  "content_html": "<p>La zanahoria se ablanda al cocinarse porque sus paredes celulares pierden rigidez. Ese cambio de textura también modifica cómo accedemos a los carotenoides almacenados dentro.</p><h2>El beta-caroteno puede aprovecharse mejor</h2><p>La cantidad total no necesariamente aumenta, pero triturar y cocinar rompe la matriz vegetal y facilita la liberación de beta-caroteno. Añadir algo de grasa a la comida mejora además la absorción porque los carotenoides son liposolubles.</p><h2>La fibra no desaparece al ablandarse</h2><p>Una zanahoria cocida parece menos fibrosa al masticar, pero eso no significa que haya perdido la mayor parte de su fibra dietética. El calor modifica la estructura y la textura, no la elimina.</p><table><thead><tr><th>Aspecto</th><th>Cruda</th><th>Cocida</th></tr></thead><tbody><tr><td>Beta-caroteno</td><td>Alto, matriz más intacta</td><td>Alto, más accesible</td></tr><tr><td>Fibra</td><td>Presente, textura firme</td><td>Permanece, tejido blando</td></tr><tr><td>Vitaminas sensibles</td><td>Mejor conservación</td><td>Puede haber pérdidas</td></tr><tr><td>Digestión del almidón/azúcares</td><td>Más lenta en general</td><td>Puede ser más rápida</td></tr></tbody></table><h2>Índice glucémico no equivale a carga alta</h2><p>La cocción puede elevar el IG medido de algunas zanahorias, pero una ración contiene relativamente pocos carbohidratos disponibles. La cantidad total importa tanto como la velocidad relativa.</p><h2>La conclusión</h2><p>Cruda aporta textura y masticación; cocida facilita el acceso a carotenoides. Comer zanahoria de ambas formas es más sensato que considerar una versión nutricionalmente superior en todo.</p>",
+  "faq": [{"question":"¿La zanahoria cocida pierde beta-caroteno?","answer":"Puede haber cambios en la cantidad, pero el calor también rompe la matriz vegetal y puede aumentar la biodisponibilidad del beta-caroteno restante."},{"question":"¿La zanahoria cocida tiene fibra?","answer":"Sí. La textura se ablanda, pero la fibra permanece en gran medida."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Composición de zanahoria cruda y cocida."}],
+  "image": {"concept":"Zanahorias crudas y zanahorias cocidas al vapor con una pequeña cantidad de aceite, sin texto.","alt":"Zanahoria cruda comparada con zanahoria cocida"},
+  "status":"publish"
+}
