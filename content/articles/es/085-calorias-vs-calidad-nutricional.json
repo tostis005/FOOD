@@ -15,20 +15,40 @@
   },
   "excerpt": "Las calorías dicen cuánta energía aporta un alimento, pero no qué nutrientes llegan con ella. Dos opciones de 200 kcal pueden diferir mucho en proteína, fibra, vitaminas, minerales, tipo de grasa, agua y saciedad. Contar energía puede ser útil; usarla como única medida de calidad nutricional deja fuera buena parte de la información.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["nutrition-composition", "myths-faq"],
+    "article_types": [
+      "nutrition-composition",
+      "myths-faq"
+    ],
     "primary_article_type": "nutrition-composition"
   },
   "content_html": "<p>Doscientas calorías son doscientas calorías como cantidad de energía. Pero esa cifra no te dice si proceden de un refresco, un yogur con avena, un puñado de frutos secos o una combinación de lentejas y verduras.</p><p><strong>La energía puede ser igual; el paquete nutricional no.</strong></p><h2>Qué mide realmente una caloría</h2><p>En nutrición, la kilocaloría expresa energía. La grasa aporta aproximadamente 9 kcal por gramo; proteína y carbohidratos, unas 4 kcal/g; el alcohol, unas 7 kcal/g.</p><p>Por eso un alimento con mucha grasa y poca agua suele ser energéticamente denso, mientras verduras o fruta fresca contienen mucha agua y menos energía por 100 g.</p><h2>Lo que la cifra calórica no te cuenta</h2><table><thead><tr><th>Aspecto</th><th>¿Lo muestra “200 kcal”?</th></tr></thead><tbody><tr><td>Proteína</td><td>No</td></tr><tr><td>Fibra</td><td>No</td></tr><tr><td>Vitaminas y minerales</td><td>No</td></tr><tr><td>Tipo de grasa</td><td>No</td></tr><tr><td>Azúcares añadidos</td><td>No</td></tr><tr><td>Sodio/sal</td><td>No</td></tr><tr><td>Agua y volumen</td><td>No</td></tr></tbody></table><p>Dos alimentos pueden coincidir en energía y diferir en prácticamente todos esos criterios.</p><h2>Un ejemplo: 200 kcal de frutos secos y 200 kcal de refresco</h2><p>Unos 30–35 g de almendras se acercan a 180–200 kcal y aportan aproximadamente 6–7 g de proteína, 4 g de fibra, vitamina E, magnesio y grasa mayoritariamente insaturada.</p><p>Una cantidad de refresco azucarado que aporte 200 kcal contiene alrededor de 50 g de azúcar y prácticamente nada de proteína o fibra. La energía es comparable; la composición no.</p><p>Esto no significa que las calorías del refresco “no cuenten”. Significa que contar solo calorías no explica el valor nutricional de la elección.</p><h2>Un alimento nutritivo también puede ser muy calórico</h2><p>El error contrario es asumir que “nutritivo” significa “puedo comer cualquier cantidad”. Cien gramos de nueces rondan 650 kcal; 30 g, unas 195 kcal. El aceite de oliva aporta cerca de 900 kcal/100 g.</p><p>Ambos pueden encajar perfectamente en una dieta saludable y, al mismo tiempo, mover mucho la energía total si la porción aumenta.</p><h2>La densidad energética y la densidad nutricional son conceptos distintos</h2><p>La densidad energética indica cuántas calorías hay por peso. La densidad nutricional intenta describir cuántos nutrientes valiosos aporta el alimento en relación con esa energía o cantidad.</p><p>Una espinaca es baja en densidad energética y rica en ciertos micronutrientes. Las nueces son altas en densidad energética y también aportan nutrientes. No hay contradicción: son dos ejes diferentes.</p><h2>Las calorías siguen importando</h2><p>El balance energético influye en el peso corporal a lo largo del tiempo. Ignorar la energía porque un alimento sea “saludable” no cambia esa realidad.</p><p>Lo útil es colocar las calorías dentro de una pregunta más amplia: <strong>¿qué nutrientes, saciedad y función alimentaria obtengo con esa energía?</strong></p><h2>Una forma mejor de comparar</h2><p>Cuando dos productos cumplen una función similar, compara energía y además proteína, fibra, grasa saturada frente a insaturada, azúcares, sal e ingredientes. Después tradúcelo a la ración que realmente consumes.</p><p>Las calorías cuentan. <strong>Simplemente no cuentan toda la historia.</strong></p>",
   "faq": [
-    {"question": "¿Las calorías indican si un alimento es saludable?", "answer": "No por sí solas. Miden energía, pero no proteína, fibra, vitaminas, minerales, tipo de grasa, sal ni otros aspectos de calidad nutricional."},
-    {"question": "¿Un alimento nutritivo puede tener muchas calorías?", "answer": "Sí. Frutos secos, semillas, aguacate y aceite de oliva son ejemplos de alimentos energéticamente densos con nutrientes valiosos."},
-    {"question": "¿Entonces las calorías no importan?", "answer": "Sí importan para el balance energético. Lo que no conviene es utilizarlas como la única medida para juzgar un alimento."}
+    {
+      "question": "¿Las calorías indican si un alimento es saludable?",
+      "answer": "No por sí solas. Miden energía, pero no proteína, fibra, vitaminas, minerales, tipo de grasa, sal ni otros aspectos de calidad nutricional."
+    },
+    {
+      "question": "¿Un alimento nutritivo puede tener muchas calorías?",
+      "answer": "Sí. Frutos secos, semillas, aguacate y aceite de oliva son ejemplos de alimentos energéticamente densos con nutrientes valiosos."
+    },
+    {
+      "question": "¿Entonces las calorías no importan?",
+      "answer": "Sí importan para el balance energético. Lo que no conviene es utilizarlas como la única medida para juzgar un alimento."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición y energía de los alimentos utilizados como ejemplos."},
-    {"name": "EFSA — Dietary Reference Values", "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values", "note": "Contexto europeo sobre energía y nutrientes."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición y energía de los alimentos utilizados como ejemplos."
+    },
+    {
+      "name": "EFSA — Dietary Reference Values",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
+      "note": "Contexto europeo sobre energía y nutrientes."
+    }
   ],
   "image": {
     "concept": "Dos platos visualmente contrastados con la misma tarjeta conceptual de 200 kcal: almendras y yogur por un lado, bebida azucarada por otro, fotografía editorial sin texto impreso.",

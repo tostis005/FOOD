@@ -16,19 +16,41 @@
   "excerpt": "Si un arroz que debería quedar suelto termina pastoso, normalmente hay demasiado almidón gelatinizado alrededor de los granos. Las causas más comunes son exceso de agua, cocción demasiado larga, remover en exceso o usar una variedad naturalmente adhesiva. Lavar puede retirar almidón superficial en arroces de grano largo, pero no corrige una proporción de agua excesiva ni convierte un arroz de sushi en basmati.",
   "taxonomy": {
     "food_family": "grains-pseudocereals",
-    "food_subcategories": ["rice"],
-    "article_types": ["cooking-science", "kitchen-technique"],
+    "food_subcategories": [
+      "rice"
+    ],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques"
+    ],
     "primary_article_type": "cooking-science"
   },
   "content_html": "<p>El arroz entra en la olla en granos separados y sale como una masa húmeda que se pega a la cuchara. Cuando ese no era el resultado buscado, el problema suele ser el mismo: <strong>demasiado almidón gelatinizado y demasiada humedad alrededor de los granos.</strong></p><p>No existe un único truco para arreglarlo porque agua, variedad, tiempo y movimiento actúan juntos.</p><h2>Demasiada agua es la causa más directa</h2><p>El almidón absorbe agua y se hincha con el calor. Si queda más agua disponible de la que el arroz necesita, los granos continúan hidratándose, pierden estructura y liberan más almidón al líquido.</p><p>La proporción correcta depende de la variedad, del diámetro de la olla, de cuánto vapor se escapa y de si el arroz se ha remojado. Como orientación, muchos arroces de grano largo por absorción funcionan alrededor de <strong>1 parte de arroz por 1,5 partes de agua</strong>, pero la etiqueta del producto es un mejor punto de partida que una cifra universal.</p><h2>Cocerlo demasiado tiempo rompe la estructura</h2><p>Aunque la cantidad de agua sea razonable, prolongar la cocción mantiene el almidón caliente e hidratado. El exterior del grano se ablanda, puede abrirse y libera material que espesa el líquido.</p><p>Cuando el agua ya se ha absorbido, seguir manteniendo el arroz al fuego “por si acaso” suele empeorar la textura.</p><h2>Remover puede convertir almidón superficial en una salsa pegajosa</h2><p>Al mover los granos entre sí se produce fricción y se desprende almidón. En un risotto eso es deliberado: se remueve para favorecer una textura cremosa. En un basmati o un arroz largo que quieres suelto, el mismo mecanismo juega en contra.</p><p>Una vez que comienza la cocción por absorción, evita remover repetidamente salvo que la receta lo pida.</p><h2>La variedad importa más de lo que parece</h2><p>Los arroces con más amilosa, como muchos basmati y arroces de grano largo, tienden a quedar más separados. Variedades con más amilopectina, como arroz de sushi o arroz glutinoso, son naturalmente más adhesivas.</p><p>Ninguna técnica va a conseguir que un arroz glutinoso cocinado correctamente tenga la textura de un basmati. Antes de cambiar el agua, comprueba si la variedad encaja con el resultado que buscas.</p><h2>Lavar ayuda con el almidón de la superficie</h2><p>Al enjuagar arroz de grano largo, el agua arrastra parte del polvo y del almidón que queda en la superficie tras el procesado y el roce entre granos. Eso puede favorecer un resultado más suelto.</p><p>Pero lavar no extrae el almidón del interior del grano. Si después añades demasiada agua o lo cueces en exceso, seguirá quedando blando.</p><h2>El reposo final no es tiempo perdido</h2><p>Cuando termina la cocción, apagar el fuego y dejar el arroz tapado unos <strong>5–10 minutos</strong> permite que la humedad se redistribuya. Después puedes separar suavemente los granos con un tenedor.</p><p>Destaparlo y removerlo agresivamente nada más apagar el fuego puede romper granos todavía muy blandos.</p><h2>Qué hacer si ya ha quedado pastoso</h2><p>No se puede devolver completamente un grano sobrehidratado a su estado original. Si todavía hay agua libre, escúrrela. Después extiende el arroz en una bandeja para que pierda vapor y deja de cocinarse cuanto antes.</p><p>Si la textura ya es muy blanda, puede funcionar mejor reutilizarlo en croquetas de arroz, tortitas, sopas espesas u otras preparaciones donde la cohesión no sea un problema.</p><h2>La secuencia que da un arroz más suelto</h2><p>Elige una variedad adecuada, enjuágala si la receta se beneficia de ello, <strong>mide el agua en lugar de calcularla a ojo</strong>, evita remover durante la absorción y corta la cocción a tiempo. Después deja reposar antes de soltar los granos.</p><p>Cuando el arroz queda pastoso, rara vez necesita un ingrediente secreto: necesita menos agua disponible, menos agresión al grano o una variedad menos adhesiva.</p>",
   "faq": [
-    {"question": "¿Por qué el arroz queda pastoso aunque lo lave?", "answer": "Porque lavar solo reduce almidón superficial. Exceso de agua, sobrecocción o una variedad muy adhesiva pueden seguir produciendo una textura pastosa."},
-    {"question": "¿Hay que remover el arroz mientras se cocina?", "answer": "Si buscas grano suelto, normalmente no. Remover favorece que se desprenda almidón; en risotto se busca ese efecto, pero en arroz largo suele ser contraproducente."},
-    {"question": "¿Cuánto debe reposar el arroz?", "answer": "Un reposo tapado de unos 5–10 minutos después de apagar el fuego suele ayudar a redistribuir la humedad antes de separar los granos."}
+    {
+      "question": "¿Por qué el arroz queda pastoso aunque lo lave?",
+      "answer": "Porque lavar solo reduce almidón superficial. Exceso de agua, sobrecocción o una variedad muy adhesiva pueden seguir produciendo una textura pastosa."
+    },
+    {
+      "question": "¿Hay que remover el arroz mientras se cocina?",
+      "answer": "Si buscas grano suelto, normalmente no. Remover favorece que se desprenda almidón; en risotto se busca ese efecto, pero en arroz largo suele ser contraproducente."
+    },
+    {
+      "question": "¿Cuánto debe reposar el arroz?",
+      "answer": "Un reposo tapado de unos 5–10 minutos después de apagar el fuego suele ayudar a redistribuir la humedad antes de separar los granos."
+    }
   ],
   "sources": [
-    {"name": "Harold McGee — On Food and Cooking", "url": "https://www.curiouscook.com/site/on-food-and-cooking.html", "note": "Gelatinización del almidón y ciencia culinaria de cereales."},
-    {"name": "International Rice Research Institute", "url": "https://www.irri.org/", "note": "Composición del almidón y diferencias entre variedades de arroz."}
+    {
+      "name": "Harold McGee — On Food and Cooking",
+      "url": "https://www.curiouscook.com/site/on-food-and-cooking.html",
+      "note": "Gelatinización del almidón y ciencia culinaria de cereales."
+    },
+    {
+      "name": "International Rice Research Institute",
+      "url": "https://www.irri.org/",
+      "note": "Composición del almidón y diferencias entre variedades de arroz."
+    }
   ],
   "image": {
     "concept": "Dos cazos de arroz, uno con granos sueltos y otro visiblemente pastoso y apelmazado, fotografía editorial limpia sin texto.",

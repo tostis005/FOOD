@@ -15,20 +15,40 @@
   },
   "excerpt": "Procesar un alimento no lo hace automáticamente poco saludable. Congelar verduras, pasteurizar leche, fermentar yogur, cocer legumbres o enlatar pescado son transformaciones que pueden mejorar seguridad, conservación o comodidad y mantener gran parte del valor nutricional. Lo importante es qué proceso se aplica, qué ingredientes se añaden y cuál es el alimento resultante.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["myths-faq", "nutrition-composition"],
+    "article_types": [
+      "myths-faq",
+      "nutrition-composition"
+    ],
     "primary_article_type": "myths-faq"
   },
   "content_html": "<p>Si “procesado” significara “poco saludable”, una bolsa de guisantes congelados, un yogur natural y una lata de sardinas tendrían el mismo problema que una golosina. No lo tienen.</p><p><strong>Procesar significa transformar.</strong> La calidad final depende de qué transformación se hace, qué se añade o elimina y cómo cambia el alimento.</p><h2>Congelar puede conservar muy bien los nutrientes</h2><p>Las verduras destinadas a congelación suelen escaldarse brevemente antes de entrar en el congelador. Ese paso puede reducir parte de vitaminas sensibles al calor o al agua, pero después la congelación frena muchas reacciones de deterioro.</p><p>Una verdura congelada durante meses puede conservar mejor ciertos nutrientes que una verdura “fresca” que ha pasado muchos días entre transporte, tienda y nevera.</p><h2>Pasteurizar sacrifica poco para ganar seguridad</h2><p>La pasteurización de leche utiliza calor suficiente para reducir microorganismos patógenos. Puede producir pequeñas pérdidas de algunas vitaminas sensibles, pero la leche sigue aportando proteína, calcio, fósforo y vitamina B12.</p><p>El cambio nutricional es pequeño frente a la mejora de seguridad microbiológica.</p><h2>Fermentar crea un alimento diferente</h2><p>Yogur, kéfir, queso, tempeh o chucrut dependen de microorganismos. Durante la fermentación pueden cambiar azúcares, ácidos, textura y disponibilidad de ciertos compuestos.</p><p>En el yogur, por ejemplo, las bacterias consumen parte de la lactosa y producen ácido láctico. Eso no convierte automáticamente el producto en mejor o peor: crea un alimento con características distintas.</p><h2>Cocinar también es procesamiento</h2><p>Las legumbres crudas no son simplemente una versión más “natural” de las cocidas. El remojo y la cocción ablandan la estructura, gelatinizan almidón y reducen factores antinutricionales y compuestos problemáticos de algunas legumbres.</p><p>En tomates, el calor puede incluso aumentar la disponibilidad del licopeno, especialmente cuando se combina con algo de grasa.</p><h2>Las conservas pueden seguir siendo nutricionalmente valiosas</h2><p>Sardinas en conserva aportan proteína, omega-3 y, si se comen con espina, mucho calcio. Los garbanzos de bote conservan proteína y fibra. El tomate en conserva mantiene carotenoides y puede tener licopeno muy disponible.</p><p>Lo que sí puede cambiar mucho es el sodio, el aceite, el azúcar u otros ingredientes añadidos. Ahí la etiqueta aporta información que la palabra “procesado” no da.</p><h2>Cuándo el procesamiento sí cambia el perfil de forma importante</h2><p>Freír reduce agua y añade grasa; convertir fruta en zumo reduce fibra y masticación; refinar un cereal elimina parte del salvado y germen; añadir grandes cantidades de azúcar o sal cambia la composición de forma evidente.</p><p>Por ejemplo, 100 g de patata cocida rondan 75–90 kcal, mientras unas patatas fritas pueden superar 300 kcal/100 g. El procesamiento importa, pero por el cambio concreto que produce.</p><h2>La pregunta correcta</h2><p>En lugar de clasificar un alimento como bueno o malo por haber sido procesado, pregunta: <strong>¿qué ha cambiado?</strong> ¿Ha ganado mucha sal, azúcar o grasa? ¿Ha perdido fibra? ¿El proceso mejora seguridad? ¿Hace un alimento nutritivo más accesible o duradero?</p><p>Ese análisis explica mucho más que una etiqueta genérica.</p>",
   "faq": [
-    {"question": "¿Los alimentos procesados son malos?", "answer": "No necesariamente. Congelar, pasteurizar, fermentar, cocinar y enlatar son procesos que pueden conservar valor nutricional y mejorar seguridad o comodidad."},
-    {"question": "¿Las verduras congeladas son menos nutritivas que las frescas?", "answer": "No de forma automática. Pueden perder algo durante el escaldado, pero la congelación ayuda a conservar nutrientes durante el almacenamiento."},
-    {"question": "¿Una conserva puede ser saludable?", "answer": "Sí. Legumbres, pescado o tomate en conserva pueden mantener perfiles nutricionales valiosos; conviene revisar sal, aceite, azúcar y otros ingredientes añadidos."}
+    {
+      "question": "¿Los alimentos procesados son malos?",
+      "answer": "No necesariamente. Congelar, pasteurizar, fermentar, cocinar y enlatar son procesos que pueden conservar valor nutricional y mejorar seguridad o comodidad."
+    },
+    {
+      "question": "¿Las verduras congeladas son menos nutritivas que las frescas?",
+      "answer": "No de forma automática. Pueden perder algo durante el escaldado, pero la congelación ayuda a conservar nutrientes durante el almacenamiento."
+    },
+    {
+      "question": "¿Una conserva puede ser saludable?",
+      "answer": "Sí. Legumbres, pescado o tomate en conserva pueden mantener perfiles nutricionales valiosos; conviene revisar sal, aceite, azúcar y otros ingredientes añadidos."
+    }
   ],
   "sources": [
-    {"name": "FAO — Food processing and nutrition", "url": "https://www.fao.org/", "note": "Contexto general sobre transformación y conservación de alimentos."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Comparaciones de composición entre alimentos frescos, cocinados y procesados."}
+    {
+      "name": "FAO — Food processing and nutrition",
+      "url": "https://www.fao.org/",
+      "note": "Contexto general sobre transformación y conservación de alimentos."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Comparaciones de composición entre alimentos frescos, cocinados y procesados."
+    }
   ],
   "image": {
     "concept": "Verduras congeladas, yogur natural, leche pasteurizada, garbanzos de bote y sardinas en conserva sobre una mesa, fotografía editorial sin texto.",

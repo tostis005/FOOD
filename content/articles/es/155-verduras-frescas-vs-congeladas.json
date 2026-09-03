@@ -8,12 +8,44 @@
   "market_context": "España/Unión Europea; escaldado industrial, congelación y composición de verduras",
   "title": "Verduras frescas vs. congeladas: diferencias nutricionales",
   "slug": "verduras-frescas-vs-congeladas",
-  "seo": {"title":"Verduras frescas vs. congeladas: diferencias","meta_description":"Las verduras congeladas se escaldan antes de congelar, lo que reduce algunas vitaminas sensibles, pero después conservan bien nutrientes. Frescas almacenadas también pierden vitaminas con el tiempo.","search_intent":"Comparar verduras frescas y congeladas y entender cómo escaldado y almacenamiento afectan sus nutrientes."},
+  "seo": {
+    "title": "Verduras frescas vs. congeladas: diferencias",
+    "meta_description": "Las verduras congeladas se escaldan antes de congelar, lo que reduce algunas vitaminas sensibles, pero después conservan bien nutrientes. Frescas almacenadas también pierden vitaminas con el tiempo.",
+    "search_intent": "Comparar verduras frescas y congeladas y entender cómo escaldado y almacenamiento afectan sus nutrientes."
+  },
   "excerpt": "Las verduras congeladas no son nutricionalmente 'de segunda'. El escaldado previo puede reducir vitamina C y folato, pero la congelación frena después muchas pérdidas. Las verduras frescas también pierden vitaminas durante transporte y días de nevera. Fibra, minerales y carotenoides suelen conservarse bien en ambas.",
-  "taxonomy": {"food_family":"vegetables","food_subcategories":["frozen-vegetables"],"article_types":["comparison","nutrition-composition"],"primary_article_type":"comparison"},
-  "content_html": "<p>La principal diferencia técnica entre una judía verde fresca y una congelada no es el hielo: es el <strong>escaldado</strong>. La industria calienta brevemente muchas verduras antes de congelarlas para inactivar enzimas que deteriorarían color, sabor y textura.</p><h2>El escaldado tiene un coste inicial</h2><p>Vitamina C, folato y otras vitaminas hidrosolubles pueden perderse parcialmente con calor y agua. Pero una vez congeladas, las verduras cambian mucho más lentamente que en la nevera.</p><h2>La verdura fresca tampoco queda congelada en el tiempo</h2><p>Brócoli o espinaca siguen respirando tras la cosecha. Días de transporte, exposición y refrigeración reducen algunos compuestos sensibles. Por eso una verdura congelada pronto puede acabar con cifras similares a una fresca almacenada durante bastante tiempo.</p><table><thead><tr><th>Nutriente/propiedad</th><th>Fresca</th><th>Congelada</th></tr></thead><tbody><tr><td>Fibra</td><td>Muy estable</td><td>Muy estable</td></tr><tr><td>Minerales</td><td>Muy estables</td><td>Muy estables</td></tr><tr><td>Vitamina C/folato</td><td>Pérdida con almacenamiento/cocción</td><td>Algo de pérdida en escaldado; luego estable</td></tr><tr><td>Carotenoides</td><td>Bien conservados</td><td>Bien conservados; disponibilidad puede cambiar</td></tr></tbody></table><h2>La cocción en casa puede pesar más</h2><p>Hervir durante mucho tiempo y tirar el agua puede provocar más pérdidas hidrosolubles que la diferencia inicial entre fresco y congelado. Vapor, microondas o cocciones cortas suelen limitar esa lixiviación.</p><h2>La conclusión</h2><p>Frescas de temporada y congeladas simples son ambas excelentes. Las congeladas ganan en duración y comodidad; las frescas pueden ganar en textura. No hay base para asumir que “congelada” significa nutricionalmente pobre.</p>",
-  "faq": [{"question":"¿Por qué se escaldan las verduras antes de congelarlas?","answer":"Para inactivar enzimas que deterioran color, sabor y calidad durante el almacenamiento."},{"question":"¿Las verduras congeladas pierden toda la vitamina C?","answer":"No. Puede haber una pérdida durante el escaldado, pero parte importante permanece y la congelación frena pérdidas posteriores."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Composición de verduras frescas, congeladas y cocinadas."}],
-  "image": {"concept":"Brócoli, guisantes y espinacas frescos junto a versiones congeladas, fotografía editorial sin texto.","alt":"Verduras frescas comparadas con verduras congeladas"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [
+      "frozen-vegetables"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>La principal diferencia técnica entre una judía verde fresca y una congelada no es el hielo: es el <strong>escaldado</strong>. La industria calienta brevemente muchas verduras antes de congelarlas para inactivar enzimas que deteriorarían color, sabor y textura.</p><h2>El escaldado tiene un coste inicial</h2><p>Vitamina C, folato y otras vitaminas hidrosolubles pueden perderse parcialmente con calor y agua. Pero una vez congeladas, las verduras cambian mucho más lentamente que en la nevera.</p><h2>La verdura fresca tampoco queda congelada en el tiempo</h2><p>Brócoli o espinaca siguen respirando tras la cosecha. Días de transporte, exposición y refrigeración reducen algunos compuestos sensibles. Por eso una verdura congelada pronto puede acabar con cifras similares a una fresca almacenada durante bastante tiempo.</p><table><thead><tr><th>Nutriente/propiedad</th><th>Fresca</th><th>Congelada</th></tr></thead><tbody><tr><td>Fibra</td><td>Muy estable</td><td>Muy estable</td></tr><tr><td>Minerales</td><td>Muy estables</td><td>Muy estables</td></tr><tr><td>Vitamina C/folato</td><td>Pérdida con almacenamiento/cocción</td><td>Algo de pérdida en escaldado; luego estable</td></tr><tr><td>Carotenoides</td><td>Bien conservados</td><td>Bien conservados; disponibilidad puede cambiar</td></tr></tbody></table><p>La comparación más justa no es “recién recolectada” frente a “congelada”, sino el producto que realmente llega a casa. Una verdura fresca puede pasar varios días entre cosecha, transporte, tienda y nevera; una congelada suele procesarse pronto y después permanece estable a baja temperatura. Ese recorrido explica por qué no existe una ganadora universal.</p><h2>La cocción en casa puede pesar más</h2><p>Hervir durante mucho tiempo y tirar el agua puede provocar más pérdidas hidrosolubles que la diferencia inicial entre fresco y congelado. Vapor, microondas o cocciones cortas suelen limitar esa lixiviación.</p><p>En una comida real, usar verduras congeladas porque permiten cocinar más verduras con regularidad puede ser nutricionalmente más importante que una pequeña diferencia de vitamina C entre dos muestras. <strong>La disponibilidad y el método de cocción también forman parte del resultado.</strong></p><h2>La conclusión</h2><p>Frescas de temporada y congeladas simples son ambas excelentes. Las congeladas ganan en duración y comodidad; las frescas pueden ganar en textura. No hay base para asumir que “congelada” significa nutricionalmente pobre.</p>",
+  "faq": [
+    {
+      "question": "¿Por qué se escaldan las verduras antes de congelarlas?",
+      "answer": "Para inactivar enzimas que deterioran color, sabor y calidad durante el almacenamiento."
+    },
+    {
+      "question": "¿Las verduras congeladas pierden toda la vitamina C?",
+      "answer": "No. Puede haber una pérdida durante el escaldado, pero parte importante permanece y la congelación frena pérdidas posteriores."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de verduras frescas, congeladas y cocinadas."
+    }
+  ],
+  "image": {
+    "concept": "Brócoli, guisantes y espinacas frescos junto a versiones congeladas, fotografía editorial sin texto.",
+    "alt": "Verduras frescas comparadas con verduras congeladas"
+  },
+  "status": "publish"
 }

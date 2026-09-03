@@ -1,1 +1,74 @@
-{"schema_version":1,"id":"en-319-serrano-ham-vs-iberian-ham","article_number":319,"translation_group":"319-serrano-vs-iberian-ham","language":"en","locale":"en-US","market_context":"International/US reader comparing Spanish dry-cured hams; Spanish legal categories explained","title":"Serrano ham vs. Iberian ham: nutrition and production differences","slug":"serrano-ham-vs-iberian-ham","seo":{"title":"Serrano ham vs. Iberian ham: nutrition and production differences","meta_description":"Serrano and Iberian ham are both Spanish dry-cured hams, but breed, feeding, aging and fat can differ substantially. Here is what those differences mean nutritionally.","search_intent":"Compare Serrano and Iberian ham by production method, labeling, fat, protein and practical nutrition."},"excerpt":"Serrano and Iberian ham share the same basic preservation method, but they are not interchangeable labels. Iberian ham follows breed and feeding rules and generally carries more marbling; Serrano is associated with white-pig dry-cured ham. Nutrition varies enough that the package label matters more than a single generic number.","taxonomy":{"food_family":"meat","food_subcategories":["dry-cured-ham","serrano-ham","iberian-ham","pork"],"article_types":["comparisons","nutrition-composition","processing-production"],"primary_article_type":"comparisons"},"content_html":"<p>Serrano and Iberian ham are easy to lump together: both are salted, slowly dried pork legs cut into very thin slices. The important differences appear before and during curing, and they explain why two plates that look similar can differ in <strong>fat, texture, aroma and price</strong>.</p>\n<h2>Iberian is a regulated production category</h2>\n<p>In Spain, <strong>ibérico</strong> is tied to a specific quality standard. The sale name reflects Iberian breed percentage and production system, including acorn-finished, outdoor feed-finished and conventional feed categories. “Serrano” belongs to a different dry-cured ham tradition and is generally associated with white-pig lines.</p>\n<p>That distinction matters because genetics and feeding affect how much fat is deposited and where it sits in the muscle.</p>\n<h2>Aging time can be very different</h2>\n<p>Spanish Iberian-ham rules set minimum processing times of <strong>600 days for finished hams under 7 kg and 730 days for hams at or above 7 kg</strong>. Serrano ham is commonly matured for a shorter period; Spain’s nutrition foundation describes roughly <strong>7 to 16 months</strong> as a typical range.</p>\n<p>Longer aging means more moisture loss and more time for proteolysis and fat-derived aroma chemistry. It does not create a simple “longer is always better” hierarchy, but it helps explain the denser texture and complex flavor of many Iberian hams.</p>\n<h2>How the nutrition compares</h2>\n<p>Dry curing concentrates nutrients because water leaves the meat. A Spanish reference value for Serrano ham is about <strong>241 calories, 31 g protein and 13 g fat per 100 g</strong>, with roughly <strong>1.11 g sodium</strong>.</p>\n<p>Iberian ham cannot be represented responsibly by one universal figure. In one published analysis of acorn-fed 100% Iberian ham, samples averaged about <strong>35.8 g protein and 26.3 g fat per 100 g</strong>. That is useful as an illustration of how fatty an Iberian product can be, not as a label value for every Iberian ham.</p>\n<h2>The fat profile is part of the story</h2>\n<p>Iberian-ham fat is especially sensitive to breed and feeding system. Acorn-finished products commonly show a high proportion of monounsaturated fat, with oleic acid prominent. Still, both Serrano and Iberian ham are cured meats with substantial salt, so the fat profile should not distract from portion size and sodium.</p>\n<h2>Which one has more protein?</h2>\n<p>Both are protein-dense. The exact ranking changes with fat and moisture: a drier ham concentrates protein, while a fattier ham may have less room per 100 g for lean tissue. If protein, calories or sodium are your priority, <strong>compare the two packages you are actually buying</strong> rather than assuming the category name predicts the number.</p>\n<h2>What to look for when buying</h2>\n<p>For Iberian ham, read the full Spanish sale designation, including feeding category and whether it is 100% Iberian. For either type, compare protein, total and saturated fat, and salt or sodium on a like-for-like 100 g basis. Flavor may be the reason to choose one; the nutrition label is the better tool for deciding how they fit your diet.</p>","faq":[{"question":"Is Iberian ham always fattier than Serrano ham?","answer":"It often has more marbling, but there is no universal number. Breed percentage, feeding system, trimming and the individual product all change fat content."},{"question":"Which has more protein?","answer":"Both are protein-dense. A Spanish reference lists Serrano at 31 g/100 g, while some analyzed Iberian hams are higher; check the specific label for a fair comparison."},{"question":"Does acorn-fed mean 100% Iberian?","answer":"No. Acorn-fed describes the finishing system. Breed percentage is a separate part of the Spanish legal designation."}],"sources":[{"name":"Spanish Ministry of Agriculture — TSG Jamón Serrano","url":"https://www.mapa.gob.es/es/alimentacion/temas/calidad-diferenciada/etg/jamonserrano","note":"Definition and traditional production framework for Serrano ham."},{"name":"Spanish Official State Gazette — Royal Decree 4/2014","url":"https://www.boe.es/buscar/act.php?id=BOE-A-2014-318","note":"Legal Iberian-ham sale names, production categories and minimum aging times."},{"name":"Spanish Nutrition Foundation — Jamón Serrano","url":"https://fen.org.es/MercadoAlimentosFEN/pdfs/jamonserrano.pdf","note":"Reference composition per 100 g."},{"name":"Food Science & Nutrition — acorn-fed 100% Iberian ham profile","url":"https://pubmed.ncbi.nlm.nih.gov/30510757/","note":"Analytical example illustrating protein, fat and salt variability in Iberian ham."}],"image":{"concept":"Two plates of thinly sliced Spanish cured ham, Serrano on one side and Iberian on the other, neutral table, natural editorial food photography, no text.","alt":"Serrano and Iberian ham slices served side by side"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-319-serrano-ham-vs-iberian-ham",
+  "article_number": 319,
+  "translation_group": "319-serrano-vs-iberian-ham",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "International/US reader comparing Spanish dry-cured hams; Spanish legal categories explained",
+  "title": "Serrano ham vs. Iberian ham: nutrition and production differences",
+  "slug": "serrano-ham-vs-iberian-ham",
+  "seo": {
+    "title": "Serrano vs. Iberian ham: nutrition and production",
+    "meta_description": "Serrano and Iberian ham are both Spanish dry-cured hams, but breed, feeding, aging and fat can differ substantially. Here is what those differences mean nutritionally.",
+    "search_intent": "Compare Serrano and Iberian ham by production method, labeling, fat, protein and practical nutrition."
+  },
+  "excerpt": "Serrano and Iberian ham share the same basic preservation method, but they are not interchangeable labels. Iberian ham follows breed and feeding rules and generally carries more marbling; Serrano is associated with white-pig dry-cured ham. Nutrition varies enough that the package label matters more than a single generic number.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "dry-cured-ham",
+      "serrano-ham",
+      "iberian-ham",
+      "pork"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition",
+      "processing-production"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Serrano and Iberian ham are easy to lump together: both are salted, slowly dried pork legs cut into very thin slices. The important differences appear before and during curing, and they explain why two plates that look similar can differ in <strong>fat, texture, aroma and price</strong>.</p>\n<h2>Iberian is a regulated production category</h2>\n<p>In Spain, <strong>ibérico</strong> is tied to a specific quality standard. The sale name reflects Iberian breed percentage and production system, including acorn-finished, outdoor feed-finished and conventional feed categories. “Serrano” belongs to a different dry-cured ham tradition and is generally associated with white-pig lines.</p>\n<p>That distinction matters because genetics and feeding affect how much fat is deposited and where it sits in the muscle.</p>\n<h2>Aging time can be very different</h2>\n<p>Spanish Iberian-ham rules set minimum processing times of <strong>600 days for finished hams under 7 kg and 730 days for hams at or above 7 kg</strong>. Serrano ham is commonly matured for a shorter period; Spain’s nutrition foundation describes roughly <strong>7 to 16 months</strong> as a typical range.</p>\n<p>Longer aging means more moisture loss and more time for proteolysis and fat-derived aroma chemistry. It does not create a simple “longer is always better” hierarchy, but it helps explain the denser texture and complex flavor of many Iberian hams.</p>\n<h2>How the nutrition compares</h2>\n<p>Dry curing concentrates nutrients because water leaves the meat. A Spanish reference value for Serrano ham is about <strong>241 calories, 31 g protein and 13 g fat per 100 g</strong>, with roughly <strong>1.11 g sodium</strong>.</p>\n<p>Iberian ham cannot be represented responsibly by one universal figure. In one published analysis of acorn-fed 100% Iberian ham, samples averaged about <strong>35.8 g protein and 26.3 g fat per 100 g</strong>. That is useful as an illustration of how fatty an Iberian product can be, not as a label value for every Iberian ham.</p>\n<h2>The fat profile is part of the story</h2>\n<p>Iberian-ham fat is especially sensitive to breed and feeding system. Acorn-finished products commonly show a high proportion of monounsaturated fat, with oleic acid prominent. Still, both Serrano and Iberian ham are cured meats with substantial salt, so the fat profile should not distract from portion size and sodium.</p>\n<h2>Which one has more protein?</h2>\n<p>Both are protein-dense. The exact ranking changes with fat and moisture: a drier ham concentrates protein, while a fattier ham may have less room per 100 g for lean tissue. If protein, calories or sodium are your priority, <strong>compare the two packages you are actually buying</strong> rather than assuming the category name predicts the number.</p>\n<h2>What to look for when buying</h2>\n<p>For Iberian ham, read the full Spanish sale designation, including feeding category and whether it is 100% Iberian. For either type, compare protein, total and saturated fat, and salt or sodium on a like-for-like 100 g basis. Flavor may be the reason to choose one; the nutrition label is the better tool for deciding how they fit your diet.</p>",
+  "faq": [
+    {
+      "question": "Is Iberian ham always fattier than Serrano ham?",
+      "answer": "It often has more marbling, but there is no universal number. Breed percentage, feeding system, trimming and the individual product all change fat content."
+    },
+    {
+      "question": "Which has more protein?",
+      "answer": "Both are protein-dense. A Spanish reference lists Serrano at 31 g/100 g, while some analyzed Iberian hams are higher; check the specific label for a fair comparison."
+    },
+    {
+      "question": "Does acorn-fed mean 100% Iberian?",
+      "answer": "No. Acorn-fed describes the finishing system. Breed percentage is a separate part of the Spanish legal designation."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Spanish Ministry of Agriculture — TSG Jamón Serrano",
+      "url": "https://www.mapa.gob.es/es/alimentacion/temas/calidad-diferenciada/etg/jamonserrano",
+      "note": "Definition and traditional production framework for Serrano ham."
+    },
+    {
+      "name": "Spanish Official State Gazette — Royal Decree 4/2014",
+      "url": "https://www.boe.es/buscar/act.php?id=BOE-A-2014-318",
+      "note": "Legal Iberian-ham sale names, production categories and minimum aging times."
+    },
+    {
+      "name": "Spanish Nutrition Foundation — Jamón Serrano",
+      "url": "https://fen.org.es/MercadoAlimentosFEN/pdfs/jamonserrano.pdf",
+      "note": "Reference composition per 100 g."
+    },
+    {
+      "name": "Food Science & Nutrition — acorn-fed 100% Iberian ham profile",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30510757/",
+      "note": "Analytical example illustrating protein, fat and salt variability in Iberian ham."
+    }
+  ],
+  "image": {
+    "concept": "Two plates of thinly sliced Spanish cured ham, Serrano on one side and Iberian on the other, neutral table, natural editorial food photography, no text.",
+    "alt": "Serrano and Iberian ham slices served side by side"
+  },
+  "status": "publish"
+}

@@ -1,1 +1,54 @@
-{"schema_version":1,"id":"en-482-quinoa-gluten","article_number":482,"translation_group":"482-does-quinoa-have-gluten","language":"en","locale":"en-US","market_context":"United States; celiac disease and cross-contact.","title":"Does Quinoa Have Gluten?","slug":"does-quinoa-have-gluten","seo":{"title":"Does Quinoa Have Gluten?","meta_description":"Quinoa is naturally gluten-free. For celiac disease, choose products labeled gluten-free because cross-contact can occur during harvesting or processing.","search_intent":"Know whether quinoa contains gluten and what precautions matter for celiac disease."},"excerpt":"Quinoa is naturally gluten-free and is not related to wheat, barley, or rye. The main concern for celiac disease is cross-contact during harvesting, milling, or packaging, so certified or clearly labeled gluten-free products offer more assurance.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":[],"article_types":["food-safety","myths-faq","nutrition-concepts"],"primary_article_type":"myths-faq"},"content_html":"<p>Quinoa cooks like a grain, but botanically it is not a cereal grain. <strong>Quinoa is naturally gluten-free.</strong></p><h2>The seed itself is not the problem</h2><p>Pure quinoa does not develop gluten. The risk comes from cross-contact if it is harvested, milled, or packaged alongside wheat, barley, or rye.</p><p>The Celiac Disease Foundation lists quinoa among naturally gluten-free foods and recommends tested products when cross-contact is a concern.</p><h2>Whole quinoa versus quinoa products</h2><p>Plain whole quinoa is straightforward. Crackers, pasta, cereal, or flour “made with quinoa” may also contain wheat, so read the full ingredient list.</p><h2>Gluten-free does not mean nutritionally identical</h2><p>Quinoa often provides more protein and fiber than refined gluten-free starch products made mostly from rice or corn starch.</p><p><strong>Quinoa is naturally gluten-free; labeling helps manage what can happen after harvest.</strong></p>","faq":[{"question":"Can someone with celiac disease eat quinoa?","answer":"Yes, provided the product is protected from gluten cross-contact. A labeled gluten-free product offers more assurance."},{"question":"Is quinoa flour always gluten-free?","answer":"Pure quinoa flour is naturally gluten-free, but cross-contact is possible during processing."},{"question":"Is buckwheat gluten-free too?","answer":"Yes. Buckwheat, like quinoa, is naturally gluten-free despite its name."}],"sources":[{"name":"Celiac Disease Foundation — Gluten-Free Foods","url":"https://celiac.org/gluten-free-living/gluten-free-foods/","note":"Lists quinoa as naturally gluten-free and discusses cross-contact."}],"image":{"concept":"Bowl of quinoa clearly separated from wheat grains, realistic editorial food photography, no text.","alt":"Naturally gluten-free quinoa"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-482-quinoa-gluten",
+  "article_number": 482,
+  "translation_group": "482-does-quinoa-have-gluten",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; celiac disease and cross-contact.",
+  "title": "Does Quinoa Have Gluten?",
+  "slug": "does-quinoa-have-gluten",
+  "seo": {
+    "title": "Does Quinoa Have Gluten?",
+    "meta_description": "Quinoa is naturally gluten-free. For celiac disease, choose products labeled gluten-free because cross-contact can occur during harvesting or processing.",
+    "search_intent": "Know whether quinoa contains gluten and what precautions matter for celiac disease."
+  },
+  "excerpt": "Quinoa is naturally gluten-free and is not related to wheat, barley, or rye. The main concern for celiac disease is cross-contact during harvesting, milling, or packaging, so certified or clearly labeled gluten-free products offer more assurance.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [],
+    "article_types": [
+      "food-safety",
+      "myths-faq",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "myths-faq"
+  },
+  "content_html": "<p>Quinoa is cooked like rice and often shelved with grains, but botanically it is a pseudocereal. <strong>The quinoa seed is naturally gluten-free</strong>, so it can fit into a gluten-free diet. The important qualification comes after harvest, when processing, milling, and packaging can introduce cross-contact.</p>\n<h2>Pure quinoa does not contain gluten</h2>\n<p>The gluten proteins relevant to celiac disease are associated with grains such as wheat, barley, and rye. Quinoa is not one of those grasses, and cooking, toasting, or grinding the seed does not make it develop gluten.</p>\n<p>That makes quinoa useful as a side dish, salad base, or flour when someone wants more variety than rice- or corn-based gluten-free staples.</p>\n<h2>The risk comes from the product's journey</h2>\n<p>A naturally gluten-free seed can still encounter wheat or other gluten-containing grains in shared mills, packing lines, or bulk bins. For someone who merely prefers to eat less gluten, that may be a minor detail; for celiac disease, it can be important.</p>\n<p>The Celiac Disease Foundation therefore lists quinoa among naturally gluten-free foods while still emphasizing label checking and cross-contact control when strict avoidance is required.</p>\n<h2>Whole quinoa, quinoa flour, and foods “with quinoa” are different cases</h2>\n<p>A bag of whole quinoa often has a very simple ingredient list. Bread, crackers, pasta, snack bars, or mixes that advertise quinoa on the front may also contain wheat. The highlighted ingredient on the package is not a substitute for reading the full ingredient list.</p>\n<p>Quinoa flour deserves the same attention. The flour itself is gluten-free, but the handling environment still matters. When celiac disease is the reason for buying it, look for labeling or certification appropriate to your market.</p>\n<h2>Gluten-free does not mean nutritionally identical</h2>\n<p>Cooked quinoa provides about 4.4 g protein and 2.8 g fiber per 100 g. Some highly refined gluten-free products are based largely on rice, corn, or potato starch and may provide less fiber or protein. Quinoa can therefore add useful variety, but it is not the only way to build a good gluten-free diet.</p>\n<p><strong>So the short answer is yes: quinoa is naturally gluten-free. For strict gluten avoidance, the more complete answer also includes how the product was processed and what else is in the food you are actually buying.</strong></p>",
+  "faq": [
+    {
+      "question": "Can someone with celiac disease eat quinoa?",
+      "answer": "Yes, provided the product is protected from gluten cross-contact. A labeled gluten-free product offers more assurance."
+    },
+    {
+      "question": "Is quinoa flour always gluten-free?",
+      "answer": "Pure quinoa flour is naturally gluten-free, but cross-contact is possible during processing."
+    },
+    {
+      "question": "Is buckwheat gluten-free too?",
+      "answer": "Yes. Buckwheat, like quinoa, is naturally gluten-free despite its name."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Celiac Disease Foundation — Gluten-Free Foods",
+      "url": "https://celiac.org/gluten-free-living/gluten-free-foods/",
+      "note": "Lists quinoa as naturally gluten-free and discusses cross-contact."
+    }
+  ],
+  "image": {
+    "concept": "Bowl of quinoa clearly separated from wheat grains, realistic editorial food photography, no text.",
+    "alt": "Naturally gluten-free quinoa"
+  },
+  "status": "publish"
+}

@@ -161,6 +161,29 @@ Do not translate idioms or sentence structures mechanically. The English article
 
 On the public website, use “article / artículo” as the default name for editorial content. “Guide / guía” should be reserved for a format that is genuinely a guide rather than used as a generic synonym for every post.
 
+
+## Rankings and ordered comparisons
+
+When the title promises a measurable ranking — for example “highest in protein”, “lowest in calories”, “best sources of iron” or an equivalent ordered comparison — present the core comparison in a table near the top of the article.
+
+Use one comparable basis for all rows and name that basis before the table: per 100 g, per serving, cooked/drained, dry, or another clearly defined state. Do not mix states simply to create a more dramatic order.
+
+A ranking table is not the article. Immediately after it, interpret the meaningful gaps: explain whether first and second place are materially different, what water, processing or serving size does to the order, and when a realistic portion changes the practical conclusion.
+
+Do not reproduce the ranking as a numbered sequence of one- or two-sentence H2 sections. Individual foods deserve their own subsection only when there is genuinely useful context that cannot be conveyed in the table and surrounding narrative.
+
+Do not label a qualitative selection as a ranking when no defensible common metric exists. For multidimensional ideas such as nutrient density, explain the criteria and use an overview table only when it clarifies the comparison; do not invent a composite score.
+
+## Narrative continuity
+
+The article should read as one explanation, not as a stack of answer cards. A reader who goes from the first paragraph to the conclusion should understand why each section follows the previous one.
+
+Avoid a repeated rhythm of `H2 + one short paragraph` when the sections merely split one line of reasoning into fragments. Merge related ideas or add the mechanism, consequence, comparison or practical decision that connects them.
+
+A concise article is acceptable when the question is genuinely narrow, but concision must not remove the reasoning needed to understand the answer. Do not finish an article at the point where the facts have merely been listed.
+
+Internal links may deepen a topic, but the current article must remain self-contained. Never use a link as a substitute for explaining a material concept that the reader needs in order to understand the current answer.
+
 ## Structure
 
 Tables, FAQs and headings are tools, not a mandatory template. Use as many sections as the subject needs and no more.

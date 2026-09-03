@@ -1,1 +1,57 @@
-{"schema_version":1,"id":"es-275-quesos-menos-grasa","article_number":275,"translation_group":"275-lowest-fat-cheeses","language":"es","locale":"es-ES","market_context":"España/Unión Europea; comparación orientativa por 100 g de quesos frescos y madurados con distinta grasa","title":"Los quesos con menos grasa","slug":"quesos-con-menos-grasa","seo":{"title":"Los quesos con menos grasa: ranking por cada 100 g","meta_description":"Cottage 1%, ricotta semidesnatada y algunos quesos frescos tienen mucha menos grasa que mozzarella, feta o cheddar. Compara referencias por 100 g.","search_intent":"Comparar quesos por grasa total en una misma cantidad y entender el efecto de agua, leche desnatada y maduración."},"excerpt":"Los quesos frescos y elaborados con leche parcialmente desnatada suelen ocupar el extremo bajo. Una referencia USDA de cottage 1% aporta ~1 g de grasa/100 g y una ricotta semidesnatada ~7.9 g, frente a ~15.9 g en mozzarella semidesnatada, ~21.3 g en feta y alrededor de 33 g en cheddar. La categoría y la etiqueta concreta importan mucho.","taxonomy":{"food_family":"dairy-cheese","food_subcategories":["cheese","fat","ranking"],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>“Queso” abarca desde productos frescos con más de 80% de agua hasta quesos curados muy concentrados. <strong>Para comparar grasa hay que mirar gramos por 100 g y no asumir que todos los quesos frescos o light son iguales.</strong></p><h2>Referencias orientativas por 100 g</h2><table><thead><tr><th>Queso</th><th>Grasa total</th><th>Kcal aprox.</th></tr></thead><tbody><tr><td>Cottage bajo en grasa 1%</td><td>~1.0 g</td><td>~72</td></tr><tr><td>Ricotta semidesnatada</td><td>~7.9 g</td><td>~138</td></tr><tr><td>Mozzarella semidesnatada</td><td>~15.9 g</td><td>~254</td></tr><tr><td>Feta</td><td>~21.3 g</td><td>~264</td></tr><tr><td>Cheddar</td><td>~33 g</td><td>~400</td></tr></tbody></table><p>Son referencias USDA concretas. En España, un queso fresco batido 0%, un queso fresco tradicional y una mozzarella fresca pueden tener perfiles muy distintos; la etiqueta del producto debe prevalecer sobre el nombre de la categoría.</p><h2>El agua diluye la grasa por 100 g</h2><p>El cottage 1% tiene alrededor de <strong>82–83 g de agua/100 g</strong>. Un queso curado ha perdido mucha más agua, de modo que grasa, proteína, calcio y calorías quedan concentrados en menos peso.</p><h2>La leche de partida también importa</h2><p>Una ricotta semidesnatada con 7.9 g de grasa contiene aproximadamente <strong>8 g menos de grasa por 100 g</strong> que una mozzarella semidesnatada de 15.9 g, y unos 25 g menos que un cheddar cercano a 33 g.</p><h2>“Menos grasa” no siempre significa “menos sodio”</h2><p>El cottage 1% de una referencia USDA aporta alrededor de 406 mg de sodio/100 g, mientras una versión sin sal añadida del mismo estilo puede tener cerca de 13 mg. Grasa y sodio son variables distintas y deben comprobarse por separado.</p><h2>La porción cambia la comparación práctica</h2><p>Treinta gramos de cheddar a 33 g de grasa/100 g aportan alrededor de <strong>9.9 g de grasa</strong>. Cien gramos de cottage 1% aportan ~1 g. El tamaño habitual de ración es muy diferente, así que conviene mirar tanto 100 g como la cantidad realmente consumida.</p><h2>La idea útil</h2><p><strong>Los quesos frescos bajos en grasa, especialmente cottage y productos elaborados con leche desnatada, son los que menos grasa concentran.</strong> La humedad y el porcentaje de grasa de la leche explican gran parte del ranking.</p>","faq":[{"question":"¿Qué queso tiene menos grasa?","answer":"Entre referencias comunes, cottage 1% puede aportar alrededor de 1 g/100 g, muy por debajo de quesos curados."},{"question":"¿La ricotta tiene poca grasa?","answer":"Una ricotta semidesnatada USDA aporta ~7.9 g/100 g, menos que mozzarella semidesnatada (~15.9 g) o feta (~21.3 g)."},{"question":"¿Queso light significa bajo en sodio?","answer":"No. El contenido de grasa y el de sodio son independientes; hay que revisar ambos datos en la etiqueta."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Referencias por 100 g de cottage 1%, ricotta semidesnatada, mozzarella semidesnatada, feta y cheddar."}],"image":{"concept":"Porciones de cottage, ricotta, mozzarella, feta y cheddar ordenadas de menor a mayor contenido graso, fotografía editorial sin texto.","alt":"Quesos comparados por contenido de grasa"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-275-quesos-menos-grasa",
+  "article_number": 275,
+  "translation_group": "275-lowest-fat-cheeses",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; comparación orientativa por 100 g de quesos frescos y madurados con distinta grasa",
+  "title": "Los quesos con menos grasa",
+  "slug": "quesos-con-menos-grasa",
+  "seo": {
+    "title": "Los quesos con menos grasa: ranking por cada 100 g",
+    "meta_description": "Cottage 1%, ricotta semidesnatada y algunos quesos frescos tienen mucha menos grasa que mozzarella, feta o cheddar. Compara referencias por 100 g.",
+    "search_intent": "Comparar quesos por grasa total en una misma cantidad y entender el efecto de agua, leche desnatada y maduración."
+  },
+  "excerpt": "Los quesos frescos y elaborados con leche parcialmente desnatada suelen ocupar el extremo bajo. Una referencia USDA de cottage 1% aporta ~1 g de grasa/100 g y una ricotta semidesnatada ~7.9 g, frente a ~15.9 g en mozzarella semidesnatada, ~21.3 g en feta y alrededor de 33 g en cheddar. La categoría y la etiqueta concreta importan mucho.",
+  "taxonomy": {
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "cheese",
+      "fat",
+      "ranking"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>“Queso” abarca desde productos frescos con más de 80% de agua hasta quesos curados muy concentrados. <strong>Para comparar grasa hay que mirar gramos por 100 g y no asumir que todos los quesos frescos o light son iguales.</strong></p><h2>Referencias orientativas por 100 g</h2><table><thead><tr><th>Queso</th><th>Grasa total</th><th>Kcal aprox.</th></tr></thead><tbody><tr><td>Cottage bajo en grasa 1%</td><td>~1.0 g</td><td>~72</td></tr><tr><td>Ricotta semidesnatada</td><td>~7.9 g</td><td>~138</td></tr><tr><td>Mozzarella semidesnatada</td><td>~15.9 g</td><td>~254</td></tr><tr><td>Feta</td><td>~21.3 g</td><td>~264</td></tr><tr><td>Cheddar</td><td>~33 g</td><td>~400</td></tr></tbody></table><p>Son referencias USDA concretas. En España, un queso fresco batido 0%, un queso fresco tradicional y una mozzarella fresca pueden tener perfiles muy distintos; la etiqueta del producto debe prevalecer sobre el nombre de la categoría.</p><h2>El agua diluye la grasa por 100 g</h2><p>El cottage 1% tiene alrededor de <strong>82–83 g de agua/100 g</strong>. Un queso curado ha perdido mucha más agua, de modo que grasa, proteína, calcio y calorías quedan concentrados en menos peso.</p><h2>La leche de partida también importa</h2><p>Una ricotta semidesnatada con 7.9 g de grasa contiene aproximadamente <strong>8 g menos de grasa por 100 g</strong> que una mozzarella semidesnatada de 15.9 g, y unos 25 g menos que un cheddar cercano a 33 g.</p><h2>“Menos grasa” no siempre significa “menos sodio”</h2><p>El cottage 1% de una referencia USDA aporta alrededor de 406 mg de sodio/100 g, mientras una versión sin sal añadida del mismo estilo puede tener cerca de 13 mg. Grasa y sodio son variables distintas y deben comprobarse por separado.</p><h2>La porción cambia la comparación práctica</h2><p>Treinta gramos de cheddar a 33 g de grasa/100 g aportan alrededor de <strong>9.9 g de grasa</strong>. Cien gramos de cottage 1% aportan ~1 g. El tamaño habitual de ración es muy diferente, así que conviene mirar tanto 100 g como la cantidad realmente consumida.</p><p><strong>Los quesos frescos bajos en grasa, especialmente cottage y productos elaborados con leche desnatada, son los que menos grasa concentran.</strong> La humedad y el porcentaje de grasa de la leche explican gran parte del ranking.</p>",
+  "faq": [
+    {
+      "question": "¿Qué queso tiene menos grasa?",
+      "answer": "Entre referencias comunes, cottage 1% puede aportar alrededor de 1 g/100 g, muy por debajo de quesos curados."
+    },
+    {
+      "question": "¿La ricotta tiene poca grasa?",
+      "answer": "Una ricotta semidesnatada USDA aporta ~7.9 g/100 g, menos que mozzarella semidesnatada (~15.9 g) o feta (~21.3 g)."
+    },
+    {
+      "question": "¿Queso light significa bajo en sodio?",
+      "answer": "No. El contenido de grasa y el de sodio son independientes; hay que revisar ambos datos en la etiqueta."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Referencias por 100 g de cottage 1%, ricotta semidesnatada, mozzarella semidesnatada, feta y cheddar."
+    }
+  ],
+  "image": {
+    "concept": "Porciones de cottage, ricotta, mozzarella, feta y cheddar ordenadas de menor a mayor contenido graso, fotografía editorial sin texto.",
+    "alt": "Quesos comparados por contenido de grasa"
+  },
+  "status": "publish"
+}

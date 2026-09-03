@@ -365,6 +365,17 @@ if ( file_exists( $food_language_routing ) ) {
 	require_once $food_language_routing;
 }
 
+
+$food_internal_linking = get_template_directory() . '/inc/internal-linking.php';
+if ( file_exists( $food_internal_linking ) ) {
+	require_once $food_internal_linking;
+}
+
+$food_article_seo_overrides = get_template_directory() . '/inc/article-seo-overrides.php';
+if ( file_exists( $food_article_seo_overrides ) ) {
+	require_once $food_article_seo_overrides;
+}
+
 $food_editorial_pages = get_template_directory() . '/inc/editorial-pages.php';
 if ( file_exists( $food_editorial_pages ) ) {
 	require_once $food_editorial_pages;

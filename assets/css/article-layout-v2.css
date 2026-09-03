@@ -37,6 +37,37 @@ body.single-post .article-hero-fallback .article-hero-art {
   opacity: .14;
 }
 
+body.single-post .article-context-links {
+  margin: 34px 0 4px;
+  padding: 20px 22px;
+  border-top: 1px solid rgba(73, 62, 49, .14);
+  border-bottom: 1px solid rgba(73, 62, 49, .14);
+}
+
+body.single-post .article-context-links-title {
+  display: block;
+  margin-bottom: 10px;
+  font-size: .88rem;
+  letter-spacing: .055em;
+  text-transform: uppercase;
+}
+
+body.single-post .article-context-links ul {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding-left: 20px;
+}
+
+body.single-post .article-context-links li {
+  margin: 0;
+}
+
+body.single-post .article-context-links a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: 3px;
+}
+
 body.single-post .article-share {
   display: flex;
   align-items: center;
@@ -69,20 +100,9 @@ body.single-post .article-share-button:hover {
   background: rgba(73, 62, 49, .045);
 }
 
-body.single-post .article-share-button:active {
-  transform: translateY(1px);
-}
-
-body.single-post .article-share-button:focus-visible {
-  outline: 2px solid currentColor;
-  outline-offset: 3px;
-}
-
-body.single-post .article-share-button svg {
-  width: 18px;
-  height: 18px;
-  flex: 0 0 auto;
-}
+body.single-post .article-share-button:active { transform: translateY(1px); }
+body.single-post .article-share-button:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; }
+body.single-post .article-share-button svg { width: 18px; height: 18px; flex: 0 0 auto; }
 
 @media (max-width: 680px) {
   body.single-post .article-hero,
@@ -92,16 +112,8 @@ body.single-post .article-share-button svg {
     margin: 2px auto 18px !important;
     border-radius: 14px !important;
   }
-
   body.single-post .article-hero-fallback .food-family-svg,
-  body.single-post .article-hero-fallback .food-topic-svg {
-    width: 58px !important;
-    height: 58px !important;
-  }
-
-  body.single-post .article-share {
-    margin-top: 32px;
-    margin-bottom: 26px;
-    padding-top: 18px;
-  }
+  body.single-post .article-hero-fallback .food-topic-svg { width: 58px !important; height: 58px !important; }
+  body.single-post .article-context-links { margin-top: 28px; padding: 17px 16px; }
+  body.single-post .article-share { margin-top: 32px; margin-bottom: 26px; padding-top: 18px; }
 }

@@ -1,1 +1,58 @@
-{"schema_version":1,"id":"en-431-plant-milks-protein","article_number":431,"translation_group":"431-plant-milks-highest-protein","language":"en","locale":"en-US","market_context":"United States; approximate comparison of commercial plant-based beverages per 1 cup.","title":"Plant-Based Milks Highest in Protein","slug":"plant-milks-highest-protein","seo":{"title":"Plant-Based Milks Highest in Protein","meta_description":"Soy milk commonly provides about 7–9 g protein per cup and pea-based drinks around 7–8 g; oat, almond, and rice beverages are usually much lower.","search_intent":"Compare protein in plant-based beverages and know what to check on the Nutrition Facts label."},"excerpt":"If protein is the priority, soy is usually the most consistent choice at roughly 7–9 g per cup, while some pea-protein beverages are around 7–8 g. Oat milk often provides 2–4 g, almond milk 1–2 g, and rice milk about 0–1 g, although brands vary widely.","taxonomy":{"food_family":"beverages","food_subcategories":[],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>Two cartons sitting side by side can differ in protein by fivefold or more. <strong>The plant source and the formulation matter more than the fact that both are called plant-based beverages.</strong></p><h2>A practical per-cup comparison</h2><table><thead><tr><th>Type</th><th>Typical protein per cup</th></tr></thead><tbody><tr><td>Soy</td><td>~7–9 g</td></tr><tr><td>Pea</td><td>~7–8 g</td></tr><tr><td>Oat</td><td>~2–4 g</td></tr><tr><td>Almond</td><td>~1–2 g</td></tr><tr><td>Rice</td><td>~0–1 g</td></tr></tbody></table><p>These are practical ranges, not standards. Brands can use more or less raw material or add isolated protein.</p><h2>Why soy stands out</h2><p>Soybeans are naturally protein-rich. The FDA notes that fortified soy beverages are the only plant-based alternatives included in the Dairy Group of the Dietary Guidelines because their overall nutrient profile is similar enough to milk.</p><h2>Protein is not the only nutrient to compare</h2><p>If a plant beverage regularly replaces dairy milk, also look at calcium, vitamin D, potassium, added sugars, and saturated fat. An 8 g protein drink with little fortification may serve a different nutritional role from a fortified 7 g drink.</p><h2>The label beats the category name</h2><p>A soy beverage with 8 g protein per cup and an almond beverage with 1 g are not nutritionally equivalent simply because both are white liquids used on cereal. Check the Nutrition Facts panel each time.</p><p><strong>If protein is your main goal, start with soy or pea-based beverages, then verify the actual number on the carton.</strong></p>","faq":[{"question":"Which plant milk has the most protein?","answer":"Soy and many pea-protein beverages are usually highest, around 7–9 g per cup."},{"question":"Is oat milk high in protein?","answer":"Usually not compared with soy; many oat drinks provide about 2–4 g per cup."},{"question":"Does more protein automatically mean better?","answer":"No. Also compare calcium, vitamin D, potassium, added sugar, saturated fat, and how the beverage fits your diet."}],"sources":[{"name":"FDA — Milk and Plant-Based Milk Alternatives: Know the Nutrient Difference","url":"https://www.fda.gov/consumers/consumer-updates/milk-and-plant-based-milk-alternatives-know-nutrient-difference","note":"Explains nutrient variability and the special status of fortified soy beverages."},{"name":"FDA — Using the Nutrition Facts Label to Choose Milk and Plant-Based Beverages","url":"https://www.fda.gov/food/nutrition-education-resources-materials/using-nutrition-facts-label-choose-milk-and-plant-based-beverages","note":"Current guidance to compare protein, calcium, vitamin D, potassium, saturated fat, and added sugar."}],"image":{"concept":"Glasses of soy, pea, oat, almond, and rice beverages beside their ingredients, realistic nutrition editorial photography, no text.","alt":"Different plant-based beverages compared side by side"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-431-plant-milks-protein",
+  "article_number": 431,
+  "translation_group": "431-plant-milks-highest-protein",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; approximate comparison of commercial plant-based beverages per 1 cup.",
+  "title": "Plant-Based Milks Highest in Protein",
+  "slug": "plant-milks-highest-protein",
+  "seo": {
+    "title": "Plant-Based Milks Highest in Protein",
+    "meta_description": "Soy milk commonly provides about 7–9 g protein per cup and pea-based drinks around 7–8 g; oat, almond, and rice beverages are usually much lower.",
+    "search_intent": "Compare protein in plant-based beverages and know what to check on the Nutrition Facts label."
+  },
+  "excerpt": "If protein is the priority, soy is usually the most consistent choice at roughly 7–9 g per cup, while some pea-protein beverages are around 7–8 g. Oat milk often provides 2–4 g, almond milk 1–2 g, and rice milk about 0–1 g, although brands vary widely.",
+  "taxonomy": {
+    "food_family": "beverages",
+    "food_subcategories": [],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Two cartons sitting side by side can differ in protein by fivefold or more. <strong>The plant source and the formulation matter more than the fact that both are called plant-based beverages.</strong></p><h2>A practical per-cup comparison</h2><table><thead><tr><th>Type</th><th>Typical protein per cup</th></tr></thead><tbody><tr><td>Soy</td><td>~7–9 g</td></tr><tr><td>Pea</td><td>~7–8 g</td></tr><tr><td>Oat</td><td>~2–4 g</td></tr><tr><td>Almond</td><td>~1–2 g</td></tr><tr><td>Rice</td><td>~0–1 g</td></tr></tbody></table><p>These are practical ranges, not standards. Brands can use more or less raw material or add isolated protein.</p><p>For drinks, a cup is also the more useful household comparison than 100 g: it reflects the amount people actually pour into cereal, coffee or a glass. The ranking can still shift when a manufacturer reformulates, so the table is a starting point and the carton is the final check.</p><h2>Why soy stands out</h2><p>Soybeans are naturally protein-rich. The FDA notes that fortified soy beverages are the only plant-based alternatives included in the Dairy Group of the Dietary Guidelines because their overall nutrient profile is similar enough to milk.</p><h2>Protein is not the only nutrient to compare</h2><p>If a plant beverage regularly replaces dairy milk, also look at calcium, vitamin D, potassium, added sugars, and saturated fat. An 8 g protein drink with little fortification may serve a different nutritional role from a fortified 7 g drink.</p><h2>The label beats the category name</h2><p>A soy beverage with 8 g protein per cup and an almond beverage with 1 g are not nutritionally equivalent simply because both are white liquids used on cereal. Check the Nutrition Facts panel each time.</p><p><strong>If protein is your main goal, start with soy or pea-based beverages, then verify the actual number on the carton.</strong></p>",
+  "faq": [
+    {
+      "question": "Which plant milk has the most protein?",
+      "answer": "Soy and many pea-protein beverages are usually highest, around 7–9 g per cup."
+    },
+    {
+      "question": "Is oat milk high in protein?",
+      "answer": "Usually not compared with soy; many oat drinks provide about 2–4 g per cup."
+    },
+    {
+      "question": "Does more protein automatically mean better?",
+      "answer": "No. Also compare calcium, vitamin D, potassium, added sugar, saturated fat, and how the beverage fits your diet."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Milk and Plant-Based Milk Alternatives: Know the Nutrient Difference",
+      "url": "https://www.fda.gov/consumers/consumer-updates/milk-and-plant-based-milk-alternatives-know-nutrient-difference",
+      "note": "Explains nutrient variability and the special status of fortified soy beverages."
+    },
+    {
+      "name": "FDA — Using the Nutrition Facts Label to Choose Milk and Plant-Based Beverages",
+      "url": "https://www.fda.gov/food/nutrition-education-resources-materials/using-nutrition-facts-label-choose-milk-and-plant-based-beverages",
+      "note": "Current guidance to compare protein, calcium, vitamin D, potassium, saturated fat, and added sugar."
+    }
+  ],
+  "image": {
+    "concept": "Glasses of soy, pea, oat, almond, and rice beverages beside their ingredients, realistic nutrition editorial photography, no text.",
+    "alt": "Different plant-based beverages compared side by side"
+  },
+  "status": "publish"
+}

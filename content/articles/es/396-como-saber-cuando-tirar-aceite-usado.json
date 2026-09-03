@@ -1,1 +1,64 @@
-{"schema_version":1,"id":"es-396-cuando-tirar-aceite-usado","article_number":396,"translation_group":"396-when-to-discard-used-frying-oil","language":"es","locale":"es-ES","market_context":"España/Unión Europea; aceite de fritura reutilizado en casa","title":"Cómo saber cuándo tirar el aceite usado","slug":"como-saber-cuando-tirar-aceite-usado","seo":{"title":"Cómo saber cuándo tirar el aceite usado","meta_description":"Tira el aceite usado si presenta espuma persistente, olor rancio, oscurecimiento fuerte o empieza a humear antes que cuando era nuevo. El aspecto y el comportamiento importan más que contar frituras.","search_intent":"Reconocer las señales de que un aceite de fritura usado ya está demasiado deteriorado para reutilizarlo."},"excerpt":"El aceite usado debe desecharse cuando cambia claramente su comportamiento: espuma persistente, olor rancio o desagradable, oscurecimiento intenso, textura más viscosa o humo a una temperatura a la que antes no humearía. No hace falta esperar a que aparezcan todas las señales; una degradación evidente ya es razón suficiente para reemplazarlo.","taxonomy":{"food_family":"oils-fats","food_subcategories":["used-oil","frying","oxidation","disposal"],"article_types":["cooking-techniques","food-safety","storage"],"primary_article_type":"cooking-techniques"},"content_html":"<p>El aceite usado rara vez manda una señal única y perfecta de “fin de vida”. Lo habitual es que vaya cambiando poco a poco: color, olor, espuma, viscosidad y temperatura de humo. <strong>Cuando varios de esos cambios son claros, seguir reutilizándolo ya no compensa.</strong></p><h2>Espuma persistente</h2><p>Unas burbujas alrededor del alimento son normales: el agua del alimento está convirtiéndose en vapor. Lo preocupante es una <strong>espuma que permanece sobre gran parte de la superficie</strong> y aparece con facilidad incluso cuando el aceite no está cargado de comida.</p><p>USDA/FSIS incluye la formación de espuma entre las señales para desechar aceite reutilizado.</p><h2>Olor rancio, acre o quemado</h2><p>Un aceite nuevo tiene un aroma propio, pero no debería recordar a grasa vieja, pintura, cartón rancio o quemado. Si esos olores aparecen en frío o se vuelven muy evidentes al calentarlo, la oxidación y la degradación térmica han avanzado.</p><h2>Empieza a humear demasiado pronto</h2><p>El uso repetido modifica la composición del aceite y puede reducir su estabilidad térmica. Si empieza a humear claramente a una temperatura en la que antes freía sin problema, es una señal práctica de deterioro.</p><h2>Oscurecimiento y aumento de viscosidad</h2><p>El color por sí solo no basta: freír alimentos empanados o con pigmentos oscurece el aceite rápidamente. Pero un oscurecimiento progresivo unido a mayor viscosidad, espuma u olor desagradable sí refuerza la decisión de desecharlo.</p><h2>Partículas quemadas</h2><p>Restos de harina, pan rallado o alimento se queman entre tandas y aceleran el deterioro. Filtrar después de cada uso ayuda, pero si el aceite está lleno de partículas carbonizadas no merece la pena intentar “rescatarlo” indefinidamente.</p><h2>No pruebes el aceite para decidir</h2><p>No hace falta catar una cucharada de aceite usado. Olor, aspecto y comportamiento durante el calentamiento aportan información suficiente para detectar un deterioro claro.</p><h2>Cómo desecharlo</h2><p>Déjalo enfriar por completo y pásalo a un recipiente cerrado. No lo viertas por el fregadero: al enfriarse puede adherirse a tuberías y contribuir a atascos. Consulta la recogida municipal de aceite doméstico si existe en tu zona.</p>","faq":[{"question":"¿El aceite muy oscuro hay que tirarlo?","answer":"El color solo no decide, pero si el oscurecimiento se acompaña de espuma, olor rancio, mayor viscosidad o humo prematuro, conviene desecharlo."},{"question":"¿La espuma significa que el aceite está malo?","answer":"Las burbujas alrededor de alimentos húmedos son normales. La señal de deterioro es una espuma persistente y anormal que cubre la superficie."},{"question":"¿Se puede tirar aceite usado por el fregadero?","answer":"No. Déjalo enfriar, guárdalo en un recipiente cerrado y utiliza el sistema local de residuos o reciclaje de aceite."}],"sources":[{"name":"USDA FSIS — Deep Fat Frying and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/deep-fat-frying","note":"Señales prácticas de deterioro y recomendaciones de almacenamiento y eliminación."},{"name":"USDA FSIS — Can oil be reused safely?","url":"https://ask.fsis.usda.gov/article/Can-oil-be-reused-safely","note":"Recomienda desechar aceite turbio, espumoso o con olor/sabor desagradable y no verterlo por el desagüe."}],"image":{"concept":"Dos recipientes con aceite de fritura, uno claro y otro oscuro y usado junto a un colador, fotografía editorial natural sin texto.","alt":"Aceite usado oscuro comparado con aceite en mejor estado"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-396-cuando-tirar-aceite-usado",
+  "article_number": 396,
+  "translation_group": "396-when-to-discard-used-frying-oil",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; aceite de fritura reutilizado en casa",
+  "title": "Cómo saber cuándo tirar el aceite usado",
+  "slug": "como-saber-cuando-tirar-aceite-usado",
+  "seo": {
+    "title": "Cómo saber cuándo tirar el aceite usado",
+    "meta_description": "Tira el aceite usado si presenta espuma persistente, olor rancio, oscurecimiento fuerte o empieza a humear antes que cuando era nuevo. El aspecto y el comportamiento importan más que contar frituras.",
+    "search_intent": "Reconocer las señales de que un aceite de fritura usado ya está demasiado deteriorado para reutilizarlo."
+  },
+  "excerpt": "El aceite usado debe desecharse cuando cambia claramente su comportamiento: espuma persistente, olor rancio o desagradable, oscurecimiento intenso, textura más viscosa o humo a una temperatura a la que antes no humearía. No hace falta esperar a que aparezcan todas las señales; una degradación evidente ya es razón suficiente para reemplazarlo.",
+  "taxonomy": {
+    "food_family": "oils-fats",
+    "food_subcategories": [
+      "used-oil",
+      "frying",
+      "oxidation",
+      "disposal"
+    ],
+    "article_types": [
+      "cooking-techniques",
+      "food-safety",
+      "storage"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p>El aceite usado rara vez manda una señal única y perfecta de “fin de vida”. Lo habitual es que vaya cambiando poco a poco: color, olor, espuma, viscosidad y temperatura de humo. <strong>Cuando varios de esos cambios son claros, seguir reutilizándolo ya no compensa.</strong></p><h2>Espuma persistente</h2><p>Unas burbujas alrededor del alimento son normales: el agua del alimento está convirtiéndose en vapor. Lo preocupante es una <strong>espuma que permanece sobre gran parte de la superficie</strong> y aparece con facilidad incluso cuando el aceite no está cargado de comida.</p><p>USDA/FSIS incluye la formación de espuma entre las señales para desechar aceite reutilizado.</p><h2>Olor y humo: las señales más claras</h2><p>Un aceite nuevo tiene un aroma propio, pero no debería recordar a grasa vieja, pintura, cartón rancio o quemado. Si esos olores aparecen en frío o se vuelven muy evidentes al calentarlo, la oxidación y la degradación térmica han avanzado.</p><p>El uso repetido modifica la composición del aceite y puede reducir su estabilidad térmica. Si empieza a humear claramente a una temperatura en la que antes freía sin problema, es una señal práctica de deterioro.</p><h2>Color, viscosidad y residuos quemados</h2><p>El color por sí solo no basta: freír alimentos empanados o con pigmentos oscurece el aceite rápidamente. Pero un oscurecimiento progresivo unido a mayor viscosidad, espuma u olor desagradable sí refuerza la decisión de desecharlo.</p><p>Restos de harina, pan rallado o alimento se queman entre tandas y aceleran el deterioro. Filtrar después de cada uso ayuda, pero si el aceite está lleno de partículas carbonizadas no merece la pena intentar “rescatarlo” indefinidamente.</p><h2>No hace falta probarlo para decidir</h2><p>No hace falta catar una cucharada de aceite usado. Olor, aspecto y comportamiento durante el calentamiento aportan información suficiente para detectar un deterioro claro.</p><h2>Cómo desecharlo</h2><p>Déjalo enfriar por completo y pásalo a un recipiente cerrado. No lo viertas por el fregadero: al enfriarse puede adherirse a tuberías y contribuir a atascos. Consulta la recogida municipal de aceite doméstico si existe en tu zona.</p>",
+  "faq": [
+    {
+      "question": "¿El aceite muy oscuro hay que tirarlo?",
+      "answer": "El color solo no decide, pero si el oscurecimiento se acompaña de espuma, olor rancio, mayor viscosidad o humo prematuro, conviene desecharlo."
+    },
+    {
+      "question": "¿La espuma significa que el aceite está malo?",
+      "answer": "Las burbujas alrededor de alimentos húmedos son normales. La señal de deterioro es una espuma persistente y anormal que cubre la superficie."
+    },
+    {
+      "question": "¿Se puede tirar aceite usado por el fregadero?",
+      "answer": "No. Déjalo enfriar, guárdalo en un recipiente cerrado y utiliza el sistema local de residuos o reciclaje de aceite."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Deep Fat Frying and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/deep-fat-frying",
+      "note": "Señales prácticas de deterioro y recomendaciones de almacenamiento y eliminación."
+    },
+    {
+      "name": "USDA FSIS — Can oil be reused safely?",
+      "url": "https://ask.fsis.usda.gov/article/Can-oil-be-reused-safely",
+      "note": "Recomienda desechar aceite turbio, espumoso o con olor/sabor desagradable y no verterlo por el desagüe."
+    }
+  ],
+  "image": {
+    "concept": "Dos recipientes con aceite de fritura, uno claro y otro oscuro y usado junto a un colador, fotografía editorial natural sin texto.",
+    "alt": "Aceite usado oscuro comparado con aceite en mejor estado"
+  },
+  "status": "publish"
+}

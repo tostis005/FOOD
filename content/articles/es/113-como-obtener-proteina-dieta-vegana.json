@@ -16,20 +16,47 @@
   "excerpt": "Una dieta vegana puede cubrir la proteína sin necesidad de combinaciones perfectas en cada comida. Como referencia, EFSA establece 0,83 g/kg/día para adultos sanos: unos 58 g para 70 kg. La estrategia más sencilla es incluir 3–4 fuentes potentes al día, como tofu, tempeh, legumbres, soja texturizada, seitán o bebida de soja.",
   "taxonomy": {
     "food_family": "general",
-    "food_subcategories": ["vegan", "plant-protein"],
-    "article_types": ["nutrition-explainer", "practical-how-to"],
-    "primary_article_type": "practical-how-to"
+    "food_subcategories": [
+      "vegan",
+      "plant-protein"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "health-daily-consumption"
   },
   "content_html": "<p>La proteína vegana no suele fallar porque los vegetales “no tengan proteína”, sino porque algunas comidas se construyen solo con verdura, arroz y un poco de aguacate. <strong>Hace falta que haya una fuente proteica central</strong>, igual que en cualquier otra dieta.</p><h2>Usa una referencia antes de complicarlo</h2><p>EFSA establece para adultos sanos una referencia de 0,83 g de proteína por kg de peso y día. Eso equivale aproximadamente a 50 g para 60 kg, 58 g para 70 kg y 66 g para 80 kg.</p><p>Las necesidades pueden subir en deporte, embarazo, lactancia, edades avanzadas o situaciones clínicas, pero esa cifra permite entender la escala.</p><h2>Las fuentes que realmente mueven el total</h2><table><thead><tr><th>Alimento</th><th>Ración</th><th>Proteína aprox.</th></tr></thead><tbody><tr><td>Tempeh</td><td>150 g</td><td>~30 g</td></tr><tr><td>Tofu firme</td><td>150 g</td><td>~18–26 g</td></tr><tr><td>Lentejas cocidas</td><td>200 g</td><td>~18 g</td></tr><tr><td>Edamame</td><td>150 g</td><td>~18 g</td></tr><tr><td>Seitán</td><td>100 g</td><td>~20–25 g</td></tr><tr><td>Bebida de soja</td><td>250 ml</td><td>~7–9 g</td></tr><tr><td>Semillas de cáñamo</td><td>30 g</td><td>~9–10 g</td></tr></tbody></table><p>Dos o tres de estas fuentes durante el día ya aportan una parte importante del objetivo.</p><h2>Un día vegano puede superar 70 g sin proteína en polvo</h2><p>Un desayuno con 250 ml de bebida de soja, 60 g de avena y 20 g de semillas puede acercarse a 20 g. Una comida con 200 g de lentejas puede aportar unos 18 g. Una cena con 150 g de tofu firme puede aportar 20–25 g. Pan, pasta, arroz, frutos secos y verduras añaden más gramos, de modo que el total puede superar <strong>65–75 g</strong>.</p><h2>Las verduras no deberían cargar con el objetivo</h2><p>Brócoli, espinacas o guisantes aportan proteína, pero el volumen necesario para alcanzar 20 g con muchas verduras sería grande. Son alimentos valiosos, pero conviene que acompañen a tofu, legumbres o seitán en lugar de sustituirlos.</p><h2>No necesitas combinar aminoácidos en cada plato</h2><p>Legumbres y cereales tienen perfiles complementarios, pero no hace falta comerlos juntos en todas las comidas. Una dieta variada a lo largo del día proporciona distintos aminoácidos y permite que el organismo utilice el conjunto.</p><h2>La soja facilita mucho las cosas</h2><p>Tofu, tempeh, edamame, bebida de soja y soja texturizada son especialmente útiles porque la proteína de soja tiene una calidad alta y estos alimentos pueden aportar cantidades grandes por ración.</p><h2>Seitán: mucha proteína, pero no conviene que sea la única fuente</h2><p>El seitán puede superar 20 g de proteína por 100 g, pero el gluten es relativamente bajo en lisina. Combinarlo a lo largo del día con legumbres o soja mejora el equilibrio del patrón sin necesidad de fórmulas exactas.</p><h2>Los suplementos son una herramienta, no un requisito</h2><p>Proteínas de soja, guisante u otras mezclas pueden ser útiles para deportistas o personas con poco apetito, pero una dieta basada en alimentos puede cubrir perfectamente necesidades moderadas.</p><h2>La regla práctica</h2><p><strong>Construye cada comida principal alrededor de una fuente potente: legumbres, tofu/tempeh, soja texturizada o seitán.</strong> Usa bebida de soja, frutos secos y semillas para sumar. Con esa estructura, la proteína deja de ser una búsqueda constante.</p>",
   "faq": [
-    {"question": "¿Es difícil obtener proteína siendo vegano?", "answer": "No necesariamente. Con legumbres, tofu, tempeh, seitán y soja repartidos durante el día, las necesidades de la mayoría de adultos sanos pueden cubrirse."},
-    {"question": "¿Hace falta combinar arroz y legumbres en la misma comida?", "answer": "No. La variedad a lo largo del día es suficiente; no es necesario completar aminoácidos de forma exacta en cada plato."},
-    {"question": "¿Un vegano necesita proteína en polvo?", "answer": "No por definición. Puede ser práctica con necesidades altas o poco apetito, pero no es necesaria para cubrir una ingesta moderada."}
+    {
+      "question": "¿Es difícil obtener proteína siendo vegano?",
+      "answer": "No necesariamente. Con legumbres, tofu, tempeh, seitán y soja repartidos durante el día, las necesidades de la mayoría de adultos sanos pueden cubrirse."
+    },
+    {
+      "question": "¿Hace falta combinar arroz y legumbres en la misma comida?",
+      "answer": "No. La variedad a lo largo del día es suficiente; no es necesario completar aminoácidos de forma exacta en cada plato."
+    },
+    {
+      "question": "¿Un vegano necesita proteína en polvo?",
+      "answer": "No por definición. Puede ser práctica con necesidades altas o poco apetito, pero no es necesaria para cubrir una ingesta moderada."
+    }
   ],
   "sources": [
-    {"name": "EFSA — Dietary Reference Values for protein", "url": "https://www.efsa.europa.eu/en/efsajournal/pub/2557", "note": "Referencia de proteína para adultos."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Valores de proteína de alimentos veganos."},
-    {"name": "FAO — Dietary protein quality evaluation", "url": "https://www.fao.org/3/i3124e/i3124e.pdf", "note": "Calidad y complementariedad de proteínas."}
+    {
+      "name": "EFSA — Dietary Reference Values for protein",
+      "url": "https://www.efsa.europa.eu/en/efsajournal/pub/2557",
+      "note": "Referencia de proteína para adultos."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Valores de proteína de alimentos veganos."
+    },
+    {
+      "name": "FAO — Dietary protein quality evaluation",
+      "url": "https://www.fao.org/3/i3124e/i3124e.pdf",
+      "note": "Calidad y complementariedad de proteínas."
+    }
   ],
   "image": {
     "concept": "Comidas veganas con tofu, lentejas, tempeh, bebida de soja, avena y semillas distribuidas a lo largo del día, fotografía editorial sin texto.",

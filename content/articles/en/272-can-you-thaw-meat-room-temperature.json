@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-272-thaw-meat-room-temperature","article_number":272,"translation_group":"272-thaw-meat-room-temperature","language":"en","locale":"en-US","market_context":"United States/general English; risk of countertop meat thawing","title":"Can you thaw meat at room temperature?","slug":"can-you-thaw-meat-room-temperature","seo":{"title":"Can you thaw meat at room temperature?","meta_description":"Counter thawing is unsafe. The outside can rise above 40 °F for hours while the center stays frozen. Use refrigerator, cold water or microwave instead.","search_intent":"Understand why countertop thawing is unsafe and which thawing methods are recommended instead."},"excerpt":"USDA advises never thawing meat on the counter. The outside can warm above 40 °F while the center is still frozen, leaving the surface in the 40–140 °F danger zone long enough for rapid bacterial growth. Refrigerator, cold water and microwave are the safe alternatives.","taxonomy":{"food_family":"meat","food_subcategories":["meat","thawing","room-temperature"],"article_types":["food-safety","freezing-thawing"],"primary_article_type":"food-safety"},"content_html":"<p>A roast can still have an icy center while its outer layer has been warm for hours. <strong>That temperature mismatch is why USDA says not to thaw meat on the counter.</strong></p><h2>A frozen center can be misleading</h2><p>The surface warms first and can rise above <strong>40 °F/4 °C</strong> long before the center thaws. Between about 40 and 140 °F, bacteria can multiply rapidly.</p><h2>The two-hour rule still applies</h2><p>Perishable food should not remain at room temperature for more than <strong>2 hours</strong>, or 1 hour above 90 °F. Large pieces often need far longer than two hours to thaw completely in air.</p><h2>A cool kitchen is not a refrigerator</h2><p>A 68 °F kitchen may feel comfortable to a person, but it is 28 degrees above the 40 °F refrigeration threshold.</p><h2>What if it was only out briefly?</h2><p>Short prep exposure can fit within the general time limit. The unsafe practice is using room temperature for several-hour thawing. Once meat has clearly exceeded the limit, extra cooking is not a dependable rescue strategy.</p><h2>Use cold water when you need speed</h2><p>Seal the meat and submerge it in cold water, changing the water every 30 minutes. Water transfers heat faster than air while keeping the food's surface much colder than a countertop does.</p><h2>Bottom line</h2><p><strong>Do not thaw meat for hours at room temperature.</strong> Use the refrigerator, cold water or microwave so surface temperature stays under control.</p>","faq":[{"question":"Why is counter thawing unsafe?","answer":"The outside can spend hours above 40 °F while the center remains frozen."},{"question":"Is a 68 °F kitchen cold enough?","answer":"No. 68 °F is well inside the bacterial danger zone and far above safe refrigeration temperature."},{"question":"Can I use warm water instead?","answer":"USDA recommends cold water, not warm or hot water, with the water changed every 30 minutes."}],"sources":[{"name":"USDA FSIS — The Big Thaw","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods","note":"Why countertop thawing allows the outer layer to enter the danger zone."},{"name":"USDA FSIS — Keep Food Safe! Food Safety Basics","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe","note":"General 2-hour limit for perishable foods."}],"image":{"concept":"Partially frozen meat on a countertop with the outer surface shown warming, realistic editorial food photography without text.","alt":"Unsafe countertop thawing of meat"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-272-thaw-meat-room-temperature",
+  "article_number": 272,
+  "translation_group": "272-thaw-meat-room-temperature",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; risk of countertop meat thawing",
+  "title": "Can you thaw meat at room temperature?",
+  "slug": "can-you-thaw-meat-room-temperature",
+  "seo": {
+    "title": "Can you thaw meat at room temperature?",
+    "meta_description": "Counter thawing is unsafe. The outside can rise above 40 °F for hours while the center stays frozen. Use refrigerator, cold water or microwave instead.",
+    "search_intent": "Understand why countertop thawing is unsafe and which thawing methods are recommended instead."
+  },
+  "excerpt": "USDA advises never thawing meat on the counter. The outside can warm above 40 °F while the center is still frozen, leaving the surface in the 40–140 °F danger zone long enough for rapid bacterial growth. Refrigerator, cold water and microwave are the safe alternatives.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "meat",
+      "thawing",
+      "room-temperature"
+    ],
+    "article_types": [
+      "food-safety",
+      "freezing-thawing"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>A roast can still have an icy center while its outer layer has been warm for hours. <strong>That temperature mismatch is why USDA says not to thaw meat on the counter.</strong></p><h2>A frozen center can be misleading</h2><p>The surface warms first and can rise above <strong>40 °F/4 °C</strong> long before the center thaws. Between about 40 and 140 °F, bacteria can multiply rapidly.</p><h2>The two-hour rule still applies</h2><p>Perishable food should not remain at room temperature for more than <strong>2 hours</strong>, or 1 hour above 90 °F. Large pieces often need far longer than two hours to thaw completely in air.</p><h2>A cool kitchen is not a refrigerator</h2><p>A 68 °F kitchen may feel comfortable to a person, but it is 28 degrees above the 40 °F refrigeration threshold.</p><h2>What if it was only out briefly?</h2><p>Short prep exposure can fit within the general time limit. The unsafe practice is using room temperature for several-hour thawing. Once meat has clearly exceeded the limit, extra cooking is not a dependable rescue strategy.</p><h2>Use cold water when you need speed</h2><p>Seal the meat and submerge it in cold water, changing the water every 30 minutes. Water transfers heat faster than air while keeping the food's surface much colder than a countertop does.</p><p><strong>Do not thaw meat for hours at room temperature.</strong> Use the refrigerator, cold water or microwave so surface temperature stays under control.</p>",
+  "faq": [
+    {
+      "question": "Why is counter thawing unsafe?",
+      "answer": "The outside can spend hours above 40 °F while the center remains frozen."
+    },
+    {
+      "question": "Is a 68 °F kitchen cold enough?",
+      "answer": "No. 68 °F is well inside the bacterial danger zone and far above safe refrigeration temperature."
+    },
+    {
+      "question": "Can I use warm water instead?",
+      "answer": "USDA recommends cold water, not warm or hot water, with the water changed every 30 minutes."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — The Big Thaw",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods",
+      "note": "Why countertop thawing allows the outer layer to enter the danger zone."
+    },
+    {
+      "name": "USDA FSIS — Keep Food Safe! Food Safety Basics",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/steps-keep-food-safe",
+      "note": "General 2-hour limit for perishable foods."
+    }
+  ],
+  "image": {
+    "concept": "Partially frozen meat on a countertop with the outer surface shown warming, realistic editorial food photography without text.",
+    "alt": "Unsafe countertop thawing of meat"
+  },
+  "status": "publish"
+}

@@ -1,1 +1,59 @@
-{"schema_version":1,"id":"en-480-quinoa-colors","article_number":480,"translation_group":"480-white-red-black-quinoa","language":"en","locale":"en-US","market_context":"United States; comparison of common quinoa varieties.","title":"White vs. Red vs. Black Quinoa: What’s the Difference?","slug":"white-red-black-quinoa-differences","seo":{"title":"White vs. Red vs. Black Quinoa: What’s the Difference?","meta_description":"All three have similar overall nutrition, but red and black quinoa tend to stay firmer and often contain more polyphenols. Variety matters more than color alone.","search_intent":"Compare white, red, and black quinoa for nutrition, texture, flavor, and cooking."},"excerpt":"White, red, and black quinoa share a very similar basic nutrition profile. Darker varieties often contain more phenolic compounds and hold their shape more firmly after cooking, while white quinoa is usually softer and milder. The exact cultivar can matter more than color alone.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":[],"article_types":["comparisons","nutrition-composition","buying-quality-ripeness"],"primary_article_type":"comparisons"},"content_html":"<p>They look like three different grains on the shelf, but <strong>white, red, and black quinoa are nutritionally much more alike than they are different.</strong> Color mainly tracks texture, flavor, and some plant compounds rather than creating three separate foods.</p><h2>White quinoa is usually the softest</h2><p>White quinoa is the most common and generally cooks to a lighter, softer texture with a mild flavor. It works well as a rice or couscous replacement.</p><h2>Red and black tend to stay firmer</h2><p>Darker seeds often hold their shape better and can feel slightly chewier, which makes them useful in salads. Black quinoa may taste a little earthier and can take slightly longer to cook.</p><h2>Nutrition does not follow one perfect color rule</h2><p>Studies across cultivars find differences in protein, fat, fiber, and minerals, but the ranking changes by variety. One controlled study found black quinoa at 16.1 g protein/100 g dry versus 13.8 g in one white variety, while other research has found white cultivars with higher protein than some dark ones.</p><p>A more consistent pattern is that red and black quinoa often contain more polyphenols than white quinoa.</p><h2>Which should you buy?</h2><p>Choose white for softer texture and speed, red or black for firmer salads, and tricolor blends for a mix of textures. <strong>Color is a culinary choice first and a nutritional distinction second.</strong></p>","faq":[{"question":"Does black quinoa always have more protein?","answer":"No. Some black cultivars are higher, but protein differences vary by cultivar and growing conditions."},{"question":"Which has more antioxidants?","answer":"Red and black quinoa generally contain more phenolic compounds than white quinoa."},{"question":"Do they cook the same?","answer":"Broadly yes, but red and black types often need slightly more time and stay firmer."}],"sources":[{"name":"Foods — Nutritional qualities of thirty quinoa varieties","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10534177/","note":"Shows substantial cultivar-to-cultivar variation beyond seed color."},{"name":"Frontiers — Quinoa bioactive compounds","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10936564/","note":"Compares polyphenols and saponins among quinoa colors."}],"image":{"concept":"Three small piles of white, red, and black quinoa beside cooked samples of each, realistic editorial food photography, no text.","alt":"White red and black quinoa compared"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-480-quinoa-colors",
+  "article_number": 480,
+  "translation_group": "480-white-red-black-quinoa",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; comparison of common quinoa varieties.",
+  "title": "White vs. Red vs. Black Quinoa: What’s the Difference?",
+  "slug": "white-red-black-quinoa-differences",
+  "seo": {
+    "title": "White vs. Red vs. Black Quinoa: What’s the Difference?",
+    "meta_description": "All three have similar overall nutrition, but red and black quinoa tend to stay firmer and often contain more polyphenols. Variety matters more than color alone.",
+    "search_intent": "Compare white, red, and black quinoa for nutrition, texture, flavor, and cooking."
+  },
+  "excerpt": "White, red, and black quinoa share a very similar basic nutrition profile. Darker varieties often contain more phenolic compounds and hold their shape more firmly after cooking, while white quinoa is usually softer and milder. The exact cultivar can matter more than color alone.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>They look like three different grains on the shelf, but <strong>white, red, and black quinoa are nutritionally much more alike than they are different.</strong> Color mainly tracks texture, flavor, and some plant compounds rather than creating three separate foods.</p><h2>White quinoa is usually the softest</h2><p>White quinoa is the most common and generally cooks to a lighter, softer texture with a mild flavor. It works well as a rice or couscous replacement.</p><h2>Red and black tend to stay firmer</h2><p>Darker seeds often hold their shape better and can feel slightly chewier, which makes them useful in salads. Black quinoa may taste a little earthier and can take slightly longer to cook.</p><h2>Nutrition does not follow one perfect color rule</h2><p>Studies across cultivars find differences in protein, fat, fiber, and minerals, but the ranking changes by variety. One controlled study found black quinoa at 16.1 g protein/100 g dry versus 13.8 g in one white variety, while other research has found white cultivars with higher protein than some dark ones.</p><p>A more consistent pattern is that red and black quinoa often contain more polyphenols than white quinoa.</p><h2>Color does not create three nutritionally different foods</h2><p>Red and black quinoa often hold their shape better and contain more pigmented phenolic compounds than white quinoa, but protein, fiber and energy differences depend heavily on cultivar and batch. In cooking, texture and behavior may be more noticeable than a small nutrient difference. Choosing by dish and preference therefore makes more sense than treating one color as universally superior.</p><h2>Which should you buy?</h2><p>Choose white for softer texture and speed, red or black for firmer salads, and tricolor blends for a mix of textures. <strong>Color is a culinary choice first and a nutritional distinction second.</strong></p>",
+  "faq": [
+    {
+      "question": "Does black quinoa always have more protein?",
+      "answer": "No. Some black cultivars are higher, but protein differences vary by cultivar and growing conditions."
+    },
+    {
+      "question": "Which has more antioxidants?",
+      "answer": "Red and black quinoa generally contain more phenolic compounds than white quinoa."
+    },
+    {
+      "question": "Do they cook the same?",
+      "answer": "Broadly yes, but red and black types often need slightly more time and stay firmer."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Foods — Nutritional qualities of thirty quinoa varieties",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10534177/",
+      "note": "Shows substantial cultivar-to-cultivar variation beyond seed color."
+    },
+    {
+      "name": "Frontiers — Quinoa bioactive compounds",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10936564/",
+      "note": "Compares polyphenols and saponins among quinoa colors."
+    }
+  ],
+  "image": {
+    "concept": "Three small piles of white, red, and black quinoa beside cooked samples of each, realistic editorial food photography, no text.",
+    "alt": "White red and black quinoa compared"
+  },
+  "status": "publish"
+}

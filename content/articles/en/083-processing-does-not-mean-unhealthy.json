@@ -15,20 +15,40 @@
   },
   "excerpt": "Processing a food does not automatically make it unhealthy. Freezing vegetables, pasteurizing milk, fermenting yogurt, cooking beans or canning fish can improve safety, shelf life and convenience while preserving much of the food's nutritional value. What matters is the specific process, what gets added or removed, and the final food.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["myths-faq", "nutrition-composition"],
+    "article_types": [
+      "myths-faq",
+      "nutrition-composition"
+    ],
     "primary_article_type": "myths-faq"
   },
   "content_html": "<p>If “processed” meant “unhealthy,” frozen peas, plain yogurt and canned sardines would have the same basic problem as candy. They do not.</p><p><strong>Processing means changing food.</strong> The nutritional result depends on what was changed, what was added or removed and what the final product looks like.</p><h2>Freezing can preserve nutrients very well</h2><p>Vegetables intended for freezing are often briefly blanched first. That step can reduce some heat- or water-sensitive vitamins, but freezing then slows many reactions that degrade food during storage.</p><p>A vegetable frozen for months can retain certain nutrients as well as, or sometimes better than, a “fresh” vegetable that spends many days in transport, retail and a refrigerator.</p><h2>Pasteurization trades very little nutrition for safety</h2><p>Milk pasteurization uses enough heat to reduce disease-causing microorganisms. It can cause small losses of some heat-sensitive vitamins, but milk still provides protein, calcium, phosphorus and vitamin B12.</p><p>The nutritional change is modest compared with the food-safety benefit.</p><h2>Fermentation creates a different food</h2><p>Yogurt, kefir, cheese, tempeh and sauerkraut depend on microorganisms. Fermentation can change sugars, acids, texture and the availability of certain compounds.</p><p>In yogurt, for example, bacteria use some lactose and produce lactic acid. That does not automatically make the product better or worse; it creates a food with different properties.</p><h2>Cooking is processing too</h2><p>Raw dry beans are not simply a more “natural” version of cooked beans. Soaking and cooking soften structure, gelatinize starch and reduce antinutritional factors and problematic compounds in some legumes.</p><p>Heating tomatoes can even increase the bioavailability of lycopene, particularly when eaten with some fat.</p><h2>Canned foods can remain nutritionally valuable</h2><p>Canned sardines supply protein, omega-3 fats and, when the bones are eaten, substantial calcium. Canned beans retain protein and fiber. Canned tomatoes remain rich in carotenoids and can provide highly available lycopene.</p><p>What can change substantially is sodium, added oil, sugar or other ingredients. The label tells you more about those changes than the word “processed” does.</p><h2>When processing really does change the profile</h2><p>Frying removes water and adds fat; turning fruit into juice reduces fiber and chewing; refining grain removes much of the bran and germ; adding large amounts of sugar or salt obviously changes composition.</p><p>Boiled potatoes contain roughly 75–90 calories per 100 g, while French fries can exceed 300 calories per 100 g. The processing matters because of the specific change it creates.</p><h2>The better question</h2><p>Instead of labeling a food good or bad because it was processed, ask: <strong>What changed?</strong> Did sodium, sugar or fat rise sharply? Was fiber removed? Did the process improve safety? Did it make a nutritious food more convenient or shelf-stable?</p><p>Those questions explain far more than a generic label.</p>",
   "faq": [
-    {"question": "Are processed foods unhealthy?", "answer": "Not necessarily. Freezing, pasteurizing, fermenting, cooking and canning can preserve nutritional value and improve safety or convenience."},
-    {"question": "Are frozen vegetables less nutritious than fresh?", "answer": "Not automatically. Some nutrients can be lost during blanching, but freezing helps preserve nutrients during storage."},
-    {"question": "Can canned food be healthy?", "answer": "Yes. Beans, fish and tomatoes can retain valuable nutrition in cans; check sodium, added oils, sugars and other ingredients."}
+    {
+      "question": "Are processed foods unhealthy?",
+      "answer": "Not necessarily. Freezing, pasteurizing, fermenting, cooking and canning can preserve nutritional value and improve safety or convenience."
+    },
+    {
+      "question": "Are frozen vegetables less nutritious than fresh?",
+      "answer": "Not automatically. Some nutrients can be lost during blanching, but freezing helps preserve nutrients during storage."
+    },
+    {
+      "question": "Can canned food be healthy?",
+      "answer": "Yes. Beans, fish and tomatoes can retain valuable nutrition in cans; check sodium, added oils, sugars and other ingredients."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition comparisons for fresh, cooked and processed foods."},
-    {"name": "FDA — Food processing and food safety resources", "url": "https://www.fda.gov/food", "note": "Food-safety context for pasteurization and preservation."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composition comparisons for fresh, cooked and processed foods."
+    },
+    {
+      "name": "FDA — Food processing and food safety resources",
+      "url": "https://www.fda.gov/food",
+      "note": "Food-safety context for pasteurization and preservation."
+    }
   ],
   "image": {
     "concept": "Frozen vegetables, plain yogurt, pasteurized milk, canned beans and canned sardines on a clean table, editorial photography, no text.",

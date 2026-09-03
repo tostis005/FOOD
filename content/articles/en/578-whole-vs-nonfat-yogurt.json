@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-578-whole-vs-nonfat-yogurt","article_number":578,"translation_group":"578-whole-vs-nonfat-yogurt","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"Whole-milk vs. nonfat yogurt: what actually changes?","slug":"whole-vs-nonfat-yogurt","seo":{"title":"Whole vs. nonfat yogurt: fat, calories and protein","meta_description":"Removing milk fat lowers calories, but it does not automatically lower carbs or raise protein. Compare plain USDA yogurt references and learn what the label really tells you.","search_intent":"Compare whole-milk and nonfat plain yogurt nutrition"},"excerpt":"The biggest predictable change is fat. USDA plain yogurt references provide about 61 calories, 3.25 g fat and 3.47 g protein/100 g for whole-milk yogurt versus 50 calories, 0.1 g fat and 4.2 g protein for nonfat. Carbohydrate is product-dependent and can be higher in nonfat yogurt because milk solids and processing differ.","taxonomy":{"food_family":"dairy-cheese","food_subcategories":[],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Whole-milk and nonfat yogurt start with the same basic idea—milk fermented by yogurt cultures—but <strong>fat level is only one part of the finished formula</strong>.</p><h2>USDA plain-yogurt references</h2><table><thead><tr><th>Per 100 g</th><th>Whole-milk plain</th><th>Nonfat plain</th></tr></thead><tbody><tr><td>Calories</td><td>61</td><td>50</td></tr><tr><td>Fat</td><td>3.25 g</td><td>0.1 g</td></tr><tr><td>Protein</td><td>3.47 g</td><td>4.2 g</td></tr><tr><td>Carbohydrate</td><td>4.66 g</td><td>8.1 g</td></tr></tbody></table><p>Fat falls dramatically, while protein remains in the same general range.</p><h2>Why can nonfat yogurt have more carbohydrate?</h2><p>Removing fat does not remove lactose. Manufacturers can also use different concentrations of milk solids, so comparing two database entries is not the same as taking one yogurt and simply extracting its fat.</p><h2>Plain is different from flavored</h2><p>A nonfat strawberry or vanilla yogurt may contain added sugar. A whole plain yogurt may contain none. “Nonfat” describes fat, <strong>not sweetness</strong>.</p><h2>What about calories?</h2><p>In these USDA references the difference is 11 calories/100 g. Commercial products can show a larger or smaller gap depending on protein concentration and other ingredients.</p><h2>Which makes more sense?</h2><p>Nonfat yogurt is useful when reducing saturated fat or calories is the priority. Whole-milk yogurt offers a richer texture. For either one, check protein and added sugars instead of assuming the fat percentage tells the whole story.</p>","faq":[{"question":"Is nonfat yogurt lower in calories?","answer":"Usually, because it contains less fat. In these USDA references: 50 versus 61 calories/100 g."},{"question":"Does nonfat yogurt have less protein?","answer":"No. The reference has 4.2 g/100 g versus 3.47 g in whole-milk yogurt."},{"question":"Does nonfat mean sugar-free?","answer":"No. Nonfat only refers to fat; flavored products can contain added sugars."},{"question":"Why can carbs be higher in nonfat yogurt?","answer":"Milk-solid concentration and formulation can differ, even when both products are plain."}],"sources":[{"name":"USDA FoodData Central — Yogurt, plain, whole milk","url":"https://fdc.nal.usda.gov/","note":"Reference values: 61 kcal, 3.25 g fat and 3.47 g protein/100 g."},{"name":"USDA FoodData Central — Yogurt, plain, nonfat (FDC 2647437)","url":"https://fdc.nal.usda.gov/","note":"Reference values: 50 kcal, 0.1 g fat, 4.2 g protein and 8.1 g carbohydrate/100 g."}],"image":{"concept":"Two bowls of plain yogurt labeled whole milk and nonfat with fat, calories, protein and carbohydrate values.","alt":"Whole-milk and nonfat plain yogurt compared nutritionally"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-578-whole-vs-nonfat-yogurt",
+  "article_number": 578,
+  "translation_group": "578-whole-vs-nonfat-yogurt",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "Whole-milk vs. nonfat yogurt: what actually changes?",
+  "slug": "whole-vs-nonfat-yogurt",
+  "seo": {
+    "title": "Whole vs. nonfat yogurt: fat, calories and protein",
+    "meta_description": "Removing milk fat lowers calories, but it does not automatically lower carbs or raise protein. Compare plain USDA yogurt references and learn what the label really tells you.",
+    "search_intent": "Compare whole-milk and nonfat plain yogurt nutrition"
+  },
+  "excerpt": "The biggest predictable change is fat. USDA plain yogurt references provide about 61 calories, 3.25 g fat and 3.47 g protein/100 g for whole-milk yogurt versus 50 calories, 0.1 g fat and 4.2 g protein for nonfat. Carbohydrate is product-dependent and can be higher in nonfat yogurt because milk solids and processing differ.",
+  "taxonomy": {
+    "food_family": "dairy-cheese",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Whole-milk and nonfat yogurt start with the same basic idea—milk fermented by yogurt cultures—but <strong>fat level is only one part of the finished formula</strong>.</p><h2>USDA plain-yogurt references</h2><table><thead><tr><th>Per 100 g</th><th>Whole-milk plain</th><th>Nonfat plain</th></tr></thead><tbody><tr><td>Calories</td><td>61</td><td>50</td></tr><tr><td>Fat</td><td>3.25 g</td><td>0.1 g</td></tr><tr><td>Protein</td><td>3.47 g</td><td>4.2 g</td></tr><tr><td>Carbohydrate</td><td>4.66 g</td><td>8.1 g</td></tr></tbody></table><p>Fat falls dramatically, while protein remains in the same general range.</p><h2>Why can nonfat yogurt have more carbohydrate?</h2><p>Removing fat does not remove lactose. Manufacturers can also use different concentrations of milk solids, so comparing two database entries is not the same as taking one yogurt and simply extracting its fat.</p><h2>Plain is different from flavored</h2><p>A nonfat strawberry or vanilla yogurt may contain added sugar. A whole plain yogurt may contain none. “Nonfat” describes fat, <strong>not sweetness</strong>.</p><h2>What about calories?</h2><p>In these USDA references the difference is 11 calories/100 g. Commercial products can show a larger or smaller gap depending on protein concentration and other ingredients.</p><h2>Removing fat mainly changes the energy that comes with the protein</h2><p>Taking out part of the fat does not remove the watery fraction that contains lactose, minerals and much of the milk protein. That is why comparable plain whole and nonfat yogurts can provide very similar protein while differing substantially in fat and calories.</p><p>The choice depends on the overall diet and use. Whole yogurt can feel creamier and more satisfying; nonfat yogurt reduces energy and saturated fat. The mistake is to assume that a slightly higher sugar line automatically means added sugar when the label may simply be showing naturally occurring lactose.</p><h2>Which makes more sense?</h2><p>Nonfat yogurt is useful when reducing saturated fat or calories is the priority. Whole-milk yogurt offers a richer texture. For either one, check protein and added sugars instead of assuming the fat percentage tells the whole story.</p>",
+  "faq": [
+    {
+      "question": "Is nonfat yogurt lower in calories?",
+      "answer": "Usually, because it contains less fat. In these USDA references: 50 versus 61 calories/100 g."
+    },
+    {
+      "question": "Does nonfat yogurt have less protein?",
+      "answer": "No. The reference has 4.2 g/100 g versus 3.47 g in whole-milk yogurt."
+    },
+    {
+      "question": "Does nonfat mean sugar-free?",
+      "answer": "No. Nonfat only refers to fat; flavored products can contain added sugars."
+    },
+    {
+      "question": "Why can carbs be higher in nonfat yogurt?",
+      "answer": "Milk-solid concentration and formulation can differ, even when both products are plain."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central — Yogurt, plain, whole milk",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Reference values: 61 kcal, 3.25 g fat and 3.47 g protein/100 g."
+    },
+    {
+      "name": "USDA FoodData Central — Yogurt, plain, nonfat (FDC 2647437)",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Reference values: 50 kcal, 0.1 g fat, 4.2 g protein and 8.1 g carbohydrate/100 g."
+    }
+  ],
+  "image": {
+    "concept": "Two bowls of plain yogurt labeled whole milk and nonfat with fat, calories, protein and carbohydrate values.",
+    "alt": "Whole-milk and nonfat plain yogurt compared nutritionally"
+  },
+  "status": "publish"
+}

@@ -16,18 +16,37 @@
   "excerpt": "Una comparación útil no enfrenta 100 g con 100 g: 100 g de aguacate aportan unas 160 kcal, mientras 30 g de almendras rondan 174 kcal. Con energía parecida, las almendras aportan más proteína y grasa; el aguacate aporta más agua y volumen y también mucha fibra. Ambos destacan por grasas insaturadas, pero cumplen papeles diferentes.",
   "taxonomy": {
     "food_family": "nuts-seeds",
-    "food_subcategories": ["avocado", "nuts"],
-    "article_types": ["comparison", "nutrition-composition"],
-    "primary_article_type": "comparison"
+    "food_subcategories": [
+      "avocado",
+      "nuts"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
   },
   "content_html": "<p>Por 100 g, los frutos secos parecen muchísimo más calóricos que el aguacate: almendras rondan 579 kcal y aguacate unas 160. Pero esa comparación enfrenta más de tres raciones de frutos secos con una cantidad bastante normal de aguacate.</p><p>Una comparación más justa es <strong>100 g de aguacate frente a 30 g de frutos secos</strong>.</p><h2>Qué cambia con calorías parecidas</h2><table><thead><tr><th></th><th>Aguacate 100 g</th><th>Almendras 30 g</th><th>Nueces 30 g</th><th>Pistachos 30 g</th></tr></thead><tbody><tr><td>Energía</td><td>~160 kcal</td><td>~174 kcal</td><td>~196 kcal</td><td>~168 kcal</td></tr><tr><td>Grasa</td><td>~15 g</td><td>~15 g</td><td>~20 g</td><td>~14 g</td></tr><tr><td>Proteína</td><td>~2 g</td><td>~6,4 g</td><td>~4,6 g</td><td>~6,1 g</td></tr><tr><td>Fibra</td><td>~6,7 g</td><td>~3,8 g</td><td>~2 g</td><td>~3,1 g</td></tr></tbody></table><p>El dato más interesante es que el aguacate no queda “muy por debajo” en fibra: 100 g pueden aportar más fibra que un puñado de frutos secos. Donde los frutos secos sí ganan claramente es en proteína.</p><h2>El agua explica gran parte de la diferencia</h2><p>El aguacate contiene alrededor de 73 % de agua. En muchos frutos secos el agua está por debajo del 5 %. Esa es la razón principal de que 100 g de almendras concentren más de tres veces las calorías de 100 g de aguacate.</p><p>No es que el aguacate tenga una grasa que “engorde menos”; simplemente hay mucha menos grasa por cada 100 g de alimento porque gran parte del peso es agua.</p><h2>El perfil de grasa se parece, pero no es idéntico</h2><p>En aguacate, almendras, pistachos y avellanas predominan las grasas monoinsaturadas. Las nueces se diferencian porque concentran más poliinsaturadas y aportan ALA, un omega-3 vegetal.</p><p>Por eso “frutos secos” no representa un único perfil de grasa.</p><h2>Los frutos secos son mejores si buscas proteína concentrada</h2><p>Treinta gramos de almendras o pistachos aportan alrededor de 6 g de proteína. Para conseguir esos 6 g solo con aguacate harían falta unos 300 g, cerca de 480 kcal.</p><p>El aguacate no es una fuente proteica importante; su papel nutricional está más en grasa insaturada, fibra, potasio y folato.</p><h2>El aguacate ofrece más volumen por una energía parecida</h2><p>Cien gramos de aguacate ocupan bastante más espacio que 30 g de frutos secos. Si la persona valora volumen y textura cremosa en una comida, esa diferencia puede ser práctica.</p><p>Los frutos secos, en cambio, son compactos, fáciles de transportar y ofrecen proteína, minerales y grasa en una ración pequeña.</p><h2>No hace falta elegir uno</h2><p>Una ensalada puede llevar aguacate y unas pocas nueces; un desayuno puede usar frutos secos y dejar el aguacate para otra comida. Nutricionalmente no son sustitutos exactos.</p><p><strong>A igualdad aproximada de calorías, los frutos secos concentran más proteína; el aguacate concentra mucha más agua y aporta más volumen, manteniendo una cantidad relevante de fibra y grasa monoinsaturada.</strong></p>",
   "faq": [
-    {"question": "¿Qué engorda más, aguacate o frutos secos?", "answer": "Por 100 g los frutos secos tienen muchas más calorías, pero una ración de 30 g puede aportar una energía parecida a 100 g de aguacate. La cantidad consumida es la comparación útil."},
-    {"question": "¿Qué tiene más proteína?", "answer": "Los frutos secos. 30 g de almendras o pistachos aportan alrededor de 6 g de proteína frente a unos 2 g en 100 g de aguacate."},
-    {"question": "¿Qué tiene más fibra?", "answer": "Depende de la ración. 100 g de aguacate aportan unos 6,7 g; 30 g de almendras unos 3,8 g y 30 g de nueces unos 2 g."}
+    {
+      "question": "¿Qué engorda más, aguacate o frutos secos?",
+      "answer": "Por 100 g los frutos secos tienen muchas más calorías, pero una ración de 30 g puede aportar una energía parecida a 100 g de aguacate. La cantidad consumida es la comparación útil."
+    },
+    {
+      "question": "¿Qué tiene más proteína?",
+      "answer": "Los frutos secos. 30 g de almendras o pistachos aportan alrededor de 6 g de proteína frente a unos 2 g en 100 g de aguacate."
+    },
+    {
+      "question": "¿Qué tiene más fibra?",
+      "answer": "Depende de la ración. 100 g de aguacate aportan unos 6,7 g; 30 g de almendras unos 3,8 g y 30 g de nueces unos 2 g."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de aguacate, almendras, nueces y pistachos."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de aguacate, almendras, nueces y pistachos."
+    }
   ],
   "image": {
     "concept": "100 g de aguacate junto a pequeños puñados de almendras, nueces y pistachos sobre una mesa, fotografía editorial sin texto.",

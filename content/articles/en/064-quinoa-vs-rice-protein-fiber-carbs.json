@@ -16,19 +16,42 @@
   "excerpt": "Cooked quinoa provides more protein and fiber than cooked white rice at similar calories: about 4.4 g protein and 2.8 g fiber per 100 g versus roughly 2.7 g and 0.4 g in white rice. Quinoa also has fewer carbs—about 21 g versus 28 g—and contains all nine essential amino acids. Even so, a serving is not as protein-dense as beans, tofu, eggs, meat, or fish.",
   "taxonomy": {
     "food_family": "grains-pseudocereals",
-    "food_subcategories": ["quinoa", "rice"],
-    "article_types": ["comparison", "nutrition-composition"],
-    "primary_article_type": "comparison"
+    "food_subcategories": [
+      "quinoa",
+      "rice"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
   },
   "content_html": "<p>Quinoa is often marketed as a higher-protein alternative to rice, and that is true—but the size of the difference matters. <strong>It provides roughly 1.5–2 g more protein per 100 g cooked, not ten times as much.</strong> Its broader advantage is the combination of somewhat more protein, much more fiber, and more minerals at similar calories.</p><h2>Cooked quinoa versus cooked white rice</h2><p>The table below compares both foods cooked and plain.</p><table><thead><tr><th>Per 100 g cooked</th><th>Quinoa</th><th>White rice</th></tr></thead><tbody><tr><td>Calories</td><td>~120 kcal</td><td>~130 kcal</td></tr><tr><td>Protein</td><td>~4.4 g</td><td>~2.7 g</td></tr><tr><td>Carbohydrate</td><td>~21 g</td><td>~28 g</td></tr><tr><td>Fiber</td><td>~2.8 g</td><td>~0.4 g</td></tr><tr><td>Fat</td><td>~1.9 g</td><td>~0.3 g</td></tr></tbody></table><p>Quinoa provides about 10 fewer calories, 1.7 g more protein, and roughly 2.4 g more fiber per 100 g. Proportionally, the fiber difference is much larger than the protein difference.</p><h2>A serving adds a few useful grams of protein</h2><p>One cooked cup of quinoa, about 185 g, provides roughly 8 g protein and 5 g fiber. A similar volume of cooked white rice, about 180 g, provides close to 5 g protein and less than 1 g fiber.</p><p>That is a useful upgrade, but 8 g protein is still far below the 25–35 g that a substantial serving of tofu, legumes, eggs, fish, or meat can provide.</p><h2>Complete protein does not mean high-protein</h2><p>Quinoa contains all nine essential amino acids and has an especially balanced amino-acid profile for a starch-rich plant food. That is a genuine nutritional strength.</p><p>But “complete protein” describes amino-acid composition, not total quantity. At about 4.4 g protein per 100 g cooked, quinoa behaves nutritionally more like a grain/pseudocereal than a direct replacement for a main protein food.</p><h2>Quinoa also contributes more minerals</h2><p>A cooked cup can provide around 100–120 mg magnesium, along with iron, phosphorus, manganese, and folate. Refined white rice generally provides less of several of these nutrients, although enrichment can change iron and B-vitamin values in U.S. products.</p><h2>What if the comparison is brown rice?</h2><p>The gap narrows for fiber and minerals. Brown rice keeps the bran and germ and provides more fiber and magnesium than white rice. Quinoa still usually holds a modest advantage in protein and fiber per 100 g cooked.</p><p>That is why specific numbers should say “white rice” rather than treating all rice as nutritionally identical.</p><h2>Both are naturally gluten-free</h2><p>Quinoa and rice are naturally free of gluten. For people with celiac disease, the practical issue is cross-contact and choosing appropriately labeled products when necessary.</p><h2>Which should you choose?</h2><p>If you want <strong>more fiber, a little more protein, and greater mineral density</strong>, quinoa has an advantage over white rice. If you prioritize a low-cost, neutral, easy-to-digest, highly versatile starch, rice remains an excellent staple.</p><p>The useful conclusion is that <strong>quinoa improves several nutrients modestly, but it does not turn a starchy side dish into a high-protein meal by itself</strong>. The rest of the plate still matters.</p>",
   "faq": [
-    {"question": "Which has more protein, quinoa or rice?", "answer": "Cooked quinoa provides about 4.4 g protein per 100 g versus roughly 2.7 g in cooked white rice."},
-    {"question": "Which has more fiber?", "answer": "Quinoa is around 2.8 g fiber per 100 g cooked versus roughly 0.4 g in white rice. Brown rice narrows part of that gap."},
-    {"question": "Can quinoa replace meat as a protein source?", "answer": "Not by quantity. Its protein is complete, but at about 4.4 g per 100 g cooked it is far less protein-dense than tofu, legumes, eggs, fish, or meat."}
+    {
+      "question": "Which has more protein, quinoa or rice?",
+      "answer": "Cooked quinoa provides about 4.4 g protein per 100 g versus roughly 2.7 g in cooked white rice."
+    },
+    {
+      "question": "Which has more fiber?",
+      "answer": "Quinoa is around 2.8 g fiber per 100 g cooked versus roughly 0.4 g in white rice. Brown rice narrows part of that gap."
+    },
+    {
+      "question": "Can quinoa replace meat as a protein source?",
+      "answer": "Not by quantity. Its protein is complete, but at about 4.4 g per 100 g cooked it is far less protein-dense than tofu, legumes, eggs, fish, or meat."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of cooked quinoa and rice."},
-    {"name": "FAO — Quinoa: an ancient crop to contribute to world food security", "url": "https://www.fao.org/", "note": "Quinoa nutrient and amino-acid context."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composition of cooked quinoa and rice."
+    },
+    {
+      "name": "FAO — Quinoa: an ancient crop to contribute to world food security",
+      "url": "https://www.fao.org/",
+      "note": "Quinoa nutrient and amino-acid context."
+    }
   ],
   "image": {
     "concept": "A bowl of cooked quinoa beside a bowl of cooked white rice, clean editorial food photography, no text.",

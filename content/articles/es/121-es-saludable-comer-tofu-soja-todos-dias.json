@@ -15,20 +15,43 @@
   },
   "excerpt": "Sí. Para la mayoría de personas, alimentos de soja como tofu, tempeh, edamame o bebida de soja pueden formar parte de la dieta diaria. La evidencia en humanos no muestra que el consumo normal de alimentos de soja aumente el riesgo de cáncer de mama; los suplementos concentrados de isoflavonas son una categoría distinta y no deben equipararse a una ración de tofu.",
   "taxonomy": {
-    "food_family": "legumes",
-    "food_subcategories": ["soy", "tofu"],
-    "article_types": ["health-daily-consumption", "myths-faq"],
+    "food_family": "legumes-soy",
+    "food_subcategories": [
+      "soy",
+      "tofu"
+    ],
+    "article_types": [
+      "health-daily-consumption",
+      "myths-faq"
+    ],
     "primary_article_type": "health-daily-consumption"
   },
   "content_html": "<p>La soja arrastra un mito persistente: que sus isoflavonas convierten cualquier consumo frecuente en un problema hormonal. <strong>Los estudios en humanos no apoyan esa conclusión para alimentos normales de soja</strong>.</p><h2>“Comer soja” puede significar alimentos muy distintos</h2><p>Una ración puede ser 150 g de tofu, un bol de edamame, tempeh, bebida de soja o un alimento ultraprocesado que contiene aislado de proteína de soja. No tienen la misma composición ni el mismo papel en la dieta.</p><p>Como referencia, 150 g de tofu firme pueden aportar unos 18–26 g de proteína; 150 g de edamame, unos 18 g; y 250 ml de bebida de soja, alrededor de 7–9 g según el producto.</p><h2>Las isoflavonas no son estrógeno humano</h2><p>Las isoflavonas son compuestos vegetales capaces de unirse a receptores de estrógeno, pero su acción es mucho más débil y depende del tejido. Los resultados de estudios animales con dosis altas no se trasladan directamente a humanos.</p><p>La American Cancer Society resume la evidencia humana actual indicando que <strong>los alimentos de soja son seguros</strong> y que su consumo se asocia con reducción o ausencia de cambio en el riesgo de distintos cánceres, incluido el de mama.</p><h2>Alimentos de soja y suplementos no son lo mismo</h2><p>Tofu, edamame o bebida de soja contienen proteína, grasa, minerales y otros componentes dentro de una matriz alimentaria. Un suplemento de isoflavonas puede concentrar dosis mucho mayores.</p><p>La evidencia de seguridad de los alimentos no debe usarse para asumir que cualquier suplemento concentrado tiene el mismo perfil.</p><h2>La variedad sigue siendo útil</h2><p>Aunque la soja sea una excelente fuente de proteína, no hace falta que toda la proteína vegetal proceda de ella. Legumbres, seitán, frutos secos, semillas y cereales aportan otros nutrientes y texturas.</p><h2>El tipo de producto importa</h2><p>Una bebida de soja sin azúcar y enriquecida puede aportar calcio y vitaminas añadidas; una bebida azucarada puede llevar bastante azúcar. Un tofu simple no es nutricionalmente equivalente a nuggets vegetales basados en soja con mucha sal.</p><h2>La regla práctica</h2><p><strong>Comer uno o varios alimentos de soja con regularidad, incluso a diario, puede encajar en una dieta saludable.</strong> Prioriza tofu, tempeh, edamame, soja cocida y bebidas sin mucho azúcar añadido, y trata los suplementos concentrados como una categoría aparte.</p>",
   "faq": [
-    {"question": "¿Es malo comer tofu todos los días?", "answer": "Para la mayoría de personas, no. El tofu puede ser una fuente diaria de proteína dentro de una dieta variada."},
-    {"question": "¿La soja aumenta los estrógenos?", "answer": "Las isoflavonas interactúan con receptores de estrógeno, pero no son estrógeno humano y la evidencia en personas no muestra que los alimentos de soja produzcan los efectos temidos a partir de estudios animales de altas dosis."},
-    {"question": "¿Es lo mismo comer tofu que tomar isoflavonas?", "answer": "No. Los suplementos pueden concentrar cantidades mucho mayores y no tienen la misma matriz alimentaria ni la misma evidencia que los alimentos de soja."}
+    {
+      "question": "¿Es malo comer tofu todos los días?",
+      "answer": "Para la mayoría de personas, no. El tofu puede ser una fuente diaria de proteína dentro de una dieta variada."
+    },
+    {
+      "question": "¿La soja aumenta los estrógenos?",
+      "answer": "Las isoflavonas interactúan con receptores de estrógeno, pero no son estrógeno humano y la evidencia en personas no muestra que los alimentos de soja produzcan los efectos temidos a partir de estudios animales de altas dosis."
+    },
+    {
+      "question": "¿Es lo mismo comer tofu que tomar isoflavonas?",
+      "answer": "No. Los suplementos pueden concentrar cantidades mucho mayores y no tienen la misma matriz alimentaria ni la misma evidencia que los alimentos de soja."
+    }
   ],
   "sources": [
-    {"name": "American Cancer Society — La soya y el riesgo de cáncer", "url": "https://www.cancer.org/es/cancer/noticias-recientes/la-soya-y-el-riesgo-de-cancer.html", "note": "Revisión 2026 sobre seguridad de alimentos de soja e isoflavonas en humanos."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína y composición de tofu, edamame y bebida de soja."}
+    {
+      "name": "American Cancer Society — La soya y el riesgo de cáncer",
+      "url": "https://www.cancer.org/es/cancer/noticias-recientes/la-soya-y-el-riesgo-de-cancer.html",
+      "note": "Revisión 2026 sobre seguridad de alimentos de soja e isoflavonas en humanos."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Proteína y composición de tofu, edamame y bebida de soja."
+    }
   ],
   "image": {
     "concept": "Tofu, tempeh, edamame y bebida de soja en porciones sencillas sobre una mesa, fotografía editorial sin texto.",

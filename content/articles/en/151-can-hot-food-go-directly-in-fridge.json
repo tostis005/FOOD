@@ -8,12 +8,44 @@
   "market_context": "United States/general English; USDA/FDA leftovers guidance",
   "title": "Can you put hot food directly in the refrigerator?",
   "slug": "can-hot-food-go-directly-in-fridge",
-  "seo": {"title":"Can hot food go directly in the refrigerator?","meta_description":"Yes. USDA says hot food can go directly into the refrigerator. Divide large amounts into shallow containers so they cool quickly and refrigerate within two hours.","search_intent":"Know whether cooked food must cool to room temperature before refrigeration."},
+  "seo": {
+    "title": "Can hot food go directly in the refrigerator?",
+    "meta_description": "Yes. USDA says hot food can go directly into the refrigerator. Divide large amounts into shallow containers so they cool quickly and refrigerate within two hours.",
+    "search_intent": "Know whether cooked food must cool to room temperature before refrigeration."
+  },
   "excerpt": "Yes. USDA says hot food can be placed directly in the refrigerator. The important step is to divide large amounts into shallow containers so the center cools quickly. Perishable leftovers should be refrigerated within two hours of cooking, or within one hour when ambient temperature is above 90°F.",
-  "taxonomy": {"food_family":"general","food_subcategories":["leftovers","refrigeration"],"article_types":["food-safety","practical-guide"],"primary_article_type":"food-safety"},
-  "content_html": "<p>You do not need to leave dinner on the counter until it reaches room temperature. In fact, waiting for a large pot to cool for hours can keep food in the temperature danger zone too long.</p><h2>USDA explicitly allows hot food in the refrigerator</h2><p>Hot leftovers can go directly into the refrigerator or be rapidly chilled first. The key is not to trap gallons of hot food in one deep container.</p><h2>Shallow containers solve the cooling problem</h2><p>Soup two inches deep loses heat far faster than the same soup in a large stockpot. Divide large batches before refrigerating so cold air can remove heat from the center.</p><h2>Follow the two-hour rule</h2><p>USDA recommends refrigerating perishables within two hours of cooking or leaving hot holding equipment — one hour if the surrounding temperature is above 90°F.</p><h2>Do not overload the refrigerator with one huge heat source</h2><p>A giant steaming pot can warm nearby food and cool slowly at its core. Portioning is the better answer than waiting for the whole pot to reach room temperature.</p><h2>The rule</h2><p><strong>Refrigerate promptly, in shallow portions.</strong> The myth to discard is that food must become fully cool on the counter first.</p>",
-  "faq": [{"question":"Will hot food damage the refrigerator?","answer":"A large very hot pot can temporarily raise refrigerator temperature, which is why USDA recommends dividing large amounts into shallow containers."},{"question":"How long can cooked food sit out before refrigeration?","answer":"Generally no more than two hours, or one hour above 90°F ambient temperature."}],
-  "sources": [{"name":"USDA FSIS — Leftovers and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety","note":"Hot food can go directly into refrigerator; shallow containers and two-hour rule."}],
-  "image": {"concept":"Large pot being divided into shallow containers that go directly into a refrigerator, no text.","alt":"Putting hot leftovers into shallow containers in the refrigerator"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "leftovers",
+      "refrigeration"
+    ],
+    "article_types": [
+      "food-safety"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>You do not need to leave dinner on the counter until it reaches room temperature. In fact, waiting for a large pot to cool for hours can keep food in the temperature danger zone too long.</p><p>The food will still release some heat in the refrigerator, but a shallow portion loses it much faster than several liters in one deep container. That is the practical reason to change containers—not a need to wait until everything feels cold.</p><h2>USDA explicitly allows hot food in the refrigerator</h2><p>Hot leftovers can go directly into the refrigerator or be rapidly chilled first. The key is not to trap gallons of hot food in one deep container.</p><h2>Shallow containers solve the cooling problem</h2><p>Soup two inches deep loses heat far faster than the same soup in a large stockpot. Divide large batches before refrigerating so cold air can remove heat from the center.</p><h2>Follow the two-hour rule</h2><p>USDA recommends refrigerating perishables within two hours of cooking or leaving hot holding equipment — one hour if the surrounding temperature is above 90°F.</p><h2>Do not overload the refrigerator with one huge heat source</h2><p>A giant steaming pot can warm nearby food and cool slowly at its core. Portioning is the better answer than waiting for the whole pot to reach room temperature.</p><p>The apparent conflict disappears once two problems are separated: you do not want a huge pot warming the entire refrigerator, but you also do not want that pot sitting on the counter for hours. Dividing it into smaller containers solves both problems at once.</p><h2>The rule</h2><p><strong>Refrigerate promptly, in shallow portions.</strong> The myth to discard is that food must become fully cool on the counter first.</p>",
+  "faq": [
+    {
+      "question": "Will hot food damage the refrigerator?",
+      "answer": "A large very hot pot can temporarily raise refrigerator temperature, which is why USDA recommends dividing large amounts into shallow containers."
+    },
+    {
+      "question": "How long can cooked food sit out before refrigeration?",
+      "answer": "Generally no more than two hours, or one hour above 90°F ambient temperature."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Leftovers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/leftovers-and-food-safety",
+      "note": "Hot food can go directly into refrigerator; shallow containers and two-hour rule."
+    }
+  ],
+  "image": {
+    "concept": "Large pot being divided into shallow containers that go directly into a refrigerator, no text.",
+    "alt": "Putting hot leftovers into shallow containers in the refrigerator"
+  },
+  "status": "publish"
 }

@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-261-cocinar-pollo-congelado","article_number":261,"translation_group":"261-cook-chicken-from-frozen","language":"es","locale":"es-ES","market_context":"España/Unión Europea; cocción doméstica de pollo congelado sin descongelar","title":"¿Se puede cocinar pollo directamente congelado?","slug":"se-puede-cocinar-pollo-directamente-congelado","seo":{"title":"¿Se puede cocinar pollo directamente congelado?","meta_description":"Sí, en horno o fogón puede cocinarse pollo desde congelado, pero suele necesitar alrededor de 50% más de tiempo y debe alcanzar 74 °C en el centro.","search_intent":"Saber cuándo es seguro cocinar pollo congelado sin descongelar y qué métodos deben evitarse."},"excerpt":"USDA indica que el pollo puede cocinarse directamente congelado en horno o sobre el fogón. El tiempo puede aumentar alrededor de un 50% y la pieza debe alcanzar al menos 74 °C en la parte más gruesa. No recomienda hacerlo desde congelado en olla lenta ni descongelarlo/cocinarlo parcialmente en microondas salvo siguiendo instrucciones específicas.","taxonomy":{"food_family":"meat","food_subcategories":["chicken","frozen","cooking"],"article_types":["cooking-techniques","food-safety"],"primary_article_type":"cooking-techniques"},"content_html":"<p>No siempre es obligatorio descongelar pollo antes de cocinarlo. <strong>USDA considera seguro cocinar pollo desde congelado en horno o sobre el fogón, siempre que alcance 74 °C en el centro.</strong></p><h2>Cuenta aproximadamente un 50% más de tiempo</h2><p>Una pieza congelada necesita primero absorber energía para fundir el hielo y después calentarse. USDA estima que la cocción puede tardar alrededor de <strong>una vez y media</strong> lo que tardaría una pieza descongelada.</p><p>Si una receta calcula 30 minutos para pollo descongelado, una referencia inicial sería unos 45 minutos, aunque el tiempo real depende de grosor, método y cantidad.</p><h2>El termómetro decide, no el reloj</h2><p>El centro debe alcanzar al menos <strong>74 °C/165 °F</strong>. En piezas congeladas es especialmente importante medir la zona más gruesa porque el exterior puede parecer completamente cocinado mientras el interior sigue frío.</p><h2>Horno y sartén sí; olla lenta no</h2><p>USDA permite cocinar pollo congelado en horno o sobre el fogón. Desaconseja introducir pollo crudo congelado directamente en una olla lenta porque puede pasar demasiado tiempo calentándose dentro de temperaturas favorables al crecimiento microbiano.</p><h2>Las piezas separadas son más fáciles</h2><p>Unas pechugas congeladas individualmente se cocinan de forma más predecible que un bloque sólido de varias piezas. Si están pegadas, separarlas en cuanto el calor lo permita mejora la uniformidad.</p><h2>La idea útil</h2><p><strong>Sí, puedes cocinar pollo congelado sin descongelarlo en horno o fogón.</strong> Añade margen de tiempo y verifica 74 °C en el centro; no uses el color exterior como prueba.</p>","faq":[{"question":"¿Cuánto más tarda el pollo congelado?","answer":"USDA estima aproximadamente un 50% más de tiempo que el pollo descongelado, aunque depende del grosor y método."},{"question":"¿Puedo poner pollo congelado en olla lenta?","answer":"USDA no lo recomienda; es mejor descongelarlo antes para evitar un calentamiento demasiado lento."},{"question":"¿A qué temperatura debe llegar?","answer":"A al menos 74 °C en la parte más gruesa, medidos con termómetro alimentario."}],"sources":[{"name":"USDA FSIS — Chicken from Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table","note":"Cocción desde congelado en horno/fogón, ~50% más de tiempo y temperatura interna de 165 °F."},{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"Cocción de carne y aves desde congelado y aumento aproximado del tiempo."}],"image":{"concept":"Pechugas de pollo congeladas cocinándose en una bandeja de horno junto a un termómetro alimentario, fotografía editorial sin texto.","alt":"Pollo cocinándose directamente desde congelado"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-261-cocinar-pollo-congelado",
+  "article_number": 261,
+  "translation_group": "261-cook-chicken-from-frozen",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; cocción doméstica de pollo congelado sin descongelar",
+  "title": "¿Se puede cocinar pollo directamente congelado?",
+  "slug": "se-puede-cocinar-pollo-directamente-congelado",
+  "seo": {
+    "title": "¿Se puede cocinar pollo directamente congelado?",
+    "meta_description": "Sí, en horno o fogón puede cocinarse pollo desde congelado, pero suele necesitar alrededor de 50% más de tiempo y debe alcanzar 74 °C en el centro.",
+    "search_intent": "Saber cuándo es seguro cocinar pollo congelado sin descongelar y qué métodos deben evitarse."
+  },
+  "excerpt": "USDA indica que el pollo puede cocinarse directamente congelado en horno o sobre el fogón. El tiempo puede aumentar alrededor de un 50% y la pieza debe alcanzar al menos 74 °C en la parte más gruesa. No recomienda hacerlo desde congelado en olla lenta ni descongelarlo/cocinarlo parcialmente en microondas salvo siguiendo instrucciones específicas.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "chicken",
+      "frozen",
+      "cooking"
+    ],
+    "article_types": [
+      "cooking-techniques",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p>No siempre es obligatorio descongelar pollo antes de cocinarlo. <strong>USDA considera seguro cocinar pollo desde congelado en horno o sobre el fogón, siempre que alcance 74 °C en el centro.</strong></p><h2>Cuenta aproximadamente un 50% más de tiempo</h2><p>Una pieza congelada necesita primero absorber energía para fundir el hielo y después calentarse. USDA estima que la cocción puede tardar alrededor de <strong>una vez y media</strong> lo que tardaría una pieza descongelada.</p><p>Si una receta calcula 30 minutos para pollo descongelado, una referencia inicial sería unos 45 minutos, aunque el tiempo real depende de grosor, método y cantidad.</p><h2>El termómetro decide, no el reloj</h2><p>El centro debe alcanzar al menos <strong>74 °C/165 °F</strong>. En piezas congeladas es especialmente importante medir la zona más gruesa porque el exterior puede parecer completamente cocinado mientras el interior sigue frío.</p><h2>Horno y sartén sí; olla lenta no</h2><p>USDA permite cocinar pollo congelado en horno o sobre el fogón. Desaconseja introducir pollo crudo congelado directamente en una olla lenta porque puede pasar demasiado tiempo calentándose dentro de temperaturas favorables al crecimiento microbiano.</p><h2>Las piezas separadas son más fáciles</h2><p>Unas pechugas congeladas individualmente se cocinan de forma más predecible que un bloque sólido de varias piezas. Si están pegadas, separarlas en cuanto el calor lo permita mejora la uniformidad.</p><h2>La seguridad no garantiza que cualquier receta funcione igual</h2><p>Poder cocinar el pollo congelado no significa que todos los métodos den el mismo resultado. En una pechuga gruesa, el exterior puede secarse mientras el centro termina de calentarse; en piezas pequeñas o en preparaciones con salsa, la diferencia suele ser más fácil de manejar.</p><p>Si una receta depende de dorar rápidamente, rellenar una pieza o conseguir una cocción muy uniforme, descongelar antes puede seguir siendo mejor por calidad y control. La ventaja de cocinar desde congelado es la flexibilidad, no que sustituya siempre a una descongelación planificada.</p><h2>La idea útil</h2><p><strong>Sí, puedes cocinar pollo congelado sin descongelarlo en horno o fogón.</strong> Añade margen de tiempo y verifica 74 °C en el centro; no uses el color exterior como prueba.</p>",
+  "faq": [
+    {
+      "question": "¿Cuánto más tarda el pollo congelado?",
+      "answer": "USDA estima aproximadamente un 50% más de tiempo que el pollo descongelado, aunque depende del grosor y método."
+    },
+    {
+      "question": "¿Puedo poner pollo congelado en olla lenta?",
+      "answer": "USDA no lo recomienda; es mejor descongelarlo antes para evitar un calentamiento demasiado lento."
+    },
+    {
+      "question": "¿A qué temperatura debe llegar?",
+      "answer": "A al menos 74 °C en la parte más gruesa, medidos con termómetro alimentario."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Chicken from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+      "note": "Cocción desde congelado en horno/fogón, ~50% más de tiempo y temperatura interna de 165 °F."
+    },
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "Cocción de carne y aves desde congelado y aumento aproximado del tiempo."
+    }
+  ],
+  "image": {
+    "concept": "Pechugas de pollo congeladas cocinándose en una bandeja de horno junto a un termómetro alimentario, fotografía editorial sin texto.",
+    "alt": "Pollo cocinándose directamente desde congelado"
+  },
+  "status": "publish"
+}

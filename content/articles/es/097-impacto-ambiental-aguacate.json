@@ -16,21 +16,51 @@
   "excerpt": "El aguacate puede ejercer una presión ambiental importante, sobre todo cuando se riega en zonas con escasez de agua o cuando la expansión de los huertos sustituye bosques. No existe una cifra universal de litros por fruto: estudios en Michoacán han encontrado desde unos 417 m³ de agua por tonelada en secano hasta más de 1.000 m³/t en plantaciones irrigadas. El origen y el sistema de cultivo importan más que el alimento aislado.",
   "taxonomy": {
     "food_family": "fruit",
-    "food_subcategories": ["avocado"],
-    "article_types": ["environment-sustainability", "myths-faq"],
-    "primary_article_type": "environment-sustainability"
+    "food_subcategories": [
+      "avocado"
+    ],
+    "article_types": [
+      "processing-production",
+      "myths-faq"
+    ],
+    "primary_article_type": "processing-production"
   },
   "content_html": "<p>La frase “un aguacate necesita X litros de agua” parece sencilla y compartible. El problema es que esconde casi todo lo que determina el impacto real: <strong>lluvia, riego, rendimiento, clima, disponibilidad local de agua, cambio de uso del suelo y origen</strong>.</p><p>Dos aguacates del mismo tamaño pueden tener historias ambientales muy distintas.</p><h2>La huella hídrica cambia mucho entre regiones y sistemas</h2><p>Un estudio en Uruapan, Michoacán, estimó una huella hídrica media de unos 744 m³ por tonelada de aguacate. Al separar sistemas, las plantaciones de secano rondaron 417 m³/t y las irrigadas unos 1.071 m³/t.</p><p>Una tonelada son 1.000 kg, así que esas cifras equivalen aproximadamente a <strong>417–1.071 litros de agua por kilogramo</strong> dentro de ese estudio. No son litros de agua de grifo aplicados necesariamente: la huella total puede incluir agua de lluvia —“verde”— y agua de riego superficial o subterránea —“azul”.</p><h2>Por qué convertirlo a “litros por aguacate” puede engañar</h2><p>Si una pieza pesa 200 g, multiplicar una huella de 1.000 L/kg daría unos 200 litros. Pero cambiar el origen a un sistema de secano con 417 L/kg reduciría la estimación a unos 83 litros. Además, el peso comestible, la merma y la metodología modifican el cálculo.</p><p>La cifra por pieza parece precisa cuando en realidad puede variar varias veces.</p><h2>El problema no es solo cuánta agua, sino dónde se extrae</h2><p>Un litro de lluvia utilizado por un cultivo en una región húmeda no tiene el mismo coste ambiental que un litro de agua subterránea extraído en una cuenca sometida a estrés hídrico.</p><p>En Uruapan, el mismo estudio encontró que el riego aumentaba mucho la huella hídrica con un incremento pequeño del rendimiento. Otros trabajos en municipios de Michoacán han descrito presión severa sobre los volúmenes de agua disponibles para agricultura.</p><h2>La expansión del cultivo puede afectar al bosque</h2><p>En Michoacán, el auge exportador del aguacate ha coincidido con expansión de huertos sobre paisajes de bosque templado. Estudios de cambio de uso del suelo identifican los bosques de pino y pino-encino entre los más amenazados por esa expansión.</p><p>Otra investigación que reconstruyó cadenas de suministro estimó que alrededor del 20 % de la deforestación de Michoacán entre 2001 y 2017 estuvo asociada a expansión de plantaciones de aguacate. Esto es un problema regional concreto, no una afirmación de que cada aguacate del mundo proceda de una zona deforestada.</p><h2>La huella climática es más moderada que la fama hídrica</h2><p>Las estimaciones de gases de efecto invernadero dependen de la base de datos y de si incluyen cambio de uso del suelo, transporte y otros procesos. Bases globales sitúan al aguacate muy por debajo de carnes de rumiantes por kilogramo de producto, aunque por encima de algunas frutas y hortalizas.</p><p>El cambio de bosque a huerto puede alterar mucho esa cuenta porque el bosque almacena más carbono en biomasa. En la frontera aguacatera de Michoacán se ha observado más del doble de carbono aéreo en bosque nativo que en huertos cercanos.</p><h2>El transporte importa, pero no siempre es el factor dominante</h2><p>Para Europa, buena parte del aguacate importado viaja largas distancias refrigerado. La distancia añade emisiones y demanda energética, pero el impacto del transporte depende enormemente del modo: barco, camión y avión no son comparables.</p><p>En muchos alimentos, el cambio de uso del suelo y la producción pesan más que los kilómetros recorridos. Mirar solo “local vs. importado” puede perder ese contexto.</p><h2>Qué puede hacer un consumidor con información incompleta</h2><p>El envase rara vez indica la huella hídrica del huerto. Aun así, hay decisiones razonables: evitar desperdiciar el alimento, no tratarlo como un ingrediente imprescindible todos los días, variar fuentes de grasa vegetal y, cuando exista información fiable, favorecer cadenas con trazabilidad y producción que no esté vinculada a deforestación o extracción insostenible de agua.</p><h2>La conclusión</h2><p><strong>El aguacate no tiene una única huella ambiental.</strong> Puede cultivarse con lluvia en una zona relativamente húmeda o depender de riego intensivo en una cuenca estresada; puede crecer sobre tierras agrícolas existentes o tras conversión de bosque. Preguntar por el origen y el sistema de producción explica mucho más que repetir un número de litros por fruto.</p>",
   "faq": [
-    {"question": "¿Cuántos litros de agua necesita un aguacate?", "answer": "No existe una cifra universal. Estudios en Michoacán han encontrado huellas desde unos 417 L/kg en secano hasta más de 1.000 L/kg en plantaciones irrigadas; el valor por pieza depende además del peso."},
-    {"question": "¿El aguacate causa deforestación?", "answer": "En algunas regiones productoras, especialmente partes de Michoacán, la expansión de huertos se ha asociado con pérdida y fragmentación de bosque. Eso no significa que todo aguacate proceda de tierra deforestada."},
-    {"question": "¿Es peor para el clima que la carne?", "answer": "Las estimaciones globales de emisiones por kilogramo suelen situar el aguacate muy por debajo de la carne de rumiantes, aunque el cambio de uso del suelo puede aumentar mucho el impacto de producciones concretas."}
+    {
+      "question": "¿Cuántos litros de agua necesita un aguacate?",
+      "answer": "No existe una cifra universal. Estudios en Michoacán han encontrado huellas desde unos 417 L/kg en secano hasta más de 1.000 L/kg en plantaciones irrigadas; el valor por pieza depende además del peso."
+    },
+    {
+      "question": "¿El aguacate causa deforestación?",
+      "answer": "En algunas regiones productoras, especialmente partes de Michoacán, la expansión de huertos se ha asociado con pérdida y fragmentación de bosque. Eso no significa que todo aguacate proceda de tierra deforestada."
+    },
+    {
+      "question": "¿Es peor para el clima que la carne?",
+      "answer": "Las estimaciones globales de emisiones por kilogramo suelen situar el aguacate muy por debajo de la carne de rumiantes, aunque el cambio de uso del suelo puede aumentar mucho el impacto de producciones concretas."
+    }
   ],
   "sources": [
-    {"name": "Sustainability — Blue and Green Water Footprint of Agro-Industrial Avocado Production in Central Mexico", "url": "https://www.mdpi.com/2071-1050/14/15/9664", "note": "Huella hídrica de secano e irrigación en Uruapan, Michoacán."},
-    {"name": "Applied Geography — Avocado expansion and the threat of forest loss in Michoacán", "url": "https://www.sciencedirect.com/science/article/pii/S0143622822002272", "note": "Expansión del aguacate y amenaza sobre bosques de pino y pino-encino."},
-    {"name": "Journal of Environmental Management — Deforestation associated with avocado exports", "url": "https://www.sciencedirect.com/science/article/pii/S0301479720314079", "note": "Asociación entre expansión del aguacate y deforestación en Michoacán."},
-    {"name": "Our World in Data — Environmental Impacts of Food", "url": "https://ourworldindata.org/environmental-impacts-of-food", "note": "Contexto comparativo de emisiones y otros impactos ambientales de alimentos."}
+    {
+      "name": "Sustainability — Blue and Green Water Footprint of Agro-Industrial Avocado Production in Central Mexico",
+      "url": "https://www.mdpi.com/2071-1050/14/15/9664",
+      "note": "Huella hídrica de secano e irrigación en Uruapan, Michoacán."
+    },
+    {
+      "name": "Applied Geography — Avocado expansion and the threat of forest loss in Michoacán",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0143622822002272",
+      "note": "Expansión del aguacate y amenaza sobre bosques de pino y pino-encino."
+    },
+    {
+      "name": "Journal of Environmental Management — Deforestation associated with avocado exports",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0301479720314079",
+      "note": "Asociación entre expansión del aguacate y deforestación en Michoacán."
+    },
+    {
+      "name": "Our World in Data — Environmental Impacts of Food",
+      "url": "https://ourworldindata.org/environmental-impacts-of-food",
+      "note": "Contexto comparativo de emisiones y otros impactos ambientales de alimentos."
+    }
   ],
   "image": {
     "concept": "Huerto de aguacates con sistema de riego junto a bosque de pino y una caja de aguacates cosechados, fotografía documental editorial sin texto.",

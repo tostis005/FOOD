@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-262-descongelar-pollo-seguro","article_number":262,"translation_group":"262-thaw-chicken-safely","language":"es","locale":"es-ES","market_context":"España/Unión Europea; descongelación doméstica segura de pollo","title":"Cómo descongelar pollo de forma segura","slug":"como-descongelar-pollo-forma-segura","seo":{"title":"Cómo descongelar pollo de forma segura","meta_description":"Las tres opciones seguras son nevera, agua fría en bolsa estanca o microondas. Nunca descongeles pollo varias horas sobre la encimera.","search_intent":"Aprender los métodos seguros para descongelar pollo y cuánto pueden tardar."},"excerpt":"USDA recomienda tres métodos: nevera, agua fría y microondas. En nevera, pechugas o piezas pueden necesitar 1–2 días; en agua fría, un paquete de unos 450 g puede descongelarse en alrededor de una hora si se cambia el agua cada 30 minutos. Tras microondas o agua fría, conviene cocinar inmediatamente.","taxonomy":{"food_family":"meat","food_subcategories":["chicken","thawing","food-safety"],"article_types":["freezing-thawing","food-safety"],"primary_article_type":"freezing-thawing"},"content_html":"<p>Descongelar no consiste solo en conseguir que desaparezca el hielo. <strong>La clave es evitar que la superficie del pollo pase horas templada mientras el centro sigue congelado.</strong></p><h2>1. Nevera: la opción más sencilla</h2><p>Coloca el pollo en un recipiente que recoja posibles jugos y déjalo a 4 °C o menos. Pechugas, piezas con hueso y pollos enteros pueden necesitar <strong>1–2 días o más</strong> según tamaño.</p><p>Una vez descongelado en nevera, USDA permite mantener pollo crudo uno o dos días adicionales antes de cocinarlo y también volver a congelarlo sin cocinar, aunque puede perder calidad.</p><h2>2. Agua fría: más rápido</h2><p>Mantén el pollo dentro de un envase o bolsa estanca, sumérgelo en agua fría y cambia el agua cada <strong>30 minutos</strong>. Un paquete de unos 450 g de pechugas puede tardar alrededor de una hora; un pollo o paquete de 1,4–1,8 kg puede necesitar 2–3 horas.</p><p>Después de descongelar por agua fría, cocina inmediatamente.</p><h2>3. Microondas: el más rápido</h2><p>Úsalo cuando vayas a cocinar justo después. Algunas zonas pueden calentarse e incluso empezar a cocinarse durante la descongelación, por eso no conviene guardar el pollo parcialmente calentado para más tarde.</p><h2>Lo que no debes hacer: encimera</h2><p>USDA desaconseja descongelar pollo a temperatura ambiente. Aunque el centro siga congelado, la superficie puede permanecer dentro de la zona de peligro durante suficiente tiempo para permitir crecimiento bacteriano.</p><h2>La idea útil</h2><p><strong>Nevera si puedes planificar; agua fría si necesitas rapidez; microondas si vas a cocinar inmediatamente.</strong> La encimera no es un método seguro.</p>","faq":[{"question":"¿Cuánto tarda una pechuga en descongelarse en nevera?","answer":"Según tamaño y cantidad, puede necesitar alrededor de 1 día; paquetes mayores pueden requerir 1–2 días."},{"question":"¿Cada cuánto cambio el agua fría?","answer":"USDA recomienda cambiarla cada 30 minutos para mantenerla fría."},{"question":"¿Puedo volver a congelar pollo descongelado?","answer":"Sí si se descongeló en nevera; tras agua fría o microondas, debe cocinarse antes de volver a congelarse."}],"sources":[{"name":"USDA FSIS — Chicken from Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table","note":"Tres métodos seguros, tiempos aproximados y reglas de recongelación."},{"name":"USDA FSIS — The Big Thaw","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods","note":"Nevera, agua fría, microondas y riesgo de descongelar en encimera."}],"image":{"concept":"Tres métodos de descongelación de pollo: nevera, bolsa cerrada en agua fría y microondas, fotografía editorial sin texto.","alt":"Métodos seguros para descongelar pollo"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-262-descongelar-pollo-seguro",
+  "article_number": 262,
+  "translation_group": "262-thaw-chicken-safely",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; descongelación doméstica segura de pollo",
+  "title": "Cómo descongelar pollo de forma segura",
+  "slug": "como-descongelar-pollo-forma-segura",
+  "seo": {
+    "title": "Cómo descongelar pollo de forma segura",
+    "meta_description": "Las tres opciones seguras son nevera, agua fría en bolsa estanca o microondas. Nunca descongeles pollo varias horas sobre la encimera.",
+    "search_intent": "Aprender los métodos seguros para descongelar pollo y cuánto pueden tardar."
+  },
+  "excerpt": "USDA recomienda tres métodos: nevera, agua fría y microondas. En nevera, pechugas o piezas pueden necesitar 1–2 días; en agua fría, un paquete de unos 450 g puede descongelarse en alrededor de una hora si se cambia el agua cada 30 minutos. Tras microondas o agua fría, conviene cocinar inmediatamente.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "chicken",
+      "thawing",
+      "food-safety"
+    ],
+    "article_types": [
+      "freezing-thawing",
+      "food-safety"
+    ],
+    "primary_article_type": "freezing-thawing"
+  },
+  "content_html": "<p>Descongelar no consiste solo en conseguir que desaparezca el hielo. <strong>La clave es evitar que la superficie del pollo pase horas templada mientras el centro sigue congelado.</strong></p><h2>Nevera: la opción más sencilla</h2><p>Coloca el pollo en un recipiente que recoja posibles jugos y déjalo a 4 °C o menos. Pechugas, piezas con hueso y pollos enteros pueden necesitar <strong>1–2 días o más</strong> según tamaño.</p><p>Una vez descongelado en nevera, USDA permite mantener pollo crudo uno o dos días adicionales antes de cocinarlo y también volver a congelarlo sin cocinar, aunque puede perder calidad.</p><h2>Agua fría: más rápido</h2><p>Mantén el pollo dentro de un envase o bolsa estanca, sumérgelo en agua fría y cambia el agua cada <strong>30 minutos</strong>. Un paquete de unos 450 g de pechugas puede tardar alrededor de una hora; un pollo o paquete de 1,4–1,8 kg puede necesitar 2–3 horas.</p><p>Después de descongelar por agua fría, cocina inmediatamente.</p><h2>Microondas: el más rápido</h2><p>Úsalo cuando vayas a cocinar justo después. Algunas zonas pueden calentarse e incluso empezar a cocinarse durante la descongelación, por eso no conviene guardar el pollo parcialmente calentado para más tarde.</p><h2>Lo que no debes hacer: encimera</h2><p>USDA desaconseja descongelar pollo a temperatura ambiente. Aunque el centro siga congelado, la superficie puede permanecer dentro de la zona de peligro durante suficiente tiempo para permitir crecimiento bacteriano.</p><h2>Elegir método es elegir entre tiempo y control</h2><p>La nevera tarda más, pero mantiene el pollo frío durante todo el proceso y permite cierta flexibilidad sobre cuándo cocinarlo. El agua fría acelera la descongelación a cambio de exigir un envase estanco, agua fría y cambios regulares; el microondas es el más rápido, pero obliga a cocinar inmediatamente porque algunas zonas pueden calentarse antes que otras.</p><p>No son tres métodos equivalentes en comodidad. Si sabes con antelación que cocinarás mañana, la nevera suele ser la opción más sencilla; si has olvidado descongelar, agua fría o microondas resuelven la situación sin recurrir a la encimera.</p><h2>La idea útil</h2><p><strong>Nevera si puedes planificar; agua fría si necesitas rapidez; microondas si vas a cocinar inmediatamente.</strong> La encimera no es un método seguro.</p>",
+  "faq": [
+    {
+      "question": "¿Cuánto tarda una pechuga en descongelarse en nevera?",
+      "answer": "Según tamaño y cantidad, puede necesitar alrededor de 1 día; paquetes mayores pueden requerir 1–2 días."
+    },
+    {
+      "question": "¿Cada cuánto cambio el agua fría?",
+      "answer": "USDA recomienda cambiarla cada 30 minutos para mantenerla fría."
+    },
+    {
+      "question": "¿Puedo volver a congelar pollo descongelado?",
+      "answer": "Sí si se descongeló en nevera; tras agua fría o microondas, debe cocinarse antes de volver a congelarse."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Chicken from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+      "note": "Tres métodos seguros, tiempos aproximados y reglas de recongelación."
+    },
+    {
+      "name": "USDA FSIS — The Big Thaw",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods",
+      "note": "Nevera, agua fría, microondas y riesgo de descongelar en encimera."
+    }
+  ],
+  "image": {
+    "concept": "Tres métodos de descongelación de pollo: nevera, bolsa cerrada en agua fría y microondas, fotografía editorial sin texto.",
+    "alt": "Métodos seguros para descongelar pollo"
+  },
+  "status": "publish"
+}

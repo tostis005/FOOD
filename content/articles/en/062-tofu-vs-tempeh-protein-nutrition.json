@@ -15,20 +15,44 @@
   },
   "excerpt": "Tempeh is usually more protein-dense than tofu: roughly 19–20 g protein per 100 g versus about 12–17 g in firm tofu. It also contains more fiber because it is made from fermented whole soybeans. Tofu is usually lower in calories and can contain far more calcium when set with calcium salts. Both provide complete soy protein.",
   "taxonomy": {
-    "food_family": "legumes",
-    "food_subcategories": ["tofu", "tempeh", "soy"],
-    "article_types": ["comparison", "nutrition-composition"],
-    "primary_article_type": "comparison"
+    "food_family": "legumes-soy",
+    "food_subcategories": [
+      "tofu",
+      "tempeh",
+      "soy"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
   },
   "content_html": "<p>Tofu and tempeh start with the same legume—soybeans—but processing turns them into very different foods. Tofu is made by coagulating soy milk. Tempeh ferments mostly intact soybeans. That is why <strong>tempeh is generally more concentrated in protein and fiber, while tofu contains more water and has a much softer texture.</strong></p><h2>Tempeh is more protein-dense</h2><p>Brands vary, but a representative comparison looks like this:</p><table><thead><tr><th>Per 100 g</th><th>Firm tofu</th><th>Plain tempeh</th></tr></thead><tbody><tr><td>Protein</td><td>~12–17 g</td><td>~19–20 g</td></tr><tr><td>Calories</td><td>~120–145 kcal</td><td>~190–200 kcal</td></tr><tr><td>Fat</td><td>~7–9 g</td><td>~10–11 g</td></tr><tr><td>Fiber</td><td>~1–3 g</td><td>~4–7 g</td></tr></tbody></table><p>Tempeh's higher concentration does not mean fermentation creates a large amount of new protein. Much of the difference comes from retaining the whole bean and containing less water per 100 g.</p><h2>Meal-size servings can provide similar protein</h2><p>About 5 ounces of tempeh, roughly 142 g, at 19.5 g protein per 100 g provides around 28 g protein. Eight ounces of tofu, about 227 g, at 15 g per 100 g provides around 34 g.</p><p>A somewhat larger tofu serving can therefore match or exceed the protein in a smaller tempeh serving.</p><h2>Tempeh has more fiber because the whole soybean remains</h2><p>Making tofu filters out much of the insoluble soybean fiber with the pulp. Tempeh keeps the bean in the finished food, so it commonly contains several grams of fiber per 100 g.</p><p>That also explains the texture difference: tempeh is dense and chewy, while tofu ranges from silken to extra-firm.</p><h2>Fermentation changes the food but does not guarantee probiotics on the plate</h2><p>Tempeh is fermented with molds in the <em>Rhizopus</em> genus. Fermentation changes proteins and carbohydrates and can reduce some antinutritional compounds.</p><p>But tempeh is normally cooked before eating. Heat reduces or kills live microorganisms, so it should not automatically be marketed as a live probiotic food.</p><h2>Calcium can strongly favor tofu</h2><p>Tofu set with calcium sulfate can provide several hundred milligrams of calcium per 100 g. Tempeh usually contains much less.</p><p>Not all tofu uses the same coagulant, so the nutrition label matters. Two blocks that look identical can have very different calcium content.</p><h2>Both provide complete protein</h2><p>Because both are soy foods, tofu and tempeh contain all nine essential amino acids. Neither needs to be combined with grains at the same meal to “complete” its protein.</p><p>Tempeh also should not be relied on as a guaranteed vitamin B12 source. B12 content is variable and does not replace fortified foods or supplements when a dependable source is needed.</p><h2>Which should you choose?</h2><p>Tempeh is especially useful when you want <strong>more protein and fiber in a smaller amount of food</strong> and prefer a firm texture. Tofu works well when you want <strong>lower energy density, a more adaptable texture, and potentially much more calcium</strong>.</p><p>There is no universal winner: <strong>tempeh concentrates; tofu gives you more volume and can excel in calcium</strong>. Both are strong plant-protein staples.</p>",
   "faq": [
-    {"question": "Which has more protein, tofu or tempeh?", "answer": "Tempeh usually provides about 19–20 g protein per 100 g versus roughly 12–17 g in firm tofu."},
-    {"question": "Does tempeh have more fiber?", "answer": "Yes, usually substantially more, because it retains the whole soybean while tofu loses much of the fiber during filtering."},
-    {"question": "Is tempeh probiotic?", "answer": "It is fermented, but it is normally cooked before eating. Heat reduces live microbes, so cooked tempeh should not be assumed to provide live probiotics."}
+    {
+      "question": "Which has more protein, tofu or tempeh?",
+      "answer": "Tempeh usually provides about 19–20 g protein per 100 g versus roughly 12–17 g in firm tofu."
+    },
+    {
+      "question": "Does tempeh have more fiber?",
+      "answer": "Yes, usually substantially more, because it retains the whole soybean while tofu loses much of the fiber during filtering."
+    },
+    {
+      "question": "Is tempeh probiotic?",
+      "answer": "It is fermented, but it is normally cooked before eating. Heat reduces live microbes, so cooked tempeh should not be assumed to provide live probiotics."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of firm tofu and tempeh."},
-    {"name": "FAO — Fermented soybean products", "url": "https://www.fao.org/", "note": "Fermentation context for soy foods."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composition of firm tofu and tempeh."
+    },
+    {
+      "name": "FAO — Fermented soybean products",
+      "url": "https://www.fao.org/",
+      "note": "Fermentation context for soy foods."
+    }
   ],
   "image": {
     "concept": "Blocks of firm tofu and tempeh cut open to show their contrasting textures, clean editorial food photography, no text.",

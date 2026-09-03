@@ -8,12 +8,44 @@
   "market_context": "United States/general English; USDA freezing microbiology guidance",
   "title": "Does freezing food kill bacteria?",
   "slug": "does-freezing-kill-bacteria",
-  "seo": {"title":"Does freezing kill bacteria in food?","meta_description":"Not reliably. Freezing at 0°F stops microbial growth but many bacteria survive and can become active again after thawing. Freezing is preservation, not sterilization.","search_intent":"Understand whether home freezing disinfects food and what bacteria do after thawing."},
+  "seo": {
+    "title": "Does freezing kill bacteria in food?",
+    "meta_description": "Not reliably. Freezing at 0°F stops microbial growth but many bacteria survive and can become active again after thawing. Freezing is preservation, not sterilization.",
+    "search_intent": "Understand whether home freezing disinfects food and what bacteria do after thawing."
+  },
   "excerpt": "No. Home freezing is not a reliable way to kill bacteria. At 0°F (-18°C), microbial growth stops and many organisms become inactive, but they can survive. After thawing, surviving bacteria can multiply again under favorable conditions. Freezing also cannot reliably undo toxins or unsafe handling that occurred beforehand.",
-  "taxonomy": {"food_family":"general","food_subcategories":["freezing"],"article_types":["food-safety","food-science"],"primary_article_type":"food-safety"},
-  "content_html": "<p>Putting questionable chicken in the freezer does not sanitize it. Cold changes microbial activity; it does not reset the food's history.</p><h2>What 0°F actually does</h2><p>Water freezes and conditions no longer support normal growth of bacteria, yeasts and molds. USDA describes these microbes as inactivated during freezing.</p><h2>Thawing wakes the problem back up</h2><p>As liquid water returns and temperature rises, surviving microbes can become active and multiply. Thawed food therefore needs the same safe handling as fresh perishable food.</p><h2>Freezing cannot rescue unsafe food</h2><p>If food spent hours in the temperature danger zone, freezing it later does not reverse previous bacterial growth and may not destroy toxins that were already produced.</p><h2>Parasites are a separate question</h2><p>Specific controlled freezing schedules can destroy certain parasites, but home freezing should not be treated as a universal parasite-kill step. Time, temperature and species matter.</p><h2>The rule</h2><p><strong>Freezing preserves; it does not sterilize.</strong> Freeze food while it is still safe, then handle it safely again when thawed.</p>",
-  "faq": [{"question":"Does freezing kill Salmonella?","answer":"Not reliably. Freezing may reduce some cells, but survivors can become active again after thawing."},{"question":"Can I freeze spoiled food to make it safe?","answer":"No. Freezing does not reverse unsafe microbial growth or reliably eliminate toxins already formed."}],
-  "sources": [{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"Microbes become inactive during freezing and can reactivate after thawing."}],
-  "image": {"concept":"Conceptual microbes paused in frozen food and becoming active again as it thaws, clean editorial diagram without text.","alt":"Bacteria surviving freezing and becoming active after thawing"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "freezing"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-science"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>Putting questionable chicken in the freezer does not sanitize it. Cold changes microbial activity; it does not reset the food's history.</p><p>Safe cooking and good hygiene still matter after thawing. For ready-to-eat foods that will not receive a final cooking step, it is even more important that the food entered the freezer in good condition and is thawed under control.</p><h2>What 0°F actually does</h2><p>Water freezes and conditions no longer support normal growth of bacteria, yeasts and molds. USDA describes these microbes as inactivated during freezing.</p><h2>Thawing wakes the problem back up</h2><p>As liquid water returns and temperature rises, surviving microbes can become active and multiply. Thawed food therefore needs the same safe handling as fresh perishable food.</p><h2>Freezing cannot rescue unsafe food</h2><p>If food spent hours in the temperature danger zone, freezing it later does not reverse previous bacterial growth and may not destroy toxins that were already produced.</p><h2>Parasites are a separate question</h2><p>Specific controlled freezing schedules can destroy certain parasites, but home freezing should not be treated as a universal parasite-kill step. Time, temperature and species matter.</p><p>The key distinction is between “not growing” and “dead.” A bacterial population can be unable to multiply while the food is frozen and resume growth as temperatures rise. The freezer therefore buys time; it does not reset the food to a microbiologically clean state.</p><h2>The rule</h2><p><strong>Freezing preserves; it does not sterilize.</strong> Freeze food while it is still safe, then handle it safely again when thawed.</p>",
+  "faq": [
+    {
+      "question": "Does freezing kill Salmonella?",
+      "answer": "Not reliably. Freezing may reduce some cells, but survivors can become active again after thawing."
+    },
+    {
+      "question": "Can I freeze spoiled food to make it safe?",
+      "answer": "No. Freezing does not reverse unsafe microbial growth or reliably eliminate toxins already formed."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "Microbes become inactive during freezing and can reactivate after thawing."
+    }
+  ],
+  "image": {
+    "concept": "Conceptual microbes paused in frozen food and becoming active again as it thaws, clean editorial diagram without text.",
+    "alt": "Bacteria surviving freezing and becoming active after thawing"
+  },
+  "status": "publish"
 }

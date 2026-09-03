@@ -8,12 +8,49 @@
   "market_context": "United States/general English; nutrient heat stability and bioavailability",
   "title": "Does cooking vegetables destroy vitamins?",
   "slug": "does-cooking-vegetables-destroy-vitamins",
-  "seo": {"title":"Does cooking vegetables destroy vitamins?","meta_description":"Cooking lowers some heat-sensitive vitamins such as C and folate, especially with boiling, but can improve carotenoid availability and does not destroy fiber or minerals.","search_intent":"Understand which vegetable nutrients are lost or made more available by cooking."},
+  "seo": {
+    "title": "Does cooking vegetables destroy vitamins?",
+    "meta_description": "Cooking lowers some heat-sensitive vitamins such as C and folate, especially with boiling, but can improve carotenoid availability and does not destroy fiber or minerals.",
+    "search_intent": "Understand which vegetable nutrients are lost or made more available by cooking."
+  },
   "excerpt": "Cooking vegetables can reduce heat- and water-sensitive vitamins, especially vitamin C and folate, but it does not destroy their nutritional value. Fiber and minerals largely remain, and heat can improve the availability of carotenoids such as lycopene and beta-carotene. Boiling and discarding water usually causes more loss than steaming, microwaving or short cooking.",
-  "taxonomy": {"food_family":"vegetables","food_subcategories":["cooking"],"article_types":["food-science","myths-faq"],"primary_article_type":"food-science"},
-  "content_html": "<p>The raw-versus-cooked debate assumes nutrients all respond the same way. They do not. Cooking can decrease some compounds while making others easier to absorb.</p><h2>The vulnerable nutrients</h2><p>Vitamin C and folate are sensitive to heat, oxygen and water. Chopping vegetables finely, boiling them for a long time and discarding the water combines several routes of loss.</p><h2>What heat does not destroy</h2><p>Iron, calcium and other minerals cannot be destroyed by household cooking. They can leach into water, which is why soup retains minerals that boiled-and-drained vegetables may lose. Fiber also remains even as plant tissue softens.</p><h2>Some carotenoids become more available</h2><p>Heat breaks cell structures and can improve release of tomato lycopene and carrot beta-carotene. Eating carotenoid-rich vegetables with some fat also improves absorption.</p><table><thead><tr><th>Method</th><th>Typical pattern</th></tr></thead><tbody><tr><td>Boil and drain</td><td>More loss of water-soluble nutrients</td></tr><tr><td>Steam</td><td>Less contact with water</td></tr><tr><td>Microwave</td><td>Short time/little water can retain nutrients well</td></tr><tr><td>Roast/sauté</td><td>Little leaching; more surface heat</td></tr></tbody></table><h2>The takeaway</h2><p>Eat vegetables in more than one form. Raw and cooked preparations offer different advantages; overall vegetable variety matters more than finding one universally superior method.</p>",
-  "faq": [{"question":"Which cooking method preserves vitamins best?","answer":"Steaming, microwaving with little water and shorter cooking often retain water-soluble vitamins better than prolonged boiling and draining."},{"question":"Does cooking remove fiber?","answer":"No. Cooking softens plant structure, but dietary fiber largely remains."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Raw and cooked vegetable composition."},{"name":"NIH ODS — Vitamin C","url":"https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/","note":"Vitamin C sensitivity to processing."}],
-  "image": {"concept":"Raw broccoli and carrots beside steamed, boiled and roasted versions, editorial food photography without text.","alt":"Raw and cooked vegetables prepared in different ways"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [
+      "cooking"
+    ],
+    "article_types": [
+      "cooking-science",
+      "myths-faq"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>The raw-versus-cooked debate assumes nutrients all respond the same way. They do not. Cooking can decrease some compounds while making others easier to absorb.</p><h2>The vulnerable nutrients</h2><p>Vitamin C and folate are sensitive to heat, oxygen and water. Chopping vegetables finely, boiling them for a long time and discarding the water combines several routes of loss.</p><h2>What heat does not destroy</h2><p>Iron, calcium and other minerals cannot be destroyed by household cooking. They can leach into water, which is why soup retains minerals that boiled-and-drained vegetables may lose. Fiber also remains even as plant tissue softens.</p><h2>Some carotenoids become more available</h2><p>Heat breaks cell structures and can improve release of tomato lycopene and carrot beta-carotene. Eating carotenoid-rich vegetables with some fat also improves absorption.</p><table><thead><tr><th>Method</th><th>Typical pattern</th></tr></thead><tbody><tr><td>Boil and drain</td><td>More loss of water-soluble nutrients</td></tr><tr><td>Steam</td><td>Less contact with water</td></tr><tr><td>Microwave</td><td>Short time/little water can retain nutrients well</td></tr><tr><td>Roast/sauté</td><td>Little leaching; more surface heat</td></tr></tbody></table><p>The table makes clear why “cooking destroys vitamins” is too broad. Boiling and discarding the water combines heat with leaching; steaming or sautéing changes that equation. Even within one vegetable, vitamin C, minerals, and carotenoids can move in different directions.</p><p>A diet that includes salads, steamed vegetables, stir-fries, roasted vegetables, and soups is therefore not choosing between “nutritious” and “nutrient-free.” It is using different processes and getting different profiles. <strong>Variety in cooking methods is more sensible than trying to eat everything raw.</strong></p><h2>The takeaway</h2><p>Eat vegetables in more than one form. Raw and cooked preparations offer different advantages; overall vegetable variety matters more than finding one universally superior method.</p>",
+  "faq": [
+    {
+      "question": "Which cooking method preserves vitamins best?",
+      "answer": "Steaming, microwaving with little water and shorter cooking often retain water-soluble vitamins better than prolonged boiling and draining."
+    },
+    {
+      "question": "Does cooking remove fiber?",
+      "answer": "No. Cooking softens plant structure, but dietary fiber largely remains."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Raw and cooked vegetable composition."
+    },
+    {
+      "name": "NIH ODS — Vitamin C",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
+      "note": "Vitamin C sensitivity to processing."
+    }
+  ],
+  "image": {
+    "concept": "Raw broccoli and carrots beside steamed, boiled and roasted versions, editorial food photography without text.",
+    "alt": "Raw and cooked vegetables prepared in different ways"
+  },
+  "status": "publish"
 }

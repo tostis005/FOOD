@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-577-leche-entera-semidesnatada-desnatada-diferencias-nutricionales","article_number":577,"translation_group":"577-whole-semi-skim-milk","language":"es","locale":"es-ES","market_context":"España y Unión Europea","title":"Leche entera, semidesnatada y desnatada: diferencias nutricionales","slug":"leche-entera-semidesnatada-desnatada-diferencias-nutricionales","seo":{"title":"Leche entera, semi y desnatada: diferencias","meta_description":"La principal diferencia está en la grasa y las calorías. Comparamos leche entera, semidesnatada y desnatada por 100 ml y por vaso.","search_intent":"Comparar nutricionalmente leche entera, semidesnatada y desnatada"},"excerpt":"Al retirar grasa bajan sobre todo energía y grasa saturada; proteína, lactosa y calcio cambian mucho menos. En una gama española: entera 63 kcal y 3,6 g de grasa/100 ml; semidesnatada 45 kcal y 1,6 g; desnatada 34 kcal y 0,2 g. La proteína permanece alrededor de 3,1–3,2 g.","taxonomy":{"food_family":"dairy-cheese","food_subcategories":[],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Entera, semidesnatada y desnatada parten del mismo alimento. La diferencia fundamental es cuánto de la <strong>grasa láctea</strong> se conserva.</p><h2>Comparación por 100 ml</h2><table><thead><tr><th></th><th>Entera</th><th>Semidesnatada</th><th>Desnatada</th></tr></thead><tbody><tr><td>Energía</td><td>63 kcal</td><td>45 kcal</td><td>34 kcal</td></tr><tr><td>Grasa</td><td>3,6 g</td><td>1,6 g</td><td>0,2 g</td></tr><tr><td>Proteína</td><td>3,1 g</td><td>3,1 g</td><td>3,2 g</td></tr><tr><td>Hidratos</td><td>4,6 g</td><td>4,6 g</td><td>4,7 g</td></tr></tbody></table><p>Estas cifras de Central Lechera Asturiana muestran bien el patrón: al desnatar se elimina grasa, no proteína ni lactosa de forma relevante.</p><h2>Qué supone en un vaso de 250 ml</h2><p>Un vaso rondaría <strong>158 kcal</strong> con entera, <strong>113 kcal</strong> con semidesnatada y <strong>85 kcal</strong> con desnatada. La diferencia entre entera y desnatada es de unas 73 kcal por vaso.</p><p>La proteína, en cambio, queda cerca de 7,8–8 g en las tres.</p><h2>¿Y el calcio?</h2><p>El calcio está en la fase acuosa y proteica de la leche, no exclusivamente en la grasa. Una leche desnatada tradicional de la misma marca declara <strong>120 mg de calcio/100 ml</strong>, una cifra típica de la leche. Quitar la grasa no significa quitar el calcio.</p><h2>Qué pasa con las vitaminas</h2><p>Algunas vitaminas liposolubles están asociadas a la grasa y pueden disminuir con el desnatado. La composición final también depende de si el fabricante fortifica el producto, así que conviene revisar la etiqueta para vitamina D y A.</p><h2>¿Cuál es mejor?</h2><p>Depende del objetivo y del conjunto de la dieta. La desnatada reduce energía y grasa saturada manteniendo proteína y calcio; la entera conserva más grasa y ofrece una textura más cremosa; la semidesnatada queda en un punto intermedio.</p><p><strong>No son tres alimentos nutricionalmente opuestos:</strong> comparten la mayor parte de sus nutrientes y difieren sobre todo en grasa y energía.</p>","faq":[{"question":"¿La leche desnatada tiene menos proteína?","answer":"No de forma relevante. En la comparación, entera y semi aportan 3,1 g/100 ml y desnatada 3,2 g."},{"question":"¿Cuántas calorías se ahorran al pasar de entera a desnatada?","answer":"Unas 29 kcal por 100 ml, aproximadamente 73 kcal en un vaso de 250 ml."},{"question":"¿La leche desnatada pierde el calcio?","answer":"No. El calcio permanece en gran medida; una referencia de la misma marca aporta 120 mg/100 ml."},{"question":"¿La semidesnatada está a medio camino?","answer":"Sí especialmente en grasa y energía: 1,6 g de grasa y 45 kcal/100 ml en la referencia utilizada."}],"sources":[{"name":"Central Lechera Asturiana — Gama de leche","url":"https://www.centrallecheraasturiana.es/es/productos/leche/","note":"Comparación actual de energía, grasa, proteína e hidratos entre entera, semi y desnatada."},{"name":"Central Lechera Asturiana — Leche desnatada","url":"https://www.centrallecheraasturiana.es/productos/leche/tradicional-brik/desnatada-brik/leche-brik-desnatada-05l/","note":"Calcio y composición detallada de la leche desnatada."}],"image":{"concept":"Tres vasos iguales etiquetados entera, semidesnatada y desnatada con barras de grasa y calorías.","alt":"Leche entera, semidesnatada y desnatada comparadas por grasa, calorías y proteína"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-577-leche-entera-semidesnatada-desnatada-diferencias-nutricionales",
+  "article_number": 577,
+  "translation_group": "577-whole-semi-skim-milk",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España y Unión Europea",
+  "title": "Leche entera, semidesnatada y desnatada: diferencias nutricionales",
+  "slug": "leche-entera-semidesnatada-desnatada-diferencias-nutricionales",
+  "seo": {
+    "title": "Leche entera, semi y desnatada: diferencias",
+    "meta_description": "La principal diferencia está en la grasa y las calorías. Comparamos leche entera, semidesnatada y desnatada por 100 ml y por vaso.",
+    "search_intent": "Comparar nutricionalmente leche entera, semidesnatada y desnatada"
+  },
+  "excerpt": "Al retirar grasa bajan sobre todo energía y grasa saturada; proteína, lactosa y calcio cambian mucho menos. En una gama española: entera 63 kcal y 3,6 g de grasa/100 ml; semidesnatada 45 kcal y 1,6 g; desnatada 34 kcal y 0,2 g. La proteína permanece alrededor de 3,1–3,2 g.",
+  "taxonomy": {
+    "food_family": "dairy-cheese",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Entera, semidesnatada y desnatada parten del mismo alimento. La diferencia fundamental es cuánto de la <strong>grasa láctea</strong> se conserva.</p><h2>Comparación por 100 ml</h2><table><thead><tr><th></th><th>Entera</th><th>Semidesnatada</th><th>Desnatada</th></tr></thead><tbody><tr><td>Energía</td><td>63 kcal</td><td>45 kcal</td><td>34 kcal</td></tr><tr><td>Grasa</td><td>3,6 g</td><td>1,6 g</td><td>0,2 g</td></tr><tr><td>Proteína</td><td>3,1 g</td><td>3,1 g</td><td>3,2 g</td></tr><tr><td>Hidratos</td><td>4,6 g</td><td>4,6 g</td><td>4,7 g</td></tr></tbody></table><p>Estas cifras de Central Lechera Asturiana muestran bien el patrón: al desnatar se elimina grasa, no proteína ni lactosa de forma relevante.</p><h2>Qué supone en un vaso de 250 ml</h2><p>Un vaso rondaría <strong>158 kcal</strong> con entera, <strong>113 kcal</strong> con semidesnatada y <strong>85 kcal</strong> con desnatada. La diferencia entre entera y desnatada es de unas 73 kcal por vaso.</p><p>La proteína, en cambio, queda cerca de 7,8–8 g en las tres.</p><h2>Lo que cambia poco: proteína, lactosa, calcio y vitaminas añadidas</h2><p>El calcio está en la fase acuosa y proteica de la leche, no exclusivamente en la grasa. Una leche desnatada tradicional de la misma marca declara <strong>120 mg de calcio/100 ml</strong>, una cifra típica de la leche. Quitar la grasa no significa quitar el calcio.</p><p>Algunas vitaminas liposolubles están asociadas a la grasa y pueden disminuir con el desnatado. La composición final también depende de si el fabricante fortifica el producto, así que conviene revisar la etiqueta para vitamina D y A.</p><h2>¿Cuál es mejor?</h2><p>Depende del objetivo y del conjunto de la dieta. La desnatada reduce energía y grasa saturada manteniendo proteína y calcio; la entera conserva más grasa y ofrece una textura más cremosa; la semidesnatada queda en un punto intermedio.</p><p><strong>No son tres alimentos nutricionalmente opuestos:</strong> comparten la mayor parte de sus nutrientes y difieren sobre todo en grasa y energía.</p>",
+  "faq": [
+    {
+      "question": "¿La leche desnatada tiene menos proteína?",
+      "answer": "No de forma relevante. En la comparación, entera y semi aportan 3,1 g/100 ml y desnatada 3,2 g."
+    },
+    {
+      "question": "¿Cuántas calorías se ahorran al pasar de entera a desnatada?",
+      "answer": "Unas 29 kcal por 100 ml, aproximadamente 73 kcal en un vaso de 250 ml."
+    },
+    {
+      "question": "¿La leche desnatada pierde el calcio?",
+      "answer": "No. El calcio permanece en gran medida; una referencia de la misma marca aporta 120 mg/100 ml."
+    },
+    {
+      "question": "¿La semidesnatada está a medio camino?",
+      "answer": "Sí especialmente en grasa y energía: 1,6 g de grasa y 45 kcal/100 ml en la referencia utilizada."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Central Lechera Asturiana — Gama de leche",
+      "url": "https://www.centrallecheraasturiana.es/es/productos/leche/",
+      "note": "Comparación actual de energía, grasa, proteína e hidratos entre entera, semi y desnatada."
+    },
+    {
+      "name": "Central Lechera Asturiana — Leche desnatada",
+      "url": "https://www.centrallecheraasturiana.es/productos/leche/tradicional-brik/desnatada-brik/leche-brik-desnatada-05l/",
+      "note": "Calcio y composición detallada de la leche desnatada."
+    }
+  ],
+  "image": {
+    "concept": "Tres vasos iguales etiquetados entera, semidesnatada y desnatada con barras de grasa y calorías.",
+    "alt": "Leche entera, semidesnatada y desnatada comparadas por grasa, calorías y proteína"
+  },
+  "status": "publish"
+}

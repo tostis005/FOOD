@@ -15,20 +15,40 @@
   },
   "excerpt": "Protein generally produces a stronger satiety signal than an equal amount of energy from fat or carbohydrate. It affects gut-brain signaling, has a relatively high digestive cost and can help a meal sustain fullness. Protein is not acting alone, though: fiber, water, food volume and texture also change how filling a meal feels.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["nutrition-composition", "health-daily-consumption"],
+    "article_types": [
+      "nutrition-composition",
+      "health-daily-consumption"
+    ],
     "primary_article_type": "nutrition-composition"
   },
   "content_html": "<p>A breakfast of coffee and toast can contain enough calories yet leave hunger returning quickly. When some of that energy comes from eggs, high-protein yogurt or legumes, many people experience longer-lasting fullness. There is a physiological reason: <strong>protein activates several satiety-related signals</strong>.</p><h2>Protein tends to be more filling per calorie</h2><p>Controlled studies generally find that increasing the protein share of a meal reduces subsequent hunger compared with equally caloric meals containing less protein. The effect varies between people and does not increase forever, but the overall pattern is consistent.</p><p>That helps explain why getting a meaningful amount of protein into a meal matters more than adding just a few grams.</p><h2>What 20–30 g of protein looks like</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Approx. protein</th></tr></thead><tbody><tr><td>Cooked chicken breast</td><td>3.5 oz</td><td>~31 g</td></tr><tr><td>Cooked salmon</td><td>4.5 oz</td><td>~28 g</td></tr><tr><td>High-protein Greek yogurt/skyr</td><td>8 oz</td><td>~20–25 g depending on product</td></tr><tr><td>Cooked lentils</td><td>1.25 cups</td><td>~22 g</td></tr><tr><td>Large eggs</td><td>3</td><td>~19 g</td></tr><tr><td>Firm tofu</td><td>7 oz</td><td>~24–30 g depending on type</td></tr></tbody></table><p>The numbers show why “a protein food” is not a precise amount. Three eggs provide substantial protein but not as much as 3.5 ounces of chicken; a generous serving of lentils can get much closer.</p><h2>The gut and brain receive multiple signals</h2><p>Protein and amino acids in the digestive tract participate in signaling involving hormones such as GLP-1, PYY and cholecystokinin, all connected with fullness and food-intake regulation.</p><p>Protein also has a higher thermic effect than fat and generally carbohydrate, meaning more energy is used in its digestion and metabolism. That is a physiological difference, not a reason to chase protein without limits.</p><h2>More protein does not create endless fullness</h2><p>Moving from a very low-protein meal to one with an adequate protein source can make a noticeable difference. Repeatedly doubling protein does not guarantee twice the satiety. At some point, other features of the meal matter more.</p><p>Chicken breast alone is protein-dense but contains no fiber and little food volume. Pairing it with potatoes, beans, vegetables or fruit adds other satiety mechanisms.</p><h2>Food form matters</h2><p>A protein shake can provide 25 g of protein, yet it is consumed quickly and involves less chewing and often less volume than a solid meal containing the same protein. That does not make a shake useless; it explains why equal protein grams do not always produce equal fullness.</p><h2>Protein and fiber are especially useful together</h2><p>Legumes naturally combine both. One cup of cooked lentils provides about 18 g of protein and 16 g of fiber. Add vegetables and perhaps eggs, tofu or fish and the meal combines protein, fiber, water and volume.</p><h2>The practical rule</h2><p>If a meal leaves you hungry very quickly, one useful question is whether it contains <strong>a protein source large enough to meaningfully contribute</strong>. Then look at fiber, volume and total energy. Satiety works best as a system, not a contest for one nutrient.</p>",
   "faq": [
-    {"question": "Is protein more filling than carbohydrates?", "answer": "In general, a higher protein proportion tends to increase satiety compared with equally caloric meals containing less protein, though response varies by food and person."},
-    {"question": "How much protein should a meal have to be filling?", "answer": "There is no universal threshold. Many main meals contain 20–30 g or more, but needs and appetite responses vary."},
-    {"question": "Is a protein shake as filling as solid food?", "answer": "Not necessarily. Solid food often involves more chewing, volume and other nutrients, which also affect satiety."}
+    {
+      "question": "Is protein more filling than carbohydrates?",
+      "answer": "In general, a higher protein proportion tends to increase satiety compared with equally caloric meals containing less protein, though response varies by food and person."
+    },
+    {
+      "question": "How much protein should a meal have to be filling?",
+      "answer": "There is no universal threshold. Many main meals contain 20–30 g or more, but needs and appetite responses vary."
+    },
+    {
+      "question": "Is a protein shake as filling as solid food?",
+      "answer": "Not necessarily. Solid food often involves more chewing, volume and other nutrients, which also affect satiety."
+    }
   ],
   "sources": [
-    {"name": "PubMed — Research on dietary protein and satiety", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=dietary+protein+satiety+review", "note": "Reviews and studies on protein, satiety signaling and food intake."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein values for example foods and portions."}
+    {
+      "name": "PubMed — Research on dietary protein and satiety",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=dietary+protein+satiety+review",
+      "note": "Reviews and studies on protein, satiety signaling and food intake."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Protein values for example foods and portions."
+    }
   ],
   "image": {
     "concept": "Meal spread with salmon, eggs, lentils, tofu and high-protein yogurt in realistic portions, clean editorial food photography, no text.",

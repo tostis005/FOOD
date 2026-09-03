@@ -1,1 +1,68 @@
-{"schema_version":1,"id":"en-589-fresh-vs-canned-tuna-nutrition","article_number":589,"translation_group":"589-fresh-vs-canned-tuna","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"Fresh vs. canned tuna: nutrition differences","slug":"fresh-vs-canned-tuna-nutrition","seo":{"title":"Fresh vs. canned tuna: protein, fat and sodium","meta_description":"Fresh yellowfin and canned light tuna are both lean protein foods, but species, packing liquid and salt change calories, fat and sodium. Compare per 100 g.","search_intent":"Compare fresh and canned tuna nutrition"},"excerpt":"Raw yellowfin tuna provides about 109 calories, 24.4 g protein, 0.5 g fat and 45 mg sodium per 100 g. A USDA canned-light-in-water reference has 86 calories, 19.4 g protein, 1 g fat and 247 mg sodium. Canned light tuna in oil can approach 198 calories and 8.2 g fat even after draining.","taxonomy":{"food_family":"fish-seafood","food_subcategories":[],"article_types":["comparisons","nutrition-composition","processing-production"],"primary_article_type":"comparisons"},"content_html":"<p>Fresh tuna and canned tuna can both be extremely protein-dense, but <strong>“tuna” covers multiple species and the can adds another variable: water, oil, broth and salt.</strong></p><h2>Yellowfin vs. canned light in water</h2><table><thead><tr><th>Per 100 g</th><th>Raw yellowfin</th><th>Canned light, water, drained</th></tr></thead><tbody><tr><td>Calories</td><td>109</td><td>86</td></tr><tr><td>Protein</td><td>24.4 g</td><td>19.4 g</td></tr><tr><td>Fat</td><td>0.5 g</td><td>1.0 g</td></tr><tr><td>Sodium</td><td>45 mg</td><td>247 mg</td></tr></tbody></table><p>The canned reference has about five times as much sodium, while the fresh yellowfin has about 5 g more protein per 100 g.</p><h2>Oil changes the picture</h2><p>A USDA canned-light-in-oil reference is around <strong>198 calories and 8.2 g fat per 100 g drained</strong>. Draining removes free oil but not every gram retained by the fish.</p><h2>Species differences matter</h2><p>Yellowfin, skipjack, albacore and bluefin have different fat and mercury profiles. A comparison between yellowfin steak and skipjack-based canned light tuna is therefore not a pure fresh-versus-canned experiment.</p><h2>Canning does not eliminate protein</h2><p>Heat changes texture and can affect some vitamins, but canned tuna remains a concentrated protein food. Water content and species explain part of the per-100-g difference.</p><h2>How to shop</h2><p>Look at <strong>species, drained weight, packing medium and sodium</strong>. Water-packed no-salt-added options minimize added fat and sodium; oil-packed tuna offers a different texture and higher energy density.</p>","faq":[{"question":"Which has more protein?","answer":"In this comparison, raw yellowfin: 24.4 g/100 g versus 19.4 g for canned light tuna in water."},{"question":"Is canned tuna higher in sodium?","answer":"It often is. The reference here has 247 mg/100 g versus 45 mg in raw yellowfin."},{"question":"How much does oil add?","answer":"A canned-light-in-oil reference reaches about 198 calories and 8.2 g fat/100 g drained."},{"question":"Are all canned tunas the same species?","answer":"No. Canned light, albacore and other products can use different tuna species with different nutrition and mercury levels."}],"sources":[{"name":"USDA-derived data — Yellowfin tuna, raw (FDC 175159)","url":"https://nutri-db.com/en/foods/175159","note":"109 calories, 24.4 g protein, 0.5 g fat and 45 mg sodium/100 g."},{"name":"USDA-derived data — Canned light tuna in water (FDC 173709)","url":"https://nutri-db.com/en/foods/173709","note":"86 calories, 19.44 g protein, 0.96 g fat and 247 mg sodium/100 g."},{"name":"USDA-derived canned tuna comparison","url":"https://happyforks.com/food/tuna/2793","note":"Shows the large calorie/fat difference between water- and oil-packed canned tuna."}],"image":{"concept":"Fresh yellowfin steak beside water-packed and oil-packed tuna cans with protein, fat and sodium labels.","alt":"Fresh and canned tuna compared for protein, fat, calories and sodium"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-589-fresh-vs-canned-tuna-nutrition",
+  "article_number": 589,
+  "translation_group": "589-fresh-vs-canned-tuna",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "Fresh vs. canned tuna: nutrition differences",
+  "slug": "fresh-vs-canned-tuna-nutrition",
+  "seo": {
+    "title": "Fresh vs. canned tuna: protein, fat and sodium",
+    "meta_description": "Fresh yellowfin and canned light tuna are both lean protein foods, but species, packing liquid and salt change calories, fat and sodium. Compare per 100 g.",
+    "search_intent": "Compare fresh and canned tuna nutrition"
+  },
+  "excerpt": "Raw yellowfin tuna provides about 109 calories, 24.4 g protein, 0.5 g fat and 45 mg sodium per 100 g. A USDA canned-light-in-water reference has 86 calories, 19.4 g protein, 1 g fat and 247 mg sodium. Canned light tuna in oil can approach 198 calories and 8.2 g fat even after draining.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition",
+      "processing-production"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Fresh tuna and canned tuna can both be extremely protein-dense, but <strong>“tuna” covers multiple species and the can adds another variable: water, oil, broth and salt.</strong></p><h2>Yellowfin vs. canned light in water</h2><table><thead><tr><th>Per 100 g</th><th>Raw yellowfin</th><th>Canned light, water, drained</th></tr></thead><tbody><tr><td>Calories</td><td>109</td><td>86</td></tr><tr><td>Protein</td><td>24.4 g</td><td>19.4 g</td></tr><tr><td>Fat</td><td>0.5 g</td><td>1.0 g</td></tr><tr><td>Sodium</td><td>45 mg</td><td>247 mg</td></tr></tbody></table><p>The canned reference has about five times as much sodium, while the fresh yellowfin has about 5 g more protein per 100 g.</p><h2>Oil changes the picture</h2><p>A USDA canned-light-in-oil reference is around <strong>198 calories and 8.2 g fat per 100 g drained</strong>. Draining removes free oil but not every gram retained by the fish.</p><h2>Species differences matter</h2><p>Yellowfin, skipjack, albacore and bluefin have different fat and mercury profiles. A comparison between yellowfin steak and skipjack-based canned light tuna is therefore not a pure fresh-versus-canned experiment.</p><h2>Canning does not eliminate protein</h2><p>Heat changes texture and can affect some vitamins, but canned tuna remains a concentrated protein food. Water content and species explain part of the per-100-g difference.</p><h2>Draining changes the food you are actually comparing</h2><p>With tuna packed in water, much of the liquid is discarded; with tuna packed in oil, some oil remains on the fish even after draining. That is why a label and a food-composition database may not match exactly when one refers to the full packed product and the other to a drained portion.</p><p>For comparison with fresh tuna, keep the reference state consistent. Protein changes relatively little; energy, fat and sodium are the variables most easily shifted by packing medium and processing.</p><h2>How to shop</h2><p>Look at <strong>species, drained weight, packing medium and sodium</strong>. Water-packed no-salt-added options minimize added fat and sodium; oil-packed tuna offers a different texture and higher energy density.</p>",
+  "faq": [
+    {
+      "question": "Which has more protein?",
+      "answer": "In this comparison, raw yellowfin: 24.4 g/100 g versus 19.4 g for canned light tuna in water."
+    },
+    {
+      "question": "Is canned tuna higher in sodium?",
+      "answer": "It often is. The reference here has 247 mg/100 g versus 45 mg in raw yellowfin."
+    },
+    {
+      "question": "How much does oil add?",
+      "answer": "A canned-light-in-oil reference reaches about 198 calories and 8.2 g fat/100 g drained."
+    },
+    {
+      "question": "Are all canned tunas the same species?",
+      "answer": "No. Canned light, albacore and other products can use different tuna species with different nutrition and mercury levels."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA-derived data — Yellowfin tuna, raw (FDC 175159)",
+      "url": "https://nutri-db.com/en/foods/175159",
+      "note": "109 calories, 24.4 g protein, 0.5 g fat and 45 mg sodium/100 g."
+    },
+    {
+      "name": "USDA-derived data — Canned light tuna in water (FDC 173709)",
+      "url": "https://nutri-db.com/en/foods/173709",
+      "note": "86 calories, 19.44 g protein, 0.96 g fat and 247 mg sodium/100 g."
+    },
+    {
+      "name": "USDA-derived canned tuna comparison",
+      "url": "https://happyforks.com/food/tuna/2793",
+      "note": "Shows the large calorie/fat difference between water- and oil-packed canned tuna."
+    }
+  ],
+  "image": {
+    "concept": "Fresh yellowfin steak beside water-packed and oil-packed tuna cans with protein, fat and sodium labels.",
+    "alt": "Fresh and canned tuna compared for protein, fat, calories and sodium"
+  },
+  "status": "publish"
+}

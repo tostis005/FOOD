@@ -1,1 +1,58 @@
-{"schema_version":1,"id":"en-498-high-fiber-whole-grains","article_number":498,"translation_group":"498-highest-fiber-whole-grains","language":"en","locale":"en-US","market_context":"United States; dry-weight fiber ranking and whole-grain processing.","title":"Whole Grains Highest in Fiber","slug":"highest-fiber-whole-grains","seo":{"title":"Whole Grains Highest in Fiber","meta_description":"Dry hulled barley and rye can exceed 15 g fiber/100 g; bulgur and oats commonly provide about 10–13 g, while brown rice is much lower.","search_intent":"Compare common whole grains for fiber using dry-weight values."},"excerpt":"By dry weight, hulled barley and rye are among the highest-fiber common grains, often around or above 15 g per 100 g. Bulgur and oats commonly provide about 10–13 g, while brown rice is closer to 3–4 g. Processing changes the numbers substantially.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":[],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>Whole grain does not mean every grain contains the same amount of fiber. <strong>Species and processing matter even when bran and germ are retained.</strong></p><h2>Approximate dry ranking</h2><ol><li><strong>Hulled whole barley:</strong> around 17 g fiber/100 g.</li><li><strong>Whole rye:</strong> about 15 g/100 g.</li><li><strong>Whole-grain bulgur:</strong> around 12–13 g/100 g.</li><li><strong>Oats:</strong> close to 10 g/100 g.</li><li><strong>Whole wheat:</strong> roughly 10–12 g/100 g depending on variety.</li><li><strong>Brown rice:</strong> about 3–4 g/100 g.</li></ol><h2>Pearled barley is not the same thing</h2><p>Pearling removes outer layers and some bran. It can still contain fiber, but it is not nutritionally identical to hulled whole barley.</p><h2>Soluble versus insoluble fiber</h2><p>Oats and barley stand out for beta-glucan, a viscous soluble fiber. Wheat and rye contribute more insoluble fiber.</p><h2>Cooking dilutes the numbers</h2><p>Water absorption reduces fiber per 100 g cooked, which is why this ranking uses dry weights.</p><p><strong>For total fiber, whole barley and rye stand out; for beta-glucan, oats and barley are especially notable.</strong></p>","faq":[{"question":"Which whole grain has the most fiber?","answer":"Among common grains, hulled whole barley and rye are usually near the top by dry weight."},{"question":"Are oats high in fiber?","answer":"Yes, around 10 g per 100 g dry, including a meaningful amount of beta-glucan."},{"question":"Does brown rice have as much fiber as oats?","answer":"No. Brown rice is usually around 3–4 g/100 g dry, much lower than oats, rye, or hulled barley."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Dry grain fiber values."},{"name":"Harvard T.H. Chan — Whole Grains","url":"https://nutritionsource.hsph.harvard.edu/what-should-you-eat/whole-grains/","note":"Whole-grain nutrition context."}],"image":{"concept":"Dry barley, rye, bulgur, oats, whole wheat and brown rice lined up for comparison, realistic editorial photography, no text.","alt":"Whole grains compared for fiber"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-498-high-fiber-whole-grains",
+  "article_number": 498,
+  "translation_group": "498-highest-fiber-whole-grains",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; dry-weight fiber ranking and whole-grain processing.",
+  "title": "Whole Grains Highest in Fiber",
+  "slug": "highest-fiber-whole-grains",
+  "seo": {
+    "title": "Whole Grains Highest in Fiber",
+    "meta_description": "Dry hulled barley and rye can exceed 15 g fiber/100 g; bulgur and oats commonly provide about 10–13 g, while brown rice is much lower.",
+    "search_intent": "Compare common whole grains for fiber using dry-weight values."
+  },
+  "excerpt": "By dry weight, hulled barley and rye are among the highest-fiber common grains, often around or above 15 g per 100 g. Bulgur and oats commonly provide about 10–13 g, while brown rice is closer to 3–4 g. Processing changes the numbers substantially.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>“Whole grain” means the bran, germ, and endosperm are retained in their original proportions, but it does not mean every whole grain contains the same amount of fiber. <strong>Hulled whole barley and rye can provide far more fiber than brown rice by dry weight, while oats and barley also stand out for beta-glucan.</strong> A useful ranking has to compare equivalent products in the same state.</p>\n<h2>Approximate fiber ranking per 100 g dry</h2>\n<table><thead><tr><th>Whole grain</th><th>Approx. fiber</th></tr></thead><tbody><tr><td>Hulled whole barley</td><td>~17 g</td></tr><tr><td>Whole rye</td><td>~15 g</td></tr><tr><td>Whole-grain bulgur</td><td>~12–13 g</td></tr><tr><td>Whole wheat</td><td>~10–12 g</td></tr><tr><td>Oats</td><td>~10 g</td></tr><tr><td>Brown rice</td><td>~3–4 g</td></tr></tbody></table>\n<p>The gap is not trivial. Hulled whole barley can provide roughly <strong>four to five times as much fiber as brown rice</strong> by the same dry weight. Whole wheat and oats are much closer and can switch places depending on variety and database entry.</p>\n<p>The ranking is a way to compare the grains themselves, not a claim that people normally eat 100 g dry of each one. Serving size and cooking water change the practical picture.</p>\n<h2>Pearled barley is not the same as whole hulled barley</h2>\n<p>Hulled barley retains the bran and qualifies as a whole grain. Pearling polishes away outer layers and some bran. It can still contain useful fiber, but it is not nutritionally identical to the barley at the top of the table.</p>\n<p>This is why two packages both labeled barley can show very different fiber numbers. Processing matters as much as species.</p>\n<h2>Total fiber does not tell you what kind of fiber dominates</h2>\n<p>Oats and barley are notable for beta-glucan, a viscous soluble fiber. Wheat and rye contain a larger share of insoluble fiber. The table combines fiber types into one total number, so it does not tell the whole physiological story.</p>\n<p>Barley can therefore lead total fiber while oats remain especially interesting when beta-glucan is the reason for choosing a grain.</p>\n<h2>Cooking “dilutes” the per-100-g number with water</h2>\n<p>As a grain cooks, it absorbs water and becomes heavier. The fiber in the portion has not vanished; it is simply spread through more grams of food. That is why 100 g cooked grain usually shows far less fiber than 100 g dry.</p>\n<p>Two cooked grains can also retain different amounts of water, so their per-100-g values should not be read without considering serving size.</p>\n<h2>What a dry serving means in practice</h2>\n<p>At 50 g dry, a barley containing 17 g fiber per 100 g would provide about <strong>8.5 g fiber</strong>; 50 g oats at 10% would provide about 5 g; 50 g brown rice at 3.5% would provide roughly 1.8 g. Cooking changes the final weight, not that starting fiber amount.</p>\n<h2>So which whole grain is highest in fiber?</h2>\n<p><strong>Among the common grains in this comparison, hulled whole barley and rye are clearly near the top for total fiber. Oats and barley also stand out for beta-glucan, while brown rice contains much less fiber by dry weight.</strong> The useful lesson is not the decimal order; it is that “whole grain” preserves the kernel, but species and processing still create large differences.</p>",
+  "faq": [
+    {
+      "question": "Which whole grain has the most fiber?",
+      "answer": "Among common grains, hulled whole barley and rye are usually near the top by dry weight."
+    },
+    {
+      "question": "Are oats high in fiber?",
+      "answer": "Yes, around 10 g per 100 g dry, including a meaningful amount of beta-glucan."
+    },
+    {
+      "question": "Does brown rice have as much fiber as oats?",
+      "answer": "No. Brown rice is usually around 3–4 g/100 g dry, much lower than oats, rye, or hulled barley."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Dry grain fiber values."
+    },
+    {
+      "name": "Harvard T.H. Chan — Whole Grains",
+      "url": "https://nutritionsource.hsph.harvard.edu/what-should-you-eat/whole-grains/",
+      "note": "Whole-grain nutrition context."
+    }
+  ],
+  "image": {
+    "concept": "Dry barley, rye, bulgur, oats, whole wheat and brown rice lined up for comparison, realistic editorial photography, no text.",
+    "alt": "Whole grains compared for fiber"
+  },
+  "status": "publish"
+}

@@ -8,12 +8,44 @@
   "market_context": "España/Unión Europea; composición y estabilidad de nutrientes durante almacenamiento/congelación",
   "title": "Fruta fresca vs. congelada: diferencias nutricionales",
   "slug": "fruta-fresca-vs-congelada",
-  "seo": {"title":"Fruta fresca vs. congelada: diferencias nutricionales","meta_description":"La fruta congelada conserva fibra, minerales y buena parte de vitaminas; la fresca puede perder nutrientes durante días de transporte y nevera. Congelada no significa menos nutritiva.","search_intent":"Comparar nutricionalmente fruta fresca y congelada y entender cuándo una conserva mejor vitaminas."},
+  "seo": {
+    "title": "Fruta fresca vs. congelada: diferencias nutricionales",
+    "meta_description": "La fruta congelada conserva fibra, minerales y buena parte de vitaminas; la fresca puede perder nutrientes durante días de transporte y nevera. Congelada no significa menos nutritiva.",
+    "search_intent": "Comparar nutricionalmente fruta fresca y congelada y entender cuándo una conserva mejor vitaminas."
+  },
   "excerpt": "La fruta congelada puede ser nutricionalmente muy parecida a la fresca. Fibra y minerales cambian poco; vitamina C y otros compuestos pueden perderse algo durante procesado o almacenamiento, pero la congelación frena después el deterioro. Una fruta congelada poco después de recolectarse puede conservar mejor algunos nutrientes que una fruta fresca que ha pasado muchos días almacenada.",
-  "taxonomy": {"food_family":"fruit","food_subcategories":["frozen-fruit"],"article_types":["comparison","nutrition-composition"],"primary_article_type":"comparison"},
-  "content_html": "<p>“Fresca” describe el estado de venta, no cuánto tiempo ha pasado desde la cosecha. Una fresa puede viajar y permanecer varios días refrigerada; otra puede congelarse pocas horas después de recogerse.</p><h2>Qué nutrientes cambian poco</h2><p>Fibra, minerales y macronutrientes son relativamente estables durante la congelación. Cien gramos de frutos rojos congelados no pierden de repente su fibra porque el agua se convierta en hielo.</p><h2>Las vitaminas sensibles cuentan otra historia</h2><p>Vitamina C y folato pueden disminuir con exposición al oxígeno, calor y almacenamiento. La fruta normalmente no necesita el escaldado previo típico de muchas verduras congeladas, por lo que algunas frutas se congelan con pérdidas iniciales pequeñas.</p><table><thead><tr><th>Aspecto</th><th>Fresca</th><th>Congelada</th></tr></thead><tbody><tr><td>Fibra/minerales</td><td>Muy bien conservados</td><td>Muy bien conservados</td></tr><tr><td>Vitaminas sensibles</td><td>Pueden bajar durante días/semanas</td><td>Pequeñas pérdidas iniciales; luego deterioro lento</td></tr><tr><td>Textura</td><td>Más firme</td><td>Más blanda tras descongelar</td></tr><tr><td>Ingredientes</td><td>Normalmente ninguno</td><td>Conviene comprobar azúcar/sirope añadido</td></tr></tbody></table><h2>La textura cambia más que la nutrición</h2><p>Los cristales de hielo rompen paredes celulares, por eso fresas o mango descongelados pueden quedar blandos y liberar jugo. Esa pérdida de estructura no equivale a una pérdida proporcional de nutrientes si también se consume el líquido.</p><h2>El producto concreto importa</h2><p>Fruta congelada sin azúcar es una comparación limpia. Mezclas en sirope, batidos preparados o postres congelados son productos distintos y pueden añadir mucho azúcar.</p><h2>La conclusión</h2><p>Fresca y congelada son dos buenas formas de comer fruta. Elige fresca cuando importe textura y madurez; congelada cuando importe disponibilidad, duración y comodidad. Nutricionalmente, la diferencia suele ser mucho menor de lo que sugiere la etiqueta “fresco”.</p>",
-  "faq": [{"question":"¿La fruta congelada pierde vitaminas?","answer":"Puede perder algo de vitaminas sensibles, pero la congelación también frena el deterioro posterior. Fibra y minerales permanecen en gran medida."},{"question":"¿Es peor la fruta congelada para batidos?","answer":"No nutricionalmente si es fruta sin azúcar añadido. La principal diferencia es de textura y temperatura."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Comparación de composición de fruta fresca y congelada."}],
-  "image": {"concept":"Fresas y arándanos frescos junto a las mismas frutas congeladas, fotografía editorial comparativa sin texto.","alt":"Fruta fresca y fruta congelada comparadas"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": [
+      "frozen-fruit"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>“Fresca” describe el estado de venta, no cuánto tiempo ha pasado desde la cosecha. Una fresa puede viajar y permanecer varios días refrigerada; otra puede congelarse pocas horas después de recogerse.</p><h2>Qué nutrientes cambian poco</h2><p>Fibra, minerales y macronutrientes son relativamente estables durante la congelación. Cien gramos de frutos rojos congelados no pierden de repente su fibra porque el agua se convierta en hielo.</p><h2>Las vitaminas sensibles cuentan otra historia</h2><p>Vitamina C y folato pueden disminuir con exposición al oxígeno, calor y almacenamiento. La fruta normalmente no necesita el escaldado previo típico de muchas verduras congeladas, por lo que algunas frutas se congelan con pérdidas iniciales pequeñas.</p><table><thead><tr><th>Aspecto</th><th>Fresca</th><th>Congelada</th></tr></thead><tbody><tr><td>Fibra/minerales</td><td>Muy bien conservados</td><td>Muy bien conservados</td></tr><tr><td>Vitaminas sensibles</td><td>Pueden bajar durante días/semanas</td><td>Pequeñas pérdidas iniciales; luego deterioro lento</td></tr><tr><td>Textura</td><td>Más firme</td><td>Más blanda tras descongelar</td></tr><tr><td>Ingredientes</td><td>Normalmente ninguno</td><td>Conviene comprobar azúcar/sirope añadido</td></tr></tbody></table><h2>La textura cambia más que la nutrición</h2><p>Los cristales de hielo rompen paredes celulares, por eso fresas o mango descongelados pueden quedar blandos y liberar jugo. Esa pérdida de estructura no equivale a una pérdida proporcional de nutrientes si también se consume el líquido.</p><h2>El producto concreto importa</h2><p>Fruta congelada sin azúcar es una comparación limpia. Mezclas en sirope, batidos preparados o postres congelados son productos distintos y pueden añadir mucho azúcar.</p><h2>La comparación útil es lo que llega a casa, no un ideal de laboratorio</h2><p>Una fruta recién cosechada puede partir con ventaja, pero la fresca del supermercado ya ha pasado por transporte y almacenamiento. La congelada suele procesarse cerca de la cosecha y después ralentiza mucho las reacciones. Por eso unas vitaminas pueden quedar muy parecidas y otras variar según especie, tiempo y tratamiento; el cambio más evidente al descongelar suele ser la textura.</p><h2>La conclusión</h2><p>Fresca y congelada son dos buenas formas de comer fruta. Elige fresca cuando importe textura y madurez; congelada cuando importe disponibilidad, duración y comodidad. Nutricionalmente, la diferencia suele ser mucho menor de lo que sugiere la etiqueta “fresco”.</p>",
+  "faq": [
+    {
+      "question": "¿La fruta congelada pierde vitaminas?",
+      "answer": "Puede perder algo de vitaminas sensibles, pero la congelación también frena el deterioro posterior. Fibra y minerales permanecen en gran medida."
+    },
+    {
+      "question": "¿Es peor la fruta congelada para batidos?",
+      "answer": "No nutricionalmente si es fruta sin azúcar añadido. La principal diferencia es de textura y temperatura."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Comparación de composición de fruta fresca y congelada."
+    }
+  ],
+  "image": {
+    "concept": "Fresas y arándanos frescos junto a las mismas frutas congeladas, fotografía editorial comparativa sin texto.",
+    "alt": "Fruta fresca y fruta congelada comparadas"
+  },
+  "status": "publish"
 }

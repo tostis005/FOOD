@@ -15,19 +15,38 @@
   },
   "excerpt": "El yogur griego natural suele concentrar aproximadamente el doble de proteína que un yogur natural convencional: alrededor de 8–10 g frente a 3–5 g por 100 g. Puede contener más o menos grasa según sea entero, bajo en grasa o 0%; y un yogur saborizado puede llevar mucho más azúcar añadido que cualquiera de los dos naturales.",
   "taxonomy": {
-    "food_family": "dairy",
-    "food_subcategories": ["yogurt", "greek-yogurt"],
-    "article_types": ["comparisons", "nutrition-composition"],
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "yogurt",
+      "greek-yogurt"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
     "primary_article_type": "comparisons"
   },
   "content_html": "<p>‘Griego’ no significa automáticamente más grasa ni ‘natural’ significa automáticamente poco azúcar. Son dos preguntas distintas: una describe cómo se concentra el yogur; la otra depende de la leche utilizada y de lo que se añade después.</p><p><strong>La diferencia más constante es la proteína: el yogur griego colado suele concentrar aproximadamente el doble.</strong> Para grasa y azúcar hay que mirar si el producto es entero, desnatado y sin azúcar añadido.</p><h2>Una comparación representativa de versiones naturales enteras</h2><table><thead><tr><th>Por 100 g</th><th>Yogur natural</th><th>Yogur griego natural</th></tr></thead><tbody><tr><td>Calorías</td><td>~60–65 kcal</td><td>~90–100 kcal</td></tr><tr><td>Proteína</td><td>~3,5–4 g</td><td>~8–10 g</td></tr><tr><td>Grasa</td><td>~3–3,5 g</td><td>~4–5 g</td></tr><tr><td>Azúcares naturales</td><td>~4,5–5 g</td><td>~3–4 g</td></tr></tbody></table><p>El salto de proteína es grande: una ración de 170 g de griego puede aportar 15–17 g, frente a unos 6–7 g en la misma cantidad de yogur natural convencional.</p><h2>El colado explica la concentración</h2><p>Para hacer yogur griego tradicional se elimina parte del suero. Al perder agua y lactosa disuelta, la fracción sólida queda más concentrada y sube la proteína por 100 g.</p><p>No se ha ‘creado’ proteína: hay más porque la misma cantidad de producto final contiene menos agua.</p><h2>La grasa depende más del porcentaje que de la palabra griego</h2><p>Un yogur griego entero puede rondar 5 g de grasa por 100 g, mientras uno 0% puede tener menos de 1 g. Un yogur natural entero puede rondar 3–4 g y uno desnatado casi nada.</p><p>Por eso comparar griego entero con yogur natural desnatado y concluir que ‘el griego tiene mucha grasa’ mezcla dos variables distintas.</p><h2>El azúcar natural suele ser algo menor en el griego</h2><p>Parte de la lactosa se va con el suero durante el colado, de modo que el griego natural puede contener alrededor de 3–4 g de azúcares por 100 g frente a 4,5–5 g en un yogur normal.</p><p>Pero esa diferencia de 1–2 g queda empequeñecida si el producto lleva azúcar, miel, sirope o preparación de fruta añadida. Algunos yogures saborizados superan 10–15 g de azúcares totales por 100 g.</p><h2>‘Sin azúcar añadido’ no significa sin lactosa</h2><p>La leche contiene lactosa de forma natural. Un yogur natural sin azúcar añadido seguirá mostrando varios gramos de azúcares en la tabla nutricional; no son necesariamente azúcar de mesa añadido.</p><h2>El calcio puede favorecer al yogur normal en algunas comparaciones</h2><p>Parte del calcio puede perderse con el suero en ciertos procesos de colado, por lo que algunos yogures convencionales aportan más calcio por ración. La formulación varía mucho entre marcas, así que la etiqueta es especialmente útil.</p><h2>La idea útil</h2><p><strong>Elige griego si buscas más proteína en un volumen pequeño; elige cualquiera de los dos por sabor y textura si la proteína no es prioritaria.</strong> Para juzgar grasa y azúcar, olvida el nombre del estilo durante un momento y mira tres datos: porcentaje de grasa, azúcares añadidos e ingredientes.</p>",
   "faq": [
-    {"question": "¿Qué tiene más proteína, yogur griego o natural?", "answer": "El griego suele aportar aproximadamente 8–10 g/100 g frente a 3–5 g/100 g de un yogur natural convencional."},
-    {"question": "¿El yogur griego tiene más grasa?", "answer": "No necesariamente. Depende de si es entero, bajo en grasa o 0%. Hay yogures griegos prácticamente sin grasa."},
-    {"question": "¿Cuál tiene menos azúcar?", "answer": "En versiones naturales, el griego suele contener algo menos de lactosa. En productos saborizados, los azúcares añadidos pueden ser mucho más importantes que esa diferencia."}
+    {
+      "question": "¿Qué tiene más proteína, yogur griego o natural?",
+      "answer": "El griego suele aportar aproximadamente 8–10 g/100 g frente a 3–5 g/100 g de un yogur natural convencional."
+    },
+    {
+      "question": "¿El yogur griego tiene más grasa?",
+      "answer": "No necesariamente. Depende de si es entero, bajo en grasa o 0%. Hay yogures griegos prácticamente sin grasa."
+    },
+    {
+      "question": "¿Cuál tiene menos azúcar?",
+      "answer": "En versiones naturales, el griego suele contener algo menos de lactosa. En productos saborizados, los azúcares añadidos pueden ser mucho más importantes que esa diferencia."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de yogures naturales y griegos con distintos porcentajes de grasa."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de yogures naturales y griegos con distintos porcentajes de grasa."
+    }
   ],
   "image": {
     "concept": "Yogur natural y yogur griego natural en dos cuencos blancos iguales, mostrando diferente textura, fotografía editorial sin texto.",

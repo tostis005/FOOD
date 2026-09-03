@@ -15,20 +15,40 @@
   },
   "excerpt": "Todo ultraprocesado es un alimento procesado, pero no todo procesado es ultraprocesado. Pasteurizar leche, congelar verduras, cocer legumbres de bote o hacer yogur implica procesar alimentos sin convertirlos automáticamente en ultraprocesados. En NOVA, los ultraprocesados son formulaciones industriales con ingredientes y aditivos que van más allá de conservar o preparar el alimento original.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["myths-faq", "nutrition-composition"],
+    "article_types": [
+      "myths-faq",
+      "nutrition-composition"
+    ],
     "primary_article_type": "myths-faq"
   },
   "content_html": "<p>Una bolsa de espinacas congeladas y un refresco son productos industriales, pero nutricionalmente no cuentan la misma historia. Llamar “procesado” a ambos es correcto en sentido amplio; tratarlos como si el grado de procesamiento significara exactamente lo mismo, no.</p><p>La diferencia útil está en <strong>qué se ha hecho al alimento y para qué</strong>.</p><h2>Procesar es simplemente transformar</h2><p>Lavar, cortar, triturar, pasteurizar, fermentar, congelar, cocinar o enlatar son formas de procesamiento. Algunas se hacen en casa y otras en una fábrica.</p><p>Así, verduras congeladas, leche pasteurizada, aceite de oliva, yogur natural, queso, pan o legumbres cocidas son alimentos procesados en algún grado. Esa palabra por sí sola no describe su calidad nutricional.</p><h2>Qué añade la categoría “ultraprocesado”</h2><p>La clasificación NOVA utiliza “ultraprocesado” para formulaciones industriales elaboradas principalmente a partir de sustancias derivadas de alimentos, ingredientes refinados y, con frecuencia, aditivos destinados a modificar sabor, textura, color o conservación.</p><p>Ejemplos habituales son muchos refrescos, golosinas, snacks extrusionados, determinados cereales azucarados, postres industriales y algunas carnes reconstituidas.</p><h2>La diferencia se ve mejor con ejemplos</h2><table><thead><tr><th>Producto</th><th>Qué procesamiento recibe</th><th>Cómo suele clasificarse en NOVA</th></tr></thead><tbody><tr><td>Verduras congeladas sin salsa</td><td>Lavado, corte, escaldado/congelación</td><td>Mínimamente procesado</td></tr><tr><td>Leche pasteurizada</td><td>Tratamiento térmico</td><td>Mínimamente procesado</td></tr><tr><td>Garbanzos de bote con agua y sal</td><td>Cocción y envasado</td><td>Procesado</td></tr><tr><td>Yogur natural con leche y fermentos</td><td>Fermentación</td><td>Mínimamente procesado/procesado según formulación</td></tr><tr><td>Pan simple de harina, agua, levadura y sal</td><td>Amasado y horneado</td><td>Procesado</td></tr><tr><td>Refresco azucarado</td><td>Formulación industrial</td><td>Ultraprocesado</td></tr><tr><td>Snack de maíz saborizado</td><td>Extrusión + formulación + saborizantes</td><td>Ultraprocesado</td></tr></tbody></table><p>La clave es que <strong>el número de pasos no basta</strong>. Un alimento puede pasar por congelación, cocción y envasado y seguir siendo reconocible como el alimento original.</p><h2>La lista de ingredientes da pistas, pero no existe una regla de “cinco ingredientes”</h2><p>Una lista larga puede sugerir una formulación compleja, pero contar ingredientes no es un método fiable. Un curry casero puede tener 15 ingredientes y no ser ultraprocesado; un producto con pocos ingredientes puede incluir sustancias muy refinadas.</p><p>Conviene mirar qué ingredientes son: harinas o aceites refinados, jarabes, proteínas aisladas, aromas, emulsionantes u otros componentes cuya función es reconstruir sabor y textura pueden ser pistas dentro del marco NOVA.</p><h2>Ultraprocesado no es una categoría legal del etiquetado europeo</h2><p>En la UE, la etiqueta nutricional obligatoria informa de energía, grasas, saturadas, hidratos, azúcares, proteína y sal, entre otros elementos regulados. No existe un campo legal que diga “ultraprocesado: sí/no”.</p><p>NOVA es una clasificación utilizada en investigación y salud pública, no una declaración reglamentaria que aparezca en todos los envases.</p><h2>Por qué la diferencia importa</h2><p>Muchos ultraprocesados combinan alta densidad energética, azúcares libres, grasas, sal y formulaciones fáciles de comer rápidamente, aunque no todos comparten exactamente el mismo perfil. Por eso la categoría puede aportar información útil sobre patrones de dieta.</p><p>Pero usarla bien exige no convertir “procesado” en sinónimo de “malo”. <strong>Congelar verduras, pasteurizar leche o cocer legumbres son procesos que hacen los alimentos más seguros, cómodos o duraderos sin borrar su valor nutricional.</strong></p>",
   "faq": [
-    {"question": "¿Todo alimento procesado es ultraprocesado?", "answer": "No. Todo ultraprocesado ha sido procesado, pero alimentos como verduras congeladas, leche pasteurizada o legumbres de bote están procesados sin ser necesariamente ultraprocesados."},
-    {"question": "¿Cómo sé si un producto es ultraprocesado?", "answer": "NOVA se fija en si es una formulación industrial basada en sustancias derivadas de alimentos y aditivos, no simplemente en cuántos pasos o ingredientes tiene."},
-    {"question": "¿La etiqueta indica si es ultraprocesado?", "answer": "No de forma obligatoria en la UE. Ultraprocesado es una categoría de clasificación, no un campo legal estándar del etiquetado."}
+    {
+      "question": "¿Todo alimento procesado es ultraprocesado?",
+      "answer": "No. Todo ultraprocesado ha sido procesado, pero alimentos como verduras congeladas, leche pasteurizada o legumbres de bote están procesados sin ser necesariamente ultraprocesados."
+    },
+    {
+      "question": "¿Cómo sé si un producto es ultraprocesado?",
+      "answer": "NOVA se fija en si es una formulación industrial basada en sustancias derivadas de alimentos y aditivos, no simplemente en cuántos pasos o ingredientes tiene."
+    },
+    {
+      "question": "¿La etiqueta indica si es ultraprocesado?",
+      "answer": "No de forma obligatoria en la UE. Ultraprocesado es una categoría de clasificación, no un campo legal estándar del etiquetado."
+    }
   ],
   "sources": [
-    {"name": "FAO — Ultra-processed foods, diet quality and health using the NOVA classification system", "url": "https://www.fao.org/3/ca5644en/ca5644en.pdf", "note": "Definición y grupos de la clasificación NOVA."},
-    {"name": "Reglamento (UE) n.º 1169/2011", "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj", "note": "Información alimentaria obligatoria al consumidor en la Unión Europea."}
+    {
+      "name": "FAO — Ultra-processed foods, diet quality and health using the NOVA classification system",
+      "url": "https://www.fao.org/3/ca5644en/ca5644en.pdf",
+      "note": "Definición y grupos de la clasificación NOVA."
+    },
+    {
+      "name": "Reglamento (UE) n.º 1169/2011",
+      "url": "https://eur-lex.europa.eu/eli/reg/2011/1169/oj",
+      "note": "Información alimentaria obligatoria al consumidor en la Unión Europea."
+    }
   ],
   "image": {
     "concept": "Comparación visual entre verduras congeladas, yogur natural y garbanzos de bote frente a refresco, golosinas y snack extrusionado, fotografía editorial sin texto.",

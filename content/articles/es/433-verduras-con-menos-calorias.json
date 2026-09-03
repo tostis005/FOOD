@@ -1,1 +1,53 @@
-{"schema_version":1,"id":"es-433-verduras-menos-calorias","article_number":433,"translation_group":"433-lowest-calorie-vegetables","language":"es","locale":"es-ES","market_context":"España/Unión Europea; ranking aproximado de hortalizas crudas por 100 g.","title":"Las verduras con menos calorías","slug":"verduras-con-menos-calorias","seo":{"title":"Las verduras con menos calorías por 100 gramos","meta_description":"Pepino y lechuga rondan 15 kcal/100 g, calabacín unas 17, tomate 18 y pimiento verde unas 20. Son alimentos con mucha agua y baja densidad energética.","search_intent":"Comparar verduras y hortalizas bajas en calorías con cifras por 100 gramos."},"excerpt":"Entre las hortalizas crudas más ligeras están pepino y lechuga, alrededor de 15 kcal por 100 g; calabacín, unas 17; tomate, 18; y pimiento verde, alrededor de 20. La mayoría tienen más de un 90% de agua, lo que explica su baja densidad energética.","taxonomy":{"food_family":"vegetables-mushrooms","food_subcategories":[],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>Cuando se comparan calorías, una diferencia de 5 kcal parece pequeña, y en realidad lo es. <strong>Muchas verduras frescas se mueven en un rango muy bajo porque contienen muchísimo agua.</strong></p><h2>Algunas de las más bajas por 100 g</h2><table><thead><tr><th>Verdura u hortaliza cruda</th><th>kcal aprox./100 g</th></tr></thead><tbody><tr><td>Pepino con piel</td><td>~15</td></tr><tr><td>Lechuga</td><td>~15–17</td></tr><tr><td>Calabacín</td><td>~17</td></tr><tr><td>Tomate</td><td>~18</td></tr><tr><td>Pimiento verde</td><td>~20</td></tr><tr><td>Espinaca</td><td>~23</td></tr></tbody></table><p>Son cifras redondeadas de bases de composición como USDA FoodData Central. Variedad y preparación pueden moverlas ligeramente.</p><h2>La cocción puede cambiar la densidad</h2><p>Hervir sin grasa apenas añade energía, aunque puede cambiar el agua retenida y por eso las kcal por 100 g. Asar deshidrata y concentra. Saltear con dos cucharadas de aceite añade unas 240 kcal al plato, independientemente de que la verdura de partida tuviera 15 o 25 kcal por 100 g.</p><h2>“Menos calorías” no significa automáticamente “mejor”</h2><p>Brócoli, zanahoria o guisantes pueden aportar más energía que pepino, pero también diferentes cantidades de fibra, carotenoides, vitamina C, folato o proteína. La densidad energética es sólo una dimensión.</p><h2>La ración suele importar más que el orden exacto</h2><p>200 g de calabacín aportan alrededor de 34 kcal; 200 g de tomate, unas 36. Esa diferencia de 2 kcal es irrelevante en la práctica. Tiene más sentido usar este ranking para entender qué alimentos son muy poco densos en energía que para obsesionarse con quién queda primero.</p><p><strong>En verduras frescas, el método de cocción y los ingredientes añadidos suelen cambiar más las calorías del plato que la diferencia entre dos hortalizas de la parte baja del ranking.</strong></p>","faq":[{"question":"¿Cuál es la verdura con menos calorías?","answer":"Pepino y varias lechugas están entre las más bajas, alrededor de 15 kcal por 100 g."},{"question":"¿El tomate tiene muchas más calorías que el pepino?","answer":"No. Tomate ronda 18 kcal/100 g y pepino unas 15; la diferencia es pequeña."},{"question":"¿Cocinar verduras aumenta sus calorías?","answer":"El calor por sí mismo no añade energía, pero aceite, mantequilla o salsas sí. La pérdida de agua también puede concentrar las kcal por 100 g."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/food-search/","note":"Base de datos de composición para valores energéticos aproximados de hortalizas crudas."}],"image":{"concept":"Pepino, lechuga, calabacín, tomate, pimiento verde y espinacas sobre una mesa, fotografía editorial nutricional realista, sin texto.","alt":"Selección de verduras y hortalizas bajas en calorías"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-433-verduras-menos-calorias",
+  "article_number": 433,
+  "translation_group": "433-lowest-calorie-vegetables",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; ranking aproximado de hortalizas crudas por 100 g.",
+  "title": "Las verduras con menos calorías",
+  "slug": "verduras-con-menos-calorias",
+  "seo": {
+    "title": "Las verduras con menos calorías por 100 gramos",
+    "meta_description": "Pepino y lechuga rondan 15 kcal/100 g, calabacín unas 17, tomate 18 y pimiento verde unas 20. Son alimentos con mucha agua y baja densidad energética.",
+    "search_intent": "Comparar verduras y hortalizas bajas en calorías con cifras por 100 gramos."
+  },
+  "excerpt": "Entre las hortalizas crudas más ligeras están pepino y lechuga, alrededor de 15 kcal por 100 g; calabacín, unas 17; tomate, 18; y pimiento verde, alrededor de 20. La mayoría tienen más de un 90% de agua, lo que explica su baja densidad energética.",
+  "taxonomy": {
+    "food_family": "vegetables-mushrooms",
+    "food_subcategories": [],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Cuando se comparan calorías, una diferencia de 5 kcal parece pequeña, y en realidad lo es. <strong>Muchas verduras frescas se mueven en un rango muy bajo porque contienen muchísimo agua.</strong></p><h2>Algunas de las más bajas por 100 g</h2><table><thead><tr><th>Verdura u hortaliza cruda</th><th>kcal aprox./100 g</th></tr></thead><tbody><tr><td>Pepino con piel</td><td>~15</td></tr><tr><td>Lechuga</td><td>~15–17</td></tr><tr><td>Calabacín</td><td>~17</td></tr><tr><td>Tomate</td><td>~18</td></tr><tr><td>Pimiento verde</td><td>~20</td></tr><tr><td>Espinaca</td><td>~23</td></tr></tbody></table><p>Son cifras redondeadas de bases de composición como USDA FoodData Central. Variedad y preparación pueden moverlas ligeramente.</p><h2>La cocción puede cambiar la densidad</h2><p>Hervir sin grasa apenas añade energía, aunque puede cambiar el agua retenida y por eso las kcal por 100 g. Asar deshidrata y concentra. Saltear con dos cucharadas de aceite añade unas 240 kcal al plato, independientemente de que la verdura de partida tuviera 15 o 25 kcal por 100 g.</p><h2>“Menos calorías” no significa automáticamente “mejor”</h2><p>Brócoli, zanahoria o guisantes pueden aportar más energía que pepino, pero también diferentes cantidades de fibra, carotenoides, vitamina C, folato o proteína. La densidad energética es sólo una dimensión.</p><h2>Pocas calorías por 100 g suele significar mucha agua</h2><p>Lechuga, pepino, calabacín y otras verduras de la parte baja del ranking energético contienen gran cantidad de agua. Eso permite comer un volumen grande con poca energía, pero no significa que sean “mejores” que verduras algo más calóricas. Guisantes, maíz o zanahoria pueden aportar más energía y al mismo tiempo más carbohidratos, fibra o micronutrientes en una ración.</p><h2>La ración suele importar más que el orden exacto</h2><p>200 g de calabacín aportan alrededor de 34 kcal; 200 g de tomate, unas 36. Esa diferencia de 2 kcal es irrelevante en la práctica. Tiene más sentido usar este ranking para entender qué alimentos son muy poco densos en energía que para obsesionarse con quién queda primero.</p><p><strong>En verduras frescas, el método de cocción y los ingredientes añadidos suelen cambiar más las calorías del plato que la diferencia entre dos hortalizas de la parte baja del ranking.</strong></p>",
+  "faq": [
+    {
+      "question": "¿Cuál es la verdura con menos calorías?",
+      "answer": "Pepino y varias lechugas están entre las más bajas, alrededor de 15 kcal por 100 g."
+    },
+    {
+      "question": "¿El tomate tiene muchas más calorías que el pepino?",
+      "answer": "No. Tomate ronda 18 kcal/100 g y pepino unas 15; la diferencia es pequeña."
+    },
+    {
+      "question": "¿Cocinar verduras aumenta sus calorías?",
+      "answer": "El calor por sí mismo no añade energía, pero aceite, mantequilla o salsas sí. La pérdida de agua también puede concentrar las kcal por 100 g."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/food-search/",
+      "note": "Base de datos de composición para valores energéticos aproximados de hortalizas crudas."
+    }
+  ],
+  "image": {
+    "concept": "Pepino, lechuga, calabacín, tomate, pimiento verde y espinacas sobre una mesa, fotografía editorial nutricional realista, sin texto.",
+    "alt": "Selección de verduras y hortalizas bajas en calorías"
+  },
+  "status": "publish"
+}

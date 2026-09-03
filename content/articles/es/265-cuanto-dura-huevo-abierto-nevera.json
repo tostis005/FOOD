@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-265-huevo-abierto-nevera","article_number":265,"translation_group":"265-open-raw-egg-fridge","language":"es","locale":"es-ES","market_context":"España/Unión Europea; conservación de contenido de huevo crudo fuera de la cáscara","title":"Cuánto dura un huevo abierto en la nevera","slug":"cuanto-dura-huevo-abierto-nevera","seo":{"title":"Cuánto dura un huevo abierto en la nevera","meta_description":"Claras y yemas crudas fuera de la cáscara pueden guardarse 2–4 días refrigeradas a 4 °C o menos. Una mezcla o plato con huevo crudo conviene cocinarlo antes.","search_intent":"Saber cuánto dura un huevo ya cascado en la nevera y cómo conservar claras, yemas o mezclas crudas."},"excerpt":"Una vez cascado, el huevo pierde la protección de la cáscara. USDA sitúa claras y yemas crudas en 2–4 días de refrigeración a 4 °C o menos. Si el huevo ya forma parte de una preparación cruda, USDA recomienda cocinar ese plato inmediatamente o refrigerarlo y cocinarlo dentro de 24 horas.","taxonomy":{"food_family":"eggs","food_subcategories":["raw-eggs","storage","refrigeration"],"article_types":["storage","food-safety"],"primary_article_type":"storage"},"content_html":"<p>Un huevo dentro de su cáscara puede durar semanas refrigerado; una vez abierto, el margen es mucho menor. <strong>USDA recomienda 2–4 días para claras o yemas crudas refrigeradas a 4 °C o menos.</strong></p><h2>Qué significa “huevo abierto”</h2><p>Si has cascado un huevo y guardado su contenido en un recipiente limpio, trátalo como huevo crudo fuera de la cáscara. Cúbrelo bien y refrigéralo inmediatamente.</p><h2>Claras y yemas: 2–4 días</h2><p>La tabla de USDA indica <strong>2–4 días</strong> tanto para claras como para yemas crudas. Es un plazo mucho más corto que las 3–5 semanas de un huevo intacto refrigerado.</p><h2>Preparaciones con huevo crudo: mejor antes</h2><p>Si el huevo ya se mezcló con otros ingredientes para una tortilla, rebozado o masa que se cocinará después, USDA recomienda cocinar la preparación inmediatamente o refrigerarla y cocinarla dentro de <strong>24 horas</strong>.</p><h2>No vuelvas a meterlo en la cáscara</h2><p>Guárdalo en un recipiente limpio y cerrado. La cáscara rota ya no ofrece una barrera útil y puede introducir contaminación.</p><h2>¿Se puede congelar?</h2><p>Las claras crudas congelan bien y USDA da hasta un año de calidad. Las yemas solas se vuelven espesas y gelatinosas si se congelan sin tratamiento; para huevo entero, FDA recomienda batir yema y clara antes de congelar.</p><h2>La idea útil</h2><p><strong>Para un huevo ya cascado, piensa en 2–4 días como máximo refrigerado; si forma parte de una mezcla cruda preparada, intenta cocinarla dentro de 24 horas.</strong></p>","faq":[{"question":"¿Puedo usar un huevo abierto después de 3 días?","answer":"Entra dentro de la referencia de 2–4 días si estuvo continuamente refrigerado a 4 °C o menos en un recipiente limpio."},{"question":"¿Cuánto dura una clara cruda en la nevera?","answer":"USDA recomienda 2–4 días."},{"question":"¿Y una mezcla para tortilla con huevo crudo?","answer":"USDA recomienda cocinar preparaciones con huevo crudo inmediatamente o refrigerarlas y cocinarlas dentro de 24 horas."}],"sources":[{"name":"USDA FSIS — Shell Eggs from Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table","note":"Claras y yemas crudas: 2–4 días; preparaciones con huevo crudo: cocinar dentro de 24 horas."},{"name":"FDA — What You Need to Know About Egg Safety","url":"https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety","note":"Refrigeración de huevos y congelación de huevo entero batido o claras."}],"image":{"concept":"Huevo crudo cascado dentro de un recipiente pequeño cerrado en la nevera, fotografía editorial sin texto.","alt":"Huevo crudo abierto conservado en un recipiente en la nevera"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-265-huevo-abierto-nevera",
+  "article_number": 265,
+  "translation_group": "265-open-raw-egg-fridge",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; conservación de contenido de huevo crudo fuera de la cáscara",
+  "title": "Cuánto dura un huevo abierto en la nevera",
+  "slug": "cuanto-dura-huevo-abierto-nevera",
+  "seo": {
+    "title": "Cuánto dura un huevo abierto en la nevera",
+    "meta_description": "Claras y yemas crudas fuera de la cáscara pueden guardarse 2–4 días refrigeradas a 4 °C o menos. Una mezcla o plato con huevo crudo conviene cocinarlo antes.",
+    "search_intent": "Saber cuánto dura un huevo ya cascado en la nevera y cómo conservar claras, yemas o mezclas crudas."
+  },
+  "excerpt": "Una vez cascado, el huevo pierde la protección de la cáscara. USDA sitúa claras y yemas crudas en 2–4 días de refrigeración a 4 °C o menos. Si el huevo ya forma parte de una preparación cruda, USDA recomienda cocinar ese plato inmediatamente o refrigerarlo y cocinarlo dentro de 24 horas.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "raw-eggs",
+      "storage",
+      "refrigeration"
+    ],
+    "article_types": [
+      "storage",
+      "food-safety"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Un huevo dentro de su cáscara puede durar semanas refrigerado; una vez abierto, el margen es mucho menor. <strong>USDA recomienda 2–4 días para claras o yemas crudas refrigeradas a 4 °C o menos.</strong></p><h2>Qué significa “huevo abierto”</h2><p>Si has cascado un huevo y guardado su contenido en un recipiente limpio, trátalo como huevo crudo fuera de la cáscara. Cúbrelo bien y refrigéralo inmediatamente.</p><h2>Claras y yemas: 2–4 días</h2><p>La tabla de USDA indica <strong>2–4 días</strong> tanto para claras como para yemas crudas. Es un plazo mucho más corto que las 3–5 semanas de un huevo intacto refrigerado.</p><h2>Preparaciones con huevo crudo: mejor antes</h2><p>Si el huevo ya se mezcló con otros ingredientes para una tortilla, rebozado o masa que se cocinará después, USDA recomienda cocinar la preparación inmediatamente o refrigerarla y cocinarla dentro de <strong>24 horas</strong>.</p><h2>No vuelvas a meterlo en la cáscara</h2><p>Guárdalo en un recipiente limpio y cerrado. La cáscara rota ya no ofrece una barrera útil y puede introducir contaminación.</p><h2>¿Se puede congelar?</h2><p>Las claras crudas congelan bien y USDA da hasta un año de calidad. Las yemas solas se vuelven espesas y gelatinosas si se congelan sin tratamiento; para huevo entero, FDA recomienda batir yema y clara antes de congelar.</p><h2>Por qué la cáscara cambia tanto el margen</h2><p>Mientras está intacta, la cáscara y sus membranas forman una barrera física y el huevo se conserva como una unidad. Al cascarlo desaparece esa protección y aumenta la superficie expuesta a utensilios, manos, aire y recipiente. De ahí que el salto de semanas a pocos días no sea contradictorio.</p><p>Si solo necesitas una parte del huevo, evita mantener el resto en un cuenco abierto. Pásalo enseguida a un recipiente limpio y cerrado, anota la fecha y colócalo en una zona fría de la nevera, no en la puerta.</p><h2>La idea útil</h2><p><strong>Para un huevo ya cascado, piensa en 2–4 días como máximo refrigerado; si forma parte de una mezcla cruda preparada, intenta cocinarla dentro de 24 horas.</strong></p>",
+  "faq": [
+    {
+      "question": "¿Puedo usar un huevo abierto después de 3 días?",
+      "answer": "Entra dentro de la referencia de 2–4 días si estuvo continuamente refrigerado a 4 °C o menos en un recipiente limpio."
+    },
+    {
+      "question": "¿Cuánto dura una clara cruda en la nevera?",
+      "answer": "USDA recomienda 2–4 días."
+    },
+    {
+      "question": "¿Y una mezcla para tortilla con huevo crudo?",
+      "answer": "USDA recomienda cocinar preparaciones con huevo crudo inmediatamente o refrigerarlas y cocinarlas dentro de 24 horas."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Shell Eggs from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "note": "Claras y yemas crudas: 2–4 días; preparaciones con huevo crudo: cocinar dentro de 24 horas."
+    },
+    {
+      "name": "FDA — What You Need to Know About Egg Safety",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+      "note": "Refrigeración de huevos y congelación de huevo entero batido o claras."
+    }
+  ],
+  "image": {
+    "concept": "Huevo crudo cascado dentro de un recipiente pequeño cerrado en la nevera, fotografía editorial sin texto.",
+    "alt": "Huevo crudo abierto conservado en un recipiente en la nevera"
+  },
+  "status": "publish"
+}

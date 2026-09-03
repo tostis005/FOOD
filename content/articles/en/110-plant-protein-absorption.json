@@ -16,19 +16,42 @@
   "excerpt": "On average, many plant proteins are somewhat less digestible than animal proteins, and some provide lower amounts of one or more essential amino acids. But there is no single plant-protein “absorption percentage”: soy, tofu, tempeh, whole legumes, grains, and protein isolates behave differently. A varied plant-based diet can fully meet protein needs.",
   "taxonomy": {
     "food_family": "general",
-    "food_subcategories": ["plant-protein", "protein"],
-    "article_types": ["nutrition-explainer", "myths-faq"],
-    "primary_article_type": "nutrition-explainer"
+    "food_subcategories": [
+      "plant-protein",
+      "protein"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-concepts"
   },
   "content_html": "<p>Saying plant protein is “absorbed worse” combines several different ideas. <strong>The real differences involve how completely a protein is digested and whether it supplies essential amino acids in useful proportions</strong>, not whether the body simply rejects plant protein.</p><h2>Absorption, digestibility, and quality are not the same thing</h2><p>Protein first has to be broken down into amino acids and small peptides. Those are absorbed in the intestine and then used to build body proteins. A protein can be highly digestible and still be relatively low in one essential amino acid.</p><p>That is why FAO protein-quality approaches such as DIAAS consider both amino-acid digestibility and amino-acid profile rather than assigning one universal absorption percentage.</p><h2>Why many whole plant proteins are less digestible</h2><p>Plant cells have fiber-rich walls and can contain phytates, protease inhibitors, and other compounds that partly limit enzyme access. Animal-food matrices generally have fewer of those barriers.</p><p>The difference is not fixed. Cooking legumes, grinding, fermenting, sprouting, and isolating protein can all improve digestibility.</p><h2>Plant proteins vary widely</h2><p>Soy protein has high quality for a plant source and a strong essential-amino-acid profile. Soy or pea protein isolates can be more digestible than the intact bean because much of the fiber and physical matrix has been removed.</p><p>Some grains are relatively low in lysine, while many legumes are relatively lower in sulfur-containing amino acids such as methionine. That does not mean their protein “doesn't count”; it means different foods can complement each other.</p><h2>Total intake can compensate for modest differences</h2><p>If a plant source is somewhat less digestible or slightly lower in one amino acid, adequate total protein and dietary variety usually compensate. There is no need to double plant protein or assume half of it is wasted.</p><p>People eating entirely plant-based diets may benefit from paying more attention to total protein and protein-rich foods—legumes, tofu, tempeh, textured soy protein, seitan, nuts, and seeds—especially when protein needs are high.</p><h2>You do not need perfect protein combining at every meal</h2><p>The body maintains an amino-acid pool and does not require every essential amino acid to arrive in perfect proportions in the same bite. A varied diet across the day can complement grains and legumes without turning each plate into an amino-acid equation.</p><h2>Processing can improve digestibility</h2><p>In this context, processing is not automatically negative. Cooking makes legumes safer and their protein more accessible; fermentation changes the soybean matrix; tofu and protein isolates remove some physical barriers found in intact beans.</p><h2>The practical conclusion</h2><p>Yes, <strong>many plant proteins are on average somewhat less digestible</strong> than animal proteins such as eggs, dairy, meat, and fish. But the size of that difference varies greatly and does not prevent a well-planned plant-based diet from meeting protein needs.</p><p>The useful question is not “does plant protein absorb or not?” but <strong>how much total protein you eat, which foods provide it, and whether the overall diet supplies enough essential amino acids</strong>.</p>",
   "faq": [
-    {"question": "What percentage of plant protein is absorbed?", "answer": "There is no single percentage. Digestibility varies by food, processing method, and amino acid; whole legumes, soy foods, and protein isolates behave differently."},
-    {"question": "Do vegans need more protein?", "answer": "It can be useful to pay somewhat more attention to total protein and food variety, especially with high needs, but there is no reason to double intake."},
-    {"question": "Is soy protein absorbed worse than meat?", "answer": "Soy protein has high quality for a plant source. Some digestibility differences may remain versus certain animal proteins, but soy is an effective protein source."}
+    {
+      "question": "What percentage of plant protein is absorbed?",
+      "answer": "There is no single percentage. Digestibility varies by food, processing method, and amino acid; whole legumes, soy foods, and protein isolates behave differently."
+    },
+    {
+      "question": "Do vegans need more protein?",
+      "answer": "It can be useful to pay somewhat more attention to total protein and food variety, especially with high needs, but there is no reason to double intake."
+    },
+    {
+      "question": "Is soy protein absorbed worse than meat?",
+      "answer": "Soy protein has high quality for a plant source. Some digestibility differences may remain versus certain animal proteins, but soy is an effective protein source."
+    }
   ],
   "sources": [
-    {"name": "FAO — Dietary protein quality evaluation in human nutrition", "url": "https://www.fao.org/3/i3124e/i3124e.pdf", "note": "DIAAS, digestibility, and amino-acid quality."},
-    {"name": "National Academies — Dietary Reference Intakes for protein", "url": "https://www.nationalacademies.org/", "note": "General U.S. context for protein requirements."}
+    {
+      "name": "FAO — Dietary protein quality evaluation in human nutrition",
+      "url": "https://www.fao.org/3/i3124e/i3124e.pdf",
+      "note": "DIAAS, digestibility, and amino-acid quality."
+    },
+    {
+      "name": "National Academies — Dietary Reference Intakes for protein",
+      "url": "https://www.nationalacademies.org/",
+      "note": "General U.S. context for protein requirements."
+    }
   ],
   "image": {
     "concept": "Plant protein foods such as tofu, lentils, chickpeas, and grains beside egg and fish as reference foods, clean editorial photography without text.",

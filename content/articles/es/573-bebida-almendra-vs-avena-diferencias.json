@@ -1,1 +1,67 @@
-{"schema_version":1,"id":"es-573-bebida-almendra-vs-avena-diferencias","article_number":573,"translation_group":"573-almond-vs-oat-drink","language":"es","locale":"es-ES","market_context":"España y Unión Europea","title":"Bebida de almendra vs. bebida de avena: diferencias nutricionales","slug":"bebida-almendra-vs-avena-diferencias","seo":{"title":"Bebida de almendra vs. avena: calorías, proteína y calcio","meta_description":"Comparamos bebidas sin azúcar de almendra y avena por 100 ml y por vaso.","search_intent":"Comparar bebida de almendra y bebida de avena"},"excerpt":"En versiones sin azúcar actuales de Alpro España, la almendra aporta 14 kcal y 0,4 g proteína/100 ml; la avena 44 kcal y 0,7 g. Ambas siguen siendo bajas en proteína.","taxonomy":{"food_family":"beverages","food_subcategories":[],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Bebida de almendra y bebida de avena se parecen en el café, pero nutricionalmente el ingrediente del nombre dice menos de lo que parece. En dos versiones sin azúcar actuales de Alpro España, <strong>la almendra aporta 14 kcal y 0,4 g de proteína por 100 ml; la avena, 44 kcal y 0,7 g.</strong> Ninguna destaca por proteína, y el calcio depende de la fortificación de cada producto.</p>\n<h2>Comparación por 100 ml</h2>\n<table><thead><tr><th></th><th>Almendra sin azúcar</th><th>Avena sin azúcar</th></tr></thead><tbody><tr><td>Energía</td><td>14 kcal</td><td>44 kcal</td></tr><tr><td>Proteína</td><td>0,4 g</td><td>0,7 g</td></tr><tr><td>Grasa</td><td>1,1 g</td><td>1,8 g</td></tr><tr><td>Hidratos</td><td>0 g</td><td>5,5 g</td></tr><tr><td>Fibra</td><td>0,3 g</td><td>0,7 g</td></tr><tr><td>Azúcares</td><td>0 g</td><td>0 g</td></tr></tbody></table>\n<p>En un vaso de 250 ml, la almendra ronda <strong>35 kcal y 1 g de proteína</strong>; la avena, unas <strong>110 kcal y 1,8 g de proteína</strong>. La diferencia energética es clara, pero las dos siguen siendo bebidas pobres en proteína.</p>\n<h2>La avena aporta más carbohidratos y más cuerpo</h2>\n<p>La versión de avena contiene 5,5 g de hidratos por 100 ml, unos 13,8 g en 250 ml. La almendra sin azúcar comparada declara 0 g. Esa composición ayuda a explicar por qué muchas bebidas de avena resultan más densas y naturalmente dulces de sabor incluso cuando no llevan azúcares añadidos.</p>\n<h2>La almendra es muy ligera porque contiene poca almendra</h2>\n<p>Una bebida vegetal no conserva la densidad nutricional del fruto seco original. Agua, filtrado y formulación diluyen mucho proteína, fibra y energía. Por eso un puñado de almendras y un vaso de bebida de almendra son alimentos nutricionalmente muy distintos.</p>\n<h2>El calcio no se puede deducir del ingrediente</h2>\n<p>Las versiones estándar fortificadas pueden aportar alrededor de 120 mg de calcio por 100 ml. Pero una bebida bio o de lista corta puede no estar fortificada: un ejemplo de almendra bio de la misma marca declara solo unos <strong>10 mg/100 ml</strong>. La diferencia entre dos bebidas de almendra puede ser, por tanto, mayor que la diferencia entre almendra y avena.</p>\n<h2>Si buscas sustituir leche, la proteína es el punto débil de ambas</h2>\n<p>Un vaso de estas bebidas aporta alrededor de 1–2 g de proteína, muy lejos de los aproximadamente 8 g que puede ofrecer una bebida de soja rica en proteína. Si el resto de la dieta cubre bien ese nutriente, no tiene por qué ser un problema; si la bebida era una fuente habitual de proteína, sí conviene tenerlo en cuenta.</p>\n<h2>Qué elegir</h2>\n<p><strong>Almendra sin azúcar encaja cuando buscas una bebida muy ligera; avena aporta más cuerpo y carbohidratos.</strong> Para proteína, ninguna de estas dos es una opción fuerte. Para calcio, vitamina D u otros micronutrientes, comprueba la fortificación del envase concreto en lugar de asumirla por el tipo de bebida.</p>","faq":[{"question":"¿Cuál tiene menos calorías?","answer":"La almendra: 14 frente a 44 kcal/100 ml."},{"question":"¿Cuál tiene más proteína?","answer":"La avena ligeramente, 0,7 frente a 0,4 g/100 ml; ambas son bajas."},{"question":"¿Tienen azúcar?","answer":"Las dos versiones usadas declaran 0 g."},{"question":"¿Todas tienen mucho calcio?","answer":"No. Depende de la fortificación."}],"sources":[{"name":"Alpro España — Almendras Sin Azúcar","url":"https://www.alpro.com/es/productos/bebidas/almendras-sin-azucar","note":"Etiqueta actual."},{"name":"Alpro España — Avena Sin Azúcar","url":"https://www.alpro.com/es/productos/bebidas/avena-sin-azucar/","note":"Etiqueta actual."},{"name":"Alpro España — Almendra Sin Azúcar Bio","url":"https://www.alpro.com/es/productos/bebidas/almendra-sin-azucar-bio","note":"Ejemplo con mucho menos calcio."}],"image":{"concept":"Dos vasos de almendra y avena con calorías y proteína.","alt":"Bebida de almendra y avena comparadas"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-573-bebida-almendra-vs-avena-diferencias",
+  "article_number": 573,
+  "translation_group": "573-almond-vs-oat-drink",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España y Unión Europea",
+  "title": "Bebida de almendra vs. bebida de avena: diferencias nutricionales",
+  "slug": "bebida-almendra-vs-avena-diferencias",
+  "seo": {
+    "title": "Bebida de almendra vs. avena: calorías, proteína y calcio",
+    "meta_description": "Compara bebidas sin azúcar de almendra y avena por 100 ml y por vaso: calorías, proteína, hidratos, calcio y fortificación.",
+    "search_intent": "Comparar bebida de almendra y bebida de avena"
+  },
+  "excerpt": "En versiones sin azúcar actuales de Alpro España, la almendra aporta 14 kcal y 0,4 g proteína/100 ml; la avena 44 kcal y 0,7 g. Ambas siguen siendo bajas en proteína.",
+  "taxonomy": {
+    "food_family": "beverages",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Bebida de almendra y bebida de avena se parecen en el café, pero nutricionalmente el ingrediente del nombre dice menos de lo que parece. En dos versiones sin azúcar actuales de Alpro España, <strong>la almendra aporta 14 kcal y 0,4 g de proteína por 100 ml; la avena, 44 kcal y 0,7 g.</strong> Ninguna destaca por proteína, y el calcio depende de la fortificación de cada producto.</p>\n<h2>Comparación por 100 ml</h2>\n<table><thead><tr><th></th><th>Almendra sin azúcar</th><th>Avena sin azúcar</th></tr></thead><tbody><tr><td>Energía</td><td>14 kcal</td><td>44 kcal</td></tr><tr><td>Proteína</td><td>0,4 g</td><td>0,7 g</td></tr><tr><td>Grasa</td><td>1,1 g</td><td>1,8 g</td></tr><tr><td>Hidratos</td><td>0 g</td><td>5,5 g</td></tr><tr><td>Fibra</td><td>0,3 g</td><td>0,7 g</td></tr><tr><td>Azúcares</td><td>0 g</td><td>0 g</td></tr></tbody></table>\n<p>En un vaso de 250 ml, la almendra ronda <strong>35 kcal y 1 g de proteína</strong>; la avena, unas <strong>110 kcal y 1,8 g de proteína</strong>. La diferencia energética es clara, pero las dos siguen siendo bebidas pobres en proteína.</p>\n<h2>La avena aporta más carbohidratos y más cuerpo</h2>\n<p>La versión de avena contiene 5,5 g de hidratos por 100 ml, unos 13,8 g en 250 ml. La almendra sin azúcar comparada declara 0 g. Esa composición ayuda a explicar por qué muchas bebidas de avena resultan más densas y naturalmente dulces de sabor incluso cuando no llevan azúcares añadidos.</p>\n<h2>La almendra es muy ligera porque contiene poca almendra</h2>\n<p>Una bebida vegetal no conserva la densidad nutricional del fruto seco original. Agua, filtrado y formulación diluyen mucho proteína, fibra y energía. Por eso un puñado de almendras y un vaso de bebida de almendra son alimentos nutricionalmente muy distintos.</p>\n<h2>El calcio no se puede deducir del ingrediente</h2>\n<p>Las versiones estándar fortificadas pueden aportar alrededor de 120 mg de calcio por 100 ml. Pero una bebida bio o de lista corta puede no estar fortificada: un ejemplo de almendra bio de la misma marca declara solo unos <strong>10 mg/100 ml</strong>. La diferencia entre dos bebidas de almendra puede ser, por tanto, mayor que la diferencia entre almendra y avena.</p>\n<h2>Si buscas sustituir leche, la proteína es el punto débil de ambas</h2>\n<p>Un vaso de estas bebidas aporta alrededor de 1–2 g de proteína, muy lejos de los aproximadamente 8 g que puede ofrecer una bebida de soja rica en proteína. Si el resto de la dieta cubre bien ese nutriente, no tiene por qué ser un problema; si la bebida era una fuente habitual de proteína, sí conviene tenerlo en cuenta.</p>\n<h2>Qué elegir</h2>\n<p><strong>Almendra sin azúcar encaja cuando buscas una bebida muy ligera; avena aporta más cuerpo y carbohidratos.</strong> Para proteína, ninguna de estas dos es una opción fuerte. Para calcio, vitamina D u otros micronutrientes, comprueba la fortificación del envase concreto en lugar de asumirla por el tipo de bebida.</p>",
+  "faq": [
+    {
+      "question": "¿Cuál tiene menos calorías?",
+      "answer": "La almendra: 14 frente a 44 kcal/100 ml."
+    },
+    {
+      "question": "¿Cuál tiene más proteína?",
+      "answer": "La avena ligeramente, 0,7 frente a 0,4 g/100 ml; ambas son bajas."
+    },
+    {
+      "question": "¿Tienen azúcar?",
+      "answer": "Las dos versiones usadas declaran 0 g."
+    },
+    {
+      "question": "¿Todas tienen mucho calcio?",
+      "answer": "No. Depende de la fortificación."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Alpro España — Almendras Sin Azúcar",
+      "url": "https://www.alpro.com/es/productos/bebidas/almendras-sin-azucar",
+      "note": "Etiqueta actual."
+    },
+    {
+      "name": "Alpro España — Avena Sin Azúcar",
+      "url": "https://www.alpro.com/es/productos/bebidas/avena-sin-azucar/",
+      "note": "Etiqueta actual."
+    },
+    {
+      "name": "Alpro España — Almendra Sin Azúcar Bio",
+      "url": "https://www.alpro.com/es/productos/bebidas/almendra-sin-azucar-bio",
+      "note": "Ejemplo con mucho menos calcio."
+    }
+  ],
+  "image": {
+    "concept": "Dos vasos de almendra y avena con calorías y proteína.",
+    "alt": "Bebida de almendra y avena comparadas"
+  },
+  "status": "publish"
+}

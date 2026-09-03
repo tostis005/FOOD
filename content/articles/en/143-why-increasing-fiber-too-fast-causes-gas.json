@@ -8,12 +8,45 @@
   "market_context": "United States/general English; digestive physiology and NIDDK guidance",
   "title": "Why increasing fiber too quickly can cause gas",
   "slug": "why-increasing-fiber-too-fast-causes-gas",
-  "seo": {"title":"Why increasing fiber too fast causes gas","meta_description":"More fermentable fiber delivers more substrate to gut microbes, increasing gas and intestinal volume. Gradual increases are usually easier to tolerate.","search_intent":"Understand why a sudden fiber increase causes gas or bloating and how to reduce symptoms."},
+  "seo": {
+    "title": "Why increasing fiber too fast causes gas",
+    "meta_description": "More fermentable fiber delivers more substrate to gut microbes, increasing gas and intestinal volume. Gradual increases are usually easier to tolerate.",
+    "search_intent": "Understand why a sudden fiber increase causes gas or bloating and how to reduce symptoms."
+  },
   "excerpt": "A sudden fiber increase can cause gas because more fermentable carbohydrate reaches the colon and gut microbes produce more hydrogen, carbon dioxide and other metabolites. Some fibers also hold water and increase intestinal bulk. Tolerance is usually better when intake rises gradually and fluid intake remains adequate.",
-  "taxonomy": {"food_family":"general","food_subcategories":["fiber","gut-health"],"article_types":["nutrition-explainer","practical-guide"],"primary_article_type":"nutrition-explainer"},
-  "content_html": "<p>Going from very few beans and whole grains to bran cereal, lentils and chia all in one day may look impressive nutritionally and feel uncomfortable gastrointestinally.</p><h2>Fermentation normally makes gas</h2><p>Some fiber and nondigestible carbohydrate reach the colon, where microbes ferment them. The process produces short-chain fatty acids and gases including hydrogen and carbon dioxide.</p><p>If substantially more fermentable substrate arrives suddenly, gas production can rise before your usual digestive pattern adapts.</p><h2>Water and bulk change too</h2><p>Some fibers hold water and increase stool mass. More fermentation plus a rapid change in intestinal contents can produce bloating, fullness and rumbling.</p><h2>Different fibers behave differently</h2><p>Inulin, fructans and GOS are highly fermentable and can trigger more symptoms in sensitive people. Psyllium ferments more slowly. Ten extra grams of “fiber” therefore do not always behave the same way.</p><h2>What gradual means in practice</h2><p>NIDDK notes that people with IBS may reduce gas and bloating by adding fiber gradually, around <strong>2–3 grams per day</strong>. That is not a rigid rule for everyone, but it illustrates the principle: staged changes are usually easier than doubling fiber overnight.</p><h2>When not to dismiss symptoms as adaptation</h2><p>Severe pain, blood in stool, unexplained weight loss or persistent symptoms deserve medical evaluation. People with IBS may need to modify specific fermentable carbohydrates rather than simply push fiber higher.</p>",
-  "faq": [{"question":"How long does it take to adjust to more fiber?","answer":"It varies with the person and fiber type. Gradual increases over days or weeks are often easier to tolerate than abrupt changes."},{"question":"Will drinking water prevent gas?","answer":"Adequate fluid helps with stool bulk, but it does not stop microbial fermentation and cannot guarantee zero gas."}],
-  "sources": [{"name":"NIDDK — Eating, Diet & Nutrition for IBS","url":"https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/eating-diet-nutrition","note":"Gradual fiber increase and gas/bloating guidance."}],
-  "image": {"concept":"Gradual step-up of beans, whole grains and seeds compared with an abrupt large increase, clean editorial diagram without text.","alt":"Gradually increasing fiber to reduce gas and bloating"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "fiber",
+      "gut-health"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Going from very few beans and whole grains to bran cereal, lentils and chia all in one day may look impressive nutritionally and feel uncomfortable gastrointestinally.</p><h2>Fermentation normally makes gas</h2><p>Some fiber and nondigestible carbohydrate reach the colon, where microbes ferment them. The process produces short-chain fatty acids and gases including hydrogen and carbon dioxide.</p><p>If substantially more fermentable substrate arrives suddenly, gas production can rise before your usual digestive pattern adapts.</p><h2>Water and bulk change too</h2><p>Some fibers hold water and increase stool mass. More fermentation plus a rapid change in intestinal contents can produce bloating, fullness and rumbling.</p><h2>Different fibers behave differently</h2><p>Inulin, fructans and GOS are highly fermentable and can trigger more symptoms in sensitive people. Psyllium ferments more slowly. Ten extra grams of “fiber” therefore do not always behave the same way.</p><h2>What gradual means in practice</h2><p>NIDDK notes that people with IBS may reduce gas and bloating by adding fiber gradually, around <strong>2–3 grams per day</strong>. That is not a rigid rule for everyone, but it illustrates the principle: staged changes are usually easier than doubling fiber overnight.</p><h2>Adaptation needs time and fluid</h2><p>Moving from a low-fiber diet to a very high-fiber one overnight suddenly changes how much fermentable material reaches the colon. Increasing intake in smaller steps lets the digestive system adapt and gives you a chance to assess tolerance. Adequate fluid also matters, especially when whole grains, legumes and seeds that absorb water become a larger part of the diet.</p><h2>When not to dismiss symptoms as adaptation</h2><p>Severe pain, blood in stool, unexplained weight loss or persistent symptoms deserve medical evaluation. People with IBS may need to modify specific fermentable carbohydrates rather than simply push fiber higher.</p>",
+  "faq": [
+    {
+      "question": "How long does it take to adjust to more fiber?",
+      "answer": "It varies with the person and fiber type. Gradual increases over days or weeks are often easier to tolerate than abrupt changes."
+    },
+    {
+      "question": "Will drinking water prevent gas?",
+      "answer": "Adequate fluid helps with stool bulk, but it does not stop microbial fermentation and cannot guarantee zero gas."
+    }
+  ],
+  "sources": [
+    {
+      "name": "NIDDK — Eating, Diet & Nutrition for IBS",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/irritable-bowel-syndrome/eating-diet-nutrition",
+      "note": "Gradual fiber increase and gas/bloating guidance."
+    }
+  ],
+  "image": {
+    "concept": "Gradual step-up of beans, whole grains and seeds compared with an abrupt large increase, clean editorial diagram without text.",
+    "alt": "Gradually increasing fiber to reduce gas and bloating"
+  },
+  "status": "publish"
 }

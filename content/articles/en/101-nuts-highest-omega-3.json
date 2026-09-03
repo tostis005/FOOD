@@ -16,19 +16,41 @@
   "excerpt": "Walnuts are by far the common nut with the most omega-3: a 1 oz (28 g) serving provides about 2.57 g of alpha-linolenic acid (ALA). Pecans, pistachios, almonds, hazelnuts, and cashews provide much smaller amounts. ALA is a plant omega-3 and is not nutritionally identical to the EPA and DHA found in fish.",
   "taxonomy": {
     "food_family": "nuts-seeds",
-    "food_subcategories": ["nuts"],
-    "article_types": ["nutrition-composition", "ranking"],
+    "food_subcategories": [
+      "nuts"
+    ],
+    "article_types": [
+      "nutrition-composition",
+      "rankings"
+    ],
     "primary_article_type": "nutrition-composition"
   },
   "content_html": "<p>If omega-3 is the specific reason you are choosing a nut, the comparison is unusually clear: <strong>walnuts are in a different category from the rest</strong>. The gap is not a rounding error. It is large enough to change the practical choice.</p><p>The key distinction is that the omega-3 in nuts is primarily <strong>alpha-linolenic acid (ALA)</strong>. Fatty fish, by contrast, provides EPA and DHA. All three are omega-3 fats, but they are not metabolically interchangeable gram for gram.</p><h2>Omega-3 ALA per 1 oz serving</h2><p>The table uses a 1 oz (28 g) serving so the numbers reflect a realistic snack portion rather than 100 g of a calorie-dense food.</p><table><thead><tr><th>Nut</th><th>ALA per 1 oz</th></tr></thead><tbody><tr><td>Walnuts</td><td>2.57 g</td></tr><tr><td>Pecans</td><td>0.28 g</td></tr><tr><td>Pistachios</td><td>0.08 g</td></tr><tr><td>Hazelnuts</td><td>0.02 g</td></tr><tr><td>Cashews</td><td>0.02 g</td></tr><tr><td>Almonds</td><td>0.00–0.01 g</td></tr></tbody></table><p>The meaningful gap is between walnuts and everything else. A serving of walnuts provides roughly <strong>nine times as much ALA as pecans</strong> and far more than pistachios, almonds, hazelnuts, or cashews.</p><h2>Why walnuts are different</h2><p>Walnuts have a fatty-acid profile that is more heavily weighted toward polyunsaturated fat than many other nuts. Almonds, hazelnuts, and macadamias are richer in monounsaturated fat, while walnuts contain a notable amount of ALA.</p><p>That does not make other nuts nutritionally inferior. Almonds may contribute more vitamin E, pistachios have their own micronutrient profile, and all nuts can fit into a healthy dietary pattern. It simply means that for the narrow question of <strong>plant omega-3</strong>, walnuts are the clear standout.</p><h2>ALA is not the same as EPA and DHA</h2><p>The body can convert some ALA into EPA and then DHA, but the conversion is limited. So 2.57 g of ALA from walnuts should not be described as equivalent to 2.57 g of EPA plus DHA from fish.</p><p>The NIH identifies ALA as an essential fatty acid that must come from food. Walnuts, flax, chia, and certain oils can therefore make meaningful contributions to plant omega-3 intake, especially in diets that contain little or no fish.</p><h2>A normal serving already provides a substantial amount</h2><p>U.S. adequate intake values for ALA are 1.6 g per day for adult men and 1.1 g for adult women. A 1 oz serving of walnuts contains about <strong>2.57 g</strong>, which puts the food-level number into perspective.</p><p>There is no need to use a 100 g portion to make walnuts look impressive. A realistic serving already contains a substantial amount of ALA, while also keeping the calorie context visible.</p><h2>What about peanuts?</h2><p>Peanuts are botanically legumes, even though they are eaten like nuts. Their ALA content is low compared with walnuts, so including them does not change the practical conclusion.</p><h2>The useful takeaway</h2><p>If you want the <strong>highest omega-3 option among common nuts</strong>, choose walnuts. If you specifically want EPA and DHA, however, the relevant foods are fatty fish, seafood, and certain fortified foods or supplements rather than nuts.</p>",
   "faq": [
-    {"question": "Which nut has the most omega-3?", "answer": "Walnuts. A 1 oz (28 g) serving provides about 2.57 g of ALA, far more than pecans, pistachios, almonds, hazelnuts, or cashews."},
-    {"question": "Is walnut omega-3 the same as salmon omega-3?", "answer": "No. Walnuts mainly provide ALA, while salmon provides EPA and DHA. The body can convert some ALA, but the conversion is limited."},
-    {"question": "How many walnuts do I need for omega-3?", "answer": "A standard 1 oz serving already provides about 2.57 g of ALA."}
+    {
+      "question": "Which nut has the most omega-3?",
+      "answer": "Walnuts. A 1 oz (28 g) serving provides about 2.57 g of ALA, far more than pecans, pistachios, almonds, hazelnuts, or cashews."
+    },
+    {
+      "question": "Is walnut omega-3 the same as salmon omega-3?",
+      "answer": "No. Walnuts mainly provide ALA, while salmon provides EPA and DHA. The body can convert some ALA, but the conversion is limited."
+    },
+    {
+      "question": "How many walnuts do I need for omega-3?",
+      "answer": "A standard 1 oz serving already provides about 2.57 g of ALA."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Fatty-acid composition of nuts."},
-    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "ALA, EPA, DHA, conversion, and adequate intake values."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Fatty-acid composition of nuts."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "note": "ALA, EPA, DHA, conversion, and adequate intake values."
+    }
   ],
   "image": {
     "concept": "Open walnuts in the foreground with smaller portions of almonds, pistachios, pecans, and hazelnuts, clean editorial food photography without text.",

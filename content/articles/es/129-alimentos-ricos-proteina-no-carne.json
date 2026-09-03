@@ -8,12 +8,48 @@
   "market_context": "España/Unión Europea; composición USDA con raciones realistas",
   "title": "Alimentos ricos en proteína que no son carne",
   "slug": "alimentos-ricos-proteina-no-carne",
-  "seo": {"title":"Alimentos ricos en proteína que no son carne: ranking por ración","meta_description":"Tempeh, tofu, yogur griego, cottage, huevos, legumbres, seitán y pescado pueden aportar 13–35+ g de proteína por ración sin recurrir a carne.","search_intent":"Comparar alimentos ricos en proteína que no sean carne mediante cantidades por ración real."},
+  "seo": {
+    "title": "Alimentos ricos en proteína que no son carne: ranking por ración",
+    "meta_description": "Tempeh, tofu, yogur griego, cottage, huevos, legumbres, seitán y pescado pueden aportar 13–35+ g de proteína por ración sin recurrir a carne.",
+    "search_intent": "Comparar alimentos ricos en proteína que no sean carne mediante cantidades por ración real."
+  },
   "excerpt": "Hay muchas fuentes de proteína que no son carne. Por ración, 150 g de tempeh rondan 30 g de proteína, 200 g de yogur griego 18–20 g, 150 g de tofu firme 18–26 g, 200 g de lentejas cocidas unos 18 g y dos huevos alrededor de 13 g. Si se incluye pescado, una ración de 150 g suele aportar 30–40 g.",
-  "taxonomy": {"food_family":"general","food_subcategories":["protein"],"article_types":["nutrition-composition","ranking"],"primary_article_type":"nutrition-composition"},
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "protein"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
   "content_html": "<p>Una búsqueda de proteína no tiene por qué terminar en pollo, ternera o pavo. <strong>Hay alimentos sin carne capaces de aportar 15, 20 o incluso 30 g de proteína en una ración normal</strong>.</p><p>La comparación más útil no es por 100 g, porque 100 g de semillas, yogur y lentejas representan cantidades muy distintas. Aquí se comparan raciones que podrían formar parte de una comida real.</p><h2>Ranking por ración habitual</h2><table><thead><tr><th>Alimento</th><th>Ración</th><th>Proteína aprox.</th></tr></thead><tbody><tr><td>Pescado cocinado</td><td>150 g</td><td>~30–40 g</td></tr><tr><td>Tempeh</td><td>150 g</td><td>~30 g</td></tr><tr><td>Tofu firme</td><td>150 g</td><td>~18–26 g</td></tr><tr><td>Seitán</td><td>100 g</td><td>~20–25 g</td></tr><tr><td>Cottage cheese</td><td>180 g</td><td>~20–23 g</td></tr><tr><td>Yogur griego alto en proteína</td><td>200 g</td><td>~18–20 g</td></tr><tr><td>Lentejas cocidas</td><td>200 g</td><td>~18 g</td></tr><tr><td>Edamame</td><td>150 g</td><td>~18 g</td></tr><tr><td>Huevos</td><td>2 unidades</td><td>~13 g</td></tr><tr><td>Semillas de cáñamo</td><td>30 g</td><td>~9–10 g</td></tr></tbody></table><p>La diferencia práctica está entre alimentos que pueden <strong>protagonizar la proteína del plato</strong> y alimentos que simplemente suman unos gramos.</p><h2>Tempeh, tofu y seitán son especialmente concentrados</h2><p>Tempeh y tofu permiten construir una comida vegetal con cantidades de proteína cercanas a muchos alimentos animales. El seitán es aún más concentrado por peso, aunque su proteína de gluten es relativamente baja en lisina.</p><h2>Las legumbres necesitan más volumen, pero aportan fibra</h2><p>Las lentejas cocidas rondan 9 g/100 g, por lo que una ración de 200 g llega a unos 18 g. Esa ración aporta además casi 16 g de fibra, algo que no ofrecen huevos, pescado o lácteos.</p><h2>Yogur, cottage y huevos son opciones compactas</h2><p>En dietas que incluyen lácteos y huevos, resulta fácil añadir 15–25 g sin grandes cantidades de comida. La etiqueta importa especialmente en yogures y cottage porque la concentración varía entre marcas.</p><h2>Frutos secos y semillas son complementos, no siempre el centro</h2><p>Treinta gramos de almendras aportan unos 6 g de proteína y las semillas de cáñamo cerca de 9–10 g. Son útiles, pero su alta densidad energética hace que no siempre sea práctico obtener 25–30 g de proteína solo con ellos.</p><h2>La idea útil</h2><p>Si quieres proteína sin carne, piensa primero en <strong>pescado si lo consumes, soja, seitán, huevos, lácteos y legumbres</strong>. Frutos secos, semillas y cereales pueden elevar el total, pero no necesitan cargar con toda la comida.</p>",
-  "faq": [{"question":"¿Qué alimento sin carne tiene más proteína por ración?","answer":"Si se incluye pescado, una ración suele superar 30 g. Entre opciones vegetales, 150 g de tempeh rondan 30 g y el seitán puede aportar 20–25 g por 100 g."},{"question":"¿Qué alimento vegetariano aporta 20 g de proteína?","answer":"150 g de tofu firme, 180 g de cottage, 200 g de yogur griego o una ración de tempeh pueden rondar o superar 20 g."},{"question":"¿Las semillas son una buena fuente principal de proteína?","answer":"Aportan bastante para su tamaño, pero suelen ser más útiles como complemento debido a su alta densidad energética y raciones pequeñas."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Proteína por ración de los alimentos comparados."}],
-  "image": {"concept":"Tempeh, tofu, yogur griego, cottage, huevos, lentejas, pescado y semillas en raciones reales, fotografía editorial sin texto.","alt":"Alimentos ricos en proteína que no son carne"},
-  "status":"publish"
+  "faq": [
+    {
+      "question": "¿Qué alimento sin carne tiene más proteína por ración?",
+      "answer": "Si se incluye pescado, una ración suele superar 30 g. Entre opciones vegetales, 150 g de tempeh rondan 30 g y el seitán puede aportar 20–25 g por 100 g."
+    },
+    {
+      "question": "¿Qué alimento vegetariano aporta 20 g de proteína?",
+      "answer": "150 g de tofu firme, 180 g de cottage, 200 g de yogur griego o una ración de tempeh pueden rondar o superar 20 g."
+    },
+    {
+      "question": "¿Las semillas son una buena fuente principal de proteína?",
+      "answer": "Aportan bastante para su tamaño, pero suelen ser más útiles como complemento debido a su alta densidad energética y raciones pequeñas."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Proteína por ración de los alimentos comparados."
+    }
+  ],
+  "image": {
+    "concept": "Tempeh, tofu, yogur griego, cottage, huevos, lentejas, pescado y semillas en raciones reales, fotografía editorial sin texto.",
+    "alt": "Alimentos ricos en proteína que no son carne"
+  },
+  "status": "publish"
 }

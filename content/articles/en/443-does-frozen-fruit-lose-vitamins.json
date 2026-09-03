@@ -1,1 +1,59 @@
-{"schema_version":1,"id":"en-443-frozen-fruit-vitamins","article_number":443,"translation_group":"443-frozen-fruit-vitamins","language":"en","locale":"en-US","market_context":"United States; nutrient retention in frozen versus fresh fruit.","title":"Does Frozen Fruit Lose Vitamins?","slug":"does-frozen-fruit-lose-vitamins","seo":{"title":"Does Frozen Fruit Lose Vitamins?","meta_description":"Some vitamin C can decline during processing and storage, but freezing preserves most nutrients very well and may rival fresh fruit that has spent days in storage.","search_intent":"Understand how freezing changes the vitamin content and overall nutritional value of fruit."},"excerpt":"Freezing does not strip vitamins out of fruit. Some vitamin C and other sensitive compounds can decline during preparation and long storage, but properly frozen fruit retains nutritional value very well. Fruit frozen soon after harvest can even compare favorably with fresh fruit that has spent many days in transport and refrigeration.","taxonomy":{"food_family":"fruit","food_subcategories":[],"article_types":["freezing-thawing","nutrition-composition","myths-faq"],"primary_article_type":"freezing-thawing"},"content_html":"<p>A bag of frozen berries is not nutritionally empty. <strong>Freezing is one of the better preservation methods because low temperature dramatically slows chemical and enzymatic reactions.</strong></p><h2>Vitamin C is one of the more sensitive nutrients</h2><p>Vitamin C can decline with oxygen exposure, light, and time. Other nutrients are much more stable. Minerals such as potassium do not disappear because a fruit is frozen.</p><h2>Fresh fruit also changes during storage</h2><p>“Fresh” only means not frozen; it does not tell you when the fruit was harvested. Produce can spend days in transit, retail storage, and the home refrigerator while respiration and nutrient changes continue.</p><p>University of Minnesota Extension notes that properly frozen fruits and vegetables can retain high quality and maximum nutritional value.</p><h2>Texture changes more dramatically than vitamins</h2><p>Ice crystals rupture cell walls, so thawed strawberries become much softer than fresh berries. The obvious textural change can make people assume nutrients disappeared too, but those are separate effects.</p><h2>What damages frozen quality</h2><p>Slow freezing, excess air in the package, temperature fluctuations, very long storage, and repeated thawing and refreezing all reduce quality.</p><p><strong>Frozen fruit remains a nutritionally valuable fruit option; the biggest difference you notice is usually texture, not a massive vitamin loss.</strong></p>","faq":[{"question":"Does frozen fruit have less vitamin C?","answer":"It may contain somewhat less depending on processing and storage time, but it generally retains a substantial amount."},{"question":"Is fresh fruit always more nutritious?","answer":"No. Fresh produce also loses nutrients during storage, so frozen fruit can be comparable and sometimes better preserved."},{"question":"Are minerals lost during freezing?","answer":"No. Minerals are not destroyed by freezing."}],"sources":[{"name":"University of Minnesota Extension — Preserving food at home: Freezing","url":"https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/freezing","note":"Explains nutrient retention and quality in properly frozen produce."},{"name":"Harvard T.H. Chan — Common Questions About Fruits and Vegetables","url":"https://nutritionsource.hsph.harvard.edu/common-questions-fruits-vegetables/","note":"Discusses nutrient retention in fresh, frozen, and processed produce."}],"image":{"concept":"Fresh berries and frozen berries with visible ice crystals arranged side by side, realistic nutrition editorial photography, no text.","alt":"Fresh berries compared with frozen berries"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-443-frozen-fruit-vitamins",
+  "article_number": 443,
+  "translation_group": "443-frozen-fruit-vitamins",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; nutrient retention in frozen versus fresh fruit.",
+  "title": "Does Frozen Fruit Lose Vitamins?",
+  "slug": "does-frozen-fruit-lose-vitamins",
+  "seo": {
+    "title": "Does Frozen Fruit Lose Vitamins?",
+    "meta_description": "Some vitamin C can decline during processing and storage, but freezing preserves most nutrients very well and may rival fresh fruit that has spent days in storage.",
+    "search_intent": "Understand how freezing changes the vitamin content and overall nutritional value of fruit."
+  },
+  "excerpt": "Freezing does not strip vitamins out of fruit. Some vitamin C and other sensitive compounds can decline during preparation and long storage, but properly frozen fruit retains nutritional value very well. Fruit frozen soon after harvest can even compare favorably with fresh fruit that has spent many days in transport and refrigeration.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": [],
+    "article_types": [
+      "freezing-thawing",
+      "nutrition-composition",
+      "myths-faq"
+    ],
+    "primary_article_type": "freezing-thawing"
+  },
+  "content_html": "<p>A bag of frozen berries is not nutritionally empty. <strong>Freezing is one of the better preservation methods because low temperature dramatically slows chemical and enzymatic reactions.</strong></p><h2>Vitamin C is one of the more sensitive nutrients</h2><p>Vitamin C can decline with oxygen exposure, light, and time. Other nutrients are much more stable. Minerals such as potassium do not disappear because a fruit is frozen.</p><h2>Fresh fruit also changes during storage</h2><p>“Fresh” only means not frozen; it does not tell you when the fruit was harvested. Produce can spend days in transit, retail storage, and the home refrigerator while respiration and nutrient changes continue.</p><p>University of Minnesota Extension notes that properly frozen fruits and vegetables can retain high quality and maximum nutritional value.</p><h2>Texture changes more dramatically than vitamins</h2><p>Ice crystals rupture cell walls, so thawed strawberries become much softer than fresh berries. The obvious textural change can make people assume nutrients disappeared too, but those are separate effects.</p><h2>“Fresh” does not necessarily mean freshly harvested</h2><p>Fresh fruit can spend days moving through harvest, transport, retail and the home refrigerator. Frozen fruit is often processed close to harvest and then kept at temperatures that slow many reactions dramatically. Comparing fruit picked moments ago with fruit frozen months earlier therefore does not always represent what consumers actually buy.</p><p>The most obvious difference is often texture: ice crystals damage cells, so a thawed strawberry will not keep the firmness of a fresh one. Nutritionally, however, freezing can preserve many components quite well.</p><h2>What damages frozen quality</h2><p>Slow freezing, excess air in the package, temperature fluctuations, very long storage, and repeated thawing and refreezing all reduce quality.</p><p><strong>Frozen fruit remains a nutritionally valuable fruit option; the biggest difference you notice is usually texture, not a massive vitamin loss.</strong></p>",
+  "faq": [
+    {
+      "question": "Does frozen fruit have less vitamin C?",
+      "answer": "It may contain somewhat less depending on processing and storage time, but it generally retains a substantial amount."
+    },
+    {
+      "question": "Is fresh fruit always more nutritious?",
+      "answer": "No. Fresh produce also loses nutrients during storage, so frozen fruit can be comparable and sometimes better preserved."
+    },
+    {
+      "question": "Are minerals lost during freezing?",
+      "answer": "No. Minerals are not destroyed by freezing."
+    }
+  ],
+  "sources": [
+    {
+      "name": "University of Minnesota Extension — Preserving food at home: Freezing",
+      "url": "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/freezing",
+      "note": "Explains nutrient retention and quality in properly frozen produce."
+    },
+    {
+      "name": "Harvard T.H. Chan — Common Questions About Fruits and Vegetables",
+      "url": "https://nutritionsource.hsph.harvard.edu/common-questions-fruits-vegetables/",
+      "note": "Discusses nutrient retention in fresh, frozen, and processed produce."
+    }
+  ],
+  "image": {
+    "concept": "Fresh berries and frozen berries with visible ice crystals arranged side by side, realistic nutrition editorial photography, no text.",
+    "alt": "Fresh berries compared with frozen berries"
+  },
+  "status": "publish"
+}

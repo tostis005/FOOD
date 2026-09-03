@@ -15,20 +15,42 @@
   },
   "excerpt": "Yes. Plain yogurt can fit comfortably into a healthy daily diet. The American Heart Association recommends two to three servings of low-fat or fat-free dairy per day for adults, and plain yogurt is one option. The biggest differences among yogurts are often added sugar, fat, and protein, so the label matters more than the category name alone.",
   "taxonomy": {
-    "food_family": "eggs-dairy",
-    "food_subcategories": ["yogurt"],
-    "article_types": ["health-daily-consumption", "myths-faq"],
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "yogurt"
+    ],
+    "article_types": [
+      "health-daily-consumption",
+      "myths-faq"
+    ],
     "primary_article_type": "health-daily-consumption"
   },
   "content_html": "<p>Eating yogurt every day can fit very well into a healthy diet. The useful question is <strong>which yogurt and how it fits into your total dairy intake</strong>.</p><h2>Daily yogurt fits standard dairy guidance</h2><p>The American Heart Association recommends two to three servings of low-fat or fat-free dairy per day for adults and lists plain yogurt as a preferred option. One serving of yogurt therefore fits easily within that pattern.</p><h2>Plain and sweetened yogurt can be very different foods</h2><p>Plain yogurt contains naturally occurring lactose. Flavored yogurts can add several teaspoons' worth of sugar across a large serving, depending on the product.</p><p>Because the Nutrition Facts label separately lists Added Sugars in the U.S., it is easier to see whether sweetness comes mainly from milk or from added sweeteners.</p><h2>Protein varies dramatically</h2><p>Traditional yogurt may provide around 8–10 g protein per cup, while strained Greek yogurt or high-protein products can provide roughly twice that amount in a similar serving.</p><p>If protein is the goal, compare grams per serving rather than assuming every product labeled “Greek” is identical.</p><h2>Fat level is not the only quality marker</h2><p>Low-fat yogurt contains less saturated fat and fewer calories than full-fat yogurt, which is why AHA guidance favors it. But added sugar still matters: a lower-fat yogurt with a large amount of added sugar is not automatically the better product for every purpose.</p><h2>Fermented does not mean every yogurt has the same probiotic effect</h2><p>Yogurt is made with bacterial cultures, but strains, amounts, and survival through storage vary. A specific probiotic benefit demonstrated for one strain should not be generalized to every yogurt.</p><h2>What if you are lactose intolerant?</h2><p>Many people tolerate yogurt better than milk because bacterial cultures help break down some lactose. Tolerance varies, and lactose-free yogurt is also available.</p><h2>The practical rule</h2><p><strong>Plain yogurt can be a healthy everyday food</strong>. Check added sugar, protein, and saturated fat, then choose a product that fits the rest of your diet rather than relying on marketing terms.</p>",
   "faq": [
-    {"question": "Can I eat yogurt every day?", "answer": "Yes. Plain yogurt can fit daily within the two to three dairy servings per day suggested by the American Heart Association for adults."},
-    {"question": "Is plain yogurt better than flavored yogurt?", "answer": "It often makes added sugar easier to control. You can add fruit, nuts, or spices for flavor."},
-    {"question": "Does all yogurt contain probiotics?", "answer": "Yogurt is fermented with cultures, but probiotic strains and viable counts vary. Not every yogurt has a specific clinically demonstrated probiotic effect."}
+    {
+      "question": "Can I eat yogurt every day?",
+      "answer": "Yes. Plain yogurt can fit daily within the two to three dairy servings per day suggested by the American Heart Association for adults."
+    },
+    {
+      "question": "Is plain yogurt better than flavored yogurt?",
+      "answer": "It often makes added sugar easier to control. You can add fruit, nuts, or spices for flavor."
+    },
+    {
+      "question": "Does all yogurt contain probiotics?",
+      "answer": "Yogurt is fermented with cultures, but probiotic strains and viable counts vary. Not every yogurt has a specific clinically demonstrated probiotic effect."
+    }
   ],
   "sources": [
-    {"name": "American Heart Association — Dairy Products: Milk, Yogurt and Cheese", "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/dairy-products-milk-yogurt-and-cheese", "note": "Adult dairy serving guidance and preferred yogurt choices."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of different yogurt types."}
+    {
+      "name": "American Heart Association — Dairy Products: Milk, Yogurt and Cheese",
+      "url": "https://www.heart.org/en/healthy-living/healthy-eating/eat-smart/nutrition-basics/dairy-products-milk-yogurt-and-cheese",
+      "note": "Adult dairy serving guidance and preferred yogurt choices."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composition of different yogurt types."
+    }
   ],
   "image": {
     "concept": "A bowl of plain yogurt with fruit and nuts beside several unbranded yogurt cups, clean editorial photography without text.",

@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-279-salmon-esta-hecho","article_number":279,"translation_group":"279-salmon-doneness","language":"es","locale":"es-ES","market_context":"España/Unión Europea; cocción segura de salmón y comprobación con termómetro","title":"Cómo saber si el salmón está hecho","slug":"como-saber-si-salmon-esta-hecho","seo":{"title":"Cómo saber si el salmón está hecho: temperatura y señales","meta_description":"La comprobación más fiable es 63 °C en el centro. Sin termómetro, FDA indica que el pescado debe quedar opaco y separarse fácilmente con un tenedor.","search_intent":"Saber cómo comprobar si el salmón está cocinado de forma segura sin depender solo del color."},"excerpt":"FDA y USDA utilizan 63 °C/145 °F como temperatura interna segura para pescado. Mide en la parte más gruesa del salmón. Si no tienes termómetro, la referencia visual de FDA es carne opaca que se separa fácilmente con un tenedor, aunque la temperatura ofrece una comprobación más precisa.","taxonomy":{"food_family":"fish-seafood","food_subcategories":["salmon","doneness","food-safety"],"article_types":["cooking-techniques","food-safety"],"primary_article_type":"cooking-techniques"},"content_html":"<p>El color del salmón cambia con especie, alimentación y método de cocción, por lo que no existe un único tono que certifique el punto. <strong>La comprobación más fiable es medir 63 °C/145 °F en la parte más gruesa.</strong></p><h2>Dónde colocar el termómetro</h2><p>Inserta la sonda en el centro de la zona más gruesa del filete, evitando tocar la bandeja o sartén. En un filete fino, introducirla lateralmente ayuda a colocar el sensor realmente en el centro.</p><h2>Qué mirar si no tienes termómetro</h2><p>FDA indica que el pescado cocinado debe quedar <strong>opaco y separarse fácilmente con un tenedor</strong>. Es una señal práctica, pero menos exacta que medir temperatura.</p><h2>La albúmina blanca no indica por sí sola el punto</h2><p>La sustancia blanca que aparece sobre el salmón es proteína soluble expulsada al contraerse las fibras. Puede aparecer antes o después del punto deseado según temperatura y velocidad de cocción, de modo que no sustituye a una medición interna.</p><h2>Un centro translúcido necesita contexto</h2><p>El salmón puede seguir algo translúcido antes de llegar a 63 °C. Si el objetivo es seguir la recomendación de seguridad de FDA/USDA, comprueba la temperatura en vez de decidir solo por el aspecto.</p><h2>Evita sobrecocerlo por miedo</h2><p>Una vez alcanzado el objetivo, continuar varios minutos puede aumentar la pérdida de agua y hacer la textura más seca. Un termómetro permite retirar el pescado con más precisión que esperar a un cambio visual extremo.</p><h2>La idea útil</h2><p><strong>63 °C en la parte más gruesa es la referencia objetiva.</strong> Sin termómetro, busca carne opaca y que se separe con facilidad, pero entiende que esa prueba visual es menos precisa.</p>","faq":[{"question":"¿A qué temperatura está hecho el salmón?","answer":"FDA y USDA usan 63 °C/145 °F como temperatura interna segura para pescado."},{"question":"¿Cómo sé si está hecho sin termómetro?","answer":"FDA indica que la carne debe verse opaca y separarse fácilmente con un tenedor."},{"question":"¿La sustancia blanca significa que está pasado?","answer":"No necesariamente. Es proteína que sale con la cocción y su cantidad depende de temperatura y método."}],"sources":[{"name":"FDA — Selecting and Serving Fresh and Frozen Seafood Safely","url":"https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely","note":"145 °F para pescado y señales visuales de carne opaca que se separa con tenedor."},{"name":"FDA — Safe Food Handling","url":"https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling","note":"Temperatura mínima para pescado y marisco."}],"image":{"concept":"Filete de salmón cocinado con un termómetro insertado lateralmente en la parte más gruesa, fotografía editorial sin texto.","alt":"Salmón comprobado con termómetro para saber si está hecho"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-279-salmon-esta-hecho",
+  "article_number": 279,
+  "translation_group": "279-salmon-doneness",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; cocción segura de salmón y comprobación con termómetro",
+  "title": "Cómo saber si el salmón está hecho",
+  "slug": "como-saber-si-salmon-esta-hecho",
+  "seo": {
+    "title": "Cómo saber si el salmón está hecho: temperatura y señales",
+    "meta_description": "La comprobación más fiable es 63 °C en el centro. Sin termómetro, FDA indica que el pescado debe quedar opaco y separarse fácilmente con un tenedor.",
+    "search_intent": "Saber cómo comprobar si el salmón está cocinado de forma segura sin depender solo del color."
+  },
+  "excerpt": "FDA y USDA utilizan 63 °C/145 °F como temperatura interna segura para pescado. Mide en la parte más gruesa del salmón. Si no tienes termómetro, la referencia visual de FDA es carne opaca que se separa fácilmente con un tenedor, aunque la temperatura ofrece una comprobación más precisa.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": [
+      "salmon",
+      "doneness",
+      "food-safety"
+    ],
+    "article_types": [
+      "cooking-techniques",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p>El color del salmón cambia con especie, alimentación y método de cocción, por lo que no existe un único tono que certifique el punto. <strong>La comprobación más fiable es medir 63 °C/145 °F en la parte más gruesa.</strong></p><h2>Dónde colocar el termómetro</h2><p>Inserta la sonda en el centro de la zona más gruesa del filete, evitando tocar la bandeja o sartén. En un filete fino, introducirla lateralmente ayuda a colocar el sensor realmente en el centro.</p><h2>Qué mirar si no tienes termómetro</h2><p>FDA indica que el pescado cocinado debe quedar <strong>opaco y separarse fácilmente con un tenedor</strong>. Es una señal práctica, pero menos exacta que medir temperatura.</p><h2>La albúmina blanca no indica por sí sola el punto</h2><p>La sustancia blanca que aparece sobre el salmón es proteína soluble expulsada al contraerse las fibras. Puede aparecer antes o después del punto deseado según temperatura y velocidad de cocción, de modo que no sustituye a una medición interna.</p><h2>Un centro translúcido necesita contexto</h2><p>El salmón puede seguir algo translúcido antes de llegar a 63 °C. Si el objetivo es seguir la recomendación de seguridad de FDA/USDA, comprueba la temperatura en vez de decidir solo por el aspecto.</p><h2>Evita sobrecocerlo por miedo</h2><p>Una vez alcanzado el objetivo, continuar varios minutos puede aumentar la pérdida de agua y hacer la textura más seca. Un termómetro permite retirar el pescado con más precisión que esperar a un cambio visual extremo.</p><h2>El color interior no sustituye al termómetro</h2><p>El salmón puede pasar de translúcido a opaco y separarse en lascas a medida que se cocina, pero color y textura cambian con grosor, especie, contenido de grasa y método. Un centro rosado puede estar a una temperatura segura y otro de aspecto parecido no. Si la pregunta es de seguridad, medir la parte más gruesa ofrece una respuesta mucho más reproducible que mirar el tono.</p><p><strong>63 °C en la parte más gruesa es la referencia objetiva.</strong> Sin termómetro, busca carne opaca y que se separe con facilidad, pero entiende que esa prueba visual es menos precisa.</p>",
+  "faq": [
+    {
+      "question": "¿A qué temperatura está hecho el salmón?",
+      "answer": "FDA y USDA usan 63 °C/145 °F como temperatura interna segura para pescado."
+    },
+    {
+      "question": "¿Cómo sé si está hecho sin termómetro?",
+      "answer": "FDA indica que la carne debe verse opaca y separarse fácilmente con un tenedor."
+    },
+    {
+      "question": "¿La sustancia blanca significa que está pasado?",
+      "answer": "No necesariamente. Es proteína que sale con la cocción y su cantidad depende de temperatura y método."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Selecting and Serving Fresh and Frozen Seafood Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-fresh-and-frozen-seafood-safely",
+      "note": "145 °F para pescado y señales visuales de carne opaca que se separa con tenedor."
+    },
+    {
+      "name": "FDA — Safe Food Handling",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/safe-food-handling",
+      "note": "Temperatura mínima para pescado y marisco."
+    }
+  ],
+  "image": {
+    "concept": "Filete de salmón cocinado con un termómetro insertado lateralmente en la parte más gruesa, fotografía editorial sin texto.",
+    "alt": "Salmón comprobado con termómetro para saber si está hecho"
+  },
+  "status": "publish"
+}

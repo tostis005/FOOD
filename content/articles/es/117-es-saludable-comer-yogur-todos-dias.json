@@ -15,20 +15,42 @@
   },
   "excerpt": "Sí. Un yogur natural diario puede encajar perfectamente en una dieta saludable. AESAN recomienda un máximo de 3 raciones de lácteos al día y define 125 g de yogur como una ración. La principal diferencia entre productos suele estar en el azúcar añadido, la grasa y la proteína, por lo que “yogur” no describe una composición única.",
   "taxonomy": {
-    "food_family": "eggs-dairy",
-    "food_subcategories": ["yogurt"],
-    "article_types": ["health-daily-consumption", "myths-faq"],
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "yogurt"
+    ],
+    "article_types": [
+      "health-daily-consumption",
+      "myths-faq"
+    ],
     "primary_article_type": "health-daily-consumption"
   },
   "content_html": "<p>Tomar yogur todos los días puede ser una costumbre perfectamente compatible con una dieta saludable. El punto importante es <strong>qué yogur y qué lugar ocupa dentro del total de lácteos</strong>.</p><h2>Una unidad suele contar como una ración</h2><p>AESAN considera unos 125 g de yogur como una ración y recomienda un máximo general de 3 raciones de leche y productos lácteos al día, preferiblemente sin azúcares añadidos y con bajo contenido en sal.</p><p>Un yogur al día, por tanto, encaja con holgura dentro de esa pauta.</p><h2>Natural y azucarado pueden ser productos muy distintos</h2><p>Un yogur natural sin azúcar contiene principalmente los azúcares propios de la leche. Un yogur de sabores puede incorporar varios gramos de azúcar añadido por unidad.</p><p>Si se toma todos los días, esa diferencia se acumula. Leer “de los cuales azúcares” no siempre permite separar lactosa natural de azúcar añadido; la lista de ingredientes ayuda a identificar azúcar, jarabes, miel u otros endulzantes añadidos.</p><h2>La proteína también cambia mucho</h2><p>Un yogur natural corriente puede aportar alrededor de 4–5 g de proteína por 125 g. Un yogur griego colado o un producto alto en proteína puede aportar aproximadamente el doble en una cantidad similar, según la marca.</p><p>Si el objetivo es proteína, comparar la etiqueta es más útil que asumir que “griego” siempre significa más proteína.</p><h2>Entero o desnatado no es la única decisión</h2><p>La grasa influye en calorías y grasa saturada, pero el conjunto del producto importa. Un yogur entero natural sin azúcar puede encajar mejor que un yogur desnatado con mucho azúcar añadido, dependiendo del resto de la dieta.</p><h2>Fermentado no significa que todos tengan el mismo efecto probiótico</h2><p>El yogur se produce con cultivos bacterianos, pero las cepas, cantidades y viabilidad pueden variar. No conviene atribuir beneficios específicos de una cepa probiótica a cualquier yogur del supermercado.</p><h2>¿Y si hay intolerancia a la lactosa?</h2><p>Muchas personas con intolerancia toleran mejor el yogur que la leche porque los cultivos ayudan a degradar parte de la lactosa. Aun así, la tolerancia es individual y existen yogures sin lactosa.</p><h2>La regla práctica</h2><p><strong>Un yogur natural al día puede ser una opción saludable</strong>. Prioriza versiones sin azúcar añadido y elige el contenido de grasa y proteína según el resto de tu alimentación, no por una etiqueta de marketing aislada.</p>",
   "faq": [
-    {"question": "¿Cuántos yogures se pueden tomar al día?", "answer": "AESAN considera 125 g de yogur una ración y recomienda un máximo general de 3 raciones de lácteos al día. Esas raciones incluyen también leche y queso."},
-    {"question": "¿Es mejor el yogur natural?", "answer": "Suele ser la referencia más sencilla porque permite evitar azúcares añadidos. Después puede combinarse con fruta, frutos secos o canela."},
-    {"question": "¿El yogur tiene probióticos?", "answer": "Es un alimento fermentado con cultivos vivos en su elaboración, pero las cepas y cantidades varían; no todos los yogures equivalen a un probiótico con efecto clínico demostrado."}
+    {
+      "question": "¿Cuántos yogures se pueden tomar al día?",
+      "answer": "AESAN considera 125 g de yogur una ración y recomienda un máximo general de 3 raciones de lácteos al día. Esas raciones incluyen también leche y queso."
+    },
+    {
+      "question": "¿Es mejor el yogur natural?",
+      "answer": "Suele ser la referencia más sencilla porque permite evitar azúcares añadidos. Después puede combinarse con fruta, frutos secos o canela."
+    },
+    {
+      "question": "¿El yogur tiene probióticos?",
+      "answer": "Es un alimento fermentado con cultivos vivos en su elaboración, pero las cepas y cantidades varían; no todos los yogures equivalen a un probiótico con efecto clínico demostrado."
+    }
   ],
   "sources": [
-    {"name": "AESAN — Recomendaciones dietéticas saludables y sostenibles", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf", "note": "Máximo de tres raciones de lácteos al día y tamaño de ración de yogur."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de distintos tipos de yogur."}
+    {
+      "name": "AESAN — Recomendaciones dietéticas saludables y sostenibles",
+      "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf",
+      "note": "Máximo de tres raciones de lácteos al día y tamaño de ración de yogur."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de distintos tipos de yogur."
+    }
   ],
   "image": {
     "concept": "Un cuenco de yogur natural con fruta y frutos secos junto a varios envases de yogur sin marcas, fotografía editorial sin texto.",

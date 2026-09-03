@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-273-descongelar-carne-microondas","article_number":273,"translation_group":"273-microwave-thaw-meat","language":"es","locale":"es-ES","market_context":"España/Unión Europea; descongelación de carne en microondas y cocción inmediata","title":"¿Se puede descongelar carne en el microondas?","slug":"se-puede-descongelar-carne-microondas","seo":{"title":"¿Se puede descongelar carne en el microondas?","meta_description":"Sí. Es un método seguro si cocinas la carne inmediatamente después, porque algunas zonas pueden calentarse o empezar a cocinarse durante la descongelación.","search_intent":"Saber cómo descongelar carne en microondas de forma segura y por qué debe cocinarse inmediatamente."},"excerpt":"USDA considera seguro descongelar carne en microondas, pero con una condición importante: hay que cocinarla inmediatamente después. El calentamiento no es uniforme y algunas zonas pueden entrar en temperaturas favorables al crecimiento bacteriano o empezar a cocinarse mientras otras siguen congeladas.","taxonomy":{"food_family":"meat","food_subcategories":["meat","microwave","thawing"],"article_types":["freezing-thawing","food-safety"],"primary_article_type":"freezing-thawing"},"content_html":"<p>El microondas es el método doméstico más rápido para descongelar carne, pero no es un método de “descongelar ahora y cocinar esta noche”. <strong>USDA indica que la carne descongelada en microondas debe cocinarse inmediatamente.</strong></p><h2>Por qué algunas partes se calientan antes</h2><p>Las microondas no distribuyen energía de forma perfectamente uniforme. Bordes y zonas finas pueden superar <strong>4 °C/40 °F</strong> e incluso empezar a cocinarse mientras el centro todavía contiene hielo.</p><h2>Cómo conseguir un resultado más uniforme</h2><ul><li>Retira envases que no sean aptos para microondas.</li><li>Usa la función de descongelación o potencia reducida.</li><li>Gira, separa y recoloca piezas durante el proceso.</li><li>Detén cuando la carne esté flexible aunque queden pequeños cristales de hielo.</li><li>Cocina inmediatamente después.</li></ul><h2>No la guardes cruda para más tarde</h2><p>Como algunas partes pueden haber alcanzado temperaturas templadas, USDA no recomienda volver a refrigerarla cruda durante horas. Tampoco debe volver al congelador cruda; cocínala primero.</p><h2>¿Es peor que descongelar en nevera?</h2><p>En seguridad puede ser correcto si se cocina inmediatamente. La diferencia está en la uniformidad y la calidad: una pieza gruesa puede desarrollar bordes parcialmente cocinados antes de que el centro se ablande.</p><h2>La idea útil</h2><p><strong>Sí, el microondas es seguro para descongelar carne si la siguiente acción es cocinarla.</strong> Si quieres descongelar con antelación, utiliza la nevera.</p>","faq":[{"question":"¿Puedo descongelar carne en microondas y guardarla en la nevera?","answer":"USDA recomienda cocinar inmediatamente la carne descongelada en microondas porque algunas zonas pueden haberse calentado o empezado a cocinar."},{"question":"¿Puedo volver a congelarla cruda?","answer":"No es lo recomendado tras microondas; cocínala primero y después congela el producto cocinado si lo necesitas."},{"question":"¿Qué hago si los bordes empiezan a cocinarse?","answer":"Termina la descongelación y pasa directamente a la cocción completa; no dejes la carne parcialmente cocinada esperando."}],"sources":[{"name":"USDA FSIS — Is it safe to thaw meat or poultry in the microwave?","url":"https://ask.fsis.usda.gov/article/Is-it-safe-to-thaw-meat-or-poultry-in-the-microwave","note":"Actualizado en 2025: descongelación en microondas segura si la carne se cocina inmediatamente."},{"name":"USDA FSIS — The Big Thaw","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods","note":"Algunas zonas pueden calentarse o empezar a cocinarse durante el microondas."}],"image":{"concept":"Pieza de carne en plato apto para microondas con partes aún ligeramente congeladas, fotografía editorial sin texto.","alt":"Carne descongelándose de forma segura en microondas"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-273-descongelar-carne-microondas",
+  "article_number": 273,
+  "translation_group": "273-microwave-thaw-meat",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; descongelación de carne en microondas y cocción inmediata",
+  "title": "¿Se puede descongelar carne en el microondas?",
+  "slug": "se-puede-descongelar-carne-microondas",
+  "seo": {
+    "title": "¿Se puede descongelar carne en el microondas?",
+    "meta_description": "Sí. Es un método seguro si cocinas la carne inmediatamente después, porque algunas zonas pueden calentarse o empezar a cocinarse durante la descongelación.",
+    "search_intent": "Saber cómo descongelar carne en microondas de forma segura y por qué debe cocinarse inmediatamente."
+  },
+  "excerpt": "USDA considera seguro descongelar carne en microondas, pero con una condición importante: hay que cocinarla inmediatamente después. El calentamiento no es uniforme y algunas zonas pueden entrar en temperaturas favorables al crecimiento bacteriano o empezar a cocinarse mientras otras siguen congeladas.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "meat",
+      "microwave",
+      "thawing"
+    ],
+    "article_types": [
+      "freezing-thawing",
+      "food-safety"
+    ],
+    "primary_article_type": "freezing-thawing"
+  },
+  "content_html": "<p>El microondas es el método doméstico más rápido para descongelar carne, pero no es un método de “descongelar ahora y cocinar esta noche”. <strong>USDA indica que la carne descongelada en microondas debe cocinarse inmediatamente.</strong></p><h2>Por qué algunas partes se calientan antes</h2><p>Las microondas no distribuyen energía de forma perfectamente uniforme. Bordes y zonas finas pueden superar <strong>4 °C/40 °F</strong> e incluso empezar a cocinarse mientras el centro todavía contiene hielo.</p><h2>Cómo conseguir un resultado más uniforme</h2><ul><li>Retira envases que no sean aptos para microondas.</li><li>Usa la función de descongelación o potencia reducida.</li><li>Gira, separa y recoloca piezas durante el proceso.</li><li>Detén cuando la carne esté flexible aunque queden pequeños cristales de hielo.</li><li>Cocina inmediatamente después.</li></ul><h2>No la guardes cruda para más tarde</h2><p>Como algunas partes pueden haber alcanzado temperaturas templadas, USDA no recomienda volver a refrigerarla cruda durante horas. Tampoco debe volver al congelador cruda; cocínala primero.</p><h2>¿Es peor que descongelar en nevera?</h2><p>En seguridad puede ser correcto si se cocina inmediatamente. La diferencia está en la uniformidad y la calidad: una pieza gruesa puede desarrollar bordes parcialmente cocinados antes de que el centro se ablande.</p><h2>El tamaño de la pieza decide si el microondas resulta práctico</h2><p>Una hamburguesa o un filete fino puede descongelarse con bastante control. Un asado grueso presenta mucha más diferencia entre la superficie y el centro, de modo que exige pausas, giros y más paciencia. Si el borde empieza a cocinarse mientras el centro sigue duro, no es una señal para guardar la pieza: es una razón más para pasar directamente a la cocción.</p><p>Para planificar con horas de margen, la nevera sigue siendo más cómoda porque mantiene toda la carne fría y permite cocinarla más tarde. El microondas es especialmente útil cuando la decisión de cocinar es inmediata.</p><h2>La idea útil</h2><p><strong>Sí, el microondas es seguro para descongelar carne si la siguiente acción es cocinarla.</strong> Si quieres descongelar con antelación, utiliza la nevera.</p>",
+  "faq": [
+    {
+      "question": "¿Puedo descongelar carne en microondas y guardarla en la nevera?",
+      "answer": "USDA recomienda cocinar inmediatamente la carne descongelada en microondas porque algunas zonas pueden haberse calentado o empezado a cocinar."
+    },
+    {
+      "question": "¿Puedo volver a congelarla cruda?",
+      "answer": "No es lo recomendado tras microondas; cocínala primero y después congela el producto cocinado si lo necesitas."
+    },
+    {
+      "question": "¿Qué hago si los bordes empiezan a cocinarse?",
+      "answer": "Termina la descongelación y pasa directamente a la cocción completa; no dejes la carne parcialmente cocinada esperando."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Is it safe to thaw meat or poultry in the microwave?",
+      "url": "https://ask.fsis.usda.gov/article/Is-it-safe-to-thaw-meat-or-poultry-in-the-microwave",
+      "note": "Actualizado en 2025: descongelación en microondas segura si la carne se cocina inmediatamente."
+    },
+    {
+      "name": "USDA FSIS — The Big Thaw",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/big-thaw-safe-defrosting-methods",
+      "note": "Algunas zonas pueden calentarse o empezar a cocinarse durante el microondas."
+    }
+  ],
+  "image": {
+    "concept": "Pieza de carne en plato apto para microondas con partes aún ligeramente congeladas, fotografía editorial sin texto.",
+    "alt": "Carne descongelándose de forma segura en microondas"
+  },
+  "status": "publish"
+}

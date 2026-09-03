@@ -15,19 +15,38 @@
   },
   "excerpt": "Cottage cheese y yogur griego son dos lácteos muy proteicos y bastante parecidos: suelen aportar alrededor de 10–12 g de proteína por 100 g. Las calorías dependen del porcentaje de grasa, pero el cottage suele contener mucho más sodio; la ración habitual también puede inclinar la cantidad total de proteína.",
   "taxonomy": {
-    "food_family": "dairy",
-    "food_subcategories": ["cottage-cheese", "greek-yogurt"],
-    "article_types": ["comparisons", "nutrition-composition"],
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "cottage-cheese",
+      "greek-yogurt"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
     "primary_article_type": "comparisons"
   },
   "content_html": "<p>Cottage cheese y yogur griego suelen aparecer en el mismo tipo de desayuno o merienda porque ambos ofrecen mucha proteína sin necesitar una ración enorme. La diferencia no está tanto en cuál ‘gana’ en proteína como en textura, grasa, sodio y tamaño de la porción.</p><p><strong>Por 100 g suelen estar muy cerca, alrededor de 10–12 g de proteína.</strong> El yogur griego 0% puede ser bastante más bajo en calorías; el cottage suele contener mucho más sodio.</p><h2>Una comparación representativa</h2><p>La tabla usa cottage bajo en grasa y yogur griego natural 0% para evitar que una diferencia de grasa domine toda la lectura.</p><table><thead><tr><th>Por 100 g</th><th>Cottage bajo en grasa</th><th>Yogur griego 0%</th></tr></thead><tbody><tr><td>Calorías</td><td>~80–90 kcal</td><td>~55–65 kcal</td></tr><tr><td>Proteína</td><td>~11–12 g</td><td>~10 g</td></tr><tr><td>Grasa</td><td>~2–3 g</td><td>&lt;1 g</td></tr><tr><td>Sodio</td><td>~300–450 mg</td><td>~30–60 mg</td></tr></tbody></table><p>La proteína difiere poco. El sodio sí: el cottage puede contener seis, ocho o incluso diez veces más por 100 g según la marca.</p><h2>La ración puede hacer que el cottage termine aportando más proteína</h2><p>Una porción de 200 g de cottage aporta alrededor de 22–24 g de proteína. Un vasito de 170 g de yogur griego 0% suele aportar unos 17 g.</p><p>Eso no significa que el cottage sea más proteico por naturaleza; simplemente es frecuente comerlo en una ración algo mayor.</p><h2>Las calorías dependen de la grasa elegida</h2><p>Un griego 0% puede rondar 60 kcal por 100 g. Un griego entero puede acercarse a 90–100 kcal, muy parecido o incluso por encima de algunos cottage bajos en grasa.</p><p>Lo mismo ocurre con el cottage: versiones enteras y cremosas contienen más grasa. Comparar estilos sin igualar el porcentaje de grasa puede llevar a una conclusión falsa.</p><h2>El sodio es la diferencia práctica más fácil de pasar por alto</h2><p>Para formar y conservar la cuajada del cottage suele añadirse sal. Por eso una ración de 200 g puede superar 600–800 mg de sodio en algunas marcas.</p><p>El yogur griego natural suele aportar mucho menos. Para quien necesita moderar sodio, esta diferencia puede importar más que uno o dos gramos de proteína.</p><h2>El yogur mantiene la fermentación como rasgo central</h2><p>El yogur griego se produce mediante fermentación con cultivos bacterianos y después se concentra. Según el producto y cómo se haya tratado, puede contener cultivos vivos.</p><p>El cottage es un queso fresco de cuajada y no debe asumirse que aporte los mismos cultivos activos, aunque algunas marcas pueden añadirlos.</p><h2>El calcio no siempre favorece al mismo producto</h2><p>La cantidad varía por proceso y marca. El cottage puede perder parte del calcio con el suero, y algunos yogures griegos también pierden calcio durante el colado. La etiqueta ofrece una comparación más fiable que una regla universal.</p><h2>¿Cuál elegir?</h2><p>Para una opción muy baja en grasa y sodio con mucha proteína, un yogur griego natural 0% es difícil de superar. Si prefieres textura de queso, sabor salado o una ración mayor, el cottage puede aportar más de 20 g de proteína fácilmente.</p><p><strong>En proteína están demasiado cerca para que unas décimas decidan la elección. Sodio, grasa, textura y ración son diferencias más útiles.</strong></p>",
   "faq": [
-    {"question": "¿Qué tiene más proteína, cottage o yogur griego?", "answer": "Por 100 g están muy cerca, generalmente alrededor de 10–12 g. La cantidad total depende mucho de la ración."},
-    {"question": "¿Cuál tiene menos calorías?", "answer": "Un yogur griego 0% suele tener menos que cottage bajo en grasa, pero las versiones enteras pueden cambiar la comparación."},
-    {"question": "¿Cuál tiene más sodio?", "answer": "El cottage suele contener muchísimo más sodio que el yogur griego natural."}
+    {
+      "question": "¿Qué tiene más proteína, cottage o yogur griego?",
+      "answer": "Por 100 g están muy cerca, generalmente alrededor de 10–12 g. La cantidad total depende mucho de la ración."
+    },
+    {
+      "question": "¿Cuál tiene menos calorías?",
+      "answer": "Un yogur griego 0% suele tener menos que cottage bajo en grasa, pero las versiones enteras pueden cambiar la comparación."
+    },
+    {
+      "question": "¿Cuál tiene más sodio?",
+      "answer": "El cottage suele contener muchísimo más sodio que el yogur griego natural."
+    }
   ],
   "sources": [
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de cottage cheese y yogur griego con distintos niveles de grasa."}
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de cottage cheese y yogur griego con distintos niveles de grasa."
+    }
   ],
   "image": {
     "concept": "Cottage cheese y yogur griego natural en dos cuencos del mismo tamaño, fotografía editorial limpia sin texto.",

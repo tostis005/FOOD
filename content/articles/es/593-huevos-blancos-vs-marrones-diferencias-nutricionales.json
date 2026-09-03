@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"es-593-huevos-blancos-vs-marrones-diferencias-nutricionales","article_number":593,"translation_group":"593-white-vs-brown-eggs","language":"es","locale":"es-ES","market_context":"España y Unión Europea","title":"Huevos blancos vs. marrones: ¿hay diferencias nutricionales?","slug":"huevos-blancos-vs-marrones-diferencias-nutricionales","seo":{"title":"Huevos blancos vs. marrones: ¿son distintos?","meta_description":"El color de la cáscara depende sobre todo de la raza de la gallina y no implica una ventaja nutricional. Lo que sí puede cambiar un huevo es tamaño, dieta y producción.","search_intent":"Saber si los huevos marrones son más nutritivos que los blancos"},"excerpt":"No hay una ventaja nutricional inherente de los huevos marrones frente a los blancos. USDA señala que la raza de la gallina determina el color de la cáscara y que los niveles de nutrientes no son significativamente diferentes. Tamaño, alimentación y formulaciones enriquecidas sí pueden cambiar la composición independientemente del color.","taxonomy":{"food_family":"eggs","food_subcategories":[],"article_types":["comparisons","myths-faq","nutrition-composition"],"primary_article_type":"myths-faq"},"content_html":"<p>Un huevo marrón puede parecer más “rústico” y uno blanco más industrial, pero esa asociación no tiene una base nutricional. <strong>El color de la cáscara lo determina principalmente la genética de la gallina.</strong></p><h2>Qué dice USDA</h2><p>El servicio de seguridad alimentaria de USDA responde de forma directa: el color de la cáscara <strong>no afecta de manera significativa a los nutrientes</strong>. Distintas razas producen huevos blancos, marrones e incluso azulados o verdosos.</p><h2>Entonces, ¿por qué a veces cuestan distinto?</h2><p>El precio puede reflejar raza, eficiencia alimentaria, sistema de producción, tamaño, marca, certificaciones y demanda. USDA señala que algunas gallinas que ponen huevos marrones consumen más alimento para producir una cantidad equivalente, lo que puede elevar costes.</p><h2>Qué sí puede cambiar la composición</h2><p>La <strong>dieta de la gallina</strong> puede modificar ciertos nutrientes del huevo. Los huevos enriquecidos con omega-3 son el ejemplo más claro: la alimentación se formula para aumentar esos ácidos grasos. Eso puede ocurrir con cáscara blanca o marrón.</p><p>También cambia el valor por unidad si un huevo pesa 55 g y otro 70 g. Comparar “un huevo” sin igualar tamaño puede crear diferencias que en realidad son de peso.</p><h2>¿El color de la yema depende de la cáscara?</h2><p>No. El color de la yema depende sobre todo de pigmentos de la dieta de la gallina. Una yema más naranja tampoco demuestra automáticamente que tenga más proteína o que el huevo sea más fresco.</p><h2>Qué mirar al comprar</h2><p>Si te interesan bienestar y sistema de producción, mira el código y la información del envase. Si buscas omega-3 u otro nutriente, busca una declaración específica y la tabla nutricional. <strong>El color de la cáscara, por sí solo, es una característica visual.</strong></p>","faq":[{"question":"¿Los huevos marrones tienen más nutrientes?","answer":"No de forma inherente. USDA indica que los niveles de nutrientes no son significativamente distintos por el color de la cáscara."},{"question":"¿Por qué unos huevos son blancos y otros marrones?","answer":"Principalmente por la raza y genética de la gallina."},{"question":"¿Los marrones son más naturales?","answer":"No. El color no indica por sí mismo sistema de producción, alimentación ni grado de procesamiento."},{"question":"¿Qué puede hacer que un huevo tenga más omega-3?","answer":"La dieta de la gallina y una formulación específica, no el color de la cáscara."}],"sources":[{"name":"USDA FSIS — Huevos en cascarón de la granja a la mesa","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/huevos-en-cascaron-de-la-granja-a-la-mesa","note":"USDA indica que la raza determina el color y que no hay diferencias nutricionales significativas por color."},{"name":"USDA AMS — Questions and Answers, Shell Egg Grading","url":"https://www.ams.usda.gov/publications/qa-shell-eggs","note":"Aclara que el color no determina la calidad y explica diferencias de coste asociadas a razas."}],"image":{"concept":"Un huevo blanco y uno marrón abiertos mostrando yemas similares, con la palabra raza apuntando al color de la cáscara.","alt":"Huevos blancos y marrones mostrando que el color de la cáscara no determina su nutrición"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-593-huevos-blancos-vs-marrones-diferencias-nutricionales",
+  "article_number": 593,
+  "translation_group": "593-white-vs-brown-eggs",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España y Unión Europea",
+  "title": "Huevos blancos vs. marrones: ¿hay diferencias nutricionales?",
+  "slug": "huevos-blancos-vs-marrones-diferencias-nutricionales",
+  "seo": {
+    "title": "Huevos blancos vs. marrones: ¿son distintos?",
+    "meta_description": "El color de la cáscara depende sobre todo de la raza de la gallina y no implica una ventaja nutricional. Lo que sí puede cambiar un huevo es tamaño, dieta y producción.",
+    "search_intent": "Saber si los huevos marrones son más nutritivos que los blancos"
+  },
+  "excerpt": "No hay una ventaja nutricional inherente de los huevos marrones frente a los blancos. USDA señala que la raza de la gallina determina el color de la cáscara y que los niveles de nutrientes no son significativamente diferentes. Tamaño, alimentación y formulaciones enriquecidas sí pueden cambiar la composición independientemente del color.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "myths-faq",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "myths-faq"
+  },
+  "content_html": "<p>Un huevo marrón puede parecer más “rústico” y uno blanco más industrial, pero esa asociación no tiene una base nutricional. <strong>El color de la cáscara lo determina principalmente la genética de la gallina.</strong></p><h2>Qué dice USDA</h2><p>El servicio de seguridad alimentaria de USDA responde de forma directa: el color de la cáscara <strong>no afecta de manera significativa a los nutrientes</strong>. Distintas razas producen huevos blancos, marrones e incluso azulados o verdosos.</p><h2>Entonces, ¿por qué a veces cuestan distinto?</h2><p>El precio puede reflejar raza, eficiencia alimentaria, sistema de producción, tamaño, marca, certificaciones y demanda. USDA señala que algunas gallinas que ponen huevos marrones consumen más alimento para producir una cantidad equivalente, lo que puede elevar costes.</p><h2>Qué sí puede cambiar la composición</h2><p>La <strong>dieta de la gallina</strong> puede modificar ciertos nutrientes del huevo. Los huevos enriquecidos con omega-3 son el ejemplo más claro: la alimentación se formula para aumentar esos ácidos grasos. Eso puede ocurrir con cáscara blanca o marrón.</p><p>También cambia el valor por unidad si un huevo pesa 55 g y otro 70 g. Comparar “un huevo” sin igualar tamaño puede crear diferencias que en realidad son de peso.</p><h2>¿El color de la yema depende de la cáscara?</h2><p>No. El color de la yema depende sobre todo de pigmentos de la dieta de la gallina. Una yema más naranja tampoco demuestra automáticamente que tenga más proteína o que el huevo sea más fresco.</p><h2>Comparar huevos exige igualar el tamaño</h2><p>Una diferencia de 10–15 g entre dos huevos cambia la cantidad total de proteína, grasa y micronutrientes que comes mucho más que el pigmento de la cáscara. Por eso una comparación seria usa huevos del mismo tamaño o datos por 100 g, y después pregunta por alimentación o enriquecimiento si busca diferencias reales.</p><p>La consecuencia práctica es sencilla: pagar más por un huevo marrón solo tiene sentido si el precio refleja otra característica que valoras —sistema de producción, certificación, tamaño o composición declarada—, no porque el marrón sea nutricionalmente superior.</p><h2>Qué mirar al comprar</h2><p>Si te interesan bienestar y sistema de producción, mira el código y la información del envase. Si buscas omega-3 u otro nutriente, busca una declaración específica y la tabla nutricional. <strong>El color de la cáscara, por sí solo, es una característica visual.</strong></p>",
+  "faq": [
+    {
+      "question": "¿Los huevos marrones tienen más nutrientes?",
+      "answer": "No de forma inherente. USDA indica que los niveles de nutrientes no son significativamente distintos por el color de la cáscara."
+    },
+    {
+      "question": "¿Por qué unos huevos son blancos y otros marrones?",
+      "answer": "Principalmente por la raza y genética de la gallina."
+    },
+    {
+      "question": "¿Los marrones son más naturales?",
+      "answer": "No. El color no indica por sí mismo sistema de producción, alimentación ni grado de procesamiento."
+    },
+    {
+      "question": "¿Qué puede hacer que un huevo tenga más omega-3?",
+      "answer": "La dieta de la gallina y una formulación específica, no el color de la cáscara."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Huevos en cascarón de la granja a la mesa",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/huevos-en-cascaron-de-la-granja-a-la-mesa",
+      "note": "USDA indica que la raza determina el color y que no hay diferencias nutricionales significativas por color."
+    },
+    {
+      "name": "USDA AMS — Questions and Answers, Shell Egg Grading",
+      "url": "https://www.ams.usda.gov/publications/qa-shell-eggs",
+      "note": "Aclara que el color no determina la calidad y explica diferencias de coste asociadas a razas."
+    }
+  ],
+  "image": {
+    "concept": "Un huevo blanco y uno marrón abiertos mostrando yemas similares, con la palabra raza apuntando al color de la cáscara.",
+    "alt": "Huevos blancos y marrones mostrando que el color de la cáscara no determina su nutrición"
+  },
+  "status": "publish"
+}

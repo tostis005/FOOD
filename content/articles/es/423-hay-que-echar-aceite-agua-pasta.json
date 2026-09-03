@@ -1,1 +1,58 @@
-{"schema_version":1,"id":"es-423-aceite-agua-pasta","article_number":423,"translation_group":"423-oil-in-pasta-water","language":"es","locale":"es-ES","market_context":"España/Unión Europea; técnica doméstica para cocer pasta seca.","title":"¿Hay que echar aceite al agua de la pasta?","slug":"hay-que-echar-aceite-agua-pasta","seo":{"title":"¿Hay que echar aceite al agua de la pasta?","meta_description":"No hace falta. El aceite flota y no evita bien que la pasta se pegue; puede además recubrirla al escurrir. Agua suficiente y remover al principio funcionan mejor.","search_intent":"Saber si añadir aceite al agua evita que la pasta se pegue y cuál es la técnica correcta."},"excerpt":"No hace falta añadir aceite al agua de cocción. Como el aceite y el agua no se mezclan, la mayor parte queda en la superficie y no impide de forma eficaz que la pasta se pegue. Usar suficiente agua y remover bien durante los primeros minutos funciona mejor.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":[],"article_types":["cooking-techniques","myths-faq"],"primary_article_type":"cooking-techniques"},"content_html":"<p>La cucharada de aceite en la olla es uno de esos gestos que se repiten por costumbre. <strong>Para cocer pasta seca no es necesaria y no es la mejor herramienta contra el pegado.</strong></p><h2>El aceite se queda arriba</h2><p>El aceite es menos denso que el agua y no se disuelve en ella. Durante la ebullición puede dispersarse en pequeñas gotas, pero no crea una película uniforme alrededor de cada macarrón o espagueti mientras se cuece. Barilla recomienda directamente omitirlo: no evita el pegado y puede interferir después con la adherencia de la salsa.</p><h2>Lo que sí evita que se pegue</h2><p>La pasta libera almidón, especialmente al principio. Por eso conviene usar una olla suficientemente grande, mantener una ebullición activa y remover enseguida tras añadir la pasta y varias veces durante los primeros minutos. Esa acción física separa las piezas cuando la superficie está más pegajosa.</p><h2>¿Puede el aceite perjudicar la salsa?</h2><p>Si parte del aceite queda adherido a la pasta al escurrir, forma una superficie más grasa y la salsa puede resbalar en vez de agarrarse. Para muchas preparaciones interesa precisamente lo contrario: conservar algo del almidón superficial y terminar la pasta junto a la salsa.</p><h2>¿Cuándo sí tiene sentido usar aceite?</h2><p>Fuera del agua de cocción, sí puede ser útil. Por ejemplo, si vas a enfriar pasta cocida para almacenarla sin salsa, una cantidad pequeña de aceite puede reducir el apelmazamiento. Eso es distinto de echarlo a la olla.</p><p><strong>Para pasta destinada a una salsa, la combinación más fiable es agua, sal, movimiento y un poco de agua de cocción reservada; el aceite en la olla sobra.</strong></p>","faq":[{"question":"¿El aceite impide que los espaguetis se peguen?","answer":"No de forma eficaz. Remover al principio y usar una olla adecuada funciona mejor."},{"question":"¿Por qué puede perjudicar a la salsa?","answer":"Porque una película grasa sobre la pasta puede dificultar que una salsa acuosa se adhiera a su superficie."},{"question":"¿Puedo usar aceite después de cocerla?","answer":"Sí, por ejemplo en pasta que vas a enfriar y guardar sin salsa, aunque para servirla inmediatamente con salsa suele ser innecesario."}],"sources":[{"name":"Barilla — How to Cook Pasta","url":"https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/how-to-cook-pasta","note":"Recomienda no añadir aceite al agua y remover para evitar el pegado."},{"name":"Barilla — Pasta Water Tips & Tricks","url":"https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/pasta-water-tips-tricks","note":"Explica por qué aceite y agua no se mezclan y cómo el agua con almidón ayuda a la salsa."}],"image":{"concept":"Olla de pasta hirviendo sin aceite visible, una cuchara removiendo los espaguetis y una pequeña aceitera al lado sin usar, fotografía editorial realista, sin texto.","alt":"Pasta hirviendo mientras se remueve sin añadir aceite al agua"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-423-aceite-agua-pasta",
+  "article_number": 423,
+  "translation_group": "423-oil-in-pasta-water",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; técnica doméstica para cocer pasta seca.",
+  "title": "¿Hay que echar aceite al agua de la pasta?",
+  "slug": "hay-que-echar-aceite-agua-pasta",
+  "seo": {
+    "title": "¿Hay que echar aceite al agua de la pasta?",
+    "meta_description": "No hace falta. El aceite flota y no evita bien que la pasta se pegue; puede además recubrirla al escurrir. Agua suficiente y remover al principio funcionan mejor.",
+    "search_intent": "Saber si añadir aceite al agua evita que la pasta se pegue y cuál es la técnica correcta."
+  },
+  "excerpt": "No hace falta añadir aceite al agua de cocción. Como el aceite y el agua no se mezclan, la mayor parte queda en la superficie y no impide de forma eficaz que la pasta se pegue. Usar suficiente agua y remover bien durante los primeros minutos funciona mejor.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [],
+    "article_types": [
+      "cooking-techniques",
+      "myths-faq"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p>La cucharada de aceite en la olla es uno de esos gestos que se repiten por costumbre. <strong>Para cocer pasta seca no es necesaria y no es la mejor herramienta contra el pegado.</strong></p><h2>El aceite se queda arriba</h2><p>El aceite es menos denso que el agua y no se disuelve en ella. Durante la ebullición puede dispersarse en pequeñas gotas, pero no crea una película uniforme alrededor de cada macarrón o espagueti mientras se cuece. Barilla recomienda directamente omitirlo: no evita el pegado y puede interferir después con la adherencia de la salsa.</p><h2>Lo que sí evita que se pegue</h2><p>La pasta libera almidón, especialmente al principio. Por eso conviene usar una olla suficientemente grande, mantener una ebullición activa y remover enseguida tras añadir la pasta y varias veces durante los primeros minutos. Esa acción física separa las piezas cuando la superficie está más pegajosa.</p><h2>¿Puede el aceite perjudicar la salsa?</h2><p>Si parte del aceite queda adherido a la pasta al escurrir, forma una superficie más grasa y la salsa puede resbalar en vez de agarrarse. Para muchas preparaciones interesa precisamente lo contrario: conservar algo del almidón superficial y terminar la pasta junto a la salsa.</p><h2>El aceite flota donde la pasta todavía no lo necesita</h2><p>El aceite añadido al agua permanece principalmente en la superficie y no evita de forma fiable que las piezas se peguen entre sí durante la cocción. Para eso funcionan mejor suficiente agua, movimiento al principio y no sobrecargar la olla. Además, una película de aceite sobre la pasta escurrida puede dificultar que la salsa se adhiera, justo lo contrario de lo que se busca en muchos platos.</p><h2>¿Cuándo sí tiene sentido usar aceite?</h2><p>Fuera del agua de cocción, sí puede ser útil. Por ejemplo, si vas a enfriar pasta cocida para almacenarla sin salsa, una cantidad pequeña de aceite puede reducir el apelmazamiento. Eso es distinto de echarlo a la olla.</p><p><strong>Para pasta destinada a una salsa, la combinación más fiable es agua, sal, movimiento y un poco de agua de cocción reservada; el aceite en la olla sobra.</strong></p>",
+  "faq": [
+    {
+      "question": "¿El aceite impide que los espaguetis se peguen?",
+      "answer": "No de forma eficaz. Remover al principio y usar una olla adecuada funciona mejor."
+    },
+    {
+      "question": "¿Por qué puede perjudicar a la salsa?",
+      "answer": "Porque una película grasa sobre la pasta puede dificultar que una salsa acuosa se adhiera a su superficie."
+    },
+    {
+      "question": "¿Puedo usar aceite después de cocerla?",
+      "answer": "Sí, por ejemplo en pasta que vas a enfriar y guardar sin salsa, aunque para servirla inmediatamente con salsa suele ser innecesario."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Barilla — How to Cook Pasta",
+      "url": "https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/how-to-cook-pasta",
+      "note": "Recomienda no añadir aceite al agua y remover para evitar el pegado."
+    },
+    {
+      "name": "Barilla — Pasta Water Tips & Tricks",
+      "url": "https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/pasta-water-tips-tricks",
+      "note": "Explica por qué aceite y agua no se mezclan y cómo el agua con almidón ayuda a la salsa."
+    }
+  ],
+  "image": {
+    "concept": "Olla de pasta hirviendo sin aceite visible, una cuchara removiendo los espaguetis y una pequeña aceitera al lado sin usar, fotografía editorial realista, sin texto.",
+    "alt": "Pasta hirviendo mientras se remueve sin añadir aceite al agua"
+  },
+  "status": "publish"
+}

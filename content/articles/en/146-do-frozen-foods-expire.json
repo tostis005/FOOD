@@ -8,12 +8,44 @@
   "market_context": "United States/general English; USDA 0 °F freezer guidance",
   "title": "Do frozen foods expire?",
   "slug": "do-frozen-foods-expire",
-  "seo": {"title":"Do frozen foods expire? Safety vs. quality","meta_description":"Food kept continuously at 0°F remains safe almost indefinitely, according to USDA, but texture, flavor and moisture deteriorate. Freezer times are mainly quality guidance.","search_intent":"Understand whether long-frozen food becomes unsafe simply because it has been in the freezer for months."},
+  "seo": {
+    "title": "Do frozen foods expire? Safety vs. quality",
+    "meta_description": "Food kept continuously at 0°F remains safe almost indefinitely, according to USDA, but texture, flavor and moisture deteriorate. Freezer times are mainly quality guidance.",
+    "search_intent": "Understand whether long-frozen food becomes unsafe simply because it has been in the freezer for months."
+  },
   "excerpt": "Food kept continuously frozen at 0°F (-18°C) remains safe almost indefinitely according to USDA; the recommended freezer timelines are mainly about quality. Flavor, texture and moisture decline, and freezer burn becomes more likely. Any thawing or temperature failure changes the safety question.",
-  "taxonomy": {"food_family":"general","food_subcategories":["freezing"],"article_types":["food-safety","storage"],"primary_article_type":"storage"},
-  "content_html": "<p>Eight months in a freezer is not equivalent to eight months in a refrigerator. At 0°F, microbes are inactivated rather than multiplying, so time by itself is primarily a quality issue.</p><h2>USDA freezer times are quality times</h2><p>USDA states that food kept continuously at 0°F remains safe almost indefinitely. Recommended months — such as 3–4 months for ground meat or 9 months for poultry parts — describe when texture and flavor are expected to remain best.</p><table><thead><tr><th>With long freezer storage</th><th>What changes?</th></tr></thead><tbody><tr><td>Microbial growth</td><td>Stopped while continuously frozen</td></tr><tr><td>Flavor/aroma</td><td>Can decline</td></tr><tr><td>Texture</td><td>Can become dry, tough or watery after thawing</td></tr><tr><td>Freezer burn</td><td>More likely with air exposure</td></tr></tbody></table><h2>Freezing does not erase unsafe handling before freezing</h2><p>If meat spent too long warm or refrigerated before it entered the freezer, freezing does not reset that history. Freeze food while it is still safely stored.</p><h2>A power failure changes the calculation</h2><p>Once food warms and thaws, time and temperature become important again. Food that still contains ice crystals or remains at refrigerator temperature can often be safely refrozen, but food held warm too long should be discarded.</p><h2>The rule</h2><p>Use freezer charts to protect eating quality, not as automatic safety expiration dates. The critical safety condition is continuous freezing at 0°F and safe handling before and after it.</p>",
-  "faq": [{"question":"Is year-old frozen food safe?","answer":"It can be if it stayed continuously at 0°F and was safe when frozen, although quality may be poor."},{"question":"Why do freezer charts list months if frozen food stays safe?","answer":"Those timelines are primarily recommendations for flavor, texture and overall quality."}],
-  "sources": [{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"Continuous freezing, safety and quality timelines."}],
-  "image": {"concept":"Organized freezer with dated food packages showing long storage and quality changes, no text.","alt":"Frozen foods stored for different lengths of time"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "freezing"
+    ],
+    "article_types": [
+      "food-safety",
+      "storage"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Eight months in a freezer is not equivalent to eight months in a refrigerator. At 0°F, microbes are inactivated rather than multiplying, so time by itself is primarily a quality issue.</p><h2>USDA freezer times are quality times</h2><p>USDA states that food kept continuously at 0°F remains safe almost indefinitely. Recommended months — such as 3–4 months for ground meat or 9 months for poultry parts — describe when texture and flavor are expected to remain best.</p><table><thead><tr><th>With long freezer storage</th><th>What changes?</th></tr></thead><tbody><tr><td>Microbial growth</td><td>Stopped while continuously frozen</td></tr><tr><td>Flavor/aroma</td><td>Can decline</td></tr><tr><td>Texture</td><td>Can become dry, tough or watery after thawing</td></tr><tr><td>Freezer burn</td><td>More likely with air exposure</td></tr></tbody></table><p>This is why freezer-storage charts should be read mainly as quality guides. Chicken kept longer than the recommended quality window may become dry and stale without becoming unsafe simply because more months passed, provided it stayed continuously frozen and is thawed safely.</p><h2>Freezing does not erase unsafe handling before freezing</h2><p>If meat spent too long warm or refrigerated before it entered the freezer, freezing does not reset that history. Freeze food while it is still safely stored.</p><h2>A power failure changes the calculation</h2><p>Once food warms and thaws, time and temperature become important again. Food that still contains ice crystals or remains at refrigerator temperature can often be safely refrozen, but food held warm too long should be discarded.</p><p>Packaging can speed up or slow down that decline. Air, temperature fluctuations, and loose wrapping promote oxidation and freezer burn. Good packaging does not change the basic microbiology, but it can make a major difference in texture and flavor over long storage.</p><h2>The rule</h2><p>Use freezer charts to protect eating quality, not as automatic safety expiration dates. The critical safety condition is continuous freezing at 0°F and safe handling before and after it.</p>",
+  "faq": [
+    {
+      "question": "Is year-old frozen food safe?",
+      "answer": "It can be if it stayed continuously at 0°F and was safe when frozen, although quality may be poor."
+    },
+    {
+      "question": "Why do freezer charts list months if frozen food stays safe?",
+      "answer": "Those timelines are primarily recommendations for flavor, texture and overall quality."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "Continuous freezing, safety and quality timelines."
+    }
+  ],
+  "image": {
+    "concept": "Organized freezer with dated food packages showing long storage and quality changes, no text.",
+    "alt": "Frozen foods stored for different lengths of time"
+  },
+  "status": "publish"
 }

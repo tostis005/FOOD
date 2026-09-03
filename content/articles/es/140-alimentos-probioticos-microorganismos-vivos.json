@@ -8,12 +8,50 @@
   "market_context": "España/Unión Europea; definiciones ISAPP y alimentos fermentados",
   "title": "Alimentos con probióticos: cuáles pueden contener microorganismos vivos",
   "slug": "alimentos-probioticos-microorganismos-vivos",
-  "seo": {"title":"Alimentos con probióticos y microorganismos vivos","meta_description":"Yogur, kéfir y algunos fermentados pueden contener microorganismos vivos, pero vivo no significa automáticamente probiótico. Aprende qué mirar en la etiqueta.","search_intent":"Identificar alimentos que pueden aportar microorganismos vivos y distinguirlos de probióticos demostrados."},
+  "seo": {
+    "title": "Alimentos con probióticos y microorganismos vivos",
+    "meta_description": "Yogur, kéfir y algunos fermentados pueden contener microorganismos vivos, pero vivo no significa automáticamente probiótico. Aprende qué mirar en la etiqueta.",
+    "search_intent": "Identificar alimentos que pueden aportar microorganismos vivos y distinguirlos de probióticos demostrados."
+  },
   "excerpt": "Yogur y kéfir suelen contener cultivos vivos si no han sido tratados con calor después de fermentar; kimchi, chucrut y otros vegetales refrigerados también pueden conservar microorganismos vivos. Pero 'microorganismo vivo' no significa automáticamente 'probiótico': para ese término se necesita una cepa definida, una cantidad adecuada y un beneficio demostrado.",
-  "taxonomy": {"food_family":"general","food_subcategories":["fermented-foods","gut-health"],"article_types":["nutrition-explainer","myths-faq"],"primary_article_type":"nutrition-explainer"},
-  "content_html": "<p>Buscar “alimentos con probióticos” parece sencillo hasta que se distingue entre tres ideas: alimento fermentado, alimento con microorganismos vivos y alimento que contiene una cepa probiótica demostrada.</p><table><thead><tr><th>Alimento</th><th>¿Puede contener microbios vivos al comerlo?</th><th>¿Es automáticamente probiótico?</th></tr></thead><tbody><tr><td>Yogur con cultivos vivos</td><td>Sí, habitualmente</td><td>No necesariamente</td></tr><tr><td>Kéfir</td><td>Sí, habitualmente</td><td>No necesariamente</td></tr><tr><td>Kimchi/chucrut refrigerado sin pasteurizar</td><td>Puede</td><td>No</td></tr><tr><td>Miso sin calentar</td><td>Puede</td><td>No</td></tr><tr><td>Pan de masa madre</td><td>No tras el horneado</td><td>No</td></tr><tr><td>Vegetales fermentados pasteurizados</td><td>No o muy pocos</td><td>No</td></tr></tbody></table><h2>La etiqueta 'cultivos vivos' dice algo distinto de 'probiótico'</h2><p>Un producto puede contener microorganismos vivos seguros sin que esos microorganismos hayan sido identificados a nivel de cepa y estudiados a una dosis concreta. En sentido científico estricto, eso no basta para llamarlos probióticos.</p><h2>El tratamiento posterior es decisivo</h2><p>Pasteurizar, hornear o cocinar después de la fermentación puede eliminar la viabilidad microbiana. Por eso pan de masa madre, salsa de soja tratada térmicamente o vegetales fermentados estables a temperatura ambiente pueden seguir siendo fermentados sin ser fuentes de microbios vivos.</p><h2>Qué mirar al comprar</h2><p>Busca expresiones como “cultivos vivos” o información de cepas concretas cuando exista. Si el objetivo es un efecto probiótico específico, la etiqueta debería identificar los microorganismos y la cantidad, no limitarse a usar palabras como “fermentado” o “natural”.</p><h2>La conclusión</h2><p>Yogur, kéfir y ciertos fermentados no pasteurizados son formas razonables de consumir microorganismos vivos. Pero pocos alimentos tradicionales contienen microorganismos que cumplan por sí solos todos los requisitos científicos para llamarse probióticos.</p>",
-  "faq": [{"question":"¿El yogur tiene probióticos?","answer":"Puede contener cultivos vivos y algunos yogures incluyen cepas probióticas concretas, pero no todo cultivo del yogur cumple automáticamente la definición estricta de probiótico."},{"question":"¿El chucrut del supermercado tiene bacterias vivas?","answer":"Depende. Si está pasteurizado o tratado con calor, los microorganismos pueden haberse eliminado. Los productos refrigerados sin pasteurizar tienen más probabilidades de conservarlos."}],
-  "sources": [{"name":"ISAPP — Fermented foods","url":"https://isappscience.org/topic/fermented-foods/","note":"Presencia variable de microorganismos vivos en fermentados."},{"name":"ISAPP — Probiotics","url":"https://isappscience.org/resource/probiotics/","note":"Criterios científicos para considerar probiótico a un microorganismo."}],
-  "image": {"concept":"Yogur, kéfir, kimchi y chucrut refrigerado junto a pan de masa madre, fotografía editorial sin texto.","alt":"Alimentos que pueden contener microorganismos vivos"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "fermented-foods",
+      "gut-health"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Buscar “alimentos con probióticos” parece sencillo hasta que se distingue entre tres ideas: alimento fermentado, alimento con microorganismos vivos y alimento que contiene una cepa probiótica demostrada.</p><table><thead><tr><th>Alimento</th><th>¿Puede contener microbios vivos al comerlo?</th><th>¿Es automáticamente probiótico?</th></tr></thead><tbody><tr><td>Yogur con cultivos vivos</td><td>Sí, habitualmente</td><td>No necesariamente</td></tr><tr><td>Kéfir</td><td>Sí, habitualmente</td><td>No necesariamente</td></tr><tr><td>Kimchi/chucrut refrigerado sin pasteurizar</td><td>Puede</td><td>No</td></tr><tr><td>Miso sin calentar</td><td>Puede</td><td>No</td></tr><tr><td>Pan de masa madre</td><td>No tras el horneado</td><td>No</td></tr><tr><td>Vegetales fermentados pasteurizados</td><td>No o muy pocos</td><td>No</td></tr></tbody></table><p>La forma más útil de leer el lineal es hacer dos preguntas separadas: “¿este alimento conserva cultivos vivos?” y “¿la cepa y la cantidad tienen evidencia para un beneficio concreto?”. La primera puede responderla a veces la etiqueta; la segunda exige información mucho más específica que frases como “fermentado” o “con bacterias buenas”.</p><h2>La etiqueta 'cultivos vivos' dice algo distinto de 'probiótico'</h2><p>Un producto puede contener microorganismos vivos seguros sin que esos microorganismos hayan sido identificados a nivel de cepa y estudiados a una dosis concreta. En sentido científico estricto, eso no basta para llamarlos probióticos.</p><h2>El tratamiento posterior es decisivo</h2><p>Pasteurizar, hornear o cocinar después de la fermentación puede eliminar la viabilidad microbiana. Por eso pan de masa madre, salsa de soja tratada térmicamente o vegetales fermentados estables a temperatura ambiente pueden seguir siendo fermentados sin ser fuentes de microbios vivos.</p><h2>Qué mirar al comprar</h2><p>Busca expresiones como “cultivos vivos” o información de cepas concretas cuando exista. Si el objetivo es un efecto probiótico específico, la etiqueta debería identificar los microorganismos y la cantidad, no limitarse a usar palabras como “fermentado” o “natural”.</p><p>El tratamiento después de fermentar es decisivo. Un yogur calentado después de la fermentación, una verdura pasteurizada o un miso hervido pueden conservar productos de la fermentación pero reducir drásticamente los microorganismos viables. <strong>Eso no vuelve al alimento inútil; simplemente cambia qué afirmación puede hacerse sobre él.</strong></p><h2>La conclusión</h2><p>Yogur, kéfir y ciertos fermentados no pasteurizados son formas razonables de consumir microorganismos vivos. Pero pocos alimentos tradicionales contienen microorganismos que cumplan por sí solos todos los requisitos científicos para llamarse probióticos.</p>",
+  "faq": [
+    {
+      "question": "¿El yogur tiene probióticos?",
+      "answer": "Puede contener cultivos vivos y algunos yogures incluyen cepas probióticas concretas, pero no todo cultivo del yogur cumple automáticamente la definición estricta de probiótico."
+    },
+    {
+      "question": "¿El chucrut del supermercado tiene bacterias vivas?",
+      "answer": "Depende. Si está pasteurizado o tratado con calor, los microorganismos pueden haberse eliminado. Los productos refrigerados sin pasteurizar tienen más probabilidades de conservarlos."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ISAPP — Fermented foods",
+      "url": "https://isappscience.org/topic/fermented-foods/",
+      "note": "Presencia variable de microorganismos vivos en fermentados."
+    },
+    {
+      "name": "ISAPP — Probiotics",
+      "url": "https://isappscience.org/resource/probiotics/",
+      "note": "Criterios científicos para considerar probiótico a un microorganismo."
+    }
+  ],
+  "image": {
+    "concept": "Yogur, kéfir, kimchi y chucrut refrigerado junto a pan de masa madre, fotografía editorial sin texto.",
+    "alt": "Alimentos que pueden contener microorganismos vivos"
+  },
+  "status": "publish"
 }

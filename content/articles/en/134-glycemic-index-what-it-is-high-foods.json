@@ -8,12 +8,48 @@
   "market_context": "United States/general English; University of Sydney international GI methodology",
   "title": "Glycemic index: what it is and which foods are highest",
   "slug": "glycemic-index-what-it-is-high-foods",
-  "seo": {"title":"Glycemic index: definition and high-GI foods","meta_description":"Glycemic index ranks carbohydrate foods by blood-glucose response to a standardized carbohydrate dose. Low is ≤55, medium 56–69 and high ≥70.","search_intent":"Understand what glycemic index measures and which carbohydrate foods tend to have high values."},
+  "seo": {
+    "title": "Glycemic index: definition and high-GI foods",
+    "meta_description": "Glycemic index ranks carbohydrate foods by blood-glucose response to a standardized carbohydrate dose. Low is ≤55, medium 56–69 and high ≥70.",
+    "search_intent": "Understand what glycemic index measures and which carbohydrate foods tend to have high values."
+  },
   "excerpt": "The glycemic index (GI) ranks carbohydrate foods by the blood-glucose response to a standardized amount of available carbohydrate. Low GI is 55 or less, medium 56–69 and high 70 or more. White bread, some rice and potatoes can be high, but variety, cooking and processing can shift the number substantially.",
-  "taxonomy": {"food_family":"general","food_subcategories":["carbohydrates"],"article_types":["nutrition-explainer"],"primary_article_type":"nutrition-explainer"},
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "carbohydrates"
+    ],
+    "article_types": [
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
   "content_html": "<p>Glycemic index is not a measure of how much sugar a food contains. It compares <strong>the relative blood-glucose response to a standardized amount of available carbohydrate</strong> with a reference food.</p><p>That detail matters because the test portion may not resemble the amount you normally eat. GI describes carbohydrate quality under standardized conditions; it does not automatically describe the glycemic impact of your plate.</p><table><thead><tr><th>Category</th><th>GI</th></tr></thead><tbody><tr><td>Low</td><td>≤55</td></tr><tr><td>Medium</td><td>56–69</td></tr><tr><td>High</td><td>≥70</td></tr></tbody></table><h2>Foods that often have high GI values</h2><p>Glucose, many white breads, some breakfast cereals, highly refined rice and certain potato preparations can test high. Legumes generally test low, while pasta and many whole fruits tend to fall lower.</p><p>But there is no single GI for “rice” or “potato.” Variety, starch structure, cooking time, ripeness, cooling and processing all affect starch digestion and therefore the measured response.</p><h2>GI is not useful for foods with almost no carbohydrate</h2><p>Meat, fish, eggs, oils and many cheeses contain too little carbohydrate for a conventional GI test to be meaningful. The system was designed to compare carbohydrate-rich foods, not every food on the plate.</p><h2>Serving size is the missing piece</h2><p>A food may have high GI yet contain relatively little carbohydrate in a normal serving. Glycemic load adds the amount of available carbohydrate in the serving to the calculation.</p><h2>The practical rule</h2><p>Use GI as one tool for comparing carbohydrate foods in similar contexts. Do not treat it as a universal health score: it does not capture portion size, total fiber, protein, fat, micronutrients or the effect of the mixed meal.</p>",
-  "faq": [{"question":"What is considered a high glycemic index?","answer":"A GI of 70 or higher. Medium is 56–69 and low is 55 or below."},{"question":"Does GI predict exactly how high my glucose will rise?","answer":"No. GI is a standardized relative measure; portion size, mixed meals and individual glucose tolerance also affect the real response."}],
-  "sources": [{"name":"University of Sydney — Glycemic Index","url":"https://glycemicindex.com/about-gi/","note":"GI definition, testing concept and classification."},{"name":"University of Sydney — International GI database","url":"https://glycemicindex.com/","note":"Measured GI and GL data."}],
-  "image": {"concept":"Bread, rice, potato, lentils and fruit arranged from faster to slower carbohydrate response, editorial food photography without text.","alt":"Foods with different glycemic index values"},
-  "status":"publish"
+  "faq": [
+    {
+      "question": "What is considered a high glycemic index?",
+      "answer": "A GI of 70 or higher. Medium is 56–69 and low is 55 or below."
+    },
+    {
+      "question": "Does GI predict exactly how high my glucose will rise?",
+      "answer": "No. GI is a standardized relative measure; portion size, mixed meals and individual glucose tolerance also affect the real response."
+    }
+  ],
+  "sources": [
+    {
+      "name": "University of Sydney — Glycemic Index",
+      "url": "https://glycemicindex.com/about-gi/",
+      "note": "GI definition, testing concept and classification."
+    },
+    {
+      "name": "University of Sydney — International GI database",
+      "url": "https://glycemicindex.com/",
+      "note": "Measured GI and GL data."
+    }
+  ],
+  "image": {
+    "concept": "Bread, rice, potato, lentils and fruit arranged from faster to slower carbohydrate response, editorial food photography without text.",
+    "alt": "Foods with different glycemic index values"
+  },
+  "status": "publish"
 }

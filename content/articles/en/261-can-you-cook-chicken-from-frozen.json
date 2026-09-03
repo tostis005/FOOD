@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-261-cook-chicken-from-frozen","article_number":261,"translation_group":"261-cook-chicken-from-frozen","language":"en","locale":"en-US","market_context":"United States/general English; cooking frozen raw chicken without thawing","title":"Can you cook chicken directly from frozen?","slug":"can-you-cook-chicken-from-frozen","seo":{"title":"Can you cook chicken directly from frozen?","meta_description":"Yes. Chicken can be cooked from frozen in the oven or on the stove, but it may take about 50% longer and must reach 165 °F internally.","search_intent":"Learn when cooking frozen chicken without thawing is safe and which methods should be avoided."},"excerpt":"USDA says chicken can be cooked from frozen in the oven or on the stove. Cooking may take about 50% longer, and the thickest part must reach at least 165 °F. USDA does not recommend starting raw frozen chicken in a slow cooker.","taxonomy":{"food_family":"meat","food_subcategories":["chicken","frozen","cooking"],"article_types":["cooking-techniques","food-safety"],"primary_article_type":"cooking-techniques"},"content_html":"<p>You do not always have to thaw chicken before cooking. <strong>USDA says frozen chicken can be cooked safely in the oven or on the stove when it reaches 165 °F internally.</strong></p><h2>Plan on about 50% more time</h2><p>Frozen chicken must first absorb enough heat to thaw internally before it can finish cooking. USDA estimates roughly <strong>one-and-a-half times</strong> the cooking time of thawed chicken.</p><p>A recipe that takes 30 minutes with thawed chicken might therefore take around 45 minutes from frozen, although thickness and method can move that number substantially.</p><h2>Use a thermometer, not the clock</h2><p>The thickest part must reach <strong>165 °F (73.9 °C)</strong>. Frozen pieces can brown outside while the center is still cold, making a thermometer especially important.</p><h2>Oven and stove are acceptable; slow cooker is not</h2><p>USDA allows oven or stovetop cooking from frozen but advises against putting raw frozen chicken directly into a slow cooker because it can warm too slowly through the bacterial danger zone.</p><h2>Separated pieces cook more evenly</h2><p>Individually frozen breasts or thighs are easier to manage than a solid frozen block. If pieces are stuck together, separate them once the outside loosens enough to do so safely.</p><h2>Bottom line</h2><p><strong>Yes, chicken can go from freezer to oven or stovetop.</strong> Allow extra time and verify 165 °F in the center rather than relying on surface color.</p>","faq":[{"question":"How much longer does frozen chicken take?","answer":"USDA estimates about 50% longer than thawed chicken, although actual time depends on thickness and method."},{"question":"Can frozen chicken go in a slow cooker?","answer":"USDA advises against starting raw frozen chicken in a slow cooker because it warms too slowly."},{"question":"What internal temperature is required?","answer":"At least 165 °F in the thickest part, measured with a food thermometer."}],"sources":[{"name":"USDA FSIS — Chicken from Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table","note":"Frozen chicken cooking methods, extra time and 165 °F target."},{"name":"USDA FSIS — Freezing and Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety","note":"Cooking meat and poultry from frozen and approximate time increase."}],"image":{"concept":"Frozen chicken breasts cooking in an oven tray beside a food thermometer, realistic editorial photography without text.","alt":"Chicken cooking safely from frozen"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-261-cook-chicken-from-frozen",
+  "article_number": 261,
+  "translation_group": "261-cook-chicken-from-frozen",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; cooking frozen raw chicken without thawing",
+  "title": "Can you cook chicken directly from frozen?",
+  "slug": "can-you-cook-chicken-from-frozen",
+  "seo": {
+    "title": "Can you cook chicken directly from frozen?",
+    "meta_description": "Yes. Chicken can be cooked from frozen in the oven or on the stove, but it may take about 50% longer and must reach 165 °F internally.",
+    "search_intent": "Learn when cooking frozen chicken without thawing is safe and which methods should be avoided."
+  },
+  "excerpt": "USDA says chicken can be cooked from frozen in the oven or on the stove. Cooking may take about 50% longer, and the thickest part must reach at least 165 °F. USDA does not recommend starting raw frozen chicken in a slow cooker.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "chicken",
+      "frozen",
+      "cooking"
+    ],
+    "article_types": [
+      "cooking-techniques",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p>You do not always have to thaw chicken before cooking. <strong>USDA says frozen chicken can be cooked safely in the oven or on the stove when it reaches 165 °F internally.</strong></p><h2>Plan on about 50% more time</h2><p>Frozen chicken must first absorb enough heat to thaw internally before it can finish cooking. USDA estimates roughly <strong>one-and-a-half times</strong> the cooking time of thawed chicken.</p><p>A recipe that takes 30 minutes with thawed chicken might therefore take around 45 minutes from frozen, although thickness and method can move that number substantially.</p><h2>Use a thermometer, not the clock</h2><p>The thickest part must reach <strong>165 °F (73.9 °C)</strong>. Frozen pieces can brown outside while the center is still cold, making a thermometer especially important.</p><h2>Oven and stove are acceptable; slow cooker is not</h2><p>USDA allows oven or stovetop cooking from frozen but advises against putting raw frozen chicken directly into a slow cooker because it can warm too slowly through the bacterial danger zone.</p><h2>Separated pieces cook more evenly</h2><p>Individually frozen breasts or thighs are easier to manage than a solid frozen block. If pieces are stuck together, separate them once the outside loosens enough to do so safely.</p><h2>Safe does not mean every recipe works equally well</h2><p>Being able to cook chicken from frozen does not mean every method gives the same result. With a thick breast, the outside can dry while the center finishes heating; smaller pieces or dishes with sauce are usually easier to manage.</p><p>If a recipe depends on fast browning, stuffing a piece or very even doneness, thawing first may still be better for quality and control. Cooking from frozen is a useful option, not a universal replacement for planned thawing.</p><h2>Bottom line</h2><p><strong>Yes, chicken can go from freezer to oven or stovetop.</strong> Allow extra time and verify 165 °F in the center rather than relying on surface color.</p>",
+  "faq": [
+    {
+      "question": "How much longer does frozen chicken take?",
+      "answer": "USDA estimates about 50% longer than thawed chicken, although actual time depends on thickness and method."
+    },
+    {
+      "question": "Can frozen chicken go in a slow cooker?",
+      "answer": "USDA advises against starting raw frozen chicken in a slow cooker because it warms too slowly."
+    },
+    {
+      "question": "What internal temperature is required?",
+      "answer": "At least 165 °F in the thickest part, measured with a food thermometer."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Chicken from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+      "note": "Frozen chicken cooking methods, extra time and 165 °F target."
+    },
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "Cooking meat and poultry from frozen and approximate time increase."
+    }
+  ],
+  "image": {
+    "concept": "Frozen chicken breasts cooking in an oven tray beside a food thermometer, realistic editorial photography without text.",
+    "alt": "Chicken cooking safely from frozen"
+  },
+  "status": "publish"
+}

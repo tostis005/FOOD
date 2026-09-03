@@ -15,20 +15,43 @@
   },
   "excerpt": "Como regla general, los alimentos cocinados y otros perecederos no deberían permanecer a temperatura ambiente más de 2 horas. AESAN reduce el margen a 1 hora cuando la temperatura ambiente supera aproximadamente 30 °C. Si han pasado más tiempo en la zona templada, volver a meterlos en la nevera o recalentarlos no borra el riesgo acumulado.",
   "taxonomy": {
-    "food_family": "food-general",
-    "food_subcategories": ["leftovers", "food-storage"],
-    "article_types": ["food-safety", "storage"],
+    "food_family": "general",
+    "food_subcategories": [
+      "leftovers",
+      "food-storage"
+    ],
+    "article_types": [
+      "food-safety",
+      "storage"
+    ],
     "primary_article_type": "food-safety"
   },
   "content_html": "<p>Una tortilla queda sobre la mesa después de comer, una ensaladilla espera durante todo el aperitivo o una olla de guiso se enfría durante horas antes de entrar en la nevera. En estos casos el reloj importa porque <strong>las bacterias crecen con mucha más rapidez a temperaturas templadas que en refrigeración.</strong></p><h2>La regla general es 2 horas</h2><p>AESAN y EFSA recomiendan no dejar alimentos cocinados o perecederos a temperatura ambiente durante más de unas <strong>2 horas</strong>. Después de ese tiempo, la opción segura es desecharlos si no se han mantenido de forma continua fríos o calientes.</p><p>No hace falta esperar a que el alimento huela mal. Los microorganismos que causan intoxicaciones pueden crecer sin producir señales sensoriales claras.</p><h2>Con mucho calor, el margen baja a 1 hora</h2><p>AESAN utiliza una referencia más estricta cuando la temperatura ambiente supera los 30 °C: aproximadamente una hora. En verano, dentro de un coche, en una terraza soleada o junto a una barbacoa, la comida puede calentarse mucho más de lo que sugiere la temperatura del aire.</p><p>En esas condiciones, una bolsa sobre el asiento del coche no funciona como nevera.</p><h2>Qué alimentos necesitan esta precaución</h2><p>La regla afecta a carne, pescado, pollo, huevos cocinados, lácteos refrigerados, arroz y pasta cocidos, legumbres cocidas, platos preparados, salsas perecederas, ensaladas preparadas y sobras en general.</p><p>No se aplica igual a alimentos estables a temperatura ambiente como pan seco, frutos secos, arroz sin cocinar, conservas cerradas o fruta entera que normalmente no necesita refrigeración.</p><h2>Mantener frío o mantener caliente evita que empiece el mismo reloj</h2><p>Un alimento frío debe mantenerse por debajo de unos 5 °C. Si se sirve caliente durante un periodo prolongado, EFSA recomienda mantenerlo por encima de 60 °C; la normativa española de comidas preparadas utiliza al menos 63 °C para conservación en caliente.</p><p>Un bufé seguro no consiste en dejar la comida tibia durante horas: consiste en mantener los platos realmente fríos o realmente calientes.</p><h2>Meterlo de nuevo en la nevera no reinicia el tiempo</h2><p>Si una lasaña ha pasado cuatro horas sobre la mesa, refrigerarla después solo frena el crecimiento a partir de ese momento. No elimina las bacterias que ya se multiplicaron ni las toxinas que algunas pueden haber producido.</p><p>Lo mismo ocurre al congelar. El frío conserva el estado microbiológico; no convierte un alimento mal manejado en uno nuevo.</p><h2>Recalentar tampoco es un rescate universal</h2><p>Calentar bien una sobra mata muchas bacterias activas. Pero ciertas toxinas producidas durante una conservación inadecuada pueden resistir el calor. Por eso no conviene pensar “ha estado toda la tarde fuera, pero lo hiervo y listo”.</p><p>La prevención debe ocurrir antes: enfriar y refrigerar a tiempo.</p><h2>Cómo enfriar una cantidad grande</h2><p>Divide guisos, pasta, arroz o carne en recipientes poco profundos y porciones más pequeñas. Así pierden calor más rápido que una olla de varios litros.</p><p>No necesitas dejar el recipiente hasta que alcance por completo la temperatura ambiente. Un frigorífico moderno puede recibir comida todavía templada en cantidades razonables; el objetivo es evitar horas de enfriamiento lento en la encimera.</p><h2>Qué hacer cuando no sabes cuánto tiempo lleva fuera</h2><p>Si nadie recuerda cuándo se sacó, no hay una prueba casera capaz de reconstruir la historia. Probar un poco tampoco es seguro: la cantidad necesaria para causar enfermedad puede ser pequeña.</p><p>En un alimento perecedero con un tiempo desconocido y potencialmente largo fuera de frío, <strong>la opción prudente es desecharlo</strong>.</p><h2>La regla que merece quedarse</h2><p><strong>2 horas normalmente; 1 hora con calor intenso.</strong> Si vas a superar ese tiempo, mantén la comida de forma continua fría o caliente.</p><p>El frigorífico y el recalentado son herramientas para conservar comida bien manejada, no para corregir varias horas olvidada a temperatura ambiente.</p>",
   "faq": [
-    {"question": "¿Puedo comer comida que ha estado 3 horas fuera de la nevera?", "answer": "Para alimentos perecederos, tres horas supera la regla general de 2 horas. Lo prudente es desecharlos si no se mantuvieron fríos o calientes."},
-    {"question": "¿Y si hace mucho calor?", "answer": "El margen se reduce. AESAN recomienda no superar aproximadamente 1 hora cuando la temperatura ambiente es superior a 30 °C."},
-    {"question": "¿Recalentar la comida elimina el riesgo?", "answer": "No siempre. Mata muchas bacterias, pero algunas toxinas pueden resistir el calor y el recalentado no borra el historial de conservación."}
+    {
+      "question": "¿Puedo comer comida que ha estado 3 horas fuera de la nevera?",
+      "answer": "Para alimentos perecederos, tres horas supera la regla general de 2 horas. Lo prudente es desecharlos si no se mantuvieron fríos o calientes."
+    },
+    {
+      "question": "¿Y si hace mucho calor?",
+      "answer": "El margen se reduce. AESAN recomienda no superar aproximadamente 1 hora cuando la temperatura ambiente es superior a 30 °C."
+    },
+    {
+      "question": "¿Recalentar la comida elimina el riesgo?",
+      "answer": "No siempre. Mata muchas bacterias, pero algunas toxinas pueden resistir el calor y el recalentado no borra el historial de conservación."
+    }
   ],
   "sources": [
-    {"name": "AESAN — Cocina segura fuera de casa", "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/cocina_oficina.pdf", "note": "Regla de 2 horas y reducción a una hora por encima de 30 °C."},
-    {"name": "EFSA — Proper food handling", "url": "https://www.efsa.europa.eu/en/safe2eat/proper-food-handling", "note": "Temperaturas de refrigeración, mantenimiento caliente y tiempo fuera de frío."}
+    {
+      "name": "AESAN — Cocina segura fuera de casa",
+      "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/cocina_oficina.pdf",
+      "note": "Regla de 2 horas y reducción a una hora por encima de 30 °C."
+    },
+    {
+      "name": "EFSA — Proper food handling",
+      "url": "https://www.efsa.europa.eu/en/safe2eat/proper-food-handling",
+      "note": "Temperaturas de refrigeración, mantenimiento caliente y tiempo fuera de frío."
+    }
   ],
   "image": {
     "concept": "Platos de comida cocinada sobre una mesa junto a un reloj y una nevera al fondo, fotografía editorial limpia sin texto.",

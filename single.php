@@ -30,6 +30,10 @@ get_header();
 			1
 		);
 	}
+
+	if ( function_exists( 'food_internal_links_inject' ) ) {
+		$food_content = food_internal_links_inject( $food_content, get_the_ID() );
+	}
 	?>
 	<div class="article-shell"><?php function_exists( 'food_language_breadcrumbs' ) ? food_language_breadcrumbs() : food_breadcrumbs(); ?></div>
 
@@ -79,7 +83,7 @@ get_header();
 	$related_args = array(
 		'post_type'           => 'post',
 		'posts_per_page'      => 3,
-		'post__not_in'        => array( get_the_ID() ),
+		'post__not_in'        => array_values( array_unique( array_merge( array( get_the_ID() ), function_exists( 'food_internal_link_target_post_ids' ) ? food_internal_link_target_post_ids( get_the_ID() ) : array() ) ) ),
 		'ignore_sticky_posts' => true,
 	);
 	$related_tax_query = array( 'relation' => 'OR' );

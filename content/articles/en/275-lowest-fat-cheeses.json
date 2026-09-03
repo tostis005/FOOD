@@ -1,1 +1,57 @@
-{"schema_version":1,"id":"en-275-lowest-fat-cheeses","article_number":275,"translation_group":"275-lowest-fat-cheeses","language":"en","locale":"en-US","market_context":"United States/general English; per-100-g comparison of fresh and aged cheeses with different milkfat levels","title":"The lowest-fat cheeses","slug":"lowest-fat-cheeses","seo":{"title":"Lowest-fat cheeses: ranking per 100 grams","meta_description":"1% cottage cheese and part-skim ricotta contain far less fat than part-skim mozzarella, feta or cheddar. Compare representative USDA values per 100 g.","search_intent":"Compare cheeses by total fat on an equal 100-g basis and understand how moisture and milkfat affect the result."},"excerpt":"Fresh, reduced-fat cheeses dominate the low-fat end. USDA references put 1% cottage cheese at about 1 g fat/100 g and part-skim ricotta at 7.9 g, compared with 15.9 g for part-skim mozzarella, 21.3 g for feta and roughly 33 g for cheddar. Product labels still matter because recipes vary.","taxonomy":{"food_family":"dairy-cheese","food_subcategories":["cheese","fat","ranking"],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>“Cheese” ranges from very moist fresh products to dense aged cheeses. <strong>A fair fat comparison uses grams of fat per 100 g and a clearly defined cheese type.</strong></p><h2>Representative values per 100 g</h2><table><thead><tr><th>Cheese</th><th>Total fat</th><th>Approx. calories</th></tr></thead><tbody><tr><td>1% lowfat cottage cheese</td><td>~1.0 g</td><td>~72</td></tr><tr><td>Part-skim ricotta</td><td>~7.9 g</td><td>~138</td></tr><tr><td>Part-skim mozzarella</td><td>~15.9 g</td><td>~254</td></tr><tr><td>Feta</td><td>~21.3 g</td><td>~264</td></tr><tr><td>Cheddar</td><td>~33 g</td><td>~400</td></tr></tbody></table><p>These are specific USDA references. Fat-free cottage cheese, fresh mozzarella and reduced-fat branded products can differ substantially, so the package label should override a category average.</p><h2>Water dilutes fat per 100 g</h2><p>The 1% cottage-cheese reference is roughly <strong>82–83% water</strong>. Aged cheese has lost much more water, concentrating fat, protein, calcium and calories into the same 100-g weight.</p><h2>Milkfat level matters too</h2><p>Part-skim ricotta at 7.9 g fat contains about <strong>8 g less fat per 100 g</strong> than part-skim mozzarella at 15.9 g and about 25 g less than cheddar near 33 g.</p><h2>Low fat does not mean low sodium</h2><p>A USDA 1% cottage reference contains about 406 mg sodium/100 g, while a no-salt-added version is near 13 mg. Fat and sodium have to be checked separately.</p><h2>Serving size changes the practical result</h2><p>Thirty grams of cheddar at 33 g fat/100 g provide about <strong>9.9 g fat</strong>. A full 100 g of 1% cottage cheese provides about 1 g. Typical serving sizes differ greatly among cheese styles.</p><h2>Bottom line</h2><p><strong>Moist, reduced-fat fresh cheeses—especially cottage cheese and lower-fat ricotta—sit at the low-fat end.</strong> Water content and starting milkfat explain much of the ranking.</p>","faq":[{"question":"What cheese has the least fat?","answer":"Among common references, 1% cottage cheese can contain about 1 g fat per 100 g, far below aged cheeses."},{"question":"Is ricotta low in fat?","answer":"Part-skim ricotta provides about 7.9 g/100 g, lower than part-skim mozzarella (~15.9 g) or feta (~21.3 g)."},{"question":"Does low-fat cheese mean low sodium?","answer":"No. Fat and sodium are independent; check both values on the nutrition label."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Per-100-g references for 1% cottage cheese, part-skim ricotta, part-skim mozzarella, feta and cheddar."}],"image":{"concept":"Cottage cheese, ricotta, mozzarella, feta and cheddar portions arranged from lower to higher fat, clean editorial photography without text.","alt":"Cheeses compared by total fat content"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-275-lowest-fat-cheeses",
+  "article_number": 275,
+  "translation_group": "275-lowest-fat-cheeses",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; per-100-g comparison of fresh and aged cheeses with different milkfat levels",
+  "title": "The lowest-fat cheeses",
+  "slug": "lowest-fat-cheeses",
+  "seo": {
+    "title": "Lowest-fat cheeses: ranking per 100 grams",
+    "meta_description": "1% cottage cheese and part-skim ricotta contain far less fat than part-skim mozzarella, feta or cheddar. Compare representative USDA values per 100 g.",
+    "search_intent": "Compare cheeses by total fat on an equal 100-g basis and understand how moisture and milkfat affect the result."
+  },
+  "excerpt": "Fresh, reduced-fat cheeses dominate the low-fat end. USDA references put 1% cottage cheese at about 1 g fat/100 g and part-skim ricotta at 7.9 g, compared with 15.9 g for part-skim mozzarella, 21.3 g for feta and roughly 33 g for cheddar. Product labels still matter because recipes vary.",
+  "taxonomy": {
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "cheese",
+      "fat",
+      "ranking"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>“Cheese” ranges from very moist fresh products to dense aged cheeses. <strong>A fair fat comparison uses grams of fat per 100 g and a clearly defined cheese type.</strong></p><h2>Representative values per 100 g</h2><table><thead><tr><th>Cheese</th><th>Total fat</th><th>Approx. calories</th></tr></thead><tbody><tr><td>1% lowfat cottage cheese</td><td>~1.0 g</td><td>~72</td></tr><tr><td>Part-skim ricotta</td><td>~7.9 g</td><td>~138</td></tr><tr><td>Part-skim mozzarella</td><td>~15.9 g</td><td>~254</td></tr><tr><td>Feta</td><td>~21.3 g</td><td>~264</td></tr><tr><td>Cheddar</td><td>~33 g</td><td>~400</td></tr></tbody></table><p>These are specific USDA references. Fat-free cottage cheese, fresh mozzarella and reduced-fat branded products can differ substantially, so the package label should override a category average.</p><h2>Water dilutes fat per 100 g</h2><p>The 1% cottage-cheese reference is roughly <strong>82–83% water</strong>. Aged cheese has lost much more water, concentrating fat, protein, calcium and calories into the same 100-g weight.</p><h2>Milkfat level matters too</h2><p>Part-skim ricotta at 7.9 g fat contains about <strong>8 g less fat per 100 g</strong> than part-skim mozzarella at 15.9 g and about 25 g less than cheddar near 33 g.</p><h2>Low fat does not mean low sodium</h2><p>A USDA 1% cottage reference contains about 406 mg sodium/100 g, while a no-salt-added version is near 13 mg. Fat and sodium have to be checked separately.</p><h2>Serving size changes the practical result</h2><p>Thirty grams of cheddar at 33 g fat/100 g provide about <strong>9.9 g fat</strong>. A full 100 g of 1% cottage cheese provides about 1 g. Typical serving sizes differ greatly among cheese styles.</p><p><strong>Moist, reduced-fat fresh cheeses—especially cottage cheese and lower-fat ricotta—sit at the low-fat end.</strong> Water content and starting milkfat explain much of the ranking.</p>",
+  "faq": [
+    {
+      "question": "What cheese has the least fat?",
+      "answer": "Among common references, 1% cottage cheese can contain about 1 g fat per 100 g, far below aged cheeses."
+    },
+    {
+      "question": "Is ricotta low in fat?",
+      "answer": "Part-skim ricotta provides about 7.9 g/100 g, lower than part-skim mozzarella (~15.9 g) or feta (~21.3 g)."
+    },
+    {
+      "question": "Does low-fat cheese mean low sodium?",
+      "answer": "No. Fat and sodium are independent; check both values on the nutrition label."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Per-100-g references for 1% cottage cheese, part-skim ricotta, part-skim mozzarella, feta and cheddar."
+    }
+  ],
+  "image": {
+    "concept": "Cottage cheese, ricotta, mozzarella, feta and cheddar portions arranged from lower to higher fat, clean editorial photography without text.",
+    "alt": "Cheeses compared by total fat content"
+  },
+  "status": "publish"
+}

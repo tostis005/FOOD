@@ -1,1 +1,54 @@
-{"schema_version":1,"id":"en-453-sourdough-conventional","article_number":453,"translation_group":"453-sourdough-vs-conventional-bread","language":"en","locale":"en-US","market_context":"United States; nutritional and processing comparison of sourdough and conventionally fermented bread.","title":"Sourdough vs. Conventional Bread: What Really Changes?","slug":"sourdough-vs-conventional-bread","seo":{"title":"Sourdough vs. Conventional Bread: Key Differences","meta_description":"Sourdough uses lactic-acid bacteria plus yeasts and acidifies dough. It may reduce phytate and alter glycemic response, but flour type still drives much of the nutrition.","search_intent":"Compare sourdough with conventional bread without assuming one is automatically healthier."},"excerpt":"The main difference is fermentation. Sourdough combines yeasts with lactic-acid bacteria and produces organic acids, while conventional bread is usually driven mainly by baker’s yeast. That can change phytate, flavor, texture, and sometimes glycemic response, but whole-grain content still has a major effect on fiber and micronutrients.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":[],"article_types":["comparisons","processing-production","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>“Sourdough” has become shorthand for healthy bread, but <strong>white sourdough is still white bread, and a whole-grain conventional loaf can provide far more fiber.</strong></p><h2>The real difference starts with microorganisms</h2><p>A sourdough starter contains yeasts plus lactic-acid bacteria. Longer fermentation produces lactic acid, acetic acid, and many flavor compounds. Conventional bread usually relies more heavily on baker’s yeast and may ferment for a shorter time.</p><h2>Acidity changes the dough</h2><p>Lower pH affects enzymes, gluten behavior, flavor, and shelf life. Reviews of sourdough research report that fermentation can reduce phytate, which may improve mineral availability.</p><h2>What about blood glucose?</h2><p>Some studies find a lower post-meal glucose response with certain sourdough breads, but the effect is not universal. Flour refinement, particle size, whole-grain content, hydration, fermentation time, and loaf structure all matter.</p><h2>The word sourdough does not replace the Nutrition Facts label</h2><p>Compare fiber, sodium, whole-grain ingredients, and serving size. A whole-grain loaf with 7–9 g fiber per 100 g can easily provide more fiber than a white sourdough with 2–3 g per 100 g.</p><h2>Flavor and keeping quality differ too</h2><p>Organic acids create more complex flavor and can slow some mold growth and staling, although sourdough is not immune to spoilage.</p><p><strong>Sourdough fermentation creates real biochemical differences; the nutritional quality of the finished bread still depends on the whole recipe.</strong></p>","faq":[{"question":"Is sourdough always healthier?","answer":"No. Flour type, fiber, sodium, serving size, and the rest of the formula matter greatly."},{"question":"Does sourdough reduce phytate?","answer":"It can, particularly with longer acidic fermentation, which may improve mineral availability."},{"question":"Does sourdough always have a lower glycemic index?","answer":"No. Many studies show differences, but results vary with recipe, flour, processing, and serving."}],"sources":[{"name":"Exploring the Nutritional Impact of Sourdough Fermentation (2024)","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11172170/","note":"Review of sourdough fermentation, phytate, digestibility, and glycemic response."}],"image":{"concept":"Slices of sourdough, conventional white bread, and conventional whole-grain bread on a board showing crumb structure, realistic editorial food photography, no text.","alt":"Sourdough compared with conventional breads"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-453-sourdough-conventional",
+  "article_number": 453,
+  "translation_group": "453-sourdough-vs-conventional-bread",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; nutritional and processing comparison of sourdough and conventionally fermented bread.",
+  "title": "Sourdough vs. Conventional Bread: What Really Changes?",
+  "slug": "sourdough-vs-conventional-bread",
+  "seo": {
+    "title": "Sourdough vs. Conventional Bread: Key Differences",
+    "meta_description": "Sourdough uses lactic-acid bacteria plus yeasts and acidifies dough. It may reduce phytate and alter glycemic response, but flour type still drives much of the nutrition.",
+    "search_intent": "Compare sourdough with conventional bread without assuming one is automatically healthier."
+  },
+  "excerpt": "The main difference is fermentation. Sourdough combines yeasts with lactic-acid bacteria and produces organic acids, while conventional bread is usually driven mainly by baker’s yeast. That can change phytate, flavor, texture, and sometimes glycemic response, but whole-grain content still has a major effect on fiber and micronutrients.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "processing-production",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>“Sourdough” has become shorthand for healthy bread, but <strong>white sourdough is still white bread, and a whole-grain conventional loaf can provide far more fiber.</strong></p><h2>The real difference starts with microorganisms</h2><p>A sourdough starter contains yeasts plus lactic-acid bacteria. Longer fermentation produces lactic acid, acetic acid, and many flavor compounds. Conventional bread usually relies more heavily on baker’s yeast and may ferment for a shorter time.</p><h2>Acidity changes the dough</h2><p>Lower pH affects enzymes, gluten behavior, flavor, and shelf life. Reviews of sourdough research report that fermentation can reduce phytate, which may improve mineral availability.</p><h2>What about blood glucose?</h2><p>Some studies find a lower post-meal glucose response with certain sourdough breads, but the effect is not universal. Flour refinement, particle size, whole-grain content, hydration, fermentation time, and loaf structure all matter.</p><h2>The word sourdough does not replace the Nutrition Facts label</h2><p>Compare fiber, sodium, whole-grain ingredients, and serving size. A whole-grain loaf with 7–9 g fiber per 100 g can easily provide more fiber than a white sourdough with 2–3 g per 100 g.</p><h2>Fermentation changes the process; it does not automatically make bread “healthier”</h2><p>Long sourdough fermentation can change acidity, mineral availability and digestibility of some compounds, but the result still depends on the flour and the full recipe. White sourdough does not acquire the fiber of whole-grain bread, and a conventional whole-grain loaf can provide more fiber than sourdough made from refined flour.</p><h2>Flavor and keeping quality differ too</h2><p>Organic acids create more complex flavor and can slow some mold growth and staling, although sourdough is not immune to spoilage.</p><p><strong>Sourdough fermentation creates real biochemical differences; the nutritional quality of the finished bread still depends on the whole recipe.</strong></p>",
+  "faq": [
+    {
+      "question": "Is sourdough always healthier?",
+      "answer": "No. Flour type, fiber, sodium, serving size, and the rest of the formula matter greatly."
+    },
+    {
+      "question": "Does sourdough reduce phytate?",
+      "answer": "It can, particularly with longer acidic fermentation, which may improve mineral availability."
+    },
+    {
+      "question": "Does sourdough always have a lower glycemic index?",
+      "answer": "No. Many studies show differences, but results vary with recipe, flour, processing, and serving."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Exploring the Nutritional Impact of Sourdough Fermentation (2024)",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11172170/",
+      "note": "Review of sourdough fermentation, phytate, digestibility, and glycemic response."
+    }
+  ],
+  "image": {
+    "concept": "Slices of sourdough, conventional white bread, and conventional whole-grain bread on a board showing crumb structure, realistic editorial food photography, no text.",
+    "alt": "Sourdough compared with conventional breads"
+  },
+  "status": "publish"
+}

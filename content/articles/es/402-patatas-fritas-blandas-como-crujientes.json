@@ -1,1 +1,58 @@
-{"schema_version":1,"id":"es-402-patatas-fritas-crujientes","article_number":402,"translation_group":"402-crispy-french-fries","language":"es","locale":"es-ES","market_context":"España/Unión Europea; ciencia culinaria y fritura doméstica.","title":"Por qué las patatas fritas quedan blandas y cómo hacerlas crujientes","slug":"patatas-fritas-blandas-como-crujientes","seo":{"title":"Por qué las patatas fritas quedan blandas y cómo hacerlas crujientes","meta_description":"La humedad es la gran enemiga de la costra crujiente. Corta uniforme, elimina almidón superficial, seca bien y fríe sin abarrotar el aceite.","search_intent":"Entender por qué las patatas fritas quedan blandas y mejorar su textura en casa."},"excerpt":"Una patata frita queda blanda cuando la superficie conserva demasiada humedad o el aceite pierde tanta temperatura que la patata cuece y absorbe grasa antes de formar una costra seca. Cortes uniformes, un remojo opcional, secado completo, tandas pequeñas y una segunda fritura más caliente son las herramientas más fiables para conseguir contraste entre exterior crujiente e interior tierno.","taxonomy":{"food_family":"tubers","food_subcategories":[],"article_types":["cooking-science","cooking-techniques"],"primary_article_type":"cooking-science"},"content_html":"<p>Sacas las patatas del aceite doradas, pero dos minutos después se doblan como si hubieran perdido toda la costra. El problema suele ser una batalla entre agua y calor. <strong>Para que una patata quede crujiente, su superficie tiene que perder suficiente humedad mientras el almidón forma una capa rígida.</strong></p><h2>Una patata fresca contiene mucha agua</h2><p>Las patatas crudas rondan el 75–80 % de agua según variedad y composición. Durante la fritura, parte de esa agua se convierte en vapor y sale hacia el aceite. Si la superficie permanece demasiado húmeda, no puede estabilizarse una costra seca.</p><p>Por eso secar los bastones antes de freír importa tanto. Tras un remojo, el agua adherida al exterior no mejora nada: enfría el aceite y aumenta las salpicaduras.</p><h2>Abarrotar la freidora cambia la fritura</h2><p>Cada tanda fría roba calor al aceite. Si introduces demasiada patata a la vez, la temperatura cae y tarda más en recuperarse. Mientras tanto, la superficie cuece a menor intensidad y el vapor de muchas piezas compite por salir.</p><p>La solución no es subir el fuego sin límite, sino trabajar en tandas que permitan recuperar temperatura. Un termómetro ayuda mucho más que juzgar sólo por el burbujeo.</p><h2>El doble cocinado separa dos trabajos distintos</h2><p>Una técnica clásica utiliza una primera fritura moderada para cocinar el interior y una segunda más caliente para secar y dorar la superficie. Como referencia doméstica, puede hacerse la primera fase alrededor de 150–165 °C y la segunda cerca de 180 °C, siempre sin superar la temperatura adecuada para el aceite utilizado.</p><p>Entre ambas fases conviene dejar escurrir y enfriar las patatas. Ese descanso redistribuye humedad y permite que la segunda fritura se concentre en la costra.</p><h2>Remojar ayuda, pero secar después es obligatorio</h2><p>Potato Goodness recomienda remojar los bastones unos 15 minutos para retirar parte del almidón superficial. Menos almidón libre reduce la tendencia a que las piezas se peguen y facilita una superficie más limpia.</p><p>No hace falta convertir el remojo en un ritual de horas para todas las variedades. Lo importante es enjuagar si se desea y, después, secar muy bien con paños o papel de cocina.</p><h2>La variedad también cambia el resultado</h2><p>Las patatas más harinosas y ricas en materia seca suelen producir interiores más esponjosos y costras más fáciles de secar; las muy céreas retienen una textura más compacta. En España, variedades destinadas a freír suelen indicar esa aptitud en el envase.</p><h2>Un método doméstico fiable</h2><ol><li>Corta bastones de grosor parecido.</li><li>Remójalos unos 15 minutos si buscas retirar almidón superficial.</li><li>Sécalos hasta que no quede agua visible.</li><li>Haz una primera fritura moderada en tandas pequeñas.</li><li>Escurre y deja reposar.</li><li>Termina con una segunda fritura más caliente hasta dorar.</li><li>Sala al salir, no dentro del aceite.</li></ol><p><strong>Las patatas crujientes no dependen de freír «más fuerte», sino de controlar humedad, temperatura y cantidad por tanda.</strong></p>","faq":[{"question":"¿Por qué se ablandan después de sacarlas del aceite?","answer":"El vapor del interior sigue migrando hacia la superficie. Si la costra no está suficientemente seca y rígida, esa humedad la reblandece."},{"question":"¿Hay que freírlas dos veces?","answer":"No es obligatorio, pero separar una primera cocción del interior y una segunda fase de secado y dorado facilita una textura más crujiente."},{"question":"¿Por qué no debo freír muchas a la vez?","answer":"Porque una carga grande hace caer la temperatura del aceite y dificulta que la superficie pierda agua con rapidez."}],"sources":[{"name":"Potato Goodness — How to Make Fries at Home","url":"https://potatogoodness.com/how-to-make-fries-at-home/","note":"Corte uniforme, remojo, secado y técnicas domésticas para patatas fritas."},{"name":"USDA FoodData Central — Potatoes","url":"https://fdc.nal.usda.gov/food-search/?query=potato","note":"Composición general y contenido de agua de distintas patatas."}],"image":{"concept":"Dos tandas de patatas fritas caseras, una pálida y blanda y otra dorada y crujiente sobre rejilla, fotografía editorial, sin texto.","alt":"Patatas fritas blandas frente a patatas doradas y crujientes"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-402-patatas-fritas-crujientes",
+  "article_number": 402,
+  "translation_group": "402-crispy-french-fries",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; ciencia culinaria y fritura doméstica.",
+  "title": "Por qué las patatas fritas quedan blandas y cómo hacerlas crujientes",
+  "slug": "patatas-fritas-blandas-como-crujientes",
+  "seo": {
+    "title": "Patatas fritas blandas: causas y cómo hacerlas crujientes",
+    "meta_description": "La humedad es la gran enemiga de la costra crujiente. Corta uniforme, elimina almidón superficial, seca bien y fríe sin abarrotar el aceite.",
+    "search_intent": "Entender por qué las patatas fritas quedan blandas y mejorar su textura en casa."
+  },
+  "excerpt": "Una patata frita queda blanda cuando la superficie conserva demasiada humedad o el aceite pierde tanta temperatura que la patata cuece y absorbe grasa antes de formar una costra seca. Cortes uniformes, un remojo opcional, secado completo, tandas pequeñas y una segunda fritura más caliente son las herramientas más fiables para conseguir contraste entre exterior crujiente e interior tierno.",
+  "taxonomy": {
+    "food_family": "tubers",
+    "food_subcategories": [],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>Sacas las patatas del aceite doradas, pero dos minutos después se doblan como si hubieran perdido toda la costra. El problema suele ser una batalla entre agua y calor. <strong>Para que una patata quede crujiente, su superficie tiene que perder suficiente humedad mientras el almidón forma una capa rígida.</strong></p><h2>Una patata fresca contiene mucha agua</h2><p>Las patatas crudas rondan el 75–80 % de agua según variedad y composición. Durante la fritura, parte de esa agua se convierte en vapor y sale hacia el aceite. Si la superficie permanece demasiado húmeda, no puede estabilizarse una costra seca.</p><p>Por eso secar los bastones antes de freír importa tanto. Tras un remojo, el agua adherida al exterior no mejora nada: enfría el aceite y aumenta las salpicaduras.</p><h2>Abarrotar la freidora cambia la fritura</h2><p>Cada tanda fría roba calor al aceite. Si introduces demasiada patata a la vez, la temperatura cae y tarda más en recuperarse. Mientras tanto, la superficie cuece a menor intensidad y el vapor de muchas piezas compite por salir.</p><p>La solución no es subir el fuego sin límite, sino trabajar en tandas que permitan recuperar temperatura. Un termómetro ayuda mucho más que juzgar sólo por el burbujeo.</p><h2>El doble cocinado separa dos trabajos distintos</h2><p>Una técnica clásica utiliza una primera fritura moderada para cocinar el interior y una segunda más caliente para secar y dorar la superficie. Como referencia doméstica, puede hacerse la primera fase alrededor de 150–165 °C y la segunda cerca de 180 °C, siempre sin superar la temperatura adecuada para el aceite utilizado.</p><p>Entre ambas fases conviene dejar escurrir y enfriar las patatas. Ese descanso redistribuye humedad y permite que la segunda fritura se concentre en la costra.</p><h2>Remojar ayuda, pero secar después es obligatorio</h2><p>Potato Goodness recomienda remojar los bastones unos 15 minutos para retirar parte del almidón superficial. Menos almidón libre reduce la tendencia a que las piezas se peguen y facilita una superficie más limpia.</p><p>No hace falta convertir el remojo en un ritual de horas para todas las variedades. Lo importante es enjuagar si se desea y, después, secar muy bien con paños o papel de cocina.</p><h2>La variedad también cambia el resultado</h2><p>Las patatas más harinosas y ricas en materia seca suelen producir interiores más esponjosos y costras más fáciles de secar; las muy céreas retienen una textura más compacta. En España, variedades destinadas a freír suelen indicar esa aptitud en el envase.</p><h2>Un método doméstico fiable</h2><ol><li>Corta bastones de grosor parecido.</li><li>Remójalos unos 15 minutos si buscas retirar almidón superficial.</li><li>Sécalos hasta que no quede agua visible.</li><li>Haz una primera fritura moderada en tandas pequeñas.</li><li>Escurre y deja reposar.</li><li>Termina con una segunda fritura más caliente hasta dorar.</li><li>Sala al salir, no dentro del aceite.</li></ol><p><strong>Las patatas crujientes no dependen de freír «más fuerte», sino de controlar humedad, temperatura y cantidad por tanda.</strong></p>",
+  "faq": [
+    {
+      "question": "¿Por qué se ablandan después de sacarlas del aceite?",
+      "answer": "El vapor del interior sigue migrando hacia la superficie. Si la costra no está suficientemente seca y rígida, esa humedad la reblandece."
+    },
+    {
+      "question": "¿Hay que freírlas dos veces?",
+      "answer": "No es obligatorio, pero separar una primera cocción del interior y una segunda fase de secado y dorado facilita una textura más crujiente."
+    },
+    {
+      "question": "¿Por qué no debo freír muchas a la vez?",
+      "answer": "Porque una carga grande hace caer la temperatura del aceite y dificulta que la superficie pierda agua con rapidez."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Potato Goodness — How to Make Fries at Home",
+      "url": "https://potatogoodness.com/how-to-make-fries-at-home/",
+      "note": "Corte uniforme, remojo, secado y técnicas domésticas para patatas fritas."
+    },
+    {
+      "name": "USDA FoodData Central — Potatoes",
+      "url": "https://fdc.nal.usda.gov/food-search/?query=potato",
+      "note": "Composición general y contenido de agua de distintas patatas."
+    }
+  ],
+  "image": {
+    "concept": "Dos tandas de patatas fritas caseras, una pálida y blanda y otra dorada y crujiente sobre rejilla, fotografía editorial, sin texto.",
+    "alt": "Patatas fritas blandas frente a patatas doradas y crujientes"
+  },
+  "status": "publish"
+}

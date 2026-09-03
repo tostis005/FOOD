@@ -8,12 +8,49 @@
   "market_context": "España/Unión Europea; objetivo EFSA de 25 g/día para adultos",
   "title": "Cómo aumentar la fibra de la dieta con alimentos",
   "slug": "como-aumentar-fibra-dieta",
-  "seo": {"title":"Cómo aumentar la fibra de la dieta con alimentos","meta_description":"Legumbres, fruta entera, verduras, cereales integrales, frutos secos y semillas pueden llevar una dieta baja en fibra hacia 25 g/día sin depender de suplementos.","search_intent":"Aumentar de forma práctica y gradual la fibra diaria mediante alimentos."},
+  "seo": {
+    "title": "Cómo aumentar la fibra de la dieta con alimentos",
+    "meta_description": "Legumbres, fruta entera, verduras, cereales integrales, frutos secos y semillas pueden llevar una dieta baja en fibra hacia 25 g/día sin depender de suplementos.",
+    "search_intent": "Aumentar de forma práctica y gradual la fibra diaria mediante alimentos."
+  },
   "excerpt": "La forma más eficaz de aumentar fibra no es añadir un único alimento, sino cambiar varias piezas del día: una ración de legumbres puede aportar 12–16 g, una fruta 3–6 g, 30 g de frutos secos 2–4 g y una ración de cereal integral varios gramos más. EFSA considera 25 g/día una ingesta adecuada para adultos; conviene acercarse gradualmente si se parte de una dieta baja en fibra.",
-  "taxonomy": {"food_family":"general","food_subcategories":["fiber"],"article_types":["practical-guide","nutrition-composition"],"primary_article_type":"practical-guide"},
-  "content_html": "<p>Subir de 12 g a 25 g de fibra no exige convertir cada comida en salvado. Resulta más fácil repartir pequeños cambios y dejar que se sumen.</p><table><thead><tr><th>Cambio</th><th>Fibra aproximada que puede añadir</th></tr></thead><tbody><tr><td>200 g de lentejas/alubias cocidas</td><td>~12–16 g</td></tr><tr><td>1 pera o manzana con piel</td><td>~4–6 g</td></tr><tr><td>30 g de almendras</td><td>~3–4 g</td></tr><tr><td>30 g de chía</td><td>~10 g</td></tr><tr><td>2 rebanadas de pan integral</td><td>~4–7 g según producto</td></tr></tbody></table><h2>Empieza por la base de las comidas</h2><p>Sustituir parte del arroz o pasta refinados por legumbres o cereales integrales mueve más la ingesta total que añadir una cucharadita de semillas a una dieta muy pobre en vegetales.</p><h2>La fruta entera cuenta más que el zumo</h2><p>La pulpa y las paredes celulares contienen la mayor parte de la fibra. Una naranja entera aporta varios gramos; un zumo filtrado puede conservar muy poca aunque proceda de varias piezas.</p><h2>La fibra funciona mejor como patrón</h2><p>Legumbres aportan mucho de una vez; frutas y verduras suman diversidad; frutos secos y semillas concentran fibra en porciones pequeñas; cereales integrales permiten añadir varios gramos todos los días.</p><h2>Aumenta de forma gradual</h2><p>Si actualmente comes poca fibra, un salto brusco puede producir gases y distensión. Subir poco a poco y mantener una hidratación adecuada suele ser más tolerable.</p><h2>Una jornada puede llegar sin suplementos</h2><p>Por ejemplo: avena y fruta en desayuno, un plato de lentejas en comida, frutos secos como tentempié y verduras con pan integral en cena pueden superar 25 g sin necesidad de un producto enriquecido.</p>",
-  "faq": [{"question":"¿Cuánta fibra necesita un adulto?","answer":"EFSA considera adecuada una ingesta de 25 g/día para adultos; algunas recomendaciones de otros países son algo mayores según sexo y edad."},{"question":"¿Cuál es el cambio que más aumenta la fibra?","answer":"Añadir una ración generosa de legumbres suele producir uno de los mayores aumentos: alrededor de 12–16 g en 200 g cocidos."}],
-  "sources": [{"name":"EFSA — Dietary Reference Values","url":"https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values","note":"Referencia europea de fibra para adultos."},{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Fibra en alimentos y cálculos de raciones."}],
-  "image": {"concept":"Plato de legumbres, fruta entera, pan integral, frutos secos y semillas formando un día alto en fibra, sin texto.","alt":"Alimentos para aumentar la fibra de la dieta"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "fiber"
+    ],
+    "article_types": [
+      "health-daily-consumption",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Subir de 12 g a 25 g de fibra no exige convertir cada comida en salvado. Resulta más fácil repartir pequeños cambios y dejar que se sumen.</p><table><thead><tr><th>Cambio</th><th>Fibra aproximada que puede añadir</th></tr></thead><tbody><tr><td>200 g de lentejas/alubias cocidas</td><td>~12–16 g</td></tr><tr><td>1 pera o manzana con piel</td><td>~4–6 g</td></tr><tr><td>30 g de almendras</td><td>~3–4 g</td></tr><tr><td>30 g de chía</td><td>~10 g</td></tr><tr><td>2 rebanadas de pan integral</td><td>~4–7 g según producto</td></tr></tbody></table><h2>Empieza por la base de las comidas</h2><p>Sustituir parte del arroz o pasta refinados por legumbres o cereales integrales mueve más la ingesta total que añadir una cucharadita de semillas a una dieta muy pobre en vegetales.</p><h2>La fruta entera cuenta más que el zumo</h2><p>La pulpa y las paredes celulares contienen la mayor parte de la fibra. Una naranja entera aporta varios gramos; un zumo filtrado puede conservar muy poca aunque proceda de varias piezas.</p><h2>La fibra funciona mejor como patrón</h2><p>Legumbres aportan mucho de una vez; frutas y verduras suman diversidad; frutos secos y semillas concentran fibra en porciones pequeñas; cereales integrales permiten añadir varios gramos todos los días.</p><h2>Aumenta de forma gradual</h2><p>Si actualmente comes poca fibra, un salto brusco puede producir gases y distensión. Subir poco a poco y mantener una hidratación adecuada suele ser más tolerable.</p><h2>Subir fibra funciona mejor sustituyendo que “añadiendo fibra”</h2><p>Una forma práctica de aumentar la ingesta es cambiar versiones habituales: pan blanco por integral, arroz refinado por un grano con más fibra, una guarnición pequeña por una ración de legumbres o un snack muy refinado por fruta y frutos secos. Así la fibra llega dentro de alimentos que también aportan agua, proteína, grasas o micronutrientes, en lugar de convertirse en una cifra aislada.</p><h2>Una jornada puede llegar sin suplementos</h2><p>Por ejemplo: avena y fruta en desayuno, un plato de lentejas en comida, frutos secos como tentempié y verduras con pan integral en cena pueden superar 25 g sin necesidad de un producto enriquecido.</p>",
+  "faq": [
+    {
+      "question": "¿Cuánta fibra necesita un adulto?",
+      "answer": "EFSA considera adecuada una ingesta de 25 g/día para adultos; algunas recomendaciones de otros países son algo mayores según sexo y edad."
+    },
+    {
+      "question": "¿Cuál es el cambio que más aumenta la fibra?",
+      "answer": "Añadir una ración generosa de legumbres suele producir uno de los mayores aumentos: alrededor de 12–16 g en 200 g cocidos."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EFSA — Dietary Reference Values",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values",
+      "note": "Referencia europea de fibra para adultos."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Fibra en alimentos y cálculos de raciones."
+    }
+  ],
+  "image": {
+    "concept": "Plato de legumbres, fruta entera, pan integral, frutos secos y semillas formando un día alto en fibra, sin texto.",
+    "alt": "Alimentos para aumentar la fibra de la dieta"
+  },
+  "status": "publish"
 }

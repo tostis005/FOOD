@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-285-why-eggs-float","article_number":285,"translation_group":"285-why-eggs-float","language":"en","locale":"en-US","market_context":"United States/general English; egg float test, air cell and quality","title":"Why do some eggs float?","slug":"why-eggs-float","seo":{"title":"Why do eggs float? What the water test actually shows","meta_description":"An egg floats when its air cell grows large enough to increase buoyancy. That indicates age and lower quality, not automatic spoilage or microbial safety.","search_intent":"Understand why eggs float and what the water test can and cannot tell you about freshness and safety."},"excerpt":"USDA explains that an egg can float when its air cell has enlarged enough to make it buoyant. As eggs age, moisture and carbon dioxide escape through shell pores and more air enters. Floating therefore signals lower freshness and quality, but a floating egg can still be safe to use.","taxonomy":{"food_family":"eggs","food_subcategories":["eggs","freshness","float-test"],"article_types":["myths-faq","buying-quality-ripeness"],"primary_article_type":"myths-faq"},"content_html":"<p>The water test looks like a simple good-or-bad test, but it mainly measures age-related density. <strong>An egg floats when its air cell has become large enough to increase buoyancy.</strong></p><h2>The air cell grows over time</h2><p>As a newly laid egg cools, a small air cell forms at the large end. During storage, moisture and carbon dioxide leave through shell pores and more air enters.</p><p>As average density falls, an egg can progress from lying flat on the bottom to standing upright and eventually floating.</p><h2>Floating means older, not automatically spoiled</h2><p>USDA explicitly says a floating egg is of <strong>poor quality</strong> but may still be perfectly safe to use. The water test does not detect Salmonella or other pathogens.</p><h2>What changes inside an older egg?</h2><p>The white becomes thinner, the yolk becomes flatter and easier to break, and the chalazae weaken. An older egg therefore spreads farther when cracked open.</p><h2>How to check a floating egg</h2><p>USDA recommends cracking it into a separate bowl and examining it for unusual appearance or off odor. A spoiled egg develops an unpleasant smell when the shell is broken, whether raw or cooked.</p><h2>Refrigeration slows quality loss</h2><p>Cold storage slows enlargement of the air cell and other quality changes, though it does not stop them entirely.</p><h2>Bottom line</h2><p><strong>Floating means a large air cell and usually an older egg.</strong> It does not automatically mean rotten, and it cannot certify microbiological safety.</p>","faq":[{"question":"Should I always throw away an egg that floats?","answer":"No. USDA says it may be lower quality but still safe; crack it separately and check odor and appearance."},{"question":"Why does the air cell get larger?","answer":"Moisture and carbon dioxide escape through shell pores over time while air enters."},{"question":"Does the float test detect Salmonella?","answer":"No. It mainly reflects age and density, not the presence of pathogens."}],"sources":[{"name":"USDA FSIS — What does it mean when an egg floats in water?","url":"https://ask.fsis.usda.gov/article/What-does-it-mean-when-an-egg-floats-in-water","note":"A floating egg has an enlarged air cell and may still be safe."},{"name":"USDA FSIS — Shell Eggs from Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table","note":"Air-cell growth and quality changes during egg storage."}],"image":{"concept":"Three eggs in a clear water container: one lying flat, one upright and one floating, realistic editorial food photography without text.","alt":"Egg float test showing different air-cell sizes"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-285-why-eggs-float",
+  "article_number": 285,
+  "translation_group": "285-why-eggs-float",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; egg float test, air cell and quality",
+  "title": "Why do some eggs float?",
+  "slug": "why-eggs-float",
+  "seo": {
+    "title": "Why do eggs float? What the water test actually shows",
+    "meta_description": "An egg floats when its air cell grows large enough to increase buoyancy. That indicates age and lower quality, not automatic spoilage or microbial safety.",
+    "search_intent": "Understand why eggs float and what the water test can and cannot tell you about freshness and safety."
+  },
+  "excerpt": "USDA explains that an egg can float when its air cell has enlarged enough to make it buoyant. As eggs age, moisture and carbon dioxide escape through shell pores and more air enters. Floating therefore signals lower freshness and quality, but a floating egg can still be safe to use.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "eggs",
+      "freshness",
+      "float-test"
+    ],
+    "article_types": [
+      "myths-faq",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "myths-faq"
+  },
+  "content_html": "<p>The water test looks like a simple good-or-bad test, but it mainly measures age-related density. <strong>An egg floats when its air cell has become large enough to increase buoyancy.</strong></p><h2>The air cell grows over time</h2><p>As a newly laid egg cools, a small air cell forms at the large end. During storage, moisture and carbon dioxide leave through shell pores and more air enters.</p><p>As average density falls, an egg can progress from lying flat on the bottom to standing upright and eventually floating.</p><h2>Floating means older, not automatically spoiled</h2><p>USDA explicitly says a floating egg is of <strong>poor quality</strong> but may still be perfectly safe to use. The water test does not detect Salmonella or other pathogens.</p><h2>What changes inside an older egg?</h2><p>The white becomes thinner, the yolk becomes flatter and easier to break, and the chalazae weaken. An older egg therefore spreads farther when cracked open.</p><h2>How to check a floating egg</h2><p>USDA recommends cracking it into a separate bowl and examining it for unusual appearance or off odor. A spoiled egg develops an unpleasant smell when the shell is broken, whether raw or cooked.</p><h2>Refrigeration slows quality loss</h2><p>Cold storage slows enlargement of the air cell and other quality changes, though it does not stop them entirely.</p><p><strong>Floating means a large air cell and usually an older egg.</strong> It does not automatically mean rotten, and it cannot certify microbiological safety.</p>",
+  "faq": [
+    {
+      "question": "Should I always throw away an egg that floats?",
+      "answer": "No. USDA says it may be lower quality but still safe; crack it separately and check odor and appearance."
+    },
+    {
+      "question": "Why does the air cell get larger?",
+      "answer": "Moisture and carbon dioxide escape through shell pores over time while air enters."
+    },
+    {
+      "question": "Does the float test detect Salmonella?",
+      "answer": "No. It mainly reflects age and density, not the presence of pathogens."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — What does it mean when an egg floats in water?",
+      "url": "https://ask.fsis.usda.gov/article/What-does-it-mean-when-an-egg-floats-in-water",
+      "note": "A floating egg has an enlarged air cell and may still be safe."
+    },
+    {
+      "name": "USDA FSIS — Shell Eggs from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "note": "Air-cell growth and quality changes during egg storage."
+    }
+  ],
+  "image": {
+    "concept": "Three eggs in a clear water container: one lying flat, one upright and one floating, realistic editorial food photography without text.",
+    "alt": "Egg float test showing different air-cell sizes"
+  },
+  "status": "publish"
+}

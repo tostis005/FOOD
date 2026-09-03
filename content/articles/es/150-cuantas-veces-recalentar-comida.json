@@ -8,12 +8,43 @@
   "market_context": "España/Europa; pauta doméstica conservadora FSA y principios de tiempo-temperatura",
   "title": "Cuántas veces se puede recalentar una comida",
   "slug": "cuantas-veces-recalentar-comida",
-  "seo": {"title":"Cuántas veces se puede recalentar una comida","meta_description":"Como regla doméstica conservadora, recalienta solo una vez y solo la porción que vayas a comer. El riesgo real viene de repetir ciclos de enfriado y calentado mal controlados.","search_intent":"Saber si una comida puede recalentarse varias veces y qué hace que la práctica sea segura o insegura."},
+  "seo": {
+    "title": "Cuántas veces se puede recalentar una comida",
+    "meta_description": "Como regla doméstica conservadora, recalienta solo una vez y solo la porción que vayas a comer. El riesgo real viene de repetir ciclos de enfriado y calentado mal controlados.",
+    "search_intent": "Saber si una comida puede recalentarse varias veces y qué hace que la práctica sea segura o insegura."
+  },
   "excerpt": "La regla doméstica más sencilla y conservadora es recalentar una comida solo una vez. No porque el segundo recalentado genere automáticamente toxinas, sino porque cada ciclo añade oportunidades de enfriar lentamente, permanecer templada o calentarse de forma desigual. Recalienta únicamente la porción que vas a comer y deja el resto frío en la nevera.",
-  "taxonomy": {"food_family":"general","food_subcategories":["leftovers"],"article_types":["food-safety","practical-guide"],"primary_article_type":"food-safety"},
-  "content_html": "<p>El problema de recalentar varias veces no es que el alimento lleve un contador químico. Es que cada recorrido <strong>nevera → templado → caliente → templado → nevera</strong> crea otra oportunidad para que el control de temperatura falle.</p><h2>Por qué una sola vez es una buena regla doméstica</h2><p>La Food Standards Agency británica recomienda recalentar las sobras solo una vez y hasta que estén muy calientes por completo. Es una pauta fácil de aplicar y reduce ciclos innecesarios.</p><h2>La estrategia mejor es porcionar</h2><p>Si tienes cuatro raciones de guiso, no calientes el recipiente entero cada noche. Saca una porción, recalienta esa porción y deja las otras tres refrigeradas. Así cada ración pasa por un solo ciclo.</p><h2>El centro debe calentarse también</h2><p>Microondas y recipientes grandes generan zonas frías. Remueve, divide grandes cantidades y comprueba que el alimento está muy caliente en toda la masa, no solo en los bordes.</p><h2>Arroz merece especial prudencia</h2><p>Con arroz, una mala fase de enfriado puede permitir crecimiento de <em>Bacillus cereus</em> y producción de toxinas que el recalentado no necesariamente destruye. Calentar repetidamente no rescata un historial inseguro.</p><h2>La regla práctica</h2><p>Guarda en porciones, recalienta solo lo que comerás y hazlo una sola vez cuando sea posible. Si no recuerdas cuántos ciclos ha pasado una comida o cuánto tiempo estuvo templada, la incertidumbre pesa más que ahorrar esa ración.</p>",
-  "faq": [{"question":"¿Es venenoso recalentar dos veces?","answer":"No existe una transformación automática en el segundo recalentado, pero repetir ciclos aumenta oportunidades de mala refrigeración o calentamiento desigual."},{"question":"¿Puedo recalentar solo una parte del táper?","answer":"Sí, y es la estrategia más recomendable: separa la porción con un utensilio limpio y deja el resto refrigerado."}],
-  "sources": [{"name":"Food Standards Agency — Cooking your food","url":"https://www.food.gov.uk/safety-hygiene/cooking-your-food","note":"Pauta doméstica de recalentar una sola vez y hasta estar muy caliente."}],
-  "image": {"concept":"Cuatro porciones de una comida en recipientes, una sola calentándose mientras las otras siguen frías, sin texto.","alt":"Recalentar solo una porción de comida una vez"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "leftovers"
+    ],
+    "article_types": [
+      "food-safety"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p>El problema de recalentar varias veces no es que el alimento lleve un contador químico. Es que cada recorrido <strong>nevera → templado → caliente → templado → nevera</strong> crea otra oportunidad para que el control de temperatura falle.</p><p>También evita deterioro de calidad: salsas que se separan, pasta cada vez más blanda o carne que se seca. Seguridad y calidad apuntan aquí en la misma dirección: <strong>cuantos menos ciclos innecesarios, mejor.</strong></p><h2>Por qué una sola vez es una buena regla doméstica</h2><p>La Food Standards Agency británica recomienda recalentar las sobras solo una vez y hasta que estén muy calientes por completo. Es una pauta fácil de aplicar y reduce ciclos innecesarios.</p><h2>La estrategia mejor es porcionar</h2><p>Si tienes cuatro raciones de guiso, no calientes el recipiente entero cada noche. Saca una porción, recalienta esa porción y deja las otras tres refrigeradas. Así cada ración pasa por un solo ciclo.</p><h2>El centro debe calentarse también</h2><p>Microondas y recipientes grandes generan zonas frías. Remueve, divide grandes cantidades y comprueba que el alimento está muy caliente en toda la masa, no solo en los bordes.</p><h2>Arroz merece especial prudencia</h2><p>Con arroz, una mala fase de enfriado puede permitir crecimiento de <em>Bacillus cereus</em> y producción de toxinas que el recalentado no necesariamente destruye. Calentar repetidamente no rescata un historial inseguro.</p><p>El número de recalentados es, en realidad, un atajo para controlar el tiempo acumulado fuera del frío. Una comida que se enfría rápido, se guarda bien y solo se recalienta la porción necesaria tiene menos oportunidades de pasar demasiado tiempo en temperaturas templadas.</p><h2>La regla práctica</h2><p>Guarda en porciones, recalienta solo lo que comerás y hazlo una sola vez cuando sea posible. Si no recuerdas cuántos ciclos ha pasado una comida o cuánto tiempo estuvo templada, la incertidumbre pesa más que ahorrar esa ración.</p>",
+  "faq": [
+    {
+      "question": "¿Es venenoso recalentar dos veces?",
+      "answer": "No existe una transformación automática en el segundo recalentado, pero repetir ciclos aumenta oportunidades de mala refrigeración o calentamiento desigual."
+    },
+    {
+      "question": "¿Puedo recalentar solo una parte del táper?",
+      "answer": "Sí, y es la estrategia más recomendable: separa la porción con un utensilio limpio y deja el resto refrigerado."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Food Standards Agency — Cooking your food",
+      "url": "https://www.food.gov.uk/safety-hygiene/cooking-your-food",
+      "note": "Pauta doméstica de recalentar una sola vez y hasta estar muy caliente."
+    }
+  ],
+  "image": {
+    "concept": "Cuatro porciones de una comida en recipientes, una sola calentándose mientras las otras siguen frías, sin texto.",
+    "alt": "Recalentar solo una porción de comida una vez"
+  },
+  "status": "publish"
 }

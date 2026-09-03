@@ -15,20 +15,40 @@
   },
   "excerpt": "Yes as a unit of energy; no as a complete nutritional experience. A kilocalorie represents the same amount of energy whether it comes from protein, fat or carbohydrate, but the body does not process every food identically: digestion cost, fullness, absorption, fiber, blood-glucose response and accompanying nutrients all differ.",
   "taxonomy": {
-    "food_family": "food-general",
+    "food_family": "general",
     "food_subcategories": [],
-    "article_types": ["myths-faq", "nutrition-composition"],
+    "article_types": [
+      "myths-faq",
+      "nutrition-composition"
+    ],
     "primary_article_type": "myths-faq"
   },
   "content_html": "<p>The statement “a calorie is a calorie” can be perfectly correct or badly incomplete depending on the question.</p><p>As a physical unit, <strong>a kilocalorie always represents the same amount of energy</strong>. Food, however, is not just energy: it has structure, nutrients and a particular digestive path.</p><h2>The physical equality: a calorie does not change size</h2><p>Common nutrition conversion factors are roughly 4 calories per gram for protein, 4 for carbohydrate, 9 for fat and 7 for alcohol.</p><p>If two diets truly provide the same metabolizable energy and energy expenditure is the same, energy does not disappear because one diet contains more foods considered healthy.</p><h2>The body spends energy processing energy</h2><p>Digesting, absorbing and metabolizing nutrients has an energy cost called the thermic effect of food. Protein generally has the largest effect: estimates often place it around 20–30% of protein energy, compared with roughly 5–10% for carbohydrate and 0–3% for fat.</p><p>That does not turn 100 labeled protein calories into “70 label calories.” It explains why net energy handling and downstream physiology are not identical for every macronutrient.</p><h2>Fullness can change what happens at the next meal</h2><p>A meal with adequate protein and fiber generally produces more satiety than an equally caloric meal built around refined or liquid foods. The biggest practical difference may not be what happens to those first 500 calories, but whether eating another 500 later feels easy or difficult.</p><p>Food quality can therefore influence energy balance indirectly.</p><h2>Fiber does not behave like starch or sugar</h2><p>Some fiber is not digested in the small intestine. Fermentable fiber can reach the colon, where microbes produce short-chain fatty acids; the usable energy is lower than from fully digestible starch.</p><p>Food labels use standardized energy factors, so the stated number is a practical estimate rather than a direct measurement of every molecule absorbed by every person.</p><h2>The food matrix matters too</h2><p>In whole nuts, some fat remains trapped inside intact cell walls and is not fully absorbed. Grinding nuts into butter disrupts more of that structure and can make fat more accessible.</p><p>This helps explain why the measured metabolizable energy of some whole nuts can be lower than calculations based on general conversion factors suggest.</p><h2>The same calories can carry very different nutrition</h2><p>About 200 calories of almonds comes with protein, fiber, magnesium, vitamin E and unsaturated fat. Two hundred calories of soda is mainly sugar and water. None of those differences violates thermodynamics; they describe things the unit “calorie” was never designed to measure.</p><h2>So which statement is right?</h2><p><strong>Calories matter for energy balance. Calorie source also matters for fullness, nutritional adequacy, absorption and how easy it is to regulate intake.</strong></p><p>Both statements can be true at the same time.</p>",
   "faq": [
-    {"question": "Is a protein calorie the same as a fat calorie?", "answer": "It is the same unit of energy, but protein and fat differ in digestion cost, satiety and the nutrients that accompany them."},
-    {"question": "Does the body absorb every calorie on a label?", "answer": "Label calories are estimates based on standardized factors. Actual absorption can vary with fiber, food structure, preparation and individual differences."},
-    {"question": "Does food quality matter for body weight?", "answer": "It can matter indirectly through satiety, energy density and how easy it is to sustain a given intake, while energy balance remains important."}
+    {
+      "question": "Is a protein calorie the same as a fat calorie?",
+      "answer": "It is the same unit of energy, but protein and fat differ in digestion cost, satiety and the nutrients that accompany them."
+    },
+    {
+      "question": "Does the body absorb every calorie on a label?",
+      "answer": "Label calories are estimates based on standardized factors. Actual absorption can vary with fiber, food structure, preparation and individual differences."
+    },
+    {
+      "question": "Does food quality matter for body weight?",
+      "answer": "It can matter indirectly through satiety, energy density and how easy it is to sustain a given intake, while energy balance remains important."
+    }
   ],
   "sources": [
-    {"name": "FAO — Food energy: methods of analysis and conversion factors", "url": "https://www.fao.org/4/y5022e/y5022e00.htm", "note": "Energy conversion factors and metabolizable energy."},
-    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energy and nutrient composition of example foods."}
+    {
+      "name": "FAO — Food energy: methods of analysis and conversion factors",
+      "url": "https://www.fao.org/4/y5022e/y5022e00.htm",
+      "note": "Energy conversion factors and metabolizable energy."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Energy and nutrient composition of example foods."
+    }
   ],
   "image": {
     "concept": "Conceptual balance of protein foods, carbohydrates, oil and whole nuts representing equal energy with different food structures, editorial photography, no text.",
