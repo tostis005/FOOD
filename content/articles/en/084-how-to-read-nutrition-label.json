@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-084-how-to-read-nutrition-label",
+  "article_number": 84,
+  "translation_group": "084-how-to-read-nutrition-label",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; FDA Nutrition Facts Label",
+  "title": "How to read a nutrition label",
+  "slug": "how-to-read-nutrition-label",
+  "seo": {
+    "title": "How to read a Nutrition Facts label step by step",
+    "meta_description": "Learn how to interpret serving size, calories, saturated fat, sodium, fiber, added sugars, protein and % Daily Value on U.S. food labels.",
+    "search_intent": "Learn how to compare foods using the U.S. Nutrition Facts label and ingredient list."
+  },
+  "excerpt": "On a U.S. Nutrition Facts label, start with serving size and servings per container: every number below is tied to that amount. Then focus on the nutrients that matter for the product—such as protein, fiber, saturated fat, sodium and added sugars—and use % Daily Value as context rather than a score for the whole food.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-composition", "myths-faq"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>A Nutrition Facts panel can look like a wall of numbers, but you do not need to give every line equal attention. The useful approach is to answer three questions: <strong>How much am I actually eating? Which nutrients matter for this food? What is the product made from?</strong></p><h2>Start with serving size</h2><p>On U.S. labels, calories and nutrient amounts are generally listed per labeled serving. If a package contains two servings and you eat the whole package, you are consuming roughly twice the listed calories, sodium, fat, carbohydrate and other nutrients.</p><p>Serving size is designed to reflect amounts people typically consume; it is not automatically a recommendation for how much you should eat.</p><h2>Use calories in the context of the serving</h2><p>If a food lists 180 calories per serving and the container holds three servings, the entire container contains about 540 calories. That arithmetic is often more useful than deciding whether 180 is “high” or “low” in isolation.</p><h2>The lines that usually deserve attention</h2><table><thead><tr><th>Label item</th><th>What it tells you</th></tr></thead><tbody><tr><td>Total Fat</td><td>All fat in the serving</td></tr><tr><td>Saturated Fat</td><td>The saturated portion of total fat</td></tr><tr><td>Sodium</td><td>Sodium in milligrams</td></tr><tr><td>Total Carbohydrate</td><td>Total carbohydrate including fiber and sugars</td></tr><tr><td>Dietary Fiber</td><td>Fiber in the serving</td></tr><tr><td>Total Sugars</td><td>Naturally occurring + added sugars</td></tr><tr><td>Includes Added Sugars</td><td>Sugars added during processing</td></tr><tr><td>Protein</td><td>Total protein in the serving</td></tr></tbody></table><h2>Total Sugars and Added Sugars answer different questions</h2><p>Plain milk or yogurt contains lactose, so it can show Total Sugars even when no sugar was added. The separate Added Sugars line helps distinguish that from sugar, syrups or other caloric sweeteners added during manufacturing.</p><p>For example, a plain yogurt might contain 6 g Total Sugars and 0 g Added Sugars, while a flavored version could contain 17 g Total Sugars including 11 g Added Sugars.</p><h2>What % Daily Value actually means</h2><p>% Daily Value (%DV) shows how much a nutrient in one serving contributes to the FDA's reference Daily Value. As a general label-reading shortcut, FDA describes 5% DV or less as low and 20% DV or more as high for a nutrient.</p><p>That does not make 20% automatically “good” or “bad.” A high %DV for fiber may be useful; a high %DV for sodium may be something you want to compare carefully.</p><h2>The ingredient list answers a different question</h2><p>Ingredients are listed separately in descending order by weight. The first few usually make up most of the product. This can help distinguish, for example, a whole-grain bread whose first ingredient is whole-wheat flour from one where refined flour dominates.</p><p>It also shows added sweeteners, oils, protein isolates, flavors and other ingredients that are not obvious from the front of the package.</p><h2>Do not judge every food by the same nutrient</h2><p>A cheese may be high in sodium and saturated fat while also providing protein and calcium. Nuts are high in calories and fat but often rich in unsaturated fat, fiber and minerals. A sweetened cereal may be low in total fat yet high in added sugar.</p><p>The label works best when you ask a specific question rather than searching for one number that certifies the entire product.</p><h2>A 30-second routine</h2><ol><li>Check serving size and servings per container.</li><li>Adjust the numbers to the amount you will actually eat.</li><li>Focus on two or three nutrients relevant to that food.</li><li>Use %DV for context.</li><li>Read the first few ingredients.</li><li>Compare products that serve a similar role.</li></ol><p>That turns the Nutrition Facts panel from a list to memorize into a practical comparison tool.</p>",
+  "faq": [
+    {"question": "What should I look at first on a Nutrition Facts label?", "answer": "Serving size and servings per container, because every calorie and nutrient number is tied to that amount."},
+    {"question": "What is the difference between Total Sugars and Added Sugars?", "answer": "Total Sugars includes naturally occurring sugars plus added sugars. Added Sugars reports only sugars added during processing."},
+    {"question": "Is 20% Daily Value high?", "answer": "FDA uses 20% DV or more as a general high benchmark and 5% DV or less as low, but whether high is desirable depends on the nutrient."}
+  ],
+  "sources": [
+    {"name": "FDA — How to Understand and Use the Nutrition Facts Label", "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label", "note": "Serving size, % Daily Value and nutrient-label interpretation."},
+    {"name": "FDA — Changes to the Nutrition Facts Label", "url": "https://www.fda.gov/food/food-labeling-nutrition/changes-nutrition-facts-label", "note": "Current U.S. label structure including Added Sugars."}
+  ],
+  "image": {
+    "concept": "Generic U.S. Nutrition Facts label beside two packaged foods being compared, clean editorial photography without brands.",
+    "alt": "U.S. Nutrition Facts label showing serving size and nutrients"
+  },
+  "status": "publish"
+}
