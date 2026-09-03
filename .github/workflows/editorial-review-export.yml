@@ -1,0 +1,22 @@
+name: Editorial review export
+
+on:
+  push:
+    branches:
+      - editorial/full-catalog-review-2026-09-03
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Upload article catalogue
+        uses: actions/upload-artifact@v4
+        with:
+          name: editorial-review-catalogue
+          path: |
+            content/articles/es/*.json
+            content/articles/en/*.json
+            content/articles/EDITORIAL-STANDARD.md
+            AGENTS.md
+          compression-level: 6
