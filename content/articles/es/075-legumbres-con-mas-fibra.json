@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-075-legumbres-con-mas-fibra",
+  "article_number": 75,
+  "translation_group": "075-highest-fiber-legumes",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición de legumbres cocidas y referencia de fibra EFSA",
+  "title": "Las legumbres con más fibra: ranking nutricional",
+  "slug": "legumbres-con-mas-fibra",
+  "seo": {
+    "title": "Las legumbres con más fibra: ranking nutricional",
+    "meta_description": "Alubias, lentejas y garbanzos aportan mucha fibra cocidos. Comparamos gramos por 100 g y por una ración real para ver qué diferencias importan.",
+    "search_intent": "Comparar qué legumbres aportan más fibra en condiciones equivalentes y entender qué significa la diferencia en una ración habitual."
+  },
+  "excerpt": "Entre las legumbres cocidas, muchas alubias se sitúan alrededor de 6–9 g de fibra por 100 g, las lentejas rondan 7–8 g y los garbanzos unos 7–8 g. En una ración de 200 g, eso suele traducirse en unos 14–18 g de fibra: suficiente para que la diferencia entre variedades importe menos que comer legumbres con regularidad.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["beans", "lentils", "chickpeas"],
+    "article_types": ["ranking", "nutrition-composition"],
+    "primary_article_type": "ranking"
+  },
+  "content_html": "<p>Cuando se comparan legumbres, es fácil acabar mezclando cifras de producto seco con cifras de producto cocido. Eso infla artificialmente los números del alimento seco, porque cocinar añade mucha agua. Para una comparación útil en el plato, lo razonable es comparar <strong>legumbres ya cocidas y escurridas</strong>.</p><p>En ese estado, las diferencias existen, pero no son enormes: la mayoría de las opciones habituales aportan una cantidad de fibra claramente alta.</p><h2>Fibra de las principales legumbres cocidas</h2><p>Las cifras siguientes son valores aproximados por 100 g de legumbre cocida y escurrida. La variedad y el punto de cocción pueden mover el resultado.</p><table><thead><tr><th>Legumbre cocida</th><th>Fibra/100 g</th><th>Fibra en 200 g</th></tr></thead><tbody><tr><td>Alubias blancas</td><td>~9 g</td><td>~18 g</td></tr><tr><td>Alubias pintas</td><td>~9 g</td><td>~18 g</td></tr><tr><td>Alubias negras</td><td>~8,7 g</td><td>~17 g</td></tr><tr><td>Lentejas</td><td>~7,9 g</td><td>~16 g</td></tr><tr><td>Garbanzos</td><td>~7,6 g</td><td>~15 g</td></tr><tr><td>Guisantes partidos</td><td>~8,3 g</td><td>~17 g</td></tr></tbody></table><p>El patrón importante no es que una alubia gane por uno o dos gramos. Es que <strong>una ración de 200 g de casi cualquiera de estas legumbres puede aportar alrededor de 15 g de fibra o más</strong>.</p><h2>Por qué los datos secos parecen mucho más altos</h2><p>Cien gramos de lentejas secas pueden superar los 10 g de fibra y los 20 g de proteína, mientras 100 g cocidos muestran cifras menores. La fibra no ha desaparecido: al cocerse, la legumbre absorbe agua y esos nutrientes quedan repartidos en un peso mayor.</p><p>Por eso, para decidir qué poner en un plato, comparar seco con cocido confunde más de lo que ayuda.</p><h2>¿Importa realmente elegir la número uno?</h2><p>Si una ración de alubias aporta unos 18 g de fibra y una de garbanzos unos 15 g, la diferencia ronda 3 g. Existe, pero es pequeña frente a la diferencia entre comer una buena ración de legumbres y no comerlas.</p><p>EFSA considera adecuada una ingesta de unos <strong>25 g de fibra al día en adultos</strong>. Una sola ración generosa de legumbres puede aportar más de la mitad de esa cantidad.</p><h2>La fibra llega junto a proteína y carbohidratos</h2><p>Las legumbres no son un suplemento de fibra aislado. Una ración de 200 g de lentejas cocidas aporta aproximadamente 18 g de proteína, además de hierro, folato y carbohidratos complejos. En garbanzos, la misma cantidad ronda 18 g de proteína y unas 328 kcal.</p><p>Ese conjunto ayuda a explicar por qué las legumbres suelen ser saciantes: combinan volumen, fibra, proteína y almidón en el mismo alimento.</p><h2>Las conservas siguen contando</h2><p>Las legumbres de bote ya cocidas mantienen buena parte de su fibra. El contenido puede variar por variedad y líquido de cobertura, pero no dejan de ser una fuente relevante. Enjuagarlas reduce parte del sodio y no elimina la fibra estructural del grano.</p><h2>La conclusión útil</h2><p>Si buscas la mayor concentración, muchas alubias aparecen en la parte alta. Pero para la dieta diaria, <strong>lentejas, garbanzos y alubias están suficientemente cerca como para que la frecuencia, la ración y la variedad importen más que perseguir el primer puesto</strong>.</p>",
+  "faq": [
+    {"question": "¿Qué legumbre tiene más fibra?", "answer": "Muchas alubias cocidas se sitúan alrededor de 8–9 g de fibra por 100 g, ligeramente por encima de lentejas y garbanzos."},
+    {"question": "¿Cuánta fibra aporta un plato de legumbres?", "answer": "Una ración de unos 200 g cocidos suele aportar aproximadamente 15–18 g de fibra según la variedad."},
+    {"question": "¿Las legumbres de bote tienen menos fibra?", "answer": "Pueden variar algo, pero siguen siendo una fuente importante de fibra. Enjuagarlas reduce sodio sin eliminar la fibra del grano."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de alubias, lentejas, garbanzos y otras legumbres cocidas."},
+    {"name": "EFSA — Dietary Reference Values for nutrients", "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-reference-values", "note": "Referencia europea de ingesta adecuada de fibra en adultos."}
+  ],
+  "image": {
+    "concept": "Cuencos de lentejas, garbanzos y distintas alubias cocidas vistos desde arriba, fotografía editorial natural, sin texto.",
+    "alt": "Legumbres cocidas variadas ricas en fibra"
+  },
+  "status": "publish"
+}
