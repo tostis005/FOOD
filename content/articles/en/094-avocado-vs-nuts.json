@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-094-avocado-vs-nuts",
+  "article_number": 94,
+  "translation_group": "094-avocado-vs-nuts",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and realistic portions",
+  "title": "Avocado vs. nuts: fat, fiber, protein and calories",
+  "slug": "avocado-vs-nuts",
+  "seo": {
+    "title": "Avocado vs. nuts: fat, fiber, protein and calories",
+    "meta_description": "100 g of avocado and 1 ounce of nuts have similar calories, but nuts concentrate more protein and fat while avocado contains much more water and volume.",
+    "search_intent": "Compare avocado and nuts in realistic portions for fat, fiber, protein and calories."
+  },
+  "excerpt": "A useful comparison is not 100 g versus 100 g: 100 g of avocado provides about 160 calories, while 1 ounce of almonds provides about 164. At similar calories, almonds supply more protein and concentrated fat; avocado provides much more water and volume and still delivers substantial fiber. Both are rich in unsaturated fats but play different roles.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["avocado", "nuts"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>Per 100 g, nuts look dramatically more caloric than avocado: almonds are about 579 calories while avocado is around 160. But 100 g of almonds is more than three typical servings.</p><p>A fairer comparison is <strong>100 g of avocado versus 1 ounce of nuts</strong>.</p><h2>What changes at similar calorie levels</h2><table><thead><tr><th></th><th>Avocado 100 g</th><th>Almonds 1 oz</th><th>Walnuts 1 oz</th><th>Pistachios 1 oz</th></tr></thead><tbody><tr><td>Calories</td><td>~160</td><td>~164</td><td>~185</td><td>~159</td></tr><tr><td>Fat</td><td>~15 g</td><td>~14 g</td><td>~18.5 g</td><td>~13 g</td></tr><tr><td>Protein</td><td>~2 g</td><td>~6 g</td><td>~4.3 g</td><td>~5.7 g</td></tr><tr><td>Fiber</td><td>~6.7 g</td><td>~3.5 g</td><td>~1.9 g</td><td>~2.9 g</td></tr></tbody></table><p>The interesting result is that avocado does not trail on fiber. A 100 g serving can provide more fiber than an ounce of common nuts. Nuts clearly lead on protein.</p><h2>Water explains much of the calorie difference per 100 g</h2><p>Avocado is about 73% water. Many nuts contain less than 5% water. That is the main reason 100 g of almonds contains more than three times the calories of 100 g of avocado.</p><p>Avocado fat does not somehow carry fewer calories; there is simply much less fat in 100 g of food because so much of the weight is water.</p><h2>The fat profiles overlap but are not identical</h2><p>Avocado, almonds, pistachios and hazelnuts are dominated by monounsaturated fats. Walnuts stand apart because they contain more polyunsaturated fat and provide ALA, a plant omega-3.</p><p>“Nuts” therefore does not describe one single fatty-acid profile.</p><h2>Nuts are much stronger for concentrated protein</h2><p>An ounce of almonds or pistachios provides around 6 g of protein. Getting 6 g of protein from avocado alone would require roughly 300 g, close to 480 calories.</p><p>Avocado is not a major protein source; its nutritional strengths are more about unsaturated fat, fiber, potassium and folate.</p><h2>Avocado provides more volume for similar energy</h2><p>One hundred grams of avocado occupies far more space than an ounce of nuts. For someone who values food volume and a creamy component in a meal, that difference is practical.</p><p>Nuts are compact and portable and deliver protein, minerals and fat in a small serving.</p><h2>You do not need to choose one</h2><p>A salad can contain avocado plus a small amount of walnuts; breakfast can use nuts while avocado appears later in the day. They are not exact substitutes.</p><p><strong>At roughly similar calories, nuts concentrate more protein; avocado contains much more water and volume while still providing substantial fiber and monounsaturated fat.</strong></p>",
+  "faq": [
+    {"question": "Which has more calories, avocado or nuts?", "answer": "Per 100 g, nuts have far more calories, but 1 ounce of nuts can have a similar calorie total to 100 g of avocado. Serving size is the useful comparison."},
+    {"question": "Which has more protein?", "answer": "Nuts. An ounce of almonds or pistachios provides about 6 g of protein versus about 2 g in 100 g of avocado."},
+    {"question": "Which has more fiber?", "answer": "It depends on serving. 100 g of avocado provides about 6.7 g, versus about 3.5 g in an ounce of almonds and 1.9 g in an ounce of walnuts."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composition of avocado, almonds, walnuts and pistachios."}
+  ],
+  "image": {
+    "concept": "A 100 g avocado portion beside one-ounce portions of almonds, walnuts and pistachios, editorial food photography, no text.",
+    "alt": "Avocado and nuts compared in portions with similar calories"
+  },
+  "status": "publish"
+}
