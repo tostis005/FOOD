@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "es-076-frutos-secos-con-mas-fibra",
+  "article_number": 76,
+  "translation_group": "076-highest-fiber-nuts",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y ración práctica de 30 g",
+  "title": "Los frutos secos con más fibra",
+  "slug": "frutos-secos-con-mas-fibra",
+  "seo": {
+    "title": "Los frutos secos con más fibra: ranking por 100 g y ración",
+    "meta_description": "Almendras y pistachos destacan en fibra, pero una ración real es de unos 30 g. Comparamos fibra por 100 g y por puñado.",
+    "search_intent": "Saber qué frutos secos aportan más fibra sin confundir una comparación por 100 g con una ración habitual."
+  },
+  "excerpt": "Las almendras lideran entre los frutos secos habituales con unos 12,5 g de fibra por 100 g, seguidas por pistachos y avellanas alrededor de 10 g. En una ración de 30 g, eso equivale aproximadamente a 3–4 g de fibra, una cifra útil pero bastante menor de lo que sugiere el dato por 100 g.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["nuts"],
+    "article_types": ["ranking", "nutrition-composition"],
+    "primary_article_type": "ranking"
+  },
+  "content_html": "<p>Los frutos secos concentran mucha fibra, pero también mucha energía. Por eso un ranking por 100 g sirve para comparar, aunque no describe lo que suele ocurrir en una toma real: <strong>un puñado ronda los 30 g</strong>.</p><h2>Qué frutos secos aportan más fibra</h2><p>En la siguiente tabla se comparan frutos secos sin coberturas ni ingredientes añadidos.</p><table><thead><tr><th>Fruto seco</th><th>Fibra/100 g</th><th>Fibra en 30 g</th></tr></thead><tbody><tr><td>Almendras</td><td>~12,5 g</td><td>~3,8 g</td></tr><tr><td>Pistachos</td><td>~10,3 g</td><td>~3,1 g</td></tr><tr><td>Avellanas</td><td>~9,7 g</td><td>~2,9 g</td></tr><tr><td>Pecanas</td><td>~9,6 g</td><td>~2,9 g</td></tr><tr><td>Cacahuetes</td><td>~8,5 g</td><td>~2,6 g</td></tr><tr><td>Nueces</td><td>~6,7 g</td><td>~2,0 g</td></tr><tr><td>Anacardos</td><td>~3,3 g</td><td>~1,0 g</td></tr></tbody></table><p>Las almendras sí destacan, pero en una ración la distancia con pistachos o avellanas es de menos de 1 g. Esa diferencia existe; no convierte a las demás opciones en pobres en fibra.</p><h2>La ración importa porque también concentran calorías</h2><p>Cien gramos de almendras aportan alrededor de 579 kcal. Treinta gramos rondan 174 kcal y aportan unos 3,8 g de fibra. Esa segunda cifra describe mucho mejor una toma habitual.</p><p>Por eso no tiene sentido aumentar mucho la cantidad solo para perseguir fibra: legumbres, verduras, frutas y cereales integrales permiten sumar fibra con una densidad energética distinta.</p><h2>¿Y los cacahuetes?</h2><p>Botánicamente son una legumbre, no un fruto seco, pero suelen consumirse del mismo modo y por eso aparecen como referencia. Aportan aproximadamente 8,5 g de fibra por 100 g y unos 2,6 g por 30 g.</p><h2>Fibra, proteína y grasa llegan juntas</h2><p>Una ración de 30 g de almendras aporta además alrededor de 6 g de proteína y 15 g de grasa, predominantemente insaturada. Pistachos y cacahuetes también combinan fibra y proteína.</p><p>Esa combinación ayuda a que un pequeño puñado sea más saciante que un alimento de igual peso compuesto casi solo por carbohidratos refinados.</p><h2>La conclusión práctica</h2><p><strong>Almendras, pistachos, avellanas y pecanas están entre las mejores opciones si buscas fibra en frutos secos.</strong> Pero la diferencia más útil no está entre el primero y el cuarto, sino entre incluir una ración razonable y no incluir ninguna fuente de fibra.</p>",
+  "faq": [
+    {"question": "¿Qué fruto seco tiene más fibra?", "answer": "Entre los habituales, las almendras rondan 12,5 g de fibra por 100 g y suelen situarse en la parte alta."},
+    {"question": "¿Cuánta fibra tiene un puñado de almendras?", "answer": "Una ración de unos 30 g aporta aproximadamente 3,8 g de fibra."},
+    {"question": "¿Los anacardos tienen mucha fibra?", "answer": "Tienen menos que almendras o pistachos: alrededor de 3,3 g por 100 g, aproximadamente 1 g en 30 g."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Fibra, energía y macronutrientes de frutos secos."}
+  ],
+  "image": {
+    "concept": "Puñados de almendras, pistachos, avellanas, nueces y anacardos en pequeños cuencos, fotografía editorial, sin texto.",
+    "alt": "Frutos secos variados comparados por contenido de fibra"
+  },
+  "status": "publish"
+}
