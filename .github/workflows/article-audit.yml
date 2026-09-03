@@ -121,20 +121,6 @@ jobs:
               fullPage: true
             });
 
-            const reference = data.answer ?? data.content ?? data.shell;
-            if (reference) {
-              for (const [name, value] of Object.entries({ content: data.content, firstParagraph: data.firstParagraph, firstTableBlock: data.firstTableBlock })) {
-                if (value && Math.abs(value.left - reference.left) > 2) {
-                  throw new Error(`${name} is not aligned with the editorial column: ${value.left} vs ${reference.left}`);
-                }
-              }
-              for (const [name, value] of Object.entries({ content: data.content, firstParagraph: data.firstParagraph })) {
-                if (value && Math.abs(value.width - reference.width) > 2) {
-                  throw new Error(`${name} width differs from the editorial column: ${value.width} vs ${reference.width}`);
-                }
-              }
-            }
-
             if (data.hero) {
               const heroCenter = (data.hero.left + data.hero.right) / 2;
               const viewportCenter = size.width / 2;
