@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-072-white-stuff-on-salmon-albumin",
+  "article_number": 72,
+  "translation_group": "072-white-stuff-on-salmon-albumin",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; cooking science of salmon",
+  "title": "The white stuff on salmon: what it is and why it appears",
+  "slug": "white-stuff-on-salmon-albumin",
+  "seo": {
+    "title": "The white stuff on salmon: what it is and why it appears",
+    "meta_description": "The white stuff that appears on cooked salmon is coagulated protein, not fat or parasites. It is safe to eat and tends to increase with aggressive heat or overcooking.",
+    "search_intent": "Understand what the white liquid on cooked salmon is, whether it is safe, and how to reduce it."
+  },
+  "excerpt": "The white material that appears on salmon during cooking is mainly soluble protein pushed out with water and then coagulated by heat. It is commonly called albumin. It is safe to eat and does not mean the fish is spoiled or contains parasites. More tends to appear when salmon is exposed to high heat or cooked longer than necessary.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": ["salmon"],
+    "article_types": ["cooking-science", "myths-faq", "kitchen-technique"],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>Salmon starts orange and glossy, then halfway through cooking white beads or streaks appear on the surface. They can look like fat, foam, or even something related to parasites, but <strong>they are simply proteins from the fish that have been pushed out with liquid and coagulated by heat.</strong></p><h2>Heat contracts the muscle and pushes out liquid</h2><p>Salmon muscle contains a large amount of water and protein. As it heats, muscle proteins change shape and the fibers contract. Some of the liquid held between those structures is squeezed toward the surface, carrying soluble proteins with it.</p><p>When those proteins become hot enough, they denature and turn opaque, much as egg white changes from clear to white.</p><h2>It is commonly called albumin</h2><p>In cooking, the white exudate is usually called albumin. It is not primarily melted salmon fat; fat renders differently and looks more oily or translucent.</p><p>It is also not pus, a parasite, or evidence of contamination. If the fish was safe before cooking and was handled correctly, the white protein is safe to eat.</p><h2>Why does some salmon produce much more?</h2><p>The harder and faster muscle fibers contract, the more liquid they can squeeze out. Very high pan heat or prolonged cooking can therefore bring more protein to the surface.</p><p>A fillet cooked more gently and removed once the center reaches the desired doneness often shows less. Thickness matters too: a thin piece heats through much faster than a thick one.</p><h2>Does it mean the salmon is overcooked?</h2><p>Not necessarily. Albumin can appear before the center is overdone, so it is not a perfect doneness indicator. But a large amount often accompanies greater moisture loss, which can also mean drier fish.</p><p>Internal temperature and the texture of the center are better indicators of doneness than how much white protein is visible outside.</p><h2>How to reduce it</h2><p>Avoid subjecting a thick piece to extremely aggressive heat for too long. Moderate oven heat, gentler cooking, or a controlled skillet can reduce abrupt moisture loss.</p><p>A brief brine before cooking can also reduce the exudate because salt changes how muscle proteins bind water. Pat the surface dry afterward if you want good browning.</p><h2>Do you need to remove it?</h2><p>Not for safety. You can leave it, eat it, or wipe it away if you dislike the appearance. It has a mild flavor and is simply protein from the fish.</p><p>Removing it for a neat presentation is an aesthetic choice, not a food-safety step.</p><h2>The answer to remember</h2><p><strong>White material appearing during cooking = coagulated salmon protein.</strong> It is not a dangerous defect and does not mean the fish should be discarded.</p><p>If you want less of it, use somewhat gentler heat and stop cooking once the center reaches the doneness you want.</p>",
+  "faq": [
+    {"question": "Is the white stuff on salmon fat?", "answer": "Not primarily. It is soluble protein expelled with water and coagulated by heat, commonly called albumin."},
+    {"question": "Is it safe to eat?", "answer": "Yes. It is a natural protein from the fish and does not by itself indicate contamination or parasites."},
+    {"question": "How can I reduce it?", "answer": "Use less aggressive heat, avoid overcooking, and optionally use a brief brine before cooking."}
+  ],
+  "sources": [
+    {"name": "Harold McGee — On Food and Cooking", "url": "https://www.curiouscook.com/site/on-food-and-cooking.html", "note": "Protein denaturation and muscle changes during cooking."},
+    {"name": "USDA FoodData Central — Salmon", "url": "https://fdc.nal.usda.gov/", "note": "General composition of salmon as a water- and protein-rich food."}
+  ],
+  "image": {
+    "concept": "Salmon fillet cooking with small white streaks of coagulated protein visible on the surface, clean editorial food photography, no text.",
+    "alt": "Cooked salmon with white coagulated protein on the surface"
+  },
+  "status": "publish"
+}
