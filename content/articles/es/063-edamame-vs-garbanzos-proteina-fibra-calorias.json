@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-063-edamame-vs-garbanzos-proteina-fibra-calorias",
+  "article_number": 63,
+  "translation_group": "063-edamame-vs-chickpeas-protein-fiber-calories",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; edamame y garbanzos cocidos listos para comer",
+  "title": "Edamame vs. garbanzos: proteína, fibra y calorías",
+  "slug": "edamame-vs-garbanzos-proteina-fibra-calorias",
+  "seo": {
+    "title": "Edamame vs. garbanzos: proteína, fibra y calorías",
+    "meta_description": "El edamame aporta más proteína y menos carbohidratos; los garbanzos suelen aportar más fibra. Comparamos ambos cocidos por 100 g y por ración.",
+    "search_intent": "Comparar edamame y garbanzos cocidos en proteína, fibra, calorías, carbohidratos y calidad proteica."
+  },
+  "excerpt": "Cocidos, el edamame suele aportar más proteína y menos carbohidratos que los garbanzos: alrededor de 12 g de proteína y 121 kcal por 100 g frente a unos 9 g y 164 kcal. Los garbanzos suelen aportar más fibra —aproximadamente 7–8 g frente a 5 g— y más carbohidratos. Los dos son legumbres nutritivas, pero el edamame es más eficiente si la prioridad es proteína por caloría.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["edamame", "chickpeas", "soy"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>Edamame y garbanzos pertenecen a la misma gran familia —las legumbres—, pero nutricionalmente se comportan de forma distinta. El edamame es soja cosechada verde: <strong>concentra más proteína y grasa y menos almidón</strong>. El garbanzo maduro aporta más carbohidratos y, normalmente, más fibra.</p><h2>Comparados cocidos, el edamame aporta más proteína</h2><p>La siguiente tabla usa ambos alimentos ya cocidos y listos para comer.</p><table><thead><tr><th>Por 100 g cocidos</th><th>Edamame</th><th>Garbanzos</th></tr></thead><tbody><tr><td>Proteína</td><td>~12 g</td><td>~8,9 g</td></tr><tr><td>Calorías</td><td>~121 kcal</td><td>~164 kcal</td></tr><tr><td>Carbohidratos</td><td>~9 g</td><td>~27 g</td></tr><tr><td>Fibra</td><td>~5 g</td><td>~7,6 g</td></tr><tr><td>Grasa</td><td>~5 g</td><td>~2,6 g</td></tr></tbody></table><p>El edamame aporta unos 3 g más de proteína y 43 kcal menos por 100 g. La gran diferencia, sin embargo, está en los carbohidratos: los garbanzos contienen aproximadamente tres veces más porque el grano maduro acumula mucho más almidón.</p><h2>En una ración, la diferencia de proteína ya es visible</h2><p>Con 150 g, el edamame aportaría unos 18 g de proteína y 182 kcal. La misma cantidad de garbanzos aportaría alrededor de 13 g y 246 kcal.</p><p>Ambos pueden contribuir bastante a la proteína de una comida, pero el edamame permite alcanzar una cantidad mayor con menos energía total.</p><h2>Los garbanzos ganan en fibra</h2><p>Una ración de 150 g de garbanzos puede rondar 11–12 g de fibra, frente a unos 7–8 g en edamame. Los dos son buenas fuentes, pero la ventaja de los garbanzos es clara.</p><p>Esa combinación de fibra y almidón también explica por qué los garbanzos aportan más carbohidratos sin reducirse a “azúcar”: gran parte son carbohidratos complejos y fibra.</p><h2>La grasa del edamame no es una desventaja automática</h2><p>El edamame aporta alrededor de 5 g de grasa por 100 g, aproximadamente el doble que los garbanzos. La mayor parte es insaturada, característica de la soja.</p><p>Esa grasa contribuye a su perfil energético y nutricional y ayuda a explicar por qué el edamame tiene menos carbohidratos pero no muchas menos calorías de las que cabría esperar.</p><h2>La soja tiene una proteína especialmente completa</h2><p>La proteína de soja contiene los nueve aminoácidos esenciales en proporciones favorables. Los garbanzos también aportan todos, pero su proporción de aminoácidos azufrados como metionina es menor.</p><p>Eso no obliga a combinar garbanzos con arroz en la misma comida. Una dieta variada a lo largo del día puede complementar perfectamente los aminoácidos de distintas fuentes vegetales.</p><h2>Los dos aportan folato, hierro y otros minerales</h2><p>Edamame y garbanzos son fuentes interesantes de folato, hierro, magnesio y potasio. Las cifras cambian según cocción y producto, y el hierro de ambos es no hemo, cuya absorción mejora al acompañarlo con alimentos ricos en vitamina C.</p><h2>Cuál elegir</h2><p>Si buscas <strong>más proteína con menos calorías y menos carbohidratos</strong>, el edamame tiene ventaja. Si quieres <strong>más fibra y una legumbre rica en almidón para dar más energía a la comida</strong>, los garbanzos encajan mejor.</p><p>En realidad se complementan muy bien: no son dos versiones de lo mismo, sino <strong>dos legumbres con distribuciones distintas de proteína, fibra, grasa y almidón</strong>.</p>",
+  "faq": [
+    {"question": "¿Qué tiene más proteína, edamame o garbanzos?", "answer": "Cocidos, el edamame aporta alrededor de 12 g/100 g frente a unos 8,9 g en garbanzos."},
+    {"question": "¿Qué tiene más fibra?", "answer": "Los garbanzos suelen ganar: alrededor de 7,6 g/100 g cocidos frente a unos 5 g en edamame."},
+    {"question": "¿El edamame es una proteína completa?", "answer": "Sí. Al ser soja, contiene los nueve aminoácidos esenciales en un perfil de alta calidad para una proteína vegetal."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de edamame y garbanzos cocidos."},
+    {"name": "FAO — Dietary protein quality evaluation", "url": "https://www.fao.org/3/i3124e/i3124e.pdf", "note": "Contexto de calidad de proteínas vegetales."}
+  ],
+  "image": {
+    "concept": "Dos cuencos, uno con edamame cocido sin vaina y otro con garbanzos cocidos, fotografía editorial limpia sin texto.",
+    "alt": "Edamame y garbanzos cocidos comparados"
+  },
+  "status": "publish"
+}
