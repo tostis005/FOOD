@@ -10,7 +10,7 @@ if ( ! function_exists( 'food_quinnoa_public_brand_filter' ) ) {
 if ( 'Quinnoa' !== get_option( 'blogname' ) ) {
 	update_option( 'blogname', 'Quinnoa' );
 }
-$food_site_description = 'Publicación sobre alimentos, nutrición, calidad, seguridad, conservación y cocina';
+$food_site_description = 'Información clara y rigurosa para entender mejor los alimentos.';
 if ( $food_site_description !== get_option( 'blogdescription' ) ) {
 	update_option( 'blogdescription', $food_site_description );
 }
@@ -60,6 +60,10 @@ $food_language_seo     = get_template_directory() . '/inc/language-seo.php';
 if ( file_exists( $food_language_seo ) ) {
 	require_once $food_language_seo;
 }
+$food_seo_v2 = get_template_directory() . '/inc/seo-v2.php';
+if ( file_exists( $food_seo_v2 ) ) {
+	require_once $food_seo_v2;
+}
 ?>
 <!doctype html>
 <html <?php language_attributes(); ?>>
@@ -71,8 +75,7 @@ if ( file_exists( $food_language_seo ) ) {
 	<?php if ( file_exists( $food_ui_css ) ) : ?>
 		<link rel="stylesheet" href="<?php echo esc_url( get_template_directory_uri() . '/assets/css/quinnoa-ui.css?ver=' . filemtime( $food_ui_css ) ); ?>">
 	<?php endif; ?>
-	<?php $food_favicon = get_template_directory() . '/assets/quinnoa-grain.svg'; ?>
-	<link rel="icon" type="image/svg+xml" href="<?php echo esc_url( get_template_directory_uri() . '/assets/quinnoa-grain.svg?ver=' . ( file_exists( $food_favicon ) ? filemtime( $food_favicon ) : '1' ) ); ?>">
+	<link rel="icon" type="image/png" sizes="96x96" href="<?php echo esc_url( get_template_directory_uri() . '/assets/quinnoa-grain-96.png' ); ?>">
 	<?php $language_overlay_js = get_template_directory() . '/assets/js/pometum-language-overlay.js'; ?>
 	<?php if ( file_exists( $language_overlay_js ) ) : ?>
 		<script defer src="<?php echo esc_url( get_template_directory_uri() . '/assets/js/pometum-language-overlay.js?ver=' . filemtime( $language_overlay_js ) ); ?>"></script>
