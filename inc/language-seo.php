@@ -319,10 +319,6 @@ function food_seo_head_meta() {
 		echo '<meta property="og:image:alt" content="' . esc_attr( get_the_title( get_queried_object_id() ) ) . '">' . "\n";
 		echo '<meta name="twitter:image" content="' . esc_url( $image ) . '">' . "\n";
 	}
-	if ( is_singular( 'post' ) ) {
-		echo '<meta property="article:published_time" content="' . esc_attr( get_the_date( DATE_W3C, get_queried_object_id() ) ) . '">' . "\n";
-		echo '<meta property="article:modified_time" content="' . esc_attr( get_the_modified_date( DATE_W3C, get_queried_object_id() ) ) . '">' . "\n";
-	}
 }
 add_action( 'wp_head', 'food_seo_head_meta', 2 );
 
@@ -442,10 +438,7 @@ function food_seo_schema() {
 			'@id'              => $canonical . '#article',
 			'headline'         => get_the_title( $post_id ),
 			'description'      => $description,
-			'datePublished'    => get_the_date( DATE_W3C, $post_id ),
-			'dateModified'     => get_the_modified_date( DATE_W3C, $post_id ),
 			'mainEntityOfPage' => array( '@id' => $canonical . '#webpage' ),
-			'author'           => array( '@id' => $home_url . '#organization' ),
 			'publisher'        => array( '@id' => $home_url . '#organization' ),
 			'inLanguage'       => $language,
 		);
