@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-121-soy-every-day",
+  "article_number": 121,
+  "translation_group": "121-soy-every-day",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; current human evidence on soy foods and isoflavones",
+  "title": "Is it healthy to eat tofu or soy every day?",
+  "slug": "is-it-healthy-to-eat-tofu-soy-every-day",
+  "seo": {
+    "title": "Is it healthy to eat tofu or soy every day?",
+    "meta_description": "Yes. Tofu, tempeh, edamame, and soy milk can fit a daily diet. Normal soy foods are different from concentrated isoflavone supplements.",
+    "search_intent": "Understand whether daily soy or tofu is healthy and what human evidence says about isoflavones."
+  },
+  "excerpt": "Yes. For most people, soy foods such as tofu, tempeh, edamame, and soy milk can be part of a daily diet. Current human evidence does not show that normal soy-food intake increases breast cancer risk. Concentrated isoflavone supplements are a separate category and should not be treated as nutritionally equivalent to a serving of tofu.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["soy", "tofu"],
+    "article_types": ["health-daily-consumption", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Soy carries a persistent myth: because it contains isoflavones, eating it regularly must act like taking estrogen. <strong>Human evidence does not support that conclusion for normal soy foods</strong>.</p><h2>“Eating soy” can mean very different foods</h2><p>A serving might be tofu, tempeh, edamame, soy milk, cooked soybeans, or an ultra-processed product containing soy protein isolate. Those foods do not have identical nutrition.</p><p>As a rough comparison, 5.3 oz firm tofu may provide about 18–26 g protein, 5.3 oz edamame around 18 g, and 1 cup soy milk about 7–9 g depending on the product.</p><h2>Isoflavones are not human estrogen</h2><p>Isoflavones are plant compounds that can bind estrogen receptors, but their effects are weaker and tissue-dependent. High-dose animal studies do not translate directly to normal food intake in humans.</p><p>The American Cancer Society summarizes current human evidence by describing <strong>soy foods as healthy and safe</strong>, with studies generally showing lower or unchanged cancer risk rather than increased breast cancer risk.</p><h2>Soy foods and supplements are different categories</h2><p>Tofu, edamame, and soy milk contain protein, fat, minerals, and other components within a food matrix. Isoflavone supplements can deliver much more concentrated amounts.</p><p>Evidence supporting ordinary soy foods should not be used to assume every concentrated supplement has the same safety profile.</p><h2>Dietary variety still matters</h2><p>Soy can be an excellent daily protein food, but it does not need to provide every gram of plant protein. Beans, lentils, seitan, nuts, seeds, and grains bring different nutrients and textures.</p><h2>The product matters</h2><p>Unsweetened fortified soy milk can provide calcium and added vitamins. Sweetened soy drinks may contain substantial added sugar. Plain tofu is also nutritionally different from highly processed soy-based nuggets with much more sodium.</p><h2>The practical rule</h2><p><strong>Eating one or more soy foods regularly, including daily, can fit a healthy diet.</strong> Favor tofu, tempeh, edamame, whole soybeans, and lower-sugar soy milk, and treat concentrated supplements as a separate decision.</p>",
+  "faq": [
+    {"question": "Is it bad to eat tofu every day?", "answer": "For most people, no. Tofu can be a regular daily protein source within a varied diet."},
+    {"question": "Does soy raise estrogen?", "answer": "Soy isoflavones interact with estrogen receptors but are not human estrogen. Human studies do not show the feared effects suggested by high-dose animal experiments."},
+    {"question": "Is eating tofu the same as taking isoflavone supplements?", "answer": "No. Supplements can provide much more concentrated amounts and do not have the same food matrix or evidence base as soy foods."}
+  ],
+  "sources": [
+    {"name": "American Cancer Society — Soy and Cancer Risk", "url": "https://www.cancer.org/cancer/latest-news/soy-and-cancer-risk-our-experts-advice.html", "note": "Current human evidence on soy-food safety and isoflavones."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein and composition of tofu, edamame, and soy milk."}
+  ],
+  "image": {
+    "concept": "Tofu, tempeh, edamame, and soy milk arranged as simple everyday foods, clean editorial photography without text.",
+    "alt": "Varied soy foods suitable for regular use"
+  },
+  "status": "publish"
+}
