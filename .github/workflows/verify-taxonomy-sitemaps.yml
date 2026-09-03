@@ -1,0 +1,126 @@
+name: Verify taxonomy pages in bilingual sitemaps
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/verify-taxonomy-sitemaps.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify live sitemap contents
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import urllib.request
+          import urllib.error
+          import xml.etree.ElementTree as ET
+
+          base = 'https://www.quinnoa.com'
+          ns = {'sm': 'http://www.sitemaps.org/schemas/sitemap/0.9'}
+
+          def sitemap_urls(path):
+              req = urllib.request.Request(base + path, headers={'User-Agent': 'Quinnoa sitemap audit'})
+              with urllib.request.urlopen(req, timeout=30) as response:
+                  if response.status != 200:
+                      raise SystemExit(f'{path}: HTTP {response.status}')
+                  root = ET.fromstring(response.read())
+              return {node.text.rstrip('/') + '/' for node in root.findall('.//sm:loc', ns) if node.text}
+
+          es = sitemap_urls('/sitemap-es.xml')
+          en = sitemap_urls('/sitemap-en.xml')
+
+          es_expected = {
+              base + '/alimentos/',
+              base + '/alimentos/alimentacion-general/',
+              base + '/alimentos/carnes/',
+              base + '/alimentos/pescados-mariscos/',
+              base + '/alimentos/huevos/',
+              base + '/alimentos/lacteos-quesos/',
+              base + '/alimentos/legumbres-soja/',
+              base + '/alimentos/frutos-secos-semillas/',
+              base + '/alimentos/cereales-pseudocereales-derivados/',
+              base + '/alimentos/tuberculos/',
+              base + '/alimentos/verduras-hortalizas-setas/',
+              base + '/alimentos/frutas/',
+              base + '/alimentos/aceites-grasas/',
+              base + '/alimentos/bebidas/',
+              base + '/alimentos/chocolate-cacao-dulces/',
+              base + '/alimentos/fermentados/',
+              base + '/alimentos/algas-especias-otros-alimentos/',
+              base + '/tema/nutricion-composicion/',
+              base + '/tema/rankings-mejores-fuentes/',
+              base + '/tema/comparativas/',
+              base + '/tema/seguridad-alimentaria/',
+              base + '/tema/conservacion-almacenamiento/',
+              base + '/tema/congelacion-descongelacion/',
+              base + '/tema/cocina-ciencia-alimentos/',
+              base + '/tema/preparacion-tecnicas-cocina/',
+              base + '/tema/salud-consumo-habitual/',
+              base + '/tema/conceptos-nutricion/',
+              base + '/tema/mitos-preguntas-frecuentes/',
+              base + '/tema/procesamiento-produccion-elaboracion/',
+              base + '/tema/compra-calidad-maduracion/',
+          }
+
+          en_expected = {
+              base + '/en/foods/',
+              base + '/en/foods/food-basics/',
+              base + '/en/foods/meat/',
+              base + '/en/foods/fish-seafood/',
+              base + '/en/foods/eggs/',
+              base + '/en/foods/dairy-cheese/',
+              base + '/en/foods/legumes-soy/',
+              base + '/en/foods/nuts-seeds/',
+              base + '/en/foods/grains-pseudocereals/',
+              base + '/en/foods/tubers/',
+              base + '/en/foods/vegetables-mushrooms/',
+              base + '/en/foods/fruit/',
+              base + '/en/foods/oils-fats/',
+              base + '/en/foods/drinks/',
+              base + '/en/foods/chocolate-cocoa-sweets/',
+              base + '/en/foods/fermented-foods/',
+              base + '/en/foods/seaweed-spices-other-foods/',
+              base + '/en/topics/nutrition-composition/',
+              base + '/en/topics/rankings-best-sources/',
+              base + '/en/topics/comparisons/',
+              base + '/en/topics/food-safety/',
+              base + '/en/topics/storage-shelf-life/',
+              base + '/en/topics/freezing-thawing/',
+              base + '/en/topics/cooking-food-science/',
+              base + '/en/topics/preparation-cooking-techniques/',
+              base + '/en/topics/health-everyday-consumption/',
+              base + '/en/topics/nutrition-concepts/',
+              base + '/en/topics/myths-common-questions/',
+              base + '/en/topics/processing-production/',
+              base + '/en/topics/buying-quality-ripeness/',
+          }
+
+          missing_es = sorted(es_expected - es)
+          missing_en = sorted(en_expected - en)
+          if missing_es:
+              raise SystemExit('Missing ES taxonomy URLs:\n' + '\n'.join(missing_es))
+          if missing_en:
+              raise SystemExit('Missing EN taxonomy URLs:\n' + '\n'.join(missing_en))
+
+          if any('/hola-mundo/' in u or '/hello-world/' in u for u in es | en):
+              raise SystemExit('Hello World still appears in a sitemap')
+
+          try:
+              urllib.request.urlopen(urllib.request.Request(base + '/hola-mundo/', headers={'User-Agent': 'Quinnoa sitemap audit'}), timeout=30)
+          except urllib.error.HTTPError as exc:
+              if exc.code != 404:
+                  raise SystemExit(f'/hola-mundo/ returns unexpected HTTP {exc.code}')
+          else:
+              raise SystemExit('/hola-mundo/ still resolves publicly')
+
+          print(f'ES taxonomy URLs verified: {len(es_expected)}')
+          print(f'EN taxonomy URLs verified: {len(en_expected)}')
+          print('Hello World is absent and returns 404.')
+          PY
