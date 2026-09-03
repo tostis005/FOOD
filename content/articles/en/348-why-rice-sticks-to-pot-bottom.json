@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"en-348-why-rice-sticks-to-pot-bottom","article_number":348,"translation_group":"348-why-rice-sticks-to-pot-bottom","language":"en","locale":"en-US","market_context":"United States; absorption-method rice cooked in a saucepan","title":"Why does rice stick to the bottom of the pot?","slug":"why-rice-sticks-to-pot-bottom","seo":{"title":"Why does rice stick to the bottom of the pot?","meta_description":"Rice sticks when surface starch forms an adhesive layer and, after free water disappears, the pot bottom gets hotter. High heat, a thin pan and too little water make sticking and scorching worse.","search_intent":"Explain why rice adheres or burns on the bottom and which changes to heat, water, pan and rinsing help."},"excerpt":"Rice can stick for two related reasons: starch released from the grains makes the surface tacky, and once free water is gone the bottom of the pot can rise above boiling temperature. Excess heat, a thin pan and cooking too long after absorption turn that starchy film into a crust or scorch.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":["rice","starch","sticking","cooking"],"article_types":["cooking-science","cooking-techniques"],"primary_article_type":"cooking-science"},"content_html":"<p>Rice can look loose on top while a compact layer forms underneath. The cause is not simply “not enough oil.” At the pot bottom, <strong>starch, pressure, evaporation and the hottest metal surface all meet</strong>.</p>\n<h2>Leached starch acts like glue</h2>\n<p>As rice hydrates and heats, some starch moves from the grain surface into the cooking water. Research on cooked-rice texture links stickiness strongly to the amount of leached material, especially amylopectin.</p>\n<p>When that starch-rich liquid is trapped between grains and metal, it can become an adhesive film.</p>\n<h2>The risk rises when free water disappears</h2>\n<p>While abundant liquid water remains, the pot bottom is held near the boiling point of water. Once the liquid is absorbed or evaporated, the metal can get much hotter. If the burner stays high, the starch film dries, browns and eventually burns.</p>\n<h2>Thin pans create hotter spots</h2>\n<p>A thick base spreads heat more evenly. A thin saucepan can become much hotter directly over a flame or heating element, creating localized sticking even if the average water ratio was correct.</p>\n<h2>Does rinsing rice stop it from sticking?</h2>\n<p>Rinsing removes some loose surface starch and can help grains stay less sticky when that is the desired style. But <strong>rinsing cannot fix an overheated dry pot bottom</strong>. Well-rinsed rice will still scorch if it sits over strong heat after the water is gone.</p>\n<h2>The four adjustments that matter most</h2>\n<p>After the pot reaches a boil, reduce to a gentle heat appropriate for the recipe. Use the right water ratio for the rice, a reasonably heavy-bottomed pan and a well-fitting lid. When the liquid is absorbed, turn off the heat and rest the rice rather than continuing to cook “just in case.”</p>\n<p>Constant stirring is not the answer either. It can break grains and release more starch. Many absorption methods work best when the rice is distributed at the start and then largely left alone.</p>\n<h2>Intentional crust is different from burned rice</h2>\n<p>Paella, tahdig and other dishes deliberately create a browned bottom layer. That is controlled dry heating. If an everyday pot develops a black, bitter, burnt-smelling layer, the process has gone too far.</p>\n<h2>The practical rule</h2>\n<p>If rice sticks every time, check <strong>final heat, water ratio, pan thickness and how long the pot stays on the burner after absorption</strong> before reaching for more oil.</p>","faq":[{"question":"Does rinsing rice keep it from sticking to the pot?","answer":"It can reduce surface starch and general stickiness, but it will not prevent scorching if the pot dries out over high heat."},{"question":"Why does rice stick near the end of cooking?","answer":"Once free water disappears, the pot bottom can get much hotter and dry or brown the starch film touching the metal."},{"question":"Should you stir rice while it cooks?","answer":"For many absorption methods, repeated stirring is unnecessary and can release more starch. It depends on the dish."}],"sources":[{"name":"International Journal of Biological Macromolecules — Molecular causes of rice stickiness","url":"https://pubmed.ncbi.nlm.nih.gov/30682483/","note":"Links cooked-rice stickiness to leached starch, especially amylopectin."},{"name":"FAO — Rice in human nutrition","url":"https://www.fao.org/4/t0567e/T0567E0a.htm","note":"Rice starch structure, amylose, water absorption and eating quality."}],"image":{"concept":"Saucepan viewed from above with white rice and a thin browned layer visible at the bottom edge, natural editorial food photography, no text.","alt":"Rice sticking to the bottom of a saucepan"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-348-why-rice-sticks-to-pot-bottom",
+  "article_number": 348,
+  "translation_group": "348-why-rice-sticks-to-pot-bottom",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; absorption-method rice cooked in a saucepan",
+  "title": "Why does rice stick to the bottom of the pot?",
+  "slug": "why-rice-sticks-to-pot-bottom",
+  "seo": {
+    "title": "Why does rice stick to the bottom of the pot?",
+    "meta_description": "Rice sticks when surface starch forms an adhesive layer and, after free water disappears, the pot bottom gets hotter. High heat, a thin pan and too little water make sticking and scorching worse.",
+    "search_intent": "Explain why rice adheres or burns on the bottom and which changes to heat, water, pan and rinsing help."
+  },
+  "excerpt": "Rice can stick for two related reasons: starch released from the grains makes the surface tacky, and once free water is gone the bottom of the pot can rise above boiling temperature. Excess heat, a thin pan and cooking too long after absorption turn that starchy film into a crust or scorch.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [
+      "rice",
+      "starch",
+      "sticking",
+      "cooking"
+    ],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>Rice can look loose on top while a compact layer forms underneath. The cause is not simply “not enough oil.” At the pot bottom, <strong>starch, pressure, evaporation and the hottest metal surface all meet</strong>.</p>\n<h2>Leached starch acts like glue</h2>\n<p>As rice hydrates and heats, some starch moves from the grain surface into the cooking water. Research on cooked-rice texture links stickiness strongly to the amount of leached material, especially amylopectin.</p>\n<p>When that starch-rich liquid is trapped between grains and metal, it can become an adhesive film.</p>\n<h2>The risk rises when free water disappears</h2>\n<p>While abundant liquid water remains, the pot bottom is held near the boiling point of water. Once the liquid is absorbed or evaporated, the metal can get much hotter. If the burner stays high, the starch film dries, browns and eventually burns.</p>\n<h2>Thin pans create hotter spots</h2>\n<p>A thick base spreads heat more evenly. A thin saucepan can become much hotter directly over a flame or heating element, creating localized sticking even if the average water ratio was correct.</p>\n<h2>Does rinsing rice stop it from sticking?</h2>\n<p>Rinsing removes some loose surface starch and can help grains stay less sticky when that is the desired style. But <strong>rinsing cannot fix an overheated dry pot bottom</strong>. Well-rinsed rice will still scorch if it sits over strong heat after the water is gone.</p>\n<h2>The four adjustments that matter most</h2>\n<p>After the pot reaches a boil, reduce to a gentle heat appropriate for the recipe. Use the right water ratio for the rice, a reasonably heavy-bottomed pan and a well-fitting lid. When the liquid is absorbed, turn off the heat and rest the rice rather than continuing to cook “just in case.”</p>\n<p>Constant stirring is not the answer either. It can break grains and release more starch. Many absorption methods work best when the rice is distributed at the start and then largely left alone.</p>\n<h2>Intentional crust is different from burned rice</h2>\n<p>Paella, tahdig and other dishes aim for a browned bottom layer. That is controlled dry heating. If an everyday pot develops a black, bitter, burnt-smelling layer, the process has gone too far.</p>\n<h2>The practical rule</h2>\n<p>If rice sticks every time, check <strong>final heat, water ratio, pan thickness and how long the pot stays on the burner after absorption</strong> before reaching for more oil.</p>",
+  "faq": [
+    {
+      "question": "Does rinsing rice keep it from sticking to the pot?",
+      "answer": "It can reduce surface starch and general stickiness, but it will not prevent scorching if the pot dries out over high heat."
+    },
+    {
+      "question": "Why does rice stick near the end of cooking?",
+      "answer": "Once free water disappears, the pot bottom can get much hotter and dry or brown the starch film touching the metal."
+    },
+    {
+      "question": "Should you stir rice while it cooks?",
+      "answer": "For many absorption methods, repeated stirring is unnecessary and can release more starch. It depends on the dish."
+    }
+  ],
+  "sources": [
+    {
+      "name": "International Journal of Biological Macromolecules — Molecular causes of rice stickiness",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30682483/",
+      "note": "Links cooked-rice stickiness to leached starch, especially amylopectin."
+    },
+    {
+      "name": "FAO — Rice in human nutrition",
+      "url": "https://www.fao.org/4/t0567e/T0567E0a.htm",
+      "note": "Rice starch structure, amylose, water absorption and eating quality."
+    }
+  ],
+  "image": {
+    "concept": "Saucepan viewed from above with white rice and a thin browned layer visible at the bottom edge, natural editorial food photography, no text.",
+    "alt": "Rice sticking to the bottom of a saucepan"
+  },
+  "status": "publish"
+}
