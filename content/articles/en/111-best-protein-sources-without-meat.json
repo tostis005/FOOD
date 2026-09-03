@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-111-best-protein-sources-without-meat",
+  "article_number": 111,
+  "translation_group": "111-best-protein-sources-without-meat",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and U.S. protein-reference context",
+  "title": "The best protein sources without meat",
+  "slug": "best-protein-sources-without-meat",
+  "seo": {
+    "title": "Best protein sources without meat: amounts by serving",
+    "meta_description": "Eggs, dairy, soy foods, legumes, seitan, fish, nuts, and seeds can all provide protein without meat. Compare realistic serving amounts.",
+    "search_intent": "Find high-protein foods without meat and compare protein per realistic serving."
+  },
+  "excerpt": "You can get plenty of protein without meat. About 1 cup of Greek yogurt can provide 18–20 g, 5.3 oz firm tofu roughly 18–26 g, 1 cup cooked lentils about 18 g, two eggs about 13 g, and 5.3 oz edamame around 18 g. If fish is included, a 5 oz serving often provides more than 30 g.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": ["protein", "vegetarian", "plant-protein"],
+    "article_types": ["nutrition-composition", "ranking"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Removing meat does not mean living on foods with 2 or 3 grams of protein. <strong>Eggs, dairy, soy foods, legumes, and several other foods can contribute enough protein to anchor a meal</strong>; if fish is included, the list gets even broader.</p><h2>Protein per realistic serving</h2><table><thead><tr><th>Food</th><th>Typical serving</th><th>Protein</th></tr></thead><tbody><tr><td>High-protein Greek yogurt</td><td>~7 oz / 200 g</td><td>18–20 g</td></tr><tr><td>Firm tofu</td><td>5.3 oz / 150 g</td><td>18–26 g</td></tr><tr><td>Tempeh</td><td>5.3 oz / 150 g</td><td>~30 g</td></tr><tr><td>Cooked lentils</td><td>~1 cup / 200 g</td><td>~18 g</td></tr><tr><td>Edamame</td><td>5.3 oz / 150 g</td><td>~18 g</td></tr><tr><td>Eggs</td><td>2 large</td><td>~13 g</td></tr><tr><td>Cottage cheese</td><td>~3/4 cup / 180 g</td><td>~20–23 g</td></tr><tr><td>Seitan</td><td>3.5 oz / 100 g</td><td>~20–25 g</td></tr><tr><td>Cooked fish</td><td>5 oz / 142 g</td><td>~30–38 g</td></tr></tbody></table><p>The useful point is that “without meat” does not have to mean “plant-only.” Vegetarian diets may include eggs and dairy, and some people avoiding meat still eat fish.</p><h2>Soy and seitan are the most concentrated plant options</h2><p>Tempeh, tofu, and textured soy protein can reach protein amounts similar to moderate portions of animal foods. Seitan is also concentrated, although its gluten protein is relatively low in lysine.</p><h2>Legumes are less concentrated, but portions are larger</h2><p>Cooked lentils and chickpeas are around 9 g protein per 100 g. A normal bowl may contain 180–250 g, bringing the meal into the 16–22 g range while also adding fiber.</p><h2>Eggs and dairy simplify vegetarian protein</h2><p>Two eggs provide about 13 g. A large bowl of Greek yogurt or cottage cheese can approach or exceed 20 g. Combined with legumes and grains, these foods make it easy to spread protein across the day.</p><h2>Nuts and seeds are useful add-ons</h2><p>One ounce of almonds provides about 6 g protein, while hemp seeds are closer to 9 g per ounce. They help raise the total, but their high calorie density means they usually work better as complements than as the only protein food.</p><h2>The useful rule</h2><p>For enough protein without meat, put <strong>a clear protein anchor in each main meal</strong>: eggs or dairy, tofu or tempeh, legumes, seitan, or fish if it fits your diet. Let grains, nuts, and seeds add to that base.</p>",
+  "faq": [
+    {"question": "What meat-free food has the most protein?", "answer": "Tempeh and seitan are among the most concentrated common meat-free options. If fish is included, many fish provide 20–30 g protein per 100 g."},
+    {"question": "Are legumes enough for protein?", "answer": "They can absolutely be the main protein food in a meal. About 1 cup of cooked lentils provides roughly 18 g protein plus substantial fiber."},
+    {"question": "Can nuts replace meat for protein?", "answer": "They contribute protein, but a 1 oz serving usually provides only about 4–7 g and is calorie-dense. Nuts work better as a supplement than the sole replacement."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein content of animal and plant foods by serving."},
+    {"name": "National Academies — Dietary Reference Intakes", "url": "https://www.nationalacademies.org/", "note": "General U.S. context for protein requirements."}
+  ],
+  "image": {
+    "concept": "Table with eggs, Greek yogurt, tofu, tempeh, lentils, edamame, nuts, and fish in small portions, clean editorial food photography without text.",
+    "alt": "Varied protein sources without meat"
+  },
+  "status": "publish"
+}
