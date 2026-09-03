@@ -18,6 +18,42 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      - name: Build runtime CSS bundle
+        shell: bash
+        run: |
+          set -euo pipefail
+          output='assets/css/quinnoa-ui.css'
+          sources=(
+            'assets/css/food-v4.css'
+            'assets/css/food-v5.css'
+            'assets/css/food-v6.css'
+            'assets/css/food-v6-icons.css'
+            'assets/css/pommelo-v1.css'
+            'assets/css/pommelo-v2.css'
+            'assets/css/pommelo-v3.css'
+            'assets/css/pommelo-v4.css'
+            'assets/css/pommelo-v5-icons.css'
+            'assets/css/pommelo-v6-artwork.css'
+            'assets/css/pommelo-v6-optical-tune.css'
+            'assets/css/pometum-v1.css'
+            'assets/css/pometum-v2.css'
+            'assets/css/pometum-v3.css'
+            'assets/css/pometum-v4.css'
+            'assets/css/pometum-v5-mobile-centering.css'
+            'assets/css/pometum-v6-ui.css'
+            'assets/css/pometum-v7-polish.css'
+          )
+
+          : > "$output"
+          printf '/* Quinnoa runtime UI bundle. Generated during deployment; edit source fragments, not this file. */\n\n' >> "$output"
+          for source in "${sources[@]}"; do
+            test -f "$source"
+            printf '\n/* ===== %s ===== */\n' "$source" >> "$output"
+            cat "$source" >> "$output"
+            printf '\n' >> "$output"
+          done
+          test -s "$output"
+
       - name: Validate theme PHP before deploy
         run: |
           set -euo pipefail
@@ -140,5 +176,5 @@ jobs:
           set -euo pipefail
           TARGET="$WP_ROOT/wp-content/themes/food"
           ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" \
-            "test -f '$TARGET/style.css' && test -f '$TARGET/functions.php'"
+            "test -f '$TARGET/style.css' && test -f '$TARGET/functions.php' && test -s '$TARGET/assets/css/quinnoa-ui.css'"
           echo "FOOD desplegado correctamente en $TARGET"
