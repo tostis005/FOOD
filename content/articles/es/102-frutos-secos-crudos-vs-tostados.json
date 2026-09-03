@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-102-frutos-secos-crudos-vs-tostados",
+  "article_number": 102,
+  "translation_group": "102-raw-vs-roasted-nuts",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y cambios por tostado",
+  "title": "Frutos secos crudos vs. tostados: diferencias nutricionales",
+  "slug": "frutos-secos-crudos-vs-tostados",
+  "seo": {
+    "title": "Frutos secos crudos vs. tostados: qué cambia",
+    "meta_description": "Tostar frutos secos cambia humedad, sabor y algunos compuestos sensibles al calor, pero proteína, minerales y grasa total suelen variar poco.",
+    "search_intent": "Entender si los frutos secos tostados son nutricionalmente peores que los crudos."
+  },
+  "excerpt": "Los frutos secos tostados no se vuelven automáticamente menos saludables. El tostado reduce algo la humedad y puede disminuir ciertos compuestos sensibles al calor, pero proteína, minerales y la mayor parte de la grasa cambian poco. Lo que más puede alterar el producto es añadir aceite, sal, azúcar o coberturas.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["nuts"],
+    "article_types": ["comparison", "nutrition-composition", "cooking-science"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>Un fruto seco tostado sabe más intenso y cruje más, pero <strong>la diferencia nutricional frente al crudo suele ser mucho menor que la diferencia de sabor</strong>.</p><p>El calor modifica humedad y algunos compuestos sensibles, pero no elimina la proteína ni los minerales. Antes de juzgarlo, conviene separar tostado en seco de productos que además llevan aceite, sal, azúcar o coberturas.</p><h2>Perder agua concentra las cifras</h2><p>Durante el tostado se pierde algo de humedad. Por eso una tabla puede mostrar ligeramente más grasa, proteína o calorías por 100 g en la versión tostada. No significa que el calor haya creado esos nutrientes: hay menos agua en el mismo peso.</p><h2>Proteína, grasa y minerales cambian poco</h2><p>Con un tostado moderado, la proteína y los minerales se mantienen en cantidades parecidas. La grasa total también cambia poco si no se añade aceite.</p><p>Las grasas poliinsaturadas son más sensibles a la oxidación que las monoinsaturadas, por lo que temperaturas muy altas y almacenamiento prolongado pueden importar. Eso no convierte cualquier fruto seco tostado en un alimento deteriorado.</p><h2>Algunas vitaminas y antioxidantes son más sensibles</h2><p>El calor puede reducir parte de la vitamina E y algunos compuestos fenólicos, dependiendo de temperatura, tiempo y tipo de fruto seco. El efecto no es uniforme y suele ser pequeño frente al perfil nutricional global.</p><h2>Tostado en seco no es lo mismo que tostado con aceite</h2><p>Si aparece aceite en la lista de ingredientes, el producto ya no es solo un fruto seco calentado. Puede cambiar su energía y su perfil de grasa. Lo mismo ocurre con azúcar, miel o chocolate.</p><h2>La sal puede importar más que el tostado</h2><p>Los frutos secos naturales contienen poco sodio. Una versión muy salada puede aportar cientos de miligramos por 100 g. En ese caso, la diferencia relevante es <strong>sin sal frente a salado</strong>, no crudo frente a tostado.</p><h2>Qué elegir</h2><p>Crudos y tostados en seco pueden encajar perfectamente. Si prefieres tostados, revisa ingredientes y sal: normalmente eso dice más sobre el producto que la palabra “tostado”.</p>",
+  "faq": [
+    {"question": "¿Los frutos secos tostados pierden nutrientes?", "answer": "Pueden perder pequeñas cantidades de algunos compuestos sensibles al calor, pero proteína, minerales y grasa total cambian poco con un tostado moderado."},
+    {"question": "¿Tienen más calorías los tostados?", "answer": "Por 100 g pueden parecer algo más calóricos por pérdida de agua. Si además llevan aceite o azúcar, la diferencia puede ser mayor."},
+    {"question": "¿Es mejor tostarlos sin aceite?", "answer": "El tostado en seco mantiene el producto más parecido al fruto seco original. Si lleva aceite, conviene revisar ingredientes y valores nutricionales."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de frutos secos crudos y tostados."},
+    {"name": "European Food Information Council", "url": "https://www.eufic.org/", "note": "Contexto general sobre procesado y cambios nutricionales por calor."}
+  ],
+  "image": {
+    "concept": "Dos cuencos de almendras y nueces, uno crudo y otro tostado, fotografía editorial sin texto.",
+    "alt": "Frutos secos crudos y tostados comparados"
+  },
+  "status": "publish"
+}
