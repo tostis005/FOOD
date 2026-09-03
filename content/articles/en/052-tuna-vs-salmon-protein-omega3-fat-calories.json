@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-052-tuna-vs-salmon-protein-omega3-fat-calories",
+  "article_number": 52,
+  "translation_group": "052-tuna-vs-salmon-protein-omega3-fat-calories",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and FDA/EPA fish guidance",
+  "title": "Tuna vs. salmon: protein, omega-3s, fat, and calories",
+  "slug": "tuna-vs-salmon-protein-omega3-fat-calories",
+  "seo": {
+    "title": "Tuna vs. salmon: protein, omega-3s, fat, and calories",
+    "meta_description": "Tuna is usually leaner and a bit higher in protein, while salmon provides much more EPA and DHA omega-3. Here is the comparison per 100 g and per serving.",
+    "search_intent": "Compare tuna and salmon for protein, fat, calories, omega-3, and mercury in a practical way."
+  },
+  "excerpt": "Tuna and salmon are both high-protein fish, but they are not nutritionally interchangeable. About 100 g of cooked tuna provides roughly 29 g protein and 184 calories, while cooked farmed salmon provides about 22 g protein and 206 calories. Salmon's main advantage is much more EPA and DHA omega-3; tuna is usually leaner, but some tuna species also carry more mercury.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": ["tuna", "salmon"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>If protein is the only number you look at, tuna usually comes out ahead. If omega-3 is the priority, salmon changes the answer. Add mercury to the picture and the comparison becomes even less about picking one universal winner.</p><p>Both fish provide complete, high-quality protein. Their biggest nutritional difference is fat: salmon contains more total fat, but it also delivers substantially more of the long-chain omega-3 fats EPA and DHA.</p><h2>Nutrition comparison per 100 grams</h2><p>The table below compares cooked fish with cooked fish. Exact values vary by species and preparation.</p><table><thead><tr><th>Nutrient</th><th>Cooked tuna</th><th>Cooked farmed salmon</th></tr></thead><tbody><tr><td>Protein</td><td>~29 g</td><td>~22 g</td></tr><tr><td>Fat</td><td>~6 g</td><td>~12 g</td></tr><tr><td>Calories</td><td>~184 kcal</td><td>~206 kcal</td></tr><tr><td>EPA + DHA omega-3</td><td>about 0.3–1.0 g</td><td>about 1.5–2.3 g</td></tr></tbody></table><p>The protein gap is real, but both are still strong meal-size protein sources. A 5-ounce serving, about 142 g, would provide roughly 41 g protein from tuna versus about 31 g from salmon.</p><p>The larger nutritional split is fat quality. Salmon contains more total fat, yet much of its advantage comes from EPA and DHA rather than simply extra calories.</p><h2>Salmon is the stronger omega-3 source</h2><p>EPA and DHA are the main long-chain omega-3 fats associated with seafood. Salmon generally contains far more of them than most tuna species, so a normal salmon serving can provide well over a gram of EPA+DHA.</p><p>Tuna still contributes omega-3, but if your specific goal is to increase EPA and DHA intake, salmon is usually the more efficient choice.</p><h2>Tuna is usually leaner</h2><p>Fresh cooked tuna tends to combine slightly more protein with less fat. That is why it can come in a little lower in calories even though its protein concentration is higher.</p><p>The calorie difference is not dramatic. Using the values above, 100 g differs by only about 22 calories. In a 5-ounce serving, that is roughly 261 calories for tuna versus about 293 for salmon. Cooking oil or sauce can easily outweigh that gap.</p><h2>Canned tuna changes the comparison</h2><p>Tuna packed in water and drained can be very lean. Tuna packed in oil may contain considerably more fat and calories depending on how much oil remains after draining. Sodium can also be higher than in fresh fish.</p><p>That means a can of oil-packed tuna should not be compared with fresh salmon as if every difference came from the fish itself.</p><h2>Mercury matters more for some tuna</h2><p>Mercury levels vary by species. Larger, longer-lived tuna tend to accumulate more methylmercury. FDA and EPA therefore distinguish among tuna types in their seafood advice, with light tuna generally lower in mercury than albacore/white tuna and some larger species.</p><p>Salmon is typically considered a low-mercury choice. For most adults, the practical approach is not to avoid tuna entirely, but to vary seafood choices and pay attention to the type of tuna, especially during pregnancy and for young children.</p><h2>Which one is better?</h2><p>Choose tuna when you want a <strong>leaner, very high-protein fish</strong>. Choose salmon when <strong>EPA and DHA omega-3</strong> matter more. If you eat seafood several times a week, rotating between the two usually makes more nutritional sense than treating either as the single best option.</p><p>The useful rule is simple: <strong>tuna tends to win on leanness and protein concentration; salmon wins clearly on omega-3</strong>. With tuna, species and mercury deserve a place in the decision too.</p>",
+  "faq": [
+    {"question": "Which has more protein, tuna or salmon?", "answer": "Cooked tuna commonly provides about 29 g protein per 100 g versus around 22 g for cooked farmed salmon."},
+    {"question": "Which has more omega-3?", "answer": "Salmon usually provides much more EPA and DHA than tuna, often several times more per serving."},
+    {"question": "Which is lower in calories?", "answer": "Fresh lean tuna is usually a little lower, but the gap is modest. Oil, sauce, or oil-packed tuna can change the result substantially."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Approximate nutrient composition of cooked tuna and salmon."},
+    {"name": "FDA — Advice about Eating Fish", "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish", "note": "Mercury categories and seafood guidance."}
+  ],
+  "image": {
+    "concept": "Cooked salmon fillet and cooked tuna steak side by side on a neutral surface, clean editorial food photography, no text.",
+    "alt": "Cooked tuna and salmon compared side by side"
+  },
+  "status": "publish"
+}
