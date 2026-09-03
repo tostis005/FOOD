@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "en-096-how-much-fat-in-avocado",
+  "article_number": 96,
+  "translation_group": "096-how-much-fat-in-avocado",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and variation in edible avocado size",
+  "title": "How much fat is in an avocado, and what type is it?",
+  "slug": "how-much-fat-in-avocado",
+  "seo": {
+    "title": "How much fat is in avocado? 50, 100, 150 and 200 g compared",
+    "meta_description": "100 g of avocado provides about 15 g of fat: ~10 g monounsaturated, ~2.1 g saturated and ~1.8 g polyunsaturated. See different portions.",
+    "search_intent": "Look up how much fat a specific avocado portion contains and how that fat is divided by type."
+  },
+  "excerpt": "One hundred grams of avocado provides about 14.7–15 g of fat: roughly 9.8–10 g monounsaturated, 1.8 g polyunsaturated and 2.1 g saturated. A 50 g portion provides about 7.3 g of fat, while an avocado with 200 g of edible flesh contains close to 29 g. That is why 'one avocado' is not a useful fixed serving without knowing its size.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": ["avocado"],
+    "article_types": ["nutrition-composition", "myths-faq"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Saying “an avocado has 30 g of fat” may be reasonable for a large fruit and badly wrong for a small one. The stable reference is edible weight: <strong>100 g of avocado flesh provides about 14.7–15 g of fat</strong>.</p><h2>Fat at different avocado portion sizes</h2><p>The calculations below use roughly 14.7 g of total fat per 100 g as the reference.</p><table><thead><tr><th>Edible avocado</th><th>Total fat</th><th>Monounsaturated</th><th>Polyunsaturated</th><th>Saturated</th><th>Calories</th></tr></thead><tbody><tr><td>50 g</td><td>~7.3 g</td><td>~4.9 g</td><td>~0.9 g</td><td>~1.1 g</td><td>~80</td></tr><tr><td>100 g</td><td>~14.7 g</td><td>~9.8 g</td><td>~1.8 g</td><td>~2.1 g</td><td>~160</td></tr><tr><td>150 g</td><td>~22 g</td><td>~14.7 g</td><td>~2.7 g</td><td>~3.2 g</td><td>~240</td></tr><tr><td>200 g</td><td>~29.3 g</td><td>~19.6 g</td><td>~3.6 g</td><td>~4.3 g</td><td>~320</td></tr></tbody></table><p>Most of the fat is monounsaturated. In 100 g, roughly two-thirds of the total fat falls into that category.</p><h2>Why “half an avocado” is not exact either</h2><p>Avocados differ greatly in size, and the pit and skin do not make up an identical percentage of every fruit. If one avocado contains 150 g of edible flesh, half is about 75 g; if another contains 250 g, half is 125 g.</p><p>The first half would provide roughly 11 g of fat; the second about 18 g.</p><h2>What the fat breakdown actually looks like</h2><p>Of the roughly 14.7 g of fat in 100 g of avocado, about 9.8 g is monounsaturated, mostly oleic acid. Saturated fat is around 2.1 g and polyunsaturated fat around 1.8 g.</p><p>That profile is very different from butter, where saturated fat makes up a much larger share of total fat.</p><h2>Variety and ripeness can shift the numbers</h2><p>Hass dominates many markets, but other avocado varieties can be larger and differ in water and fat content. Natural variation exists even within the same variety.</p><p>That makes 14.7 g per 100 g a useful reference, not a guarantee for every individual fruit.</p><h2>Fat explains much of avocado's calorie content</h2><p>Avocado provides about 160 calories per 100 g, compared with roughly 52 for apple and 47 for orange. The main reason is its roughly 15 g of fat, since fat contributes about 9 calories per gram.</p><p>Avocado is still about 73% water, which keeps its energy density far below nuts and oils.</p><h2>How to calculate your own portion</h2><p>If you weigh 120 g of edible avocado, multiply 14.7 by 1.2 to get about <strong>17.6 g of total fat</strong>. For a quick estimate, every 10 g of avocado supplies roughly 1.5 g of fat.</p><h2>The short answer</h2><p><strong>Count about 15 g of fat per 100 g of avocado, with roughly 10 g coming from monounsaturated fat.</strong> To know how much fat is in “an avocado,” you need at least an approximate edible weight.</p>",
+  "faq": [
+    {"question": "How much fat is in half an avocado?", "answer": "It depends on size. A 75 g edible portion contains about 11 g of fat; a 100 g portion contains about 15 g."},
+    {"question": "How much fat is in a whole avocado?", "answer": "If it has 150 g of edible flesh, about 22 g; at 200 g, close to 29 g. Fruit size changes the answer substantially."},
+    {"question": "How much of avocado fat is saturated?", "answer": "About 2.1 g per 100 g, compared with roughly 9.8 g of monounsaturated fat."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Total fat, fatty-acid profile and calories in raw avocado."}
+  ],
+  "image": {
+    "concept": "Avocado divided into weighed 50, 100, 150 and 200 gram portions beside a kitchen scale, clean editorial photography, no text.",
+    "alt": "Different avocado portion sizes used to calculate fat content"
+  },
+  "status": "publish"
+}
