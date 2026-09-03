@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-100-almendras-vs-nueces",
+  "article_number": 100,
+  "translation_group": "100-almonds-vs-walnuts",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y ración equivalente de 30 g",
+  "title": "Almendras vs. nueces: diferencias nutricionales",
+  "slug": "almendras-vs-nueces",
+  "seo": {
+    "title": "Almendras vs. nueces: proteína, fibra, grasa y omega-3",
+    "meta_description": "Por 30 g, las almendras aportan más proteína, fibra y vitamina E; las nueces más grasa poliinsaturada y ALA omega-3. Comparamos cifras.",
+    "search_intent": "Comparar almendras y nueces en la misma ración para saber qué diferencias nutricionales son relevantes."
+  },
+  "excerpt": "En una ración de 30 g, las almendras aportan unas 174 kcal, 6,4 g de proteína y 3,8 g de fibra; las nueces unas 196 kcal, 4,6 g de proteína y 2 g de fibra. Las nueces, sin embargo, aportan alrededor de 2,7 g de ALA omega-3, mientras las almendras destacan mucho más por vitamina E. Ninguna gana en todo.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["almonds", "walnuts"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>Almendras y nueces suelen compartir la misma sección del supermercado y una ración parecida, pero su composición no es una variación mínima del mismo fruto seco. <strong>Las almendras concentran más proteína, fibra y vitamina E; las nueces tienen un perfil de grasa mucho más poliinsaturado y aportan ALA omega-3.</strong></p><h2>Comparación por una ración de 30 g</h2><table><thead><tr><th>Nutriente</th><th>Almendras 30 g</th><th>Nueces 30 g</th></tr></thead><tbody><tr><td>Energía</td><td>~174 kcal</td><td>~196 kcal</td></tr><tr><td>Proteína</td><td>~6,4 g</td><td>~4,6 g</td></tr><tr><td>Grasa total</td><td>~15 g</td><td>~19,6 g</td></tr><tr><td>Fibra</td><td>~3,8 g</td><td>~2 g</td></tr><tr><td>Monoinsaturadas</td><td>~9,5 g</td><td>~2,7 g</td></tr><tr><td>Poliinsaturadas</td><td>~3,7 g</td><td>~14 g</td></tr><tr><td>ALA omega-3</td><td>~0 g significativo</td><td>~2,7 g</td></tr></tbody></table><p>La diferencia de energía es de unas 22 kcal por ración. Es bastante menor que la impresión que da comparar 579 kcal/100 g de almendras con 654 kcal/100 g de nueces.</p><h2>Para proteína y fibra, las almendras tienen ventaja</h2><p>Las almendras aportan alrededor de 1,8 g más de proteína y casi 2 g más de fibra por 30 g. En términos relativos la diferencia es notable: aproximadamente un 40 % más de proteína y casi el doble de fibra.</p><p>Eso no convierte a las almendras en una fuente proteica equivalente a carne, pescado o legumbres; simplemente son más proteicas dentro de esta comparación.</p><h2>Para ALA omega-3, las nueces juegan en otra categoría</h2><p>Treinta gramos de nueces aportan unos 2,7 g de ácido alfa-linolénico. Las almendras contienen cantidades muy pequeñas.</p><p>El ALA es un omega-3 esencial, pero no es EPA ni DHA. El cuerpo puede convertir una parte a estas formas de cadena larga, aunque la conversión es limitada.</p><h2>Monoinsaturada frente a poliinsaturada</h2><p>La grasa de las almendras está dominada por ácido oleico monoinsaturado: unos 9,5 g por ración. En las nueces dominan las poliinsaturadas, con aproximadamente 14 g por 30 g.</p><p>Ambos perfiles son mayoritariamente insaturados; son diferentes, no opuestos.</p><h2>La vitamina E marca otra diferencia grande</h2><p>Treinta gramos de almendras aportan aproximadamente 7–8 mg de vitamina E. Las nueces aportan mucho menos de la forma alfa-tocoferol que se utiliza como referencia nutricional.</p><p>Si buscas específicamente vitamina E en frutos secos, las almendras son una opción mucho más concentrada.</p><h2>Las nueces necesitan algo más de cuidado al almacenarse</h2><p>Su contenido alto en poliinsaturadas hace que sean más susceptibles a oxidarse y ponerse rancias. Luz, calor y oxígeno aceleran el proceso.</p><p>Ambas se benefician de un envase hermético, pero las nueces agradecen especialmente un lugar fresco o refrigeración si van a guardarse durante bastante tiempo.</p><h2>Entonces, ¿cuáles son mejores?</h2><p>Para proteína, fibra y vitamina E, <strong>almendras</strong>. Para ALA omega-3 y una grasa más poliinsaturada, <strong>nueces</strong>. Para una dieta variada, alternarlas evita convertir una diferencia nutricional real en una elección innecesariamente exclusiva.</p><p>Una ración de cualquiera sigue siendo un alimento concentrado, alrededor de 170–200 kcal, por lo que la porción importa más que escoger un ganador absoluto.</p>",
+  "faq": [
+    {"question": "¿Qué tiene más proteína, almendras o nueces?", "answer": "Las almendras: unos 6,4 g por 30 g frente a aproximadamente 4,6 g en nueces."},
+    {"question": "¿Qué tiene más omega-3?", "answer": "Las nueces, con alrededor de 2,7 g de ALA por 30 g. Las almendras aportan cantidades muy pequeñas."},
+    {"question": "¿Qué tiene más fibra?", "answer": "Las almendras: aproximadamente 3,8 g por 30 g frente a unos 2 g en nueces."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energía, proteína, fibra, vitamina E y perfil de ácidos grasos de almendras y nueces."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "Contexto de ALA y su conversión a EPA/DHA."}
+  ],
+  "image": {
+    "concept": "Dos raciones iguales de 30 gramos, una de almendras y otra de nueces, lado a lado sobre una báscula, fotografía editorial sin texto.",
+    "alt": "Almendras y nueces comparadas en raciones iguales"
+  },
+  "status": "publish"
+}
