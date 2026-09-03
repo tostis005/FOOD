@@ -1,4 +1,4 @@
-name: Audit Pometum article layout
+name: Audit Quinnoa article layout
 
 on:
   push:
@@ -90,7 +90,9 @@ jobs:
             return {
               left: Math.round(r.left * 10) / 10,
               right: Math.round(r.right * 10) / 10,
-              width: Math.round(r.width * 10) / 10
+              top: Math.round(r.top * 10) / 10,
+              width: Math.round(r.width * 10) / 10,
+              height: Math.round(r.height * 10) / 10
             };
           }).catch(() => null);
 
@@ -121,15 +123,31 @@ jobs:
 
             const reference = data.answer ?? data.content ?? data.shell;
             if (reference) {
-              for (const [name, value] of Object.entries({ hero: data.hero, content: data.content, firstParagraph: data.firstParagraph, firstTableBlock: data.firstTableBlock })) {
+              for (const [name, value] of Object.entries({ content: data.content, firstParagraph: data.firstParagraph, firstTableBlock: data.firstTableBlock })) {
                 if (value && Math.abs(value.left - reference.left) > 2) {
                   throw new Error(`${name} is not aligned with the editorial column: ${value.left} vs ${reference.left}`);
                 }
               }
-              for (const [name, value] of Object.entries({ hero: data.hero, content: data.content, firstParagraph: data.firstParagraph })) {
+              for (const [name, value] of Object.entries({ content: data.content, firstParagraph: data.firstParagraph })) {
                 if (value && Math.abs(value.width - reference.width) > 2) {
                   throw new Error(`${name} width differs from the editorial column: ${value.width} vs ${reference.width}`);
                 }
+              }
+            }
+
+            if (data.hero) {
+              const heroCenter = (data.hero.left + data.hero.right) / 2;
+              const viewportCenter = size.width / 2;
+              if (Math.abs(heroCenter - viewportCenter) > 2) {
+                throw new Error(`hero is not centered: ${heroCenter} vs ${viewportCenter}`);
+              }
+              const maxHeroWidth = size.width <= 680 ? Math.min(size.width - 28, 460) : 520;
+              const expectedHeroHeight = size.width <= 680 ? 72 : 82;
+              if (data.hero.width > maxHeroWidth + 2) {
+                throw new Error(`hero is too wide: ${data.hero.width}px > ${maxHeroWidth}px`);
+              }
+              if (Math.abs(data.hero.height - expectedHeroHeight) > 2) {
+                throw new Error(`hero height is unexpected: ${data.hero.height}px vs ${expectedHeroHeight}px`);
               }
             }
 
@@ -150,6 +168,6 @@ jobs:
       - name: Upload article screenshots
         uses: actions/upload-artifact@v4
         with:
-          name: pometum-article-layout-audit
+          name: quinnoa-article-layout-audit
           path: article-audit-output/
           retention-days: 7
