@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-091-alimentos-mas-grasas-poliinsaturadas",
+  "article_number": 91,
+  "translation_group": "091-highest-polyunsaturated-fat-foods",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; perfiles omega-6 y omega-3 de aceites, frutos secos y semillas",
+  "title": "Los alimentos con más grasas poliinsaturadas",
+  "slug": "alimentos-mas-grasas-poliinsaturadas",
+  "seo": {
+    "title": "Alimentos con más grasas poliinsaturadas: omega-3 y omega-6",
+    "meta_description": "Aceite de girasol, nueces, lino y chía son ricos en poliinsaturadas, pero no aportan el mismo tipo: distinguimos omega-6 y ALA omega-3.",
+    "search_intent": "Identificar alimentos ricos en grasas poliinsaturadas y entender si predominan omega-6 u omega-3."
+  },
+  "excerpt": "Los aceites ricos en ácido linoleico concentran las mayores cantidades de grasa poliinsaturada por 100 g; el aceite de girasol puede rondar 65 g. Entre alimentos enteros destacan las nueces con unos 47 g/100 g y semillas como lino y chía. Pero el total no cuenta toda la historia: girasol aporta sobre todo omega-6, mientras lino y chía destacan por ALA, un omega-3 vegetal.",
+  "taxonomy": {
+    "food_family": "fats-oils",
+    "food_subcategories": ["nuts", "seeds", "oils"],
+    "article_types": ["ranking", "nutrition-composition"],
+    "primary_article_type": "ranking"
+  },
+  "content_html": "<p>“Grasa poliinsaturada” agrupa ácidos grasos con más de un doble enlace, pero nutricionalmente hay una distinción fundamental: <strong>omega-6 y omega-3 no son lo mismo</strong>. Un ranking que sume ambos puede decir qué alimento tiene más poliinsaturadas y, al mismo tiempo, ocultar qué tipo domina.</p><h2>Qué alimentos concentran más poliinsaturadas</h2><table><thead><tr><th>Alimento</th><th>Poliinsaturadas/100 g</th><th>Ración</th><th>Poliinsaturadas/ración</th><th>Perfil dominante</th></tr></thead><tbody><tr><td>Aceite de girasol convencional</td><td>~65 g</td><td>1 cucharada (14 g)</td><td>~9 g</td><td>Omega-6</td></tr><tr><td>Aceite de soja</td><td>~58 g</td><td>1 cucharada</td><td>~8 g</td><td>Omega-6 + algo de ALA</td></tr><tr><td>Nueces</td><td>~47 g</td><td>30 g</td><td>~14 g</td><td>Omega-6 + ALA</td></tr><tr><td>Lino</td><td>~29 g</td><td>20 g</td><td>~5,8 g</td><td>ALA omega-3</td></tr><tr><td>Chía</td><td>~24 g</td><td>20 g</td><td>~4,8 g</td><td>ALA omega-3</td></tr><tr><td>Semillas de girasol</td><td>~23 g</td><td>30 g</td><td>~7 g</td><td>Omega-6</td></tr></tbody></table><p>Una ración de nueces puede aportar más poliinsaturadas totales que una cucharada de aceite. Pero si la pregunta es específicamente “¿qué aporta más omega-3 vegetal?”, lino y chía suben posiciones porque una gran parte de sus poliinsaturadas es ALA.</p><h2>Omega-6: el ácido linoleico domina muchos aceites y semillas</h2><p>El ácido linoleico es un omega-6 esencial: el cuerpo no puede fabricarlo y necesita obtenerlo de la dieta. Aceite de girasol convencional, soja, maíz, nueces y muchas semillas aportan cantidades importantes.</p><p>Que un alimento sea rico en omega-6 no lo convierte automáticamente en “inflamatorio”. Las recomendaciones nutricionales favorecen sustituir grasas saturadas por poliinsaturadas, incluido el ácido linoleico.</p><h2>ALA: el omega-3 vegetal</h2><p>El lino, la chía y las nueces aportan ácido alfa-linolénico (ALA). Por ejemplo, 20 g de lino pueden aportar alrededor de 4,5–5 g de ALA y la misma cantidad de chía alrededor de 3,5–4 g.</p><p>El organismo puede convertir ALA en EPA y DHA, pero la conversión es limitada. Por eso ALA y los omega-3 marinos no deben presentarse como gramos nutricionalmente equivalentes.</p><h2>Los pescados grasos no ganan por poliinsaturadas totales</h2><p>El salmón puede tener menos grasa poliinsaturada total por 100 g que unas nueces y seguir siendo una fuente mucho más directa de EPA y DHA. Esa es otra razón por la que el total de “poliinsaturadas” no basta para elegir una fuente de omega-3.</p><h2>Las raciones evitan una comparación absurda</h2><p>Cien gramos de aceite equivalen a más de siete cucharadas y aportan casi 900 kcal. Una cucharada es una unidad mucho más útil. Lo mismo ocurre con semillas y frutos secos, cuya ración suele rondar 20–30 g.</p><h2>La conclusión práctica</h2><p>Para <strong>poliinsaturadas totales</strong>, aceites ricos en linoleico y nueces están arriba. Para <strong>ALA omega-3</strong>, lino y chía son mucho más relevantes. Para <strong>EPA y DHA</strong>, hay que mirar pescado y marisco, no este ranking vegetal.</p>",
+  "faq": [
+    {"question": "¿Qué alimentos tienen más grasa poliinsaturada?", "answer": "Aceites ricos en ácido linoleico, como el girasol convencional, y alimentos como nueces, lino, chía y semillas de girasol destacan por concentración."},
+    {"question": "¿Las poliinsaturadas son omega-3?", "answer": "Algunas sí, pero no todas. El ácido linoleico es omega-6; ALA, EPA y DHA pertenecen a la familia omega-3."},
+    {"question": "¿Lino y chía aportan EPA y DHA?", "answer": "Aportan principalmente ALA. El cuerpo convierte una parte limitada a EPA y DHA, por lo que no son equivalentes directos al omega-3 del pescado."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Perfil de grasas poliinsaturadas de aceites, nueces y semillas."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "ALA, EPA, DHA y conversión de omega-3 vegetal."},
+    {"name": "World Health Organization — Healthy diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet", "note": "Recomendaciones sobre sustitución de grasas saturadas por insaturadas."}
+  ],
+  "image": {
+    "concept": "Aceite de girasol, nueces, semillas de lino, chía y girasol dispuestas en recipientes pequeños, fotografía editorial sin texto.",
+    "alt": "Alimentos ricos en grasas poliinsaturadas omega-6 y omega-3"
+  },
+  "status": "publish"
+}
