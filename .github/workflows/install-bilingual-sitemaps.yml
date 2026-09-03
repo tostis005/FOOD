@@ -27,13 +27,7 @@ jobs:
           path = Path('functions.php')
           text = path.read_text(encoding='utf-8')
           if "inc/sitemaps.php" not in text:
-              block = """
-
-$food_sitemaps = get_template_directory() . '/inc/sitemaps.php';
-if ( file_exists( $food_sitemaps ) ) {
-\trequire_once $food_sitemaps;
-}
-"""
+              block = "\n\n$food_sitemaps = get_template_directory() . '/inc/sitemaps.php';\nif ( file_exists( $food_sitemaps ) ) {\n\trequire_once $food_sitemaps;\n}\n"
               path.write_text(text.rstrip() + block + "\n", encoding='utf-8')
           PY
 
