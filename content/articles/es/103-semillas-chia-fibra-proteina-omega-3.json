@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-103-semillas-chia-fibra-proteina-omega-3",
+  "article_number": 103,
+  "translation_group": "103-chia-seeds-nutrition",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y contexto NIH sobre ALA",
+  "title": "Semillas de chía: fibra, proteína, omega-3 y valor nutricional",
+  "slug": "semillas-chia-fibra-proteina-omega-3",
+  "seo": {
+    "title": "Semillas de chía: fibra, proteína y omega-3",
+    "meta_description": "30 g de chía aportan unas 146 kcal, 5 g de proteína, 10 g de fibra y más de 5 g de ALA omega-3. La ración explica mejor su papel que 100 g.",
+    "search_intent": "Conocer qué aportan realmente las semillas de chía y cuánto supone una ración normal."
+  },
+  "excerpt": "La chía destaca sobre todo por fibra y ALA omega-3. Una ración de 30 g aporta aproximadamente 146 kcal, 5 g de proteína, 10 g de fibra y algo más de 5 g de ALA. Es un alimento concentrado: aporta bastante en poco volumen, pero no suele ser la fuente principal de proteína de una comida.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["seeds", "chia"],
+    "article_types": ["nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>La chía suele presentarse como si hiciera de todo a la vez: proteína, omega-3, fibra, minerales y saciedad. La forma más útil de entenderla es menos espectacular y más concreta: <strong>es especialmente densa en fibra y ALA omega-3, y aporta una cantidad moderada de proteína</strong>.</p><h2>Qué aporta una ración real</h2><p>Cien gramos sirven para comparar alimentos, pero serían más de tres raciones habituales de chía. En 30 g, que encajan mejor en yogur, avena o un pudin, las cifras son aproximadamente estas.</p><table><thead><tr><th>Nutriente</th><th>Por 100 g</th><th>Por 30 g</th></tr></thead><tbody><tr><td>Energía</td><td>486 kcal</td><td>146 kcal</td></tr><tr><td>Proteína</td><td>16,5 g</td><td>5,0 g</td></tr><tr><td>Fibra</td><td>34,4 g</td><td>10,3 g</td></tr><tr><td>Grasa</td><td>30,7 g</td><td>9,2 g</td></tr><tr><td>ALA omega-3</td><td>~17,8 g</td><td>~5,3 g</td></tr></tbody></table><p>La fibra es probablemente el dato más llamativo en la práctica: <strong>30 g aportan alrededor de 10 g</strong>, una cantidad considerable dentro de una ración pequeña.</p><h2>El omega-3 de la chía es ALA</h2><p>La mayor parte del omega-3 de la chía es ácido alfa-linolénico. El organismo puede convertir parte de ese ALA en EPA y DHA, pero la conversión es limitada. Por eso no conviene equiparar directamente 5 g de ALA de chía con 5 g de EPA+DHA de pescado.</p><p>Eso no resta interés a la chía: el ALA es esencial y debe obtenerse de la dieta. Simplemente responde a una categoría distinta de omega-3.</p><h2>La proteína suma, pero rara vez protagoniza la comida</h2><p>Con unos 5 g de proteína por 30 g, la chía puede elevar el total de un desayuno o merienda. Pero una ración de lentejas cocidas, tofu, yogur griego o pollo aporta bastante más proteína en cantidades habituales.</p><p>Por eso tiene más sentido verla como un <strong>ingrediente que añade proteína</strong> que como una fuente principal por sí sola.</p><h2>Por qué forma un gel</h2><p>Al contacto con agua, la cubierta de la semilla libera mucílagos, fibras capaces de absorber líquido y formar una textura gelatinosa. Ese comportamiento explica los puddings de chía y también por qué la semilla aumenta mucho de volumen al hidratarse.</p><p>No significa que haya que remojarla obligatoriamente para que sea segura. Puede comerse sin remojar, pero conviene acompañarla de suficiente líquido, especialmente si se toma en cantidades grandes.</p><h2>Minerales: útiles, pero con un matiz</h2><p>La chía aporta calcio, magnesio, fósforo y otros minerales. Sin embargo, las semillas contienen fitatos y otros componentes que pueden reducir la absorción de parte de esos minerales. El dato de la tabla nutricional no equivale automáticamente a la cantidad absorbida.</p><h2>La idea útil</h2><p>La chía funciona mejor como <strong>un ingrediente concentrado de fibra, ALA y minerales</strong> que como un alimento milagroso. Una o dos cucharadas pueden mejorar el perfil de una comida, pero el conjunto de la dieta sigue importando mucho más que una semilla concreta.</p>",
+  "faq": [
+    {"question": "¿Cuánta fibra tienen 30 g de chía?", "answer": "Aproximadamente 10 g de fibra, aunque la cifra puede variar ligeramente según la variedad."},
+    {"question": "¿Cuánta proteína tiene la chía?", "answer": "Unos 16,5 g por 100 g y alrededor de 5 g en una ración de 30 g."},
+    {"question": "¿El omega-3 de la chía es igual al del pescado?", "answer": "No. La chía aporta principalmente ALA; el pescado azul aporta EPA y DHA. El cuerpo convierte solo una parte del ALA."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energía, proteína, fibra, grasa y perfil de ácidos grasos de semillas de chía."},
+    {"name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids", "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/", "note": "Diferencias entre ALA, EPA y DHA y conversión metabólica."}
+  ],
+  "image": {
+    "concept": "Semillas de chía secas junto a un pequeño cuenco de chía hidratada con textura gelatinosa, fotografía editorial sin texto.",
+    "alt": "Semillas de chía secas e hidratadas mostrando su textura"
+  },
+  "status": "publish"
+}
