@@ -5347,7 +5347,8 @@ body.single-post .article-hero-fallback > .food-topic-svg {
 }
 
 /* Directory pages should feel like normal editorial pages. The cards provide
-   enough visual structure on their own, so there is no section background. */
+   enough visual structure on their own, so there is no section background or
+   leftover divider line from the homepage versions of these sections. */
 .directory-page-wrap {
   padding-bottom: 54px !important;
 }
@@ -5361,13 +5362,31 @@ body.single-post .article-hero-fallback > .food-topic-svg {
 .directory-page-section.topic-directory-section {
   position: relative;
   padding: 18px 0 12px !important;
+  border-top: 0 !important;
+  border-bottom: 0 !important;
   background: transparent !important;
   color: inherit !important;
+  box-shadow: none !important;
 }
 
-.directory-page-section::before {
+.directory-page-section::before,
+.directory-page-section::after {
   content: none !important;
   display: none !important;
+}
+
+/* The all-articles page doubles as the main searchable archive. */
+.latest-articles-header {
+  max-width: 860px !important;
+}
+
+.latest-articles-search {
+  width: min(100%, 680px);
+  margin: 24px 0 0 !important;
+}
+
+.latest-articles-search .search-form {
+  width: 100%;
 }
 
 /* Internal-page rhythm: breadcrumbs belong visually to the header, so remove
@@ -5404,6 +5423,10 @@ body.single-post .site-content > .article-shell:first-child {
   .directory-page-section.food-families-section,
   .directory-page-section.topic-directory-section {
     padding: 12px 0 8px !important;
+  }
+
+  .latest-articles-search {
+    margin-top: 20px !important;
   }
 
   body:not(.home) .archive-wrap,
