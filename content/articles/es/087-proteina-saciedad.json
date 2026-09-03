@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-087-proteina-saciedad",
+  "article_number": 87,
+  "translation_group": "087-protein-and-satiety",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; fisiología de la saciedad y raciones alimentarias",
+  "title": "Proteína y saciedad: por qué los alimentos ricos en proteína llenan más",
+  "slug": "proteina-saciedad",
+  "seo": {
+    "title": "Proteína y saciedad: por qué ayuda a sentirse lleno",
+    "meta_description": "La proteína suele aumentar la saciedad más que otros macronutrientes. Explicamos por qué, qué cantidades aporta una comida y por qué el alimento completo importa.",
+    "search_intent": "Entender cómo influye la proteína en la sensación de saciedad y cómo aplicarlo a comidas reales."
+  },
+  "excerpt": "La proteína suele producir una señal de saciedad más intensa que una cantidad energética equivalente de grasa o carbohidratos. Influye en hormonas intestinales, tiene un coste digestivo relativamente alto y ayuda a que una comida mantenga mejor la plenitud. Pero la proteína no actúa sola: fibra, agua, volumen y textura del alimento también modifican el resultado.",
+  "taxonomy": {
+    "food_family": "food-general",
+    "food_subcategories": [],
+    "article_types": ["nutrition-composition", "health-daily-consumption"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Un desayuno de café y tostada puede tener calorías suficientes y dejar hambre pronto. Si parte de esa energía llega como huevos, yogur rico en proteína o legumbres, muchas personas notan una plenitud más duradera. No es magia: <strong>la proteína activa varias señales relacionadas con la saciedad</strong>.</p><h2>La proteína suele saciar más por caloría</h2><p>En estudios controlados, aumentar la proporción de proteína de una comida suele reducir el hambre posterior frente a comidas de energía similar con menos proteína. El efecto no es idéntico en todas las personas ni crece indefinidamente, pero el patrón es consistente.</p><p>Eso ayuda a entender por qué 25–30 g de proteína dentro de una comida suelen cambiar más la sensación de plenitud que añadir unos pocos gramos.</p><h2>Qué significa 25–30 g de proteína en comida real</h2><table><thead><tr><th>Alimento</th><th>Ración</th><th>Proteína aprox.</th></tr></thead><tbody><tr><td>Pechuga de pollo cocida</td><td>100 g</td><td>~31 g</td></tr><tr><td>Salmón cocinado</td><td>125 g</td><td>~27–28 g</td></tr><tr><td>Skyr o yogur alto en proteína</td><td>250 g</td><td>~25 g según producto</td></tr><tr><td>Lentejas cocidas</td><td>250 g</td><td>~22–23 g</td></tr><tr><td>Huevos</td><td>3 grandes</td><td>~19 g</td></tr><tr><td>Tofu firme</td><td>200 g</td><td>~24–30 g según tipo</td></tr></tbody></table><p>Las cantidades muestran por qué una “fuente de proteína” no siempre aporta lo mismo. Tres huevos son proteicos, pero no llegan a la proteína de 100 g de pechuga; una ración grande de lentejas sí puede acercarse.</p><h2>El intestino y el cerebro reciben varias señales</h2><p>La presencia de proteína y aminoácidos en el aparato digestivo participa en la liberación de señales como GLP-1, PYY y colecistoquinina, relacionadas con la plenitud y la regulación de la ingesta.</p><p>Además, metabolizar proteína cuesta más energía que metabolizar grasa y, en general, carbohidratos. Ese efecto térmico es otra diferencia fisiológica, aunque no es el motivo principal para elegir alimentos proteicos.</p><h2>Más proteína no significa saciedad infinita</h2><p>Pasar de una comida casi sin proteína a una con una cantidad suficiente puede tener un efecto perceptible. Duplicar proteína una y otra vez no garantiza duplicar la plenitud. A partir de cierto punto, otros factores de la comida ganan importancia.</p><p>Una pechuga de pollo sola aporta mucha proteína pero poca fibra y poco volumen vegetal. Añadir patata, legumbres, verduras o fruta puede hacer la comida más completa y saciante por mecanismos diferentes.</p><h2>La forma del alimento importa</h2><p>Un batido proteico puede aportar 25 g de proteína, pero se bebe rápido y tiene menos masticación y volumen que una comida sólida con la misma cantidad. Eso no lo hace inútil; explica por qué igualar gramos de proteína no siempre iguala saciedad.</p><h2>Proteína y fibra funcionan especialmente bien juntas</h2><p>Las legumbres son un ejemplo natural: 200 g de lentejas cocidas aportan alrededor de 18 g de proteína y 16 g de fibra. Una comida que añade verduras y quizá huevo, tofu o pescado reúne señales de proteína, fibra, agua y volumen.</p><h2>La regla práctica</h2><p>Si una comida te deja hambre muy pronto, una de las primeras preguntas útiles es si tiene <strong>una fuente de proteína suficientemente grande como para contar de verdad</strong>. Después mira fibra, volumen y energía total. La saciedad funciona mejor como conjunto que como carrera por un solo nutriente.</p>",
+  "faq": [
+    {"question": "¿La proteína sacia más que los carbohidratos?", "answer": "En general, una mayor proporción de proteína tiende a aumentar la saciedad frente a comidas de energía similar con menos proteína, aunque la respuesta depende del alimento y la persona."},
+    {"question": "¿Cuánta proteína tiene que tener una comida para saciar?", "answer": "No existe una cifra universal. Como referencia práctica, muchas comidas principales contienen 20–30 g o más, pero las necesidades y el efecto sobre el hambre varían."},
+    {"question": "¿Un batido de proteína sacia igual que comida sólida?", "answer": "No necesariamente. La comida sólida suele implicar más masticación, volumen y otros nutrientes, factores que también afectan a la saciedad."}
+  ],
+  "sources": [
+    {"name": "PubMed — Research on dietary protein and satiety", "url": "https://pubmed.ncbi.nlm.nih.gov/?term=dietary+protein+satiety+review", "note": "Revisiones y estudios sobre proteína, hormonas de saciedad e ingesta."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Proteína de los alimentos y raciones utilizados como ejemplos."}
+  ],
+  "image": {
+    "concept": "Comida con salmón, huevos, lentejas, tofu y yogur rico en proteína en porciones realistas, fotografía editorial natural, sin texto.",
+    "alt": "Alimentos ricos en proteína asociados con mayor saciedad"
+  },
+  "status": "publish"
+}
