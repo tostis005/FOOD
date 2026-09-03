@@ -129,6 +129,10 @@ function food_sitemap_static_urls( $language ) {
 		? food_language_home_url( $language )
 		: ( 'en' === $language ? home_url( '/en/' ) : home_url( '/' ) );
 
+	$urls[] = function_exists( 'food_directory_url' )
+		? food_directory_url( 'topics', $language )
+		: ( 'en' === $language ? home_url( '/en/topics/' ) : home_url( '/temas/' ) );
+
 	if ( function_exists( 'food_editorial_pages' ) && function_exists( 'food_editorial_page_url' ) ) {
 		foreach ( array_keys( food_editorial_pages() ) as $key ) {
 			$urls[] = food_editorial_page_url( $key, $language );
