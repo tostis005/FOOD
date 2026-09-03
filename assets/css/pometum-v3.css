@@ -17,3 +17,10 @@
   width: 106px !important;
   height: 64px !important;
 }
+
+/* On smaller screens the quinoa grain that dots the i needs a touch more air. */
+@media (max-width: 700px) {
+  .quinnoa-i::after {
+    top: .075em !important;
+  }
+}
