@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-053-sardines-vs-tuna-protein-omega3-mercury",
+  "article_number": 53,
+  "translation_group": "053-sardines-vs-tuna-protein-omega3-mercury",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and FDA/EPA mercury guidance",
+  "title": "Sardines vs. tuna: protein, omega-3s, and mercury",
+  "slug": "sardines-vs-tuna-protein-omega3-mercury",
+  "seo": {
+    "title": "Sardines vs. tuna: protein, omega-3s, and mercury",
+    "meta_description": "Tuna is slightly higher in protein, but sardines provide more omega-3 and much less mercury. Here is the practical comparison per 100 g and per serving.",
+    "search_intent": "Compare sardines and tuna for protein, omega-3, mercury, calories, and practical use."
+  },
+  "excerpt": "Tuna is usually a little higher in protein, while sardines provide more EPA and DHA omega-3 and are much lower in mercury because they are small, short-lived fish. Per 100 g cooked, tuna may provide about 29 g protein versus roughly 25 g in sardines; that modest protein gap is smaller than the difference in omega-3 and mercury exposure.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": ["sardines", "tuna"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
+  },
+  "content_html": "<p>Tuna and sardines are both convenient high-protein fish, especially in cans, but they are not nutritionally interchangeable. <strong>Sardines generally provide more omega-3 and much less mercury</strong>, while tuna keeps a small edge in protein concentration.</p><p>That makes this a useful example of why the highest-protein food is not automatically the best choice for every goal.</p><h2>Protein: tuna is ahead, but not by much</h2><p>Comparing cooked fish with cooked fish gives a fairer starting point:</p><table><thead><tr><th>Per 100 g</th><th>Tuna</th><th>Sardines</th></tr></thead><tbody><tr><td>Protein</td><td>~29 g</td><td>~25 g</td></tr><tr><td>Fat</td><td>~6 g</td><td>~11 g</td></tr><tr><td>Calories</td><td>~184 kcal</td><td>~208 kcal</td></tr><tr><td>EPA + DHA</td><td>about 0.3–1.0 g</td><td>about 1.4–2.0 g</td></tr></tbody></table><p>A roughly 4 g protein difference per 100 g is noticeable but not decisive. In a 5-ounce serving, tuna would provide about 41 g protein and sardines about 35 g. Both are clearly substantial protein foods.</p><h2>Sardines have the omega-3 advantage</h2><p>Sardines are oily fish and commonly provide well over 1 g of EPA+DHA per 100 g. Tuna contains omega-3 too, but the amount varies by species and is usually lower.</p><p>If increasing long-chain marine omega-3 is the main goal, sardines generally deliver more per serving.</p><h2>Small fish usually mean less mercury</h2><p>Methylmercury builds up through the food chain. Sardines are small, grow quickly, and live relatively short lives. Large tuna can live much longer and eat other fish, which gives mercury more opportunity to accumulate.</p><p>FDA and EPA therefore place sardines among lower-mercury seafood choices, while advice for tuna depends on the type. Canned light tuna is generally lower in mercury than albacore/white tuna, and some large tuna species are higher still.</p><h2>Canned versions add oil and sodium to the picture</h2><p>A can of tuna in water and sardines packed in oil are not a pure fish-to-fish comparison. Retained oil raises fat and calories, while brine and added salt can raise sodium.</p><p>For a cleaner comparison, check similarly packed products or read the drained nutrition label. The omega-3 difference remains meaningful, but canned calories can be shaped as much by the packing medium as by the fish.</p><h2>Sardines can also contribute a lot of calcium</h2><p>When canned sardines are eaten with their softened bones, they can provide several hundred milligrams of calcium per 100 g. Canned tuna, whose bones are not typically eaten, provides far less.</p><p>That does not make calcium the main reason to compare them, but it shows how two fish with similar protein can offer very different nutrient packages.</p><h2>Which should you choose?</h2><p>Tuna is very high in protein and often leaner. Sardines provide nearly as much protein, more omega-3, much less mercury, and potentially a substantial amount of calcium when the bones are eaten.</p><p>The practical rule is: <strong>choose tuna when leanness and maximum protein concentration matter most; choose sardines when omega-3 and low mercury are higher priorities</strong>.</p>",
+  "faq": [
+    {"question": "Which has more protein, sardines or tuna?", "answer": "Cooked tuna often provides about 29 g protein per 100 g versus around 25 g in sardines."},
+    {"question": "Which has more omega-3?", "answer": "Sardines usually provide substantially more EPA and DHA per 100 g than tuna."},
+    {"question": "Which has less mercury?", "answer": "Sardines are generally much lower in mercury because they are small, short-lived fish. Tuna varies by species."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Approximate nutrient composition of tuna and sardines."},
+    {"name": "FDA — Advice about Eating Fish", "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish", "note": "Mercury categories and seafood guidance."}
+  ],
+  "image": {
+    "concept": "Cooked sardines and a cooked tuna steak on simple plates, clean editorial food photography, no text.",
+    "alt": "Sardines and tuna compared as protein and omega-3 sources"
+  },
+  "status": "publish"
+}
