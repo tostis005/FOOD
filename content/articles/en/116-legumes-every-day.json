@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-116-legumes-every-day",
+  "article_number": 116,
+  "translation_group": "116-legumes-every-day",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA/MyPlate protein-food context",
+  "title": "Is it healthy to eat legumes every day?",
+  "slug": "is-it-healthy-to-eat-legumes-every-day",
+  "seo": {
+    "title": "Is it healthy to eat beans and legumes every day?",
+    "meta_description": "Yes. Beans, lentils, and other legumes can be eaten daily as part of a varied diet. The main practical issue is increasing fiber gradually if you are not used to it.",
+    "search_intent": "Understand whether eating beans or legumes every day is healthy and how to manage fiber and variety."
+  },
+  "excerpt": "Yes. For most people, beans, lentils, chickpeas, and other legumes can be eaten every day as part of a varied diet. One cup of cooked lentils provides about 18 g protein and 16 g fiber. If you increase legume intake quickly, the sudden rise in fiber and fermentable carbohydrates can cause gas or bloating at first.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": ["legumes"],
+    "article_types": ["health-daily-consumption", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Beans and lentils do not need to be reserved for an occasional chili or soup. <strong>They can appear every day</strong> if the rest of the diet remains varied and the portion fits your digestion and energy needs.</p><h2>A daily serving can provide a lot of protein and fiber</h2><p>About 1 cup of cooked lentils provides roughly 18 g protein, almost 16 g fiber, and about 230 calories. A cup of cooked chickpeas provides a similar amount of protein and fiber but more calories, around 260–270 depending on the database entry and preparation.</p><p>That fiber is a major difference from meat, fish, eggs, and dairy protein foods.</p><h2>The first limitation may be digestive comfort</h2><p>If you currently eat little fiber, jumping straight to a large bowl of beans every day can cause gas, bloating, or discomfort. That does not mean legumes will always be poorly tolerated.</p><p>Increasing portions gradually, drinking enough fluid, and cooking legumes thoroughly can help. Some people find lentils, split legumes, tofu, or tempeh easier to tolerate.</p><h2>Variety is better than repeating one bean</h2><p>Lentils, chickpeas, black beans, kidney beans, peas, soybeans, and edamame have different profiles of protein, fiber, iron, folate, fat, and other nutrients.</p><h2>Canned beans still count</h2><p>Canned legumes are nutritionally useful and convenient. Sodium is the main variable to watch. Draining and rinsing can remove some of the sodium from the packing liquid.</p><h2>Can fiber become excessive?</h2><p>A large daily legume serving can contribute 12–16 g fiber by itself. Add whole grains, fruit, vegetables, nuts, and seeds and total fiber can climb quickly.</p><p>For many people that is beneficial, but persistent bloating or discomfort is a reason to adjust the amount rather than assume more fiber is always better.</p><h2>The practical rule</h2><p><strong>Eating legumes every day can be a healthy pattern</strong>. Rotate types, increase intake gradually if you are not used to high fiber, and leave room for other protein foods and food groups.</p>",
+  "faq": [
+    {"question": "Can I eat beans every day?", "answer": "Yes. Daily beans or legumes can fit a healthy diet for most people, especially when types and preparation methods vary."},
+    {"question": "Why do beans cause gas when I start eating more?", "answer": "They contain fiber and fermentable carbohydrates. Increasing the amount gradually often improves tolerance."},
+    {"question": "Are canned beans healthy?", "answer": "Yes. They provide protein and fiber; draining and rinsing can reduce some of the sodium."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Protein, fiber, and calories in cooked legumes."},
+    {"name": "MyPlate — Protein Foods", "url": "https://www.myplate.gov/eat-healthy/protein-foods", "note": "Beans, peas, and lentils as protein foods and vegetables."}
+  ],
+  "image": {
+    "concept": "Several small bowls of lentils, chickpeas, black beans, kidney beans, and edamame showing daily variety, clean editorial photography without text.",
+    "alt": "Variety of legumes for frequent eating"
+  },
+  "status": "publish"
+}
