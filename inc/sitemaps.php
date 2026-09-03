@@ -53,6 +53,53 @@ function food_sitemap_language_clause( $language ) {
 	);
 }
 
+/** English public slugs are duplicated here so XML generation never depends on template load order. */
+function food_sitemap_english_family_slugs() {
+	if ( function_exists( 'food_english_family_slugs' ) ) {
+		return food_english_family_slugs();
+	}
+	return array(
+		'alimentos'                         => 'foods',
+		'alimentacion-general'              => 'food-basics',
+		'carnes'                            => 'meat',
+		'pescados-mariscos'                 => 'fish-seafood',
+		'huevos'                            => 'eggs',
+		'lacteos-quesos'                    => 'dairy-cheese',
+		'legumbres-soja'                    => 'legumes-soy',
+		'frutos-secos-semillas'             => 'nuts-seeds',
+		'cereales-pseudocereales-derivados' => 'grains-pseudocereals',
+		'tuberculos'                        => 'tubers',
+		'verduras-hortalizas-setas'         => 'vegetables-mushrooms',
+		'frutas'                            => 'fruit',
+		'aceites-grasas'                    => 'oils-fats',
+		'bebidas'                           => 'drinks',
+		'chocolate-cacao-dulces'            => 'chocolate-cocoa-sweets',
+		'fermentados'                       => 'fermented-foods',
+		'algas-especias-otros-alimentos'    => 'seaweed-spices-other-foods',
+	);
+}
+
+function food_sitemap_english_topic_slugs() {
+	if ( function_exists( 'food_english_topic_slugs' ) ) {
+		return food_english_topic_slugs();
+	}
+	return array(
+		'nutricion-composicion'                => 'nutrition-composition',
+		'rankings-mejores-fuentes'             => 'rankings-best-sources',
+		'comparativas'                         => 'comparisons',
+		'seguridad-alimentaria'                => 'food-safety',
+		'conservacion-almacenamiento'          => 'storage-shelf-life',
+		'congelacion-descongelacion'           => 'freezing-thawing',
+		'cocina-ciencia-alimentos'             => 'cooking-food-science',
+		'preparacion-tecnicas-cocina'          => 'preparation-cooking-techniques',
+		'salud-consumo-habitual'               => 'health-everyday-consumption',
+		'conceptos-nutricion'                  => 'nutrition-concepts',
+		'mitos-preguntas-frecuentes'           => 'myths-common-questions',
+		'procesamiento-produccion-elaboracion' => 'processing-production',
+		'compra-calidad-maduracion'            => 'buying-quality-ripeness',
+	);
+}
+
 /** Return all published blog posts for one language. */
 function food_sitemap_posts( $language ) {
 	$language = 'en' === $language ? 'en' : 'es';
@@ -102,7 +149,7 @@ function food_sitemap_taxonomy_urls( $language ) {
 	}
 
 	if ( function_exists( 'food_family_definitions' ) ) {
-		$english_family_slugs = function_exists( 'food_english_family_slugs' ) ? food_english_family_slugs() : array();
+		$english_family_slugs = food_sitemap_english_family_slugs();
 		foreach ( array_keys( food_family_definitions() ) as $slug ) {
 			$term = get_category_by_slug( $slug );
 			if ( ! $term instanceof WP_Term ) {
@@ -117,7 +164,7 @@ function food_sitemap_taxonomy_urls( $language ) {
 	}
 
 	if ( function_exists( 'food_topic_definitions' ) ) {
-		$english_topic_slugs = function_exists( 'food_english_topic_slugs' ) ? food_english_topic_slugs() : array();
+		$english_topic_slugs = food_sitemap_english_topic_slugs();
 		foreach ( array_keys( food_topic_definitions() ) as $slug ) {
 			$term = get_term_by( 'slug', $slug, 'food_topic' );
 			if ( ! $term instanceof WP_Term ) {
