@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-092-highest-saturated-fat-foods",
+  "article_number": 92,
+  "translation_group": "092-highest-saturated-fat-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; USDA composition and U.S./WHO saturated-fat guidance",
+  "title": "Foods highest in saturated fat",
+  "slug": "highest-saturated-fat-foods",
+  "seo": {
+    "title": "Foods highest in saturated fat: ranking and serving sizes",
+    "meta_description": "Coconut oil, butter, animal fats, dark chocolate and aged cheese can be high in saturated fat. Compare per 100 g and real portions.",
+    "search_intent": "Identify foods concentrated in saturated fat and understand how much a typical serving contributes."
+  },
+  "excerpt": "Coconut oil is one of the most concentrated common sources at roughly 80–85 g of saturated fat per 100 g; butter, palm oil and animal fats are also high. But 100 g is not a realistic serving of cooking fat: one tablespoon of coconut oil provides about 11–12 g of saturated fat, while an ounce of cheddar provides roughly 5–6 g.",
+  "taxonomy": {
+    "food_family": "fats-oils",
+    "food_subcategories": ["dairy", "oils", "meat"],
+    "article_types": ["ranking", "nutrition-composition"],
+    "primary_article_type": "ranking"
+  },
+  "content_html": "<p>A per-100-g ranking makes pure oils and fats dominate saturated-fat lists. That is mathematically correct and easy to misread: no one needs to eat 100 g of butter for its saturated fat to matter.</p><p>The more useful comparison shows both <strong>concentration and serving size</strong>.</p><h2>Foods that concentrate saturated fat</h2><table><thead><tr><th>Food</th><th>Saturated fat/100 g</th><th>Serving</th><th>Saturated fat/serving</th></tr></thead><tbody><tr><td>Coconut oil</td><td>~82 g</td><td>1 tbsp</td><td>~11.5 g</td></tr><tr><td>Butter</td><td>~51 g</td><td>1 tbsp</td><td>~7 g</td></tr><tr><td>Palm oil</td><td>~49 g</td><td>1 tbsp</td><td>~7 g</td></tr><tr><td>Lard</td><td>~39 g</td><td>1 tbsp</td><td>~5 g</td></tr><tr><td>Dark chocolate, 70–85%</td><td>~24 g</td><td>1 oz</td><td>~6.8 g</td></tr><tr><td>Cheddar cheese</td><td>~19 g</td><td>1 oz</td><td>~5.3 g</td></tr><tr><td>Heavy cream</td><td>~19–23 g</td><td>2 tbsp</td><td>~5–7 g</td></tr></tbody></table><p>A common surprise is coconut oil: despite being plant-derived, one tablespoon can provide more saturated fat than small servings of many animal foods.</p><h2>Plant-based does not automatically mean unsaturated</h2><p>Olive oil, avocado and many nuts are dominated by unsaturated fats. Coconut and palm are important exceptions with much higher proportions of saturated fat.</p><p>Classifying fat only as “animal” or “plant” therefore loses useful information.</p><h2>Dark chocolate shows why the whole food still matters</h2><p>Dark chocolate contains substantial saturated fat from cocoa butter. A 1-ounce portion can provide around 7 g of saturated fat and roughly 170 calories.</p><p>It also provides fiber and cocoa compounds. Those nutrients do not erase the saturated fat; they simply show why one nutrient cannot describe an entire food.</p><h2>Aged cheese concentrates nutrients as water is removed</h2><p>Hard and aged cheeses contain less water than milk or yogurt, concentrating protein, fat, calcium and sodium. Cheddar can contain about 19 g of saturated fat per 100 g, but an ounce provides closer to 5 g.</p><p>Comparing 100 g of cheese with 100 g of yogurt ignores how differently those foods are normally served.</p><h2>What the 10% limit means</h2><p>Dietary guidance generally recommends keeping saturated fat below 10% of total calories and replacing it with unsaturated fat. On a 2,000-calorie reference diet, 10% is 200 calories, or roughly <strong>22 g of saturated fat</strong>.</p><p>That is a reference scale, not an individualized prescription. One tablespoon of coconut oil can supply roughly half of it.</p><h2>Replacement matters more than simply removal</h2><p>Replacing butter with olive oil shifts fat quality from more saturated toward more monounsaturated fat. Removing butter and replacing its calories with large amounts of refined sugar is a different nutritional change.</p><h2>The practical rule</h2><p><strong>The most concentrated sources include coconut oil, butter, palm oil and lard, followed by fatty foods such as some chocolates, cheeses and cream.</strong> Always look at the serving and, importantly, what that fat is replacing in the diet.</p>",
+  "faq": [
+    {"question": "What food is highest in saturated fat?", "answer": "Among common fats, coconut oil ranks very high at roughly 80–85 g of saturated fat per 100 g."},
+    {"question": "Does coconut oil have more saturated fat than butter?", "answer": "Yes. Coconut oil is around 82 g/100 g versus about 51 g/100 g in butter; per tablespoon that is roughly 11–12 g versus 7 g."},
+    {"question": "How much saturated fat should be limited?", "answer": "Dietary guidance generally recommends keeping saturated fat below 10% of total calories and replacing it with unsaturated fats."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Saturated-fat profiles of oils, butter, chocolate, cheese and cream."},
+    {"name": "Dietary Guidelines for Americans", "url": "https://www.dietaryguidelines.gov/", "note": "Guidance on limiting saturated fat and replacing it with unsaturated fat."}
+  ],
+  "image": {
+    "concept": "Coconut oil, butter, dark chocolate, aged cheese and heavy cream in small realistic servings on a table, editorial food photography, no text.",
+    "alt": "Foods that are concentrated sources of saturated fat"
+  },
+  "status": "publish"
+}
