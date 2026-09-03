@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "id": "en-097-environmental-impact-of-avocado",
+  "article_number": 97,
+  "translation_group": "097-environmental-impact-of-avocado",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; avocado production, water use, land-use change and Mexican supply chains",
+  "title": "The environmental impact of avocados: water, farming and production",
+  "slug": "environmental-impact-of-avocado",
+  "seo": {
+    "title": "Environmental impact of avocados: water, farming and land use",
+    "meta_description": "Avocado impact depends heavily on where and how it is grown. Explore water footprints, irrigation, deforestation, emissions and transport without simplistic per-fruit claims.",
+    "search_intent": "Understand the environmental impacts of avocado production and why they vary by origin, water source and land use."
+  },
+  "excerpt": "Avocado production can create significant environmental pressure when irrigation draws on scarce water or orchards expand into forest. There is no universal 'liters per avocado' number: research in Michoacán has found roughly 417 m³ of water per metric ton for rainfed orchards and more than 1,000 m³/t for irrigated production. Origin and farming system matter more than the fruit in isolation.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": ["avocado"],
+    "article_types": ["environment-sustainability", "myths-faq"],
+    "primary_article_type": "environment-sustainability"
+  },
+  "content_html": "<p>The claim that “one avocado uses X gallons of water” is memorable. It also hides most of the variables that determine the real impact: <strong>rainfall, irrigation, crop yield, local water scarcity, land-use change and origin</strong>.</p><p>Two avocados of the same size can come with very different environmental histories.</p><h2>Water footprint varies sharply by location and farming system</h2><p>A study in Uruapan, Michoacán estimated an average total water footprint of about 744 cubic meters per metric ton of avocado. When the researchers separated production systems, rainfed orchards were around 417 m³/t while irrigated orchards averaged about 1,071 m³/t.</p><p>Because one metric ton is 1,000 kg, that is roughly <strong>417–1,071 liters per kilogram</strong> in that study. Total water footprint is not simply tap water applied by irrigation: it can include rainfall (“green” water) and surface or groundwater used for irrigation (“blue” water).</p><h2>Why converting that into “water per avocado” can mislead</h2><p>If a fruit weighs 200 g, multiplying a 1,000 L/kg footprint produces about 200 liters. Apply the 417 L/kg rainfed figure and the estimate falls to about 83 liters. Fruit weight, edible yield and methodology move it again.</p><p>A per-fruit number looks precise even though it can vary several-fold.</p><h2>Where the water comes from matters as much as the total</h2><p>A liter of rainfall used by a crop in a wet region does not have the same environmental consequence as a liter of groundwater withdrawn from a water-stressed basin.</p><p>In Uruapan, irrigated orchards had a much higher water footprint for only a small yield increase. Other research in Michoacán municipalities has described severe pressure on water allocated for agriculture.</p><h2>Orchard expansion can affect forests</h2><p>In Michoacán, export-oriented avocado growth has expanded across landscapes that include temperate forests. Land-change studies identify pine and pine-oak forests as particularly threatened by future avocado expansion.</p><p>A separate supply-chain study estimated that roughly 20% of deforestation in Michoacán between 2001 and 2017 was associated with avocado plantation expansion. That is a specific regional problem, not evidence that every avocado sold in the United States came from newly deforested land.</p><h2>The climate footprint is more moderate than the water reputation suggests</h2><p>Greenhouse-gas estimates vary by dataset and whether land-use change, transport and other stages are included. Global food datasets generally place avocado emissions far below ruminant meats per kilogram of product, while still above some fruits and vegetables.</p><p>Converting forest to orchards can change the climate calculation substantially because native forests store more aboveground carbon. Research along the Michoacán avocado frontier has found more than twice as much aboveground carbon in native forest as in neighboring orchards.</p><h2>Transportation matters, but it is not always the dominant factor</h2><p>Avocados moving to U.S. markets often travel long distances through refrigerated supply chains. Transportation adds emissions and energy demand, but the effect depends heavily on mode and distance.</p><p>For many foods, farming and land-use change outweigh transport. Focusing only on “local versus imported” can therefore miss the largest environmental differences.</p><h2>What can a shopper do with incomplete information?</h2><p>A grocery label rarely tells you the orchard's water footprint. Reasonable actions are still possible: avoid wasting the fruit, treat avocado as one optional source of plant fat rather than a required daily food, vary with nuts, seeds and oils, and favor supply chains with credible traceability or deforestation safeguards when that information is available.</p><h2>The takeaway</h2><p><strong>Avocado does not have one environmental footprint.</strong> It can be rainfed in a relatively wet area or heavily irrigated in a stressed basin; it can be grown on existing agricultural land or after forest conversion. Asking where and how it was produced tells you much more than repeating a single water number per fruit.</p>",
+  "faq": [
+    {"question": "How much water does one avocado use?", "answer": "There is no universal number. Research in Michoacán has found water footprints from about 417 L/kg in rainfed orchards to more than 1,000 L/kg in irrigated systems; per-fruit values also depend on weight."},
+    {"question": "Do avocados cause deforestation?", "answer": "Avocado expansion has been associated with forest loss and fragmentation in parts of Michoacán. That does not mean every avocado comes from deforested land."},
+    {"question": "Are avocados worse for the climate than meat?", "answer": "Global emissions estimates generally place avocados far below ruminant meats per kilogram, although land-use change can greatly increase the footprint of specific production systems."}
+  ],
+  "sources": [
+    {"name": "Sustainability — Blue and Green Water Footprint of Agro-Industrial Avocado Production in Central Mexico", "url": "https://www.mdpi.com/2071-1050/14/15/9664", "note": "Rainfed and irrigated avocado water footprints in Uruapan, Michoacán."},
+    {"name": "Applied Geography — Avocado expansion and the threat of forest loss in Michoacán", "url": "https://www.sciencedirect.com/science/article/pii/S0143622822002272", "note": "Avocado expansion and threats to pine and pine-oak forests."},
+    {"name": "Journal of Environmental Management — Deforestation associated with avocado exports", "url": "https://www.sciencedirect.com/science/article/pii/S0301479720314079", "note": "Association between avocado plantation expansion and deforestation in Michoacán."},
+    {"name": "Our World in Data — Environmental Impacts of Food", "url": "https://ourworldindata.org/environmental-impacts-of-food", "note": "Comparative greenhouse-gas and environmental-impact context across foods."}
+  ],
+  "image": {
+    "concept": "Avocado orchard with irrigation next to pine forest and harvested avocado crates, documentary editorial photography, no text.",
+    "alt": "Avocado farming showing irrigation and nearby forest landscape"
+  },
+  "status": "publish"
+}
