@@ -5346,3 +5346,55 @@ body.single-post .article-hero-fallback > .food-topic-svg {
   }
 }
 
+/* Directory pages: keep the cards inside the editorial grid, but let the
+   section background span the full viewport. This removes the boxed panel
+   effect and tightens the excess space above and below the cards. */
+.directory-page-wrap {
+  padding-bottom: 54px !important;
+}
+
+.directory-page-header {
+  margin-bottom: 20px !important;
+}
+
+.directory-page-section {
+  position: relative;
+  isolation: isolate;
+  padding: 32px 0 34px !important;
+  background: transparent !important;
+}
+
+.directory-page-section::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 100vw;
+  transform: translateX(-50%);
+}
+
+.directory-page-section.food-families-section::before {
+  background: #f1eee7;
+}
+
+.directory-page-section.topic-directory-section::before {
+  background:
+    radial-gradient(circle at 92% 10%, rgba(239, 120, 101, .11), transparent 25rem),
+    linear-gradient(180deg, #fff4ee 0%, #fff9f4 100%);
+}
+
+@media (max-width: 700px) {
+  .directory-page-wrap {
+    padding-bottom: 42px !important;
+  }
+
+  .directory-page-header {
+    margin-bottom: 16px !important;
+  }
+
+  .directory-page-section {
+    padding: 24px 0 26px !important;
+  }
+}
