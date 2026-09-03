@@ -6,7 +6,7 @@ $current_page = max( 1, (int) get_query_var( 'paged' ) );
 $query_args   = array(
 	'post_type'            => 'post',
 	'post_status'          => 'publish',
-	'posts_per_page'       => (int) get_option( 'posts_per_page', 10 ),
+	'posts_per_page'       => 12,
 	'paged'                => $current_page,
 	'orderby'              => 'date',
 	'order'                => 'DESC',
@@ -51,13 +51,14 @@ $base_url     = function_exists( 'food_directory_url' ) ? food_directory_url( 'l
 				'format'    => 'page/%#%/',
 				'current'   => $current_page,
 				'total'     => max( 1, (int) $latest_query->max_num_pages ),
-				'mid_size'  => 1,
+				'end_size'  => 2,
+				'mid_size'  => 3,
 				'prev_text' => $english ? '← Previous' : '← Anterior',
 				'next_text' => $english ? 'Next →' : 'Siguiente →',
 			)
 		);
 		if ( $pagination ) : ?>
-			<div class="pagination nav-links"><?php echo wp_kses_post( $pagination ); ?></div>
+			<nav class="pagination nav-links" aria-label="<?php echo esc_attr( $english ? 'Article pagination' : 'Paginación de artículos' ); ?>"><?php echo wp_kses_post( $pagination ); ?></nav>
 		<?php endif; ?>
 		<?php wp_reset_postdata(); ?>
 	<?php else : ?>

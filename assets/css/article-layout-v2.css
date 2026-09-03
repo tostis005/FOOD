@@ -41,6 +41,7 @@ body.single-post .article-share {
   display: flex;
   align-items: center;
   margin-top: 38px;
+  margin-bottom: 32px;
   padding-top: 22px;
   border-top: 1px solid rgba(73, 62, 49, .14);
 }
@@ -100,6 +101,7 @@ body.single-post .article-share-button svg {
 
   body.single-post .article-share {
     margin-top: 32px;
+    margin-bottom: 26px;
     padding-top: 18px;
   }
 }

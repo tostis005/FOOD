@@ -74,7 +74,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 document.addEventListener('DOMContentLoaded', function () {
-  const buttons = document.querySelectorAll('.article-share-button');
+  const buttons = document.querySelectorAll('.article-share-button, .card-share-button');
   if (!buttons.length) return;
 
   function fallbackCopy(text) {
@@ -94,10 +94,11 @@ document.addEventListener('DOMContentLoaded', function () {
     button.addEventListener('click', async function () {
       const url = button.dataset.shareUrl || window.location.href;
       const title = button.dataset.shareTitle || document.title;
-      const defaultLabel = button.dataset.shareLabel || 'Share article';
-      const copiedLabel = button.dataset.copyLabel || 'Link copied';
-      const label = button.querySelector('.article-share-label');
-      const status = button.parentElement ? button.parentElement.querySelector('.article-share-status') : null;
+      const defaultLabel = button.dataset.shareLabel || 'Share';
+      const copiedLabel = button.dataset.copyLabel || 'Copied';
+      const label = button.querySelector('.article-share-label, .card-share-label');
+      const container = button.closest('.article-share, .card-share');
+      const status = container ? container.querySelector('.article-share-status, .card-share-status') : null;
 
       if (navigator.share) {
         try {

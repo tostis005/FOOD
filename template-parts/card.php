@@ -33,4 +33,18 @@ $food_english       = function_exists( 'food_is_english' ) && food_is_english();
 			<div class="card-meta"><span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span></div>
 		</div>
 	</a>
+	<div class="card-share">
+		<button
+			class="card-share-button"
+			type="button"
+			data-share-url="<?php echo esc_url( get_permalink() ); ?>"
+			data-share-title="<?php echo esc_attr( get_the_title() ); ?>"
+			data-share-label="<?php echo esc_attr( $food_english ? 'Share' : 'Compartir' ); ?>"
+			data-copy-label="<?php echo esc_attr( $food_english ? 'Copied' : 'Copiado' ); ?>"
+		>
+			<svg viewBox="0 0 24 24" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="18" cy="5" r="2.5"></circle><circle cx="6" cy="12" r="2.5"></circle><circle cx="18" cy="19" r="2.5"></circle><path d="m8.2 10.8 7.6-4.5M8.2 13.2l7.6 4.5"></path></svg>
+			<span class="card-share-label"><?php echo esc_html( $food_english ? 'Share' : 'Compartir' ); ?></span>
+		</button>
+		<span class="card-share-status screen-reader-text" aria-live="polite"></span>
+	</div>
 </article>

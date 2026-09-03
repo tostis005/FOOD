@@ -1,21 +1,23 @@
 <?php get_header(); ?>
 
 <?php
-$food_english  = function_exists( 'food_is_english' ) && food_is_english();
+$food_english   = function_exists( 'food_is_english' ) && food_is_english();
 $archive_visual = ( is_category() || is_tax( 'food_topic' ) ) && function_exists( 'food_get_term_visual_context' )
 	? food_get_term_visual_context()
 	: null;
-$archive_term = ( is_category() || is_tax( 'food_topic' ) ) ? get_queried_object() : null;
-$food_loop    = $GLOBALS['wp_query'];
+$archive_term   = ( is_category() || is_tax( 'food_topic' ) ) ? get_queried_object() : null;
+$food_loop      = $GLOBALS['wp_query'];
+$current_page   = max( 1, (int) get_query_var( 'paged' ) );
+$page_size      = 12;
 
-// Build taxonomy archives explicitly so clicking a food/category always means
-// “show the articles assigned to this category”, independently of search text.
+// Build paginated article listings explicitly so every card-based archive uses
+// the same 12-item rhythm, independently of the global WordPress setting.
 if ( $archive_term instanceof WP_Term && ( is_category() || is_tax( 'food_topic' ) ) ) {
 	$archive_args = array(
 		'post_type'            => 'post',
 		'post_status'          => 'publish',
-		'posts_per_page'       => (int) get_option( 'posts_per_page', 10 ),
-		'paged'                => max( 1, (int) get_query_var( 'paged' ) ),
+		'posts_per_page'       => $page_size,
+		'paged'                => $current_page,
 		'ignore_sticky_posts'  => true,
 		'food_language_bypass' => 1,
 	);
@@ -46,6 +48,33 @@ if ( $archive_term instanceof WP_Term && ( is_category() || is_tax( 'food_topic'
 		}
 	}
 
+	$food_loop = new WP_Query( $archive_args );
+} elseif ( is_search() ) {
+	$archive_args = array(
+		'post_type'            => 'post',
+		'post_status'          => 'publish',
+		'posts_per_page'       => $page_size,
+		'paged'                => $current_page,
+		's'                    => get_search_query(),
+		'ignore_sticky_posts'  => true,
+		'food_language_bypass' => 1,
+	);
+	if ( function_exists( 'food_language_query_clause' ) ) {
+		$archive_args['meta_query'] = array( food_language_query_clause() );
+	}
+	$food_loop = new WP_Query( $archive_args );
+} elseif ( is_home() ) {
+	$archive_args = array(
+		'post_type'            => 'post',
+		'post_status'          => 'publish',
+		'posts_per_page'       => $page_size,
+		'paged'                => $current_page,
+		'ignore_sticky_posts'  => true,
+		'food_language_bypass' => 1,
+	);
+	if ( function_exists( 'food_language_query_clause' ) ) {
+		$archive_args['meta_query'] = array( food_language_query_clause() );
+	}
 	$food_loop = new WP_Query( $archive_args );
 }
 ?>
@@ -107,17 +136,17 @@ if ( $archive_term instanceof WP_Term && ( is_category() || is_tax( 'food_topic'
 			<?php while ( $food_loop->have_posts() ) : $food_loop->the_post(); get_template_part( 'template-parts/card' ); endwhile; ?>
 		</div>
 		<?php
-		$current_page = max( 1, (int) get_query_var( 'paged' ) );
-		$pagination   = paginate_links(
+		$pagination = paginate_links(
 			array(
 				'current'   => $current_page,
 				'total'     => max( 1, (int) $food_loop->max_num_pages ),
-				'mid_size'  => 1,
+				'end_size'  => 2,
+				'mid_size'  => 3,
 				'prev_text' => $food_english ? '← Previous' : '← Anterior',
 				'next_text' => $food_english ? 'Next →' : 'Siguiente →',
 			)
 		);
-		if ( $pagination ) : ?><div class="pagination nav-links"><?php echo wp_kses_post( $pagination ); ?></div><?php endif; ?>
+		if ( $pagination ) : ?><nav class="pagination nav-links" aria-label="<?php echo esc_attr( $food_english ? 'Article pagination' : 'Paginación de artículos' ); ?>"><?php echo wp_kses_post( $pagination ); ?></nav><?php endif; ?>
 		<?php wp_reset_postdata(); ?>
 	<?php else : ?>
 		<div class="answer-box"><strong><?php echo esc_html( $food_english ? 'No articles found' : 'No hay artículos' ); ?></strong><p><?php echo esc_html( $food_english ? 'Try another search or browse a different section.' : 'Prueba con otra búsqueda o consulta otra sección.' ); ?></p></div>
