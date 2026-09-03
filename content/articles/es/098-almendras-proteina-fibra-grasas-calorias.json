@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "id": "es-098-almendras-proteina-fibra-grasas-calorias",
+  "article_number": 98,
+  "translation_group": "098-almonds-nutrition",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición USDA y ración de 30 g",
+  "title": "Almendras: proteína, fibra, grasas y calorías",
+  "slug": "almendras-proteina-fibra-grasas-calorias",
+  "seo": {
+    "title": "Almendras: proteína, fibra, grasas y calorías por ración",
+    "meta_description": "30 g de almendras aportan unas 174 kcal, 6,4 g de proteína, 3,8 g de fibra y 15 g de grasa, principalmente monoinsaturada.",
+    "search_intent": "Consultar el valor nutricional de las almendras y entender qué aportan 100 g frente a una ración habitual."
+  },
+  "excerpt": "Las almendras son un alimento concentrado: 100 g aportan unas 579 kcal, 21 g de proteína, 12,5 g de fibra y 50 g de grasa. Una ración más realista de 30 g se queda en unas 174 kcal, 6,4 g de proteína, 3,8 g de fibra y 15 g de grasa, mayoritariamente monoinsaturada. También destacan por vitamina E y magnesio.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": ["almonds"],
+    "article_types": ["nutrition-composition"],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Las almendras pueden parecer simultáneamente “ricas en proteína”, “ricas en grasa” y “muy calóricas”. Las tres cosas son ciertas porque contienen poca agua y concentran nutrientes en un peso pequeño.</p><p>Para entenderlas, conviene separar el dato por 100 g —útil para comparar— de <strong>una ración de unos 30 g</strong>.</p><h2>Qué aporta una ración de almendras</h2><table><thead><tr><th>Nutriente</th><th>Por 100 g</th><th>Por 30 g</th></tr></thead><tbody><tr><td>Energía</td><td>~579 kcal</td><td>~174 kcal</td></tr><tr><td>Proteína</td><td>~21,2 g</td><td>~6,4 g</td></tr><tr><td>Grasa</td><td>~49,9 g</td><td>~15 g</td></tr><tr><td>Fibra</td><td>~12,5 g</td><td>~3,8 g</td></tr><tr><td>Carbohidratos totales</td><td>~21,6 g</td><td>~6,5 g</td></tr></tbody></table><p>El salto visual entre 579 kcal y 174 kcal muestra por qué 100 g no debe leerse como si fuera un “puñado”. Cien gramos equivalen a más de tres raciones de 30 g.</p><h2>La grasa es principalmente monoinsaturada</h2><p>De los aproximadamente 50 g de grasa por 100 g, cerca de 32 g son monoinsaturados y alrededor de 12 g poliinsaturados; la grasa saturada ronda 3,8 g.</p><p>En 30 g, eso se traduce aproximadamente en 9,5 g de monoinsaturadas y poco más de 1 g de saturadas.</p><h2>¿Son realmente una buena fuente de proteína?</h2><p>Por 100 g, 21 g de proteína es una concentración considerable. La ración cambia la interpretación: 30 g aportan unos 6,4 g.</p><p>Para comparar, un huevo grande aporta alrededor de 6–7 g de proteína con unas 70–80 kcal. Una pechuga de pollo cocida aporta unos 31 g/100 g. Las almendras suman proteína bien, pero no suelen ser el ancla proteica más eficiente de una comida.</p><h2>La fibra es uno de sus puntos fuertes</h2><p>Con unos 12,5 g/100 g, las almendras están entre los frutos secos habituales con más fibra. Un puñado de 30 g aporta unos 3,8 g.</p><p>Eso permite sumar una cantidad útil sin necesidad de comer una ración grande, aunque legumbres, frutas, verduras y cereales integrales siguen siendo importantes para alcanzar el total diario.</p><h2>Vitamina E y magnesio destacan entre los micronutrientes</h2><p>Cien gramos de almendras aportan alrededor de 25 mg de vitamina E y unos 270 mg de magnesio. Una ración de 30 g proporciona aproximadamente 7–8 mg de vitamina E y 80 mg de magnesio.</p><p>También contienen calcio, fósforo, manganeso y otros minerales, aunque la absorción y el papel dietético no dependen solo de la cifra de la tabla.</p><h2>Tostadas o crudas: el perfil cambia poco si no se añaden ingredientes</h2><p>El tostado reduce algo de agua y puede modificar pequeñas cantidades de compuestos sensibles al calor, pero no transforma una almendra en otro alimento nutricionalmente distinto. La mayor diferencia práctica suele venir de sal, azúcar, miel, chocolate o aceite añadidos.</p><h2>La idea práctica</h2><p><strong>Una ración de 30 g aporta alrededor de 174 kcal, 6 g de proteína, casi 4 g de fibra y 15 g de grasa principalmente insaturada.</strong> Es un paquete nutricional interesante y energético a la vez; ambas cosas forman parte de la misma almendra.</p>",
+  "faq": [
+    {"question": "¿Cuánta proteína tienen 30 g de almendras?", "answer": "Aproximadamente 6,4 g de proteína."},
+    {"question": "¿Cuánta fibra aporta un puñado de almendras?", "answer": "Una ración de 30 g aporta alrededor de 3,8 g de fibra."},
+    {"question": "¿Cuántas calorías tienen 30 g de almendras?", "answer": "Unas 174 kcal, aunque puede variar ligeramente según variedad y tostado."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energía, macronutrientes, vitamina E y minerales de almendras."}
+  ],
+  "image": {
+    "concept": "Ración de 30 gramos de almendras junto a una pequeña báscula y almendras enteras, fotografía editorial sin texto.",
+    "alt": "Ración de almendras mostrando su perfil nutricional concentrado"
+  },
+  "status": "publish"
+}
