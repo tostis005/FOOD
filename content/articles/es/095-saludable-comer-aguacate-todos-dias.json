@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-095-saludable-comer-aguacate-todos-dias",
+  "article_number": 95,
+  "translation_group": "095-is-it-healthy-to-eat-avocado-every-day",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición nutricional y patrón de dieta mediterránea",
+  "title": "¿Es saludable comer aguacate todos los días?",
+  "slug": "saludable-comer-aguacate-todos-dias",
+  "seo": {
+    "title": "¿Es saludable comer aguacate todos los días?",
+    "meta_description": "El aguacate puede encajar a diario: aporta grasa monoinsaturada, fibra, potasio y folato. La ración y lo que sustituye en la dieta importan.",
+    "search_intent": "Saber si consumir aguacate a diario es saludable, qué aporta y cuándo la cantidad puede ser relevante."
+  },
+  "excerpt": "Para la mayoría de personas, comer aguacate a diario puede encajar en una alimentación equilibrada. Cien gramos aportan unas 160 kcal, 15 g de grasa —principalmente monoinsaturada—, 6–7 g de fibra y cerca de 480 mg de potasio. La clave no es que sea “saludable” en abstracto, sino la ración y qué alimento desplaza: sustituir grasas más saturadas no es lo mismo que añadirlo encima de todo lo demás.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": ["avocado"],
+    "article_types": ["health-daily-consumption", "myths-faq"],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>No hay una regla nutricional que obligue a dejar días de descanso entre aguacates. Si te gusta, la pregunta útil no es “¿puedo comerlo todos los días?”, sino <strong>cuánto comes y qué lugar ocupa dentro del conjunto de la dieta</strong>.</p><h2>Qué aporta una cantidad razonable</h2><p>Cien gramos —aproximadamente medio aguacate grande, aunque el tamaño varía mucho— aportan alrededor de 160 kcal, 15 g de grasa, 6–7 g de fibra y 2 g de proteína.</p><p>De esos 15 g de grasa, cerca de 10 g son monoinsaturados. También aporta unos 480 mg de potasio y una cantidad relevante de folato.</p><h2>El argumento principal está en el tipo de grasa</h2><p>La OMS recomienda que la grasa de la dieta proceda principalmente de grasas insaturadas y que las saturadas se mantengan limitadas. El aguacate encaja bien en ese patrón porque gran parte de su grasa es ácido oleico monoinsaturado.</p><p>Pero el beneficio de una sustitución depende de lo que salga del plato. Aguacate en lugar de mantequilla o una salsa rica en grasa saturada cambia el perfil de la comida; aguacate añadido a una dieta que ya cubría toda su energía simplemente suma nutrientes y calorías.</p><h2>La fibra también cuenta</h2><p>Cien gramos aportan aproximadamente 6,7 g de fibra. Para comparar, una manzana mediana ronda 4 g. El aguacate combina así una cantidad relativamente alta de fibra con grasa insaturada.</p><p>Esa combinación ayuda a que sea un alimento más sustancioso de lo que su textura cremosa puede sugerir.</p><h2>¿Medio aguacate, uno entero o más?</h2><p>El tamaño hace que “un aguacate” sea una unidad poco precisa. Si la parte comestible pesa 150 g, aporta unas 240 kcal y 22 g de grasa; si pesa 200 g, se acerca a 320 kcal y 30 g de grasa.</p><p>Para alguien con necesidades energéticas altas, una pieza entera puede encajar sin problema. Para otra persona, medio puede ser una ración más práctica. No hay una cantidad universal que transforme el alimento de saludable a poco saludable.</p><h2>No es necesario comerlo a diario para obtener esas grasas</h2><p>Aceite de oliva, frutos secos, semillas y aceitunas también aportan grasas insaturadas. Variar las fuentes permite sumar otros perfiles: las nueces aportan ALA omega-3, los frutos secos más proteína y el aceite de oliva virgen extra compuestos fenólicos distintos.</p><p>Comer aguacate todos los días puede ser saludable; creer que hace falta hacerlo para llevar una dieta saludable es otra afirmación distinta.</p><h2>Qué ocurre con el peso corporal</h2><p>El aguacate no produce aumento de peso por una propiedad especial ni protege de él por ser nutritivo. Si reemplaza otro alimento de energía parecida, el cambio calórico puede ser mínimo. Si añades 160–300 kcal diarias sin desplazar nada y el resto se mantiene igual, la energía total aumenta.</p><p>Por eso es mejor pensar en sustituciones que en “superalimentos añadidos”.</p><h2>La conclusión</h2><p><strong>Sí, el aguacate puede formar parte de la dieta todos los días.</strong> Aporta grasa mayoritariamente insaturada, fibra, potasio y folato. La frecuencia no es el problema; la ración, el balance energético y el alimento al que sustituye son los factores que dan sentido a ese consumo.</p>",
+  "faq": [
+    {"question": "¿Puedo comer aguacate todos los días?", "answer": "Para la mayoría de personas, sí puede encajar en una dieta equilibrada. La cantidad y el resto de la alimentación importan más que la frecuencia diaria por sí sola."},
+    {"question": "¿Cuántas calorías tiene medio aguacate?", "answer": "Depende del tamaño. Una porción comestible de 100 g aporta unas 160 kcal; medio aguacate puede pesar menos o más que eso."},
+    {"question": "¿Qué pasa si como un aguacate entero?", "answer": "Un aguacate con 150–200 g de parte comestible puede aportar aproximadamente 240–320 kcal. Puede encajar, pero es una cantidad energética relevante."}
+  ],
+  "sources": [
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Energía, grasa, fibra, potasio y folato del aguacate."},
+    {"name": "World Health Organization — Healthy diet", "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet", "note": "Recomendaciones sobre priorizar grasas insaturadas."}
+  ],
+  "image": {
+    "concept": "Aguacate cortado en diferentes porciones sobre tostada y ensalada, fotografía editorial natural sin texto.",
+    "alt": "Raciones de aguacate dentro de comidas equilibradas"
+  },
+  "status": "publish"
+}
