@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"es-558-por-que-aceitunas-necesitan-curarse","article_number":558,"translation_group":"558-why-olives-need-curing","language":"es","locale":"es-ES","market_context":"España y Unión Europea","title":"Por qué las aceitunas necesitan curarse antes de comerse","slug":"por-que-aceitunas-necesitan-curarse","seo":{"title":"Por qué las aceitunas necesitan curarse antes de comerlas","meta_description":"La aceituna recién cogida contiene oleuropeína y es intensamente amarga. El curado con salmuera, agua o tratamiento alcalino reduce ese amargor y estabiliza el alimento.","search_intent":"Entender por qué una aceituna recién cogida no se come directamente y qué hace el curado"},"excerpt":"La mayoría de las aceitunas recién cogidas del árbol son demasiado amargas para comerlas por su contenido en oleuropeína y otros compuestos fenólicos. El curado no sirve simplemente para añadir sal: mediante salmuera, fermentación, agua o tratamientos alcalinos se elimina o transforma gran parte del amargor y se crea un producto estable y agradable. El método puede tardar desde días hasta muchos meses según el estilo.","taxonomy":{"food_family":"fermented","food_subcategories":[],"article_types":["processing-production","cooking-science","food-safety"],"primary_article_type":"processing-production"},"content_html":"<p>Morder una aceituna recién cogida del árbol suele producir una sorpresa desagradable: es extraordinariamente amarga y astringente. <strong>La razón principal es la oleuropeína, un compuesto fenólico natural que el curado debe retirar o transformar.</strong></p><p>Por eso la aceituna de mesa es, casi siempre, un alimento procesado antes de llegar al plato.</p><h2>La amargura es una característica natural del fruto</h2><p>El Consejo Oleícola Internacional explica que las aceitunas contienen relativamente poco azúcar —aproximadamente un 2,6–6%—, bastante aceite —alrededor de un 12–30% según variedad y madurez— y oleuropeína. Esa combinación hace que normalmente no sean agradables para comer directamente del árbol.</p><p>La oleuropeína no se elimina porque sea un veneno: el problema principal es sensorial. El objetivo del procesado es reducir su intenso amargor y desarrollar una textura y sabor adecuados.</p><h2>No existe un único método de curado</h2><p>Las aceitunas verdes de estilo español pueden tratarse con una solución alcalina de hidróxido sódico para acelerar la eliminación del amargor. Después se lavan y pasan a salmuera, donde puede desarrollarse una fermentación dominada por bacterias lácticas.</p><p>En otros estilos, las aceitunas entran directamente en salmuera. Microorganismos y enzimas degradan lentamente la oleuropeína, y el proceso puede durar muchos meses. También existen curados en agua o con sal seca.</p><h2>Fermentar cambia más que el amargor</h2><p>Durante una fermentación controlada, bacterias lácticas y levaduras consumen azúcares disponibles y producen ácidos y compuestos aromáticos. La bajada de pH, junto con la sal y las condiciones de almacenamiento, ayuda a estabilizar el producto.</p><p>Eso explica por qué dos aceitunas de la misma variedad pueden saber completamente distintas si una se ha curado en salmuera natural y otra mediante un proceso alcalino rápido.</p><h2>¿Cuánto tarda?</h2><p>No hay una cifra universal. Algunos procesos tratados con álcali pueden completar las etapas principales en días o semanas, mientras una fermentación natural en salmuera puede prolongarse durante meses. El Consejo Oleícola Internacional describe estilos que alcanzan varios meses de fermentación antes de estar listos.</p><h2>Curar en casa exige una receta fiable</h2><p>Especialmente cuando se utiliza hidróxido sódico, no conviene improvisar concentraciones ni tiempos: es una sustancia cáustica que requiere manipulación cuidadosa y un procedimiento probado. La fermentación en salmuera también necesita controlar sal, higiene, inmersión y acidez para evitar deterioros.</p><p><strong>La idea útil es sencilla:</strong> una aceituna de mesa no es una aceituna “lavada”. Es un fruto cuyo amargor, microbiología y sabor han sido transformados deliberadamente antes de que resulte agradable y estable para comer.</p>","faq":[{"question":"¿Se puede comer una aceituna directamente del árbol?","answer":"Normalmente es tan amarga y astringente por la oleuropeína que no resulta agradable; por eso se cura antes."},{"question":"¿Qué es la oleuropeína?","answer":"Es un compuesto fenólico natural de la aceituna responsable de buena parte de su amargor."},{"question":"¿Todas las aceitunas se fermentan?","answer":"No. Hay procesos fermentativos y otros basados en tratamientos alcalinos, agua, sal seca o combinaciones."},{"question":"¿Es seguro curar aceitunas con sosa cáustica en casa?","answer":"Solo siguiendo una receta probada y medidas de seguridad estrictas; el hidróxido sódico es cáustico y no debe dosificarse de forma improvisada."}],"sources":[{"name":"International Olive Council — Table olives","url":"https://www.internationaloliveoil.org/olive-world/table-olives/","note":"Composición básica del fruto, oleuropeína y principales métodos de procesado y curado."},{"name":"Table Olive Fermentation: An Overview on Effects on Olive Quality and Safety","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC7073621/","note":"Revisión de fermentación, microorganismos, degradación de compuestos amargos y seguridad de aceitunas de mesa."}],"image":{"concept":"Una aceituna recién cogida muy amarga que pasa por etapas de salmuera y fermentación hasta convertirse en aceituna de mesa.","alt":"Proceso de curado que transforma aceitunas recién cogidas en aceitunas listas para comer"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-558-por-que-aceitunas-necesitan-curarse",
+  "article_number": 558,
+  "translation_group": "558-why-olives-need-curing",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España y Unión Europea",
+  "title": "Por qué las aceitunas necesitan curarse antes de comerse",
+  "slug": "por-que-aceitunas-necesitan-curarse",
+  "seo": {
+    "title": "Por qué las aceitunas necesitan curarse antes de comerlas",
+    "meta_description": "La aceituna recién cogida contiene oleuropeína y es intensamente amarga. El curado con salmuera, agua o tratamiento alcalino reduce ese amargor y estabiliza el alimento.",
+    "search_intent": "Entender por qué una aceituna recién cogida no se come directamente y qué hace el curado"
+  },
+  "excerpt": "La mayoría de las aceitunas recién cogidas del árbol son demasiado amargas para comerlas por su contenido en oleuropeína y otros compuestos fenólicos. El curado no sirve simplemente para añadir sal: mediante salmuera, fermentación, agua o tratamientos alcalinos se elimina o transforma gran parte del amargor y se crea un producto estable y agradable. El método puede tardar desde días hasta muchos meses según el estilo.",
+  "taxonomy": {
+    "food_family": "fermented",
+    "food_subcategories": [],
+    "article_types": [
+      "processing-production",
+      "cooking-science",
+      "food-safety"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p>Morder una aceituna recién cogida del árbol suele producir una sorpresa desagradable: es extraordinariamente amarga y astringente. <strong>La razón principal es la oleuropeína, un compuesto fenólico natural que el curado debe retirar o transformar.</strong></p><p>Por eso la aceituna de mesa es, casi siempre, un alimento procesado antes de llegar al plato.</p><h2>La amargura es una característica natural del fruto</h2><p>El Consejo Oleícola Internacional explica que las aceitunas contienen relativamente poco azúcar —aproximadamente un 2,6–6%—, bastante aceite —alrededor de un 12–30% según variedad y madurez— y oleuropeína. Esa combinación hace que normalmente no sean agradables para comer directamente del árbol.</p><p>La oleuropeína no se elimina porque sea un veneno: el problema principal es sensorial. El objetivo del procesado es reducir su intenso amargor y desarrollar una textura y sabor adecuados.</p><h2>No existe un único método de curado</h2><p>Las aceitunas verdes de estilo español pueden tratarse con una solución alcalina de hidróxido sódico para acelerar la eliminación del amargor. Después se lavan y pasan a salmuera, donde puede desarrollarse una fermentación dominada por bacterias lácticas.</p><p>En otros estilos, las aceitunas entran directamente en salmuera. Microorganismos y enzimas degradan lentamente la oleuropeína, y el proceso puede durar muchos meses. También existen curados en agua o con sal seca.</p><h2>Fermentar cambia más que el amargor</h2><p>Durante una fermentación controlada, bacterias lácticas y levaduras consumen azúcares disponibles y producen ácidos y compuestos aromáticos. La bajada de pH, junto con la sal y las condiciones de almacenamiento, ayuda a estabilizar el producto.</p><p>Eso explica por qué dos aceitunas de la misma variedad pueden saber completamente distintas si una se ha curado en salmuera natural y otra mediante un proceso alcalino rápido.</p><h2>¿Cuánto tarda?</h2><p>No hay una cifra universal. Algunos procesos tratados con álcali pueden completar las etapas principales en días o semanas, mientras una fermentación natural en salmuera puede prolongarse durante meses. El Consejo Oleícola Internacional describe estilos que alcanzan varios meses de fermentación antes de estar listos.</p><h2>Curar en casa exige una receta fiable</h2><p>Especialmente cuando se utiliza hidróxido sódico, no conviene improvisar concentraciones ni tiempos: es una sustancia cáustica que requiere manipulación cuidadosa y un procedimiento probado. La fermentación en salmuera también necesita controlar sal, higiene, inmersión y acidez para evitar deterioros.</p><p><strong>La idea útil es sencilla:</strong> una aceituna de mesa no es una aceituna “lavada”. Es un fruto cuyo amargor, microbiología y sabor han sido transformados mediante el curado antes de que resulte agradable y estable para comer.</p>",
+  "faq": [
+    {
+      "question": "¿Se puede comer una aceituna directamente del árbol?",
+      "answer": "Normalmente es tan amarga y astringente por la oleuropeína que no resulta agradable; por eso se cura antes."
+    },
+    {
+      "question": "¿Qué es la oleuropeína?",
+      "answer": "Es un compuesto fenólico natural de la aceituna responsable de buena parte de su amargor."
+    },
+    {
+      "question": "¿Todas las aceitunas se fermentan?",
+      "answer": "No. Hay procesos fermentativos y otros basados en tratamientos alcalinos, agua, sal seca o combinaciones."
+    },
+    {
+      "question": "¿Es seguro curar aceitunas con sosa cáustica en casa?",
+      "answer": "Solo siguiendo una receta probada y medidas de seguridad estrictas; el hidróxido sódico es cáustico y no debe dosificarse de forma improvisada."
+    }
+  ],
+  "sources": [
+    {
+      "name": "International Olive Council — Table olives",
+      "url": "https://www.internationaloliveoil.org/olive-world/table-olives/",
+      "note": "Composición básica del fruto, oleuropeína y principales métodos de procesado y curado."
+    },
+    {
+      "name": "Table Olive Fermentation: An Overview on Effects on Olive Quality and Safety",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7073621/",
+      "note": "Revisión de fermentación, microorganismos, degradación de compuestos amargos y seguridad de aceitunas de mesa."
+    }
+  ],
+  "image": {
+    "concept": "Una aceituna recién cogida muy amarga que pasa por etapas de salmuera y fermentación hasta convertirse en aceituna de mesa.",
+    "alt": "Proceso de curado que transforma aceitunas recién cogidas en aceitunas listas para comer"
+  },
+  "status": "publish"
+}

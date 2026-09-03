@@ -1,1 +1,68 @@
-{"schema_version":1,"id":"en-604-honey-crystallization","article_number":604,"translation_group":"604-honey-crystallization","language":"en","locale":"en-US","market_context":"United States; honey stored at home","title":"Why does honey crystallize, and is it still safe?","slug":"why-honey-crystallizes-is-it-safe","seo":{"title":"Why honey crystallizes and whether you can still eat it","meta_description":"Crystallized honey usually is not spoiled. Glucose naturally forms crystals; learn why it happens, how to liquefy honey and when to be cautious.","search_intent":"Understand why honey becomes grainy or solid, whether crystallized honey is safe, and how to make it liquid again."},"excerpt":"Honey crystallizes when some of its glucose, which is less soluble than fructose, comes out of solution and forms crystals. It is a normal physical process and does not by itself mean honey is spoiled or adulterated. Crystallized honey is still usable; if you prefer it liquid, gentle warming in a water bath can dissolve the crystals without boiling it.","taxonomy":{"food_family":"cocoa-sweets","food_subcategories":["honey","crystallization","storage"],"article_types":["cooking-science","storage","buying-quality-ripeness"],"primary_article_type":"cooking-science"},"content_html":"<p>A jar that was clear when you bought it can develop an opaque layer at the bottom and eventually become almost spoon-solid. That change can look like spoilage. Usually it is something much simpler: <strong>one of honey's main sugars is forming crystals</strong>.</p>\n<p>Crystallized honey can be completely normal, safe, and high quality. Its physical state has changed; its basic identity has not.</p>\n<h2>Glucose is the sugar that starts coming out of solution</h2>\n<p>Typical honey contains roughly <strong>38% fructose and 30% glucose</strong>, along with about 17% water and smaller amounts of other sugars. Glucose is less soluble than fructose in that limited water. Over time, some glucose leaves the liquid phase and organizes into crystals.</p>\n<p>Once small crystals form, they provide surfaces on which more glucose can crystallize. The result may be a finely creamy honey, a coarse grainy texture, or a visible separation between solid crystals and liquid honey.</p>\n<h2>Why one honey crystallizes quickly and another stays liquid</h2>\n<p>Floral source changes the sugar balance. Honey with relatively more glucose tends to crystallize sooner, while honey with a higher fructose-to-glucose ratio generally stays liquid longer.</p>\n<p>Temperature, tiny particles such as pollen, existing seed crystals, and processing also matter. Fine filtration removes some potential nucleation sites, while heating can dissolve existing crystals and delay their return.</p>\n<h2>Can you eat crystallized honey?</h2>\n<p><strong>Yes, when crystallization is the only change.</strong> The National Honey Board describes crystallization as a natural characteristic of honey, not proof of adulteration or spoilage. Creamed honey is actually made by controlling crystal formation so the texture becomes deliberately smooth and spreadable.</p>\n<p>The texture may change dramatically, but the sugar and calories do not vanish. A tablespoon weighing about 21 g still contains roughly <strong>17 g of sugars and 64 calories</strong> whether the honey is liquid or crystallized.</p>\n<h2>How to make crystallized honey liquid again</h2>\n<p>If you prefer pourable honey, place the tightly closed jar in a bowl or pot of hot—but not boiling—water and let it warm gradually. Gentle stirring after the honey softens helps distribute heat.</p>\n<p>There is no need to boil honey or repeatedly blast it with intense heat. Prolonged high temperatures can dull aroma, reduce enzyme activity, and increase HMF, a compound used as a quality marker for heating and aging.</p>\n<h2>When the problem is not crystallization</h2>\n<p>Graininess, cloudiness, and firmness are expected crystal changes. <strong>Persistent foaming, pressure when opening, a clearly fermented odor, or known water contamination</strong> point to a different process. Honey is remarkably stable at its normal low moisture level, but certain yeasts can grow when enough water is available.</p>\n<p>Likewise, a jar contaminated by dirty utensils or other foods deserves a different assessment. A useful rule is that crystals alone are normal; gas production, fermentation, or other abnormal spoilage signs should not be dismissed as “just crystallization.”</p>\n<h2>A texture change is not a reason to waste the jar</h2>\n<p>Keep honey tightly sealed, dry, and at a reasonably stable room temperature to preserve quality. Refrigeration is usually unnecessary and can make some honeys feel firmer sooner.</p>\n<p>If the jar has turned pale and grainy but still smells and tastes normal, <strong>you do not need to throw it away because of the crystals</strong>. Eat it as-is, spread it, or warm it gently back to a liquid texture.</p>","faq":[{"question":"Is crystallized honey bad?","answer":"No, not because of crystallization alone. It is a normal physical change in glucose and does not by itself indicate spoilage or adulteration."},{"question":"Why does some honey crystallize faster?","answer":"The glucose-to-fructose balance is a major factor, along with temperature, particles in the honey, and processing. Relatively more glucose generally means faster crystallization."},{"question":"How do you liquefy crystallized honey?","answer":"Warm the closed jar gently in hot, not boiling, water. Gradual heat dissolves the crystals without the need for intense heating."}],"sources":[{"name":"USDA Agricultural Research Service — Composition of American honeys","url":"https://www.ars.usda.gov/research/publications/publication/?seqNo115=126568","note":"Average glucose, fructose, and water composition relevant to crystallization."},{"name":"National Honey Board — Honey myths and crystallization","url":"https://honey.com/images/files/NHB-Test-Myths.pdf","note":"Crystallization as a natural honey process rather than evidence of adulteration or spoilage."},{"name":"Santos-Buelga et al. — Effect of conventional and high-pressure processing on honey","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11011302/","note":"Effects of heating on HMF, enzymes, and honey properties."}],"image":{"concept":"Jar of partly crystallized creamy honey with a spoon beside a jar of clear liquid honey, natural editorial food photography without text.","alt":"Crystallized honey and liquid honey in glass jars"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-604-honey-crystallization",
+  "article_number": 604,
+  "translation_group": "604-honey-crystallization",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; honey stored at home",
+  "title": "Why does honey crystallize, and is it still safe?",
+  "slug": "why-honey-crystallizes-is-it-safe",
+  "seo": {
+    "title": "Why honey crystallizes and whether you can still eat it",
+    "meta_description": "Crystallized honey usually is not spoiled. Glucose naturally forms crystals; learn why it happens, how to liquefy honey and when to be cautious.",
+    "search_intent": "Understand why honey becomes grainy or solid, whether crystallized honey is safe, and how to make it liquid again."
+  },
+  "excerpt": "Honey crystallizes when some of its glucose, which is less soluble than fructose, comes out of solution and forms crystals. It is a normal physical process and does not by itself mean honey is spoiled or adulterated. Crystallized honey is still usable; if you prefer it liquid, gentle warming in a water bath can dissolve the crystals without boiling it.",
+  "taxonomy": {
+    "food_family": "cocoa-sweets",
+    "food_subcategories": [
+      "honey",
+      "crystallization",
+      "storage"
+    ],
+    "article_types": [
+      "cooking-science",
+      "storage",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>A jar that was clear when you bought it can develop an opaque layer at the bottom and eventually become almost spoon-solid. That change can look like spoilage. Usually it is something much simpler: <strong>one of honey's main sugars is forming crystals</strong>.</p>\n<p>Crystallized honey can be completely normal, safe, and high quality. Its physical state has changed; its basic identity has not.</p>\n<h2>Glucose is the sugar that starts coming out of solution</h2>\n<p>Typical honey contains roughly <strong>38% fructose and 30% glucose</strong>, along with about 17% water and smaller amounts of other sugars. Glucose is less soluble than fructose in that limited water. Over time, some glucose leaves the liquid phase and organizes into crystals.</p>\n<p>Once small crystals form, they provide surfaces on which more glucose can crystallize. The result may be a finely creamy honey, a coarse grainy texture, or a visible separation between solid crystals and liquid honey.</p>\n<h2>Why one honey crystallizes quickly and another stays liquid</h2>\n<p>Floral source changes the sugar balance. Honey with relatively more glucose tends to crystallize sooner, while honey with a higher fructose-to-glucose ratio generally stays liquid longer.</p>\n<p>Temperature, tiny particles such as pollen, existing seed crystals, and processing also matter. Fine filtration removes some potential nucleation sites, while heating can dissolve existing crystals and delay their return.</p>\n<h2>Can you eat crystallized honey?</h2>\n<p><strong>Yes, when crystallization is the only change.</strong> The National Honey Board describes crystallization as a natural characteristic of honey, not proof of adulteration or spoilage. Creamed honey is actually made by controlling crystal formation so the texture becomes smooth and spreadable.</p>\n<p>The texture may change dramatically, but the sugar and calories do not vanish. A tablespoon weighing about 21 g still contains roughly <strong>17 g of sugars and 64 calories</strong> whether the honey is liquid or crystallized.</p>\n<h2>How to make crystallized honey liquid again</h2>\n<p>If you prefer pourable honey, place the tightly closed jar in a bowl or pot of hot—but not boiling—water and let it warm gradually. Gentle stirring after the honey softens helps distribute heat.</p>\n<p>There is no need to boil honey or repeatedly blast it with intense heat. Prolonged high temperatures can dull aroma, reduce enzyme activity, and increase HMF, a compound used as a quality marker for heating and aging.</p>\n<h2>When the problem is not crystallization</h2>\n<p>Graininess, cloudiness, and firmness are expected crystal changes. <strong>Persistent foaming, pressure when opening, a clearly fermented odor, or known water contamination</strong> point to a different process. Honey is remarkably stable at its normal low moisture level, but certain yeasts can grow when enough water is available.</p>\n<p>Likewise, a jar contaminated by dirty utensils or other foods deserves a different assessment. A useful rule is that crystals alone are normal; gas production, fermentation, or other abnormal spoilage signs should not be dismissed as “just crystallization.”</p>\n<h2>A texture change is not a reason to waste the jar</h2>\n<p>Keep honey tightly sealed, dry, and at a reasonably stable room temperature to preserve quality. Refrigeration is usually unnecessary and can make some honeys feel firmer sooner.</p>\n<p>If the jar has turned pale and grainy but still smells and tastes normal, <strong>you do not need to throw it away because of the crystals</strong>. Eat it as-is, spread it, or warm it gently back to a liquid texture.</p>",
+  "faq": [
+    {
+      "question": "Is crystallized honey bad?",
+      "answer": "No, not because of crystallization alone. It is a normal physical change in glucose and does not by itself indicate spoilage or adulteration."
+    },
+    {
+      "question": "Why does some honey crystallize faster?",
+      "answer": "The glucose-to-fructose balance is a major factor, along with temperature, particles in the honey, and processing. Relatively more glucose generally means faster crystallization."
+    },
+    {
+      "question": "How do you liquefy crystallized honey?",
+      "answer": "Warm the closed jar gently in hot, not boiling, water. Gradual heat dissolves the crystals without the need for intense heating."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA Agricultural Research Service — Composition of American honeys",
+      "url": "https://www.ars.usda.gov/research/publications/publication/?seqNo115=126568",
+      "note": "Average glucose, fructose, and water composition relevant to crystallization."
+    },
+    {
+      "name": "National Honey Board — Honey myths and crystallization",
+      "url": "https://honey.com/images/files/NHB-Test-Myths.pdf",
+      "note": "Crystallization as a natural honey process rather than evidence of adulteration or spoilage."
+    },
+    {
+      "name": "Santos-Buelga et al. — Effect of conventional and high-pressure processing on honey",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11011302/",
+      "note": "Effects of heating on HMF, enzymes, and honey properties."
+    }
+  ],
+  "image": {
+    "concept": "Jar of partly crystallized creamy honey with a spoon beside a jar of clear liquid honey, natural editorial food photography without text.",
+    "alt": "Crystallized honey and liquid honey in glass jars"
+  },
+  "status": "publish"
+}

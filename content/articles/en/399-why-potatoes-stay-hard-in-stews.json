@@ -1,1 +1,69 @@
-{"schema_version":1,"id":"en-399-potatoes-hard-stews","article_number":399,"translation_group":"399-why-potatoes-stay-hard-in-stews","language":"en","locale":"en-US","market_context":"United States; potatoes cooked in home stews","title":"Why do potatoes stay hard in stews?","slug":"why-potatoes-stay-hard-in-stews","seo":{"title":"Why do potatoes stay hard in stews?","meta_description":"Tomatoes, wine, vinegar and lemon can slow potato softening by stabilizing cell walls. Potato type, piece size and cooking temperature matter too.","search_intent":"Explain why potatoes refuse to soften in a stew and how to fix the problem without ruining the dish."},"excerpt":"The most common reason potatoes stay firm for an unusually long time in a stew is an acidic cooking liquid. Tomatoes, wine, vinegar or lemon can slow the breakdown of cell-wall pectin. Potato type, piece size and a very low simmer matter too. In strongly acidic dishes, cook the potatoes until nearly tender before adding most of the acidic ingredients.","taxonomy":{"food_family":"tubers","food_subcategories":["potato","stew","pectin","cooking"],"article_types":["cooking-science","cooking-techniques","myths-faq"],"primary_article_type":"cooking-science"},"content_html":"<p>A stew can simmer for an hour while the meat turns tender and the potatoes still resist a fork. When that happens, the issue is often not a mysterious potato that “will not cook,” but <strong>the chemistry of the liquid surrounding it</strong>.</p><h2>Acid can keep cell walls firm</h2><p>As potatoes cook in water, cells lose adhesion and pectic substances in the cell wall change. Those changes are a major part of softening.</p><p>An acidic environment slows that process. Experimental work on cooked potatoes has shown greater firmness at lower pH, and more recent research links the effect to stabilization and gelation behavior of potato pectin.</p><p>Common acidic stew ingredients include <strong>tomatoes, wine, vinegar, lemon juice and pickled ingredients</strong>. The stew does not have to taste dramatically sour for its pH to be low enough to slow softening.</p><h2>Acid does not make potatoes indestructible</h2><p>You may hear that potatoes “never” soften in tomatoes. That is too absolute. Classic experiments found that longer cooking could eventually overcome much of the firmness created by low pH. The practical problem is that the rest of dinner may be overcooked by then.</p><p>A better strategy is to change the order: let potatoes make most of their progress in a less acidic liquid, then add tomatoes, wine or vinegar once they are nearly tender.</p><h2>Calcium can reinforce structure too</h2><p>Calcium ions can cross-link pectin chains and strengthen plant cell walls. Experimental acid-and-calcium treatments have produced very large increases in the firmness of cooked potato slices.</p><p>In an ordinary home stew, acidity is usually a more important explanation than small natural differences in water minerals, but the calcium effect helps explain why some treatments deliberately keep vegetables firm.</p><h2>Potato type matters</h2><p>Floury potatoes tend to break down and soften sooner, while waxy potatoes hold their shape. That is useful when you want intact stew pieces, but a firm waxy variety can seem underdone longer than a starchy one.</p><p>Piece size also changes timing. A ¾-inch cube and a whole small potato do not heat to the center at the same rate.</p><h2>Check the actual cooking temperature</h2><p>A pot held barely warm, or repeatedly cooled by large additions of cold ingredients, will take much longer. Aim for a genuine gentle simmer: steady heat with moderate bubbling, not a violent boil that breaks everything apart and not heat so low that cooking nearly stalls.</p><h2>What if the tomatoes are already in?</h2><p>You do not need to throw out the stew. Keep it at a gentle simmer and allow more time. If everything else is already done, remove the potatoes with some liquid, finish them separately in a less acidic cooking medium, then return them to the pot.</p><h2>The rule that prevents the problem</h2><p>For strongly acidic stews, <strong>cook the potatoes until almost tender before adding most of the acid</strong>. You still get the flavor of tomato, wine or vinegar without turning potato softening into a race against the rest of the dish.</p>","faq":[{"question":"Do tomatoes keep potatoes hard?","answer":"They can slow softening because their acidity lowers pH and stabilizes cell-wall components. The potatoes can still soften, but they may need substantially more cooking time."},{"question":"Does salt stop potatoes from cooking?","answer":"Normal household salt is usually not the main cause of persistently hard potatoes. Acidity, potato type, piece size and cooking temperature are more important factors."},{"question":"When should tomatoes be added to a potato stew?","answer":"If tender potatoes are the priority, cook them first in a less acidic liquid and add the tomatoes when the potatoes are nearly done."}],"sources":[{"name":"Journal of the Science of Food and Agriculture — Effect of ions and pH on cooked potato texture","url":"https://doi.org/10.1002/jsfa.2740260604","note":"Experiments showing increased firmness at lower pH and that longer cooking can overcome part of the effect."},{"name":"Food Chemistry — Lactic acid and calcium chloride increase cooked potato hardness","url":"https://pubmed.ncbi.nlm.nih.gov/31648093/","note":"Links cooked-potato firmness to pectin, pH, calcium and cell-wall enzyme activity."},{"name":"Journal of Food Science — pH and calcium effects on potato pectin gelation","url":"https://pubmed.ncbi.nlm.nih.gov/40205772/","note":"Recent research on potato pectin behavior under acidic conditions and in the presence of calcium."}],"image":{"concept":"Tomato-based potato stew in a pot with a fork testing a still-firm potato piece, natural editorial food photography, no text.","alt":"Potato pieces in a tomato stew being tested with a fork"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-399-potatoes-hard-stews",
+  "article_number": 399,
+  "translation_group": "399-why-potatoes-stay-hard-in-stews",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; potatoes cooked in home stews",
+  "title": "Why do potatoes stay hard in stews?",
+  "slug": "why-potatoes-stay-hard-in-stews",
+  "seo": {
+    "title": "Why do potatoes stay hard in stews?",
+    "meta_description": "Tomatoes, wine, vinegar and lemon can slow potato softening by stabilizing cell walls. Potato type, piece size and cooking temperature matter too.",
+    "search_intent": "Explain why potatoes refuse to soften in a stew and how to fix the problem without ruining the dish."
+  },
+  "excerpt": "The most common reason potatoes stay firm for an unusually long time in a stew is an acidic cooking liquid. Tomatoes, wine, vinegar or lemon can slow the breakdown of cell-wall pectin. Potato type, piece size and a very low simmer matter too. In strongly acidic dishes, cook the potatoes until nearly tender before adding most of the acidic ingredients.",
+  "taxonomy": {
+    "food_family": "tubers",
+    "food_subcategories": [
+      "potato",
+      "stew",
+      "pectin",
+      "cooking"
+    ],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques",
+      "myths-faq"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>A stew can simmer for an hour while the meat turns tender and the potatoes still resist a fork. When that happens, the issue is often not a mysterious potato that “will not cook,” but <strong>the chemistry of the liquid surrounding it</strong>.</p><h2>Acid can keep cell walls firm</h2><p>As potatoes cook in water, cells lose adhesion and pectic substances in the cell wall change. Those changes are a major part of softening.</p><p>An acidic environment slows that process. Experimental work on cooked potatoes has shown greater firmness at lower pH, and more recent research links the effect to stabilization and gelation behavior of potato pectin.</p><p>Common acidic stew ingredients include <strong>tomatoes, wine, vinegar, lemon juice and pickled ingredients</strong>. The stew does not have to taste dramatically sour for its pH to be low enough to slow softening.</p><h2>Acid does not make potatoes indestructible</h2><p>You may hear that potatoes “never” soften in tomatoes. That is too absolute. Classic experiments found that longer cooking could eventually overcome much of the firmness created by low pH. The practical problem is that the rest of dinner may be overcooked by then.</p><p>A better strategy is to change the order: let potatoes make most of their progress in a less acidic liquid, then add tomatoes, wine or vinegar once they are nearly tender.</p><h2>Calcium can reinforce structure too</h2><p>Calcium ions can cross-link pectin chains and strengthen plant cell walls. Experimental acid-and-calcium treatments have produced very large increases in the firmness of cooked potato slices.</p><p>In an ordinary home stew, acidity is usually a more important explanation than small natural differences in water minerals, but the calcium effect helps explain why some treatments are used to keep vegetables firm.</p><h2>Potato type matters</h2><p>Floury potatoes tend to break down and soften sooner, while waxy potatoes hold their shape. That is useful when you want intact stew pieces, but a firm waxy variety can seem underdone longer than a starchy one.</p><p>Piece size also changes timing. A ¾-inch cube and a whole small potato do not heat to the center at the same rate.</p><h2>Check the actual cooking temperature</h2><p>A pot held barely warm, or repeatedly cooled by large additions of cold ingredients, will take much longer. Aim for a genuine gentle simmer: steady heat with moderate bubbling, not a violent boil that breaks everything apart and not heat so low that cooking nearly stalls.</p><h2>What if the tomatoes are already in?</h2><p>You do not need to throw out the stew. Keep it at a gentle simmer and allow more time. If everything else is already done, remove the potatoes with some liquid, finish them separately in a less acidic cooking medium, then return them to the pot.</p><h2>The rule that prevents the problem</h2><p>For strongly acidic stews, <strong>cook the potatoes until almost tender before adding most of the acid</strong>. You still get the flavor of tomato, wine or vinegar without turning potato softening into a race against the rest of the dish.</p>",
+  "faq": [
+    {
+      "question": "Do tomatoes keep potatoes hard?",
+      "answer": "They can slow softening because their acidity lowers pH and stabilizes cell-wall components. The potatoes can still soften, but they may need substantially more cooking time."
+    },
+    {
+      "question": "Does salt stop potatoes from cooking?",
+      "answer": "Normal household salt is usually not the main cause of persistently hard potatoes. Acidity, potato type, piece size and cooking temperature are more important factors."
+    },
+    {
+      "question": "When should tomatoes be added to a potato stew?",
+      "answer": "If tender potatoes are the priority, cook them first in a less acidic liquid and add the tomatoes when the potatoes are nearly done."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Journal of the Science of Food and Agriculture — Effect of ions and pH on cooked potato texture",
+      "url": "https://doi.org/10.1002/jsfa.2740260604",
+      "note": "Experiments showing increased firmness at lower pH and that longer cooking can overcome part of the effect."
+    },
+    {
+      "name": "Food Chemistry — Lactic acid and calcium chloride increase cooked potato hardness",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31648093/",
+      "note": "Links cooked-potato firmness to pectin, pH, calcium and cell-wall enzyme activity."
+    },
+    {
+      "name": "Journal of Food Science — pH and calcium effects on potato pectin gelation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40205772/",
+      "note": "Recent research on potato pectin behavior under acidic conditions and in the presence of calcium."
+    }
+  ],
+  "image": {
+    "concept": "Tomato-based potato stew in a pot with a fork testing a still-firm potato piece, natural editorial food photography, no text.",
+    "alt": "Potato pieces in a tomato stew being tested with a fork"
+  },
+  "status": "publish"
+}

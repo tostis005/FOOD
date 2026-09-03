@@ -1,1 +1,64 @@
-{"schema_version":1,"id":"en-383-oil-smoke-point","article_number":383,"translation_group":"383-oil-smoke-point","language":"en","locale":"en-US","market_context":"United States; household cooking oils and fats","title":"Oil smoke point: what it is and why it matters","slug":"oil-smoke-point-what-it-is","seo":{"title":"Oil smoke point: what it is and why it matters","meta_description":"Smoke point is the temperature at which oil begins producing a thin continuous stream of visible smoke. It is useful for avoiding overheating, but it does not by itself measure oxidative stability or identify the best cooking oil.","search_intent":"Explain smoke point, what determines it, why it changes with use and why it should not be the only criterion for choosing a cooking oil."},"excerpt":"Smoke point is the minimum temperature at which an oil begins releasing a thin continuous stream of visible smoke as volatile breakdown products form. It matters because smoke signals overheating, but it is not a complete measure of heat stability. Free fatty acids, refining, fatty-acid composition, antioxidants, freshness, moisture and heating time all influence how an oil performs.","taxonomy":{"food_family":"oils-fats","food_subcategories":["cooking-oils","smoke-point","frying","heat"],"article_types":["nutrition-concepts","cooking-science","cooking-techniques"],"primary_article_type":"nutrition-concepts"},"content_html":"<p>Smoke-point charts often make oil selection look like a single-number contest: higher must mean better. That is too simple. <strong>Smoke point is a useful warning that oil is being overheated, but it does not summarize the oil's entire stability under heat.</strong></p><h2>What smoke point actually means</h2><p>Research defines smoke point as the minimum temperature at which an oil releases a thin, continuous stream of visible smoke. At that stage, volatile compounds formed through hydrolysis and thermal degradation are escaping from the oil.</p><p>Acrolein, an irritating compound formed from glycerol breakdown, can be part of that blue-gray smoke. Visible smoke is therefore not a target temperature to deliberately reach.</p><h2>One type of oil does not have one immutable number</h2><p>Smoke point depends strongly on <strong>free fatty acid content</strong>, refinement, contaminants and the oil's current condition. Higher free fatty acids generally lower the smoke point.</p><p>Two olive oils, two sunflower oils or even two batches within a category can therefore smoke at different temperatures.</p><h2>Refining usually raises smoke point</h2><p>Refining removes free fatty acids and other volatile or reactive components, so refined oils often have higher smoke points than unrefined versions of the same source.</p><p>That can be useful for high-temperature industrial cooking, but a higher smoke point does not automatically mean better oxidative stability in every frying situation.</p><h2>Why smoke point is not enough</h2><p>A recent review of frying oils notes that smoke point is <strong>not a precise indicator of an oil's susceptibility to degradation</strong>. Fatty-acid unsaturation, antioxidants, oxygen, food moisture and duration of heating all affect deterioration.</p><p>An oil can have a high initial smoke point yet oxidize relatively quickly during prolonged frying, while another oil can remain stable despite a more moderate smoke point.</p><h2>Smoke point falls as oil degrades</h2><p>Repeated frying increases free fatty acids and other breakdown compounds. As that happens, the oil may begin smoking at a lower temperature than it did when fresh.</p><p>If an oil that previously behaved normally starts smoking unusually early, its condition has changed.</p><h2>How to use smoke point in the kitchen</h2><p>Choose an oil suitable for your intended temperature, but do not heat it until it smokes just to test it. If continuous smoke appears, <strong>lower the heat and ventilate the kitchen</strong>. Use smoke point alongside stability, freshness and the specific cooking method rather than as a one-number ranking.</p>","faq":[{"question":"What is an oil's smoke point?","answer":"It is the minimum temperature at which the oil begins producing a thin continuous stream of visible smoke from volatile degradation products."},{"question":"Is the highest-smoke-point oil always best for frying?","answer":"No. Fatty-acid composition, antioxidants and oxidative stability also affect performance during heating."},{"question":"Does used oil have a lower smoke point?","answer":"It can. Repeated heating and moisture increase free fatty acids and degradation products, which can lower the temperature at which smoke appears."}],"sources":[{"name":"Foods — Vegetable Oils and Their Use for Frying: A Review","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11675685/","note":"Smoke-point definition, free-fatty-acid effects and limitations as a stability measure."},{"name":"Foods — Deciphering the Complexity of Smoke Point in Virgin Olive Oils","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC12692607/","note":"Modern study defining continuous visible smoke and identifying free fatty acids as a major determinant."}],"image":{"concept":"Cooking oil in a pan just beginning to release a thin visible stream of smoke beside a thermometer, natural editorial food photography, no text.","alt":"Cooking oil reaching its smoke point"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-383-oil-smoke-point",
+  "article_number": 383,
+  "translation_group": "383-oil-smoke-point",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; household cooking oils and fats",
+  "title": "Oil smoke point: what it is and why it matters",
+  "slug": "oil-smoke-point-what-it-is",
+  "seo": {
+    "title": "Oil smoke point: what it is and why it matters",
+    "meta_description": "Smoke point is the temperature at which oil begins producing a thin continuous stream of visible smoke. It is useful for avoiding overheating, but it does not by itself measure oxidative stability or identify the best cooking oil.",
+    "search_intent": "Explain smoke point, what determines it, why it changes with use and why it should not be the only criterion for choosing a cooking oil."
+  },
+  "excerpt": "Smoke point is the minimum temperature at which an oil begins releasing a thin continuous stream of visible smoke as volatile breakdown products form. It matters because smoke signals overheating, but it is not a complete measure of heat stability. Free fatty acids, refining, fatty-acid composition, antioxidants, freshness, moisture and heating time all influence how an oil performs.",
+  "taxonomy": {
+    "food_family": "oils-fats",
+    "food_subcategories": [
+      "cooking-oils",
+      "smoke-point",
+      "frying",
+      "heat"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Smoke-point charts often make oil selection look like a single-number contest: higher must mean better. That is too simple. <strong>Smoke point is a useful warning that oil is being overheated, but it does not summarize the oil's entire stability under heat.</strong></p><h2>What smoke point actually means</h2><p>Research defines smoke point as the minimum temperature at which an oil releases a thin, continuous stream of visible smoke. At that stage, volatile compounds formed through hydrolysis and thermal degradation are escaping from the oil.</p><p>Acrolein, an irritating compound formed from glycerol breakdown, can be part of that blue-gray smoke. Visible smoke is therefore not a target temperature to seek as a target.</p><h2>One type of oil does not have one immutable number</h2><p>Smoke point depends strongly on <strong>free fatty acid content</strong>, refinement, contaminants and the oil's current condition. Higher free fatty acids generally lower the smoke point.</p><p>Two olive oils, two sunflower oils or even two batches within a category can therefore smoke at different temperatures.</p><h2>Refining usually raises smoke point</h2><p>Refining removes free fatty acids and other volatile or reactive components, so refined oils often have higher smoke points than unrefined versions of the same source.</p><p>That can be useful for high-temperature industrial cooking, but a higher smoke point does not automatically mean better oxidative stability in every frying situation.</p><h2>Why smoke point is not enough</h2><p>A recent review of frying oils notes that smoke point is <strong>not a precise indicator of an oil's susceptibility to degradation</strong>. Fatty-acid unsaturation, antioxidants, oxygen, food moisture and duration of heating all affect deterioration.</p><p>An oil can have a high initial smoke point yet oxidize relatively quickly during prolonged frying, while another oil can remain stable despite a more moderate smoke point.</p><h2>Smoke point falls as oil degrades</h2><p>Repeated frying increases free fatty acids and other breakdown compounds. As that happens, the oil may begin smoking at a lower temperature than it did when fresh.</p><p>If an oil that previously behaved normally starts smoking unusually early, its condition has changed.</p><h2>How to use smoke point in the kitchen</h2><p>Choose an oil suitable for your intended temperature, but do not heat it until it smokes just to test it. If continuous smoke appears, <strong>lower the heat and ventilate the kitchen</strong>. Use smoke point alongside stability, freshness and the specific cooking method rather than as a one-number ranking.</p>",
+  "faq": [
+    {
+      "question": "What is an oil's smoke point?",
+      "answer": "It is the minimum temperature at which the oil begins producing a thin continuous stream of visible smoke from volatile degradation products."
+    },
+    {
+      "question": "Is the highest-smoke-point oil always best for frying?",
+      "answer": "No. Fatty-acid composition, antioxidants and oxidative stability also affect performance during heating."
+    },
+    {
+      "question": "Does used oil have a lower smoke point?",
+      "answer": "It can. Repeated heating and moisture increase free fatty acids and degradation products, which can lower the temperature at which smoke appears."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Foods — Vegetable Oils and Their Use for Frying: A Review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11675685/",
+      "note": "Smoke-point definition, free-fatty-acid effects and limitations as a stability measure."
+    },
+    {
+      "name": "Foods — Deciphering the Complexity of Smoke Point in Virgin Olive Oils",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12692607/",
+      "note": "Modern study defining continuous visible smoke and identifying free fatty acids as a major determinant."
+    }
+  ],
+  "image": {
+    "concept": "Cooking oil in a pan just beginning to release a thin visible stream of smoke beside a thermometer, natural editorial food photography, no text.",
+    "alt": "Cooking oil reaching its smoke point"
+  },
+  "status": "publish"
+}

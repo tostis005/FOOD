@@ -1,1 +1,69 @@
-{"schema_version":1,"id":"es-384-aceite-espuma-salta","article_number":384,"translation_group":"384-why-frying-oil-foams-splatters","language":"es","locale":"es-ES","market_context":"España/Unión Europea; fritura doméstica en sartén y freidora","title":"Por qué el aceite hace espuma o salta al freír","slug":"por-que-aceite-hace-espuma-salta-freir","seo":{"title":"Por qué el aceite hace espuma o salta al freír","meta_description":"El aceite salta cuando el agua del alimento se convierte rápidamente en vapor y expulsa gotas de aceite. La espuma puede estabilizarse por humedad, almidón, proteínas, migas o aceite degradado. Secar alimentos y controlar la temperatura reduce el problema.","search_intent":"Explicar por qué el aceite burbujea, salta o forma espuma al freír y cómo distinguir un burbujeo normal de un problema de humedad o aceite degradado."},"excerpt":"El chisporroteo normal de la fritura viene del agua del alimento: al tocar aceite muy caliente, se transforma rápidamente en vapor y forma burbujas. Si hay gotas de agua en la superficie o hielo, la expansión puede expulsar aceite y producir salpicaduras. La espuma persistente puede empeorar cuando almidón, proteínas, migas o productos de degradación estabilizan esas burbujas.","taxonomy":{"food_family":"oils-fats","food_subcategories":["frying","cooking-oil","water","foaming"],"article_types":["cooking-science","cooking-techniques","food-safety"],"primary_article_type":"cooking-science"},"content_html":"<p>Que el aceite burbujee alrededor de una patata o una croqueta es normal; que salte violentamente fuera de la sartén ya es otra cosa. La diferencia suele empezar con una sustancia que ni siquiera se mezcla con el aceite: <strong>el agua</strong>.</p><h2>Las burbujas son principalmente vapor</h2><p>Al introducir un alimento en aceite de fritura, el calor lleva rápidamente el agua de su superficie hacia el punto de ebullición. El líquido se convierte en vapor, sale del alimento y forma las burbujas que vemos alrededor.</p><p>Estudios de fritura a <strong>180 °C</strong> observan precisamente una vaporización casi inmediata del agua superficial y la formación de burbujas de vapor desde los primeros segundos.</p><h2>Por qué unas gotas de agua hacen saltar el aceite</h2><p>Una gota líquida atrapada bajo aceite caliente puede transformarse bruscamente en un volumen mucho mayor de vapor. Esa expansión empuja el aceite que tiene encima y lanza pequeñas gotas fuera de la sartén.</p><p>Por eso un alimento muy mojado, una sartén húmeda o cristales de hielo adheridos a un producto congelado aumentan las salpicaduras.</p><h2>Espuma y burbujeo no son exactamente lo mismo</h2><p>Las burbujas grandes que aparecen junto al alimento y desaparecen conforme pierde agua forman parte de la fritura normal. La <strong>espuma que permanece en superficie</strong> necesita además sustancias que estabilicen esas burbujas.</p><p>Almidón, proteínas, restos de rebozado y partículas finas pueden hacerlo. Un aceite muy usado también acumula compuestos de degradación y material del alimento que favorecen una espuma más persistente.</p><h2>Cómo reducir salpicaduras</h2><p>Seca la superficie de los alimentos antes de freír cuando la receta lo permita. Elimina hielo superficial visible, no llenes en exceso la sartén y utiliza un recipiente con suficiente altura para contener las burbujas.</p><p><strong>Nunca añadas agua deliberadamente a aceite caliente</strong>. Si hay un incendio de aceite, tampoco debe apagarse con agua; corta el calor si es seguro hacerlo y utiliza un método apropiado para fuego de cocina.</p><h2>Cuándo sospechar del aceite</h2><p>Si el aceite fresco solo burbujea mientras el alimento libera vapor, el comportamiento es normal. Si un aceite reutilizado desarrolla espuma persistente aun con alimentos relativamente secos, humea antes de tiempo, está muy oscuro o huele degradado, puede haber llegado el momento de sustituirlo.</p><h2>La idea práctica</h2><p><strong>Burbuja alrededor del alimento = agua escapando como vapor. Salpicadura violenta = agua entrando demasiado rápido en contacto con aceite caliente. Espuma persistente = burbujas estabilizadas por componentes del alimento o por un aceite deteriorado.</strong></p>","faq":[{"question":"¿Por qué salta el aceite al echar comida?","answer":"Porque el agua de la superficie se convierte rápidamente en vapor y puede expulsar pequeñas gotas de aceite."},{"question":"¿La espuma al freír es siempre mala?","answer":"No. Algo de burbujeo y espuma alrededor del alimento es normal; una capa persistente y creciente puede relacionarse con restos de comida, mucha humedad o aceite degradado."},{"question":"¿Cómo evitar que salte tanto?","answer":"Seca la superficie del alimento, retira hielo visible, evita introducir agua en la sartén y no sobrecargues el recipiente."}],"sources":[{"name":"Nature Communications — High-speed computed tomography of deep-fried foods","url":"https://www.nature.com/articles/s41467-025-57934-z","note":"Visualiza la conversión inmediata de agua superficial en vapor y burbujas durante fritura a 180 °C."},{"name":"Journal of Chemical Education — Spattering and Crackle of Hot Cooking Oil with Water","url":"https://eric.ed.gov/?id=EJ863177","note":"Explica la interacción agua-aceite caliente responsable del chisporroteo y las salpicaduras."},{"name":"Foods — Vegetable Oils and Their Use for Frying: A Review","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11675685/","note":"Degradación del aceite durante fritura repetida y acumulación de productos de hidrólisis y oxidación."}],"image":{"concept":"Sartén con alimento friéndose, burbujas normales alrededor y pequeñas salpicaduras contenidas por una pantalla antisalpicaduras, fotografía editorial natural sin texto.","alt":"Aceite burbujeando y salpicando durante una fritura"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-384-aceite-espuma-salta",
+  "article_number": 384,
+  "translation_group": "384-why-frying-oil-foams-splatters",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; fritura doméstica en sartén y freidora",
+  "title": "Por qué el aceite hace espuma o salta al freír",
+  "slug": "por-que-aceite-hace-espuma-salta-freir",
+  "seo": {
+    "title": "Por qué el aceite hace espuma o salta al freír",
+    "meta_description": "El aceite salta cuando el agua del alimento se convierte rápidamente en vapor y expulsa gotas de aceite. La espuma puede estabilizarse por humedad, almidón, proteínas, migas o aceite degradado. Secar alimentos y controlar la temperatura reduce el problema.",
+    "search_intent": "Explicar por qué el aceite burbujea, salta o forma espuma al freír y cómo distinguir un burbujeo normal de un problema de humedad o aceite degradado."
+  },
+  "excerpt": "El chisporroteo normal de la fritura viene del agua del alimento: al tocar aceite muy caliente, se transforma rápidamente en vapor y forma burbujas. Si hay gotas de agua en la superficie o hielo, la expansión puede expulsar aceite y producir salpicaduras. La espuma persistente puede empeorar cuando almidón, proteínas, migas o productos de degradación estabilizan esas burbujas.",
+  "taxonomy": {
+    "food_family": "oils-fats",
+    "food_subcategories": [
+      "frying",
+      "cooking-oil",
+      "water",
+      "foaming"
+    ],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>Que el aceite burbujee alrededor de una patata o una croqueta es normal; que salte violentamente fuera de la sartén ya es otra cosa. La diferencia suele empezar con una sustancia que ni siquiera se mezcla con el aceite: <strong>el agua</strong>.</p><h2>Las burbujas son principalmente vapor</h2><p>Al introducir un alimento en aceite de fritura, el calor lleva rápidamente el agua de su superficie hacia el punto de ebullición. El líquido se convierte en vapor, sale del alimento y forma las burbujas que vemos alrededor.</p><p>Estudios de fritura a <strong>180 °C</strong> observan precisamente una vaporización casi inmediata del agua superficial y la formación de burbujas de vapor desde los primeros segundos.</p><h2>Por qué unas gotas de agua hacen saltar el aceite</h2><p>Una gota líquida atrapada bajo aceite caliente puede transformarse bruscamente en un volumen mucho mayor de vapor. Esa expansión empuja el aceite que tiene encima y lanza pequeñas gotas fuera de la sartén.</p><p>Por eso un alimento muy mojado, una sartén húmeda o cristales de hielo adheridos a un producto congelado aumentan las salpicaduras.</p><h2>Espuma y burbujeo no son exactamente lo mismo</h2><p>Las burbujas grandes que aparecen junto al alimento y desaparecen conforme pierde agua forman parte de la fritura normal. La <strong>espuma que permanece en superficie</strong> necesita además sustancias que estabilicen esas burbujas.</p><p>Almidón, proteínas, restos de rebozado y partículas finas pueden hacerlo. Un aceite muy usado también acumula compuestos de degradación y material del alimento que favorecen una espuma más persistente.</p><h2>Cómo reducir salpicaduras</h2><p>Seca la superficie de los alimentos antes de freír cuando la receta lo permita. Elimina hielo superficial visible, no llenes en exceso la sartén y utiliza un recipiente con suficiente altura para contener las burbujas.</p><p><strong>Nunca añadas agua a aceite caliente</strong>. Si hay un incendio de aceite, tampoco debe apagarse con agua; corta el calor si es seguro hacerlo y utiliza un método apropiado para fuego de cocina.</p><h2>Cuándo sospechar del aceite</h2><p>Si el aceite fresco solo burbujea mientras el alimento libera vapor, el comportamiento es normal. Si un aceite reutilizado desarrolla espuma persistente aun con alimentos relativamente secos, humea antes de tiempo, está muy oscuro o huele degradado, puede haber llegado el momento de sustituirlo.</p><h2>La idea práctica</h2><p><strong>Burbuja alrededor del alimento = agua escapando como vapor. Salpicadura violenta = agua entrando demasiado rápido en contacto con aceite caliente. Espuma persistente = burbujas estabilizadas por componentes del alimento o por un aceite deteriorado.</strong></p>",
+  "faq": [
+    {
+      "question": "¿Por qué salta el aceite al echar comida?",
+      "answer": "Porque el agua de la superficie se convierte rápidamente en vapor y puede expulsar pequeñas gotas de aceite."
+    },
+    {
+      "question": "¿La espuma al freír es siempre mala?",
+      "answer": "No. Algo de burbujeo y espuma alrededor del alimento es normal; una capa persistente y creciente puede relacionarse con restos de comida, mucha humedad o aceite degradado."
+    },
+    {
+      "question": "¿Cómo evitar que salte tanto?",
+      "answer": "Seca la superficie del alimento, retira hielo visible, evita introducir agua en la sartén y no sobrecargues el recipiente."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Nature Communications — High-speed computed tomography of deep-fried foods",
+      "url": "https://www.nature.com/articles/s41467-025-57934-z",
+      "note": "Visualiza la conversión inmediata de agua superficial en vapor y burbujas durante fritura a 180 °C."
+    },
+    {
+      "name": "Journal of Chemical Education — Spattering and Crackle of Hot Cooking Oil with Water",
+      "url": "https://eric.ed.gov/?id=EJ863177",
+      "note": "Explica la interacción agua-aceite caliente responsable del chisporroteo y las salpicaduras."
+    },
+    {
+      "name": "Foods — Vegetable Oils and Their Use for Frying: A Review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11675685/",
+      "note": "Degradación del aceite durante fritura repetida y acumulación de productos de hidrólisis y oxidación."
+    }
+  ],
+  "image": {
+    "concept": "Sartén con alimento friéndose, burbujas normales alrededor y pequeñas salpicaduras contenidas por una pantalla antisalpicaduras, fotografía editorial natural sin texto.",
+    "alt": "Aceite burbujeando y salpicando durante una fritura"
+  },
+  "status": "publish"
+}
