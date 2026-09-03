@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-073-hay-que-lavar-arroz-antes-cocinar",
+  "article_number": 73,
+  "translation_group": "073-should-you-rinse-rice-before-cooking",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; lavado culinario del arroz y contexto FDA sobre arsénico",
+  "title": "¿Hay que lavar el arroz antes de cocinarlo?",
+  "slug": "hay-que-lavar-arroz-antes-cocinar",
+  "seo": {
+    "title": "¿Hay que lavar el arroz antes de cocinarlo?",
+    "meta_description": "Lavar arroz puede retirar almidón superficial y ayudar a que algunos granos queden más sueltos, pero no es obligatorio ni elimina de forma importante el arsénico.",
+    "search_intent": "Saber cuándo conviene enjuagar el arroz, qué cambia en la textura y qué efecto real tiene sobre almidón, nutrientes y arsénico."
+  },
+  "excerpt": "No es obligatorio lavar todo el arroz. En basmati y otros arroces de grano largo, enjuagar hasta que el agua salga menos turbia puede retirar almidón superficial y favorecer granos más sueltos. En risotto, paella u otras recetas el método puede ser distinto. El lavado normal tiene un efecto mínimo sobre el arsénico inorgánico; para reducirlo de forma apreciable se necesita cocinar con mucha agua y escurrir, un método que también puede arrastrar nutrientes.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": ["rice"],
+    "article_types": ["cooking-science", "kitchen-technique", "myths-faq"],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>Hay recetas que empiezan con “lava el arroz hasta que el agua salga clara” y otras que lo llevan seco directamente a la cazuela. Las dos pueden ser correctas. <strong>Lavar el arroz es sobre todo una decisión de textura y técnica, no un requisito universal de seguridad.</strong></p><h2>Qué elimina realmente el agua blanca del lavado</h2><p>Durante el procesado y el transporte, los granos rozan entre sí y dejan polvo fino y almidón sobre la superficie. Al enjuagarlos, parte de ese material pasa al agua y la vuelve blanquecina.</p><p>El lavado no extrae el almidón que forma el interior del grano. Por eso un arroz muy rico en amilopectina seguirá siendo adhesivo aunque lo laves varias veces.</p><h2>Para basmati y grano largo, lavar puede ayudar a que quede más suelto</h2><p>Si el objetivo son granos separados, retirar almidón superficial reduce una de las fuentes de pegajosidad. Dos o tres enjuagues suaves suelen ser suficientes; no es necesario gastar litros de agua buscando una transparencia perfecta.</p><p>La cantidad de agua de cocción y no sobrecocer siguen siendo más importantes. Un arroz lavado con demasiada agua puede quedar igualmente pastoso.</p><h2>En risotto o ciertas recetas, no siempre interesa lavar</h2><p>El risotto busca precisamente una fase líquida cremosa rica en almidón, por lo que lavar intensamente el arroz puede ir contra el resultado deseado. En paella y otros arroces españoles, muchas recetas tradicionales tampoco incluyen lavado previo.</p><p>Eso no significa que lavar “estropee” automáticamente esos arroces; significa que la técnica debe servir a la textura de la receta.</p><h2>¿Lavar el arroz elimina el arsénico?</h2><p>Según investigaciones de FDA, un enjuague normal antes de cocinar tiene un <strong>efecto mínimo sobre el arsénico inorgánico</strong> del arroz cocido. No es una estrategia eficaz si esa es la razón principal para lavarlo.</p><p>El método con efecto mayor es cocer el arroz como pasta, usando aproximadamente 6–10 partes de agua por 1 de arroz y después escurrir. FDA ha observado reducciones de alrededor del 40–60 % del arsénico inorgánico según el tipo de arroz.</p><h2>El método de mucha agua también puede arrastrar nutrientes</h2><p>En arroz blanco enriquecido, FDA encontró pérdidas de aproximadamente 50–70 % de hierro, folato, niacina y tiamina añadidos cuando se cocinaba con exceso de agua y se escurría.</p><p>En España el enriquecimiento no es idéntico al de Estados Unidos, por lo que el impacto depende del producto. La idea general es que eliminar compuestos con agua también puede eliminar nutrientes solubles.</p><h2>Lavar no esteriliza el arroz</h2><p>El arroz crudo puede contener esporas de <em>Bacillus cereus</em>; un enjuague no es un tratamiento de seguridad capaz de eliminarlas. La gestión importante ocurre después de cocinar: enfriar rápido y refrigerar pronto si no se va a comer inmediatamente.</p><p>Por tanto, “lo he lavado muy bien” no cambia las reglas de conservación del arroz cocido.</p><h2>¿Qué hacer con arroz enriquecido o preparado comercialmente?</h2><p>Si el paquete indica que no debe lavarse, sigue las instrucciones. Algunos arroces llevan nutrientes añadidos o han sido tratados para un método de cocción concreto.</p><p>La etiqueta del producto puede ser más relevante que una norma genérica de internet.</p><h2>La regla práctica</h2><p><strong>Lava si quieres retirar almidón superficial y la receta busca grano suelto; no lo conviertas en un ritual obligatorio para todos los arroces.</strong></p><p>Y si la preocupación es el arsénico, el simple lavado no es la herramienta principal: la variedad de la dieta y, cuando tenga sentido, la cocción con exceso de agua tienen un efecto mucho mayor.</p>",
+  "faq": [
+    {"question": "¿Cuántas veces hay que lavar el arroz?", "answer": "Para arroz largo, dos o tres enjuagues suaves suelen retirar buena parte del almidón superficial. No es necesario que el agua quede absolutamente transparente."},
+    {"question": "¿Lavar el arroz elimina el arsénico?", "answer": "Muy poco. FDA indica que el enjuague normal tiene un efecto mínimo; cocinar con 6–10 partes de agua y escurrir puede reducir alrededor del 40–60 %."},
+    {"question": "¿Hay que lavar el arroz para paella o risotto?", "answer": "No necesariamente. Son técnicas donde el manejo del almidón y la textura buscada son distintos; sigue el método de la receta y del tipo de arroz."}
+  ],
+  "sources": [
+    {"name": "FDA — What You Can Do to Limit Exposure to Arsenic", "url": "https://www.fda.gov/food/environmental-contaminants-food/what-you-can-do-limit-exposure-arsenic", "note": "Efecto mínimo del enjuague y reducción de arsénico con cocción en exceso de agua."},
+    {"name": "International Rice Research Institute", "url": "https://www.irri.org/", "note": "Almidón, variedades y propiedades culinarias del arroz."}
+  ],
+  "image": {
+    "concept": "Arroz de grano largo siendo enjuagado en un colador con agua blanquecina saliendo debajo, fotografía editorial limpia sin texto.",
+    "alt": "Arroz siendo lavado antes de cocinar"
+  },
+  "status": "publish"
+}
