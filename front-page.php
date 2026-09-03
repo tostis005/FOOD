@@ -3,6 +3,8 @@ get_header();
 
 $english      = function_exists( 'food_is_english' ) && food_is_english();
 $language_url = function_exists( 'food_language_home_url' ) ? food_language_home_url() : home_url( '/' );
+$foods_directory_url = function_exists( 'food_directory_url' ) ? food_directory_url( 'foods' ) : food_category_url( 'alimentos', $english ? 'Foods' : 'Alimentos' );
+$topics_directory_url = function_exists( 'food_directory_url' ) ? food_directory_url( 'topics' ) : $language_url;
 $feature_post = food_get_home_feature_post();
 $feature_id   = $feature_post instanceof WP_Post ? (int) $feature_post->ID : 0;
 $feature_food = $feature_id ? food_get_primary_food_category( $feature_id ) : null;
@@ -55,10 +57,8 @@ $topic_descriptions_en = array(
 			</form>
 			<nav class="hero-topic-links" aria-label="<?php echo esc_attr( $english ? 'Explore Quinnoa' : 'Explorar Quinnoa' ); ?>">
 				<span><?php echo esc_html( $english ? 'Explore' : 'Explora' ); ?></span>
-				<a href="<?php echo esc_url( food_topic_url( 'seguridad-alimentaria', 'Food safety' ) ); ?>"><?php echo esc_html( $english ? 'Food safety' : 'Seguridad alimentaria' ); ?></a>
-				<a href="<?php echo esc_url( food_topic_url( 'nutricion-composicion', 'Nutrition' ) ); ?>"><?php echo esc_html( $english ? 'Nutrition' : 'Nutrición' ); ?></a>
-				<a href="<?php echo esc_url( food_topic_url( 'cocina-ciencia-alimentos', 'Cooking' ) ); ?>"><?php echo esc_html( $english ? 'Cooking' : 'Cocina' ); ?></a>
-				<a href="<?php echo esc_url( food_topic_url( 'conservacion-almacenamiento', 'Storage' ) ); ?>"><?php echo esc_html( $english ? 'Storage' : 'Conservación' ); ?></a>
+				<a href="<?php echo esc_url( $foods_directory_url ); ?>"><?php echo esc_html( $english ? 'By food' : 'Por alimento' ); ?></a>
+				<a href="<?php echo esc_url( $topics_directory_url ); ?>"><?php echo esc_html( $english ? 'By topic' : 'Por tema' ); ?></a>
 			</nav>
 		</div>
 
@@ -152,7 +152,7 @@ $topic_descriptions_en = array(
 
 <?php if ( is_active_sidebar( 'home-ad' ) ) : ?><div class="container ad-slot"><?php dynamic_sidebar( 'home-ad' ); ?></div><?php endif; ?>
 
-<section class="section latest-guides latest-guides-v5">
+<section class="section latest-guides latest-guides-v5" id="ultimos-articulos">
 	<div class="container">
 		<div class="section-head section-head-v5"><div><div class="eyebrow"><?php echo esc_html( $english ? 'New reads' : 'Nuevas lecturas' ); ?></div><h2><?php echo esc_html( $english ? 'Latest articles' : 'Últimos artículos' ); ?></h2></div></div>
 		<div class="card-grid">
