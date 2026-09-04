@@ -70,6 +70,22 @@ if ( file_exists( $food_seo_v2 ) ) {
 <head>
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script>
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('consent', 'default', {
+			'ad_storage': 'denied',
+			'ad_user_data': 'denied',
+			'ad_personalization': 'denied',
+			'analytics_storage': 'denied'
+		});
+		gtag('js', new Date());
+		gtag('config', 'G-G883FS1RZP', {
+			'allow_google_signals': false,
+			'allow_ad_personalization_signals': false
+		});
+	</script>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-G883FS1RZP"></script>
 	<?php wp_head(); ?>
 	<?php $food_ui_css = get_template_directory() . '/assets/css/quinnoa-ui.css'; ?>
 	<?php if ( file_exists( $food_ui_css ) ) : ?>
