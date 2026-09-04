@@ -1,0 +1,80 @@
+name: Audit live Quinnoa frontend
+
+on:
+  workflow_run:
+    workflows:
+      - Deploy FOOD theme to WordPress
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  live-audit:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Configure SSH
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
+        run: |
+          set -euo pipefail
+          mkdir -p ~/.ssh
+          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_live_audit_key
+          chmod 600 ~/.ssh/food_live_audit_key
+          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
+
+      - name: Resolve WordPress public URL
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+
+          WP_CONFIGS="$(
+            ssh -i ~/.ssh/food_live_audit_key "$VPS_USER@$VPS_HOST" '
+              for base in /var/www /home /srv/www /usr/share/nginx/html; do
+                if [ -d "$base" ]; then
+                  find "$base" -maxdepth 7 -type f -name wp-config.php 2>/dev/null
+                fi
+              done
+            ' | sort -u
+          )"
+
+          COUNT="$(printf '%s\n' "$WP_CONFIGS" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [ -z "$WP_CONFIGS" ] || [ "$COUNT" -ne 1 ]; then
+            echo "ERROR: No se ha podido identificar una única instalación de WordPress."
+            printf '%s\n' "$WP_CONFIGS"
+            exit 1
+          fi
+
+          WP_ROOT="${WP_CONFIGS%/wp-config.php}"
+          SITE_URL="$(
+            ssh -i ~/.ssh/food_live_audit_key "$VPS_USER@$VPS_HOST" \
+              "WP_ROOT='$WP_ROOT' php -r 'define(\"WP_USE_THEMES\", false); require getenv(\"WP_ROOT\") . \"/wp-load.php\"; echo home_url(\"/\");'"
+          )"
+
+          if [[ ! "$SITE_URL" =~ ^https?:// ]]; then
+            echo "ERROR: WordPress devolvió una URL pública no válida: $SITE_URL"
+            exit 1
+          fi
+
+          echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
+          echo "URL pública de WordPress: $SITE_URL"
+
+      - name: Verify live GA4 tag and consent defaults
+        run: |
+          set -euo pipefail
+          curl --fail --silent --show-error --location \
+            --user-agent 'Quinnoa live deployment audit/1.0' \
+            "$SITE_URL" > /tmp/quinnoa-live-home.html
+
+          grep -F 'googletagmanager.com/gtag/js?id=G-G883FS1RZP' /tmp/quinnoa-live-home.html
+          grep -F "gtag('config', 'G-G883FS1RZP'" /tmp/quinnoa-live-home.html
+          grep -F "'analytics_storage': 'denied'" /tmp/quinnoa-live-home.html
+          grep -F "'ad_storage': 'denied'" /tmp/quinnoa-live-home.html
+          grep -F "'ad_user_data': 'denied'" /tmp/quinnoa-live-home.html
+          grep -F "'ad_personalization': 'denied'" /tmp/quinnoa-live-home.html
+
+          echo "GA4 cookieless tag verified on the public WordPress frontend: $SITE_URL"
