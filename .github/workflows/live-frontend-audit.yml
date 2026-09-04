@@ -128,3 +128,61 @@ jobs:
           grep -F "'ad_personalization': 'denied'" /tmp/quinnoa-live-home.html
 
           echo "GA4 cookieless tag verified on the public WordPress frontend: $SITE_URL"
+
+      - name: Verify GA4 executes in a real browser without analytics cookies
+        run: |
+          set -euo pipefail
+
+          CHROME="$(command -v google-chrome || command -v chromium-browser || command -v chromium || true)"
+          if [ -z "$CHROME" ]; then
+            echo "ERROR: No se ha encontrado Chrome/Chromium en el runner."
+            exit 1
+          fi
+
+          rm -rf /tmp/quinnoa-chrome-profile /tmp/quinnoa-netlog.json
+          mkdir -p /tmp/quinnoa-chrome-profile
+
+          "$CHROME" \
+            --headless=new \
+            --no-sandbox \
+            --disable-gpu \
+            --disable-background-networking \
+            --user-data-dir=/tmp/quinnoa-chrome-profile \
+            --virtual-time-budget=8000 \
+            --log-net-log=/tmp/quinnoa-netlog.json \
+            --net-log-capture-mode=IncludeSensitive \
+            "$SITE_URL" \
+            >/tmp/quinnoa-chrome.out 2>/tmp/quinnoa-chrome.err || {
+              cat /tmp/quinnoa-chrome.err
+              exit 1
+            }
+
+          python3 - <<'PY'
+          from pathlib import Path
+
+          netlog = Path('/tmp/quinnoa-netlog.json').read_text(encoding='utf-8', errors='ignore')
+          required = [
+              'googletagmanager.com/gtag/js?id=G-G883FS1RZP',
+              'google-analytics.com/g/collect',
+          ]
+          missing = [needle for needle in required if needle not in netlog]
+          if missing:
+              raise SystemExit('Missing browser network requests: ' + ', '.join(missing))
+
+          profile = Path('/tmp/quinnoa-chrome-profile')
+          cookie_hits = []
+          for path in profile.rglob('*'):
+              if not path.is_file():
+                  continue
+              try:
+                  data = path.read_bytes()
+              except OSError:
+                  continue
+              if b'_ga' in data:
+                  cookie_hits.append(str(path))
+
+          if cookie_hits:
+              raise SystemExit('Unexpected _ga cookie/storage marker found in browser profile: ' + ', '.join(cookie_hits[:10]))
+
+          print('Browser loaded gtag.js, sent a GA4 collect request, and no _ga cookie/storage marker was found.')
+          PY
