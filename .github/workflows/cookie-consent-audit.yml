@@ -63,6 +63,7 @@ jobs:
               if not banner.is_displayed():
                   raise AssertionError('Spanish banner is not visible on a fresh visit')
               text = banner.text
+              print('SPANISH_BANNER=' + repr(text), flush=True)
               for expected in ('cookies analíticas', 'Configurar', 'Rechazar', 'Aceptar'):
                   if expected not in text:
                       raise AssertionError(f'Missing Spanish banner text: {expected!r}')
@@ -118,6 +119,7 @@ jobs:
               if not banner.is_displayed():
                   raise AssertionError('English banner is not visible on a fresh visit')
               text = banner.text
+              print('ENGLISH_BANNER=' + repr(text), flush=True)
               for expected in ('analytics cookies', 'Settings', 'Reject', 'Accept'):
                   if expected not in text:
                       raise AssertionError(f'Missing English banner text: {expected!r}')
@@ -126,6 +128,7 @@ jobs:
               settings = d.find_element(By.ID, 'quinnoa-cookie-settings')
               if not settings.is_displayed():
                   raise AssertionError('English cookie settings did not open')
+              print('ENGLISH_SETTINGS=' + repr(settings.text), flush=True)
               for expected in ('Cookie preferences', 'Necessary', 'Analytics', 'Save preferences'):
                   if expected not in settings.text:
                       raise AssertionError(f'Missing English settings text: {expected!r}')
