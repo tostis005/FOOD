@@ -55,6 +55,20 @@ jobs:
           done
           test -s "$output"
 
+      - name: Stage internal link map for runtime
+        shell: bash
+        run: |
+          set -euo pipefail
+          SOURCE='content/articles/INTERNAL-LINK-MAP.json'
+          TARGET='inc/data/internal-link-map.json'
+
+          test -s "$SOURCE"
+          php -r '$data = json_decode(file_get_contents($argv[1]), true, 512, JSON_THROW_ON_ERROR); if (!is_array($data) || empty($data)) { fwrite(STDERR, "Internal link map is empty.\n"); exit(1); }' "$SOURCE"
+
+          mkdir -p "$(dirname "$TARGET")"
+          cp "$SOURCE" "$TARGET"
+          cmp -s "$SOURCE" "$TARGET"
+
       - name: Validate theme PHP before deploy
         run: |
           set -euo pipefail
@@ -176,6 +190,16 @@ jobs:
         run: |
           set -euo pipefail
           TARGET="$WP_ROOT/wp-content/themes/food"
-          ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" \
-            "test -f '$TARGET/style.css' && test -f '$TARGET/functions.php' && test -s '$TARGET/assets/css/quinnoa-ui.css'"
-          echo "FOOD desplegado correctamente en $TARGET"
+          LOCAL_MAP_SHA="$(sha256sum inc/data/internal-link-map.json | awk '{print $1}')"
+          REMOTE_MAP_SHA="$(
+            ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" \
+              "test -f '$TARGET/style.css' && test -f '$TARGET/functions.php' && test -s '$TARGET/assets/css/quinnoa-ui.css' && test -s '$TARGET/inc/data/internal-link-map.json' && sha256sum '$TARGET/inc/data/internal-link-map.json'" \
+              | awk '{print $1}'
+          )"
+
+          if [ "$LOCAL_MAP_SHA" != "$REMOTE_MAP_SHA" ]; then
+            echo "ERROR: El mapa de enlaces internos desplegado no coincide con la fuente."
+            exit 1
+          fi
+
+          echo "FOOD desplegado correctamente en $TARGET con mapa de enlaces internos verificado"
