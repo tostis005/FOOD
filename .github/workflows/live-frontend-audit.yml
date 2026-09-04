@@ -52,7 +52,57 @@ jobs:
           WP_ROOT="${WP_CONFIGS%/wp-config.php}"
           SITE_URL="$(
             ssh -i ~/.ssh/food_live_audit_key "$VPS_USER@$VPS_HOST" \
-              "WP_ROOT='$WP_ROOT' php -r 'define(\"WP_USE_THEMES\", false); require getenv(\"WP_ROOT\") . \"/wp-load.php\"; echo home_url(\"/\");'"
+              "WP_ROOT='$WP_ROOT' bash -s" <<'REMOTE'
+          set -euo pipefail
+
+          print_home_url() {
+            WP_ROOT="$1" php -r 'define("WP_USE_THEMES", false); require getenv("WP_ROOT") . "/wp-load.php"; echo home_url("/");'
+          }
+
+          if command -v php >/dev/null 2>&1; then
+            print_home_url "$WP_ROOT"
+            exit 0
+          fi
+
+          if ! command -v docker >/dev/null 2>&1 || ! docker ps >/dev/null 2>&1; then
+            echo "ERROR: No hay PHP utilizable ni acceso a Docker para consultar WordPress." >&2
+            exit 1
+          fi
+
+          CANDIDATES=""
+          while read -r CID; do
+            [ -z "$CID" ] && continue
+            CROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then
+                  echo "$p"
+                  exit 0
+                fi
+              done
+              FOUND="$(find /var/www /app -maxdepth 5 -type f -name wp-load.php 2>/dev/null | head -n 1)"
+              [ -n "$FOUND" ] && dirname "$FOUND"
+            ' 2>/dev/null || true)"
+
+            if [ -n "$CROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              CANDIDATES="${CANDIDATES}${CID}|${CROOT}\n"
+            fi
+          done < <(docker ps -q)
+
+          CANDIDATE_COUNT="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [ "$CANDIDATE_COUNT" -ne 1 ]; then
+            echo "ERROR: Se esperaba un único contenedor WordPress con PHP y se encontraron $CANDIDATE_COUNT." >&2
+            exit 1
+          fi
+
+          CANDIDATE="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | head -n 1)"
+          CONTAINER_ID="${CANDIDATE%%|*}"
+          CONTAINER_WP_ROOT="${CANDIDATE#*|}"
+
+          docker exec \
+            -e WP_ROOT="$CONTAINER_WP_ROOT" \
+            "$CONTAINER_ID" \
+            php -r 'define("WP_USE_THEMES", false); require getenv("WP_ROOT") . "/wp-load.php"; echo home_url("/");'
+          REMOTE
           )"
 
           if [[ ! "$SITE_URL" =~ ^https?:// ]]; then
