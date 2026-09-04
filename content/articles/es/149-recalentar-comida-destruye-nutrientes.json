@@ -16,41 +16,19 @@
   "excerpt": "Recalentar puede causar pérdidas adicionales de vitaminas sensibles al calor y al agua —sobre todo vitamina C y parte del folato—, pero no 'vacía' el alimento de nutrientes. Proteínas, carbohidratos, grasas y minerales siguen presentes en gran medida. El efecto depende de cuánto tiempo se caliente, a qué temperatura y si se desecha agua de cocción.",
   "taxonomy": {
     "food_family": "general",
-    "food_subcategories": [
-      "cooking"
-    ],
-    "article_types": [
-      "cooking-science",
-      "myths-faq"
-    ],
+    "food_subcategories": ["cooking"],
+    "article_types": ["cooking-science", "myths-faq"],
     "primary_article_type": "cooking-science"
   },
-  "content_html": "<p>Un táper recalentado no se convierte en calorías vacías. El calor puede degradar algunos compuestos, pero cada nutriente responde de forma distinta.</p><h2>Las vitaminas hidrosolubles son las más sensibles</h2><p>Vitamina C y folato pueden perderse con calor prolongado y, si el alimento se cocina o recalienta en agua que luego se tira, también por lixiviación. Una segunda exposición al calor puede añadir algo de pérdida, pero no existe un porcentaje universal.</p><h2>Proteína y minerales no desaparecen</h2><p>El calor desnaturaliza proteínas —cambia su forma—, pero eso no significa que elimine sus aminoácidos. Hierro, calcio, potasio y otros minerales tampoco se destruyen por la temperatura doméstica, aunque algunos pueden pasar al líquido de cocción.</p><table><thead><tr><th>Componente</th><th>Qué puede ocurrir al recalentar</th></tr></thead><tbody><tr><td>Vitamina C/folato</td><td>Pérdidas adicionales si hay mucho calor/tiempo</td></tr><tr><td>Proteína</td><td>Desnaturalización, cantidad global similar</td></tr><tr><td>Minerales</td><td>No se destruyen; pueden migrar al líquido</td></tr><tr><td>Grasa</td><td>Puede oxidarse más con calor intenso/repetido</td></tr></tbody></table><h2>El método importa</h2><p>Recalentar solo hasta que el alimento quede seguro y caliente suele exponerlo menos tiempo que volver a hervirlo durante muchos minutos. Microondas, sartén u horno pueden conservar bien nutrientes si se evita un calentamiento innecesariamente largo.</p><h2>Seguridad antes que la pequeña diferencia nutricional</h2><p>No conviene comer una sobra fría o templada de forma insegura para “proteger vitaminas”. En alimentos que deban recalentarse, la seguridad microbiológica pesa más que una pérdida marginal de vitamina C.</p><h2>Tiempo, temperatura y agua explican la mayor parte de las pérdidas</h2><p>Recalentar brevemente una ración no equivale a hervirla durante media hora. Las vitaminas más sensibles sufren más con exposiciones prolongadas, temperaturas altas y contacto con agua que después se desecha. Proteína, grasa, carbohidratos y minerales son mucho más estables. En sobras, por tanto, la seguridad del recalentamiento suele pesar más que intentar conservar hasta el último porcentaje de una vitamina.</p><h2>La conclusión</h2><p>Recalentar añade cierta pérdida en nutrientes sensibles, pero la mayor parte del valor nutricional permanece. Cocina y recalienta el tiempo necesario, conserva los líquidos cuando formen parte del plato y evita ciclos repetidos por razones de calidad y seguridad.</p>",
+  "content_html": "<p>Un táper recalentado no se convierte en calorías vacías. El calor puede degradar algunos compuestos, pero cada nutriente responde de forma distinta.</p><h2>Las vitaminas hidrosolubles son las más sensibles</h2><p>Vitamina C y folato pueden perderse con calor prolongado y, si el alimento se cocina o recalienta en agua que luego se tira, también por lixiviación. Una segunda exposición al calor puede añadir algo de pérdida, pero no existe un porcentaje universal.</p><h2>Proteína y minerales no desaparecen</h2><p>El calor desnaturaliza proteínas —cambia su forma—, pero eso no significa que elimine sus aminoácidos. Hierro, calcio, potasio y otros minerales tampoco se destruyen por la temperatura doméstica, aunque algunos pueden pasar al líquido de cocción.</p><table><thead><tr><th>Componente</th><th>Qué puede ocurrir al recalentar</th></tr></thead><tbody><tr><td>Vitamina C/folato</td><td>Pérdidas adicionales si hay mucho calor/tiempo</td></tr><tr><td>Proteína</td><td>Desnaturalización, cantidad global similar</td></tr><tr><td>Minerales</td><td>No se destruyen; pueden migrar al líquido</td></tr><tr><td>Grasa</td><td>Puede oxidarse más con calor intenso/repetido</td></tr></tbody></table><h2>El método importa</h2><p>Recalentar solo hasta que el alimento quede seguro y caliente suele exponerlo menos tiempo que volver a hervirlo durante muchos minutos. Microondas, sartén u horno pueden conservar bien nutrientes si se evita un calentamiento innecesariamente largo.</p><h2>Seguridad antes que la pequeña diferencia nutricional</h2><p>No conviene comer una sobra fría o templada de forma insegura para “proteger vitaminas”. En alimentos que deban recalentarse, la seguridad microbiológica pesa más que una pérdida marginal de vitamina C.</p><h2>La conclusión</h2><p>Recalentar añade cierta pérdida en nutrientes sensibles, pero la mayor parte del valor nutricional permanece. Cocina y recalienta el tiempo necesario, conserva los líquidos cuando formen parte del plato y evita ciclos repetidos por razones de calidad y seguridad.</p>",
   "faq": [
-    {
-      "question": "¿El microondas destruye más nutrientes?",
-      "answer": "No necesariamente. Al calentar rápido y con poca agua puede conservar bien vitaminas; lo decisivo suele ser la combinación de tiempo, temperatura y líquido."
-    },
-    {
-      "question": "¿La proteína se pierde al recalentar?",
-      "answer": "No de forma importante. Las proteínas cambian de estructura con el calor, pero sus aminoácidos siguen presentes en gran medida."
-    }
+    {"question": "¿El microondas destruye más nutrientes?", "answer": "No necesariamente. Al calentar rápido y con poca agua puede conservar bien vitaminas; lo decisivo suele ser la combinación de tiempo, temperatura y líquido."},
+    {"question": "¿La proteína se pierde al recalentar?", "answer": "No de forma importante. Las proteínas cambian de estructura con el calor, pero sus aminoácidos siguen presentes en gran medida."}
   ],
   "sources": [
-    {
-      "name": "NIH ODS — Vitamin C",
-      "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/",
-      "note": "Sensibilidad de vitamina C al procesamiento y almacenamiento."
-    },
-    {
-      "name": "USDA FoodData Central",
-      "url": "https://fdc.nal.usda.gov/",
-      "note": "Comparación de composición de alimentos crudos y cocinados."
-    }
+    {"name": "NIH ODS — Vitamin C", "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/", "note": "Sensibilidad de vitamina C al procesamiento y almacenamiento."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Comparación de composición de alimentos crudos y cocinados."}
   ],
-  "image": {
-    "concept": "Táper de verduras y legumbres recalentándose en microondas con iconos conceptuales de vitaminas y minerales, sin texto.",
-    "alt": "Comida recalentada y efecto del calor sobre nutrientes"
-  },
+  "image": {"concept": "Táper de verduras y legumbres recalentándose en microondas con iconos conceptuales de vitaminas y minerales, sin texto.", "alt": "Comida recalentada y efecto del calor sobre nutrientes"},
   "status": "publish"
 }
