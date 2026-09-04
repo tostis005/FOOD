@@ -14,19 +14,46 @@ if ( ! defined( 'ABSPATH' ) ) {
 	exit;
 }
 
+/**
+ * Resolve the internal-link map used at runtime.
+ *
+ * Production deploys only the generated runtime copy because the source
+ * content directory is intentionally excluded from rsync. Local development
+ * can still read the editorial source directly.
+ */
+function food_internal_link_map_path() {
+	$runtime_path = get_template_directory() . '/inc/data/internal-link-map.json';
+	if ( is_readable( $runtime_path ) ) {
+		return $runtime_path;
+	}
+
+	$source_path = get_template_directory() . '/content/articles/INTERNAL-LINK-MAP.json';
+	if ( is_readable( $source_path ) ) {
+		return $source_path;
+	}
+
+	return '';
+}
+
 function food_internal_link_map() {
 	static $map = null;
 	if ( null !== $map ) {
 		return $map;
 	}
 
-	$path = get_template_directory() . '/content/articles/INTERNAL-LINK-MAP.json';
-	if ( ! file_exists( $path ) ) {
+	$path = food_internal_link_map_path();
+	if ( '' === $path ) {
 		$map = array();
 		return $map;
 	}
 
-	$decoded = json_decode( (string) file_get_contents( $path ), true );
+	$raw = file_get_contents( $path );
+	if ( false === $raw ) {
+		$map = array();
+		return $map;
+	}
+
+	$decoded = json_decode( (string) $raw, true );
 	$map     = is_array( $decoded ) ? $decoded : array();
 	return $map;
 }
