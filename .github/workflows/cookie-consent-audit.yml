@@ -1,0 +1,136 @@
+name: Audit live cookie consent
+
+on:
+  workflow_run:
+    workflows:
+      - Deploy FOOD theme to WordPress
+    types:
+      - completed
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  cookie-consent:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-24.04
+    timeout-minutes: 6
+    steps:
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Selenium
+        run: python -m pip install --quiet selenium
+      - name: Verify Spanish and English cookie consent flows
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, time
+          from selenium import webdriver
+          from selenium.webdriver.chrome.options import Options
+          from selenium.webdriver.common.by import By
+
+          BASE = 'https://www.quinnoa.com/'
+
+          def driver(lang):
+              o = Options()
+              o.page_load_strategy = 'eager'
+              for arg in ('--headless=new','--no-sandbox','--disable-dev-shm-usage','--window-size=1440,1600',f'--lang={lang}'):
+                  o.add_argument(arg)
+              o.set_capability('goog:loggingPrefs', {'performance':'ALL'})
+              d = webdriver.Chrome(options=o)
+              d.set_page_load_timeout(60)
+              d.execute_cdp_cmd('Network.enable', {})
+              return d
+
+          def cookie_names(d):
+              return {c['name'] for c in d.get_cookies()}
+
+          def assert_no_ga(d, label):
+              names = cookie_names(d)
+              bad = sorted(n for n in names if n == '_ga' or n.startswith('_ga_'))
+              if bad:
+                  raise AssertionError(f'{label}: unexpected GA cookies before consent: {bad}')
+
+          # Spanish: fresh visit -> reject -> remembered without GA cookies.
+          d = driver('es-ES')
+          try:
+              d.get(BASE)
+              time.sleep(3)
+              banner = d.find_element(By.ID, 'quinnoa-cookie-banner')
+              if not banner.is_displayed():
+                  raise AssertionError('Spanish banner is not visible on a fresh visit')
+              text = banner.text
+              for expected in ('cookies analíticas', 'Configurar', 'Rechazar', 'Aceptar'):
+                  if expected not in text:
+                      raise AssertionError(f'Missing Spanish banner text: {expected!r}')
+              assert_no_ga(d, 'Spanish fresh visit')
+              d.find_element(By.CSS_SELECTOR, '[data-quinnoa-cookie-reject]').click()
+              time.sleep(1)
+              consent = d.get_cookie('quinnoa_cookie_consent')
+              if not consent or consent.get('value') != 'necessary':
+                  raise AssertionError('Reject did not persist necessary-only consent')
+              assert_no_ga(d, 'Spanish rejected visit')
+              d.refresh(); time.sleep(2)
+              if d.find_element(By.ID, 'quinnoa-cookie-banner').is_displayed():
+                  raise AssertionError('Banner returned after rejecting cookies')
+              assert_no_ga(d, 'Spanish rejected reload')
+              print('SPANISH_REJECT_FLOW=PASS')
+          finally:
+              d.quit()
+
+          # Spanish: fresh visit -> accept -> Analytics cookie created and collect sent.
+          d = driver('es-ES')
+          try:
+              d.get(BASE)
+              time.sleep(3)
+              assert_no_ga(d, 'Spanish fresh accept visit')
+              d.find_element(By.CSS_SELECTOR, '[data-quinnoa-cookie-accept]').click()
+              time.sleep(5)
+              consent = d.get_cookie('quinnoa_cookie_consent')
+              if not consent or consent.get('value') != 'analytics':
+                  raise AssertionError('Accept did not persist analytics consent')
+              names = cookie_names(d)
+              if not any(n == '_ga' or n.startswith('_ga_') for n in names):
+                  raise AssertionError('Analytics consent did not create a GA cookie')
+              requests = []
+              for e in d.get_log('performance'):
+                  try: m = json.loads(e['message'])['message']
+                  except Exception: continue
+                  if m.get('method') == 'Network.requestWillBeSent':
+                      u = m.get('params', {}).get('request', {}).get('url', '')
+                      if 'google-analytics.com/g/collect' in u:
+                          requests.append(u)
+              if not requests:
+                  raise AssertionError('No GA4 collect request observed after accepting analytics cookies')
+              print('SPANISH_ACCEPT_FLOW=PASS')
+          finally:
+              d.quit()
+
+          # English edition: banner and settings copy must be English.
+          d = driver('en-GB')
+          try:
+              d.get(BASE + 'en/')
+              time.sleep(3)
+              banner = d.find_element(By.ID, 'quinnoa-cookie-banner')
+              if not banner.is_displayed():
+                  raise AssertionError('English banner is not visible on a fresh visit')
+              text = banner.text
+              for expected in ('analytics cookies', 'Settings', 'Reject', 'Accept'):
+                  if expected not in text:
+                      raise AssertionError(f'Missing English banner text: {expected!r}')
+              d.find_element(By.CSS_SELECTOR, '[data-quinnoa-cookie-settings]').click()
+              time.sleep(1)
+              settings = d.find_element(By.ID, 'quinnoa-cookie-settings')
+              if not settings.is_displayed():
+                  raise AssertionError('English cookie settings did not open')
+              for expected in ('Cookie preferences', 'Necessary', 'Analytics', 'Save preferences'):
+                  if expected not in settings.text:
+                      raise AssertionError(f'Missing English settings text: {expected!r}')
+              assert_no_ga(d, 'English fresh/settings visit')
+              print('ENGLISH_FLOW=PASS')
+          finally:
+              d.quit()
+          PY
