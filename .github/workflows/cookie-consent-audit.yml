@@ -43,6 +43,8 @@ jobs:
               d = webdriver.Chrome(options=o)
               d.set_page_load_timeout(60)
               d.execute_cdp_cmd('Network.enable', {})
+              accept_language = 'es-ES,es;q=0.9' if lang.startswith('es') else 'en-GB,en;q=0.9'
+              d.execute_cdp_cmd('Network.setExtraHTTPHeaders', {'headers': {'Accept-Language': accept_language}})
               return d
 
           def cookie_names(d):
@@ -63,6 +65,7 @@ jobs:
               if not banner.is_displayed():
                   raise AssertionError('Spanish banner is not visible on a fresh visit')
               text = banner.text
+              print('SPANISH_URL=' + d.current_url, flush=True)
               print('SPANISH_BANNER=' + repr(text), flush=True)
               for expected in ('cookies analíticas', 'Configurar', 'Rechazar', 'Aceptar'):
                   if expected not in text:
@@ -119,6 +122,7 @@ jobs:
               if not banner.is_displayed():
                   raise AssertionError('English banner is not visible on a fresh visit')
               text = banner.text
+              print('ENGLISH_URL=' + d.current_url, flush=True)
               print('ENGLISH_BANNER=' + repr(text), flush=True)
               for expected in ('analytics cookies', 'Settings', 'Reject', 'Accept'):
                   if expected not in text:
