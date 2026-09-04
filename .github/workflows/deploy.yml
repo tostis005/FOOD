@@ -191,7 +191,11 @@ jobs:
           set -euo pipefail
           TARGET="$WP_ROOT/wp-content/themes/food"
           LOCAL_MAP_SHA="$(sha256sum inc/data/internal-link-map.json | awk '{print $1}')"
-          REMOTE_MAP_SHA="$(ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" "test -f '$TARGET/style.css' && test -f '$TARGET/functions.php' && test -s '$TARGET/assets/css/quinnoa-ui.css' && test -s '$TARGET/inc/data/internal-link-map.json' && sha256sum '$TARGET/inc/data/internal-link-map.json' | awk '{print \\$1}'")"
+          REMOTE_MAP_SHA="$(
+            ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" \
+              "test -f '$TARGET/style.css' && test -f '$TARGET/functions.php' && test -s '$TARGET/assets/css/quinnoa-ui.css' && test -s '$TARGET/inc/data/internal-link-map.json' && sha256sum '$TARGET/inc/data/internal-link-map.json'" \
+              | awk '{print $1}'
+          )"
 
           if [ "$LOCAL_MAP_SHA" != "$REMOTE_MAP_SHA" ]; then
             echo "ERROR: El mapa de enlaces internos desplegado no coincide con la fuente."
