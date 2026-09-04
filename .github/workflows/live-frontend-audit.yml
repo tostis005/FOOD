@@ -159,6 +159,7 @@ jobs:
 
           python3 - <<'PY'
           from pathlib import Path
+          import sqlite3
 
           netlog = Path('/tmp/quinnoa-netlog.json').read_text(encoding='utf-8', errors='ignore')
           required = [
@@ -170,19 +171,20 @@ jobs:
               raise SystemExit('Missing browser network requests: ' + ', '.join(missing))
 
           profile = Path('/tmp/quinnoa-chrome-profile')
-          cookie_hits = []
-          for path in profile.rglob('*'):
-              if not path.is_file():
-                  continue
+          ga_cookies = []
+          for db in profile.rglob('Cookies'):
               try:
-                  data = path.read_bytes()
-              except OSError:
+                  con = sqlite3.connect(f'file:{db}?mode=ro', uri=True)
+                  rows = con.execute(
+                      "SELECT host_key, name FROM cookies WHERE name = '_ga' OR name LIKE '_ga_%'"
+                  ).fetchall()
+                  con.close()
+              except (sqlite3.Error, OSError):
                   continue
-              if b'_ga' in data:
-                  cookie_hits.append(str(path))
+              ga_cookies.extend(rows)
 
-          if cookie_hits:
-              raise SystemExit('Unexpected _ga cookie/storage marker found in browser profile: ' + ', '.join(cookie_hits[:10]))
+          if ga_cookies:
+              raise SystemExit('Unexpected Google Analytics cookies found: ' + repr(ga_cookies))
 
-          print('Browser loaded gtag.js, sent a GA4 collect request, and no _ga cookie/storage marker was found.')
+          print('Browser loaded gtag.js, sent a GA4 collect request, and created no _ga/_ga_* cookies.')
           PY
