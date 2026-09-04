@@ -6,49 +6,29 @@
   "language": "es",
   "locale": "es-ES",
   "market_context": "España/Unión Europea; fisiología energética, efecto térmico y matriz alimentaria",
-  "title": "¿Todas las calorías son iguales desde el punto de vista nutricional?",
+  "title": "¿El cuerpo procesa igual todas las calorías?",
   "slug": "todas-calorias-iguales-nutricionalmente",
   "seo": {
-    "title": "¿Todas las calorías son iguales? La respuesta nutricional",
-    "meta_description": "Una kilocaloría es la misma unidad de energía, pero proteína, grasa, carbohidratos, fibra y matriz alimentaria no se digieren ni sacian igual.",
-    "search_intent": "Entender qué significa decir que una caloría es una caloría y por qué alimentos con la misma energía pueden tener efectos nutricionales distintos."
+    "title": "¿El cuerpo procesa igual todas las calorías? Efecto térmico y absorción",
+    "meta_description": "Una kilocaloría es la misma unidad de energía, pero proteína, grasa, fibra y matriz alimentaria cambian el coste de digestión, la absorción y la saciedad.",
+    "search_intent": "Entender si el organismo maneja de la misma forma calorías procedentes de distintos macronutrientes y estructuras alimentarias."
   },
-  "excerpt": "Sí como unidad de energía; no como experiencia nutricional completa. Una kilocaloría mide la misma cantidad de energía venga de proteína, grasa o carbohidratos, pero el cuerpo no procesa todos los alimentos igual: cambian el coste de digestión, la saciedad, la absorción, la fibra, la glucemia y los nutrientes que acompañan a esa energía.",
+  "excerpt": "Una kilocaloría siempre representa la misma cantidad de energía, pero eso no significa que el organismo procese igual todos los alimentos que la aportan. Proteína, grasa, carbohidratos, fibra y matriz alimentaria difieren en coste de digestión, absorción y saciedad. Este artículo se centra en esa fisiología; la calidad nutricional de dos alimentos con las mismas calorías es una pregunta distinta.",
   "taxonomy": {
-    "food_family": "general",
+    "food_family": "food-general",
     "food_subcategories": [],
-    "article_types": [
-      "myths-faq",
-      "nutrition-composition"
-    ],
+    "article_types": ["myths-faq", "nutrition-composition"],
     "primary_article_type": "myths-faq"
   },
-  "content_html": "<p>Decir “una caloría es una caloría” puede ser completamente correcto o muy incompleto según lo que se quiera decir.</p><p>Como unidad física, <strong>una kilocaloría siempre representa la misma cantidad de energía</strong>. Pero un alimento no es solo energía: tiene una estructura, nutrientes y un proceso digestivo concreto.</p><h2>La igualdad física: una kilocaloría no cambia de tamaño</h2><p>Los valores energéticos aproximados que se utilizan en nutrición son unos 4 kcal/g para proteína, 4 kcal/g para carbohidratos, 9 kcal/g para grasa y 7 kcal/g para alcohol.</p><p>Si dos dietas aportan realmente la misma energía metabolizable y el gasto es el mismo, la energía no desaparece porque una proceda de un alimento “saludable”.</p><h2>El cuerpo gasta energía para procesar esa energía</h2><p>Digerir, absorber y metabolizar nutrientes tiene un coste, conocido como efecto térmico de los alimentos. La proteína suele tener el coste más alto: aproximadamente un 20–30 % de su energía puede gastarse en su procesamiento; para carbohidratos suele estimarse alrededor de 5–10 % y para grasa, 0–3 %.</p><p>Eso no convierte 100 kcal de proteína en “70 kcal” en una etiqueta. Explica que el balance energético neto y la fisiología posterior no son idénticos para todos los macronutrientes.</p><h2>La saciedad puede cambiar cuánto comes después</h2><p>Una comida con suficiente proteína y fibra suele producir más saciedad que otra de energía parecida basada en alimentos refinados y líquidos. La diferencia más importante a menudo no está en lo que ocurre con esas 500 kcal, sino en si después resulta fácil o difícil consumir otras 500.</p><p>Por eso la calidad de los alimentos puede influir indirectamente en el balance energético.</p><h2>La fibra no se comporta como almidón o azúcar</h2><p>Parte de la fibra no se digiere en el intestino delgado. Algunas fibras llegan al colon, donde la microbiota puede fermentarlas y producir ácidos grasos de cadena corta; la energía utilizable resultante es menor que la de un gramo de almidón completamente digerible.</p><p>Etiquetas y tablas utilizan factores energéticos estandarizados, por lo que la cifra declarada es una estimación práctica, no una medición exacta de cada molécula absorbida por cada persona.</p><h2>La matriz alimentaria también importa</h2><p>En un fruto seco entero, parte de la grasa queda encerrada dentro de paredes celulares y no se absorbe completamente. Molerlo en crema rompe más esa estructura y puede aumentar la accesibilidad de la grasa.</p><p>Esto ayuda a explicar por qué la energía realmente metabolizable de algunos frutos secos puede ser menor que la calculada con factores generales.</p><h2>La misma energía puede aportar nutrición muy distinta</h2><p>Unas 200 kcal de almendras aportan proteína, fibra, magnesio, vitamina E y grasa insaturada. Doscientas kcal de refresco aportan principalmente azúcar y agua. Ninguna de esas diferencias viola la física: simplemente describen algo que la unidad “kcal” no pretende medir.</p><h2>Entonces, ¿qué frase es correcta?</h2><p><strong>Para el balance energético, las calorías cuentan. Para predecir saciedad, salud nutricional, absorción y facilidad para regular la ingesta, la fuente de esas calorías también cuenta.</strong></p><p>Las dos ideas pueden ser ciertas al mismo tiempo.</p>",
+  "content_html": "<p>Decir “una caloría es una caloría” es correcto si hablamos de una unidad de energía. La pregunta interesante empieza después: <strong>¿el cuerpo obtiene y procesa esa energía exactamente igual venga de donde venga?</strong> Ahí la respuesta es no.</p><p>El tipo de macronutriente, la fibra, la estructura física del alimento y su grado de trituración o cocción pueden cambiar cuánto trabajo digestivo requiere y qué proporción de la energía acaba disponible.</p><h2>Primero, lo que sí es igual: la unidad</h2><p>Una kilocaloría no cambia de tamaño según el alimento. Los factores energéticos aproximados usados en nutrición son unos 4 kcal/g para proteína, 4 kcal/g para carbohidratos, 9 kcal/g para grasa y 7 kcal/g para alcohol.</p><p>Si dos dietas aportan realmente la misma energía metabolizable y el gasto es el mismo, la energía no desaparece porque una proceda de alimentos considerados más saludables.</p><h2>Pero digerir los nutrientes también cuesta energía</h2><p>Digerir, absorber y metabolizar alimentos tiene un coste, conocido como efecto térmico de los alimentos. La proteína suele exigir más: las estimaciones habituales sitúan ese coste alrededor del 20–30 % de su energía, frente a aproximadamente 5–10 % para carbohidratos y 0–3 % para grasa.</p><p>Eso no significa que una etiqueta de 100 kcal de proteína deba leerse como “70 kcal”. Significa que el gasto asociado a procesar esos nutrientes no es idéntico.</p><h2>La fibra tampoco se comporta como un carbohidrato totalmente digerible</h2><p>Parte de la fibra atraviesa el intestino delgado sin digerirse. Algunas fibras llegan al colon y la microbiota las fermenta, produciendo ácidos grasos de cadena corta; la energía aprovechable resultante es menor que la de un gramo de almidón completamente digerido.</p><p>Por eso las calorías de una etiqueta son una estimación estandarizada útil, no una medición exacta de cada molécula que absorberá cada persona.</p><h2>La matriz alimentaria puede cambiar cuánto se absorbe</h2><p>Un fruto seco entero no es simplemente una mezcla de grasa, proteína y carbohidratos sueltos. Parte de su grasa queda encerrada dentro de paredes celulares que no siempre se rompen por completo durante la digestión.</p><p>Al triturar el fruto seco hasta convertirlo en crema se rompe más esa estructura y la grasa queda más accesible. Este tipo de diferencias ayuda a explicar por qué la energía metabolizable medida en algunos frutos secos enteros puede ser menor que la calculada con factores generales.</p><h2>La saciedad modifica lo que ocurre después</h2><p>La proteína y determinados tipos de fibra suelen aumentar la saciedad más que una comida de energía similar con poca proteína, poca fibra y una textura fácil de consumir rápidamente.</p><p>En la práctica, una diferencia importante puede no estar solo en cómo se procesan las primeras 500 kcal, sino en si esa comida hace más o menos probable querer consumir otras 500 poco después.</p><h2>Esto no contradice el balance energético</h2><p>Que los alimentos se procesen de forma distinta no significa que las leyes de la energía dejen de aplicarse. Significa que <strong>la energía metabolizable, el coste digestivo y la conducta alimentaria no son idénticos para todos los alimentos</strong>.</p><p>Para comparar la calidad nutricional de dos opciones con las mismas calorías —proteína, fibra, vitaminas, minerales o tipo de grasa— la pregunta es otra. Aquí el punto es más concreto: el organismo no recibe una etiqueta y procesa todas las fuentes de energía como si fueran físicamente intercambiables.</p><h2>La respuesta corta</h2><p><strong>Una kilocaloría es siempre la misma unidad. Lo que cambia es el alimento que la contiene y lo que el cuerpo tiene que hacer para digerirlo, absorberlo y responder a él.</strong></p>",
   "faq": [
-    {
-      "question": "¿Una caloría de proteína es igual a una de grasa?",
-      "answer": "Es la misma unidad de energía, pero proteína y grasa tienen efectos distintos sobre digestión, efecto térmico, saciedad y nutrientes asociados."
-    },
-    {
-      "question": "¿El cuerpo absorbe todas las calorías de una etiqueta?",
-      "answer": "La etiqueta es una estimación basada en factores estandarizados. La absorción real puede variar por fibra, matriz alimentaria, preparación y diferencias individuales."
-    },
-    {
-      "question": "¿La calidad de los alimentos importa para el peso?",
-      "answer": "Sí puede importar indirectamente porque influye en saciedad, densidad energética y facilidad para mantener una ingesta determinada, aunque el balance energético siga siendo relevante."
-    }
+    {"question": "¿Una caloría de proteína es igual a una de grasa?", "answer": "Como unidad de energía, sí. Fisiológicamente no se procesan igual: la proteína suele tener un efecto térmico mayor y también puede producir más saciedad."},
+    {"question": "¿El cuerpo absorbe todas las calorías de una etiqueta?", "answer": "La etiqueta utiliza factores estandarizados. La energía realmente absorbida puede variar algo por fibra, matriz alimentaria, preparación y diferencias individuales."},
+    {"question": "¿Entonces el balance energético deja de importar?", "answer": "No. Sigue siendo fundamental; estas diferencias explican por qué la energía metabolizable y el coste de procesamiento pueden variar entre alimentos."}
   ],
   "sources": [
-    {
-      "name": "FAO — Food energy: methods of analysis and conversion factors",
-      "url": "https://www.fao.org/4/y5022e/y5022e00.htm",
-      "note": "Factores de conversión energética y energía metabolizable."
-    },
-    {
-      "name": "USDA FoodData Central",
-      "url": "https://fdc.nal.usda.gov/",
-      "note": "Composición energética de alimentos utilizados como ejemplos."
-    }
+    {"name": "FAO — Food energy: methods of analysis and conversion factors", "url": "https://www.fao.org/4/y5022e/y5022e00.htm", "note": "Factores de conversión energética y energía metabolizable."},
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición energética de alimentos utilizados como ejemplos."}
   ],
   "image": {
     "concept": "Balanza conceptual con alimentos proteicos, carbohidratos, aceite y frutos secos mostrando igual energía pero estructuras distintas, fotografía editorial sin texto.",

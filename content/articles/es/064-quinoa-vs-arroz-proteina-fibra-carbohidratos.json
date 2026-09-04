@@ -13,45 +13,22 @@
     "meta_description": "La quinoa cocida aporta más proteína y fibra y menos carbohidratos que el arroz blanco cocido, con calorías parecidas. Comparamos por 100 g y por ración.",
     "search_intent": "Comparar quinoa y arroz en proteína, fibra, carbohidratos, calorías, aminoácidos y micronutrientes."
   },
-  "excerpt": "La quinoa cocida aporta más proteína y fibra que el arroz blanco cocido con unas calorías parecidas: alrededor de 4,4 g de proteína y 2,8 g de fibra por 100 g frente a 2,7 g y 0,4 g en arroz blanco. También contiene menos carbohidratos —unos 21 g frente a 28 g— y su proteína incluye los nueve aminoácidos esenciales. Aun así, una ración de quinoa no es una fuente de proteína comparable a legumbres, tofu, huevos o carne.",
+  "excerpt": "La quinoa cocida aporta más proteína y fibra que el arroz blanco con unas calorías parecidas: alrededor de 4,4 g de proteína y 2,8 g de fibra por 100 g frente a 2,7 g y 0,4 g. También contiene menos carbohidratos, unos 21 g frente a 28 g. La ventaja existe, pero una ración de quinoa sigue funcionando más como base de cereal que como una fuente principal de proteína.",
   "taxonomy": {
     "food_family": "grains-pseudocereals",
-    "food_subcategories": [
-      "quinoa",
-      "rice"
-    ],
-    "article_types": [
-      "comparisons",
-      "nutrition-composition"
-    ],
-    "primary_article_type": "comparisons"
+    "food_subcategories": ["quinoa", "rice"],
+    "article_types": ["comparison", "nutrition-composition"],
+    "primary_article_type": "comparison"
   },
-  "content_html": "<p>La quinoa suele venderse como una alternativa “más proteica” al arroz, y es verdad, pero conviene poner la diferencia en escala. <strong>Tiene alrededor de 1,5–2 g más de proteína por 100 g cocidos, no diez veces más.</strong> Su ventaja más completa es combinar algo más de proteína, mucha más fibra y más minerales con unas calorías parecidas.</p><h2>Comparación cocida: quinoa frente a arroz blanco</h2><p>La siguiente tabla compara ambos alimentos ya cocidos, sin aceite ni otros ingredientes.</p><table><thead><tr><th>Por 100 g cocidos</th><th>Quinoa</th><th>Arroz blanco</th></tr></thead><tbody><tr><td>Calorías</td><td>~120 kcal</td><td>~130 kcal</td></tr><tr><td>Proteína</td><td>~4,4 g</td><td>~2,7 g</td></tr><tr><td>Carbohidratos</td><td>~21 g</td><td>~28 g</td></tr><tr><td>Fibra</td><td>~2,8 g</td><td>~0,4 g</td></tr><tr><td>Grasa</td><td>~1,9 g</td><td>~0,3 g</td></tr></tbody></table><p>La quinoa aporta unas 10 kcal menos, 1,7 g más de proteína y alrededor de 2,4 g más de fibra por 100 g. La diferencia de fibra es proporcionalmente mucho mayor que la de proteína.</p><h2>En una ración, la quinoa aporta unos gramos extra de proteína</h2><p>Una taza de quinoa cocida, alrededor de 185 g, aporta aproximadamente 8 g de proteína y 5 g de fibra. Un volumen parecido de arroz blanco cocido, unos 180 g, aporta cerca de 5 g de proteína y menos de 1 g de fibra.</p><p>Es una mejora útil, pero 8 g de proteína siguen lejos de los 25–35 g que puede aportar una ración de tofu, legumbres combinadas en cantidad suficiente, huevos, pescado o carne.</p><h2>Que sea proteína completa no significa que sea muy proteica</h2><p>La quinoa contiene los nueve aminoácidos esenciales y tiene un perfil especialmente equilibrado para un alimento vegetal rico en almidón. Esa es una cualidad real.</p><p>Pero “proteína completa” describe la composición de aminoácidos, no la cantidad total. Con 4,4 g/100 g cocidos, la quinoa funciona más como cereal/pseudocereal que como sustituto directo de una fuente principal de proteína.</p><h2>La quinoa también destaca en minerales</h2><p>Una taza cocida puede aportar alrededor de 100–120 mg de magnesio, además de hierro, fósforo, manganeso y folato. El arroz blanco refinado suele aportar cantidades menores de varios de estos nutrientes, aunque el enriquecimiento puede modificar hierro y vitaminas del grupo B.</p><h2>¿Y si la comparación es con arroz integral?</h2><p>La distancia se acorta en fibra y minerales. El arroz integral conserva salvado y germen y aporta más fibra y magnesio que el blanco. Aun así, la quinoa suele mantener algo más de proteína y fibra por 100 g cocidos.</p><p>Por eso conviene especificar “arroz blanco” cuando se dan cifras concretas: arroz blanco e integral no tienen el mismo perfil.</p><h2>Los dos son naturalmente sin gluten</h2><p>Quinoa y arroz no contienen gluten de forma natural. Para personas con enfermedad celíaca, el punto práctico es controlar la contaminación cruzada y elegir productos etiquetados adecuadamente cuando sea necesario.</p><h2>Cuál elegir</h2><p>Si buscas <strong>más fibra, algo más de proteína y más densidad mineral</strong>, la quinoa tiene ventaja frente al arroz blanco. Si priorizas un alimento barato, neutro, fácil de digerir y muy versátil, el arroz sigue siendo una excelente base.</p><p>La conclusión útil es que <strong>la quinoa mejora varios nutrientes modestamente, pero no convierte una guarnición de almidón en una comida rica en proteína por sí sola</strong>. El resto del plato sigue importando.</p>",
+  "content_html": "<p>La quinoa suele presentarse como una alternativa “mucho más proteica” al arroz. Tiene más proteína, sí, pero conviene mirar cuánto más: alrededor de 1,5–2 g extra por 100 g cocidos. La diferencia existe; simplemente no convierte la quinoa en un sustituto de legumbres, tofu, huevos, pescado o carne.</p><p><strong>Su ventaja real frente al arroz blanco es más amplia: algo más de proteína, mucha más fibra y más minerales con unas calorías bastante parecidas.</strong></p><h2>Primero, la comparación cocida</h2><table><thead><tr><th>Por 100 g cocidos</th><th>Quinoa</th><th>Arroz blanco</th></tr></thead><tbody><tr><td>Calorías</td><td>~120 kcal</td><td>~130 kcal</td></tr><tr><td>Proteína</td><td>~4,4 g</td><td>~2,7 g</td></tr><tr><td>Carbohidratos</td><td>~21 g</td><td>~28 g</td></tr><tr><td>Fibra</td><td>~2,8 g</td><td>~0,4 g</td></tr><tr><td>Grasa</td><td>~1,9 g</td><td>~0,3 g</td></tr></tbody></table><p>La quinoa aporta unas 10 kcal menos, 1,7 g más de proteína y alrededor de 2,4 g más de fibra por 100 g. Si hay una diferencia que realmente destaca en proporción, es la fibra.</p><h2>Una ración muestra mejor lo que significan esos gramos</h2><p>Una taza de quinoa cocida, alrededor de 185 g, aporta aproximadamente 8 g de proteína y 5 g de fibra. Un volumen parecido de arroz blanco cocido, unos 180 g, aporta cerca de 5 g de proteína y menos de 1 g de fibra.</p><p>Sumar 3 g extra de proteína y varios gramos de fibra es útil. Pero si la comida necesita 25–30 g de proteína, ninguna de las dos bases llega por sí sola: habrá que añadir una fuente proteica más concentrada.</p><h2>“Proteína completa” habla de calidad, no de cantidad</h2><p>La quinoa contiene los nueve aminoácidos esenciales en un perfil especialmente equilibrado para un alimento rico en almidón. Esa es una característica nutricional real.</p><p>Pero una proteína puede ser completa y, al mismo tiempo, estar presente en poca cantidad. Con 4,4 g por 100 g cocidos, la quinoa sigue comportándose en el plato más como un pseudocereal que como un alimento proteico principal.</p><h2>También tiene una ventaja mineral</h2><p>Una taza cocida puede aportar alrededor de 100–120 mg de magnesio, además de hierro, fósforo, manganeso y folato. El arroz blanco refinado suele aportar menos de varios de estos nutrientes, aunque el enriquecimiento puede modificar hierro y vitaminas del grupo B.</p><h2>La comparación cambia si el arroz es integral</h2><p>El arroz integral conserva salvado y germen, así que aporta más fibra y magnesio que el blanco. Eso acorta bastante la distancia con la quinoa en varios nutrientes.</p><p>La quinoa suele mantener una pequeña ventaja en proteína y fibra por 100 g cocidos, pero ya no es una comparación tan desigual. Por eso conviene especificar qué tipo de arroz se está usando.</p><h2>Los dos son naturalmente sin gluten</h2><p>Ni la quinoa ni el arroz contienen gluten de forma natural. Para personas con enfermedad celíaca, el punto práctico no es el alimento en sí, sino la posible contaminación cruzada y el etiquetado del producto.</p><h2>Qué conviene elegir</h2><p>Si buscas <strong>más fibra, algo más de proteína y mayor densidad mineral</strong>, la quinoa tiene ventaja frente al arroz blanco. Si quieres una base barata, neutra, fácil de digerir y muy versátil, el arroz sigue siendo una opción perfectamente válida.</p><p><strong>La quinoa mejora varios nutrientes, pero no transforma por sí sola una guarnición de almidón en una comida rica en proteína.</strong> Esa diferencia la sigue marcando el resto del plato.</p>",
   "faq": [
-    {
-      "question": "¿Qué tiene más proteína, quinoa o arroz?",
-      "answer": "La quinoa cocida aporta alrededor de 4,4 g/100 g frente a unos 2,7 g en arroz blanco cocido."
-    },
-    {
-      "question": "¿Qué tiene más fibra?",
-      "answer": "La quinoa ronda 2,8 g/100 g cocidos frente a aproximadamente 0,4 g en arroz blanco. El arroz integral reduce parte de esa diferencia."
-    },
-    {
-      "question": "¿La quinoa puede sustituir a la carne como fuente de proteína?",
-      "answer": "No por cantidad. Aunque su proteína es completa, solo aporta unos 4,4 g/100 g cocidos, mucho menos que tofu, legumbres concentradas, huevos, pescado o carne."
-    }
+    {"question": "¿Qué tiene más proteína, quinoa o arroz?", "answer": "La quinoa cocida aporta alrededor de 4,4 g/100 g frente a unos 2,7 g en arroz blanco cocido."},
+    {"question": "¿Qué tiene más fibra?", "answer": "La quinoa ronda 2,8 g/100 g cocidos frente a aproximadamente 0,4 g en arroz blanco. El arroz integral reduce parte de esa diferencia."},
+    {"question": "¿La quinoa puede sustituir a la carne como fuente de proteína?", "answer": "No por cantidad. Aunque su proteína es completa, solo aporta unos 4,4 g/100 g cocidos, mucho menos que tofu, legumbres concentradas, huevos, pescado o carne."}
   ],
   "sources": [
-    {
-      "name": "USDA FoodData Central",
-      "url": "https://fdc.nal.usda.gov/",
-      "note": "Composición de quinoa y arroz cocidos."
-    },
-    {
-      "name": "FAO — Quinoa: an ancient crop to contribute to world food security",
-      "url": "https://www.fao.org/",
-      "note": "Perfil nutricional y aminoácidos de la quinoa."
-    }
+    {"name": "USDA FoodData Central", "url": "https://fdc.nal.usda.gov/", "note": "Composición de quinoa y arroz cocidos."},
+    {"name": "FAO — Quinoa: an ancient crop to contribute to world food security", "url": "https://www.fao.org/", "note": "Perfil nutricional y aminoácidos de la quinoa."}
   ],
   "image": {
     "concept": "Un cuenco de quinoa cocida y otro de arroz blanco cocido, fotografía editorial limpia sin texto.",
