@@ -5,7 +5,8 @@ on:
     branches:
       - main
     paths:
-      - 'content/articles/**'
+      - 'content/articles/es/*.json'
+      - 'content/articles/en/*.json'
       - 'content/tools/import-articles.php'
       - '.github/workflows/import-articles.yml'
   workflow_dispatch:
@@ -36,6 +37,11 @@ on:
           - draft
           - json
         default: publish
+      force:
+        description: 'Force rewrite even when the JSON hash is unchanged'
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -52,10 +58,13 @@ jobs:
       IMPORT_FROM: ${{ inputs.from || '1' }}
       IMPORT_TO: ${{ inputs.to || '999999' }}
       IMPORT_STATUS: ${{ inputs.status || 'publish' }}
+      IMPORT_FORCE: ${{ inputs.force || false }}
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Validate importer syntax
         run: php -l content/tools/import-articles.php
@@ -131,12 +140,6 @@ jobs:
           git commit -m 'Normalize article source sections [skip ci]'
           git push origin HEAD:main
 
-      - name: Package importer and articles
-        run: |
-          set -euo pipefail
-          tar -czf /tmp/food-articles.tgz content/articles
-          cp content/tools/import-articles.php /tmp/food-import-articles.php
-
       - name: Configure SSH
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
@@ -176,7 +179,192 @@ jobs:
           echo "WP_ROOT=$WP_ROOT" >> "$GITHUB_ENV"
           echo "WordPress detectado en $WP_ROOT"
 
-      - name: Copy import package to VPS
+      - name: Copy importer to VPS
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+          scp -i ~/.ssh/food_import_key \
+            content/tools/import-articles.php \
+            "$VPS_USER@$VPS_HOST:/tmp/food-import-articles.php"
+
+      - name: Read last successful import SHA
+        id: import_state
+        env:
+          VPS_HOST: ${{ secrets.VPS_HOST }}
+          VPS_USER: ${{ secrets.VPS_USER }}
+        run: |
+          set -euo pipefail
+
+          STATE_OUTPUT="$(
+            ssh -i ~/.ssh/food_import_key "$VPS_USER@$VPS_HOST" \
+              "WP_ROOT='$WP_ROOT' bash -s" <<'REMOTE'
+          set -euo pipefail
+
+          if command -v php >/dev/null 2>&1; then
+            php /tmp/food-import-articles.php "$WP_ROOT" /tmp --state=read
+            exit 0
+          fi
+
+          if ! command -v docker >/dev/null 2>&1 || ! docker ps >/dev/null 2>&1; then
+            echo "ERROR: No hay PHP utilizable para leer el estado del importador." >&2
+            exit 1
+          fi
+
+          CANDIDATES=""
+          while read -r CID; do
+            [ -z "$CID" ] && continue
+            CROOT="$(docker exec "$CID" sh -lc '
+              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                if [ -f "$p/wp-load.php" ]; then
+                  echo "$p"
+                  exit 0
+                fi
+              done
+              FOUND="$(find /var/www /app -maxdepth 5 -type f -name wp-load.php 2>/dev/null | head -n 1)"
+              [ -n "$FOUND" ] && dirname "$FOUND"
+            ' 2>/dev/null || true)"
+
+            if [ -n "$CROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
+              CANDIDATES="${CANDIDATES}${CID}|${CROOT}\n"
+            fi
+          done < <(docker ps -q)
+
+          CANDIDATE_COUNT="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | wc -l | tr -d ' ')"
+          if [ "$CANDIDATE_COUNT" -ne 1 ]; then
+            echo "ERROR: Se esperaba 1 contenedor WordPress con PHP y se han encontrado $CANDIDATE_COUNT." >&2
+            printf '%b' "$CANDIDATES" >&2
+            exit 1
+          fi
+
+          CANDIDATE="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | head -n 1)"
+          CONTAINER_ID="${CANDIDATE%%|*}"
+          CONTAINER_WP_ROOT="${CANDIDATE#*|}"
+
+          docker cp /tmp/food-import-articles.php "$CONTAINER_ID:/tmp/food-import-articles.php"
+          docker exec "$CONTAINER_ID" \
+            php /tmp/food-import-articles.php \
+              "$CONTAINER_WP_ROOT" /tmp --state=read
+          REMOTE
+          )"
+
+          printf '%s\n' "$STATE_OUTPUT"
+          LAST_SHA="$(printf '%s\n' "$STATE_OUTPUT" | sed -n 's/^IMPORT_STATE_SHA=//p' | tail -n 1 | tr -d '\r\n')"
+          echo "sha=$LAST_SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Select and package articles for import
+        id: select_articles
+        env:
+          EVENT_NAME: ${{ github.event_name }}
+          EVENT_BEFORE: ${{ github.event.before }}
+          LAST_SUCCESSFUL_SHA: ${{ steps.import_state.outputs.sha }}
+        run: |
+          set -euo pipefail
+
+          TARGET_SHA="$(git rev-parse HEAD)"
+          BASE_SHA=""
+          rm -rf /tmp/food-package
+          mkdir -p /tmp/food-package/content/articles/es /tmp/food-package/content/articles/en
+          : > /tmp/food-selected-files.txt
+
+          if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
+            python3 - <<'PY' > /tmp/food-selected-files.txt
+          import json
+          import os
+          from pathlib import Path
+
+          language = os.environ['IMPORT_LANGUAGE']
+          first = int(os.environ['IMPORT_FROM'])
+          last = int(os.environ['IMPORT_TO'])
+          languages = ('es', 'en') if language == 'all' else (language,)
+
+          for lang in languages:
+              for path in sorted(Path('content/articles', lang).glob('*.json')):
+                  data = json.loads(path.read_text(encoding='utf-8'))
+                  number = int(data.get('article_number', 0))
+                  if first <= number <= last:
+                      print(path.as_posix())
+          PY
+            SUCCESSFUL_SHA=""
+            echo "Manual import: selected requested language/range; automatic SHA state will not advance."
+          else
+            candidate="$LAST_SUCCESSFUL_SHA"
+            if [ -n "$candidate" ] \
+              && git cat-file -e "${candidate}^{commit}" 2>/dev/null \
+              && git merge-base --is-ancestor "$candidate" "$TARGET_SHA"; then
+              BASE_SHA="$candidate"
+              echo "Using last successful production SHA: $BASE_SHA"
+            fi
+
+            if [ -z "$BASE_SHA" ]; then
+              candidate="$EVENT_BEFORE"
+              if [ -n "$candidate" ] \
+                && ! printf '%s' "$candidate" | grep -Eq '^0+$' \
+                && git cat-file -e "${candidate}^{commit}" 2>/dev/null \
+                && git merge-base --is-ancestor "$candidate" "$TARGET_SHA"; then
+                BASE_SHA="$candidate"
+                echo "Bootstrapping import state from push base SHA: $BASE_SHA"
+              fi
+            fi
+
+            if [ -z "$BASE_SHA" ]; then
+              BASE_SHA="$(git rev-parse "${TARGET_SHA}^" 2>/dev/null || true)"
+              if [ -n "$BASE_SHA" ]; then
+                echo "Falling back to target parent SHA: $BASE_SHA"
+              fi
+            fi
+
+            if [ -n "$BASE_SHA" ]; then
+              git diff --name-only --diff-filter=AMR "$BASE_SHA" "$TARGET_SHA" -- \
+                ':(glob)content/articles/es/*.json' \
+                ':(glob)content/articles/en/*.json' \
+                | while IFS= read -r file; do
+                    [ -f "$file" ] && printf '%s\n' "$file"
+                  done \
+                > /tmp/food-selected-files.txt
+
+              DELETED="$(
+                git diff --name-only --diff-filter=D "$BASE_SHA" "$TARGET_SHA" -- \
+                  ':(glob)content/articles/es/*.json' \
+                  ':(glob)content/articles/en/*.json' || true
+              )"
+              if [ -n "$DELETED" ]; then
+                echo "WARNING: Deleted article JSON files are not removed from WordPress automatically:"
+                printf '%s\n' "$DELETED"
+              fi
+            else
+              git ls-tree -r --name-only "$TARGET_SHA" \
+                | grep -E '^content/articles/(es|en)/[^/]+\.json$' \
+                > /tmp/food-selected-files.txt || true
+              echo "No usable base commit was found; selected the complete current article inventory."
+            fi
+
+            SUCCESSFUL_SHA="$TARGET_SHA"
+          fi
+
+          sort -u /tmp/food-selected-files.txt -o /tmp/food-selected-files.txt
+
+          while IFS= read -r file; do
+            [ -z "$file" ] && continue
+            mkdir -p "/tmp/food-package/$(dirname "$file")"
+            cp "$file" "/tmp/food-package/$file"
+          done < /tmp/food-selected-files.txt
+
+          COUNT="$(sed '/^$/d' /tmp/food-selected-files.txt | wc -l | tr -d ' ')"
+          echo "Selected $COUNT article JSON file(s) for this import."
+          if [ "$COUNT" -gt 0 ]; then
+            cat /tmp/food-selected-files.txt
+          fi
+
+          tar -C /tmp/food-package -czf /tmp/food-articles.tgz content/articles
+
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          echo "base_sha=$BASE_SHA" >> "$GITHUB_OUTPUT"
+          echo "target_sha=$TARGET_SHA" >> "$GITHUB_OUTPUT"
+          echo "successful_sha=$SUCCESSFUL_SHA" >> "$GITHUB_OUTPUT"
+
+      - name: Copy selected article package to VPS
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
@@ -184,17 +372,17 @@ jobs:
           set -euo pipefail
           scp -i ~/.ssh/food_import_key \
             /tmp/food-articles.tgz \
-            /tmp/food-import-articles.php \
-            "$VPS_USER@$VPS_HOST:/tmp/"
+            "$VPS_USER@$VPS_HOST:/tmp/food-articles.tgz"
 
       - name: Import articles into WordPress
         env:
           VPS_HOST: ${{ secrets.VPS_HOST }}
           VPS_USER: ${{ secrets.VPS_USER }}
+          IMPORT_SUCCESSFUL_SHA: ${{ steps.select_articles.outputs.successful_sha }}
         run: |
           set -euo pipefail
           ssh -i ~/.ssh/food_import_key "$VPS_USER@$VPS_HOST" \
-            "WP_ROOT='$WP_ROOT' IMPORT_LANGUAGE='$IMPORT_LANGUAGE' IMPORT_FROM='$IMPORT_FROM' IMPORT_TO='$IMPORT_TO' IMPORT_STATUS='$IMPORT_STATUS' bash -s" <<'REMOTE'
+            "WP_ROOT='$WP_ROOT' IMPORT_LANGUAGE='$IMPORT_LANGUAGE' IMPORT_FROM='$IMPORT_FROM' IMPORT_TO='$IMPORT_TO' IMPORT_STATUS='$IMPORT_STATUS' IMPORT_FORCE='$IMPORT_FORCE' IMPORT_SUCCESSFUL_SHA='$IMPORT_SUCCESSFUL_SHA' bash -s" <<'REMOTE'
           set -euo pipefail
 
           rm -rf /tmp/food-article-import
@@ -208,7 +396,9 @@ jobs:
               "--language=$IMPORT_LANGUAGE" \
               "--from=$IMPORT_FROM" \
               "--to=$IMPORT_TO" \
-              "--status=$IMPORT_STATUS"
+              "--status=$IMPORT_STATUS" \
+              "--force=$IMPORT_FORCE" \
+              "--successful-sha=$IMPORT_SUCCESSFUL_SHA"
           }
 
           if command -v php >/dev/null 2>&1; then
@@ -264,13 +454,17 @@ jobs:
             -e IMPORT_FROM="$IMPORT_FROM" \
             -e IMPORT_TO="$IMPORT_TO" \
             -e IMPORT_STATUS="$IMPORT_STATUS" \
+            -e IMPORT_FORCE="$IMPORT_FORCE" \
+            -e IMPORT_SUCCESSFUL_SHA="$IMPORT_SUCCESSFUL_SHA" \
             "$CONTAINER_ID" \
             php /tmp/food-import-articles.php \
               "$CONTAINER_WP_ROOT" /tmp/food-article-import/content/articles \
               "--language=$IMPORT_LANGUAGE" \
               "--from=$IMPORT_FROM" \
               "--to=$IMPORT_TO" \
-              "--status=$IMPORT_STATUS"
+              "--status=$IMPORT_STATUS" \
+              "--force=$IMPORT_FORCE" \
+              "--successful-sha=$IMPORT_SUCCESSFUL_SHA"
           REMOTE
 
       - name: Cleanup temporary files
