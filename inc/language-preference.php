@@ -2,9 +2,10 @@
 /**
  * Language preference handling for Quinnoa.
  *
- * The persistent cookie is written only after the visitor explicitly chooses
- * a language in the interface. Automatic browser-language detection does not
- * create a cookie.
+ * A persistent cookie is written only after the visitor explicitly chooses
+ * a language in the interface. The public URLs themselves remain stable:
+ * `/` is always the Spanish home and `/en/` is always the English home unless
+ * a returning visitor has an explicit saved preference.
  *
  * @package FOOD
  */
@@ -28,30 +29,10 @@ function food_language_preference() {
 }
 
 /**
- * Return the first language advertised by the browser as a two-letter code.
- * The header is used only for the current request and is never persisted by
- * this function.
- */
-function food_browser_primary_language() {
-	$header = isset( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ) ? sanitize_text_field( wp_unslash( $_SERVER['HTTP_ACCEPT_LANGUAGE'] ) ) : '';
-	if ( '' === $header ) {
-		return '';
-	}
-
-	foreach ( explode( ',', $header ) as $candidate ) {
-		$language = strtolower( trim( explode( ';', $candidate, 2 )[0] ) );
-		if ( preg_match( '/^[a-z]{2}/', $language ) ) {
-			return substr( $language, 0, 2 );
-		}
-	}
-
-	return '';
-}
-
-/**
- * Redirect only home requests. A saved manual choice wins on either home.
- * With no saved choice, browser detection is applied only when entering the
- * Spanish root URL, so an explicit visit to /en/ is never overridden.
+ * Redirect home requests only when the visitor has explicitly saved a
+ * language preference. Browser language and apparent geographic location are
+ * deliberately ignored so crawlers and first-time visitors always receive the
+ * URL they requested.
  */
 function food_redirect_home_for_language_preference() {
 	if ( is_admin() || wp_doing_ajax() || ( defined( 'REST_REQUEST' ) && REST_REQUEST ) || is_feed() ) {
@@ -69,25 +50,19 @@ function food_redirect_home_for_language_preference() {
 		return;
 	}
 
-	$current   = function_exists( 'food_current_language' ) ? food_current_language() : ( $is_english_home ? 'en' : 'es' );
 	$preferred = food_language_preference();
-
-	if ( $preferred ) {
-		$target = $preferred;
-	} elseif ( $is_spanish_home ) {
-		$browser_language = food_browser_primary_language();
-		$target           = ( $browser_language && 'es' !== $browser_language ) ? 'en' : 'es';
-	} else {
+	if ( ! $preferred ) {
 		return;
 	}
 
-	if ( $target === $current ) {
+	$current = function_exists( 'food_current_language' ) ? food_current_language() : ( $is_english_home ? 'en' : 'es' );
+	if ( $preferred === $current ) {
 		return;
 	}
 
 	$target_url = function_exists( 'food_language_home_url' )
-		? food_language_home_url( $target )
-		: ( 'en' === $target ? home_url( '/en/' ) : home_url( '/' ) );
+		? food_language_home_url( $preferred )
+		: ( 'en' === $preferred ? home_url( '/en/' ) : home_url( '/' ) );
 
 	nocache_headers();
 	wp_safe_redirect( $target_url, 302, 'Quinnoa language preference' );
