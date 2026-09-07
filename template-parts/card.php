@@ -29,7 +29,7 @@ $food_english       = function_exists( 'food_is_english' ) && food_is_english();
 				?>
 			</div>
 			<h2 class="card-title"><?php the_title(); ?></h2>
-			<p class="card-excerpt"><?php echo esc_html( get_the_excerpt() ); ?></p>
+			<p class="card-excerpt"><?php echo esc_html( wp_strip_all_tags( get_the_excerpt() ) ); ?></p>
 			<div class="card-meta"><span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span></div>
 		</div>
 	</a>
