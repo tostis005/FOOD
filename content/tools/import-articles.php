@@ -49,6 +49,7 @@ foreach ( array_slice( $argv, 3 ) as $argument ) {
         continue;
     }
     list( $key, $value ) = explode( '=', substr( $argument, 2 ), 2 );
+    $key = str_replace( '-', '_', $key );
     if ( array_key_exists( $key, $options ) ) {
         $options[ $key ] = $value;
     }
