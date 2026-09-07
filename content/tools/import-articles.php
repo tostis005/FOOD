@@ -3,10 +3,11 @@
  * Bulk JSON importer for FOOD articles.
  *
  * Usage:
- *   php import-articles.php <wp-root> <articles-root> [--language=es|en|all] [--from=1] [--to=25] [--status=publish|draft|review|json]
+ *   php import-articles.php <wp-root> <articles-root> [--language=es|en|all] [--from=1] [--to=25] [--status=publish|draft|review|json] [--force=0|1] [--successful-sha=<sha>] [--state=import|read]
  *
  * The importer is idempotent. It first matches _food_source_id and then falls
- * back to the post slug. Re-running the importer updates managed articles.
+ * back to the post slug. Managed articles store a SHA-256 source hash, so
+ * unchanged JSON can be skipped without rewriting WordPress.
  */
 
 if ( PHP_SAPI !== 'cli' ) {
@@ -15,7 +16,7 @@ if ( PHP_SAPI !== 'cli' ) {
 }
 
 if ( $argc < 3 ) {
-    fwrite( STDERR, "Usage: php import-articles.php <wp-root> <articles-root> [--language=es|en|all] [--from=1] [--to=25] [--status=publish|draft|review|json]\n" );
+    fwrite( STDERR, "Usage: php import-articles.php <wp-root> <articles-root> [--language=es|en|all] [--from=1] [--to=25] [--status=publish|draft|review|json] [--force=0|1] [--successful-sha=<sha>] [--state=import|read]\n" );
     exit( 1 );
 }
 
@@ -34,10 +35,13 @@ if ( ! is_dir( $articles_root ) ) {
 }
 
 $options = array(
-    'language' => 'es',
-    'from'     => 1,
-    'to'       => PHP_INT_MAX,
-    'status'   => 'json',
+    'language'       => 'es',
+    'from'           => 1,
+    'to'             => PHP_INT_MAX,
+    'status'         => 'json',
+    'force'          => '0',
+    'successful_sha' => '',
+    'state'          => 'import',
 );
 
 foreach ( array_slice( $argv, 3 ) as $argument ) {
@@ -50,8 +54,9 @@ foreach ( array_slice( $argv, 3 ) as $argument ) {
     }
 }
 
-$options['from'] = max( 1, (int) $options['from'] );
-$options['to']   = max( $options['from'], (int) $options['to'] );
+$options['from']  = max( 1, (int) $options['from'] );
+$options['to']    = max( $options['from'], (int) $options['to'] );
+$options['force'] = in_array( strtolower( (string) $options['force'] ), array( '1', 'true', 'yes', 'on' ), true );
 
 if ( ! in_array( $options['language'], array( 'es', 'en', 'all' ), true ) ) {
     fwrite( STDERR, "Invalid --language. Use es, en or all.\n" );
@@ -63,7 +68,23 @@ if ( ! in_array( $options['status'], array( 'publish', 'draft', 'review', 'json'
     exit( 1 );
 }
 
+if ( ! in_array( $options['state'], array( 'import', 'read' ), true ) ) {
+    fwrite( STDERR, "Invalid --state. Use import or read.\n" );
+    exit( 1 );
+}
+
+if ( '' !== $options['successful_sha'] && ! preg_match( '/^[0-9a-f]{40}$/i', (string) $options['successful_sha'] ) ) {
+    fwrite( STDERR, "Invalid --successful-sha. Expected a 40-character Git commit SHA.\n" );
+    exit( 1 );
+}
+
 require_once $wp_load;
+
+if ( 'read' === $options['state'] ) {
+    $last_sha = (string) get_option( 'food_last_successful_import_sha', '' );
+    echo 'IMPORT_STATE_SHA=' . $last_sha . "\n";
+    exit( 0 );
+}
 
 if ( function_exists( 'food_register_topic_taxonomy' ) ) {
     food_register_topic_taxonomy();
@@ -319,7 +340,8 @@ foreach ( $files as $file ) {
             throw new RuntimeException( 'Could not read JSON.' );
         }
 
-        $data = json_decode( $raw, true, 512, JSON_THROW_ON_ERROR );
+        $source_hash = hash( 'sha256', $raw );
+        $data        = json_decode( $raw, true, 512, JSON_THROW_ON_ERROR );
         if ( ! is_array( $data ) ) {
             throw new RuntimeException( 'JSON root must be an object.' );
         }
@@ -345,9 +367,18 @@ foreach ( $files as $file ) {
         $json_status       = isset( $data['status'] ) ? (string) $data['status'] : 'draft';
         $post_status       = food_import_status( $json_status, $options['status'] );
 
-        $content = $content_html . food_import_sources_html( $sources, $language );
-
+        $content  = $content_html . food_import_sources_html( $sources, $language );
         $existing = food_import_find_existing( $source_id, $slug );
+
+        if ( ! $options['force'] && $existing instanceof WP_Post ) {
+            $stored_hash = (string) get_post_meta( $existing->ID, '_food_source_hash', true );
+            if ( '' !== $stored_hash && hash_equals( $stored_hash, $source_hash ) && $existing->post_status === $post_status ) {
+                ++$skipped;
+                echo "UNCHANGED #{$number} [{$language}] post_id={$existing->ID} slug={$slug}\n";
+                continue;
+            }
+        }
+
         $post_data = array(
             'post_title'     => $title,
             'post_name'      => $slug,
@@ -378,6 +409,7 @@ foreach ( $files as $file ) {
         food_import_save_seo_meta( $post_id, $seo );
 
         update_post_meta( $post_id, '_food_source_id', $source_id );
+        update_post_meta( $post_id, '_food_source_hash', $source_hash );
         update_post_meta( $post_id, '_food_article_number', $number );
         update_post_meta( $post_id, '_food_locale', isset( $data['locale'] ) ? (string) $data['locale'] : $language );
         update_post_meta( $post_id, '_food_market_context', isset( $data['market_context'] ) ? (string) $data['market_context'] : '' );
@@ -416,4 +448,10 @@ echo "IMPORT_FAILED={$failed}\n";
 
 if ( $failed > 0 ) {
     exit( 2 );
+}
+
+if ( '' !== $options['successful_sha'] ) {
+    $successful_sha = strtolower( (string) $options['successful_sha'] );
+    update_option( 'food_last_successful_import_sha', $successful_sha, false );
+    echo "IMPORT_STATE_SHA={$successful_sha}\n";
 }
