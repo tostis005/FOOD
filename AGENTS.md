@@ -8,24 +8,25 @@ Before writing or modifying any article, **read and apply `content/articles/EDIT
 
 That file is the canonical editorial standard for Quinnoa. Do not rely on memory, a previous chat, an older article or a generic writing template instead of reading it. If another instruction conflicts with it, follow the most recent explicit user instruction first and otherwise treat `content/articles/EDITORIAL-STANDARD.md` as authoritative for article writing.
 
-## Mandatory topic master list
+## Mandatory topic inventory
 
-Before creating any new numbered article, **read `content/articles/TOPIC-MASTER-LIST.md` from `main`**.
+Before creating any new numbered article, **read `content/topics/README.md` and the relevant `TOPICS-*.md` file from `main`**.
 
-Canonical GitHub reference:
-`https://github.com/tostis005/FOOD/blob/main/content/articles/TOPIC-MASTER-LIST.md`
+Canonical GitHub folder:
+`https://github.com/tostis005/FOOD/tree/main/content/topics`
 
-This master list contains the approved sequence of **635 article topics** and is the source of truth for article numbering and topic order.
+The files in this folder together contain the approved article-topic sequence and are the source of truth for article numbering and topic order. The inventory is deliberately split into numbered ranges so new batches can be added without mixing topic planning with the Spanish and English article content.
 
 Mandatory rules:
 
-- create articles strictly in the numeric order defined in the master list;
+- create articles strictly in the numeric order defined in the topic inventory;
 - never infer, invent, replace, reorder, merge or skip a topic;
-- never choose a new topic independently because it appears useful or related;
 - Spanish and English versions must use the same `article_number` and `translation_group`, while each language is written natively for its market;
-- before drafting article N, locate article N explicitly in the master list and use that exact approved search intent;
-- if an existing article JSON conflicts with the master list, the master list wins and the JSON must be corrected;
-- when several chats or branches are producing different numeric ranges in parallel, each must stay inside its assigned range and consult the same master list to avoid overlap or drift.
+- before drafting article N, locate article N explicitly in the relevant file under `content/topics/` and use that exact approved search intent;
+- if an existing article JSON conflicts with the topic inventory, the topic inventory wins and the JSON must be corrected;
+- when several chats or branches are producing different numeric ranges in parallel, each must stay inside its assigned range and consult the same topic inventory to avoid overlap or drift;
+- before proposing or approving a new topic, search **all `TOPICS-*.md` files in `content/topics/`**, not just the newest batch, to identify duplicates, near-duplicates and likely search-intent cannibalization;
+- adding or reorganizing topic-list files must not move or reorganize the existing Spanish or English article body files.
 
 For example, article 319 is **“Jamón serrano vs. jamón ibérico: diferencias nutricionales y de elaboración”**. It must not be replaced by a newly invented topic.
 
