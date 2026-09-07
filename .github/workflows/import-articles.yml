@@ -93,7 +93,7 @@ jobs:
           print(f'Validated {count} article JSON files')
           PY
 
-      - name: Normalize canonical source sections
+      - name: Normalize canonical article fields
         id: normalize_sources
         run: |
           set -euo pipefail
@@ -106,22 +106,48 @@ jobs:
               r'<h2>\s*(?:Fuentes|Sources)\s*</h2>\s*<p>.*?</p>\s*$',
               re.IGNORECASE | re.DOTALL,
           )
+          html_tag = re.compile(r'</?[A-Za-z][^>]*>')
+
+          # Articles 776-783 were imported once with inline HTML in excerpt.
+          # Strip only that known legacy range; validation below rejects HTML elsewhere.
+          legacy_excerpt_numbers = set(range(776, 784))
 
           changed = 0
+          excerpt_changed = 0
+          source_changed = 0
           for path in sorted(Path('content/articles').glob('*/*.json')):
               data = json.loads(path.read_text(encoding='utf-8'))
+              dirty = False
+
               content = data.get('content_html', '')
-              normalized = source_block.sub('', content).strip()
-              if normalized == content:
+              normalized_content = source_block.sub('', content).strip()
+              if normalized_content != content:
+                  data['content_html'] = normalized_content
+                  source_changed += 1
+                  dirty = True
+
+              number = int(data.get('article_number', 0) or 0)
+              excerpt = data.get('excerpt', '')
+              if number in legacy_excerpt_numbers and isinstance(excerpt, str):
+                  normalized_excerpt = html_tag.sub('', excerpt).strip()
+                  if normalized_excerpt != excerpt:
+                      data['excerpt'] = normalized_excerpt
+                      excerpt_changed += 1
+                      dirty = True
+
+              if not dirty:
                   continue
-              data['content_html'] = normalized
+
               path.write_text(
                   json.dumps(data, ensure_ascii=False, separators=(',', ':')) + '\n',
                   encoding='utf-8',
               )
               changed += 1
 
-          print(f'Normalized {changed} article JSON files')
+          print(
+              f'Normalized {changed} article JSON files '
+              f'({source_changed} source sections, {excerpt_changed} excerpts)'
+          )
           PY
 
           if git diff --quiet -- content/articles/es content/articles/en; then
@@ -130,6 +156,32 @@ jobs:
             echo 'changed=true' >> "$GITHUB_OUTPUT"
           fi
 
+      - name: Validate plain-text excerpts
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          import re
+          from pathlib import Path
+
+          html_tag = re.compile(r'</?[A-Za-z][^>]*>')
+          failures = []
+
+          for path in sorted(Path('content/articles').glob('*/*.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              excerpt = data.get('excerpt', '')
+              if not isinstance(excerpt, str):
+                  failures.append(f'{path}: excerpt must be a string')
+                  continue
+              if html_tag.search(excerpt):
+                  failures.append(f'{path}: excerpt contains HTML')
+
+          if failures:
+              raise SystemExit('\n'.join(failures))
+
+          print('Validated plain-text excerpts')
+          PY
+
       - name: Persist normalized JSON
         if: steps.normalize_sources.outputs.changed == 'true'
         run: |
@@ -137,7 +189,7 @@ jobs:
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add content/articles/es content/articles/en
-          git commit -m 'Normalize article source sections [skip ci]'
+          git commit -m 'Normalize article fields [skip ci]'
           git push origin HEAD:main
 
       - name: Configure SSH
