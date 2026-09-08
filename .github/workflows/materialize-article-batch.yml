@@ -1,0 +1,76 @@
+name: Materialize staged article batch
+
+on:
+  push:
+    branches:
+      - content/fill-636-775-final-2026-09-08
+    paths:
+      - 'content/staging/article-batch-*.zip'
+      - '.github/workflows/materialize-article-batch.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Extract staged batches
+        shell: bash
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          archives=(content/staging/article-batch-*.zip)
+          if [ ${#archives[@]} -eq 0 ]; then
+            echo 'No staged article archives found.'
+            exit 0
+          fi
+          for archive in "${archives[@]}"; do
+            unzip -o "$archive" -d .
+            rm -f "$archive"
+          done
+      - name: Validate generated article JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json, re
+          from pathlib import Path
+          html_tag = re.compile(r'</?[A-Za-z][^>]*>')
+          failures = []
+          checked = 0
+          for path in sorted(Path('content/articles').glob('*/*.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              n = int(data.get('article_number', 0) or 0)
+              if 636 <= n <= 775:
+                  checked += 1
+                  required = {'schema_version','id','article_number','translation_group','language','locale','market_context','title','slug','seo','excerpt','taxonomy','content_html','faq','sources','image','status'}
+                  missing = required - data.keys()
+                  if missing:
+                      failures.append(f'{path}: missing {sorted(missing)}')
+                  if data.get('status') != 'publish':
+                      failures.append(f'{path}: status is not publish')
+                  excerpt = data.get('excerpt','')
+                  if not isinstance(excerpt, str) or html_tag.search(excerpt):
+                      failures.append(f'{path}: excerpt must be plain text')
+          if failures:
+              raise SystemExit('\n'.join(failures))
+          print(f'Validated {checked} staged article JSON files in range 636-775')
+          PY
+      - name: Commit materialized articles
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/articles content/staging
+          if git diff --cached --quiet; then
+            echo 'No materialized changes to commit.'
+            exit 0
+          fi
+          git commit -m 'Materialize staged article batch [skip ci]'
+          git push origin "HEAD:${GITHUB_REF_NAME}"
