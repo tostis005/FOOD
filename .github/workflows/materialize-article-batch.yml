@@ -30,8 +30,10 @@ jobs:
             exit 0
           fi
           for archive in "${archives[@]}"; do
-            unzip -o "$archive" -d .
-            rm -f "$archive"
+            decoded="/tmp/$(basename "$archive").decoded.zip"
+            base64 -d "$archive" > "$decoded"
+            unzip -o "$decoded" -d .
+            rm -f "$decoded" "$archive"
           done
       - name: Validate generated article JSON
         shell: bash
