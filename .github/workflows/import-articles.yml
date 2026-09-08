@@ -107,9 +107,6 @@ jobs:
               re.IGNORECASE | re.DOTALL,
           )
           html_tag = re.compile(r'</?[A-Za-z][^>]*>')
-
-          # Articles 776-783 were imported once with inline HTML in excerpt.
-          # Strip only that known legacy range; validation below rejects HTML elsewhere.
           legacy_excerpt_numbers = set(range(776, 784))
 
           changed = 0
@@ -264,33 +261,64 @@ jobs:
             exit 1
           fi
 
-          CANDIDATES=""
-          while read -r CID; do
-            [ -z "$CID" ] && continue
-            CROOT="$(docker exec "$CID" sh -lc '
-              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
-                if [ -f "$p/wp-load.php" ]; then
-                  echo "$p"
-                  exit 0
+          find_container() {
+            local matches=""
+            local cid croot source dest rel expected
+
+            while read -r cid; do
+              [ -z "$cid" ] && continue
+              croot="$(docker exec "$cid" sh -lc '
+                for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                  if [ -f "$p/wp-load.php" ]; then
+                    echo "$p"
+                    exit 0
+                  fi
+                done
+                FOUND="$(find /var/www /app -maxdepth 5 -type f -name wp-load.php 2>/dev/null | head -n 1)"
+                [ -n "$FOUND" ] && dirname "$FOUND"
+              ' 2>/dev/null || true)"
+
+              [ -n "$croot" ] || continue
+              docker exec "$cid" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1 || continue
+
+              while IFS='|' read -r source dest; do
+                [ -n "$source" ] && [ -n "$dest" ] || continue
+                expected=""
+                if [ "$WP_ROOT" = "$source" ]; then
+                  expected="$dest"
+                elif [[ "$WP_ROOT" == "$source/"* ]]; then
+                  rel="${WP_ROOT#$source}"
+                  expected="${dest%/}$rel"
                 fi
-              done
-              FOUND="$(find /var/www /app -maxdepth 5 -type f -name wp-load.php 2>/dev/null | head -n 1)"
-              [ -n "$FOUND" ] && dirname "$FOUND"
-            ' 2>/dev/null || true)"
 
-            if [ -n "$CROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
-              CANDIDATES="${CANDIDATES}${CID}|${CROOT}\n"
+                if [ -n "$expected" ] && [ "$expected" = "$croot" ]; then
+                  matches="${matches}${cid}|${croot}"$'\n'
+                  break
+                fi
+              done < <(
+                docker inspect -f '{{range .Mounts}}{{printf "%s|%s\n" .Source .Destination}}{{end}}' "$cid" 2>/dev/null || true
+              )
+            done < <(docker ps -q)
+
+            matches="$(printf '%s' "$matches" | sed '/^$/d' | sort -u)"
+            local count
+            count="$(printf '%s\n' "$matches" | sed '/^$/d' | wc -l | tr -d ' ')"
+            if [ "$count" -lt 1 ]; then
+              echo "ERROR: No se encontró el contenedor que monta $WP_ROOT." >&2
+              echo "Contenedores WordPress detectados:" >&2
+              while read -r cid; do
+                [ -z "$cid" ] && continue
+                docker inspect -f '{{.Id}} {{.Name}} {{range .Mounts}}{{printf "%s->%s " .Source .Destination}}{{end}}' "$cid" 2>/dev/null >&2 || true
+              done < <(docker ps -q)
+              return 1
             fi
-          done < <(docker ps -q)
+            if [ "$count" -gt 1 ]; then
+              echo "WARNING: $count contenedores montan la misma instalación; se usará el primero." >&2
+            fi
+            printf '%s\n' "$matches" | head -n 1
+          }
 
-          CANDIDATE_COUNT="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | wc -l | tr -d ' ')"
-          if [ "$CANDIDATE_COUNT" -ne 1 ]; then
-            echo "ERROR: Se esperaba 1 contenedor WordPress con PHP y se han encontrado $CANDIDATE_COUNT." >&2
-            printf '%b' "$CANDIDATES" >&2
-            exit 1
-          fi
-
-          CANDIDATE="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | head -n 1)"
+          CANDIDATE="$(find_container)"
           CONTAINER_ID="${CANDIDATE%%|*}"
           CONTAINER_WP_ROOT="${CANDIDATE#*|}"
 
@@ -458,49 +486,76 @@ jobs:
             exit 0
           fi
 
-          if ! command -v docker >/dev/null 2>&1; then
-            echo "ERROR: No hay PHP en el host y tampoco está disponible Docker."
+          if ! command -v docker >/dev/null 2>&1 || ! docker ps >/dev/null 2>&1; then
+            echo "ERROR: No hay un PHP utilizable ni acceso a Docker."
             exit 1
           fi
 
-          if ! docker ps >/dev/null 2>&1; then
-            echo "ERROR: Docker existe, pero VPS_USER no puede consultar los contenedores."
-            exit 1
-          fi
+          find_container() {
+            local matches=""
+            local cid croot source dest rel expected
 
-          CANDIDATES=""
-          while read -r CID; do
-            [ -z "$CID" ] && continue
-            CROOT="$(docker exec "$CID" sh -lc '
-              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
-                if [ -f "$p/wp-load.php" ]; then
-                  echo "$p"
-                  exit 0
+            while read -r cid; do
+              [ -z "$cid" ] && continue
+              croot="$(docker exec "$cid" sh -lc '
+                for p in /var/www/html /var/www/wordpress/html /app/public /app; do
+                  if [ -f "$p/wp-load.php" ]; then
+                    echo "$p"
+                    exit 0
+                  fi
+                done
+                FOUND="$(find /var/www /app -maxdepth 5 -type f -name wp-load.php 2>/dev/null | head -n 1)"
+                [ -n "$FOUND" ] && dirname "$FOUND"
+              ' 2>/dev/null || true)"
+
+              [ -n "$croot" ] || continue
+              docker exec "$cid" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1 || continue
+
+              while IFS='|' read -r source dest; do
+                [ -n "$source" ] && [ -n "$dest" ] || continue
+                expected=""
+                if [ "$WP_ROOT" = "$source" ]; then
+                  expected="$dest"
+                elif [[ "$WP_ROOT" == "$source/"* ]]; then
+                  rel="${WP_ROOT#$source}"
+                  expected="${dest%/}$rel"
                 fi
-              done
-              FOUND="$(find /var/www /app -maxdepth 5 -type f -name wp-load.php 2>/dev/null | head -n 1)"
-              [ -n "$FOUND" ] && dirname "$FOUND"
-            ' 2>/dev/null || true)"
 
-            if [ -n "$CROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
-              CANDIDATES="${CANDIDATES}${CID}|${CROOT}\n"
+                if [ -n "$expected" ] && [ "$expected" = "$croot" ]; then
+                  matches="${matches}${cid}|${croot}"$'\n'
+                  break
+                fi
+              done < <(
+                docker inspect -f '{{range .Mounts}}{{printf "%s|%s\n" .Source .Destination}}{{end}}' "$cid" 2>/dev/null || true
+              )
+            done < <(docker ps -q)
+
+            matches="$(printf '%s' "$matches" | sed '/^$/d' | sort -u)"
+            local count
+            count="$(printf '%s\n' "$matches" | sed '/^$/d' | wc -l | tr -d ' ')"
+            if [ "$count" -lt 1 ]; then
+              echo "ERROR: No se encontró el contenedor que monta $WP_ROOT." >&2
+              echo "Contenedores WordPress detectados:" >&2
+              while read -r cid; do
+                [ -z "$cid" ] && continue
+                docker inspect -f '{{.Id}} {{.Name}} {{range .Mounts}}{{printf "%s->%s " .Source .Destination}}{{end}}' "$cid" 2>/dev/null >&2 || true
+              done < <(docker ps -q)
+              return 1
             fi
-          done < <(docker ps -q)
+            if [ "$count" -gt 1 ]; then
+              echo "WARNING: $count contenedores montan la misma instalación; se usará el primero." >&2
+            fi
+            printf '%s\n' "$matches" | head -n 1
+          }
 
-          CANDIDATE_COUNT="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | wc -l | tr -d ' ')"
-          if [ "$CANDIDATE_COUNT" -ne 1 ]; then
-            echo "ERROR: Se esperaba 1 contenedor WordPress con PHP y se han encontrado $CANDIDATE_COUNT."
-            printf '%b' "$CANDIDATES"
-            exit 1
-          fi
-
-          CANDIDATE="$(printf '%b' "$CANDIDATES" | sed '/^$/d' | head -n 1)"
+          CANDIDATE="$(find_container)"
           CONTAINER_ID="${CANDIDATE%%|*}"
           CONTAINER_WP_ROOT="${CANDIDATE#*|}"
 
           docker cp /tmp/food-articles.tgz "$CONTAINER_ID:/tmp/food-articles.tgz"
           docker cp /tmp/food-import-articles.php "$CONTAINER_ID:/tmp/food-import-articles.php"
-          docker exec "$CONTAINER_ID" sh -lc 'rm -rf /tmp/food-article-import && mkdir -p /tmp/food-article-import && tar -xzf /tmp/food-articles.tgz -C /tmp/food-article-import'
+          docker exec "$CONTAINER_ID" sh -lc \
+            'rm -rf /tmp/food-article-import && mkdir -p /tmp/food-article-import && tar -xzf /tmp/food-articles.tgz -C /tmp/food-article-import'
           docker exec \
             -e IMPORT_LANGUAGE="$IMPORT_LANGUAGE" \
             -e IMPORT_FROM="$IMPORT_FROM" \
