@@ -25,6 +25,7 @@ jobs:
           set +e
           python3 content/tools/audit-article-editorial.py content/articles > editorial-audit-report.txt 2>&1
           status=$?
+          python3 content/tools/rank-article-priority.py >> editorial-audit-report.txt 2>&1
           cat editorial-audit-report.txt
           echo "status=$status" >> "$GITHUB_OUTPUT"
           exit 0
