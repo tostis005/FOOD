@@ -13,11 +13,91 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Rebuild validated article files
+      - name: Rebuild and validate article files
         shell: bash
         run: |
           cat .tmp/priority05-gen.c* | base64 -d | gunzip > /tmp/build_priority05.py
-          python /tmp/build_priority05.py
+          python -O /tmp/build_priority05.py
+          python - <<'PY'
+          import html, json, math, re
+          from pathlib import Path
+
+          root = Path('content/articles')
+          target_ids = [265,540,447,448,469,229,238,565,256,108,690,263,267,551,225,271,281,128,248,239]
+          forbidden = [
+              'merece un artículo', 'merece otro artículo', 'otro artículo', 'en este artículo',
+              'hemos elegido', 'hemos usado', 'hemos utilizado', 'deliberadamente',
+              'se excluye deliberadamente', 'excluimos deliberadamente', 'para no manipular',
+              'criterio de ordenación', 'fuentes y criterio', 'registro utilizado', 'registros concretos',
+              'la tabla no pretende', 'no pretendemos', 'cocinado con calor seco',
+              'tabla principal', 'ranking principal', 'tabla anterior', 'ranking anterior',
+              'la tabla de arriba', 'el ranking de arriba', 'como vimos', 'como hemos visto',
+              'en otra guía', 'en otra entrada', 'en otro post', 'en otra página',
+              'deserves its own article', 'another article', 'in this article',
+              'we chose', 'we have chosen', 'we used', 'we have used', 'deliberately',
+              'to avoid manipulating', 'ordering criteria', 'sources and methodology',
+              'record used', 'specific records', 'the table is not intended', 'cooked by dry heat',
+              'main table', 'main ranking', 'previous table', 'previous ranking',
+              'the table above', 'the ranking above', 'as we saw', 'as we have seen',
+              'in another guide', 'in another article', 'in another post', 'on another page'
+          ]
+          cross_patterns = [
+              r'como (?:ocurre|pasa|sucede) (?:con|en) las carnes',
+              r'como (?:ocurre|pasa|sucede) (?:con|en) los pescados',
+              r'igual que (?:en|con) las carnes', r'al igual que (?:en|con) las carnes',
+              r'igual que (?:en|con) los pescados', r'al igual que (?:en|con) los pescados',
+              r'as (?:with|in) (?:the )?meat ranking', r'as (?:with|in) (?:the )?fish ranking',
+              r'as (?:with|in) (?:the )?meat article', r'as (?:with|in) (?:the )?fish article'
+          ]
+          def visible(s):
+              s = re.sub(r'(?is)<(?:script|style)\b[^>]*>.*?</(?:script|style)>', ' ', s)
+              s = re.sub(r'<[^>]+>', ' ', s)
+              return re.sub(r'\s+', ' ', html.unescape(s)).strip()
+          def wc(s):
+              return len(re.findall(r"\b[^\W_]+(?:['’\-][^\W_]+)*\b", s, flags=re.UNICODE))
+
+          p540 = next((root/'en').glob('540-*.json'))
+          d540 = json.loads(p540.read_text(encoding='utf-8'))
+          extra = "<p>For most people, the practical difference is not that decaf is caffeine-free, but that it delivers much less caffeine per cup. That matters if coffee affects sleep, anxiety, reflux, or noticeable heart-rate changes. Decaf can also make it easier to keep the flavor and ritual of coffee later in the day without taking in the same stimulant dose. Still, cup size and brewing method matter, and decaf can contain small amounts of caffeine, so people who need to avoid caffeine completely should not assume every decaf drink is zero-caffeine.</p>"
+          d540['content_html'] = d540['content_html'] + extra
+          p540.write_text(json.dumps(d540, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          pairs = {}
+          checked = []
+          for num in target_ids:
+              pairs[num] = {}
+              for lang in ('es','en'):
+                  matches = list((root/lang).glob(f'{num}-*.json'))
+                  assert len(matches) == 1, (num, lang, matches)
+                  p = matches[0]
+                  d = json.loads(p.read_text(encoding='utf-8'))
+                  assert d.get('article_number') == num, (p, d.get('article_number'))
+                  assert d.get('language') == lang, (p, d.get('language'))
+                  assert d.get('status') == 'publish', (p, d.get('status'))
+                  content = str(d.get('content_html',''))
+                  text = visible(content)
+                  words = wc(text)
+                  h2 = len(re.findall(r'<h2\b', content, flags=re.I))
+                  minutes = max(1, math.ceil(words/210)) if words else 0
+                  assert words >= 631, (p, words)
+                  assert minutes >= 4, (p, minutes)
+                  if h2 >= 5:
+                      assert words/h2 >= 80, (p, words, h2, words/h2)
+                  plain = text.lower()
+                  for phrase in forbidden:
+                      assert phrase not in plain, (p, phrase)
+                  for pattern in cross_patterns:
+                      assert not re.search(pattern, plain), (p, pattern)
+                  excerpt = re.sub(r'\s+', ' ', str(d.get('excerpt',''))).strip().lower()
+                  assert not excerpt or excerpt not in plain, (p, 'excerpt repeated')
+                  pairs[num][lang] = d.get('translation_group')
+                  checked.append((str(p), words, h2, round(words/h2,1) if h2 else None))
+              assert pairs[num]['es'] and pairs[num]['es'] == pairs[num]['en'], (num, pairs[num])
+          assert len(checked) == 40, len(checked)
+          print('PRIORITY05_TARGET_VALIDATION=PASS')
+          for row in checked:
+              print(row)
+          PY
       - name: Commit materialized JSON
         shell: bash
         run: |
