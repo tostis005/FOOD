@@ -1,11 +1,10 @@
-name: Materialize priority block 05
+name: Finalize priority block 05
 on:
   push:
     branches:
       - tmp-quality-priority-05-materialize
 jobs:
-  materialize:
-    if: ${{ !contains(github.event.head_commit.message, 'Materialize priority block 05') }}
+  finalize:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -13,103 +12,57 @@ jobs:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      - name: Rebuild and validate article files
+      - name: Copy exactly 40 JSON to final branch and commit
         shell: bash
         run: |
-          cat .tmp/priority05-gen.c* | base64 -d | gunzip > /tmp/build_priority05.py
-          python -O /tmp/build_priority05.py
-          python - <<'PY'
-          import html, json, math, re
-          from pathlib import Path
+          set -euo pipefail
+          BASE='ff7d91aa0b38751129637341ae1dda2c9d9dc8f0'
+          FINAL_BRANCH='quality-priority-05'
+          IDS=(265 540 447 448 469 229 238 565 256 108 690 263 267 551 225 271 281 128 248 239)
 
-          root = Path('content/articles')
-          target_ids = [265,540,447,448,469,229,238,565,256,108,690,263,267,551,225,271,281,128,248,239]
-          forbidden = [
-              'merece un artículo', 'merece otro artículo', 'otro artículo', 'en este artículo',
-              'hemos elegido', 'hemos usado', 'hemos utilizado', 'deliberadamente',
-              'se excluye deliberadamente', 'excluimos deliberadamente', 'para no manipular',
-              'criterio de ordenación', 'fuentes y criterio', 'registro utilizado', 'registros concretos',
-              'la tabla no pretende', 'no pretendemos', 'cocinado con calor seco',
-              'tabla principal', 'ranking principal', 'tabla anterior', 'ranking anterior',
-              'la tabla de arriba', 'el ranking de arriba', 'como vimos', 'como hemos visto',
-              'en otra guía', 'en otra entrada', 'en otro post', 'en otra página',
-              'deserves its own article', 'another article', 'in this article',
-              'we chose', 'we have chosen', 'we used', 'we have used', 'deliberately',
-              'to avoid manipulating', 'ordering criteria', 'sources and methodology',
-              'record used', 'specific records', 'the table is not intended', 'cooked by dry heat',
-              'main table', 'main ranking', 'previous table', 'previous ranking',
-              'the table above', 'the ranking above', 'as we saw', 'as we have seen',
-              'in another guide', 'in another article', 'in another post', 'on another page'
-          ]
-          cross_patterns = [
-              r'como (?:ocurre|pasa|sucede) (?:con|en) las carnes',
-              r'como (?:ocurre|pasa|sucede) (?:con|en) los pescados',
-              r'igual que (?:en|con) las carnes', r'al igual que (?:en|con) las carnes',
-              r'igual que (?:en|con) los pescados', r'al igual que (?:en|con) los pescados',
-              r'as (?:with|in) (?:the )?meat ranking', r'as (?:with|in) (?:the )?fish ranking',
-              r'as (?:with|in) (?:the )?meat article', r'as (?:with|in) (?:the )?fish article'
-          ]
-          def visible(s):
-              s = re.sub(r'(?is)<(?:script|style)\b[^>]*>.*?</(?:script|style)>', ' ', s)
-              s = re.sub(r'<[^>]+>', ' ', s)
-              return re.sub(r'\s+', ' ', html.unescape(s)).strip()
-          def wc(s):
-              return len(re.findall(r"\b[^\W_]+(?:['’\-][^\W_]+)*\b", s, flags=re.UNICODE))
+          git fetch origin "$FINAL_BRANCH" main
+          test "$(git rev-parse "origin/$FINAL_BRANCH")" = "$BASE"
+          test "$(git rev-parse origin/main)" = "$BASE"
 
-          extras = {
-              540: "<p>For most people, the practical difference is not that decaf is caffeine-free, but that it delivers much less caffeine per cup. That matters if coffee affects sleep, anxiety, reflux, or noticeable heart-rate changes. Decaf can also make it easier to keep the flavor and ritual of coffee later in the day without taking in the same stimulant dose. Still, cup size and brewing method matter, and decaf can contain small amounts of caffeine, so people who need to avoid caffeine completely should not assume every decaf drink is zero-caffeine.</p>",
-              565: "<p>Chicken breast is best treated as a protein food, not as a meaningful carbohydrate source. Plain roasted, grilled, poached, or baked breast meat contributes virtually no carbs on its own, while the carbohydrate count can rise quickly when breading, sweet glazes, barbecue sauce, marinades with sugar, or side dishes are included. If you track macros, check the preparation rather than judging the ingredient name alone. Portion size also matters for protein: a larger cooked breast can provide much more protein than a small serving, even though the carb content of the plain meat remains negligible.</p>",
-              690: "<p>Almond flour and wheat flour also behave very differently in recipes. Almond flour brings more fat and moisture, so baked goods tend to be softer, denser, and more tender, while wheat flour develops gluten and gives breads and many cakes more stretch and structure. They are not reliable one-for-one substitutes in every recipe. Almond flour can be useful when you want fewer carbohydrates or need a gluten-free option, but it is more calorie-dense and may require different amounts of eggs, liquid, or leavening. Wheat flour remains the easier choice when a recipe depends on gluten for rise, chew, or shape.</p>",
-              271: "<p>The safest thawing method is usually the refrigerator because the meat stays cold throughout the process. Put it on a plate or tray on the lowest shelf so juices cannot drip onto other foods, and allow enough time for the center to thaw fully. For a faster option, seal the meat in a leak-proof bag and submerge it in cold water, changing the water regularly; cook it promptly afterward. Microwave thawing is also acceptable when cooking follows immediately. Leaving meat on the counter is risky because the surface can warm into a temperature range where bacteria multiply while the center is still frozen.</p>",
-              281: "<p>Choosing a lean cut is only part of keeping beef relatively low in fat. Visible fat around the edge can be trimmed before or after cooking, and methods such as grilling, broiling, roasting, or pan-searing without heavy sauces make the final serving easier to assess. Ground beef needs separate attention because its fat percentage is stated on the package rather than visible as a fat cap. A lean cut can also become a much richer meal when it is paired with butter-heavy sauces, cheese, or large portions, so the cut, serving size, and preparation all shape the final nutrition profile.</p>"
-          }
-          for num, extra in extras.items():
-              p = next((root/'en').glob(f'{num}-*.json'))
-              d = json.loads(p.read_text(encoding='utf-8'))
-              d['content_html'] = d['content_html'] + extra
-              p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          git worktree add --detach /tmp/priority05-final "origin/$FINAL_BRANCH"
 
-          pairs = {}
-          checked = []
-          for num in target_ids:
-              pairs[num] = {}
-              for lang in ('es','en'):
-                  matches = list((root/lang).glob(f'{num}-*.json'))
-                  assert len(matches) == 1, (num, lang, matches)
-                  p = matches[0]
-                  d = json.loads(p.read_text(encoding='utf-8'))
-                  assert d.get('article_number') == num, (p, d.get('article_number'))
-                  assert d.get('language') == lang, (p, d.get('language'))
-                  assert d.get('status') == 'publish', (p, d.get('status'))
-                  content = str(d.get('content_html',''))
-                  text = visible(content)
-                  words = wc(text)
-                  h2 = len(re.findall(r'<h2\b', content, flags=re.I))
-                  minutes = max(1, math.ceil(words/210)) if words else 0
-                  assert words >= 631, (p, words)
-                  assert minutes >= 4, (p, minutes)
-                  if h2 >= 5:
-                      assert words/h2 >= 80, (p, words, h2, words/h2)
-                  plain = text.lower()
-                  for phrase in forbidden:
-                      assert phrase not in plain, (p, phrase)
-                  for pattern in cross_patterns:
-                      assert not re.search(pattern, plain), (p, pattern)
-                  excerpt = re.sub(r'\s+', ' ', str(d.get('excerpt',''))).strip().lower()
-                  assert not excerpt or excerpt not in plain, (p, 'excerpt repeated')
-                  pairs[num][lang] = d.get('translation_group')
-                  checked.append((str(p), words, h2, round(words/h2,1) if h2 else None))
-              assert pairs[num]['es'] and pairs[num]['es'] == pairs[num]['en'], (num, pairs[num])
-          assert len(checked) == 40, len(checked)
-          print('PRIORITY05_TARGET_VALIDATION=PASS')
-          for row in checked:
-              print(row)
-          PY
-      - name: Commit materialized JSON
-        shell: bash
-        run: |
+          expected=()
+          for lang in es en; do
+            for id in "${IDS[@]}"; do
+              shopt -s nullglob
+              matches=(content/articles/$lang/${id}-*.json)
+              shopt -u nullglob
+              test "${#matches[@]}" -eq 1
+              src="${matches[0]}"
+              expected+=("$src")
+              mkdir -p "/tmp/priority05-final/$(dirname "$src")"
+              cp "$src" "/tmp/priority05-final/$src"
+            done
+          done
+
+          cd /tmp/priority05-final
+          mapfile -t changed < <(git status --porcelain | sed 's/^...//')
+          test "${#changed[@]}" -eq 40
+          test "$(printf '%s\n' "${changed[@]}" | grep -c '^content/articles/es/')" -eq 20
+          test "$(printf '%s\n' "${changed[@]}" | grep -c '^content/articles/en/')" -eq 20
+          test "$(printf '%s\n' "${changed[@]}" | grep -vc '^content/articles/\(es\|en\)/')" -eq 0
+
+          printf '%s\n' "${expected[@]}" | sort > /tmp/expected.txt
+          printf '%s\n' "${changed[@]}" | sort > /tmp/changed.txt
+          diff -u /tmp/expected.txt /tmp/changed.txt
+
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add content/articles/en content/articles/es
-          git commit -m 'Materialize priority block 05 [skip ci]'
-          git push origin HEAD:tmp-quality-priority-05-materialize
+          git add -- "${expected[@]}"
+          mapfile -t staged < <(git diff --cached --name-only)
+          test "${#staged[@]}" -eq 40
+          test "$(git diff --cached --name-only | grep -c '^content/articles/es/')" -eq 20
+          test "$(git diff --cached --name-only | grep -c '^content/articles/en/')" -eq 20
+          test "$(git diff --cached --name-only | grep -vc '^content/articles/\(es\|en\)/')" -eq 0
+
+          git commit -m 'Improve editorial quality for priority block 05'
+          git push origin HEAD:"$FINAL_BRANCH"
+          echo "FINAL_COMMIT=$(git rev-parse HEAD)"
+          echo 'FINAL_DIFF_COUNT=40'
+          echo 'FINAL_ES_COUNT=20'
+          echo 'FINAL_EN_COUNT=20'
