@@ -1,53 +1,19 @@
 {
   "schema_version": 1,
-  "id": "es-456-congelar-platanos",
+  "id": "es-456-se-pueden-congelar-platanos",
   "article_number": 456,
-  "translation_group": "456-freeze-bananas",
+  "translation_group": "456-can-you-freeze-bananas",
   "language": "es",
   "locale": "es-ES",
-  "market_context": "España/Unión Europea; congelación doméstica de plátanos maduros.",
-  "title": "¿Se pueden congelar plátanos?",
+  "market_context": "España/Unión Europea; composición, etiquetado y seguridad alimentaria contextualizados para España y la UE",
+  "title": "¿Se pueden congelar los plátanos? Sí, y así quedan mejor",
   "slug": "se-pueden-congelar-platanos",
-  "seo": {
-    "title": "¿Se pueden congelar plátanos? Cómo hacerlo bien",
-    "meta_description": "Sí. Pélalos antes, congela enteros o en rodajas y guarda después en bolsa hermética. Al descongelar quedan blandos, ideales para batidos y repostería.",
-    "search_intent": "Congelar plátanos maduros correctamente y saber cómo cambia su textura."
-  },
-  "excerpt": "Sí. Los plátanos maduros se congelan muy bien para batidos, helados, tortitas y repostería. Conviene pelarlos antes y congelarlos en rodajas o porciones. Después de descongelar estarán blandos y pueden liberar líquido, por lo que no sustituyen bien a una rodaja fresca.",
-  "taxonomy": {
-    "food_family": "fruit",
-    "food_subcategories": [],
-    "article_types": [
-      "freezing-thawing",
-      "storage"
-    ],
-    "primary_article_type": "freezing-thawing"
-  },
-  "content_html": "<p>Cuando un racimo madura todo a la vez, el congelador es una de las formas más sencillas de evitar desperdicio. <strong>El sabor se conserva razonablemente bien; la textura firme, no.</strong></p><h2>Pelar antes ahorra problemas</h2><p>La piel del plátano se vuelve negra y se adhiere a la pulpa cuando se congela. Es mucho más cómodo pelarlo primero y guardar sólo la parte comestible.</p><h2>Rodajas para usar de una en una</h2><ol><li>Pela plátanos maduros y sanos.</li><li>Corta en rodajas o trozos.</li><li>Extiéndelos en una bandeja sin amontonar.</li><li>Congela hasta que estén firmes.</li><li>Pásalos a una bolsa o recipiente hermético, retirando aire.</li></ol><p>La precongelación evita formar un bloque sólido y permite sacar sólo la cantidad necesaria.</p><h2>Qué pasa al descongelar</h2><p>Los cristales de hielo rompen células, así que la pulpa queda muy blanda y puede separar algo de líquido. Para un bizcocho eso no supone un problema: utiliza pulpa y líquido. Para una macedonia, el resultado será inferior al fresco.</p><h2>También se pueden usar congelados</h2><p>En batidos o “nice cream” pueden ir directamente del congelador a la batidora, siempre que el aparato esté preparado para ingredientes congelados.</p><h2>Congelar conserva el ingrediente, no la textura de fruta fresca</h2><p>Los cristales de hielo rompen parte de la estructura celular del plátano. Al descongelar, el agua sale con más facilidad y la pulpa queda mucho más blanda. Eso es una desventaja si esperabas rodajas firmes, pero prácticamente irrelevante para un batido, un helado triturado o un bizcocho.</p><p>Elegir el uso antes de congelar ayuda a decidir el formato: rodajas separadas para batidos, porciones machacadas para repostería o piezas enteras peladas si luego vas a triturarlas.</p><h2>Congela antes de que estén estropeados</h2><p>Un plátano muy maduro pero sano es ideal. Si ya tiene moho, olor podrido o fermentación evidente, congelarlo no lo recupera.</p><p><strong>Pelar, porcionar y congelar antes de que se pase convierte un racimo maduro en ingrediente listo para semanas de recetas.</strong></p>",
-  "faq": [
-    {
-      "question": "¿Se puede congelar el plátano con piel?",
-      "answer": "Sí físicamente, pero es poco práctico: la piel se oscurece y resulta difícil de retirar. Es mejor pelarlo antes."
-    },
-    {
-      "question": "¿Hay que descongelarlo para un batido?",
-      "answer": "No. Puede usarse congelado y además aporta una textura más cremosa."
-    },
-    {
-      "question": "¿Queda igual que fresco?",
-      "answer": "No. Al descongelar queda más blando porque los cristales de hielo dañan la estructura celular."
-    }
-  ],
-  "sources": [
-    {
-      "name": "University of Minnesota Extension — Preserving food at home: Freezing",
-      "url": "https://extension.umn.edu/food/preparing/cooking-at-home/food-preservation/freezing",
-      "note": "Principios de congelación de fruta, calidad, envasado y cambios de textura."
-    }
-  ],
-  "image": {
-    "concept": "Rodajas de plátano separadas en una bandeja de congelación y luego en una bolsa hermética, fotografía editorial realista, sin texto.",
-    "alt": "Rodajas de plátano preparadas para congelar"
-  },
+  "seo": {"title":"Cómo congelar plátanos para batidos y repostería","meta_description":"Los plátanos se congelan bien una vez pelados. Congélalos en rodajas o enteros por raciones; al descongelar se vuelven blandos y sueltan líquido, algo ideal para repostería y batidos pero no para comer en rodajas firmes.","search_intent":"Explicar cómo congelar plátanos, por qué conviene pelarlos, cómo cambia la textura y cómo usarlos en batidos y repostería."},
+  "excerpt": "Congelar plátanos maduros es una forma sencilla de evitar desperdicio. Pélalos primero, porciónalos y guárdalos bien cerrados. Al descongelar se vuelven muy blandos, pero ese cambio funciona de maravilla para pan de plátano, tortitas y batidos.",
+  "taxonomy": {"food_family":"fruit","food_subcategories":["bananas","freezing"],"article_types":["storage","cooking-techniques","myths-faq"],"primary_article_type":"storage"},
+  "content_html": "<p>Congelar es una de las formas más fáciles de aprovechar plátanos maduros antes de que se pasen. <strong>El sabor se conserva bien, pero la textura cambia: los cristales de hielo dañan la estructura celular y, al descongelar, la pulpa queda muy blanda y libera líquido.</strong> Esa textura es perfecta para pan de plátano, bizcochos, tortitas, avena, cremas y batidos. En cambio, no es la mejor opción si quieres rodajas firmes para una macedonia o para decorar un postre.</p><h2>Mejor pelarlos antes de congelar</h2><p>Se puede meter un plátano con piel en el congelador, pero la cáscara se ennegrece y después resulta incómoda y pegajosa de retirar. Pelarlo primero ahorra trabajo. Para batidos, córtalo en monedas o trozos que la batidora pueda triturar con facilidad. Para repostería, puede congelarse entero si sueles usar una o dos unidades. Porciona pensando en tus recetas habituales, porque una masa compacta de fruta congelada es difícil de separar.</p><h2>Congelar primero en bandeja evita un bloque</h2><p>Coloca rodajas o trozos en una sola capa sobre una bandeja y congela hasta que estén firmes. Después pásalos a una bolsa o recipiente hermético y retira tanto aire como sea práctico. Así no se pegan en un único bloque y puedes sacar solo lo necesario. Etiqueta con la fecha. Un cierre correcto también evita que absorban olores del congelador y reduce la deshidratación superficial que deteriora sabor y textura con el tiempo.</p><h2>Para batidos, úsalo directamente congelado</h2><p>El plátano congelado aporta frío y cuerpo sin necesidad de añadir hielo. Una batidora potente acepta trozos grandes; en una más modesta funcionan mejor piezas pequeñas. Si el batido queda demasiado espeso, añade líquido poco a poco. Los plátanos muy maduros aportan más dulzor y aroma, por lo que pueden reducir la necesidad de azúcar añadido. Combinan bien con leche o bebida vegetal, yogur, cacao, avena, crema de frutos secos y otras frutas.</p><h2>Para repostería, descongela y conserva el líquido</h2><p>Al descongelarse, el plátano puede parecer aplastado y acuoso. Ese líquido contiene sólidos y azúcares de la propia fruta y normalmente debe incorporarse a la masa salvo que la receta indique escurrirlo. Tritura o machaca y mide la cantidad requerida. Como tamaño y madurez varían, pesar o medir el puré es más fiable que asumir que todas las unidades son iguales. El plátano congelado y descongelado funciona especialmente bien cuando la receta busca una pulpa muy blanda.</p><h2>Que se oscurezca es normal</h2><p>La pulpa puede adquirir un tono marrón durante congelación o descongelación por cambios enzimáticos y oxidativos. El color por sí solo no significa que esté estropeada. Congelar detiene el crecimiento microbiano, pero no arregla una fruta que ya estaba con moho, fermentada o deteriorada. Lo mejor es congelar el plátano cuando todavía huele y sabe bien, aunque esté muy maduro y con la piel llena de manchas.</p><h2>Usa la textura a tu favor</h2><p>El plátano congelado es ideal para batidos, helados caseros, repostería, gachas y salsas dulces. Para rodajas limpias sobre cereales o una tarta, mejor usar fruta fresca. <strong>Pela, porciona, congela en una sola capa y guarda herméticamente; después utilízalo en preparaciones donde la suavidad sea una ventaja.</strong> Es una técnica sencilla para alargar la utilidad de una fruta muy perecedera y reducir desperdicio sin añadir conservantes.</p><p>Si congelas varios plátanos a la vez, distribuirlos por recetas ahorra trabajo. Puedes guardar porciones equivalentes a un plátano para batidos y otras de dos o tres unidades para repostería. Una vez congelados, los trozos son difíciles de separar si entraron húmedos o apretados en la bolsa. La congelación previa en bandeja y una etiqueta clara solucionan ese problema y permiten mezclar después solo la cantidad necesaria con otras frutas congeladas.</p><p>Para descongelar, piensa primero en el uso final. En un batido no hace falta descongelar; para pan de plátano, tortitas o gachas puedes dejar la porción en la nevera o calentarla suavemente y aprovechar también el líquido que libere. Ese líquido contiene componentes de la fruta y aporta humedad a la receta. Si la masa ya es muy húmeda, ajusta el resto de líquidos en vez de escurrirlo automáticamente.</p>",
+  "faq": [{"question":"¿Conviene pelar el plátano antes de congelarlo?","answer":"Sí. La cáscara se ennegrece y es difícil de retirar tras congelar, por lo que pelarlo antes es mucho más cómodo."},{"question":"¿Sirve para pan de plátano?","answer":"Sí. Descongela, machaca y normalmente incorpora también el líquido que suelta, salvo que la receta diga lo contrario."},{"question":"¿Por qué se vuelve marrón?","answer":"Puede oscurecerse por reacciones enzimáticas y oxidativas. El cambio de color por sí solo no indica que esté estropeado."}],
+  "sources": [{"name":"USDA FoodKeeper","url":"https://www.foodsafety.gov/keep-food-safe/foodkeeper-app","note":"Referencia general sobre conservación refrigerada y congelada de alimentos."},{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Reference database for food composition and nutrient values."}],
+  "image": {"concept":"Rodajas de plátano pelado congelándose separadas en una bandeja, natural food photography without readable branding or text.","alt":"Rodajas de plátano pelado congelándose separadas en una bandeja"},
   "status": "publish"
 }
