@@ -8,17 +8,13 @@ audit = importlib.util.module_from_spec(spec)
 try:
     spec.loader.exec_module(audit)
 except SystemExit:
-    # The current corpus intentionally contains known numbering gaps and quality
-    # failures. The auditor has already populated its metrics before exiting.
     pass
 
 rows = []
 for num in sorted(audit.all_numbers):
     versions = [audit.version_results.get((lang, num)) for lang in ('es', 'en')]
     versions = [r for r in versions if r is not None]
-    if not versions:
-        continue
-    if all(not r['reasons'] for r in versions):
+    if not versions or all(not r['reasons'] for r in versions):
         continue
     worst_minutes = min(r['reading_minutes'] for r in versions)
     ratios = [r['words_per_h2'] for r in versions if r['words_per_h2'] is not None]
@@ -33,9 +29,9 @@ for pos, (minutes, ratio, min_words, num, versions) in enumerate(rows, 1):
     for r in versions:
         ratio_text = 'NA' if r['words_per_h2'] is None else f"{r['words_per_h2']:.1f}"
         codes = '+'.join(reason['code'] for reason in r['reasons']) or 'pass'
-        metrics.append(
-            f"{r['language']}:min={r['reading_minutes']},words={r['words']},h2={r['h2']},wph2={ratio_text},reasons={codes}"
-        )
+        metrics.append(f"{r['language']}:min={r['reading_minutes']},words={r['words']},h2={r['h2']},wph2={ratio_text},reasons={codes}")
     ratio_text = 'NA' if ratio == float('inf') else f'{ratio:.1f}'
-    print(f"RANK={pos};ID={num:03d};PRIORITY_MIN={minutes};WORST_WPH2={ratio_text};MIN_WORDS={min_words};" + ';'.join(metrics))
+    es = next(iter(sorted(Path('content/articles/es').glob(f'{num:03d}-*.json'))), None)
+    en = next(iter(sorted(Path('content/articles/en').glob(f'{num:03d}-*.json'))), None)
+    print(f"RANK={pos};ID={num:03d};PRIORITY_MIN={minutes};WORST_WPH2={ratio_text};MIN_WORDS={min_words};ES_PATH={es};EN_PATH={en};" + ';'.join(metrics))
 print('PRIORITY_RANKING_END')
