@@ -59,18 +59,15 @@ jobs:
           extras = {
               540: "<p>For most people, the practical difference is not that decaf is caffeine-free, but that it delivers much less caffeine per cup. That matters if coffee affects sleep, anxiety, reflux, or noticeable heart-rate changes. Decaf can also make it easier to keep the flavor and ritual of coffee later in the day without taking in the same stimulant dose. Still, cup size and brewing method matter, and decaf can contain small amounts of caffeine, so people who need to avoid caffeine completely should not assume every decaf drink is zero-caffeine.</p>",
               565: "<p>Chicken breast is best treated as a protein food, not as a meaningful carbohydrate source. Plain roasted, grilled, poached, or baked breast meat contributes virtually no carbs on its own, while the carbohydrate count can rise quickly when breading, sweet glazes, barbecue sauce, marinades with sugar, or side dishes are included. If you track macros, check the preparation rather than judging the ingredient name alone. Portion size also matters for protein: a larger cooked breast can provide much more protein than a small serving, even though the carb content of the plain meat remains negligible.</p>",
-              690: "<p>Almond flour and wheat flour also behave very differently in recipes. Almond flour brings more fat and moisture, so baked goods tend to be softer, denser, and more tender, while wheat flour develops gluten and gives breads and many cakes more stretch and structure. They are not reliable one-for-one substitutes in every recipe. Almond flour can be useful when you want fewer carbohydrates or need a gluten-free option, but it is more calorie-dense and may require different amounts of eggs, liquid, or leavening. Wheat flour remains the easier choice when a recipe depends on gluten for rise, chew, or shape.</p>"
+              690: "<p>Almond flour and wheat flour also behave very differently in recipes. Almond flour brings more fat and moisture, so baked goods tend to be softer, denser, and more tender, while wheat flour develops gluten and gives breads and many cakes more stretch and structure. They are not reliable one-for-one substitutes in every recipe. Almond flour can be useful when you want fewer carbohydrates or need a gluten-free option, but it is more calorie-dense and may require different amounts of eggs, liquid, or leavening. Wheat flour remains the easier choice when a recipe depends on gluten for rise, chew, or shape.</p>",
+              271: "<p>The safest thawing method is usually the refrigerator because the meat stays cold throughout the process. Put it on a plate or tray on the lowest shelf so juices cannot drip onto other foods, and allow enough time for the center to thaw fully. For a faster option, seal the meat in a leak-proof bag and submerge it in cold water, changing the water regularly; cook it promptly afterward. Microwave thawing is also acceptable when cooking follows immediately. Leaving meat on the counter is risky because the surface can warm into a temperature range where bacteria multiply while the center is still frozen.</p>",
+              281: "<p>Choosing a lean cut is only part of keeping beef relatively low in fat. Visible fat around the edge can be trimmed before or after cooking, and methods such as grilling, broiling, roasting, or pan-searing without heavy sauces make the final serving easier to assess. Ground beef needs separate attention because its fat percentage is stated on the package rather than visible as a fat cap. A lean cut can also become a much richer meal when it is paired with butter-heavy sauces, cheese, or large portions, so the cut, serving size, and preparation all shape the final nutrition profile.</p>"
           }
           for num, extra in extras.items():
               p = next((root/'en').glob(f'{num}-*.json'))
               d = json.loads(p.read_text(encoding='utf-8'))
               d['content_html'] = d['content_html'] + extra
               p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
-
-          for num in (271, 281):
-              p = next((root/'en').glob(f'{num}-*.json'))
-              d = json.loads(p.read_text(encoding='utf-8'))
-              print('TARGET_CONTEXT', num, p, d.get('title'))
 
           pairs = {}
           checked = []
