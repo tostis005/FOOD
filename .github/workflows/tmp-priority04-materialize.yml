@@ -1,0 +1,52 @@
+name: Materialize priority block 04
+on:
+  push:
+    branches:
+      - tmp-quality-priority-04-materialize
+jobs:
+  materialize:
+    if: ${{ !contains(github.event.head_commit.message, 'Materialize priority block 04') }}
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Rebuild validated article files
+        shell: bash
+        run: |
+          cat .tmp/priority04-gen.c* | base64 -d | gunzip > /tmp/build_priority04.py
+          sed -i "s#OUT=Path('/mnt/data/priority04')#OUT=Path('content/articles')#" /tmp/build_priority04.py
+          python /tmp/build_priority04.py
+          python - <<'PY'
+          import glob,json,re
+          target={117,143,151,226,234,245,249,272,279,283,284,285,450,452,453,465,574,583,584,677}
+          files=[]
+          for lang in ('en','es'):
+              for f in glob.glob(f'content/articles/{lang}/*.json'):
+                  try:
+                      d=json.load(open(f,encoding='utf-8'))
+                  except Exception:
+                      continue
+                  if d.get('article_number') in target:
+                      files.append((lang,f,d))
+          assert len(files)==40, len(files)
+          for lang,f,d in files:
+              assert d['language']==lang
+              text=re.sub(r'<[^>]+>',' ',d['content_html'])
+              words=re.findall(r"\b[\wÀ-ÿ'’.-]+\b",text)
+              h=d['content_html'].count('<h2>')
+              assert len(words)>=631,(f,len(words))
+              assert h<5 or len(words)/h>=80,(f,len(words),h)
+              assert d['status']=='publish'
+          print('validated',len(files))
+          PY
+      - name: Commit materialized JSON
+        shell: bash
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/articles/en content/articles/es
+          git commit -m 'Materialize priority block 04 [skip ci]'
+          git push origin HEAD:tmp-quality-priority-04-materialize
