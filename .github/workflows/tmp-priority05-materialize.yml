@@ -58,13 +58,19 @@ jobs:
 
           extras = {
               540: "<p>For most people, the practical difference is not that decaf is caffeine-free, but that it delivers much less caffeine per cup. That matters if coffee affects sleep, anxiety, reflux, or noticeable heart-rate changes. Decaf can also make it easier to keep the flavor and ritual of coffee later in the day without taking in the same stimulant dose. Still, cup size and brewing method matter, and decaf can contain small amounts of caffeine, so people who need to avoid caffeine completely should not assume every decaf drink is zero-caffeine.</p>",
-              565: "<p>Chicken breast is best treated as a protein food, not as a meaningful carbohydrate source. Plain roasted, grilled, poached, or baked breast meat contributes virtually no carbs on its own, while the carbohydrate count can rise quickly when breading, sweet glazes, barbecue sauce, marinades with sugar, or side dishes are included. If you track macros, check the preparation rather than judging the ingredient name alone. Portion size also matters for protein: a larger cooked breast can provide much more protein than a small serving, even though the carb content of the plain meat remains negligible.</p>"
+              565: "<p>Chicken breast is best treated as a protein food, not as a meaningful carbohydrate source. Plain roasted, grilled, poached, or baked breast meat contributes virtually no carbs on its own, while the carbohydrate count can rise quickly when breading, sweet glazes, barbecue sauce, marinades with sugar, or side dishes are included. If you track macros, check the preparation rather than judging the ingredient name alone. Portion size also matters for protein: a larger cooked breast can provide much more protein than a small serving, even though the carb content of the plain meat remains negligible.</p>",
+              690: "<p>Almond flour and wheat flour also behave very differently in recipes. Almond flour brings more fat and moisture, so baked goods tend to be softer, denser, and more tender, while wheat flour develops gluten and gives breads and many cakes more stretch and structure. They are not reliable one-for-one substitutes in every recipe. Almond flour can be useful when you want fewer carbohydrates or need a gluten-free option, but it is more calorie-dense and may require different amounts of eggs, liquid, or leavening. Wheat flour remains the easier choice when a recipe depends on gluten for rise, chew, or shape.</p>"
           }
           for num, extra in extras.items():
               p = next((root/'en').glob(f'{num}-*.json'))
               d = json.loads(p.read_text(encoding='utf-8'))
               d['content_html'] = d['content_html'] + extra
               p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          for num in (271, 281):
+              p = next((root/'en').glob(f'{num}-*.json'))
+              d = json.loads(p.read_text(encoding='utf-8'))
+              print('TARGET_CONTEXT', num, p, d.get('title'))
 
           pairs = {}
           checked = []
