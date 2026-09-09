@@ -1,57 +1,19 @@
 {
   "schema_version": 1,
-  "id": "es-282-quesos-menos-calorias",
+  "id": "es-282-quesos-con-menos-calorias",
   "article_number": 282,
   "translation_group": "282-lowest-calorie-cheeses",
   "language": "es",
   "locale": "es-ES",
-  "market_context": "España/Unión Europea; comparación de quesos y productos frescos por 100 g",
-  "title": "Los quesos con menos calorías",
+  "market_context": "España/Unión Europea; composición, etiquetado y seguridad alimentaria contextualizados para España y la UE",
+  "title": "Qué quesos tienen menos calorías y cómo compararlos bien",
   "slug": "quesos-con-menos-calorias",
-  "seo": {
-    "title": "Los quesos con menos calorías: ranking por 100 g",
-    "meta_description": "Cottage 1% ronda 72 kcal/100 g y ricotta semidesnatada 138, frente a ~254 en mozzarella semidesnatada, 264 en feta y ~400 en cheddar.",
-    "search_intent": "Comparar quesos por calorías en una misma cantidad y entender por qué humedad y grasa cambian tanto el ranking."
-  },
-  "excerpt": "Los quesos frescos muy húmedos y bajos en grasa ocupan el extremo menos calórico. Una referencia USDA de cottage 1% aporta ~72 kcal/100 g y una ricotta semidesnatada ~138, frente a ~254 kcal en mozzarella semidesnatada, 264 en feta y alrededor de 400 en cheddar.",
-  "taxonomy": {
-    "food_family": "dairy-cheese",
-    "food_subcategories": [
-      "cheese",
-      "calories",
-      "ranking"
-    ],
-    "article_types": [
-      "rankings",
-      "nutrition-composition"
-    ],
-    "primary_article_type": "rankings"
-  },
-  "content_html": "<p>Las calorías del queso dependen mucho de dos variables: agua y grasa. <strong>Cuanto más húmedo y menos graso es el producto, menos energía suele concentrar por 100 g.</strong></p><h2>Referencias orientativas por 100 g</h2><table><thead><tr><th>Queso</th><th>Kcal</th><th>Grasa</th><th>Proteína</th></tr></thead><tbody><tr><td>Cottage 1%</td><td>~72</td><td>~1 g</td><td>~12 g</td></tr><tr><td>Ricotta semidesnatada</td><td>~138</td><td>~7.9 g</td><td>~11.4 g</td></tr><tr><td>Mozzarella semidesnatada</td><td>~254</td><td>~15.9 g</td><td>~24.3 g</td></tr><tr><td>Feta</td><td>~264</td><td>~21.3 g</td><td>~14.2 g</td></tr><tr><td>Cheddar</td><td>~400</td><td>~33 g</td><td>~25 g</td></tr></tbody></table><p>Entre cottage 1% y cheddar hay una diferencia cercana a <strong>330 kcal por 100 g</strong>. No es una diferencia pequeña: refleja que uno contiene mucha más agua y mucha menos grasa.</p><h2>Por qué la maduración suele aumentar la densidad energética</h2><p>Al perder agua, un queso curado concentra grasa y proteína en cada 100 g. Eso explica por qué parmesano o cheddar pueden superar ampliamente las calorías de un queso fresco, aunque una ración habitual de curado sea más pequeña.</p><h2>Calorías y proteína no siempre avanzan juntas</h2><p>La mozzarella semidesnatada aporta ~24.3 g de proteína/100 g, aproximadamente el doble que una ricotta semidesnatada de ~11.4 g, pero también tiene unas 116 kcal más por 100 g.</p><h2>El nombre de la categoría no basta</h2><p>“Queso fresco”, “cottage” o “mozzarella” pueden tener versiones enteras, semidesnatadas y sin grasa. La etiqueta del producto concreto es más útil que asumir una cifra fija.</p><h2>Una ración normal reduce las diferencias absolutas</h2><p>Los 100 g son útiles para ordenar quesos, pero muchas raciones están más cerca de 30–50 g. Una diferencia de 100 kcal por 100 g se convierte en unas 30–50 kcal por ración, mientras proteína, calcio, sal y saciedad también forman parte de la elección. Por eso el ranking sirve como punto de partida, no como criterio único.</p><h2>La idea útil</h2><p><strong>Cottage bajo en grasa y ricotta semidesnatada son opciones especialmente bajas en calorías por 100 g.</strong> Los quesos curados son más concentrados, por lo que la ración también debe entrar en la comparación.</p>",
-  "faq": [
-    {
-      "question": "¿Qué queso tiene menos calorías?",
-      "answer": "Entre referencias comunes, cottage 1% puede rondar 72 kcal/100 g, muy por debajo de quesos curados."
-    },
-    {
-      "question": "¿La ricotta tiene pocas calorías?",
-      "answer": "La ricotta semidesnatada ronda 138 kcal/100 g en USDA, frente a ~254 de mozzarella semidesnatada."
-    },
-    {
-      "question": "¿Por qué el cheddar tiene tantas calorías?",
-      "answer": "Tiene mucha menos agua y alrededor de 33 g de grasa/100 g, lo que concentra la energía."
-    }
-  ],
-  "sources": [
-    {
-      "name": "USDA FoodData Central",
-      "url": "https://fdc.nal.usda.gov/",
-      "note": "Referencias por 100 g de cottage 1%, ricotta semidesnatada, mozzarella semidesnatada, feta y cheddar."
-    }
-  ],
-  "image": {
-    "concept": "Cottage, ricotta, mozzarella, feta y cheddar ordenados de menor a mayor densidad calórica, fotografía editorial sin texto.",
-    "alt": "Quesos comparados por calorías"
-  },
+  "seo": {"title":"Quesos con menos calorías: comparación útil","meta_description":"Los quesos con más agua o menos grasa suelen aportar menos calorías por gramo. Cottage, mozzarella parcialmente desnatada y algunos quesos frescos o reducidos en grasa pueden ser más ligeros que quesos curados, pero la ración cambia mucho el resultado.","search_intent":"Ayudar a comparar calorías del queso por peso equivalente, humedad, grasa, proteína, sodio y uso real."},
+  "excerpt": "La densidad calórica del queso depende sobre todo de grasa, proteína y agua. Los quesos frescos y húmedos o reducidos en grasa suelen ser más ligeros por el mismo peso, mientras que los curados concentran nutrientes y energía al perder agua.",
+  "taxonomy": {"food_family":"dairy","food_subcategories":["cheese","calories"],"article_types":["nutrition","comparisons","labels"],"primary_article_type":"nutrition"},
+  "content_html": "<p>Buscar “el queso con menos calorías” parece sencillo hasta que se comparan raciones distintas. <strong>Los quesos con mucha humedad y menos grasa suelen aportar menos energía por gramo, mientras que los curados concentran grasa y proteína al perder agua.</strong> Por eso cottage, algunas mozzarellas parcialmente desnatadas y ciertos quesos frescos o light suelen quedar por debajo de cheddar, parmesano o quesos de triple crema cuando se compara el mismo peso. Sin embargo, una cucharada de parmesano puede aportar menos calorías que un cuenco grande de cottage simplemente porque la porción es mucho menor.</p><h2>La humedad es una variable oculta</h2><p>El agua pesa pero no aporta calorías. Los quesos frescos retienen mucha más, de modo que 100 g pueden contener menos energía que 100 g de un queso duro. La maduración elimina agua y concentra nutrientes. Eso no hace peor al queso curado: también concentra proteína, calcio y sabor. Significa que comparar por volumen visual puede engañar. Un pequeño cubo de queso duro pesa más de lo que parece y un queso batido o con cuajada puede incorporar mucha agua o aire.</p><h2>La grasa cambia la densidad rápidamente</h2><p>La grasa aporta unas nueve kilocalorías por gramo, más del doble que proteína o hidratos. Por eso reducir grasa puede bajar bastante las calorías si se sustituye por agua o proteína. Mozzarella parcialmente desnatada, cottage bajo en grasa o versiones ligeras de queso crema pueden ser opciones menos energéticas. A veces, para compensar textura, los productos reducidos en grasa llevan más estabilizantes o sal, de modo que conviene mirar también sodio y lista de ingredientes.</p><h2>Opciones que suelen ser más ligeras</h2><p>El cottage puede ser relativamente bajo en calorías por su elevada humedad, aunque algunas versiones tienen bastante sal. La mozzarella parcialmente desnatada ofrece una buena relación entre proteína y energía y funde bien. Ricotta, feta, queso de cabra fresco o queso fresco pueden variar muchísimo. El parmesano es denso en calorías por gramo, pero su sabor intenso permite usar poca cantidad. No hay un ganador universal porque la ración y el uso culinario cambian el resultado.</p><h2>Proteína y calcio también cuentan</h2><p>Elegir solo por calorías puede llevar a un producto más ligero pero menos satisfactorio o con menos del nutriente que buscabas. Compara proteína y calcio junto con la energía, sobre todo si el queso sustituye a otro alimento proteico. Algunos productos muy ligeros tienen mucha agua y poca proteína; otros conservan un perfil excelente. El sodio merece atención porque feta, cottage, lonchas procesadas y varios curados pueden ser salados incluso con calorías moderadas.</p><h2>La forma de servir pesa más que un ranking</h2><p>Un queso usado como condimento cumple una función distinta a uno que constituye la proteína principal. Una cucharada de parmesano, una loncha fina de curado, 30 g de mozzarella o medio cuenco de cottage pueden encajar en comidas con cargas energéticas distintas. Los quesos intensos permiten raciones pequeñas. Para un bocadillo, quizá una loncha fina y sabrosa resulte más satisfactoria que una gran cantidad de un queso ligero que no aporta el sabor esperado.</p><h2>Cómo comparar de forma justa</h2><p>Elige un peso común, por ejemplo 30 o 100 g, y calcula a partir de la etiqueta cuando las raciones declaradas sean diferentes. Después vuelve a la cantidad que realmente vas a comer. <strong>Los quesos húmedos y bajos en grasa suelen ser los menos calóricos por peso, pero la mejor elección equilibra energía con proteína, calcio, sodio, sabor y porción.</strong> Para productos envasados, la información del envase es más relevante que cualquier tabla genérica.</p><p>La textura y la satisfacción también cuentan. Un queso muy ligero que no funda, no gratine o no aporte el sabor que esperas puede terminar acompañado de más ingredientes para compensar. A veces funciona mejor una pequeña cantidad de un queso más intenso. Verduras, legumbres, fruta, cereales integrales o frutos secos pueden aportar volumen al plato mientras el queso actúa como fuente concentrada de sabor, proteína y calcio en una porción que tenga sentido.</p>",
+  "faq": [{"question":"¿Qué tipos de queso suelen tener menos calorías?","answer":"Los muy húmedos o reducidos en grasa, como algunos cottage, mozzarella parcialmente desnatada y quesos frescos ligeros."},{"question":"¿El parmesano es muy calórico?","answer":"Es denso por gramo, pero se usa a menudo en cantidades pequeñas porque tiene mucho sabor."},{"question":"¿Conviene comparar por loncha o por peso?","answer":"Por peso es más justo, porque las lonchas y cucharadas pueden tener tamaños y densidades muy diferentes."}],
+  "sources": [{"name":"AESAN/BEDCA — Base de Datos Española de Composición de Alimentos","url":"https://www.bedca.net/","note":"Base de datos española de composición de alimentos para contextualizar energía y nutrientes."},{"name":"Reglamento (UE) n.º 1169/2011 sobre información alimentaria","url":"https://eur-lex.europa.eu/eli/reg/2011/1169/2011-12-12/eng","note":"En la UE, la declaración nutricional obligatoria se expresa por 100 g o 100 ml; adicionalmente puede expresarse por porción."}],
+  "image": {"concept":"Varios tipos de queso pesados en porciones iguales sobre una báscula de cocina, natural food photography without readable branding or text.","alt":"Varios tipos de queso pesados en porciones iguales sobre una báscula de cocina"},
   "status": "publish"
 }

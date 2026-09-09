@@ -1,54 +1,19 @@
 {
   "schema_version": 1,
-  "id": "es-466-manzana-cortada-marron",
+  "id": "es-466-evitar-manzana-cortada-marron",
   "article_number": 466,
-  "translation_group": "466-prevent-cut-apple-browning",
+  "translation_group": "466-how-to-keep-cut-apple-from-browning",
   "language": "es",
   "locale": "es-ES",
-  "market_context": "España/Unión Europea; control doméstico del pardeamiento en manzana cortada.",
+  "market_context": "España/Unión Europea; composición, etiquetado y seguridad alimentaria contextualizados para España y la UE",
   "title": "Cómo evitar que una manzana cortada se ponga marrón",
   "slug": "evitar-manzana-cortada-marron",
-  "seo": {
-    "title": "Cómo evitar que una manzana cortada se ponga marrón",
-    "meta_description": "El limón, el ácido ascórbico, el frío y limitar el contacto con aire ralentizan el pardeamiento enzimático. El color marrón por sí solo no significa que la manzana esté mala.",
-    "search_intent": "Evitar el pardeamiento de manzana cortada y entender por qué funciona el ácido."
-  },
-  "excerpt": "La manzana se oscurece porque al cortar se mezclan enzimas, compuestos fenólicos y oxígeno. Acidificar la superficie con limón o ácido ascórbico, enfriar y reducir la exposición al aire ralentiza la reacción. El pardeamiento es principalmente un cambio de color, no una señal automática de deterioro.",
-  "taxonomy": {
-    "food_family": "fruit",
-    "food_subcategories": [],
-    "article_types": [
-      "cooking-science",
-      "cooking-techniques",
-      "storage"
-    ],
-    "primary_article_type": "cooking-science"
-  },
-  "content_html": "<p>Una manzana puede empezar a ponerse marrón pocos minutos después de cortarla. <strong>La causa es el pardeamiento enzimático, no que la fruta se haya podrido de repente.</strong></p><h2>Qué ocurre al cortar</h2><p>Las células se rompen y una enzima, la polifenol oxidasa, entra en contacto con compuestos fenólicos y oxígeno. Se forman quinonas que terminan generando pigmentos marrones.</p><h2>El limón funciona por dos vías</h2><p>Su acidez reduce la actividad de la enzima y su vitamina C actúa como antioxidante. No hace falta empapar la fruta: unas gotas mezcladas con agua pueden ser suficientes, aunque aportarán algo de sabor ácido.</p><h2>Ácido ascórbico: más neutro de sabor</h2><p>Los preparados de vitamina C usados para conservar fruta son especialmente eficaces. El National Center for Home Food Preservation los recomienda para prevenir oscurecimiento en fruta preparada para congelación o conservación.</p><h2>El frío y el aire también importan</h2><p>Guardar la manzana cortada en un recipiente cerrado y refrigerado ralentiza la reacción y además limita el deterioro. Una bolsa con poco aire o un recipiente pequeño funcionan mejor que una bandeja abierta.</p><h2>No hace falta impedir todo el oxígeno para retrasar el pardeamiento</h2><p>La enzima responsable necesita oxígeno y un pH adecuado. Ácido, antioxidantes, frío y menor contacto con aire actúan sobre partes distintas del proceso, por eso varias medidas moderadas pueden funcionar mejor que una sola muy intensa. Un poco de limón y refrigeración, por ejemplo, suele ser suficiente para unas horas.</p><p>El cambio marrón es principalmente de calidad. Si la manzana se cortó con utensilios limpios y se conserva adecuadamente, el pardeamiento por sí solo no la convierte en insegura.</p><h2>Agua sola ayuda temporalmente</h2><p>Sumergir las piezas limita el contacto con oxígeno, pero puede diluir sabor y textura si se dejan demasiado tiempo. Para unas horas, ácido + frío suele ser una solución más práctica.</p><p><strong>Si sólo está marrón, la manzana suele seguir siendo comestible; olor fermentado, moho o textura podrida son señales distintas.</strong></p>",
-  "faq": [
-    {
-      "question": "¿El limón evita completamente que se ponga marrón?",
-      "answer": "No siempre por completo, pero ralentiza mucho el proceso al bajar el pH y aportar antioxidantes."
-    },
-    {
-      "question": "¿Una manzana marrón está mala?",
-      "answer": "No necesariamente. El pardeamiento enzimático es un cambio de color y puede aparecer en fruta todavía fresca."
-    },
-    {
-      "question": "¿Puedo prepararla por la mañana para comerla horas después?",
-      "answer": "Sí. Añade un poco de limón o ácido ascórbico, guarda en recipiente cerrado y refrigera."
-    }
-  ],
-  "sources": [
-    {
-      "name": "National Center for Home Food Preservation — Preventing Darkening in Fruits",
-      "url": "https://nchfp.uga.edu/how/freeze/enough.html",
-      "note": "Uso de ácido ascórbico y tratamientos para limitar pardeamiento de frutas."
-    }
-  ],
-  "image": {
-    "concept": "Rodajas de manzana tratadas con limón junto a otras sin tratar que empiezan a oscurecerse, fotografía editorial realista, sin texto.",
-    "alt": "Manzana cortada protegida del pardeamiento con limón"
-  },
+  "seo": {"title":"Evitar que la manzana cortada se oxide","meta_description":"La manzana se vuelve marrón cuando enzimas del tejido reaccionan con el oxígeno después del corte. El zumo de limón, reducir el contacto con el aire y el frío ralentizan la reacción; el pardeamiento no equivale a deterioro inmediato.","search_intent":"Explicar por qué se oscurece la manzana cortada y comparar métodos prácticos para retrasar el pardeamiento sin estropear sabor ni textura."},
+  "excerpt": "El corte rompe células y activa una reacción entre enzimas, compuestos fenólicos y oxígeno. Una pequeña cantidad de ácido, un recipiente bien cerrado y la refrigeración pueden retrasar el color marrón. Que se oscurezca no significa por sí solo que la manzana esté estropeada.",
+  "taxonomy": {"food_family":"fruit","food_subcategories":["apples","fresh-cut-fruit"],"article_types":["food-science","storage","cooking-techniques"],"primary_article_type":"food-science"},
+  "content_html": "<p>Cortas una manzana y la pulpa clara puede empezar a ponerse beige o marrón en pocos minutos. <strong>Es un pardeamiento enzimático: al romper las células, ciertas enzimas y compuestos fenólicos entran en contacto con el oxígeno del aire y forman pigmentos oscuros.</strong> El cambio afecta sobre todo al aspecto y algo al sabor, pero no convierte de inmediato la fruta en insegura. Para frenarlo se puede reducir el pH, limitar el oxígeno y mantener la fruta fría.</p><h2>El ácido es el recurso doméstico más sencillo</h2><p>El zumo de limón funciona porque baja el pH de la superficie y aporta compuestos antioxidantes. No hace falta empapar la fruta en limón puro, que puede volverla demasiado ácida. Una dilución ligera o una pequeña película suele ser suficiente. También pueden utilizarse otros zumos ácidos si su sabor encaja con el plato. Para una fiambrera, mezclar rápidamente los gajos con un poco de agua y limón ofrece un equilibrio práctico entre color y sabor.</p><h2>Menos aire significa menos oxidación</h2><p>El oxígeno participa en la reacción, de modo que reducir su contacto ralentiza el pardeamiento. Un recipiente hermético, un film colocado cerca de la superficie o mantener los trozos agrupados ayudan más que dejarlos extendidos al aire. El envasado al vacío funciona, pero es innecesario para unas cuantas rodajas. La protección no es permanente: cuando la fruta vuelve a quedar expuesta al aire, la reacción puede continuar.</p><h2>El frío ralentiza las enzimas</h2><p>La refrigeración disminuye la velocidad de las reacciones y conserva mejor la fruta cortada. Prepara la manzana cerca del momento de consumo cuando sea posible y guarda los trozos refrigerados. Las manzanas comerciales precortadas pueden emplear atmósferas controladas y tratamientos anti-pardeamiento más eficaces que los de casa, por lo que no es razonable esperar la misma duración de unas rodajas caseras sin tratamiento.</p><h2>El agua con un poco de sal también puede ayudar</h2><p>Una solución salina suave puede retrasar el pardeamiento y dejar menos sabor cítrico si después se escurre bien. La concentración debe ser pequeña para que la manzana no quede salada. Es útil en ensaladas o preparaciones donde se busca un sabor neutro. También existen métodos con agua y miel, pero añaden azúcar y no son imprescindibles cuando el ácido, el frío y la reducción del aire ya funcionan bien.</p><h2>Pardeamiento y deterioro no son lo mismo</h2><p>Una rodaja marrón puede seguir siendo perfectamente comestible si se preparó con higiene y se conservó bien. El deterioro implica señales más amplias como moho, fermentación, olor extraño, textura viscosa o descomposición marcada. Al cortar una fruta se rompe su barrera protectora, por lo que conviene lavar la pieza entera antes de cortarla, usar cuchillo y tabla limpios y refrigerar los trozos pronto.</p><h2>Qué método usar</h2><p>Para una fiambrera, un toque de limón y un recipiente frío y cerrado suele ser suficiente. En una macedonia, utiliza un cítrico que combine con el resto. En un relleno de tarta, el color previo importa menos porque el horneado lo cambiará de todos modos. <strong>La idea central es que el pardeamiento necesita enzimas activas y oxígeno: acidez, menos aire y frío lo retrasan.</strong> No hace falta que la manzana permanezca blanca perfecta para que siga siendo agradable y segura.</p><p>Para llevar manzana al colegio o al trabajo, recuerda que el tratamiento anti-pardeamiento y la temperatura resuelven problemas distintos. El limón conserva mejor el color, pero no sustituye mantener la fruta cortada fría cuando sea necesario. Una rodaja clara tampoco es automáticamente más fresca que una marrón. La apariencia es solo una señal de calidad; la preparación limpia, la refrigeración y el tiempo razonable de consumo son hábitos más importantes para la seguridad.</p><p>Si preparas varias raciones, corta solo la cantidad que vayas a utilizar en poco tiempo. Mantener el resto de la manzana entera limita la superficie expuesta al oxígeno y conserva mejor la textura. Para una bandeja de fruta, trabajar por tandas y mantener las rodajas tratadas en frío suele dar mejor resultado que intentar impedir por completo cualquier cambio de color durante muchas horas.</p>",
+  "faq": [{"question":"¿Por qué se pone marrón una manzana cortada?","answer":"El corte permite que enzimas y compuestos de la pulpa reaccionen con el oxígeno y formen pigmentos marrones."},{"question":"¿El limón evita que se oxide?","answer":"Lo retrasa al reducir el pH y aportar antioxidantes. Suele bastar una pequeña cantidad o una solución diluida."},{"question":"¿Una manzana marrón está estropeada?","answer":"No por el simple hecho de oscurecerse. El pardeamiento enzimático es principalmente un cambio de calidad."}],
+  "sources": [{"name":"FDA — Selecting and Serving Produce Safely","url":"https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely","note":"Safe storage and preparation of fresh produce."}],
+  "image": {"concept":"Rodajas de manzana con limón junto a otras empezando a oscurecerse, natural food photography without readable branding or text.","alt":"Rodajas de manzana con limón junto a otras empezando a oscurecerse"},
   "status": "publish"
 }

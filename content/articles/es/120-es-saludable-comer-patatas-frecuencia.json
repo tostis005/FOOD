@@ -5,57 +5,15 @@
   "translation_group": "120-potatoes-frequently",
   "language": "es",
   "locale": "es-ES",
-  "market_context": "España/Unión Europea; composición USDA y patrón dietético mediterráneo",
+  "market_context": "España/Unión Europea; composición, etiquetado y seguridad alimentaria contextualizados para España y la UE",
   "title": "¿Es saludable comer patatas con frecuencia?",
   "slug": "es-saludable-comer-patatas-frecuencia",
-  "seo": {
-    "title": "¿Es saludable comer patatas con frecuencia?",
-    "meta_description": "Sí, las patatas cocidas o asadas pueden encajar con frecuencia. 100 g aportan unas 80–95 kcal; fritas pueden superar 300 kcal por el aceite absorbido.",
-    "search_intent": "Saber si comer patatas a menudo es saludable y cómo cambia la respuesta según la forma de cocinarlas."
-  },
-  "excerpt": "Sí. Las patatas cocidas, al vapor o asadas pueden formar parte de la dieta con frecuencia: suelen aportar unas 80–95 kcal por 100 g y son fuente de potasio y vitamina C. El resultado cambia mucho al freírlas: 100 g de patatas fritas pueden superar 300 kcal y contener alrededor de 15 g de grasa por el aceite absorbido.",
-  "taxonomy": {
-    "food_family": "tubers",
-    "food_subcategories": [
-      "potatoes"
-    ],
-    "article_types": [
-      "health-daily-consumption",
-      "nutrition-composition",
-      "myths-faq"
-    ],
-    "primary_article_type": "health-daily-consumption"
-  },
-  "content_html": "<p>La patata puede ser un alimento cotidiano y seguir encajando en una dieta saludable. Lo que cambia la respuesta es <strong>cómo se cocina, qué cantidad se come y qué alimentos desplaza del plato</strong>.</p><h2>Cocida o asada no es un alimento especialmente calórico</h2><p>Cien gramos de patata cocida o asada suelen aportar aproximadamente 80–95 kcal, alrededor de 18–21 g de carbohidratos y cerca de 2 g de proteína.</p><p>Una patata mediana de unos 180 g puede rondar 150–170 kcal antes de añadir aceite, mantequilla, queso o salsas.</p><h2>Freír cambia completamente la densidad energética</h2><p>La patata contiene mucha agua y casi nada de grasa de forma natural. Al freír, pierde parte de ese agua y absorbe aceite. Por eso 100 g de patatas fritas pueden superar <strong>300 kcal y 15 g de grasa</strong>.</p><p>La diferencia no significa que el tubérculo haya generado calorías: procede del aceite añadido y de la pérdida de agua.</p><h2>La patata aporta más que almidón</h2><p>También contiene potasio, vitamina C, vitamina B6 y algo de fibra, especialmente si se consume con piel cuando sea apropiado y esté bien lavada.</p><p>Una patata mediana puede aportar varios cientos de miligramos de potasio, de modo que no es nutricionalmente equivalente a un carbohidrato refinado sin micronutrientes.</p><h2>La preparación cambia también la saciedad</h2><p>Una patata cocida servida con verduras y proteína aporta mucho volumen por caloría. En forma de chips o patatas fritas, la pérdida de agua y la grasa añadida permiten concentrar mucha más energía en un volumen pequeño.</p><h2>No debería desplazar toda la variedad vegetal</h2><p>Aunque botánicamente es una hortaliza, nutricionalmente la patata funciona sobre todo como alimento feculento. Si aparece con frecuencia, conviene que el plato incluya también verduras no feculentas, además de una fuente de proteína.</p><h2>Enfriar la patata cambia parte del almidón</h2><p>Al cocinar y después enfriar la patata, una fracción del almidón se reorganiza y se convierte en almidón resistente. Eso puede reducir algo la digestibilidad inmediata del almidón, aunque no convierte una ensalada de patata en un alimento sin carbohidratos.</p><h2>La regla práctica</h2><p><strong>Las patatas pueden comerse con frecuencia</strong> si predominan preparaciones cocidas, asadas, al vapor o con cantidades moderadas de aceite. Lo que conviene limitar como hábito no es la patata en sí, sino las versiones fritas y muy acompañadas de grasa y sal.</p>",
-  "faq": [
-    {
-      "question": "¿Engorda comer patatas con frecuencia?",
-      "answer": "La forma de cocción importa mucho. Cocidas o asadas rondan 80–95 kcal/100 g; fritas pueden superar 300 kcal/100 g."
-    },
-    {
-      "question": "¿Las patatas cuentan como verdura?",
-      "answer": "Botánicamente sí, pero nutricionalmente se comportan principalmente como un alimento feculento rico en carbohidratos."
-    },
-    {
-      "question": "¿Es mejor la patata cocida que frita?",
-      "answer": "Si se busca menor densidad energética, sí. La fritura añade grasa y elimina agua, elevando mucho las calorías por 100 g."
-    }
-  ],
-  "sources": [
-    {
-      "name": "USDA FoodData Central",
-      "url": "https://fdc.nal.usda.gov/",
-      "note": "Composición de patata cocida, asada y frita."
-    },
-    {
-      "name": "AESAN — Recomendaciones dietéticas saludables y sostenibles",
-      "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf",
-      "note": "Contexto de variedad vegetal y métodos de preparación dentro de una dieta saludable."
-    }
-  ],
-  "image": {
-    "concept": "Patata cocida, patata asada y patatas fritas en tres pequeñas porciones comparadas, fotografía editorial sin texto.",
-    "alt": "Patatas cocidas, asadas y fritas mostrando diferencias de preparación"
-  },
+  "seo": {"title":"Comer patatas a menudo: cuándo encaja en una dieta saludable","meta_description":"Las patatas pueden formar parte de una alimentación saludable y aportan potasio, vitamina C, hidratos y algo de fibra. La preparación, la ración y lo que las acompaña importan más que una frecuencia aislada.","search_intent":"Explicar si las patatas pueden comerse regularmente, cómo cambia su perfil con la preparación y cómo montar platos equilibrados."},
+  "excerpt": "Las patatas no se vuelven poco saludables por aparecer a menudo en el menú. Son un alimento feculento que aporta hidratos, potasio, vitamina C y algo de fibra. La diferencia práctica está en freírlas o no, el tamaño de la ración y el resto del plato.",
+  "taxonomy": {"food_family":"vegetables","food_subcategories":["potatoes","starchy-vegetables"],"article_types":["nutrition","myths-faq","meal-planning"],"primary_article_type":"nutrition"},
+  "content_html": "<p>Las patatas suelen recibir juicios extremos: o se presentan como un alimento básico perfecto o como un hidrato que habría que evitar. Ninguna de las dos ideas ayuda demasiado. <strong>Una patata cocida o asada es un alimento feculento que aporta hidratos de carbono, potasio, vitamina C, vitamina B6 y algo de fibra, especialmente si se consume parte de la piel.</strong> Puede aparecer con frecuencia en una dieta saludable. Lo que cambia mucho el resultado es la forma de cocinarla, la cantidad y los alimentos que completan el plato.</p><h2>La preparación puede disparar la densidad energética</h2><p>Hervir, cocer al vapor, asar u hornear permite preparar patata con poca grasa añadida. La fritura profunda incorpora aceite y eleva mucho las calorías por peso; además, las patatas fritas comerciales suelen llevar bastante sal. Un puré puede ser ligero o muy energético según mantequilla, nata, queso y tamaño de la ración. Por eso “patata” es una categoría demasiado amplia: una patata asada con legumbres y verduras no tiene el mismo perfil que una gran ración de fritas de comida rápida.</p><h2>Es un alimento rico en almidón</h2><p>La mayor parte de su energía procede del almidón. Eso la convierte en una fuente útil de energía, pero también hace relevante la ración para quien controla hidratos o glucemia. Combinarla con proteína, verduras y una grasa insaturada crea una comida más completa y suele ser más saciante que un plato centrado solo en patatas. Enfriar una patata cocida genera algo de almidón resistente, pero el efecto no la convierte en un alimento bajo en hidratos.</p><h2>La piel aporta fibra, aunque no es obligatoria</h2><p>La piel suma fibra y algunos micronutrientes y puede reducir desperdicio. Lava bien la patata y elimina zonas verdes, brotes y partes dañadas cuando corresponda. Si no te gusta la piel, la pulpa sigue aportando nutrientes valiosos. Las variedades rojas, amarillas, blancas o moradas cambian textura y ciertos compuestos vegetales, pero todas pertenecen al grupo de alimentos ricos en almidón. El boniato es otra especie y no hace falta que sustituya siempre a la patata.</p><h2>La frecuencia importa menos que el patrón completo</h2><p>Comer patatas varias veces por semana puede convivir con una dieta variada si también aparecen verduras no feculentas, fruta, legumbres, cereales integrales y fuentes de proteína. El problema aparece cuando desplazan de forma repetida a otros vegetales o casi siempre llegan fritas y en raciones enormes. Una persona que toma una patata pequeña con pescado y ensalada no sigue el mismo patrón que otra cuya principal “verdura” diaria son las patatas fritas.</p><h2>Ración y acompañamientos son palancas sencillas</h2><p>Una patata mediana puede ser la guarnición o la base del plato sin ocuparlo entero. Yogur natural o un poco de queso pueden sustituir parte de la mantequilla; legumbres o chili aportan proteína y fibra; una ración grande de verduras equilibra el volumen. Hierbas, especias, vinagre, mostaza, salsa de tomate o aceite de oliva añaden sabor sin depender de mucha sal. Si hay diabetes, enfermedad renal o necesidades clínicas concretas, las recomendaciones individuales tienen prioridad.</p><h2>Una conclusión razonable</h2><p>Las patatas pueden comerse a menudo si varías técnicas de cocción y mantienes diversidad en el resto de la dieta. <strong>El problema no es la patata por sí sola, sino la combinación repetida de fritura, raciones excesivas, coberturas muy grasas o saladas y poca variedad.</strong> Si te gustan, haz que hervidas, asadas o al horno sean la norma y deja la fritura como una opción más, no como la única manera de consumirlas.</p><p>También ayuda pensar en la patata como una fuente de almidón dentro del plato, no como sustituto de todas las verduras. Combinarla con hojas verdes, pimiento, brócoli, tomate o legumbres aumenta variedad y fibra, y alternarla con arroz integral, avena u otros cereales evita que un único alimento concentre siempre el mismo papel. Así la pregunta deja de ser si la patata está permitida y pasa a ser si el patrón completo es variado y equilibrado.</p>",
+  "faq": [{"question":"¿Se pueden comer patatas todos los días?","answer":"Pueden encajar en algunos patrones diarios, aunque conviene mantener variedad de verduras y fuentes de hidratos. Preparación y ración importan más que una regla rígida."},{"question":"¿Son poco saludables por tener almidón?","answer":"No. Son ricas en hidratos, pero también aportan potasio, vitamina C y otros nutrientes."},{"question":"¿Cuál es una forma más saludable de cocinarlas?","answer":"Hervidas, al vapor, asadas u horneadas con una cantidad moderada de grasa suelen ser menos densas en calorías que fritas."}],
+  "sources": [{"name":"AESAN/BEDCA — Base de Datos Española de Composición de Alimentos","url":"https://www.bedca.net/","note":"Base de datos española de composición de alimentos para contextualizar energía y nutrientes."},{"name":"AESAN — Recomendaciones dietéticas saludables y sostenibles","url":"https://www.aesan.gob.es/AECOSAN/docs/documentos/nutricion/RECOMENDACIONES_DIETETICAS.pdf","note":"Guía española sobre consumo de pescado y equivalencia nutricional general entre fresco, congelado y conserva, con atención a la sal."}],
+  "image": {"concept":"Patatas hervidas, asadas y al horno servidas con verduras y una fuente de proteína, natural food photography without readable branding or text.","alt":"Patatas hervidas, asadas y al horno servidas con verduras y una fuente de proteína"},
   "status": "publish"
 }

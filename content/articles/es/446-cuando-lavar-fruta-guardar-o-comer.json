@@ -1,58 +1,19 @@
 {
   "schema_version": 1,
-  "id": "es-446-cuando-lavar-fruta",
+  "id": "es-446-cuando-lavar-fruta-guardar-o-comer",
   "article_number": 446,
-  "translation_group": "446-when-wash-fruit",
+  "translation_group": "446-when-wash-fruit-before-storing-or-eating",
   "language": "es",
   "locale": "es-ES",
-  "market_context": "España/Unión Europea; higiene doméstica de fruta fresca.",
-  "title": "Cuándo lavar la fruta: antes de guardarla o antes de comerla",
+  "market_context": "España/Unión Europea; composición, etiquetado y seguridad alimentaria contextualizados para España y la UE",
+  "title": "Cuándo lavar la fruta: al guardarla o antes de comerla",
   "slug": "cuando-lavar-fruta-guardar-o-comer",
-  "seo": {
-    "title": "Cuándo lavar la fruta: antes de guardarla o antes de comerla",
-    "meta_description": "Como regla general, es mejor lavar la fruta justo antes de prepararla o comerla. Guardarla mojada puede acortar su vida; si la lavas antes, sécala completamente.",
-    "search_intent": "Saber cuál es el mejor momento para lavar fruta y cómo hacerlo de forma segura."
-  },
-  "excerpt": "En general conviene esperar y lavar la fruta justo antes de prepararla o comerla. University of Minnesota Extension señala que esto ayuda a conservar calidad y vida útil. Si decides lavar antes, sécala muy bien para no dejar humedad libre que favorezca moho y deterioro.",
-  "taxonomy": {
-    "food_family": "fruit",
-    "food_subcategories": [],
-    "article_types": [
-      "food-safety",
-      "storage"
-    ],
-    "primary_article_type": "food-safety"
-  },
-  "content_html": "<p>Lavar toda la compra al llegar a casa parece cómodo, pero <strong>para muchas frutas la humedad extra acelera el deterioro.</strong> Por eso la regla doméstica más sencilla es almacenar limpia pero seca y lavar justo antes de usar.</p><h2>Qué recomiendan las guías</h2><p>University of Minnesota Extension aconseja esperar hasta el momento de preparar o comer la fruta salvo que esté visiblemente sucia. La FDA recomienda lavar los productos frescos bajo agua corriente antes de prepararlos o consumirlos.</p><h2>Por qué guardar fruta mojada puede acortar su vida</h2><p>Agua atrapada entre fresas, uvas o frutos delicados crea una superficie húmeda donde el moho y otros microorganismos encuentran mejores condiciones. También aumenta el reblandecimiento.</p><h2>Cómo lavar correctamente</h2><ul><li>Lávate las manos primero.</li><li>Usa agua corriente potable.</li><li>Frota suavemente la superficie; en piezas firmes puede usarse un cepillo limpio.</li><li>No uses jabón, detergente ni lavavajillas.</li><li>Seca con papel o paño limpio si vas a guardar después.</li></ul><h2>¿Y la fruta que se pela?</h2><p>También conviene lavar la piel antes de cortar. El cuchillo puede arrastrar suciedad y microorganismos de la superficie hacia la pulpa.</p><h2>El momento de lavado es una cuestión de humedad, no de “limpieza permanente”</h2><p>Lavar elimina suciedad superficial y parte de los microorganismos, pero no esteriliza la fruta. Si después se guarda mojada durante días, esa humedad puede favorecer deterioro en productos delicados. Por eso la recomendación general de lavar justo antes de comer combina higiene con mejor conservación.</p><p>Si por organización necesitas lavar antes, seca muy bien la superficie y usa un recipiente que no acumule condensación. La regla no es dogmática: lo importante es no convertir el lavado en varios días de almacenamiento húmedo.</p><h2>Productos “lavados y listos para comer”</h2><p>Si el envase indica que el producto viene prelavado y listo para consumo, sigue las instrucciones del fabricante; un lavado extra no siempre aporta beneficio.</p><p><strong>La mejor secuencia para la mayoría de frutas es: guardar seca, lavar al usar y evitar jabón.</strong></p>",
-  "faq": [
-    {
-      "question": "¿Es malo lavar las fresas al comprarlas?",
-      "answer": "Puede reducir su duración si quedan húmedas. Es mejor lavarlas justo antes de comer o secarlas extremadamente bien si las lavas antes."
-    },
-    {
-      "question": "¿Hay que lavar una naranja si no como la piel?",
-      "answer": "Sí antes de cortarla o pelarla con utensilios, para evitar transferir suciedad de la superficie a la pulpa."
-    },
-    {
-      "question": "¿Se puede lavar fruta con jabón?",
-      "answer": "No. La FDA no recomienda jabón, detergente ni lavados comerciales; agua corriente es la base."
-    }
-  ],
-  "sources": [
-    {
-      "name": "University of Minnesota Extension — Washing fresh fruits and vegetables safely",
-      "url": "https://extension.umn.edu/food/preparing/cooking-at-home/washing-fresh-fruits-and-vegetables",
-      "note": "Recomienda esperar a lavar hasta preparar o comer para preservar calidad y vida útil."
-    },
-    {
-      "name": "FDA — Selecting and Serving Produce Safely",
-      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
-      "note": "Recomienda lavar productos frescos con agua corriente y no usar jabón o detergentes."
-    }
-  ],
-  "image": {
-    "concept": "Fresas secas guardadas en nevera y otra porción siendo lavada bajo agua justo antes de comer, fotografía editorial realista, sin texto.",
-    "alt": "Fruta lavada justo antes de consumirla"
-  },
+  "seo": {"title":"Cuándo lavar la fruta antes de guardar o comer","meta_description":"La mayoría de frutas enteras se conservan mejor si se lavan bajo el grifo poco antes de prepararlas o comerlas. Si se lavan antes de guardar, conviene secarlas muy bien porque la humedad superficial acelera el deterioro de algunas frutas.","search_intent":"Explicar cuándo lavar fruta, por qué lavar antes de almacenar puede acortar la vida útil y cómo recomienda la FDA limpiar los productos frescos."},
+  "excerpt": "Para muchas frutas enteras, el método más sencillo es lavarlas justo antes de comer o cortar. Hazlo bajo agua corriente y sin jabón. Si las lavas al llegar a casa, sécalas completamente antes de guardarlas para no dejar humedad atrapada.",
+  "taxonomy": {"food_family":"fruit","food_subcategories":["fresh-fruit","produce-washing"],"article_types":["food-safety","storage","cooking-techniques"],"primary_article_type":"food-safety"},
+  "content_html": "<p>La fruta debe lavarse antes de prepararla o comerla, pero no siempre hace falta hacerlo justo al llegar de la compra. <strong>En muchas piezas enteras, esperar hasta poco antes del consumo evita añadir humedad durante el almacenamiento.</strong> El agua que queda atrapada alrededor de frutos delicados puede favorecer mohos y ablandamiento. Si prefieres dejar la fruta ya lavada, la clave es secarla a conciencia y guardarla de modo que no quede agua visible en el recipiente.</p><h2>Agua corriente sí; jabón no</h2><p>AESAN recomienda lavar frutas y verduras bajo el agua del grifo antes de prepararlas o consumirlas, incluso cuando después vayan a pelarse. En piezas firmes, como melones, puede utilizarse un cepillo limpio. No se recomienda jabón, detergente ni lavavajillas: los productos frescos son porosos y pueden retener residuos. El lavado reduce suciedad y parte de los microorganismos, pero no esteriliza. Empieza con manos, cuchillos, tablas y superficies limpias y mantén la fruta alejada de carnes crudas.</p><h2>Lava incluso si vas a pelar</h2><p>La piel de un melón, una naranja o un aguacate puede llevar suciedad y microorganismos. El cuchillo puede arrastrarlos hacia la parte comestible al atravesar la superficie. Por eso conviene lavar antes de pelar o cortar. Elimina zonas dañadas y desecha piezas podridas. Tras el lavado, secar con un paño limpio o papel ayuda a reducir humedad superficial y puede retirar parte adicional de la contaminación.</p><h2>Por qué las bayas suelen durar más sin lavar</h2><p>Fresas, frambuesas y otros frutos delicados tienen superficies que retienen agua. Lavar toda la caja y guardarla húmeda crea condiciones favorables para moho y deterioro. El método más simple es mantenerlas secas en frío y enjuagar solo la cantidad que vayas a comer. Si las lavas con antelación, escúrrelas muy bien, extiéndelas para que se sequen y evita cerrar un recipiente donde aún haya gotas visibles.</p><h2>La fruta cortada necesita más atención</h2><p>Al cortar se rompe la barrera protectora y queda pulpa húmeda expuesta. La fruta precortada debe mantenerse refrigerada y manipularse con utensilios limpios. Si preparas melón, piña, manzana u otras piezas en casa, guarda los trozos en un recipiente cerrado y frío. A partir de ese momento, la cuestión no es solo cuándo se lavó, sino cuánto tiempo permanece fuera de la nevera y si ha habido contaminación cruzada.</p><h2>La fruta “lista para comer” es distinta</h2><p>Cuando un producto envasado se comercializa ya lavado y listo para consumir, sigue las instrucciones del fabricante y evita manipularlo de nuevo innecesariamente. Volver a lavarlos no garantiza más seguridad y, si el fregadero, colador, manos o paños están sucios, puede reintroducir contaminación. Si decides enjuagar de todos modos, asegúrate de que todo el equipo esté limpio. Respeta también las instrucciones de conservación del envase.</p><h2>Una rutina sencilla</h2><p>Guarda la fruta entera según sus necesidades y mantén refrigeradas las piezas perecederas. Justo antes de comer o cortar, lávate las manos, enjuaga bajo el grifo, frota o cepilla cuando corresponda y seca. <strong>Si la lavas antes de almacenarla, no la guardes mojada.</strong> Así se combinan seguridad y calidad: el lavado reduce contaminación antes del consumo y el secado evita la humedad extra que puede acortar la vida útil de algunas frutas.</p><p>Hay excepciones en las que lavar antes de guardar forma parte de una rutina de preparación, por ejemplo dejar lista fruta firme para el día siguiente. En ese caso, higiene y secado completo son lo importante. El mensaje no es que el agua vuelva insegura la fruta, sino que una superficie húmeda durante horas puede acelerar mohos y pérdida de textura en determinados productos. Guardar la fruta entera y seca deja menos variables y por eso es un buen método por defecto.</p><p>Las frutas delicadas requieren todavía más atención a la humedad. Frambuesas, moras y fresas pueden dañarse con la manipulación y retener agua entre sus superficies; por eso suele ser preferible conservarlas secas y lavarlas cerca del consumo. En cambio, una manzana o una naranja toleran mejor el aclarado previo si después se secan por completo. La regla práctica es adaptar el momento del lavado a la fragilidad y al tiempo de almacenamiento.</p>",
+  "faq": [{"question":"¿Hay que lavar la fruta antes de meterla en la nevera?","answer":"Se puede, pero muchas frutas se conservan mejor secas y se lavan justo antes de usar. Si lavas antes, seca muy bien."},{"question":"¿Se debe lavar con jabón?","answer":"No. Se recomienda agua corriente, sin jabón, detergente ni productos de lavado comerciales."},{"question":"¿Hay que volver a lavar fruta que pone “lista para comer”?","answer":"No es necesario si el envase indica que está prelavada o lista para consumir."}],
+  "sources": [{"name":"AESAN — Frutas y verduras seguras","url":"https://www.aesan.gob.es/AECOSAN/docs/documentos/publicaciones/seguridad_alimentaria/frutas_verduras_triptico.pdf","note":"Recomendaciones españolas para lavar frutas y verduras bajo el grifo antes de prepararlas o consumirlas."},{"name":"FDA — Selecting and Serving Produce Safely","url":"https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely","note":"Safe storage and preparation of fresh produce."}],
+  "image": {"concept":"Fresas y manzanas lavándose bajo el grifo y secándose con cuidado, natural food photography without readable branding or text.","alt":"Fresas y manzanas lavándose bajo el grifo y secándose con cuidado"},
   "status": "publish"
 }

@@ -2,61 +2,18 @@
   "schema_version": 1,
   "id": "en-567-tvp-vs-tofu-nutrition",
   "article_number": 567,
-  "translation_group": "567-tvp-vs-tofu",
+  "translation_group": "567-tvp-vs-tofu-nutrition",
   "language": "en",
   "locale": "en-US",
-  "market_context": "United States and general English-speaking market",
-  "title": "TVP vs. tofu: nutrition differences",
+  "market_context": "United States; food composition, labeling, and food-safety guidance localized to U.S. sources where relevant",
+  "title": "TVP vs Tofu: Protein, Texture, and Nutrition Compared",
   "slug": "tvp-vs-tofu-nutrition",
-  "seo": {
-    "title": "TVP vs. tofu: protein, fat and fiber",
-    "meta_description": "Compare textured soy protein and firm tofu using realistic amounts, including protein, fiber, fat and calcium.",
-    "search_intent": "Compare TVP and tofu nutrition"
-  },
-  "excerpt": "TVP is dry and usually defatted; tofu contains far more water and retains more soybean fat. Comparing 100 g dry TVP with 100 g tofu exaggerates the practical difference.",
-  "taxonomy": {
-    "food_family": "legumes-soy",
-    "food_subcategories": [],
-    "article_types": [
-      "comparisons",
-      "nutrition-composition"
-    ],
-    "primary_article_type": "comparisons"
-  },
-  "content_html": "<p>TVP and tofu both come from soy, but their processing sends them in different directions. <strong>TVP is dry and usually defatted; tofu is water-rich.</strong></p><h2>Why 100 g vs. 100 g misleads</h2><p>100 g dry TVP would provide about 52 g protein in the example; USDA firm tofu provides 17.3 g. That mixes dehydrated and moist foods.</p><h2>A more useful side by side</h2><table><thead><tr><th></th><th>Dry TVP, 23 g</th><th>Firm tofu, 100 g</th></tr></thead><tbody><tr><td>Calories</td><td>80</td><td>144</td></tr><tr><td>Protein</td><td>12 g</td><td>17.3 g</td></tr><tr><td>Fiber</td><td>4 g</td><td>2.3 g</td></tr><tr><td>Fat</td><td>0 g</td><td>8.7 g</td></tr></tbody></table><p>About 33 g dry TVP would deliver roughly 17 g protein, around 115 calories and close to 6 g fiber.</p><h2>Tofu retains more fat</h2><p>The firm tofu reference contains 8.7 g fat/100 g; the TVP example uses defatted soy flour.</p><h2>Calcium can strongly favor tofu</h2><p>Calcium-sulfate tofu can be calcium-rich: 683 mg/100 g in the reference.</p><h2>The difference is not only protein</h2><p>TVP starts from defatted, dried soy flour, while tofu retains much more water and more of soy's natural fat. That processing difference is why dry TVP looks extraordinarily concentrated per 100 g while tofu has a much lower energy density at the same weight.</p><p>In a real meal, the two can fill different roles. TVP works well in sauces and fillings when concentrated protein and a mince-like texture are useful; tofu contributes volume, fat and its own texture. Choosing between them makes more sense in the context of the whole dish than by declaring a universal winner.</p><h2>Different kitchen jobs</h2><p>TVP excels as crumbles; tofu brings moisture and body and can be cubed, scrambled or blended.</p>",
-  "faq": [
-    {
-      "question": "Which has more protein?",
-      "answer": "Dry TVP is more concentrated, but it is normally hydrated. 23 g dry provides 12 g versus 17.3 g in 100 g firm tofu."
-    },
-    {
-      "question": "Which has more fat?",
-      "answer": "The firm tofu reference, 8.7 g/100 g."
-    },
-    {
-      "question": "Which has more fiber?",
-      "answer": "Dry TVP is highly concentrated at 4 g per 23 g."
-    },
-    {
-      "question": "Does tofu have more calcium?",
-      "answer": "It can, especially when calcium sulfate is used."
-    }
-  ],
-  "sources": [
-    {
-      "name": "Bob's Red Mill — TVP",
-      "url": "https://www.bobsredmill.com/product/tvp-textured-veg-protein",
-      "note": "Dry serving values."
-    },
-    {
-      "name": "USDA FoodData Central — firm tofu",
-      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/172475/nutrients",
-      "note": "Protein, fat, fiber and calcium."
-    }
-  ],
-  "image": {
-    "concept": "Dry TVP hydrating beside a block of tofu.",
-    "alt": "TVP and tofu compared while accounting for water content"
-  },
+  "seo": {"title":"TVP vs Tofu: Protein and Nutrition","meta_description":"TVP is a dry, concentrated soy product that becomes chewy when rehydrated; tofu is coagulated soy milk with much more water. Dry-weight protein differs sharply, while serving size, calcium, sodium, and preparation determine the practical comparison.","search_intent":"Compare textured vegetable protein and tofu by protein concentration, calories, minerals, texture, processing, and best uses."},
+  "excerpt": "TVP and tofu are both soy foods, but their water content makes a direct cup-for-cup comparison misleading. TVP is dry and protein-dense until rehydrated; tofu is a moist curd. Both can supply complete soy protein, but texture and nutrient details vary by product.",
+  "taxonomy": {"food_family":"plant-proteins","food_subcategories":["soy","tvp","tofu"],"article_types":["comparisons","nutrition","ingredients"],"primary_article_type":"comparisons"},
+  "content_html": "<p>Textured vegetable protein and tofu often appear in the same meatless recipes, but they are very different soy ingredients. <strong>TVP is made from defatted soy material that is processed into dry granules, chunks, or strips; tofu is made by coagulating soy milk into a moist curd.</strong> The biggest nutrition difference on paper is therefore water. Dry TVP looks extraordinarily protein-dense because almost all moisture has been removed, while tofu arrives ready to eat with a large percentage of its weight as water.</p><h2>TVP is concentrated before you add water back</h2><p>Dry TVP absorbs hot water or broth and expands. Once rehydrated, its protein per cup falls because the serving now includes the water you added. This is why comparing 100 grams of dry TVP with 100 grams of tofu exaggerates the practical gap. A better kitchen comparison is the portion you actually eat after preparation. TVP still tends to be protein-rich and relatively low in fat because much of the soybean oil was removed during production, but brand formulas and shapes vary.</p><h2>Tofu keeps more of the soybean fat and water</h2><p>Tofu is made by curdling soy milk with a coagulant and pressing the curds. Silken tofu retains more water and is soft; firm and extra-firm tofu are pressed more and contain more protein per equal weight. Because soybean fat remains, tofu generally provides more fat than defatted TVP, including mostly unsaturated fat. Calories depend on firmness and serving size. Tofu can be eaten cold or cooked, while dry TVP generally needs hydration and seasoning before it has an appealing texture.</p><h2>Calcium can depend on the coagulant</h2><p>Some tofu is set with calcium sulfate, which can make it a useful calcium source; tofu made with other coagulants may contain less. TVP’s mineral profile depends on the raw material and fortification. Sodium is often low in plain versions of both, but prepared meat substitutes made from TVP can contain much more salt, while tofu marinades and sauces can add sodium quickly. The Nutrition Facts panel is therefore especially important when comparing plain ingredients with ready-to-eat products.</p><h2>Texture determines where each works best</h2><p>Rehydrated TVP has a springy, crumbled or fibrous texture that is useful in chili, taco filling, Bolognese-style sauces, sloppy joes, stuffed vegetables, and blends with ground meat. Tofu is more versatile in form: crumbled firm tofu can mimic a scramble, cubes can be roasted or stir-fried, and silken tofu can disappear into sauces or desserts. TVP readily absorbs strongly flavored liquid; tofu benefits from pressing, browning, marinades, or sauces depending on its firmness.</p><h2>Both are processed soy foods, but that tells you little by itself</h2><p>Turning soybeans into tofu requires soaking, grinding, heating, filtering, coagulating, and pressing. TVP involves further concentration and texturizing of defatted soy protein. The word “processed” describes these steps but does not automatically determine nutritional quality. Plain TVP and plain tofu can both fit into minimally complicated meals built around vegetables, grains, legumes, and sauces. A highly seasoned TVP burger with added sodium is a different product from dry TVP granules, just as sweetened tofu dessert differs from plain tofu.</p><h2>Choose concentration or versatility</h2><p>Choose TVP when you want a shelf-stable, light, high-protein ingredient that rehydrates into a ground-meat-like texture. Choose tofu when you want a whole block with moisture, more natural soybean fat, and textures ranging from silken to extra-firm. <strong>Both provide high-quality soy protein; the practical differences come from water, fat, calcium source, sodium additions, and preparation.</strong> Compare the foods in the form you actually eat rather than ranking dry powder against hydrated tofu by raw weight.</p><p>For meal planning, dry TVP also has a storage advantage: it is light, compact, and shelf-stable until hydrated. Tofu requires refrigeration and has a shorter life once opened. That can make TVP useful for camping, emergency pantry meals, or quick weeknight cooking. Tofu, however, provides a more varied eating experience because it can be crisp, silky, chewy, or custardy depending on the style and technique. Convenience therefore depends on what kind of meal you are trying to build.</p>",
+  "faq": [{"question":"Which has more protein, TVP or tofu?","answer":"Dry TVP is much more protein-dense because water and much of the fat have been removed. After rehydration, the gap is smaller, though TVP still tends to be protein-rich."},{"question":"Is tofu higher in fat?","answer":"Usually yes, because tofu retains more of the soybean’s natural oil while TVP is commonly made from defatted soy material."},{"question":"Which is better for ground-meat recipes?","answer":"TVP is often easier because its granules rehydrate into a chewy crumbled texture, but firm tofu can also be crumbled and browned."}],
+  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Reference database for food composition and nutrient values."}],
+  "image": {"concept":"Dry TVP granules and firm tofu cubes prepared side by side, natural food photography without readable branding or text.","alt":"Dry TVP granules and firm tofu cubes prepared side by side"},
   "status": "publish"
 }

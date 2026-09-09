@@ -1,62 +1,19 @@
 {
   "schema_version": 1,
-  "id": "es-264-liquido-rojo-carne-no-sangre",
+  "id": "es-264-liquido-rojo-carne-no-es-sangre",
   "article_number": 264,
-  "translation_group": "264-red-meat-liquid-not-blood",
+  "translation_group": "264-red-liquid-meat-not-blood",
   "language": "es",
   "locale": "es-ES",
-  "market_context": "España/Unión Europea; líquido de envases de carne fresca y papel de agua y mioglobina",
+  "market_context": "España/Unión Europea; composición, etiquetado y seguridad alimentaria contextualizados para España y la UE",
   "title": "El líquido rojo de la carne no es sangre: qué es realmente",
   "slug": "liquido-rojo-carne-no-es-sangre",
-  "seo": {
-    "title": "El líquido rojo de la carne no es sangre: qué contiene",
-    "meta_description": "La mayor parte de la sangre se retira durante el sacrificio. El líquido del envase es principalmente agua natural del músculo mezclada con proteínas como la mioglobina.",
-    "search_intent": "Entender qué es el líquido rojo que aparece en paquetes de carne y por qué tiene ese color."
-  },
-  "excerpt": "El líquido rojo de una bandeja de carne fresca no es un charco de sangre. USDA explica que la sangre se retira durante el sacrificio y que queda muy poca en el tejido. La carne de vacuno contiene aproximadamente tres cuartas partes de agua; esa humedad mezclada con proteínas y pigmentos musculares produce el líquido rojizo del envase.",
-  "taxonomy": {
-    "food_family": "meat",
-    "food_subcategories": [
-      "beef",
-      "myoglobin",
-      "meat-juices"
-    ],
-    "article_types": [
-      "cooking-science",
-      "myths-faq"
-    ],
-    "primary_article_type": "myths-faq"
-  },
-  "content_html": "<p>El color engaña: un líquido rojo parece sangre, pero <strong>la mayor parte de lo que ves en una bandeja de carne es agua del propio músculo mezclada con proteínas y pigmentos.</strong></p><h2>La sangre se elimina durante el sacrificio</h2><p>USDA explica que la sangre se retira de la carne de vacuno durante el sacrificio y que solo queda una pequeña cantidad dentro de los tejidos.</p><h2>La carne contiene mucha agua</h2><p>La carne de vacuno ronda aproximadamente <strong>tres cuartas partes de agua</strong>. Durante almacenamiento, corte, congelación o descongelación, parte de esa humedad puede salir de las células y acumularse en el envase.</p><h2>¿Por qué se ve roja?</h2><p>La mioglobina es una proteína pigmentada del músculo. Cuando esa humedad arrastra proteínas y pigmentos, el líquido adquiere tonos rojos o rosados. La mioglobina no es sangre: se encuentra dentro de las células musculares y ayuda a almacenar oxígeno.</p><h2>Más líquido no significa necesariamente peor carne</h2><p>El volumen depende del corte, tiempo de almacenamiento, congelación previa y capacidad del músculo para retener agua. Un poco de líquido en el envase es normal.</p><p>Otra cuestión son los productos con agua o soluciones añadidas durante procesado; cuando corresponda, el etiquetado debe declararlo según la normativa aplicable.</p><h2>Ese “purge” también explica lo que ocurre en la sartén</h2><p>El agua que aparece en la bandeja y la que puede salir durante la cocción tienen el mismo origen general: el músculo contiene mucha agua y no toda queda retenida entre sus proteínas. Congelar, descongelar, cortar y calentar modifican esa capacidad de retención.</p><p>Por eso una bandeja con algo de líquido rojo no demuestra que la carne esté “llena de sangre” ni, por sí sola, que sea de peor calidad. Para juzgar seguridad siguen importando mucho más el tiempo, la temperatura de conservación y las señales claras de deterioro.</p><h2>La idea útil</h2><p><strong>El líquido rojo es sobre todo humedad del músculo, no sangre.</strong> Su color procede de proteínas y pigmentos como la mioglobina.</p>",
-  "faq": [
-    {
-      "question": "¿Por qué queda líquido rojo si han quitado la sangre?",
-      "answer": "Porque el músculo contiene mucha agua y proteínas pigmentadas como la mioglobina que colorean el líquido que sale del tejido."
-    },
-    {
-      "question": "¿La mioglobina es sangre?",
-      "answer": "No. Es una proteína del músculo que almacena oxígeno y contribuye al color rojo de la carne."
-    },
-    {
-      "question": "¿Mucho líquido significa que la carne está mala?",
-      "answer": "No por sí solo. El volumen depende de corte, almacenamiento y congelación; hay que valorar olor, textura y conservación."
-    }
-  ],
-  "sources": [
-    {
-      "name": "USDA FSIS — In a package of fresh beef, is the red liquid blood?",
-      "url": "https://ask.fsis.usda.gov/article/In-a-package-of-fresh-beef-is-the-red-liquid-blood",
-      "note": "La sangre se elimina durante sacrificio; el líquido procede principalmente de humedad y proteínas del músculo."
-    },
-    {
-      "name": "USDA FSIS — Beef From Farm to Table",
-      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/beef-farm-table",
-      "note": "Explicación del líquido del envase y papel de la mioglobina en el color de la carne."
-    }
-  ],
-  "image": {
-    "concept": "Bandeja de carne fresca con una pequeña cantidad de líquido rojizo y un corte de músculo visible, fotografía editorial sin texto.",
-    "alt": "Líquido rojizo natural en un envase de carne fresca"
-  },
+  "seo": {"title":"Líquido rojo de la carne: por qué no es sangre","meta_description":"El líquido rojo que aparece en una bandeja de carne es sobre todo agua liberada por el músculo mezclada con proteínas y pigmentos como la mioglobina. La mayor parte de la sangre se elimina durante el sacrificio.","search_intent":"Explicar qué es el líquido rojo de la carne, cómo interviene la mioglobina y por qué el color no indica por sí solo frescura ni punto de cocción."},
+  "excerpt": "El líquido rosado o rojo de una bandeja de carne está formado principalmente por agua del músculo y proteínas. La mioglobina aporta gran parte del color. No es una acumulación de sangre, aunque debe tratarse higiénicamente como jugo de carne cruda.",
+  "taxonomy": {"food_family":"meat-poultry","food_subcategories":["beef","myoglobin"],"article_types":["food-science","food-safety","myths-faq"],"primary_article_type":"food-science"},
+  "content_html": "<p>El charco que aparece en una bandeja de ternera parece sangre a simple vista, de ahí la confusión. <strong>En realidad es principalmente agua que sale del tejido muscular mezclada con proteínas y pigmentos como la mioglobina.</strong> La mayor parte de la sangre se retira durante el sacrificio y solo queda una pequeña fracción en los tejidos. La carne contiene mucha agua y una parte puede liberarse durante el almacenamiento, la congelación, la descongelación o la manipulación y acumularse en el envase.</p><h2>La mioglobina es una proteína del músculo</h2><p>La mioglobina almacena y facilita el transporte de oxígeno dentro de las células musculares. Contiene hierro y es responsable de buena parte del color rojo de la carne. La hemoglobina, en cambio, es el pigmento que transporta oxígeno en la sangre. Como la mioglobina está distribuida por el tejido muscular, el agua que sale de la carne puede teñirse de rojo o rosa sin ser sangre. La intensidad depende de especie, edad, tipo de músculo y exposición al oxígeno.</p><h2>El oxígeno cambia el color con rapidez</h2><p>Una pieza recién cortada o envasada al vacío puede verse púrpura porque la mioglobina tiene poco oxígeno. Al entrar en contacto con el aire se forma oximioglobina y aparece el rojo vivo que muchos consumidores asocian a carne fresca. Con más oxidación se genera metmioglobina y el tono se vuelve marrón. Estos cambios forman parte de la química normal y no demuestran por sí solos que el alimento esté estropeado. El sistema de envasado influye mucho en el aspecto.</p><h2>Congelar y descongelar puede aumentar el líquido visible</h2><p>Los cristales de hielo y los cambios de estructura celular pueden hacer que la carne libere más jugo al descongelarse. Ese líquido se conoce a menudo como exudado o “purga”. Que haya más después de congelar no implica automáticamente inseguridad, aunque puede afectar a jugosidad y rendimiento culinario. Descongela de forma segura en nevera, con métodos controlados en agua fría o en microondas si vas a cocinar inmediatamente, y no juzgues la seguridad por el tono del líquido.</p><h2>El color no es un termómetro de cocción</h2><p>Una hamburguesa puede seguir rosada aun habiendo alcanzado una temperatura segura, y otra puede parecer marrón antes de estar suficientemente cocinada. Por eso las autoridades recomiendan un termómetro de alimentos en lugar de fiarse del color. Las temperaturas objetivo cambian según sea carne picada, pieza entera, ave u otra especie. El líquido rosado que aparece antes o después de cocinar no debería usarse como sinónimo de “sangre” ni como indicador único de que el centro está crudo.</p><h2>El deterioro tiene otras señales, pero tampoco son perfectas</h2><p>El exudado normal puede ser rojo, rosa o marrón. Una carne deteriorada puede desarrollar olores desagradables, superficie pegajosa o cambios de textura, pero ciertos patógenos no alteran olor ni apariencia. Por eso la seguridad depende de temperatura de conservación, fecha, higiene, prevención de contaminación cruzada y cocción adecuada. Que la carne “huela bien” no sustituye esas medidas y que esté algo más marrón tampoco significa necesariamente que deba tirarse.</p><h2>Cómo manipular ese líquido</h2><p>Abre el envase sobre una superficie que puedas limpiar, evita que los jugos contacten con alimentos listos para comer y lava manos y utensilios tras tocar carne cruda. No hace falta lavar la carne bajo el grifo; las salpicaduras pueden dispersar microorganismos por la cocina. Si quieres favorecer el dorado, puedes secar la superficie con papel y desecharlo. <strong>El líquido rojo es principalmente agua muscular con proteínas y mioglobina, no una bandeja llena de sangre.</strong> Aun así, manipúlalo con las mismas precauciones que cualquier jugo de carne cruda.</p><p>La misma explicación sirve para el líquido rosado que puede aparecer al cortar carne cocinada. El calor modifica las proteínas musculares y expulsa parte del agua, que puede conservar color por los pigmentos presentes. Llamarlo sangre lleva a confundir aspecto con seguridad. Un termómetro responde mejor a la cuestión de la cocción y dejar reposar la pieza antes de cortarla ayuda a que parte de la humedad se redistribuya, reduciendo el charco en el plato.</p>",
+  "faq": [{"question":"¿El líquido rojo de un filete es sangre?","answer":"En su mayor parte no. Es agua liberada por el músculo mezclada con proteínas y pigmentos como la mioglobina."},{"question":"¿Por qué una carne al vacío es más morada?","answer":"La mioglobina cambia de color según la cantidad de oxígeno disponible; con poco oxígeno puede verse púrpura."},{"question":"¿El jugo rosa indica que está poco hecha?","answer":"No de forma fiable. El punto seguro debe comprobarse con un termómetro y la temperatura adecuada para ese tipo de carne."}],
+  "sources": [{"name":"USDA FSIS — Beef From Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/beef-farm-table","note":"Food-safety guidance and explanation of liquid in packaged beef."},{"name":"USDA FSIS — The Color of Meat and Poultry","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/color-meat-and-poultry","note":"Myoglobin, oxygen exposure, and meat color changes."}],
+  "image": {"concept":"Bandeja de carne con exudado rojo junto a un termómetro de cocina, natural food photography without readable branding or text.","alt":"Bandeja de carne con exudado rojo junto a un termómetro de cocina"},
   "status": "publish"
 }

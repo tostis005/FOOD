@@ -2,61 +2,18 @@
   "schema_version": 1,
   "id": "es-567-soja-texturizada-vs-tofu-diferencias",
   "article_number": 567,
-  "translation_group": "567-tvp-vs-tofu",
+  "translation_group": "567-tvp-vs-tofu-nutrition",
   "language": "es",
   "locale": "es-ES",
-  "market_context": "España y Unión Europea",
-  "title": "Soja texturizada vs. tofu: diferencias nutricionales",
+  "market_context": "España/Unión Europea; composición, etiquetado y seguridad alimentaria contextualizados para España y la UE",
+  "title": "Soja texturizada o tofu: diferencias nutricionales y de uso",
   "slug": "soja-texturizada-vs-tofu-diferencias",
-  "seo": {
-    "title": "Soja texturizada vs. tofu: proteína, grasa y fibra",
-    "meta_description": "TVP y tofu proceden de la soja pero no se parecen nutricionalmente. Comparamos una ración seca de TVP con 100 g de tofu firme.",
-    "search_intent": "Comparar soja texturizada y tofu"
-  },
-  "excerpt": "La soja texturizada está seca y desgrasada; el tofu contiene mucha más agua y conserva más grasa de la soja. Por eso no es justo comparar 100 g secos de TVP con 100 g de tofu.",
-  "taxonomy": {
-    "food_family": "legumes-soy",
-    "food_subcategories": [],
-    "article_types": [
-      "comparisons",
-      "nutrition-composition"
-    ],
-    "primary_article_type": "comparisons"
-  },
-  "content_html": "<p>TVP y tofu parten de la soja, pero su procesado los separa: <strong>la soja texturizada es seca y normalmente desgrasada; el tofu es una cuajada húmeda.</strong></p><h2>La comparación que conviene evitar</h2><p>100 g de TVP seca del producto citado aportarían unos 52 g de proteína; 100 g de tofu firme USDA, 17,3 g. Es correcto matemáticamente y poco útil para un plato porque mezcla estados de hidratación.</p><h2>Una comparación práctica</h2><table><thead><tr><th></th><th>TVP seca, 23 g</th><th>Tofu firme, 100 g</th></tr></thead><tbody><tr><td>Energía</td><td>80 kcal</td><td>144 kcal</td></tr><tr><td>Proteína</td><td>12 g</td><td>17,3 g</td></tr><tr><td>Fibra</td><td>4 g</td><td>2,3 g</td></tr><tr><td>Grasa</td><td>0 g</td><td>8,7 g</td></tr></tbody></table><p>Para igualar unos 17 g de proteína harían falta ~33 g de TVP seca: unas 115 kcal y cerca de 6 g de fibra.</p><h2>El tofu conserva más grasa</h2><p>El tofu firme aporta 8,7 g/100 g, mientras la TVP del ejemplo parte de harina desgrasada.</p><h2>El calcio puede favorecer mucho al tofu</h2><p>El tofu coagulado con sulfato cálcico de la referencia aporta 683 mg/100 g. Otros tofu pueden tener menos.</p><h2>La diferencia no es solo proteína</h2><p>La soja texturizada parte de harina de soja desgrasada y seca, mientras el tofu conserva mucha agua y una parte mayor de la grasa natural de la soja. Esa diferencia de procesamiento explica por qué la TVP parece extraordinariamente concentrada por 100 g secos y el tofu ofrece una densidad energética mucho menor por el mismo peso.</p><p>En una comida real, ambos pueden cubrir funciones distintas: la TVP se integra bien en salsas y rellenos donde buscas textura y proteína concentrada; el tofu aporta volumen, grasa y una textura propia. Elegir entre ellos tiene más sentido por el plato completo que por declarar un ganador universal.</p><h2>En cocina</h2><p>TVP funciona bien como picado y absorbe salsa; tofu aporta volumen húmedo y puede dorarse, desmenuzarse o triturarse.</p>",
-  "faq": [
-    {
-      "question": "¿Qué tiene más proteína?",
-      "answer": "Seca, la TVP está más concentrada; 23 g secos aportan 12 g frente a 17,3 g en 100 g de tofu firme."
-    },
-    {
-      "question": "¿Cuál tiene más grasa?",
-      "answer": "El tofu de referencia, 8,7 g/100 g."
-    },
-    {
-      "question": "¿Cuál tiene más fibra?",
-      "answer": "La TVP seca está más concentrada: 4 g en 23 g."
-    },
-    {
-      "question": "¿El tofu tiene más calcio?",
-      "answer": "Puede tenerlo si usa sales de calcio como coagulante."
-    }
-  ],
-  "sources": [
-    {
-      "name": "Bob's Red Mill — TVP",
-      "url": "https://www.bobsredmill.com/product/tvp-textured-veg-protein",
-      "note": "Valores por 23 g secos."
-    },
-    {
-      "name": "USDA FoodData Central — tofu firme",
-      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/172475/nutrients",
-      "note": "Proteína, grasa, fibra y calcio por 100 g."
-    }
-  ],
-  "image": {
-    "concept": "TVP seca que se hidrata junto a un bloque de tofu.",
-    "alt": "Soja texturizada y tofu comparados teniendo en cuenta el agua"
-  },
+  "seo": {"title":"Soja texturizada vs tofu: proteína y nutrición","meta_description":"La soja texturizada es un producto seco y concentrado que se vuelve masticable al hidratarse; el tofu es una cuajada de soja con mucha más agua. Ambos aportan proteína completa, pero la comparación depende de la forma en que se consumen.","search_intent":"Comparar soja texturizada y tofu por concentración de proteína, calorías, grasa, minerales, textura, procesado y usos culinarios."},
+  "excerpt": "La soja texturizada y el tofu proceden de la soja, pero su cantidad de agua es muy diferente. La soja texturizada está seca y concentra proteína hasta que se hidrata; el tofu es una cuajada húmeda. Ambos pueden aportar proteína de alta calidad, con texturas y perfiles distintos.",
+  "taxonomy": {"food_family":"plant-proteins","food_subcategories":["soy","tvp","tofu"],"article_types":["comparisons","nutrition","ingredients"],"primary_article_type":"comparisons"},
+  "content_html": "<p>La soja texturizada y el tofu pueden ocupar el lugar de la carne en muchas recetas, pero son ingredientes muy distintos. <strong>La soja texturizada suele elaborarse a partir de soja desgrasada y se seca en forma de granulado, tiras o trozos; el tofu se obtiene coagulando bebida de soja y prensando la cuajada.</strong> La diferencia que más distorsiona las comparaciones nutricionales es el agua. La soja texturizada seca parece muchísimo más proteica porque apenas contiene humedad, mientras que el tofu llega listo para comer con una gran proporción de agua.</p><h2>La soja texturizada se concentra antes de rehidratarla</h2><p>Al añadir agua o caldo, la soja texturizada aumenta de volumen y peso. Por eso comparar 100 g del producto seco con 100 g de tofu exagera la diferencia real de una ración. Una vez hidratada, la proteína por taza baja porque una parte del peso es el agua añadida. Aun así, suele seguir siendo un ingrediente muy rico en proteína y relativamente bajo en grasa, ya que buena parte del aceite de la soja se ha retirado durante el procesado.</p><h2>El tofu conserva más agua y grasa natural</h2><p>El tofu se obtiene cuajando la bebida de soja con un coagulante. El tofu sedoso contiene más agua y es muy blando; el firme y extra firme se prensan más y concentran algo más la proteína. También conservan más de la grasa natural de la soja, mayoritariamente insaturada. La cifra de calorías depende de la firmeza y de la ración. Puede comerse frío o cocinarse directamente, mientras que la soja texturizada seca suele requerir hidratación y condimentación antes de resultar agradable.</p><h2>El calcio depende mucho del coagulante</h2><p>Algunos tofus utilizan sulfato cálcico y pueden aportar cantidades destacables de calcio; otros emplean coagulantes diferentes y contienen menos. En la soja texturizada, los minerales varían con la materia prima y el posible enriquecimiento. La sal suele ser baja en versiones simples, pero los preparados listos para comer a base de soja texturizada pueden contener bastante sodio y las marinadas del tofu también lo elevan. Para comparar productos concretos, la etiqueta es más fiable que la categoría.</p><h2>La textura decide muchos usos</h2><p>La soja texturizada hidratada tiene una textura fibrosa o granulada que funciona bien en boloñesa, chili, tacos, rellenos o mezclada con carne picada. El tofu ofrece más formatos: desmenuzado puede parecer un revuelto, en dados se dora al horno o a la plancha y el sedoso desaparece en salsas, cremas o postres. La soja texturizada absorbe bien líquidos con sabor intenso; el tofu necesita elegir firmeza y técnica de cocción para aprovechar su textura.</p><h2>Que estén procesados no dice si son buenos o malos</h2><p>Transformar soja en tofu requiere remojo, triturado, calentamiento, filtrado, coagulación y prensado. La soja texturizada añade pasos de desgrasado, concentración y texturización. “Procesado” describe esas operaciones, pero no determina por sí solo la calidad nutricional. Una soja texturizada seca con pocos ingredientes y un tofu natural pueden encajar en comidas sencillas junto a verduras, cereales y legumbres. Un producto ultracondimentado es otra formulación y debe juzgarse por su etiqueta completa.</p><h2>Concentración o versatilidad</h2><p>Elige soja texturizada si quieres un ingrediente seco, ligero, de despensa y muy proteico que recuerde a carne picada al hidratarse. Elige tofu si buscas bloques con texturas desde sedosas hasta firmes y más grasa natural de la soja. <strong>Ambos aportan proteína completa; las diferencias prácticas dependen sobre todo de agua, grasa, calcio, sodio añadido y preparación.</strong> La comparación más justa utiliza la cantidad que realmente acabas comiendo, no el peso del producto seco frente a otro ya hidratado.</p><p>La conservación también diferencia ambos ingredientes. La soja texturizada seca ocupa poco espacio y puede permanecer en la despensa durante mucho tiempo si se guarda bien, mientras que el tofu necesita frío y, una vez abierto, tiene una vida útil corta. Eso hace que la primera sea útil para comidas improvisadas o como reserva. El tofu, a cambio, ofrece mucha más variedad de texturas, desde cremoso hasta crujiente, según firmeza y técnica de cocción.</p>",
+  "faq": [{"question":"¿Qué tiene más proteína, la soja texturizada o el tofu?","answer":"En seco, la soja texturizada concentra mucha más proteína. Al rehidratarla, la diferencia por ración se reduce, aunque sigue siendo muy proteica."},{"question":"¿Cuál tiene más grasa?","answer":"El tofu suele conservar más grasa natural de la soja, mientras que la soja texturizada suele partir de materia desgrasada."},{"question":"¿Cuál funciona mejor como carne picada?","answer":"La soja texturizada granulada suele ser más sencilla para boloñesa, tacos o chili; el tofu firme también puede desmenuzarse y dorarse."}],
+  "sources": [{"name":"AESAN/BEDCA — Base de Datos Española de Composición de Alimentos","url":"https://www.bedca.net/","note":"Base de datos española de composición de alimentos para contextualizar energía y nutrientes."}],
+  "image": {"concept":"Soja texturizada seca e hidratada junto a cubos de tofu firme, natural food photography without readable branding or text.","alt":"Soja texturizada seca e hidratada junto a cubos de tofu firme"},
   "status": "publish"
 }
