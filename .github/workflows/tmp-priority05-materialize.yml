@@ -1,69 +1,49 @@
-name: Finalize priority block 05
+name: Fix priority block 05 EN 565
 on:
   push:
     branches:
       - tmp-quality-priority-05-materialize
 jobs:
-  finalize:
+  fix:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
       - uses: actions/checkout@v4
         with:
+          ref: quality-priority-05
           fetch-depth: 0
-      - name: Copy exactly 40 JSON to final branch and commit
+      - name: Replace mismatched EN 565 paragraph and validate
         shell: bash
         run: |
           set -euo pipefail
-          BASE='ff7d91aa0b38751129637341ae1dda2c9d9dc8f0'
-          FINAL_BRANCH='quality-priority-05'
-          IDS=(265 540 447 448 469 229 238 565 256 108 690 263 267 551 225 271 281 128 248 239)
+          python - <<'PY'
+          import html, json, math, re
+          from pathlib import Path
 
-          git fetch origin "$FINAL_BRANCH" main
-          test "$(git rev-parse "origin/$FINAL_BRANCH")" = "$BASE"
-          git merge-base --is-ancestor "$BASE" origin/main
-
-          git worktree add --detach /tmp/priority05-final "origin/$FINAL_BRANCH"
-
-          expected=()
-          for lang in es en; do
-            for id in "${IDS[@]}"; do
-              shopt -s nullglob
-              matches=(content/articles/$lang/${id}-*.json)
-              shopt -u nullglob
-              test "${#matches[@]}" -eq 1
-              src="${matches[0]}"
-              git diff --quiet "$BASE" origin/main -- "$src"
-              expected+=("$src")
-              mkdir -p "/tmp/priority05-final/$(dirname "$src")"
-              cp "$src" "/tmp/priority05-final/$src"
-            done
-          done
-
-          cd /tmp/priority05-final
-          mapfile -t changed < <(git status --porcelain | sed 's/^...//')
-          test "${#changed[@]}" -eq 40
-          test "$(printf '%s\n' "${changed[@]}" | grep -c '^content/articles/es/')" -eq 20
-          test "$(printf '%s\n' "${changed[@]}" | grep -c '^content/articles/en/')" -eq 20
-          test "$(printf '%s\n' "${changed[@]}" | grep -vc '^content/articles/\(es\|en\)/')" -eq 0
-
-          printf '%s\n' "${expected[@]}" | sort > /tmp/expected.txt
-          printf '%s\n' "${changed[@]}" | sort > /tmp/changed.txt
-          diff -u /tmp/expected.txt /tmp/changed.txt
-
+          p = Path('content/articles/en/565-seitan-vs-tofu-vs-tempeh-nutrition.json')
+          d = json.loads(p.read_text(encoding='utf-8'))
+          old = "<p>Chicken breast is best treated as a protein food, not as a meaningful carbohydrate source. Plain roasted, grilled, poached, or baked breast meat contributes virtually no carbs on its own, while the carbohydrate count can rise quickly when breading, sweet glazes, barbecue sauce, marinades with sugar, or side dishes are included. If you track macros, check the preparation rather than judging the ingredient name alone. Portion size also matters for protein: a larger cooked breast can provide much more protein than a small serving, even though the carb content of the plain meat remains negligible.</p>"
+          new = "<p>Serving size can change how the comparison feels at the table. A typical tofu or tempeh portion may be larger than a compact serving of seitan, so protein per 100 g is useful for comparing concentration but does not automatically predict what you will eat in one meal. Prepared products also vary: flavored tofu, marinated tempeh and seasoned seitan can add sodium, sugar or oil. If you are choosing among them for everyday meals, compare the nutrition label at the portion you actually use and consider protein alongside fiber, calcium, sodium, total calories and dietary restrictions such as soy or gluten avoidance.</p>"
+          assert old in d['content_html']
+          d['content_html'] = d['content_html'].replace(old, new, 1)
+          assert old not in d['content_html']
+          text = re.sub(r'<[^>]+>', ' ', d['content_html'])
+          text = re.sub(r'\s+', ' ', html.unescape(text)).strip()
+          words = len(re.findall(r"\b[^\W_]+(?:['’\-][^\W_]+)*\b", text, flags=re.UNICODE))
+          h2 = len(re.findall(r'<h2\b', d['content_html'], flags=re.I))
+          assert words >= 631, words
+          assert math.ceil(words / 210) >= 4, words
+          if h2 >= 5:
+              assert words / h2 >= 80, (words, h2)
+          assert 'chicken breast is best treated' not in text.lower()
+          p.write_text(json.dumps(d, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+          print('EN565_WORDS', words)
+          print('EN565_H2', h2)
+          PY
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -- "${expected[@]}"
-          mapfile -t staged < <(git diff --cached --name-only)
-          test "${#staged[@]}" -eq 40
-          test "$(git diff --cached --name-only | grep -c '^content/articles/es/')" -eq 20
-          test "$(git diff --cached --name-only | grep -c '^content/articles/en/')" -eq 20
-          test "$(git diff --cached --name-only | grep -vc '^content/articles/\(es\|en\)/')" -eq 0
-
-          git commit -m 'Improve editorial quality for priority block 05'
-          git push origin HEAD:"$FINAL_BRANCH"
-          echo "FINAL_COMMIT=$(git rev-parse HEAD)"
-          echo 'FINAL_DIFF_COUNT=40'
-          echo 'FINAL_ES_COUNT=20'
-          echo 'FINAL_EN_COUNT=20'
+          git add content/articles/en/565-seitan-vs-tofu-vs-tempeh-nutrition.json
+          test "$(git diff --cached --name-only | wc -l)" -eq 1
+          git commit -m 'Fix EN 565 plant protein comparison'
+          git push origin HEAD:quality-priority-05
