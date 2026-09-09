@@ -22,7 +22,7 @@ jobs:
 
           git fetch origin "$FINAL_BRANCH" main
           test "$(git rev-parse "origin/$FINAL_BRANCH")" = "$BASE"
-          test "$(git rev-parse origin/main)" = "$BASE"
+          git merge-base --is-ancestor "$BASE" origin/main
 
           git worktree add --detach /tmp/priority05-final "origin/$FINAL_BRANCH"
 
@@ -34,6 +34,7 @@ jobs:
               shopt -u nullglob
               test "${#matches[@]}" -eq 1
               src="${matches[0]}"
+              git diff --quiet "$BASE" origin/main -- "$src"
               expected+=("$src")
               mkdir -p "/tmp/priority05-final/$(dirname "$src")"
               cp "$src" "/tmp/priority05-final/$src"
