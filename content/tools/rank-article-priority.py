@@ -5,7 +5,12 @@ from pathlib import Path
 AUDITOR = Path(__file__).with_name('audit-article-editorial.py')
 spec = importlib.util.spec_from_file_location('article_editorial_audit', AUDITOR)
 audit = importlib.util.module_from_spec(spec)
-spec.loader.exec_module(audit)
+try:
+    spec.loader.exec_module(audit)
+except SystemExit:
+    # The current corpus intentionally contains known numbering gaps and quality
+    # failures. The auditor has already populated its metrics before exiting.
+    pass
 
 rows = []
 for num in sorted(audit.all_numbers):
