@@ -1,0 +1,74 @@
+name: Temporary priority 12 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-12-export
+    paths:
+      - '.github/workflows/tmp-priority12-export.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect exact priority 12 source files
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/p12/content/articles/en /tmp/p12/content/articles/es
+          files=(
+            content/articles/es/580-skyr-vs-yogur-griego-diferencias.json
+            content/articles/en/580-skyr-vs-greek-yogurt.json
+            content/articles/es/726-nitratos-nitritos-carnes-procesadas.json
+            content/articles/en/726-nitrates-nitrites-processed-meat.json
+            content/articles/es/732-vinagre-manzana-o-blanco.json
+            content/articles/en/732-apple-cider-vinegar-vs-white-vinegar.json
+            content/articles/es/449-frutas-siguen-madurando-despues-cosecha.json
+            content/articles/en/449-fruits-ripen-after-harvest.json
+            content/articles/es/323-por-que-quesos-tienen-poca-lactosa.json
+            content/articles/en/323-why-some-cheeses-have-so-little-lactose.json
+            content/articles/es/579-skyr-proteina-calorias-valor-nutricional.json
+            content/articles/en/579-skyr-protein-calories-nutrition.json
+            content/articles/es/371-guardar-aceite-oliva-nevera.json
+            content/articles/en/371-should-you-refrigerate-olive-oil.json
+            content/articles/es/377-caduca-arroz-seco.json
+            content/articles/en/377-does-dry-rice-expire.json
+            content/articles/es/585-ricotta-vs-mozzarella-diferencias-nutricionales.json
+            content/articles/en/585-ricotta-vs-mozzarella-nutrition.json
+            content/articles/es/135-indice-glucemico-vs-carga-glucemica.json
+            content/articles/en/135-glycemic-index-vs-glycemic-load.json
+            content/articles/es/711-natural-etiqueta-que-significa.json
+            content/articles/en/711-natural-label-meaning.json
+            content/articles/es/733-caduca-vinagre.json
+            content/articles/en/733-does-vinegar-expire.json
+            content/articles/es/468-por-que-cebollas-hacen-llorar-como-reducirlo.json
+            content/articles/en/468-why-onions-make-you-cry.json
+            content/articles/es/384-por-que-aceite-espuma-salta-freir.json
+            content/articles/en/384-why-frying-oil-foams-splatters.json
+            content/articles/es/422-cuanto-tiempo-patatas-cortadas-en-agua.json
+            content/articles/en/422-how-long-cut-potatoes-water.json
+            content/articles/es/436-cacahuetes-proteina-grasa-fibra.json
+            content/articles/en/436-peanuts-protein-fat-fiber.json
+            content/articles/es/549-cacahuete-fruto-seco-o-legumbre.json
+            content/articles/en/549-is-peanut-nut-or-legume.json
+            content/articles/es/338-como-conservar-queso-abierto.json
+            content/articles/en/338-how-to-store-opened-cheese.json
+            content/articles/es/115-es-saludable-comer-frutos-secos-todos-dias.json
+            content/articles/en/115-nuts-every-day.json
+            content/articles/es/537-matcha-vs-cafe-cafeina-diferencias.json
+            content/articles/en/537-matcha-vs-coffee-caffeine.json
+          )
+          for f in "${files[@]}"; do
+            test -f "$f"
+            mkdir -p "/tmp/p12/$(dirname "$f")"
+            cp "$f" "/tmp/p12/$f"
+          done
+          test "$(find /tmp/p12/content/articles -type f -name '*.json' | wc -l)" -eq 40
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority12-source-json
+          path: /tmp/p12/content
+          if-no-files-found: error
