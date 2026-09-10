@@ -19,16 +19,20 @@ jobs:
           fetch-depth: 0
 
       - name: Restore validated article payload
-        env:
-          GH_TOKEN: ${{ github.token }}
         run: |
-          gh api repos/${{ github.repository }}/git/blobs/c519225c3df1dae200072d5b93e2daca05750dea --jq '.content' | tr -d '\n' | base64 -d > /tmp/priority07.tar.xz
+          set -euo pipefail
+          : > /tmp/priority07.b64
+          for part in 00 01 02 03 04 05 060 061 062 063 064 065 066 067 068; do
+            curl -fsSL "https://raw.githubusercontent.com/${{ github.repository }}/tmp-quality-priority-07-materialize/.tmp/p07payload.${part}" >> /tmp/priority07.b64
+          done
+          base64 -d /tmp/priority07.b64 > /tmp/priority07.tar.xz
+          echo '3abe6562e3413c2803f9e581e7d927835e1d2308cb97d0c72a231e52115562c9  /tmp/priority07.tar.xz' | sha256sum -c -
           tar -xJf /tmp/priority07.tar.xz -C .
 
       - name: Validate priority block 07
         run: |
           python - <<'PY'
-          import html, json, math, re
+          import html, json, re, subprocess
           from collections import defaultdict
           from pathlib import Path
 
@@ -107,7 +111,7 @@ jobs:
           for aid in IDS:
               assert by_pair[aid].get('en') == by_pair[aid].get('es'), (aid, by_pair[aid])
 
-          changed = [x.strip() for x in __import__('subprocess').check_output(['git','diff','--name-only']).decode().splitlines() if x.strip()]
+          changed = [x.strip() for x in subprocess.check_output(['git','diff','--name-only']).decode().splitlines() if x.strip()]
           assert len(changed) == 40, (len(changed), changed)
           assert all(x.startswith('content/articles/en/') or x.startswith('content/articles/es/') for x in changed), changed
           assert all(x.endswith('.json') for x in changed), changed
