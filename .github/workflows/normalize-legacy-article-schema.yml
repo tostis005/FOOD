@@ -1,0 +1,170 @@
+name: Normalize legacy article schema
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/normalize-legacy-article-schema.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  normalize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Normalize legacy article JSON
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+
+          required = {
+              'schema_version', 'id', 'article_number', 'translation_group',
+              'language', 'title', 'slug', 'seo', 'excerpt', 'taxonomy',
+              'content_html', 'faq', 'sources', 'image', 'status'
+          }
+
+          family_by_number = {
+              763: 'fish-seafood',
+              764: 'fish-seafood',
+              765: 'meat',
+              766: 'meat',
+              767: 'meat',
+              768: 'nuts-seeds',
+              769: 'dairy-cheese',
+              770: 'cocoa-sweets',
+              771: 'legumes-soy',
+              772: 'other-foods',
+              773: 'dairy-cheese',
+              774: 'dairy-cheese',
+              775: 'vegetables-mushrooms',
+          }
+
+          types_by_number = {
+              763: (['comparisons', 'food-safety', 'nutrition-composition'], 'comparisons'),
+              764: (['comparisons', 'nutrition-composition'], 'comparisons'),
+              765: (['comparisons', 'nutrition-composition'], 'comparisons'),
+              766: (['food-safety', 'storage'], 'food-safety'),
+              767: (['food-safety', 'storage'], 'food-safety'),
+              768: (['food-safety', 'storage'], 'food-safety'),
+              769: (['food-safety', 'storage'], 'food-safety'),
+              770: (['food-safety', 'storage'], 'food-safety'),
+              771: (['food-safety', 'storage'], 'food-safety'),
+              772: (['food-safety', 'storage'], 'food-safety'),
+              773: (['food-safety', 'storage'], 'food-safety'),
+              774: (['freezing-thawing', 'food-safety', 'storage'], 'freezing-thawing'),
+              775: (['food-safety'], 'food-safety'),
+          }
+
+          changed = []
+          legacy_numbers = set()
+
+          for path in sorted(Path('content/articles').glob('*/*.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              missing = required - data.keys()
+              if not missing:
+                  continue
+
+              # The legacy 763-775 files use body/seo_title/seo_description/category/tags.
+              if 'body' not in data:
+                  raise SystemExit(f'{path}: unsupported incomplete schema, missing {sorted(missing)}')
+
+              number = int(data.get('article_number', 0) or 0)
+              language = str(data.get('language', '')).strip()
+              slug = str(data.get('slug', '')).strip()
+              title = str(data.get('title', '')).strip()
+              excerpt = str(data.get('excerpt', '')).strip()
+
+              if number not in family_by_number or language not in {'es', 'en'} or not slug or not title:
+                  raise SystemExit(f'{path}: legacy schema outside the supported 763-775 set')
+
+              article_types, primary_type = types_by_number[number]
+
+              data.setdefault('schema_version', 1)
+              data.setdefault('id', f'{language}-{number}-{slug}')
+              data.setdefault('locale', 'es-ES' if language == 'es' else 'en-US')
+              data.setdefault('market_context', 'España' if language == 'es' else 'United States')
+              data.setdefault('seo', {
+                  'title': str(data.get('seo_title') or title),
+                  'meta_description': str(data.get('seo_description') or excerpt),
+                  'search_intent': title,
+              })
+              data.setdefault('taxonomy', {
+                  'food_family': family_by_number[number],
+                  'food_subcategories': [],
+                  'article_types': article_types,
+                  'primary_article_type': primary_type,
+              })
+              data.setdefault('content_html', str(data.get('body') or ''))
+              data.setdefault('faq', [])
+              data.setdefault('image', {
+                  'concept': str(data.get('image_prompt') or data.get('image_query') or title),
+                  'alt': str(data.get('image_query') or title),
+              })
+
+              sources = data.get('sources')
+              if not isinstance(sources, list):
+                  sources = []
+              normalized_sources = []
+              for source in sources:
+                  if not isinstance(source, dict):
+                      continue
+                  source = dict(source)
+                  if not source.get('name') and source.get('title'):
+                      source['name'] = source['title']
+                  normalized_sources.append(source)
+              data['sources'] = normalized_sources
+
+              still_missing = required - data.keys()
+              if still_missing:
+                  raise SystemExit(f'{path}: normalization still missing {sorted(still_missing)}')
+              if not data['content_html']:
+                  raise SystemExit(f'{path}: normalized content_html is empty')
+
+              path.write_text(
+                  json.dumps(data, ensure_ascii=False, indent=2) + '\n',
+                  encoding='utf-8',
+              )
+              changed.append(path.as_posix())
+              legacy_numbers.add((language, number))
+
+          expected = {(lang, number) for lang in ('es', 'en') for number in range(763, 776)}
+          if set(legacy_numbers) != expected:
+              missing_pairs = sorted(expected - set(legacy_numbers))
+              unexpected = sorted(set(legacy_numbers) - expected)
+              raise SystemExit(
+                  f'Expected exactly legacy ES/EN 763-775; missing={missing_pairs}, unexpected={unexpected}'
+              )
+
+          # Final strict validation across the complete inventory.
+          total = 0
+          for path in sorted(Path('content/articles').glob('*/*.json')):
+              data = json.loads(path.read_text(encoding='utf-8'))
+              missing = required - data.keys()
+              if missing:
+                  raise SystemExit(f'{path}: missing {sorted(missing)} after normalization')
+              total += 1
+
+          print(f'Normalized {len(changed)} legacy JSON files and validated {total} total article JSON files')
+          PY
+
+      - name: Commit canonicalized JSON
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- content/articles/es content/articles/en; then
+            echo 'No normalization changes found.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/articles/es content/articles/en
+          git commit -m 'Normalize legacy article schema 763-775'
+          git push origin HEAD:main
