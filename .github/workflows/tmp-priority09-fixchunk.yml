@@ -1,0 +1,39 @@
+name: Temporary priority 09 fix chunk
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp-priority09-fixchunk.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: tmp-quality-priority-09-materialize
+          fetch-depth: 0
+
+      - name: Fix corrupted payload byte sequence
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('.tmp/p09payload.04')
+          b = p.read_bytes()
+          bad = bytes.fromhex('485a6f613133206e647a695173384e66')
+          good = bytes.fromhex('485a6f6131334e647a695173384e66')
+          assert b.count(bad) == 1, b.count(bad)
+          b = b.replace(bad, good, 1)
+          assert len(b) == 12000, len(b)
+          p.write_bytes(b)
+          PY
+          test "$(git hash-object .tmp/p09payload.04)" = "953901b0ded0597a7090f44d1b74b7c2629e0fac"
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .tmp/p09payload.04
+          git commit -m 'Fix priority 09 payload chunk 04 bytes'
+          git push origin HEAD:tmp-quality-priority-09-materialize
