@@ -1,0 +1,35 @@
+name: Temporary priority 09 fix validator
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp-priority09-fix-validator.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: tmp-quality-priority-09-materialize
+          fetch-depth: 0
+      - name: Fix padded article lookup
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          p = Path('.github/workflows/tmp-priority09-materialize.yml')
+          s = p.read_text()
+          old = "glob(f'{aid}-*.json')"
+          new = "glob(f'{aid:03d}-*.json')"
+          assert s.count(old) == 1, s.count(old)
+          p.write_text(s.replace(old, new, 1))
+          PY
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .github/workflows/tmp-priority09-materialize.yml
+          git commit -m 'Fix priority 09 padded article lookup'
+          git push origin HEAD:tmp-quality-priority-09-materialize
