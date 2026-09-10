@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"en-230-pasta-vs-rice","article_number":230,"translation_group":"230-pasta-vs-rice","language":"en","locale":"en-US","market_context":"United States/general English; cooked white pasta and cooked white rice compared per 100 g","title":"Pasta vs. rice: calories, carbs and protein","slug":"pasta-vs-rice-calories-carbs-protein","seo":{"title":"Pasta vs. rice: calories, carbs and protein per 100 g","meta_description":"Cooked white pasta has ~158 kcal, 30.9 g carbs and 5.8 g protein/100 g; white rice has ~130 kcal, 28.2 g carbs and 2.7 g protein.","search_intent":"Compare cooked pasta and rice for calories, carbohydrates, protein and fiber using equal weights."},"excerpt":"Compared cooked and per 100 g, white pasta provides a little more energy and carbohydrate than white rice, but more than twice the protein and substantially more fiber: about 158 kcal, 30.9 g carbs, 5.8 g protein and 1.8 g fiber versus 130 kcal, 28.2 g, 2.7 g and 0.4 g.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":["pasta","rice"],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Pasta and rice often fill the same place on a plate, but they are not nutritionally identical gram for gram. The comparison only makes sense in the same food state. <strong>Per 100 g cooked, white pasta provides more protein and fiber than white rice, along with somewhat more energy.</strong></p><h2>Per 100 g cooked</h2><table><thead><tr><th>Nutrient</th><th>Cooked white pasta</th><th>Cooked white rice</th></tr></thead><tbody><tr><td>Energy</td><td>~158 kcal</td><td>~130 kcal</td></tr><tr><td>Carbohydrate</td><td>~30.9 g</td><td>~28.2 g</td></tr><tr><td>Protein</td><td>~5.8 g</td><td>~2.7 g</td></tr><tr><td>Fat</td><td>~0.9 g</td><td>~0.3 g</td></tr><tr><td>Fiber</td><td>~1.8 g</td><td>~0.4 g</td></tr></tbody></table><p>These are USDA reference values for cooked enriched pasta without added salt and cooked long-grain white rice.</p><h2>Pasta provides more protein</h2><p>At about 5.8 g versus 2.7 g per 100 g cooked, pasta provides a little more than <strong>twice the protein</strong> in this comparison. A 200 g serving would provide roughly 11.6 g from pasta versus 5.4 g from rice.</p><h2>Rice is somewhat lower in calories per 100 g</h2><p>The difference is about 28 kcal per 100 g. At 200 g, that is roughly 316 kcal for pasta versus 260 kcal for rice, a gap of about 56 kcal before sauces, oils or toppings.</p><h2>Water content explains part of the difference</h2><p>Cooked starches absorb different amounts of water. That is why comparing 100 g dry pasta with 100 g cooked rice would be misleading: the water content is not comparable.</p><h2>Both are relatively low in fiber when refined</h2><p>The white pasta entry has about 1.8 g fiber per 100 g, roughly 4.5 times the 0.4 g in white rice. Whole-grain versions of both foods increase fiber substantially.</p><h2>Which is more filling?</h2><p>That depends on more than carbohydrate. Portion size, texture, protein, fiber and the rest of the meal all matter. Adding vegetables and a protein source often changes satiety more than switching between plain pasta and rice.</p><h2>The practical takeaway</h2><p><strong>Cooked white rice is somewhat lower in calories per 100 g; white pasta provides substantially more protein and fiber.</strong> The better choice depends on the whole meal, not a small carbohydrate difference.</p>","faq":[{"question":"Which has more calories, pasta or rice?","answer":"In cooked references per 100 g, white pasta is about 158 kcal and white rice about 130 kcal."},{"question":"Which has more protein?","answer":"Cooked white pasta: about 5.8 g/100 g versus about 2.7 g in cooked white rice."},{"question":"Do they have the same carbohydrates?","answer":"They are similar but not identical: about 30.9 g/100 g in cooked pasta and 28.2 g/100 g in cooked white rice."}],"sources":[{"name":"USDA FoodData Central — Cooked enriched pasta","url":"https://fdc.nal.usda.gov/","note":"Reference: ~158 kcal, 30.86 g carbohydrate, 5.8 g protein and 1.8 g fiber per 100 g."},{"name":"USDA FoodData Central — Cooked white long-grain rice","url":"https://fdc.nal.usda.gov/","note":"Reference: ~130 kcal, 28.17 g carbohydrate, 2.69 g protein and 0.4 g fiber per 100 g."}],"image":{"concept":"Two identical bowls, one holding plain cooked pasta and the other cooked white rice, top-down editorial food photography without text.","alt":"Cooked pasta and cooked white rice compared"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-230-pasta-vs-rice",
+  "article_number": 230,
+  "translation_group": "230-pasta-vs-rice",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; cooked white pasta and cooked white rice compared per 100 g",
+  "title": "Pasta vs. rice: calories, carbs and protein",
+  "slug": "pasta-vs-rice-calories-carbs-protein",
+  "seo": {
+    "title": "Pasta vs. rice: calories, carbs and protein per 100 g",
+    "meta_description": "Cooked white pasta has ~158 kcal, 30.9 g carbs and 5.8 g protein/100 g; white rice has ~130 kcal, 28.2 g carbs and 2.7 g protein.",
+    "search_intent": "Compare cooked pasta and rice for calories, carbohydrates, protein and fiber using equal weights."
+  },
+  "excerpt": "Compared cooked and per 100 g, white pasta provides a little more energy and carbohydrate than white rice, but more than twice the protein and substantially more fiber: about 158 kcal, 30.9 g carbs, 5.8 g protein and 1.8 g fiber versus 130 kcal, 28.2 g, 2.7 g and 0.4 g.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [
+      "pasta",
+      "rice"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Pasta and rice often fill the same place on a plate, but they are not nutritionally identical gram for gram. The comparison only makes sense in the same food state. <strong>Per 100 g cooked, white pasta provides more protein and fiber than white rice, along with somewhat more energy.</strong></p><h2>Per 100 g cooked</h2><table><thead><tr><th>Nutrient</th><th>Cooked white pasta</th><th>Cooked white rice</th></tr></thead><tbody><tr><td>Energy</td><td>~158 kcal</td><td>~130 kcal</td></tr><tr><td>Carbohydrate</td><td>~30.9 g</td><td>~28.2 g</td></tr><tr><td>Protein</td><td>~5.8 g</td><td>~2.7 g</td></tr><tr><td>Fat</td><td>~0.9 g</td><td>~0.3 g</td></tr><tr><td>Fiber</td><td>~1.8 g</td><td>~0.4 g</td></tr></tbody></table><p>These are USDA reference values for cooked enriched pasta without added salt and cooked long-grain white rice.</p><h2>Pasta provides more protein</h2><p>At about 5.8 g versus 2.7 g per 100 g cooked, pasta provides a little more than <strong>twice the protein</strong> in this comparison. A 200 g serving would provide roughly 11.6 g from pasta versus 5.4 g from rice.</p><h2>Rice is somewhat lower in calories per 100 g</h2><p>The difference is about 28 kcal per 100 g. At 200 g, that is roughly 316 kcal for pasta versus 260 kcal for rice, a gap of about 56 kcal before sauces, oils or toppings.</p><h2>Water content explains part of the difference</h2><p>Cooked starches absorb different amounts of water. That is why comparing 100 g dry pasta with 100 g cooked rice would be misleading: the water content is not comparable.</p><h2>Both are relatively low in fiber when refined</h2><p>The white pasta entry has about 1.8 g fiber per 100 g, roughly 4.5 times the 0.4 g in white rice. Whole-grain versions of both foods increase fiber substantially.</p><h2>Which is more filling?</h2><p>That depends on more than carbohydrate. Portion size, texture, protein, fiber and the rest of the meal all matter. Adding vegetables and a protein source often changes satiety more than switching between plain pasta and rice.</p><h2>The cooking method can reverse the comparison</h2>\n<p>Cooked pasta and cooked rice are both mostly carbohydrate foods, and their calorie difference per 100 g is often driven by how much water each one holds after cooking. A bowl of pasta cooked very firm can weigh less from absorbed water than the same dry amount cooked softer; rice varieties and water ratios also change final weight. That is why comparing dry pasta with cooked rice produces a misleading result. Use either dry weights for both foods or cooked weights for both.</p>\n<p>Portion size matters more than a small database difference. A modest serving of pasta and a large restaurant bowl of rice are not equivalent simply because one food has slightly fewer calories per 100 g. Measure the amount you actually eat, especially if the comparison is being used for a calorie or carbohydrate target. The sauce, oil, cheese, butter or coconut milk added afterward can also contribute more energy than the difference between the grains themselves.</p>\n<p>Protein is another area where context helps. Standard wheat pasta usually contains more protein per cooked 100 g than white rice, but neither is normally eaten alone. Adding lentils, beans, fish, eggs, tofu, chicken or dairy changes the meal far more than choosing rice instead of pasta. Whole-grain versions can add fiber, while legume-based pastas are a separate category with a distinctly higher protein and fiber profile.</p>\n<p>For blood-glucose response, food form, cooking, portion and the rest of the meal all matter. Al dente pasta often produces a different response from very soft pasta, and rice varies widely by type. Cooling and reheating can alter starch characteristics somewhat, but these effects do not make portion size irrelevant. The practical choice is therefore not “rice for dieting” or “pasta for protein”; it is the portion, preparation and meal composition that match the goal.</p><p>Micronutrients vary with enrichment and whole-grain status as well. Enriched pasta and enriched white rice can supply added folic acid and iron in the United States, while brown rice and whole-wheat pasta retain more of the original bran and therefore more fiber. Those categories should not be collapsed into one generic “pasta vs rice” answer. If fiber is the goal, compare whole-grain versions; if gluten must be avoided, ordinary wheat pasta is unsuitable while plain rice is naturally gluten-free, although cross-contact and flavored products still need label checks. The right comparison changes with the question being asked.</p><h2>The practical takeaway</h2><p><strong>Cooked white rice is somewhat lower in calories per 100 g; white pasta provides substantially more protein and fiber.</strong> The better choice depends on the whole meal, not a small carbohydrate difference.</p>",
+  "faq": [
+    {
+      "question": "Which has more calories, pasta or rice?",
+      "answer": "In cooked references per 100 g, white pasta is about 158 kcal and white rice about 130 kcal."
+    },
+    {
+      "question": "Which has more protein?",
+      "answer": "Cooked white pasta: about 5.8 g/100 g versus about 2.7 g in cooked white rice."
+    },
+    {
+      "question": "Do they have the same carbohydrates?",
+      "answer": "They are similar but not identical: about 30.9 g/100 g in cooked pasta and 28.2 g/100 g in cooked white rice."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central — Cooked enriched pasta",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Reference: ~158 kcal, 30.86 g carbohydrate, 5.8 g protein and 1.8 g fiber per 100 g."
+    },
+    {
+      "name": "USDA FoodData Central — Cooked white long-grain rice",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Reference: ~130 kcal, 28.17 g carbohydrate, 2.69 g protein and 0.4 g fiber per 100 g."
+    }
+  ],
+  "image": {
+    "concept": "Two identical bowls, one holding plain cooked pasta and the other cooked white rice, top-down editorial food photography without text.",
+    "alt": "Cooked pasta and cooked white rice compared"
+  },
+  "status": "publish"
+}
