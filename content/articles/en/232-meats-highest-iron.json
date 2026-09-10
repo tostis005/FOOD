@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"en-232-meats-highest-iron","article_number":232,"translation_group":"232-meats-highest-iron","language":"en","locale":"en-US","market_context":"United States/general English; comparison of heme iron in organ meats and muscle cuts","title":"Meats highest in iron","slug":"meats-highest-iron","seo":{"title":"Meats highest in iron: liver, beef, lamb and poultry","meta_description":"Liver stands out: 3 oz cooked beef liver provides ~5 mg iron, versus ~2 mg in many beef cuts and about 1 mg in chicken or turkey.","search_intent":"Compare meats by iron content and understand why organ meats provide much more than ordinary muscle cuts."},"excerpt":"If organ meats are included, liver wins by a wide margin. NIH lists about 5 mg iron in 3 oz (85 g) cooked beef liver, versus ~2 mg in 85 g lean beef round and about 1 mg in similar servings of chicken or turkey. Much of meat iron is also highly bioavailable heme iron.","taxonomy":{"food_family":"meat","food_subcategories":["meat","iron"],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>Rankings of iron-rich meat look very different depending on whether organ meats are included. <strong>Liver contains substantially more iron than most ordinary muscle cuts.</strong></p><h2>Comparable serving sizes</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Approx. iron</th></tr></thead><tbody><tr><td>Beef liver, cooked</td><td>3 oz / 85 g</td><td>~5 mg</td></tr><tr><td>Beef bottom round, braised and trimmed</td><td>3 oz / 85 g</td><td>~2 mg</td></tr><tr><td>Cooked leg of lamb</td><td>3 oz / 85 g</td><td>~2 mg</td></tr><tr><td>Roasted chicken</td><td>3 oz / 85 g</td><td>~1 mg</td></tr><tr><td>Roasted turkey</td><td>3 oz / 85 g</td><td>~1 mg</td></tr></tbody></table><p>That makes a serving of liver roughly <strong>2.5 times</strong> the iron in a comparable lean-beef serving and about <strong>five times</strong> the amount in chicken or turkey in these references.</p><h2>The pattern is similar per 100 g</h2><p>Five milligrams per 85 g liver works out to roughly 5.9 mg/100 g. Two milligrams in lean beef is about 2.4 mg/100 g, while 1 mg per 85 g poultry is roughly 1.2 mg/100 g.</p><h2>Meat iron has an absorption advantage</h2><p>Meat provides both heme and nonheme iron. Heme iron is generally absorbed more efficiently and is less affected by meal inhibitors than plant nonheme iron, so milligrams alone do not tell the full story.</p><h2>More iron does not mean liver every day</h2><p>Liver is highly concentrated not only in iron but also in vitamin A and other micronutrients. Because it is so nutrient-dense, it does not need to be eaten daily to make a substantial contribution.</p><h2>Red meat generally beats poultry</h2><p>Among ordinary muscle cuts, beef and lamb typically provide more iron than chicken or turkey breast. Exact numbers still vary with the cut, animal and cooking method.</p><h2>The practical takeaway</h2><p><strong>If organ meats count, liver is clearly the iron leader.</strong> Among common muscle meats, beef and lamb generally rank above chicken and turkey but far below liver.</p>","faq":[{"question":"Which meat has the most iron?","answer":"If organ meats are included, liver stands out. NIH lists about 5 mg iron in 3 oz cooked beef liver."},{"question":"Does beef have more iron than chicken?","answer":"In comparable references, yes: about 2 mg per 3 oz lean beef versus roughly 1 mg per 3 oz roasted chicken."},{"question":"Is meat iron well absorbed?","answer":"Yes. Some is heme iron, which generally has higher bioavailability than plant nonheme iron."}],"sources":[{"name":"NIH Office of Dietary Supplements — Iron","url":"https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/","note":"Iron table: beef liver ~5 mg/3 oz, lean beef ~2 mg/3 oz and chicken/turkey ~1 mg/3 oz."},{"name":"U.S. Department of Veterans Affairs — Sources of Iron","url":"https://nutrition.va.gov/NUTRITION/docs/UpdatedPatientEd/SourcesofIron-Sept2020.pdf","note":"Reference values for beef, liver, lamb and heme-iron foods."}],"image":{"concept":"Cooked beef liver beside portions of beef, lamb, chicken and turkey in a clean editorial comparison, no text.","alt":"Meat and liver compared for iron content"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-232-meats-highest-iron",
+  "article_number": 232,
+  "translation_group": "232-meats-highest-iron",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; comparison of heme iron in organ meats and muscle cuts",
+  "title": "Meats highest in iron",
+  "slug": "meats-highest-iron",
+  "seo": {
+    "title": "Meats highest in iron: liver, beef, lamb and poultry",
+    "meta_description": "Liver stands out: 3 oz cooked beef liver provides ~5 mg iron, versus ~2 mg in many beef cuts and about 1 mg in chicken or turkey.",
+    "search_intent": "Compare meats by iron content and understand why organ meats provide much more than ordinary muscle cuts."
+  },
+  "excerpt": "If organ meats are included, liver wins by a wide margin. NIH lists about 5 mg iron in 3 oz (85 g) cooked beef liver, versus ~2 mg in 85 g lean beef round and about 1 mg in similar servings of chicken or turkey. Much of meat iron is also highly bioavailable heme iron.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "meat",
+      "iron"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Rankings of iron-rich meat look very different depending on whether organ meats are included. <strong>Liver contains substantially more iron than most ordinary muscle cuts.</strong></p><h2>Comparable serving sizes</h2><table><thead><tr><th>Food</th><th>Serving</th><th>Approx. iron</th></tr></thead><tbody><tr><td>Beef liver, cooked</td><td>3 oz / 85 g</td><td>~5 mg</td></tr><tr><td>Beef bottom round, braised and trimmed</td><td>3 oz / 85 g</td><td>~2 mg</td></tr><tr><td>Cooked leg of lamb</td><td>3 oz / 85 g</td><td>~2 mg</td></tr><tr><td>Roasted chicken</td><td>3 oz / 85 g</td><td>~1 mg</td></tr><tr><td>Roasted turkey</td><td>3 oz / 85 g</td><td>~1 mg</td></tr></tbody></table><p>That makes a serving of liver roughly <strong>2.5 times</strong> the iron in a comparable lean-beef serving and about <strong>five times</strong> the amount in chicken or turkey in these references.</p><h2>The pattern is similar per 100 g</h2><p>Five milligrams per 85 g liver works out to roughly 5.9 mg/100 g. Two milligrams in lean beef is about 2.4 mg/100 g, while 1 mg per 85 g poultry is roughly 1.2 mg/100 g.</p><h2>Meat iron has an absorption advantage</h2><p>Meat provides both heme and nonheme iron. Heme iron is generally absorbed more efficiently and is less affected by meal inhibitors than plant nonheme iron, so milligrams alone do not tell the full story.</p><h2>More iron does not mean liver every day</h2><p>Liver is highly concentrated not only in iron but also in vitamin A and other micronutrients. Because it is so nutrient-dense, it does not need to be eaten daily to make a substantial contribution.</p><h2>Red meat generally beats poultry</h2><p>Among ordinary muscle cuts, beef and lamb typically provide more iron than chicken or turkey breast. Exact numbers still vary with the cut, animal and cooking method.</p><h2>How to choose iron-rich meat without looking at one number alone</h2><p>Organ meats—especially liver—can be extremely iron-rich, but that does not mean they should dominate an iron-focused diet. Among meats eaten more routinely, beef and other red meats generally provide more iron than chicken or turkey breast, although the exact number changes with cut, cooking, and serving size. Comparing similar portions is more useful than comparing 100 grams of one food with a much smaller amount of another.</p><p>Meat supplies heme iron, which is absorbed more efficiently than the nonheme iron found in many plant foods. Even so, a meat choice should not be reduced to iron alone. Saturated fat, sodium in processed meats, frequency, variety, cost, and preference all matter. Someone trying to increase iron can combine an appropriate source with vegetables, legumes, or vitamin-C-rich foods as part of a varied diet. If anemia or iron deficiency is suspected, simply eating more meat may not address the cause; testing and clinical assessment can be important. For a healthy person, rotating sources and choosing sensible portions provides iron without making the food with the highest number a daily requirement.</p><p><strong>Which meat has the most iron?</strong> If organ meats are included, liver stands out. NIH lists about 5 mg iron in 3 oz cooked beef liver.</p><p><strong>Does beef have more iron than chicken?</strong> In comparable references, yes: about 2 mg per 3 oz lean beef versus roughly 1 mg per 3 oz roasted chicken.</p><p><strong>Is meat iron well absorbed?</strong> Yes. Some is heme iron, which generally has higher bioavailability than plant nonheme iron.</p><p>Before interpreting any nutrition number, check the unit and the serving size. Values per 100 grams are useful for comparing nutrient density, but the portion people actually eat can be larger or smaller and change how meaningful the number is. Also consider the rest of the meal: foods work together, and one ingredient does not need to be the “best” source of every nutrient. Individual needs vary with age, health, activity, and overall diet. Kidney disease, diagnosed deficiency, pregnancy, or another condition with specific dietary guidance can change what is appropriate, so individualized clinical advice takes priority over general food comparisons.</p><p>When comparing two choices, keep the basis of comparison consistent and remember that preparation and brands can change the result. Boiling, adding oil, using a sauce, or buying a salted version can alter calories, sodium, and final weight even when the underlying food is similar. A product label and the portion you actually eat therefore complete the picture better than a single number copied from a nutrient database.</p><p>Nutrition databases are best treated as reference points rather than promises about every serving. Variety, brand, growing conditions, processing, and water content can move the numbers. Use them to understand the general pattern, then use the package label when a precise value matters for the product in your kitchen.</p><h2>The practical takeaway</h2><p><strong>If organ meats count, liver is clearly the iron leader.</strong> Among common muscle meats, beef and lamb generally rank above chicken and turkey but far below liver.</p>",
+  "faq": [
+    {
+      "question": "Which meat has the most iron?",
+      "answer": "If organ meats are included, liver stands out. NIH lists about 5 mg iron in 3 oz cooked beef liver."
+    },
+    {
+      "question": "Does beef have more iron than chicken?",
+      "answer": "In comparable references, yes: about 2 mg per 3 oz lean beef versus roughly 1 mg per 3 oz roasted chicken."
+    },
+    {
+      "question": "Is meat iron well absorbed?",
+      "answer": "Yes. Some is heme iron, which generally has higher bioavailability than plant nonheme iron."
+    }
+  ],
+  "sources": [
+    {
+      "name": "NIH Office of Dietary Supplements — Iron",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/",
+      "note": "Iron table: beef liver ~5 mg/3 oz, lean beef ~2 mg/3 oz and chicken/turkey ~1 mg/3 oz."
+    },
+    {
+      "name": "U.S. Department of Veterans Affairs — Sources of Iron",
+      "url": "https://nutrition.va.gov/NUTRITION/docs/UpdatedPatientEd/SourcesofIron-Sept2020.pdf",
+      "note": "Reference values for beef, liver, lamb and heme-iron foods."
+    }
+  ],
+  "image": {
+    "concept": "Cooked beef liver beside portions of beef, lamb, chicken and turkey in a clean editorial comparison, no text.",
+    "alt": "Meat and liver compared for iron content"
+  },
+  "status": "publish"
+}
