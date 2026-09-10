@@ -1,0 +1,73 @@
+name: Temporary priority 15 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-15-export
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect exact priority 15 source JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          rm -rf priority15-source-json
+          mkdir -p priority15-source-json/content/articles/es priority15-source-json/content/articles/en
+          files=(
+            content/articles/es/364-cuanto-dura-pasta-seca-abierta.json
+            content/articles/en/364-how-long-opened-dry-pasta-lasts.json
+            content/articles/es/426-congelar-patatas-pure-patata.json
+            content/articles/en/426-can-you-freeze-potatoes-mashed-potatoes.json
+            content/articles/es/119-es-saludable-comer-arroz-todos-dias.json
+            content/articles/en/119-rice-every-day.json
+            content/articles/es/321-jamon-vs-paleta-diferencias.json
+            content/articles/en/321-jamon-vs-paleta-differences.json
+            content/articles/es/133-cuanta-proteina-tiene-huevo.json
+            content/articles/en/133-how-much-protein-in-egg.json
+            content/articles/es/429-como-saber-pina-madura.json
+            content/articles/en/429-how-to-tell-pineapple-ripe.json
+            content/articles/es/734-cafe-preparado-frio-o-cafe-con-hielo.json
+            content/articles/en/734-cold-brew-vs-iced-coffee.json
+            content/articles/es/122-es-saludable-comer-queso-todos-dias.json
+            content/articles/en/122-cheese-every-day.json
+            content/articles/es/182-frutos-secos-con-menos-calorias.json
+            content/articles/en/182-lowest-calorie-nuts.json
+            content/articles/es/363-aguacate-manchas-marrones-cuando-comer.json
+            content/articles/en/363-avocado-brown-spots-safe-to-eat.json
+            content/articles/es/597-curcuma-vs-curcumina-diferencias.json
+            content/articles/en/597-turmeric-vs-curcumin-differences.json
+            content/articles/es/557-aceitunas-verdes-vs-negras-diferencias.json
+            content/articles/en/557-green-vs-black-olives.json
+            content/articles/es/435-verduras-con-mas-vitamina-c.json
+            content/articles/en/435-vegetables-highest-vitamin-c.json
+            content/articles/es/334-quesos-con-mas-sal.json
+            content/articles/en/334-cheeses-highest-in-sodium.json
+            content/articles/es/496-bulgur-vs-cuscus-diferencias-nutricionales.json
+            content/articles/en/496-bulgur-vs-couscous-nutrition.json
+            content/articles/es/197-arroz-con-legumbres-combinacion-nutricional.json
+            content/articles/en/197-rice-and-beans-protein-combination.json
+            content/articles/es/372-cuantas-veces-lavar-arroz-agua-blanca.json
+            content/articles/en/372-how-many-times-rinse-rice-white-water.json
+            content/articles/es/440-lechuga-rosa-rojiza-se-puede-comer.json
+            content/articles/en/440-pink-reddish-lettuce-safe-to-eat.json
+            content/articles/es/544-chia-vs-semillas-canamo.json
+            content/articles/en/544-chia-vs-hemp-seeds.json
+            content/articles/es/360-verduras-con-mas-fibra.json
+            content/articles/en/360-vegetables-highest-in-fiber.json
+          )
+          test "${#files[@]}" -eq 40
+          for f in "${files[@]}"; do
+            test -f "$f"
+            cp "$f" "priority15-source-json/$f"
+          done
+          test "$(find priority15-source-json -type f -name '*.json' | wc -l)" -eq 40
+          test "$(find priority15-source-json/content/articles/es -type f -name '*.json' | wc -l)" -eq 20
+          test "$(find priority15-source-json/content/articles/en -type f -name '*.json' | wc -l)" -eq 20
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority15-source-json
+          path: priority15-source-json
+          if-no-files-found: error
