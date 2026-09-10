@@ -1,0 +1,24 @@
+name: Temporary priority 06 export
+on:
+  push:
+    branches: [tmp-quality-priority-06-export]
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect target JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p priority06/es priority06/en
+          for id in 273 198 259 277 107 148 231 242 328 204 582 123 596 236 254 154 541 444 142 232; do
+            cp content/articles/es/$(printf '%03d' "$id")-*.json priority06/es/
+            cp content/articles/en/$(printf '%03d' "$id")-*.json priority06/en/
+          done
+          find priority06 -type f -name '*.json' | sort
+          test "$(find priority06 -type f -name '*.json' | wc -l)" -eq 40
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority06-source-json
+          path: priority06
