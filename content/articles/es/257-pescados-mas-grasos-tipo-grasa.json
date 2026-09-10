@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-257-pescados-mas-grasos-tipo-grasa","article_number":257,"translation_group":"257-fattiest-fish-fat-types","language":"es","locale":"es-ES","market_context":"España/Unión Europea; comparación de pescados grasos por 100 g y perfil omega-3","title":"Los pescados más grasos y qué tipo de grasa contienen","slug":"pescados-mas-grasos-tipo-grasa","seo":{"title":"Los pescados más grasos y qué grasas contienen","meta_description":"Caballa, salmón, arenque y sardinas suelen aportar bastante más grasa que merluza o bacalao. Gran parte es insaturada y destaca el omega-3 EPA y DHA.","search_intent":"Comparar qué pescados contienen más grasa y distinguir grasa total, saturada y omega-3 EPA+DHA."},"excerpt":"Caballa, salmón, arenque y sardinas están entre los pescados habituales con más grasa. En referencias cocinadas o en conserva suelen rondar aproximadamente 10–18 g de grasa por 100 g, frente a alrededor de 1–2 g en muchos pescados blancos. Parte importante de esa grasa es insaturada e incluye EPA y DHA.","taxonomy":{"food_family":"fish-seafood","food_subcategories":["fatty-fish","omega-3","fat"],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>“Pescado graso” no significa que toda su grasa sea saturada. <strong>Los pescados azules concentran más grasa total, pero una parte importante corresponde a grasas monoinsaturadas y poliinsaturadas, incluidos EPA y DHA.</strong></p><h2>Un ranking orientativo por grasa total</h2><table><thead><tr><th>Pescado y estado</th><th>Grasa aproximada/100 g</th><th>Contexto</th></tr></thead><tbody><tr><td>Caballa atlántica cocinada</td><td>~18 g</td><td>Muy grasa</td></tr><tr><td>Salmón atlántico de acuicultura cocinado</td><td>~12 g</td><td>Graso</td></tr><tr><td>Arenque cocinado</td><td>~11–12 g</td><td>Graso</td></tr><tr><td>Sardinas en conserva escurridas</td><td>~10–12 g</td><td>Graso</td></tr><tr><td>Trucha cocinada</td><td>~6–8 g</td><td>Intermedio</td></tr><tr><td>Merluza o bacalao</td><td>~1–2 g</td><td>Magro</td></tr></tbody></table><p>La especie, alimentación, época del año y método de preparación cambian las cifras. Por eso es mejor interpretar el ranking como órdenes de magnitud, no como una tabla invariable.</p><h2>Grasa total y omega-3 no son lo mismo</h2><p>NIH recoge por ración de 85 g aproximadamente <strong>1,83 g de EPA+DHA</strong> en salmón atlántico de acuicultura cocinado, ~1,71 g en arenque atlántico, ~1,19 g en sardinas en tomate y ~1,02 g en caballa atlántica.</p><p>Un pescado puede tener más grasa total y no ocupar exactamente la misma posición en EPA+DHA.</p><h2>Qué tipo de grasa predomina</h2><p>En estos pescados, las grasas insaturadas suelen superar a las saturadas. Hay monoinsaturadas y poliinsaturadas; dentro de estas últimas están los omega-3 marinos EPA y DHA.</p><p>Eso no significa que no exista grasa saturada: un salmón o una caballa también contienen varios gramos, pero no es la única ni necesariamente la fracción principal.</p><h2>¿Más grasa significa más calorías?</h2><p>Sí, a igualdad de peso. La grasa aporta unas 9 kcal por gramo. Un pescado con 12 g de grasa por 100 g puede aportar alrededor de 100 kcal más solo desde la grasa que uno con 1 g. Aun así, el valor nutricional no se reduce a las calorías: proteína, vitamina D, B12, selenio y omega-3 también cuentan.</p><h2>La idea útil</h2><p><strong>Caballa, salmón, arenque y sardinas son pescados grasos porque contienen mucha más grasa total que merluza o bacalao, pero buena parte de esa grasa es insaturada.</strong> Para valorar omega-3, mira EPA+DHA además de grasa total.</p>","faq":[{"question":"¿Cuál es el pescado más graso?","answer":"Depende de especie y estado, pero caballas grasas pueden acercarse a ~18 g/100 g cocinadas y superar a muchos salmones y sardinas."},{"question":"¿La grasa del pescado es principalmente saturada?","answer":"No. Los pescados grasos contienen una proporción importante de grasas monoinsaturadas y poliinsaturadas, incluidos EPA y DHA."},{"question":"¿El pescado con más grasa siempre tiene más omega-3?","answer":"No necesariamente. Grasa total y EPA+DHA están relacionados, pero el ranking puede cambiar según especie y composición."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Valores de grasa total y composición de especies de pescado por 100 g."},{"name":"NIH Office of Dietary Supplements — Omega-3 Fatty Acids","url":"https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/","note":"EPA y DHA por ración de salmón, arenque, sardinas y caballa."}],"image":{"concept":"Caballa, salmón, arenque, sardinas y trucha alineados como pescados grasos, fotografía editorial sin texto.","alt":"Pescados grasos ricos en grasas insaturadas y omega 3"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-257-pescados-mas-grasos-tipo-grasa",
+  "article_number": 257,
+  "translation_group": "257-fattiest-fish-fat-types",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; comparación de pescados grasos por 100 g y perfil omega-3",
+  "title": "Los pescados más grasos y qué tipo de grasa contienen",
+  "slug": "pescados-mas-grasos-tipo-grasa",
+  "seo": {
+    "title": "Los pescados más grasos y qué grasas contienen",
+    "meta_description": "Caballa, salmón, arenque y sardinas suelen aportar bastante más grasa que merluza o bacalao. Gran parte es insaturada y destaca el omega-3 EPA y DHA.",
+    "search_intent": "Comparar qué pescados contienen más grasa y distinguir grasa total, saturada y omega-3 EPA+DHA."
+  },
+  "excerpt": "Caballa, salmón, arenque y sardinas están entre los pescados habituales con más grasa. En referencias cocinadas o en conserva suelen rondar aproximadamente 10–18 g de grasa por 100 g, frente a alrededor de 1–2 g en muchos pescados blancos. Parte importante de esa grasa es insaturada e incluye EPA y DHA.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": [
+      "fatty-fish",
+      "omega-3",
+      "fat"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>“Pescado graso” no significa que toda su grasa sea saturada. <strong>Los pescados azules concentran más grasa total, pero una parte importante corresponde a grasas monoinsaturadas y poliinsaturadas, incluidos EPA y DHA.</strong></p><h2>Un ranking orientativo por grasa total</h2><table><thead><tr><th>Pescado y estado</th><th>Grasa aproximada/100 g</th><th>Contexto</th></tr></thead><tbody><tr><td>Caballa atlántica cocinada</td><td>~18 g</td><td>Muy grasa</td></tr><tr><td>Salmón atlántico de acuicultura cocinado</td><td>~12 g</td><td>Graso</td></tr><tr><td>Arenque cocinado</td><td>~11–12 g</td><td>Graso</td></tr><tr><td>Sardinas en conserva escurridas</td><td>~10–12 g</td><td>Graso</td></tr><tr><td>Trucha cocinada</td><td>~6–8 g</td><td>Intermedio</td></tr><tr><td>Merluza o bacalao</td><td>~1–2 g</td><td>Magro</td></tr></tbody></table><p>La especie, alimentación, época del año y método de preparación cambian las cifras. Por eso es mejor interpretar el ranking como órdenes de magnitud, no como una tabla invariable.</p><h2>Grasa total y omega-3 no son lo mismo</h2><p>NIH recoge por ración de 85 g aproximadamente <strong>1,83 g de EPA+DHA</strong> en salmón atlántico de acuicultura cocinado, ~1,71 g en arenque atlántico, ~1,19 g en sardinas en tomate y ~1,02 g en caballa atlántica.</p><p>Un pescado puede tener más grasa total y no ocupar exactamente la misma posición en EPA+DHA.</p><h2>Qué tipo de grasa predomina</h2><p>En estos pescados, las grasas insaturadas suelen superar a las saturadas. Hay monoinsaturadas y poliinsaturadas; dentro de estas últimas están los omega-3 marinos EPA y DHA.</p><p>Eso no significa que no exista grasa saturada: un salmón o una caballa también contienen varios gramos, pero no es la única ni necesariamente la fracción principal.</p><h2>¿Más grasa significa más calorías?</h2><p>Sí, a igualdad de peso. La grasa aporta unas 9 kcal por gramo. Un pescado con 12 g de grasa por 100 g puede aportar alrededor de 100 kcal más solo desde la grasa que uno con 1 g. Aun así, el valor nutricional no se reduce a las calorías: proteína, vitamina D, B12, selenio y omega-3 también cuentan.</p><h2>La idea útil</h2><p><strong>Caballa, salmón, arenque y sardinas son pescados grasos porque contienen mucha más grasa total que merluza o bacalao, pero buena parte de esa grasa es insaturada.</strong> Para valorar omega-3, mira EPA+DHA además de grasa total.</p><h2>Qué significa realmente que un pescado sea graso</h2><p>La expresión pescado azul o graso describe especies que almacenan más lípidos en el músculo que pescados muy magros como bacalao, merluza o lenguado. No funciona como una advertencia. Esa grasa extra cambia el sabor, la jugosidad, la densidad calórica y la cantidad potencial de omega-3 de cadena larga. Un pescado blanco sigue siendo una excelente fuente de proteína, pero no ofrece exactamente el mismo perfil de ácidos grasos que caballa, arenque, sardinas o salmón.</p><p>El método de cocinado puede distorsionar la comparación si mezclamos preparaciones distintas. Un salmón al horno conserva sobre todo su grasa natural; una merluza rebozada y frita puede absorber aceite y terminar con más grasa total en el plato que un pescado azul preparado sin aceite añadido. Por eso conviene comprobar si una tabla habla de producto crudo, cocido, frito, en conserva con aceite o escurrido. La especie solo explica una parte de la cifra final.</p><p>Las conservas añaden otra variable. Sardinas o caballa en aceite pueden retener una cantidad de ese aceite incluso después de escurrir, mientras que el mismo pescado al natural o en tomate tendrá una densidad energética diferente. Si compras siempre una marca concreta, su etiqueta es más útil para tu dieta que una referencia genérica de base de datos. En pescados ahumados, además, el sodio puede convertirse en una diferencia más relevante que la cantidad total de grasa.</p><p>En cocina, un pescado con más grasa suele necesitar menos aceite añadido para mantenerse jugoso. Limón, hierbas, mostaza, tomate o verduras crujientes pueden aportar contraste sin convertir el plato en una preparación pesada. Los pescados magros, en cambio, agradecen con frecuencia una cantidad medida de aceite de oliva o una salsa que evite que se resequen. Mirar el conjunto del plato evita interpretar la palabra “graso” como si describiera por sí sola el valor nutricional de la comida.</p><p>Una rotación razonable puede incluir pescados azules y blancos. Los primeros aportan una textura más rica y suelen concentrar EPA y DHA; los segundos ofrecen proteína con menos calorías procedentes de grasa. El orden exacto cambia según especie y producto, así que conviene leer por separado grasa total y omega-3. Tener más grasa no indica automáticamente cuánto EPA y DHA contiene una ración concreta.</p>",
+  "faq": [
+    {
+      "question": "¿Cuál es el pescado más graso?",
+      "answer": "Depende de especie y estado, pero caballas grasas pueden acercarse a ~18 g/100 g cocinadas y superar a muchos salmones y sardinas."
+    },
+    {
+      "question": "¿La grasa del pescado es principalmente saturada?",
+      "answer": "No. Los pescados grasos contienen una proporción importante de grasas monoinsaturadas y poliinsaturadas, incluidos EPA y DHA."
+    },
+    {
+      "question": "¿El pescado con más grasa siempre tiene más omega-3?",
+      "answer": "No necesariamente. Grasa total y EPA+DHA están relacionados, pero el ranking puede cambiar según especie y composición."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Valores de grasa total y composición de especies de pescado por 100 g."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Omega-3 Fatty Acids",
+      "url": "https://ods.od.nih.gov/factsheets/Omega3FattyAcids-HealthProfessional/",
+      "note": "EPA y DHA por ración de salmón, arenque, sardinas y caballa."
+    }
+  ],
+  "image": {
+    "concept": "Caballa, salmón, arenque, sardinas y trucha alineados como pescados grasos, fotografía editorial sin texto.",
+    "alt": "Pescados grasos ricos en grasas insaturadas y omega 3"
+  },
+  "status": "publish"
+}
