@@ -1,0 +1,39 @@
+name: Temporary priority 12 diagnose
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-12-materialize
+    paths:
+      - '.github/workflows/tmp-priority12-diagnose.yml'
+
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: tmp-quality-priority-12-materialize
+      - name: Report payload hashes
+        run: |
+          set -euo pipefail
+          files=(
+            .tmp/p12payload.000 .tmp/p12payload.001 .tmp/p12payload.002
+            .tmp/p12pair.003004
+            .tmp/p12missing.0 .tmp/p12missing.1 .tmp/p12missing.2 .tmp/p12missing.3
+            .tmp/p12pair.007008 .tmp/p12pair.009010 .tmp/p12pair.011012 .tmp/p12pair.013014 .tmp/p12pair.015016
+            .tmp/p12tail.0 .tmp/p12tail.1 .tmp/p12tail.2
+          )
+          : > /tmp/all.raw
+          for f in "${files[@]}"; do
+            raw=$(wc -c < "$f")
+            norm=$(tr -d '[:space:]' < "$f" | wc -c)
+            sha=$(tr -d '[:space:]' < "$f" | sha256sum | cut -d' ' -f1)
+            echo "$f RAW=$raw NORM=$norm SHA256=$sha"
+            cat "$f" >> /tmp/all.raw
+          done
+          tr -d '[:space:]' < /tmp/all.raw > /tmp/all.b64
+          echo "TOTAL_NORM=$(wc -c < /tmp/all.b64)"
+          echo "B64_SHA256=$(sha256sum /tmp/all.b64 | cut -d' ' -f1)"
+          base64 -d /tmp/all.b64 > /tmp/all.tar.xz || true
+          echo "TAR_SHA256=$(sha256sum /tmp/all.tar.xz | cut -d' ' -f1)"
