@@ -1,0 +1,37 @@
+name: Temporary priority 13 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-13-export
+    paths:
+      - '.github/workflows/tmp-priority13-export.yml'
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Collect priority 13 source JSON
+        run: |
+          set -euo pipefail
+          ids='335 728 396 475 379 049 339 424 592 215 131 386 458 530 539 694 333 522 380 532'
+          mkdir -p /tmp/q13source/content/articles/en /tmp/q13source/content/articles/es
+          count=0
+          for lang in en es; do
+            for id in $ids; do
+              matches=(content/articles/$lang/${id}-*.json)
+              test ${#matches[@]} -eq 1
+              cp "${matches[0]}" /tmp/q13source/content/articles/$lang/
+              count=$((count+1))
+            done
+          done
+          test "$count" -eq 40
+          find /tmp/q13source/content/articles -type f -name '*.json' | sort
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority13-source-json
+          path: /tmp/q13source/content
+          if-no-files-found: error
