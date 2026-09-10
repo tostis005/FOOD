@@ -30,7 +30,10 @@ jobs:
         run: |
           set -euo pipefail
           : > /tmp/priority11.raw.b64
-          for part in $(seq -w 000 018); do
+          for part in $(seq -w 000 011); do
+            curl -fsSL "https://raw.githubusercontent.com/tostis005/FOOD/tmp-quality-priority-11-materialize/.tmp/p11payload.${part}" >> /tmp/priority11.raw.b64
+          done
+          for part in $(seq -w 012 018); do
             curl -fsSL "https://raw.githubusercontent.com/tostis005/FOOD/tmp-quality-priority-11-materialize/.tmp/p11s.${part}" >> /tmp/priority11.raw.b64
           done
           tr -d '[:space:]' < /tmp/priority11.raw.b64 > /tmp/priority11.b64
