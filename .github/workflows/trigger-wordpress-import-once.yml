@@ -1,0 +1,29 @@
+name: Trigger WordPress article import once
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/trigger-wordpress-import-once.yml'
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  dispatch:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch article importer
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh workflow run import-articles.yml \
+            --repo "${{ github.repository }}" \
+            --ref main \
+            -f language=all \
+            -f from=1 \
+            -f to=999999 \
+            -f status=publish \
+            -f force=false
