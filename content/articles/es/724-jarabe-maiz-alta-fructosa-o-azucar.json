@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"es-724-jarabe-maiz-alta-fructosa-o-azucar","article_number":724,"translation_group":"724-hfcs-vs-sugar","language":"es","locale":"es-ES","market_context":"España/Unión Europea; comparación nutricional y terminología de jarabes de azúcares","title":"Jarabe de maíz de alta fructosa o azúcar: ¿son realmente diferentes?","slug":"jarabe-maiz-alta-fructosa-o-azucar","seo":{"title":"Jarabe de maíz de alta fructosa vs azúcar","meta_description":"El HFCS estadounidense suele contener alrededor de un 42% o 55% de fructosa, mientras la sacarosa aporta glucosa y fructosa en proporción 50:50. En la UE estos jarabes se etiquetan con otras denominaciones.","search_intent":"Comparar jarabe de maíz de alta fructosa y azúcar, explicando además la terminología europea."},"excerpt":"El jarabe de maíz de alta fructosa y el azúcar no son la misma molécula, pero sus mezclas habituales de glucosa y fructosa son parecidas. En Europa es más probable encontrar denominaciones como jarabe de glucosa-fructosa o fructosa-glucosa que la sigla estadounidense HFCS.","taxonomy":{"food_family":"cocoa-sweets","food_subcategories":["hfcs","sugar","sweeteners"],"article_types":["comparisons","nutrition-composition","myths-faq"],"primary_article_type":"comparisons"},"content_html":"<p>El nombre estadounidense “high-fructose corn syrup” sugiere un producto cargado casi solo de fructosa. <strong>Las formulaciones más comunes contienen aproximadamente un 42% o 55% de fructosa, cerca del 50% que aporta la sacarosa cuando se descompone en glucosa y fructosa.</strong></p><h2>La sacarosa une dos azúcares; el jarabe ya los lleva separados</h2><p>Una molécula de sacarosa está formada por glucosa y fructosa enlazadas. En HFCS esos azúcares están libres en una solución acuosa. Durante la digestión, la sacarosa se rompe rápidamente y libera ambos monosacáridos.</p><h2>La terminología europea es distinta</h2><p>La normativa de la UE utiliza denominaciones como “jarabe de glucosa-fructosa” o “jarabe de fructosa-glucosa” cuando un jarabe de glucosa contiene más de un 5% de fructosa en materia seca; el orden indica cuál de los dos componentes predomina.</p><h2>Las formulaciones habituales no son extremos opuestos</h2><p>HFCS-42 y HFCS-55 se sitúan a ambos lados de la proporción 50:50 de la sacarosa. Eso no significa que todos los jarabes sean idénticos, pero sí que el nombre puede exagerar mentalmente la diferencia real.</p><h2>Para nutrición importa más la cantidad de azúcar añadido</h2><p>Un refresco con mucho jarabe y otro con mucha sacarosa siguen siendo bebidas con una carga alta de azúcares añadidos. <strong>La lista de ingredientes identifica la fuente; la tabla nutricional ayuda a valorar la cantidad total.</strong></p>","faq":[{"question":"¿El jarabe de alta fructosa es fructosa pura?","answer":"No. Las formulaciones comunes de EE. UU. contienen también mucha glucosa."},{"question":"¿Cómo aparece en etiquetas europeas?","answer":"Puede aparecer como jarabe de glucosa-fructosa o fructosa-glucosa según qué azúcar predomine."},{"question":"¿Es completamente distinto del azúcar común?","answer":"No. Químicamente son diferentes, pero las formulaciones comunes tienen proporciones de glucosa y fructosa relativamente próximas a la sacarosa."}],"sources":[{"name":"FDA — High Fructose Corn Syrup Questions and Answers","url":"https://www.fda.gov/food/food-additives-petitions/high-fructose-corn-syrup-questions-and-answers","note":"Composición de HFCS-42 y HFCS-55 y comparación con sacarosa."},{"name":"EUR-Lex — Directiva 2001/111/CE","url":"https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32001L0111","note":"Denominaciones europeas para jarabes de glucosa que contienen fructosa."}],"image":{"concept":"Jarabe transparente de maíz, azúcar granulado y una bebida sin marca, fotografía editorial.","alt":"Jarabe de alta fructosa y azúcar"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-724-jarabe-maiz-alta-fructosa-o-azucar",
+  "article_number": 724,
+  "translation_group": "724-hfcs-vs-sugar",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; comparación nutricional y terminología de jarabes de azúcares",
+  "title": "Jarabe de maíz de alta fructosa o azúcar: ¿son realmente diferentes?",
+  "slug": "jarabe-maiz-alta-fructosa-o-azucar",
+  "seo": {
+    "title": "Jarabe de maíz de alta fructosa vs azúcar",
+    "meta_description": "El HFCS estadounidense suele contener alrededor de un 42% o 55% de fructosa, mientras la sacarosa aporta glucosa y fructosa en proporción 50:50. En la UE estos jarabes se etiquetan con otras denominaciones.",
+    "search_intent": "Comparar jarabe de maíz de alta fructosa y azúcar, explicando además la terminología europea."
+  },
+  "excerpt": "El jarabe de maíz de alta fructosa y el azúcar no son la misma molécula, pero sus mezclas habituales de glucosa y fructosa son parecidas. En Europa es más probable encontrar denominaciones como jarabe de glucosa-fructosa o fructosa-glucosa que la sigla estadounidense HFCS.",
+  "taxonomy": {
+    "food_family": "cocoa-sweets",
+    "food_subcategories": [
+      "hfcs",
+      "sugar",
+      "sweeteners"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition",
+      "myths-faq"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>El nombre estadounidense “high-fructose corn syrup” sugiere un producto cargado casi solo de fructosa. <strong>Las formulaciones más comunes contienen aproximadamente un 42% o 55% de fructosa, cerca del 50% que aporta la sacarosa cuando se descompone en glucosa y fructosa.</strong></p><h2>La sacarosa une dos azúcares; el jarabe ya los lleva separados</h2><p>Una molécula de sacarosa está formada por glucosa y fructosa enlazadas. En HFCS esos azúcares están libres en una solución acuosa. Durante la digestión, la sacarosa se rompe rápidamente y libera ambos monosacáridos.</p><h2>La terminología europea es distinta</h2><p>La normativa de la UE utiliza denominaciones como “jarabe de glucosa-fructosa” o “jarabe de fructosa-glucosa” cuando un jarabe de glucosa contiene más de un 5% de fructosa en materia seca; el orden indica cuál de los dos componentes predomina.</p><h2>Las formulaciones habituales no son extremos opuestos</h2><p>HFCS-42 y HFCS-55 se sitúan a ambos lados de la proporción 50:50 de la sacarosa. Eso no significa que todos los jarabes sean idénticos, pero sí que el nombre puede exagerar mentalmente la diferencia real.</p><h2>Qué cambia de verdad al comparar alimentos concretos</h2><p>La diferencia química entre sacarosa y jarabe no se consume aislada en un laboratorio, sino dentro de refrescos, yogures, cereales, salsas o productos de bollería. En la práctica pesan mucho la cantidad total, la frecuencia y el formato del alimento. No es lo mismo una cucharadita repartida en una receta que una bebida que concentra varias cucharadas de azúcar y se toma en pocos minutos. Por eso centrar toda la decisión en el nombre del edulcorante puede ocultar una diferencia mucho mayor entre productos con poca y mucha cantidad de azúcares añadidos.</p><p>También conviene separar los estudios con fructosa pura de los estudios con las mezclas habituales de glucosa y fructosa. Administrar cantidades elevadas de fructosa sola ayuda a investigar cómo se metaboliza ese monosacárido, pero no reproduce exactamente la composición del HFCS-42, del HFCS-55 ni de la sacarosa. La sacarosa libera glucosa y fructosa al digerirse, y los jarabes habituales también contienen ambos azúcares. Extrapolar automáticamente cualquier resultado sobre fructosa pura a todos los alimentos con jarabe de maíz simplifica demasiado la comparación.</p><p>La lista de ingredientes sirve para identificar qué fuente de azúcar utiliza un producto, pero rara vez indica cuántos gramos concretos proceden de cada edulcorante. En Europa, además, las denominaciones del jarabe dependen de qué monosacárido predomina y pueden no coincidir con la terminología estadounidense. Para valorar el producto completo resulta más útil mirar la cantidad total de azúcares y, cuando la información esté disponible, distinguir los añadidos de los presentes de forma natural en ingredientes como leche o fruta.</p><p>Que la industria elija un jarabe o sacarosa también responde a cuestiones tecnológicas. Un jarabe líquido se mezcla con facilidad, retiene humedad y puede comportarse de manera distinta durante el horneado o el almacenamiento. El azúcar cristalino aporta otras propiedades de textura y estructura. Esas diferencias explican por qué dos recetas no siempre funcionan igual si se sustituye un ingrediente por otro, pero no convierten a ninguno en un azúcar “sin impacto”: ambos aportan energía y dulzor.</p><p>Si el objetivo es reducir azúcares libres o añadidos, cambiar un refresco con HFCS por otro con la misma cantidad de sacarosa apenas modifica el problema principal. Es más relevante elegir una ración menor, una bebida claramente menos azucarada o reservar esos productos para menos ocasiones. La frase “con azúcar de caña” o “sin jarabe de maíz” puede describir el ingrediente, pero no garantiza por sí sola que la cantidad final sea baja.</p><p>Una última comprobación útil es separar la preferencia por un ingrediente del resultado nutricional del producto. Un alimento “con azúcar de caña” puede aportar tantas calorías y una mezcla final de glucosa y fructosa muy parecida a otro endulzado con un jarabe habitual. Sustituir cualquiera de los dos por varios siropes diferentes tampoco reduce automáticamente los azúcares. El origen puede importar por sabor, receta o elección personal, pero la cantidad final sigue siendo el dato decisivo para valorar el consumo.</p><h2>Para nutrición importa más la cantidad de azúcar añadido</h2><p>Un refresco con mucho jarabe y otro con mucha sacarosa siguen siendo bebidas con una carga alta de azúcares añadidos. <strong>La lista de ingredientes identifica la fuente; la tabla nutricional ayuda a valorar la cantidad total.</strong></p>",
+  "faq": [
+    {
+      "question": "¿El jarabe de alta fructosa es fructosa pura?",
+      "answer": "No. Las formulaciones comunes de EE. UU. contienen también mucha glucosa."
+    },
+    {
+      "question": "¿Cómo aparece en etiquetas europeas?",
+      "answer": "Puede aparecer como jarabe de glucosa-fructosa o fructosa-glucosa según qué azúcar predomine."
+    },
+    {
+      "question": "¿Es completamente distinto del azúcar común?",
+      "answer": "No. Químicamente son diferentes, pero las formulaciones comunes tienen proporciones de glucosa y fructosa relativamente próximas a la sacarosa."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — High Fructose Corn Syrup Questions and Answers",
+      "url": "https://www.fda.gov/food/food-additives-petitions/high-fructose-corn-syrup-questions-and-answers",
+      "note": "Composición de HFCS-42 y HFCS-55 y comparación con sacarosa."
+    },
+    {
+      "name": "EUR-Lex — Directiva 2001/111/CE",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32001L0111",
+      "note": "Denominaciones europeas para jarabes de glucosa que contienen fructosa."
+    }
+  ],
+  "image": {
+    "concept": "Jarabe transparente de maíz, azúcar granulado y una bebida sin marca, fotografía editorial.",
+    "alt": "Jarabe de alta fructosa y azúcar"
+  },
+  "status": "publish"
+}
