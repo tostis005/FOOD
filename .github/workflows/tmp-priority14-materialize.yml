@@ -1,0 +1,148 @@
+name: Temporary priority 14 materialize
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-14-materialize
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout temporary branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore and verify payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat \
+            .tmp/p14payload.000 \
+            .tmp/p14payload.001 \
+            .tmp/p14payload.002 \
+            .tmp/p14payload.003 \
+            .tmp/p14fix004.0 \
+            .tmp/p14fix004.1 \
+            .tmp/p14fix004.2 \
+            .tmp/p14fix004.3 \
+            .tmp/p14fix005.0 \
+            .tmp/p14fix005.1 \
+            .tmp/p14fix005.2 \
+            .tmp/p14fix005.3 > /tmp/priority14.b64
+          test "$(wc -c < /tmp/priority14.b64)" -eq 105848
+          base64 --decode /tmp/priority14.b64 > /tmp/priority14.tar.xz
+          echo "f7143d82cec02070db5aff611b496d045cbff2f96105d3b7b9f467182523ec80  /tmp/priority14.tar.xz" | sha256sum -c -
+          tar -tJf /tmp/priority14.tar.xz | tee /tmp/priority14-files.txt
+          test "$(wc -l < /tmp/priority14-files.txt)" -eq 40
+          if grep -Ev '^content/articles/(en|es)/[0-9]{3}-[^/]+\.json$' /tmp/priority14-files.txt; then
+            echo "Unexpected archive path" >&2
+            exit 1
+          fi
+
+      - name: Apply and validate priority 14
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main quality-priority-14
+          main_sha="$(git rev-parse origin/main)"
+          target_sha="$(git rev-parse origin/quality-priority-14)"
+          echo "MAIN_SHA=$main_sha"
+          echo "TARGET_BEFORE_SHA=$target_sha"
+          test "$main_sha" = "$target_sha"
+          git checkout -B quality-priority-14 origin/quality-priority-14
+          tar -xJf /tmp/priority14.tar.xz -C .
+
+          python - <<'PY'
+          import json, re, html
+          from pathlib import Path
+          from collections import defaultdict
+
+          IDS={138,174,186,257,331,345,347,365,423,434,441,443,455,463,480,533,566,588,637,727}
+          FORBIDDEN=[
+          'merece un artículo','merece otro artículo','otro artículo','en este artículo','hemos elegido','hemos usado','hemos utilizado','deliberadamente','se excluye deliberadamente','excluimos deliberadamente','para no manipular','criterio de ordenación','fuentes y criterio','registro utilizado','registros concretos','la tabla no pretende','no pretendemos','cocinado con calor seco','tabla principal','ranking principal','tabla anterior','ranking anterior','la tabla de arriba','el ranking de arriba','como vimos','como hemos visto','en otra guía','en otra entrada','en otro post','en otra página','deserves its own article','another article','in this article','we chose','we have chosen','we used','we have used','deliberately','to avoid manipulating','ordering criteria','sources and methodology','record used','specific records','the table is not intended','cooked by dry heat','main table','main ranking','previous table','previous ranking','the table above','the ranking above','as we saw','as we have seen','in another guide','in another article','in another post','on another page'
+          ]
+
+          def visible(s):
+              s=re.sub(r'(?is)<(?:script|style)\b[^>]*>.*?</(?:script|style)>',' ',s)
+              s=re.sub(r'<[^>]+>',' ',s)
+              return re.sub(r'\s+',' ',html.unescape(s)).strip()
+
+          def words(s):
+              return re.findall(r"\b[^\W_]+(?:['’\-][^\W_]+)*\b",s,flags=re.UNICODE)
+
+          files=[]; bypair=defaultdict(dict); para_by_lang=defaultdict(dict); shingles_by_lang=defaultdict(dict)
+          for lang in ('en','es'):
+              root=Path('content/articles')/lang
+              for aid in sorted(IDS):
+                  matches=list(root.glob(f'{aid:03d}-*.json'))
+                  assert len(matches)==1,(lang,aid,matches)
+                  p=matches[0]
+                  d=json.loads(p.read_text(encoding='utf-8'))
+                  assert d.get('article_number')==aid,(p,'article_number')
+                  assert d.get('language')==lang,(p,'language')
+                  assert d.get('status')=='publish',(p,'status')
+                  assert d.get('translation_group'),(p,'translation_group')
+                  bypair[aid][lang]=d['translation_group']
+                  body=d['content_html']; text=visible(body); wc=len(words(text)); h2=len(re.findall(r'<h2\b',body,re.I))
+                  assert wc>=700,(p,wc)
+                  assert (wc+209)//210>=4,(p,wc,'reading time')
+                  if h2>=5:
+                      assert wc/h2>=80,(p,wc,h2,wc/h2)
+                  low=text.lower(); bad=[x for x in FORBIDDEN if x in low]
+                  assert not bad,(p,bad)
+                  excerpt=re.sub(r'\s+',' ',str(d.get('excerpt',''))).strip().lower()
+                  assert not excerpt or excerpt not in low,(p,'excerpt repeated')
+                  for par in re.findall(r'<p\b[^>]*>(.*?)</p>',body,re.I|re.S):
+                      t=visible(par).lower()
+                      if len(words(t))>=70:
+                          prev=para_by_lang[lang].get(t)
+                          assert prev in (None,aid),(lang,aid,prev,'duplicate paragraph')
+                          para_by_lang[lang][t]=aid
+                  ws=[w.lower() for w in words(text)]
+                  for i in range(max(0,len(ws)-11)):
+                      sh=' '.join(ws[i:i+12]); prev=shingles_by_lang[lang].get(sh)
+                      assert prev in (None,aid),(lang,aid,prev,sh)
+                      shingles_by_lang[lang][sh]=aid
+                  files.append((p,aid,lang,wc,h2,wc/h2 if h2 else 0))
+          for aid in IDS:
+              assert bypair[aid]['en']==bypair[aid]['es'],(aid,bypair[aid])
+          print('PRIORITY14_FOCUSED_VALIDATION=PASS')
+          print('VERSIONS='+str(len(files)))
+          print('MIN_WORDS='+str(min(x[3] for x in files)))
+          print('MAX_WORDS='+str(max(x[3] for x in files)))
+          print('MIN_WORDS_PER_H2='+str(min(x[5] for x in files)))
+          print('LONG_PARAGRAPH_DUPLICATES=0')
+          print('TWELVE_WORD_CROSS_ARTICLE_DUPLICATES=0')
+          PY
+
+          git status --porcelain
+          git diff --name-only | sort > /tmp/priority14-changed.txt
+          test "$(wc -l < /tmp/priority14-changed.txt)" -eq 40
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          ids={138,174,186,257,331,345,347,365,423,434,441,443,455,463,480,533,566,588,637,727}
+          names=Path('/tmp/priority14-changed.txt').read_text().splitlines()
+          assert len(names)==40
+          seen={'en':set(),'es':set()}
+          for name in names:
+              m=re.fullmatch(r'content/articles/(en|es)/(\d{3})-[^/]+\.json',name)
+              assert m,name
+              lang,aid=m.group(1),int(m.group(2))
+              assert aid in ids,(name,aid)
+              seen[lang].add(aid)
+          assert seen['en']==ids and seen['es']==ids,seen
+          print('CHANGED_FILES_SCOPE=PASS')
+          PY
+
+          git config user.name "tostis005"
+          git config user.email "tostis005@gmail.com"
+          git add content/articles/en content/articles/es
+          test "$(git diff --cached --name-only | wc -l)" -eq 40
+          git commit -m "Improve editorial quality for priority block 14"
+          git push origin HEAD:quality-priority-14
