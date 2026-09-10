@@ -1,0 +1,71 @@
+name: Temporary priority 14 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-14-export
+    paths:
+      - '.github/workflows/tmp-priority14-export.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Export exact priority 14 source JSON
+        run: |
+          set -euo pipefail
+          mkdir -p export/en export/es
+          cp content/articles/es/174-guisantes-proteina-fibra-calorias.json export/es/
+          cp content/articles/en/174-green-peas-protein-fiber-calories.json export/en/
+          cp content/articles/es/441-frutas-con-mas-agua.json export/es/
+          cp content/articles/en/441-fruits-highest-water.json export/en/
+          cp content/articles/es/186-salmon-vs-sardinas-omega-3-proteina-calorias.json export/es/
+          cp content/articles/en/186-salmon-vs-sardines-omega-3-protein-calories.json export/en/
+          cp content/articles/es/727-sal-marina-fina-kosher.json export/es/
+          cp content/articles/en/727-sea-salt-table-salt-kosher-salt.json export/en/
+          cp content/articles/es/434-mantequilla-vs-aceite-oliva-grasas.json export/es/
+          cp content/articles/en/434-butter-vs-olive-oil-fats.json export/en/
+          cp content/articles/es/455-acelerar-ralentizar-maduracion-platanos.json export/es/
+          cp content/articles/en/455-how-to-speed-up-or-slow-banana-ripening.json export/en/
+          cp content/articles/es/533-granada-fibra-azucares-polifenoles.json export/es/
+          cp content/articles/en/533-pomegranate-fiber-sugar-nutrients.json export/en/
+          cp content/articles/es/331-se-pueden-congelar-gambas-cocidas.json export/es/
+          cp content/articles/en/331-can-you-freeze-cooked-shrimp.json export/en/
+          cp content/articles/es/345-por-que-aceite-oliva-turbio-solido-frio.json export/es/
+          cp content/articles/en/345-why-olive-oil-cloudy-solid-cold.json export/en/
+          cp content/articles/es/257-pescados-mas-grasos-tipo-grasa.json export/es/
+          cp content/articles/en/257-fattiest-fish-fat-types.json export/en/
+          cp content/articles/es/423-hay-que-echar-aceite-agua-pasta.json export/es/
+          cp content/articles/en/423-should-you-add-oil-pasta-water.json export/en/
+          cp content/articles/es/463-chocolate-negro-vs-chocolate-leche.json export/es/
+          cp content/articles/en/463-dark-vs-milk-chocolate.json export/en/
+          cp content/articles/es/566-soja-texturizada-proteina-fibra-valor-nutricional.json export/es/
+          cp content/articles/en/566-textured-soy-protein-tvp-nutrition.json export/en/
+          cp content/articles/es/588-salmon-salvaje-vs-acuicultura-diferencias-nutricionales.json export/es/
+          cp content/articles/en/588-wild-vs-farmed-salmon-nutrition.json export/en/
+          cp content/articles/es/443-fruta-congelada-pierde-vitaminas.json export/es/
+          cp content/articles/en/443-does-frozen-fruit-lose-vitamins.json export/en/
+          cp content/articles/es/480-quinoa-blanca-roja-negra-diferencias.json export/es/
+          cp content/articles/en/480-white-red-black-quinoa-differences.json export/en/
+          cp content/articles/es/347-por-que-arroz-queda-duro-con-agua.json export/es/
+          cp content/articles/en/347-why-rice-stays-hard-with-enough-water.json export/en/
+          cp content/articles/es/637-aceite-aguacate-o-oliva.json export/es/
+          cp content/articles/en/637-avocado-oil-vs-olive-oil.json export/en/
+          cp content/articles/es/365-puntos-blancos-jamon-serrano.json export/es/
+          cp content/articles/en/365-white-spots-serrano-ham.json export/en/
+          cp content/articles/es/138-probioticos-vs-prebioticos.json export/es/
+          cp content/articles/en/138-probiotics-vs-prebiotics.json export/en/
+          test "$(find export -type f -name '*.json' | wc -l)" -eq 40
+          test "$(find export/en -type f -name '*.json' | wc -l)" -eq 20
+          test "$(find export/es -type f -name '*.json' | wc -l)" -eq 20
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority14-source-json
+          path: export
+          if-no-files-found: error
