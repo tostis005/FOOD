@@ -39,6 +39,21 @@ jobs:
       - name: Restore validated article payload
         run: |
           set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import hashlib
+          src = ''.join(Path('payload/.tmp/p12pair.009010').read_text().split())
+          expected = 'da89a0bf6ca6da9dce5c1e800bf126bbcb898210e1e8d3147c2cb390b0cd5423'
+          assert len(src) == 12001, len(src)
+          for i in range(len(src)):
+              candidate = src[:i] + src[i+1:]
+              if hashlib.sha256(candidate.encode()).hexdigest() == expected:
+                  Path('/tmp/p12pair.009010.fixed').write_text(candidate)
+                  print(f'P12_009010_REPAIRED_INDEX={i}')
+                  break
+          else:
+              raise SystemExit('No single-character repair reproduces expected hash')
+          PY
           : > /tmp/priority12.raw.b64
           cat \
             payload/.tmp/p12payload.000 \
@@ -50,7 +65,7 @@ jobs:
             payload/.tmp/p12missing.2 \
             payload/.tmp/p12missing.3 \
             payload/.tmp/p12pair.007008 \
-            payload/.tmp/p12pair.009010 \
+            /tmp/p12pair.009010.fixed \
             payload/.tmp/p12pair.011012 \
             payload/.tmp/p12pair.013014 \
             payload/.tmp/p12pair.015016 \
