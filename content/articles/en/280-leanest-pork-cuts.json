@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"en-280-leanest-pork-cuts","article_number":280,"translation_group":"280-leanest-pork-cuts","language":"en","locale":"en-US","market_context":"United States/general English; cooked USDA pork-cut comparison per 100 g","title":"The leanest cuts of pork","slug":"leanest-pork-cuts","seo":{"title":"Leanest pork cuts: fat, calories and protein per 100 g","meta_description":"Cooked pork tenderloin has about 3.5 g fat/100 g, while trimmed loin cuts commonly provide roughly 4.5–7 g. Compare lean portions in the same cooked state.","search_intent":"Identify pork cuts with the least fat and compare their protein, fat and calories."},"excerpt":"Pork tenderloin is among the leanest pork cuts: a USDA roasted lean-only reference provides about 143 calories, 26.2 g protein and 3.5 g fat per 100 g. Trimmed center loin is around 4.7 g fat, while other lean loin references fall around 5–7 g depending on trim and cooking.","taxonomy":{"food_family":"meat","food_subcategories":["pork","lean-cuts"],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>“Pork” does not predict fat content very well. <strong>Tenderloin and well-trimmed loin can contain under 5 g fat per 100 g cooked, while other cuts retain substantially more visible and intramuscular fat.</strong></p><h2>Representative cooked lean references per 100 g</h2><table><thead><tr><th>USDA cut</th><th>Calories</th><th>Protein</th><th>Fat</th></tr></thead><tbody><tr><td>Tenderloin, lean only, roasted</td><td>~143</td><td>~26.2 g</td><td>~3.5 g</td></tr><tr><td>Boneless center loin, lean only, pan-broiled</td><td>~162</td><td>~30.0 g</td><td>~4.7 g</td></tr><tr><td>Boneless sirloin chop</td><td>~170</td><td>~28.2 g</td><td>~5.5 g</td></tr><tr><td>Boneless top loin, lean only</td><td>~173</td><td>~27.6 g</td><td>~6.1 g</td></tr><tr><td>Bone-in center loin, lean only</td><td>~180</td><td>~26.8 g</td><td>~7.3 g</td></tr></tbody></table><p>The cooking methods are not identical, but the values clearly place tenderloin and trimmed loin at the lean end.</p><h2>“Lean only” matters</h2><p>A chop with its outer fat eaten is not nutritionally equivalent to the same chop after trimming. USDA entries that specify separable lean only help distinguish muscle from removable fat.</p><h2>Protein stays high</h2><p>Tenderloin at only 3.5 g fat still provides about <strong>26 g protein/100 g</strong>. The lean center-loin reference reaches about 30 g, roughly 4 g more protein per 100 g.</p><h2>Cooking can erase the calorie advantage</h2><p>Breading, frying or rich sauces change the final dish. Fifteen grams of oil can add up to about 135 calories if all of it remains in the food.</p><h2>Bottom line</h2><p><strong>Pork tenderloin and well-trimmed loin are the most predictably lean choices.</strong> Look at the specific cut, visible fat and cooking method rather than judging pork as one category.</p>","faq":[{"question":"What is the leanest pork cut?","answer":"Tenderloin is among the leanest; a cooked USDA lean-only reference has about 3.5 g fat per 100 g."},{"question":"Is pork loin lean?","answer":"Well-trimmed cooked loin references commonly provide about 4.5–7 g fat per 100 g."},{"question":"Does trimming visible fat matter?","answer":"Yes. The fat value can change substantially depending on whether separable fat is included."}],"sources":[{"name":"USDA FoodData Central — Pork tenderloin, cooked, lean only","url":"https://fdc.nal.usda.gov/","note":"Roasted tenderloin: ~143 calories, 26.2 g protein and 3.5 g fat/100 g."},{"name":"USDA FoodData Central — Cooked pork loin references","url":"https://fdc.nal.usda.gov/","note":"Center loin, top loin and sirloin cooked and trimmed composition."}],"image":{"concept":"Pork tenderloin and several well-trimmed loin cuts arranged in equal portions, realistic editorial photography without text.","alt":"Lean pork cuts compared side by side"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-280-leanest-pork-cuts",
+  "article_number": 280,
+  "translation_group": "280-leanest-pork-cuts",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; cooked USDA pork-cut comparison per 100 g",
+  "title": "The leanest cuts of pork",
+  "slug": "leanest-pork-cuts",
+  "seo": {
+    "title": "Leanest pork cuts: fat, calories and protein per 100 g",
+    "meta_description": "Cooked pork tenderloin has about 3.5 g fat/100 g, while trimmed loin cuts commonly provide roughly 4.5–7 g. Compare lean portions in the same cooked state.",
+    "search_intent": "Identify pork cuts with the least fat and compare their protein, fat and calories."
+  },
+  "excerpt": "Pork tenderloin is among the leanest pork cuts: a USDA roasted lean-only reference provides about 143 calories, 26.2 g protein and 3.5 g fat per 100 g. Trimmed center loin is around 4.7 g fat, while other lean loin references fall around 5–7 g depending on trim and cooking.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "pork",
+      "lean-cuts"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>“Pork” does not predict fat content very well. <strong>Tenderloin and well-trimmed loin can contain under 5 g fat per 100 g cooked, while other cuts retain substantially more visible and intramuscular fat.</strong></p><h2>Representative cooked lean references per 100 g</h2><table><thead><tr><th>USDA cut</th><th>Calories</th><th>Protein</th><th>Fat</th></tr></thead><tbody><tr><td>Tenderloin, lean only, roasted</td><td>~143</td><td>~26.2 g</td><td>~3.5 g</td></tr><tr><td>Boneless center loin, lean only, pan-broiled</td><td>~162</td><td>~30.0 g</td><td>~4.7 g</td></tr><tr><td>Boneless sirloin chop</td><td>~170</td><td>~28.2 g</td><td>~5.5 g</td></tr><tr><td>Boneless top loin, lean only</td><td>~173</td><td>~27.6 g</td><td>~6.1 g</td></tr><tr><td>Bone-in center loin, lean only</td><td>~180</td><td>~26.8 g</td><td>~7.3 g</td></tr></tbody></table><p>The cooking methods are not identical, but the values clearly place tenderloin and trimmed loin at the lean end.</p><h2>“Lean only” matters</h2><p>A chop with its outer fat eaten is not nutritionally equivalent to the same chop after trimming. USDA entries that specify separable lean only help distinguish muscle from removable fat.</p><h2>Protein stays high</h2><p>Tenderloin at only 3.5 g fat still provides about <strong>26 g protein/100 g</strong>. The lean center-loin reference reaches about 30 g, roughly 4 g more protein per 100 g.</p><h2>Cooking can erase the calorie advantage</h2><p>Breading, frying or rich sauces change the final dish. Fifteen grams of oil can add up to about 135 calories if all of it remains in the food.</p><h2>How to keep a lean pork cut lean after you buy it</h2>\n<p>Pork tenderloin and lean portions of the loin can be relatively low in fat, but the finished dish depends on trimming and cooking. Visible exterior fat can be removed before or after cooking, while marbling inside the muscle cannot. Choosing “lean only” values in a nutrient database therefore describes a different serving from eating the full fat cap. If fat intake is the reason for choosing a lean cut, look at what will actually remain on the plate.</p>\n<p>Cooking method can add more fat than the cut itself. Roasting, grilling, broiling, air-frying or pan-searing with a measured amount of oil preserve the character of a lean cut. Breading and deep-frying, or finishing with a large amount of butter or cream sauce, changes the comparison. A lean pork chop prepared simply can end up lighter than a much fattier cut even when both are pork.</p>\n<p>Leaner cuts also dry out more easily, so there is no advantage in cooking them far beyond a safe endpoint. USDA’s current minimum for whole cuts of pork is 145°F (63°C) followed by a 3-minute rest. Ground pork is different and should reach 160°F (71°C). Using a thermometer allows the meat to stay juicy without relying on color, which can be misleading.</p>\n<p>Names at the meat counter can vary, and “loin” is a broad region rather than a guarantee that every package has the same fat content. Tenderloin is a small, very lean muscle; center-cut loin chops and roasts can also be lean when trimmed; shoulder, belly and many ribs are generally much fattier. When labels provide nutrition facts or visible fat differs substantially, use the package in front of you rather than a generic pork value.</p><p>Portion and side dishes complete the picture. A 4-ounce portion of lean tenderloin served with vegetables and potatoes can be a very different meal from a large rack of ribs with sugary sauce, even though both are pork. Processed products such as bacon, sausage and many cured hams should not be used as proxies for fresh lean pork because processing and sodium levels change the nutritional context. When comparing meats, choose comparable cooked portions and comparable trimming. That avoids the common error of comparing “lean-only tenderloin” with an untrimmed fatty cut and then assuming every real-world serving will match the database difference exactly.</p><p>When buying packaged pork, terms such as “tenderloin,” “center loin” and visible trim are more informative than assuming all chops are lean. If two packages differ markedly in exterior fat, the leaner-looking one will usually better match the purpose of choosing a lean cut in the first place. Portioning before cooking also makes it easier to avoid turning one large roast into an oversized serving.</p><h2>Bottom line</h2><p><strong>Pork tenderloin and well-trimmed loin are the most predictably lean choices.</strong> Look at the specific cut, visible fat and cooking method rather than judging pork as one category.</p>",
+  "faq": [
+    {
+      "question": "What is the leanest pork cut?",
+      "answer": "Tenderloin is among the leanest; a cooked USDA lean-only reference has about 3.5 g fat per 100 g."
+    },
+    {
+      "question": "Is pork loin lean?",
+      "answer": "Well-trimmed cooked loin references commonly provide about 4.5–7 g fat per 100 g."
+    },
+    {
+      "question": "Does trimming visible fat matter?",
+      "answer": "Yes. The fat value can change substantially depending on whether separable fat is included."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central — Pork tenderloin, cooked, lean only",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Roasted tenderloin: ~143 calories, 26.2 g protein and 3.5 g fat/100 g."
+    },
+    {
+      "name": "USDA FoodData Central — Cooked pork loin references",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Center loin, top loin and sirloin cooked and trimmed composition."
+    }
+  ],
+  "image": {
+    "concept": "Pork tenderloin and several well-trimmed loin cuts arranged in equal portions, realistic editorial photography without text.",
+    "alt": "Lean pork cuts compared side by side"
+  },
+  "status": "publish"
+}

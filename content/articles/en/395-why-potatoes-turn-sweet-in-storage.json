@@ -1,1 +1,69 @@
-{"schema_version":1,"id":"en-395-potatoes-turn-sweet-storage","article_number":395,"translation_group":"395-why-potatoes-turn-sweet-in-storage","language":"en","locale":"en-US","market_context":"United States; home-stored potatoes and frying","title":"Why do some potatoes turn sweet during storage?","slug":"why-potatoes-turn-sweet-in-storage","seo":{"title":"Why do some potatoes turn sweet during storage?","meta_description":"Cold storage can trigger cold-induced sweetening: potato carbohydrate reserves shift toward glucose and fructose. That changes flavor and makes potatoes brown faster when fried.","search_intent":"Explain why stored potatoes develop a sweet taste and how cold storage affects frying quality."},"excerpt":"Some potatoes become sweeter because cold storage promotes accumulation of reducing sugars, especially glucose and fructose, from the tuber's carbohydrate reserves. This is called cold-induced sweetening. Those sugars also make potatoes brown faster during frying and can increase acrylamide formation at high cooking temperatures.","taxonomy":{"food_family":"tubers","food_subcategories":["potato","storage","cold-induced-sweetening","sugars"],"article_types":["cooking-science","storage","food-safety"],"primary_article_type":"cooking-science"},"content_html":"<p>A potato stored for weeks can taste noticeably sweeter even though no sugar was added. The change happens inside the tuber: <strong>low temperature can cause some varieties to accumulate glucose and fructose</strong>.</p><h2>What cold-induced sweetening means</h2><p>Potatoes store much of their carbohydrate as starch. During storage, starch and sucrose participate in metabolic pathways that can increase reducing sugars, especially glucose and fructose.</p><p>At low temperatures this process can intensify. Postharvest scientists call it <strong>cold-induced sweetening</strong>.</p><h2>Variety makes a big difference</h2><p>Potato cultivars respond differently. Studies at 4°C show large variation in how much reducing sugar accumulates. Processing potatoes are therefore selected partly for resistance to cold sweetening.</p><h2>Why it matters when frying</h2><p>Glucose and fructose react with amino acids during high-temperature cooking through Maillard reactions. The result is faster browning and, at high levels, an overly dark or bitter fried product.</p><p>It also matters for <strong>acrylamide</strong>. FDA explains that acrylamide forms mainly in carbohydrate-rich plant foods cooked at high temperatures, and reducing sugars are important precursors in potato products.</p><h2>Does this mean all potatoes should avoid refrigeration?</h2><p>For potatoes intended for frying or high-temperature roasting, very cold household storage can be counterproductive because of sugar accumulation. A dark, ventilated, cool — but not excessively cold — location is generally more useful.</p><p>Commercial storage is more complicated because temperature also has to control sprouting and disease, and conditions are adjusted to cultivar and end use.</p><h2>Can the sweetness reverse?</h2><p>In some cultivars, holding potatoes at a somewhat warmer temperature after cold storage can lower part of the accumulated reducing sugars. This is called reconditioning, but its effectiveness varies.</p><h2>The practical clue</h2><p>If stored potatoes taste unusually sweet and turn dark very quickly in the fryer, reducing sugars are a likely reason. For frying, use potatoes stored under suitable conditions and avoid prolonged very cold household storage.</p>","faq":[{"question":"Why can refrigerated potatoes taste sweet?","answer":"Cold can promote accumulation of glucose and fructose from the tuber's carbohydrate reserves."},{"question":"Does a sweet potato taste mean a white potato is spoiled?","answer":"Not necessarily. Sweetness can be a metabolic storage change, although you should still check firmness, sprouts, greening and rot."},{"question":"Why do cold-stored potatoes fry darker?","answer":"Reducing sugars react with amino acids at high heat and accelerate Maillard browning."}],"sources":[{"name":"PubMed — Cold-induced sweetening in potato","url":"https://pubmed.ncbi.nlm.nih.gov/32838549/","note":"Review of reducing-sugar accumulation during cold storage."},{"name":"Food Chemistry 2026 — Cold-induced sweetening","url":"https://pubmed.ncbi.nlm.nih.gov/42000160/","note":"Recent research on physiological and transcriptional mechanisms of cold sweetening."},{"name":"FDA — Acrylamide Questions and Answers","url":"https://www.fda.gov/food/process-contaminants-food/acrylamide-questions-and-answers","note":"High-temperature cooking and acrylamide formation in plant foods such as potatoes."}],"image":{"concept":"Whole potatoes stored in a dark box beside unusually dark fried potato pieces, natural editorial food photography, no text.","alt":"Stored potatoes and dark fried potatoes affected by reducing sugars"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-395-potatoes-turn-sweet-storage",
+  "article_number": 395,
+  "translation_group": "395-why-potatoes-turn-sweet-in-storage",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; home-stored potatoes and frying",
+  "title": "Why do some potatoes turn sweet during storage?",
+  "slug": "why-potatoes-turn-sweet-in-storage",
+  "seo": {
+    "title": "Why do some potatoes turn sweet during storage?",
+    "meta_description": "Cold storage can trigger cold-induced sweetening: potato carbohydrate reserves shift toward glucose and fructose. That changes flavor and makes potatoes brown faster when fried.",
+    "search_intent": "Explain why stored potatoes develop a sweet taste and how cold storage affects frying quality."
+  },
+  "excerpt": "Some potatoes become sweeter because cold storage promotes accumulation of reducing sugars, especially glucose and fructose, from the tuber's carbohydrate reserves. This is called cold-induced sweetening. Those sugars also make potatoes brown faster during frying and can increase acrylamide formation at high cooking temperatures.",
+  "taxonomy": {
+    "food_family": "tubers",
+    "food_subcategories": [
+      "potato",
+      "storage",
+      "cold-induced-sweetening",
+      "sugars"
+    ],
+    "article_types": [
+      "cooking-science",
+      "storage",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>A potato stored for weeks can taste noticeably sweeter even though no sugar was added. The change happens inside the tuber: <strong>low temperature can cause some varieties to accumulate glucose and fructose</strong>.</p><h2>What cold-induced sweetening means</h2><p>Potatoes store much of their carbohydrate as starch. During storage, starch and sucrose participate in metabolic pathways that can increase reducing sugars, especially glucose and fructose.</p><p>At low temperatures this process can intensify. Postharvest scientists call it <strong>cold-induced sweetening</strong>.</p><h2>Variety makes a big difference</h2><p>Potato cultivars respond differently. Studies at 4°C show large variation in how much reducing sugar accumulates. Processing potatoes are therefore selected partly for resistance to cold sweetening.</p><h2>Why it matters when frying</h2><p>Glucose and fructose react with amino acids during high-temperature cooking through Maillard reactions. The result is faster browning and, at high levels, an overly dark or bitter fried product.</p><p>It also matters for <strong>acrylamide</strong>. FDA explains that acrylamide forms mainly in carbohydrate-rich plant foods cooked at high temperatures, and reducing sugars are important precursors in potato products.</p><h2>Does this mean all potatoes should avoid refrigeration?</h2><p>For potatoes intended for frying or high-temperature roasting, very cold household storage can be counterproductive because of sugar accumulation. A dark, ventilated, cool — but not excessively cold — location is generally more useful.</p><p>Commercial storage is more complicated because temperature also has to control sprouting and disease, and conditions are adjusted to cultivar and end use.</p><h2>Can the sweetness reverse?</h2><p>In some cultivars, holding potatoes at a somewhat warmer temperature after cold storage can lower part of the accumulated reducing sugars. This is called reconditioning, but its effectiveness varies.</p><h2>What to do with potatoes that have already become sweet</h2>\n<p>Sweetening during cold storage is mainly a quality issue until the potatoes are cooked at high temperature. If a raw potato tastes slightly sweet but is otherwise firm and sound, it may still work well in boiled, steamed or mashed dishes where deep browning is not the goal. The problem becomes more obvious for chips, fries and very hot roasting because the extra reducing sugars accelerate browning and can create a bitter, overly dark surface before the center cooks as intended.</p>\n<p>For frying, a simple test batch can be informative. If cut potatoes brown unusually fast at the normal cooking temperature, choosing a different batch is often better than trying to compensate by cooking them darker. Commercial processors closely manage variety and storage because sugar content strongly affects color; home cooks have less control, so storage conditions and intended use are the practical levers.</p>\n<p>Do not confuse cold-induced sweetening with greening or sprouting. Greening signals light exposure and can accompany increased glycoalkaloids, especially near the skin and sprouts. A sweet-tasting potato may have no green color at all, and a green potato may not taste sweet. These are separate storage problems and should be assessed separately.</p>\n<p>At home, keep potatoes in a dark, ventilated place that is cool but not refrigerator-cold when they are intended for frying. Avoid sealed plastic bags that trap moisture, and keep them away from onions if possible because both foods store better with good airflow. Buying quantities that can be used within a reasonable period is often easier than trying to reproduce commercial long-term storage conditions.</p><p>Reconditioning is not a perfect home fix. Warming cold-stored potatoes for a period can reduce accumulated sugars in some varieties, but the response is inconsistent and the potatoes may also begin to sprout. Home cooks usually cannot measure sugar concentration, so the safer culinary strategy is to prevent excessive chilling in the first place and use suspiciously sweet potatoes for lower-temperature preparations. If potatoes are green, badly sprouted, soft or rotten, those quality and safety concerns should be handled independently rather than assuming that warming them will solve every storage problem.</p><p>If the goal is mashed potatoes, soup or a gratin, slight sweetness may be much less noticeable than it is in fries. Pairing those potatoes with savory ingredients can make the batch perfectly usable from a quality perspective as long as there are no separate spoilage or greening concerns.</p><h2>The practical clue</h2><p>If stored potatoes taste unusually sweet and turn dark very quickly in the fryer, reducing sugars are a likely reason. For frying, use potatoes stored under suitable conditions and avoid prolonged very cold household storage.</p>",
+  "faq": [
+    {
+      "question": "Why can refrigerated potatoes taste sweet?",
+      "answer": "Cold can promote accumulation of glucose and fructose from the tuber's carbohydrate reserves."
+    },
+    {
+      "question": "Does a sweet potato taste mean a white potato is spoiled?",
+      "answer": "Not necessarily. Sweetness can be a metabolic storage change, although you should still check firmness, sprouts, greening and rot."
+    },
+    {
+      "question": "Why do cold-stored potatoes fry darker?",
+      "answer": "Reducing sugars react with amino acids at high heat and accelerate Maillard browning."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Cold-induced sweetening in potato",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32838549/",
+      "note": "Review of reducing-sugar accumulation during cold storage."
+    },
+    {
+      "name": "Food Chemistry 2026 — Cold-induced sweetening",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42000160/",
+      "note": "Recent research on physiological and transcriptional mechanisms of cold sweetening."
+    },
+    {
+      "name": "FDA — Acrylamide Questions and Answers",
+      "url": "https://www.fda.gov/food/process-contaminants-food/acrylamide-questions-and-answers",
+      "note": "High-temperature cooking and acrylamide formation in plant foods such as potatoes."
+    }
+  ],
+  "image": {
+    "concept": "Whole potatoes stored in a dark box beside unusually dark fried potato pieces, natural editorial food photography, no text.",
+    "alt": "Stored potatoes and dark fried potatoes affected by reducing sugars"
+  },
+  "status": "publish"
+}
