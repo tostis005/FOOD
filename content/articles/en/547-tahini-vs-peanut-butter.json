@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-547-tahini-vs-peanut-butter","article_number":547,"translation_group":"547-tahini-vs-peanut-butter","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"Tahini vs. peanut butter","slug":"tahini-vs-peanut-butter","seo":{"title":"Tahini vs. peanut butter: nutrition comparison","meta_description":"Per 30 g, tahini has ~209 calories, 5.9 g protein and 107 mg magnesium; peanut butter ~177 calories, 7.2 g protein and 58 mg magnesium.","search_intent":"Compare tahini and peanut butter for protein, fat, fiber, calories and minerals"},"excerpt":"At an equal 30 g serving, the tahini reference provides about 209 calories, 5.9 g protein, 18.7 g fat, 2.5 g fiber and 107 mg magnesium. Peanut butter provides about 177 calories, 7.2 g protein, 14.8 g fat, 1.9 g fiber and 58 mg magnesium. Peanut butter leads in protein; tahini stands out for iron and magnesium, although brands can shift the result.","taxonomy":{"food_family":"nuts-seeds","food_subcategories":[],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Tahini and peanut butter play similar kitchen roles: a spoonful can transform toast, a sauce or a bowl. Nutritionally, however, <strong>the tahini reference is fattier and richer in several minerals, while peanut butter provides more protein for the same weight.</strong></p><h2>Compare 30 g with 30 g</h2><table><thead><tr><th>Per 30 g</th><th>Tahini</th><th>Peanut butter</th></tr></thead><tbody><tr><td>Calories</td><td>~209</td><td>~177</td></tr><tr><td>Protein</td><td>~5.9 g</td><td><strong>~7.2 g</strong></td></tr><tr><td>Fat</td><td>~18.7 g</td><td>~14.8 g</td></tr><tr><td>Fiber</td><td>~2.5 g</td><td>~1.9 g</td></tr><tr><td>Magnesium</td><td><strong>~107 mg</strong></td><td>~58 mg</td></tr><tr><td>Iron</td><td><strong>~2.1 mg</strong></td><td>~0.6 mg</td></tr><tr><td>Calcium</td><td>~35 mg</td><td>~15 mg</td></tr></tbody></table><p>These are two specific USDA Foundation references, not every jar on the market. Added oil, sugar and salt can alter a commercial product.</p><h2>For protein: peanut butter</h2><p>The peanut-butter reference contains about 24 g protein/100 g versus 19.7 g in tahini. At 30 g, the difference is around 1.3 g—real, but not enormous.</p><h2>For magnesium and iron: tahini</h2><p>Tahini provides about 357 mg magnesium and 7 mg iron/100 g, compared with roughly 193 mg and 1.85 mg in peanut butter. The difference remains meaningful in a normal serving.</p><h2>Calcium is more complicated than the sesame reputation suggests</h2><p>Tahini leads these references, but at a relatively modest 116 mg calcium/100 g versus about 50 mg in peanut butter. An unhulled sesame paste could produce a different result because the hull contains much of the seed's calcium.</p><h2>Calories differ because fat differs</h2><p>The tahini reference contains about 32 more calories per 30 g, largely because it has more total fat. In a teaspoon the absolute difference is small; in a 50–60 g sauce it becomes easier to notice.</p><h2>Which should you choose?</h2><p>Peanut butter if protein and peanut flavor are priorities; tahini if sesame flavor, magnesium or iron matter more. <strong>For either one, a simple ingredient list makes the comparison about the seed or peanut rather than added sugar and oils.</strong></p>","faq":[{"question":"Which has more protein, tahini or peanut butter?","answer":"Peanut butter in these references: about 24 versus 19.7 g/100 g."},{"question":"Which has more magnesium?","answer":"Tahini: about 357 mg/100 g versus 193 mg in peanut butter."},{"question":"Which has more calories?","answer":"Tahini in these references: about 697 versus 589 calories/100 g."},{"question":"Do all brands compare the same way?","answer":"No. Added salt, sugar, oils and the type of sesame can change the numbers."}],"sources":[{"name":"USDA FoodData Central — Sesame butter, creamy (FDC 2262073)","url":"https://fdc.nal.usda.gov/fdc-app.html#/food-details/2262073/nutrients","note":"Tahini composition used in the comparison."},{"name":"USDA FoodData Central — Peanut butter, creamy (FDC 2262072)","url":"https://fdc.nal.usda.gov/fdc-app.html#/food-details/2262072/nutrients","note":"Peanut-butter composition used in the comparison."}],"image":{"concept":"Equal 30 g portions of tahini and peanut butter with bars for protein, magnesium, iron and fat.","alt":"Tahini and peanut butter compared in equal 30 gram portions"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-547-tahini-vs-peanut-butter",
+  "article_number": 547,
+  "translation_group": "547-tahini-vs-peanut-butter",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "Tahini vs. peanut butter",
+  "slug": "tahini-vs-peanut-butter",
+  "seo": {
+    "title": "Tahini vs. peanut butter: nutrition comparison",
+    "meta_description": "Per 30 g, tahini has ~209 calories, 5.9 g protein and 107 mg magnesium; peanut butter ~177 calories, 7.2 g protein and 58 mg magnesium.",
+    "search_intent": "Compare tahini and peanut butter for protein, fat, fiber, calories and minerals"
+  },
+  "excerpt": "At an equal 30 g serving, the tahini reference provides about 209 calories, 5.9 g protein, 18.7 g fat, 2.5 g fiber and 107 mg magnesium. Peanut butter provides about 177 calories, 7.2 g protein, 14.8 g fat, 1.9 g fiber and 58 mg magnesium. Peanut butter leads in protein; tahini stands out for iron and magnesium, although brands can shift the result.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Tahini and peanut butter play similar kitchen roles: a spoonful can transform toast, a sauce or a bowl. Nutritionally, however, <strong>the tahini reference is fattier and richer in several minerals, while peanut butter provides more protein for the same weight.</strong></p><h2>Compare 30 g with 30 g</h2><table><thead><tr><th>Per 30 g</th><th>Tahini</th><th>Peanut butter</th></tr></thead><tbody><tr><td>Calories</td><td>~209</td><td>~177</td></tr><tr><td>Protein</td><td>~5.9 g</td><td><strong>~7.2 g</strong></td></tr><tr><td>Fat</td><td>~18.7 g</td><td>~14.8 g</td></tr><tr><td>Fiber</td><td>~2.5 g</td><td>~1.9 g</td></tr><tr><td>Magnesium</td><td><strong>~107 mg</strong></td><td>~58 mg</td></tr><tr><td>Iron</td><td><strong>~2.1 mg</strong></td><td>~0.6 mg</td></tr><tr><td>Calcium</td><td>~35 mg</td><td>~15 mg</td></tr></tbody></table><p>These are two specific USDA Foundation references, not every jar on the market. Added oil, sugar and salt can alter a commercial product.</p><h2>For protein: peanut butter</h2><p>The peanut-butter reference contains about 24 g protein/100 g versus 19.7 g in tahini. At 30 g, the difference is around 1.3 g—real, but not enormous.</p><h2>For magnesium and iron: tahini</h2><p>Tahini provides about 357 mg magnesium and 7 mg iron/100 g, compared with roughly 193 mg and 1.85 mg in peanut butter. The difference remains meaningful in a normal serving.</p><h2>Calcium is more complicated than the sesame reputation suggests</h2><p>Tahini leads these references, but at a relatively modest 116 mg calcium/100 g versus about 50 mg in peanut butter. An unhulled sesame paste could produce a different result because the hull contains much of the seed's calcium.</p><h2>Calories differ because fat differs</h2><p>The tahini reference contains about 32 more calories per 30 g, largely because it has more total fat. In a teaspoon the absolute difference is small; in a 50–60 g sauce it becomes easier to notice.</p><h2>Which should you choose?</h2><p>Peanut butter if protein and peanut flavor are priorities; tahini if sesame flavor, magnesium or iron matter more. <strong>For either one, a simple ingredient list makes the comparison about the seed or peanut rather than added sugar and oils.</strong></p><h2>The better spread depends on the nutrient you want and the version you buy</h2><p>Both tahini and peanut butter are concentrated foods, so a tablespoon looks small while carrying meaningful energy. Their fats are largely unsaturated, but the exact profile differs because sesame and peanuts are different seeds and legumes. Peanut butter usually has the clearer protein advantage per equal weight, whereas tahini can contribute more of certain minerals. Neither needs to “win” overall; they can fill different roles in the same diet.</p><p>Labels matter because commercial products vary. A jar labeled peanut butter may contain only peanuts and salt, or it may include added sugar, oils, and stabilizers. Tahini is often simply ground sesame, but sodium can rise in seasoned sauces or ready-made tahini dressings. When comparing two jars, check the ingredient list and compare equal gram amounts. A two-tablespoon serving on one label may not weigh exactly the same as the serving on another.</p><p>How they are eaten can matter more than a modest nutrient difference. Tahini thinned with lemon juice and water can make a flavorful dressing for vegetables or beans. Peanut butter can add protein and fat to oatmeal, toast, fruit, or sauces. If the goal is increasing energy for someone with a small appetite, either can be useful because both are dense. If the goal is simply adding flavor, a smaller portion may be enough and the calorie difference between them becomes less important.</p><p>Allergy is a major practical distinction. Peanut is a common allergen, and sesame is also a major allergen in the United States, so neither product is automatically the “safe alternative” to the other. For people without those allergies, choosing based on taste, price, recipe, protein needs, and the rest of the day's diet is more useful than ranking one spread as universally healthier.</p><p>Micronutrient absorption also depends on the meal. Minerals such as iron from plant foods are influenced by the surrounding diet, and vitamin C-rich foods can improve absorption of non-heme iron. A tahini dressing with lemon and vegetables therefore sits in a different nutritional context from a spoonful eaten alone. That does not require engineering every bite, but it illustrates why a nutrient table is only the starting point for comparing foods used inside real meals.</p><p>Sesame and peanut flavors also behave differently in savory dishes. Tahini brings bitterness and a toasted sesame note that works naturally with lemon, chickpeas, eggplant, and roasted vegetables. Peanut butter is sweeter and nuttier, fitting satay-style sauces, oats, fruit, and toast. Nutritional comparison is useful, but culinary fit often determines the portion actually eaten.</p>",
+  "faq": [
+    {
+      "question": "Which has more protein, tahini or peanut butter?",
+      "answer": "Peanut butter in these references: about 24 versus 19.7 g/100 g."
+    },
+    {
+      "question": "Which has more magnesium?",
+      "answer": "Tahini: about 357 mg/100 g versus 193 mg in peanut butter."
+    },
+    {
+      "question": "Which has more calories?",
+      "answer": "Tahini in these references: about 697 versus 589 calories/100 g."
+    },
+    {
+      "question": "Do all brands compare the same way?",
+      "answer": "No. Added salt, sugar, oils and the type of sesame can change the numbers."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central — Sesame butter, creamy (FDC 2262073)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2262073/nutrients",
+      "note": "Tahini composition used in the comparison."
+    },
+    {
+      "name": "USDA FoodData Central — Peanut butter, creamy (FDC 2262072)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2262072/nutrients",
+      "note": "Peanut-butter composition used in the comparison."
+    }
+  ],
+  "image": {
+    "concept": "Equal 30 g portions of tahini and peanut butter with bars for protein, magnesium, iron and fat.",
+    "alt": "Tahini and peanut butter compared in equal 30 gram portions"
+  },
+  "status": "publish"
+}

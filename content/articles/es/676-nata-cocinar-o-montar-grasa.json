@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"es-676-nata-cocinar-o-montar-grasa","article_number":676,"translation_group":"676-cooking-cream-vs-whipping-cream","language":"es","locale":"es-ES","market_context":"España/Unión Europea; composición, etiquetado y seguridad alimentaria con referencias europeas cuando son pertinentes","title":"Nata para cocinar o nata para montar: cuánta diferencia hay en grasa","slug":"nata-cocinar-o-montar-grasa","seo":{"title":"Nata para cocinar o montar: diferencia de grasa","meta_description":"La nata para montar suele rondar el 35 % de grasa o más; muchas natas para cocinar, el 15–20 %. Esa diferencia cambia calorías, textura y capacidad de montar.","search_intent":"Comparar nata para cocinar y nata para montar en grasa, calorías y comportamiento culinario."},"excerpt":"La nata para montar suele tener alrededor del 35 % o más de grasa, frente a aproximadamente 15–20 % en muchas natas para cocinar. Por eso una monta y da más cuerpo, mientras la otra suele aportar menos calorías pero también menos espesor.","taxonomy":{"food_family":"dairy-cheese","food_subcategories":["cream"],"article_types":["comparisons","cooking-science","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Dos envases pueden llevar la palabra <em>nata</em> y comportarse de forma muy distinta en una receta. <strong>La diferencia práctica suele estar en la grasa: la nata para montar ronda con frecuencia el 35 % o más, mientras muchas natas para cocinar se sitúan alrededor del 15–20 %.</strong></p>\n<h2>La grasa decide si puede montar</h2><p>Para formar una espuma estable al batir, la nata necesita suficiente grasa láctea. Una nata de alrededor del 35 % puede atrapar aire cuando está bien fría; una de cocinar con 15–20 % normalmente no tiene grasa suficiente para mantener esa estructura.</p>\n<h2>En una salsa, menos grasa cambia la textura</h2><p>Una nata para cocinar puede aligerar una crema o una salsa, pero también aporta menos cuerpo. Si una receta está diseñada para nata de montar, sustituirla por una versión de 15–20 % puede dejar el resultado más líquido, especialmente si no hay harina, queso u otro espesante.</p>\n<h2>Las calorías siguen a la grasa</h2><p>La grasa aporta 9 kcal por gramo. Por eso una nata con 35 % de grasa suele concentrar aproximadamente 330–350 kcal por 100 ml, mientras una de cocinar al 15–20 % suele quedar cerca de 160–210 kcal. Las cifras exactas dependen de la marca.</p>\n<h2>No te fíes solo del nombre frontal</h2><p>“Para cocinar” describe un uso, no una composición única. Algunas versiones incluyen espesantes y otras tienen porcentajes de grasa diferentes. Mira el porcentaje de materia grasa y la lista de ingredientes si necesitas que la receta tenga una textura concreta.</p>\n<h2>Qué elegir</h2><p><strong>Para montar, busca una nata con suficiente grasa y sigue la indicación del envase. Para una salsa donde quieres menos grasa, una nata para cocinar puede funcionar, sabiendo que espesará menos.</strong></p>","faq":[{"question":"¿Se puede montar nata para cocinar?","answer":"Normalmente no si tiene solo 15–20 % de grasa. Para montar con estabilidad suele hacer falta una nata con alrededor del 30–35 % o más."},{"question":"¿Cuál tiene más calorías?","answer":"La nata para montar, porque normalmente contiene bastante más grasa."},{"question":"¿Puedo sustituir una por otra en una salsa?","answer":"A menudo sí, pero una nata con menos grasa deja una salsa más ligera y puede espesar menos."}],"sources":[{"name":"BEDCA — Base de Datos Española de Composición de Alimentos","url":"https://www.bedca.net/","note":"Valores de composición de alimentos y productos lácteos."},{"name":"Comisión Europea — Información alimentaria al consumidor","url":"https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en","note":"Marco europeo de etiquetado e información nutricional."}],"image":{"concept":"Dos recipientes de nata, uno para cocinar y otro para montar, junto a una salsa y unas varillas; fotografía editorial sin marcas ni texto.","alt":"Nata para cocinar y nata para montar"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-676-nata-cocinar-o-montar-grasa",
+  "article_number": 676,
+  "translation_group": "676-cooking-cream-vs-whipping-cream",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición, etiquetado y seguridad alimentaria con referencias europeas cuando son pertinentes",
+  "title": "Nata para cocinar o nata para montar: cuánta diferencia hay en grasa",
+  "slug": "nata-cocinar-o-montar-grasa",
+  "seo": {
+    "title": "Nata para cocinar o montar: diferencia de grasa",
+    "meta_description": "La nata para montar suele rondar el 35 % de grasa o más; muchas natas para cocinar, el 15–20 %. Esa diferencia cambia calorías, textura y capacidad de montar.",
+    "search_intent": "Comparar nata para cocinar y nata para montar en grasa, calorías y comportamiento culinario."
+  },
+  "excerpt": "La nata para montar suele tener alrededor del 35 % o más de grasa, frente a aproximadamente 15–20 % en muchas natas para cocinar. Por eso una monta y da más cuerpo, mientras la otra suele aportar menos calorías pero también menos espesor.",
+  "taxonomy": {
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "cream"
+    ],
+    "article_types": [
+      "comparisons",
+      "cooking-science",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Dos envases pueden llevar la palabra <em>nata</em> y comportarse de forma muy distinta en una receta. <strong>La diferencia práctica suele estar en la grasa: la nata para montar ronda con frecuencia el 35 % o más, mientras muchas natas para cocinar se sitúan alrededor del 15–20 %.</strong></p>\n<h2>La grasa decide si puede montar</h2><p>Para formar una espuma estable al batir, la nata necesita suficiente grasa láctea. Una nata de alrededor del 35 % puede atrapar aire cuando está bien fría; una de cocinar con 15–20 % normalmente no tiene grasa suficiente para mantener esa estructura.</p>\n<h2>En una salsa, menos grasa cambia la textura</h2><p>Una nata para cocinar puede aligerar una crema o una salsa, pero también aporta menos cuerpo. Si una receta está diseñada para nata de montar, sustituirla por una versión de 15–20 % puede dejar el resultado más líquido, especialmente si no hay harina, queso u otro espesante.</p>\n<h2>Las calorías siguen a la grasa</h2><p>La grasa aporta 9 kcal por gramo. Por eso una nata con 35 % de grasa suele concentrar aproximadamente 330–350 kcal por 100 ml, mientras una de cocinar al 15–20 % suele quedar cerca de 160–210 kcal. Las cifras exactas dependen de la marca.</p>\n<h2>No te fíes solo del nombre frontal</h2><p>“Para cocinar” describe un uso, no una composición única. Algunas versiones incluyen espesantes y otras tienen porcentajes de grasa diferentes. Mira el porcentaje de materia grasa y la lista de ingredientes si necesitas que la receta tenga una textura concreta.</p>\n<h2>Qué elegir</h2><p><strong>Para montar, busca una nata con suficiente grasa y sigue la indicación del envase. Para una salsa donde quieres menos grasa, una nata para cocinar puede funcionar, sabiendo que espesará menos.</strong></p><h2>El porcentaje de grasa predice mejor el resultado que el nombre del envase</h2><p>“Nata para cocinar” es una denominación comercial que puede abarcar porcentajes de grasa muy distintos y fórmulas con estabilizantes. La nata para montar tiene una exigencia funcional mayor: necesita suficiente grasa para formar una red que estabilice las burbujas de aire al batir. Por eso una nata ligera puede espesar una salsa pero no montar de forma estable, aunque ambas se parezcan dentro del brick.</p><p>En una salsa, reducir grasa cambia algo más que las calorías. La grasa transporta aromas, suaviza la percepción de acidez y crea una textura más rica. Algunas natas de cocina compensan con almidones o gomas, de modo que parecen espesas pese a contener bastante menos grasa. Esa viscosidad no implica que reaccionen igual al hervir, reducir o mezclarse con ingredientes ácidos.</p><p>Para sustituir, hay que pensar en la función. En una crema de verduras que necesita algo de cuerpo, una versión ligera puede funcionar perfectamente. En una ganache, una cobertura montada o una receta que depende de la grasa láctea para estructurarse, el cambio puede fallar. Utilizar nata para montar en una salsa salada suele ser posible, pero dará un resultado más rico y energético.</p><p>La comparación más clara consiste en mirar gramos de grasa por 100 mililitros o por raciones del mismo tamaño. Las calorías suelen seguir esa diferencia porque la grasa aporta más energía por gramo que proteína o hidratos. También conviene revisar estabilizantes, azúcares o sodio cuando se comparan productos preparados. El frontal sugiere un uso; la tabla nutricional explica mejor su composición real.</p><p>Las “natas” vegetales añaden otra capa porque la grasa puede proceder de avena, soja, aceite de girasol, coco u otros ingredientes. Algunas sustituyen bien en salsas, pero no deben suponerse equivalentes a una nata láctea para montar. Las de coco pueden concentrar grasa saturada y otras fórmulas utilizan aceites o estabilizantes. Conviene comparar la etiqueta real y comprobar cómo responde en la receta, no fiarse solo de la palabra “nata”.</p><p>La temperatura también influye al montar. Incluso una nata con grasa suficiente puede funcionar peor si está templada, porque la estructura grasa que estabiliza el aire no se forma igual. Enfriar nata y utensilios ayuda, pero no convierte una nata de cocina realmente baja en grasa en nata para montar. El porcentaje de grasa determina la capacidad básica; el frío solo facilita que un producto adecuado funcione mejor.</p><p>En preparaciones frías, la diferencia de grasa se percibe incluso sin montar. Una nata más grasa deja una sensación más cremosa y persistente; una versión ligera puede resultar más fluida o depender de espesantes. Si la receta se sirve sin cocción, probar textura y sabor antes de sustituir toda la cantidad evita sorpresas.</p>",
+  "faq": [
+    {
+      "question": "¿Se puede montar nata para cocinar?",
+      "answer": "Normalmente no si tiene solo 15–20 % de grasa. Para montar con estabilidad suele hacer falta una nata con alrededor del 30–35 % o más."
+    },
+    {
+      "question": "¿Cuál tiene más calorías?",
+      "answer": "La nata para montar, porque normalmente contiene bastante más grasa."
+    },
+    {
+      "question": "¿Puedo sustituir una por otra en una salsa?",
+      "answer": "A menudo sí, pero una nata con menos grasa deja una salsa más ligera y puede espesar menos."
+    }
+  ],
+  "sources": [
+    {
+      "name": "BEDCA — Base de Datos Española de Composición de Alimentos",
+      "url": "https://www.bedca.net/",
+      "note": "Valores de composición de alimentos y productos lácteos."
+    },
+    {
+      "name": "Comisión Europea — Información alimentaria al consumidor",
+      "url": "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
+      "note": "Marco europeo de etiquetado e información nutricional."
+    }
+  ],
+  "image": {
+    "concept": "Dos recipientes de nata, uno para cocinar y otro para montar, junto a una salsa y unas varillas; fotografía editorial sin marcas ni texto.",
+    "alt": "Nata para cocinar y nata para montar"
+  },
+  "status": "publish"
+}
