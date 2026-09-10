@@ -1,0 +1,42 @@
+name: Temporary priority 13 cherry-pick
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-13-materialize
+    paths:
+      - '.github/workflows/tmp-priority13-cherrypick.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  align:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out aligned branch
+        uses: actions/checkout@v4
+        with:
+          ref: tmp-quality-priority-13-aligned
+          fetch-depth: 0
+      - name: Cherry-pick validated Quality 13 commit
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin quality-priority-13 main
+          test "$(git rev-parse HEAD)" = "$(git rev-parse origin/main)"
+          git cherry-pick 22e86eb36dc4686d6bb7ddef643b509012429652
+          test "$(git rev-list --count origin/main..HEAD)" -eq 1
+          test "$(git diff --name-only origin/main...HEAD | wc -l)" -eq 40
+          python - <<'PY'
+          import subprocess
+          from pathlib import Path
+          ids=[335,728,396,475,379,49,339,424,592,215,131,386,458,530,539,694,333,522,380,532]
+          changed=[x.strip() for x in subprocess.check_output(['git','diff','--name-only','origin/main...HEAD']).decode().splitlines() if x.strip()]
+          assert len(changed)==40,changed
+          assert all(x.startswith(('content/articles/en/','content/articles/es/')) and x.endswith('.json') for x in changed),changed
+          assert sorted(int(Path(x).name.split('-',1)[0]) for x in changed)==sorted(ids+ids)
+          print('PRIORITY13_REALIGN=PASS')
+          PY
+          git push origin HEAD:tmp-quality-priority-13-aligned
