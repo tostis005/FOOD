@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"en-532-dragon-fruit-fiber-sugar-calories","article_number":532,"translation_group":"532-dragon-fruit-fiber-sugar-calories","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"Dragon fruit: fiber, sugar and calories","slug":"dragon-fruit-fiber-sugar-calories","seo":{"title":"Dragon fruit: fiber, sugar and calories","meta_description":"A USDA dragon-fruit reference provides about 57 calories, 3.1 g fiber and 9.8 g sugars per 100 g. See what that means for a larger fruit serving.","search_intent":"Find the calories, fiber and sugar in dragon fruit or pitaya"},"excerpt":"Dragon fruit, or pitaya, is a relatively low-energy fresh fruit. One USDA reference provides about 57 calories, 3.1 g fiber and 9.8 g sugars per 100 g. A 200 g edible portion would therefore be roughly 114 calories, 6.2 g fiber and 19.6 g naturally occurring sugars.","taxonomy":{"food_family":"fruit","food_subcategories":[],"article_types":["nutrition-composition"],"primary_article_type":"nutrition-composition"},"content_html":"<p>Dragon fruit looks unusual, but its nutrition label behaves like that of a fairly light fresh fruit. <strong>It is neither sugar-free nor especially calorie-dense.</strong></p><h2>What does 100 g provide?</h2><p>One USDA reference for dragon fruit lists approximately:</p><table><thead><tr><th>Nutrient</th><th>Per 100 g</th></tr></thead><tbody><tr><td>Calories</td><td>57</td></tr><tr><td>Carbohydrate</td><td>15.2 g</td></tr><tr><td>Sugars</td><td>9.8 g</td></tr><tr><td>Fiber</td><td>3.1 g</td></tr><tr><td>Protein</td><td>0.36 g</td></tr><tr><td>Fat</td><td>0.14 g</td></tr></tbody></table><p>The fiber is the most notable macronutrient feature in that reference: just over 3 g per 100 g.</p><h2>What about a whole fruit?</h2><p>Dragon fruits vary greatly in size and peel weight. If one fruit yields <strong>200 g edible pulp</strong>, the same reference works out to about <strong>114 calories, 6.2 g fiber and 19.6 g sugars</strong>.</p><p>Those sugars are naturally present in a water- and fiber-rich whole fruit; they are not equivalent to adding 20 g of free sugar to a drink.</p><h2>Is dragon fruit lower in sugar than other fruits?</h2><p>It sits in the middle rather than at an extreme. The 9.8 g/100 g figure is close to raw blueberries at about 10 g, higher than strawberries at about 4.9 g, and lower than many grapes.</p><p>Species, cultivar and ripeness can shift the numbers, which is why different food databases do not always agree perfectly.</p><h2>The tiny seeds are edible</h2><p>The black seeds are eaten with the pulp and contribute fiber and a small amount of fat. There is no need to remove or specially grind them for normal eating.</p><h2>Red and white flesh are not chemically identical</h2><p>Red-fleshed pitaya contains betalain pigments that create its intense color. White-fleshed varieties have a different pigment profile. Studies also find differences in sugars, vitamin C and phenolic compounds among cultivars.</p><p>That does not make one color universally healthier. Variety and ripeness matter alongside pigment.</p><h2>Bottom line</h2><p>Dragon fruit is a hydrating whole fruit with moderate-low calorie density and a useful amount of fiber. <strong>Its practical nutritional advantage is not exotic chemistry; it is the same combination that makes many whole fruits useful: water, volume, fiber and flavor without added sugar.</strong></p>","faq":[{"question":"How many calories are in dragon fruit?","answer":"The USDA reference used here provides about 57 calories per 100 g, or about 114 calories for 200 g edible pulp."},{"question":"How much sugar is in dragon fruit?","answer":"About 9.8 g per 100 g in this reference, or about 19.6 g in 200 g."},{"question":"Is dragon fruit high in fiber?","answer":"It provides about 3.1 g fiber per 100 g in the reference used here, a useful amount for fresh fruit."},{"question":"Is red dragon fruit healthier than white?","answer":"Red flesh contains betalain pigments, but overall composition varies by cultivar and ripeness; there is no universal nutritional winner."}],"sources":[{"name":"USDA FoodData Central — Dragon fruit (FDC 2344729)","url":"https://fdc.nal.usda.gov/fdc-app.html#/food-details/2344729/nutrients","note":"Calories, fiber, sugars and macronutrients used for the reference comparison."},{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Database context; values can vary among dragon-fruit records and products."}],"image":{"concept":"An open dragon fruit beside a 100 g portion on a scale labeled 57 calories, 3.1 g fiber and 9.8 g sugar.","alt":"Dragon fruit with its calories, fiber and sugar per 100 grams"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-532-dragon-fruit-fiber-sugar-calories",
+  "article_number": 532,
+  "translation_group": "532-dragon-fruit-fiber-sugar-calories",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "Dragon fruit: fiber, sugar and calories",
+  "slug": "dragon-fruit-fiber-sugar-calories",
+  "seo": {
+    "title": "Dragon fruit: fiber, sugar and calories",
+    "meta_description": "A USDA dragon-fruit reference provides about 57 calories, 3.1 g fiber and 9.8 g sugars per 100 g. See what that means for a larger fruit serving.",
+    "search_intent": "Find the calories, fiber and sugar in dragon fruit or pitaya"
+  },
+  "excerpt": "Dragon fruit, or pitaya, is a relatively low-energy fresh fruit. One USDA reference provides about 57 calories, 3.1 g fiber and 9.8 g sugars per 100 g. A 200 g edible portion would therefore be roughly 114 calories, 6.2 g fiber and 19.6 g naturally occurring sugars.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": [],
+    "article_types": [
+      "nutrition-composition"
+    ],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Dragon fruit looks unusual, but its nutrition label behaves like that of a fairly light fresh fruit. <strong>It is neither sugar-free nor especially calorie-dense.</strong></p><h2>What does 100 g provide?</h2><p>One USDA reference for dragon fruit lists approximately:</p><table><thead><tr><th>Nutrient</th><th>Per 100 g</th></tr></thead><tbody><tr><td>Calories</td><td>57</td></tr><tr><td>Carbohydrate</td><td>15.2 g</td></tr><tr><td>Sugars</td><td>9.8 g</td></tr><tr><td>Fiber</td><td>3.1 g</td></tr><tr><td>Protein</td><td>0.36 g</td></tr><tr><td>Fat</td><td>0.14 g</td></tr></tbody></table><p>The fiber is the most notable macronutrient feature in that reference: just over 3 g per 100 g.</p><h2>What about a whole fruit?</h2><p>Dragon fruits vary greatly in size and peel weight. If one fruit yields <strong>200 g edible pulp</strong>, the same reference works out to about <strong>114 calories, 6.2 g fiber and 19.6 g sugars</strong>.</p><p>Those sugars are naturally present in a water- and fiber-rich whole fruit; they are not equivalent to adding 20 g of free sugar to a drink.</p><h2>Is dragon fruit lower in sugar than other fruits?</h2><p>It sits in the middle rather than at an extreme. The 9.8 g/100 g figure is close to raw blueberries at about 10 g, higher than strawberries at about 4.9 g, and lower than many grapes.</p><p>Species, cultivar and ripeness can shift the numbers, which is why different food databases do not always agree perfectly.</p><h2>The tiny seeds are edible</h2><p>The black seeds are eaten with the pulp and contribute fiber and a small amount of fat. There is no need to remove or specially grind them for normal eating.</p><h2>Red and white flesh are not chemically identical</h2><p>Red-fleshed pitaya contains betalain pigments that create its intense color. White-fleshed varieties have a different pigment profile. Studies also find differences in sugars, vitamin C and phenolic compounds among cultivars.</p><p>That does not make one color universally healthier. Variety and ripeness matter alongside pigment.</p><h2>Bottom line</h2><p>Dragon fruit is a hydrating whole fruit with moderate-low calorie density and a useful amount of fiber. <strong>Its practical nutritional advantage is not exotic chemistry; it is the same combination that makes many whole fruits useful: water, volume, fiber and flavor without added sugar.</strong></p><h3>The edible portion can vary widely by fruit size</h3><p>Dragon fruits range from small individual fruits to large specimens with much more pulp. That makes “one fruit” an imprecise nutrition unit. A kitchen scale or a per-100-gram reference is more useful when comparing calories or carbohydrate with another fruit. In ordinary eating, however, a whole medium fruit is still a reasonable snack-sized portion.</p><h3>Fiber comes from pulp and numerous tiny seeds</h3><p>The black seeds are eaten with the flesh and contribute some insoluble fiber and fat. The total fiber content is useful but not extraordinary compared with raspberries, pears or some other fruits. Dragon fruit can support fiber intake, yet it works best as one of several fruits, vegetables, legumes and whole grains across the day.</p><h3>Red flesh signals pigments, not a huge calorie change</h3><p>Red and purple varieties contain betalain pigments that give the pulp its vivid color. White-fleshed types have a different phytochemical profile, but both remain relatively low-energy fruits with a high water content. Color is therefore more relevant to antioxidant composition and culinary appearance than to a dramatic difference in macronutrients.</p><h3>Sweetness is a poor sugar meter</h3><p>A ripe dragon fruit can taste mild even though it contains naturally occurring sugars, while a tart fruit can sometimes contain a similar carbohydrate amount. Variety, acidity and aroma influence perceived sweetness. People comparing fruit for glucose management should look at portion size and total carbohydrate rather than judging only by taste.</p><h3>Use ripeness to choose the best texture</h3><p>A ripe fruit should yield slightly under gentle pressure without feeling mushy. Very underripe fruit can be bland and firm; overripe pulp may become watery or fermented-smelling. Once cut, refrigerate the flesh in a covered container and use it promptly, as you would other fresh cut fruit.</p><h3>Dragon fruit can be useful when variety is the goal</h3><p>Its mild flavor pairs well with lime, yogurt, chia, mango or berries, which makes it easy to combine with foods that contribute more protein, fat or fiber. That matters because fruit is rarely eaten in isolation in a complete meal. The practical value of dragon fruit is not that it dramatically outperforms familiar fruits, but that it can add variety and help make fruit intake more appealing without a large calorie load.</p>",
+  "faq": [
+    {
+      "question": "How many calories are in dragon fruit?",
+      "answer": "The USDA reference used here provides about 57 calories per 100 g, or about 114 calories for 200 g edible pulp."
+    },
+    {
+      "question": "How much sugar is in dragon fruit?",
+      "answer": "About 9.8 g per 100 g in this reference, or about 19.6 g in 200 g."
+    },
+    {
+      "question": "Is dragon fruit high in fiber?",
+      "answer": "It provides about 3.1 g fiber per 100 g in the reference used here, a useful amount for fresh fruit."
+    },
+    {
+      "question": "Is red dragon fruit healthier than white?",
+      "answer": "Red flesh contains betalain pigments, but overall composition varies by cultivar and ripeness; there is no universal nutritional winner."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central — Dragon fruit (FDC 2344729)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2344729/nutrients",
+      "note": "Calories, fiber, sugars and macronutrients used for the reference comparison."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Database context; values can vary among dragon-fruit records and products."
+    }
+  ],
+  "image": {
+    "concept": "An open dragon fruit beside a 100 g portion on a scale labeled 57 calories, 3.1 g fiber and 9.8 g sugar.",
+    "alt": "Dragon fruit with its calories, fiber and sugar per 100 grams"
+  },
+  "status": "publish"
+}
