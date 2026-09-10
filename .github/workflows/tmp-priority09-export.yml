@@ -1,0 +1,67 @@
+name: Temporary priority 09 export
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp-priority09-export.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect priority 09 source JSON
+        run: |
+          set -euo pipefail
+          mkdir -p priority09-source/content/articles/en priority09-source/content/articles/es priority09-source/content/tools
+          cp content/articles/en/454-can-you-eat-very-ripe-black-bananas.json priority09-source/content/articles/en/
+          cp content/articles/es/454-se-pueden-comer-platanos-muy-maduros-negros.json priority09-source/content/articles/es/
+          cp content/articles/en/478-fermentation-vs-pickling.json priority09-source/content/articles/en/
+          cp content/articles/es/478-fermentacion-vs-encurtido-diferencias.json priority09-source/content/articles/es/
+          cp content/articles/en/578-whole-vs-nonfat-yogurt.json priority09-source/content/articles/en/
+          cp content/articles/es/578-yogur-entero-vs-desnatado-que-cambia.json priority09-source/content/articles/es/
+          cp content/articles/en/217-how-long-cooked-chickpeas-fridge.json priority09-source/content/articles/en/
+          cp content/articles/es/217-cuanto-duran-garbanzos-cocidos-nevera.json priority09-source/content/articles/es/
+          cp content/articles/en/201-hake-protein-fat-calories.json priority09-source/content/articles/en/
+          cp content/articles/es/201-merluza-proteina-grasa-calorias.json priority09-source/content/articles/es/
+          cp content/articles/en/205-sardines-protein-omega-3-calcium.json priority09-source/content/articles/en/
+          cp content/articles/es/205-sardinas-proteina-omega-3-calcio.json priority09-source/content/articles/es/
+          cp content/articles/en/262-how-to-thaw-chicken-safely.json priority09-source/content/articles/en/
+          cp content/articles/es/262-como-descongelar-pollo-seguro.json priority09-source/content/articles/es/
+          cp content/articles/en/152-how-organize-refrigerator-food-safety.json priority09-source/content/articles/en/
+          cp content/articles/es/152-como-organizar-nevera-conservar-alimentos.json priority09-source/content/articles/es/
+          cp content/articles/en/210-can-you-eat-chia-seeds-without-soaking.json priority09-source/content/articles/en/
+          cp content/articles/es/210-se-pueden-comer-semillas-chia-sin-remojar.json priority09-source/content/articles/es/
+          cp content/articles/en/390-how-to-tell-sweet-potato-bad.json priority09-source/content/articles/en/
+          cp content/articles/es/390-como-saber-boniato-malo.json priority09-source/content/articles/es/
+          cp content/articles/en/199-can-you-freeze-nuts.json priority09-source/content/articles/en/
+          cp content/articles/es/199-se-pueden-congelar-frutos-secos.json priority09-source/content/articles/es/
+          cp content/articles/en/196-how-many-nuts-serving.json priority09-source/content/articles/en/
+          cp content/articles/es/196-cuantos-frutos-secos-racion.json priority09-source/content/articles/es/
+          cp content/articles/en/526-superfoods-with-interesting-nutrition-profiles.json priority09-source/content/articles/en/
+          cp content/articles/es/526-superalimentos-perfil-nutricional-interesante.json priority09-source/content/articles/es/
+          cp content/articles/en/461-can-you-freeze-strawberries.json priority09-source/content/articles/en/
+          cp content/articles/es/461-se-pueden-congelar-fresas.json priority09-source/content/articles/es/
+          cp content/articles/en/041-highest-vitamin-c-foods.json priority09-source/content/articles/en/
+          cp content/articles/es/041-alimentos-con-mas-vitamina-c.json priority09-source/content/articles/es/
+          cp content/articles/en/253-do-lentils-need-soaking.json priority09-source/content/articles/en/
+          cp content/articles/es/253-hay-que-poner-lentejas-en-remojo.json priority09-source/content/articles/es/
+          cp content/articles/en/266-tough-meat-after-cooking-causes-solutions.json priority09-source/content/articles/en/
+          cp content/articles/es/266-carne-dura-despues-cocinar-causas-soluciones.json priority09-source/content/articles/es/
+          cp content/articles/en/325-why-cheese-sweats-releases-liquid.json priority09-source/content/articles/en/
+          cp content/articles/es/325-por-que-queso-suda-suelta-liquido.json priority09-source/content/articles/es/
+          cp content/articles/en/275-lowest-fat-cheeses.json priority09-source/content/articles/en/
+          cp content/articles/es/275-quesos-con-menos-grasa.json priority09-source/content/articles/es/
+          cp content/articles/en/352-why-dry-cured-ham-darkens-after-cutting.json priority09-source/content/articles/en/
+          cp content/articles/es/352-por-que-jamon-se-oscurece-despues-cortarlo.json priority09-source/content/articles/es/
+          cp content/tools/audit-article-comparisons.py priority09-source/content/tools/
+          cp content/tools/audit-article-editorial.py priority09-source/content/tools/
+          test "$(find priority09-source/content/articles -type f -name '*.json' | wc -l)" -eq 40
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority09-source-json
+          path: priority09-source
+          retention-days: 7
