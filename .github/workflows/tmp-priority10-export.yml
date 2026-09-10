@@ -1,0 +1,41 @@
+name: Temporary priority 10 export
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp-priority10-export.yml'
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Collect exact priority 10 source files
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import shutil
+          ids=[562,116,244,121,350,354,547,260,209,235,378,554,445,341,587,729,676,342,369,203]
+          out=Path('/tmp/priority10')
+          for lang in ('en','es'):
+              d=out/'content'/'articles'/lang
+              d.mkdir(parents=True,exist_ok=True)
+              for aid in ids:
+                  matches=list(Path(f'content/articles/{lang}').glob(f'{aid:03d}-*.json'))
+                  assert len(matches)==1,(lang,aid,matches)
+                  shutil.copy2(matches[0], d/matches[0].name)
+          files=list((out/'content').rglob('*.json'))
+          assert len(files)==40,len(files)
+          print('EXPORTED=40')
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority10-source-json
+          path: /tmp/priority10/content
+          if-no-files-found: error
