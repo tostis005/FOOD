@@ -1,0 +1,63 @@
+name: Temporary priority 07 export
+on:
+  push:
+    branches: [tmp-quality-priority-07-export]
+permissions:
+  contents: read
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Stage source files
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p export
+          cp --parents content/articles/es/542-cafe-grano-vs-cafe-molido.json export/
+          cp --parents content/articles/en/542-whole-bean-vs-ground-coffee.json export/
+          cp --parents content/articles/es/278-cuanto-dura-salmon-cocinado-nevera.json export/
+          cp --parents content/articles/en/278-how-long-cooked-salmon-fridge.json export/
+          cp --parents content/articles/es/589-atun-fresco-vs-conserva-diferencias-nutricionales.json export/
+          cp --parents content/articles/en/589-fresh-vs-canned-tuna-nutrition.json export/
+          cp --parents content/articles/es/594-huevos-camperos-ecologicos-suelo-codigos.json export/
+          cp --parents content/articles/en/594-egg-labels-organic-free-range-cage-free.json export/
+          cp --parents content/articles/es/118-es-saludable-comer-atun-lata-frecuencia.json export/
+          cp --parents content/articles/en/118-canned-tuna-frequently.json export/
+          cp --parents content/articles/es/346-se-puede-comer-piel-boniato.json export/
+          cp --parents content/articles/en/346-can-you-eat-sweet-potato-skin.json export/
+          cp --parents content/articles/es/230-pasta-vs-arroz-calorias-carbohidratos-proteina.json export/
+          cp --parents content/articles/en/230-pasta-vs-rice-calories-carbs-protein.json export/
+          cp --parents content/articles/es/280-cortes-cerdo-mas-magros.json export/
+          cp --parents content/articles/en/280-leanest-pork-cuts.json export/
+          cp --parents content/articles/es/126-mejores-fuentes-calcio-sin-lacteos.json export/
+          cp --parents content/articles/en/126-best-calcium-sources-without-dairy.json export/
+          cp --parents content/articles/es/247-tipos-garbanzos-diferencias.json export/
+          cp --parents content/articles/en/247-types-of-chickpeas-differences.json export/
+          cp --parents content/articles/es/258-cuanto-tiempo-pollo-crudo-fuera-nevera.json export/
+          cp --parents content/articles/en/258-how-long-raw-chicken-out-of-fridge.json export/
+          cp --parents content/articles/es/373-hay-que-lavar-todos-tipos-arroz.json export/
+          cp --parents content/articles/en/373-do-you-need-to-rinse-all-rice.json export/
+          cp --parents content/articles/es/598-jengibre-composicion-nutricional-formas-consumirlo.json export/
+          cp --parents content/articles/en/598-ginger-nutrition-forms.json export/
+          cp --parents content/articles/es/241-por-que-pollo-puede-oler-abrir-envase.json export/
+          cp --parents content/articles/en/241-why-chicken-smells-opening-package.json export/
+          cp --parents content/articles/es/211-semillas-lino-por-que-triturarlas.json export/
+          cp --parents content/articles/en/211-flaxseeds-why-grinding-matters.json export/
+          cp --parents content/articles/es/395-por-que-patatas-se-vuelven-dulces-almacenarlas.json export/
+          cp --parents content/articles/en/395-why-potatoes-turn-sweet-in-storage.json export/
+          cp --parents content/articles/es/599-ajo-crudo-vs-cocinado-que-cambia.json export/
+          cp --parents content/articles/en/599-raw-vs-cooked-garlic-what-changes.json export/
+          cp --parents content/articles/es/127-mejores-fuentes-vegetales-omega-3.json export/
+          cp --parents content/articles/en/127-best-plant-omega-3-sources.json export/
+          cp --parents content/articles/es/250-cuanto-dura-pescado-fresco-nevera.json export/
+          cp --parents content/articles/en/250-how-long-fresh-fish-fridge.json export/
+          cp --parents content/articles/es/252-cuanto-dura-pescado-cocinado-nevera.json export/
+          cp --parents content/articles/en/252-how-long-cooked-fish-fridge.json export/
+          cp --parents content/tools/audit-article-editorial.py export/
+          cp --parents content/tools/audit-article-comparisons.py export/
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority07-source-json
+          path: export
+          if-no-files-found: error
