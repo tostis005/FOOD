@@ -1,0 +1,47 @@
+name: Temporary priority 11 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-11-export
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect exact priority 11 source files
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          from pathlib import Path
+          import shutil, json
+          ids = [724,376,686,375,212,189,586,207,520,124,538,576,233,348,717,370,227,240,326,150]
+          out = Path('/tmp/priority11-source-json')
+          manifest=[]
+          for lang in ('en','es'):
+              dest = out / 'content' / 'articles' / lang
+              dest.mkdir(parents=True, exist_ok=True)
+              for aid in ids:
+                  matches = list(Path(f'content/articles/{lang}').glob(f'{aid:03d}-*.json'))
+                  assert len(matches) == 1, (lang, aid, matches)
+                  src = matches[0]
+                  data = json.loads(src.read_text(encoding='utf-8'))
+                  assert data.get('article_number') == aid, (src, data.get('article_number'))
+                  assert data.get('language') == lang, (src, data.get('language'))
+                  shutil.copy2(src, dest / src.name)
+                  manifest.append(str(src))
+          assert len(manifest) == 40, len(manifest)
+          (out/'manifest.txt').write_text('\n'.join(manifest)+'\n', encoding='utf-8')
+          print('PRIORITY11_EXPORT=PASS')
+          print('FILES=' + str(len(manifest)))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority11-source-json
+          path: /tmp/priority11-source-json
+          if-no-files-found: error
