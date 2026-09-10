@@ -8,12 +8,49 @@
   "market_context": "España/Unión Europea; tamaños de huevo UE y composición USDA/Bedca",
   "title": "Cuánta proteína tiene realmente un huevo",
   "slug": "cuanta-proteina-tiene-huevo",
-  "seo": {"title":"Cuánta proteína tiene realmente un huevo","meta_description":"Un huevo suele aportar alrededor de 6–8 g de proteína según su tamaño. La clara aporta algo más de la mitad y la yema el resto.","search_intent":"Saber cuánta proteína aporta un huevo real según tamaño y qué parte procede de clara y yema."},
+  "seo": {
+    "title": "Cuánta proteína tiene realmente un huevo",
+    "meta_description": "Un huevo suele aportar alrededor de 6–8 g de proteína según su tamaño. La clara aporta algo más de la mitad y la yema el resto.",
+    "search_intent": "Saber cuánta proteína aporta un huevo real según tamaño y qué parte procede de clara y yema."
+  },
   "excerpt": "Un huevo no aporta una cifra fija: depende de su tamaño. Como regla práctica, un huevo mediano suele aportar alrededor de 6–7 g de proteína y uno grande alrededor de 7–8 g. Aproximadamente algo más de la mitad procede de la clara y el resto de la yema.",
-  "taxonomy": {"food_family":"eggs","food_subcategories":["eggs"],"article_types":["nutrition-composition","myths-faq"],"primary_article_type":"nutrition-composition"},
-  "content_html": "<p>Decir que “un huevo tiene 6 gramos de proteína” es útil como aproximación, pero un huevo S y uno XL no pesan lo mismo. La forma más precisa de entender el dato es relacionarlo con el peso comestible.</p><p>El huevo entero aporta aproximadamente 12–13 g de proteína por 100 g de parte comestible. A partir de ahí, el total cambia con el tamaño.</p><table><thead><tr><th>Tamaño comercial</th><th>Peso con cáscara</th><th>Proteína aproximada por huevo</th></tr></thead><tbody><tr><td>S</td><td>&lt;53 g</td><td>~5–6 g</td></tr><tr><td>M</td><td>53–63 g</td><td>~6–7 g</td></tr><tr><td>L</td><td>63–73 g</td><td>~7–8 g</td></tr><tr><td>XL</td><td>≥73 g</td><td>~8 g o algo más</td></tr></tbody></table><p>La cáscara no se come, por eso no basta con multiplicar directamente el peso comercial por 12–13 %. Las cifras son aproximadas, pero muestran bien el efecto del tamaño.</p><h2>La clara no contiene toda la proteína</h2><p>En un huevo grande, la clara suele aportar alrededor de 3,5–4 g y la yema unos 2,5–3 g. Es decir, retirar la yema elimina grasa y muchas calorías, pero también elimina una parte relevante de la proteína y buena parte de micronutrientes como colina, vitamina B12 y vitamina D.</p><h2>Dos huevos cambian la escala</h2><p>Dos huevos medianos aportan aproximadamente 12–14 g de proteína; dos grandes, alrededor de 14–16 g. Eso los convierte en una fuente útil, pero todavía por debajo de una ración de 150 g de pechuga de pollo, que puede superar 40 g.</p><h2>Cocinar no crea proteína</h2><p>El calor desnaturaliza las proteínas, cambiando su estructura, pero no transforma mágicamente un huevo de 7 g en uno de 10 g. Las pequeñas diferencias por 100 g entre crudo y cocido se deben sobre todo a cambios de agua y peso.</p><h2>La regla práctica</h2><p>Para una cuenta rápida, piensa en <strong>6–8 g de proteína por huevo</strong> según tamaño. Si necesitas precisión, pesa la parte comestible o consulta la etiqueta del producto concreto.</p>",
-  "faq": [{"question":"¿Cuánta proteína tienen dos huevos?","answer":"Normalmente unos 12–16 g en total, dependiendo del tamaño."},{"question":"¿Tiene más proteína la clara o la yema?","answer":"La clara aporta algo más de la mitad de la proteína total, pero la yema también contiene aproximadamente 2,5–3 g en un huevo grande."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Proteína de huevo entero, clara y yema."},{"name":"European Commission — Egg marketing standards","url":"https://agriculture.ec.europa.eu/farming/animal-products/eggs_en","note":"Categorías comerciales de tamaño de huevo en la UE."}],
-  "image": {"concept":"Huevos de distintos tamaños junto a un huevo abierto mostrando clara y yema, fotografía editorial sin texto.","alt":"Huevos de distintos tamaños para comparar su proteína"},
-  "status":"publish"
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "eggs"
+    ],
+    "article_types": [
+      "nutrition-composition",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p>Decir que “un huevo tiene 6 gramos de proteína” es útil como aproximación, pero un huevo S y uno XL no pesan lo mismo. La forma más precisa de entender el dato es relacionarlo con el peso comestible.</p><p>El huevo entero aporta aproximadamente 12–13 g de proteína por 100 g de parte comestible. A partir de ahí, el total cambia con el tamaño.</p><table><thead><tr><th>Tamaño comercial</th><th>Peso con cáscara</th><th>Proteína aproximada por huevo</th></tr></thead><tbody><tr><td>S</td><td>&lt;53 g</td><td>~5–6 g</td></tr><tr><td>M</td><td>53–63 g</td><td>~6–7 g</td></tr><tr><td>L</td><td>63–73 g</td><td>~7–8 g</td></tr><tr><td>XL</td><td>≥73 g</td><td>~8 g o algo más</td></tr></tbody></table><p>La cáscara no se come, por eso no basta con multiplicar directamente el peso comercial por 12–13 %. Las cifras son aproximadas, pero muestran bien el efecto del tamaño.</p><h2>La clara no contiene toda la proteína</h2><p>En un huevo grande, la clara suele aportar alrededor de 3,5–4 g y la yema unos 2,5–3 g. Es decir, retirar la yema elimina grasa y muchas calorías, pero también elimina una parte relevante de la proteína y buena parte de micronutrientes como colina, vitamina B12 y vitamina D.</p><h2>Dos huevos cambian la escala</h2><p>Dos huevos medianos aportan aproximadamente 12–14 g de proteína; dos grandes, alrededor de 14–16 g. Eso los convierte en una fuente útil, pero todavía por debajo de una ración de 150 g de pechuga de pollo, que puede superar 40 g.</p><h2>Cocinar no crea proteína</h2><p>El calor desnaturaliza las proteínas, cambiando su estructura, pero no transforma mágicamente un huevo de 7 g en uno de 10 g. Las pequeñas diferencias por 100 g entre crudo y cocido se deben sobre todo a cambios de agua y peso.</p><h2>Cómo interpretar bien la cifra de unos seis gramos por huevo</h2>\n<p>La referencia de unos seis gramos funciona porque el huevo grande es un tamaño muy utilizado, pero no todos los huevos pesan lo mismo. Uno pequeño aporta algo menos y uno extragrande algo más. Para una comida cotidiana, esa variación rara vez cambia por completo el balance nutricional; para alguien que calcula proteína con mucha precisión, sí puede ser relevante. Por eso conviene usar la cifra como una estimación práctica y no como una cantidad exacta grabada dentro de cada cáscara.</p>\n<p>La proteína está repartida entre clara y yema. La clara aporta una parte importante y por eso se usa con frecuencia en preparaciones altas en proteína, pero la yema también contiene proteína además de grasa y micronutrientes. Quitar yemas puede aumentar la proporción de proteína respecto a las calorías del plato, aunque también modifica sabor, textura y composición nutricional. La utilidad de ese cambio depende de lo que acompañe al huevo y del objetivo de la comida.</p>\n<p>Cocer, escalfar, revolver, freír u hornear cambia la estructura de las proteínas, no hace que desaparezcan. Lo que sí puede cambiar mucho son las calorías finales si se añade aceite, mantequilla, queso o leche. Dos tortillas con el mismo número de huevos pueden aportar una cantidad parecida de proteína procedente del huevo y, al mismo tiempo, tener una energía total muy distinta por los ingredientes añadidos. Para estimar, cuenta primero los huevos y después el resto de la receta.</p>\n<p>En planificación de comidas, un huevo aporta una cantidad moderada; varios pueden convertirse en la fuente principal de proteína. Si el objetivo es mucho mayor, suele ser más práctico combinar con yogur, legumbres, pescado, carne, soja u otra fuente que seguir aumentando huevos sin límite. En recetas compartidas, además, hay que repartir la proteína entre las raciones reales. La cifra de seis gramos es útil precisamente porque simplifica sin fingir una precisión que no existe.</p><p>Si se necesita afinar más, el tamaño indicado en el envase o el peso real del huevo da una referencia mejor que una cifra genérica. En una receta, además, la proteína total depende de cuántos huevos se reparten entre las raciones y de los demás ingredientes. Para la mayoría de las comidas, esa precisión extra no es necesaria: basta con recordar que un huevo grande ronda los seis gramos y que la variación entre unidades similares es pequeña frente a lo que puede cambiar el resto del plato.</p><h2>La regla práctica</h2><p>Para una cuenta rápida, piensa en <strong>6–8 g de proteína por huevo</strong> según tamaño. Si necesitas precisión, pesa la parte comestible o consulta la etiqueta del producto concreto.</p>",
+  "faq": [
+    {
+      "question": "¿Cuánta proteína tienen dos huevos?",
+      "answer": "Normalmente unos 12–16 g en total, dependiendo del tamaño."
+    },
+    {
+      "question": "¿Tiene más proteína la clara o la yema?",
+      "answer": "La clara aporta algo más de la mitad de la proteína total, pero la yema también contiene aproximadamente 2,5–3 g en un huevo grande."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Proteína de huevo entero, clara y yema."
+    },
+    {
+      "name": "European Commission — Egg marketing standards",
+      "url": "https://agriculture.ec.europa.eu/farming/animal-products/eggs_en",
+      "note": "Categorías comerciales de tamaño de huevo en la UE."
+    }
+  ],
+  "image": {
+    "concept": "Huevos de distintos tamaños junto a un huevo abierto mostrando clara y yema, fotografía editorial sin texto.",
+    "alt": "Huevos de distintos tamaños para comparar su proteína"
+  },
+  "status": "publish"
 }

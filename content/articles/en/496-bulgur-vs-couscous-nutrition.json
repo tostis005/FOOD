@@ -1,1 +1,58 @@
-{"schema_version":1,"id":"en-496-bulgur-vs-couscous","article_number":496,"translation_group":"496-bulgur-vs-couscous","language":"en","locale":"en-US","market_context":"United States; cooked wheat-product comparison.","title":"Bulgur vs. Couscous: Nutrition Compared","slug":"bulgur-vs-couscous-nutrition","seo":{"title":"Bulgur vs. Couscous: Nutrition Compared","meta_description":"Per 100 g cooked, bulgur has about 83 calories and 4.5 g fiber; couscous about 112 calories and 1.4 g fiber. Both contain gluten.","search_intent":"Compare bulgur and couscous for fiber, protein, calories, processing, and gluten."},"excerpt":"Cooked bulgur usually has fewer calories and much more fiber than refined couscous: about 83 calories and 4.5 g fiber per 100 g versus 112 calories and 1.4 g. Both come from wheat and contain gluten, but bulgur is typically a whole-grain product.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":[],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Bulgur and couscous can fill the same space in a salad or side dish, but they are not the same wheat product. <strong>Bulgur is whole wheat that has been parboiled, dried, and cracked; traditional couscous is made from tiny granules of durum-wheat semolina, usually refined.</strong> That processing difference explains bulgur's clearest nutritional advantage: much more fiber.</p>\n<h2>Per 100 g cooked</h2>\n<table><thead><tr><th></th><th>Bulgur</th><th>Refined couscous</th></tr></thead><tbody><tr><td>Calories</td><td>~83</td><td>~112</td></tr><tr><td>Protein</td><td>~3.1 g</td><td>~3.8 g</td></tr><tr><td>Fiber</td><td>~4.5 g</td><td>~1.4 g</td></tr></tbody></table>\n<p>Couscous has only about <strong>0.7 g more protein</strong> per 100 g cooked. Bulgur, by contrast, provides about <strong>3.1 g more fiber</strong>—a little over three times as much as refined couscous.</p>\n<p>In a 180 g cooked serving, that is roughly <strong>8.1 g fiber from bulgur</strong> versus <strong>2.5 g from couscous</strong>. That gap is large enough to matter in an ordinary meal.</p>\n<h2>Why bulgur keeps more fiber</h2>\n<p>Bulgur begins as whole wheat and retains the bran, germ, and endosperm in whole-grain proportions. Conventional couscous usually starts with refined semolina, so much of the bran and germ have already been removed.</p>\n<p>Whole-wheat couscous also exists. It can narrow the fiber gap substantially, which is why the actual ingredient list matters more than assuming all couscous has one nutritional profile.</p>\n<h2>The calorie gap partly reflects water</h2>\n<p>The reference values put cooked bulgur around 83 calories per 100 g and couscous around 112. Part of that difference reflects final hydration: more water in the cooked food dilutes calories per 100 g. Bulgur has not somehow destroyed calories during cooking.</p>\n<h2>Both contain gluten</h2>\n<p>Both foods are wheat products. Someone with celiac disease or another reason to avoid gluten needs a different base, such as rice, quinoa, corn, or appropriately certified buckwheat.</p>\n<h2>Cooking speed is closer than it looks</h2>\n<p>Instant couscous can hydrate in a few minutes. Fine bulgur can also be very quick, while coarse bulgur takes longer and gives a firmer, chewier result.</p>\n<h2>The practical choice</h2>\n<p>Choose bulgur when <strong>fiber and a whole-grain texture</strong> matter most. Choose couscous when you want an especially light texture and near-instant preparation. Protein is too close to be a useful deciding factor.</p>","faq":[{"question":"Which has more fiber?","answer":"Cooked bulgur, about 4.5 g/100 g versus roughly 1.4 g/100 g in refined couscous."},{"question":"Which has more protein?","answer":"Couscous can have a small cooked-weight advantage, around 3.8 g/100 g versus about 3.1 g."},{"question":"Do both contain gluten?","answer":"Yes. Both are made from wheat."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Cooked bulgur and couscous values."},{"name":"Whole Grains Council — Bulgur","url":"https://wholegrainscouncil.org/whole-grains-101/whole-grains-z/bulgur","note":"Bulgur as a whole-grain wheat product."}],"image":{"concept":"Equal bowls of cooked bulgur and couscous showing grain-size differences, realistic editorial photography, no text.","alt":"Bulgur and couscous compared"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-496-bulgur-vs-couscous",
+  "article_number": 496,
+  "translation_group": "496-bulgur-vs-couscous",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; cooked wheat-product comparison.",
+  "title": "Bulgur vs. Couscous: Nutrition Compared",
+  "slug": "bulgur-vs-couscous-nutrition",
+  "seo": {
+    "title": "Bulgur vs. Couscous: Nutrition Compared",
+    "meta_description": "Per 100 g cooked, bulgur has about 83 calories and 4.5 g fiber; couscous about 112 calories and 1.4 g fiber. Both contain gluten.",
+    "search_intent": "Compare bulgur and couscous for fiber, protein, calories, processing, and gluten."
+  },
+  "excerpt": "Cooked bulgur usually has fewer calories and much more fiber than refined couscous: about 83 calories and 4.5 g fiber per 100 g versus 112 calories and 1.4 g. Both come from wheat and contain gluten, but bulgur is typically a whole-grain product.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Bulgur and couscous can fill the same space in a salad or side dish, but they are not the same wheat product. <strong>Bulgur is whole wheat that has been parboiled, dried, and cracked; traditional couscous is made from tiny granules of durum-wheat semolina, usually refined.</strong> That processing difference explains bulgur's clearest nutritional advantage: much more fiber.</p>\n<h2>Per 100 g cooked</h2>\n<table><thead><tr><th></th><th>Bulgur</th><th>Refined couscous</th></tr></thead><tbody><tr><td>Calories</td><td>~83</td><td>~112</td></tr><tr><td>Protein</td><td>~3.1 g</td><td>~3.8 g</td></tr><tr><td>Fiber</td><td>~4.5 g</td><td>~1.4 g</td></tr></tbody></table>\n<p>Couscous has only about <strong>0.7 g more protein</strong> per 100 g cooked. Bulgur, by contrast, provides about <strong>3.1 g more fiber</strong>—a little over three times as much as refined couscous.</p>\n<p>In a 180 g cooked serving, that is roughly <strong>8.1 g fiber from bulgur</strong> versus <strong>2.5 g from couscous</strong>. That gap is large enough to matter in an ordinary meal.</p>\n<h2>Why bulgur keeps more fiber</h2>\n<p>Bulgur begins as whole wheat and retains the bran, germ, and endosperm in whole-grain proportions. Conventional couscous usually starts with refined semolina, so much of the bran and germ have already been removed.</p>\n<p>Whole-wheat couscous also exists. It can narrow the fiber gap substantially, which is why the actual ingredient list matters more than assuming all couscous has one nutritional profile.</p>\n<h2>The calorie gap partly reflects water</h2>\n<p>The reference values put cooked bulgur around 83 calories per 100 g and couscous around 112. Part of that difference reflects final hydration: more water in the cooked food dilutes calories per 100 g. Bulgur has not somehow destroyed calories during cooking.</p>\n<h2>Both contain gluten</h2>\n<p>Both foods are wheat products. Someone with celiac disease or another reason to avoid gluten needs a different base, such as rice, quinoa, corn, or appropriately certified buckwheat.</p>\n<h2>Cooking speed is closer than it looks</h2>\n<p>Instant couscous can hydrate in a few minutes. Fine bulgur can also be very quick, while coarse bulgur takes longer and gives a firmer, chewier result.</p>\n<h2>Which one works better in different meals</h2>\n<p>Bulgur's higher fiber content makes it useful when you want a grain side that contributes more whole-grain structure without a long cooking time. Coarse bulgur can replace rice in pilafs, support roasted vegetables, or form the base of a warm grain bowl. Fine bulgur can hydrate quickly for dishes such as tabbouleh. Its nutty flavor and slightly chewy texture are noticeable, so it works best when those qualities fit the dish rather than when the goal is to imitate couscous exactly.</p>\n<p>Couscous wins on delicacy and speed. The tiny semolina granules hydrate rapidly and create a soft, fluffy base for stews, roasted vegetables, fish, or meat. Because traditional couscous is usually made from refined durum wheat, it generally contains less fiber than whole-grain bulgur. Whole-wheat couscous narrows that gap, which is another reminder that the specific package matters. Looking at the ingredient list and nutrition panel is more informative than assuming every couscous product has the same composition.</p>\n<p>The apparent calorie difference per 100 grams cooked is partly a water story. A grain product that holds more water weighs more for the same amount of dry solids, so cooked values can shift with preparation. If you are comparing the two for energy intake, use similar cooked portions or compare dry weights before cooking. For fiber, the processing difference remains more meaningful: bulgur retains the whole wheat kernel components, while refined couscous does not.</p>\n<p>Both foods contain gluten because both come from wheat, so neither is appropriate for a gluten-free diet unless a different product is specifically made from another grain. For everyone else, the choice can be practical rather than ideological. Choose bulgur when whole-grain fiber and chew are priorities; choose couscous when you want a very fast, tender base. Rotating both creates more variety than trying to declare one universally superior.</p><p>For blood-glucose response, serving size and the rest of the meal matter alongside the grain choice. Bulgur's whole-grain structure and higher fiber can be an advantage, but a large bowl eaten alone is still different from a moderate portion served with legumes, vegetables, and protein. Couscous can also fit well in a balanced meal when its portion is sensible. This is a recurring theme in grain comparisons: processing affects nutrition, but the final plate determines exposure. A higher-fiber grain is useful; it does not make portion size irrelevant or turn the alternative into a poor food.</p><h2>The practical choice</h2>\n<p>Choose bulgur when <strong>fiber and a whole-grain texture</strong> matter most. Choose couscous when you want an especially light texture and near-instant preparation. Protein is too close to be a useful deciding factor.</p>",
+  "faq": [
+    {
+      "question": "Which has more fiber?",
+      "answer": "Cooked bulgur, about 4.5 g/100 g versus roughly 1.4 g/100 g in refined couscous."
+    },
+    {
+      "question": "Which has more protein?",
+      "answer": "Couscous can have a small cooked-weight advantage, around 3.8 g/100 g versus about 3.1 g."
+    },
+    {
+      "question": "Do both contain gluten?",
+      "answer": "Yes. Both are made from wheat."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Cooked bulgur and couscous values."
+    },
+    {
+      "name": "Whole Grains Council — Bulgur",
+      "url": "https://wholegrainscouncil.org/whole-grains-101/whole-grains-z/bulgur",
+      "note": "Bulgur as a whole-grain wheat product."
+    }
+  ],
+  "image": {
+    "concept": "Equal bowls of cooked bulgur and couscous showing grain-size differences, realistic editorial photography, no text.",
+    "alt": "Bulgur and couscous compared"
+  },
+  "status": "publish"
+}
