@@ -1,0 +1,57 @@
+name: Temporary priority 08 export
+
+on:
+  push:
+    paths:
+      - '.github/workflows/tmp-priority08-export.yml'
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority08-source-json
+          retention-days: 7
+          path: |
+            content/articles/es/374-que-significa-acidez-aceite-oliva.json
+            content/articles/en/374-what-does-olive-oil-acidity-mean.json
+            content/articles/es/270-cuanto-tiempo-carne-fuera-nevera.json
+            content/articles/en/270-how-long-meat-sit-out.json
+            content/articles/es/397-por-que-patatas-se-ponen-negras-despues-cortarlas.json
+            content/articles/en/397-why-cut-potatoes-turn-black.json
+            content/articles/es/462-avena-vs-quinoa-proteina-fibra-micronutrientes.json
+            content/articles/en/462-oats-vs-quinoa-protein-fiber.json
+            content/articles/es/106-tofu-proteina-calorias-nutrientes.json
+            content/articles/en/106-tofu-nutrition.json
+            content/articles/es/357-por-que-jamones-mas-salados.json
+            content/articles/en/357-why-some-dry-cured-hams-are-saltier.json
+            content/articles/es/147-quemaduras-congelacion-se-puede-comer.json
+            content/articles/en/147-freezer-burn-what-it-is-safe-eat.json
+            content/articles/es/224-espuma-al-cocer-legumbres.json
+            content/articles/en/224-foam-when-cooking-legumes.json
+            content/articles/es/274-se-puede-cocinar-carne-congelada.json
+            content/articles/en/274-can-you-cook-meat-from-frozen.json
+            content/articles/es/276-clara-vs-yema-que-aporta-cada-parte-huevo.json
+            content/articles/en/276-egg-white-vs-yolk-nutrients.json
+            content/articles/es/464-por-que-lechuga-se-pone-marron.json
+            content/articles/en/464-why-lettuce-turns-brown.json
+            content/articles/es/327-borde-verde-yema-huevo-cocido.json
+            content/articles/en/327-green-ring-around-hard-boiled-egg-yolk.json
+            content/articles/es/457-como-saber-harina-mala.json
+            content/articles/en/457-how-to-tell-flour-bad.json
+            content/articles/es/268-pescados-con-menos-calorias.json
+            content/articles/en/268-lowest-calorie-fish.json
+            content/articles/es/575-bebida-vegetal-menos-azucar-calorias.json
+            content/articles/en/575-lowest-sugar-calorie-plant-milk.json
+            content/articles/es/269-tipos-alubias-diferencias-nutricionales.json
+            content/articles/en/269-bean-types-nutritional-differences.json
+            content/articles/es/356-por-que-arroz-integral-tarda-mas-cocinarse.json
+            content/articles/en/356-why-brown-rice-takes-longer-to-cook.json
+            content/articles/es/261-se-puede-cocinar-pollo-congelado.json
+            content/articles/en/261-can-you-cook-chicken-from-frozen.json
+            content/articles/es/430-como-saber-mango-maduro.json
+            content/articles/en/430-how-to-tell-mango-ripe.json
+            content/articles/es/559-pan-masa-madre-que-cambia-fermentacion.json
+            content/articles/en/559-what-sourdough-fermentation-changes.json
