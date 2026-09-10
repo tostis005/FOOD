@@ -1,1 +1,68 @@
-{"schema_version":1,"id":"en-539-coffee-tea-mate-matcha-caffeine","article_number":539,"translation_group":"539-coffee-tea-mate-matcha-caffeine","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"Coffee, tea, yerba mate and matcha: caffeine comparison","slug":"coffee-tea-mate-matcha-caffeine","seo":{"title":"Coffee, tea, mate and matcha: caffeine comparison","meta_description":"Coffee: 80–100 mg/8 oz; tea: 30–50 mg/8 oz; 2 g matcha: roughly 38–89 mg; mate can be around 80 mg/150 ml. Preparation matters.","search_intent":"Compare caffeine in coffee, tea, yerba mate and matcha"},"excerpt":"There is no universal cup. As a broad guide, the FDA lists brewed coffee at about 80–100 mg caffeine per 8 fl oz and green or black tea at 30–50 mg. Two grams of matcha could provide roughly 38–89 mg based on published dry-powder analyses; a yerba-mate review reports about 80 mg in a 150 ml cup, with repeated traditional pours potentially raising the session total much higher.","taxonomy":{"food_family":"beverages","food_subcategories":[],"article_types":["comparisons","rankings","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Asking which drink has the most caffeine sounds easy until serving size enters the picture. A 1-ounce espresso, 12-ounce drip coffee, repeatedly refilled mate and 1- versus 3-gram matcha are not equivalent servings.</p><p>The numbers below are therefore <strong>useful reference servings, not fixed laboratory constants</strong>.</p><table><thead><tr><th>Drink</th><th>Reference serving</th><th>Approx. caffeine</th></tr></thead><tbody><tr><td>Brewed coffee</td><td>8 fl oz</td><td><strong>80–100 mg</strong></td></tr><tr><td>Green or black tea</td><td>8 fl oz</td><td><strong>30–50 mg</strong></td></tr><tr><td>Matcha</td><td>2 g powder</td><td><strong>~38–89 mg</strong></td></tr><tr><td>Yerba mate</td><td>150 ml</td><td><strong>~80 mg</strong> in one review</td></tr></tbody></table><h2>Coffee is usually high, but serving size can reverse rankings</h2><p>An 8-ounce coffee is commonly 80–100 mg according to FDA guidance. A larger shop coffee can exceed that, while a small espresso may contain less total caffeine despite being more concentrated per ounce.</p><h2>Tea depends heavily on extraction</h2><p>Green and black tea commonly fall around 30–50 mg per 8 ounces, but more leaf, hotter water and longer steeping can raise extraction.</p><h2>Matcha depends on grams of powder</h2><p>At a published range of 18.9–44.4 mg/g, 1 g matcha is about 19–44 mg, 2 g about 38–89 mg, and 3 g about 57–133 mg.</p><h2>Mate is a session, not always one cup</h2><p>A review reports about 80 mg caffeine in roughly 150 ml yerba mate, but traditional consumption repeatedly adds water to the same leaves. Total intake across a session can exceed <strong>260 mg</strong> in the review's cited examples.</p><h2>Count milligrams across the day</h2><p>The FDA cites <strong>400 mg/day</strong> as an amount not generally associated with negative effects for most healthy adults, while individual sensitivity, pregnancy, medications and health circumstances can require different limits.</p><p><strong>The beverage name matters, but dose and preparation matter just as much.</strong></p>","faq":[{"question":"Which has more caffeine, coffee or tea?","answer":"Broadly, brewed coffee at 80–100 mg per 8 oz versus green or black tea at 30–50 mg per 8 oz."},{"question":"How much caffeine is in 2 g matcha?","answer":"Roughly 38–89 mg using the published 18.9–44.4 mg/g range."},{"question":"Is yerba mate as caffeinated as coffee?","answer":"It can be in the same general range. One review reports about 80 mg per 150 ml, and repeated pours can raise total intake substantially."},{"question":"Is 400 mg a limit for everyone?","answer":"No. It is an FDA reference for most healthy adults, not a personalized target for every person."}],"sources":[{"name":"FDA — Spilling the Beans: How Much Caffeine is Too Much?","url":"https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much","note":"Coffee, tea and 400 mg/day context."},{"name":"Health Benefits and Chemical Composition of Matcha Green Tea: A Review","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC7796401/","note":"Caffeine per gram of matcha."},{"name":"Yerba Mate—A Long but Current History","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC8622869/","note":"Yerba-mate caffeine and repeated-pour consumption."}],"image":{"concept":"Coffee, tea, mate and matcha with the reference serving and milligrams of caffeine clearly labeled.","alt":"Coffee, tea, yerba mate and matcha compared by caffeine per typical serving"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-539-coffee-tea-mate-matcha-caffeine",
+  "article_number": 539,
+  "translation_group": "539-coffee-tea-mate-matcha-caffeine",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "Coffee, tea, yerba mate and matcha: caffeine comparison",
+  "slug": "coffee-tea-mate-matcha-caffeine",
+  "seo": {
+    "title": "Coffee, tea, mate and matcha: caffeine comparison",
+    "meta_description": "Coffee: 80–100 mg/8 oz; tea: 30–50 mg/8 oz; 2 g matcha: roughly 38–89 mg; mate can be around 80 mg/150 ml. Preparation matters.",
+    "search_intent": "Compare caffeine in coffee, tea, yerba mate and matcha"
+  },
+  "excerpt": "There is no universal cup. As a broad guide, the FDA lists brewed coffee at about 80–100 mg caffeine per 8 fl oz and green or black tea at 30–50 mg. Two grams of matcha could provide roughly 38–89 mg based on published dry-powder analyses; a yerba-mate review reports about 80 mg in a 150 ml cup, with repeated traditional pours potentially raising the session total much higher.",
+  "taxonomy": {
+    "food_family": "beverages",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Asking which drink has the most caffeine sounds easy until serving size enters the picture. A 1-ounce espresso, 12-ounce drip coffee, repeatedly refilled mate and 1- versus 3-gram matcha are not equivalent servings.</p><p>The numbers below are therefore <strong>useful reference servings, not fixed laboratory constants</strong>.</p><table><thead><tr><th>Drink</th><th>Reference serving</th><th>Approx. caffeine</th></tr></thead><tbody><tr><td>Brewed coffee</td><td>8 fl oz</td><td><strong>80–100 mg</strong></td></tr><tr><td>Green or black tea</td><td>8 fl oz</td><td><strong>30–50 mg</strong></td></tr><tr><td>Matcha</td><td>2 g powder</td><td><strong>~38–89 mg</strong></td></tr><tr><td>Yerba mate</td><td>150 ml</td><td><strong>~80 mg</strong> in one review</td></tr></tbody></table><h2>Coffee is usually high, but serving size can reverse rankings</h2><p>An 8-ounce coffee is commonly 80–100 mg according to FDA guidance. A larger shop coffee can exceed that, while a small espresso may contain less total caffeine despite being more concentrated per ounce.</p><h2>Tea depends heavily on extraction</h2><p>Green and black tea commonly fall around 30–50 mg per 8 ounces, but more leaf, hotter water and longer steeping can raise extraction.</p><h2>Matcha depends on grams of powder</h2><p>At a published range of 18.9–44.4 mg/g, 1 g matcha is about 19–44 mg, 2 g about 38–89 mg, and 3 g about 57–133 mg.</p><h2>Mate is a session, not always one cup</h2><p>A review reports about 80 mg caffeine in roughly 150 ml yerba mate, but traditional consumption repeatedly adds water to the same leaves. Total intake across a session can exceed <strong>260 mg</strong> in the review's cited examples.</p><h2>Count milligrams across the day</h2><p>The FDA cites <strong>400 mg/day</strong> as an amount not generally associated with negative effects for most healthy adults, while individual sensitivity, pregnancy, medications and health circumstances can require different limits.</p><p><strong>The beverage name matters, but dose and preparation matter just as much.</strong></p><h3>Brew strength can outweigh beverage category</h3><p>A weak mug of coffee can contain less caffeine than a very strong tea concentrate, while a large café coffee can contain several times the caffeine of a home cup. Bean type, roast, grind, water temperature and contact time all affect extraction. Comparing beverages therefore works best with a stated serving size and preparation method.</p><h3>Espresso is concentrated but usually served small</h3><p>Per milliliter, espresso is much more caffeine-dense than drip coffee. Per serving, however, a single shot can contain less total caffeine than a large mug of brewed coffee because the volume is so much smaller. This distinction explains why “strong tasting” and “most caffeine per drink” are not always the same thing.</p><h3>Matcha is consumed as suspended leaf powder</h3><p>Traditional tea infusions leave the leaves behind, but matcha powder is whisked into the drink and consumed. The caffeine dose therefore depends strongly on how many grams of powder are used. A lightly prepared bowl may be moderate, while a café drink with multiple scoops can approach coffee-like amounts.</p><h3>Yerba mate servings accumulate across a session</h3><p>Mate is often prepared by repeatedly adding hot water to the same leaves. A single pour does not describe the whole intake. Someone sharing or refilling a gourd for an hour may consume much more caffeine than a one-cup table suggests. Bottled mate products introduce another variable because manufacturers use different extraction strengths and serving sizes.</p><h3>Track total daily caffeine when sensitivity matters</h3><p>Sleep disruption, jitteriness, reflux and palpitations can occur at lower intakes in sensitive people. Pregnancy and some medical conditions call for more conservative limits. Decaffeinated coffee and lower-caffeine teas can reduce intake without eliminating the ritual, while timing caffeine earlier in the day often helps people who notice sleep effects.</p><h3>Labels can be more reliable than generic caffeine tables</h3><p>Ready-to-drink coffees, energy-style teas, canned mate and bottled matcha beverages can contain added caffeine or concentrated extracts that do not resemble a home-brewed cup. When a product lists caffeine per can or bottle, that number should take priority over an average table. For café drinks without a label, serving size and number of espresso shots often provide the best estimate. Tracking the whole container prevents accidental undercounting.</p><p>Caffeine content also declines only slowly from the body, so an afternoon drink can still influence sleep hours later. Someone who sleeps poorly after coffee may tolerate a morning serving but not a late matcha or mate session. Experimenting with timing is often more informative than switching beverages while keeping the same total caffeine late in the day.</p>",
+  "faq": [
+    {
+      "question": "Which has more caffeine, coffee or tea?",
+      "answer": "Broadly, brewed coffee at 80–100 mg per 8 oz versus green or black tea at 30–50 mg per 8 oz."
+    },
+    {
+      "question": "How much caffeine is in 2 g matcha?",
+      "answer": "Roughly 38–89 mg using the published 18.9–44.4 mg/g range."
+    },
+    {
+      "question": "Is yerba mate as caffeinated as coffee?",
+      "answer": "It can be in the same general range. One review reports about 80 mg per 150 ml, and repeated pours can raise total intake substantially."
+    },
+    {
+      "question": "Is 400 mg a limit for everyone?",
+      "answer": "No. It is an FDA reference for most healthy adults, not a personalized target for every person."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Spilling the Beans: How Much Caffeine is Too Much?",
+      "url": "https://www.fda.gov/consumers/consumer-updates/spilling-beans-how-much-caffeine-too-much",
+      "note": "Coffee, tea and 400 mg/day context."
+    },
+    {
+      "name": "Health Benefits and Chemical Composition of Matcha Green Tea: A Review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7796401/",
+      "note": "Caffeine per gram of matcha."
+    },
+    {
+      "name": "Yerba Mate—A Long but Current History",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8622869/",
+      "note": "Yerba-mate caffeine and repeated-pour consumption."
+    }
+  ],
+  "image": {
+    "concept": "Coffee, tea, mate and matcha with the reference serving and milligrams of caffeine clearly labeled.",
+    "alt": "Coffee, tea, yerba mate and matcha compared by caffeine per typical serving"
+  },
+  "status": "publish"
+}
