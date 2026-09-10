@@ -1,1 +1,64 @@
-{"schema_version":1,"id":"es-371-aceite-oliva-nevera","article_number":371,"translation_group":"371-olive-oil-refrigerator","language":"es","locale":"es-ES","market_context":"España/Unión Europea; conservación doméstica de aceite de oliva","title":"¿Hay que guardar el aceite de oliva en la nevera?","slug":"hay-que-guardar-aceite-oliva-nevera","seo":{"title":"¿Hay que guardar el aceite de oliva en la nevera?","meta_description":"No es necesario para el uso normal. El frío puede enturbiar o solidificar parcialmente el aceite y ese cambio es reversible. Un armario fresco, oscuro y lejos del calor suele ser más práctico.","search_intent":"Resolver si conviene refrigerar el aceite de oliva, qué ocurre cuando se enfría y cómo afecta el frío a su calidad."},"excerpt":"No hace falta guardar el aceite de oliva en la nevera para conservarlo bien en casa. El frío puede ralentizar la oxidación, pero también hace que ceras y ciertos triglicéridos cristalicen, enturbiando o solidificando parcialmente el aceite. Ese cambio suele revertir al volver a temperatura ambiente. Para el uso diario, un armario fresco y oscuro es más práctico.","taxonomy":{"food_family":"oils-fats","food_subcategories":["olive-oil","refrigeration","storage","crystallization"],"article_types":["storage","cooking-science","myths-faq"],"primary_article_type":"storage"},"content_html":"<p>Meter una botella de aceite de oliva en la nevera no la estropea, pero tampoco es un requisito para conservarla correctamente. <strong>El frío puede proteger frente a algunas reacciones de deterioro, aunque vuelve el aceite menos cómodo de usar porque puede enturbiarse o espesarse.</strong></p><h2>Qué le ocurre en frío</h2><p>El aceite de oliva contiene distintos triglicéridos, ceras y otros componentes con puntos de cristalización diferentes. Al bajar la temperatura, algunos empiezan a formar cristales y el aceite puede ponerse turbio, aparecer con grumos o solidificarse parcialmente.</p><p>Eso no significa que se haya estropeado. Al templarse de nuevo, los cristales suelen fundirse y el aceite recupera su aspecto líquido.</p><h2>El frío puede ralentizar el envejecimiento</h2><p>Las reacciones de oxidación avanzan más despacio a temperaturas bajas. Investigaciones de UC Davis han observado una mejor conservación de ciertos parámetros del virgen extra a temperaturas más bajas que a 25 °C.</p><p>Pero para una botella de uso frecuente hay que equilibrar esa ventaja con la practicidad: esperar a que el aceite vuelva a fluir cada vez que quieres cocinar no suele aportar mucho si ya dispones de un armario fresco y oscuro.</p><h2>No uses la nevera para comprobar si es auténtico</h2><p>La idea de que un virgen extra “de verdad” debe solidificarse en la nevera no funciona. UC Davis probó distintos aceites a unos <strong>4,7 °C</strong> y comprobó que el comportamiento al enfriarse variaba demasiado como para utilizarlo como prueba de pureza o calidad.</p><h2>Cuándo puede tener sentido refrigerarlo</h2><p>Si vives en un ambiente muy caluroso y no tienes ningún lugar doméstico razonablemente fresco, el frigorífico puede ser una alternativa para almacenamiento prolongado. En ese caso, acepta que el aceite puede enturbiarse y deja que la porción que vayas a usar se temple.</p><h2>La opción más cómoda para la mayoría</h2><p>Para consumo habitual, <strong>armario oscuro, botella bien cerrada y lejos de horno y fogones</strong>. La nevera es posible, no obligatoria, y el aspecto turbio en frío no es una señal de deterioro.</p>","faq":[{"question":"¿Se estropea el aceite de oliva en la nevera?","answer":"No. Puede enturbiarse o solidificarse parcialmente, pero esos cambios físicos suelen revertir al calentarse a temperatura ambiente."},{"question":"¿La nevera hace que dure más?","answer":"Las temperaturas bajas ralentizan reacciones de oxidación, pero para una botella de uso diario un lugar fresco y oscuro suele ser suficiente y más práctico."},{"question":"¿Si no se solidifica en la nevera significa que es falso?","answer":"No. UC Davis concluyó que la llamada prueba de la nevera no es fiable para determinar pureza o calidad."}],"sources":[{"name":"UC Davis Olive Center — Refrigeration is not reliable in detecting olive oil adulteration","url":"https://olivecenter.ucdavis.edu/sites/g/files/dgvnsk14776/files/media/documents/refrigerationisnotreliablefinal.pdf","note":"Ensayo a 4,7 °C que muestra que el comportamiento de solidificación no sirve para evaluar autenticidad o calidad."},{"name":"UC Davis Olive Center — Olive Oil Myths and Facts","url":"https://olivecenter.ucdavis.edu/sites/g/files/dgvnsk14776/files/media/documents/myths1933.pdf","note":"Resume el efecto de distintas temperaturas de almacenamiento sobre la vida útil del virgen extra."}],"image":{"concept":"Botella de aceite de oliva parcialmente turbia dentro de una nevera junto a otra botella líquida a temperatura ambiente, fotografía editorial natural sin texto.","alt":"Aceite de oliva enturbiado por el frío de la nevera"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-371-aceite-oliva-nevera",
+  "article_number": 371,
+  "translation_group": "371-olive-oil-refrigerator",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; conservación doméstica de aceite de oliva",
+  "title": "¿Hay que guardar el aceite de oliva en la nevera?",
+  "slug": "hay-que-guardar-aceite-oliva-nevera",
+  "seo": {
+    "title": "¿Hay que guardar el aceite de oliva en la nevera?",
+    "meta_description": "No es necesario para el uso normal. El frío puede enturbiar o solidificar parcialmente el aceite y ese cambio es reversible. Un armario fresco, oscuro y lejos del calor suele ser más práctico.",
+    "search_intent": "Resolver si conviene refrigerar el aceite de oliva, qué ocurre cuando se enfría y cómo afecta el frío a su calidad."
+  },
+  "excerpt": "No hace falta guardar el aceite de oliva en la nevera para conservarlo bien en casa. El frío puede ralentizar la oxidación, pero también hace que ceras y ciertos triglicéridos cristalicen, enturbiando o solidificando parcialmente el aceite. Ese cambio suele revertir al volver a temperatura ambiente. Para el uso diario, un armario fresco y oscuro es más práctico.",
+  "taxonomy": {
+    "food_family": "oils-fats",
+    "food_subcategories": [
+      "olive-oil",
+      "refrigeration",
+      "storage",
+      "crystallization"
+    ],
+    "article_types": [
+      "storage",
+      "cooking-science",
+      "myths-faq"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Meter una botella de aceite de oliva en la nevera no la estropea, pero tampoco es un requisito para conservarla correctamente. <strong>El frío puede proteger frente a algunas reacciones de deterioro, aunque vuelve el aceite menos cómodo de usar porque puede enturbiarse o espesarse.</strong></p><h2>Qué le ocurre en frío</h2><p>El aceite de oliva contiene distintos triglicéridos, ceras y otros componentes con puntos de cristalización diferentes. Al bajar la temperatura, algunos empiezan a formar cristales y el aceite puede ponerse turbio, aparecer con grumos o solidificarse parcialmente.</p><p>Eso no significa que se haya estropeado. Al templarse de nuevo, los cristales suelen fundirse y el aceite recupera su aspecto líquido.</p><h2>El frío puede ralentizar el envejecimiento</h2><p>Las reacciones de oxidación avanzan más despacio a temperaturas bajas. Investigaciones de UC Davis han observado una mejor conservación de ciertos parámetros del virgen extra a temperaturas más bajas que a 25 °C.</p><p>Pero para una botella de uso frecuente hay que equilibrar esa ventaja con la practicidad: esperar a que el aceite vuelva a fluir cada vez que quieres cocinar no suele aportar mucho si ya dispones de un armario fresco y oscuro.</p><h2>No uses la nevera para comprobar si es auténtico</h2><p>La idea de que un virgen extra “de verdad” debe solidificarse en la nevera no funciona. UC Davis probó distintos aceites a unos <strong>4,7 °C</strong> y comprobó que el comportamiento al enfriarse variaba demasiado como para utilizarlo como prueba de pureza o calidad.</p><h2>Cuándo puede tener sentido refrigerarlo</h2><p>Si vives en un ambiente muy caluroso y no tienes ningún lugar doméstico razonablemente fresco, el frigorífico puede ser una alternativa para almacenamiento prolongado. En ese caso, acepta que el aceite puede enturbiarse y deja que la porción que vayas a usar se temple.</p><h2>El frío ralentiza el envejecimiento, pero no siempre compensa en el uso diario</h2><p>El aceite de oliva pierde calidad sobre todo por oxidación, proceso que se acelera con calor, luz y exposición al aire. La nevera es fría y oscura, así que puede ralentizar parte de ese deterioro. A cambio, a baja temperatura aparecen turbidez y cristales porque diferentes fracciones de grasa y ceras solidifican. El aspecto suele revertir al templarse y no significa por sí mismo que el aceite se haya estropeado.</p><p>Mover cada día una botella entre frío intenso y cocina resulta poco práctico. El aceite puede espesarse hasta ser difícil de verter y cada apertura introduce aire. También puede aparecer condensación alrededor del tapón, algo incómodo si el envase no cierra bien. Para una botella de uso frecuente, un armario fresco y oscuro suele ofrecer un equilibrio mejor entre conservación y facilidad de uso.</p><p>La refrigeración puede tener más sentido en una cocina muy calurosa, para una cantidad grande que tardará meses en gastarse o para una reserva que apenas se abre. Una estrategia útil es mantener el volumen principal más protegido y rellenar una botella pequeña y opaca para el día a día. En cualquier caso, conviene alejar el aceite de la placa, el horno y una ventana soleada.</p><p>La prueba de la nevera tampoco demuestra autenticidad. Muchos aceites de oliva genuinos se enturbian, pero el comportamiento depende de variedad, composición, filtrado, ceras y temperatura; otros aceites también pueden cambiar en frío. La calidad se protege minimizando calor, luz y oxígeno, no intentando identificarla por un truco doméstico de solidificación.</p><p>El tamaño del envase también influye. Una botella grande casi vacía contiene mucho aire en relación con el aceite restante, lo que favorece la oxidación. Comprar un formato que se termine con frescura puede proteger mejor que aprovechar un gran descuento y guardar el aceite durante un año. Si se compra a granel, repartir con cuidado en recipientes pequeños, limpios, opacos y bien cerrados reduce exposiciones repetidas.</p><p>El sabor es una buena razón para no retrasar el consumo indefinidamente. Los aromas frutados, el amargor y el picor de aceites frescos se apagan con el tiempo; la rancidez puede recordar a cera, frutos secos viejos o aceite pasado. La nevera ralentiza, pero no recupera un aceite que ya llegó viejo o mal almacenado.</p><h2>La opción más cómoda para la mayoría</h2><p>Para consumo habitual, <strong>armario oscuro, botella bien cerrada y lejos de horno y fogones</strong>. La nevera es posible, no obligatoria, y el aspecto turbio en frío no es una señal de deterioro.</p>",
+  "faq": [
+    {
+      "question": "¿Se estropea el aceite de oliva en la nevera?",
+      "answer": "No. Puede enturbiarse o solidificarse parcialmente, pero esos cambios físicos suelen revertir al calentarse a temperatura ambiente."
+    },
+    {
+      "question": "¿La nevera hace que dure más?",
+      "answer": "Las temperaturas bajas ralentizan reacciones de oxidación, pero para una botella de uso diario un lugar fresco y oscuro suele ser suficiente y más práctico."
+    },
+    {
+      "question": "¿Si no se solidifica en la nevera significa que es falso?",
+      "answer": "No. UC Davis concluyó que la llamada prueba de la nevera no es fiable para determinar pureza o calidad."
+    }
+  ],
+  "sources": [
+    {
+      "name": "UC Davis Olive Center — Refrigeration is not reliable in detecting olive oil adulteration",
+      "url": "https://olivecenter.ucdavis.edu/sites/g/files/dgvnsk14776/files/media/documents/refrigerationisnotreliablefinal.pdf",
+      "note": "Ensayo a 4,7 °C que muestra que el comportamiento de solidificación no sirve para evaluar autenticidad o calidad."
+    },
+    {
+      "name": "UC Davis Olive Center — Olive Oil Myths and Facts",
+      "url": "https://olivecenter.ucdavis.edu/sites/g/files/dgvnsk14776/files/media/documents/myths1933.pdf",
+      "note": "Resume el efecto de distintas temperaturas de almacenamiento sobre la vida útil del virgen extra."
+    }
+  ],
+  "image": {
+    "concept": "Botella de aceite de oliva parcialmente turbia dentro de una nevera junto a otra botella líquida a temperatura ambiente, fotografía editorial natural sin texto.",
+    "alt": "Aceite de oliva enturbiado por el frío de la nevera"
+  },
+  "status": "publish"
+}
