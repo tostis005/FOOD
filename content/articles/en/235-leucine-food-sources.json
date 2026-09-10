@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-235-leucine-food-sources","article_number":235,"translation_group":"235-leucine-food-sources","language":"en","locale":"en-US","market_context":"United States/general English; leucine as an essential amino acid and food comparison per 100 g","title":"Leucine in foods: which sources provide the most?","slug":"leucine-food-sources","seo":{"title":"Foods high in leucine: cheese, meat, fish, soy and eggs","meta_description":"Per 100 g, grated parmesan has ~2.75 g leucine, chicken breast ~2.33 g, yellowfin tuna ~2.27 g, cooked soybeans ~1.36 g and egg ~1.08 g.","search_intent":"Compare foods by leucine content and understand how leucine relates to total protein."},"excerpt":"Leucine is one of the nine essential amino acids. In USDA references per 100 g, grated parmesan provides ~2.75 g, roasted chicken breast ~2.33 g, cooked yellowfin tuna ~2.27 g, cooked soybeans ~1.36 g and cooked egg ~1.08 g. Foods high in protein are usually strong leucine sources too.","taxonomy":{"food_family":"general","food_subcategories":["protein","leucine","amino-acids"],"article_types":["nutrition-concepts","rankings"],"primary_article_type":"nutrition-concepts"},"content_html":"<p>Leucine is an essential amino acid: the body cannot make enough of it on its own, so it must come from food. <strong>In practice, foods that are rich in protein are usually good leucine sources as well.</strong></p><h2>Examples per 100 g</h2><table><thead><tr><th>Food</th><th>Protein</th><th>Leucine</th></tr></thead><tbody><tr><td>Grated parmesan</td><td>~28.4 g</td><td>~2.75 g</td></tr><tr><td>Roasted skinless chicken breast</td><td>~31.0 g</td><td>~2.33 g</td></tr><tr><td>Cooked yellowfin tuna</td><td>~29.2 g</td><td>~2.27 g</td></tr><tr><td>Cooked mature soybeans</td><td>~18.2 g</td><td>~1.36 g</td></tr><tr><td>Cooked egg</td><td>~12.5 g</td><td>~1.08 g</td></tr></tbody></table><p>Per 100 g, parmesan contains about <strong>2.5 times</strong> the leucine in cooked egg, although a normal parmesan serving is much smaller than 100 g.</p><h2>Serving size changes the practical ranking</h2><p>Thirty grams of parmesan would provide about 0.82 g leucine, while 150 g chicken breast would provide roughly 3.49 g. A per-100 g ranking therefore does not tell you how much leucine is actually present in a meal.</p><h2>Soy stands out among common plant foods</h2><p>Cooked soybeans provide about 1.36 g leucine and 18.2 g protein per 100 g. That is less leucine by weight than chicken or tuna, but considerably more than many grains and vegetables.</p><h2>You do not need to chase isolated leucine</h2><p>Leucine participates in signaling related to muscle protein synthesis, but a meal still needs the full set of essential amino acids and enough total protein. Leucine by itself does not replace a complete protein source.</p><h2>Protein quality and quantity work together</h2><p>Meat, fish, eggs and dairy contain all essential amino acids in favorable proportions. Soy also provides all nine essential amino acids and can make a substantial contribution in plant-based diets.</p><h2>The practical takeaway</h2><p><strong>To raise the leucine content of a meal, the simplest strategy is usually to include a sufficient serving of a protein-rich food.</strong> Chicken, fish, dairy, eggs and soy all provide meaningful amounts without treating leucine as an isolated nutrient.</p>","faq":[{"question":"Which foods are high in leucine?","answer":"Common high-protein foods such as parmesan, lean meats and fish often provide roughly 2–3 g leucine per 100 g."},{"question":"Does soy contain leucine?","answer":"Yes. Cooked mature soybeans provide about 1.36 g leucine per 100 g, along with about 18.2 g protein."},{"question":"Does an egg provide leucine?","answer":"Yes. A cooked-egg reference provides about 1.08 g per 100 g; one egg provides less because it weighs about 50 g."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Amino-acid profiles for parmesan, chicken, tuna, soybeans and eggs."},{"name":"NCBI Bookshelf — Essential Amino Acids","url":"https://www.ncbi.nlm.nih.gov/books/NBK557845/","note":"Identifies leucine as one of the nine essential amino acids in humans."}],"image":{"concept":"Parmesan, chicken breast, tuna, cooked soybeans and eggs in separate portions on a neutral background, clean editorial food photography without text.","alt":"Protein-rich foods that provide leucine"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-235-leucine-food-sources",
+  "article_number": 235,
+  "translation_group": "235-leucine-food-sources",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/general English; leucine as an essential amino acid and food comparison per 100 g",
+  "title": "Leucine in foods: which sources provide the most?",
+  "slug": "leucine-food-sources",
+  "seo": {
+    "title": "Foods high in leucine: cheese, meat, fish, soy and eggs",
+    "meta_description": "Per 100 g, grated parmesan has ~2.75 g leucine, chicken breast ~2.33 g, yellowfin tuna ~2.27 g, cooked soybeans ~1.36 g and egg ~1.08 g.",
+    "search_intent": "Compare foods by leucine content and understand how leucine relates to total protein."
+  },
+  "excerpt": "Leucine is one of the nine essential amino acids. In USDA references per 100 g, grated parmesan provides ~2.75 g, roasted chicken breast ~2.33 g, cooked yellowfin tuna ~2.27 g, cooked soybeans ~1.36 g and cooked egg ~1.08 g. Foods high in protein are usually strong leucine sources too.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "protein",
+      "leucine",
+      "amino-acids"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "rankings"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Leucine is an essential amino acid: the body cannot make enough of it on its own, so it must come from food. <strong>In practice, foods that are rich in protein are usually good leucine sources as well.</strong></p><h2>Examples per 100 g</h2><table><thead><tr><th>Food</th><th>Protein</th><th>Leucine</th></tr></thead><tbody><tr><td>Grated parmesan</td><td>~28.4 g</td><td>~2.75 g</td></tr><tr><td>Roasted skinless chicken breast</td><td>~31.0 g</td><td>~2.33 g</td></tr><tr><td>Cooked yellowfin tuna</td><td>~29.2 g</td><td>~2.27 g</td></tr><tr><td>Cooked mature soybeans</td><td>~18.2 g</td><td>~1.36 g</td></tr><tr><td>Cooked egg</td><td>~12.5 g</td><td>~1.08 g</td></tr></tbody></table><p>Per 100 g, parmesan contains about <strong>2.5 times</strong> the leucine in cooked egg, although a normal parmesan serving is much smaller than 100 g.</p><h2>Serving size changes the practical ranking</h2><p>Thirty grams of parmesan would provide about 0.82 g leucine, while 150 g chicken breast would provide roughly 3.49 g. A per-100 g ranking therefore does not tell you how much leucine is actually present in a meal.</p><h2>Soy stands out among common plant foods</h2><p>Cooked soybeans provide about 1.36 g leucine and 18.2 g protein per 100 g. That is less leucine by weight than chicken or tuna, but considerably more than many grains and vegetables.</p><h2>You do not need to chase isolated leucine</h2><p>Leucine participates in signaling related to muscle protein synthesis, but a meal still needs the full set of essential amino acids and enough total protein. Leucine by itself does not replace a complete protein source.</p><h2>Protein quality and quantity work together</h2><p>Meat, fish, eggs and dairy contain all essential amino acids in favorable proportions. Soy also provides all nine essential amino acids and can make a substantial contribution in plant-based diets.</p><h2>Leucine matters most as part of a protein-rich meal, not as a stand-alone score</h2><p>Leucine is one of the essential amino acids involved in signaling muscle protein synthesis, which is why sports-nutrition discussions often focus on it. But food does not deliver leucine by itself. A serving of yogurt, fish, eggs, soy, or beans also brings the other essential amino acids needed to build new proteins. A food with an impressive leucine number per 100 grams can still contribute little in practice if the usual portion is tiny.</p><p>That is why serving size changes the comparison. Parmesan is concentrated and contains substantial leucine per 100 grams, yet a typical sprinkle may weigh only 15 or 20 grams. A chicken breast or bowl of Greek yogurt may provide more total leucine in the meal simply because the serving contains much more protein. Nuts contain leucine too, but their protein density is lower relative to calories than many lean animal foods or soy products.</p><p>Plant-based meals can reach substantial leucine without isolated amino-acid powders. Soy foods are particularly useful because of their protein quality, while beans and lentils can contribute alongside grains, nuts, and seeds. The total protein in the meal still matters. Someone eating only a tablespoon of hummus will not obtain the same amino-acid dose as someone eating a full portion of tofu or lentils, even though all are plant foods that contain leucine.</p><p>Age, body size, training, total energy intake, and daily protein distribution affect protein needs, so a universal leucine target for every meal is not a useful rule for the general population. Most people are better served by choosing adequate portions of protein-rich foods across the day. Leucine helps explain why some foods are effective protein sources, but it should refine the protein picture rather than replace it.</p><p>Cooking and processing can shift the numbers used in amino-acid tables because water content changes. A dried or aged food may look exceptionally leucine-rich per 100 grams simply because it contains little water, while a cooked bean absorbs water and looks less concentrated. For a meaningful meal comparison, use values for the form you actually eat and multiply by the real serving weight. That produces a more useful estimate than ranking dry powders, raw foods, and cooked foods in one list.</p><h2>The practical takeaway</h2><p><strong>To raise the leucine content of a meal, the simplest strategy is usually to include a sufficient serving of a protein-rich food.</strong> Chicken, fish, dairy, eggs and soy all provide meaningful amounts without treating leucine as an isolated nutrient.</p>",
+  "faq": [
+    {
+      "question": "Which foods are high in leucine?",
+      "answer": "Common high-protein foods such as parmesan, lean meats and fish often provide roughly 2–3 g leucine per 100 g."
+    },
+    {
+      "question": "Does soy contain leucine?",
+      "answer": "Yes. Cooked mature soybeans provide about 1.36 g leucine per 100 g, along with about 18.2 g protein."
+    },
+    {
+      "question": "Does an egg provide leucine?",
+      "answer": "Yes. A cooked-egg reference provides about 1.08 g per 100 g; one egg provides less because it weighs about 50 g."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Amino-acid profiles for parmesan, chicken, tuna, soybeans and eggs."
+    },
+    {
+      "name": "NCBI Bookshelf — Essential Amino Acids",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK557845/",
+      "note": "Identifies leucine as one of the nine essential amino acids in humans."
+    }
+  ],
+  "image": {
+    "concept": "Parmesan, chicken breast, tuna, cooked soybeans and eggs in separate portions on a neutral background, clean editorial food photography without text.",
+    "alt": "Protein-rich foods that provide leucine"
+  },
+  "status": "publish"
+}
