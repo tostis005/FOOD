@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"es-726-nitratos-nitritos-carnes-procesadas","article_number":726,"translation_group":"726-nitrates-nitrites-processed-meat","language":"es","locale":"es-ES","market_context":"España/Unión Europea; aditivos en carnes curadas y seguridad alimentaria","title":"Nitratos y nitritos: por qué se añaden a las carnes procesadas","slug":"nitratos-nitritos-carnes-procesadas","seo":{"title":"Nitratos y nitritos en carnes procesadas","meta_description":"Los nitritos ayudan a controlar Clostridium botulinum, fijan el color y sabor de los curados y retrasan la oxidación. Su uso está limitado porque pueden intervenir en la formación de nitrosaminas.","search_intent":"Explicar por qué se usan nitratos y nitritos en carnes curadas, qué funciones cumplen y por qué están regulados."},"excerpt":"Los nitritos no se añaden solo para conservar el color: ayudan a controlar Clostridium botulinum, desarrollan el sabor típico del curado y retrasan la oxidación. Como su química también puede favorecer nitrosaminas en determinadas condiciones, la UE limita cuidadosamente su uso.","taxonomy":{"food_family":"meat-seafood","food_subcategories":["processed-meat","nitrates","nitrites"],"article_types":["processing-production","food-safety","myths-faq"],"primary_article_type":"processing-production"},"content_html":"<p>El color rosado de un jamón cocido o un beicon no es el único motivo por el que se usan nitritos. <strong>Forman parte del sistema de curado: ayudan a frenar microorganismos peligrosos, estabilizan color y sabor y reducen la oxidación de la grasa.</strong></p><h2>El nitrito cumple una función de seguridad</h2><p>En determinados productos cárnicos curados, el nitrito contribuye a impedir el crecimiento y la producción de toxina de <em>Clostridium botulinum</em>. Por eso eliminarlo de una formulación no equivale simplemente a quitar un colorante: obliga a revisar el conjunto de barreras de seguridad del producto.</p><h2>También crea el carácter del curado</h2><p>El nitrito reacciona con los pigmentos de la carne y ayuda a formar el color rosado-rojo estable asociado a muchos curados. Además participa en el aroma característico y retrasa la rancidez durante el almacenamiento.</p><h2>Nitrato y nitrito están relacionados, pero no son idénticos</h2><p>En ciertos procesos largos, el nitrato puede actuar como reserva y transformarse gradualmente en nitrito. Dependiendo del producto pueden utilizarse nitratos, nitritos o ingredientes que aportan esos compuestos dentro del marco legal aplicable.</p><h2>La UE limita las cantidades por la química de las nitrosaminas</h2><p>En determinadas condiciones, el nitrito puede reaccionar con aminas y contribuir a formar nitrosaminas. La legislación europea establece límites y condiciones de uso para nitratos y nitritos en alimentos, y EFSA los ha reevaluado como aditivos. <strong>La cuestión útil no es si aparece la palabra nitrito, sino cuánto se usa, para qué producto y bajo qué controles.</strong></p>","faq":[{"question":"¿Por qué se añaden nitritos a las carnes curadas?","answer":"Ayudan a controlar C. botulinum, estabilizan el color y sabor del curado y retrasan la oxidación."},{"question":"¿Nitrato y nitrito son lo mismo?","answer":"No. Son compuestos relacionados; en algunos procesos el nitrato puede convertirse en nitrito con el tiempo."},{"question":"¿Por qué están limitados legalmente?","answer":"Porque dosis y condiciones de procesado influyen en la posibilidad de formar nitrosaminas, por lo que su uso está sujeto a límites y condiciones específicas."}],"sources":[{"name":"EUR-Lex — Reglamento (CE) 1333/2008 sobre aditivos alimentarios","url":"https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32008R1333","note":"Marco europeo y condiciones de uso de nitratos y nitritos como aditivos."},{"name":"EFSA — Nitrates and nitrites added to food","url":"https://www.efsa.europa.eu/en/press/news/170615","note":"Reevaluación europea de nitratos y nitritos y contexto de seguridad."}],"image":{"concept":"Jamón curado y beicon junto a carne sin curar y una pequeña cantidad de sal de curado, fotografía editorial sin marcas.","alt":"Nitratos y nitritos en carnes curadas"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-726-nitratos-nitritos-carnes-procesadas",
+  "article_number": 726,
+  "translation_group": "726-nitrates-nitrites-processed-meat",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; aditivos en carnes curadas y seguridad alimentaria",
+  "title": "Nitratos y nitritos: por qué se añaden a las carnes procesadas",
+  "slug": "nitratos-nitritos-carnes-procesadas",
+  "seo": {
+    "title": "Nitratos y nitritos en carnes procesadas",
+    "meta_description": "Los nitritos ayudan a controlar Clostridium botulinum, fijan el color y sabor de los curados y retrasan la oxidación. Su uso está limitado porque pueden intervenir en la formación de nitrosaminas.",
+    "search_intent": "Explicar por qué se usan nitratos y nitritos en carnes curadas, qué funciones cumplen y por qué están regulados."
+  },
+  "excerpt": "Los nitritos no se añaden solo para conservar el color: ayudan a controlar Clostridium botulinum, desarrollan el sabor típico del curado y retrasan la oxidación. Como su química también puede favorecer nitrosaminas en determinadas condiciones, la UE limita cuidadosamente su uso.",
+  "taxonomy": {
+    "food_family": "meat-seafood",
+    "food_subcategories": [
+      "processed-meat",
+      "nitrates",
+      "nitrites"
+    ],
+    "article_types": [
+      "processing-production",
+      "food-safety",
+      "myths-faq"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p>El color rosado de un jamón cocido o un beicon no es el único motivo por el que se usan nitritos. <strong>Forman parte del sistema de curado: ayudan a frenar microorganismos peligrosos, estabilizan color y sabor y reducen la oxidación de la grasa.</strong></p><h2>El nitrito cumple una función de seguridad</h2><p>En determinados productos cárnicos curados, el nitrito contribuye a impedir el crecimiento y la producción de toxina de <em>Clostridium botulinum</em>. Por eso eliminarlo de una formulación no equivale simplemente a quitar un colorante: obliga a revisar el conjunto de barreras de seguridad del producto.</p><h2>También crea el carácter del curado</h2><p>El nitrito reacciona con los pigmentos de la carne y ayuda a formar el color rosado-rojo estable asociado a muchos curados. Además participa en el aroma característico y retrasa la rancidez durante el almacenamiento.</p><h2>Nitrato y nitrito están relacionados, pero no son idénticos</h2><p>En ciertos procesos largos, el nitrato puede actuar como reserva y transformarse gradualmente en nitrito. Dependiendo del producto pueden utilizarse nitratos, nitritos o ingredientes que aportan esos compuestos dentro del marco legal aplicable.</p><h2>El contexto tecnológico importa más que una etiqueta de “bueno” o “malo”</h2><p>El nitrito se utiliza en productos curados porque cumple varias funciones a la vez. Contribuye al color y al sabor característicos, limita parte de la oxidación de la grasa y, en determinados productos, ayuda a controlar microorganismos peligrosos durante el curado. El nitrato puede actuar como una reserva que ciertos microorganismos transforman progresivamente en nitrito. Por eso retirar estos compuestos no equivale a quitar una especia opcional: habría que rediseñar formulación, proceso, tiempo y temperatura para mantener la seguridad.</p><p>La preocupación más conocida son las nitrosaminas, sustancias que pueden formarse a partir de la química del nitrito cuando coinciden determinadas condiciones, incluidos aminas y calor. La industria controla las cantidades empleadas y puede incorporar ascorbato o eritorbato para limitar esa formación. Esto no convierte la carne procesada en un alimento de consumo libre, pero sí evita interpretar la palabra “nitrito” como si la formulación comercial no tuviera límites ni controles.</p><p>Los nitratos de verduras como hojas verdes o remolacha aparecen en otro contexto alimentario. Llegan acompañados de vitamina C, polifenoles, potasio, fibra y muchos otros compuestos, y parte del nitrato dietético puede participar en la formación de óxido nítrico en el organismo. Por tanto, no tiene sentido considerar equivalente cada miligramo de nitrato de una espinaca y el uso tecnológico de nitrito en una carne curada.</p><p>También conviene leer con atención productos presentados como “sin nitritos añadidos” o con curado de origen vegetal. Algunas formulaciones utilizan fuentes vegetales ricas en nitrato para producir un efecto de curado. La pregunta nutricional práctica sigue siendo la frecuencia de consumo de carnes procesadas, la ración y qué otros alimentos proteicos ocupan el resto de la semana. Legumbres, pescado, huevos, tofu, aves y carnes frescas permiten variar sin convertir toda la decisión en un debate sobre un solo aditivo.</p><p>La cocción añade contexto. Calor muy intenso y quemado favorecen reacciones indeseables, por lo que evitar carbonizar carnes curadas es razonable. Al mismo tiempo, cocinar insuficientemente un producto que requiere cocción crea otro problema de seguridad. La respuesta no es temer el calor, sino preparar cada producto correctamente sin quemarlo de forma habitual.</p><p>El curado tampoco sustituye la cadena de frío. El nitrito reduce riesgos concretos, pero jamón cocido, bacon, salchichas o fiambres no se vuelven eternos. Refrigeración, fecha de uso, higiene y tiempo desde la apertura siguen siendo importantes. El curado es una barrera dentro de un sistema, no un permiso para ignorar el almacenamiento.</p><p>La comparación más útil no es entre “químico” y “natural”, sino entre patrones de consumo. Una dieta con carnes procesadas ocasionales y muchas fuentes proteicas distintas plantea un escenario diferente de otra donde bacon, salchichas y fiambres aparecen a diario. Frecuencia y cantidad ayudan a poner el aditivo en perspectiva.</p><h2>La UE limita las cantidades por la química de las nitrosaminas</h2><p>En determinadas condiciones, el nitrito puede reaccionar con aminas y contribuir a formar nitrosaminas. La legislación europea establece límites y condiciones de uso para nitratos y nitritos en alimentos, y EFSA los ha reevaluado como aditivos. <strong>La cuestión útil no es si aparece la palabra nitrito, sino cuánto se usa, para qué producto y bajo qué controles.</strong></p>",
+  "faq": [
+    {
+      "question": "¿Por qué se añaden nitritos a las carnes curadas?",
+      "answer": "Ayudan a controlar C. botulinum, estabilizan el color y sabor del curado y retrasan la oxidación."
+    },
+    {
+      "question": "¿Nitrato y nitrito son lo mismo?",
+      "answer": "No. Son compuestos relacionados; en algunos procesos el nitrato puede convertirse en nitrito con el tiempo."
+    },
+    {
+      "question": "¿Por qué están limitados legalmente?",
+      "answer": "Porque dosis y condiciones de procesado influyen en la posibilidad de formar nitrosaminas, por lo que su uso está sujeto a límites y condiciones específicas."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EUR-Lex — Reglamento (CE) 1333/2008 sobre aditivos alimentarios",
+      "url": "https://eur-lex.europa.eu/legal-content/ES/TXT/?uri=CELEX%3A32008R1333",
+      "note": "Marco europeo y condiciones de uso de nitratos y nitritos como aditivos."
+    },
+    {
+      "name": "EFSA — Nitrates and nitrites added to food",
+      "url": "https://www.efsa.europa.eu/en/press/news/170615",
+      "note": "Reevaluación europea de nitratos y nitritos y contexto de seguridad."
+    }
+  ],
+  "image": {
+    "concept": "Jamón curado y beicon junto a carne sin curar y una pequeña cantidad de sal de curado, fotografía editorial sin marcas.",
+    "alt": "Nitratos y nitritos en carnes curadas"
+  },
+  "status": "publish"
+}

@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"es-732-vinagre-manzana-o-blanco","article_number":732,"translation_group":"732-apple-cider-vs-white-vinegar","language":"es","locale":"es-ES","market_context":"España; usos culinarios del vinagre y seguridad en conservas domésticas","title":"Vinagre de manzana o vinagre blanco: cuándo conviene usar cada uno","slug":"vinagre-manzana-o-blanco","seo":{"title":"Vinagre de manzana vs vinagre blanco","meta_description":"El vinagre de manzana aporta sabor afrutado y color ámbar; el blanco es más neutro, limpio y transparente. Muchos productos rondan el 5% de acidez, pero en conservas debe respetarse la acidez indicada por una receta segura.","search_intent":"Comparar vinagre de manzana y vinagre blanco por sabor, color, acidez, cocina y uso en conservas."},"excerpt":"El vinagre de manzana aporta notas afrutadas y color; el blanco es más limpio, punzante y transparente. Para cocinar puedes elegir por sabor, pero en conservas la acidez debe ser conocida y ajustarse a una receta validada: no conviene sustituirlos a ciegas.","taxonomy":{"food_family":"other-foods","food_subcategories":["vinegar","apple-cider-vinegar","white-vinegar"],"article_types":["comparisons","cooking-science","food-safety"],"primary_article_type":"comparisons"},"content_html":"<p>En una vinagreta, cambiar vinagre blanco por vinagre de manzana suele ser una decisión de sabor. En una conserva, puede afectar al margen de seguridad. <strong>Muchos vinagres comerciales tienen una acidez parecida, pero el tipo, el porcentaje indicado y la receta concreta importan.</strong></p><h2>El de manzana aporta fruta y color</h2><p>Se obtiene de productos de manzana fermentados y suele conservar un tono ámbar y un aroma más redondo y afrutado. Encaja bien en aliños, marinados, chutneys y recetas donde ese carácter suma.</p><h2>El blanco es más neutro y no colorea</h2><p>El vinagre blanco destilado tiene una acidez más limpia y directa y apenas aporta color. Es útil cuando quieres acidificar sin modificar tanto el aspecto o el perfil aromático del plato.</p><h2>La acidez debe comprobarse en la etiqueta</h2><p>Muchos vinagres domésticos de manzana y blancos se venden alrededor del 5% de acidez, pero no todos son iguales. En encurtidos y conservas destinadas a almacenarse, conviene usar una receta validada y un vinagre de acidez conocida; un vinagre casero o de concentración incierta no es una sustitución segura.</p><h2>En cocina manda el sabor; en conservación manda la fórmula</h2><p>Para una salsa o ensalada, normalmente puedes intercambiarlos aceptando el cambio de sabor y color. <strong>Cuando la seguridad depende de la acidez, respeta el tipo, la cantidad y la concentración indicados por una receta fiable.</strong></p>","faq":[{"question":"¿El vinagre de manzana tiene menos acidez que el blanco?","answer":"No necesariamente. Muchos productos comerciales de ambos tipos rondan el 5%, así que hay que mirar la etiqueta."},{"question":"¿Puedo sustituirlos en una vinagreta?","answer":"Normalmente sí, aunque cambiarán el sabor y, en el caso del de manzana, también algo el color."},{"question":"¿Puedo cambiarlos libremente en una conserva?","answer":"No. En conservación doméstica hay que respetar la acidez, cantidad y tipo permitidos por una receta validada."}],"sources":[{"name":"Penn State Extension — Advice About Vinegar","url":"https://extension.psu.edu/advice-about-vinegar","note":"Información actual sobre acidez, diferencias de sabor, almacenamiento y cambios de calidad del vinagre."},{"name":"National Center for Home Food Preservation — General Information on Fermenting","url":"https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/","note":"Recomendaciones sobre vinagre de acidez conocida y procedimientos probados de conservación."}],"image":{"concept":"Vinagre de manzana ámbar y vinagre blanco transparente junto a ingredientes de ensalada y encurtido, fotografía editorial.","alt":"Vinagre de manzana y vinagre blanco"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-732-vinagre-manzana-o-blanco",
+  "article_number": 732,
+  "translation_group": "732-apple-cider-vs-white-vinegar",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España; usos culinarios del vinagre y seguridad en conservas domésticas",
+  "title": "Vinagre de manzana o vinagre blanco: cuándo conviene usar cada uno",
+  "slug": "vinagre-manzana-o-blanco",
+  "seo": {
+    "title": "Vinagre de manzana vs vinagre blanco",
+    "meta_description": "El vinagre de manzana aporta sabor afrutado y color ámbar; el blanco es más neutro, limpio y transparente. Muchos productos rondan el 5% de acidez, pero en conservas debe respetarse la acidez indicada por una receta segura.",
+    "search_intent": "Comparar vinagre de manzana y vinagre blanco por sabor, color, acidez, cocina y uso en conservas."
+  },
+  "excerpt": "El vinagre de manzana aporta notas afrutadas y color; el blanco es más limpio, punzante y transparente. Para cocinar puedes elegir por sabor, pero en conservas la acidez debe ser conocida y ajustarse a una receta validada: no conviene sustituirlos a ciegas.",
+  "taxonomy": {
+    "food_family": "other-foods",
+    "food_subcategories": [
+      "vinegar",
+      "apple-cider-vinegar",
+      "white-vinegar"
+    ],
+    "article_types": [
+      "comparisons",
+      "cooking-science",
+      "food-safety"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>En una vinagreta, cambiar vinagre blanco por vinagre de manzana suele ser una decisión de sabor. En una conserva, puede afectar al margen de seguridad. <strong>Muchos vinagres comerciales tienen una acidez parecida, pero el tipo, el porcentaje indicado y la receta concreta importan.</strong></p><h2>El de manzana aporta fruta y color</h2><p>Se obtiene de productos de manzana fermentados y suele conservar un tono ámbar y un aroma más redondo y afrutado. Encaja bien en aliños, marinados, chutneys y recetas donde ese carácter suma.</p><h2>El blanco es más neutro y no colorea</h2><p>El vinagre blanco destilado tiene una acidez más limpia y directa y apenas aporta color. Es útil cuando quieres acidificar sin modificar tanto el aspecto o el perfil aromático del plato.</p><h2>La acidez debe comprobarse en la etiqueta</h2><p>Muchos vinagres domésticos de manzana y blancos se venden alrededor del 5% de acidez, pero no todos son iguales. En encurtidos y conservas destinadas a almacenarse, conviene usar una receta validada y un vinagre de acidez conocida; un vinagre casero o de concentración incierta no es una sustitución segura.</p><h2>La acidez importa tanto como el sabor cuando cambia la función</h2><p>En una vinagreta o una salsa, la diferencia principal es sensorial. El vinagre de manzana aporta aromas afrutados y color ámbar que combinan bien con mostaza, verduras asadas, coles, legumbres o preparaciones con cerdo. El vinagre blanco destilado es más neutro y permite añadir acidez sin modificar tanto aroma ni color. Esa neutralidad también puede ser útil en encurtidos claros o recetas donde se busca un perfil limpio.</p><p>La sustitución deja de ser libre cuando la acidez forma parte de la seguridad de una conserva. Muchos vinagres alimentarios comerciales rondan una acidez estandarizada, pero hay diferencias entre marcas, países y productos especiales. Una receta probada de encurtido o conserva se diseña para un nivel concreto de ácido. En ese caso manda la etiqueta y la receta, no el nombre del vinagre. El vinagre casero de acidez desconocida no sirve para improvisar conservas estables a temperatura ambiente.</p><p>La turbidez tampoco significa necesariamente que el vinagre de manzana esté estropeado. Los productos sin filtrar pueden contener sedimentos, hebras o una “madre” relacionada con bacterias acéticas y restos de fermentación. El blanco destilado suele ser transparente porque está más refinado y filtrado. Estas diferencias hablan del proceso, no demuestran que uno tenga propiedades “detox” o quemagrasas que el otro no tenga.</p><p>Para limpieza doméstica suele preferirse el blanco por ser barato, incoloro y no dejar residuos de fruta, pero ni siquiera ahí es universal: los ácidos pueden dañar piedra natural y algunos acabados. En cocina, elige el perfil de sabor que quieras y comprueba la acidez cuando la receta dependa de ella. En conservación, la seguridad siempre está por encima de la libertad culinaria.</p><p>Acidez química y sensación de agresividad tampoco son exactamente lo mismo. Dos vinagres con acidez etiquetada similar pueden saber muy diferentes porque manzana, vino, cereal y fermentación aportan aromas y matices dulces. Por eso sustituir uno por otro cambia una salsa incluso cuando la función ácida es parecida. En un plato terminado conviene empezar con menos y ajustar al gusto.</p><p>En encurtidos rápidos de nevera ambos pueden funcionar si la receta está diseñada para ello y el sabor es la principal diferencia. Las conservas estables a temperatura ambiente pertenecen a otra categoría y deben seguir una fórmula probada. No conviene trasladar la libertad de un encurtido rápido a un proceso de seguridad crítica.</p><p>En repostería, marinados y salsas, una sustitución uno a uno puede cambiar bastante el plato aunque la acidez sea parecida. El de manzana deja aroma y color; el blanco suele desaparecer más en el fondo. Cuando la seguridad no depende de la fórmula, empezar con una cantidad algo menor y corregir al gusto es una estrategia más sensata que asumir equivalencia perfecta.</p><p>También conviene reservar un vinagre de sabor más neutro para recetas donde otros aromas sean protagonistas, y uno más expresivo cuando la acidez deba aportar carácter además de frescor.</p><h2>En cocina manda el sabor; en conservación manda la fórmula</h2><p>Para una salsa o ensalada, normalmente puedes intercambiarlos aceptando el cambio de sabor y color. <strong>Cuando la seguridad depende de la acidez, respeta el tipo, la cantidad y la concentración indicados por una receta fiable.</strong></p>",
+  "faq": [
+    {
+      "question": "¿El vinagre de manzana tiene menos acidez que el blanco?",
+      "answer": "No necesariamente. Muchos productos comerciales de ambos tipos rondan el 5%, así que hay que mirar la etiqueta."
+    },
+    {
+      "question": "¿Puedo sustituirlos en una vinagreta?",
+      "answer": "Normalmente sí, aunque cambiarán el sabor y, en el caso del de manzana, también algo el color."
+    },
+    {
+      "question": "¿Puedo cambiarlos libremente en una conserva?",
+      "answer": "No. En conservación doméstica hay que respetar la acidez, cantidad y tipo permitidos por una receta validada."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Penn State Extension — Advice About Vinegar",
+      "url": "https://extension.psu.edu/advice-about-vinegar",
+      "note": "Información actual sobre acidez, diferencias de sabor, almacenamiento y cambios de calidad del vinagre."
+    },
+    {
+      "name": "National Center for Home Food Preservation — General Information on Fermenting",
+      "url": "https://nchfp.uga.edu/how/ferment/general-information-on-fermenting/",
+      "note": "Recomendaciones sobre vinagre de acidez conocida y procedimientos probados de conservación."
+    }
+  ],
+  "image": {
+    "concept": "Vinagre de manzana ámbar y vinagre blanco transparente junto a ingredientes de ensalada y encurtido, fotografía editorial.",
+    "alt": "Vinagre de manzana y vinagre blanco"
+  },
+  "status": "publish"
+}
