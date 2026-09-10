@@ -1,0 +1,53 @@
+name: Temporary priority 06 materialize
+
+on:
+  push:
+    branches:
+      - quality-priority-06
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Materialize and validate block
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .tmp/p06gen.00 .tmp/p06gen.01 .tmp/p06gen.02 .tmp/p06gen.03 .tmp/p06gen.04 .tmp/p06gen.05 > /tmp/p06.b64
+          base64 -d /tmp/p06.b64 | gzip -d > /tmp/p06.py
+          python3 /tmp/p06.py
+          set +e
+          python3 content/tools/audit-article-editorial.py content/articles > /tmp/editorial.txt 2>&1
+          audit_status=$?
+          set -e
+          cat /tmp/editorial.txt
+          python3 - <<'PY'
+          ids={273,198,259,277,107,148,231,242,328,204,582,123,596,236,254,154,541,444,142,232}
+          text=open('/tmp/editorial.txt', encoding='utf-8').read()
+          line=next((x for x in text.splitlines() if x.startswith('FAILED_PAIR_IDS=')), '')
+          failed={int(x) for x in line.split('=',1)[1].split(',') if x.strip()} if line else set()
+          overlap=ids & failed
+          if overlap:
+              raise SystemExit(f'Block 06 IDs still failing: {sorted(overlap)}')
+          print('BLOCK06_ABSENT_FROM_FAILED_PAIR_IDS=PASS')
+          PY
+          mapfile -t changed < <(git diff --name-only)
+          printf '%s\n' "${changed[@]}"
+          test "${#changed[@]}" -eq 40
+          for f in "${changed[@]}"; do
+            [[ "$f" =~ ^content/articles/(es|en)/(107|123|142|148|154|198|204|231|232|236|242|254|259|273|277|328|444|541|582|596)-.*\.json$ ]]
+          done
+          test "$(printf '%s\n' "${changed[@]}" | grep '^content/articles/es/' | wc -l)" -eq 20
+          test "$(printf '%s\n' "${changed[@]}" | grep '^content/articles/en/' | wc -l)" -eq 20
+          echo "GLOBAL_AUDIT_EXIT=$audit_status"
+      - name: Commit article updates
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/articles/es content/articles/en
+          git commit -m "Improve editorial quality for priority block 06"
+          git push
