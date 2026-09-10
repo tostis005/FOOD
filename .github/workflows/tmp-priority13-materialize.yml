@@ -1,0 +1,164 @@
+name: Temporary priority 13 materialize
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-13-materialize
+    paths:
+      - '.github/workflows/tmp-priority13-materialize.yml'
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out target branch
+        uses: actions/checkout@v4
+        with:
+          ref: quality-priority-13
+          fetch-depth: 0
+          path: target
+
+      - name: Check out payload branch
+        uses: actions/checkout@v4
+        with:
+          ref: tmp-quality-priority-13-materialize
+          fetch-depth: 1
+          path: payload
+
+      - name: Align target with live main
+        working-directory: target
+        run: |
+          set -euo pipefail
+          git fetch origin main
+          git merge --ff-only origin/main
+
+      - name: Restore validated article payload
+        run: |
+          set -euo pipefail
+          cat \
+            payload/.tmp/p13pair.000001 \
+            payload/.tmp/p13pair.002003 \
+            payload/.tmp/p13pair.004005 \
+            payload/.tmp/p13pair.006007 \
+            payload/.tmp/p13pair.008009 \
+            payload/.tmp/p13pair.010011 \
+            > /tmp/priority13.raw.b64
+          tr -d '[:space:]' < /tmp/priority13.raw.b64 > /tmp/priority13.b64
+          test "$(wc -c < /tmp/priority13.b64)" -eq 111500
+          base64 -d /tmp/priority13.b64 > /tmp/priority13.tar.xz
+          echo '2b8f89645c87d348c65e4ea9c38b47edc87dd545b59cb296f6865375d16585cc  /tmp/priority13.tar.xz' | sha256sum -c -
+          tar -xJf /tmp/priority13.tar.xz -C target
+
+      - name: Validate priority block 13
+        working-directory: target
+        run: |
+          python - <<'PY'
+          import html, json, re, subprocess
+          from collections import defaultdict
+          from pathlib import Path
+
+          IDS = [335,728,396,475,379,49,339,424,592,215,131,386,458,530,539,694,333,522,380,532]
+          FORBIDDEN = [
+              'merece un artículo','merece otro artículo','otro artículo','en este artículo',
+              'hemos elegido','hemos usado','hemos utilizado','deliberadamente',
+              'se excluye deliberadamente','excluimos deliberadamente','para no manipular',
+              'criterio de ordenación','fuentes y criterio','registro utilizado','registros concretos',
+              'la tabla no pretende','no pretendemos','cocinado con calor seco',
+              'tabla principal','ranking principal','tabla anterior','ranking anterior',
+              'la tabla de arriba','el ranking de arriba','como vimos','como hemos visto',
+              'en otra guía','en otra entrada','en otro post','en otra página',
+              'deserves its own article','another article','in this article',
+              'we chose','we have chosen','we used','we have used','deliberately',
+              'to avoid manipulating','ordering criteria','sources and methodology',
+              'record used','specific records','the table is not intended','cooked by dry heat',
+              'main table','main ranking','previous table','previous ranking',
+              'the table above','the ranking above','as we saw','as we have seen',
+              'in another guide','in another article','in another post','on another page'
+          ]
+
+          def visible(s):
+              s = re.sub(r'(?is)<(?:script|style)\b[^>]*>.*?</(?:script|style)>', ' ', s)
+              s = re.sub(r'<[^>]+>', ' ', s)
+              return re.sub(r'\s+', ' ', html.unescape(s)).strip()
+
+          def words(s):
+              return re.findall(r"\b[^\W_]+(?:['’\-][^\W_]+)*\b", s, flags=re.UNICODE)
+
+          files=[]
+          by_pair=defaultdict(dict)
+          para_by_lang=defaultdict(dict)
+          shingles_by_lang=defaultdict(dict)
+
+          for lang in ('en','es'):
+              for aid in IDS:
+                  matches=list(Path(f'content/articles/{lang}').glob(f'{aid:03d}-*.json'))
+                  assert len(matches)==1,(lang,aid,matches)
+                  p=matches[0]
+                  d=json.loads(p.read_text(encoding='utf-8'))
+                  assert d.get('article_number')==aid,(p,d.get('article_number'))
+                  assert d.get('language')==lang,(p,d.get('language'))
+                  assert d.get('status')=='publish',p
+                  assert d.get('translation_group'),p
+                  by_pair[aid][lang]=d.get('translation_group')
+                  body=str(d.get('content_html',''))
+                  text=visible(body)
+                  wc=len(words(text))
+                  h2=len(re.findall(r'<h2\b',body,flags=re.I))
+                  assert wc>=700,(p,wc)
+                  assert (wc+209)//210>=4,(p,wc)
+                  if h2>=5:
+                      assert wc/h2>=80,(p,wc,h2,wc/h2)
+                  low=text.lower()
+                  bad=[x for x in FORBIDDEN if x in low]
+                  assert not bad,(p,bad)
+                  excerpt=re.sub(r'\s+',' ',str(d.get('excerpt',''))).strip().lower()
+                  assert not excerpt or excerpt not in low,(p,'excerpt repeated')
+                  files.append((p,aid,lang,wc,h2))
+
+                  for par in re.findall(r'<p\b[^>]*>(.*?)</p>',body,flags=re.I|re.S):
+                      t=visible(par).lower()
+                      if len(words(t))>=70:
+                          prev=para_by_lang[lang].get(t)
+                          assert prev in (None,aid),(lang,aid,prev,'duplicate long paragraph')
+                          para_by_lang[lang][t]=aid
+
+                  ws=[w.lower() for w in words(text)]
+                  for i in range(max(0,len(ws)-11)):
+                      sh=' '.join(ws[i:i+12])
+                      prev=shingles_by_lang[lang].get(sh)
+                      assert prev in (None,aid),(lang,aid,prev,sh)
+                      shingles_by_lang[lang][sh]=aid
+
+          assert len(files)==40,len(files)
+          for aid in IDS:
+              assert by_pair[aid].get('en')==by_pair[aid].get('es'),(aid,by_pair[aid])
+
+          changed=[x.strip() for x in subprocess.check_output(['git','diff','--name-only','origin/main']).decode().splitlines() if x.strip()]
+          assert len(changed)==40,(len(changed),changed)
+          assert all(x.startswith('content/articles/en/') or x.startswith('content/articles/es/') for x in changed),changed
+          assert all(x.endswith('.json') for x in changed),changed
+          found_ids=sorted(int(Path(x).name.split('-',1)[0]) for x in changed)
+          assert found_ids==sorted(IDS+IDS),found_ids
+
+          print('PRIORITY13_FOCUSED_VALIDATION=PASS')
+          print('VERSIONS=40')
+          print('MIN_WORDS='+str(min(x[3] for x in files)))
+          print('MAX_WORDS='+str(max(x[3] for x in files)))
+          print('MIN_WORDS_PER_H2='+str(min((x[3]/x[4]) for x in files if x[4]>=5)))
+          print('LONG_PARAGRAPH_DUPLICATES=0')
+          print('TWELVE_WORD_CROSS_ARTICLE_DUPLICATES=0')
+          PY
+
+      - name: Commit exactly 40 article JSON files
+        working-directory: target
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add content/articles/en content/articles/es
+          test "$(git diff --cached --name-only | wc -l)" -eq 40
+          git commit -m 'Improve editorial quality for priority block 13'
+          git push origin HEAD:quality-priority-13
