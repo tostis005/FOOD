@@ -39,11 +39,14 @@ jobs:
         run: |
           set -euo pipefail
           cat \
-            payload/.tmp/p13pair.000001 \
-            payload/.tmp/p13pair.002003 \
-            payload/.tmp/p13pair.004005 \
-            payload/.tmp/p13pair.006007 \
-            payload/.tmp/p13pair.008009 \
+            payload/.tmp/p13payload.000001 \
+            payload/.tmp/p13payload.002003 \
+            payload/.tmp/p13payload.004005 \
+            payload/.tmp/p13fix006007.0 \
+            payload/.tmp/p13fix006007.1 \
+            payload/.tmp/p13fix006007.2 \
+            payload/.tmp/p13fix006007.3 \
+            payload/.tmp/p13payload.008009 \
             payload/.tmp/p13pair.010011 \
             > /tmp/priority13.raw.b64
           tr -d '[:space:]' < /tmp/priority13.raw.b64 > /tmp/priority13.b64
