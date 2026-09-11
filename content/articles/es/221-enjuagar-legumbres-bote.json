@@ -1,1 +1,67 @@
-{"schema_version":1,"id":"es-221-hay-que-enjuagar-legumbres-bote","article_number":221,"translation_group":"221-rinse-canned-legumes","language":"es","locale":"es-ES","market_context":"España/Unión Europea; enjuagado de legumbres en conserva, sodio y usos del líquido de cobertura","title":"¿Hay que enjuagar las legumbres de bote?","slug":"hay-que-enjuagar-legumbres-bote","seo":{"title":"¿Hay que enjuagar las legumbres de bote?","meta_description":"No es obligatorio. Enjuagar es útil si quieres reducir sodio o sabor a líquido de cobertura; escurrir reduce ~36% y escurrir más enjuagar ~41% en un estudio.","search_intent":"Saber cuándo conviene enjuagar legumbres de bote, cuánto sodio elimina y cuándo puede aprovecharse el líquido."},"excerpt":"No es obligatorio enjuagar las legumbres de bote. Si quieres reducir sodio o eliminar parte del sabor del líquido de cobertura, sí tiene sentido: en un estudio, escurrir redujo el sodio medio un 36% y escurrir más enjuagar un 41%.","taxonomy":{"food_family":"legumes-soy","food_subcategories":["canned-legumes","rinsing","sodium"],"article_types":["myths-faq","cooking-techniques"],"primary_article_type":"myths-faq"},"content_html":"<p>Abrir una lata, volcar las legumbres en un colador y enjuagarlas es una costumbre muy extendida, pero <strong>no es una obligación de seguridad alimentaria</strong>. Las legumbres ya están cocinadas. Enjuagar sirve principalmente para modificar sodio, sabor, textura y cantidad de líquido que entra en la receta.</p><h2>Si quieres reducir sodio, sí ayuda</h2><p>Un estudio analizó varias marcas y cinco tipos de alubias en conserva. Escurrir durante dos minutos redujo el sodio medio de 503 a 321 mg por ración, un <strong>36%</strong>. Escurrir, enjuagar durante unos 10 segundos y volver a escurrir lo redujo hasta 295 mg, un <strong>41%</strong>.</p><p>La diferencia adicional entre escurrir y enjuagar fue de unos 26 mg por ración en ese conjunto de productos. Por tanto, escurrir ya hace una gran parte del trabajo; enjuagar añade una reducción adicional.</p><h2>No todas las conservas necesitan la misma estrategia</h2><p>Hay legumbres con sal añadida, reducidas en sodio y sin sal añadida. Una lata sin sal puede tener muy poco sodio desde el principio, así que enjuagarla por motivos nutricionales aporta poca ventaja. La etiqueta concreta manda.</p><h2>¿Se pierden nutrientes al enjuagar?</h2><p>El líquido contiene sustancias solubles: sodio, potasio, parte del folato y otras vitaminas del grupo B, además de carbohidratos y pequeñas cantidades de proteína. Escurrir y enjuagar elimina una fracción de esos nutrientes, pero la mayor parte de la proteína y la fibra permanece dentro de la legumbre.</p><p>Si la prioridad es reducir varios cientos de miligramos de sodio, la pequeña pérdida de micronutrientes hidrosolubles no convierte el enjuagado en una mala práctica.</p><h2>El líquido de los garbanzos puede tener utilidad culinaria</h2><p>El líquido de cocción o de una conserva de garbanzos es aquafaba. Contiene proteínas, carbohidratos solubles y saponinas que le permiten formar espuma y emulsiones. Si una receta utiliza aquafaba como sustituto culinario de clara de huevo, obviamente no hay que tirarla antes.</p><h2>¿Y para guisos o hummus?</h2><p>Para un guiso, parte del líquido puede aportar cuerpo. Para hummus, usar un poco del líquido puede ayudar a ajustar textura. Si el producto es muy salado, puedes escurrirlo, enjuagar las legumbres y añadir agua limpia o líquido sin sal para controlar mejor el resultado.</p><h2>La idea útil</h2><p><strong>Enjuagar legumbres de bote es opcional: hazlo cuando quieras reducir sodio o eliminar sabor y viscosidad del líquido.</strong> Si compras una conserva sin sal o necesitas el líquido para una receta, no hay una razón nutricional universal para desecharlo.</p>","faq":[{"question":"¿Enjuagar legumbres de bote reduce el sodio?","answer":"Sí. En un estudio multimarcas, escurrir redujo el sodio 36% de media y escurrir más enjuagar lo redujo 41%."},{"question":"¿Es malo usar el líquido de los garbanzos?","answer":"No. El líquido, conocido como aquafaba, es comestible y se utiliza incluso por su capacidad para formar espumas y emulsiones."},{"question":"¿Hay que enjuagar una conserva sin sal añadida?","answer":"No por obligación nutricional. Puedes hacerlo por textura o sabor, pero su ventaja para reducir sodio será mucho menor."}],"sources":[{"name":"Journal of Culinary Science & Technology — Sodium Reduction in Canned Beans After Draining, Rinsing","url":"https://www.tandfonline.com/doi/full/10.1080/15428052.2011.582405","note":"Cuantifica una reducción media de sodio del 36% con escurrido y 41% con escurrido más enjuagado."},{"name":"National Academies — Strategies to Reduce Sodium Intake","url":"https://www.ncbi.nlm.nih.gov/books/NBK50952/","note":"Resume la evidencia de reducción de sodio al escurrir y enjuagar legumbres en conserva."},{"name":"Current Opinion in Food Science — Upcycling aquafaba","url":"https://www.sciencedirect.com/science/article/abs/pii/S2214799324000754","note":"Describe proteínas, fibra soluble y saponinas del agua de cocción de legumbres y sus propiedades funcionales."}],"image":{"concept":"Garbanzos de conserva en un colador bajo un chorro suave de agua junto a un cuenco con el líquido de aquafaba reservado, fotografía editorial sin texto.","alt":"Legumbres de bote siendo escurridas y enjuagadas"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-221-hay-que-enjuagar-legumbres-bote",
+  "article_number": 221,
+  "translation_group": "221-rinse-canned-legumes",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; enjuagado de legumbres en conserva, sodio y usos del líquido de cobertura",
+  "title": "¿Hay que enjuagar las legumbres de bote?",
+  "slug": "hay-que-enjuagar-legumbres-bote",
+  "seo": {
+    "title": "¿Hay que enjuagar las legumbres de bote?",
+    "meta_description": "No es obligatorio. Enjuagar es útil si quieres reducir sodio o sabor a líquido de cobertura; escurrir reduce ~36% y escurrir más enjuagar ~41% en un estudio.",
+    "search_intent": "Saber cuándo conviene enjuagar legumbres de bote, cuánto sodio elimina y cuándo puede aprovecharse el líquido."
+  },
+  "excerpt": "No es obligatorio enjuagar las legumbres de bote. Si quieres reducir sodio o eliminar parte del sabor del líquido de cobertura, sí tiene sentido: en un estudio, escurrir redujo el sodio medio un 36% y escurrir más enjuagar un 41%.",
+  "taxonomy": {
+    "food_family": "legumes-soy",
+    "food_subcategories": [
+      "canned-legumes",
+      "rinsing",
+      "sodium"
+    ],
+    "article_types": [
+      "myths-faq",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "myths-faq"
+  },
+  "content_html": "<p>Abrir una lata, volcar las legumbres en un colador y enjuagarlas es una costumbre muy extendida, pero <strong>no es una obligación de seguridad alimentaria</strong>. Las legumbres ya están cocinadas. Enjuagar sirve principalmente para modificar sodio, sabor, textura y cantidad de líquido que entra en la receta.</p><h2>Si quieres reducir sodio, sí ayuda</h2><p>Un estudio analizó varias marcas y cinco tipos de alubias en conserva. Escurrir durante dos minutos redujo el sodio medio de 503 a 321 mg por ración, un <strong>36%</strong>. Escurrir, enjuagar durante unos 10 segundos y volver a escurrir lo redujo hasta 295 mg, un <strong>41%</strong>.</p><p>La diferencia adicional entre escurrir y enjuagar fue de unos 26 mg por ración en ese conjunto de productos. Por tanto, escurrir ya hace una gran parte del trabajo; enjuagar añade una reducción adicional.</p><h2>No todas las conservas necesitan la misma estrategia</h2><p>Hay legumbres con sal añadida, reducidas en sodio y sin sal añadida. Una lata sin sal puede tener muy poco sodio desde el principio, así que enjuagarla por motivos nutricionales aporta poca ventaja. La etiqueta concreta manda.</p><h2>¿Se pierden nutrientes al enjuagar?</h2><p>El líquido contiene sustancias solubles: sodio, potasio, parte del folato y otras vitaminas del grupo B, además de carbohidratos y pequeñas cantidades de proteína. Escurrir y enjuagar elimina una fracción de esos nutrientes, pero la mayor parte de la proteína y la fibra permanece dentro de la legumbre.</p><p>Si la prioridad es reducir varios cientos de miligramos de sodio, la pequeña pérdida de micronutrientes hidrosolubles no convierte el enjuagado en una mala práctica.</p><h2>El líquido de los garbanzos puede tener utilidad culinaria</h2><p>El líquido de cocción o de una conserva de garbanzos es aquafaba. Contiene proteínas, carbohidratos solubles y saponinas que le permiten formar espuma y emulsiones. Si una receta utiliza aquafaba como sustituto culinario de clara de huevo, obviamente no hay que tirarla antes.</p><h2>¿Y para guisos o hummus?</h2><p>Para un guiso, parte del líquido puede aportar cuerpo. Para hummus, usar un poco del líquido puede ayudar a ajustar textura. Si el producto es muy salado, puedes escurrirlo, enjuagar las legumbres y añadir agua limpia o líquido sin sal para controlar mejor el resultado.</p><h2>La idea útil</h2><p><strong>Enjuagar legumbres de bote es opcional: hazlo cuando quieras reducir sodio o eliminar sabor y viscosidad del líquido.</strong> Si compras una conserva sin sal o necesitas el líquido para una receta, no hay una razón nutricional universal para desecharlo.</p><h2>Una forma sencilla de decidir qué hacer con el líquido del bote</h2><p>Si las legumbres van a una ensalada, un bol de cereales, tacos o una preparación donde el líquido estorbaría, escurrir y enjuagar suele ser la opción más limpia. Se elimina almidón superficial, cambia el sabor y puede reducir de forma apreciable el sodio. Basta un enjuague breve con agua; no hay una ventaja de seguridad en dejar las legumbres en remojo porque la conserva ya está cocinada.</p><p>En un guiso, una sopa o un puré espeso, conservar parte del líquido puede ser útil. El almidón disuelto aporta cuerpo y el sabor puede integrarse bien. Ahí el principal intercambio es el sodio. Puedes elegir una conserva sin sal añadida o reducida en sodio, usar solo parte del líquido y ajustar la sal del resto de la receta. Es más flexible que tratar el enjuague como una norma absoluta.</p><p>El líquido de los garbanzos merece una consideración aparte porque el aquafaba puede montar espuma y ayudar a emulsionar. Si quieres usarlo en una mousse, una preparación tipo merengue o una salsa, guárdalo antes de enjuagar los garbanzos. Después puedes lavar los garbanzos por separado si la receta agradece un sabor más limpio.</p><p>Una vez abierto el envase, pasa las sobras a un recipiente limpio y tapado y guárdalas en la nevera. La distinción útil es clara: enjuaga cuando buscas menos sodio y una superficie más limpia; conserva parte del líquido cuando su almidón, sabor o capacidad de espumar te sirven en la receta.</p><p>Si el objetivo es reducir sal, compara etiquetas antes de dar por hecho que todas las conservas necesitan el mismo tratamiento. Un producto sin sal añadida puede contener menos sodio sin enjuagar que una lata estándar después de escurrir. En cambio, unas legumbres sazonadas o en salsa pueden seguir siendo saladas porque parte del condimento queda adherido. La tabla nutricional marca el punto de partida y el enjuague es una herramienta adicional.</p><p>La textura también cuenta. Las legumbres enjuagadas quedan más secas por fuera y se doran mejor en sartén u horno. Con parte del líquido funcionan mejor cuando buscas una base cremosa. Ningún método es “correcto” para todas las recetas. Decide primero si quieres menos sodio, sabor más limpio, superficie seca o más cuerpo y actúa en función de eso.</p>",
+  "faq": [
+    {
+      "question": "¿Enjuagar legumbres de bote reduce el sodio?",
+      "answer": "Sí. En un estudio multimarcas, escurrir redujo el sodio 36% de media y escurrir más enjuagar lo redujo 41%."
+    },
+    {
+      "question": "¿Es malo usar el líquido de los garbanzos?",
+      "answer": "No. El líquido, conocido como aquafaba, es comestible y se utiliza incluso por su capacidad para formar espumas y emulsiones."
+    },
+    {
+      "question": "¿Hay que enjuagar una conserva sin sal añadida?",
+      "answer": "No por obligación nutricional. Puedes hacerlo por textura o sabor, pero su ventaja para reducir sodio será mucho menor."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Journal of Culinary Science & Technology — Sodium Reduction in Canned Beans After Draining, Rinsing",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/15428052.2011.582405",
+      "note": "Cuantifica una reducción media de sodio del 36% con escurrido y 41% con escurrido más enjuagado."
+    },
+    {
+      "name": "National Academies — Strategies to Reduce Sodium Intake",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK50952/",
+      "note": "Resume la evidencia de reducción de sodio al escurrir y enjuagar legumbres en conserva."
+    },
+    {
+      "name": "Current Opinion in Food Science — Upcycling aquafaba",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S2214799324000754",
+      "note": "Describe proteínas, fibra soluble y saponinas del agua de cocción de legumbres y sus propiedades funcionales."
+    }
+  ],
+  "image": {
+    "concept": "Garbanzos de conserva en un colador bajo un chorro suave de agua junto a un cuenco con el líquido de aquafaba reservado, fotografía editorial sin texto.",
+    "alt": "Legumbres de bote siendo escurridas y enjuagadas"
+  },
+  "status": "publish"
+}
