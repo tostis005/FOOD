@@ -1,0 +1,37 @@
+name: Temporary priority 19 export
+on:
+  push:
+    branches: [tmp-quality-priority-19-export]
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect exact source JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p export/content/articles/es export/content/articles/en
+          ids='246 519 104 314 208 558 134 473 707 710 317 495 543 568 471 696 432 383 389 517'
+          count=0
+          for id in $ids; do
+            for lang in es en; do
+              matches=(content/articles/$lang/${id}-*.json)
+              if [ "${#matches[@]}" -ne 1 ] || [ ! -f "${matches[0]}" ]; then
+                echo "Expected exactly one $lang file for $id" >&2
+                exit 1
+              fi
+              python -m json.tool "${matches[0]}" >/dev/null
+              cp "${matches[0]}" "export/${matches[0]}"
+              count=$((count+1))
+            done
+          done
+          test "$count" -eq 40
+          test "$(find export/content/articles -type f -name '*.json' | wc -l)" -eq 40
+      - name: Upload source JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority19-source-json
+          path: export/content/articles
+          if-no-files-found: error
+          retention-days: 90
