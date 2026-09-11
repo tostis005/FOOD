@@ -1,0 +1,41 @@
+name: Temporary priority 18 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-18-export
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Collect exact source JSON
+        shell: python
+        run: |
+          import json, pathlib, shutil
+          paths = ['content/articles/es/509-manteca-cacao-que-es-tipos-grasa.json', 'content/articles/en/509-cocoa-butter-what-it-is-fat-types.json', 'content/articles/es/563-levadura-nutricional-que-es-que-aporta.json', 'content/articles/en/563-nutritional-yeast-what-it-is-nutrition.json', 'content/articles/es/705-sin-azucar-o-sin-azucares-anadidos.json', 'content/articles/en/705-sugar-free-vs-no-added-sugar.json', 'content/articles/es/393-yogur-proteina-calcio-grasa.json', 'content/articles/en/393-yogurt-protein-calcium-fat-nutrition.json', 'content/articles/es/351-cuanto-duran-patatas-almacenadas.json', 'content/articles/en/351-how-long-potatoes-last-properly-stored.json', 'content/articles/es/442-por-que-platanos-se-ponen-negros.json', 'content/articles/en/442-why-bananas-turn-black.json', 'content/articles/es/702-azucar-coco-o-normal.json', 'content/articles/en/702-coconut-sugar-vs-regular-sugar.json', 'content/articles/es/709-eritritol-xilitol-sorbitol-diferencias.json', 'content/articles/en/709-erythritol-xylitol-sorbitol.json', 'content/articles/es/366-pasta-blanca-vs-integral.json', 'content/articles/en/366-white-vs-whole-wheat-pasta.json', 'content/articles/es/129-alimentos-ricos-proteina-no-carne.json', 'content/articles/en/129-high-protein-foods-not-meat.json', 'content/articles/es/523-nori-vs-wakame-diferencias-nutricionales.json', 'content/articles/en/523-nori-vs-wakame-nutrition-differences.json', 'content/articles/es/141-alimentos-mas-ricos-prebioticos.json', 'content/articles/en/141-foods-richest-prebiotics.json', 'content/articles/es/467-hay-que-guardar-manzanas-nevera.json', 'content/articles/en/467-should-apples-be-refrigerated.json', 'content/articles/es/825-remolacha-blanda-arrugada.json', 'content/articles/en/825-soft-wrinkled-beet.json', 'content/articles/es/228-pescados-con-mas-omega3.json', 'content/articles/en/228-fish-highest-omega3.json', 'content/articles/es/420-se-puede-congelar-aguacate.json', 'content/articles/en/420-can-you-freeze-avocado.json', 'content/articles/es/708-alcoholes-azucar-que-son.json', 'content/articles/en/708-sugar-alcohols.json', 'content/articles/es/491-pseudocereales-quinoa-amaranto-trigo-sarraceno.json', 'content/articles/en/491-pseudocereals-quinoa-amaranth-buckwheat.json', 'content/articles/es/715-multicereal-o-integral.json', 'content/articles/en/715-multigrain-vs-whole-grain.json', 'content/articles/es/548-crema-cacahuete-vs-crema-almendras.json', 'content/articles/en/548-peanut-butter-vs-almond-butter.json']
+          out = pathlib.Path('priority18-source')
+          if out.exists():
+              shutil.rmtree(out)
+          for s in paths:
+              p = pathlib.Path(s)
+              if not p.is_file():
+                  raise SystemExit(f'Missing source: {s}')
+              json.loads(p.read_text(encoding='utf-8'))
+              dest = out / p
+              dest.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(p, dest)
+          found = list(out.rglob('*.json'))
+          if len(found) != 40:
+              raise SystemExit(f'Expected 40 JSON, found {len(found)}')
+          print('EXPORTED', len(found))
+
+      - name: Upload source JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority18-source-json
+          path: priority18-source
+          if-no-files-found: error
