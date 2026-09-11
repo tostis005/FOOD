@@ -1,0 +1,75 @@
+name: Temporary priority 16 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-16-export
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout main
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 1
+
+      - name: Collect priority 16 source JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p /tmp/priority16-source/en /tmp/priority16-source/es
+          cp content/articles/en/223-how-long-meat-freezer.json /tmp/priority16-source/en/
+          cp content/articles/en/425-should-you-rinse-pasta-after-cooking.json /tmp/priority16-source/en/
+          cp content/articles/en/077-highest-fiber-seeds.json /tmp/priority16-source/en/
+          cp content/articles/en/368-how-to-store-opened-whole-spanish-ham.json /tmp/priority16-source/en/
+          cp content/articles/en/479-quinoa-protein-fiber-nutrition.json /tmp/priority16-source/en/
+          cp content/articles/en/730-bone-broth-vs-regular-broth.json /tmp/priority16-source/en/
+          cp content/articles/en/243-why-meat-changes-color-not-spoiled.json /tmp/priority16-source/en/
+          cp content/articles/en/415-black-spots-inside-potato.json /tmp/priority16-source/en/
+          cp content/articles/en/433-lowest-calorie-vegetables.json /tmp/priority16-source/en/
+          cp content/articles/en/043-highest-zinc-foods.json /tmp/priority16-source/en/
+          cp content/articles/en/221-rinse-canned-legumes.json /tmp/priority16-source/en/
+          cp content/articles/en/336-can-you-eat-white-fat-iberian-ham.json /tmp/priority16-source/en/
+          cp content/articles/en/355-boiled-vs-fried-potatoes.json /tmp/priority16-source/en/
+          cp content/articles/en/416-how-to-slow-avocado-ripening.json /tmp/priority16-source/en/
+          cp content/articles/en/595-grass-fed-vs-grain-fed-beef.json /tmp/priority16-source/en/
+          cp content/articles/en/735-cold-brew-vs-hot-coffee.json /tmp/priority16-source/en/
+          cp content/articles/en/428-can-you-eat-stale-bread.json /tmp/priority16-source/en/
+          cp content/articles/en/343-why-olive-oil-stings-throat.json /tmp/priority16-source/en/
+          cp content/articles/en/394-how-many-times-reuse-frying-oil.json /tmp/priority16-source/en/
+          cp content/articles/en/472-how-long-kefir-lasts-fridge.json /tmp/priority16-source/en/
+          cp content/articles/es/223-cuanto-dura-carne-congelador.json /tmp/priority16-source/es/
+          cp content/articles/es/425-hay-que-lavar-pasta-despues-cocerla.json /tmp/priority16-source/es/
+          cp content/articles/es/077-semillas-con-mas-fibra.json /tmp/priority16-source/es/
+          cp content/articles/es/368-como-conservar-jamon-empezado.json /tmp/priority16-source/es/
+          cp content/articles/es/479-quinoa-proteina-fibra-valor-nutricional.json /tmp/priority16-source/es/
+          cp content/articles/es/730-caldo-huesos-o-tradicional.json /tmp/priority16-source/es/
+          cp content/articles/es/243-por-que-carne-cambia-color-sin-estar-mala.json /tmp/priority16-source/es/
+          cp content/articles/es/415-manchas-negras-dentro-patata.json /tmp/priority16-source/es/
+          cp content/articles/es/433-verduras-con-menos-calorias.json /tmp/priority16-source/es/
+          cp content/articles/es/043-alimentos-con-mas-zinc.json /tmp/priority16-source/es/
+          cp content/articles/es/221-enjuagar-legumbres-bote.json /tmp/priority16-source/es/
+          cp content/articles/es/336-se-come-grasa-blanca-jamon-iberico.json /tmp/priority16-source/es/
+          cp content/articles/es/355-patata-cocida-vs-frita.json /tmp/priority16-source/es/
+          cp content/articles/es/416-ralentizar-maduracion-aguacate.json /tmp/priority16-source/es/
+          cp content/articles/es/595-carne-pasto-vs-grano-diferencias.json /tmp/priority16-source/es/
+          cp content/articles/es/735-cafe-preparado-frio-o-caliente.json /tmp/priority16-source/es/
+          cp content/articles/es/428-se-puede-comer-pan-duro.json /tmp/priority16-source/es/
+          cp content/articles/es/343-por-que-aceite-oliva-pica-garganta.json /tmp/priority16-source/es/
+          cp content/articles/es/394-cuantas-veces-reutilizar-aceite-freir.json /tmp/priority16-source/es/
+          cp content/articles/es/472-cuanto-dura-kefir-nevera-conservar.json /tmp/priority16-source/es/
+          test "$(find /tmp/priority16-source -type f -name '*.json' | wc -l)" -eq 40
+          test "$(find /tmp/priority16-source/en -type f -name '*.json' | wc -l)" -eq 20
+          test "$(find /tmp/priority16-source/es -type f -name '*.json' | wc -l)" -eq 20
+
+      - name: Upload source JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority16-source-json
+          path: /tmp/priority16-source
+          if-no-files-found: error
