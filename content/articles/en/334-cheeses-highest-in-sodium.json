@@ -1,1 +1,73 @@
-{"schema_version":1,"id":"en-334-cheeses-highest-in-sodium","article_number":334,"translation_group":"334-cheeses-highest-salt","language":"en","locale":"en-US","market_context":"United States; common cheeses and Nutrition Facts labels","title":"Cheeses highest in sodium","slug":"cheeses-highest-in-sodium","seo":{"title":"Cheeses highest in sodium: a per-100-gram ranking","meta_description":"Roquefort, Parmesan and feta are among the most sodium-dense cheeses. Compare per-100-g values with real servings so a small Parmesan sprinkle is not treated like a 100 g portion.","search_intent":"Rank common cheeses by sodium and explain why serving size and brand matter."},"excerpt":"Roquefort, Parmesan and feta are among the most sodium-dense cheeses. USDA references put Roquefort and grated Parmesan near 1,800 mg sodium per 100 g, while some mozzarella and Swiss cheeses are far lower. Actual serving size and the specific brand determine how much sodium reaches the plate.","taxonomy":{"food_family":"dairy-cheese","food_subcategories":["cheese","salt","sodium","aged-cheese"],"article_types":["rankings","nutrition-composition"],"primary_article_type":"rankings"},"content_html":"<p>Cheese can contain a lot of sodium because salt is part of cheesemaking: it shapes flavor, moisture, microbial growth and texture. But the range between styles is enormous. <strong>A Roquefort reference can contain roughly nine times as much sodium per 100 g as a lower-sodium Swiss reference.</strong></p>\n<h2>Which cheeses are highest in sodium?</h2>\n<p>These are USDA reference values per 100 g. Brands and recipes vary, but the numbers show the scale of the difference.</p>\n<table><thead><tr><th>Cheese</th><th>Sodium per 100 g</th><th>Approx. sodium per 1 oz</th></tr></thead><tbody><tr><td>Roquefort</td><td>1,809 mg</td><td>513 mg</td></tr><tr><td>Grated Parmesan</td><td>1,804 mg</td><td>511 mg</td></tr><tr><td>Feta</td><td>1,139 mg</td><td>323 mg</td></tr><tr><td>Gouda</td><td>819 mg</td><td>232 mg</td></tr><tr><td>Whole-milk mozzarella</td><td>486 mg</td><td>138 mg</td></tr><tr><td>Low-fat Swiss</td><td>199 mg</td><td>56 mg</td></tr></tbody></table>\n<p>That range is wide enough that “cheese is salty” is not a very useful nutrition statement by itself.</p>\n<h2>Why blue, brined and aged cheeses often rank high</h2>\n<p>Salt is especially important in brined cheeses such as feta and in many blue cheeses. Hard aged cheeses also lose a great deal of water, which concentrates sodium along with protein and minerals. Parmesan therefore looks extremely high per 100 g even though people often use it in small amounts.</p>\n<h2>Serving size changes the picture</h2>\n<p>A <strong>20 g</strong> sprinkle of the Parmesan reference provides about <strong>361 mg sodium</strong>. A <strong>50 g</strong> serving of the feta reference provides roughly <strong>570 mg</strong>. So the cheese with the higher 100 g number does not necessarily contribute more sodium to a particular meal.</p>\n<h2>Brand variation matters</h2>\n<p>Brining, moisture and aging vary by producer. Reduced-sodium versions can be dramatically different from standard formulations. If sodium is a priority, the package Nutrition Facts panel beats a generic ranking.</p>\n<h2>How to use salty cheese strategically</h2>\n<p>A small amount of a strongly flavored cheese can season a dish while keeping the total portion modest. Pairing it with unsalted or lightly salted ingredients also avoids stacking several sodium sources in the same meal.</p>\n<h2>The practical takeaway</h2>\n<p>Roquefort, Parmesan, feta and other brined or aged cheeses often sit near the high end for sodium. Use <strong>the per-100-g number to compare concentration and the actual serving to judge what you are eating</strong>.</p>","faq":[{"question":"Which cheeses are highest in sodium?","answer":"USDA references put Roquefort and grated Parmesan near 1,800 mg sodium per 100 g, with feta above 1,100 mg."},{"question":"Is feta high in sodium?","answer":"Yes. A USDA reference lists about 1,139 mg sodium per 100 g, or roughly 323 mg per ounce."},{"question":"Does Parmesan always add more sodium than feta?","answer":"Not necessarily. Parmesan is more concentrated per 100 g, but it is often eaten in a much smaller serving."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Official food-composition database used for like-for-like nutrient comparisons."},{"name":"USDA FoodData Central — Cheese, Roquefort","url":"https://fdc.nal.usda.gov/food-search/?query=cheese%20roquefort","note":"Reference sodium concentration for Roquefort."},{"name":"USDA FoodData Central — Cheese, feta","url":"https://fdc.nal.usda.gov/food-search/?query=cheese%20feta","note":"Reference sodium concentration for feta."},{"name":"FAO — Mineral composition of cheeses","url":"https://www.fao.org/4/t4280f/T4280F0g.htm","note":"Comparative background data on sodium across cheese varieties."}],"image":{"concept":"A board with small wedges of Roquefort, Parmesan, feta, Gouda and mozzarella, natural editorial food photography, no text.","alt":"Several cheeses with different sodium levels"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-334-cheeses-highest-in-sodium",
+  "article_number": 334,
+  "translation_group": "334-cheeses-highest-salt",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; common cheeses and Nutrition Facts labels",
+  "title": "Cheeses highest in sodium",
+  "slug": "cheeses-highest-in-sodium",
+  "seo": {
+    "title": "Cheeses highest in sodium: a per-100-gram ranking",
+    "meta_description": "Roquefort, Parmesan and feta are among the most sodium-dense cheeses. Compare per-100-g values with real servings so a small Parmesan sprinkle is not treated like a 100 g portion.",
+    "search_intent": "Rank common cheeses by sodium and explain why serving size and brand matter."
+  },
+  "excerpt": "Roquefort, Parmesan and feta are among the most sodium-dense cheeses. USDA references put Roquefort and grated Parmesan near 1,800 mg sodium per 100 g, while some mozzarella and Swiss cheeses are far lower. Actual serving size and the specific brand determine how much sodium reaches the plate.",
+  "taxonomy": {
+    "food_family": "dairy-cheese",
+    "food_subcategories": [
+      "cheese",
+      "salt",
+      "sodium",
+      "aged-cheese"
+    ],
+    "article_types": [
+      "rankings",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>Cheese can contain a lot of sodium because salt is part of cheesemaking: it shapes flavor, moisture, microbial growth and texture. But the range between styles is enormous. <strong>A Roquefort reference can contain roughly nine times as much sodium per 100 g as a lower-sodium Swiss reference.</strong></p>\n<h2>Which cheeses are highest in sodium?</h2>\n<p>These are USDA reference values per 100 g. Brands and recipes vary, but the numbers show the scale of the difference.</p>\n<table><thead><tr><th>Cheese</th><th>Sodium per 100 g</th><th>Approx. sodium per 1 oz</th></tr></thead><tbody><tr><td>Roquefort</td><td>1,809 mg</td><td>513 mg</td></tr><tr><td>Grated Parmesan</td><td>1,804 mg</td><td>511 mg</td></tr><tr><td>Feta</td><td>1,139 mg</td><td>323 mg</td></tr><tr><td>Gouda</td><td>819 mg</td><td>232 mg</td></tr><tr><td>Whole-milk mozzarella</td><td>486 mg</td><td>138 mg</td></tr><tr><td>Low-fat Swiss</td><td>199 mg</td><td>56 mg</td></tr></tbody></table>\n<p>That range is wide enough that “cheese is salty” is not a very useful nutrition statement by itself.</p>\n<h2>Why blue, brined and aged cheeses often rank high</h2>\n<p>Salt is especially important in brined cheeses such as feta and in many blue cheeses. Hard aged cheeses also lose a great deal of water, which concentrates sodium along with protein and minerals. Parmesan therefore looks extremely high per 100 g even though people often use it in small amounts.</p>\n<h2>Serving size changes the picture</h2>\n<p>A <strong>20 g</strong> sprinkle of the Parmesan reference provides about <strong>361 mg sodium</strong>. A <strong>50 g</strong> serving of the feta reference provides roughly <strong>570 mg</strong>. So the cheese with the higher 100 g number does not necessarily contribute more sodium to a particular meal.</p>\n<h2>Brand variation matters</h2>\n<p>Brining, moisture and aging vary by producer. Reduced-sodium versions can be dramatically different from standard formulations. If sodium is a priority, the package Nutrition Facts panel beats a generic ranking.</p>\n<h2>How to use salty cheese strategically</h2>\n<p>A small amount of a strongly flavored cheese can season a dish while keeping the total portion modest. Pairing it with unsalted or lightly salted ingredients also avoids stacking several sodium sources in the same meal.</p>\n<h2>How to lower sodium while keeping cheese in the meal</h2>\n<p>A sodium ranking is most useful when it changes how cheese is used, not when it turns one variety into a forbidden food. Very salty cheeses can work well in small amounts because their flavor carries through an entire dish. A little feta in a large salad, a small amount of blue cheese in a sauce, or a light grating of Parmesan over vegetables may contribute less sodium than a much larger portion of a moderately salty cheese. Portion and culinary role therefore belong beside the per-100-gram number.</p>\n<p>Package labels are especially important for brined and processed products. Two fetas, cottage cheeses, sliced cheeses, or cheese spreads can differ meaningfully because manufacturers use different salt levels and serving sizes. Comparing sodium per serving and, when available, per 100 grams helps prevent a misleading comparison between unequal portions. If sodium is a priority, checking several brands can sometimes produce a larger reduction than switching to a completely different style that you do not actually enjoy.</p>\n<p>The rest of the meal can either magnify or soften the sodium load. Cheese served with cured meat, olives, pickles, salty bread, commercial sauces, and packaged crackers can stack multiple sources quickly. Using the same cheese with fresh vegetables, fruit, unsalted grains, potatoes, or legumes spreads its flavor through a less salty plate. This is also why restaurant dishes can be difficult to judge from the cheese alone: the sauce, bread, seasoning, and processed ingredients may contribute as much or more sodium.</p>\n<p>If you eat cheese frequently, think in patterns rather than isolated rankings. Rotate styles, use strongly flavored cheeses as accents, and let lower-sodium meals surround occasions when you choose a salty favorite. People who have been given a medical sodium target should use the label and their clinician's advice rather than a generic list, because the appropriate limit is individual. For everyone else, the ranking is a tool for awareness: it shows where modest portion changes can make the biggest difference.</p><p>Another useful tactic is to decide where the salt should come from. If a dish contains feta or Parmesan, it may need less added salt during cooking. If a sandwich already includes a salty cheese, choosing fresh vegetables and an unsalted protein can prevent unnecessary stacking. This kind of substitution is more realistic than trying to remove sodium from a cheese after it is made. Rinsing brined cheese may change surface salt and flavor somewhat, but the sodium incorporated during production remains. The label and portion are therefore the main levers available at home.</p><h2>The practical takeaway</h2>\n<p>Roquefort, Parmesan, feta and other brined or aged cheeses often sit near the high end for sodium. Use <strong>the per-100-g number to compare concentration and the actual serving to judge what you are eating</strong>.</p>",
+  "faq": [
+    {
+      "question": "Which cheeses are highest in sodium?",
+      "answer": "USDA references put Roquefort and grated Parmesan near 1,800 mg sodium per 100 g, with feta above 1,100 mg."
+    },
+    {
+      "question": "Is feta high in sodium?",
+      "answer": "Yes. A USDA reference lists about 1,139 mg sodium per 100 g, or roughly 323 mg per ounce."
+    },
+    {
+      "question": "Does Parmesan always add more sodium than feta?",
+      "answer": "Not necessarily. Parmesan is more concentrated per 100 g, but it is often eaten in a much smaller serving."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Official food-composition database used for like-for-like nutrient comparisons."
+    },
+    {
+      "name": "USDA FoodData Central — Cheese, Roquefort",
+      "url": "https://fdc.nal.usda.gov/food-search/?query=cheese%20roquefort",
+      "note": "Reference sodium concentration for Roquefort."
+    },
+    {
+      "name": "USDA FoodData Central — Cheese, feta",
+      "url": "https://fdc.nal.usda.gov/food-search/?query=cheese%20feta",
+      "note": "Reference sodium concentration for feta."
+    },
+    {
+      "name": "FAO — Mineral composition of cheeses",
+      "url": "https://www.fao.org/4/t4280f/T4280F0g.htm",
+      "note": "Comparative background data on sodium across cheese varieties."
+    }
+  ],
+  "image": {
+    "concept": "A board with small wedges of Roquefort, Parmesan, feta, Gouda and mozzarella, natural editorial food photography, no text.",
+    "alt": "Several cheeses with different sodium levels"
+  },
+  "status": "publish"
+}

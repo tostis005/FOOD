@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-544-chia-vs-hemp-seeds","article_number":544,"translation_group":"544-chia-vs-hemp-seeds","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"Chia vs. hemp seeds","slug":"chia-vs-hemp-seeds","seo":{"title":"Chia vs. hemp seeds: protein, fiber and omega-3","meta_description":"Per 30 g, chia provides ~10.3 g fiber and 5.3 g ALA; hulled hemp provides ~9.5 g protein and 210 mg magnesium. Compare calories and fats too.","search_intent":"Compare chia and hemp seeds for protein, fiber, omega-3 and minerals"},"excerpt":"Chia and hulled hemp seeds are both nutrient-dense, but they excel in different areas. Per 30 g, chia provides about 146 calories, 5.0 g protein, 10.3 g fiber and 5.3 g ALA omega-3; hulled hemp provides about 166 calories, 9.5 g protein, 1.2 g fiber and 2.6 g ALA. Hemp also leads in magnesium at about 210 mg per 30 g versus 101 mg in chia.","taxonomy":{"food_family":"nuts-seeds","food_subcategories":[],"article_types":["comparisons","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Chia and hemp seeds often share the same shelf and both are described as omega-3-rich, but they do different nutritional jobs. <strong>Chia stands out for fiber and ALA; hulled hemp stands out for protein and magnesium.</strong></p><table><thead><tr><th>Per 30 g</th><th>Chia</th><th>Hulled hemp</th></tr></thead><tbody><tr><td>Calories</td><td>~146</td><td>~166</td></tr><tr><td>Protein</td><td>~5.0 g</td><td><strong>~9.5 g</strong></td></tr><tr><td>Fiber</td><td><strong>~10.3 g</strong></td><td>~1.2 g</td></tr><tr><td>Fat</td><td>~9.2 g</td><td>~14.6 g</td></tr><tr><td>ALA omega-3</td><td><strong>~5.3 g</strong></td><td>~2.6 g</td></tr><tr><td>Magnesium</td><td>~101 mg</td><td><strong>~210 mg</strong></td></tr></tbody></table><p>The huge fiber difference partly reflects the fact that the hemp reference is <strong>hulled</strong>: removing the outer layer leaves a softer interior concentrated in fat and protein.</p><h2>For protein: hemp</h2><p>Hulled hemp provides about 31.6 g protein/100 g versus 16.5 g in chia. At 30 g, that is about 9.5 versus 5 g.</p><h2>For fiber: chia by a wide margin</h2><p>Dried chia contains about 34.4 g fiber/100 g; hulled hemp about 4 g. Thirty grams chia therefore supplies just over 10 g fiber.</p><p>Chia's mucilage also absorbs water and creates the gel used in puddings and hydrated mixtures.</p><h2>Both provide plant omega-3, but chia provides more</h2><p>The main omega-3 is <strong>alpha-linolenic acid (ALA)</strong>. USDA references show about 17.8 g/100 g in chia and 8.7 g in hulled hemp. This is not EPA or DHA; conversion from ALA to long-chain omega-3s is limited.</p><h2>Hemp leads in magnesium</h2><p>Hulled hemp provides about 700 mg magnesium/100 g versus 335 mg in chia—roughly 210 versus 101 mg per 30 g.</p><h2>Which should you choose?</h2><p>For maximizing fiber or ALA, chia has the advantage. For protein and magnesium with a soft nutty texture, hulled hemp is stronger. <strong>They are not perfect substitutes, and using both can make more sense than forcing a single winner.</strong></p>","faq":[{"question":"Which has more protein, chia or hemp?","answer":"Hulled hemp: about 31.6 g/100 g versus 16.5 g in chia; roughly 9.5 versus 5 g per 30 g."},{"question":"Which has more fiber?","answer":"Chia by a large margin: about 34.4 g/100 g versus 4 g in hulled hemp."},{"question":"Which has more omega-3?","answer":"Chia provides more ALA: about 17.8 g/100 g versus 8.7 g in hulled hemp."},{"question":"Is the omega-3 in these seeds DHA?","answer":"No. It is primarily ALA, which the body converts only partially to EPA and DHA."}],"sources":[{"name":"USDA FoodData Central — Chia seeds, dried (FDC 170554)","url":"https://fdc.nal.usda.gov/fdc-app.html#/food-details/170554/nutrients","note":"Protein, fiber, fat, magnesium and ALA in dried chia."},{"name":"USDA FoodData Central — Hemp seed, hulled (FDC 170148)","url":"https://fdc.nal.usda.gov/fdc-app.html#/food-details/170148/nutrients","note":"Protein, fiber, fat, magnesium and fatty acids in hulled hemp."}],"image":{"concept":"Equal 30 g servings of chia and hulled hemp with bars for protein, fiber, ALA and magnesium.","alt":"Chia and hemp seeds compared for protein, fiber, omega-3 and magnesium"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-544-chia-vs-hemp-seeds",
+  "article_number": 544,
+  "translation_group": "544-chia-vs-hemp-seeds",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "Chia vs. hemp seeds",
+  "slug": "chia-vs-hemp-seeds",
+  "seo": {
+    "title": "Chia vs. hemp seeds: protein, fiber and omega-3",
+    "meta_description": "Per 30 g, chia provides ~10.3 g fiber and 5.3 g ALA; hulled hemp provides ~9.5 g protein and 210 mg magnesium. Compare calories and fats too.",
+    "search_intent": "Compare chia and hemp seeds for protein, fiber, omega-3 and minerals"
+  },
+  "excerpt": "Chia and hulled hemp seeds are both nutrient-dense, but they excel in different areas. Per 30 g, chia provides about 146 calories, 5.0 g protein, 10.3 g fiber and 5.3 g ALA omega-3; hulled hemp provides about 166 calories, 9.5 g protein, 1.2 g fiber and 2.6 g ALA. Hemp also leads in magnesium at about 210 mg per 30 g versus 101 mg in chia.",
+  "taxonomy": {
+    "food_family": "nuts-seeds",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Chia and hemp seeds often share the same shelf and both are described as omega-3-rich, but they do different nutritional jobs. <strong>Chia stands out for fiber and ALA; hulled hemp stands out for protein and magnesium.</strong></p><table><thead><tr><th>Per 30 g</th><th>Chia</th><th>Hulled hemp</th></tr></thead><tbody><tr><td>Calories</td><td>~146</td><td>~166</td></tr><tr><td>Protein</td><td>~5.0 g</td><td><strong>~9.5 g</strong></td></tr><tr><td>Fiber</td><td><strong>~10.3 g</strong></td><td>~1.2 g</td></tr><tr><td>Fat</td><td>~9.2 g</td><td>~14.6 g</td></tr><tr><td>ALA omega-3</td><td><strong>~5.3 g</strong></td><td>~2.6 g</td></tr><tr><td>Magnesium</td><td>~101 mg</td><td><strong>~210 mg</strong></td></tr></tbody></table><p>The huge fiber difference partly reflects the fact that the hemp reference is <strong>hulled</strong>: removing the outer layer leaves a softer interior concentrated in fat and protein.</p><h2>For protein: hemp</h2><p>Hulled hemp provides about 31.6 g protein/100 g versus 16.5 g in chia. At 30 g, that is about 9.5 versus 5 g.</p><h2>For fiber: chia by a wide margin</h2><p>Dried chia contains about 34.4 g fiber/100 g; hulled hemp about 4 g. Thirty grams chia therefore supplies just over 10 g fiber.</p><p>Chia's mucilage also absorbs water and creates the gel used in puddings and hydrated mixtures.</p><h2>Both provide plant omega-3, but chia provides more</h2><p>The main omega-3 is <strong>alpha-linolenic acid (ALA)</strong>. USDA references show about 17.8 g/100 g in chia and 8.7 g in hulled hemp. This is not EPA or DHA; conversion from ALA to long-chain omega-3s is limited.</p><h2>Hemp leads in magnesium</h2><p>Hulled hemp provides about 700 mg magnesium/100 g versus 335 mg in chia—roughly 210 versus 101 mg per 30 g.</p><h2>Using chia and hemp for different jobs</h2>\n<p>Chia behaves almost like a functional ingredient because it absorbs water and forms a gel. That property makes it useful in puddings, overnight oats, yogurt, smoothies, and baking where extra thickness is welcome. The same swelling contributes to its high fiber impact, so people who are not used to much fiber may prefer to start with a modest amount and drink enough fluids. Eating large dry spoonfuls is less practical than mixing chia into moist foods where it can hydrate before or during consumption.</p>\n<p>Hulled hemp seeds behave more like a soft, nutty topping. They do not gel, and their higher protein content makes them easy to add to cereal, salads, soups, toast, or yogurt without changing texture dramatically. They also contribute magnesium and unsaturated fats. Because the seeds are energy-dense, a normal spoonful can add meaningful calories as well as nutrients; that is not a problem, but it matters if someone is adding several “healthy extras” to the same meal.</p>\n<p>The omega-3 comparison needs one important qualifier: the plant omega-3 in these seeds is alpha-linolenic acid, or ALA. The body can convert some ALA to the longer-chain omega-3 fats EPA and DHA, but conversion is limited. Chia therefore has a strong position as an ALA source, yet it should not be described as nutritionally identical to fatty fish or algae-derived EPA/DHA. Hemp contributes ALA too, simply in a different balance with other fats.</p>\n<p>There is no reason to choose only one seed. Someone focused on fiber may favor chia in breakfast foods, while a person looking for a little more plant protein may scatter hemp seeds over meals. Using both in smaller amounts can combine their strengths. The useful comparison is not “which superfood wins,” but which nutrient and texture you want from the ingredient you are adding.</p><p>Storage is worth considering because both seeds contain unsaturated fats that can deteriorate with heat, light, and time. Buying an amount you will use, closing the package well, and following the manufacturer's storage instructions helps preserve flavor. Ground chia exposes more surface area than whole seeds, while hulled hemp is already relatively delicate because the protective outer shell has been removed. If either product smells paint-like, bitter, or distinctly rancid, replacing it makes more sense than trying to hide the flavor in a smoothie or baked dish.</p><p>For nutrition tracking, the serving on the package is a better anchor than the word “seed.” A tablespoon of chia and a tablespoon of hulled hemp do not weigh exactly the same, so spoon-for-spoon comparisons can differ from 100-gram tables. If you use them regularly, measuring a typical portion once can make future estimates easier. After that, the practical choice can return to what matters most: chia for fiber and gelling, hemp for protein and a soft nutty texture, or both when those roles complement the meal.</p><h2>Which should you choose?</h2><p>For maximizing fiber or ALA, chia has the advantage. For protein and magnesium with a soft nutty texture, hulled hemp is stronger. <strong>They are not perfect substitutes, and using both can make more sense than forcing a single winner.</strong></p>",
+  "faq": [
+    {
+      "question": "Which has more protein, chia or hemp?",
+      "answer": "Hulled hemp: about 31.6 g/100 g versus 16.5 g in chia; roughly 9.5 versus 5 g per 30 g."
+    },
+    {
+      "question": "Which has more fiber?",
+      "answer": "Chia by a large margin: about 34.4 g/100 g versus 4 g in hulled hemp."
+    },
+    {
+      "question": "Which has more omega-3?",
+      "answer": "Chia provides more ALA: about 17.8 g/100 g versus 8.7 g in hulled hemp."
+    },
+    {
+      "question": "Is the omega-3 in these seeds DHA?",
+      "answer": "No. It is primarily ALA, which the body converts only partially to EPA and DHA."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central — Chia seeds, dried (FDC 170554)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170554/nutrients",
+      "note": "Protein, fiber, fat, magnesium and ALA in dried chia."
+    },
+    {
+      "name": "USDA FoodData Central — Hemp seed, hulled (FDC 170148)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/170148/nutrients",
+      "note": "Protein, fiber, fat, magnesium and fatty acids in hulled hemp."
+    }
+  ],
+  "image": {
+    "concept": "Equal 30 g servings of chia and hulled hemp with bars for protein, fiber, ALA and magnesium.",
+    "alt": "Chia and hemp seeds compared for protein, fiber, omega-3 and magnesium"
+  },
+  "status": "publish"
+}
