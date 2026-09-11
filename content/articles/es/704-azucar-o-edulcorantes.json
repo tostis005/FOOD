@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-704-azucar-o-edulcorantes","article_number":704,"translation_group":"704-sugar-vs-sweeteners","language":"es","locale":"es-ES","market_context":"España/Unión Europea; nutrición, aditivos y cocina con referencias europeas","title":"Azúcar o edulcorantes: qué ocurre realmente al sustituir uno por otro","slug":"azucar-o-edulcorantes","seo":{"title":"Azúcar o edulcorantes: qué cambia al sustituir","meta_description":"Un edulcorante puede reemplazar el dulzor del azúcar sin reemplazar su volumen, caramelización, humedad o fermentación. El resultado depende de si es intenso, poliol o mezcla de horneado.","search_intent":"Explicar qué cambia nutricional y culinariamente al sustituir azúcar por edulcorantes."},"excerpt":"Cambiar azúcar por edulcorante puede reducir azúcares y, según el producto, calorías; pero no es una sustitución química simple. El azúcar también aporta masa, retiene agua, favorece el dorado y modifica textura y congelación.","taxonomy":{"food_family":"cocoa-sweets","food_subcategories":["sugar","sweeteners"],"article_types":["comparisons","nutrition-concepts","cooking-science"],"primary_article_type":"nutrition-concepts"},"content_html":"<p>Si solo importara el sabor dulce, sustituir azúcar sería fácil. <strong>El problema es que 100 g de azúcar hacen mucho más que endulzar: aportan 100 g de materia, atraen agua, participan en el dorado y cambian la textura de masas, salsas y helados.</strong></p><h2>Los edulcorantes intensos reemplazan dulzor, no volumen</h2><p>Sucralosa, acesulfamo K o glucósidos de esteviol pueden ser cientos de veces más dulces que la sacarosa. Se necesitan cantidades pequeñas, de modo que una receta pierde el volumen físico que aportaba el azúcar si no existe otro ingrediente de relleno.</p><h2>Los polioles se comportan de otra manera</h2><p>Eritritol, xilitol y sorbitol sí se usan en cantidades mayores. Aportan cuerpo y dulzor, pero tienen propiedades distintas: algunos enfrían al disolverse, cristalizan con facilidad o retienen agua de forma diferente. Además, el exceso de determinados polioles puede causar molestias digestivas.</p><h2>En repostería cambian cuatro funciones clave</h2><table><thead><tr><th>Función del azúcar</th><th>Qué puede pasar al retirarlo</th></tr></thead><tbody><tr><td>Volumen</td><td>Menos masa y estructura</td></tr><tr><td>Retención de agua</td><td>Bizcochos más secos o vida útil distinta</td></tr><tr><td>Dorado/caramelización</td><td>Color y aroma más débiles</td></tr><tr><td>Control de congelación</td><td>Helados más duros si no se reformula</td></tr></tbody></table><p>También alimenta a la levadura en algunas masas y modifica cuánto se extienden las galletas.</p><h2>Reducir azúcar no exige imitarlo siempre</h2><p>En café, yogur o una bebida, sustituir dulzor es sencillo porque la estructura casi no depende del azúcar. En un caramelo, una mermelada o un bizcocho, la receta necesita una formulación pensada para el nuevo ingrediente.</p><p><strong>La mejor sustitución depende del trabajo que hacía el azúcar, no solo del número de calorías del edulcorante.</strong></p>","faq":[{"question":"¿Los edulcorantes tienen cero calorías?","answer":"No todos. Los intensos se usan en cantidades tan pequeñas que aportan muy poca energía, mientras varios polioles sí aportan calorías, aunque menos que el azúcar."},{"question":"¿Puedo sustituir azúcar 1:1 por estevia?","answer":"No si se trata de extracto intenso. Puede igualar dulzor con una cantidad mínima, pero no volumen ni otras funciones del azúcar."},{"question":"¿Por qué un bizcocho sin azúcar queda diferente?","answer":"Porque el azúcar interviene en humedad, volumen, dorado, aireación y estructura, no solo en el sabor."}],"sources":[{"name":"EFSA — Sweeteners","url":"https://www.efsa.europa.eu/en/topics/topic/sweeteners","note":"Evaluación y seguridad de edulcorantes autorizados en la UE."},{"name":"European Commission — Food additives database","url":"https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/database_en","note":"Condiciones de uso de edulcorantes en alimentos de la UE."}],"image":{"concept":"Azúcar granulado junto a pequeñas cantidades de varios edulcorantes y una masa de repostería, fotografía editorial sin marcas.","alt":"Azúcar y edulcorantes en cocina"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-704-azucar-o-edulcorantes",
+  "article_number": 704,
+  "translation_group": "704-sugar-vs-sweeteners",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; nutrición, aditivos y cocina con referencias europeas",
+  "title": "Azúcar o edulcorantes: qué ocurre realmente al sustituir uno por otro",
+  "slug": "azucar-o-edulcorantes",
+  "seo": {
+    "title": "Azúcar o edulcorantes: qué cambia al sustituir",
+    "meta_description": "Un edulcorante puede reemplazar el dulzor del azúcar sin reemplazar su volumen, caramelización, humedad o fermentación. El resultado depende de si es intenso, poliol o mezcla de horneado.",
+    "search_intent": "Explicar qué cambia nutricional y culinariamente al sustituir azúcar por edulcorantes."
+  },
+  "excerpt": "Cambiar azúcar por edulcorante puede reducir azúcares y, según el producto, calorías; pero no es una sustitución química simple. El azúcar también aporta masa, retiene agua, favorece el dorado y modifica textura y congelación.",
+  "taxonomy": {
+    "food_family": "cocoa-sweets",
+    "food_subcategories": [
+      "sugar",
+      "sweeteners"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-concepts",
+      "cooking-science"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Si solo importara el sabor dulce, sustituir azúcar sería fácil. <strong>El problema es que 100 g de azúcar hacen mucho más que endulzar: aportan 100 g de materia, atraen agua, participan en el dorado y cambian la textura de masas, salsas y helados.</strong></p><h2>Los edulcorantes intensos reemplazan dulzor, no volumen</h2><p>Sucralosa, acesulfamo K o glucósidos de esteviol pueden ser cientos de veces más dulces que la sacarosa. Se necesitan cantidades pequeñas, de modo que una receta pierde el volumen físico que aportaba el azúcar si no existe otro ingrediente de relleno.</p><h2>Los polioles se comportan de otra manera</h2><p>Eritritol, xilitol y sorbitol sí se usan en cantidades mayores. Aportan cuerpo y dulzor, pero tienen propiedades distintas: algunos enfrían al disolverse, cristalizan con facilidad o retienen agua de forma diferente. Además, el exceso de determinados polioles puede causar molestias digestivas.</p><h2>En repostería cambian cuatro funciones clave</h2><table><thead><tr><th>Función del azúcar</th><th>Qué puede pasar al retirarlo</th></tr></thead><tbody><tr><td>Volumen</td><td>Menos masa y estructura</td></tr><tr><td>Retención de agua</td><td>Bizcochos más secos o vida útil distinta</td></tr><tr><td>Dorado/caramelización</td><td>Color y aroma más débiles</td></tr><tr><td>Control de congelación</td><td>Helados más duros si no se reformula</td></tr></tbody></table><p>También alimenta a la levadura en algunas masas y modifica cuánto se extienden las galletas.</p><h2>Reducir azúcar no exige imitarlo siempre</h2><p>En café, yogur o una bebida, sustituir dulzor es sencillo porque la estructura casi no depende del azúcar. En un caramelo, una mermelada o un bizcocho, la receta necesita una formulación pensada para el nuevo ingrediente.</p><p><strong>La mejor sustitución depende del trabajo que hacía el azúcar, no solo del número de calorías del edulcorante.</strong></p>\n<h2>Sustituir azúcar cambia dulzor, volumen y a veces la textura</h2>\n<p>El azúcar de mesa no solo endulza. En repostería aporta volumen, favorece el dorado, retiene humedad y modifica la estructura. Un edulcorante de alta intensidad puede dar mucho sabor dulce con poca cantidad, pero no sustituye automáticamente esas funciones físicas. Por eso galletas, helados, mermeladas o bizcochos reducidos en azúcar suelen combinar edulcorantes con fibras, almidones, polialcoholes u otros ingredientes.</p>\n<p>En café o té la sustitución es mucho más sencilla porque la función principal del azúcar es el dulzor. En una bebida sin estructura compleja resulta más fácil anticipar la reducción de calorías y carbohidratos disponibles que en una receta horneada.</p>\n<h2>Los edulcorantes sin azúcar no son una única familia</h2>\n<p>Aspartamo, sucralosa, sacarina, glucósidos de esteviol, extractos de fruta del monje y polialcoholes tienen propiedades distintas. Cambian en intensidad de dulzor, sabor residual, comportamiento con el calor, absorción y límites de uso. Los polialcoholes como xilitol, maltitol, sorbitol o eritritol también aportan volumen y no funcionan igual que los edulcorantes intensos. Algunos pueden causar molestias gastrointestinales en cantidades elevadas.</p>\n<p>Las evaluaciones de seguridad se realizan para compuestos y niveles de ingesta concretos, por lo que no es útil tratarlos como una sustancia idéntica. La lista de ingredientes permite saber qué se ha utilizado realmente y si el producto mezcla varios tipos.</p>\n<h2>A menudo el mayor cambio útil es acostumbrarse a menos dulzor</h2>\n<p>Sustituir grandes cantidades de azúcar por un edulcorante bajo en calorías puede reducir energía y carbohidratos, algo útil en determinadas dietas. Pero un alimento no se vuelve nutricionalmente completo por ser “sin azúcar”. Un caramelo o refresco sin azúcar puede seguir aportando poca fibra, proteína o micronutrientes, mientras que un alimento entero ligeramente dulce ofrece otros nutrientes.</p>\n<p>También se puede reducir de forma gradual: menos azúcar en el café, yogur natural con fruta o cereales menos dulces. La mejor estrategia depende del motivo: controlar calorías, glucemia, salud dental, preferencia de sabor o disminuir el gusto por alimentos muy dulces en general.</p><p>La salud dental ofrece otro motivo para reducir azúcares añadidos aunque las calorías no sean la principal preocupación. La exposición frecuente a azúcares fermentables favorece la producción de ácidos por bacterias orales. Algunos sustitutos son menos cariogénicos, pero una bebida “sin azúcar” puede seguir siendo ácida y contribuir a erosión del esmalte. Por eso la frecuencia, la acidez y la higiene siguen importando aunque el producto no lleve sacarosa.</p><p>En bebidas existe además la opción de no sustituir el azúcar por nada. Agua, agua con gas, té o café sin endulzar eliminan por completo la comparación. Quien prefiera bebidas dulces puede reducir la intensidad poco a poco; con el tiempo, sabores menos dulces pueden resultar normales sin necesidad de un cambio brusco.</p>",
+  "faq": [
+    {
+      "question": "¿Los edulcorantes tienen cero calorías?",
+      "answer": "No todos. Los intensos se usan en cantidades tan pequeñas que aportan muy poca energía, mientras varios polioles sí aportan calorías, aunque menos que el azúcar."
+    },
+    {
+      "question": "¿Puedo sustituir azúcar 1:1 por estevia?",
+      "answer": "No si se trata de extracto intenso. Puede igualar dulzor con una cantidad mínima, pero no volumen ni otras funciones del azúcar."
+    },
+    {
+      "question": "¿Por qué un bizcocho sin azúcar queda diferente?",
+      "answer": "Porque el azúcar interviene en humedad, volumen, dorado, aireación y estructura, no solo en el sabor."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EFSA — Sweeteners",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/sweeteners",
+      "note": "Evaluación y seguridad de edulcorantes autorizados en la UE."
+    },
+    {
+      "name": "European Commission — Food additives database",
+      "url": "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/database_en",
+      "note": "Condiciones de uso de edulcorantes en alimentos de la UE."
+    }
+  ],
+  "image": {
+    "concept": "Azúcar granulado junto a pequeñas cantidades de varios edulcorantes y una masa de repostería, fotografía editorial sin marcas.",
+    "alt": "Azúcar y edulcorantes en cocina"
+  },
+  "status": "publish"
+}
