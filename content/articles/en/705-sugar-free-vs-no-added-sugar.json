@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"en-705-sugar-free-vs-no-added-sugar","article_number":705,"translation_group":"705-sugar-free-vs-no-added-sugars","language":"en","locale":"en-US","market_context":"United States; FDA nutrient-content claims and Nutrition Facts labeling","title":"Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing","slug":"sugar-free-vs-no-added-sugar","seo":{"title":"Sugar-Free vs No Added Sugar: Difference","meta_description":"In the U.S., sugar-free generally means less than 0.5 g sugars per labeled serving. No added sugar means sugar or sugar-containing sweetening ingredients were not added during processing, even if natural sugars remain.","search_intent":"Explain the FDA labeling difference between sugar-free and no added sugar."},"excerpt":"“Sugar-free” limits the amount of sugars in a serving to less than 0.5 g. “No added sugar” describes formulation: sugar and ingredients used to add sugar were not added, but naturally occurring sugars can still appear on the Nutrition Facts label.","taxonomy":{"food_family":"general","food_subcategories":["food-labels","sugars"],"article_types":["nutrition-concepts","myths-faq","processing-production"],"primary_article_type":"nutrition-concepts"},"content_html":"<p>A bottle can say “no added sugar” and still list 12 grams of Total Sugars. That is not automatically a labeling contradiction. <strong>“Sugar-free” is a low-sugar amount claim; “no added sugar” tells you what was not added during processing.</strong></p><h2>Sugar-free uses a serving-level threshold</h2><p>Under FDA nutrient-content rules, “sugar free,” “no sugar,” and similar terms generally require less than 0.5 gram of sugars per reference amount and labeled serving. The product can still taste sweet if it uses approved non-sugar sweeteners.</p><h2>No added sugar can still contain plenty of natural sugar</h2><p>A product may use a “no added sugar” claim when sugars and ingredients that functionally substitute for added sugars were not added during processing, subject to FDA conditions. Milk still contains lactose; unsweetened fruit products still contain naturally occurring glucose, fructose, and sucrose.</p><p>That is why the Total Sugars line does not have to read zero.</p><h2>The Nutrition Facts label separates the concepts</h2><p>U.S. labels show Total Sugars and, underneath, “Includes X g Added Sugars.” A fruit product can have 15 grams Total Sugars and 0 grams Added Sugars. A sweetened version could have the same natural sugars plus an added-sugar amount.</p><h2>Read the claim, then the numbers</h2><p>Use the front claim to understand the manufacturer's statement, then verify Total Sugars, Added Sugars, serving size, and the ingredient list. “Sugar-free” and “no added sugar” answer different questions.</p><p><strong>The shortcut: sugar-free is about how little sugar is present; no added sugar is about whether sugar was put in.</strong></p>","faq":[{"question":"Does no added sugar mean zero sugar?","answer":"No. Naturally occurring sugars from fruit, milk, or other ingredients can remain."},{"question":"How much sugar can a sugar-free food have?","answer":"FDA rules generally require less than 0.5 gram of sugars per reference amount and labeled serving for a sugar-free claim."},{"question":"Can sugar-free foods use sweeteners?","answer":"Yes. Products may use non-sugar sweeteners and still qualify if the sugar claim requirements are met."}],"sources":[{"name":"FDA — Nutrient Content Claims","url":"https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-D/section-101.60","note":"Federal conditions for sugar-free and no-added-sugar claims."},{"name":"FDA — Added Sugars on the Nutrition Facts Label","url":"https://www.fda.gov/food/new-nutrition-facts-label/added-sugars-new-nutrition-facts-label","note":"Difference between total and added sugars on U.S. labels."}],"image":{"concept":"Two generic food packages with Nutrition Facts panels, representing sugar-free and no-added-sugar claims without readable brand text.","alt":"Sugar-free and no-added-sugar labels"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-705-sugar-free-vs-no-added-sugar",
+  "article_number": 705,
+  "translation_group": "705-sugar-free-vs-no-added-sugars",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; FDA nutrient-content claims and Nutrition Facts labeling",
+  "title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
+  "slug": "sugar-free-vs-no-added-sugar",
+  "seo": {
+    "title": "Sugar-Free vs No Added Sugar: Difference",
+    "meta_description": "In the U.S., sugar-free generally means less than 0.5 g sugars per labeled serving. No added sugar means sugar or sugar-containing sweetening ingredients were not added during processing, even if natural sugars remain.",
+    "search_intent": "Explain the FDA labeling difference between sugar-free and no added sugar."
+  },
+  "excerpt": "“Sugar-free” limits the amount of sugars in a serving to less than 0.5 g. “No added sugar” describes formulation: sugar and ingredients used to add sugar were not added, but naturally occurring sugars can still appear on the Nutrition Facts label.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "food-labels",
+      "sugars"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "myths-faq",
+      "processing-production"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>A bottle can say “no added sugar” and still list 12 grams of Total Sugars. That is not automatically a labeling contradiction. <strong>“Sugar-free” is a low-sugar amount claim; “no added sugar” tells you what was not added during processing.</strong></p><h2>Sugar-free uses a serving-level threshold</h2><p>Under FDA nutrient-content rules, “sugar free,” “no sugar,” and similar terms generally require less than 0.5 gram of sugars per reference amount and labeled serving. The product can still taste sweet if it uses approved non-sugar sweeteners.</p><h2>No added sugar can still contain plenty of natural sugar</h2><p>A product may use a “no added sugar” claim when sugars and ingredients that functionally substitute for added sugars were not added during processing, subject to FDA conditions. Milk still contains lactose; unsweetened fruit products still contain naturally occurring glucose, fructose, and sucrose.</p><p>That is why the Total Sugars line does not have to read zero.</p><h2>The Nutrition Facts label separates the concepts</h2><p>U.S. labels show Total Sugars and, underneath, “Includes X g Added Sugars.” A fruit product can have 15 grams Total Sugars and 0 grams Added Sugars. A sweetened version could have the same natural sugars plus an added-sugar amount.</p><h2>Read the claim, then the numbers</h2><p>Use the front claim to understand the manufacturer's statement, then verify Total Sugars, Added Sugars, serving size, and the ingredient list. “Sugar-free” and “no added sugar” answer different questions.</p><p><strong>The shortcut: sugar-free is about how little sugar is present; no added sugar is about whether sugar was put in.</strong></p><h2>The Nutrition Facts panel keeps the front-of-pack claim in perspective</h2>\n<p>After seeing “sugar-free” or “no added sugar,” check total sugars, total carbohydrate, and serving size. Plain dairy can contain lactose without added sweetener, fruit products can retain naturally occurring sugars, and a sugar-free drink may use high-intensity sweeteners or sugar alcohols to stay sweet.</p>\n<p>The claim answers one narrow question. It does not tell you the food's fiber, protein, sodium, fat profile, or overall calorie density.</p>\n<h2>The ingredient list shows where sweetness is coming from</h2>\n<p>A product with no added sucrose, syrup, or honey may still contain stevia, sucralose, acesulfame potassium, erythritol, or another sweetening system. In other foods, sweetness comes from ingredients that naturally contain sugars. Reading the ingredient list separates those situations instead of treating every sweet-tasting product as nutritionally identical.</p>\n<p>Ingredient order is useful because ingredients are listed by weight. You do not need to memorize every possible name for sugar, but seeing several sweeteners clustered near the top tells you more than a single marketing phrase.</p>\n<h2>Use the claim differently depending on the food category</h2>\n<p>For soda, sugar-free can remove most calories that would have come from sugar. For yogurt, distinguishing natural milk sugar from added sugar is more relevant. For cereal or snack bars, a sugar claim says nothing by itself about whole grains, fiber, or protein. Compare products that serve the same purpose rather than using one claim to rank unrelated foods.</p>\n<p>A fast shopping routine is enough: read the claim, check sugars per serving, scan the ingredients, then look at the rest of the panel. That turns “sugar-free” from a health halo into one piece of information that can be weighed with the rest of the product.</p><p>Serving size creates another important nuance. A food can look low in sugar per 100 grams yet be eaten in a large portion, or look relatively high per 100 grams while the usual serving is tiny. Looking at both standardized values and the portion you actually eat prevents the claim from being interpreted without context.</p><p>Products can also use fruit concentrates, fibers, or dairy ingredients in ways that make a simple front claim hard to interpret. For that reason, the ingredient list and Nutrition Facts panel should be read together. One tells you what was used; the other tells you the resulting amount of sugars and carbohydrate in a defined serving.</p><p>If two comparable products differ only modestly in sugar, taste and how often you eat them may matter more than chasing the lowest possible number.</p><p>Drinks and desserts deserve extra attention because multiple servings can be consumed easily. A technically sugar-free product can still contribute calories from other ingredients, while a no-added-sugar product can contain substantial natural sugar. Serving size keeps both claims in context.</p>\n",
+  "faq": [
+    {
+      "question": "Does no added sugar mean zero sugar?",
+      "answer": "No. Naturally occurring sugars from fruit, milk, or other ingredients can remain."
+    },
+    {
+      "question": "How much sugar can a sugar-free food have?",
+      "answer": "FDA rules generally require less than 0.5 gram of sugars per reference amount and labeled serving for a sugar-free claim."
+    },
+    {
+      "question": "Can sugar-free foods use sweeteners?",
+      "answer": "Yes. Products may use non-sugar sweeteners and still qualify if the sugar claim requirements are met."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Nutrient Content Claims",
+      "url": "https://www.ecfr.gov/current/title-21/chapter-I/subchapter-B/part-101/subpart-D/section-101.60",
+      "note": "Federal conditions for sugar-free and no-added-sugar claims."
+    },
+    {
+      "name": "FDA — Added Sugars on the Nutrition Facts Label",
+      "url": "https://www.fda.gov/food/new-nutrition-facts-label/added-sugars-new-nutrition-facts-label",
+      "note": "Difference between total and added sugars on U.S. labels."
+    }
+  ],
+  "image": {
+    "concept": "Two generic food packages with Nutrition Facts panels, representing sugar-free and no-added-sugar claims without readable brand text.",
+    "alt": "Sugar-free and no-added-sugar labels"
+  },
+  "status": "publish"
+}

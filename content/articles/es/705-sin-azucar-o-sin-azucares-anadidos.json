@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-705-sin-azucar-o-sin-azucares-anadidos","article_number":705,"translation_group":"705-sugar-free-vs-no-added-sugars","language":"es","locale":"es-ES","market_context":"España/Unión Europea; declaraciones nutricionales según normativa de la UE","title":"Sin azúcar o sin azúcares añadidos: no significan lo mismo","slug":"sin-azucar-o-sin-azucares-anadidos","seo":{"title":"Sin azúcar vs sin azúcares añadidos: diferencia","meta_description":"En la UE, “sin azúcares” exige como máximo 0,5 g de azúcares por 100 g o 100 ml. “Sin azúcares añadidos” permite los azúcares naturalmente presentes si no se han añadido azúcares ni ingredientes usados para endulzar.","search_intent":"Aclarar la diferencia legal y nutricional entre sin azúcares y sin azúcares añadidos en la UE."},"excerpt":"“Sin azúcares” limita la cantidad total a no más de 0,5 g por 100 g o 100 ml. “Sin azúcares añadidos” describe el proceso: no se añaden azúcares ni alimentos usados para endulzar, pero el producto puede conservar azúcares naturales.","taxonomy":{"food_family":"general","food_subcategories":["food-labels","sugars"],"article_types":["nutrition-concepts","myths-faq","processing-production"],"primary_article_type":"nutrition-concepts"},"content_html":"<p>Un yogur puede decir “sin azúcares añadidos” y mostrar varios gramos de azúcares en la tabla nutricional sin que exista contradicción. <strong>Una declaración habla de cuánto azúcar total contiene el alimento; la otra habla de si se añadió durante la elaboración.</strong></p><h2>“Sin azúcares” tiene un límite numérico</h2><p>En la Unión Europea, una declaración de “sin azúcares” solo puede utilizarse si el producto contiene como máximo 0,5 g de azúcares por 100 g o por 100 ml. Es un umbral sobre el alimento final.</p><h2>“Sin azúcares añadidos” permite azúcar natural</h2><p>Esta declaración puede usarse cuando no se han añadido monosacáridos, disacáridos ni otros alimentos empleados por sus propiedades edulcorantes. Si el producto contiene azúcares presentes de forma natural, debe indicarse que “contiene azúcares naturalmente presentes”.</p><p>Por eso una leche sin azúcares añadidos puede seguir mostrando alrededor de 5 g de azúcares por 100 ml: esa lactosa ya estaba en la leche. Un puré de fruta puede conservar fructosa y glucosa propias de la fruta.</p><h2>Un producto sin azúcar puede seguir sabiendo dulce</h2><p>La declaración no impide utilizar edulcorantes autorizados. Un chicle sin azúcares puede obtener dulzor de polioles o edulcorantes intensos. Para saber de dónde viene el sabor dulce, la lista de ingredientes es más informativa que el reclamo frontal.</p><h2>Cómo leerlo en diez segundos</h2><p>Primero identifica qué declaración aparece. Después mira “de los cuales azúcares” en la tabla y, si necesitas saber si se ha añadido un ingrediente dulce, revisa la lista de ingredientes.</p><p><strong>“Sin azúcares” responde a cuánto hay; “sin azúcares añadidos” responde a cómo se formuló.</strong></p>","faq":[{"question":"¿Sin azúcares añadidos significa cero azúcar?","answer":"No. Puede contener los azúcares naturalmente presentes en leche, fruta u otros ingredientes."},{"question":"¿Cuánto azúcar puede tener un producto “sin azúcares”?","answer":"En la UE, como máximo 0,5 g de azúcares por 100 g o 100 ml."},{"question":"¿Un producto sin azúcar puede llevar edulcorantes?","answer":"Sí. La declaración sobre azúcares no impide que se utilicen edulcorantes autorizados."}],"sources":[{"name":"European Commission — Nutrition and health claims","url":"https://food.ec.europa.eu/safety/labelling-and-nutrition/nutrition-and-health-claims/nutrition-claims_en","note":"Condiciones legales de las declaraciones sin azúcares y sin azúcares añadidos."},{"name":"Regulation (EC) No 1924/2006","url":"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006R1924","note":"Marco europeo de declaraciones nutricionales y de propiedades saludables."}],"image":{"concept":"Dos envases genéricos con tablas nutricionales visibles, uno asociado a sin azúcares y otro a sin azúcares añadidos, sin marcas ni texto legible.","alt":"Comparación de etiquetado sin azúcares y sin azúcares añadidos"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-705-sin-azucar-o-sin-azucares-anadidos",
+  "article_number": 705,
+  "translation_group": "705-sugar-free-vs-no-added-sugars",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; declaraciones nutricionales según normativa de la UE",
+  "title": "Sin azúcar o sin azúcares añadidos: no significan lo mismo",
+  "slug": "sin-azucar-o-sin-azucares-anadidos",
+  "seo": {
+    "title": "Sin azúcar vs sin azúcares añadidos: diferencia",
+    "meta_description": "En la UE, “sin azúcares” exige como máximo 0,5 g de azúcares por 100 g o 100 ml. “Sin azúcares añadidos” permite los azúcares naturalmente presentes si no se han añadido azúcares ni ingredientes usados para endulzar.",
+    "search_intent": "Aclarar la diferencia legal y nutricional entre sin azúcares y sin azúcares añadidos en la UE."
+  },
+  "excerpt": "“Sin azúcares” limita la cantidad total a no más de 0,5 g por 100 g o 100 ml. “Sin azúcares añadidos” describe el proceso: no se añaden azúcares ni alimentos usados para endulzar, pero el producto puede conservar azúcares naturales.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "food-labels",
+      "sugars"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "myths-faq",
+      "processing-production"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Un yogur puede decir “sin azúcares añadidos” y mostrar varios gramos de azúcares en la tabla nutricional sin que exista contradicción. <strong>Una declaración habla de cuánto azúcar total contiene el alimento; la otra habla de si se añadió durante la elaboración.</strong></p><h2>“Sin azúcares” tiene un límite numérico</h2><p>En la Unión Europea, una declaración de “sin azúcares” solo puede utilizarse si el producto contiene como máximo 0,5 g de azúcares por 100 g o por 100 ml. Es un umbral sobre el alimento final.</p><h2>“Sin azúcares añadidos” permite azúcar natural</h2><p>Esta declaración puede usarse cuando no se han añadido monosacáridos, disacáridos ni otros alimentos empleados por sus propiedades edulcorantes. Si el producto contiene azúcares presentes de forma natural, debe indicarse que “contiene azúcares naturalmente presentes”.</p><p>Por eso una leche sin azúcares añadidos puede seguir mostrando alrededor de 5 g de azúcares por 100 ml: esa lactosa ya estaba en la leche. Un puré de fruta puede conservar fructosa y glucosa propias de la fruta.</p><h2>Un producto sin azúcar puede seguir sabiendo dulce</h2><p>La declaración no impide utilizar edulcorantes autorizados. Un chicle sin azúcares puede obtener dulzor de polioles o edulcorantes intensos. Para saber de dónde viene el sabor dulce, la lista de ingredientes es más informativa que el reclamo frontal.</p><h2>Cómo leerlo en diez segundos</h2><p>Primero identifica qué declaración aparece. Después mira “de los cuales azúcares” en la tabla y, si necesitas saber si se ha añadido un ingrediente dulce, revisa la lista de ingredientes.</p><p><strong>“Sin azúcares” responde a cuánto hay; “sin azúcares añadidos” responde a cómo se formuló.</strong></p><h2>La tabla nutricional evita que el reclamo del frontal engañe</h2>\n<p>Después de leer “sin azúcares” o “sin azúcares añadidos”, conviene mirar azúcares totales, hidratos de carbono y tamaño de ración. Un yogur natural puede no llevar azúcar añadido y aun así contener lactosa; una compota puede conservar los azúcares propios de la fruta; una bebida “sin azúcar” puede usar edulcorantes intensos o polioles para mantener el dulzor.</p>\n<p>El reclamo describe una condición concreta, no la calidad global del alimento. Fibra, proteína, densidad energética, grasas, sodio e ingredientes siguen contando.</p>\n<h2>Los ingredientes explican de dónde viene el sabor dulce</h2>\n<p>Si no aparece sacarosa, jarabe, miel o concentrados usados como endulzantes, puede haber estevia, sucralosa, acesulfamo K, eritritol u otros sustitutos. En otros productos el dulzor procede de ingredientes que ya contienen azúcares de forma natural. Leer la lista permite distinguir esas situaciones sin asumir que todas son equivalentes.</p>\n<p>También importa el orden: los ingredientes se declaran de mayor a menor cantidad. No hace falta memorizar todos los nombres de azúcar, pero sí comprobar si el producto depende de varios endulzantes distintos para construir el mismo perfil dulce.</p>\n<h2>El mejor criterio depende del alimento que estás comparando</h2>\n<p>En un refresco, “sin azúcar” puede reducir casi toda la energía procedente de azúcares. En un yogur, interesa separar lactosa natural de azúcar añadido. En cereales o barritas, un reclamo de azúcar no dice por sí solo cuánto grano integral, fibra o proteína hay. Comparar productos de la misma categoría da información mucho más útil que enfrentar alimentos diferentes.</p>\n<p>Para una compra rápida, usa una secuencia sencilla: identifica el reclamo, comprueba azúcares por ración, revisa la lista de ingredientes y después mira el resto de la composición. Así “sin azúcar” deja de funcionar como una etiqueta de salud automática y pasa a ser un dato más dentro del producto.</p><p>Hay otro matiz importante en productos infantiles o porciones pequeñas: comparar por 100 g facilita ver diferencias, pero la cantidad realmente consumida decide el aporte final. Un alimento puede tener pocos gramos de azúcar por 100 g y servirse en una porción grande, o parecer alto por 100 g y consumirse en una cantidad mínima. Leer ambas columnas evita sacar conclusiones únicamente por el porcentaje.</p><p>Los concentrados de fruta, fibras añadidas o ingredientes lácteos pueden complicar todavía más la lectura de un reclamo frontal. Conviene usar lista de ingredientes y tabla nutricional juntas: una explica qué se añadió y la otra muestra cuánto azúcar e hidrato termina en una ración definida.</p><p>Si dos productos comparables difieren muy poco, también cuentan el sabor y la frecuencia con que realmente los vas a consumir.</p><p>Con bebidas y postres conviene prestar atención especial al tamaño de ración, porque es fácil consumir varias porciones sin percibirlo. El reclamo frontal no corrige ese efecto acumulado.</p>\n",
+  "faq": [
+    {
+      "question": "¿Sin azúcares añadidos significa cero azúcar?",
+      "answer": "No. Puede contener los azúcares naturalmente presentes en leche, fruta u otros ingredientes."
+    },
+    {
+      "question": "¿Cuánto azúcar puede tener un producto “sin azúcares”?",
+      "answer": "En la UE, como máximo 0,5 g de azúcares por 100 g o 100 ml."
+    },
+    {
+      "question": "¿Un producto sin azúcar puede llevar edulcorantes?",
+      "answer": "Sí. La declaración sobre azúcares no impide que se utilicen edulcorantes autorizados."
+    }
+  ],
+  "sources": [
+    {
+      "name": "European Commission — Nutrition and health claims",
+      "url": "https://food.ec.europa.eu/safety/labelling-and-nutrition/nutrition-and-health-claims/nutrition-claims_en",
+      "note": "Condiciones legales de las declaraciones sin azúcares y sin azúcares añadidos."
+    },
+    {
+      "name": "Regulation (EC) No 1924/2006",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32006R1924",
+      "note": "Marco europeo de declaraciones nutricionales y de propiedades saludables."
+    }
+  ],
+  "image": {
+    "concept": "Dos envases genéricos con tablas nutricionales visibles, uno asociado a sin azúcares y otro a sin azúcares añadidos, sin marcas ni texto legible.",
+    "alt": "Comparación de etiquetado sin azúcares y sin azúcares añadidos"
+  },
+  "status": "publish"
+}
