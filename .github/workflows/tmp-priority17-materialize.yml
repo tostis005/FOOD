@@ -1,0 +1,159 @@
+name: Temporary priority 17 materialize
+on:
+  push:
+    branches:
+      - tmp-quality-priority-17-materialize
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout temporary branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore and verify editorial delta
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .tmp/p17delta.000 .tmp/p17delta.001 .tmp/p17delta.002 .tmp/p17delta.003 .tmp/p17delta.004 .tmp/p17delta.005 .tmp/p17delta.006 > /tmp/p17delta.b64
+          test "$(wc -c < /tmp/p17delta.b64)" -eq 48136
+          base64 -d /tmp/p17delta.b64 > /tmp/p17delta.xz
+          echo 'a278f2c6194dc51366992b5cba4c641aadfd0f8bc1445ac647ad31c64ab5af36  /tmp/p17delta.xz' | sha256sum -c -
+          xz -dc /tmp/p17delta.xz > /tmp/p17delta.json
+          python - <<'PY'
+          import json
+          ids={'477','716','125','451','593','367','550','581','474','414','421','792','358','591','556','427','460','704','156','385'}
+          d=json.load(open('/tmp/p17delta.json',encoding='utf-8'))
+          expected={f'{lang}:{aid}' for aid in ids for lang in ('es','en')}
+          assert set(d)==expected, (len(d), sorted(set(d)^expected))
+          assert all(isinstance(v,str) and v.strip() for v in d.values())
+          print('DELTA_VERSIONS=40')
+          PY
+
+      - name: Require final branch aligned with live main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main quality-priority-17
+          main_sha="$(git rev-parse origin/main)"
+          q17_sha="$(git rev-parse origin/quality-priority-17)"
+          echo "MAIN=$main_sha"
+          echo "Q17=$q17_sha"
+          test "$main_sha" = "$q17_sha"
+          git checkout -B p17-final "$q17_sha"
+
+      - name: Apply delta and focused validation
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json, glob, re, html, math
+          from pathlib import Path
+          from collections import defaultdict
+
+          ids=['477','716','125','451','593','367','550','581','474','414','421','792','358','591','556','427','460','704','156','385']
+          expected_ids=set(ids)
+          delta=json.load(open('/tmp/p17delta.json',encoding='utf-8'))
+          paths=[]
+          data={}
+          for aid in ids:
+              for lang in ('es','en'):
+                  matches=glob.glob(f'content/articles/{lang}/{aid}-*.json')
+                  assert len(matches)==1, (aid,lang,matches)
+                  p=Path(matches[0])
+                  obj=json.loads(p.read_text(encoding='utf-8'))
+                  assert str(obj.get('article_number')).zfill(3)==aid
+                  assert obj.get('language')==lang
+                  assert obj.get('status')=='publish'
+                  obj['content_html']=obj.get('content_html','')+delta[f'{lang}:{aid}']
+                  p.write_text(json.dumps(obj,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+                  paths.append(str(p))
+                  data[(lang,aid)]=obj
+
+          def plain(s):
+              s=re.sub(r'<[^>]+>',' ',s or '')
+              return re.sub(r'\s+',' ',html.unescape(s)).strip()
+          def words(s):
+              return re.findall(r"\b[\wÀ-ÿ]+(?:['’\-][\wÀ-ÿ]+)*\b", plain(s), flags=re.UNICODE)
+          forbidden={
+            'es':['merece un artículo','merece otro artículo','otro artículo','en este artículo','hemos elegido','hemos usado','hemos utilizado','deliberadamente','se excluye deliberadamente','excluimos deliberadamente','para no manipular','criterio de ordenación','fuentes y criterio','registro utilizado','registros concretos','la tabla no pretende','no pretendemos','cocinado con calor seco','tabla principal','ranking principal','tabla anterior','ranking anterior','la tabla de arriba','el ranking de arriba','como vimos','como hemos visto','en otra guía','en otra entrada','en otro post','en otra página'],
+            'en':['deserves its own article','another article','in this article','we chose','we have chosen','we used','we have used','deliberately','to avoid manipulating','ordering criteria','sources and methodology','record used','specific records','the table is not intended','cooked by dry heat','main table','main ranking','previous table','previous ranking','the table above','the ranking above','as we saw','as we have seen','in another guide','in another article','in another post','on another page']
+          }
+          issues=[]; counts=[]; wph=[]
+          for (lang,aid),obj in data.items():
+              body=obj.get('content_html','')
+              wc=len(words(body)); h2=len(re.findall(r'<h2\b',body,re.I))
+              counts.append(wc)
+              if wc<700: issues.append((lang,aid,'words',wc))
+              if math.ceil(wc/210)<4: issues.append((lang,aid,'minutes',math.ceil(wc/210)))
+              if h2>=5:
+                  ratio=wc/h2; wph.append(ratio)
+                  if ratio<80: issues.append((lang,aid,'words_per_h2',ratio))
+              ex=plain(obj.get('excerpt','')).lower()
+              bp=plain(body).lower()
+              if ex and ex in bp: issues.append((lang,aid,'excerpt_repeated'))
+              low=bp
+              for phrase in forbidden[lang]:
+                  if phrase.lower() in low: issues.append((lang,aid,'forbidden',phrase))
+
+          for aid in ids:
+              es=data[('es',aid)]; en=data[('en',aid)]
+              if not es.get('translation_group') or es.get('translation_group')!=en.get('translation_group'):
+                  issues.append((aid,'translation_group'))
+
+          for lang in ('es','en'):
+              para_owner={}; shingles={}
+              for aid in ids:
+                  body=data[(lang,aid)].get('content_html','')
+                  for p in re.findall(r'<p\b[^>]*>(.*?)</p>',body,re.I|re.S):
+                      norm=' '.join(plain(p).lower().split())
+                      if len(words(norm))>=70:
+                          old=para_owner.get(norm)
+                          if old and old!=aid: issues.append((lang,'long_paragraph_duplicate',old,aid))
+                          para_owner[norm]=aid
+                  toks=[x.lower() for x in words(body)]
+                  seen=set(' '.join(toks[i:i+12]) for i in range(max(0,len(toks)-11)))
+                  for sh in seen:
+                      old=shingles.get(sh)
+                      if old and old!=aid: issues.append((lang,'12word_duplicate',old,aid,sh))
+                      shingles[sh]=aid
+
+          assert len(data)==40
+          assert not issues, issues[:20]
+          print('PRIORITY17_FOCUSED_VALIDATION=PASS')
+          print('VERSIONS=40')
+          print('MIN_WORDS='+str(min(counts)))
+          print('MAX_WORDS='+str(max(counts)))
+          print('MIN_WORDS_PER_H2='+str(min(wph)))
+          PY
+
+          python - <<'PY' > /tmp/expected.txt
+          import glob
+          ids=['477','716','125','451','593','367','550','581','474','414','421','792','358','591','556','427','460','704','156','385']
+          for aid in ids:
+              for lang in ('es','en'):
+                  m=glob.glob(f'content/articles/{lang}/{aid}-*.json')
+                  assert len(m)==1
+                  print(m[0])
+          PY
+          sort -o /tmp/expected.txt /tmp/expected.txt
+          git diff --name-only origin/main | sort > /tmp/actual.txt
+          diff -u /tmp/expected.txt /tmp/actual.txt
+          test "$(wc -l < /tmp/actual.txt)" -eq 40
+
+      - name: Commit and push final branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'tostis005'
+          git config user.email 'tostis005@gmail.com'
+          git add content/articles/en content/articles/es
+          test "$(git diff --cached --name-only | wc -l)" -eq 40
+          git commit -m 'Improve editorial quality for priority block 17'
+          test "$(git rev-list --count origin/main..HEAD)" -eq 1
+          git push origin HEAD:quality-priority-17
