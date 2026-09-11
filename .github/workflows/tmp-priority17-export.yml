@@ -1,0 +1,39 @@
+name: Temporary priority 17 export
+on:
+  push:
+    branches:
+      - tmp-quality-priority-17-export
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Collect exact source JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          ids=(477 716 125 451 593 367 550 581 474 414 421 792 358 591 556 427 460 704 156 385)
+          mkdir -p priority17-source/content/articles/es priority17-source/content/articles/en
+          for id in "${ids[@]}"; do
+            for lang in es en; do
+              mapfile -t matches < <(find "content/articles/$lang" -maxdepth 1 -type f -name "${id}-*.json" | sort)
+              test "${#matches[@]}" -eq 1
+              cp "${matches[0]}" "priority17-source/content/articles/$lang/"
+            done
+          done
+          test "$(find priority17-source/content/articles -type f -name '*.json' | wc -l)" -eq 40
+          test "$(find priority17-source/content/articles/es -type f -name '*.json' | wc -l)" -eq 20
+          test "$(find priority17-source/content/articles/en -type f -name '*.json' | wc -l)" -eq 20
+
+      - name: Upload source JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority17-source-json
+          path: priority17-source/content/articles
+          if-no-files-found: error
