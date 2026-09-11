@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"es-716-enriquecido-o-fortificado","article_number":716,"translation_group":"716-enriched-vs-fortified","language":"es","locale":"es-ES","market_context":"España/Unión Europea; nutrición, etiquetado y cocina contextualizados para lectores en España","title":"Enriquecido o fortificado: qué nutrientes se añaden y por qué","slug":"enriquecido-o-fortificado","seo":{"title":"Enriquecido o fortificado: qué cambia","meta_description":"Enriquecer o fortificar significa añadir nutrientes, pero en la UE esos términos no funcionan como dos categorías legales universales perfectamente separadas. Lo importante es qué vitamina o mineral se añadió y con qué finalidad.","search_intent":"Explicar qué significa añadir vitaminas o minerales a un alimento y por qué enriquecido y fortificado no deben interpretarse como una puntuación de salud."},"excerpt":"“Enriquecido” y “fortificado” suelen describir alimentos a los que se han añadido nutrientes. En la UE la adición de vitaminas y minerales está regulada, pero ambos términos no forman una pareja legal universal con una frontera tan rígida como a veces se presenta.","taxonomy":{"food_family":"general","food_subcategories":["food-labels","fortification","vitamins-minerals"],"article_types":["nutrition-concepts","processing-production","myths-faq"],"primary_article_type":"nutrition-concepts"},"content_html":"<p>Un alimento puede anunciar que está “enriquecido” con hierro o “fortificado” con vitamina D. <strong>En ambos casos lo relevante es que se han añadido nutrientes, pero no conviene imaginar dos categorías europeas completamente separadas por una única definición legal.</strong></p>\n<h2>La idea práctica sí es útil</h2><p>En lenguaje alimentario, “enriquecer” suele asociarse a aumentar o recuperar determinados nutrientes y “fortificar” a añadirlos para elevar el valor nutricional. La Comisión Europea utiliza ambos verbos al explicar la adición de vitaminas y minerales.</p><p>Sin embargo, para saber qué contiene realmente el producto hay que mirar la composición y la etiqueta, no quedarse con el verbo promocional.</p>\n<h2>La UE regula qué vitaminas y minerales pueden añadirse</h2><p>El Reglamento (CE) 1925/2006 establece qué vitaminas y minerales y qué formas pueden incorporarse a los alimentos, además de condiciones de uso. La adición puede responder, entre otros motivos, a deficiencias, ingestas bajas o al objetivo de mejorar el estado nutricional de la población.</p>\n<h2>La cantidad añadida debe ser nutricionalmente significativa</h2><p>Cuando se añaden vitaminas o minerales, la etiqueta nutricional permite ver su cantidad y, cuando corresponde, el porcentaje del valor de referencia. Eso es más informativo que asumir que “fortificado” significa “mucho”.</p>\n<h2>Un alimento fortificado no se vuelve automáticamente saludable</h2><p>Un cereal con vitaminas añadidas puede seguir teniendo mucho azúcar; una legumbre sin fortificar puede ser una excelente fuente natural de fibra y otros nutrientes. <strong>La adición de micronutrientes es una característica del producto, no una valoración global de su calidad.</strong></p>","faq":[{"question":"¿Enriquecido y fortificado significan exactamente lo mismo?","answer":"Se solapan en el uso cotidiano, pero en la UE no forman dos categorías horizontales con una definición única y opuesta para todos los alimentos."},{"question":"¿Puede añadirse cualquier vitamina a cualquier alimento?","answer":"No. La UE regula qué vitaminas y minerales y qué formas pueden añadirse y establece restricciones para determinadas categorías."},{"question":"¿Fortificado significa más saludable?","answer":"No necesariamente. Hay que valorar el alimento completo, incluidos azúcares, sal, grasas, fibra y lista de ingredientes."}],"sources":[{"name":"European Commission — Addition of vitamins and minerals","url":"https://food.ec.europa.eu/food-safety/labelling-and-nutrition/addition-vitamins-and-minerals_en","note":"EU framework for adding vitamins and minerals to foods."},{"name":"Regulation (EC) No 1925/2006","url":"https://eur-lex.europa.eu/eli/reg/2006/1925/oj","note":"EU rules on addition of vitamins, minerals and certain other substances to foods."}],"image":{"concept":"Envases genéricos de cereal y bebida con indicaciones de vitaminas y minerales, fotografía editorial limpia sin marcas.","alt":"Alimento enriquecido o fortificado"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-716-enriquecido-o-fortificado",
+  "article_number": 716,
+  "translation_group": "716-enriched-vs-fortified",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; nutrición, etiquetado y cocina contextualizados para lectores en España",
+  "title": "Enriquecido o fortificado: qué nutrientes se añaden y por qué",
+  "slug": "enriquecido-o-fortificado",
+  "seo": {
+    "title": "Enriquecido o fortificado: qué cambia",
+    "meta_description": "Enriquecer o fortificar significa añadir nutrientes, pero en la UE esos términos no funcionan como dos categorías legales universales perfectamente separadas. Lo importante es qué vitamina o mineral se añadió y con qué finalidad.",
+    "search_intent": "Explicar qué significa añadir vitaminas o minerales a un alimento y por qué enriquecido y fortificado no deben interpretarse como una puntuación de salud."
+  },
+  "excerpt": "“Enriquecido” y “fortificado” suelen describir alimentos a los que se han añadido nutrientes. En la UE la adición de vitaminas y minerales está regulada, pero ambos términos no forman una pareja legal universal con una frontera tan rígida como a veces se presenta.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "food-labels",
+      "fortification",
+      "vitamins-minerals"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "processing-production",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Un alimento puede anunciar que está “enriquecido” con hierro o “fortificado” con vitamina D. <strong>En ambos casos lo relevante es que se han añadido nutrientes, pero no conviene imaginar dos categorías europeas completamente separadas por una única definición legal.</strong></p>\n<h2>La idea práctica sí es útil</h2><p>En lenguaje alimentario, “enriquecer” suele asociarse a aumentar o recuperar determinados nutrientes y “fortificar” a añadirlos para elevar el valor nutricional. La Comisión Europea utiliza ambos verbos al explicar la adición de vitaminas y minerales.</p><p>Sin embargo, para saber qué contiene realmente el producto hay que mirar la composición y la etiqueta, no quedarse con el verbo promocional.</p>\n<h2>La UE regula qué vitaminas y minerales pueden añadirse</h2><p>El Reglamento (CE) 1925/2006 establece qué vitaminas y minerales y qué formas pueden incorporarse a los alimentos, además de condiciones de uso. La adición puede responder, entre otros motivos, a deficiencias, ingestas bajas o al objetivo de mejorar el estado nutricional de la población.</p>\n<h2>La cantidad añadida debe ser nutricionalmente significativa</h2><p>Cuando se añaden vitaminas o minerales, la etiqueta nutricional permite ver su cantidad y, cuando corresponde, el porcentaje del valor de referencia. Eso es más informativo que asumir que “fortificado” significa “mucho”.</p>\n<h2>Un alimento fortificado no se vuelve automáticamente saludable</h2><p>Un cereal con vitaminas añadidas puede seguir teniendo mucho azúcar; una legumbre sin fortificar puede ser una excelente fuente natural de fibra y otros nutrientes. <strong>La adición de micronutrientes es una característica del producto, no una valoración global de su calidad.</strong></p>\n<h2>Enriquecer y fortificar no describen exactamente lo mismo</h2>\n<p>El enriquecimiento suele consistir en devolver nutrientes que se han reducido durante el procesado. Es lo que ocurre con determinadas harinas refinadas a las que se reincorporan algunas vitaminas del grupo B y hierro. La fortificación es un concepto más amplio: puede añadir nutrientes que el alimento original apenas contenía, como vitamina D en ciertas bebidas o calcio en algunas alternativas vegetales. Por tanto, un producto puede estar fortificado sin ser un alimento “enriquecido” en sentido estricto.</p>\n<p>Aun así, la palabra del frontal no sustituye a la tabla nutricional. Dos cereales fortificados pueden aportar cantidades muy diferentes de hierro, folato, vitamina B12 o vitamina D. Del mismo modo, enriquecer harina refinada con algunos micronutrientes no recupera automáticamente la fibra, el magnesio, el potasio y otros componentes presentes en el grano entero.</p>\n<h2>La fortificación puede cubrir carencias reales de la dieta</h2>\n<p>Añadir micronutrientes no es únicamente una estrategia comercial. Existen programas de salud pública que utilizan alimentos de consumo habitual para mejorar la ingesta de nutrientes difíciles de cubrir de forma consistente. La sal yodada, los cereales con ácido fólico o ciertos alimentos con vitamina D son ejemplos conocidos. Para una persona concreta, la utilidad depende de lo que ya aporta el resto de su alimentación.</p>\n<p>Tampoco es necesario buscar siempre el producto con la cifra más alta. Si se combinan varios alimentos muy fortificados y además se toman suplementos, algunos nutrientes pueden acumularse en cantidades innecesarias. Revisar el porcentaje del valor diario de cereales, bebidas vegetales, barritas y complementos ofrece una visión más realista que valorar cada producto por separado.</p>\n<h2>La calidad global del alimento y la fortificación responden a preguntas distintas</h2>\n<p>Un alimento refinado fortificado puede aportar micronutrientes importantes y, al mismo tiempo, contener poca fibra o bastante azúcar añadido. A la inversa, un alimento poco procesado puede ofrecer fibra, proteína, grasas saludables y minerales sin destacar ninguna fortificación. Conviene decidir primero qué papel tendrá el alimento en la dieta y después valorar si los nutrientes añadidos aportan una ventaja útil.</p>\n<p>En panes y cereales resulta interesante comparar porcentaje de grano integral, fibra, azúcares añadidos, sodio y micronutrientes. En bebidas vegetales suelen ser especialmente relevantes proteína, calcio, vitamina D y B12. Que una opción tenga pocos ingredientes no garantiza que sea nutricionalmente equivalente al alimento que pretende sustituir.</p><p>La cantidad de la etiqueta tampoco equivale exactamente a la cantidad absorbida. Forma química, composición de la comida y estado nutricional individual influyen en la biodisponibilidad. Esto no resta utilidad a la fortificación: simplemente significa que el contenido declarado no garantiza que el organismo absorba cada miligramo. Los alimentos fortificados funcionan mejor como apoyo dentro de una dieta variada que como sustituto de todas las demás fuentes de nutrientes.</p>",
+  "faq": [
+    {
+      "question": "¿Enriquecido y fortificado significan exactamente lo mismo?",
+      "answer": "Se solapan en el uso cotidiano, pero en la UE no forman dos categorías horizontales con una definición única y opuesta para todos los alimentos."
+    },
+    {
+      "question": "¿Puede añadirse cualquier vitamina a cualquier alimento?",
+      "answer": "No. La UE regula qué vitaminas y minerales y qué formas pueden añadirse y establece restricciones para determinadas categorías."
+    },
+    {
+      "question": "¿Fortificado significa más saludable?",
+      "answer": "No necesariamente. Hay que valorar el alimento completo, incluidos azúcares, sal, grasas, fibra y lista de ingredientes."
+    }
+  ],
+  "sources": [
+    {
+      "name": "European Commission — Addition of vitamins and minerals",
+      "url": "https://food.ec.europa.eu/food-safety/labelling-and-nutrition/addition-vitamins-and-minerals_en",
+      "note": "EU framework for adding vitamins and minerals to foods."
+    },
+    {
+      "name": "Regulation (EC) No 1925/2006",
+      "url": "https://eur-lex.europa.eu/eli/reg/2006/1925/oj",
+      "note": "EU rules on addition of vitamins, minerals and certain other substances to foods."
+    }
+  ],
+  "image": {
+    "concept": "Envases genéricos de cereal y bebida con indicaciones de vitaminas y minerales, fotografía editorial limpia sin marcas.",
+    "alt": "Alimento enriquecido o fortificado"
+  },
+  "status": "publish"
+}

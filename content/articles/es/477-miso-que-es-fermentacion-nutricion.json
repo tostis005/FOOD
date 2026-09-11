@@ -1,1 +1,58 @@
-{"schema_version":1,"id":"es-477-miso","article_number":477,"translation_group":"477-miso-fermentation-nutrition","language":"es","locale":"es-ES","market_context":"España/Unión Europea; explicación nutricional de pasta fermentada de soja.","title":"Miso: qué es, cómo se fermenta y qué aporta","slug":"miso-que-es-fermentacion-nutricion","seo":{"title":"Miso: qué es, cómo se fermenta y qué aporta","meta_description":"El miso es una pasta fermentada de soja, sal y koji, a veces con arroz o cebada. Aporta sabor umami y algo de proteína, pero también bastante sodio.","search_intent":"Entender qué es el miso, cómo se produce y cuál es su perfil nutricional."},"excerpt":"El miso se obtiene fermentando soja con koji —un cereal o soja inoculado con Aspergillus oryzae—, sal y tiempo. Es concentrado en sabor y aporta proteína e isoflavonas de la soja, pero una porción pequeña puede contener bastante sodio, por lo que se usa más como condimento que como fuente principal de proteína.","taxonomy":{"food_family":"fermented","food_subcategories":[],"article_types":["processing-production","nutrition-composition"],"primary_article_type":"processing-production"},"content_html":"<p>Una cucharada de miso puede transformar una olla entera porque es un alimento muy concentrado. <strong>No es simplemente “soja triturada”: es una pasta de soja fermentada mediante koji, sal y maduración.</strong></p><h2>El koji pone en marcha la transformación</h2><p>El koji se produce cultivando el moho Aspergillus oryzae sobre arroz, cebada o soja. Sus enzimas rompen proteínas y almidones en moléculas más pequeñas. Después se mezcla con soja cocida y sal y se deja madurar durante semanas o meses.</p><p>Según el cereal usado, la proporción de soja, la sal y el tiempo, aparecen estilos blancos, amarillos, rojos y otros con sabores muy distintos.</p><h2>Qué aporta nutricionalmente</h2><p>El miso conserva proteína y grasa de la soja, además de isoflavonas y minerales. Una revisión científica recoge valores alrededor de 9–17 g de proteína por 100 g según el tipo. Pero una ración culinaria suele ser de 15–20 g, así que aporta sólo una fracción de esa cantidad.</p><p>El dato que más merece atención es el sodio. La fermentación tradicional depende de sal y muchas variedades contienen varios gramos de sal por 100 g. Por eso es mejor pensarlo como condimento intenso que como alimento para comer a cucharadas.</p><h2>¿Tiene microorganismos vivos?</h2><p>Puede tenerlos si no se ha pasteurizado y se mantiene de forma que sobrevivan, pero algunos productos comerciales se tratan térmicamente. Además, que contenga microorganismos no permite afirmar automáticamente que sea probiótico.</p><h2>Cómo usarlo sin perder su carácter</h2><p>Para sopas, diluir el miso en un poco de líquido templado y añadirlo al final conserva mejor aroma y, si los hay, microorganismos sensibles al calor. Hervirlo no lo vuelve tóxico: simplemente cambia aroma y reduce la viabilidad microbiana.</p><p><strong>Su fuerza nutricional y culinaria está en la concentración; por eso la cantidad importa tanto como la composición por 100 g.</strong></p>","faq":[{"question":"¿El miso es una buena fuente de proteína?","answer":"Contiene proteína, pero se consume en raciones pequeñas. No suele aportar tanta proteína por comida como tofu, legumbres o soja entera."},{"question":"¿Tiene mucha sal?","answer":"A menudo sí. El sodio puede ser elevado porque la sal forma parte del proceso de fermentación y conservación."},{"question":"¿Hay que evitar hervirlo?","answer":"No por seguridad. Añadirlo al final ayuda a preservar aroma y microorganismos vivos si el producto los contiene."}],"sources":[{"name":"Food Science & Nutrition — Miso review","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC9731531/","note":"Elaboración, tipos y composición nutricional del miso."},{"name":"Harvard T.H. Chan — Probiotics for Gut Health","url":"https://nutritionsource.hsph.harvard.edu/probiotics/","note":"Contexto sobre fermentados y microorganismos vivos."}],"image":{"concept":"Cuenco pequeño de pasta de miso junto a soja y arroz koji, fotografía editorial de ingredientes, sin texto.","alt":"Pasta de miso con soja y koji"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-477-miso",
+  "article_number": 477,
+  "translation_group": "477-miso-fermentation-nutrition",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; explicación nutricional de pasta fermentada de soja.",
+  "title": "Miso: qué es, cómo se fermenta y qué aporta",
+  "slug": "miso-que-es-fermentacion-nutricion",
+  "seo": {
+    "title": "Miso: qué es, cómo se fermenta y qué aporta",
+    "meta_description": "El miso es una pasta fermentada de soja, sal y koji, a veces con arroz o cebada. Aporta sabor umami y algo de proteína, pero también bastante sodio.",
+    "search_intent": "Entender qué es el miso, cómo se produce y cuál es su perfil nutricional."
+  },
+  "excerpt": "El miso se obtiene fermentando soja con koji —un cereal o soja inoculado con Aspergillus oryzae—, sal y tiempo. Es concentrado en sabor y aporta proteína e isoflavonas de la soja, pero una porción pequeña puede contener bastante sodio, por lo que se usa más como condimento que como fuente principal de proteína.",
+  "taxonomy": {
+    "food_family": "fermented",
+    "food_subcategories": [],
+    "article_types": [
+      "processing-production",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p>Una cucharada de miso puede transformar una olla entera porque es un alimento muy concentrado. <strong>No es simplemente “soja triturada”: es una pasta de soja fermentada mediante koji, sal y maduración.</strong></p><h2>El koji pone en marcha la transformación</h2><p>El koji se produce cultivando el moho Aspergillus oryzae sobre arroz, cebada o soja. Sus enzimas rompen proteínas y almidones en moléculas más pequeñas. Después se mezcla con soja cocida y sal y se deja madurar durante semanas o meses.</p><p>Según el cereal usado, la proporción de soja, la sal y el tiempo, aparecen estilos blancos, amarillos, rojos y otros con sabores muy distintos.</p><h2>Qué aporta nutricionalmente</h2><p>El miso conserva proteína y grasa de la soja, además de isoflavonas y minerales. Una revisión científica recoge valores alrededor de 9–17 g de proteína por 100 g según el tipo. Pero una ración culinaria suele ser de 15–20 g, así que aporta sólo una fracción de esa cantidad.</p><p>El dato que más merece atención es el sodio. La fermentación tradicional depende de sal y muchas variedades contienen varios gramos de sal por 100 g. Por eso es mejor pensarlo como condimento intenso que como alimento para comer a cucharadas.</p><h2>¿Tiene microorganismos vivos?</h2><p>Puede tenerlos si no se ha pasteurizado y se mantiene de forma que sobrevivan, pero algunos productos comerciales se tratan térmicamente. Además, que contenga microorganismos no permite afirmar automáticamente que sea probiótico.</p><h2>Cómo usarlo sin perder su carácter</h2><p>Para sopas, diluir el miso en un poco de líquido templado y añadirlo al final conserva mejor aroma y, si los hay, microorganismos sensibles al calor. Hervirlo no lo vuelve tóxico: simplemente cambia aroma y reduce la viabilidad microbiana.</p><p><strong>Su fuerza nutricional y culinaria está en la concentración; por eso la cantidad importa tanto como la composición por 100 g.</strong></p>\n<h2>El tipo de miso cambia mucho el sabor y la forma de usarlo</h2>\n<p>Bajo el nombre de miso hay pastas bastante distintas. El miso blanco o shiro suele ser más suave, dulce y claro, por lo que encaja bien en aliños, salsas, glaseados y sopas delicadas. El miso rojo o aka acostumbra a tener un sabor más profundo y salado y funciona mejor en caldos intensos, marinados y platos de cocción lenta. También existen mezclas intermedias. El color orienta, pero no determina por sí solo la composición porque cambian la proporción de soja, cereal, sal, agua y tiempo de fermentación.</p>\n<p>Por esa variabilidad conviene comparar etiquetas concretas. Dos envases con la misma denominación pueden tener diferencias apreciables de sodio y tamaño de ración. Además, una pasta más intensa suele necesitar menos cantidad para sazonar. Mirar únicamente el sodio por 100 g puede exagerar la diferencia que finalmente habrá en un plato preparado con una cucharada o menos.</p>\n<h2>Calentar el miso afecta más a los microorganismos que a su valor como alimento</h2>\n<p>Que un alimento esté fermentado no significa que cualquier preparación final aporte microorganismos vivos. Si el miso se hierve durante varios minutos, buena parte de las bacterias y levaduras sensibles al calor dejan de ser viables. Cuando se busca conservar más cultivos, una opción culinaria es retirar el caldo del fuego y disolver la pasta al final. Aun calentado, el miso sigue aportando sabor, algo de proteína, minerales y compuestos generados durante la fermentación.</p>\n<p>Esta diferencia ayuda a separar dos conceptos que suelen mezclarse. “Fermentado” describe cómo se elaboró el alimento; “probiótico” exige microorganismos vivos concretos en una cantidad adecuada y con un beneficio demostrado. Un producto puede haber pasado por fermentación y después ser pasteurizado, filtrado o cocinado.</p>\n<h2>La ración suele ser pequeña y el sodio merece más atención que las calorías</h2>\n<p>El miso se utiliza normalmente por cucharadas, no como alimento principal. Esa concentración permite sazonar una cazuela de verduras, tofu, pescado, fideos o caldo con poca cantidad. Para moderar el sodio se puede empezar con menos pasta, potenciar el plato con jengibre, cebolleta, ajo, setas o cítricos y probar antes de añadir salsa de soja u otros condimentos salados.</p>\n<p>Una vez abierto, lo más práctico es conservarlo refrigerado, bien cerrado y utilizar utensilios limpios. El contenido de sal y la fermentación le dan bastante estabilidad, pero no lo hacen eterno. Un ligero oscurecimiento por oxidación no equivale necesariamente a deterioro; moho visible, olor putrefacto, envase dañado o una alteración clara de la superficie son señales mucho más relevantes para desecharlo.</p>\n",
+  "faq": [
+    {
+      "question": "¿El miso es una buena fuente de proteína?",
+      "answer": "Contiene proteína, pero se consume en raciones pequeñas. No suele aportar tanta proteína por comida como tofu, legumbres o soja entera."
+    },
+    {
+      "question": "¿Tiene mucha sal?",
+      "answer": "A menudo sí. El sodio puede ser elevado porque la sal forma parte del proceso de fermentación y conservación."
+    },
+    {
+      "question": "¿Hay que evitar hervirlo?",
+      "answer": "No por seguridad. Añadirlo al final ayuda a preservar aroma y microorganismos vivos si el producto los contiene."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Food Science & Nutrition — Miso review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9731531/",
+      "note": "Elaboración, tipos y composición nutricional del miso."
+    },
+    {
+      "name": "Harvard T.H. Chan — Probiotics for Gut Health",
+      "url": "https://nutritionsource.hsph.harvard.edu/probiotics/",
+      "note": "Contexto sobre fermentados y microorganismos vivos."
+    }
+  ],
+  "image": {
+    "concept": "Cuenco pequeño de pasta de miso junto a soja y arroz koji, fotografía editorial de ingredientes, sin texto.",
+    "alt": "Pasta de miso con soja y koji"
+  },
+  "status": "publish"
+}
