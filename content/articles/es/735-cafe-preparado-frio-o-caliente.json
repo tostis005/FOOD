@@ -1,1 +1,63 @@
-{"schema_version":1,"id":"es-735-cafe-preparado-frio-o-caliente","article_number":735,"translation_group":"735-cold-vs-hot-coffee","language":"es","locale":"es-ES","market_context":"España; extracción del café, cafeína y análisis sensorial","title":"Café preparado en frío o caliente: qué cambia en cafeína y sabor","slug":"cafe-preparado-frio-o-caliente","seo":{"title":"Cold brew vs café caliente: cafeína y sabor","meta_description":"El agua caliente extrae compuestos del café más deprisa; el cold brew compensa con muchas horas de contacto. Suele resultar menos ácido o amargo, pero la cafeína depende de dosis, proporción, tiempo, dilución y tamaño de la bebida.","search_intent":"Comparar café preparado en frío y caliente por cafeína, extracción, sabor y variables de la receta."},"excerpt":"El café caliente extrae rápidamente gracias a la temperatura; el cold brew sustituye calor por muchas horas de contacto. Eso modifica el perfil de sabor y suele dar una bebida más suave, pero no existe una regla de “más cafeína por ser frío”: la receta y la dilución pueden pesar más que la temperatura.","taxonomy":{"food_family":"beverages","food_subcategories":["coffee","cold-brew","hot-coffee"],"article_types":["comparisons","cooking-science","nutrition-composition"],"primary_article_type":"comparisons"},"content_html":"<p>Un café de filtro puede estar listo en pocos minutos y un cold brew tardar horas, pero los dos pueden terminar con una cantidad importante de cafeína. <strong>La temperatura modifica la velocidad y el equilibrio de extracción; no fija por sí sola cuánta cafeína habrá en la taza final.</strong></p><h2>El agua caliente extrae mucho más deprisa</h2><p>El calor acelera la disolución y transporte de numerosos compuestos del café, por eso un filtro, una prensa o un espresso trabajan en minutos o segundos. En frío, el tiempo prolongado compensa una extracción mucho más lenta.</p><h2>El perfil sensorial también cambia</h2><p>En estudios sensoriales controlados, el café preparado en frío suele percibirse menos ácido y amargo que un café comparable extraído en caliente. El tueste, la molienda, el agua y la proporción siguen teniendo un efecto enorme, de modo que “suave” no es una garantía automática.</p><h2>La cafeína depende de más variables que la temperatura</h2><p>Comparaciones controladas con recetas equiparables han encontrado concentraciones de cafeína similares entre métodos fríos y calientes. En la vida real, sin embargo, el cold brew suele prepararse como concentrado y después diluirse, mientras un café caliente utiliza otras proporciones.</p><h2>Compara la bebida terminada</h2><p>Un vaso grande de cold brew puede superar a una taza pequeña de filtro simplemente por concentración o volumen; otra receta muy diluida puede quedar por debajo. <strong>Si necesitas controlar la cafeína, utiliza el dato de la bebida concreta y su tamaño, no una regla basada solo en frío o caliente.</strong></p>","faq":[{"question":"¿El cold brew tiene siempre más cafeína?","answer":"No. Influyen mucho la cantidad de café, el agua, el tiempo, la dilución y el tamaño de la bebida."},{"question":"¿Por qué suele saber menos amargo?","answer":"La extracción a menor temperatura cambia el equilibrio de ácidos y otros compuestos; en análisis sensoriales suele percibirse menos ácido y amargo."},{"question":"¿El agua caliente extrae cafeína más rápido?","answer":"Sí, el calor acelera la extracción, aunque el tiempo prolongado del cold brew permite extraer también una cantidad considerable."}],"sources":[{"name":"Specialty Coffee Association — Cold vs Iced Coffee Sensory Analysis","url":"https://sca.coffee/sca-news/cold-vs-iced-using-sensory-analysis-to-test-the-claim-that-cold-brew-is-sweeter-and-less-acidic-73yf5","note":"Definición práctica del cold brew y comparación sensorial con café preparado en caliente."},{"name":"Foods — Effects of Brewing Temperature on Coffee","url":"https://www.mdpi.com/2304-8158/9/7/902","note":"Análisis controlado de café extraído en frío y caliente, incluida cafeína y compuestos relacionados con la acidez."}],"image":{"concept":"Café de filtro caliente humeante junto a un vaso de cold brew con hielo, composición editorial limpia.","alt":"Café preparado en frío y caliente"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-735-cafe-preparado-frio-o-caliente",
+  "article_number": 735,
+  "translation_group": "735-cold-vs-hot-coffee",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España; extracción del café, cafeína y análisis sensorial",
+  "title": "Café preparado en frío o caliente: qué cambia en cafeína y sabor",
+  "slug": "cafe-preparado-frio-o-caliente",
+  "seo": {
+    "title": "Cold brew vs café caliente: cafeína y sabor",
+    "meta_description": "El agua caliente extrae compuestos del café más deprisa; el cold brew compensa con muchas horas de contacto. Suele resultar menos ácido o amargo, pero la cafeína depende de dosis, proporción, tiempo, dilución y tamaño de la bebida.",
+    "search_intent": "Comparar café preparado en frío y caliente por cafeína, extracción, sabor y variables de la receta."
+  },
+  "excerpt": "El café caliente extrae rápidamente gracias a la temperatura; el cold brew sustituye calor por muchas horas de contacto. Eso modifica el perfil de sabor y suele dar una bebida más suave, pero no existe una regla de “más cafeína por ser frío”: la receta y la dilución pueden pesar más que la temperatura.",
+  "taxonomy": {
+    "food_family": "beverages",
+    "food_subcategories": [
+      "coffee",
+      "cold-brew",
+      "hot-coffee"
+    ],
+    "article_types": [
+      "comparisons",
+      "cooking-science",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Un café de filtro puede estar listo en pocos minutos y un cold brew tardar horas, pero los dos pueden terminar con una cantidad importante de cafeína. <strong>La temperatura modifica la velocidad y el equilibrio de extracción; no fija por sí sola cuánta cafeína habrá en la taza final.</strong></p><h2>El agua caliente extrae mucho más deprisa</h2><p>El calor acelera la disolución y transporte de numerosos compuestos del café, por eso un filtro, una prensa o un espresso trabajan en minutos o segundos. En frío, el tiempo prolongado compensa una extracción mucho más lenta.</p><h2>El perfil sensorial también cambia</h2><p>En estudios sensoriales controlados, el café preparado en frío suele percibirse menos ácido y amargo que un café comparable extraído en caliente. El tueste, la molienda, el agua y la proporción siguen teniendo un efecto enorme, de modo que “suave” no es una garantía automática.</p><h2>La cafeína depende de más variables que la temperatura</h2><p>Comparaciones controladas con recetas equiparables han encontrado concentraciones de cafeína similares entre métodos fríos y calientes. En la vida real, sin embargo, el cold brew suele prepararse como concentrado y después diluirse, mientras un café caliente utiliza otras proporciones.</p><h2>Compara la bebida terminada</h2><p>Un vaso grande de cold brew puede superar a una taza pequeña de filtro simplemente por concentración o volumen; otra receta muy diluida puede quedar por debajo. <strong>Si necesitas controlar la cafeína, utiliza el dato de la bebida concreta y su tamaño, no una regla basada solo en frío o caliente.</strong></p><h2>Por qué una comparación de cafeína puede invertirse de una cafetería a otra</h2><p>El cold brew se prepara muchas veces como concentrado con una relación alta de café respecto al agua y después se diluye. El café caliente de filtro suele elaborarse más cerca de la concentración final de consumo. Esa diferencia de receta puede pesar más que la temperatura del agua; por eso un cold brew de una cafetería puede tener más cafeína que su café caliente y en otra ocurrir lo contrario. Compara el tamaño servido y el dato de cafeína cuando esté disponible.</p><p>El tiempo compensa parte de la temperatura. El agua caliente extrae compuestos solubles con rapidez; el agua fría trabaja mucho más despacio y por eso suele dejarse muchas horas. Molienda, tueste, variedad de grano, agitación, filtrado y dilución también cambian el resultado. Decir “el cold brew tiene más cafeína” sin especificar esas variables queda incompleto.</p><p>Las diferencias de sabor son más predecibles que las de cafeína. La extracción en frío suele favorecer perfiles suaves, achocolatados y menos punzantes, mientras que el agua caliente libera aromas volátiles con rapidez y puede mostrar más acidez, amargor y carácter de tueste según el café. Esa diferencia sensorial explica que algunas personas tomen cold brew con menos leche o azúcar, aunque depende de la receta.</p><p>Si te preocupa la cafeína, mide la bebida que realmente consumes. Un vaso de 470 ml de concentrado diluido con hielo no se compara directamente con una taza de 240 ml de café caliente. Si lo prioritario es el sabor, elige el método que mejor encaje con los granos y el estilo que disfrutas. La temperatura cambia la extracción, pero la receta decide la taza final.</p><p>Cold brew no es lo mismo que café con hielo. El café con hielo suele prepararse con agua caliente y después enfriarse o servirse sobre hielo, de modo que su extracción empezó en caliente. El cold brew se extrae con agua fría o fresca desde el principio. Dos bebidas pueden llegar igual de frías al vaso y tener historias de extracción y perfiles de sabor muy distintos.</p><p>Para personas sensibles a la cafeína, importa más el dato de la marca o cafetería que asumir algo por el método. Incluso el descafeinado conserva pequeñas cantidades y un vaso grande multiplica una concentración moderada. Si afecta al sueño, mira miligramos totales y hora de consumo en lugar de escoger frío o caliente solo por su fama de ser más o menos fuerte.</p><p>La dilución con hielo es otra variable oculta. Un café preparado en caliente y vertido sobre mucho hielo puede quedar más suave al derretirse, mientras que un concentrado de cold brew puede estar diseñado precisamente para esa dilución. La cafeína por mililitro puede cambiar durante el servicio; para tu organismo importa la cantidad total de bebida que acabas tomando.</p>",
+  "faq": [
+    {
+      "question": "¿El cold brew tiene siempre más cafeína?",
+      "answer": "No. Influyen mucho la cantidad de café, el agua, el tiempo, la dilución y el tamaño de la bebida."
+    },
+    {
+      "question": "¿Por qué suele saber menos amargo?",
+      "answer": "La extracción a menor temperatura cambia el equilibrio de ácidos y otros compuestos; en análisis sensoriales suele percibirse menos ácido y amargo."
+    },
+    {
+      "question": "¿El agua caliente extrae cafeína más rápido?",
+      "answer": "Sí, el calor acelera la extracción, aunque el tiempo prolongado del cold brew permite extraer también una cantidad considerable."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Specialty Coffee Association — Cold vs Iced Coffee Sensory Analysis",
+      "url": "https://sca.coffee/sca-news/cold-vs-iced-using-sensory-analysis-to-test-the-claim-that-cold-brew-is-sweeter-and-less-acidic-73yf5",
+      "note": "Definición práctica del cold brew y comparación sensorial con café preparado en caliente."
+    },
+    {
+      "name": "Foods — Effects of Brewing Temperature on Coffee",
+      "url": "https://www.mdpi.com/2304-8158/9/7/902",
+      "note": "Análisis controlado de café extraído en frío y caliente, incluida cafeína y compuestos relacionados con la acidez."
+    }
+  ],
+  "image": {
+    "concept": "Café de filtro caliente humeante junto a un vaso de cold brew con hielo, composición editorial limpia.",
+    "alt": "Café preparado en frío y caliente"
+  },
+  "status": "publish"
+}

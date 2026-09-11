@@ -1,1 +1,69 @@
-{"schema_version":1,"id":"en-343-why-olive-oil-stings-throat","article_number":343,"translation_group":"343-why-olive-oil-stings-throat","language":"en","locale":"en-US","market_context":"United States; extra-virgin and virgin olive oil","title":"Why does olive oil sting your throat?","slug":"why-olive-oil-stings-throat","seo":{"title":"Why does olive oil sting your throat?","meta_description":"Pungency in virgin olive oil is a recognized positive sensory attribute linked to phenolic compounds. Oleocanthal activates TRPA1 receptors and helps explain why the sting is especially noticeable in the throat.","search_intent":"Explain the throat sting of olive oil and distinguish pungency from acidity, rancidity and spoilage."},"excerpt":"The throat sting in many virgin olive oils, especially fresh oils from greener fruit, is normal and can be a positive sensory attribute. Oleocanthal is one compound involved: it activates TRPA1 sensory receptors and creates a distinctive pharyngeal pungency. It is not the same thing as the oil's free-acidity number.","taxonomy":{"food_family":"oils-fats","food_subcategories":["olive-oil","extra-virgin-olive-oil","phenolics","oleocanthal"],"article_types":["cooking-science","myths-faq","nutrition-composition"],"primary_article_type":"cooking-science"},"content_html":"<p>A sip of olive oil can seem mild at first and then catch at the back of the throat strongly enough to trigger a cough. In virgin olive oil, that sensation <strong>can be a normal and desirable part of the sensory profile</strong>.</p>\n<h2>Pungency is a tactile sensation</h2>\n<p>The International Olive Council defines pungency as a biting tactile sensation characteristic especially of oils produced early in the crop year from relatively unripe olives. It may be perceived throughout the mouth but is particularly noticeable in the throat.</p>\n<p>That makes it different from bitterness, which is a taste, and fruitiness, which is an aroma perception.</p>\n<h2>Oleocanthal helps explain the throat-specific sting</h2>\n<p>Research in the <em>Journal of Neuroscience</em> showed that <strong>oleocanthal</strong>, a phenolic compound in extra-virgin olive oil, activates the sensory receptor <strong>TRPA1</strong>. The distribution of these receptors helps explain why oleocanthal's irritation is unusually concentrated in the pharynx.</p>\n<p>The sensation can resemble the throat irritation caused by ibuprofen, an observation that helped researchers investigate the mechanism.</p>\n<h2>Does more sting mean better oil?</h2>\n<p>Not automatically. Clean pungency can reflect a phenolic oil, but extra-virgin quality depends on more than one sensation: fruitiness, absence of sensory defects and required chemical parameters all matter.</p>\n<p>Two excellent oils can have very different pungency because cultivar, fruit maturity, harvest timing and processing alter the phenolic profile.</p>\n<h2>Pungency is not the acidity number</h2>\n<p>Free acidity is a chemical measurement, commonly expressed as a percentage of free oleic acid. <strong>You cannot taste that number directly as sourness or throat burn.</strong> An oil with 0.2% free acidity is not guaranteed to sting less or more than one at 0.4%.</p>\n<h2>It is not rancidity either</h2>\n<p>Rancid oil tends to lose fresh fruit character and develop stale, waxy or oxidized notes. Pungency is commonly associated with fresh virgin oils. Confusing the two can make a consumer reject a perfectly good robust oil.</p>\n<h2>The useful interpretation</h2>\n<p>If the oil smells clean and fruity and the sting is a sharp, fresh sensation in the mouth and throat, <strong>that is compatible with a phenolic virgin olive oil</strong>. Intensity alone is not a universal quality score, but throat sting does not mean the oil is “too acidic” or spoiled.</p>","faq":[{"question":"Why does olive oil make me cough?","answer":"Phenolic compounds such as oleocanthal activate sensory receptors and can create a distinctive pungency concentrated in the throat."},{"question":"Does a peppery olive oil mean it is high quality?","answer":"Pungency is a recognized positive attribute in virgin olive oil, but quality also requires fruitiness, absence of defects and appropriate chemistry."},{"question":"Is the sting caused by acidity?","answer":"No. Free acidity is a laboratory measurement and is not the same as a sour or peppery sensation."}],"sources":[{"name":"International Olive Council — Organoleptic assessment of virgin olive oil","url":"https://www.internationaloliveoil.org/wp-content/uploads/2024/07/III-2.2.COI-T20-Doc.-15-REV-11-2024_EN.pdf","note":"Defines pungency as a positive tactile attribute perceived especially in the throat."},{"name":"Journal of Neuroscience — Oleocanthal and TRPA1","url":"https://pubmed.ncbi.nlm.nih.gov/21248124/","note":"Explains the receptor mechanism and pharyngeal localization of oleocanthal pungency."},{"name":"International Olive Council — Standards, methods and guides","url":"https://www.internationaloliveoil.org/what-we-do/chemistry-standardisation-unit/standards-and-methods/","note":"Official sensory-analysis framework."}],"image":{"concept":"Small olive-oil tasting glass with green olives beside it, natural editorial food photography, no text.","alt":"Extra-virgin olive oil prepared for tasting"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-343-why-olive-oil-stings-throat",
+  "article_number": 343,
+  "translation_group": "343-why-olive-oil-stings-throat",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; extra-virgin and virgin olive oil",
+  "title": "Why does olive oil sting your throat?",
+  "slug": "why-olive-oil-stings-throat",
+  "seo": {
+    "title": "Why does olive oil sting your throat?",
+    "meta_description": "Pungency in virgin olive oil is a recognized positive sensory attribute linked to phenolic compounds. Oleocanthal activates TRPA1 receptors and helps explain why the sting is especially noticeable in the throat.",
+    "search_intent": "Explain the throat sting of olive oil and distinguish pungency from acidity, rancidity and spoilage."
+  },
+  "excerpt": "The throat sting in many virgin olive oils, especially fresh oils from greener fruit, is normal and can be a positive sensory attribute. Oleocanthal is one compound involved: it activates TRPA1 sensory receptors and creates a distinctive pharyngeal pungency. It is not the same thing as the oil's free-acidity number.",
+  "taxonomy": {
+    "food_family": "oils-fats",
+    "food_subcategories": [
+      "olive-oil",
+      "extra-virgin-olive-oil",
+      "phenolics",
+      "oleocanthal"
+    ],
+    "article_types": [
+      "cooking-science",
+      "myths-faq",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p>A sip of olive oil can seem mild at first and then catch at the back of the throat strongly enough to trigger a cough. In virgin olive oil, that sensation <strong>can be a normal and desirable part of the sensory profile</strong>.</p>\n<h2>Pungency is a tactile sensation</h2>\n<p>The International Olive Council defines pungency as a biting tactile sensation characteristic especially of oils produced early in the crop year from relatively unripe olives. It may be perceived throughout the mouth but is particularly noticeable in the throat.</p>\n<p>That makes it different from bitterness, which is a taste, and fruitiness, which is an aroma perception.</p>\n<h2>Oleocanthal helps explain the throat-specific sting</h2>\n<p>Research in the <em>Journal of Neuroscience</em> showed that <strong>oleocanthal</strong>, a phenolic compound in extra-virgin olive oil, activates the sensory receptor <strong>TRPA1</strong>. The distribution of these receptors helps explain why oleocanthal's irritation is unusually concentrated in the pharynx.</p>\n<p>The sensation can resemble the throat irritation caused by ibuprofen, an observation that helped researchers investigate the mechanism.</p>\n<h2>Does more sting mean better oil?</h2>\n<p>Not automatically. Clean pungency can reflect a phenolic oil, but extra-virgin quality depends on more than one sensation: fruitiness, absence of sensory defects and required chemical parameters all matter.</p>\n<p>Two excellent oils can have very different pungency because cultivar, fruit maturity, harvest timing and processing alter the phenolic profile.</p>\n<h2>Pungency is not the acidity number</h2>\n<p>Free acidity is a chemical measurement, commonly expressed as a percentage of free oleic acid. <strong>You cannot taste that number directly as sourness or throat burn.</strong> An oil with 0.2% free acidity is not guaranteed to sting less or more than one at 0.4%.</p>\n<h2>It is not rancidity either</h2>\n<p>Rancid oil tends to lose fresh fruit character and develop stale, waxy or oxidized notes. Pungency is commonly associated with fresh virgin oils. Confusing the two can make a consumer reject a perfectly good robust oil.</p>\n<h2>The useful interpretation</h2>\n<p>If the oil smells clean and fruity and the sting is a sharp, fresh sensation in the mouth and throat, <strong>that is compatible with a phenolic virgin olive oil</strong>. Intensity alone is not a universal quality score, but throat sting does not mean the oil is “too acidic” or spoiled.</p><h2>How to interpret pungency when tasting olive oil</h2><p>The throat sting is most informative when it appears alongside fresh aromas and flavors rather than as a stand-alone score. A young extra-virgin olive oil may smell grassy, fruity, leafy, or herbal and then produce a peppery sensation at the back of the throat. Phenolic compounds, including oleocanthal, help explain that distinctive irritation. Some oils are mild and others are intensely pungent because cultivar, harvest timing, processing, and storage all influence the phenolic profile.</p><p>Intensity is not a simple quality ladder. A strongly peppery oil can be excellent, but a delicate oil can also be high quality if it is free of sensory defects and fits its style. Professional assessment considers fruitiness, bitterness, pungency, and defects together. The useful question is whether the sensations are clean and characteristic, not whether the oil makes you cough as much as possible.</p><p>This is also why pungency should not be confused with the acidity percentage on a label. Free acidity is a chemical measurement related to the condition of the fruit and handling before extraction; you cannot taste a numerical acidity value as “acid sourness.” Rancidity is different again and is usually described with stale, waxy, cardboard-like, or old-nut notes rather than a fresh peppery catch in the throat.</p><p>At home, taste a small amount at room temperature if you want to compare oils. Warm the cup slightly in your hand, smell first, then take a small sip and let it coat the mouth. A clean bitter or peppery finish can be normal. If the dominant impression is stale or unpleasantly oxidized, that points in a different direction than the sharp throat sensation associated with fresh phenolic compounds.</p><p>Pungency also fades with storage because phenolic compounds and fresh aromas change over time. An oil that was once assertive may become softer after months, especially if it is kept warm, exposed to light, or repeatedly opened. Store olive oil in a dark container, close it after use, and keep it away from the stove's heat. Those habits preserve flavor better than judging freshness by the printed date alone.</p><p>In cooking, a peppery oil may taste less aggressive once mixed with food, so tasting it neat and tasting it on a salad can feel very different. If you enjoy the sting, use a fresher, more robust oil as a finishing oil. If you prefer a mild profile, choose a gentler extra-virgin olive oil rather than assuming the throat sensation is something that must be removed.</p>",
+  "faq": [
+    {
+      "question": "Why does olive oil make me cough?",
+      "answer": "Phenolic compounds such as oleocanthal activate sensory receptors and can create a distinctive pungency concentrated in the throat."
+    },
+    {
+      "question": "Does a peppery olive oil mean it is high quality?",
+      "answer": "Pungency is a recognized positive attribute in virgin olive oil, but quality also requires fruitiness, absence of defects and appropriate chemistry."
+    },
+    {
+      "question": "Is the sting caused by acidity?",
+      "answer": "No. Free acidity is a laboratory measurement and is not the same as a sour or peppery sensation."
+    }
+  ],
+  "sources": [
+    {
+      "name": "International Olive Council — Organoleptic assessment of virgin olive oil",
+      "url": "https://www.internationaloliveoil.org/wp-content/uploads/2024/07/III-2.2.COI-T20-Doc.-15-REV-11-2024_EN.pdf",
+      "note": "Defines pungency as a positive tactile attribute perceived especially in the throat."
+    },
+    {
+      "name": "Journal of Neuroscience — Oleocanthal and TRPA1",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/21248124/",
+      "note": "Explains the receptor mechanism and pharyngeal localization of oleocanthal pungency."
+    },
+    {
+      "name": "International Olive Council — Standards, methods and guides",
+      "url": "https://www.internationaloliveoil.org/what-we-do/chemistry-standardisation-unit/standards-and-methods/",
+      "note": "Official sensory-analysis framework."
+    }
+  ],
+  "image": {
+    "concept": "Small olive-oil tasting glass with green olives beside it, natural editorial food photography, no text.",
+    "alt": "Extra-virgin olive oil prepared for tasting"
+  },
+  "status": "publish"
+}
