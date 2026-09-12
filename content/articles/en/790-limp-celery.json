@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"en-790-limp-celery","article_number":790,"translation_group":"790-limp-celery","language":"en","locale":"en-US","market_context":"United States; food safety and quality guidance localized to U.S. sources where relevant","title":"Limp Celery: Why It Happens and How to Tell If It Is Still Good","slug":"limp-celery","seo":{"title":"Limp Celery: Is It Still Good?","meta_description":"Limp celery is often dehydrated rather than spoiled. Dry flexible stalks with a normal smell can still be used; slimy, water-soaked, moldy, or collapsing tissue should be discarded.","search_intent":"Explain why celery goes limp and how to distinguish ordinary water loss from spoilage."},"excerpt":"A celery stalk that bends has often lost moisture. If it is dry and sound with no slime, mold, watery rot, or off odor, it is still usable even though the crunch has faded.","taxonomy":{"food_family":"vegetables","food_subcategories":["celery"],"article_types":["storage","food-safety","myths-faq"],"primary_article_type":"storage"},"content_html":"<p>Fresh celery is supposed to snap. When a stalk bends instead, it is easy to assume it has spoiled. Often it has simply <strong>lost enough water to lose its crisp structure</strong>.</p>\n<p>Dry, flexible stalks that still smell normal and show no slime, mold, or wet breakdown can still be eaten. The quality has declined, but that is not the same thing as rot.</p>\n<h2>Why celery goes limp</h2>\n<p>Celery relies heavily on water pressure inside its tissues to stay rigid. UC Davis recommends extremely high relative humidity for commercial celery storage because moisture loss quickly hurts texture and appearance.</p>\n<p>In a home refrigerator, dry air and exposed storage can pull moisture out of the stalks. Leaves wilt and petioles bend before the celery necessarily develops decay.</p>\n<h2>Wetness is the clue that changes the picture</h2>\n<table><thead><tr><th>What you notice</th><th>Practical choice</th></tr></thead><tbody>\n<tr><td>Flexible, slightly wrinkled stalks; dry surface, normal smell</td><td>Use them</td></tr>\n<tr><td>Wilted or yellow leaves but sound stalks</td><td>Trim the leaves and assess the stalks</td></tr>\n<tr><td>Pithy or hollow-feeling center without rot</td><td>Quality defect; better cooked</td></tr>\n<tr><td>Wet, translucent, collapsing tissue</td><td>Possible soft rot; discard if substantial</td></tr>\n<tr><td>Slime, mold, or an off odor</td><td>Discard</td></tr>\n</tbody></table>\n<p>UC Davis lists bacterial soft rot and fungal rots among important postharvest celery diseases. Those involve tissue breakdown, not merely a dry loss of crispness.</p>\n<h2>Can you make limp celery crisp again?</h2>\n<p>If the stalks are sound but dehydrated, trimming the base and standing them in cold water for a while can restore some firmness. The improvement may be enough for raw snacking or salad.</p>\n<p>Water does not repair rotten celery. A slimy or collapsing stalk should be discarded rather than soaked.</p>\n<h2>If the crunch does not come back</h2>\n<p>Sound limp celery still works well in soup, stock, mirepoix, stew, braises, and sauces. Those preparations soften celery anyway, so there is little reason to waste it solely because it no longer snaps.</p>\n<h2>The kitchen rule</h2>\n<p><strong>Dry and bendy usually means dehydrated; wet, slimy, moldy, or collapsing means spoiled.</strong> If the only thing missing is the crunch, the celery still has plenty of culinary life.</p>","faq":[{"question":"Can you eat limp celery?","answer":"Yes, if it is simply flexible and dry with no slime, mold, watery rot, or off odor."},{"question":"How do you crisp up limp celery?","answer":"Trim the base and place sound stalks in cold water for a while. Dehydrated celery can regain some firmness."},{"question":"What does spoiled celery look like?","answer":"Spoiled celery may become slimy, water-soaked, moldy, foul-smelling, or structurally collapsed rather than merely limp."}],"sources":[{"name":"UC Davis Postharvest — Celery","url":"https://postharvest.ucdavis.edu/produce-facts-sheets/celery","note":"Marchitamiento, pérdida de calidad y podredumbres poscosecha."},{"name":"FDA — Selecting and Serving Produce Safely","url":"https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely","note":"Selección, lavado, almacenamiento y descarte de productos frescos."}],"image":{"concept":"Limp celery stalks beside crisp fresh stalks and a glass of cold water, clean editorial food photography, no text.","alt":"Limp celery caused by moisture loss"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-790-limp-celery",
+  "article_number": 790,
+  "translation_group": "790-limp-celery",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; food safety and quality guidance localized to U.S. sources where relevant",
+  "title": "Limp Celery: Why It Happens and How to Tell If It Is Still Good",
+  "slug": "limp-celery",
+  "seo": {
+    "title": "Limp Celery: Is It Still Good?",
+    "meta_description": "Limp celery is often dehydrated rather than spoiled. Dry flexible stalks with a normal smell can still be used; slimy, water-soaked, moldy, or collapsing tissue should be discarded.",
+    "search_intent": "Explain why celery goes limp and how to distinguish ordinary water loss from spoilage."
+  },
+  "excerpt": "A celery stalk that bends has often lost moisture. If it is dry and sound with no slime, mold, watery rot, or off odor, it is still usable even though the crunch has faded.",
+  "taxonomy": {
+    "food_family": "vegetables",
+    "food_subcategories": [
+      "celery"
+    ],
+    "article_types": [
+      "storage",
+      "food-safety",
+      "myths-faq"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Fresh celery is supposed to snap. When a stalk bends instead, it is easy to assume it has spoiled. Often it has simply <strong>lost enough water to lose its crisp structure</strong>.</p>\n<p>Dry, flexible stalks that still smell normal and show no slime, mold, or wet breakdown can still be eaten. The quality has declined, but that is not the same thing as rot.</p>\n<h2>Why celery goes limp</h2>\n<p>Celery relies heavily on water pressure inside its tissues to stay rigid. UC Davis recommends extremely high relative humidity for commercial celery storage because moisture loss quickly hurts texture and appearance.</p>\n<p>In a home refrigerator, dry air and exposed storage can pull moisture out of the stalks. Leaves wilt and petioles bend before the celery necessarily develops decay.</p>\n<h2>Wetness is the clue that changes the picture</h2>\n<table><thead><tr><th>What you notice</th><th>Practical choice</th></tr></thead><tbody>\n<tr><td>Flexible, slightly wrinkled stalks; dry surface, normal smell</td><td>Use them</td></tr>\n<tr><td>Wilted or yellow leaves but sound stalks</td><td>Trim the leaves and assess the stalks</td></tr>\n<tr><td>Pithy or hollow-feeling center without rot</td><td>Quality defect; better cooked</td></tr>\n<tr><td>Wet, translucent, collapsing tissue</td><td>Possible soft rot; discard if substantial</td></tr>\n<tr><td>Slime, mold, or an off odor</td><td>Discard</td></tr>\n</tbody></table>\n<p>UC Davis lists bacterial soft rot and fungal rots among important postharvest celery diseases. Those involve tissue breakdown, not merely a dry loss of crispness.</p>\n<h2>Can you make limp celery crisp again?</h2>\n<p>If the stalks are sound but dehydrated, trimming the base and standing them in cold water for a while can restore some firmness. The improvement may be enough for raw snacking or salad.</p>\n<p>Water does not repair rotten celery. A slimy or collapsing stalk should be discarded rather than soaked.</p>\n<h2>If the crunch does not come back</h2>\n<p>Sound limp celery still works well in soup, stock, mirepoix, stew, braises, and sauces. Those preparations soften celery anyway, so there is little reason to waste it solely because it no longer snaps.</p>\n<p>Celery can lose crispness before it becomes unsafe because its cells lose water and turgor. That makes limpness mainly a quality issue when the stalks are still clean, smell fresh, and show no slime or mold. The same process happens to many leafy vegetables and does not automatically mean bacterial spoilage.</p><p>Rehydration works best when the celery is only dehydrated. Trimming the base and standing the stalks in cold water, or soaking cut pieces briefly, can restore some firmness as water moves back into the cells. Very old celery with damaged tissue will not fully recover because structural breakdown has gone beyond simple water loss.</p><p>Once celery is cut, storage should be colder and more protected from drying. A sealed container in the refrigerator helps limit moisture loss, while wrapping the stalks too wet can encourage surface deterioration. The goal is high humidity without free water pooling around the vegetable.</p><p>If the stalks are merely soft, they can still be useful in soup, stock, stews, sauces, stuffing, or a cooked vegetable mix where crunch no longer matters. Sliminess, mold, a fermented smell, or widespread dark decay are different signals and justify discarding the celery.</p><p>Ethylene from some fruits can accelerate aging in nearby produce, so celery often keeps better away from apples, pears, and other strong ethylene producers. Refrigerator drawers can help maintain humidity while also separating vegetables from fruit that ripens quickly.</p><p>Leaves usually wilt before the thick stalks and can be trimmed if they deteriorate first. Fresh celery leaves are edible and useful as an herb-like garnish, but once they become slimy or moldy they should be removed along with any affected tissue.</p><p>Celery that has been revived in water should still be returned to the refrigerator and used reasonably soon. Rehydration restores texture but does not reverse aging or reset storage time. Treat the crispness improvement as a quality fix, not as proof that an old vegetable has become fresh again.</p><p>A quick smell and visual check should accompany the texture test. Clean, vegetal aroma and intact surfaces support the idea that limpness is mostly dehydration; sour odor, slime, spreading discoloration, or fuzzy growth point toward spoilage instead. Texture alone is not enough when other warning signs are present.</p><h2>The kitchen rule</h2>\n<p><strong>Dry and bendy usually means dehydrated; wet, slimy, moldy, or collapsing means spoiled.</strong> If the only thing missing is the crunch, the celery still has plenty of culinary life.</p>",
+  "faq": [
+    {
+      "question": "Can you eat limp celery?",
+      "answer": "Yes, if it is simply flexible and dry with no slime, mold, watery rot, or off odor."
+    },
+    {
+      "question": "How do you crisp up limp celery?",
+      "answer": "Trim the base and place sound stalks in cold water for a while. Dehydrated celery can regain some firmness."
+    },
+    {
+      "question": "What does spoiled celery look like?",
+      "answer": "Spoiled celery may become slimy, water-soaked, moldy, foul-smelling, or structurally collapsed rather than merely limp."
+    }
+  ],
+  "sources": [
+    {
+      "name": "UC Davis Postharvest — Celery",
+      "url": "https://postharvest.ucdavis.edu/produce-facts-sheets/celery",
+      "note": "Marchitamiento, pérdida de calidad y podredumbres poscosecha."
+    },
+    {
+      "name": "FDA — Selecting and Serving Produce Safely",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/selecting-and-serving-produce-safely",
+      "note": "Selección, lavado, almacenamiento y descarte de productos frescos."
+    }
+  ],
+  "image": {
+    "concept": "Limp celery stalks beside crisp fresh stalks and a glass of cold water, clean editorial food photography, no text.",
+    "alt": "Limp celery caused by moisture loss"
+  },
+  "status": "publish"
+}
