@@ -1,0 +1,150 @@
+name: Temporary priority 26 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-26-export
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Collect exact source JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          test -f 'content/articles/es/794-judias-verdes-blandas-viscosas.json'
+          mkdir -p "out/$(dirname 'content/articles/es/794-judias-verdes-blandas-viscosas.json')"
+          cp 'content/articles/es/794-judias-verdes-blandas-viscosas.json' "out/content/articles/es/794-judias-verdes-blandas-viscosas.json"
+          test -f 'content/articles/en/794-soft-slimy-green-beans.json'
+          mkdir -p "out/$(dirname 'content/articles/en/794-soft-slimy-green-beans.json')"
+          cp 'content/articles/en/794-soft-slimy-green-beans.json' "out/content/articles/en/794-soft-slimy-green-beans.json"
+          test -f 'content/articles/es/824-alcachofa-hojas-abiertas-secas.json'
+          mkdir -p "out/$(dirname 'content/articles/es/824-alcachofa-hojas-abiertas-secas.json')"
+          cp 'content/articles/es/824-alcachofa-hojas-abiertas-secas.json' "out/content/articles/es/824-alcachofa-hojas-abiertas-secas.json"
+          test -f 'content/articles/en/824-open-dry-artichoke-leaves.json'
+          mkdir -p "out/$(dirname 'content/articles/en/824-open-dry-artichoke-leaves.json')"
+          cp 'content/articles/en/824-open-dry-artichoke-leaves.json' "out/content/articles/en/824-open-dry-artichoke-leaves.json"
+          test -f 'content/articles/es/145-moho-alimentos-cortar-o-tirar.json'
+          mkdir -p "out/$(dirname 'content/articles/es/145-moho-alimentos-cortar-o-tirar.json')"
+          cp 'content/articles/es/145-moho-alimentos-cortar-o-tirar.json' "out/content/articles/es/145-moho-alimentos-cortar-o-tirar.json"
+          test -f 'content/articles/en/145-mold-food-cut-off-or-discard.json'
+          mkdir -p "out/$(dirname 'content/articles/en/145-mold-food-cut-off-or-discard.json')"
+          cp 'content/articles/en/145-mold-food-cut-off-or-discard.json' "out/content/articles/en/145-mold-food-cut-off-or-discard.json"
+          test -f 'content/articles/es/290-por-que-pescado-huele-tanto-al-cocinarlo.json'
+          mkdir -p "out/$(dirname 'content/articles/es/290-por-que-pescado-huele-tanto-al-cocinarlo.json')"
+          cp 'content/articles/es/290-por-que-pescado-huele-tanto-al-cocinarlo.json' "out/content/articles/es/290-por-que-pescado-huele-tanto-al-cocinarlo.json"
+          test -f 'content/articles/en/290-why-fish-smells-strong-when-cooking.json'
+          mkdir -p "out/$(dirname 'content/articles/en/290-why-fish-smells-strong-when-cooking.json')"
+          cp 'content/articles/en/290-why-fish-smells-strong-when-cooking.json' "out/content/articles/en/290-why-fish-smells-strong-when-cooking.json"
+          test -f 'content/articles/es/398-frutas-con-mas-vitamina-c.json'
+          mkdir -p "out/$(dirname 'content/articles/es/398-frutas-con-mas-vitamina-c.json')"
+          cp 'content/articles/es/398-frutas-con-mas-vitamina-c.json' "out/content/articles/es/398-frutas-con-mas-vitamina-c.json"
+          test -f 'content/articles/en/398-fruits-highest-in-vitamin-c.json'
+          mkdir -p "out/$(dirname 'content/articles/en/398-fruits-highest-in-vitamin-c.json')"
+          cp 'content/articles/en/398-fruits-highest-in-vitamin-c.json' "out/content/articles/en/398-fruits-highest-in-vitamin-c.json"
+          test -f 'content/articles/es/820-puerro-viscoso-centro-marron.json'
+          mkdir -p "out/$(dirname 'content/articles/es/820-puerro-viscoso-centro-marron.json')"
+          cp 'content/articles/es/820-puerro-viscoso-centro-marron.json' "out/content/articles/es/820-puerro-viscoso-centro-marron.json"
+          test -f 'content/articles/en/820-slimy-leek-brown-center.json'
+          mkdir -p "out/$(dirname 'content/articles/en/820-slimy-leek-brown-center.json')"
+          cp 'content/articles/en/820-slimy-leek-brown-center.json' "out/content/articles/en/820-slimy-leek-brown-center.json"
+          test -f 'content/articles/es/382-leche-vaca-vs-bebida-soja.json'
+          mkdir -p "out/$(dirname 'content/articles/es/382-leche-vaca-vs-bebida-soja.json')"
+          cp 'content/articles/es/382-leche-vaca-vs-bebida-soja.json' "out/content/articles/es/382-leche-vaca-vs-bebida-soja.json"
+          test -f 'content/articles/en/382-cow-milk-vs-soy-milk.json'
+          mkdir -p "out/$(dirname 'content/articles/en/382-cow-milk-vs-soy-milk.json')"
+          cp 'content/articles/en/382-cow-milk-vs-soy-milk.json' "out/content/articles/en/382-cow-milk-vs-soy-milk.json"
+          test -f 'content/articles/es/834-pera-granulosa-arenosa.json'
+          mkdir -p "out/$(dirname 'content/articles/es/834-pera-granulosa-arenosa.json')"
+          cp 'content/articles/es/834-pera-granulosa-arenosa.json' "out/content/articles/es/834-pera-granulosa-arenosa.json"
+          test -f 'content/articles/en/834-gritty-grainy-pear.json'
+          mkdir -p "out/$(dirname 'content/articles/en/834-gritty-grainy-pear.json')"
+          cp 'content/articles/en/834-gritty-grainy-pear.json' "out/content/articles/en/834-gritty-grainy-pear.json"
+          test -f 'content/articles/es/293-por-que-queso-se-seca-endurece-nevera.json'
+          mkdir -p "out/$(dirname 'content/articles/es/293-por-que-queso-se-seca-endurece-nevera.json')"
+          cp 'content/articles/es/293-por-que-queso-se-seca-endurece-nevera.json' "out/content/articles/es/293-por-que-queso-se-seca-endurece-nevera.json"
+          test -f 'content/articles/en/293-why-cheese-dries-hardens-in-refrigerator.json'
+          mkdir -p "out/$(dirname 'content/articles/en/293-why-cheese-dries-hardens-in-refrigerator.json')"
+          cp 'content/articles/en/293-why-cheese-dries-hardens-in-refrigerator.json' "out/content/articles/en/293-why-cheese-dries-hardens-in-refrigerator.json"
+          test -f 'content/articles/es/823-alcachofa-ennegrecida-despues-cortar.json'
+          mkdir -p "out/$(dirname 'content/articles/es/823-alcachofa-ennegrecida-despues-cortar.json')"
+          cp 'content/articles/es/823-alcachofa-ennegrecida-despues-cortar.json' "out/content/articles/es/823-alcachofa-ennegrecida-despues-cortar.json"
+          test -f 'content/articles/en/823-cut-artichoke-blackening.json'
+          mkdir -p "out/$(dirname 'content/articles/en/823-cut-artichoke-blackening.json')"
+          cp 'content/articles/en/823-cut-artichoke-blackening.json' "out/content/articles/en/823-cut-artichoke-blackening.json"
+          test -f 'content/articles/es/492-amaranto-vs-quinoa-diferencias-nutricionales.json'
+          mkdir -p "out/$(dirname 'content/articles/es/492-amaranto-vs-quinoa-diferencias-nutricionales.json')"
+          cp 'content/articles/es/492-amaranto-vs-quinoa-diferencias-nutricionales.json' "out/content/articles/es/492-amaranto-vs-quinoa-diferencias-nutricionales.json"
+          test -f 'content/articles/en/492-amaranth-vs-quinoa-nutrition.json'
+          mkdir -p "out/$(dirname 'content/articles/en/492-amaranth-vs-quinoa-nutrition.json')"
+          cp 'content/articles/en/492-amaranth-vs-quinoa-nutrition.json' "out/content/articles/en/492-amaranth-vs-quinoa-nutrition.json"
+          test -f 'content/articles/es/139-alimentos-fermentados-que-son-ejemplos.json'
+          mkdir -p "out/$(dirname 'content/articles/es/139-alimentos-fermentados-que-son-ejemplos.json')"
+          cp 'content/articles/es/139-alimentos-fermentados-que-son-ejemplos.json' "out/content/articles/es/139-alimentos-fermentados-que-son-ejemplos.json"
+          test -f 'content/articles/en/139-fermented-foods-what-they-are-examples.json'
+          mkdir -p "out/$(dirname 'content/articles/en/139-fermented-foods-what-they-are-examples.json')"
+          cp 'content/articles/en/139-fermented-foods-what-they-are-examples.json' "out/content/articles/en/139-fermented-foods-what-they-are-examples.json"
+          test -f 'content/articles/es/831-manzana-marron-por-dentro-sin-golpes.json'
+          mkdir -p "out/$(dirname 'content/articles/es/831-manzana-marron-por-dentro-sin-golpes.json')"
+          cp 'content/articles/es/831-manzana-marron-por-dentro-sin-golpes.json' "out/content/articles/es/831-manzana-marron-por-dentro-sin-golpes.json"
+          test -f 'content/articles/en/831-brown-inside-apple-no-bruises.json'
+          mkdir -p "out/$(dirname 'content/articles/en/831-brown-inside-apple-no-bruises.json')"
+          cp 'content/articles/en/831-brown-inside-apple-no-bruises.json' "out/content/articles/en/831-brown-inside-apple-no-bruises.json"
+          test -f 'content/articles/es/391-proteina-fibra-grasa-saciedad.json'
+          mkdir -p "out/$(dirname 'content/articles/es/391-proteina-fibra-grasa-saciedad.json')"
+          cp 'content/articles/es/391-proteina-fibra-grasa-saciedad.json' "out/content/articles/es/391-proteina-fibra-grasa-saciedad.json"
+          test -f 'content/articles/en/391-protein-fiber-fat-satiety.json'
+          mkdir -p "out/$(dirname 'content/articles/en/391-protein-fiber-fat-satiety.json')"
+          cp 'content/articles/en/391-protein-fiber-fat-satiety.json' "out/content/articles/en/391-protein-fiber-fat-satiety.json"
+          test -f 'content/articles/es/511-cacao-vs-cafe-cafeina-diferencias.json'
+          mkdir -p "out/$(dirname 'content/articles/es/511-cacao-vs-cafe-cafeina-diferencias.json')"
+          cp 'content/articles/es/511-cacao-vs-cafe-cafeina-diferencias.json' "out/content/articles/es/511-cacao-vs-cafe-cafeina-diferencias.json"
+          test -f 'content/articles/en/511-cocoa-vs-coffee-caffeine-differences.json'
+          mkdir -p "out/$(dirname 'content/articles/en/511-cocoa-vs-coffee-caffeine-differences.json')"
+          cp 'content/articles/en/511-cocoa-vs-coffee-caffeine-differences.json' "out/content/articles/en/511-cocoa-vs-coffee-caffeine-differences.json"
+          test -f 'content/articles/es/505-cacao-puro-vs-cacao-soluble-diferencias.json'
+          mkdir -p "out/$(dirname 'content/articles/es/505-cacao-puro-vs-cacao-soluble-diferencias.json')"
+          cp 'content/articles/es/505-cacao-puro-vs-cacao-soluble-diferencias.json' "out/content/articles/es/505-cacao-puro-vs-cacao-soluble-diferencias.json"
+          test -f 'content/articles/en/505-unsweetened-cocoa-vs-cocoa-mix-differences.json'
+          mkdir -p "out/$(dirname 'content/articles/en/505-unsweetened-cocoa-vs-cocoa-mix-differences.json')"
+          cp 'content/articles/en/505-unsweetened-cocoa-vs-cocoa-mix-differences.json' "out/content/articles/en/505-unsweetened-cocoa-vs-cocoa-mix-differences.json"
+          test -f 'content/articles/es/829-manzana-harinosa.json'
+          mkdir -p "out/$(dirname 'content/articles/es/829-manzana-harinosa.json')"
+          cp 'content/articles/es/829-manzana-harinosa.json' "out/content/articles/es/829-manzana-harinosa.json"
+          test -f 'content/articles/en/829-mealy-apple.json'
+          mkdir -p "out/$(dirname 'content/articles/en/829-mealy-apple.json')"
+          cp 'content/articles/en/829-mealy-apple.json' "out/content/articles/en/829-mealy-apple.json"
+          test -f 'content/articles/es/821-brotes-soja-viscosos-olor-fuerte.json'
+          mkdir -p "out/$(dirname 'content/articles/es/821-brotes-soja-viscosos-olor-fuerte.json')"
+          cp 'content/articles/es/821-brotes-soja-viscosos-olor-fuerte.json' "out/content/articles/es/821-brotes-soja-viscosos-olor-fuerte.json"
+          test -f 'content/articles/en/821-slimy-bean-sprouts-strong-smell.json'
+          mkdir -p "out/$(dirname 'content/articles/en/821-slimy-bean-sprouts-strong-smell.json')"
+          cp 'content/articles/en/821-slimy-bean-sprouts-strong-smell.json' "out/content/articles/en/821-slimy-bean-sprouts-strong-smell.json"
+          test -f 'content/articles/es/437-verduras-con-mas-calcio.json'
+          mkdir -p "out/$(dirname 'content/articles/es/437-verduras-con-mas-calcio.json')"
+          cp 'content/articles/es/437-verduras-con-mas-calcio.json' "out/content/articles/es/437-verduras-con-mas-calcio.json"
+          test -f 'content/articles/en/437-vegetables-highest-calcium.json'
+          mkdir -p "out/$(dirname 'content/articles/en/437-vegetables-highest-calcium.json')"
+          cp 'content/articles/en/437-vegetables-highest-calcium.json' "out/content/articles/en/437-vegetables-highest-calcium.json"
+          test -f 'content/articles/es/817-jengibre-arrugado-seco.json'
+          mkdir -p "out/$(dirname 'content/articles/es/817-jengibre-arrugado-seco.json')"
+          cp 'content/articles/es/817-jengibre-arrugado-seco.json' "out/content/articles/es/817-jengibre-arrugado-seco.json"
+          test -f 'content/articles/en/817-shriveled-dry-ginger.json'
+          mkdir -p "out/$(dirname 'content/articles/en/817-shriveled-dry-ginger.json')"
+          cp 'content/articles/en/817-shriveled-dry-ginger.json' "out/content/articles/en/817-shriveled-dry-ginger.json"
+          test "$(find out/content/articles -type f -name '*.json' | wc -l)" -eq 40
+      - name: Upload source JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority26-source-json
+          path: out/content/articles
+          if-no-files-found: error
+          retention-days: 7
