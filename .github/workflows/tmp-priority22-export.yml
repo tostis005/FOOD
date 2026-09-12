@@ -1,0 +1,49 @@
+name: Temporary priority 22 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-22-export
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Collect exact source JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          ids=(94 508 103 790 362 571 337 431 388 75 102 714 506 518 573 411 181 552 402 144)
+          rm -rf /tmp/priority22-source
+          mkdir -p /tmp/priority22-source/content/articles/es /tmp/priority22-source/content/articles/en
+          : > /tmp/priority22-source/inventory.txt
+          count=0
+          for n in "${ids[@]}"; do
+            id="$(printf '%03d' "$n")"
+            for lang in es en; do
+              mapfile -t matches < <(find "content/articles/$lang" -maxdepth 1 -type f -name "${id}-*.json" | sort)
+              test "${#matches[@]}" -eq 1
+              src="${matches[0]}"
+              cp "$src" "/tmp/priority22-source/$src"
+              python -m json.tool "$src" >/dev/null
+              printf '%s\n' "$src" >> /tmp/priority22-source/inventory.txt
+              count=$((count+1))
+            done
+          done
+          test "$count" -eq 40
+          test "$(wc -l < /tmp/priority22-source/inventory.txt)" -eq 40
+          echo "EXPORTED=$count"
+
+      - name: Upload source artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority22-source-json
+          path: /tmp/priority22-source
+          if-no-files-found: error
+          retention-days: 7
