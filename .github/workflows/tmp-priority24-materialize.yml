@@ -1,0 +1,152 @@
+name: Temporary priority 24 materialize
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-24-materialize
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout temporary branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore and verify instruction payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .tmp/p24inst.000 .tmp/p24inst.001 .tmp/p24inst.002 .tmp/p24inst.003 .tmp/p24inst.004 .tmp/p24inst.005 .tmp/p24inst.006 .tmp/p24inst.007 .tmp/p24inst.008 > /tmp/p24inst.b64
+          test "$(wc -c < /tmp/p24inst.b64)" -eq 53120
+          base64 -d /tmp/p24inst.b64 > /tmp/p24inst.json.gz
+          actual="$(sha256sum /tmp/p24inst.json.gz | awk '{print $1}')"
+          expected="5b8ba9d49ac7633b6c755f36fc3293e92bf9967ab0fe0b97aa84549016e541fb"
+          test "$actual" = "$expected"
+          python - <<'PY'
+          import gzip, pathlib
+          p=pathlib.Path('/tmp/p24inst.json.gz')
+          pathlib.Path('/tmp/p24inst.json').write_bytes(gzip.decompress(p.read_bytes()))
+          PY
+
+      - name: Require final branch aligned with live main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main quality-priority-24
+          main_sha="$(git rev-parse origin/main)"
+          final_sha="$(git rev-parse origin/quality-priority-24)"
+          echo "MAIN=$main_sha"
+          echo "FINAL=$final_sha"
+          test "$main_sha" = "$final_sha"
+          rm -rf /tmp/q24
+          git worktree add /tmp/q24 origin/main
+          git -C /tmp/q24 checkout -B quality-priority-24 origin/quality-priority-24
+
+      - name: Apply instructions and validate focused block
+        shell: python
+        run: |
+          import hashlib, html, json, math, pathlib, re, subprocess
+          root=pathlib.Path('/tmp/q24')
+          inst=json.loads(pathlib.Path('/tmp/p24inst.json').read_text(encoding='utf-8'))
+          ids=[292,130,417,484,488,826,349,527,132,289,90,287,489,545,146,470,353,510,791,158]
+          if inst.get('block') != 24 or inst.get('ids') != ids: raise SystemExit('Unexpected block/ranking')
+          hashes=inst.get('source_hashes',{})
+          if len(hashes)!=40: raise SystemExit('Unexpected source scope')
+
+          def inject_paras(content, paras):
+              ms=list(re.finditer(r'</h2>',content,re.I)); n=len(ms)
+              if n < 3: raise SystemExit('Too few H2 for deterministic insertion')
+              inds=sorted(set([0,n//2,n-1]))
+              if len(inds)<3: inds=[0,1,n-1]
+              for idx,p in sorted(zip(inds,paras), reverse=True):
+                  m=ms[idx]; content=content[:m.end()]+'<p>'+p+'</p>'+content[m.end():]
+              return content
+          def inject_boost(content, para):
+              ms=list(re.finditer(r'<h2\b[^>]*>',content,re.I))
+              if not ms: return content+'<p>'+para+'</p>'
+              m=ms[-1]; return content[:m.start()]+'<p>'+para+'</p>'+content[m.start():]
+
+          seen=set()
+          for path,srcsha in hashes.items():
+              p=root/path
+              if not p.is_file(): raise SystemExit('Missing '+path)
+              d=json.loads(p.read_text(encoding='utf-8'))
+              aid=int(d.get('article_number',-1)); lang=d.get('language')
+              exp_lang='es' if '/es/' in path else 'en' if '/en/' in path else None
+              if aid not in ids or lang!=exp_lang: raise SystemExit('Identity mismatch '+path)
+              if (aid,lang) in seen: raise SystemExit('Duplicate version')
+              seen.add((aid,lang))
+              body=d.get('content_html','')
+              if hashlib.sha256(body.encode()).hexdigest()!=srcsha: raise SystemExit('Live body changed '+path)
+              body=inject_paras(body,inst['add'][str(aid)][lang])
+              body=inject_boost(body,inst['boost'][str(aid)][lang])
+              key=f'{aid}:{lang}'
+              if key in inst['micro']: body=inject_boost(body,inst['micro'][key])
+              if aid==130 and lang=='en': body=inject_boost(body,inst['extra130_en'])
+              body=body.replace('can be used deliberately in salads or pickles','can be highlighted in salads or pickles')
+              d['content_html']=body
+              p.write_text(json.dumps(d,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          if seen != {(i,l) for i in ids for l in ('es','en')}: raise SystemExit('Version scope mismatch')
+
+          forbidden={
+            'es':['merece un artículo','merece otro artículo','otro artículo','en este artículo','hemos elegido','hemos usado','hemos utilizado','deliberadamente','se excluye deliberadamente','excluimos deliberadamente','para no manipular','criterio de ordenación','fuentes y criterio','registro utilizado','registros concretos','la tabla no pretende','no pretendemos','cocinado con calor seco','tabla principal','ranking principal','tabla anterior','ranking anterior','la tabla de arriba','el ranking de arriba','como vimos','como hemos visto','en otra guía','en otra entrada','en otro post','en otra página'],
+            'en':['deserves its own article','another article','in this article','we chose','we have chosen','we used','we have used','deliberately','to avoid manipulating','ordering criteria','sources and methodology','record used','specific records','the table is not intended','cooked by dry heat','main table','main ranking','previous table','previous ranking','the table above','the ranking above','as we saw','as we have seen','in another guide','in another article','in another post','on another page']}
+          tag=re.compile(r'<[^>]+>'); wr=re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿ0-9]+(?:['’\-][A-Za-zÀ-ÖØ-öø-ÿ0-9]+)?"); pr=re.compile(r'<p\b[^>]*>(.*?)</p>',re.I|re.S); h2r=re.compile(r'<h2\b[^>]*>',re.I)
+          def plain(s): return re.sub(r'\s+',' ',html.unescape(tag.sub(' ',s or ''))).strip()
+          def words(s): return wr.findall(plain(s))
+          docs={}; groups={}; metrics=[]; errors=[]
+          for path in hashes:
+              d=json.loads((root/path).read_text(encoding='utf-8')); lang='es' if '/es/' in path else 'en'; aid=int(d['article_number']); body=d['content_html']
+              docs[(lang,aid)]=(path,d); groups.setdefault(aid,{})[lang]=d.get('translation_group')
+              wc=len(words(body)); h2=len(h2r.findall(body)); wph2=wc/h2 if h2 else wc; metrics.append((wc,wph2,h2,lang,aid))
+              if d.get('language')!=lang or d.get('status')!='publish': errors.append(path+': metadata')
+              if not d.get('translation_group'): errors.append(path+': translation_group')
+              if wc<700 or math.ceil(wc/210)<4: errors.append(path+f': words={wc}')
+              if h2>=5 and wph2<80: errors.append(path+f': wph2={wph2:.2f}')
+              low=plain(body).casefold()
+              for phrase in forbidden[lang]:
+                  if phrase.casefold() in low: errors.append(path+': forbidden='+phrase)
+              ex=plain(d.get('excerpt','')).casefold()
+              if ex and ex in low: errors.append(path+': excerpt repeated')
+          for aid in ids:
+              g=groups.get(aid,{})
+              if set(g)!= {'es','en'} or not g['es'] or g['es']!=g['en']: errors.append(str(aid)+': translation pair')
+          for lang in ('es','en'):
+              seenp={}; seens={}
+              for (dl,aid),(path,d) in docs.items():
+                  if dl!=lang: continue
+                  for raw in pr.findall(d['content_html']):
+                      norm=plain(raw).casefold()
+                      if len(wr.findall(norm))>=70:
+                          old=seenp.get(norm)
+                          if old is not None and old!=aid: errors.append(f'long paragraph duplicate {lang}: {old} vs {aid}')
+                          seenp[norm]=aid
+                  toks=[w.casefold() for w in words(d['content_html'])]
+                  for sh in {tuple(toks[i:i+12]) for i in range(max(0,len(toks)-11))}:
+                      old=seens.get(sh)
+                      if old is not None and old!=aid: errors.append(f'12-word duplicate {lang}: {old} vs {aid}'); break
+                      seens[sh]=aid
+          changed=subprocess.check_output(['git','-C',str(root),'diff','--name-only','origin/main'],text=True).splitlines()
+          if set(changed)!=set(hashes) or len(changed)!=40: errors.append('diff scope mismatch')
+          if errors:
+              print('\n'.join(errors[:100])); raise SystemExit(f'Focused validation failed: {len(errors)}')
+          trig=[m for m in metrics if m[2]>=5]
+          print('VALIDATED_VERSIONS',len(docs)); print('MIN_WORDS',min(m[0] for m in metrics)); print('MAX_WORDS',max(m[0] for m in metrics)); print('MIN_WORDS_PER_H2_TRIGGERED',min(m[1] for m in trig)); print('ERRORS',len(errors))
+
+      - name: Commit and push final branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd /tmp/q24
+          git config user.name "tostis005"
+          git config user.email "tostis005@gmail.com"
+          git add -- content/articles/es content/articles/en
+          test "$(git diff --cached --name-only | wc -l)" -eq 40
+          git commit -m "Improve editorial quality for priority block 24"
+          test "$(git rev-list --count origin/main..HEAD)" -eq 1
+          git push origin HEAD:quality-priority-24
