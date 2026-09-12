@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"es-817-jengibre-arrugado-seco","article_number":817,"translation_group":"817-shriveled-dry-ginger","language":"es","locale":"es-ES","market_context":"España/Unión Europea; orientación doméstica sobre calidad, cocina y seguridad alimentaria con fuentes institucionales y técnicas","title":"Jengibre arrugado o seco: cuándo todavía se puede usar","slug":"jengibre-arrugado-seco","seo":{"title":"Jengibre arrugado o seco: cuándo aún se puede usar","meta_description":"El jengibre arrugado suele haber perdido agua y aún puede usarse si está firme por dentro. Moho, blandura húmeda, líquido u olor extraño indican deterioro.","search_intent":"Distinguir pérdida de agua y envejecimiento del jengibre de señales reales de deterioro."},"excerpt":"Un jengibre algo arrugado o seco puede seguir siendo utilizable: normalmente ha perdido agua y aroma. Descártalo si al cortarlo está húmedo, muy blando, mohoso, oscuro por podredumbre o desprende un olor anormal.","taxonomy":{"food_family":"other-foods","food_subcategories":["ginger"],"article_types":["storage","buying-quality-ripeness","food-safety"],"primary_article_type":"storage"},"content_html":"<p>El jengibre fresco empieza liso, tenso y jugoso, pero una pieza olvidada en la nevera puede acabar con la piel arrugada y los extremos secos. <strong>Eso suele ser deshidratación antes que podredumbre</strong>.</p>\n<p>El agua sale lentamente del rizoma durante el almacenamiento. A medida que la pierde, se encoge, la piel se vuelve más correosa y el aroma puede resultar menos vivo. La cuestión práctica es qué encuentras cuando lo cortas.</p>\n<h2>Arrugado por fuera, firme por dentro: todavía hay margen</h2>\n<p>Si al cortar una sección aparece carne firme, fibrosa y aromática, sin zonas húmedas ni moho, puedes utilizarla. Quizá necesites pelar una capa algo más gruesa o rallar el jengibre para aprovechar mejor un interior que ya no está tan jugoso.</p>\n<p>En sopas, curris, infusiones o salteados, una ligera pérdida de crocancia importa poco. Lo que sí puede bajar es la intensidad: un trozo muy seco puede aportar menos jugo y necesitar algo más de cantidad para dar el mismo impacto culinario.</p>\n<h2>Qué señales ya no son simple sequedad</h2>\n<p>Iowa State Extension recomienda desechar el jengibre cuando aparecen moho, blandura marcada, decoloración anormal u olor extraño. Una zona que cede al dedo, está húmeda o pastosa y huele fermentada no se interpreta como una arruga de superficie.</p>\n<p>Si solo un extremo se ha secado, corta una rodaja. Si debajo vuelve a aparecer tejido sano, continúa. Si el deterioro avanza hacia el centro, no sigas recortando indefinidamente.</p>\n<h2>Una comprobación sencilla</h2>\n<table><thead><tr><th>Estado</th><th>Qué hacer</th></tr></thead><tbody>\n<tr><td>Piel arrugada, interior firme y olor normal</td><td>Usar pronto</td></tr>\n<tr><td>Extremo seco, resto firme</td><td>Recortar el extremo</td></tr>\n<tr><td>Muy blando o pastoso</td><td>Desechar</td></tr>\n<tr><td>Moho, líquido u olor anormal</td><td>Desechar</td></tr>\n</tbody></table>\n<h2>Cómo evitar que el siguiente trozo termine igual</h2>\n<p>Compra cantidades acordes a tu consumo y guarda el jengibre protegido de la pérdida excesiva de humedad. Para periodos más largos, congelarlo es una opción práctica: puede rallarse incluso congelado y evita que un rizoma pase semanas secándose en el cajón.</p>\n<p><strong>Una arruga habla de agua perdida; una textura húmeda y descompuesta habla de deterioro.</strong> Cortar el jengibre y mirar el interior suele resolver la duda en segundos.</p>","faq":[{"question":"¿Se puede usar jengibre arrugado?","answer":"Sí, si al cortarlo sigue firme, huele normal y no presenta moho ni zonas húmedas de deterioro."},{"question":"¿Hay que pelarlo más si está seco?","answer":"Puede ser útil retirar la capa exterior correosa o recortar extremos muy secos; el interior sano puede aprovecharse."},{"question":"¿Cuándo debo tirarlo?","answer":"Cuando está muy blando o pastoso, presenta moho, líquido, podredumbre o un olor anormal."}],"sources":[{"name":"Iowa State University Extension — Storing Fresh Ginger","url":"https://blogs.extension.iastate.edu/answerline/2019/03/25/how-to-store-fresh-ginger/","note":"Señales de deterioro del jengibre y recomendaciones de conservación."},{"name":"Virginia Cooperative Extension — Growing Ginger at Home","url":"https://ext.vt.edu/lawn-garden/Timely_Topics/Ginger.html","note":"Describe jengibres de pulpa amarilla, blanca o azul y señala que la coloración azul puede ser normal."}],"image":{"concept":"Rizoma de jengibre ligeramente arrugado cortado para mostrar un interior firme y amarillo, fotografía natural sin texto.","alt":"Jengibre arrugado con el interior todavía firme"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-817-jengibre-arrugado-seco",
+  "article_number": 817,
+  "translation_group": "817-shriveled-dry-ginger",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; orientación doméstica sobre calidad, cocina y seguridad alimentaria con fuentes institucionales y técnicas",
+  "title": "Jengibre arrugado o seco: cuándo todavía se puede usar",
+  "slug": "jengibre-arrugado-seco",
+  "seo": {
+    "title": "Jengibre arrugado o seco: cuándo aún se puede usar",
+    "meta_description": "El jengibre arrugado suele haber perdido agua y aún puede usarse si está firme por dentro. Moho, blandura húmeda, líquido u olor extraño indican deterioro.",
+    "search_intent": "Distinguir pérdida de agua y envejecimiento del jengibre de señales reales de deterioro."
+  },
+  "excerpt": "Un jengibre algo arrugado o seco puede seguir siendo utilizable: normalmente ha perdido agua y aroma. Descártalo si al cortarlo está húmedo, muy blando, mohoso, oscuro por podredumbre o desprende un olor anormal.",
+  "taxonomy": {
+    "food_family": "other-foods",
+    "food_subcategories": [
+      "ginger"
+    ],
+    "article_types": [
+      "storage",
+      "buying-quality-ripeness",
+      "food-safety"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>El jengibre fresco empieza liso, tenso y jugoso, pero una pieza olvidada en la nevera puede acabar con la piel arrugada y los extremos secos. <strong>Eso suele ser deshidratación antes que podredumbre</strong>.</p>\n<p>El agua sale lentamente del rizoma durante el almacenamiento. A medida que la pierde, se encoge, la piel se vuelve más correosa y el aroma puede resultar menos vivo. La cuestión práctica es qué encuentras cuando lo cortas.</p>\n<h2>Arrugado por fuera, firme por dentro: todavía hay margen</h2><p>El jengibre pierde agua durante el almacenamiento, así que las arrugas suelen ser primero un problema de deshidratación y no de deterioro. Un trozo puede verse cansado por fuera y seguir aromático, fibroso y firme al cortarlo. En ese caso el sabor quizá sea algo menos vivo, pero todavía sirve para rallar en un plato caliente, infusionar o triturar en una salsa. Retirar una piel muy seca también facilita valorar cómo está realmente la parte interior.</p>\n<p>Si al cortar una sección aparece carne firme, fibrosa y aromática, sin zonas húmedas ni moho, puedes utilizarla. Quizá necesites pelar una capa algo más gruesa o rallar el jengibre para aprovechar mejor un interior que ya no está tan jugoso.</p>\n<p>En sopas, curris, infusiones o salteados, una ligera pérdida de crocancia importa poco. Lo que sí puede bajar es la intensidad: un trozo muy seco puede aportar menos jugo y necesitar algo más de cantidad para dar el mismo impacto culinario.</p>\n<h2>Qué señales ya no son simple sequedad</h2><p>La blandura necesita contexto. Un rizoma algo flexible pero seco por dentro no es igual que otro húmedo, que se hunde con la presión o pierde líquido. Moho alrededor de las zonas cortadas, olor fermentado o a humedad y tejido oscuro y pastoso son motivos más claros para desecharlo. Pequeñas cicatrices secas o una cara de corte leñosa pueden deberse simplemente a la edad. Cortar por la zona más gruesa revela si el interior sigue claro y firme o si el deterioro ha penetrado.</p>\n<p>Iowa State Extension recomienda desechar el jengibre cuando aparecen moho, blandura marcada, decoloración anormal u olor extraño. Una zona que cede al dedo, está húmeda o pastosa y huele fermentada no se interpreta como una arruga de superficie.</p>\n<p>Si solo un extremo se ha secado, corta una rodaja. Si debajo vuelve a aparecer tejido sano, continúa. Si el deterioro avanza hacia el centro, no sigas recortando indefinidamente.</p>\n<h2>Una comprobación sencilla</h2><p>La brotación es otro cambio normal que puede aparecer durante el almacenamiento. Pequeños brotes pálidos o verdosos no significan automáticamente que el jengibre esté malo y la parte sana puede utilizarse si textura y olor son normales. La zona brotada puede resultar más fibrosa, por lo que recortarla es una cuestión de calidad. Esto no debe confundirse con moho algodonoso o podredumbre húmeda. Separar crecimiento de deterioro evita tratar un brote inocuo como si fuera una señal de descomposición.</p>\n<table><thead><tr><th>Estado</th><th>Qué hacer</th></tr></thead><tbody>\n<tr><td>Piel arrugada, interior firme y olor normal</td><td>Usar pronto</td></tr>\n<tr><td>Extremo seco, resto firme</td><td>Recortar el extremo</td></tr>\n<tr><td>Muy blando o pastoso</td><td>Desechar</td></tr>\n<tr><td>Moho, líquido u olor anormal</td><td>Desechar</td></tr>\n</tbody></table>\n<p>El uso previsto determina cuánto importa una ligera sequedad. Unas láminas finas para decorar dejan muy visible la textura fibrosa, mientras que el jengibre rallado en un curry, una sopa, un adobo o una receta horneada la disimula mucho mejor. El jengibre viejo también puede ser más fibroso, por lo que rallarlo contra la fibra o picarlo muy fino mejora el resultado. La calidad no tiene que ser binaria: una pieza poco atractiva para usar fresca puede seguir funcionando perfectamente en una preparación cocinada intensa.</p><h2>Cómo evitar que el siguiente trozo termine igual</h2><p>La forma de guardarlo depende de cuándo se vaya a usar. La nevera ralentiza la pérdida de agua y el deterioro en el uso doméstico, sobre todo si el extremo cortado queda protegido del exceso de aire. Congelarlo funciona para periodos más largos y puede rallarse todavía congelado en muchos platos, aunque al descongelar se ablanda. Sea cual sea el método, interesa mantener seca la superficie porque la humedad atrapada favorece un deterioro blando que las simples arrugas no indican.</p>\n<p>Compra cantidades acordes a tu consumo y guarda el jengibre protegido de la pérdida excesiva de humedad. Para periodos más largos, congelarlo es una opción práctica: puede rallarse incluso congelado y evita que un rizoma pase semanas secándose en el cajón.</p>\n<p><strong>Una arruga habla de agua perdida; una textura húmeda y descompuesta habla de deterioro.</strong> Cortar el jengibre y mirar el interior suele resolver la duda en segundos.</p>",
+  "faq": [
+    {
+      "question": "¿Se puede usar jengibre arrugado?",
+      "answer": "Sí, si al cortarlo sigue firme, huele normal y no presenta moho ni zonas húmedas de deterioro."
+    },
+    {
+      "question": "¿Hay que pelarlo más si está seco?",
+      "answer": "Puede ser útil retirar la capa exterior correosa o recortar extremos muy secos; el interior sano puede aprovecharse."
+    },
+    {
+      "question": "¿Cuándo debo tirarlo?",
+      "answer": "Cuando está muy blando o pastoso, presenta moho, líquido, podredumbre o un olor anormal."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Iowa State University Extension — Storing Fresh Ginger",
+      "url": "https://blogs.extension.iastate.edu/answerline/2019/03/25/how-to-store-fresh-ginger/",
+      "note": "Señales de deterioro del jengibre y recomendaciones de conservación."
+    },
+    {
+      "name": "Virginia Cooperative Extension — Growing Ginger at Home",
+      "url": "https://ext.vt.edu/lawn-garden/Timely_Topics/Ginger.html",
+      "note": "Describe jengibres de pulpa amarilla, blanca o azul y señala que la coloración azul puede ser normal."
+    }
+  ],
+  "image": {
+    "concept": "Rizoma de jengibre ligeramente arrugado cortado para mostrar un interior firme y amarillo, fotografía natural sin texto.",
+    "alt": "Jengibre arrugado con el interior todavía firme"
+  },
+  "status": "publish"
+}
