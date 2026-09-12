@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"es-695-caduca-levadura","article_number":695,"translation_group":"695-does-yeast-expire","language":"es","locale":"es-ES","market_context":"España/Unión Europea; composición, etiquetado y cocina contextualizados para lectores en España","title":"¿Caduca la levadura? Cómo comprobar si todavía funciona","slug":"caduca-levadura","seo":{"title":"¿Caduca la levadura seca? Cómo comprobarla","meta_description":"La levadura seca pierde actividad con el tiempo, sobre todo después de abrir el envase. Una prueba en agua templada con una pequeña cantidad de azúcar puede mostrar si todavía produce espuma antes de arriesgar una masa.","search_intent":"Explicar cómo envejece la levadura seca, cómo almacenarla y cómo comprobar su actividad."},"excerpt":"La levadura seca no suele volverse peligrosa al pasar la fecha: el problema es que puede perder fuerza. Si dudas, hidrata una pequeña cantidad en agua templada con algo de azúcar; una espuma clara en unos minutos indica actividad.","taxonomy":{"food_family":"other-foods","food_subcategories":["yeast"],"article_types":["storage","cooking-science","cooking-techniques"],"primary_article_type":"storage"},"content_html":"<p>Una masa que no sube puede hacerte culpar a la harina, al frío o al amasado, cuando el problema estaba en un sobre viejo. <strong>La levadura seca pierde viabilidad con el tiempo: pasada su fecha puede seguir funcionando, pero cada vez hay menos células activas capaces de fermentar la masa.</strong></p><h2>La fecha afecta sobre todo al rendimiento</h2><p>En un envase cerrado y bien almacenado, la levadura seca se mantiene estable durante bastante tiempo. Una vez abierto, humedad, oxígeno y calor aceleran la pérdida de actividad. Por eso un paquete que conserva fecha durante meses puede fallar antes si ha pasado semanas junto al horno o mal cerrado.</p><p>En España conviene distinguir además entre fecha de caducidad y fecha de consumo preferente. La levadura seca suele llevar una indicación relacionada con calidad; sigue siempre lo que figure en el envase concreto.</p><h2>Una prueba pequeña evita perder toda la masa</h2><p>Si no sabes cómo está, pon una pequeña cantidad de levadura en agua templada, alrededor de 35–40 °C, con una pizca de azúcar. Espera unos 5–10 minutos. Si aparece una capa evidente de espuma y burbujas, hay actividad fermentativa. Si el líquido queda prácticamente plano, la levadura es demasiado débil para confiarle una receta importante.</p><p>El agua no debe estar muy caliente: temperaturas altas pueden dañar o matar la levadura y convertir la propia prueba en un falso negativo.</p><h2>¿Y la levadura instantánea?</h2><p>La instantánea está diseñada para mezclarse directamente con la harina y no necesita activación previa en uso normal. Aun así, si dudas de un paquete antiguo, la misma comprobación con agua templada sirve como test de viabilidad.</p><h2>Cómo guardarla después de abrir</h2><p>Cierra el envase de forma hermética y mantenlo frío y seco. Muchos fabricantes recomiendan refrigerar o congelar la levadura seca abierta; al sacar la cantidad necesaria, evita introducir humedad en el recipiente.</p><p><strong>La pregunta práctica no es solo “¿está pasada de fecha?”, sino “¿sigue produciendo gas?”. Una prueba de diez minutos puede responder antes de que inviertas harina, tiempo y fermentación.</strong></p>","faq":[{"question":"¿Se puede usar levadura seca pasada de fecha?","answer":"Puede seguir activa, pero su potencia disminuye con el tiempo. Comprueba el tipo de fecha del envase y haz una prueba de actividad si tienes dudas."},{"question":"¿Cómo sé si la levadura está viva?","answer":"En agua templada con una pequeña cantidad de azúcar debería producir espuma y burbujas visibles en unos 5–10 minutos."},{"question":"¿Se puede congelar la levadura seca?","answer":"Muchos fabricantes recomiendan refrigerarla o congelarla una vez abierta, siempre en un recipiente hermético y evitando humedad."}],"sources":[{"name":"Lesaffre — Baking yeast","url":"https://www.lesaffre.com/","note":"Información técnica de levaduras de panificación y conservación."},{"name":"European Commission — Food date marking","url":"https://food.ec.europa.eu/safety/food-waste/eu-actions-against-food-waste/date-marking-and-food-waste-prevention_en","note":"Diferencia entre fechas relacionadas con seguridad y calidad."}],"image":{"concept":"Vaso con levadura espumando en agua templada junto a un sobre de levadura seca, fotografía editorial sin marcas.","alt":"Prueba de actividad de levadura seca"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-695-caduca-levadura",
+  "article_number": 695,
+  "translation_group": "695-does-yeast-expire",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición, etiquetado y cocina contextualizados para lectores en España",
+  "title": "¿Caduca la levadura? Cómo comprobar si todavía funciona",
+  "slug": "caduca-levadura",
+  "seo": {
+    "title": "¿Caduca la levadura seca? Cómo comprobarla",
+    "meta_description": "La levadura seca pierde actividad con el tiempo, sobre todo después de abrir el envase. Una prueba en agua templada con una pequeña cantidad de azúcar puede mostrar si todavía produce espuma antes de arriesgar una masa.",
+    "search_intent": "Explicar cómo envejece la levadura seca, cómo almacenarla y cómo comprobar su actividad."
+  },
+  "excerpt": "La levadura seca no suele volverse peligrosa al pasar la fecha: el problema es que puede perder fuerza. Si dudas, hidrata una pequeña cantidad en agua templada con algo de azúcar; una espuma clara en unos minutos indica actividad.",
+  "taxonomy": {
+    "food_family": "other-foods",
+    "food_subcategories": [
+      "yeast"
+    ],
+    "article_types": [
+      "storage",
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "storage"
+  },
+  "content_html": "<p>Una masa que no sube puede hacerte culpar a la harina, al frío o al amasado, cuando el problema estaba en un sobre viejo. <strong>La levadura seca pierde viabilidad con el tiempo: pasada su fecha puede seguir funcionando, pero cada vez hay menos células activas capaces de fermentar la masa.</strong></p><h2>La fecha afecta sobre todo al rendimiento</h2><p>En un envase cerrado y bien almacenado, la levadura seca se mantiene estable durante bastante tiempo. Una vez abierto, humedad, oxígeno y calor aceleran la pérdida de actividad. Por eso un paquete que conserva fecha durante meses puede fallar antes si ha pasado semanas junto al horno o mal cerrado.</p><p>En España conviene distinguir además entre fecha de caducidad y fecha de consumo preferente. La levadura seca suele llevar una indicación relacionada con calidad; sigue siempre lo que figure en el envase concreto.</p><h2>Una prueba pequeña evita perder toda la masa</h2><p>Si no sabes cómo está, pon una pequeña cantidad de levadura en agua templada, alrededor de 35–40 °C, con una pizca de azúcar. Espera unos 5–10 minutos. Si aparece una capa evidente de espuma y burbujas, hay actividad fermentativa. Si el líquido queda prácticamente plano, la levadura es demasiado débil para confiarle una receta importante.</p><p>El agua no debe estar muy caliente: temperaturas altas pueden dañar o matar la levadura y convertir la propia prueba en un falso negativo.</p><h2>¿Y la levadura instantánea?</h2><p>La instantánea está diseñada para mezclarse directamente con la harina y no necesita activación previa en uso normal. Aun así, si dudas de un paquete antiguo, la misma comprobación con agua templada sirve como test de viabilidad.</p><h2>Cómo guardarla después de abrir</h2><p>Cierra el envase de forma hermética y mantenlo frío y seco. Muchos fabricantes recomiendan refrigerar o congelar la levadura seca abierta; al sacar la cantidad necesaria, evita introducir humedad en el recipiente.</p><p><strong>La pregunta práctica no es solo “¿está pasada de fecha?”, sino “¿sigue produciendo gas?”. Una prueba de diez minutos puede responder antes de que inviertas harina, tiempo y fermentación.</strong></p>\n<h2>Cada tipo de levadura envejece de forma distinta después de abrir</h2>\n<p>La levadura seca es mucho más estable que la levadura fresca prensada, pero también pierde actividad con el tiempo. Los sobres cerrados de levadura seca activa o instantánea pueden conservar un rendimiento fiable durante bastante tiempo si permanecen en un lugar fresco y seco. Una vez abiertos, humedad y calor aceleran el deterioro, por lo que un tarro bien cerrado en nevera o congelador ayuda a mantener la actividad. La levadura fresca contiene mucha más agua y es bastante más perecedera: necesita refrigeración y se mueve en plazos mucho más cortos. La fecha del envase orienta, pero el historial de conservación importa tanto como el calendario.</p>\n<p>La prueba de actividad merece especialmente la pena cuando un fallo echaría a perder mucha harina, mantequilla o tiempo. Usa agua templada, nunca muy caliente, junto con una pequeña cantidad de azúcar y observa si aparece una espuma clara en varios minutos. El agua excesivamente caliente puede dañar la levadura y provocar un falso negativo; si está demasiado fría, la respuesta puede ser simplemente lenta. La levadura instantánea está pensada para mezclarse con la harina, pero un sobre antiguo también se puede probar en líquido si existen dudas.</p>\n<p>Hay situaciones en las que no merece la pena hacer ninguna prueba. La levadura fresca con moho, color extraño u olor desagradable debe desecharse. La levadura seca que se ha humedecido, forma grumos sospechosos tras entrar agua o huele de forma anormal tampoco compensa arriesgarla. Para hornear con regularidad, anota la fecha de apertura, cierra bien el recipiente y saca únicamente la cantidad necesaria antes de devolverlo al frío. La mejor protección contra un pan denso no es añadir más levadura vieja, sino confirmar que sigue activa antes de comprometer el resto de ingredientes.</p>\n<p>La masa de pan suele delatar pronto una levadura debilitada porque el levado se vuelve lento e irregular. Las masas enriquecidas con mantequilla, huevo o bastante azúcar son aún más exigentes, de modo que una levadura al límite puede fallar allí antes que en una masa sencilla. Si un sobre antiguo apenas produce espuma en la prueba, sustituirlo suele ser más fiable que alargar horas el fermentado esperando un resultado incierto.</p>\n",
+  "faq": [
+    {
+      "question": "¿Se puede usar levadura seca pasada de fecha?",
+      "answer": "Puede seguir activa, pero su potencia disminuye con el tiempo. Comprueba el tipo de fecha del envase y haz una prueba de actividad si tienes dudas."
+    },
+    {
+      "question": "¿Cómo sé si la levadura está viva?",
+      "answer": "En agua templada con una pequeña cantidad de azúcar debería producir espuma y burbujas visibles en unos 5–10 minutos."
+    },
+    {
+      "question": "¿Se puede congelar la levadura seca?",
+      "answer": "Muchos fabricantes recomiendan refrigerarla o congelarla una vez abierta, siempre en un recipiente hermético y evitando humedad."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Lesaffre — Baking yeast",
+      "url": "https://www.lesaffre.com/",
+      "note": "Información técnica de levaduras de panificación y conservación."
+    },
+    {
+      "name": "European Commission — Food date marking",
+      "url": "https://food.ec.europa.eu/safety/food-waste/eu-actions-against-food-waste/date-marking-and-food-waste-prevention_en",
+      "note": "Diferencia entre fechas relacionadas con seguridad y calidad."
+    }
+  ],
+  "image": {
+    "concept": "Vaso con levadura espumando en agua templada junto a un sobre de levadura seca, fotografía editorial sin marcas.",
+    "alt": "Prueba de actividad de levadura seca"
+  },
+  "status": "publish"
+}
