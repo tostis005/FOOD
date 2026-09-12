@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-710-aromas-naturales-o-artificiales","article_number":710,"translation_group":"710-natural-vs-artificial-flavors","language":"es","locale":"es-ES","market_context":"España/Unión Europea; aromas alimentarios conforme al Reglamento (CE) 1334/2008","title":"Aromas naturales o artificiales: qué significa realmente cada término","slug":"aromas-naturales-o-artificiales","seo":{"title":"Aromas naturales vs artificiales: qué significan","meta_description":"En la UE, “aroma natural” describe el origen y el método de obtención, no que el producto sea más saludable. Para llamar a un aroma “natural de X”, al menos el 95% del componente aromatizante debe proceder de X.","search_intent":"Explicar qué significa natural en los aromas de la UE y qué no permite concluir sobre salud o procesado."},"excerpt":"“Natural” en un aroma es una definición regulatoria sobre procedencia y obtención, no un sello de mayor salud. En la UE, si la etiqueta dice “aroma natural de fresa”, al menos el 95% de la parte aromatizante debe proceder de fresa.","taxonomy":{"food_family":"other-foods","food_subcategories":["flavorings","food-labels"],"article_types":["processing-production","nutrition-concepts","myths-faq"],"primary_article_type":"processing-production"},"content_html":"<p>“Aroma natural” puede sonar a fruta recién exprimida y “aroma” a laboratorio, pero la normativa no utiliza esas palabras como una escala de salud. <strong>La diferencia principal está en el origen de las sustancias aromatizantes y en cómo se obtienen, no en si una molécula sabe más o menos “auténtica”.</strong></p><h2>Qué significa “natural” en la Unión Europea</h2><p>El Reglamento (CE) 1334/2008 reserva el término “natural” para componentes aromatizantes que cumplen criterios específicos de origen y obtención a partir de materiales vegetales, animales o microbiológicos mediante procesos físicos, enzimáticos o microbiológicos apropiados.</p><h2>“Natural de fresa” es más específico que “aroma natural”</h2><p>Cuando se nombra una fuente —por ejemplo, “aroma natural de fresa”— al menos el 95% en peso del componente aromatizante debe obtenerse de esa fuente. El porcentaje restante puede utilizarse para estandarizar o matizar el perfil sin cambiar su carácter reconocible.</p><p>Si la procedencia no cumple esa regla del 95%, el etiquetado debe expresarse de otra manera, como “aroma natural de fresa con otros aromas naturales”, según corresponda.</p><h2>Una misma molécula puede venir de rutas distintas</h2><p>La vainillina es un buen ejemplo: puede aislarse de vainilla o producirse mediante otras rutas autorizadas. La estructura química de la molécula puede ser la misma, aunque la categoría de etiquetado y el conjunto de compuestos acompañantes sean diferentes.</p><h2>Natural no significa nutritivo ni mínimamente procesado</h2><p>Un refresco con aromas naturales sigue siendo un refresco; un alimento con aroma obtenido por síntesis no se vuelve automáticamente peligroso. La seguridad de los aromatizantes se evalúa por sustancias y usos, mientras el valor nutricional depende del alimento completo.</p><p><strong>Lee “natural” como información sobre procedencia regulada, no como una puntuación de salud.</strong></p>","faq":[{"question":"¿Un aroma natural es más saludable?","answer":"No se puede concluir eso solo por el término. Natural describe criterios de origen y obtención; la calidad nutricional depende del alimento completo."},{"question":"¿Qué significa “aroma natural de limón”?","answer":"En la UE, al menos el 95% del componente aromatizante debe proceder del limón para utilizar esa formulación."},{"question":"¿Los aromas sintéticos son inseguros?","answer":"No por ser sintéticos. La seguridad depende de la sustancia, la dosis autorizada y las condiciones de uso evaluadas."}],"sources":[{"name":"Regulation (EC) No 1334/2008","url":"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R1334","note":"Definiciones y normas europeas de etiquetado para aromas y el término natural."},{"name":"European Commission — Flavourings","url":"https://food.ec.europa.eu/safety/food-improvement-agents/flavourings_en","note":"Marco europeo de autorización y seguridad de aromas alimentarios."}],"image":{"concept":"Frutas, especias y pequeños frascos de compuestos aromáticos en una mesa de laboratorio culinario, fotografía editorial sin texto.","alt":"Aromas naturales y otros aromas alimentarios"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-710-aromas-naturales-o-artificiales",
+  "article_number": 710,
+  "translation_group": "710-natural-vs-artificial-flavors",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; aromas alimentarios conforme al Reglamento (CE) 1334/2008",
+  "title": "Aromas naturales o artificiales: qué significa realmente cada término",
+  "slug": "aromas-naturales-o-artificiales",
+  "seo": {
+    "title": "Aromas naturales vs artificiales: qué significan",
+    "meta_description": "En la UE, “aroma natural” describe el origen y el método de obtención, no que el producto sea más saludable. Para llamar a un aroma “natural de X”, al menos el 95% del componente aromatizante debe proceder de X.",
+    "search_intent": "Explicar qué significa natural en los aromas de la UE y qué no permite concluir sobre salud o procesado."
+  },
+  "excerpt": "“Natural” en un aroma es una definición regulatoria sobre procedencia y obtención, no un sello de mayor salud. En la UE, si la etiqueta dice “aroma natural de fresa”, al menos el 95% de la parte aromatizante debe proceder de fresa.",
+  "taxonomy": {
+    "food_family": "other-foods",
+    "food_subcategories": [
+      "flavorings",
+      "food-labels"
+    ],
+    "article_types": [
+      "processing-production",
+      "nutrition-concepts",
+      "myths-faq"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p>“Aroma natural” puede sonar a fruta recién exprimida y “aroma” a laboratorio, pero la normativa no utiliza esas palabras como una escala de salud. <strong>La diferencia principal está en el origen de las sustancias aromatizantes y en cómo se obtienen, no en si una molécula sabe más o menos “auténtica”.</strong></p><h2>Qué significa “natural” en la Unión Europea</h2><p>El Reglamento (CE) 1334/2008 reserva el término “natural” para componentes aromatizantes que cumplen criterios específicos de origen y obtención a partir de materiales vegetales, animales o microbiológicos mediante procesos físicos, enzimáticos o microbiológicos apropiados.</p><h2>“Natural de fresa” es más específico que “aroma natural”</h2><p>Cuando se nombra una fuente —por ejemplo, “aroma natural de fresa”— al menos el 95% en peso del componente aromatizante debe obtenerse de esa fuente. El porcentaje restante puede utilizarse para estandarizar o matizar el perfil sin cambiar su carácter reconocible.</p><p>Si la procedencia no cumple esa regla del 95%, el etiquetado debe expresarse de otra manera, como “aroma natural de fresa con otros aromas naturales”, según corresponda.</p><h2>Una misma molécula puede venir de rutas distintas</h2><p>La vainillina es un buen ejemplo: puede aislarse de vainilla o producirse mediante otras rutas autorizadas. La estructura química de la molécula puede ser la misma, aunque la categoría de etiquetado y el conjunto de compuestos acompañantes sean diferentes.</p><h2>Natural no significa nutritivo ni mínimamente procesado</h2><p>Un refresco con aromas naturales sigue siendo un refresco; un alimento con aroma obtenido por síntesis no se vuelve automáticamente peligroso. La seguridad de los aromatizantes se evalúa por sustancias y usos, mientras el valor nutricional depende del alimento completo.</p><p><strong>Lee “natural” como información sobre procedencia regulada, no como una puntuación de salud.</strong></p>\n<h2>El término de la etiqueta no revela la receta</h2>\n<p>Un aroma puede ser una mezcla compleja de compuestos volátiles utilizada en cantidades muy pequeñas. Ver “aroma natural” o “aroma” no indica cuántas sustancias hay, en qué concentración ni cómo es el resto del alimento. Por eso no es un buen atajo para decidir si un producto está más o menos procesado.</p>\n<p>Si la preocupación es nutricional, la tabla y la lista completa de ingredientes son más útiles. Azúcar, sodio, grasa, fibra y tamaño de ración pueden diferir enormemente entre dos alimentos que utilizan una denominación aromática parecida.</p>\n<h2>Las reglas sobre el origen cambian según el mercado</h2>\n<p>Las definiciones legales no son idénticas en todos los países. En la Unión Europea, las menciones “natural” y “natural de…” están sujetas a reglas específicas sobre procedencia. En Estados Unidos la definición se construye de otra manera. No conviene interpretar un producto importado utilizando exactamente los criterios regulatorios de otro mercado.</p>\n<p>La diferencia es relevante porque una frase comercial puede parecer similar después de traducirse, aunque el marco legal que hay detrás sea distinto.</p>\n<h2>Para alergias hay que leer toda la información del producto</h2>\n<p>La palabra “aroma” por sí sola no permite decidir si un alimento es apto para una persona con alergia. Las obligaciones de declaración de alérgenos siguen aplicándose, y lo prudente es revisar la lista completa y el apartado específico de alérgenos. Si existe una duda real sobre un producto concreto, el fabricante es quien puede aclarar su composición.</p>\n<p>Además, aromas naturales y otros aromas pueden aparecer juntos en un mismo producto. Un sistema aromático puede combinarse con extractos, especias, ácidos, edulcorantes y otros ingredientes. La redacción del envase responde a reglas legales concretas, no a una escala sencilla que vaya de “real” a “falso”.</p><p>Desde el punto de vista sensorial, ambos tipos buscan ofrecer un aroma reconocible y estable. Preferir uno u otro puede ser una elección personal, pero no garantiza una diferencia en calorías, vitaminas, seguridad o calidad nutricional global.</p>\n<p>La palabra “natural” responde, por tanto, a una cuestión de origen regulatorio, no a una evaluación nutricional completa. Un refresco con aroma natural puede seguir teniendo mucho azúcar añadido, y un producto bajo en azúcar puede utilizar aromas de otro tipo. Conviene tratar la denominación aromática como un detalle de formulación y valorar después el alimento con los mismos criterios que cualquier otro producto envasado.</p>\n<p>Este enfoque evita otra confusión habitual: pensar que el nombre del ingrediente revela la dosis. Los aromas suelen usarse en cantidades pequeñas, de modo que el perfil nutricional depende sobre todo del alimento que los rodea.</p>\n",
+  "faq": [
+    {
+      "question": "¿Un aroma natural es más saludable?",
+      "answer": "No se puede concluir eso solo por el término. Natural describe criterios de origen y obtención; la calidad nutricional depende del alimento completo."
+    },
+    {
+      "question": "¿Qué significa “aroma natural de limón”?",
+      "answer": "En la UE, al menos el 95% del componente aromatizante debe proceder del limón para utilizar esa formulación."
+    },
+    {
+      "question": "¿Los aromas sintéticos son inseguros?",
+      "answer": "No por ser sintéticos. La seguridad depende de la sustancia, la dosis autorizada y las condiciones de uso evaluadas."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Regulation (EC) No 1334/2008",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32008R1334",
+      "note": "Definiciones y normas europeas de etiquetado para aromas y el término natural."
+    },
+    {
+      "name": "European Commission — Flavourings",
+      "url": "https://food.ec.europa.eu/safety/food-improvement-agents/flavourings_en",
+      "note": "Marco europeo de autorización y seguridad de aromas alimentarios."
+    }
+  ],
+  "image": {
+    "concept": "Frutas, especias y pequeños frascos de compuestos aromáticos en una mesa de laboratorio culinario, fotografía editorial sin texto.",
+    "alt": "Aromas naturales y otros aromas alimentarios"
+  },
+  "status": "publish"
+}
