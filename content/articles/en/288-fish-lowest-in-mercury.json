@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"en-288-fish-lowest-in-mercury","article_number":288,"translation_group":"288-low-mercury-fish","language":"en","locale":"en-US","market_context":"United States","title":"Which fish are lowest in mercury?","slug":"fish-lowest-in-mercury","seo":{"title":"Fish lowest in mercury: practical choices","meta_description":"Sardines, salmon, shrimp, clams, and many other small or shorter-lived seafood species tend to be low in mercury. Species matters far more than whether the fish is fresh, frozen, or canned.","search_intent":"Find lower-mercury seafood choices and understand why mercury levels differ so much among species."},"excerpt":"FDA monitoring data place scallops at 0.003 ppm mean mercury, clams and shrimp at 0.009 ppm, and sardines at 0.013 ppm. Choosing species from FDA/EPA's Best Choices list is a practical way to keep mercury exposure low while still eating seafood.","taxonomy":{"food_family":"fish-seafood","food_subcategories":["mercury","fish-choice"],"article_types":["rankings","food-safety"],"primary_article_type":"rankings"},"content_html":"<p>You do not have to avoid seafood to reduce mercury exposure. <strong>Species choice can change the amount dramatically.</strong> Smaller, shorter-lived fish and shellfish generally accumulate less methylmercury than large predatory fish that feed higher in the food chain for many years.</p><h2>Some of the lowest averages in FDA monitoring data</h2><p>FDA's commercial seafood monitoring table reports mean mercury concentrations in parts per million (ppm). These are averages across sampled products, so an individual fish can vary.</p><table><thead><tr><th>Seafood</th><th>Mean mercury</th></tr></thead><tbody><tr><td>Scallop</td><td>0.003 ppm</td></tr><tr><td>Clam</td><td>0.009 ppm</td></tr><tr><td>Shrimp</td><td>0.009 ppm</td></tr><tr><td>Oyster</td><td>0.012 ppm</td></tr><tr><td>Sardine</td><td>0.013 ppm</td></tr><tr><td>Tilapia</td><td>0.013 ppm</td></tr><tr><td>Canned salmon</td><td>0.014 ppm</td></tr><tr><td>Anchovy</td><td>0.016 ppm</td></tr></tbody></table><p>The size of the gap matters. Sardines average <strong>0.013 ppm</strong> in this dataset, while swordfish is around <strong>1 ppm</strong>—roughly 70 to 80 times the mean concentration. That is why a blanket statement about “mercury in fish” misses the most useful information.</p><h2>How FDA and EPA turn the numbers into choices</h2><p>The FDA/EPA fish-advice chart places many familiar foods in its <strong>Best Choices</strong> category, including anchovies, Atlantic mackerel, canned light tuna, cod, salmon, sardines, shrimp, tilapia, trout, and several shellfish. For people who are pregnant or breastfeeding, the agencies recommend <strong>2–3 servings, totaling 8–12 ounces per week</strong>, from lower-mercury choices.</p><h2>Fresh versus frozen is not the main mercury question</h2><p>Mercury is accumulated by the animal before harvest; freezing and normal cooking do not meaningfully remove it. Canned products also differ mainly because of species. FDA monitoring lists canned light tuna at <strong>0.126 ppm</strong> mean mercury versus <strong>0.014 ppm</strong> for canned salmon.</p><h2>A simple shopping rule</h2><p>Rotate among lower-mercury species instead of relying on one fish every week. Small oily fish such as sardines and anchovies, salmon, shrimp and other shellfish, and many white fish make that easy while preserving the nutritional benefits of seafood.</p>","faq":[{"question":"Are sardines low in mercury?","answer":"Yes. FDA monitoring data list sardines at a mean of 0.013 ppm, among the lower values for commercial seafood."},{"question":"Does cooking fish remove mercury?","answer":"Not to a meaningful degree. Species and the amount eaten are much more important for exposure."},{"question":"Is canned light tuna a low-mercury choice?","answer":"FDA/EPA place canned light tuna in Best Choices, although its monitored mean of 0.126 ppm is higher than sardines at 0.013 ppm or canned salmon at 0.014 ppm."}],"sources":[{"name":"FDA/EPA — Advice about Eating Fish","url":"https://www.fda.gov/food/consumers/advice-about-eating-fish","note":"Current fish-choice categories and serving guidance for pregnancy, breastfeeding, and children."},{"name":"FDA — Mercury Levels in Commercial Fish and Shellfish (1990–2012)","url":"https://www.fda.gov/food/environmental-contaminants-food/mercury-levels-commercial-fish-and-shellfish-1990-2012","note":"Mean mercury concentrations used for species comparisons."}],"image":{"concept":"Display of sardines, salmon, shrimp and clams on ice at a fish counter, realistic editorial food photography, no text.","alt":"Lower-mercury fish and shellfish choices"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-288-fish-lowest-in-mercury",
+  "article_number": 288,
+  "translation_group": "288-low-mercury-fish",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States",
+  "title": "Which fish are lowest in mercury?",
+  "slug": "fish-lowest-in-mercury",
+  "seo": {
+    "title": "Fish lowest in mercury: practical choices",
+    "meta_description": "Sardines, salmon, shrimp, clams, and many other small or shorter-lived seafood species tend to be low in mercury. Species matters far more than whether the fish is fresh, frozen, or canned.",
+    "search_intent": "Find lower-mercury seafood choices and understand why mercury levels differ so much among species."
+  },
+  "excerpt": "FDA monitoring data place scallops at 0.003 ppm mean mercury, clams and shrimp at 0.009 ppm, and sardines at 0.013 ppm. Choosing species from FDA/EPA's Best Choices list is a practical way to keep mercury exposure low while still eating seafood.",
+  "taxonomy": {
+    "food_family": "fish-seafood",
+    "food_subcategories": [
+      "mercury",
+      "fish-choice"
+    ],
+    "article_types": [
+      "rankings",
+      "food-safety"
+    ],
+    "primary_article_type": "rankings"
+  },
+  "content_html": "<p>You do not have to avoid seafood to reduce mercury exposure. <strong>Species choice can change the amount dramatically.</strong> Smaller, shorter-lived fish and shellfish generally accumulate less methylmercury than large predatory fish that feed higher in the food chain for many years.</p><h2>Some of the lowest averages in FDA monitoring data</h2><p>Fish size and lifespan help explain why some species accumulate more mercury than others. Large, long-lived predators eat many organisms over time and can concentrate more methylmercury in their tissues. Choosing smaller species or fish with shorter life cycles is therefore a useful general strategy when exposure is a concern. That does not mean every small fish has one fixed mercury value, but the typical pattern by species is often more favorable than it is for large predatory fish.</p><p>FDA's commercial seafood monitoring table reports mean mercury concentrations in parts per million (ppm). These are averages across sampled products, so an individual fish can vary.</p><table><thead><tr><th>Seafood</th><th>Mean mercury</th></tr></thead><tbody><tr><td>Scallop</td><td>0.003 ppm</td></tr><tr><td>Clam</td><td>0.009 ppm</td></tr><tr><td>Shrimp</td><td>0.009 ppm</td></tr><tr><td>Oyster</td><td>0.012 ppm</td></tr><tr><td>Sardine</td><td>0.013 ppm</td></tr><tr><td>Tilapia</td><td>0.013 ppm</td></tr><tr><td>Canned salmon</td><td>0.014 ppm</td></tr><tr><td>Anchovy</td><td>0.016 ppm</td></tr></tbody></table><p>The size of the gap matters. Sardines average <strong>0.013 ppm</strong> in this dataset, while swordfish is around <strong>1 ppm</strong>—roughly 70 to 80 times the mean concentration. That is why a blanket statement about “mercury in fish” misses the most useful information.</p><h2>How FDA and EPA turn the numbers into choices</h2><p>A low-mercury list works best as a tool for variety rather than a reason to eat only one species. Sardines, anchovies, salmon, trout, and other lower-mercury choices can provide different amounts of omega-3 fats, vitamin D, iodine, or calcium depending on the fish and whether edible bones are included. Rotating species also avoids making the diet depend on one product and can make fish intake easier to sustain without turning a ranking into a rigid rule.</p><p>The FDA/EPA fish-advice chart places many familiar foods in its <strong>Best Choices</strong> category, including anchovies, Atlantic mackerel, canned light tuna, cod, salmon, sardines, shrimp, tilapia, trout, and several shellfish. For people who are pregnant or breastfeeding, the agencies recommend <strong>2–3 servings, totaling 8–12 ounces per week</strong>, from lower-mercury choices.</p><h2>Fresh versus frozen is not the main mercury question</h2><p>Canned fish needs to be read by species too. The fact that a fish is canned does not by itself determine mercury content, and commercial categories can include different species or sizes. If mercury exposure is an important concern, check what fish the product actually contains and follow official advice for the population group involved. Packing in oil, water, or sauce changes other nutritional features, but it does not remove mercury that is already present in the fish tissue.</p><p>Mercury is accumulated by the animal before harvest; freezing and normal cooking do not meaningfully remove it. Canned products also differ mainly because of species. FDA monitoring lists canned light tuna at <strong>0.126 ppm</strong> mean mercury versus <strong>0.014 ppm</strong> for canned salmon.</p><p>Preparation method does not materially remove mercury from fish tissue, so grilling, baking, or poaching should be chosen for flavor rather than as a mercury-reduction technique. Trimming skin or draining a can changes fat or sodium more than it changes the underlying exposure question. Species choice and eating frequency remain the more useful levers. That is why public guidance is usually organized around which fish to choose and how often to eat them, not around a special cooking method.</p><p>That keeps the recommendation practical without turning one meal into a mercury calculation.</p><h2>A simple shopping rule</h2><p>During pregnancy, childhood, or other situations covered by specific public-health advice, the goal is usually not to eliminate all fish. It is to choose appropriate species and follow recommended frequencies. Fish provides valuable nutrients, so mercury guidance aims to balance benefits with exposure. For adults without special restrictions, varying several lower-mercury species and avoiding frequent reliance on large predatory fish is a practical way to use the concept without memorizing an entire monitoring table.</p><p>Rotate among lower-mercury species instead of relying on one fish every week. Small oily fish such as sardines and anchovies, salmon, shrimp and other shellfish, and many white fish make that easy while preserving the nutritional benefits of seafood.</p>",
+  "faq": [
+    {
+      "question": "Are sardines low in mercury?",
+      "answer": "Yes. FDA monitoring data list sardines at a mean of 0.013 ppm, among the lower values for commercial seafood."
+    },
+    {
+      "question": "Does cooking fish remove mercury?",
+      "answer": "Not to a meaningful degree. Species and the amount eaten are much more important for exposure."
+    },
+    {
+      "question": "Is canned light tuna a low-mercury choice?",
+      "answer": "FDA/EPA place canned light tuna in Best Choices, although its monitored mean of 0.126 ppm is higher than sardines at 0.013 ppm or canned salmon at 0.014 ppm."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA/EPA — Advice about Eating Fish",
+      "url": "https://www.fda.gov/food/consumers/advice-about-eating-fish",
+      "note": "Current fish-choice categories and serving guidance for pregnancy, breastfeeding, and children."
+    },
+    {
+      "name": "FDA — Mercury Levels in Commercial Fish and Shellfish (1990–2012)",
+      "url": "https://www.fda.gov/food/environmental-contaminants-food/mercury-levels-commercial-fish-and-shellfish-1990-2012",
+      "note": "Mean mercury concentrations used for species comparisons."
+    }
+  ],
+  "image": {
+    "concept": "Display of sardines, salmon, shrimp and clams on ice at a fish counter, realistic editorial food photography, no text.",
+    "alt": "Lower-mercury fish and shellfish choices"
+  },
+  "status": "publish"
+}
