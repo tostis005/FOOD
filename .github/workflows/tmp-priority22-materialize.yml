@@ -1,0 +1,221 @@
+name: Temporary priority 22 materialize
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-22-materialize
+
+permissions:
+  contents: write
+
+jobs:
+  materialize:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout temporary branch
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore and verify editorial payload
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat .tmp/p22delta.000 .tmp/p22delta.001 .tmp/p22delta.002 .tmp/p22delta.003 .tmp/p22delta.004 .tmp/p22delta.005 .tmp/p22delta.006a .tmp/p22delta.006b .tmp/p22delta.007 > /tmp/p22delta.b64
+          test "$(wc -c < /tmp/p22delta.b64)" -eq 94432
+          base64 -d /tmp/p22delta.b64 > /tmp/p22delta.json.gz
+          actual="$(sha256sum /tmp/p22delta.json.gz | awk '{print $1}')"
+          expected="72d2e45ab57684caf2708732775cf996d9985199c60ff10d4de7854893b71128"
+          test "$actual" = "$expected"
+          python - <<'PY'
+          import gzip, pathlib
+          raw = gzip.decompress(pathlib.Path('/tmp/p22delta.json.gz').read_bytes())
+          pathlib.Path('/tmp/p22delta.json').write_bytes(raw)
+          print('PAYLOAD_BYTES', len(raw))
+          PY
+
+      - name: Require final branch aligned with live main
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin main quality-priority-22
+          main_sha="$(git rev-parse origin/main)"
+          final_sha="$(git rev-parse origin/quality-priority-22)"
+          echo "MAIN=$main_sha"
+          echo "FINAL=$final_sha"
+          test "$main_sha" = "$final_sha"
+          rm -rf /tmp/q22
+          git worktree add /tmp/q22 origin/main
+          git -C /tmp/q22 checkout -B quality-priority-22 origin/quality-priority-22
+
+      - name: Apply payload and focused validation
+        shell: python
+        run: |
+          import hashlib, html, json, math, pathlib, re, subprocess
+
+          root = pathlib.Path('/tmp/q22')
+          payload = json.loads(pathlib.Path('/tmp/p22delta.json').read_text(encoding='utf-8'))
+          expected_ids = [94,508,103,790,362,571,337,431,388,75,102,714,506,518,573,411,181,552,402,144]
+          entries = payload.get('entries', [])
+          expected_paths = {entry['path'] for entry in entries}
+          if payload.get('block') != 22 or payload.get('ids') != expected_ids:
+              raise SystemExit('Unexpected payload block or ranking order')
+          if len(entries) != 40 or len(expected_paths) != 40:
+              raise SystemExit('Unexpected payload scope')
+
+          seen_scope = set()
+          for entry in entries:
+              p = root / entry['path']
+              if not p.is_file():
+                  raise SystemExit(f'Missing live-main file: {entry["path"]}')
+              data = json.loads(p.read_text(encoding='utf-8'))
+              aid = int(data.get('article_number', -1))
+              lang = data.get('language')
+              expected_lang = 'es' if '/es/' in entry['path'] else 'en' if '/en/' in entry['path'] else None
+              if aid != entry.get('article_number') or aid not in expected_ids or lang != entry.get('language') or lang != expected_lang:
+                  raise SystemExit(f'Payload/file identity mismatch: {entry["path"]}')
+              key = (aid, lang)
+              if key in seen_scope:
+                  raise SystemExit(f'Duplicate payload version: {key}')
+              seen_scope.add(key)
+              raw = data.get('content_html', '')
+              current_sha = hashlib.sha256(raw.encode('utf-8')).hexdigest()
+              if current_sha != entry['source_content_sha256']:
+                  raise SystemExit(f'Live-main body changed since export: {entry["path"]}: {current_sha}')
+              replacement = entry.get('content_html')
+              if not isinstance(replacement, str) or not replacement.strip():
+                  raise SystemExit(f'Empty replacement body: {entry["path"]}')
+              data['content_html'] = replacement
+              p.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+
+          expected_versions = {(aid, lang) for aid in expected_ids for lang in ('es','en')}
+          if seen_scope != expected_versions:
+              raise SystemExit('Payload does not contain exactly one ES and EN version per ID')
+
+          forbidden = {
+              'es': [
+                  'merece un artículo','merece otro artículo','otro artículo','en este artículo','hemos elegido','hemos usado','hemos utilizado','deliberadamente','se excluye deliberadamente','excluimos deliberadamente','para no manipular','criterio de ordenación','fuentes y criterio','registro utilizado','registros concretos','la tabla no pretende','no pretendemos','cocinado con calor seco','tabla principal','ranking principal','tabla anterior','ranking anterior','la tabla de arriba','el ranking de arriba','como vimos','como hemos visto','en otra guía','en otra entrada','en otro post','en otra página'
+              ],
+              'en': [
+                  'deserves its own article','another article','in this article','we chose','we have chosen','we used','we have used','deliberately','to avoid manipulating','ordering criteria','sources and methodology','record used','specific records','the table is not intended','cooked by dry heat','main table','main ranking','previous table','previous ranking','the table above','the ranking above','as we saw','as we have seen','in another guide','in another article','in another post','on another page'
+              ]
+          }
+
+          tag_re = re.compile(r'<[^>]+>')
+          word_re = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿ0-9]+(?:['’\-][A-Za-zÀ-ÖØ-öø-ÿ0-9]+)?")
+          p_re = re.compile(r'<p\b[^>]*>(.*?)</p>', re.I | re.S)
+          h2_re = re.compile(r'<h2\b[^>]*>', re.I)
+
+          def plain(s):
+              s = html.unescape(tag_re.sub(' ', s or ''))
+              return re.sub(r'\s+', ' ', s).strip()
+
+          def words(s):
+              return word_re.findall(plain(s))
+
+          docs = {}
+          errors = []
+          groups = {}
+          metrics = []
+          for entry in entries:
+              path = entry['path']
+              data = json.loads((root/path).read_text(encoding='utf-8'))
+              lang = 'es' if '/es/' in path else 'en'
+              aid = int(data.get('article_number', -1))
+              docs[(lang, aid)] = (path, data)
+              if aid not in expected_ids:
+                  errors.append(f'{path}: article_number={aid}')
+              if data.get('language') != lang:
+                  errors.append(f'{path}: language')
+              if data.get('status') != 'publish':
+                  errors.append(f'{path}: status')
+              tg = data.get('translation_group')
+              if not isinstance(tg, str) or not tg.strip():
+                  errors.append(f'{path}: translation_group empty')
+              groups.setdefault(aid, {})[lang] = tg
+              body = data.get('content_html', '')
+              wc = len(words(body))
+              mins = math.ceil(wc / 210)
+              h2 = len(h2_re.findall(body))
+              wph2 = wc / h2 if h2 else wc
+              metrics.append((wc, wph2, h2, lang, aid))
+              if wc < 700:
+                  errors.append(f'{path}: words={wc}')
+              if mins < 4:
+                  errors.append(f'{path}: reading={mins}')
+              if h2 >= 5 and wph2 < 80:
+                  errors.append(f'{path}: words_per_h2={wph2:.2f}')
+              lower = plain(body).casefold()
+              for phrase in forbidden[lang]:
+                  if phrase.casefold() in lower:
+                      errors.append(f'{path}: forbidden={phrase}')
+              excerpt = plain(data.get('excerpt', '')).casefold()
+              if excerpt and excerpt in lower:
+                  errors.append(f'{path}: excerpt repeated')
+
+          if set(docs) != {(lang, aid) for aid in expected_ids for lang in ('es','en')}:
+              errors.append('focused document scope mismatch')
+
+          for aid in expected_ids:
+              pair = groups.get(aid, {})
+              if set(pair) != {'es','en'} or pair['es'] != pair['en'] or not pair['es']:
+                  errors.append(f'{aid}: translation group pair mismatch')
+
+          for lang in ('es','en'):
+              seen_paragraphs = {}
+              for (dl, aid), (path, data) in docs.items():
+                  if dl != lang:
+                      continue
+                  for ptxt in p_re.findall(data.get('content_html','')):
+                      norm = re.sub(r'\s+', ' ', plain(ptxt).casefold()).strip()
+                      if len(word_re.findall(norm)) < 70:
+                          continue
+                      prev = seen_paragraphs.get(norm)
+                      if prev is not None and prev[0] != aid:
+                          errors.append(f'long paragraph duplicate {lang}: {prev[0]} vs {aid}')
+                      else:
+                          seen_paragraphs[norm] = (aid, path)
+
+          for lang in ('es','en'):
+              seen_shingles = {}
+              for (dl, aid), (path, data) in docs.items():
+                  if dl != lang:
+                      continue
+                  toks = [w.casefold() for w in words(data.get('content_html',''))]
+                  local = {tuple(toks[i:i+12]) for i in range(max(0, len(toks)-11))}
+                  for sh in local:
+                      prev = seen_shingles.get(sh)
+                      if prev is not None and prev != aid:
+                          errors.append(f'12-word duplicate {lang}: {prev} vs {aid}: {" ".join(sh)}')
+                          break
+                      seen_shingles[sh] = aid
+
+          if errors:
+              print('\n'.join(errors[:100]))
+              raise SystemExit(f'Focused validation failed: {len(errors)} errors')
+
+          changed = subprocess.check_output(['git','-C',str(root),'diff','--name-only','origin/main'], text=True).splitlines()
+          if set(changed) != expected_paths or len(changed) != 40:
+              print('EXPECTED', sorted(expected_paths))
+              print('CHANGED', changed)
+              raise SystemExit('Diff scope mismatch')
+
+          filtered = [x for x in metrics if x[2] >= 5]
+          print('VALIDATED_VERSIONS', len(docs))
+          print('MIN_WORDS', min(x[0] for x in metrics))
+          print('MAX_WORDS', max(x[0] for x in metrics))
+          print('MIN_WORDS_PER_H2_TRIGGERED', min(x[1] for x in filtered) if filtered else 'NA')
+          print('ERRORS', len(errors))
+
+      - name: Commit and push final branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cd /tmp/q22
+          git config user.name "tostis005"
+          git config user.email "tostis005@gmail.com"
+          git add -- content/articles/es content/articles/en
+          test "$(git diff --cached --name-only | wc -l)" -eq 40
+          git commit -m "Improve editorial quality for priority block 22"
+          test "$(git rev-list --count origin/main..HEAD)" -eq 1
+          git push origin HEAD:quality-priority-22
