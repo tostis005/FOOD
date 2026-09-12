@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-700-sirope-arce-o-miel","article_number":700,"translation_group":"700-maple-syrup-vs-honey","language":"es","locale":"es-ES","market_context":"España/Unión Europea; composición, etiquetado y cocina contextualizados para lectores en España","title":"Sirope de arce o miel: cuál tiene más azúcar y calorías","slug":"sirope-arce-o-miel","seo":{"title":"Sirope de arce o miel: azúcar y calorías","meta_description":"La miel es más concentrada: por 100 g aporta alrededor de 82 g de azúcares y 304 kcal, frente a unos 60–67 g y 260 kcal del sirope de arce. Por cucharada, la miel también suele aportar más.","search_intent":"Comparar miel y sirope de arce en azúcares, calorías, porciones y usos culinarios."},"excerpt":"La miel suele aportar más azúcar y calorías que el sirope de arce tanto por 100 g como por cucharada. Aproximadamente: miel 82 g de azúcares y 304 kcal/100 g; arce 60–67 g y 260 kcal/100 g.","taxonomy":{"food_family":"cocoa-sweets","food_subcategories":["maple-syrup","honey"],"article_types":["comparisons","nutrition-composition","nutrition-concepts"],"primary_article_type":"comparisons"},"content_html":"<p>Los dos se vierten desde un tarro, pero no tienen la misma proporción de agua. <strong>La miel está más concentrada y suele aportar más azúcar y más calorías que el sirope de arce puro, tanto por 100 g como en una cucharada típica.</strong></p><h2>La diferencia se ve por 100 g</h2><table><thead><tr><th>Por 100 g</th><th>Azúcares</th><th>Calorías</th></tr></thead><tbody><tr><td>Miel</td><td>≈82 g</td><td>≈304 kcal</td></tr><tr><td>Sirope de arce puro</td><td>≈60–67 g</td><td>≈260 kcal</td></tr></tbody></table><p>La miel contiene menos agua y una mezcla de glucosa y fructosa muy concentrada. El sirope de arce suele tener más agua y su azúcar predominante es la sacarosa.</p><h2>Una cucharada mantiene la ventaja del arce</h2><p>Una cucharada de miel de unos 21 g aporta aproximadamente 64 kcal y 17 g de azúcares. Una cucharada de sirope de arce de unos 20 g suele aportar alrededor de 52 kcal y 12–13 g de azúcares.</p><p>La diferencia no convierte al arce en “sin azúcar”; simplemente significa que, a igual volumen doméstico, suele ser algo menos concentrado.</p><h2>El perfil de compuestos también es distinto</h2><p>La miel contiene ácidos orgánicos, compuestos aromáticos y pequeñas cantidades de antioxidantes que dependen de las flores de origen. El sirope de arce aporta manganeso, riboflavina y compuestos fenólicos propios de la savia concentrada. Ninguno de esos extras elimina el hecho de que ambos son edulcorantes ricos en azúcares.</p><h2>El sabor puede hacer cambiar la cantidad</h2><p>La miel es floral y puede dominar una preparación; el arce aporta notas tostadas y caramelizadas. Si usas menos cantidad porque el sabor te resulta más intenso, esa decisión puede importar más que una pequeña diferencia por gramo.</p><p><strong>Si buscas estrictamente menos azúcar y calorías entre los dos, el sirope de arce suele quedar por debajo; la cantidad total que sirves sigue siendo el factor principal.</strong></p>","faq":[{"question":"¿Qué tiene más azúcar, miel o sirope de arce?","answer":"La miel. Por 100 g ronda 82 g de azúcares, frente a aproximadamente 60–67 g del sirope de arce."},{"question":"¿Cuál tiene más calorías?","answer":"La miel suele aportar unas 304 kcal/100 g y el sirope de arce alrededor de 260 kcal/100 g."},{"question":"¿El sirope de arce es bajo en azúcar?","answer":"No. Aunque contiene menos que la miel por peso, sigue siendo un edulcorante concentrado en azúcares."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Valores comparables de miel y sirope de arce puro."},{"name":"EFSA — Dietary sugars","url":"https://www.efsa.europa.eu/en/topics/topic/dietary-sugars","note":"Contexto europeo sobre azúcares dietéticos."}],"image":{"concept":"Cucharadas de miel y sirope de arce puro lado a lado, fotografía editorial natural sin marcas.","alt":"Miel y sirope de arce"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-700-sirope-arce-o-miel",
+  "article_number": 700,
+  "translation_group": "700-maple-syrup-vs-honey",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición, etiquetado y cocina contextualizados para lectores en España",
+  "title": "Sirope de arce o miel: cuál tiene más azúcar y calorías",
+  "slug": "sirope-arce-o-miel",
+  "seo": {
+    "title": "Sirope de arce o miel: azúcar y calorías",
+    "meta_description": "La miel es más concentrada: por 100 g aporta alrededor de 82 g de azúcares y 304 kcal, frente a unos 60–67 g y 260 kcal del sirope de arce. Por cucharada, la miel también suele aportar más.",
+    "search_intent": "Comparar miel y sirope de arce en azúcares, calorías, porciones y usos culinarios."
+  },
+  "excerpt": "La miel suele aportar más azúcar y calorías que el sirope de arce tanto por 100 g como por cucharada. Aproximadamente: miel 82 g de azúcares y 304 kcal/100 g; arce 60–67 g y 260 kcal/100 g.",
+  "taxonomy": {
+    "food_family": "cocoa-sweets",
+    "food_subcategories": [
+      "maple-syrup",
+      "honey"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Los dos se vierten desde un tarro, pero no tienen la misma proporción de agua. <strong>La miel está más concentrada y suele aportar más azúcar y más calorías que el sirope de arce puro, tanto por 100 g como en una cucharada típica.</strong></p><p>La comparación por 100 g sirve para entender la composición, pero en la cocina casi nadie consume 100 g de uno de estos siropes de una vez. Una medida doméstica de una cucharada muestra mejor la diferencia real en una tostada, yogur o receta. Incluso así, el resultado depende de cuánto se vierta: una cucharada colmada de arce puede aportar más azúcar que una cucharadita de miel. La porción pesa más que la pequeña ventaja composicional.</p><p>Hay además una diferencia práctica de concentración de agua. El sirope de arce es más fluido y puede mezclarse con facilidad en avena, yogur o bebidas; la miel es más espesa y a veces se reparte en zonas más pequeñas. Esa diferencia puede cambiar la sensación de dulzor y la cantidad necesaria. No es una ventaja nutricional intrínseca, pero sí un motivo por el que las cifras de una tabla no predicen exactamente cuánto usará una persona en una preparación real.</p><h2>La diferencia se ve por 100 g</h2><table><thead><tr><th>Por 100 g</th><th>Azúcares</th><th>Calorías</th></tr></thead><tbody><tr><td>Miel</td><td>≈82 g</td><td>≈304 kcal</td></tr><tr><td>Sirope de arce puro</td><td>≈60–67 g</td><td>≈260 kcal</td></tr></tbody></table><p>La miel contiene menos agua y una mezcla de glucosa y fructosa muy concentrada. El sirope de arce suele tener más agua y su azúcar predominante es la sacarosa.</p><p>También cambia el comportamiento culinario. La miel es más viscosa y contiene una mezcla de fructosa y glucosa, mientras el arce puro tiene más agua y predomina la sacarosa. En repostería, sustituir uno por otro puede alterar humedad, dorado y consistencia. No siempre basta con cambiar el mismo volumen. Si la receta necesita precisión, conviene usar el edulcorante indicado o ajustar otros líquidos en lugar de asumir que ambos son intercambiables.</p><h2>Una cucharada mantiene la ventaja del arce</h2><p>Una cucharada de miel de unos 21 g aporta aproximadamente 64 kcal y 17 g de azúcares. Una cucharada de sirope de arce de unos 20 g suele aportar alrededor de 52 kcal y 12–13 g de azúcares.</p><p>La diferencia no convierte al arce en “sin azúcar”; simplemente significa que, a igual volumen doméstico, suele ser algo menos concentrado.</p><p>Los micronutrientes suelen aparecer en comparaciones comerciales para presentar uno como “más sano”. El sirope de arce puede aportar manganeso y riboflavina; ciertas mieles contienen compuestos fenólicos. Sin embargo, las cantidades se consumen dentro de porciones pequeñas de un alimento cuya función principal es endulzar. Elegir uno por sabor y usar una cantidad moderada tiene más sentido que aumentar la dosis para obtener trazas de minerales o antioxidantes.</p><h2>El perfil de compuestos también es distinto</h2><p>La miel contiene ácidos orgánicos, compuestos aromáticos y pequeñas cantidades de antioxidantes que dependen de las flores de origen. El sirope de arce aporta manganeso, riboflavina y compuestos fenólicos propios de la savia concentrada. Ninguno de esos extras elimina el hecho de que ambos son edulcorantes ricos en azúcares.</p><p>Desde el punto de vista del etiquetado y de las recomendaciones sobre azúcares libres, ambos cuentan como fuentes concentradas de azúcar. Cambiar miel por arce no convierte automáticamente un desayuno dulce en bajo en azúcar. La diferencia de unas pocas calorías por cucharada puede ser útil si se mantiene la misma cantidad, pero desaparece rápidamente si el sabor más suave lleva a verter más. La conducta real de uso forma parte de la comparación.</p><h2>El sabor puede hacer cambiar la cantidad</h2><p>La miel es floral y puede dominar una preparación; el arce aporta notas tostadas y caramelizadas. Si usas menos cantidad porque el sabor te resulta más intenso, esa decisión puede importar más que una pequeña diferencia por gramo.</p><p><strong>Si buscas estrictamente menos azúcar y calorías entre los dos, el sirope de arce suele quedar por debajo; la cantidad total que sirves sigue siendo el factor principal.</strong></p><p>Si solo quieres saber cuál suele tener menos azúcar y energía a igual peso o volumen, el arce puro queda generalmente por debajo. Si decides cuál comprar, el sabor, el precio, el origen y el uso culinario pueden ser igual de importantes. En cualquiera de los dos casos, medir en lugar de verter directamente del envase permite controlar mejor la cantidad. Esa pequeña decisión práctica suele tener más efecto que debatir cuál de los dos merece la etiqueta de “saludable”.</p>",
+  "faq": [
+    {
+      "question": "¿Qué tiene más azúcar, miel o sirope de arce?",
+      "answer": "La miel. Por 100 g ronda 82 g de azúcares, frente a aproximadamente 60–67 g del sirope de arce."
+    },
+    {
+      "question": "¿Cuál tiene más calorías?",
+      "answer": "La miel suele aportar unas 304 kcal/100 g y el sirope de arce alrededor de 260 kcal/100 g."
+    },
+    {
+      "question": "¿El sirope de arce es bajo en azúcar?",
+      "answer": "No. Aunque contiene menos que la miel por peso, sigue siendo un edulcorante concentrado en azúcares."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Valores comparables de miel y sirope de arce puro."
+    },
+    {
+      "name": "EFSA — Dietary sugars",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-sugars",
+      "note": "Contexto europeo sobre azúcares dietéticos."
+    }
+  ],
+  "image": {
+    "concept": "Cucharadas de miel y sirope de arce puro lado a lado, fotografía editorial natural sin marcas.",
+    "alt": "Miel y sirope de arce"
+  },
+  "status": "publish"
+}

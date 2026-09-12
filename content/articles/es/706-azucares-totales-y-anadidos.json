@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"es-706-azucares-totales-y-anadidos","article_number":706,"translation_group":"706-total-vs-added-sugars","language":"es","locale":"es-ES","market_context":"España/Unión Europea; etiquetado nutricional conforme al marco de la UE","title":"Azúcares totales y añadidos: la diferencia que debes mirar en la etiqueta","slug":"azucares-totales-y-anadidos","seo":{"title":"Azúcares totales vs añadidos: cómo leerlos","meta_description":"Los azúcares totales incluyen los presentes de forma natural y los incorporados. En la etiqueta nutricional de la UE se declara “de los cuales azúcares”, pero los añadidos no aparecen como una línea obligatoria separada.","search_intent":"Explicar la diferencia entre azúcares totales y añadidos y cómo identificarlos en etiquetas europeas."},"excerpt":"Los azúcares totales suman los que ya estaban en el alimento y los que se incorporaron. En la UE la tabla indica “de los cuales azúcares”, pero no exige una cifra separada de azúcares añadidos; para detectarlos hay que combinar tabla e ingredientes.","taxonomy":{"food_family":"general","food_subcategories":["food-labels","sugars"],"article_types":["nutrition-concepts","myths-faq"],"primary_article_type":"nutrition-concepts"},"content_html":"<p>Un yogur natural y un refresco pueden mostrar “azúcares” en la tabla, aunque solo uno lleve azúcar añadido. <strong>La cifra de azúcares totales no distingue su origen: suma los azúcares naturales del alimento y los incorporados durante la elaboración.</strong></p><h2>Qué significa “de los cuales azúcares”</h2><p>En el etiquetado nutricional de la Unión Europea, los azúcares aparecen dentro de los hidratos de carbono. Esa cifra incluye monosacáridos y disacáridos presentes en el producto final, ya procedan de leche, fruta, azúcar, miel, siropes u otras fuentes.</p><p>Por ejemplo, una leche puede mostrar cerca de 5 g de azúcares por 100 ml aunque no tenga sacarosa añadida: la mayor parte es lactosa propia de la leche.</p><h2>La UE no exige una línea separada de “azúcares añadidos”</h2><p>A diferencia del formato estadounidense, la tabla europea no incluye de forma obligatoria una sublínea con gramos de azúcares añadidos. Para saber si se han incorporado, hay que leer la lista de ingredientes y prestar atención a azúcar, jarabes, miel, concentrados usados para endulzar y otros ingredientes dulces.</p><h2>La lista de ingredientes aporta el contexto que falta</h2><p>Los ingredientes se ordenan por peso en el momento de fabricación. Ver azúcar entre los primeros puestos indica una contribución importante, aunque no permite calcular exactamente cuántos gramos del total proceden de ese ingrediente.</p><p>Una declaración “sin azúcares añadidos” puede aportar información adicional, pero solo bajo las condiciones legales específicas de la UE.</p><h2>No todo azúcar natural convierte el producto en equivalente</h2><p>Diez gramos de azúcares en fruta entera llegan acompañados de su estructura, agua y fibra; diez gramos añadidos a una bebida forman parte de una matriz muy distinta. La cifra ayuda, pero la calidad del alimento y la lista completa importan.</p><p><strong>En España, lee los gramos de “azúcares” para saber cuánto hay en total y los ingredientes para entender de dónde vienen.</strong></p>","faq":[{"question":"¿La etiqueta española muestra azúcares añadidos?","answer":"No como línea obligatoria separada. La tabla declara azúcares totales; la lista de ingredientes ayuda a identificar si se añadieron fuentes de azúcar."},{"question":"¿La lactosa cuenta como azúcar en la tabla?","answer":"Sí. Los azúcares naturalmente presentes, como la lactosa de la leche, forman parte de “de los cuales azúcares”."},{"question":"¿Miel y siropes cuentan como azúcares añadidos si se usan para endulzar?","answer":"Cuando se incorporan para endulzar, aportan azúcares añadidos al alimento. “Azúcares libres” es un concepto de salud pública distinto y no una línea obligatoria de la tabla nutricional de la UE."}],"sources":[{"name":"Regulation (EU) No 1169/2011","url":"https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169","note":"Requisitos europeos de información nutricional y lista de ingredientes."},{"name":"European Commission — Food information to consumers","url":"https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en","note":"Marco de etiquetado alimentario de la UE."}],"image":{"concept":"Etiqueta nutricional europea genérica con hidratos y azúcares junto a una lista de ingredientes, sin marcas.","alt":"Azúcares en una etiqueta nutricional europea"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-706-azucares-totales-y-anadidos",
+  "article_number": 706,
+  "translation_group": "706-total-vs-added-sugars",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; etiquetado nutricional conforme al marco de la UE",
+  "title": "Azúcares totales y añadidos: la diferencia que debes mirar en la etiqueta",
+  "slug": "azucares-totales-y-anadidos",
+  "seo": {
+    "title": "Azúcares totales vs añadidos: cómo leerlos",
+    "meta_description": "Los azúcares totales incluyen los presentes de forma natural y los incorporados. En la etiqueta nutricional de la UE se declara “de los cuales azúcares”, pero los añadidos no aparecen como una línea obligatoria separada.",
+    "search_intent": "Explicar la diferencia entre azúcares totales y añadidos y cómo identificarlos en etiquetas europeas."
+  },
+  "excerpt": "Los azúcares totales suman los que ya estaban en el alimento y los que se incorporaron. En la UE la tabla indica “de los cuales azúcares”, pero no exige una cifra separada de azúcares añadidos; para detectarlos hay que combinar tabla e ingredientes.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "food-labels",
+      "sugars"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>Un yogur natural y un refresco pueden mostrar “azúcares” en la tabla, aunque solo uno lleve azúcar añadido. <strong>La cifra de azúcares totales no distingue su origen: suma los azúcares naturales del alimento y los incorporados durante la elaboración.</strong></p><p>Para interpretar bien la etiqueta hay que distinguir “presente” de “añadido”. La lactosa de una leche, la fructosa de una fruta triturada o los azúcares propios de una verdura cuentan dentro de “azúcares” aunque nadie haya incorporado azúcar de mesa. La cifra nutricional describe cuánto azúcar hay en el producto final; no explica por sí sola de dónde procede. Esa segunda pregunta se responde combinando tabla, lista de ingredientes y naturaleza del alimento.</p><p>El tamaño de ración merece atención porque dos envases pueden mostrar cifras parecidas por 100 g pero proponerte porciones muy distintas. Para comparar productos de la misma categoría, la columna por 100 g ayuda a igualar la base; para saber lo que realmente ingerirás, la porción habitual es más útil. Usar ambas perspectivas evita que un paquete pequeño parezca automáticamente bajo en azúcar o que un alimento con una ración grande parezca peor solo por mostrar más gramos en total.</p><h2>Qué significa “de los cuales azúcares”</h2><p>En el etiquetado nutricional de la Unión Europea, los azúcares aparecen dentro de los hidratos de carbono. Esa cifra incluye monosacáridos y disacáridos presentes en el producto final, ya procedan de leche, fruta, azúcar, miel, siropes u otras fuentes.</p><p>Por ejemplo, una leche puede mostrar cerca de 5 g de azúcares por 100 ml aunque no tenga sacarosa añadida: la mayor parte es lactosa propia de la leche.</p><p>Esta diferencia también evita comparaciones engañosas. Un yogur natural puede declarar varios gramos de azúcares por 100 g porque contiene lactosa, mientras un producto muy procesado puede mostrar una cifra parecida tras añadir sacarosa, jarabes o concentrados. Los números pueden coincidir y el contexto ser distinto. Por eso, en el sistema europeo, mirar solo “de los cuales azúcares” es insuficiente para saber si el fabricante endulzó el producto.</p><h2>La UE no exige una línea separada de “azúcares añadidos”</h2><p>A diferencia del formato estadounidense, la tabla europea no incluye de forma obligatoria una sublínea con gramos de azúcares añadidos. Para saber si se han incorporado, hay que leer la lista de ingredientes y prestar atención a azúcar, jarabes, miel, concentrados usados para endulzar y otros ingredientes dulces.</p><p>La lista de ingredientes está ordenada por peso en el momento de fabricación, de modo que puede dar pistas sobre la importancia relativa de azúcares, miel, jarabes u otros ingredientes dulces. También hay que leerla con atención porque los azúcares añadidos pueden aparecer bajo nombres distintos. No se trata de memorizar una lista infinita, sino de reconocer que ingredientes claramente usados para endulzar aportan azúcares aunque la tabla no separe una línea específica de “añadidos”.</p><h2>La lista de ingredientes aporta el contexto que falta</h2><p>Los ingredientes se ordenan por peso en el momento de fabricación. Ver azúcar entre los primeros puestos indica una contribución importante, aunque no permite calcular exactamente cuántos gramos del total proceden de ese ingrediente.</p><p>Una declaración “sin azúcares añadidos” puede aportar información adicional, pero solo bajo las condiciones legales específicas de la UE.</p><p>Los productos con fruta merecen una lectura especialmente cuidadosa. Fruta entera, puré, zumo y concentrado no se comportan igual en una receta ni aportan la misma estructura. La tabla seguirá sumando los azúcares presentes, pero la lista permite ver si el dulzor procede principalmente del propio alimento o de ingredientes concentrados incorporados. Esa información contextual es más útil que intentar deducir el origen de cada gramo a partir de una cifra aislada.</p><h2>No todo azúcar natural convierte el producto en equivalente</h2><p>Diez gramos de azúcares en fruta entera llegan acompañados de su estructura, agua y fibra; diez gramos añadidos a una bebida forman parte de una matriz muy distinta. La cifra ayuda, pero la calidad del alimento y la lista completa importan.</p><p><strong>En España, lee los gramos de “azúcares” para saber cuánto hay en total y los ingredientes para entender de dónde vienen.</strong></p><p>Para decidir entre dos productos, empieza por la intención: si buscas menos azúcar total, compara la columna de azúcares por 100 g o por porción. Si quieres evitar azúcares incorporados, revisa ingredientes. Después considera el resto del perfil —proteína, fibra, energía, sal y tamaño de ración—. La etiqueta funciona mejor como un conjunto de pistas que como una sola cifra capaz de clasificar un alimento como bueno o malo.</p>",
+  "faq": [
+    {
+      "question": "¿La etiqueta española muestra azúcares añadidos?",
+      "answer": "No como línea obligatoria separada. La tabla declara azúcares totales; la lista de ingredientes ayuda a identificar si se añadieron fuentes de azúcar."
+    },
+    {
+      "question": "¿La lactosa cuenta como azúcar en la tabla?",
+      "answer": "Sí. Los azúcares naturalmente presentes, como la lactosa de la leche, forman parte de “de los cuales azúcares”."
+    },
+    {
+      "question": "¿Miel y siropes cuentan como azúcares añadidos si se usan para endulzar?",
+      "answer": "Cuando se incorporan para endulzar, aportan azúcares añadidos al alimento. “Azúcares libres” es un concepto de salud pública distinto y no una línea obligatoria de la tabla nutricional de la UE."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Regulation (EU) No 1169/2011",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32011R1169",
+      "note": "Requisitos europeos de información nutricional y lista de ingredientes."
+    },
+    {
+      "name": "European Commission — Food information to consumers",
+      "url": "https://food.ec.europa.eu/safety/labelling-and-nutrition/food-information-consumers-legislation_en",
+      "note": "Marco de etiquetado alimentario de la UE."
+    }
+  ],
+  "image": {
+    "concept": "Etiqueta nutricional europea genérica con hidratos y azúcares junto a una lista de ingredientes, sin marcas.",
+    "alt": "Azúcares en una etiqueta nutricional europea"
+  },
+  "status": "publish"
+}
