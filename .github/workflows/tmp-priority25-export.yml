@@ -1,0 +1,150 @@
+name: Temporary priority 25 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-25-export
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - name: Collect exact source JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          test -f 'content/articles/es/313-por-que-gambas-se-ponen-negras.json'
+          mkdir -p "out/$(dirname 'content/articles/es/313-por-que-gambas-se-ponen-negras.json')"
+          cp 'content/articles/es/313-por-que-gambas-se-ponen-negras.json' "out/content/articles/es/313-por-que-gambas-se-ponen-negras.json"
+          test -f 'content/articles/en/313-why-shrimp-turn-black.json'
+          mkdir -p "out/$(dirname 'content/articles/en/313-why-shrimp-turn-black.json')"
+          cp 'content/articles/en/313-why-shrimp-turn-black.json' "out/content/articles/en/313-why-shrimp-turn-black.json"
+          test -f 'content/articles/es/485-por-que-quinoa-sabe-amarga.json'
+          mkdir -p "out/$(dirname 'content/articles/es/485-por-que-quinoa-sabe-amarga.json')"
+          cp 'content/articles/es/485-por-que-quinoa-sabe-amarga.json' "out/content/articles/es/485-por-que-quinoa-sabe-amarga.json"
+          test -f 'content/articles/en/485-why-quinoa-tastes-bitter.json'
+          mkdir -p "out/$(dirname 'content/articles/en/485-why-quinoa-tastes-bitter.json')"
+          cp 'content/articles/en/485-why-quinoa-tastes-bitter.json' "out/content/articles/en/485-why-quinoa-tastes-bitter.json"
+          test -f 'content/articles/es/291-por-que-pescado-se-deshace-al-cocinarlo.json'
+          mkdir -p "out/$(dirname 'content/articles/es/291-por-que-pescado-se-deshace-al-cocinarlo.json')"
+          cp 'content/articles/es/291-por-que-pescado-se-deshace-al-cocinarlo.json' "out/content/articles/es/291-por-que-pescado-se-deshace-al-cocinarlo.json"
+          test -f 'content/articles/en/291-why-fish-flakes-falls-apart-when-cooked.json'
+          mkdir -p "out/$(dirname 'content/articles/en/291-why-fish-flakes-falls-apart-when-cooked.json')"
+          cp 'content/articles/en/291-why-fish-flakes-falls-apart-when-cooked.json' "out/content/articles/en/291-why-fish-flakes-falls-apart-when-cooked.json"
+          test -f 'content/articles/es/438-verduras-con-mas-potasio.json'
+          mkdir -p "out/$(dirname 'content/articles/es/438-verduras-con-mas-potasio.json')"
+          cp 'content/articles/es/438-verduras-con-mas-potasio.json' "out/content/articles/es/438-verduras-con-mas-potasio.json"
+          test -f 'content/articles/en/438-vegetables-highest-potassium.json'
+          mkdir -p "out/$(dirname 'content/articles/en/438-vegetables-highest-potassium.json')"
+          cp 'content/articles/en/438-vegetables-highest-potassium.json' "out/content/articles/en/438-vegetables-highest-potassium.json"
+          test -f 'content/articles/es/564-proteina-vitamina-b12-levadura-nutricional.json'
+          mkdir -p "out/$(dirname 'content/articles/es/564-proteina-vitamina-b12-levadura-nutricional.json')"
+          cp 'content/articles/es/564-proteina-vitamina-b12-levadura-nutricional.json' "out/content/articles/es/564-proteina-vitamina-b12-levadura-nutricional.json"
+          test -f 'content/articles/en/564-protein-vitamin-b12-nutritional-yeast.json'
+          mkdir -p "out/$(dirname 'content/articles/en/564-protein-vitamin-b12-nutritional-yeast.json')"
+          cp 'content/articles/en/564-protein-vitamin-b12-nutritional-yeast.json' "out/content/articles/en/564-protein-vitamin-b12-nutritional-yeast.json"
+          test -f 'content/articles/es/413-avena-vs-arroz-fibra-proteina-saciedad.json'
+          mkdir -p "out/$(dirname 'content/articles/es/413-avena-vs-arroz-fibra-proteina-saciedad.json')"
+          cp 'content/articles/es/413-avena-vs-arroz-fibra-proteina-saciedad.json' "out/content/articles/es/413-avena-vs-arroz-fibra-proteina-saciedad.json"
+          test -f 'content/articles/en/413-oats-vs-rice-fiber-protein-satiety.json'
+          mkdir -p "out/$(dirname 'content/articles/en/413-oats-vs-rice-fiber-protein-satiety.json')"
+          cp 'content/articles/en/413-oats-vs-rice-fiber-protein-satiety.json' "out/content/articles/en/413-oats-vs-rice-fiber-protein-satiety.json"
+          test -f 'content/articles/es/136-fibra-soluble-vs-insoluble.json'
+          mkdir -p "out/$(dirname 'content/articles/es/136-fibra-soluble-vs-insoluble.json')"
+          cp 'content/articles/es/136-fibra-soluble-vs-insoluble.json' "out/content/articles/es/136-fibra-soluble-vs-insoluble.json"
+          test -f 'content/articles/en/136-soluble-vs-insoluble-fiber.json'
+          mkdir -p "out/$(dirname 'content/articles/en/136-soluble-vs-insoluble-fiber.json')"
+          cp 'content/articles/en/136-soluble-vs-insoluble-fiber.json' "out/content/articles/en/136-soluble-vs-insoluble-fiber.json"
+          test -f 'content/articles/es/536-matcha-vs-te-verde-que-cambia.json'
+          mkdir -p "out/$(dirname 'content/articles/es/536-matcha-vs-te-verde-que-cambia.json')"
+          cp 'content/articles/es/536-matcha-vs-te-verde-que-cambia.json' "out/content/articles/es/536-matcha-vs-te-verde-que-cambia.json"
+          test -f 'content/articles/en/536-matcha-vs-green-tea.json'
+          mkdir -p "out/$(dirname 'content/articles/en/536-matcha-vs-green-tea.json')"
+          cp 'content/articles/en/536-matcha-vs-green-tea.json' "out/content/articles/en/536-matcha-vs-green-tea.json"
+          test -f 'content/articles/es/822-brotes-raices-oscuras.json'
+          mkdir -p "out/$(dirname 'content/articles/es/822-brotes-raices-oscuras.json')"
+          cp 'content/articles/es/822-brotes-raices-oscuras.json' "out/content/articles/es/822-brotes-raices-oscuras.json"
+          test -f 'content/articles/en/822-sprouts-dark-roots.json'
+          mkdir -p "out/$(dirname 'content/articles/en/822-sprouts-dark-roots.json')"
+          cp 'content/articles/en/822-sprouts-dark-roots.json' "out/content/articles/en/822-sprouts-dark-roots.json"
+          test -f 'content/articles/es/295-cristales-blancos-queso-curado.json'
+          mkdir -p "out/$(dirname 'content/articles/es/295-cristales-blancos-queso-curado.json')"
+          cp 'content/articles/es/295-cristales-blancos-queso-curado.json' "out/content/articles/es/295-cristales-blancos-queso-curado.json"
+          test -f 'content/articles/en/295-white-crystals-in-aged-cheese.json'
+          mkdir -p "out/$(dirname 'content/articles/en/295-white-crystals-in-aged-cheese.json')"
+          cp 'content/articles/en/295-white-crystals-in-aged-cheese.json' "out/content/articles/en/295-white-crystals-in-aged-cheese.json"
+          test -f 'content/articles/es/410-se-puede-comer-ajo-germinado.json'
+          mkdir -p "out/$(dirname 'content/articles/es/410-se-puede-comer-ajo-germinado.json')"
+          cp 'content/articles/es/410-se-puede-comer-ajo-germinado.json' "out/content/articles/es/410-se-puede-comer-ajo-germinado.json"
+          test -f 'content/articles/en/410-can-you-eat-sprouted-garlic.json'
+          mkdir -p "out/$(dirname 'content/articles/en/410-can-you-eat-sprouted-garlic.json')"
+          cp 'content/articles/en/410-can-you-eat-sprouted-garlic.json' "out/content/articles/en/410-can-you-eat-sprouted-garlic.json"
+          test -f 'content/articles/es/288-pescados-con-menos-mercurio.json'
+          mkdir -p "out/$(dirname 'content/articles/es/288-pescados-con-menos-mercurio.json')"
+          cp 'content/articles/es/288-pescados-con-menos-mercurio.json' "out/content/articles/es/288-pescados-con-menos-mercurio.json"
+          test -f 'content/articles/en/288-fish-lowest-in-mercury.json'
+          mkdir -p "out/$(dirname 'content/articles/en/288-fish-lowest-in-mercury.json')"
+          cp 'content/articles/en/288-fish-lowest-in-mercury.json' "out/content/articles/en/288-fish-lowest-in-mercury.json"
+          test -f 'content/articles/es/692-maicena-o-harina.json'
+          mkdir -p "out/$(dirname 'content/articles/es/692-maicena-o-harina.json')"
+          cp 'content/articles/es/692-maicena-o-harina.json' "out/content/articles/es/692-maicena-o-harina.json"
+          test -f 'content/articles/en/692-cornstarch-vs-flour.json'
+          mkdir -p "out/$(dirname 'content/articles/en/692-cornstarch-vs-flour.json')"
+          cp 'content/articles/en/692-cornstarch-vs-flour.json' "out/content/articles/en/692-cornstarch-vs-flour.json"
+          test -f 'content/articles/es/387-frutas-con-menos-azucar.json'
+          mkdir -p "out/$(dirname 'content/articles/es/387-frutas-con-menos-azucar.json')"
+          cp 'content/articles/es/387-frutas-con-menos-azucar.json' "out/content/articles/es/387-frutas-con-menos-azucar.json"
+          test -f 'content/articles/en/387-fruits-lowest-in-sugar.json'
+          mkdir -p "out/$(dirname 'content/articles/en/387-fruits-lowest-in-sugar.json')"
+          cp 'content/articles/en/387-fruits-lowest-in-sugar.json' "out/content/articles/en/387-fruits-lowest-in-sugar.json"
+          test -f 'content/articles/es/487-cuanto-dura-quinoa-cocida-congelar.json'
+          mkdir -p "out/$(dirname 'content/articles/es/487-cuanto-dura-quinoa-cocida-congelar.json')"
+          cp 'content/articles/es/487-cuanto-dura-quinoa-cocida-congelar.json' "out/content/articles/es/487-cuanto-dura-quinoa-cocida-congelar.json"
+          test -f 'content/articles/en/487-how-long-cooked-quinoa-lasts-freezing.json'
+          mkdir -p "out/$(dirname 'content/articles/en/487-how-long-cooked-quinoa-lasts-freezing.json')"
+          cp 'content/articles/en/487-how-long-cooked-quinoa-lasts-freezing.json' "out/content/articles/en/487-how-long-cooked-quinoa-lasts-freezing.json"
+          test -f 'content/articles/es/159-zanahoria-cruda-vs-cocida-nutricion.json'
+          mkdir -p "out/$(dirname 'content/articles/es/159-zanahoria-cruda-vs-cocida-nutricion.json')"
+          cp 'content/articles/es/159-zanahoria-cruda-vs-cocida-nutricion.json' "out/content/articles/es/159-zanahoria-cruda-vs-cocida-nutricion.json"
+          test -f 'content/articles/en/159-raw-vs-cooked-carrot-nutrition.json'
+          mkdir -p "out/$(dirname 'content/articles/en/159-raw-vs-cooked-carrot-nutrition.json')"
+          cp 'content/articles/en/159-raw-vs-cooked-carrot-nutrition.json' "out/content/articles/en/159-raw-vs-cooked-carrot-nutrition.json"
+          test -f 'content/articles/es/830-manzana-zonas-transparentes-acuosas.json'
+          mkdir -p "out/$(dirname 'content/articles/es/830-manzana-zonas-transparentes-acuosas.json')"
+          cp 'content/articles/es/830-manzana-zonas-transparentes-acuosas.json' "out/content/articles/es/830-manzana-zonas-transparentes-acuosas.json"
+          test -f 'content/articles/en/830-translucent-watery-apple.json'
+          mkdir -p "out/$(dirname 'content/articles/en/830-translucent-watery-apple.json')"
+          cp 'content/articles/en/830-translucent-watery-apple.json' "out/content/articles/en/830-translucent-watery-apple.json"
+          test -f 'content/articles/es/294-por-que-queso-suelta-aceite-al-fundirse.json'
+          mkdir -p "out/$(dirname 'content/articles/es/294-por-que-queso-suelta-aceite-al-fundirse.json')"
+          cp 'content/articles/es/294-por-que-queso-suelta-aceite-al-fundirse.json' "out/content/articles/es/294-por-que-queso-suelta-aceite-al-fundirse.json"
+          test -f 'content/articles/en/294-why-cheese-releases-oil-when-melted.json'
+          mkdir -p "out/$(dirname 'content/articles/en/294-why-cheese-releases-oil-when-melted.json')"
+          cp 'content/articles/en/294-why-cheese-releases-oil-when-melted.json' "out/content/articles/en/294-why-cheese-releases-oil-when-melted.json"
+          test -f 'content/articles/es/419-patatas-nevera.json'
+          mkdir -p "out/$(dirname 'content/articles/es/419-patatas-nevera.json')"
+          cp 'content/articles/es/419-patatas-nevera.json' "out/content/articles/es/419-patatas-nevera.json"
+          test -f 'content/articles/en/419-should-you-refrigerate-potatoes.json'
+          mkdir -p "out/$(dirname 'content/articles/en/419-should-you-refrigerate-potatoes.json')"
+          cp 'content/articles/en/419-should-you-refrigerate-potatoes.json' "out/content/articles/en/419-should-you-refrigerate-potatoes.json"
+          test -f 'content/articles/es/786-pepino-blando-arrugado.json'
+          mkdir -p "out/$(dirname 'content/articles/es/786-pepino-blando-arrugado.json')"
+          cp 'content/articles/es/786-pepino-blando-arrugado.json' "out/content/articles/es/786-pepino-blando-arrugado.json"
+          test -f 'content/articles/en/786-soft-shriveled-cucumber.json'
+          mkdir -p "out/$(dirname 'content/articles/en/786-soft-shriveled-cucumber.json')"
+          cp 'content/articles/en/786-soft-shriveled-cucumber.json' "out/content/articles/en/786-soft-shriveled-cucumber.json"
+          test "$(find out/content/articles -type f -name '*.json' | wc -l)" -eq 40
+      - name: Upload source JSON
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority25-source-json
+          path: out/content/articles
+          if-no-files-found: error
+          retention-days: 7
