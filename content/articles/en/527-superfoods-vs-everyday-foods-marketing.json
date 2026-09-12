@@ -1,1 +1,67 @@
-{"schema_version":1,"id":"en-527-superfoods-vs-everyday-foods-marketing","article_number":527,"translation_group":"527-superfoods-vs-everyday-foods","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"Superfoods vs. everyday foods: how much is marketing?","slug":"superfoods-vs-everyday-foods-marketing","seo":{"title":"Superfoods vs. everyday foods: nutrition vs. marketing","meta_description":"Compare spirulina with lentils, açaí with blueberries and dried goji with fresh fruit. Serving size and water often matter more than the superfood label.","search_intent":"Compare marketed superfoods with everyday foods using realistic nutrition and portions"},"excerpt":"Exotic does not automatically mean nutritionally superior. Spirulina is protein-dense by dry weight, yet a 7 g spoonful provides about 4 g protein versus about 18 g in a 200 g bowl of cooked lentils. Dried goji looks concentrated partly because its water is gone, while açaí nutrition depends heavily on whether you buy unsweetened pulp or a topped bowl.","taxonomy":{"food_family":"general","food_subcategories":[],"article_types":["comparisons","myths-faq"],"primary_article_type":"comparisons"},"content_html":"<p>Foods marketed as superfoods often win attention before anyone checks the serving size: vivid color, unfamiliar name, distant origin, premium packaging. <strong>None of those qualities proves nutritional superiority.</strong></p><h2>Spirulina vs. lentils: concentration versus the amount you eat</h2><p>Dried spirulina provides about <strong>57.5 g protein per 100 g</strong>, while cooked lentils provide about 9 g. That sounds one-sided until the portions are made realistic.</p><p>Seven grams of spirulina supplies about <strong>4 g protein</strong>. A 200 g bowl of cooked lentils supplies about <strong>18 g</strong>. Spirulina wins the concentration comparison; lentils win the meal-size comparison.</p><h2>Açaí vs. blueberries: the product matters</h2><p>A current unsweetened frozen açaí purée lists <strong>70 calories, 5 g fat and 3 g fiber per 100 g</strong> with 0 g total sugar on its label. Raw blueberries provide about 57 calories, 2.4 g fiber and 10 g naturally occurring sugar per 100 g.</p><p>Neither profile is universally better. The bigger mistake is treating açaí pulp and an açaí bowl with granola, sweeteners and toppings as the same food.</p><h2>Goji vs. fresh fruit: water changes the scoreboard</h2><p>Goji berries in U.S. databases are typically dried. Removing water concentrates fiber, minerals, sugar and calories all at once. A 28 g portion of dried goji is about <strong>98 calories</strong>; 150 g of fresh blueberries is about <strong>86 calories</strong>. That comparison is much more useful than setting 100 g dried fruit beside 100 g fresh fruit and declaring a winner.</p><h2>Price is not a nutrient either</h2><p>An expensive imported ingredient can be a good food and still offer nothing irreplaceable. The goal of a diet is not to collect rare ingredients; it is to cover energy, protein, fiber, essential fats, vitamins and minerals consistently.</p><h2>The health halo can change the final product</h2><p>Once a food has a healthy reputation, it becomes easy to ignore what gets added around it. Açaí is not the same as a topped açaí bowl; cocoa is not the same as a sweetened cocoa mix; oats are not the same as every granola made with oats.</p><p>A better question is: <strong>what does this product provide in the portion I will eat, what does it cost, and what would it replace?</strong> That question makes everyday foods look much less ordinary.</p>","faq":[{"question":"Are superfoods better than regular foods?","answer":"Not as a category. Some are nutrient-dense, but familiar foods may deliver as much or more of a target nutrient in a normal serving."},{"question":"Does spirulina have more protein than lentils?","answer":"Per 100 g, yes. But about 7 g spirulina provides roughly 4 g protein, versus about 18 g in 200 g cooked lentils."},{"question":"Is açaí healthier than blueberries?","answer":"There is no universal winner. They have different profiles, and unsweetened açaí pulp should not be confused with a bowl containing sweeteners and toppings."},{"question":"Why does dried goji look so nutrient-dense?","answer":"Drying removes water, concentrating both desirable nutrients and calories and sugars per 100 g."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Reference data for spirulina, lentils, dried goji and raw blueberries."},{"name":"SAMBAZON — Pure Unsweetened Frozen Açaí Packets","url":"https://www.sambazon.com/products/pure-unsweetened-frozen-acai-packets","note":"Current U.S. example of unsweetened açaí purée with serving-level nutrition."},{"name":"Harvard T.H. Chan School of Public Health — Superfoods or Superhype?","url":"https://nutritionsource.hsph.harvard.edu/superfoods/","note":"Context on the unregulated superfood label and the importance of the overall eating pattern."}],"image":{"concept":"A scale balancing spirulina, açaí and goji against lentils, blueberries and oats, with realistic serving sizes shown.","alt":"Superfoods compared with everyday foods using realistic portions"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-527-superfoods-vs-everyday-foods-marketing",
+  "article_number": 527,
+  "translation_group": "527-superfoods-vs-everyday-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "Superfoods vs. everyday foods: how much is marketing?",
+  "slug": "superfoods-vs-everyday-foods-marketing",
+  "seo": {
+    "title": "Superfoods vs. everyday foods: nutrition vs. marketing",
+    "meta_description": "Compare spirulina with lentils, açaí with blueberries and dried goji with fresh fruit. Serving size and water often matter more than the superfood label.",
+    "search_intent": "Compare marketed superfoods with everyday foods using realistic nutrition and portions"
+  },
+  "excerpt": "Exotic does not automatically mean nutritionally superior. Spirulina is protein-dense by dry weight, yet a 7 g spoonful provides about 4 g protein versus about 18 g in a 200 g bowl of cooked lentils. Dried goji looks concentrated partly because its water is gone, while açaí nutrition depends heavily on whether you buy unsweetened pulp or a topped bowl.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [],
+    "article_types": [
+      "comparisons",
+      "myths-faq"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Foods marketed as superfoods often win attention before anyone checks the serving size: vivid color, unfamiliar name, distant origin, premium packaging. <strong>None of those qualities proves nutritional superiority.</strong></p><h2>Spirulina vs. lentils: concentration versus the amount you eat</h2><p>“Superfood” has no single nutrition definition. The label can be attached to a berry, seed, concentrated powder, or even a sweetened beverage, which means two products with the same healthy halo may be nutritionally very different. A more useful shopping method is to look at what the actual serving provides: fiber, protein, added sugar, fats, and the micronutrients that matter for the rest of the diet. An ordinary food can easily be the stronger choice simply because people eat a meaningful portion of it with fewer added ingredients.</p><p>Dried spirulina provides about <strong>57.5 g protein per 100 g</strong>, while cooked lentils provide about 9 g. That sounds one-sided until the portions are made realistic.</p><p>Seven grams of spirulina supplies about <strong>4 g protein</strong>. A 200 g bowl of cooked lentils supplies about <strong>18 g</strong>. Spirulina wins the concentration comparison; lentils win the meal-size comparison.</p><h2>Açaí vs. blueberries: the product matters</h2><p>A current unsweetened frozen açaí purée lists <strong>70 calories, 5 g fat and 3 g fiber per 100 g</strong> with 0 g total sugar on its label. Raw blueberries provide about 57 calories, 2.4 g fiber and 10 g naturally occurring sugar per 100 g.</p><p>Neither profile is universally better. The bigger mistake is treating açaí pulp and an açaí bowl with granola, sweeteners and toppings as the same food.</p><h2>Goji vs. fresh fruit: water changes the scoreboard</h2><p>Concentration can mislead in both directions. A dehydrated powder may post dramatic values per 100 grams, yet the amount sprinkled into a smoothie may be only a teaspoon. Fresh fruit contains much more water and therefore looks less concentrated, even though the normal serving is far larger. Per-100-gram comparisons are useful for standardizing foods; serving-based comparisons are useful for understanding a real meal. Keeping those two views separate makes it harder for a striking number on the front of a package to justify a high price by itself.</p><p>Goji berries in U.S. databases are typically dried. Removing water concentrates fiber, minerals, sugar and calories all at once. A 28 g portion of dried goji is about <strong>98 calories</strong>; 150 g of fresh blueberries is about <strong>86 calories</strong>. That comparison is much more useful than setting 100 g dried fruit beside 100 g fresh fruit and declaring a winner.</p><h2>Price is not a nutrient either</h2><p>An expensive imported ingredient can be a good food and still offer nothing irreplaceable. The goal of a diet is not to collect rare ingredients; it is to cover energy, protein, fiber, essential fats, vitamins and minerals consistently.</p><p>A useful filter for any claim is to ask what would remain if the marketing name disappeared. A berry powder that adds flavor and is enjoyable can certainly have a place; a product bought only because the package implies detoxification, immunity, or extraordinary effects deserves more skepticism. The same applies when a small amount of a fashionable ingredient is surrounded by large amounts of sugar, fat, or heavily processed ingredients. The health halo can make the finished product seem better than it is. Reading the ingredient list and nutrition panel puts the focus back on the food you are actually buying rather than the prestige of one highlighted component.</p><h2>The health halo can change the final product</h2><p>Substitution matters too. Spending heavily on a fashionable ingredient adds little if it displaces foods that already provided fiber, protein, or micronutrients at a lower cost. Beans, oats, vegetables, fruit, nuts, seeds, and fish do not need a special label to contribute to a strong diet. Products marketed as superfoods can certainly fit and may add flavor or variety, but they work best as one option among many. The pattern of meals across the week has far more nutritional leverage than the prestige of any single ingredient.</p><p>Once a food has a healthy reputation, it becomes easy to ignore what gets added around it. Açaí is not the same as a topped açaí bowl; cocoa is not the same as a sweetened cocoa mix; oats are not the same as every granola made with oats.</p><p>A better question is: <strong>what does this product provide in the portion I will eat, what does it cost, and what would it replace?</strong> That question makes everyday foods look much less ordinary.</p>",
+  "faq": [
+    {
+      "question": "Are superfoods better than regular foods?",
+      "answer": "Not as a category. Some are nutrient-dense, but familiar foods may deliver as much or more of a target nutrient in a normal serving."
+    },
+    {
+      "question": "Does spirulina have more protein than lentils?",
+      "answer": "Per 100 g, yes. But about 7 g spirulina provides roughly 4 g protein, versus about 18 g in 200 g cooked lentils."
+    },
+    {
+      "question": "Is açaí healthier than blueberries?",
+      "answer": "There is no universal winner. They have different profiles, and unsweetened açaí pulp should not be confused with a bowl containing sweeteners and toppings."
+    },
+    {
+      "question": "Why does dried goji look so nutrient-dense?",
+      "answer": "Drying removes water, concentrating both desirable nutrients and calories and sugars per 100 g."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Reference data for spirulina, lentils, dried goji and raw blueberries."
+    },
+    {
+      "name": "SAMBAZON — Pure Unsweetened Frozen Açaí Packets",
+      "url": "https://www.sambazon.com/products/pure-unsweetened-frozen-acai-packets",
+      "note": "Current U.S. example of unsweetened açaí purée with serving-level nutrition."
+    },
+    {
+      "name": "Harvard T.H. Chan School of Public Health — Superfoods or Superhype?",
+      "url": "https://nutritionsource.hsph.harvard.edu/superfoods/",
+      "note": "Context on the unregulated superfood label and the importance of the overall eating pattern."
+    }
+  ],
+  "image": {
+    "concept": "A scale balancing spirulina, açaí and goji against lentils, blueberries and oats, with realistic serving sizes shown.",
+    "alt": "Superfoods compared with everyday foods using realistic portions"
+  },
+  "status": "publish"
+}
