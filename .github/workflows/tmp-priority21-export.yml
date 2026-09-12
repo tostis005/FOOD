@@ -1,0 +1,49 @@
+name: Temporary priority 21 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-21-export
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Collect exact source JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          ids=(183 330 516 160 407 91 169 697 403 168 572 569 114 359 409 218 381 153 459 344)
+          rm -rf /tmp/priority21-source
+          mkdir -p /tmp/priority21-source/content/articles/es /tmp/priority21-source/content/articles/en
+          : > /tmp/priority21-source/inventory.txt
+          count=0
+          for n in "${ids[@]}"; do
+            id="$(printf '%03d' "$n")"
+            for lang in es en; do
+              mapfile -t matches < <(find "content/articles/$lang" -maxdepth 1 -type f -name "${id}-*.json" | sort)
+              test "${#matches[@]}" -eq 1
+              src="${matches[0]}"
+              cp "$src" "/tmp/priority21-source/$src"
+              python -m json.tool "$src" >/dev/null
+              printf '%s\n' "$src" >> /tmp/priority21-source/inventory.txt
+              count=$((count+1))
+            done
+          done
+          test "$count" -eq 40
+          test "$(wc -l < /tmp/priority21-source/inventory.txt)" -eq 40
+          echo "EXPORTED=$count"
+
+      - name: Upload source artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority21-source-json
+          path: /tmp/priority21-source
+          if-no-files-found: error
+          retention-days: 7
