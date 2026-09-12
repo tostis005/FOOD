@@ -1,0 +1,35 @@
+name: Temporary priority 24 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-24-export
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Collect exact source JSON
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p out
+          for id in 292 130 417 484 488 826 349 527 132 289 090 287 489 545 146 470 353 510 791 158; do
+            es=(content/articles/es/${id}-*.json)
+            en=(content/articles/en/${id}-*.json)
+            test ${#es[@]} -eq 1
+            test ${#en[@]} -eq 1
+            cp --parents "${es[0]}" out/
+            cp --parents "${en[0]}" out/
+          done
+          test "$(find out/content/articles -type f -name '*.json' | wc -l)" -eq 40
+      - uses: actions/upload-artifact@v4
+        with:
+          name: priority24-source-json-fresh
+          path: out/content/articles
+          if-no-files-found: error
+          retention-days: 7
