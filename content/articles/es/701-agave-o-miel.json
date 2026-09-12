@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-701-agave-o-miel","article_number":701,"translation_group":"701-agave-vs-honey-fructose","language":"es","locale":"es-ES","market_context":"España/Unión Europea; composición de azúcares y contexto nutricional europeo","title":"Agave o miel: cuál contiene más fructosa","slug":"agave-o-miel","seo":{"title":"Agave o miel: cuál tiene más fructosa","meta_description":"El sirope de agave suele contener una proporción de fructosa mucho mayor que la miel. La miel ronda aproximadamente un 40% de fructosa sobre su peso total; en agave la fructosa puede dominar claramente los azúcares.","search_intent":"Comparar la proporción de fructosa del agave y la miel y explicar qué significa nutricionalmente."},"excerpt":"El sirope de agave suele ser más rico en fructosa que la miel. La composición cambia entre productos, pero en el agave la fructosa puede representar la mayoría de sus azúcares; en la miel, fructosa y glucosa están mucho más equilibradas.","taxonomy":{"food_family":"cocoa-sweets","food_subcategories":["agave-syrup","honey"],"article_types":["comparisons","nutrition-composition","nutrition-concepts"],"primary_article_type":"comparisons"},"content_html":"<p>Agave y miel son líquidos dulces, pero el tipo de azúcar que domina no es el mismo. <strong>El agave suele contener una proporción de fructosa claramente mayor, mientras la miel reparte sus azúcares sobre todo entre fructosa y glucosa.</strong></p><h2>La diferencia está en la mezcla de azúcares</h2><p>En la miel, la fructosa suele rondar aproximadamente 40 g por 100 g de producto y la glucosa cerca de 30–35 g, aunque el origen floral modifica las cifras. El sirope de agave es más variable: según la materia prima y el procesado, la fructosa puede representar aproximadamente un 60–90% de sus azúcares.</p><p>Ese rango amplio importa. “Agave” no describe una fórmula única, por lo que una etiqueta o ficha concreta es más útil que asumir un porcentaje fijo.</p><h2>Más fructosa no convierte al agave en una opción libre</h2><p>La fructosa produce una respuesta de glucosa en sangre distinta a la glucosa pura, pero eso no significa que cantidades grandes de sirope sean una ventaja metabólica. Tanto agave como miel son fuentes concentradas de azúcares libres y energía.</p><p>La EFSA evalúa los azúcares dietéticos por su contribución total a la dieta, y las recomendaciones de salud pública no proponen sustituir azúcar por grandes cantidades de fructosa como estrategia general.</p><h2>La porción sigue mandando</h2><p>Una cucharada de miel y una de agave aportan decenas de calorías y varios gramos de azúcar. El sabor también cambia: la miel puede ser floral y compleja; el agave suele ser más neutro, por lo que la cantidad que realmente uses puede variar.</p><h2>Qué elegir</h2><p>Si la pregunta es estrictamente “¿cuál tiene más fructosa?”, la respuesta suele ser el agave. Si el objetivo es reducir azúcares libres, <strong>la decisión más eficaz no es cambiar un sirope por otro, sino ajustar la cantidad total.</strong></p>","faq":[{"question":"¿El agave tiene más fructosa que la miel?","answer":"Normalmente sí. En muchos siropes de agave la fructosa constituye la mayoría de los azúcares, mientras que en la miel está más equilibrada con la glucosa."},{"question":"¿La miel tiene fructosa?","answer":"Sí. La miel suele contener alrededor de 40 g de fructosa por 100 g, además de una cantidad importante de glucosa."},{"question":"¿El agave es más saludable por tener índice glucémico menor?","answer":"Un índice glucémico menor no convierte al agave en un alimento de consumo libre. Sigue siendo una fuente concentrada de azúcares libres."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Composición de miel y edulcorantes líquidos."},{"name":"EFSA — Dietary sugars","url":"https://www.efsa.europa.eu/en/topics/topic/dietary-sugars","note":"Contexto europeo sobre azúcares dietéticos y salud."}],"image":{"concept":"Dos cucharas con sirope de agave claro y miel dorada, fotografía editorial natural sin marcas.","alt":"Agave y miel comparados"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-701-agave-o-miel",
+  "article_number": 701,
+  "translation_group": "701-agave-vs-honey-fructose",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición de azúcares y contexto nutricional europeo",
+  "title": "Agave o miel: cuál contiene más fructosa",
+  "slug": "agave-o-miel",
+  "seo": {
+    "title": "Agave o miel: cuál tiene más fructosa",
+    "meta_description": "El sirope de agave suele contener una proporción de fructosa mucho mayor que la miel. La miel ronda aproximadamente un 40% de fructosa sobre su peso total; en agave la fructosa puede dominar claramente los azúcares.",
+    "search_intent": "Comparar la proporción de fructosa del agave y la miel y explicar qué significa nutricionalmente."
+  },
+  "excerpt": "El sirope de agave suele ser más rico en fructosa que la miel. La composición cambia entre productos, pero en el agave la fructosa puede representar la mayoría de sus azúcares; en la miel, fructosa y glucosa están mucho más equilibradas.",
+  "taxonomy": {
+    "food_family": "cocoa-sweets",
+    "food_subcategories": [
+      "agave-syrup",
+      "honey"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Agave y miel son líquidos dulces, pero el tipo de azúcar que domina no es el mismo. <strong>El agave suele contener una proporción de fructosa claramente mayor, mientras la miel reparte sus azúcares sobre todo entre fructosa y glucosa.</strong></p><p>La palabra “natural” tampoco resuelve la comparación. Miel y agave proceden de fuentes vegetales o animales naturales, pero ambos terminan siendo edulcorantes concentrados. El agave comercial se procesa para convertir carbohidratos de la planta en un sirope rico en azúcares simples; la miel es transformada por las abejas y su composición varía según el origen floral. Que los procesos sean distintos no cambia el hecho de que las porciones aportan azúcares libres.</p><p>También conviene evitar la idea de que fructosa significa “azúcar de fruta” y por tanto es automáticamente preferible. La fructosa de una pieza de fruta llega acompañada de agua, fibra y una estructura que limita la velocidad y la cantidad consumida; la de un sirope está concentrada y se ingiere sin esa matriz. El nombre químico es el mismo, pero el alimento que la transporta es muy diferente. Por eso comparar agave con fruta entera sería una equivalencia nutricional engañosa.</p><h2>La diferencia está en la mezcla de azúcares</h2><p>En la miel, la fructosa suele rondar aproximadamente 40 g por 100 g de producto y la glucosa cerca de 30–35 g, aunque el origen floral modifica las cifras. El sirope de agave es más variable: según la materia prima y el procesado, la fructosa puede representar aproximadamente un 60–90% de sus azúcares.</p><p>Ese rango amplio importa. “Agave” no describe una fórmula única, por lo que una etiqueta o ficha concreta es más útil que asumir un porcentaje fijo.</p><p>Una proporción alta de fructosa puede producir una subida inmediata de glucosa en sangre menor que una cantidad equivalente rica en glucosa, pero ese dato aislado no define la calidad metabólica de una dieta. La fructosa se procesa de manera diferente y consumir grandes cantidades no es una estrategia recomendada para mejorar la salud. Por eso, usar el índice glucémico como único argumento para elegir agave puede llevar a una conclusión demasiado simplificada.</p><h2>Más fructosa no convierte al agave en una opción libre</h2><p>La fructosa produce una respuesta de glucosa en sangre distinta a la glucosa pura, pero eso no significa que cantidades grandes de sirope sean una ventaja metabólica. Tanto agave como miel son fuentes concentradas de azúcares libres y energía.</p><p>La EFSA evalúa los azúcares dietéticos por su contribución total a la dieta, y las recomendaciones de salud pública no proponen sustituir azúcar por grandes cantidades de fructosa como estrategia general.</p><p>En cocina, el agave suele tener un sabor suave y una gran capacidad edulcorante, mientras la miel aporta aromas florales o tostados según la variedad. Esa intensidad cambia cuánto usa cada persona. Si con una cantidad menor de uno consigues el sabor que buscas, la porción real puede pesar más que la composición porcentual. Para recetas horneadas, además, cambiar un líquido por otro puede modificar humedad, color y velocidad de dorado.</p><h2>La porción sigue mandando</h2><p>Una cucharada de miel y una de agave aportan decenas de calorías y varios gramos de azúcar. El sabor también cambia: la miel puede ser floral y compleja; el agave suele ser más neutro, por lo que la cantidad que realmente uses puede variar.</p><p>La miel tampoco es una fórmula fija: su relación entre fructosa y glucosa cambia con el néctar de origen. El agave también varía por especie y procesamiento. Por eso las cifras publicadas deben leerse como rangos, no como una identidad química universal. Si necesitas conocer la composición exacta de un producto por una razón clínica o dietética, la información del fabricante es más útil que una media genérica.</p><h2>Qué elegir</h2><p>Si la pregunta es estrictamente “¿cuál tiene más fructosa?”, la respuesta suele ser el agave. Si el objetivo es reducir azúcares libres, <strong>la decisión más eficaz no es cambiar un sirope por otro, sino ajustar la cantidad total.</strong></p><p>En una elección cotidiana, la pregunta más productiva suele ser cuánta cantidad necesitas, no qué sirope puede presentarse como superior. Si prefieres agave por sabor o textura, úsalo como un edulcorante; lo mismo con la miel. Para reducir azúcares libres, recortar la dosis o la frecuencia tiene un efecto más directo que sustituir uno por otro manteniendo el mismo nivel de dulzor.</p>",
+  "faq": [
+    {
+      "question": "¿El agave tiene más fructosa que la miel?",
+      "answer": "Normalmente sí. En muchos siropes de agave la fructosa constituye la mayoría de los azúcares, mientras que en la miel está más equilibrada con la glucosa."
+    },
+    {
+      "question": "¿La miel tiene fructosa?",
+      "answer": "Sí. La miel suele contener alrededor de 40 g de fructosa por 100 g, además de una cantidad importante de glucosa."
+    },
+    {
+      "question": "¿El agave es más saludable por tener índice glucémico menor?",
+      "answer": "Un índice glucémico menor no convierte al agave en un alimento de consumo libre. Sigue siendo una fuente concentrada de azúcares libres."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de miel y edulcorantes líquidos."
+    },
+    {
+      "name": "EFSA — Dietary sugars",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-sugars",
+      "note": "Contexto europeo sobre azúcares dietéticos y salud."
+    }
+  ],
+  "image": {
+    "concept": "Dos cucharas con sirope de agave claro y miel dorada, fotografía editorial natural sin marcas.",
+    "alt": "Agave y miel comparados"
+  },
+  "status": "publish"
+}

@@ -1,1 +1,68 @@
-{"schema_version":1,"id":"en-561-sourdough-digestibility-fermentation","article_number":561,"translation_group":"561-sourdough-digestibility","language":"en","locale":"en-US","market_context":"United States and general English-speaking market","title":"Sourdough and digestibility: what fermentation changes","slug":"sourdough-digestibility-fermentation","seo":{"title":"Sourdough and digestibility: what can actually change","meta_description":"Sourdough can reduce phytate and some fructans and partially modify proteins, but digestive effects vary and ordinary wheat sourdough still contains gluten.","search_intent":"Understand whether sourdough makes bread easier to digest and the mechanisms that may explain differences"},"excerpt":"Sourdough fermentation can change several factors related to digestion: it reduces phytate, can lower some fructans/FODMAPs and partially breaks down proteins through grain and microbial enzymes. But “more digestible” is not a universal outcome. Reductions depend on the process, and human trials for digestive symptoms are inconsistent. Ordinary wheat sourdough still contains gluten and is not safe for celiac disease.","taxonomy":{"food_family":"grains-pseudocereals","food_subcategories":[],"article_types":["health-daily-consumption","processing-production","nutrition-concepts"],"primary_article_type":"health-daily-consumption"},"content_html":"<p>Sourdough is often described as easier to digest, but that phrase bundles together several different ideas. <strong>Fermentation definitely changes flour components; whether those changes reduce symptoms for a particular person is a separate question.</strong></p><h2>Some fructans can decrease</h2><p>Fructans are fermentable wheat carbohydrates included among FODMAPs. Certain sourdough bacteria and yeasts have enzymes that consume or break them down during sufficiently active and prolonged fermentation.</p><p>Experimental breads can show substantial differences. Reviews cite, for example, a traditional rye bread around 1.1 g fructans/100 g versus a specially developed low-FODMAP sourdough version around 0.3 g/100 g. Those numbers belong to specific processes, not every bakery loaf.</p><h2>Lower fructans do not guarantee fewer symptoms</h2><p>Clinical trials in people with irritable bowel syndrome have not produced a uniform response. Some formulations may be better tolerated by some people, while others show little symptom difference. Serving size and the rest of the diet also determine total FODMAP exposure.</p><h2>Phytate can decrease too</h2><p>Sourdough acidification activates phytases that break down phytic acid. That can improve mineral bioaccessibility, particularly in whole-grain and rye breads that contain more minerals but also more phytate.</p><p>The extent varies with flour, time, temperature and pH, so again there is no single sourdough percentage that applies everywhere.</p><h2>Proteins are partly broken down</h2><p>Proteases from flour and microorganisms produce smaller peptides and amino acids during fermentation. Specialized experimental systems can achieve extensive degradation, but routine bread fermentation does not eliminate gluten.</p><p><strong>Someone with celiac disease should not consider ordinary wheat sourdough safe.</strong> The bread must be specifically gluten-free and meet the relevant gluten-free standard.</p><h2>What does “more digestible” really mean?</h2><p>It may refer to fewer fructans, less phytate, partial protein breakdown, different texture or simply a person's subjective experience. Those are not interchangeable outcomes.</p><p>If bread causes symptoms, flour type, portion, fermentation schedule and the underlying diagnosis matter more than the word sourdough on the label. <strong>The process can explain meaningful differences, but it cannot promise universal tolerance.</strong></p>","faq":[{"question":"Does sourdough reduce FODMAPs?","answer":"It can reduce fructans under suitable fermentation conditions, but not every sourdough bread qualifies as low-FODMAP."},{"question":"Is sourdough better for IBS?","answer":"Not for everyone. Human trials show variable results depending on formulation, serving and individual sensitivity."},{"question":"Does sourdough remove gluten?","answer":"No in ordinary breadmaking. Wheat sourdough still contains gluten."},{"question":"Does sourdough reduce phytic acid?","answer":"It can through acidification and phytase activity, although the amount depends on the fermentation conditions."}],"sources":[{"name":"Does sourdough bread provide clinically relevant health benefits?","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10399781/","note":"Critical review of fructans, gluten, commercial processing and clinical relevance."},{"name":"Nutritional benefits of sourdoughs: A systematic review","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10103004/","note":"Evidence synthesis for phytate, minerals and digestibility/tolerance outcomes."},{"name":"Exploring the Nutritional Impact of Sourdough Fermentation","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11172170/","note":"Mechanisms of phytate breakdown and other biochemical changes."}],"image":{"concept":"A sourdough slice with arrows showing variable decreases in fructans and phytate and partial protein breakdown.","alt":"Changes in fructans, phytate and proteins during sourdough fermentation"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-561-sourdough-digestibility-fermentation",
+  "article_number": 561,
+  "translation_group": "561-sourdough-digestibility",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States and general English-speaking market",
+  "title": "Sourdough and digestibility: what fermentation changes",
+  "slug": "sourdough-digestibility-fermentation",
+  "seo": {
+    "title": "Sourdough and digestibility: what can actually change",
+    "meta_description": "Sourdough can reduce phytate and some fructans and partially modify proteins, but digestive effects vary and ordinary wheat sourdough still contains gluten.",
+    "search_intent": "Understand whether sourdough makes bread easier to digest and the mechanisms that may explain differences"
+  },
+  "excerpt": "Sourdough fermentation can change several factors related to digestion: it reduces phytate, can lower some fructans/FODMAPs and partially breaks down proteins through grain and microbial enzymes. But “more digestible” is not a universal outcome. Reductions depend on the process, and human trials for digestive symptoms are inconsistent. Ordinary wheat sourdough still contains gluten and is not safe for celiac disease.",
+  "taxonomy": {
+    "food_family": "grains-pseudocereals",
+    "food_subcategories": [],
+    "article_types": [
+      "health-daily-consumption",
+      "processing-production",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p>Sourdough is often described as easier to digest, but that phrase bundles together several different ideas. <strong>Fermentation definitely changes flour components; whether those changes reduce symptoms for a particular person is a separate question.</strong></p><p>Sourdough is an ecosystem of yeasts and lactic acid bacteria that acidifies dough and keeps cereal and microbial enzymes active for hours. That longer fermentation window allows changes that a very short rise may not reproduce to the same degree. Still, “sourdough bread” does not define one process. Flour type, hydration, starter, temperature, fermentation time, and added commercial yeast can all change the final loaf.</p><h2>Some fructans can decrease</h2><p>Fructans are fermentable wheat carbohydrates included among FODMAPs. Certain sourdough bacteria and yeasts have enzymes that consume or break them down during sufficiently active and prolonged fermentation.</p><p>Experimental breads can show substantial differences. Reviews cite, for example, a traditional rye bread around 1.1 g fructans/100 g versus a specially developed low-FODMAP sourdough version around 0.3 g/100 g. Those numbers belong to specific processes, not every bakery loaf.</p><p>Wheat fructans are fermentable carbohydrates that can trigger symptoms in some sensitive people. During an active sourdough fermentation, part of those fructans can be broken down, but the reduction is not consistent across breads. A product labeled sourdough may have a short process or added ingredients. It is therefore unsafe to assume that every sourdough loaf is automatically low-FODMAP.</p><h2>Lower fructans do not guarantee fewer symptoms</h2><p>Clinical trials in people with irritable bowel syndrome have not produced a uniform response. Some formulations may be better tolerated by some people, while others show little symptom difference. Serving size and the rest of the diet also determine total FODMAP exposure.</p><p>Digestive tolerance also depends on more than fructans. Portion size, the rest of the meal, eating speed, individual sensitivity, and other components of the bread can influence how someone feels afterward. Clinical studies do not show the same response in everyone. A person may genuinely tolerate one long-fermented loaf better without that experience becoming a universal rule for all sourdough breads.</p><h2>Phytate can decrease too</h2><p>Sourdough acidification activates phytases that break down phytic acid. That can improve mineral bioaccessibility, particularly in whole-grain and rye breads that contain more minerals but also more phytate.</p><p>The extent varies with flour, time, temperature and pH, so again there is no single sourdough percentage that applies everywhere.</p><p>Lower phytate is interesting because phytate can bind minerals in the digestive tract. Acidification and phytase activity during fermentation can reduce it and may improve the availability of some minerals. The size of that effect depends on flour and process, and it does not turn bread into an extraordinary mineral supplement. Looking at the whole diet remains more useful than assigning a large health claim to one biochemical change.</p><h2>Proteins are partly broken down</h2><p>Proteases from flour and microorganisms produce smaller peptides and amino acids during fermentation. Specialized experimental systems can achieve extensive degradation, but routine bread fermentation does not eliminate gluten.</p><p><strong>Someone with celiac disease should not consider ordinary wheat sourdough safe.</strong> The bread must be specifically gluten-free and meet the relevant gluten-free standard.</p><p>Proteases from the grain and microorganisms partly break proteins into smaller fragments during fermentation. That affects flavor, texture, and some peptides, but ordinary wheat sourdough still contains gluten. Partial breakdown is not elimination. People with celiac disease need foods that are specifically gluten-free and appropriately controlled; a long-fermented artisan wheat loaf is not a safe substitute.</p><h2>What does “more digestible” really mean?</h2><p>It may refer to fewer fructans, less phytate, partial protein breakdown, different texture or simply a person's subjective experience. Those are not interchangeable outcomes.</p><p>If bread causes symptoms, flour type, portion, fermentation schedule and the underlying diagnosis matter more than the word sourdough on the label. <strong>The process can explain meaningful differences, but it cannot promise universal tolerance.</strong></p><p>When someone says sourdough feels “easier to digest,” they may mean less bloating, better tolerance of a particular portion, or simply preference for a certain style of bread. It is useful to define the symptom and compare similar products. Long fermentation can alter fructans, phytate, and proteins, but individual response still matters. The word sourdough on the label cannot predict symptoms or replace medical evaluation for persistent problems.</p>",
+  "faq": [
+    {
+      "question": "Does sourdough reduce FODMAPs?",
+      "answer": "It can reduce fructans under suitable fermentation conditions, but not every sourdough bread qualifies as low-FODMAP."
+    },
+    {
+      "question": "Is sourdough better for IBS?",
+      "answer": "Not for everyone. Human trials show variable results depending on formulation, serving and individual sensitivity."
+    },
+    {
+      "question": "Does sourdough remove gluten?",
+      "answer": "No in ordinary breadmaking. Wheat sourdough still contains gluten."
+    },
+    {
+      "question": "Does sourdough reduce phytic acid?",
+      "answer": "It can through acidification and phytase activity, although the amount depends on the fermentation conditions."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Does sourdough bread provide clinically relevant health benefits?",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10399781/",
+      "note": "Critical review of fructans, gluten, commercial processing and clinical relevance."
+    },
+    {
+      "name": "Nutritional benefits of sourdoughs: A systematic review",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10103004/",
+      "note": "Evidence synthesis for phytate, minerals and digestibility/tolerance outcomes."
+    },
+    {
+      "name": "Exploring the Nutritional Impact of Sourdough Fermentation",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11172170/",
+      "note": "Mechanisms of phytate breakdown and other biochemical changes."
+    }
+  ],
+  "image": {
+    "concept": "A sourdough slice with arrows showing variable decreases in fructans and phytate and partial protein breakdown.",
+    "alt": "Changes in fructans, phytate and proteins during sourdough fermentation"
+  },
+  "status": "publish"
+}

@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-698-azucar-glas-o-normal","article_number":698,"translation_group":"698-powdered-vs-granulated-sugar","language":"es","locale":"es-ES","market_context":"España/Unión Europea; composición, etiquetado y cocina contextualizados para lectores en España","title":"Azúcar glas o azúcar normal: por qué no siempre puedes sustituirlos","slug":"azucar-glas-o-normal","seo":{"title":"Azúcar glas o normal: por qué no son 1:1","meta_description":"El azúcar glas está molido muy fino y suele llevar una pequeña cantidad de almidón para evitar grumos. Una taza pesa mucho menos que una taza de azúcar granulado, por lo que sustituir por volumen cambia dulzor y estructura.","search_intent":"Explicar cómo difieren azúcar glas y granulado y cuándo una sustitución por volumen falla."},"excerpt":"El azúcar glas y el granulado parten de sacarosa, pero no ocupan el mismo volumen: una taza de glas suele pesar alrededor de 120 g frente a unos 200 g de granulado. Además, el glas suele contener almidón, por eso no son una sustitución 1:1 por taza.","taxonomy":{"food_family":"cocoa-sweets","food_subcategories":["powdered-sugar","granulated-sugar"],"article_types":["comparisons","cooking-science","cooking-techniques"],"primary_article_type":"comparisons"},"content_html":"<p>Los dos saben a azúcar, pero una taza de cada uno no contiene la misma cantidad. <strong>El azúcar glas está pulverizado, atrapa mucho aire entre partículas y suele llevar algo de almidón; por eso sustituirlo por azúcar granulado a igual volumen altera la receta.</strong></p><h2>La diferencia de peso es grande</h2><p>Como referencia culinaria, una taza de azúcar granulado ronda los 200 g, mientras una taza de azúcar glas sin compactar suele estar cerca de 120 g. La cifra exacta cambia entre marcas y según cómo llenes la taza, pero la dirección es clara.</p><table><thead><tr><th>1 taza aproximada</th><th>Peso</th><th>Qué implica</th></tr></thead><tbody><tr><td>Azúcar granulado</td><td>≈200 g</td><td>Más azúcar por volumen</td></tr><tr><td>Azúcar glas</td><td>≈120 g</td><td>Menos masa por taza y posible almidón añadido</td></tr></tbody></table><p>Si cambias una taza de granulado por una taza de glas, puedes reducir el azúcar real de la fórmula alrededor de un 40% y modificar la hidratación, el dorado y la estructura.</p><h2>El almidón también cuenta</h2><p>Muchos azúcares glas comerciales incluyen una pequeña cantidad de almidón —a menudo de maíz— para evitar que el polvo absorba humedad y forme bloques. En un glaseado esa característica es útil; en una receta delicada puede espesar o secar ligeramente la mezcla.</p><h2>Las partículas finas se disuelven muy rápido</h2><p>Por eso el glas es ideal para glaseados, cremas de mantequilla y espolvoreados. El azúcar granulado, en cambio, aporta cristales que ayudan a incorporar aire al batir con mantequilla y contribuyen a ciertas texturas de galletas y bizcochos.</p><h2>Si una receta da gramos, pesa</h2><p>Cuando el objetivo es sustituir por dulzor y la estructura lo permite, comparar por peso es mucho más razonable que comparar por tazas. Aun así, el almidón y la velocidad de disolución pueden hacer que el resultado no sea idéntico.</p><p><strong>Misma materia dulce no significa mismo ingrediente funcional: para repostería, usa el tipo que especifica la receta salvo que tengas una sustitución probada.</strong></p>","faq":[{"question":"¿Una taza de azúcar glas equivale a una taza de azúcar normal?","answer":"No por peso. Una taza de granulado ronda 200 g y una de glas sin compactar suele rondar 120 g, por lo que el volumen 1:1 cambia mucho la cantidad real de azúcar."},{"question":"¿Por qué el azúcar glas lleva maicena?","answer":"Se añade una pequeña cantidad de almidón para absorber humedad y evitar que el polvo se apelmace."},{"question":"¿Puedo hacer azúcar glas triturando azúcar?","answer":"Puedes obtener un polvo fino en casa, aunque el producto comercial suele incluir almidón y puede tener una molienda más uniforme."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Composición de azúcares granulados y en polvo."},{"name":"King Arthur Baking — Ingredient Weight Chart","url":"https://www.kingarthurbaking.com/learn/ingredient-weight-chart","note":"Pesos culinarios comparables por taza para distintos azúcares."}],"image":{"concept":"Dos tazas medidoras con azúcar granulado y azúcar glas mostrando texturas distintas, fotografía editorial.","alt":"Azúcar glas y azúcar granulado"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-698-azucar-glas-o-normal",
+  "article_number": 698,
+  "translation_group": "698-powdered-vs-granulated-sugar",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición, etiquetado y cocina contextualizados para lectores en España",
+  "title": "Azúcar glas o azúcar normal: por qué no siempre puedes sustituirlos",
+  "slug": "azucar-glas-o-normal",
+  "seo": {
+    "title": "Azúcar glas o normal: por qué no son 1:1",
+    "meta_description": "El azúcar glas está molido muy fino y suele llevar una pequeña cantidad de almidón para evitar grumos. Una taza pesa mucho menos que una taza de azúcar granulado, por lo que sustituir por volumen cambia dulzor y estructura.",
+    "search_intent": "Explicar cómo difieren azúcar glas y granulado y cuándo una sustitución por volumen falla."
+  },
+  "excerpt": "El azúcar glas y el granulado parten de sacarosa, pero no ocupan el mismo volumen: una taza de glas suele pesar alrededor de 120 g frente a unos 200 g de granulado. Además, el glas suele contener almidón, por eso no son una sustitución 1:1 por taza.",
+  "taxonomy": {
+    "food_family": "cocoa-sweets",
+    "food_subcategories": [
+      "powdered-sugar",
+      "granulated-sugar"
+    ],
+    "article_types": [
+      "comparisons",
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>Los dos saben a azúcar, pero una taza de cada uno no contiene la misma cantidad. <strong>El azúcar glas está pulverizado, atrapa mucho aire entre partículas y suele llevar algo de almidón; por eso sustituirlo por azúcar granulado a igual volumen altera la receta.</strong></p><p>Aunque ambos productos sean casi todo sacarosa, la geometría de las partículas cambia cómo se comportan. El azúcar granulado tiene cristales relativamente grandes que aportan fricción al batir con mantequilla y tardan más en disolverse. El azúcar glas se integra casi de inmediato y forma mezclas muy finas. Esa diferencia física puede modificar aireación, extensión, ternura y acabado, incluso cuando la cantidad total de azúcar medida en gramos es parecida.</p><p>La temperatura también cambia la percepción del resultado. En una crema fría, los cristales de azúcar granulado que no se han disuelto pueden sentirse arenosos, mientras el glas produce una sensación más uniforme. En una galleta horneada, esos cristales pueden ayudar a crear bordes, grietas o una extensión concreta. Por eso una sustitución que parece funcionar al mezclar puede revelarse distinta después de hornear o enfriar. El tipo de azúcar forma parte de la técnica, no solo del dulzor.</p><h2>La diferencia de peso es grande</h2><p>Como referencia culinaria, una taza de azúcar granulado ronda los 200 g, mientras una taza de azúcar glas sin compactar suele estar cerca de 120 g. La cifra exacta cambia entre marcas y según cómo llenes la taza, pero la dirección es clara.</p><table><thead><tr><th>1 taza aproximada</th><th>Peso</th><th>Qué implica</th></tr></thead><tbody><tr><td>Azúcar granulado</td><td>≈200 g</td><td>Más azúcar por volumen</td></tr><tr><td>Azúcar glas</td><td>≈120 g</td><td>Menos masa por taza y posible almidón añadido</td></tr></tbody></table><p>Si cambias una taza de granulado por una taza de glas, puedes reducir el azúcar real de la fórmula alrededor de un 40% y modificar la hidratación, el dorado y la estructura.</p><p>Por volumen, sustituir una taza por otra puede introducir un error enorme porque las partículas finas del glas se acomodan de otra manera y el propio producto puede contener almidón antiapelmazante. Si una receta pide 100 g, la equivalencia es mucho más sencilla que si pide “una taza”. El problema no es que un azúcar sea mucho más dulce químicamente, sino que la medida doméstica puede esconder cantidades distintas de sacarosa y una proporción pequeña de otros ingredientes.</p><h2>El almidón también cuenta</h2><p>Muchos azúcares glas comerciales incluyen una pequeña cantidad de almidón —a menudo de maíz— para evitar que el polvo absorba humedad y forme bloques. En un glaseado esa característica es útil; en una receta delicada puede espesar o secar ligeramente la mezcla.</p><p>El almidón del azúcar glas ayuda a que el polvo no se apelmace, pero también absorbe algo de humedad. En glaseados y coberturas suele ser útil porque contribuye a una textura estable; en caramelos, almíbares transparentes o recetas muy sensibles puede ser una interferencia. No todas las marcas usan exactamente la misma proporción, así que una sustitución funciona mejor cuando la preparación tolera pequeñas diferencias y peor cuando depende de una estructura muy precisa.</p><h2>Las partículas finas se disuelven muy rápido</h2><p>Por eso el glas es ideal para glaseados, cremas de mantequilla y espolvoreados. El azúcar granulado, en cambio, aporta cristales que ayudan a incorporar aire al batir con mantequilla y contribuyen a ciertas texturas de galletas y bizcochos.</p><p>Su rapidez para disolverse explica por qué el glas funciona tan bien en buttercream, glaseados rápidos o para espolvorear. El granulado, en cambio, suele ser más adecuado cuando los cristales participan en el batido o cuando la receta espera una disolución gradual. Moler azúcar granulado en casa puede producir un polvo parecido, pero no siempre reproduce la finura industrial ni incorpora el mismo antiapelmazante. Para un acabado muy liso, esa diferencia puede notarse.</p><h2>Si una receta da gramos, pesa</h2><p>Cuando el objetivo es sustituir por dulzor y la estructura lo permite, comparar por peso es mucho más razonable que comparar por tazas. Aun así, el almidón y la velocidad de disolución pueden hacer que el resultado no sea idéntico.</p><p><strong>Misma materia dulce no significa mismo ingrediente funcional: para repostería, usa el tipo que especifica la receta salvo que tengas una sustitución probada.</strong></p><p>La regla práctica es sencilla: si el azúcar cumple una función estructural, respeta el tipo indicado. En una bebida o un uso donde solo importa endulzar, la sustitución es menos crítica si pesas la cantidad. En galletas, merengues, glaseados y repostería fina, cambiar también puede cambiar la textura. Antes de improvisar, identifica si la receta depende del volumen, del tamaño del cristal, de la velocidad de disolución o solo de la cantidad de sacarosa.</p>",
+  "faq": [
+    {
+      "question": "¿Una taza de azúcar glas equivale a una taza de azúcar normal?",
+      "answer": "No por peso. Una taza de granulado ronda 200 g y una de glas sin compactar suele rondar 120 g, por lo que el volumen 1:1 cambia mucho la cantidad real de azúcar."
+    },
+    {
+      "question": "¿Por qué el azúcar glas lleva maicena?",
+      "answer": "Se añade una pequeña cantidad de almidón para absorber humedad y evitar que el polvo se apelmace."
+    },
+    {
+      "question": "¿Puedo hacer azúcar glas triturando azúcar?",
+      "answer": "Puedes obtener un polvo fino en casa, aunque el producto comercial suele incluir almidón y puede tener una molienda más uniforme."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Composición de azúcares granulados y en polvo."
+    },
+    {
+      "name": "King Arthur Baking — Ingredient Weight Chart",
+      "url": "https://www.kingarthurbaking.com/learn/ingredient-weight-chart",
+      "note": "Pesos culinarios comparables por taza para distintos azúcares."
+    }
+  ],
+  "image": {
+    "concept": "Dos tazas medidoras con azúcar granulado y azúcar glas mostrando texturas distintas, fotografía editorial.",
+    "alt": "Azúcar glas y azúcar granulado"
+  },
+  "status": "publish"
+}
