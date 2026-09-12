@@ -1,1 +1,62 @@
-{"schema_version":1,"id":"es-697-azucar-blanco-o-moreno","article_number":697,"translation_group":"697-white-vs-brown-sugar","language":"es","locale":"es-ES","market_context":"España/Unión Europea; composición, etiquetado y cocina contextualizados para lectores en España","title":"Azúcar blanco o moreno: ¿hay realmente alguna diferencia nutricional?","slug":"azucar-blanco-o-moreno","seo":{"title":"Azúcar blanco o moreno: diferencias nutricionales","meta_description":"El azúcar moreno contiene melaza y por eso aporta trazas de minerales y más humedad, pero ambos son principalmente sacarosa y tienen calorías y azúcares muy similares. La diferencia nutricional práctica es pequeña.","search_intent":"Comparar azúcar blanco y moreno en calorías, azúcares, minerales y usos culinarios."},"excerpt":"El azúcar moreno no es una alternativa nutricionalmente muy distinta al blanco. La melaza aporta color, humedad y pequeñas cantidades de minerales, pero por cucharadita ambos aportan alrededor de 4 g de azúcar y unas 16 kcal.","taxonomy":{"food_family":"cocoa-sweets","food_subcategories":["sugar","brown-sugar"],"article_types":["comparisons","nutrition-composition","myths-faq"],"primary_article_type":"comparisons"},"content_html":"<p>El color oscuro del azúcar moreno puede hacer que parezca menos refinado o más nutritivo. <strong>En la práctica, blanco y moreno son sobre todo azúcar: la melaza cambia sabor, humedad y algunos micronutrientes, pero no convierte al moreno en una fuente relevante de minerales.</strong></p><h2>Por cucharadita, las cifras casi coinciden</h2><p>Una cucharadita rasa pesa aproximadamente 4 g y aporta cerca de 16 kcal tanto si el azúcar es blanco como si es moreno. La mayor parte de esa masa son azúcares simples.</p><table><thead><tr><th>Por ~1 cucharadita (4 g)</th><th>Azúcar blanco</th><th>Azúcar moreno</th></tr></thead><tbody><tr><td>Calorías</td><td>≈16 kcal</td><td>≈15–16 kcal</td></tr><tr><td>Azúcares</td><td>≈4 g</td><td>≈4 g</td></tr></tbody></table><p>Las diferencias exactas dependen de cuánta melaza tenga el producto y de cómo se mida la cucharada, pero son demasiado pequeñas para cambiar la función nutricional del ingrediente.</p><h2>La melaza aporta trazas, no una ventaja grande</h2><p>El azúcar moreno contiene pequeñas cantidades de minerales procedentes de la melaza, como calcio, potasio o hierro. Sin embargo, en una porción normal de azúcar esas cantidades son muy bajas. Buscar esos nutrientes en legumbres, frutos secos, lácteos, frutas o verduras aporta mucho más sin necesidad de aumentar el azúcar añadido.</p><h2>Donde sí cambia mucho es en la receta</h2><p>La melaza retiene humedad y aporta notas a caramelo. En galletas puede favorecer una textura más tierna y densa; el azúcar blanco tiende a dar un sabor más neutro y puede favorecer bordes más crujientes. Por eso intercambiarlos afecta más a la repostería que a la nutrición.</p><h2>La elección saludable no depende del color</h2><p>Las recomendaciones de salud pública se centran en limitar azúcares libres o añadidos, no en escoger versiones marrones en lugar de blancas. Si una receta lleva 50 g de azúcar, cambiar el color no elimina esos 50 g de ingrediente dulce.</p><p><strong>Elige blanco o moreno por sabor y textura; para la nutrición, importa mucho más la cantidad total.</strong></p>","faq":[{"question":"¿El azúcar moreno es más saludable?","answer":"No de forma significativa. Tiene algo de melaza y trazas de minerales, pero calorías y azúcares son muy similares al azúcar blanco."},{"question":"¿Cuál tiene menos calorías?","answer":"La diferencia por cucharadita es mínima: ambos rondan unas 16 kcal por 4 g."},{"question":"¿Se pueden sustituir en repostería?","answer":"A menudo sí por peso, pero la melaza del azúcar moreno cambia humedad, sabor y textura, así que el resultado no será idéntico."}],"sources":[{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Valores de energía y azúcares de azúcar blanco y moreno."},{"name":"EFSA — Dietary sugars","url":"https://www.efsa.europa.eu/en/topics/topic/dietary-sugars","note":"Contexto europeo sobre ingesta de azúcares."}],"image":{"concept":"Azúcar blanco y azúcar moreno en dos cucharas iguales, fotografía editorial sobre fondo de cocina.","alt":"Azúcar blanco y azúcar moreno"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "es-697-azucar-blanco-o-moreno",
+  "article_number": 697,
+  "translation_group": "697-white-vs-brown-sugar",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea; composición, etiquetado y cocina contextualizados para lectores en España",
+  "title": "Azúcar blanco o moreno: ¿hay realmente alguna diferencia nutricional?",
+  "slug": "azucar-blanco-o-moreno",
+  "seo": {
+    "title": "Azúcar blanco o moreno: diferencias nutricionales",
+    "meta_description": "El azúcar moreno contiene melaza y por eso aporta trazas de minerales y más humedad, pero ambos son principalmente sacarosa y tienen calorías y azúcares muy similares. La diferencia nutricional práctica es pequeña.",
+    "search_intent": "Comparar azúcar blanco y moreno en calorías, azúcares, minerales y usos culinarios."
+  },
+  "excerpt": "El azúcar moreno no es una alternativa nutricionalmente muy distinta al blanco. La melaza aporta color, humedad y pequeñas cantidades de minerales, pero por cucharadita ambos aportan alrededor de 4 g de azúcar y unas 16 kcal.",
+  "taxonomy": {
+    "food_family": "cocoa-sweets",
+    "food_subcategories": [
+      "sugar",
+      "brown-sugar"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition",
+      "myths-faq"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p>El color oscuro del azúcar moreno puede hacer que parezca menos refinado o más nutritivo. <strong>En la práctica, blanco y moreno son sobre todo azúcar: la melaza cambia sabor, humedad y algunos micronutrientes, pero no convierte al moreno en una fuente relevante de minerales.</strong></p><h2>Por cucharadita, las cifras casi coinciden</h2><p>Una cucharadita rasa pesa aproximadamente 4 g y aporta cerca de 16 kcal tanto si el azúcar es blanco como si es moreno. La mayor parte de esa masa son azúcares simples.</p><table><thead><tr><th>Por ~1 cucharadita (4 g)</th><th>Azúcar blanco</th><th>Azúcar moreno</th></tr></thead><tbody><tr><td>Calorías</td><td>≈16 kcal</td><td>≈15–16 kcal</td></tr><tr><td>Azúcares</td><td>≈4 g</td><td>≈4 g</td></tr></tbody></table><p>Las diferencias exactas dependen de cuánta melaza tenga el producto y de cómo se mida la cucharada, pero son demasiado pequeñas para cambiar la función nutricional del ingrediente.</p><h2>La melaza aporta trazas, no una ventaja grande</h2><p>El azúcar moreno contiene pequeñas cantidades de minerales procedentes de la melaza, como calcio, potasio o hierro. Sin embargo, en una porción normal de azúcar esas cantidades son muy bajas. Buscar esos nutrientes en legumbres, frutos secos, lácteos, frutas o verduras aporta mucho más sin necesidad de aumentar el azúcar añadido.</p><h2>Donde sí cambia mucho es en la receta</h2><p>La melaza retiene humedad y aporta notas a caramelo. En galletas puede favorecer una textura más tierna y densa; el azúcar blanco tiende a dar un sabor más neutro y puede favorecer bordes más crujientes. Por eso intercambiarlos afecta más a la repostería que a la nutrición.</p><p>El azúcar moreno es básicamente azúcar blanco con melaza presente o añadida de nuevo. Esa melaza cambia color, aroma, humedad y sabor, pero la cantidad de una ración normal es demasiado pequeña para convertirlo en una fuente relevante de minerales. Una cucharadita de cualquiera sigue funcionando sobre todo como azúcar añadido, por lo que cambiar blanco por moreno manteniendo la cantidad apenas modifica el perfil nutricional.</p><p>Donde sí importa la sustitución es en la química de la receta. El moreno retiene más humedad y puede dar galletas más blandas, notas de caramelo y una textura distinta. El blanco aporta un dulzor más limpio y puede favorecer resultados más crujientes. En recetas sensibles al batido, caramelización o humedad, intercambiarlos puede cambiar bastante el resultado aunque las calorías sean casi iguales.</p><p>Azúcares crudos, demerara, turbinado, azúcar de coco y otros endulzantes oscuros plantean un problema parecido: pueden contener trazas de minerales y sabores diferentes, pero siguen siendo azúcares concentrados. La variable con más impacto suele ser cuánto se usa y con qué frecuencia, no si el cristal es marrón, ecológico o menos refinado.</p><p>Si prefieres el moreno por sabor, úsalo por sabor. Si una receta funciona mejor con blanco, usa blanco. Desde el punto de vista de salud, reducir la cantidad total de azúcar añadido cuando sea posible tiene más sentido que esperar una ventaja importante por el color.</p><p>Como el azúcar moreno contiene más humedad, medir por volumen puede introducir diferencias. Una taza de azúcar moreno compactado pesa más que una taza llenada sin apretar y por eso muchas recetas indican “compactar”. Medir por peso da resultados más consistentes en repostería. Esa humedad también explica que pueda endurecerse en un bloque cuando el envase pierde aire; guardarlo hermético ayuda y un bloque duro suele poder ablandarse en vez de tirarlo.</p><p>En bebidas y uso diario, un sabor más intenso puede permitir usar menos. Una pequeña cantidad de azúcar moreno oscuro o melaza aporta notas de caramelo que el blanco no tiene, de modo que alguna receta puede resultar satisfactoria con menor cantidad. Es una estrategia culinaria, no una ventaja metabólica: el cuerpo recibe principalmente sacarosa. Si el objetivo es reducir azúcar añadido, bajar poco a poco la cantidad en café, cereales, salsas y repostería tiene más impacto que sustituir cucharada por cucharada.</p><p>También conviene separar dulzor y sabor: un azúcar más oscuro puede tener un aroma más complejo sin contener menos azúcar. Cambia la percepción culinaria, pero la sacarosa sigue siendo su rasgo nutricional principal.</p><h2>La elección saludable no depende del color</h2><p>Las recomendaciones de salud pública se centran en limitar azúcares libres o añadidos, no en escoger versiones marrones en lugar de blancas. Si una receta lleva 50 g de azúcar, cambiar el color no elimina esos 50 g de ingrediente dulce.</p><p><strong>Elige blanco o moreno por sabor y textura; para la nutrición, importa mucho más la cantidad total.</strong></p>",
+  "faq": [
+    {
+      "question": "¿El azúcar moreno es más saludable?",
+      "answer": "No de forma significativa. Tiene algo de melaza y trazas de minerales, pero calorías y azúcares son muy similares al azúcar blanco."
+    },
+    {
+      "question": "¿Cuál tiene menos calorías?",
+      "answer": "La diferencia por cucharadita es mínima: ambos rondan unas 16 kcal por 4 g."
+    },
+    {
+      "question": "¿Se pueden sustituir en repostería?",
+      "answer": "A menudo sí por peso, pero la melaza del azúcar moreno cambia humedad, sabor y textura, así que el resultado no será idéntico."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Valores de energía y azúcares de azúcar blanco y moreno."
+    },
+    {
+      "name": "EFSA — Dietary sugars",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/dietary-sugars",
+      "note": "Contexto europeo sobre ingesta de azúcares."
+    }
+  ],
+  "image": {
+    "concept": "Azúcar blanco y azúcar moreno en dos cucharas iguales, fotografía editorial sobre fondo de cocina.",
+    "alt": "Azúcar blanco y azúcar moreno"
+  },
+  "status": "publish"
+}
