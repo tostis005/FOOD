@@ -1,1 +1,61 @@
-{"schema_version":1,"id":"en-707-net-vs-total-carbs","article_number":707,"translation_group":"707-net-vs-total-carbs","language":"en","locale":"en-US","market_context":"United States; FDA Nutrition Facts labeling and commercial net-carbohydrate claims","title":"Net Carbs vs Total Carbs: What Each Number Really Means","slug":"net-vs-total-carbs","seo":{"title":"Net Carbs vs Total Carbs: What They Mean","meta_description":"Total Carbohydrate is an FDA-defined label value that includes fiber. Net carbs is a voluntary calculation, usually Total Carbohydrate minus fiber and sometimes some sugar alcohols, so formulas can differ by brand.","search_intent":"Explain the difference between regulated Total Carbohydrate and voluntary net-carb calculations on U.S. foods."},"excerpt":"Total Carbohydrate is the regulated Nutrition Facts number and includes dietary fiber. “Net carbs” is not an FDA-defined nutrient line; brands commonly subtract fiber and sometimes sugar alcohols, but there is no single required formula.","taxonomy":{"food_family":"general","food_subcategories":["food-labels","carbohydrates"],"article_types":["nutrition-concepts","myths-faq"],"primary_article_type":"nutrition-concepts"},"content_html":"<p>A package can say 20 g Total Carbohydrate on the Nutrition Facts panel and advertise 4 g “net carbs” on the front. <strong>The 20-gram number is defined by FDA labeling rules; the 4-gram number is a manufacturer calculation.</strong></p><h2>Total Carbohydrate includes fiber</h2><p>On a U.S. Nutrition Facts label, Total Carbohydrate includes dietary fiber, total sugars, starch, and sugar alcohols or other carbohydrate components when present. Dietary Fiber and Total Sugars appear underneath as parts of that total.</p><h2>Net carbs usually starts with subtraction</h2><p>A common formula is Total Carbohydrate minus Dietary Fiber, with some brands also subtracting all or part of sugar alcohols. For example, a food with 20 g total carbohydrate and 12 g fiber might be marketed as 8 g net carbs before any sugar-alcohol adjustment.</p><p>FDA does not require a standardized “Net Carbs” line, so the arithmetic can vary. Always look for the manufacturer's explanation if the product contains erythritol, xylitol, sorbitol, allulose, or unusual fibers.</p><h2>Sugar alcohols complicate the shortcut</h2><p>Different sugar alcohols are absorbed and metabolized differently. Erythritol contributes very little energy; xylitol and sorbitol contribute more and may have a greater metabolic effect. Subtracting every polyol identically can therefore hide meaningful differences.</p><h2>Use the regulated panel as the common language</h2><p>When comparing products, start with serving size, Total Carbohydrate, Dietary Fiber, Total Sugars, and Added Sugars. Treat net carbs as an extra claim whose formula needs checking rather than as a replacement for the panel.</p><p><strong>Total carbs is a label definition. Net carbs is an interpretation layered on top of it.</strong></p>","faq":[{"question":"How do you calculate net carbs?","answer":"A common approach is Total Carbohydrate minus Dietary Fiber, sometimes with an additional adjustment for sugar alcohols. FDA does not require one universal formula."},{"question":"Does Total Carbohydrate include fiber?","answer":"Yes. On U.S. Nutrition Facts labels, Dietary Fiber is part of Total Carbohydrate."},{"question":"Are net carbs an FDA-defined nutrient?","answer":"No. Net carbs is a voluntary marketing calculation rather than a standardized Nutrition Facts line."}],"sources":[{"name":"FDA — Nutrition Facts Label","url":"https://www.fda.gov/food/food-labeling-nutrition/nutrition-facts-label","note":"Definitions and structure of Total Carbohydrate and Dietary Fiber."},{"name":"FDA — Guidance for Nutrition Labeling","url":"https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-nutrition-and-supplement-facts-labels-questions-and-answers-related-compliance","note":"U.S. labeling guidance for carbohydrate components."}],"image":{"concept":"Close-up of a generic Nutrition Facts panel next to a front-of-package net-carbs badge without brand text.","alt":"Total carbohydrate and net carb information"},"status":"publish"}
+{
+  "schema_version": 1,
+  "id": "en-707-net-vs-total-carbs",
+  "article_number": 707,
+  "translation_group": "707-net-vs-total-carbs",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States; FDA Nutrition Facts labeling and commercial net-carbohydrate claims",
+  "title": "Net Carbs vs Total Carbs: What Each Number Really Means",
+  "slug": "net-vs-total-carbs",
+  "seo": {
+    "title": "Net Carbs vs Total Carbs: What They Mean",
+    "meta_description": "Total Carbohydrate is an FDA-defined label value that includes fiber. Net carbs is a voluntary calculation, usually Total Carbohydrate minus fiber and sometimes some sugar alcohols, so formulas can differ by brand.",
+    "search_intent": "Explain the difference between regulated Total Carbohydrate and voluntary net-carb calculations on U.S. foods."
+  },
+  "excerpt": "Total Carbohydrate is the regulated Nutrition Facts number and includes dietary fiber. “Net carbs” is not an FDA-defined nutrient line; brands commonly subtract fiber and sometimes sugar alcohols, but there is no single required formula.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "food-labels",
+      "carbohydrates"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p>A package can say 20 g Total Carbohydrate on the Nutrition Facts panel and advertise 4 g “net carbs” on the front. <strong>The 20-gram number is defined by FDA labeling rules; the 4-gram number is a manufacturer calculation.</strong></p><h2>Total Carbohydrate includes fiber</h2><p>On a U.S. Nutrition Facts label, Total Carbohydrate includes dietary fiber, total sugars, starch, and sugar alcohols or other carbohydrate components when present. Dietary Fiber and Total Sugars appear underneath as parts of that total.</p><h2>Net carbs usually starts with subtraction</h2><p>A common formula is Total Carbohydrate minus Dietary Fiber, with some brands also subtracting all or part of sugar alcohols. For example, a food with 20 g total carbohydrate and 12 g fiber might be marketed as 8 g net carbs before any sugar-alcohol adjustment.</p><p>FDA does not require a standardized “Net Carbs” line, so the arithmetic can vary. Always look for the manufacturer's explanation if the product contains erythritol, xylitol, sorbitol, allulose, or unusual fibers.</p><h2>Sugar alcohols complicate the shortcut</h2><p>Different sugar alcohols are absorbed and metabolized differently. Erythritol contributes very little energy; xylitol and sorbitol contribute more and may have a greater metabolic effect. Subtracting every polyol identically can therefore hide meaningful differences.</p><h2>Use the regulated panel as the common language</h2><p>When comparing products, start with serving size, Total Carbohydrate, Dietary Fiber, Total Sugars, and Added Sugars. Treat net carbs as an extra claim whose formula needs checking rather than as a replacement for the panel.</p><p><strong>Total carbs is a label definition. Net carbs is an interpretation layered on top of it.</strong></p>\n<h2>Net carbs is a marketing calculation, not a standardized nutrient</h2>\n<p>In the United States, companies and diet apps may calculate net carbs as total carbohydrate minus fiber, and sometimes minus all or part of certain sugar alcohols. There is no single federally defined “net carbohydrate” line on the Nutrition Facts panel. Two brands can therefore use different arithmetic and still print a similar front-of-pack claim.</p>\n<p>That is why the regulated values are the safest basis for comparison. Start with total carbohydrate, dietary fiber, total sugars, added sugars, and any sugar alcohol information that is actually declared.</p>\n<h2>Not every sugar alcohol behaves the same way</h2>\n<p>Erythritol, xylitol, maltitol, sorbitol, and other polyols differ in absorption, energy value, digestive tolerance, and effect on blood glucose. Subtracting every gram as though it had zero metabolic impact oversimplifies those differences. Products with large amounts of polyols can also cause gastrointestinal symptoms in some people.</p>\n<p>If a low-carbohydrate diet depends on precise counting, use a consistent method rather than switching between brand-specific net-carb claims. The ingredient list helps identify which polyols are present.</p>\n<h2>European labels require a different reading habit</h2>\n<p>On standard EU nutrition declarations, “carbohydrate” already excludes fiber, which appears on its own line when declared. Applying the common U.S. formula and subtracting fiber again would undercount. For products sold in Spain or elsewhere in the EU, use the carbohydrate value shown on the label and read polyols separately when relevant.</p>\n<p>This matters particularly with “keto” bars, tortillas, and sweets, where large amounts of fiber and sugar alcohols are often used to create a low net-carb claim. Two products with the same advertised number can have very different ingredients and digestive effects. Comparing the regulated panel and ingredient list side by side gives a clearer picture than relying on the large front-of-pack number.</p><p>For ordinary foods such as beans, fruit, milk, grains, and vegetables, the net-carb shortcut is often unnecessary. Total carbohydrate, fiber, portion size, and the overall meal already provide enough information for most comparisons.</p>\n<p>One more practical point is that “net” calculations can hide differences in serving size. A snack with 4 net grams in a 25-gram serving is not automatically lower in carbohydrate than another food eaten in a much larger portion. Always convert the claim back to the amount you will actually eat. For people tracking carbohydrate for medical reasons, a clinician or dietitian may recommend a specific counting method; a marketing formula on the front of a package should not replace that individualized plan.</p>\n<p>The key habit is consistency: use the same label convention from one product to the next. Mixing U.S. and EU formulas, or switching between manufacturer calculations, creates more confusion than precision.</p>\n",
+  "faq": [
+    {
+      "question": "How do you calculate net carbs?",
+      "answer": "A common approach is Total Carbohydrate minus Dietary Fiber, sometimes with an additional adjustment for sugar alcohols. FDA does not require one universal formula."
+    },
+    {
+      "question": "Does Total Carbohydrate include fiber?",
+      "answer": "Yes. On U.S. Nutrition Facts labels, Dietary Fiber is part of Total Carbohydrate."
+    },
+    {
+      "question": "Are net carbs an FDA-defined nutrient?",
+      "answer": "No. Net carbs is a voluntary marketing calculation rather than a standardized Nutrition Facts line."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Nutrition Facts Label",
+      "url": "https://www.fda.gov/food/food-labeling-nutrition/nutrition-facts-label",
+      "note": "Definitions and structure of Total Carbohydrate and Dietary Fiber."
+    },
+    {
+      "name": "FDA — Guidance for Nutrition Labeling",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-nutrition-and-supplement-facts-labels-questions-and-answers-related-compliance",
+      "note": "U.S. labeling guidance for carbohydrate components."
+    }
+  ],
+  "image": {
+    "concept": "Close-up of a generic Nutrition Facts panel next to a front-of-package net-carbs badge without brand text.",
+    "alt": "Total carbohydrate and net carb information"
+  },
+  "status": "publish"
+}
