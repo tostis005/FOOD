@@ -1,0 +1,50 @@
+name: Temporary priority 20 export
+
+on:
+  push:
+    branches:
+      - tmp-quality-priority-20-export
+
+permissions:
+  contents: read
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify and collect exact source files
+        shell: python
+        run: |
+          import json, pathlib, shutil
+          paths = ['content/articles/es/140-alimentos-probioticos-microorganismos-vivos.json', 'content/articles/en/140-foods-probiotics-live-microorganisms.json', 'content/articles/es/577-leche-entera-semidesnatada-desnatada-diferencias-nutricionales.json', 'content/articles/en/577-whole-2-percent-skim-milk-nutrition.json', 'content/articles/es/332-se-puede-comer-pasta-dia-anterior.json', 'content/articles/en/332-can-you-eat-leftover-pasta-next-day.json', 'content/articles/es/698-azucar-glas-o-normal.json', 'content/articles/en/698-powdered-vs-granulated-sugar.json', 'content/articles/es/827-rabano-blando-esponjoso.json', 'content/articles/en/827-soft-spongy-radish.json', 'content/articles/es/316-cuanto-dura-paquete-jamon-abierto.json', 'content/articles/en/316-how-long-opened-ham-package-lasts.json', 'content/articles/es/561-masa-madre-digestibilidad-fermentacion.json', 'content/articles/en/561-sourdough-digestibility-fermentation.json', 'content/articles/es/137-prebioticos-que-son-alimentos.json', 'content/articles/en/137-what-are-prebiotics-foods.json', 'content/articles/es/157-cocinar-verduras-destruye-vitaminas.json', 'content/articles/en/157-does-cooking-vegetables-destroy-vitamins.json', 'content/articles/es/706-azucares-totales-y-anadidos.json', 'content/articles/en/706-total-vs-added-sugars.json', 'content/articles/es/439-cuanto-dura-cebolla-cortada-nevera.json', 'content/articles/en/439-how-long-cut-onion-fridge.json', 'content/articles/es/788-zanahorias-capa-blanca.json', 'content/articles/en/788-white-film-on-carrots.json', 'content/articles/es/392-que-ocurre-aceite-empieza-echar-humo.json', 'content/articles/en/392-what-happens-when-oil-starts-smoking.json', 'content/articles/es/418-conservar-medio-aguacate-sin-oxidar.json', 'content/articles/en/418-how-to-store-half-avocado-prevent-browning.json', 'content/articles/es/521-espirulina-vs-algas-marinas-diferencias-nutricionales.json', 'content/articles/en/521-spirulina-vs-seaweed-nutrition-differences.json', 'content/articles/es/700-sirope-arce-o-miel.json', 'content/articles/en/700-maple-syrup-vs-honey.json', 'content/articles/es/701-agave-o-miel.json', 'content/articles/en/701-agave-vs-honey.json', 'content/articles/es/713-alimentos-modificados-geneticamente.json', 'content/articles/en/713-what-are-genetically-modified-foods.json', 'content/articles/es/534-arandanos-vs-fresas-fibra-azucar-micronutrientes.json', 'content/articles/en/534-blueberries-vs-strawberries-fiber-sugar-micronutrients.json', 'content/articles/es/219-caballa-proteina-omega3-valor-nutricional.json', 'content/articles/en/219-mackerel-protein-omega3-nutrition.json']
+          out = pathlib.Path('/tmp/q20-source')
+          out.mkdir(parents=True, exist_ok=True)
+          seen = set()
+          ids = [140, 577, 332, 698, 827, 316, 561, 137, 157, 706, 439, 788, 392, 418, 521, 700, 701, 713, 534, 219]
+          for pstr in paths:
+              p = pathlib.Path(pstr)
+              if not p.is_file():
+                  raise SystemExit(f'Missing source file: {pstr}')
+              data = json.loads(p.read_text(encoding='utf-8'))
+              aid = int(data.get('article_number', -1))
+              lang = data.get('language')
+              expected_lang = 'es' if '/es/' in pstr else 'en'
+              if aid not in ids or lang != expected_lang:
+                  raise SystemExit(f'Identity mismatch: {pstr}')
+              key=(aid,lang)
+              if key in seen:
+                  raise SystemExit(f'Duplicate version: {key}')
+              seen.add(key)
+              target = out / pstr
+              target.parent.mkdir(parents=True, exist_ok=True)
+              shutil.copy2(p, target)
+          expected={(aid,lang) for aid in ids for lang in ('es','en')}
+          if seen != expected:
+              raise SystemExit(f'Scope mismatch: {seen ^ expected}')
+          print('EXPORTED', len(seen))
+      - name: Upload exact sources
+        uses: actions/upload-artifact@v4
+        with:
+          name: priority20-source
+          path: /tmp/q20-source/content/articles
