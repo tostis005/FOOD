@@ -1,4 +1,4 @@
-name: Verify public ads.txt
+name: Verify public AdSense setup
 
 on:
   workflow_run:
@@ -34,4 +34,24 @@ jobs:
 
           echo "ERROR: https://www.quinnoa.com/ads.txt no devuelve el contenido esperado."
           printf 'Respuesta recibida: %s\n' "$BODY"
+          exit 1
+
+      - name: Verify Quinnoa AdSense head script
+        shell: bash
+        run: |
+          set -euo pipefail
+          EXPECTED='https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3168527008181132'
+
+          for attempt in 1 2 3 4 5; do
+            HTML="$(curl -fsSL --max-time 20 -H 'Cache-Control: no-cache' "https://www.quinnoa.com/?adsense-check=${GITHUB_RUN_ID}-${attempt}")" || HTML=''
+
+            if printf '%s' "$HTML" | grep -Fq "$EXPECTED"; then
+              echo "El script publico de AdSense esta presente en Quinnoa."
+              exit 0
+            fi
+
+            sleep 5
+          done
+
+          echo "ERROR: el HTML publico de Quinnoa no contiene el script esperado de AdSense."
           exit 1
