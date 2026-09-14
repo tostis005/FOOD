@@ -1,0 +1,37 @@
+name: Verify public ads.txt
+
+on:
+  workflow_run:
+    workflows:
+      - Deploy FOOD theme to WordPress
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  verify:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verify Quinnoa ads.txt
+        shell: bash
+        run: |
+          set -euo pipefail
+          EXPECTED='google.com, pub-3168527008181132, DIRECT, f08c47fec0942fa0'
+
+          for attempt in 1 2 3 4 5; do
+            BODY="$(curl -fsSL --max-time 20 -H 'Cache-Control: no-cache' "https://www.quinnoa.com/ads.txt?check=${GITHUB_RUN_ID}-${attempt}" | tr -d '\r')" || BODY=''
+            BODY="${BODY%$'\n'}"
+
+            if [ "$BODY" = "$EXPECTED" ]; then
+              echo "https://www.quinnoa.com/ads.txt responde correctamente."
+              exit 0
+            fi
+
+            sleep 5
+          done
+
+          echo "ERROR: https://www.quinnoa.com/ads.txt no devuelve el contenido esperado."
+          printf 'Respuesta recibida: %s\n' "$BODY"
+          exit 1
