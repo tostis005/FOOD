@@ -386,3 +386,15 @@ if ( file_exists( $food_sitemaps ) ) {
 	require_once $food_sitemaps;
 }
 
+/**
+ * Load the official AdSense site script from wp_head, following the same
+ * integration pattern used by Mercado de Origen.
+ */
+function food_adsense_output_head_code() {
+	if ( is_admin() || is_feed() || is_preview() ) {
+		return;
+	}
+
+	echo '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3168527008181132" crossorigin="anonymous"></script>' . "\n";
+}
+add_action( 'wp_head', 'food_adsense_output_head_code', 2 );
