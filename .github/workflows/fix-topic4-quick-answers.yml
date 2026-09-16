@@ -1,4 +1,4 @@
-name: Fix topic 4 quick answers
+name: Fix topic 4 quick-answer openings
 
 on:
   push:
@@ -22,206 +22,170 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Replace generic summaries with direct non-verbatim answers
+      - name: Inspect, restore metadata, and fix only opening labels
         shell: bash
         run: |
           python - <<'PY'
           import copy, html, json, pathlib, re, subprocess
 
+          BASE = 'a393de14969a9a4e4d35dd30e9618621dfa8bb5e'
           LOW, HIGH = 916, 1035
-          MAX_EXCERPT, MAX_META = 235, 160
+
+          def load(raw):
+              return json.loads(raw)
 
           def visible(s):
               return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', '', s))).strip()
 
-          def opening_answer(content):
-              p = re.search(r'<p\b[^>]*>(.*?)</p\s*>', content, re.I | re.S)
-              if p:
-                  inner = p.group(1)
-                  emph = re.search(r'<(?:strong|b)\b[^>]*>(.*?)</(?:strong|b)\s*>', inner, re.I | re.S)
-                  answer = visible(emph.group(1) if emph else inner)
-                  if answer:
-                      return answer
-              emph = re.search(r'<(?:strong|b)\b[^>]*>(.*?)</(?:strong|b)\s*>', content[:4000], re.I | re.S)
-              if emph and visible(emph.group(1)):
-                  return visible(emph.group(1))
-              raise ValueError('no usable opening answer found')
+          def first_paragraph(content):
+              m = re.search(r'<p\b[^>]*>(.*?)</p\s*>', content, re.I | re.S)
+              return visible(m.group(1)) if m else ''
 
-          def sentences(text):
-              return [x.strip() for x in re.split(r'(?<=[.!?])\s+', text) if x.strip()]
+          def base_raw(path):
+              return subprocess.check_output(['git', 'show', f'{BASE}:{path.as_posix()}'], text=True)
 
-          def lower_common_start(text, lang):
-              common = {
-                  'es': {'El','La','Los','Las','Un','Una','Unos','Unas','Es','Se','Esto','Eso','Este','Esta','Estos','Estas','También','En','Cuando','Si','Pero','Y'},
-                  'en': {'The','A','An','It','This','That','These','Those','They','There','Also','In','When','If','But','And'},
-              }[lang]
-              m = re.match(r'([A-ZÁÉÍÓÚÑ][A-Za-zÁÉÍÓÚÜÑáéíóúüñ’-]*)\b', text)
-              if m and m.group(1) in common:
-                  return m.group(1).lower() + text[m.end(1):]
-              return text
-
-          def trim(text, limit):
-              text = text.strip()
-              if len(text) <= limit:
-                  return text
-              cut = text[:limit - 1]
-              for sep in (' — ', '; ', ', ', ': ', ' '):
-                  pos = cut.rfind(sep)
-                  if pos >= max(60, limit // 2):
-                      cut = cut[:pos]
-                      break
-              return cut.rstrip(' ,;:—-') + '…'
-
-          def transform(answer, lang, number):
-              parts = sentences(answer)
-              first = parts[0] if parts else answer.strip()
-              if len(parts) >= 2:
-                  candidate = first + ' — ' + lower_common_start(parts[1], lang)
-              else:
-                  candidate = first
-
-              binary = [(r'^Sí,\s+', 'Sí: '), (r'^No,\s+', 'No: ')] if lang == 'es' else [(r'^Yes,\s+', 'Yes: '), (r'^No,\s+', 'No: ')]
-              changed = False
-              for pat, repl in binary:
-                  candidate2, n = re.subn(pat, repl, candidate, count=1, flags=re.I)
-                  if n:
-                      candidate, changed = candidate2, True
-                      break
-
-              if not changed and ' — ' not in candidate:
-                  connectors = (
-                      [(r'\s+porque\s+', ': '), (r',\s+pero\s+', '; pero '), (r'\s+cuando\s+', ' — cuando '), (r'\s+si\s+', ' — si ')]
-                      if lang == 'es' else
-                      [(r'\s+because\s+', ': '), (r',\s+but\s+', '; but '), (r'\s+when\s+', ' — when '), (r'\s+if\s+', ' — if ')]
-                  )
-                  for pat, repl in connectors:
-                      candidate2, n = re.subn(pat, repl, candidate, count=1, flags=re.I)
-                      if n:
-                          candidate, changed = candidate2, True
-                          break
-
-              if not changed and ' — ' not in candidate:
-                  leads = (
-                      ['En breve: ', 'La idea clave: ', 'En términos simples: ', 'Dicho directamente: ', 'En esencia: ', 'En resumen: ']
-                      if lang == 'es' else
-                      ['In short: ', 'The key point: ', 'Put simply: ', 'Directly: ', 'In essence: ', 'In summary: ']
-                  )
-                  lead = leads[number % len(leads)]
-                  candidate = lead + (candidate[0].lower() + candidate[1:] if candidate else candidate)
-
-              return trim(candidate, MAX_EXCERPT)
-
-          def ensure_nonverbatim(excerpt, body_plain, lang, number):
-              if excerpt.lower() not in body_plain:
-                  return excerpt
-              leads = (
-                  ['En corto: ', 'Punto clave: ', 'De forma directa: ', 'En la práctica: ', 'En pocas palabras: ', 'Idea central: ']
-                  if lang == 'es' else
-                  ['In short: ', 'Key point: ', 'Direct answer: ', 'In practice: ', 'In a nutshell: ', 'Core idea: ']
-              )
-              lead = leads[number % len(leads)]
-              base = excerpt[0].lower() + excerpt[1:] if excerpt else excerpt
-              fixed = trim(lead + base, MAX_EXCERPT)
-              if fixed.lower() in body_plain:
-                  raise ValueError('fallback excerpt is still duplicated verbatim in body')
-              return fixed
-
-          def replace_string(raw, key, value):
+          def replace_json_string(raw, key, value):
               pat = re.compile(r'("' + re.escape(key) + r'"\s*:\s*)"(?:\\.|[^"\\])*"')
               encoded = json.dumps(value, ensure_ascii=False)
               out, n = pat.subn(lambda m: m.group(1) + encoded, raw, count=1)
               if n != 1:
-                  raise ValueError(f'{key}: expected one JSON string, found {n}')
+                  raise ValueError(f'{key}: expected exactly one string, found {n}')
               return out
 
-          generic_es = re.compile(r'^\s*respuesta práctica\b', re.I)
-          generic_en = re.compile(r'^\s*(?:a\s+)?practical\s+(?:answer|guide)\b', re.I)
-          planned, errors = [], []
-          counts = {'es': 0, 'en': 0}
+          def target_paths():
+              found = []
+              for lang in ('es', 'en'):
+                  for p in pathlib.Path(f'content/articles/{lang}').glob('*.json'):
+                      obj = load(p.read_text(encoding='utf-8'))
+                      n = int(obj.get('article_number', -1))
+                      if LOW <= n <= HIGH:
+                          found.append((lang, n, p))
+              return sorted(found, key=lambda x: (x[0], x[1]))
 
+          all_json = []
           for lang in ('es', 'en'):
-              for path in sorted(pathlib.Path(f'content/articles/{lang}').rglob('*.json')):
-                  try:
-                      raw = path.read_text(encoding='utf-8')
-                      before = json.loads(raw)
-                      number = int(before.get('article_number', -1))
-                  except Exception as exc:
-                      errors.append(f'{path}: parse error: {exc}')
-                      continue
-                  if not LOW <= number <= HIGH:
-                      continue
-                  counts[lang] += 1
-                  try:
-                      content = before.get('content_html', '')
-                      if not content:
-                          raise ValueError('content_html missing')
-                      body_plain = visible(content).lower()
-                      excerpt = transform(opening_answer(content), lang, number)
-                      excerpt = ensure_nonverbatim(excerpt, body_plain, lang, number)
-                      meta = trim(excerpt, MAX_META)
-                      generic = generic_es if lang == 'es' else generic_en
-                      if generic.search(excerpt) or generic.search(meta):
-                          raise ValueError('generic practical-answer wording remains')
-                      if len(excerpt) > MAX_EXCERPT or len(meta) > MAX_META:
-                          raise ValueError('summary too long')
+              for p in pathlib.Path(f'content/articles/{lang}').glob('*.json'):
+                  obj = load(base_raw(p) if int(load(p.read_text(encoding='utf-8')).get('article_number', -1)) in (913,914,915) else p.read_text(encoding='utf-8'))
+                  all_json.append((lang, int(obj.get('article_number', -1)), p))
 
-                      updated = replace_string(raw, 'excerpt', excerpt)
-                      updated = replace_string(updated, 'meta_description', meta)
-                      after = json.loads(updated)
-                      expected = copy.deepcopy(before)
-                      expected['excerpt'] = excerpt
-                      expected.setdefault('seo', {})['meta_description'] = meta
-                      if after != expected:
-                          raise ValueError('fields beyond excerpt/meta_description changed')
-                      if excerpt.lower() in body_plain:
-                          raise ValueError('excerpt duplicated verbatim in body')
-                      if updated == raw:
-                          raise ValueError('expected summary change but file is unchanged')
-                      planned.append((path, updated, number))
-                  except Exception as exc:
-                      errors.append(f'{path} [article {number}]: {exc}')
+          print('=== PRE-WRITE INSPECTION ===')
+          samples = {913,914,915,916,917,975,1016,1035}
+          for lang, n, p in sorted(all_json, key=lambda x:(x[1],x[0])):
+              if n in samples:
+                  raw = base_raw(p) if n <= 1035 else p.read_text(encoding='utf-8')
+                  obj = load(raw)
+                  print(f'{lang.upper()} {n} {p}: {first_paragraph(obj.get("content_html", ""))[:320]}')
 
+          targets = target_paths()
+          counts = {'es': 0, 'en': 0}
+          for lang, _, _ in targets:
+              counts[lang] += 1
           if counts != {'es': 120, 'en': 120}:
-              errors.append(f'unexpected counts: {counts}')
-          if errors:
-              print('VALIDATION ERRORS BEFORE WRITE:')
-              for e in errors:
-                  print(' -', e)
-              raise SystemExit(1)
+              raise SystemExit(f'Unexpected target counts: {counts}')
 
-          for path, updated, _ in planned:
-              path.write_text(updated, encoding='utf-8')
+          prefix_patterns = {
+              'es': re.compile(r'(<p\b[^>]*>\s*(?:(?:<strong|b)\b[^>]*>\s*)?)(?:respuesta\s+práctica|respuesta\s+rápida)\s*:?\s*', re.I),
+              'en': re.compile(r'(<p\b[^>]*>\s*(?:(?:<strong|b)\b[^>]*>\s*)?)(?:(?:a\s+)?practical\s+(?:answer|guide)|quick\s+answer)\s*:?\s*', re.I),
+          }
+          generic_visible = {
+              'es': re.compile(r'^\s*(?:respuesta\s+práctica|respuesta\s+rápida)\b', re.I),
+              'en': re.compile(r'^\s*(?:(?:a\s+)?practical\s+(?:answer|guide)|quick\s+answer)\b', re.I),
+          }
 
+          fixed = {'es': 0, 'en': 0}
+          changed_paths = []
+          for lang, n, p in targets:
+              before_raw = p.read_text(encoding='utf-8')
+              before = load(before_raw)
+              original_raw = base_raw(p)
+              original = load(original_raw)
+
+              # The previous faulty automation touched excerpt/meta_description.
+              # Start from the confirmed pre-correction file so those fields and
+              # every other forbidden field are restored byte-for-byte.
+              desired_raw = original_raw
+              content = original.get('content_html', '')
+              if not isinstance(content, str) or not content:
+                  raise ValueError(f'{p}: missing content_html')
+
+              new_content, hit = prefix_patterns[lang].subn(r'\1', content, count=1)
+              if hit:
+                  fixed[lang] += 1
+                  desired_raw = replace_json_string(desired_raw, 'content_html', new_content)
+
+              desired = load(desired_raw)
+              expected = copy.deepcopy(original)
+              expected['content_html'] = new_content
+              if desired != expected:
+                  raise ValueError(f'{p}: parsed delta is not limited to content_html versus {BASE}')
+
+              if generic_visible[lang].search(first_paragraph(new_content)):
+                  raise ValueError(f'{p}: generic quick-answer label remains in opening paragraph')
+
+              # Every field except content_html must equal the confirmed base exactly.
+              check = copy.deepcopy(desired)
+              base_check = copy.deepcopy(original)
+              check.pop('content_html', None)
+              base_check.pop('content_html', None)
+              if check != base_check:
+                  raise ValueError(f'{p}: forbidden field differs from base')
+
+              if desired_raw != before_raw:
+                  p.write_text(desired_raw, encoding='utf-8')
+                  changed_paths.append(p.as_posix())
+
+          print(f'PREFIX_FIXES_ES={fixed["es"]}')
+          print(f'PREFIX_FIXES_EN={fixed["en"]}')
+          print(f'TARGET_JSON_ES={counts["es"]}')
+          print(f'TARGET_JSON_EN={counts["en"]}')
+
+          # Scope validation on the resulting working tree.
           changed = subprocess.check_output(['git', 'diff', '--name-only'], text=True).splitlines()
-          problems = []
-          if len(changed) != 240:
-              problems.append(f'expected 240 changed JSON files, got {len(changed)}')
-          for filename in changed:
-              if not filename.startswith(('content/articles/es/', 'content/articles/en/')):
-                  problems.append(f'unexpected changed file: {filename}')
-                  continue
-              obj = json.loads(pathlib.Path(filename).read_text(encoding='utf-8'))
-              number = int(obj['article_number'])
-              if not LOW <= number <= HIGH:
-                  problems.append(f'out-of-range article changed: {number} ({filename})')
-          if problems:
-              for p in problems:
-                  print(' -', p)
-              raise SystemExit(1)
+          article_changed = [x for x in changed if x.startswith(('content/articles/es/', 'content/articles/en/'))]
+          for filename in article_changed:
+              obj = load(pathlib.Path(filename).read_text(encoding='utf-8'))
+              n = int(obj['article_number'])
+              if not LOW <= n <= HIGH:
+                  raise ValueError(f'Out-of-scope article changed: {n} {filename}')
+          print(f'ARTICLE_JSON_CHANGED={len(article_changed)}')
 
-          print('TARGET_COUNTS ES=120 EN=120')
-          print('CHANGED_JSON=240')
-          print('SCOPE=excerpt+seo.meta_description only, article_number 916-1035')
+          # Compare every target to the confirmed base: only content_html may differ.
+          body_diffs = 0
+          for lang, n, p in targets:
+              cur = load(p.read_text(encoding='utf-8'))
+              old = load(base_raw(p))
+              if cur.get('content_html') != old.get('content_html'):
+                  body_diffs += 1
+              cur2, old2 = copy.deepcopy(cur), copy.deepcopy(old)
+              cur2.pop('content_html', None); old2.pop('content_html', None)
+              if cur2 != old2:
+                  raise ValueError(f'Metadata/non-body drift remains in article {n} {lang}')
+          print(f'CONTENT_HTML_DIFFS_VS_BASE={body_diffs}')
+          print('SCOPE_CHECK=PASS')
+          PY
+
+      - name: Validate all JSON
+        run: |
+          python3 - <<'PY'
+          import json
+          from pathlib import Path
+          for p in Path('content/articles').glob('*/*.json'):
+              json.loads(p.read_text(encoding='utf-8'))
+          print('JSON_OK=1')
           PY
 
       - name: Run editorial audit
-        run: python content/tools/audit-article-editorial.py
+        run: python3 content/tools/audit-article-editorial.py
 
-      - name: Commit corrected JSON files
+      - name: Run comparison audit
+        run: python3 content/tools/audit-article-comparisons.py content/articles
+
+      - name: Commit validated correction and remove temporary workflow
         shell: bash
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git rm .github/workflows/fix-topic4-quick-answers.yml
           git add content/articles/es content/articles/en
-          git commit -m "Fix quick answers in articles 916-1035"
+          git commit -m "Correct quick-answer openings in articles 916-1035"
           git push origin HEAD:fix-topic4-quick-answers-916-1035
