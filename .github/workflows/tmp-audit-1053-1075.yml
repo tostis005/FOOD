@@ -1,4 +1,4 @@
-name: Temp audit 1053-1075
+name: Temp fix 1053-1075
 
 on:
   push:
@@ -6,37 +6,28 @@ on:
       - tmp-audit-1053-1075
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
-  audit:
+  fix:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Report target article lengths
+        with:
+          fetch-depth: 0
+      - name: Expand only short target versions
+        run: python3 content/tools/temp_raise_1053_1075.py
+      - name: Run strict editorial audit
+        run: python3 content/tools/audit-article-editorial.py content/articles --strict-quality
+      - name: Commit article corrections
         shell: bash
         run: |
-          python3 - <<'PY'
-          import html, json, re
-          from pathlib import Path
-
-          target = {1053,1062,1064,1065,1067,1068,1069,1070,1071,1072,1073,1074,1075}
-
-          def visible_text(content_html):
-              text = re.sub(r'(?is)<(?:script|style)\b[^>]*>.*?</(?:script|style)>', ' ', content_html)
-              text = re.sub(r'<[^>]+>', ' ', text)
-              text = html.unescape(text)
-              return re.sub(r'\s+', ' ', text).strip()
-
-          def wc(text):
-              return len(re.findall(r"\b[^\W_]+(?:['’\-][^\W_]+)*\b", text, flags=re.UNICODE))
-
-          for lang in ('es','en'):
-              for path in sorted(Path('content/articles',lang).glob('*.json')):
-                  data = json.loads(path.read_text(encoding='utf-8'))
-                  num = int(data.get('article_number',0) or 0)
-                  if num not in target:
-                      continue
-                  content = str(data.get('content_html',''))
-                  print('TARGET', lang, num, 'words='+str(wc(visible_text(content))), 'h2='+str(len(re.findall(r'<h2\b', content, flags=re.I))), 'path='+path.as_posix(), 'title='+str(data.get('title','')), sep='|')
-          PY
+          if git diff --quiet -- content/articles; then
+            echo "No article changes required"
+            exit 0
+          fi
+          git config user.name "tostis005"
+          git config user.email "tostis005@gmail.com"
+          git add content/articles/es content/articles/en
+          git commit -m "Raise remaining articles to editorial floor"
+          git push origin HEAD:tmp-audit-1053-1075
