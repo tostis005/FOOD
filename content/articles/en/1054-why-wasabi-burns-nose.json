@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1054-why-wasabi-burns-nose",
+  "article_number": 1054,
+  "translation_group": "1054-why-wasabi-burns-nose",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; wasabi pungency explained through isothiocyanates, volatility and trigeminal sensation.",
+  "title": "Why Wasabi Burns Your Nose More Than Your Tongue",
+  "slug": "why-wasabi-burns-nose",
+  "seo": {
+    "title": "Why Wasabi Burns Your Nose More Than Your Tongue",
+    "meta_description": "Wasabi releases volatile isothiocyanates, especially allyl isothiocyanate. Their vapors reach the nasal cavity and activate TRPA1 sensory nerves, causing the sharp nose burn.",
+    "search_intent": "Understand why wasabi produces a fast nasal sting rather than the long mouth burn typical of chile peppers."
+  },
+  "excerpt": "Wasabi's sharp rush comes mainly from volatile isothiocyanates such as allyl isothiocyanate. These molecules readily enter the vapor phase, travel from the mouth into the nasal cavity and activate irritant-sensitive TRPA1 channels on trigeminal nerves.",
+  "taxonomy": {
+    "food_family": "condiments",
+    "food_subcategories": ["wasabi","allyl-isothiocyanate","TRPA1"],
+    "article_types": ["food-science","sensory-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Wasabi hits the nose because its pungency comes largely from volatile isothiocyanates that can travel as vapors from the mouth into the nasal passages.</strong> Allyl isothiocyanate is a major contributor. It activates TRPA1, an irritant-sensing ion channel on sensory nerves, producing the piercing, eye-watering sensation associated with wasabi and mustard oils.</p><p>Chile pepper works differently. Capsaicin is much less volatile and tends to remain on oral surfaces, where it activates TRPV1 and produces a longer heat-like burn. Wasabi's molecules are better at reaching the nose, so the experience feels higher, sharper and shorter.</p><h2>Grating wasabi starts a chemical defense reaction</h2><p>Intact wasabi tissue stores glucosinolates separately from enzymes that can break them down. When the rhizome is grated or crushed, cells rupture and those components mix. The enzyme myrosinase converts glucosinolates into pungent isothiocyanates.</p><p>This plant defense system is common in the mustard family. Keeping precursor and enzyme apart prevents the plant from continuously bathing itself in reactive compounds. Damage from chewing, grating or an insect attack triggers production exactly when a deterrent is useful.</p><p>Freshly grated wasabi therefore develops its pungency after physical disruption. The aroma also fades with time because the most important compounds are volatile and chemically reactive. That is one reason fresh wasabi is traditionally grated shortly before serving.</p><h2>Allyl isothiocyanate activates the irritant sensor TRPA1</h2><p>TRPA1 is expressed by pain-sensing sensory neurons and responds to a range of reactive irritants. Experimental work identified allyl isothiocyanate—the classic mustard-oil compound found in wasabi and horseradish—as a potent TRPA1 activator. Opening the channel excites the nerve and produces a burning or stinging signal.</p><p>The sensation is part of the trigeminal chemical-sense system rather than ordinary smell alone. You can "feel" wasabi in the nose even though aroma molecules are present at the same time. Trigeminal nerves report irritation, cooling, burning and tingling from chemicals that contact mucous membranes.</p><p>Because the compound can stimulate mouth, throat, eyes and nose, saying wasabi only affects the nose is too simple. The nasal hit is simply unusually prominent because the active molecules reach that area so efficiently.</p><h2>Volatility explains why the sting shoots upward and fades relatively fast</h2><p>Allyl isothiocyanate is volatile compared with capsaicin. Warmth in the mouth encourages it to enter the gas phase. As you chew and swallow, vapors can move retronasally through the passage connecting the back of the mouth and nasal cavity. There they contact a large, sensitive mucosal surface supplied by trigeminal nerve endings.</p><p>This route produces the characteristic feeling that pungency suddenly "goes up the nose." Exhaling through the nose immediately after a large bite can make the effect more obvious because air carries volatile molecules through the nasal cavity.</p><p>The same volatility helps explain why wasabi burn often disappears faster than chile burn. Vapors are exhaled and diluted quickly, whereas oily capsaicin remains associated with oral surfaces. The sensations are both chemical irritation but with different transport and receptors.</p><h2>How serving and storage change wasabi pungency</h2><p>Freshly grated wasabi is most aromatic soon after preparation. Leaving it exposed allows volatile isothiocyanates to escape and reactive compounds to break down, softening the nasal intensity. Prepared pastes use different formulas and may contain horseradish, mustard and coloring, so their exact pungency profile can differ from fresh Wasabia japonica.</p><p>Mixing wasabi into a larger amount of sauce lowers the concentration reaching any one patch of tissue. Eating a very large lump delivers a sudden concentrated dose and predictably increases the nasal rush. There is no culinary advantage in testing how much irritation you can tolerate.</p><p><strong>Wasabi's nose burn is therefore a combination of chemistry and anatomy:</strong> plant damage creates volatile isothiocyanates, those molecules move through the airways, and TRPA1-rich trigeminal nerves detect them as a sharp irritant. Chile feels different because capsaicin stays in the mouth longer and activates a different heat-sensitive pathway.</p>",
+  "faq": [
+    {"question":"Why does wasabi burn the nose instead of only the tongue?","answer":"Its pungent isothiocyanates are volatile, so vapors travel from the mouth into the nasal cavity and stimulate trigeminal sensory nerves there."},
+    {"question":"What chemical causes the wasabi burn?","answer":"Several isothiocyanates contribute, with allyl isothiocyanate an important pungent compound and strong activator of TRPA1."},
+    {"question":"Why does wasabi burn fade faster than chile heat?","answer":"Isothiocyanates are more volatile and are exhaled or diluted relatively quickly; capsaicin is oily, poorly water-soluble and remains on oral surfaces longer."}
+  ],
+  "sources": [
+    {"name":"Journal of Agricultural and Food Chemistry — Wasabi, horseradish and mustard pungency","url":"https://pubmed.ncbi.nlm.nih.gov/26263397/","note":"Compares pungent compounds from wasabi, horseradish and mustard and their activation of TRPA1."},
+    {"name":"Neuron — TRP channel activation by reactive pungent compounds","url":"https://pubmed.ncbi.nlm.nih.gov/17164327/","note":"Shows allyl isothiocyanate, the pungent principle of mustard oils and wasabi-like foods, activates TRPA1 on sensory neurons."}
+  ],
+  "image": {
+    "concept": "Freshly grated wasabi beside a small mound on sushi with a subtle vapor path rising toward a profile of the nose, scientific editorial style, no text.",
+    "alt": "Wasabi and volatile pungent compounds reaching the nose"
+  },
+  "status": "publish"
+}

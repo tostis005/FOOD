@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1042-why-red-onion-turns-blue-green",
+  "article_number": 1042,
+  "translation_group": "1042-why-red-onion-turns-blue-green",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; onion pigment chemistry and normal color changes explained for home cooks.",
+  "title": "Why Red Onion Can Turn Blue or Green When Cooked",
+  "slug": "why-red-onion-turns-blue-green",
+  "seo": {
+    "title": "Why Red Onion Turns Blue or Green When Cooked",
+    "meta_description": "Red onion can turn blue or green when its anthocyanin pigments encounter a less acidic or alkaline environment. The color shift is usually harmless chemistry.",
+    "search_intent": "Understand why red onion changes to blue or green in cooking, whether it is safe, and how to prevent or reverse the color."
+  },
+  "excerpt": "The red-purple pigments in red onion are anthocyanins, and anthocyanins are sensitive to pH. When cooking conditions become less acidic or alkaline, those pigments can shift toward blue and blue-green even though the onion is still edible.",
+  "taxonomy": {
+    "food_family": "vegetables",
+    "food_subcategories": ["red-onion","anthocyanins","color"],
+    "article_types": ["food-science","food-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Red onion can turn blue or green when cooking changes the pH around its anthocyanin pigments.</strong> Those are the same broad family of water-soluble pigments responsible for red, purple and blue colors in many plants. In acidic conditions they favor reddish forms; as the environment becomes less acidic, the balance can move toward purple, blue and sometimes greenish shades.</p><p>The effect is startling because people associate blue-green color with spoilage, but an immediate, uniform color change during cooking is usually ordinary pigment chemistry. A little acidity often shifts the onion back toward pink or purple.</p><h2>The color lives mainly in anthocyanin-rich outer cell layers</h2><p>Red onions concentrate much of their anthocyanin pigment in the epidermal and outer flesh layers. Microscopy studies show these pigments stored inside cellular vacuoles, where the natural environment is mildly acidic. That acidity helps maintain the familiar red-purple appearance of a raw onion.</p><p>Cutting damages cells, and cooking makes membranes increasingly permeable. Pigment can move out of its original compartment and encounter the pH of the pan, sauce or cooking water. At that point the anthocyanin no longer experiences exactly the chemistry it had inside a living onion cell.</p><p>The molecules change between several structural forms depending on pH. That structural shift changes which wavelengths of visible light they absorb. Nothing needs to be added as a blue dye: the original pigment itself can look blue under different chemical conditions.</p><h2>Alkaline ingredients make the blue-green shift much more likely</h2><p>Baking soda is the classic trigger. A small amount raises pH strongly enough to make red onion pigments move toward blue, and under more alkaline conditions the color can look greenish or gray-green. This can happen in recipes where bicarbonate is added to beans, chickpeas or vegetables and onion cooks in the same liquid.</p><p>Alkaline noodles, some mineral-rich waters and residues of alkaline cleaners are other possible contributors, although ordinary cookware is rarely the main explanation. The effect can also appear when red onion sits in an egg mixture or another food whose pH is higher than the onion's own cellular environment.</p><p>Acid pushes in the other direction. Vinegar, citrus juice, tomato or wine usually keeps red onion pink, magenta or purple. Pickled red onion is an extreme example: acid creates the bright fuchsia color that makes the slices look even redder than they did raw.</p><h2>Heat can make the color change easier to see</h2><p>Cooking does not simply raise pH; it breaks cell structures and distributes pigment through the dish. A few blue molecules hidden inside intact tissue are hard to notice, while pigment released into a pale sauce or onto a white egg is visually dramatic. Heat also gradually degrades anthocyanins, so prolonged cooking may turn the color duller or browner after the first blue-purple shift.</p><p>This is why a red onion in a quick acidic pickle stays brilliant while the same onion simmered for a long time in an alkaline mixture may look muddy. Time, temperature, oxygen and pH all act together.</p><p>If color matters, use moderate cooking time and avoid unnecessary bicarbonate. If a recipe genuinely needs an alkaline ingredient for another reason, adding the onion later or keeping it in an acidic component can reduce the visual change.</p><h2>How to tell a harmless color reaction from spoilage</h2><p>A pH reaction usually happens rapidly and follows the onion tissue or surrounding liquid evenly. It may appear exactly where onion touched an alkaline ingredient. Adding a little lemon juice or vinegar can often move the color back toward purple, which is a strong clue that anthocyanins are responsible.</p><p>Spoilage looks and smells different. Mold has a fuzzy or patchy growth pattern; rotten onion may be slimy, soft, fermented-smelling or wet with decay. Those signs matter regardless of whether the onion is red, blue or purple.</p><p><strong>So a blue or green cooked red onion is normally not a warning that the onion became poisonous.</strong> It is the visible response of anthocyanins to their new chemical environment. Keep the dish acidic if you want the familiar red-purple color, and judge freshness by actual spoilage signs rather than by a pH-driven hue alone.</p>",
+  "faq": [
+    {"question":"Is a red onion that turned blue safe to eat?","answer":"Usually yes if the color changed during cooking because of pH and there are no spoilage signs such as mold, slime or bad odor."},
+    {"question":"What ingredient most commonly turns red onion blue?","answer":"Baking soda is a strong trigger because it raises pH. Other alkaline ingredients can produce the same effect."},
+    {"question":"How can I turn blue onion purple again?","answer":"Adding an acid such as lemon juice or vinegar often shifts anthocyanin pigments back toward purple or pink."}
+  ],
+  "sources": [
+    {"name":"Plant Methods — Anthocyanin in red onion epidermal cells","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6963288/","note":"Documents anthocyanins in red onion vacuoles and discusses their well-known pH-dependent color behavior."},
+    {"name":"Journal of Chemical Education — Natural anthocyanins as pH indicators","url":"https://pubs.acs.org/doi/10.1021/ed072p1131","note":"Demonstrates the reversible color shifts of plant anthocyanins under acidic, neutral and alkaline conditions."}
+  ],
+  "image": {
+    "concept": "Red onion slices in a pan showing normal purple areas beside blue-green areas after alkaline exposure, clean editorial photography, no text.",
+    "alt": "Red onion turning blue-green during cooking"
+  },
+  "status": "publish"
+}

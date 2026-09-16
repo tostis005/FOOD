@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1053-por-que-menta-hace-sentir-frio",
+  "article_number": 1053,
+  "translation_group": "1053-why-mint-feels-cold",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; fisiología sensorial del mentol explicada como percepción y no como enfriamiento físico real.",
+  "title": "Por qué la menta hace que la boca sienta frío aunque no baje la temperatura",
+  "slug": "por-que-menta-hace-sentir-frio",
+  "seo": {
+    "title": "Por qué la menta hace sentir frío en la boca",
+    "meta_description": "El mentol activa TRPM8, un canal sensorial que normalmente responde al frío. Los nervios envían una señal de enfriamiento aunque la menta no haya bajado la temperatura.",
+    "search_intent": "Entender por qué menta y mentol producen sensación fría sin enfriar físicamente la boca."
+  },
+  "excerpt": "La menta parece fría porque el mentol activa TRPM8, uno de los principales detectores moleculares de enfriamiento suave del sistema nervioso. El receptor envía una señal de frío aunque la temperatura apenas cambie.",
+  "taxonomy": {
+    "food_family": "herbs",
+    "food_subcategories": ["mint","menthol","TRPM8"],
+    "article_types": ["food-science","sensory-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>La menta hace sentir frío porque el mentol activa un canal sensorial llamado TRPM8, que normalmente responde cuando la temperatura de los tejidos disminuye.</strong> Esa misma vía nerviosa puede activarse por dos caminos: enfriamiento real o una molécula que actúa directamente sobre el receptor. El cerebro recibe una señal familiar de «frío» aunque el caramelo o la hoja estén a temperatura ambiente.</p><p>Es un efecto perceptivo, no una refrigeración. La menta no necesita extraer una cantidad importante de calor de la lengua; modifica lo que los nervios térmicos comunican.</p><h2>TRPM8 es uno de los principales sensores del frío suave</h2><p>TRPM8 es un canal iónico sensible a temperatura que aparece en una población de neuronas sensoriales. Los experimentos mostraron que tanto el enfriamiento como el mentol pueden abrirlo. Cuando esto ocurre, pasan iones a través de la membrana de la neurona y se genera actividad eléctrica que viaja hacia médula y cerebro.</p><p>Los estudios en animales sin TRPM8 encontraron grandes déficits para detectar temperaturas frescas, lo que respalda su papel central. No es necesariamente el único detector de frío extremo, pero sí una vía principal para el rango de enfriamiento cotidiano.</p><p>Por eso el mentol se describe como agonista químico del receptor de frío. No imita al hielo bajando primero la temperatura; actúa sobre el propio sensor molecular.</p><h2>El frío real y el mentol pueden reforzarse entre sí</h2><p>TRPM8 responde tanto a temperatura como a mentol, de modo que ambos estímulos se suman. Después de un caramelo de menta, inspirar aire fresco suele sentirse mucho más frío. Beber agua fresca produce la misma impresión aumentada.</p><p>La boca es especialmente sensible porque tiene mucha inervación y está continuamente expuesta a aire, saliva y bebidas. El mentol permanece durante un tiempo asociado a tejidos orales, así que cada estímulo frío puede reforzar la actividad hasta que el compuesto se diluye y se elimina.</p><p>Esto explica una experiencia cotidiana: después de cepillarse con pasta de menta, agua que normalmente parecería templada puede sentirse casi helada. Lo que cambió no fue el grifo, sino la señal sensorial.</p><h2>La sensación de frescor modifica la experiencia del alimento sin cambiar su temperatura</h2><p>La industria alimentaria utiliza mentol y compuestos de enfriamiento porque la sensación afecta a la percepción global. Puede hacer que una bebida parezca más refrescante, aligerar una sensación grasa o interactuar con dulzor, acidez y picor. El aroma de menta además refuerza la expectativa de frescor.</p><p>El mentol también puede hacer que garganta o boca se sientan calmadas, aunque eso no significa que haya enfriado físicamente el tejido varios grados ni que neutralice cualquier irritante. Es una modificación de la entrada sensorial.</p><p>La intensidad depende de la concentración y de la persona. Una dosis moderada es fresca; una dosis alta puede sentirse punzante, entumecedora o incluso dolorosa. Estos receptores participan tanto en sensaciones agradables como en vías de protección.</p><h2>El frío aparente desaparece cuando disminuye el mentol y el sistema se adapta</h2><p>Saliva y deglución van retirando el mentol. La actividad del receptor disminuye y el sistema nervioso se adapta. La sensación se desvanece sin que la boca tenga que «volver a calentarse» desde una temperatura realmente baja.</p><p>El fenómeno es el espejo sensorial de la capsaicina. El chile activa TRPV1, asociado al calor, mientras el mentol activa TRPM8, asociado al frío. Ambos demuestran que una molécula de un alimento puede engañar de forma predecible a los sensores térmicos sin cambiar mucho el termómetro.</p><p><strong>En términos simples, la menta pulsa el botón de «fresco» del sistema nervioso.</strong> El mentol activa TRPM8, los nervios envían una señal parecida a la de un descenso de temperatura y el cerebro construye la sensación. Por eso un caramelo a temperatura ambiente parece frío y el agua fresca se siente todavía más fría justo después.</p>",
+  "faq": [
+    {"question":"¿La menta baja realmente la temperatura de la boca?","answer":"No lo suficiente para explicar el efecto. El mentol activa la vía TRPM8, así que los nervios señalan enfriamiento con muy poco cambio térmico real."},
+    {"question":"¿Por qué el agua parece más fría después de lavarse los dientes?","answer":"El mentol ha activado la vía sensorial de TRPM8, por lo que un estímulo frío real genera una señal más intensa de lo habitual."},
+    {"question":"¿Es parecido al picor del chile?","answer":"Sí como principio sensorial, pero con receptores distintos: mentol activa TRPM8 de frío y capsaicina activa TRPV1 de calor."}
+  ],
+  "sources": [
+    {"name":"Nature — The menthol receptor TRPM8 is the principal detector of environmental cold","url":"https://pubmed.ncbi.nlm.nih.gov/17538622/","note":"Demuestra un papel predominante de TRPM8 en detección de frío y confirma su activación por mentol."},
+    {"name":"Cell — A TRP channel that senses cold stimuli and menthol","url":"https://pubmed.ncbi.nlm.nih.gov/11893340/","note":"Identificación fundamental de TRPM8 como canal sensorial activado por frío y mentol."}
+  ],
+  "image": {
+    "concept": "Hojas de menta fresca y un caramelo de menta junto a un vaso de agua a temperatura ambiente con una metáfora visual sutil de frescor, sin texto.",
+    "alt": "Menta ilustrando la sensación de frío creada por el mentol"
+  },
+  "status": "publish"
+}

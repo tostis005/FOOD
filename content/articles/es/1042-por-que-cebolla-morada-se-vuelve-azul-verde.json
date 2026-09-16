@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1042-por-que-cebolla-morada-se-vuelve-azul-verde",
+  "article_number": 1042,
+  "translation_group": "1042-why-red-onion-turns-blue-green",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; química de pigmentos de cebolla y cambios normales de color explicados para cocina doméstica.",
+  "title": "Por qué la cebolla morada puede volverse azul o verde al cocinarla",
+  "slug": "por-que-cebolla-morada-se-vuelve-azul-verde",
+  "seo": {
+    "title": "Por qué la cebolla morada se vuelve azul o verde",
+    "meta_description": "Las antocianinas de la cebolla morada cambian con el pH. En un medio menos ácido o alcalino pueden pasar de rojo-morado a azul o verde azulado.",
+    "search_intent": "Entender por qué la cebolla morada cambia a azul o verde al cocinar, si es segura y cómo evitar o revertir el color."
+  },
+  "excerpt": "La cebolla morada debe su color a antocianinas sensibles al pH. Cuando salen de sus células y encuentran un medio menos ácido o alcalino, esas mismas moléculas pueden verse azules o verde azuladas.",
+  "taxonomy": {
+    "food_family": "vegetables",
+    "food_subcategories": ["red-onion","anthocyanins","color"],
+    "article_types": ["food-science","food-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>La cebolla morada puede volverse azul o verde porque sus antocianinas cambian de estructura cuando cambia el pH del entorno.</strong> Estos pigmentos vegetales son rojizos en condiciones ácidas y pueden desplazarse hacia morado, azul e incluso verde azulado a medida que el medio se vuelve menos ácido o alcalino.</p><p>El resultado sorprende porque asociamos tonos azul-verdes con moho, pero un cambio uniforme que aparece justo al cocinar suele ser química normal. Una pequeña cantidad de ácido puede devolver el color hacia rosa o morado.</p><h2>Las antocianinas se concentran en las capas coloreadas de la cebolla</h2><p>Buena parte del pigmento de la cebolla morada está en las capas epidérmicas y exteriores. Los estudios microscópicos muestran las antocianinas almacenadas en vacuolas celulares, pequeños compartimentos donde el ambiente es naturalmente algo ácido. Esa acidez contribuye a mantener el tono rojo-púrpura de una cebolla fresca.</p><p>Al cortar rompemos células y, con el calor, las membranas pierden integridad. El pigmento puede salir de su compartimento original y mezclarse con el agua, la salsa o los jugos del plato. En ese momento deja de estar protegido por la química interna de la célula y responde al pH general de la receta.</p><p>La misma molécula de antocianina adopta varias formas químicas según el pH. Cada una absorbe la luz de manera distinta. No aparece un colorante azul nuevo: es el pigmento morado original mostrando otra cara.</p><h2>El bicarbonato y otros medios alcalinos favorecen especialmente el azul</h2><p>El bicarbonato es el ejemplo más claro. Una cantidad pequeña eleva el pH y puede hacer que la cebolla pase a azul; con una alcalinidad mayor, el tono puede parecer verde o gris verdoso. Esto ocurre, por ejemplo, cuando se añade bicarbonato a legumbres y la cebolla se cocina en el mismo líquido.</p><p>También pueden influir ciertos fideos alcalinos, aguas con mucha alcalinidad u otras preparaciones con pH relativamente alto. No suele ser necesario culpar a la sartén metálica: la explicación del pH es mucho más frecuente.</p><p>El ácido produce el efecto contrario. Vinagre, limón, tomate o vino desplazan las antocianinas hacia rojo y magenta. La cebolla encurtida demuestra el fenómeno a la perfección: el vinagre intensifica un rosa fucsia que puede ser más vivo que el color original.</p><h2>El calor libera pigmento y hace el cambio mucho más visible</h2><p>Calentar no solo modifica la textura. También rompe la organización celular y reparte el pigmento por el plato. Una pequeña cantidad de antocianina azul encerrada en tejido intacto se nota poco; el mismo pigmento liberado sobre huevo, arroz o una salsa clara llama inmediatamente la atención.</p><p>Si la cocción continúa, las antocianinas también pueden degradarse y el color terminar más apagado o marrón. Por eso una cebolla en un encurtido frío y ácido conserva un tono brillante, mientras la misma cebolla cocida mucho tiempo en una mezcla alcalina puede acabar azul-grisácea.</p><p>Si quieres conservar el morado, evita bicarbonato innecesario, añade algún componente ácido y no prolongues el calor más de lo que pide la receta. Cuando un ingrediente alcalino es esencial por otro motivo, incorporar la cebolla más tarde reduce el tiempo de exposición.</p><h2>Cómo distinguir un viraje de pH de una cebolla estropeada</h2><p>La reacción de las antocianinas aparece rápido y suele seguir el tejido o el líquido de forma bastante uniforme. Si añades unas gotas de limón o vinagre y el azul vuelve hacia morado, tienes además una pista muy fuerte de que se trata del pigmento.</p><p>El deterioro real ofrece señales distintas: moho con aspecto de crecimiento, textura babosa, zonas blandas de podredumbre, olor fermentado o desagradable. Esos signos importan con independencia del color.</p><p><strong>Una cebolla morada que se vuelve azul al cocinar no se ha convertido automáticamente en algo peligroso.</strong> Lo más probable es que sus antocianinas estén respondiendo al pH. Usa acidez si quieres mantener el tono rojo-morado y decide la frescura por olor, textura y presencia de deterioro, no por este cambio químico aislado.</p>",
+  "faq": [
+    {"question":"¿Es segura una cebolla morada que se ha puesto azul?","answer":"Normalmente sí si el color apareció durante la cocción por el pH y no hay moho, baba, podredumbre ni mal olor."},
+    {"question":"¿Qué ingrediente la vuelve azul con más facilidad?","answer":"El bicarbonato es un desencadenante muy común porque sube el pH con rapidez."},
+    {"question":"¿Cómo recupero el color morado?","answer":"Añadir limón, vinagre u otro ácido suele desplazar las antocianinas de nuevo hacia rosa o morado."}
+  ],
+  "sources": [
+    {"name":"Plant Methods — Anthocyanin in red onion epidermal cells","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6963288/","note":"Documenta antocianinas en vacuolas de cebolla morada y su conocido comportamiento dependiente del pH."},
+    {"name":"Journal of Chemical Education — Natural anthocyanins as pH indicators","url":"https://pubs.acs.org/doi/10.1021/ed072p1131","note":"Demuestra los cambios reversibles de color de antocianinas vegetales en medios ácidos, neutros y alcalinos."}
+  ],
+  "image": {
+    "concept": "Rodajas de cebolla morada en una sartén con zonas púrpuras normales y otras azul-verdosas tras contacto con un medio alcalino, sin texto.",
+    "alt": "Cebolla morada cambiando a azul verdoso durante la cocción"
+  },
+  "status": "publish"
+}

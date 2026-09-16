@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1052-why-chili-burns-mouth-water-doesnt-help",
+  "article_number": 1052,
+  "translation_group": "1052-why-chili-burns-mouth-water-doesnt-help",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; capsaicin sensory physiology and practical food relief explained for everyday eating.",
+  "title": "Why Chili Burns Your Mouth—and Why Water Doesn't Help Much",
+  "slug": "why-chili-burns-mouth-water-doesnt-help",
+  "seo": {
+    "title": "Why Chili Burns Your Mouth—and Why Water Doesn't Help",
+    "meta_description": "Capsaicin activates TRPV1 heat-and-pain receptors without actually heating the mouth. Because capsaicin is poorly soluble in water, plain water does little to remove it.",
+    "search_intent": "Understand why chile peppers feel hot, why water gives weak relief, and why milk or other foods can work better."
+  },
+  "excerpt": "Chile heat comes from capsaicin activating TRPV1 sensory channels that normally respond to noxious heat. Capsaicin does not dissolve well in water, so a sip of water mostly moves it around; dairy proteins and other components can reduce the amount available to keep stimulating receptors.",
+  "taxonomy": {
+    "food_family": "spices",
+    "food_subcategories": ["chili","capsaicin","TRPV1"],
+    "article_types": ["food-science","sensory-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Chile peppers burn because capsaicin activates TRPV1 sensory channels in the mouth—the same type of molecular sensor that responds to potentially painful heat.</strong> Your mouth is not actually reaching a dangerously high temperature from the pepper, but the nerves send a heat-and-burning signal as though a hot stimulus were present.</p><p>Water gives surprisingly little relief because capsaicin is hydrophobic: it mixes poorly with water. A cold sip can feel briefly soothing from temperature alone, but it does not efficiently pull capsaicin away from oral surfaces and may spread it around the mouth.</p><h2>Capsaicin turns on a heat-sensitive nerve channel</h2><p>TRPV1 is an ion channel expressed by sensory neurons involved in detecting noxious heat and chemical irritation. Capsaicin binds to and activates the channel. The neuron depolarizes and sends signals that the brain interprets as burning, warmth and pain. That is why a room-temperature salsa can feel hotter than a physically warm food.</p><p>The response is dose-dependent. A tiny amount produces warmth; higher concentrations cause intense burning, tearing, sweating and a runny nose. Repeated exposure can temporarily desensitize the system, one reason frequent chile eaters may tolerate levels that feel overwhelming to someone unaccustomed to them.</p><p>The Scoville concept ultimately reflects this capsaicinoid-driven pungency. Different peppers contain different concentrations and mixtures of capsaicinoids, so visual appearance alone cannot predict the exact burn.</p><h2>Water cannot dissolve capsaicin efficiently</h2><p>Capsaicin has a long nonpolar portion and low solubility in water. Once it coats tissue and food particles in the mouth, plain water is a poor solvent for carrying it away. Swishing can redistribute droplets and particles, which sometimes makes the burning feel as if it has spread.</p><p>Ice water still has one advantage: cold activates cooling pathways and physically lowers oral temperature for a moment, so it can reduce perception briefly. When the mouth warms again, however, capsaicin remains available to activate TRPV1 and the burn returns.</p><p>Alcohol can dissolve capsaicin better than water at sufficiently high concentrations, but alcoholic drinks are not a particularly reliable or sensible rescue strategy. Low-alcohol beverages contain mostly water, and strong alcohol can itself irritate the mouth.</p><h2>Milk works better because proteins interact with capsaicin and the drink coats the mouth</h2><p>Controlled sensory studies show milk can reduce capsaicin burn more effectively than water. Dairy proteins, including casein and whey proteins, can interact with capsaicin and reduce the freely available fraction. A recent experimental study found casein particularly effective at lowering free capsaicin under model conditions.</p><p>Fat has traditionally received much of the credit because capsaicin is lipophilic, and fat-containing dairy can certainly contribute to mouth coating and partitioning. But tests comparing beverages suggest protein is an important part of the effect; fat alone does not explain all the relief seen with milk.</p><p>Sweet drinks and carbohydrate-rich foods can also lessen perceived burn in some studies. Yogurt, milk, ice cream, rice, bread or a starchy dish may therefore be more useful than repeatedly drinking water. The best choice depends on what is available and on dietary needs.</p><h2>The burning sensation fades because receptors and capsaicin exposure change over time</h2><p>Capsaicin does not keep the mouth burning forever. Saliva and food gradually remove or redistribute it, molecules are swallowed, and sensory neurons adapt. TRPV1 can become temporarily desensitized after strong activation, so the same stimulus feels less intense after a while.</p><p>Do not rub eyes or sensitive skin after handling hot peppers. Capsaicin can strongly irritate those tissues, and washing hands with soap is more useful than water alone because surfactants help lift oily compounds from skin. Severe eye exposure should be flushed appropriately and assessed if symptoms are significant.</p><p><strong>The central distinction is between real temperature and a chemical signal of heat.</strong> Capsaicin presses the nervous system's heat alarm without making the salsa physically scalding. Water cannot remove it well because the molecule avoids water; milk and protein-rich foods provide a more useful chemical and physical environment for reducing the stimulus.</p>",
+  "faq": [
+    {"question":"Does spicy food actually burn the mouth with heat?","answer":"No. Capsaicin activates the TRPV1 heat-and-pain pathway, creating a burning perception without raising the food to a scalding temperature."},
+    {"question":"Why can water make chile burn feel spread out?","answer":"Capsaicin is poorly soluble in water, so swishing may move capsaicin-containing droplets and food particles without removing much of the molecule."},
+    {"question":"Is milk better than water for spicy food?","answer":"Yes in controlled sensory studies. Dairy proteins can bind or reduce free capsaicin, and the beverage also coats and cools the mouth."}
+  ],
+  "sources": [
+    {"name":"Physiology & Behavior — The effect of dairy proteins on oral burn of capsaicin","url":"https://pubmed.ncbi.nlm.nih.gov/36510373/","note":"Experimental work showing dairy proteins reduce free capsaicin and oral burn, with casein particularly effective."},
+    {"name":"PMC — Putting out the fire: beverages for capsaicin burn","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6620146/","note":"Controlled comparison of beverages showing milk and some sweet drinks reduce oral capsaicin burn better than water."}
+  ],
+  "image": {
+    "concept": "Red chile pepper and spicy salsa beside a glass of water and a glass of milk, editorial food-science composition emphasizing the contrast, no text.",
+    "alt": "Chile pepper with water and milk illustrating capsaicin burn relief"
+  },
+  "status": "publish"
+}

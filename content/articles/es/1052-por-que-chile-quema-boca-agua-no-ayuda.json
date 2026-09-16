@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1052-por-que-chile-quema-boca-agua-no-ayuda",
+  "article_number": 1052,
+  "translation_group": "1052-why-chili-burns-mouth-water-doesnt-help",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; fisiología sensorial de la capsaicina y alivio práctico explicados para consumo cotidiano.",
+  "title": "Por qué el chile quema la boca y por qué el agua no ayuda mucho",
+  "slug": "por-que-chile-quema-boca-agua-no-ayuda",
+  "seo": {
+    "title": "Por qué el chile quema y el agua no ayuda",
+    "meta_description": "La capsaicina activa receptores TRPV1 de calor y dolor sin calentar realmente la boca. Como se disuelve mal en agua, beber agua elimina muy poca.",
+    "search_intent": "Entender por qué los chiles producen sensación de quemazón, por qué el agua alivia poco y por qué la leche u otros alimentos funcionan mejor."
+  },
+  "excerpt": "El picor del chile procede de la capsaicina activando canales sensoriales TRPV1 que normalmente responden al calor doloroso. Como la capsaicina es poco soluble en agua, beber agua la desplaza más de lo que la elimina.",
+  "taxonomy": {
+    "food_family": "spices",
+    "food_subcategories": ["chili","capsaicin","TRPV1"],
+    "article_types": ["food-science","sensory-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>El chile quema porque la capsaicina activa canales sensoriales TRPV1 de la boca, los mismos sistemas moleculares que participan en detectar calor potencialmente doloroso.</strong> La salsa no eleva físicamente la lengua a una temperatura peligrosa; son los nervios los que envían una señal de calor y quemazón.</p><p>El agua alivia poco porque la capsaicina es hidrofóbica y se mezcla mal con ella. Un trago muy frío refresca unos segundos por su temperatura, pero no arrastra de forma eficaz la molécula de las superficies orales.</p><h2>La capsaicina enciende un sensor nervioso de calor</h2><p>TRPV1 es un canal iónico presente en neuronas sensoriales que responden a calor nocivo y a varias sustancias irritantes. La capsaicina se une al canal y lo activa. La neurona se despolariza y el cerebro interpreta la señal como ardor, calor y dolor. Por eso una salsa a temperatura ambiente puede sentirse más «caliente» que un alimento realmente templado.</p><p>La intensidad depende de la dosis. Una pequeña cantidad da calor; una concentración alta puede provocar quemazón intensa, lagrimeo, sudoración y goteo nasal. La exposición repetida produce cierta desensibilización temporal, una de las razones por las que quien come picante con frecuencia suele tolerar niveles más altos.</p><p>La escala Scoville intenta describir precisamente esta pungencia asociada a capsaicinoides. Variedad, madurez y parte del fruto cambian la concentración, de modo que el aspecto de un chile no permite conocer con exactitud cuánto picará.</p><h2>El agua no es un buen disolvente para la capsaicina</h2><p>La molécula tiene una gran porción no polar y una solubilidad muy baja en agua. Una vez que se reparte por comida y mucosa, el agua sola no consigue llevársela bien. Hacer buches puede mover gotas y partículas que contienen capsaicina y extender la sensación a otras zonas.</p><p>El agua helada tiene una ventaja real: enfría físicamente la boca y activa vías de frío, así que durante un momento puede reducir la percepción. Cuando la temperatura vuelve a subir, la capsaicina sigue allí y TRPV1 continúa recibiendo estímulo.</p><p>El alcohol puede disolver capsaicina mejor que el agua si está en concentraciones elevadas, pero una bebida alcohólica no es una solución especialmente fiable ni recomendable. Las bebidas de baja graduación son principalmente agua y las de alta graduación irritan por sí mismas.</p><h2>La leche funciona mejor porque sus proteínas interactúan con la capsaicina</h2><p>Los estudios sensoriales controlados muestran que la leche reduce el ardor más que el agua. Proteínas lácteas como caseínas y proteínas de suero pueden interactuar con la capsaicina y disminuir la fracción libre. Un trabajo experimental reciente observó un efecto particularmente claro de la caseína.</p><p>Tradicionalmente se ha atribuido casi todo a la grasa porque la capsaicina es lipófila. La grasa puede contribuir a redistribuirla y a recubrir la boca, pero comparaciones entre bebidas indican que las proteínas también son importantes. La diferencia entre leche entera y desnatada no explica por sí sola todo el efecto.</p><p>Bebidas dulces y alimentos ricos en almidón también pueden disminuir la percepción en ciertos experimentos. Yogur, leche, helado, arroz o pan suelen ser opciones más útiles que beber vaso tras vaso de agua. La elección concreta depende de tolerancias y del contexto de la comida.</p><h2>El ardor termina porque cambia la exposición y el receptor se adapta</h2><p>La capsaicina no mantiene la señal para siempre. Saliva y alimentos la van redistribuyendo y eliminando, una parte se traga y las neuronas sensoriales se adaptan. Tras una activación intensa, TRPV1 puede quedar temporalmente desensibilizado, por lo que el estímulo pierde fuerza con el tiempo.</p><p>Después de manipular chiles conviene evitar tocar ojos y otras mucosas. El jabón es más útil que agua sola en las manos porque sus tensioactivos ayudan a levantar compuestos grasos. Una exposición ocular importante debe lavarse de forma adecuada y valorarse si los síntomas son intensos.</p><p><strong>La clave es distinguir temperatura real de señal química de calor.</strong> La capsaicina pulsa la alarma térmica del sistema nervioso sin que el chile esté físicamente ardiendo. El agua no la retira bien porque la molécula evita el medio acuoso; la leche y otros alimentos con proteínas ofrecen un entorno mucho más eficaz para reducir el estímulo.</p>",
+  "faq": [
+    {"question":"¿La comida picante quema realmente la boca con calor?","answer":"No. La capsaicina activa la vía TRPV1 de calor y dolor, creando una percepción de quemazón sin elevar la comida a una temperatura que queme físicamente."},
+    {"question":"¿Por qué el agua puede parecer que extiende el picor?","answer":"La capsaicina se disuelve mal en agua; al moverla puedes redistribuir partículas o gotas con capsaicina sin retirarla eficazmente."},
+    {"question":"¿La leche funciona mejor que el agua?","answer":"Sí en estudios sensoriales. Las proteínas lácteas reducen capsaicina libre y la bebida también enfría y recubre la boca."}
+  ],
+  "sources": [
+    {"name":"Physiology & Behavior — The effect of dairy proteins on oral burn of capsaicin","url":"https://pubmed.ncbi.nlm.nih.gov/36510373/","note":"Trabajo experimental que muestra reducción de capsaicina libre y ardor mediante proteínas lácteas, especialmente caseína."},
+    {"name":"PMC — Putting out the fire: beverages for capsaicin burn","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC6620146/","note":"Comparación controlada de bebidas que encuentra mayor alivio con leche y algunas bebidas dulces que con agua."}
+  ],
+  "image": {
+    "concept": "Chile rojo y salsa picante junto a un vaso de agua y otro de leche, composición editorial de ciencia culinaria, sin texto.",
+    "alt": "Chile con agua y leche ilustrando el alivio de la capsaicina"
+  },
+  "status": "publish"
+}

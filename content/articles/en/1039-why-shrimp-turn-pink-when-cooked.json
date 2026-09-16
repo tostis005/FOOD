@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1039-why-shrimp-turn-pink-when-cooked",
+  "article_number": 1039,
+  "translation_group": "1039-why-shrimp-turn-pink-when-cooked",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; seafood pigment chemistry explained for home cooking.",
+  "title": "Why Shrimp Turn Pink When Cooked",
+  "slug": "why-shrimp-turn-pink-when-cooked",
+  "seo": {
+    "title": "Why Shrimp Turn Pink When Cooked",
+    "meta_description": "Shrimp turn pink because heat disrupts proteins that mask the red-orange pigment astaxanthin. The pigment was already there before cooking.",
+    "search_intent": "Understand the pigment chemistry that makes gray or blue raw shrimp turn pink or orange during cooking."
+  },
+  "excerpt": "The pink color of cooked shrimp comes mainly from astaxanthin, a red-orange carotenoid that is present in the animal before cooking but visually altered while bound to shell and tissue proteins.",
+  "taxonomy": {
+    "food_family": "seafood",
+    "food_subcategories": ["shrimp","astaxanthin","color"],
+    "article_types": ["food-science","food-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Shrimp turn pink because cooking frees or exposes a red-orange pigment called astaxanthin that was already present before the shrimp went into the pan.</strong> In raw shrimp, astaxanthin interacts with proteins in the shell and tissues, changing how the pigment absorbs and reflects light. Heat denatures those proteins, so the characteristic orange, coral or pink color becomes much more visible.</p><p>The color change therefore does not mean that heat created a new red dye. Cooking changed the molecular environment around an existing carotenoid. The same basic pigment chemistry helps explain the dramatic red color of cooked lobster and crab.</p><h2>Astaxanthin is naturally red-orange, but proteins can alter its appearance</h2><p>Astaxanthin belongs to the carotenoid family, the broad group that also includes pigments associated with carrots and many other yellow, orange and red foods. Crustaceans obtain carotenoid precursors through their diet and store astaxanthin in tissues and shells. On its own, the molecule has a strong red-orange appearance.</p><p>Raw shrimp do not necessarily look red because pigment molecules can be bound within protein complexes. Those interactions alter the electronic environment of astaxanthin and shift the wavelengths of light that are absorbed. The result can be gray, greenish, bluish or translucent coloration depending on species and tissue.</p><p>That color masking is useful to the animal. A gray-brown shrimp is less conspicuous against sand or sediment than a bright pink one. Biology therefore combines the same pigment with proteins and physical structures to produce colors very different from the free pigment itself.</p><h2>Heat denatures the protein and reveals the warmer pigment color</h2><p>Proteins maintain their three-dimensional shape through many weak interactions. Heating disrupts those interactions. As the proteins unfold and aggregate during cooking, their relationship with astaxanthin changes. Research on processed shrimp describes the raw gray-blue appearance as pigment bound to protein and the cooked red color as the result of that complex being disrupted.</p><p>At the same time, muscle proteins are denaturing and the flesh turns from translucent to opaque. That change makes the surface scatter light differently, so the newly visible carotenoid color can appear even more intense. Shell-on shrimp often look vividly orange-red outside while the meat becomes pale pink and white.</p><p>The transition can happen quickly because the shell is thin and heats fast. That is why color is one of the first visible signs during sautéing, boiling or grilling.</p><h2>Pink color is useful, but it is not a perfect doneness test</h2><p>Color is a helpful kitchen cue because it tracks real heat-driven changes, but it does not measure the temperature of the thickest part. A shrimp can become pink at the surface before heat has fully penetrated a large center. Conversely, some frozen or pretreated shrimp may already show pinkish tones before final cooking.</p><p>Species also differ. Some raw shrimp are naturally darker, more translucent or more reddish. Their final cooked colors range from pale coral to strong orange. Treating one exact shade as a universal safety threshold would therefore be misleading.</p><p>Use color together with texture and appropriate cooking guidance. Properly cooked shrimp become opaque and firm while remaining tender. If they are hard, dry and very tightly curled, the issue is generally overcooking rather than insufficient color development.</p><h2>Why cooked shrimp can later look dull or brown</h2><p>Astaxanthin is not indestructible. Very long heating, high-temperature sterilization, oxidation and storage can alter pigments and other components, leading to darker or browner color. Research on ready-to-eat shrimp has found that boiling produces a bright red appearance while more severe subsequent thermal processing can reduce brightness and increase browning.</p><p>Acid, oxygen exposure and the physical state of the shell also affect perception. This is why grilled shrimp may show browned patches from surface reactions while boiled shrimp display a clearer pink-orange. Both can contain the same basic carotenoid pigment.</p><p>The essential chemistry is simple: <strong>raw shrimp already contain astaxanthin, but protein binding disguises much of its warm color; heat changes the protein and lets the pigment show through.</strong> What looks like a dramatic transformation in the pan is really a change in molecular packaging, combined with the whitening and firming of cooked muscle.</p>",
+  "faq": [
+    {"question":"Is the pink color in shrimp added during cooking?","answer":"No. The main pigment, astaxanthin, is already present. Cooking changes the proteins that interact with it, making its red-orange color more visible."},
+    {"question":"Does pink shrimp always mean it is fully cooked?","answer":"Not by itself. Surface color changes quickly, so use opacity, texture and appropriate temperature or cooking guidance as well."},
+    {"question":"Why are some cooked shrimp more orange than pink?","answer":"Species, pigment concentration, shell structure, cooking method and browning reactions all change the exact shade that you see."}
+  ],
+  "sources": [
+    {"name":"Foods — Color changes in ready-to-eat shrimp during processing","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10855478/","note":"Describes raw gray-blue shrimp as astaxanthin bound to protein and cooked red color after the complex is disrupted."},
+    {"name":"Physics Today — Why Do Lobsters Change Color When Cooked?","url":"https://doi.org/10.1063/1.1534998","note":"Explains the related crustacean pigment-protein chemistry of astaxanthin and crustacyanin."}
+  ],
+  "image": {
+    "concept": "Side-by-side raw gray shrimp and cooked coral-pink shrimp in the same composition, clean editorial lighting, no labels or text.",
+    "alt": "Raw gray shrimp beside cooked pink shrimp"
+  },
+  "status": "publish"
+}

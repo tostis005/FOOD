@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1047-por-que-espinacas-dejan-dientes-asperos",
+  "article_number": 1047,
+  "translation_group": "1047-why-spinach-makes-teeth-feel-gritty",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; química de oxalatos y sensación oral normal diferenciadas de problemas dentales.",
+  "title": "Por qué las espinacas dejan los dientes ásperos o arenosos",
+  "slug": "por-que-espinacas-dejan-dientes-asperos",
+  "seo": {
+    "title": "Por qué las espinacas dejan los dientes ásperos",
+    "meta_description": "Las espinacas contienen muchos oxalatos. El oxalato puede combinarse con calcio y contribuir a partículas insolubles que dejan una sensación calcárea temporal.",
+    "search_intent": "Entender la sensación áspera que dejan las espinacas, el papel de los oxalatos y cómo cambia con la cocción."
+  },
+  "excerpt": "La sensación calcárea de las espinacas se relaciona con su alto contenido en oxalatos. El oxalato soluble puede interactuar con calcio y, junto al oxalato insoluble ya presente, dejar una textura mineral fina sobre dientes y boca.",
+  "taxonomy": {
+    "food_family": "vegetables",
+    "food_subcategories": ["spinach","oxalate","mouthfeel"],
+    "article_types": ["food-science","sensory-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>La sensación áspera o calcárea que dejan las espinacas se relaciona con su elevada cantidad de oxalatos y con partículas poco solubles de oxalato cálcico.</strong> La verdura contiene oxalato soluble y también oxalato ya unido a minerales. En la boca, el calcio de la saliva y de otros alimentos puede interactuar con parte del oxalato soluble y contribuir a esa película mineral que la lengua detecta sobre los dientes.</p><p>En inglés se conoce como «spinach teeth». Da la impresión de que el esmalte se ha vuelto rugoso, pero normalmente es una sensación superficial y temporal, no una transformación física repentina del diente.</p><h2>Las espinacas son especialmente ricas en oxalatos</h2><p>El ácido oxálico y sus sales aparecen de manera natural en muchas plantas. Las espinacas destacan porque pueden contener cantidades relativamente altas. Los análisis separan oxalato soluble, capaz de pasar al agua, y oxalato insoluble, buena parte unido a calcio u otros minerales.</p><p>Esta química importa tanto para nutrición como para textura. El oxalato cálcico es poco soluble. Cuando calcio y oxalato coinciden en condiciones adecuadas se forman sólidos microscópicos. La explicación más aceptada para el tacto arenoso es que esas partículas y residuos ricos en oxalato se depositan o interactúan con la superficie dental lo suficiente para que la lengua note el cambio.</p><p>El fenómeno sensorial concreto está menos estudiado que otros aspectos del oxalato, así que conviene hablar de una explicación respaldada por la química y no de un mapa exacto de cada partícula dentro de la boca.</p><h2>La forma de cocinar cambia cuánto oxalato soluble permanece</h2><p>Hervir puede reducir el oxalato soluble porque una parte pasa al agua. Un estudio que comparó métodos de cocción encontró que el hervido eliminaba una fracción mucho mayor que el vapor en varias verduras con alto contenido, incluidas las espinacas. Si se desecha el agua, también se retira lo que se ha disuelto en ella.</p><p>Al vapor queda más material dentro de las hojas porque casi no existe un volumen de agua al que pueda migrar. Saltear tampoco ofrece una vía de eliminación comparable. Esto no convierte esos métodos en inseguros; simplemente producen perfiles distintos.</p><p>Por eso la intensidad de la sensación puede variar según receta, variedad y cantidad. Un plato con lácteos también cambia el contexto: aporta calcio, grasa y proteínas y modifica tanto la química como la película que queda en la boca.</p><h2>La sensación pasa y no significa que las espinacas hayan raspado el esmalte</h2><p>El tacto puede durar unos minutos después de terminar porque la lengua es extraordinariamente sensible a pequeñas irregularidades sobre los dientes. Saliva, bebida, otros alimentos y el movimiento normal de la boca van retirando el residuo. No hace falta cepillar de forma agresiva solo porque aparezca esa sensación.</p><p>Las espinacas también contienen ácidos y pueden resultar ligeramente agrias, pero el tacto «peludo» no demuestra que el esmalte se haya desgastado de repente. Si existe dolor, sensibilidad fuerte o una rugosidad persistente durante mucho tiempo, esa situación merece considerarse como un problema dental independiente.</p><p>Enjuagarse con agua después de comer es una forma sencilla de acelerar la limpieza. Dentro de una comida variada, el efecto suele resultar menos intenso que tras una gran ración de espinaca cocida sola.</p><h2>El oxalato dietético sí puede importar en contextos médicos concretos</h2><p>Para la mayoría de personas, aquí estamos hablando sobre todo de una curiosidad sensorial. El oxalato adquiere mayor relevancia dietética en algunas personas con antecedentes de cálculos renales de oxalato cálcico o con indicaciones médicas específicas para controlar la ingesta.</p><p>En esos casos, la cocción puede utilizarse de forma estratégica. Hervir y desechar el agua reduce más oxalato soluble que una cocción seca, aunque también cambia textura y puede arrastrar otros compuestos solubles. La recomendación debe formar parte del conjunto de la dieta y no basarse en si los dientes quedan más o menos ásperos.</p><p><strong>La sensación arenosa es, en esencia, un efecto secundario de la química de una hoja rica en oxalatos.</strong> Las espinacas introducen oxalato en una boca que contiene calcio y las formas poco solubles ayudan a crear esa película calcárea temporal. Es rara, pero normalmente cotidiana y desaparece al limpiarse la superficie oral.</p>",
+  "faq": [
+    {"question":"¿Las espinacas dañan los dientes cuando los dejan ásperos?","answer":"La sensación calcárea temporal no demuestra un daño repentino del esmalte. Dolor o rugosidad persistente deben valorarse por separado."},
+    {"question":"¿Hervir espinacas reduce los oxalatos?","answer":"Sí. Una parte importante del oxalato soluble puede pasar al agua de cocción y eliminarse si esa agua se desecha."},
+    {"question":"¿Por qué unas personas lo notan más?","answer":"Influyen cantidad, variedad, método de cocción, composición de la saliva y sensibilidad sensorial individual."}
+  ],
+  "sources": [
+    {"name":"Journal of Agricultural and Food Chemistry — Cooking methods and vegetable oxalate","url":"https://pubmed.ncbi.nlm.nih.gov/15826055/","note":"Mide oxalato soluble e insoluble y muestra que hervir puede reducir de forma importante el oxalato soluble de espinacas."},
+    {"name":"Asia Pacific Journal of Clinical Nutrition — Oxalate from spinach with and without dairy","url":"https://pubmed.ncbi.nlm.nih.gov/12810415/","note":"Documenta cantidades elevadas de oxalatos solubles e insolubles en espinacas y su interacción con calcio dietético."}
+  ],
+  "image": {
+    "concept": "Espinacas frescas y cocinadas junto a un detalle editorial de dientes limpios con una metáfora visual muy sutil de textura mineral, luz natural, sin texto.",
+    "alt": "Espinacas y la sensación calcárea temporal sobre los dientes"
+  },
+  "status": "publish"
+}

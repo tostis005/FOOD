@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1055-why-horseradish-burns-nose",
+  "article_number": 1055,
+  "translation_group": "1055-why-horseradish-burns-nose",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; horseradish chemistry explained distinctly from wasabi while showing their shared mustard-family mechanism.",
+  "title": "Why Horseradish Goes Straight to Your Nose",
+  "slug": "why-horseradish-burns-nose",
+  "seo": {
+    "title": "Why Horseradish Goes Straight to Your Nose",
+    "meta_description": "Grating horseradish lets myrosinase convert glucosinolates such as sinigrin into volatile allyl isothiocyanate. Its vapors activate TRPA1 nerves in the nose.",
+    "search_intent": "Understand why grated horseradish creates a sharp nasal burn, why it fades quickly, and how vinegar changes prepared horseradish."
+  },
+  "excerpt": "Horseradish does not store its full pungency ready-made. Crushing the root allows the enzyme myrosinase to convert glucosinolates into volatile isothiocyanates, especially allyl isothiocyanate, whose vapors reach and irritate the nasal cavity.",
+  "taxonomy": {
+    "food_family": "condiments",
+    "food_subcategories": ["horseradish","allyl-isothiocyanate","TRPA1"],
+    "article_types": ["food-science","sensory-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Horseradish shoots into the nose because crushing the root generates volatile isothiocyanates—especially allyl isothiocyanate—that readily travel as vapors and activate irritant-sensitive nerves in the nasal cavity.</strong> The main sensory target is TRPA1, an ion channel on trigeminal neurons. The result is a fast, piercing sting that can make the eyes water even though the food is not physically hot.</p><p>The mechanism is closely related to wasabi and mustard because all belong to the same broad plant family and use glucosinolate-myrosinase chemistry. Horseradish nevertheless has its own concentrations and flavor profile, so the foods are related rather than identical.</p><h2>The intact root stores precursors instead of a permanent cloud of pungency</h2><p>Horseradish cells contain glucosinolates, with sinigrin an important one, and they also contain the enzyme myrosinase in separate cellular compartments. When the root is whole, the system is relatively quiet. Grating, chopping or chewing ruptures the cells and allows enzyme and glucosinolate to meet.</p><p>Myrosinase hydrolyzes the glucosinolate and produces isothiocyanates. Allyl isothiocyanate is especially important to the familiar horseradish aroma and pungency. This chemical-defense strategy discourages herbivores: tissue damage itself generates the irritant.</p><p>The fact that pungency is created after damage explains why a freshly cut root can smell mild at first and become much more aggressive after grating. Surface area increases, more cells rupture and more precursor is converted.</p><h2>The volatile isothiocyanate reaches the nose through air, not just through taste buds</h2><p>Allyl isothiocyanate has sufficient vapor pressure to move from food into air at ordinary eating temperatures. While horseradish is in the mouth, vapor travels retronasally behind the palate into the nasal cavity. When you smell freshly grated horseradish directly, the same molecule can enter from the nostrils.</p><p>The nasal cavity is richly supplied with branches of the trigeminal nerve that detect irritants in addition to the olfactory system that detects odors. Allyl isothiocyanate activates TRPA1 on these sensory endings, which is why the experience is a physical burn or sting as well as an aroma.</p><p>Capsaicin from chile peppers is much less volatile, so it remains in the mouth and activates TRPV1 for longer. Horseradish feels as though it "goes upstairs" because its key irritants are better able to ride the airflow.</p><h2>Vinegar controls prepared horseradish by stopping or slowing the enzyme reaction</h2><p>Traditional horseradish preparation often uses vinegar after grating. Acidification changes the activity of myrosinase and helps stabilize the flavor profile. Timing matters: letting grated root stand briefly before adding vinegar allows more pungent compounds to develop; acidifying sooner generally produces a milder preparation.</p><p>This is not a perfect on-off switch, and recipes vary with root age, temperature, grind size and desired strength. But it explains why commercial prepared horseradish tastes different from a root grated fresh at the table. Processing captures and then limits a reactive chemical system.</p><p>Heat also reduces the fresh nasal punch. Isothiocyanates are volatile and can be lost during cooking, while enzyme activity is damaged by sufficient heat. Horseradish added late or served uncooked therefore tastes sharper than the same amount simmered for a long time.</p><h2>Why the sting is intense but usually short-lived</h2><p>The active compounds arrive quickly, but they also leave quickly compared with capsaicin. Vapors are exhaled, diluted by air and saliva, and chemically transformed. The nasal sensation can peak sharply and then collapse within seconds or minutes.</p><p>A very large inhaled dose can irritate eyes, nose and throat substantially, so there is no benefit to deliberately sniffing freshly grated root. Normal culinary quantities distribute the compound through food; direct exposure to concentrated vapors is simply more irritating.</p><p><strong>Horseradish pungency is a triggered defense system:</strong> grating mixes glucosinolate with myrosinase, volatile allyl isothiocyanate forms, vapors move into the nose, and TRPA1-bearing sensory nerves report a sharp sting. That shared chemistry is why horseradish resembles wasabi and mustard, and the particular volatility is why its burn feels so different from chile pepper heat.</p>",
+  "faq": [
+    {"question":"What makes horseradish burn the nose?","answer":"Volatile isothiocyanates, especially allyl isothiocyanate, travel into the nasal cavity and activate TRPA1 on trigeminal sensory nerves."},
+    {"question":"Why does grating horseradish make it stronger?","answer":"Cell damage lets the enzyme myrosinase contact glucosinolates such as sinigrin and generate pungent isothiocyanates."},
+    {"question":"Why is vinegar added to prepared horseradish?","answer":"Acidification limits the enzymatic pungency-generating reaction and helps set the final flavor; adding it earlier generally yields a milder result."}
+  ],
+  "sources": [
+    {"name":"Journal of Agricultural and Food Chemistry — Wasabi, horseradish and mustard pungency","url":"https://pubmed.ncbi.nlm.nih.gov/26263397/","note":"Compares isothiocyanates from horseradish, wasabi and mustard and their activation of TRPA1."},
+    {"name":"Neuron — TRP channel activation by reversible covalent modification","url":"https://pubmed.ncbi.nlm.nih.gov/17164327/","note":"Shows allyl isothiocyanate, the pungent principle of mustard oils including horseradish chemistry, activates TRPA1 sensory channels."}
+  ],
+  "image": {
+    "concept": "Fresh horseradish root being grated with a subtle plume rising toward the nose, small bowl of prepared horseradish and vinegar nearby, clean editorial style, no text.",
+    "alt": "Freshly grated horseradish releasing volatile pungent compounds"
+  },
+  "status": "publish"
+}
