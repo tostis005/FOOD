@@ -39,6 +39,33 @@ jobs:
               text = html.unescape(text)
               return re.sub(r'\s+', ' ', text).strip()
 
+          def opening_answer(content: str) -> str:
+              # Restrict extraction to the actual opening paragraph so a later
+              # bold phrase can never be mistaken for the quick answer.
+              p = re.search(r'<p\b[^>]*>(.*?)</p\s*>', content, flags=re.I | re.S)
+              if p:
+                  paragraph = p.group(1)
+                  emphasis = re.search(
+                      r'<(?:strong|b)\b[^>]*>(.*?)</(?:strong|b)\s*>',
+                      paragraph,
+                      flags=re.I | re.S,
+                  )
+                  answer = visible(emphasis.group(1) if emphasis else paragraph)
+                  if answer:
+                      return answer
+
+              # Defensive fallback for opening markup that is not wrapped in <p>.
+              emphasis = re.search(
+                  r'<(?:strong|b)\b[^>]*>(.*?)</(?:strong|b)\s*>',
+                  content[:4000],
+                  flags=re.I | re.S,
+              )
+              if emphasis:
+                  answer = visible(emphasis.group(1))
+                  if answer:
+                      return answer
+              raise ValueError('no usable opening answer found')
+
           def meta(text: str, limit: int = 160) -> str:
               if len(text) <= limit:
                   return text
@@ -53,76 +80,113 @@ jobs:
               if kept:
                   return ' '.join(kept)
               cut = text[:limit - 1].rsplit(' ', 1)[0].rstrip(' ,;:')
-              return cut + '…'
+              return (cut or text[:limit - 1]).rstrip() + '…'
 
           def replace_first_json_string(raw: str, key: str, value: str) -> str:
               pattern = re.compile(r'("' + re.escape(key) + r'"\s*:\s*)"(?:\\.|[^"\\])*"')
               encoded = json.dumps(value, ensure_ascii=False)
               updated, count = pattern.subn(lambda m: m.group(1) + encoded, raw, count=1)
               if count != 1:
-                  raise RuntimeError(f'{key}: expected one replacement, got {count}')
+                  raise ValueError(f'{key}: expected one JSON string, found {count}')
               return updated
 
+          planned = []
+          errors = []
           counts = {'es': 0, 'en': 0}
-          touched = []
 
+          # Phase 1: parse and validate every target before writing any file.
           for lang in ('es', 'en'):
-              for path in sorted(pathlib.Path(f'content/articles/{lang}').glob('*.json')):
-                  raw = path.read_text(encoding='utf-8')
-                  obj = json.loads(raw)
-                  number = int(obj['article_number'])
-                  if not LOW <= number <= HIGH:
+              for path in sorted(pathlib.Path(f'content/articles/{lang}').rglob('*.json')):
+                  try:
+                      raw = path.read_text(encoding='utf-8')
+                      obj = json.loads(raw)
+                      number = int(obj.get('article_number', -1))
+                  except Exception as exc:
+                      errors.append(f'{path}: parse/article_number error: {exc}')
                       continue
 
-                  match = re.search(r'<p>\s*<strong>(.*?)</strong>', obj['content_html'], flags=re.I | re.S)
-                  if not match:
-                      raise RuntimeError(f'No opening strong answer in {path}')
-
-                  answer = visible(match.group(1))
-                  if not answer:
-                      raise RuntimeError(f'Empty opening answer in {path}')
-
-                  updated = replace_first_json_string(raw, 'excerpt', answer)
-                  updated = replace_first_json_string(updated, 'meta_description', meta(answer))
-                  check = json.loads(updated)
-
-                  if check['excerpt'] != answer:
-                      raise RuntimeError(f'Excerpt mismatch in {path}')
-                  if check['seo']['meta_description'] != meta(answer):
-                      raise RuntimeError(f'Meta description mismatch in {path}')
-                  if len(check['seo']['meta_description']) > 160:
-                      raise RuntimeError(f'Meta description exceeds 160 chars in {path}')
-
-                  if updated != raw:
-                      path.write_text(updated, encoding='utf-8')
-                      touched.append(str(path))
+                  if not LOW <= number <= HIGH:
+                      continue
                   counts[lang] += 1
 
-          if counts != {'es': 120, 'en': 120}:
-              raise RuntimeError(f'Unexpected target counts: {counts}')
+                  try:
+                      content = obj.get('content_html')
+                      if not isinstance(content, str) or not content.strip():
+                          raise ValueError('content_html is missing or empty')
+                      answer = opening_answer(content)
+                      description = meta(answer)
+                      updated = replace_first_json_string(raw, 'excerpt', answer)
+                      updated = replace_first_json_string(updated, 'meta_description', description)
 
-          generic_prefixes = ('respuesta práctica', 'a practical guide')
-          for lang in ('es', 'en'):
-              for path in sorted(pathlib.Path(f'content/articles/{lang}').glob('*.json')):
-                  obj = json.loads(path.read_text(encoding='utf-8'))
-                  number = int(obj['article_number'])
-                  if not LOW <= number <= HIGH:
-                      continue
-                  for value in (obj['excerpt'], obj['seo']['meta_description']):
-                      if value.strip().lower().startswith(generic_prefixes):
-                          raise RuntimeError(f'Generic summary remains in {path}: {value}')
+                      check = json.loads(updated)
+                      if check.get('excerpt') != answer:
+                          raise ValueError('excerpt verification mismatch')
+                      seo = check.get('seo') or {}
+                      if seo.get('meta_description') != description:
+                          raise ValueError('seo.meta_description verification mismatch')
+                      if len(description) > 160:
+                          raise ValueError('meta description exceeds 160 characters')
+
+                      planned.append((path, raw, updated, number, lang, answer, description))
+                  except Exception as exc:
+                      errors.append(f'{path} [article {number}]: {exc}')
+
+          if counts != {'es': 120, 'en': 120}:
+              errors.append(f'unexpected target counts: {counts}; expected ES=120 EN=120')
+
+          if errors:
+              print('VALIDATION ERRORS BEFORE WRITE:')
+              for error in errors:
+                  print(' -', error)
+              raise SystemExit(1)
+
+          # Phase 2: write only after the whole 240-file target is known-good.
+          changed_count = 0
+          for path, raw, updated, number, lang, answer, description in planned:
+              if updated != raw:
+                  path.write_text(updated, encoding='utf-8')
+                  changed_count += 1
+
+          generic_es = re.compile(r'^\s*respuesta práctica\b', re.I)
+          generic_en = re.compile(r'^\s*(?:a\s+)?practical\s+(?:answer|guide)\b', re.I)
+          post_errors = []
+
+          for path, _, _, number, lang, _, _ in planned:
+              obj = json.loads(path.read_text(encoding='utf-8'))
+              excerpt = str(obj.get('excerpt', '')).strip()
+              description = str((obj.get('seo') or {}).get('meta_description', '')).strip()
+              generic = generic_es if lang == 'es' else generic_en
+              if generic.search(excerpt):
+                  post_errors.append(f'generic excerpt remains: {path}')
+              if generic.search(description):
+                  post_errors.append(f'generic meta_description remains: {path}')
 
           changed = subprocess.check_output(['git', 'diff', '--name-only'], text=True).splitlines()
           for filename in changed:
               if not filename.startswith(('content/articles/es/', 'content/articles/en/')):
-                  raise RuntimeError(f'Unexpected changed file: {filename}')
-              obj = json.loads(pathlib.Path(filename).read_text(encoding='utf-8'))
-              number = int(obj['article_number'])
+                  post_errors.append(f'unexpected changed file: {filename}')
+                  continue
+              try:
+                  obj = json.loads(pathlib.Path(filename).read_text(encoding='utf-8'))
+                  number = int(obj['article_number'])
+              except Exception as exc:
+                  post_errors.append(f'cannot validate changed file {filename}: {exc}')
+                  continue
               if not LOW <= number <= HIGH:
-                  raise RuntimeError(f'Out-of-range article changed: {number} ({filename})')
+                  post_errors.append(f'out-of-range article changed: {number} ({filename})')
+
+          if len(changed) != 240:
+              post_errors.append(f'expected exactly 240 changed JSON files, got {len(changed)}')
+
+          if post_errors:
+              print('POST-WRITE VALIDATION ERRORS:')
+              for error in post_errors:
+                  print(' -', error)
+              raise SystemExit(1)
 
           print(f'Validated target files: ES={counts["es"]}, EN={counts["en"]}')
-          print(f'Files changed: {len(changed)}')
+          print(f'Changed JSON files: {len(changed)}')
+          print('Scope check: only article_number 916-1035 in ES/EN changed')
           PY
 
       - name: Run editorial audit
