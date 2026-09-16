@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1028-why-cream-curdles-in-sauce",
+  "article_number": 1028,
+  "translation_group": "1028-why-cream-curdles-in-sauce",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; practical food-science explanation for home cooking, with temperatures or safety guidance localized where relevant.",
+  "title": "Why Cream Curdles When You Cook a Sauce",
+  "slug": "why-cream-curdles-in-sauce",
+  "seo": {
+    "title": "Why Cream Curdles When You Cook a Sauce",
+    "meta_description": "Cream sauces split when acid, heat or concentration destabilizes dairy proteins and fat; higher-fat cream and gentler heat give a wider safety margin.",
+    "search_intent": "Understand why Cream Curdles When You Cook a Sauce, what is happening physically or chemically, and how to control it in the kitchen."
+  },
+  "excerpt": "Cream sauces split when acid, heat or concentration destabilizes dairy proteins and fat; higher-fat cream and gentler heat give a wider safety margin.",
+  "taxonomy": {
+    "food_family": "dairy",
+    "food_subcategories": [
+      "cream-sauce",
+      "curdling",
+      "emulsion"
+    ],
+    "article_types": [
+      "food-science",
+      "cooking-technique"
+    ],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Cream curdles in a sauce when heat, acidity or salt destabilizes its proteins and emulsion faster than the fat content can protect them.</strong> The sauce may develop tiny grains, larger curds or a greasy split appearance. Low-fat dairy is more vulnerable because it has more protein and water relative to fat, while heavy cream tolerates simmering better. The best prevention is to control temperature, choose the right dairy product and add acidic ingredients in a way that avoids sudden local shocks.</p>\n<h2>Acid changes the electrical stability of milk proteins</h2>\n<p>Dairy proteins stay dispersed under normal conditions because their surface chemistry keeps them apart. Acidic ingredients such as lemon juice, wine and tomatoes lower pH and reduce that stability. If a concentrated splash of acid hits hot cream, proteins can aggregate before the liquid is fully dispersed. This is why recipes often reduce wine before adding cream or temper acidic components into the finished sauce gradually. The same principle explains why souring milk eventually curdles even without a pan: acidity moves casein toward the point where it precipitates.</p>\n<h2>High heat accelerates protein tightening and emulsion breakdown</h2>\n<p>Boiling is especially risky for milk, half-and-half and light cream. Heat unfolds proteins and increases collisions between them, while vigorous bubbling also stresses the fat-water emulsion. Heavy cream is more forgiving because its high fat content reduces the relative concentration of casein and gives the sauce richness even as water evaporates. Once dairy is incorporated, a gentle simmer is usually enough. If you need to reduce a sauce aggressively, reduce stock, wine or tomato first, then lower the heat before adding the cream.</p>\n<h2>Starch and gradual mixing can make a sauce more resilient</h2>\n<p>Flour, cornstarch and other starches thicken the continuous water phase and reduce how quickly proteins and fat droplets move together, which can improve stability. This is one reason a béchamel tolerates heating better than plain milk. Tempering also helps: whisk a little hot sauce into cold or room-temperature dairy, then add that warmed mixture back gradually. The goal is to avoid exposing one small portion of dairy to the full combination of heat, acid and salt before it has been diluted.</p>\n<h2>A split sauce can sometimes be repaired, but curds are harder to reverse</h2>\n<p>If the sauce is merely greasy or slightly separated, remove it from the heat and whisk in a spoonful of cool cream, water or stock. An immersion blender can re-emulsify some sauces. If the proteins have formed obvious firm curds, blending may smooth the appearance but cannot truly return them to their original state. Straining can salvage a sauce for some uses. Prevention is easier: keep the heat moderate, choose a higher-fat cream for acidic sauces and add sharp acids near the end.</p>\n<p>Before trying to rescue the pan, identify what actually broke. Fine grainy particles point more strongly to protein curdling, while clear beads or a slick of fat suggest that the emulsion has separated. Cooling and vigorous whisking can sometimes bring dispersed fat back together, but it will not undo firm protein aggregates. That distinction explains why adding more heat to “melt the lumps” often makes a curdled sauce worse rather than smoother.</p><p>Cheese and cultured dairy introduce another variable. Sour cream, yogurt and crème fraîche already have lower pH than sweet cream, but some are stabilized by higher fat or by their protein structure and can behave well when treated gently. Low-fat yogurt is particularly prone to graininess if boiled. Let cultured dairy warm slightly, stir some hot sauce into it first, then add it over low heat. If a recipe depends on lemon or vinegar for brightness, adding part of the acid after the pan leaves the burner can preserve both flavor and smoothness.</p><p>Salt is usually a secondary factor, but very concentrated salty mixtures can affect protein interactions. The safer workflow is to season progressively instead of reducing a salty sauce hard after the cream has been added. Taste near the end and correct then.</p><p>Think of cream sauce as a balance between protein, fat, water, acid and heat. <strong>Curdling happens when that balance moves too quickly toward protein aggregation or fat separation.</strong> Build the sauce in stages and avoid a hard boil after the dairy goes in.</p>",
+  "faq": [
+    {
+      "question": "Why does cream split in an acidic sauce?",
+      "answer": "Acid lowers protein stability, and high heat speeds aggregation; a concentrated splash of lemon, wine or tomato can trigger curds."
+    },
+    {
+      "question": "Is heavy cream less likely to curdle?",
+      "answer": "Generally yes. Higher-fat cream is more tolerant of heat and acid than milk or light cream."
+    },
+    {
+      "question": "Can a split cream sauce be fixed?",
+      "answer": "A slightly greasy split can often be whisked off heat with cool cream, water or stock. Firm protein curds are harder to reverse."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Tetra Pak — The chemistry of milk",
+      "url": "https://dairyprocessinghandbook.tetrapak.com/chapter/chemistry-milk",
+      "note": "Background on casein, whey proteins, pH and heat stability."
+    },
+    {
+      "name": "University of Guelph — Dairy Science and Technology Education",
+      "url": "https://books.lib.uoguelph.ca/dairyscienceandtechnologyebook/",
+      "note": "Reference on dairy composition, processing and protein behavior."
+    }
+  ],
+  "image": {
+    "concept": "Clean editorial kitchen photograph illustrating why cream curdles when you cook a sauce, with the relevant food and cooking process clearly visible, natural light, no text.",
+    "alt": "Why Cream Curdles When You Cook a Sauce"
+  },
+  "status": "publish"
+}
