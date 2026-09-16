@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Print exact audit word counts
+      - name: Write exact audit diagnostics
         run: |
-          python3 - <<'PY'
+          python3 - <<'PY' > diagnostic-1016-1035.txt
           import html, json, re
           from pathlib import Path
           ids = [1016, 1019, 1020, 1021, 1022, 1028]
@@ -36,3 +36,9 @@ jobs:
                   bad=[p for p in ['deliberadamente','deliberately'] if p in text.lower()]
                   print(lang,n,word_count(text),'forbidden='+(','.join(bad) if bad else 'none'))
           PY
+          cat diagnostic-1016-1035.txt
+      - name: Upload diagnostics
+        uses: actions/upload-artifact@v4
+        with:
+          name: diagnostic-1016-1035
+          path: diagnostic-1016-1035.txt
