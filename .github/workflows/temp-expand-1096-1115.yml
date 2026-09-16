@@ -1,0 +1,38 @@
+name: Temp editorial floor 1096-1115
+
+on:
+  push:
+    branches:
+      - tmp-editorial-floor-1096-1115
+
+permissions:
+  contents: write
+
+jobs:
+  expand:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Expand only short article versions
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          p = Path('content/tools/temp_expand_1096_1115.py')
+          s = p.read_text(encoding='utf-8')
+          s = s.replace(r'\\b', r'\b').replace(r'\\s', r'\s').replace(r'\\W', r'\W')
+          p.write_text(s, encoding='utf-8')
+          PY
+          python3 content/tools/temp_expand_1096_1115.py
+      - name: Commit expanded articles
+        run: |
+          if git diff --quiet -- content/articles; then
+            echo "No article changes required"
+            exit 0
+          fi
+          git config user.name "tostis005"
+          git config user.email "tostis005@gmail.com"
+          git add content/articles/es content/articles/en
+          git commit -m "Raise articles 1096-1115 to editorial floor"
+          git push origin HEAD:tmp-editorial-floor-1096-1115
