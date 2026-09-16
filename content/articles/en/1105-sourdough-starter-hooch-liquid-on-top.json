@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1105-sourdough-starter-hooch-liquid-on-top",
+  "article_number": 1105,
+  "translation_group": "1105-sourdough-starter-hooch-liquid-on-top",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; sourdough hooch explained as a sign of an underfed starter and separated from mold or pink/orange contamination.",
+  "title": "Liquid on Top of Sourdough Starter: What Hooch Is and What It Means",
+  "slug": "sourdough-starter-hooch-liquid-on-top",
+  "seo": {
+    "title": "Sourdough Starter Hooch: What the Liquid Means",
+    "meta_description": "A gray, brown, or clear liquid on neglected sourdough starter is often hooch: alcohol and water produced during fermentation. It usually means the starter is hungry and needs feeding.",
+    "search_intent": "Identify liquid on sourdough starter, understand why hooch forms, and know when a starter can be fed versus discarded."
+  },
+  "excerpt": "The liquid that collects on an unfed sourdough starter is often hooch, a mixture rich in water and fermentation alcohol. It usually means the culture has exhausted much of its available food. Regular feedings can revive it unless there is mold, pink or orange discoloration, or putrid spoilage.",
+  "taxonomy": {
+    "food_family": "bread-fermentation",
+    "food_subcategories": ["sourdough","starter","hooch"],
+    "article_types": ["fermentation","baking-science"],
+    "primary_article_type": "fermentation"
+  },
+  "content_html": "<p><strong>A layer of clear, gray, brown, or even very dark liquid on top of a neglected sourdough starter is often hooch, a liquid containing water and alcohol produced during fermentation.</strong> It usually appears when the yeast and bacteria have consumed much of the readily available food and the starter has gone a long time without a feeding.</p><p>Hooch is not the same as mold. King Arthur Baking's sourdough guidance says dark liquid can be normal on an underfed starter and that regular feeding can restore the culture. Pink or orange streaks, visible fuzzy mold, or a putrid smell are different warning signs.</p><h2>Hooch forms when the culture runs short of fresh flour</h2><p>A sourdough starter is a living ecosystem of yeasts and acid-producing bacteria in hydrated flour. Enzymes release sugars from starch, the microbes consume those sugars, and fermentation produces carbon dioxide, acids, aroma compounds, and alcohol.</p><p>After the starter peaks and sits unfed, the easy food supply declines. Gas production slows and the mixture can separate. Liquid accumulates on the surface or sometimes in a middle layer, especially in a high-hydration starter stored for a long time.</p><p>The longer the neglect, the darker the liquid can become. That color alone does not necessarily mean the starter is dead. A refrigerated starter forgotten for weeks may look dramatically separated yet recover after repeated feedings.</p><h2>You can stir the hooch in or pour it off before feeding</h2><p>Both approaches are used successfully. Stirring it back retains the acidic and alcoholic liquid and may give the starter a sharper aroma initially. Pouring it off reduces that concentrated flavor before you keep a small portion and feed it with fresh flour and water.</p><p>The important step is not the choice between stirring and pouring but restoring a regular feeding schedule. Keep a modest amount of starter, add flour and water in the ratio your maintenance method uses, and let it ferment at an appropriate room temperature until activity returns.</p><p>A severely neglected culture may need several feedings before it reliably rises. Judge recovery by repeated expansion, bubbles, and a clean sour or yeasty aroma rather than expecting one meal to erase weeks of neglect.</p><h2>Hooch and mold look very different</h2><p>Hooch is liquid. It may be transparent, smoky gray, brown, or almost black and usually lies as a smooth layer. Mold produces colonies with texture: fuzzy, hairy, powdery, or raised spots. Unusual pink or orange color in the starter itself is another discard sign in common sourdough guidance.</p><p>Odor needs context too. Alcohol, vinegar, and even a mild nail-polish-remover note can occur in a very hungry starter. A genuinely rotten, putrid, or garbage-like smell suggests contamination rather than ordinary hunger.</p><p>If mold is visible, or the culture has pink or orange growth, do not scrape off the top and continue. Discard the starter and clean the container before starting again.</p><h2>Prevent hooch by matching the feeding schedule to storage temperature</h2><p>A starter kept at room temperature consumes food much faster than one held in the refrigerator. Frequent bakers may feed daily or according to the starter's rise-and-fall cycle, while occasional bakers often refrigerate the culture and refresh it before baking.</p><p>Use the starter's behavior rather than the clock alone. When it has risen, peaked, and begun to collapse, it is moving toward hunger. Feeding before long neglect keeps the microbial population vigorous and reduces dramatic separation.</p><p><strong>Hooch is mainly a message about maintenance: the starter has run low on food.</strong> Feed it and watch how it responds. Reserve discarding for true spoilage signs such as mold, pink or orange contamination, or a putrid odor rather than for a simple layer of fermentation liquid.</p>",
+  "faq": [
+    {"question":"Is sourdough hooch dangerous?","answer":"Hooch on an otherwise normal starter is generally a sign of hunger, not spoilage. Mold, pink or orange growth, or putrid odor are different."},
+    {"question":"Should I pour off hooch or stir it in?","answer":"Either can work. The important step is feeding the starter with fresh flour and water and restoring regular maintenance."},
+    {"question":"Can a starter with black liquid be revived?","answer":"Often yes. Very dark hooch can appear after long refrigeration, and several regular feedings may bring the starter back to vigorous activity."}
+  ],
+  "sources": [
+    {"name":"King Arthur Baking — Black liquid on top of sourdough starter is totally fine","url":"https://www.kingarthurbaking.com/blog/2023/08/28/liquid-on-top-of-sourdough-starter","note":"Explains hooch as alcohol and water from an underfed starter and describes revival by repeated feeding."},
+    {"name":"King Arthur Baking — Sourdough Baking FAQ","url":"https://www.kingarthurbaking.com/learn/guides/sourdough/faq","note":"Distinguishes recoverable neglected starter from mold, pink or orange discoloration, and other discard signs."}
+  ],
+  "image": {
+    "concept": "Glass jar of neglected sourdough starter with a distinct gray-brown liquid hooch layer on top and bubbles visible below, realistic baking photography, no text.",
+    "alt": "Gray-brown hooch liquid sitting on top of sourdough starter"
+  },
+  "status": "publish"
+}

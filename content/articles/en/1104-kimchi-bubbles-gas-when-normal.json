@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1104-kimchi-bubbles-gas-when-normal",
+  "article_number": 1104,
+  "translation_group": "1104-kimchi-bubbles-gas-when-normal",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; gas in kimchi explained as normal lactic fermentation while separating it from packaging damage or spoilage signs.",
+  "title": "Kimchi With Bubbles or Gas When Opened: When Fermentation Is Normal",
+  "slug": "kimchi-bubbles-gas-when-normal",
+  "seo": {
+    "title": "Kimchi Bubbling or Hissing: Is the Gas Normal?",
+    "meta_description": "Bubbles, fizz, or a hiss can be normal in active kimchi because lactic fermentation produces carbon dioxide. Rotten odor, mold, slime, or compromised packaging are separate warnings.",
+    "search_intent": "Understand why kimchi can fizz or release gas and distinguish active fermentation from abnormal spoilage or package problems."
+  },
+  "excerpt": "Kimchi can bubble, hiss, or push liquid upward because its lactic acid bacteria continue fermenting sugars and produce carbon dioxide. Mild pressure and sour aroma can be normal, especially in young kimchi, but mold, putrid odor, or damaged packaging are different signals.",
+  "taxonomy": {
+    "food_family": "fermented-vegetables",
+    "food_subcategories": ["kimchi","carbon-dioxide","fermentation"],
+    "article_types": ["fermentation","food-science"],
+    "primary_article_type": "fermentation"
+  },
+  "content_html": "<p><strong>Kimchi can hiss, fizz, form bubbles, or push brine toward the lid because fermentation produces carbon dioxide.</strong> The vegetables contain sugars that lactic acid bacteria metabolize while producing acids, aroma compounds, and gas. In a young or actively fermenting batch, that activity is expected.</p><p>Cold storage slows fermentation but does not always stop it completely. A refrigerated jar can therefore build some pressure between openings, especially if it was packed tightly or warmed during transport. Gas alone is not the same thing as spoilage.</p><h2>Carbon dioxide is a normal product of vegetable fermentation</h2><p>Kimchi fermentation involves a changing community of lactic acid bacteria. As they consume available carbohydrates, acidity increases and the flavor moves from fresh and salty toward tangy and complex. Gas bubbles can become trapped between cabbage leaves, radish pieces, and thick seasoning paste.</p><p>The same principle is visible in sauerkraut and fermented pickles. Extension guidance for vegetable fermentation treats slowly rising bubbles as one sign that normal fermentation is underway. The exact amount varies with recipe, temperature, sugar content, salt concentration, and how far fermentation has progressed.</p><p>Warmer conditions accelerate microbial activity, so kimchi left briefly at room temperature to mature usually becomes more bubbly than the same jar kept continuously cold. Refrigeration then slows the process and helps maintain the preferred stage of sourness.</p><h2>A hiss on opening does not automatically mean the jar is unsafe</h2><p>When carbon dioxide accumulates in the headspace, opening the lid releases pressure and can produce a clear hiss. Tiny bubbles may rise immediately and liquid can foam around the vegetables. Commercial refrigerated kimchi may also continue fermenting after packaging unless the product has been heat-treated or otherwise stabilized.</p><p>Open a very active jar over a sink or plate and loosen the lid gradually so brine does not spray. Keep the product refrigerated as directed on the label. Do not leave the jar tightly sealed at warm room temperature for long periods unless a tested recipe specifically calls for that fermentation step.</p><p>A slightly domed flexible lid on a refrigerated ferment can result from gas, but a badly swollen, leaking, cracked, or otherwise compromised package deserves more caution. Packaging condition and product instructions matter.</p><h2>Normal sourness is different from rotten odor or visible mold</h2><p>Kimchi is supposed to smell strong, sour, garlicky, and fermented, so judging it by intensity alone can be misleading. A familiar acidic aroma is not the same as putrid, fecal, or otherwise unmistakably rotten odor that develops with deterioration.</p><p>Dry fuzzy patches on the surface, unusual colored mold, extensive slime unrelated to the natural sauce, or obvious decomposition are reasons not to keep tasting. Fermented foods resist many pathogens because of their acidity, but they are not immune to contamination when ingredients, salt, temperature, or handling are poor.</p><p>For homemade kimchi, use a research-based recipe and clean equipment. Keep vegetables in contact with their brine or seasoning and allow gas to escape in the manner the recipe specifies.</p><h2>Fermentation continues to change kimchi after the first bubbles appear</h2><p>Freshly made kimchi can taste crisp and vegetable-forward. As fermentation continues, acidity rises, texture gradually softens, and aroma deepens. A jar that bubbles strongly one week may become quieter later because readily available sugars decline and refrigeration slows microbial activity.</p><p>That change does not mean the culture died suddenly or that a quiet jar is spoiled. Sensory development is gradual. Many people prefer different stages for different dishes: younger kimchi for eating raw and older, more sour kimchi for stews or fried rice.</p><p><strong>Bubbles and gas are therefore usually signs of an active ferment, not an alarm by themselves.</strong> Treat pressure as normal when the kimchi was made and stored correctly and the product looks and smells like a healthy ferment; treat mold, rotten odor, leakage, or uncontrolled storage as separate reasons for caution.</p>",
+  "faq": [
+    {"question":"Why does my kimchi hiss when I open it?","answer":"Carbon dioxide produced by ongoing fermentation can accumulate in the jar and escape with a hiss when the lid is opened."},
+    {"question":"Is fizzy kimchi spoiled?","answer":"Not necessarily. Mild fizz and bubbles can be normal in active kimchi. Mold, rotten odor, severe slime, or compromised packaging are more concerning."},
+    {"question":"Does refrigeration stop kimchi fermentation?","answer":"It slows fermentation substantially but may not stop it completely, so some gas and continued souring can still occur."}
+  ],
+  "sources": [
+    {"name":"UC Davis — The Lowdown on Home Food Fermentation","url":"https://caes.ucdavis.edu/news/lowdown-home-food-fermentation","note":"Describes rising bubbles as a normal sign to monitor during vegetable fermentation and emphasizes tested recipes and sanitation."},
+    {"name":"Colorado State University Extension — Understanding and Making Sauerkraut","url":"https://extension.colostate.edu/resource/understanding-and-making-sauerkraut/","note":"Explains lactic fermentation of vegetables and carbon dioxide production as the source of early bubbles."}
+  ],
+  "image": {
+    "concept": "Open glass jar of refrigerated kimchi with tiny fermentation bubbles rising through the red brine and a slight fizz around cabbage pieces, realistic food photography, no text.",
+    "alt": "Fermentation bubbles rising in a jar of kimchi"
+  },
+  "status": "publish"
+}

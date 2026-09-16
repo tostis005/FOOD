@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1103-white-film-on-sauerkraut-what-it-is",
+  "article_number": 1103,
+  "translation_group": "1103-white-film-on-sauerkraut-what-it-is",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; sauerkraut surface yeast explained within research-based home fermentation guidance.",
+  "title": "White Film on Sauerkraut: What It Is and When to Throw It Away",
+  "slug": "white-film-on-sauerkraut-what-it-is",
+  "seo": {
+    "title": "White Film on Sauerkraut: Yeast, Mold, or Spoilage?",
+    "meta_description": "A flat white or pinkish yeast scum can appear during sauerkraut fermentation and may be removed. Fuzzy mold, slime, rotten odor, or failed fermentation are more concerning.",
+    "search_intent": "Identify white surface film on fermenting sauerkraut and know when it can be removed versus when the batch should be discarded."
+  },
+  "excerpt": "A thin white or pinkish film can develop on sauerkraut where the brine meets air. Extension guidance identifies this as surface yeast scum that can be removed in an otherwise healthy ferment, while fuzzy mold, slime, or rotten odor call for more caution.",
+  "taxonomy": {
+    "food_family": "fermented-vegetables",
+    "food_subcategories": ["sauerkraut","surface-yeast","fermentation"],
+    "article_types": ["fermentation","food-safety-explainer"],
+    "primary_article_type": "food-safety-explainer"
+  },
+  "content_html": "<p><strong>A thin white film on fermenting sauerkraut is often a surface yeast scum rather than evidence that the entire batch has spoiled.</strong> Colorado State University Extension notes that white or pink yeast scum can appear during sauerkraut fermentation and can be removed while the kraut underneath remains edible.</p><p>The reassuring scenario is a properly salted, actively fermenting batch with cabbage held below the brine and no slime or rotten odor. A fuzzy colony, extensive colored growth, or a batch that smells putrid is a different situation and should not be explained away as harmless yeast.</p><h2>The surface is the part most exposed to oxygen</h2><p>Sauerkraut fermentation is driven by lactic acid bacteria naturally associated with cabbage. These organisms convert cabbage sugars into acids, lowering pH and creating the familiar sour flavor. Carbon dioxide produced during the early stages can make bubbles rise through the jar.</p><p>Below the brine, the environment favors the desired fermentation. At the air-liquid boundary, oxygen is more available and surface yeasts can establish themselves. A bit of cabbage floating above the liquid gives them even more material to colonize.</p><p>The film may look white, cream, gray, or faintly pink and can spread as a thin sheet. Skimming it off and restoring full submersion helps preserve flavor and keeps the surface from becoming dominated by unwanted organisms.</p><h2>Yeast film is not the same as fuzzy mold</h2><p>Yeast scum usually lies flat. Mold more often grows as distinct raised colonies with fuzzy or powdery texture and may develop green, blue, black, or other strong colors. The difference is sometimes obvious in person but less clear in a photograph.</p><p>Guidance is also process-specific. CSU's tested sauerkraut method explicitly allows removal of white or pink yeast scum. Penn State guidance is more conservative about visible mold or yeast in a finished ferment and advises not tasting batches with mold, slime, or bad odor. Following the instructions attached to the recipe you actually used is safer than mixing rules from unrelated fermenting methods.</p><p>If you did not use a tested salt ratio or the cabbage remained exposed for a long period, a small white film cannot prove that the underlying product is safe. Process control matters as much as appearance.</p><h2>Texture and odor help reveal when the fermentation has gone wrong</h2><p>Proper sauerkraut becomes acidic and stays reasonably firm. If it turns slimy, excessively soft, or develops a clearly spoiled or rotten smell, discard it. Those changes suggest a broader microbial problem rather than a superficial film.</p><p>Temperature matters too. Standard extension guidance ferments sauerkraut around 70 to 75°F (21 to 23°C); excessive warmth can cause softening and spoilage, while temperatures that are too low may prevent normal fermentation. Salt concentration should not be reduced casually because it helps control which microorganisms grow.</p><p>Do not use tasting as the first test when the batch already looks or smells unsafe. A successful ferment should not require you to talk yourself past obvious warning signs.</p><h2>Submersion and clean handling prevent most surface problems</h2><p>Pack the cabbage tightly enough to draw out brine, use a clean weight to keep solids below the liquid, and cover the container according to a research-based recipe. Minimize unnecessary opening and use clean utensils when checking the batch.</p><p>If a removable yeast film appears in an otherwise normal ferment, skim it with a clean utensil, clean the exposed parts of the vessel, and restore the cabbage beneath the brine. Once the kraut reaches the acidity and flavor you want, refrigerate or preserve it according to the tested method.</p><p><strong>A white film does not have one universal meaning.</strong> In a well-controlled sauerkraut fermentation it can be removable surface yeast. Fuzzy mold, slime, rotten odor, failed acidification, or poor process control shift the answer toward discarding rather than rescuing the batch.</p>",
+  "faq": [
+    {"question":"Can white film on sauerkraut be normal?","answer":"Yes. A thin surface yeast scum can occur during fermentation and some extension recipes say it can be removed from an otherwise healthy batch."},
+    {"question":"How is mold different from yeast film?","answer":"Surface yeast is usually flat and film-like; mold more often forms raised fuzzy or powdery colonies, sometimes with strong colors."},
+    {"question":"When should sauerkraut be discarded?","answer":"Discard it if it is slimy, rotten-smelling, extensively moldy, or if the fermentation process and acidity cannot be trusted."}
+  ],
+  "sources": [
+    {"name":"Colorado State University Extension — Understanding and Making Sauerkraut","url":"https://extension.colostate.edu/resource/understanding-and-making-sauerkraut/","note":"Explains normal fermentation, carbon dioxide bubbles, and removable white or pink yeast scum."},
+    {"name":"Penn State Extension — Let's Preserve: Fermentation, Sauerkraut and Pickles","url":"https://extension.psu.edu/lets-preserve-fermentation-sauerkraut-and-pickles","note":"Provides tested salt, temperature, submersion, and spoilage guidance for sauerkraut."}
+  ],
+  "image": {
+    "concept": "Glass jar of fermenting sauerkraut with cabbage submerged under brine and a thin pale surface film being skimmed with a clean spoon, realistic food preservation photography, no text.",
+    "alt": "Thin white surface film on fermenting sauerkraut"
+  },
+  "status": "publish"
+}

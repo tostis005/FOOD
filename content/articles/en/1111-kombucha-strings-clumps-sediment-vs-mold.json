@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1111-kombucha-strings-clumps-sediment-vs-mold",
+  "article_number": 1111,
+  "translation_group": "1111-kombucha-strings-clumps-sediment-vs-mold",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; normal SCOBY strands and sediment distinguished from fuzzy surface mold in kombucha.",
+  "title": "Kombucha With Strings, Clumps, or Sediment: What Is Normal and What Could Be Mold?",
+  "slug": "kombucha-strings-clumps-sediment-vs-mold",
+  "seo": {
+    "title": "Kombucha Strings and Sediment vs. Mold: What Is Normal",
+    "meta_description": "Brown strings, soft blobs, sediment, and a smooth new SCOBY layer can be normal in kombucha. Dry fuzzy patches on the surface are mold and the batch should be discarded.",
+    "search_intent": "Identify unusual strings, clumps, sediment, and surface growth in kombucha and distinguish normal fermentation structures from mold."
+  },
+  "excerpt": "Stringy brown material, soft gelatinous clumps, sediment, and a smooth new pellicle can all occur during normal kombucha fermentation. Mold looks different: dry, fuzzy, raised patches on the surface, often white or colored, are a discard sign.",
+  "taxonomy": {
+    "food_family": "fermented-beverages",
+    "food_subcategories": ["kombucha","scoby","mold"],
+    "article_types": ["fermentation","food-safety-explainer"],
+    "primary_article_type": "food-safety-explainer"
+  },
+  "content_html": "<p><strong>Strings, soft brown clumps, cloudy sediment, and a smooth gelatinous layer can all be normal in kombucha because the drink contains living yeasts and bacteria that grow, settle, and build cellulose during fermentation.</strong> University of Florida food-science guidance notes that stringy material floating in kombucha is probably part of the SCOBY, the symbiotic culture of bacteria and yeast used to make the drink.</p><p>Mold has a different appearance. University of Georgia Extension advises discarding the kombucha and SCOBY if dry, fuzzy white or colored patches appear on the SCOBY or liquid surface. That distinction matters because normal fermentation can look messy without being spoiled.</p><h2>Yeast strands and sediment are expected in an active ferment</h2><p>Yeasts in the culture consume sugar and produce ethanol and carbon dioxide. Bacteria then transform some of the fermentation products into acids. As cells reproduce, some remain suspended while others settle to the bottom or collect in brown strands attached to the SCOBY.</p><p>Those strands can look like wispy threads, jellyfish tentacles, or brown ribbons hanging below the surface layer. Sediment may form a tan or brown layer at the bottom of the jar. Neither appearance is surprising in an unfiltered home brew because the culture itself contains microbial cells and tea particles.</p><p>Commercial kombucha may be filtered more heavily, so people accustomed to a clear bottled drink can be startled by a home ferment. A bottle that says it contains live cultures can also develop more sediment during refrigerated storage as yeast settles out.</p><h2>A new SCOBY layer can look strange while it is forming</h2><p>The rubbery disc people call the SCOBY is largely a cellulose-rich pellicle built by bacteria at the air-liquid interface. A fresh layer often begins as a thin translucent film and becomes thicker, cream-colored, tan, or uneven as fermentation continues.</p><p>Bubbles can become trapped under the film and make bumps. Brown yeast strings may stick to the underside. If the jar was moved, the pellicle can sink and a new one can start at the surface. Multiple layers therefore do not mean multiple contaminants have invaded the brew.</p><p>A healthy pellicle is moist and smooth or rubbery rather than dry and hairy. It may not look attractive, but its shape reflects where oxygen was available while bacteria were producing cellulose.</p><h2>Mold grows as dry fuzzy colonies at the surface</h2><p>UGA Extension gives a much clearer warning sign: dry, fuzzy patches on the SCOBY or kombucha surface, whether white or colored, indicate mold. Mold needs oxygen, so it normally establishes at the top rather than as submerged stringy material.</p><p>Colonies may start as small circular spots and become green, blue, black, white, or another color as they mature. Texture is important because early pale mold can be confused with a new pellicle in photographs. A smooth wet film is different from a dry powdery or hairy patch rising above the liquid.</p><p>If mold is present, do not skim it off and continue. UGA advises discarding both the tea and SCOBY, then thoroughly cleaning and sanitizing the vessel. The visible colony is not a reliable map of how far fungal growth or metabolites may have spread.</p><h2>Process history helps when appearance is ambiguous</h2><p>Use a tested kombucha method, clean equipment, an appropriate amount of acidic starter liquid, and the temperature range specified by the recipe. UGA emphasizes that sufficient acidity is one of the factors that discourages harmful bacterial growth and mold during normal fermentation.</p><p>Normal kombucha should become increasingly tart and may produce carbonation. Strong acidity, yeast aroma, and visible strands can all belong to a healthy culture. A putrid smell, unexpected fuzzy growth, contamination from dirty equipment, or a process that never acidified deserves more caution.</p><p><strong>The useful visual rule is submerged strings and smooth wet cellulose versus dry fuzzy surface colonies.</strong> Strings, clumps, and sediment are often ordinary parts of the SCOBY ecosystem. Mold is a reason to discard the batch rather than trying to rescue it.</p>",
+  "faq": [
+    {"question":"What are the brown strings floating in kombucha?","answer":"They are commonly yeast-rich material or strands associated with the SCOBY and can be normal during fermentation."},
+    {"question":"Is sediment at the bottom of kombucha normal?","answer":"Yes. Yeast cells, tea particles, and other fermentation solids can settle at the bottom, especially in unfiltered kombucha."},
+    {"question":"What does kombucha mold look like?","answer":"Mold is more likely to appear as dry, fuzzy, raised white or colored patches on the surface. If mold is present, discard the kombucha and SCOBY."}
+  ],
+  "sources": [
+    {"name":"University of Georgia Cooperative Extension — What’s the Word on Homemade Kombucha?","url":"https://extension.uga.edu/publications/detail.html?number=C1312","note":"Explains kombucha safety and identifies dry fuzzy white or colored surface patches as mold requiring disposal."},
+    {"name":"University of Florida IFAS — Food scientist explains kombucha’s growing appeal","url":"https://blogs.ifas.ufl.edu/news/2022/06/28/food-scientist-explains-kombuchas-growing-appeal-how-its-made/","note":"Explains that stringy material in kombucha is probably from the SCOBY and describes fermentation products including carbon dioxide."}
+  ],
+  "image": {
+    "concept": "Glass kombucha jar showing normal brown SCOBY strings, sediment, and a smooth pale pellicle beside a separate example with clearly dry fuzzy mold patches, realistic food-safety photography, no text.",
+    "alt": "Normal kombucha SCOBY strands and sediment compared with fuzzy surface mold"
+  },
+  "status": "publish"
+}

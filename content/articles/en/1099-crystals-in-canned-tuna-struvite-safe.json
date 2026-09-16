@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1099-crystals-in-canned-tuna-struvite-safe",
+  "article_number": 1099,
+  "translation_group": "1099-crystals-in-canned-tuna-struvite-safe",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; struvite crystals in commercially canned seafood distinguished from foreign glass and can damage.",
+  "title": "Clear Crystals in Canned Tuna: What They Are and Whether They Are Safe",
+  "slug": "crystals-in-canned-tuna-struvite-safe",
+  "seo": {
+    "title": "Clear Crystals in Canned Tuna: Struvite or Glass?",
+    "meta_description": "Glass-like crystals in canned tuna can be struvite, harmless magnesium ammonium phosphate formed from natural seafood constituents during canning. If unsure it is not glass, report it.",
+    "search_intent": "Identify transparent crystals in canned tuna and distinguish harmless struvite from a possible foreign object."
+  },
+  "excerpt": "Transparent, glass-like crystals occasionally found in canned tuna can be struvite, a harmless mineral made of magnesium ammonium phosphate. It forms from natural constituents of seafood during commercial canning and is not the same as broken glass.",
+  "taxonomy": {
+    "food_family": "fish",
+    "food_subcategories": ["canned-tuna","struvite","canned-food"],
+    "article_types": ["food-science","food-safety-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Clear or translucent crystals in canned tuna can be struvite, a harmless compound of magnesium ammonium phosphate that sometimes forms in commercially canned fish and shellfish.</strong> USDA food-safety information, citing FDA, specifically notes that these glass-like crystals pose no danger to consumers.</p><p>The appearance is alarming because struvite can be transparent, hard-looking, and angular. It is still important not to assume every unknown fragment is struvite. If you cannot confidently distinguish the material from glass or plastic, stop eating the product and contact the manufacturer or food-safety authority.</p><h2>Struvite forms from minerals naturally present in seafood</h2><p>Fish tissue contains magnesium, phosphate, and nitrogen-containing compounds. Under the heat and chemical conditions of commercial canning, these constituents can combine into magnesium ammonium phosphate crystals. Tuna is one of several canned seafood products in which the phenomenon has been documented.</p><p>The crystals are not added intentionally as pieces. They precipitate after or during processing when the right concentrations and conditions occur. U.S. canned-tuna regulations even allow a limited amount of sodium acid pyrophosphate to inhibit struvite development, which shows that the phenomenon is a recognized processing issue rather than an unknown contamination.</p><p>Finding struvite says little about mercury content, freshness before canning, or the species of tuna. It is a mineral-chemistry event inside a heat-processed product.</p><h2>Why struvite can be mistaken for broken glass</h2><p>Both materials can look colorless and shiny. The Canadian Food Inspection Agency notes that struvite tends to have smoother edges than broken glass and is softer. It can often be crushed into smaller crystals or powder, whereas glass is much harder.</p><p>Struvite also dissolves in warm acid such as vinegar or lemon juice. That property is sometimes used as a simple identification clue because ordinary glass will not dissolve the same way. However, a consumer should not feel obligated to conduct a home forensic test on an unknown sharp object.</p><p>If the fragment is extremely hard, has irregular razor-like edges, does not behave like a mineral crystal, or you simply remain uncertain, preserve the can, lot information, and object and contact the producer or relevant authority rather than eating around it.</p><h2>Struvite is harmless, but a damaged can is a different problem</h2><p>The presence of genuine struvite is not a reason to discard an otherwise normal commercial can. Your stomach acid can dissolve the mineral, and food-safety agencies do not consider it a toxic hazard.</p><p>By contrast, cans that are bulging, leaking, badly rusted, or deeply dented around seams raise different safety concerns. Do not use the existence of harmless crystals to reassure yourself about compromised packaging. Struvite chemistry and container integrity are separate questions.</p><p>Similarly, an off odor, spurting liquid, or other obvious abnormality after opening should not be ignored. Commercial canning is designed to make shelf-stable food safe, but visibly damaged containers should be handled according to official canned-food guidance.</p><h2>What to do if you find a crystal in tuna</h2><p>First, stop chewing until you know what you found. Examine the fragment without putting yourself at risk of a cut. If it is a small smoothish crystal typical of struvite and the can is otherwise normal, official guidance considers struvite safe.</p><p>If identification is uncertain, take a photo, retain the packaging and lot code, and contact the manufacturer. A genuine foreign object should be investigated, and the company can often identify whether its process has a known history of mineral crystals.</p><p><strong>The useful distinction is not simply crystal versus no crystal, but struvite versus an unidentified foreign material.</strong> Struvite is a recognized, harmless mineral in canned seafood. Something that might actually be glass deserves a cautious response rather than an assumption.</p>",
+  "faq": [
+    {"question":"Are crystals in canned tuna dangerous?","answer":"If they are struvite, no. Struvite is magnesium ammonium phosphate and food-safety agencies consider it harmless."},
+    {"question":"Why does struvite form in tuna?","answer":"Natural magnesium, phosphate, and nitrogen-containing compounds in seafood can combine into crystals during or after commercial canning."},
+    {"question":"What if I cannot tell whether the crystal is glass?","answer":"Do not keep eating it. Save the can and lot information and contact the manufacturer or food-safety authority for guidance."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — Shelf-Stable Food Safety","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/shelf-stable-food","note":"States that glass-like struvite crystals in canned seafood are magnesium ammonium phosphate and pose no danger."},
+    {"name":"Canadian Food Inspection Agency — Glass in canned fish (struvite)","url":"https://inspection.canada.ca/en/food-safety-consumers/fact-sheets/specific-products-and-risks/commonly-occurring-issues-food/struvite","note":"Explains formation, safety, and physical clues that distinguish struvite from glass."}
+  ],
+  "image": {
+    "concept": "Open can of tuna on a clean counter with a few small translucent struvite crystals visible beside the fish, macro realistic food photography, no text.",
+    "alt": "Small transparent struvite crystals found in canned tuna"
+  },
+  "status": "publish"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1109-why-coffee-beans-look-shiny-oily",
+  "article_number": 1109,
+  "translation_group": "1109-why-coffee-beans-look-shiny-oily",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; surface oil on roasted coffee explained by roast degree and aging rather than treated as an automatic spoilage sign.",
+  "title": "Why Some Coffee Beans Look Shiny or Oily, and Whether It Means They Are Bad",
+  "slug": "why-coffee-beans-look-shiny-oily",
+  "seo": {
+    "title": "Why Coffee Beans Look Oily or Shiny",
+    "meta_description": "Dark roasting can bring coffee oils to the bean surface, creating a glossy appearance. Oil alone does not mean the coffee is spoiled, but exposed oil oxidizes and can become stale or rancid.",
+    "search_intent": "Understand why roasted coffee beans become oily and distinguish roast-related shine from aging and rancidity."
+  },
+  "excerpt": "Shiny coffee beans are usually showing their own oils at the surface. Dark roasting breaks down the cellular structure enough for lipids to migrate outward, while time after roasting can make the coating more visible. The shine itself is not proof of spoilage.",
+  "taxonomy": {
+    "food_family": "coffee",
+    "food_subcategories": ["coffee-beans","roasting","freshness"],
+    "article_types": ["food-science","ingredient-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Coffee beans often look shiny because natural coffee oils have migrated to the surface, especially in darker roasts.</strong> The Coffee Association of Canada describes light and medium roasts as generally dry at the surface while dark roasts can become glossy or visibly oily as roasting progresses.</p><p>That sheen does not automatically mean the beans are spoiled. Roast level, time since roasting, storage temperature, and oxygen exposure all influence what you see. The more useful freshness question is how the coffee smells and tastes and how well it was packaged.</p><h2>Roasting changes the bean's porous cellular structure</h2><p>Green coffee contains lipids inside its cells. During roasting, heat drives off water, generates gas, expands the bean, and changes the walls that once held those oils within the structure. The deeper the roast, the more extensive those physical and chemical changes become.</p><p>In a light roast, most oil remains inside and the surface usually looks matte. As roasting continues into darker levels, internal oil can reach cracks and pores and spread across the exterior. That is why French- or Italian-style beans often look shinier than a pale filter roast even when both are equally fresh.</p><p>Individual beans within one batch may show different amounts of shine because size, density, surface cracks, and roast development are not perfectly identical.</p><h2>Oil may become more visible as roasted coffee ages</h2><p>Freshly roasted coffee releases carbon dioxide rapidly in the first weeks after roasting. At the same time, aromatic compounds change and oils can continue moving toward the surface. A medium-dark coffee that looked mostly dry just after roasting may show more spots later.</p><p>This does not make surface oil a precise roast-date clock. Packaging, storage temperature, bean structure, and degree of roast change the rate. A dark bean can be oily almost immediately, while a lighter coffee may remain dry-looking long after its flavor has faded.</p><p>Visual appearance therefore cannot replace a roast date or good storage information. Matte does not guarantee freshness, and glossy does not prove staleness.</p><h2>The downside is that surface oil is exposed to oxygen</h2><p>Once lipids and aroma compounds sit on the outside of the bean, they have more direct contact with air. The Specialty Coffee Association describes oxygen as a major driver of coffee staling and notes that oxidation can contribute to loss of aroma and development of rancid off-flavors.</p><p>Very oily dark beans can therefore age in a way that becomes obvious in smell: the coffee may lose sweetness and aroma and develop flat, papery, stale, or rancid notes. That is different from the clean glossy appearance of a freshly roasted dark coffee.</p><p>Heat and light can accelerate degradation too. Keep beans in a well-sealed container away from warm appliances and direct sun rather than displaying them in an open transparent hopper for long periods.</p><h2>Oily beans also behave differently in grinders and brewing equipment</h2><p>Surface oil can cling to grinder chutes, hoppers, and burrs and collect fine coffee particles. Dark oily beans may therefore require more frequent equipment cleaning, especially in automatic espresso machines with narrow internal paths.</p><p>The oil itself is not a contaminant, but residues left for a long time can oxidize and contribute stale flavors to later coffee. Follow the machine manufacturer's cleaning instructions rather than trying to remove oil from the beans before grinding.</p><p><strong>Shine is best read as information about roast and surface chemistry, not as a simple good-or-bad test.</strong> Dark beans are often oily by nature. Concern about age when the shine comes with a stale or rancid aroma, poor packaging, or a long unknown storage history.</p>",
+  "faq": [
+    {"question":"Are oily coffee beans spoiled?","answer":"Not necessarily. Dark roasts often show natural coffee oils on the surface even when fresh."},
+    {"question":"Why are light roast beans usually dry?","answer":"Their cellular structure has undergone less severe roasting, so more of the natural lipids remain inside the bean."},
+    {"question":"Do oily beans go stale faster?","answer":"Surface oils are more exposed to oxygen, so oxidation can become noticeable; good airtight storage is especially useful."}
+  ],
+  "sources": [
+    {"name":"Coffee Association of Canada — Roasting","url":"https://coffeeassoc.com/coffee-101/roasting/","note":"Describes dry light and medium roasts versus oily surfaces on darker roast styles."},
+    {"name":"Specialty Coffee Association — What Is the Shelf Life of Roasted Coffee?","url":"https://sca.coffee/sca-news/2012/02/15/what-is-the-shelf-life-of-roasted-coffee-a-literature-review-on-coffee-staling-bjcx7","note":"Reviews oxygen-driven staling, aroma loss, and oxidation-related rancid off-flavors in roasted coffee."}
+  ],
+  "image": {
+    "concept": "Close-up comparison of matte light-roast coffee beans and glossy dark-roast beans with natural surface oil, realistic coffee photography, no text.",
+    "alt": "Glossy oily dark-roast coffee beans beside matte lighter beans"
+  },
+  "status": "publish"
+}

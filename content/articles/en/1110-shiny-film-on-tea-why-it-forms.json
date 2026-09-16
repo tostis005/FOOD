@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1110-shiny-film-on-tea-why-it-forms",
+  "article_number": 1110,
+  "translation_group": "1110-shiny-film-on-tea-why-it-forms",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; tea surface film explained through polyphenol-mineral interactions and water hardness.",
+  "title": "Why a Shiny Film or Skin Forms on Tea",
+  "slug": "shiny-film-on-tea-why-it-forms",
+  "seo": {
+    "title": "Why Tea Gets a Shiny Film on the Surface",
+    "meta_description": "The thin oily-looking film on tea is usually tea scum formed when polyphenols interact with calcium and other ions in water. Hard water makes the effect more noticeable.",
+    "search_intent": "Understand the shiny surface film on brewed tea, why water hardness affects it, and whether it is oil or spoilage."
+  },
+  "excerpt": "The shiny, slightly oily-looking skin that can form on tea is usually not grease. Research shows that tea polyphenols interact with calcium and other minerals in the water to create a very thin surface film, especially when the tea is brewed with hard water.",
+  "taxonomy": {
+    "food_family": "tea",
+    "food_subcategories": ["tea-film","hard-water","polyphenols"],
+    "article_types": ["food-science","beverage-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>The shiny skin that sometimes appears on a cup of tea is usually a surface film created by tea polyphenols interacting with minerals in the water, not a layer of cooking oil.</strong> Modern research on tea film shows that calcium and other ions strongly influence how the layer forms and how tough it becomes.</p><p>The film can look transparent, bronze, rainbow-like, or slightly greasy. If you disturb it with a spoon, it may crack into floating islands. That behavior is characteristic of an interfacial film and explains why it can look surprisingly solid for something only nanometers thick.</p><h2>Hard water supplies minerals that help build the film</h2><p>Tea leaves release polyphenols and many other soluble compounds during brewing. Tap water contributes calcium, magnesium, bicarbonate, and other ions. When those components meet at the air-water interface, some polyphenols form complexes with mineral ions and accumulate at the surface.</p><p>A 2023 Soft Matter study found that water hardness strongly changed the mechanical properties of films formed by black and green tea. Calcium concentration helped explain why hard-water brews produced stronger films than softer water under comparable conditions.</p><p>This is why two people using the same tea bags can see very different surfaces if their tap-water chemistry differs. The leaves are only half of the recipe; the water is an active chemical ingredient.</p><h2>The film is not simply oil floating out of the tea leaves</h2><p>Older explanations sometimes blamed waxes from the leaf surface. More detailed chemical work instead found a matrix rich in oxidized tea compounds with mineral material such as calcium salts. The oily look comes from the way the thin surface layer reflects light.</p><p>The film can trap pigments and become darker as tea sits. Evaporation and cooling also change concentration near the surface, so the layer may become more obvious after the cup has rested for several minutes.</p><p>This is different from the cloudy material called tea cream that can develop within a strong infusion as it cools. A surface skin and internal cloudiness are related to tea chemistry but are not exactly the same phenomenon.</p><h2>Tea type and additions change how visible the layer becomes</h2><p>Green and black teas contain different mixtures and amounts of polyphenols, so they do not make identical films. The 2023 study found differences in film visibility and strength between the two types across different water hardness levels.</p><p>Lemon juice can reduce film strength because acid changes mineral and polyphenol interactions. Milk adds proteins and fat structures that interact with tea compounds in another way, changing the composition and appearance of material that forms at the surface.</p><p>Rooibos behaves differently because it does not have the same tea polyphenol profile. That is another clue that the layer is driven by specific chemistry rather than generic contamination.</p><h2>You can reduce the film by changing the water</h2><p>If the appearance bothers you, brew with softer or filtered water and compare the result. You do not need water with zero minerals; the goal is simply to reduce the high calcium and bicarbonate levels that favor strong scum formation.</p><p>Cleaning kettles and cups also helps prevent accumulated mineral scale from complicating the appearance. A little lemon can weaken the film if its flavor fits the tea. None of these steps are needed for safety when the drink was prepared normally with clean water.</p><p><strong>The glossy layer is therefore a tiny piece of food chemistry happening at the surface of the cup.</strong> Polyphenols, minerals, air, and time build a film that reflects light like oil even though it is not an oily contamination. Hard water simply makes the effect easier to see.</p>",
+  "faq": [
+    {"question":"Is the film on tea oil?","answer":"Usually no. It is mainly a thin surface film formed from tea polyphenols interacting with minerals such as calcium in the water."},
+    {"question":"Why is the film worse with hard water?","answer":"Hard water supplies more calcium and related ions that strengthen mineral-polyphenol complexes at the surface."},
+    {"question":"Can I prevent tea scum?","answer":"Using softer or filtered water can reduce it, and acidic additions such as lemon may weaken the film."}
+  ],
+  "sources": [
+    {"name":"Soft Matter — Tea film formation in artificial tap water","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC10411494/","note":"Experimental study on tea surface film, polyphenol-ion complexes, calcium, and water hardness."},
+    {"name":"Food Chemistry — Composition and structure of tea scum","url":"https://www.sciencedirect.com/science/article/abs/pii/0308814694900043","note":"Classic chemical analysis describing oxidized organic material and mineral components in tea scum."}
+  ],
+  "image": {
+    "concept": "Cup of black tea viewed close-up from above with a thin shiny translucent surface film cracked into subtle islands under side light, realistic beverage photography, no text.",
+    "alt": "Thin shiny surface film visible on a cup of tea"
+  },
+  "status": "publish"
+}
