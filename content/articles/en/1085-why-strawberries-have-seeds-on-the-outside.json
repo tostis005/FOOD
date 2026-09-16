@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1085-why-strawberries-have-seeds-on-the-outside",
+  "article_number": 1085,
+  "translation_group": "1085-why-strawberries-have-seeds-on-the-outside",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; strawberry botany, achenes and receptacle development.",
+  "title": "Why Strawberries Have Their Seeds on the Outside",
+  "slug": "why-strawberries-have-seeds-on-the-outside",
+  "seo": {
+    "title": "Why Are Strawberry Seeds on the Outside?",
+    "meta_description": "The dots on a strawberry are achenes, the plant's individual dry fruits. The red flesh is an enlarged flower receptacle, which is why the fruits sit on its outside surface.",
+    "search_intent": "Understand why strawberries appear to carry seeds externally and what the red flesh and tiny dots are botanically."
+  },
+  "excerpt": "A strawberry turns the usual fruit picture inside out: the juicy red part is mostly enlarged receptacle tissue, while the many hard dots on its surface are separate botanical fruits called achenes.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": ["strawberry","achenes","botany"],
+    "article_types": ["food-science","botany-explainer"],
+    "primary_article_type": "botany-explainer"
+  },
+  "content_html": "<p><strong>Strawberries look as if they carry seeds on the outside because the juicy red part is not the ovary-derived fruit in the usual botanical sense.</strong> The small hard dots on the surface are individual fruits called achenes, and each achene generally contains a seed.</p><p>The red portion develops mainly from the flower receptacle, the tissue that originally supported the flower's reproductive structures. As that receptacle swells, the many achenes remain spread across its outer surface.</p><h2>Each dot is technically a fruit rather than a naked seed</h2><p>A strawberry flower has many separate ovaries. After pollination and fertilization, each ovary can develop into a tiny dry fruit. Botanists call that fruit an achene. What people commonly call a strawberry seed is therefore the whole achene visible from the outside.</p><p>The actual seed is enclosed inside the achene wall. This is similar to the way a sunflower seed sold in its shell is botanically more complicated than the edible kernel alone, although the exact fruit type differs by plant.</p><p>A typical strawberry may carry roughly a couple hundred achenes, though the number varies with cultivar, flower development and pollination success.</p><h2>The red flesh is an enlarged receptacle</h2><p>Most familiar fruits such as peaches, tomatoes or grapes develop mainly from ovary tissue. Strawberry is different. After fertilization, the flower receptacle beneath all those ovaries expands dramatically and becomes the soft, sweet red tissue that people eat.</p><p>Because the individual ovaries were already positioned around the outside of that receptacle, their mature achenes remain on the outside as the tissue swells. They are not pushed through the fruit from the inside. The geometry comes directly from the original structure of the flower.</p><p>This is why botanists call strawberry an aggregate accessory fruit: aggregate because many ovaries contribute separate fruits, and accessory because a large edible portion comes from tissue outside the ovaries themselves.</p><h2>The achenes help control how the strawberry grows</h2><p>The surface fruits are not passive decorations. Research and crop observations show that successfully fertilized achenes produce plant hormones, including auxin signals, that stimulate nearby receptacle tissue to expand.</p><p>If part of a strawberry flower is poorly pollinated or damaged by insects, cold or other stress, fewer achenes develop normally in that region. The surrounding receptacle may then grow less, creating a misshapen berry with an indented or uneven side.</p><p>Growers therefore care about pollination not only because seeds must form, but because the developing achenes influence the size and shape of the edible receptacle.</p><h2>Why the outside fruits do not make strawberries unusual to eat</h2><p>The achenes are completely normal edible parts of a strawberry. Their firm walls add a subtle gritty texture, but most people swallow them without noticing. Removing them would damage the soft receptacle and provide no ordinary culinary benefit.</p><p>Strawberries reproduce commercially in several ways, including runner plants and nursery propagation, so the achenes on a supermarket berry are not primarily there because growers expect consumers to plant them. They are simply the natural result of flower and fruit development.</p><p>The botanical terminology also explains another famous surprise: strawberry is not a true berry under the strict botanical definition, while fruits such as bananas qualify as berries. Everyday culinary names and botanical fruit categories use different criteria.</p><p><strong>The apparent outside seeds are there because a strawberry is built from many tiny fruits arranged on an enlarged flower base.</strong> The red part swells around them, leaving the achenes where their ovaries began: on the surface.</p>",
+  "faq": [
+    {"question":"Are the dots on strawberries actually seeds?","answer":"They are achenes, which are tiny dry fruits; each achene usually contains a seed inside."},
+    {"question":"What is the red part of a strawberry?","answer":"It is mainly enlarged flower receptacle tissue rather than a single ovary-derived fruit."},
+    {"question":"Why are some strawberries misshapen?","answer":"Poor pollination or damaged achenes can reduce hormone signals and growth in nearby receptacle tissue, producing uneven development."}
+  ],
+  "sources": [
+    {"name":"University of California ANR — Growth of the Strawberry Fruit Related to Flower Ovule Number and Auxin Production","url":"https://ucanr.edu/node/116390/printable/print","note":"Explains that the apparent seeds are achenes and describes how fertilized ovules help drive receptacle growth."},
+    {"name":"Encyclopaedia Britannica — Strawberry","url":"https://www.britannica.com/plant/strawberry","note":"Botanical background on strawberry as an aggregate accessory fruit with achenes on the receptacle surface."}
+  ],
+  "image": {
+    "concept": "Macro photograph of a strawberry surface with clearly visible achenes and a subtle botanical flower-to-fruit progression, realistic scientific editorial style, no text.",
+    "alt": "Close view of strawberry achenes on the outside of the enlarged receptacle"
+  },
+  "status": "publish"
+}

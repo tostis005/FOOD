@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1076-como-puede-alimento-decir-0-calorias",
+  "article_number": 1076,
+  "translation_group": "1076-how-food-can-say-zero-calories",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional con explicación de las reglas estadounidenses FDA que originan muchas consultas sobre etiquetas de 0 calorías.",
+  "title": "Cómo puede un alimento decir 0 calorías si realmente contiene algunas",
+  "slug": "como-puede-alimento-decir-0-calorias",
+  "seo": {
+    "title": "Cómo puede un alimento decir 0 calorías si tiene algunas",
+    "meta_description": "En EE. UU., una ración con menos de 5 calorías puede declararse como 0. El tamaño de porción y el consumo de varias raciones explican la diferencia.",
+    "search_intent": "Entender cómo una etiqueta puede mostrar legalmente cero calorías aunque la ración contenga una cantidad pequeña de energía."
+  },
+  "excerpt": "El cero de una etiqueta puede ser el resultado permitido del redondeo y no una afirmación de ausencia absoluta de energía. La clave está en la cantidad real por la porción declarada.",
+  "taxonomy": {
+    "food_family": "nutrition-labels",
+    "food_subcategories": ["calories","rounding","serving-size"],
+    "article_types": ["label-explainer","nutrition-explainer"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>Un alimento puede mostrar 0 calorías en una etiqueta estadounidense aunque una porción aporte algo de energía porque la FDA permite declarar como cero los valores inferiores a 5 calorías por porción.</strong> Es una convención regulatoria de redondeo, no una afirmación de que el producto carezca por completo de moléculas capaces de aportar energía.</p><p>La diferencia suele ser irrelevante al tomar una sola ración normal, pero puede hacerse visible cuando la porción etiquetada es muy pequeña y una persona consume varias seguidas. En ese caso las calorías reales se acumulan aunque cada porción individual pueda aparecer como cero.</p><h2>La FDA permite redondear a cero cantidades muy pequeñas</h2><p>Las etiquetas nutricionales no muestran infinitos decimales. Las normas establecen incrementos concretos para que los valores sean legibles y comparables. La guía de etiquetado de la FDA indica que un valor calórico inferior a 5 calorías puede expresarse como cero. Hasta 50 calorías, los valores se expresan generalmente en incrementos de 5; por encima de 50, en incrementos de 10, con los detalles que marca la normativa.</p><p>Por eso una ración que aporte unas pocas calorías puede mostrar 0 en el panel. El cálculo de formulación o el análisis de laboratorio puede ser distinto de cero, pero la cifra impresa es la que corresponde después de aplicar la regla de declaración.</p><p>Algo parecido ocurre con otros nutrientes. Grasas, carbohidratos y determinadas vitaminas o minerales tienen sus propias reglas e incrementos. Una etiqueta es un resumen regulado de la composición del alimento, no una hoja analítica con toda la precisión decimal posible.</p><h2>El tamaño de la porción determina cuándo el redondeo importa</h2><p>La cifra se refiere a la porción que aparece en la etiqueta. Si una porción contiene menos de 5 calorías pero se utilizan varias, las cantidades sin redondear se suman. Multiplicar el cero impreso por muchas raciones no reproduce esa suma real.</p><p>Los aerosoles de cocina son un ejemplo conocido porque la porción declarada puede ser diminuta. También puede ocurrir con edulcorantes, aromas, condimentos, complementos para café y otros productos concentrados. El problema no es que la etiqueta cambie de regla, sino que el usuario consume una cantidad mayor que la unidad sobre la que se aplicó el redondeo.</p><p>Imagina una porción con 4 calorías que se declara como cero. Cinco porciones aportarían alrededor de 20 calorías antes de aplicar cualquier redondeo a esa cantidad total. La etiqueta describe una porción específica; no promete que cualquier cantidad del producto siga teniendo energía nula.</p><h2>Calorie-free es un término regulado, no una afirmación química absoluta</h2><p>La normativa estadounidense también permite la alegación calorie free cuando se cumplen las condiciones correspondientes y la cantidad es inferior al umbral establecido por porción y cantidad de referencia. En el lenguaje cotidiano, libre de calorías puede sonar a cero absoluto. En regulación, la expresión trabaja con un límite considerado dietéticamente insignificante para la porción definida.</p><p>Esta lógica se repite en otras alegaciones como low, reduced o free. Son términos con requisitos técnicos. Por eso conviene leerlos como definiciones regulatorias y no como frases coloquiales.</p><p>Eso no significa que un fabricante pueda elegir cualquier porción microscópica para ocultar calorías relevantes. Las porciones están sometidas a reglas y cantidades de referencia destinadas a aproximarse a cómo se consumen normalmente los alimentos. El detalle cambia según la categoría y el formato del envase.</p><h2>Cómo interpretar un cero cuando quieres controlar la ingesta</h2><p>Si tomas la porción indicada, la diferencia entre cero y menos de 5 calorías suele ser pequeña. Si utilizas muchas raciones, compara el peso o volumen declarado con lo que realmente consumes. La lista de ingredientes también puede ayudarte: aceites, azúcares, almidones o proteínas indican que puede existir energía aunque el valor por una porción diminuta se redondee a cero.</p><p>Para un seguimiento muy preciso, puede ser más útil trabajar con gramos, datos del fabricante o bases de composición que multiplicar cifras ya redondeadas. Además, los alimentos presentan variación natural y de fabricación, así que perseguir una precisión de décimas puede dar una falsa sensación de exactitud.</p><p><strong>La idea práctica es que 0 calorías puede significar menos de 5 calorías en la porción declarada, no necesariamente cero absoluto.</strong> En una porción habitual la diferencia suele ser despreciable; cuando la porción es minúscula y se repite muchas veces, la suma sí puede empezar a contar.</p>",
+  "faq": [
+    {"question":"¿0 calorías significa siempre que no hay ninguna caloría?","answer":"No. En EE. UU., una porción con menos de 5 calorías puede declararse como cero."},
+    {"question":"¿Varias porciones de 0 calorías pueden sumar calorías?","answer":"Sí. Las cantidades reales sin redondear se acumulan aunque cada porción individual aparezca como cero."},
+    {"question":"¿Libre de calorías significa cero energético absoluto?","answer":"No necesariamente. Es una alegación regulada basada en un umbral pequeño por porción, no en ausencia química total de energía."}
+  ],
+  "sources": [
+    {"name":"FDA — Food Labeling Guide","url":"https://www.fda.gov/media/81606/download","note":"Explica que valores inferiores a 5 calorías por porción pueden expresarse como cero y detalla incrementos de redondeo."},
+    {"name":"FDA — Guide for Developing and Using Data Bases for Nutrition Labeling","url":"https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-guide-developing-and-using-data-bases-nutrition-labeling","note":"Recoge reglas de declaración y redondeo de nutrientes en Nutrition Facts."}
+  ],
+  "image": {
+    "concept": "Etiqueta nutricional genérica con cero calorías junto a varias porciones diminutas que juntas forman una cantidad mayor, estilo editorial limpio, sin marcas.",
+    "alt": "Varias porciones pequeñas mostrando cómo el redondeo de cero calorías puede acumularse"
+  },
+  "status": "publish"
+}

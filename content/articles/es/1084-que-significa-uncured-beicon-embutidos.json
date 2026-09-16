@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-1084-que-significa-uncured-beicon-embutidos",
+  "article_number": 1084,
+  "translation_group": "1084-what-uncured-means-on-bacon",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; explicación del término estadounidense uncured en beicon y productos cárnicos con nitrato o nitrito natural.",
+  "title": "Qué significa uncured en el beicon y otros embutidos",
+  "slug": "que-significa-uncured-beicon-embutidos",
+  "seo": {
+    "title": "Qué significa uncured en el beicon",
+    "meta_description": "Uncured no significa necesariamente sin nitratos o nitritos. El beicon puede usar fuentes naturales como apio y seguir llevando esa denominación bajo las reglas de EE. UU.",
+    "search_intent": "Entender por qué un beicon uncured puede contener nitrito procedente de apio y qué significa realmente esa etiqueta estadounidense."
+  },
+  "excerpt": "Uncured es una categoría regulatoria estadounidense y no una garantía de ausencia total de nitratos o nitritos. Las fuentes vegetales pueden generar buena parte de la misma química de curado.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["bacon","nitrite","curing"],
+    "article_types": ["label-explainer","food-science"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>Un beicon etiquetado como uncured no tiene por qué estar libre de la química de nitratos y nitritos.</strong> En Estados Unidos, productos preparados sin los agentes de curado convencionales aprobados pueden llevar la palabra uncured aunque utilicen ingredientes como polvo de apio, capaz de aportar nitrato o nitrito natural y producir efectos propios del curado.</p><p>Por eso muchos envases combinan uncured con una frase del tipo no nitrates or nitrites added except those naturally occurring in celery powder. Las dos partes deben leerse juntas.</p><h2>El curado convencional utiliza agentes de nitrato o nitrito específicamente autorizados</h2><p>El curado comercial tradicional emplea nitrito de sodio, nitrito de potasio u otros sistemas permitidos dentro de límites regulados. El nitrito ayuda a formar el color rosado característico, aporta sabor, retrasa la rancidez y contribuye al control de Clostridium botulinum en formulaciones adecuadas.</p><p>USDA FSIS regula qué agentes de curado pueden utilizarse y en qué cantidades. Los productos elaborados según los estándares correspondientes deben declarar esos ingredientes.</p><p>La química no es solo estética. Sistema de curado, sal, temperatura, proceso térmico y refrigeración trabajan conjuntamente para determinar seguridad y vida útil.</p><h2>El apio puede aportar nitrato o nitrito aunque el envase diga uncured</h2><p>El apio y otros vegetales contienen nitrato de forma natural. Los polvos comerciales pueden estandarizarse y, mediante conversión microbiana o procesos previos, proporcionar nitrito a una formulación cárnica. Ese nitrito reacciona con pigmentos de la carne y crea color y sabor típicos de un producto curado.</p><p>La guía FSIS explica que estas fuentes naturales no se consideran los agentes de curado convencionales aprobados en la lista específica para esa función. Por ello, ciertos productos que sustituyen el nitrito convencional por fuentes vegetales entran en los requisitos especiales de etiquetado uncured.</p><p>La palabra describe así la vía regulatoria y la clasificación del ingrediente más que la inexistencia de reacciones de curado en el alimento terminado.</p><h2>No nitrates or nitrites added suele necesitar una aclaración</h2><p>Cuando hay una fuente natural de nitrato o nitrito, afirmar sin más que no se añadieron nitratos o nitritos resultaría engañoso. Las reglas estadounidenses exigen una aclaración equivalente a except those naturally occurring in celery powder cuando esa es la fuente.</p><p>Leer solo la palabra grande uncured e ignorar la frase pequeña puede crear la impresión falsa de que el producto no contiene ningún nitrito. La lista de ingredientes suele revelar mejor el sistema porque menciona polvo de apio, apio cultivado u otra fuente.</p><p>La cantidad residual de nitrito puede variar con la fórmula y el proceso. Que su origen sea vegetal no hace que la molécula deje de comportarse como nitrito.</p><h2>Uncured no significa automáticamente más saludable ni menos procesado</h2><p>La palabra no informa de sodio, grasa saturada, calorías ni grado general de procesamiento. Dos tipos de beicon pueden diferir mucho en esos aspectos independientemente de la vía de curado.</p><p>Tampoco significa que el alimento pueda manipularse como carne fresca sin procesar. Hay productos uncured crudos y otros totalmente cocinados. Deben seguirse las instrucciones concretas de almacenamiento y cocinado del envase.</p><p>Si tu objetivo es comparar exposición a nitratos o nitritos, revisa ingredientes y aclaraciones completas. Si buscas comparar nutrición, mira el panel nutricional y el tamaño de ración.</p><p><strong>La paradoja se resuelve entendiendo que uncured es un término de etiquetado, no una prueba de que nitrato y nitrito estén ausentes.</strong> Un beicon con nitrito derivado del apio puede desarrollar color, sabor y efectos de conservación propios del curado y, aun así, llevar la denominación uncured bajo las reglas estadounidenses.</p>",
+  "faq": [
+    {"question":"¿El beicon uncured no tiene nitritos?","answer":"No necesariamente. Puede utilizar fuentes naturales como polvo de apio que aportan nitrato o nitrito."},
+    {"question":"¿Por qué el beicon uncured sigue siendo rosa?","answer":"El nitrito generado o aportado por ingredientes naturales puede reaccionar con los pigmentos y producir el color de curado."},
+    {"question":"¿Uncured significa más saludable?","answer":"No. Describe la vía de curado y etiquetado, no todo el perfil nutricional."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — Stabilization Guideline for Meat and Poultry Products","url":"https://fsistraining.fsis.usda.gov/pluginfile.php/17042/mod_resource/content/2/Appendix-B.pdf","note":"Explica el etiquetado de productos con polvo de apio y otras fuentes naturales de nitrito como uncured con la aclaración correspondiente."},
+    {"name":"USDA FSIS — What are nitrites?","url":"https://ask.fsis.usda.gov/article/What-are-nitrites","note":"Describe la función del nitrito en color, sabor, rancidez y control del botulismo."},
+    {"name":"USDA AMS — Bacon and Poultry Bacon specification","url":"https://www.ams.usda.gov/sites/default/files/media/BaconandPoultryBaconPrecookedSlicedShelfStable.pdf","note":"Hace referencia a las reglas que permiten denominar uncured al beicon preparado sin agentes convencionales de nitrato o nitrito."}
+  ],
+  "image": {
+    "concept": "Dos envases genéricos de beicon, uno curado convencional y otro uncured junto a apio, fotografía editorial realista, sin marcas ni texto legible.",
+    "alt": "Beicon uncured con apio comparado con beicon curado convencional"
+  },
+  "status": "publish"
+}

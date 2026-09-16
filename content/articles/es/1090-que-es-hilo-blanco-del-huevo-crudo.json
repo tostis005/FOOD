@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1090-que-es-hilo-blanco-del-huevo-crudo",
+  "article_number": 1090,
+  "translation_group": "1090-what-white-string-in-egg-is",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; chalaza del huevo explicada y diferenciada de un embrión o deterioro.",
+  "title": "Qué es el hilo blanco que aparece en un huevo crudo",
+  "slug": "que-es-hilo-blanco-del-huevo-crudo",
+  "seo": {
+    "title": "Qué es el hilo blanco de un huevo crudo",
+    "meta_description": "El cordón blanco unido a la yema es la chalaza. Es una estructura proteica normal que ayuda a mantener la yema centrada dentro del huevo.",
+    "search_intent": "Identificar el hilo o cordón blanco de un huevo crudo y saber si es normal y comestible."
+  },
+  "excerpt": "El cordón blanco unido a la yema es la chalaza, una parte normal de la anatomía del huevo. Dos estructuras proteicas retorcidas ayudan a mantener la yema suspendida y estable dentro de la cáscara.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": ["chalaza","egg-white","egg-anatomy"],
+    "article_types": ["food-science","ingredient-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>El hilo blanco y retorcido que suele verse pegado a la yema es la chalaza, una estructura normal formada en gran parte por proteínas de clara espesa.</strong> Hay una en cada extremo de la yema. Juntas ayudan a mantenerla suspendida cerca del centro del huevo en lugar de apoyada directamente contra la cáscara.</p><p>No es un gusano, un embrión ni una señal de que el huevo esté malo. Forma parte de la anatomía normal y se puede cocinar y comer.</p><h2>La chalaza funciona como un par de cordones de suspensión</h2><p>Dentro de la cáscara, la yema está rodeada por su membrana vitelina y por distintas capas de albumen. Durante la formación del huevo en el aparato reproductor de la gallina, una parte de la clara espesa se retuerce y forma cordones en polos opuestos de la yema. Son las chalazas.</p><p>Esa torsión aporta estabilidad mecánica sin inmovilizar por completo la yema. Cuando el huevo cambia de orientación, los cordones ayudan a mantener su posición dentro de la clara y protegen la estructura central.</p><p>Como están hechos de material de clara, al cocinarse se vuelven opacos y firmes igual que el resto de las proteínas del albumen.</p><h2>Una chalaza visible suele acompañar a una clara relativamente fresca y espesa</h2><p>En un huevo fresco, el albumen espeso mantiene mejor su estructura y las chalazas pueden resultar muy evidentes. Con el paso del tiempo, el dióxido de carbono escapa a través de la cáscara, aumenta el pH y la clara se vuelve más fluida. Las estructuras internas pierden cohesión y la chalaza puede destacar menos.</p><p>Por eso a veces se relaciona una chalaza muy marcada con frescura. Es una observación razonable, pero no permite fechar con precisión un huevo porque también influyen el almacenamiento, el tamaño y la variación natural.</p><p>La chalaza tampoco debe confundirse con una clara ligeramente turbia. Esa turbidez puede ser normal en huevos muy frescos porque aún contienen más dióxido de carbono disuelto.</p><h2>No es un pollito en desarrollo</h2><p>La chalaza existe tanto en huevos fecundados como en huevos no fecundados. La estructura que podría iniciar un embrión después de la fecundación es el disco germinal, una pequeña zona sobre la superficie de la yema, no el cordón blanco que la sujeta.</p><p>Los huevos comerciales destinados al consumo suelen producirse sin acceso de gallos y normalmente no están fecundados. Incluso si un huevo estuviera fecundado, la refrigeración normal no proporciona la incubación sostenida necesaria para el desarrollo embrionario.</p><p>Las pequeñas manchas de sangre son otra cosa distinta. Pueden aparecer cuando se rompe un vaso sanguíneo durante la formación del huevo y no tienen relación con la chalaza.</p><h2>¿Hay que quitar la chalaza para cocinar?</h2><p>Para huevos revueltos, tortillas, bizcochos, flanes y la mayoría de recetas no hace falta retirarla. Con el calor se coagula junto con las demás proteínas y deja de notarse.</p><p>En preparaciones muy finas, algunos cocineros cuelan cremas o curds para obtener una textura totalmente lisa; ese paso puede retirar las chalazas además de otros pequeños sólidos. Es una decisión de textura, no una exigencia de seguridad.</p><p><strong>El hilo blanco es simplemente parte del sistema interno que sostiene la yema.</strong> Verlo es normal, comerlo es normal y su presencia dice mucho más sobre la anatomía del huevo que sobre fecundación o deterioro.</p>",
+  "faq": [
+    {"question":"¿El hilo blanco del huevo es un pollito?","answer":"No. La chalaza es un cordón proteico normal presente tanto en huevos fecundados como en no fecundados."},
+    {"question":"¿Se puede comer la chalaza?","answer":"Sí. Está formada por material normal de la clara y se cocina con el resto del huevo."},
+    {"question":"¿Una chalaza grande significa que el huevo es fresco?","answer":"Una chalaza marcada suele acompañar a una clara más espesa y fresca, pero no es una medida exacta de la edad del huevo."}
+  ],
+  "sources": [
+    {"name":"USDA Agricultural Research Service — Egg Grading Manual","url":"https://www.ams.usda.gov/sites/default/files/media/EggGradingManual.pdf","note":"Describe anatomía interna y características de calidad del huevo, incluido el albumen y las chalazas."},
+    {"name":"American Egg Board — Egg anatomy","url":"https://www.incredibleegg.org/professionals/k-12-schools/eggcyclopedia/a/","note":"Explica las chalazas como cordones retorcidos de clara que mantienen la yema en posición."}
+  ],
+  "image": {
+    "concept": "Huevo crudo en un bol transparente con la yema intacta y una chalaza blanca retorcida claramente visible, fotografía gastronómica realista, sin texto.",
+    "alt": "Chalaza blanca unida a la yema de un huevo crudo"
+  },
+  "status": "publish"
+}

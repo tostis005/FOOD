@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1092-por-que-carne-tiene-brillo-verde-arcoiris",
+  "article_number": 1092,
+  "translation_group": "1092-why-meat-has-green-rainbow-shine",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; iridiscencia de la carne diferenciada del deterioro mediante criterios de seguridad alimentaria.",
+  "title": "Carne con brillo verde o arcoíris: por qué ocurre y si está estropeada",
+  "slug": "por-que-carne-tiene-brillo-verde-arcoiris",
+  "seo": {
+    "title": "Por qué la carne puede tener brillo verde o arcoíris",
+    "meta_description": "Un brillo metálico verde o arcoíris puede deberse a difracción de la luz y pigmentos de la carne. La iridiscencia sola no demuestra deterioro; también importan olor y textura.",
+    "search_intent": "Entender el brillo verde o arcoíris de la carne y distinguir un efecto óptico normal de un deterioro real."
+  },
+  "excerpt": "Un reflejo metálico verde, azul o arcoíris sobre la carne puede aparecer cuando la luz interactúa con la estructura ordenada de las fibras musculares y sus pigmentos. Aunque resulta llamativo, por sí solo no demuestra que la carne esté mala.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["iridescence","color","spoilage"],
+    "article_types": ["food-science","food-safety-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Un brillo verde o arcoíris sobre la carne no significa automáticamente que esté estropeada. En muchos cortes y lonchas, la luz interactúa con la estructura microscópica del músculo y puede separarse en varios colores.</strong> Las guías de seguridad alimentaria del USDA indican expresamente que la iridiscencia puede aparecer sin representar una pérdida de calidad o seguridad.</p><p>La dificultad es que la carne deteriorada también puede cambiar de color. Por eso hay que valorar el reflejo junto con el olor, la textura superficial, la conservación y el aspecto general.</p><h2>Las fibras musculares pueden producir un efecto óptico</h2><p>La carne está formada por haces de fibras muy ordenadas. Al cortar un asado, un jamón o una pieza de vacuno, la superficie deja expuestas estructuras microscópicas repetidas. La luz que incide sobre ellas puede reflejarse o difractarse en ángulos diferentes y separar longitudes de onda visibles, produciendo bandas verdes, azules, amarillas o rojizas.</p><p>El reflejo suele cambiar cuando inclinas la loncha o mueves la fuente de luz. Ese movimiento es una pista útil de que estás viendo iridiscencia y no una mancha fija de pigmento. Las superficies lisas y ligeramente húmedas pueden intensificar el efecto porque reflejan la luz con eficacia.</p><p>La orientación del corte, la cocción, el curado y el procesado también influyen. Por eso el arcoíris se aprecia con frecuencia en roast beef, jamón cocido y otras carnes cortadas en lonchas.</p><h2>Los pigmentos de la carne también pueden aportar tonos verdosos</h2><p>La mioglobina es el pigmento principal que determina el color de la carne. Su estado químico cambia con el oxígeno, el calor y el almacenamiento. El vacuno puede verse púrpura en poco oxígeno, rojo vivo tras oxigenarse y marrón cuando aumenta la metmioglobina.</p><p>El USDA señala además que distintos pigmentos y compuestos pueden contribuir a un aspecto iridiscente o verdoso, especialmente después del calentamiento y el procesado. No todas las tonalidades se originan exactamente del mismo modo.</p><p>Un brillo metálico limpio que se desplaza al cambiar el ángulo es diferente de una zona verde apagada y extendida acompañada de deterioro.</p><h2>La carne estropeada suele mostrar más señales además del color</h2><p>Un cambio de color aislado no demuestra podredumbre. Las recomendaciones del USDA destacan olor anormal y una superficie pegajosa, viscosa o excesivamente adherente como signos que, junto con cambios de color, hacen sospechar deterioro.</p><p>También importa la historia de conservación. Una carne que ha permanecido demasiado tiempo fuera del frío, se ha guardado durante un periodo inadecuado o tiene el envase dañado merece cautela aunque el reflejo pueda explicarse ópticamente.</p><p>No conviene probar carne dudosa para decidir si está bien. Los microorganismos patógenos no siempre producen cambios visibles u olorosos, por lo que una manipulación y refrigeración correctas siguen siendo esenciales incluso cuando la apariencia es normal.</p><h2>Cómo evaluar un brillo arcoíris en casa</h2><p>Observa primero la carne bajo otra luz o inclina la loncha. Si la banda de colores cambia o desaparece mientras el tejido de fondo conserva aspecto normal, es probable que sea un efecto óptico. Después comprueba olor y textura: una pieza en buenas condiciones no debería presentar olor claramente desagradable ni una capa viscosa o pegajosa anormal.</p><p>Si está envasada, revisa también el sellado y el mantenimiento del frío. La carne al vacío puede verse púrpura antes de entrar en contacto con oxígeno, otro cambio normal relacionado con el envase que tampoco debe confundirse con iridiscencia.</p><p><strong>El brillo arcoíris demuestra por qué un único color no basta para juzgar la carne.</strong> Un reflejo metálico cambiante puede ser física normal; olor persistente, baba, envase hinchado y deterioro general son señales mucho más preocupantes.</p>",
+  "faq": [
+    {"question":"¿Es segura una carne con brillo arcoíris?","answer":"La iridiscencia por sí sola no indica deterioro. La seguridad depende también de almacenamiento, olor, textura y otras señales."},
+    {"question":"¿Por qué el color verde se mueve al inclinar la carne?","answer":"Ese cambio con el ángulo es característico de la iridiscencia óptica producida por la interacción de la luz con la superficie muscular."},
+    {"question":"¿Cuándo hay que tirar una carne verdosa?","answer":"Si además tiene olor persistente desagradable, baba, textura pegajosa, deterioro visible o una conservación dudosa, no conviene usarla."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — What causes iridescent colors on meat?","url":"https://ask.fsis.usda.gov/article/What-causes-iridescent-colors-on-meat","note":"El USDA explica la separación de la luz en colores sobre la carne y señala que la iridiscencia sola no implica peor seguridad o calidad."},
+    {"name":"USDA FSIS — Beef From Farm to Table","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/beef-farm-table","note":"Describe variaciones normales de color y las diferencia de señales de deterioro como mal olor y superficies viscosas o pegajosas."}
+  ],
+  "image": {
+    "concept": "Loncha fina de carne asada bajo luz oblicua mostrando un reflejo sutil verde azulado y arcoíris, con el resto de la carne de aspecto fresco, fotografía realista, sin texto.",
+    "alt": "Brillo iridiscente verde y arcoíris sobre una loncha de carne"
+  },
+  "status": "publish"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1077-how-calories-nutrients-are-rounded-on-labels",
+  "article_number": 1077,
+  "translation_group": "1077-how-calories-nutrients-are-rounded-on-labels",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; FDA Nutrition Facts rounding rules explained for consumers.",
+  "title": "How Calories and Nutrients Are Rounded on Food Labels",
+  "slug": "how-calories-nutrients-are-rounded-on-labels",
+  "seo": {
+    "title": "How Calories and Nutrients Are Rounded on Labels",
+    "meta_description": "Calories, fat, sodium and other nutrients do not all use the same rounding increment. FDA rules specify thresholds that can make label arithmetic look inconsistent.",
+    "search_intent": "Understand how calorie and nutrient values are rounded on U.S. Nutrition Facts labels and why displayed numbers may not exactly match calculations."
+  },
+  "excerpt": "Nutrition Facts values are not printed with full laboratory precision. Different nutrients use different thresholds and increments, so two nearby underlying values can legitimately appear identical on the package.",
+  "taxonomy": {
+    "food_family": "nutrition-labels",
+    "food_subcategories": ["rounding","calories","nutrients"],
+    "article_types": ["label-explainer","nutrition-explainer"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>Nutrition Facts numbers are rounded according to nutrient-specific rules, so the printed panel is intentionally less precise than the underlying formulation or laboratory data.</strong> Calories, fat, sodium, cholesterol and micronutrients do not all use one universal increment.</p><p>This is why label math sometimes looks strange. A few grams or milligrams can disappear into rounding, and several rounded values can fail to reconstruct an independently rounded calorie total.</p><h2>Calories use larger increments as the value increases</h2><p>FDA guidance says calorie values below 5 may be expressed as zero. Values from 5 through 50 are generally expressed to the nearest 5-calorie increment, while values above 50 are expressed to the nearest 10-calorie increment. A calculated value of 47 calories, for example, does not need to appear as 47 on the panel.</p><p>The purpose is practical communication rather than publishing every analytical decimal. Calorie calculations themselves can already rely on permitted factors and databases, so the final displayed number is the end of a chain that includes composition data, calculation choices and then rounding.</p><p>This also explains why comparing two foods that differ by only a few calculated calories can be misleading if both labels land on the same printed value.</p><h2>Grams of fat, carbohydrate and protein follow their own rules</h2><p>Total fat and saturated fat use gram-based increments that differ depending on how much is present. Very small amounts may be declared as zero, while larger amounts are expressed in half-gram or whole-gram increments according to the applicable rule. Protein and total carbohydrate also have their own declaration conventions.</p><p>Imagine an underlying nutrient amount near a rounding boundary. A small manufacturing or analytical difference can place one batch on one side of the boundary and another batch on the other, even though the foods are nutritionally very similar. Conversely, two products with different underlying values can print the same rounded gram amount.</p><p>This is one reason a Nutrition Facts panel should not be interpreted as if each displayed gram were an exact measurement to the final decimal place.</p><h2>Sodium, cholesterol, vitamins and minerals are not rounded like calories</h2><p>Milligram nutrients use different scales. Sodium, for instance, is reported in milligrams under specified increments rather than following the calorie scheme. Cholesterol has its own thresholds. Vitamins and minerals are commonly declared as percent Daily Value, with rules governing the increments and when insignificant amounts may be omitted or shown as zero.</p><p>Because each line is rounded independently, the panel is not a set of perfectly reversible equations. The percent Daily Value may also be based on the underlying nutrient amount and then rounded for display. Trying to back-calculate the exact laboratory value from a printed percentage can therefore produce a range rather than one exact answer.</p><p>Rules also differ between conventional foods and some specialized labeling situations, so a single internet rounding chart should not be treated as a substitute for the applicable regulation when compliance matters.</p><h2>Why the arithmetic on a label can be correct without adding up exactly</h2><p>Suppose fat, carbohydrate and protein are each rounded before printing. You then multiply those displayed grams by 9, 4 and 4. That calculation uses already-rounded inputs. The manufacturer may have calculated energy from unrounded composition values, specific Atwater factors or permitted methods, and the final calories are rounded again under a different rule.</p><p>The result can differ by several calories even when every line complies. The same effect appears when converting serving weights, scaling a small serving to 100 grams, or comparing a tracking app with a package panel.</p><p>For everyday use, the printed values are designed to be sufficiently informative for dietary decisions. For formulation, research or close macro tracking, unrounded data are more useful when available.</p><p><strong>Rounding is therefore a feature of the labeling system, not evidence that the numbers are careless.</strong> The correct question is not whether every printed value can be reversed to an exact raw measurement, but whether each value follows the required declaration rule for that nutrient and serving.</p>",
+  "faq": [
+    {"question":"Are calories rounded the same way as fat or sodium?","answer":"No. Different nutrients have different thresholds and increments for declaration."},
+    {"question":"Why do my macro calculations differ from the calorie number?","answer":"You are usually calculating from rounded macro values and comparing them with a calorie value that was calculated and rounded separately."},
+    {"question":"Can two products with slightly different nutrient amounts show the same number?","answer":"Yes. If both underlying amounts fall within the same rounding interval, their displayed values can match."}
+  ],
+  "sources": [
+    {"name":"FDA — Guide for Developing and Using Data Bases for Nutrition Labeling","url":"https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-guide-developing-and-using-data-bases-nutrition-labeling","note":"Lists FDA rounding increments and insignificant-amount thresholds for calories and nutrients."},
+    {"name":"FDA — Food Labeling Guide","url":"https://www.fda.gov/media/81606/download","note":"Provides practical guidance on Nutrition Facts declarations and calorie rounding."}
+  ],
+  "image": {
+    "concept": "Generic Nutrition Facts panel beside a magnified set of unrounded decimal nutrient values turning into rounded label numbers, no brand names.",
+    "alt": "Unrounded nutrient values being converted into rounded Nutrition Facts numbers"
+  },
+  "status": "publish"
+}

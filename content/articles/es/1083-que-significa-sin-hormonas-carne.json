@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-1083-que-significa-sin-hormonas-carne",
+  "article_number": 1083,
+  "translation_group": "1083-what-no-hormones-means-on-meat",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; alegaciones estadounidenses USDA/FDA sobre hormonas en vacuno, cerdo y aves.",
+  "title": "Qué significa realmente sin hormonas en una etiqueta de carne",
+  "slug": "que-significa-sin-hormonas-carne",
+  "seo": {
+    "title": "Qué significa sin hormonas en las etiquetas de carne",
+    "meta_description": "Las alegaciones sin hormonas dependen de la especie. En vacuno existen usos aprobados; en aves no hay implantes esteroideos aprobados para crecimiento y en cerdo hay matices.",
+    "search_intent": "Entender qué significan no hormones o no added hormones en etiquetas estadounidenses de vacuno, cerdo y aves."
+  },
+  "excerpt": "Sin hormonas describe una práctica de cría y no la ausencia química de hormonas naturales en la carne. Su importancia cambia según la especie porque los usos veterinarios autorizados son distintos.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["hormones","animal-raising-claims","labeling"],
+    "article_types": ["label-explainer","food-policy"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>Una etiqueta estadounidense que dice no hormones o no added hormones habla de si se administraron productos hormonales durante la cría, no de que la carne carezca literalmente de hormonas.</strong> Los animales producen hormonas de forma natural, así que la pregunta relevante es si se utilizaron medicamentos hormonales autorizados.</p><p>La respuesta cambia según la especie. FDA aprueba estos productos para clases concretas de animales y usos específicos, mientras USDA FSIS revisa las alegaciones y la documentación que las respalda.</p><h2>En vacuno la alegación sí diferencia un uso productivo permitido</h2><p>El ganado bovino puede recibir determinados productos hormonales aprobados por FDA, incluidos implantes promotores del crecimiento utilizados bajo las condiciones autorizadas. Por eso una etiqueta de vacuno que diga no hormones administered o raised without added hormones comunica una diferencia real respecto a otros sistemas de producción.</p><p>FSIS puede aprobar la frase cuando el productor presenta documentación suficiente que demuestre que los animales se criaron de acuerdo con ella. Sin embargo, no significa que el tejido sea químicamente libre de hormonas: las hormonas endógenas forman parte normal de cualquier animal.</p><p>Tampoco implica de manera automática ecológico, grass-fed o sin antibióticos. Cada una de esas prácticas tiene reglas y certificaciones separadas.</p><h2>En aves no existen implantes esteroideos aprobados para promover crecimiento</h2><p>USDA explica que FDA no ha aprobado implantes de hormonas esteroideas con fines de crecimiento en aves. Por eso una afirmación llamativa sobre pollo sin hormonas puede crear una impresión exagerada si el consumidor cree que la marca ha eliminado una práctica habitual entre competidores.</p><p>Históricamente, este tipo de etiquetas avícolas ha necesitado contexto adicional sobre la regulación. La lección general es importante: una frase puede sonar como ventaja exclusiva aunque describa una condición que se aplica a toda la categoría.</p><p>En pollo, otras afirmaciones como programa de alimentación, uso de antibióticos, certificación ecológica o estándar de bienestar suelen aportar más capacidad de diferenciación.</p><h2>El cerdo exige más matices que el antiguo mensaje simplificado</h2><p>Durante años circularon materiales que afirmaban de forma general que las normas federales prohibían las hormonas en la cría de cerdos. USDA aclaró en 2020 que esa frase absoluta ya no era correcta porque FDA había aprobado ciertos usos hormonales en porcino, incluidos algunos relacionados con reproducción y no con la promoción rutinaria del crecimiento.</p><p>Por ello, FSIS indicó que las etiquetas de cerdo con alegaciones sin hormonas deben apoyarse en documentación de producción en lugar de depender de aquel antiguo descargo universal. El propósito del medicamento importa: un uso reproductivo concreto en cerdas no equivale a un implante promotor del crecimiento en ganado bovino.</p><p>Al comparar cerdo, conviene leer la frase exacta y la certificación que la respalda.</p><h2>La frase describe administración, no cero moléculas hormonales</h2><p>Toda carne procede de animales con hormonas naturales. Expresiones como no hormones administered, no added hormones o raised without hormones se refieren al manejo de medicamentos hormonales, no a una ausencia química total.</p><p>Tampoco deben confundirse con seguridad de residuos. Los medicamentos veterinarios autorizados están regulados por especie, dosis, vía y condiciones de retirada. Una alegación de no uso añade información productiva por encima de ese marco básico.</p><p>La guía actual de USDA para alegaciones de cría enfatiza documentación, trazabilidad y lenguaje veraz. La certificación independiente puede aportar más confianza si su estándar está disponible para el consumidor.</p><p><strong>La forma útil de leer sin hormonas es hacerlo especie por especie.</strong> En vacuno puede distinguir ganado criado sin hormonas promotoras aprobadas; en aves no existe ese uso rutinario de implantes para crecimiento; y en cerdo hay matices suficientes para que el protocolo concreto importe más que un eslogan genérico.</p>",
+  "faq": [
+    {"question":"¿Sin hormonas significa que la carne tiene cero hormonas?","answer":"No. Los animales producen hormonas naturalmente; la alegación se refiere a la administración de productos hormonales durante la cría."},
+    {"question":"¿Se usan hormonas de crecimiento en pollos?","answer":"FDA no ha aprobado implantes de hormonas esteroideas para promover el crecimiento en aves."},
+    {"question":"¿Sin hormonas significa también sin antibióticos?","answer":"No. Son prácticas de producción distintas y se declaran por separado."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — Who approves the use of hormones in animals?","url":"https://ask.fsis.usda.gov/article/Who-approves-the-use-of-hormones-in-animals","note":"Explica que FDA aprueba usos hormonales por clase animal y que no están permitidos para crecimiento en aves."},
+    {"name":"USDA FSIS — Constituent Update, June 19 2020","url":"https://www.fsis.usda.gov/news-events/news-press-releases/constituent-update-june-19-2020","note":"Aclara por qué las alegaciones hormonales en porcino requieren documentación y más matiz que el antiguo descargo."},
+    {"name":"USDA FSIS — Guideline on Substantiating Animal-Raising or Environment-Related Labeling Claims","url":"https://www.fsis.usda.gov/guidelines/2024-0006","note":"Guía actual para justificar alegaciones voluntarias de cría."}
+  ],
+  "image": {
+    "concept": "Envases genéricos de vacuno cerdo y pollo junto a una tarjeta neutra de sin hormonas añadidas e iconos de especie, estilo editorial educativo, sin marcas.",
+    "alt": "Alegaciones sin hormonas comparadas entre vacuno cerdo y aves"
+  },
+  "status": "publish"
+}

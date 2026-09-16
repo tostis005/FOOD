@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1080-lean-vs-extra-lean-meat-labels",
+  "article_number": 1080,
+  "translation_group": "1080-lean-vs-extra-lean-meat-labels",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; USDA/FDA nutrient-content definitions for lean and extra lean meat labels.",
+  "title": "Lean vs. Extra Lean Meat: What These Labels Really Mean",
+  "slug": "lean-vs-extra-lean-meat-labels",
+  "seo": {
+    "title": "Lean vs. Extra Lean Meat: What the Labels Mean",
+    "meta_description": "In U.S. labeling, lean and extra lean are defined nutrient-content claims. Extra lean has stricter limits for total and saturated fat while both include a cholesterol limit.",
+    "search_intent": "Understand the regulatory difference between lean and extra lean meat claims and what they do and do not tell you about a cut."
+  },
+  "excerpt": "Lean and extra lean are not casual descriptions on U.S. meat labels. They correspond to defined limits for total fat, saturated fat and cholesterol, with extra lean using tighter fat thresholds.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["lean","extra-lean","labeling"],
+    "article_types": ["label-explainer","nutrition-explainer"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>On U.S. meat labels, lean and extra lean are defined nutrient-content claims rather than vague ways of saying that a cut looks relatively low in fat.</strong> Extra lean must meet stricter fat limits than lean.</p><p>For beef, USDA FSIS explains the terms using a 100-gram amount: lean beef has less than 10 grams of total fat, 4.5 grams or less of saturated fat and less than 95 milligrams of cholesterol; extra lean beef has less than 5 grams of total fat, less than 2 grams of saturated fat and less than 95 milligrams of cholesterol.</p><h2>Lean sets a defined ceiling for fat and cholesterol</h2><p>A piece of meat can look fairly lean to the eye and still fail the regulatory nutrient claim. The label depends on measured or calculated nutrient composition, not only visible trimming.</p><p>The lean threshold allows more total and saturated fat than extra lean. That can include cuts that retain some marbling but remain under the specified limits. Because the claim is tied to a defined amount and regulatory criteria, comparing it with an informal butcher description can create confusion.</p><p>The cholesterol limit is also part of the definition. A product cannot qualify solely by having little visible external fat if the nutrient criteria are not met.</p><h2>Extra lean is a stricter claim, not a separate grade of meat</h2><p>Extra lean lowers the permitted total fat to under 5 grams per 100 grams and saturated fat to under 2 grams, while retaining the less-than-95-milligram cholesterol condition cited by FSIS for beef. That makes the claim useful to shoppers specifically looking for a lower-fat option.</p><p>It does not mean the product has a higher USDA quality grade. Beef quality grades such as Prime, Choice and Select evaluate characteristics associated with eating quality and carcass grading, including maturity and marbling. Lean and extra lean are nutrient-content claims. A product can therefore be high quality in one grading system without qualifying for the lowest-fat claim.</p><p>The terms also do not describe how the animal was raised, whether it was grass fed, organic or given antibiotics. Those are separate labeling questions.</p><h2>Ground meat percentages are related but not the same claim</h2><p>A package marked 90% lean ground beef is expressing a lean-to-fat proportion, not necessarily using the formal standalone nutrient claim lean in the same sense. Ground beef labels often show statements such as 90% lean/10% fat or 93% lean/7% fat, which describe composition directly.</p><p>That percentage can be easier to use for recipe planning because it tells you the approximate fat proportion before cooking. Cooking and draining can change the composition of the portion you actually eat because water and rendered fat leave the meat.</p><p>For intact cuts, trimming visible fat changes what ends up on the plate even though the original label claim described the product as sold.</p><h2>What the claim can and cannot tell you nutritionally</h2><p>Lean and extra lean help compare total and saturated fat under a defined framework, but they do not summarize the entire nutrient profile. Protein, sodium, iron, zinc and other nutrients can differ between products. Preparation also matters: adding butter, oil, cheese or a rich sauce can contribute more fat than the difference between two raw cuts.</p><p>Serving size matters as well. The regulatory definition uses specified reference quantities, while a steak on a plate may weigh much more than 100 grams. A food can meet the claim and still provide a substantial amount of fat if the portion is very large.</p><p>When the goal is precise tracking, check the Nutrition Facts panel in addition to the front-of-package claim. The claim tells you that a threshold has been met; the panel gives the declared grams for the actual serving listed.</p><p><strong>Extra lean is best understood as a tighter version of the lean nutrient claim, not as a promise of better taste, higher grade or a particular farming method.</strong> It tells you something specific about fat and cholesterol and should be combined with the rest of the label when making a broader comparison.</p>",
+  "faq": [
+    {"question":"Is extra lean always healthier than lean?","answer":"It contains less total and saturated fat under the claim criteria, but an overall health comparison also depends on portion, preparation and the rest of the diet."},
+    {"question":"Does extra lean mean a higher USDA beef grade?","answer":"No. Nutrient-content claims and USDA quality grades describe different characteristics."},
+    {"question":"Is 90% lean ground beef the same as the lean nutrient claim?","answer":"Not exactly. The percentage describes the lean-to-fat composition of ground meat, while the formal nutrient claim has defined fat, saturated fat and cholesterol criteria."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — What does lean and extra lean beef mean on a nutrition label?","url":"https://ask.fsis.usda.gov/article/What-does-lean-and-extra-lean-beef-mean-on-a-nutrition-label","note":"Provides USDA definitions for lean and extra lean beef, including total fat, saturated fat and cholesterol limits."},
+    {"name":"FDA — Food Labeling Guide","url":"https://www.fda.gov/media/81606/download","note":"Provides broader regulatory context for nutrient-content claims used on food labels."}
+  ],
+  "image": {
+    "concept": "Two trimmed beef cuts side by side with generic lean and extra lean label cards and simple fat icons, realistic food photography, no brand names.",
+    "alt": "Lean and extra lean meat labels compared on two beef cuts"
+  },
+  "status": "publish"
+}

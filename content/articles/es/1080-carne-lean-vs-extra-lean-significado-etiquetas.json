@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1080-carne-lean-vs-extra-lean-significado-etiquetas",
+  "article_number": 1080,
+  "translation_group": "1080-lean-vs-extra-lean-meat-labels",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; explicación de las definiciones regulatorias estadounidenses lean y extra lean en etiquetas de carne.",
+  "title": "Carne lean vs. extra lean: qué significan realmente estas etiquetas",
+  "slug": "carne-lean-vs-extra-lean-significado-etiquetas",
+  "seo": {
+    "title": "Lean vs. extra lean: qué significan en la carne",
+    "meta_description": "Lean y extra lean son alegaciones reguladas en EE. UU. Extra lean exige límites más bajos de grasa total y saturada; ambas incluyen un límite de colesterol.",
+    "search_intent": "Entender la diferencia regulatoria entre lean y extra lean y qué información aportan realmente al comprar carne."
+  },
+  "excerpt": "Lean y extra lean no son simples descripciones visuales en el etiquetado estadounidense. Cada término corresponde a límites definidos de grasa total, grasa saturada y colesterol.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["lean","extra-lean","labeling"],
+    "article_types": ["label-explainer","nutrition-explainer"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>En las etiquetas estadounidenses, lean y extra lean son alegaciones nutricionales definidas y no simples formas de decir que una pieza parece tener poca grasa.</strong> Extra lean debe cumplir límites más estrictos que lean.</p><p>USDA FSIS explica la diferencia para vacuno utilizando 100 gramos: lean significa menos de 10 gramos de grasa total, 4,5 gramos o menos de grasa saturada y menos de 95 miligramos de colesterol; extra lean exige menos de 5 gramos de grasa total, menos de 2 gramos de saturada y menos de 95 miligramos de colesterol.</p><h2>Lean fija un techo concreto de grasa y colesterol</h2><p>Una carne puede parecer bastante magra a simple vista y no cumplir la alegación formal. La etiqueta depende de su composición nutricional medida o calculada, no solo de cuánto borde de grasa se haya recortado.</p><p>El umbral lean permite más grasa total y saturada que extra lean. Puede incluir cortes con cierta infiltración que siguen estando por debajo de los límites establecidos. Por eso una descripción informal de carnicería y la palabra regulada de un envase no son necesariamente equivalentes.</p><p>El colesterol forma parte del criterio. No basta con que la superficie tenga poca grasa visible si la composición no cumple el conjunto de condiciones.</p><h2>Extra lean es una alegación más estricta, no una categoría de calidad superior</h2><p>Extra lean reduce la grasa total permitida a menos de 5 gramos por 100 gramos y la saturada a menos de 2, manteniendo el límite de colesterol indicado por FSIS para vacuno. Es útil para comparar opciones cuando la prioridad concreta es reducir grasa.</p><p>No significa que la carne tenga un grado USDA de calidad más alto. Prime, Choice o Select describen características de clasificación de la canal relacionadas con aspectos como madurez y marmoleo. Lean y extra lean son alegaciones de composición nutricional. Son sistemas distintos.</p><p>Tampoco informan sobre si el animal fue alimentado con pasto, si era ecológico o si recibió antibióticos. Esas afirmaciones tienen reglas y documentación independientes.</p><h2>Los porcentajes de carne picada están relacionados, pero no son lo mismo</h2><p>Un paquete de carne picada que indica 90% lean/10% fat comunica directamente una proporción de tejido magro y grasa. No debe confundirse automáticamente con la alegación nutricional formal lean aplicada como descriptor del alimento.</p><p>El porcentaje es práctico para elegir carne picada según una receta porque aproxima el contenido inicial de grasa. Después, cocinar y escurrir modifica la composición de lo que se come, ya que salen agua y grasa fundida.</p><p>En cortes enteros, retirar el borde de grasa también cambia la porción consumida aunque la alegación de la etiqueta describiera el producto tal como se vendía.</p><h2>Qué dice la alegación y qué no puede decirte sobre nutrición</h2><p>Lean y extra lean ayudan a comparar grasa total y saturada dentro de un marco definido, pero no resumen todos los nutrientes. Proteína, sodio, hierro, zinc y otros componentes pueden variar. La preparación también cuenta: mantequilla, aceite, queso o una salsa grasa pueden aportar más que la diferencia inicial entre dos cortes.</p><p>La cantidad que comes es igualmente importante. Los criterios regulatorios trabajan con cantidades de referencia, mientras un steak real puede superar ampliamente 100 gramos. Un producto puede cumplir la alegación y aportar una cantidad notable de grasa si la ración es muy grande.</p><p>Para llevar cuentas precisas, mira el panel nutricional además de la frase frontal. La alegación confirma que se cumple un umbral; el panel declara los gramos correspondientes a la porción indicada.</p><p><strong>Extra lean se entiende mejor como una versión más exigente de la alegación lean, no como garantía de mejor sabor, mayor grado de calidad o método de cría concreto.</strong> Aporta información específica sobre grasa y colesterol que debe combinarse con el resto de la etiqueta.</p>",
+  "faq": [
+    {"question":"¿Extra lean es siempre más saludable que lean?","answer":"Aporta menos grasa total y saturada según los criterios, pero la comparación global depende también de cantidad, preparación y dieta completa."},
+    {"question":"¿Extra lean significa un grado USDA superior?","answer":"No. Las alegaciones nutricionales y los grados de calidad USDA describen aspectos diferentes."},
+    {"question":"¿90% lean en carne picada equivale a la alegación lean?","answer":"No exactamente. El porcentaje expresa la proporción magro/grasa de la carne picada; la alegación formal tiene criterios definidos de grasa, saturada y colesterol."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — What does lean and extra lean beef mean on a nutrition label?","url":"https://ask.fsis.usda.gov/article/What-does-lean-and-extra-lean-beef-mean-on-a-nutrition-label","note":"Define lean y extra lean para vacuno con límites de grasa total, saturada y colesterol."},
+    {"name":"FDA — Food Labeling Guide","url":"https://www.fda.gov/media/81606/download","note":"Aporta contexto regulatorio general sobre alegaciones de contenido nutricional en etiquetas."}
+  ],
+  "image": {
+    "concept": "Dos cortes de vacuno recortados junto a tarjetas genéricas lean y extra lean con iconos simples de grasa, fotografía realista, sin marcas.",
+    "alt": "Comparación visual entre etiquetas lean y extra lean en carne"
+  },
+  "status": "publish"
+}

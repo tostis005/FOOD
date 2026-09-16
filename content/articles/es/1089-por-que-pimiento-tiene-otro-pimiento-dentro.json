@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1089-por-que-pimiento-tiene-otro-pimiento-dentro",
+  "article_number": 1089,
+  "translation_group": "1089-why-pepper-has-small-pepper-inside",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; proliferación interna del pimiento explicada como desarrollo vegetal y no como parásito.",
+  "title": "Por qué a veces hay un pimiento pequeño dentro de otro pimiento",
+  "slug": "por-que-pimiento-tiene-otro-pimiento-dentro",
+  "seo": {
+    "title": "Por qué aparece un pimiento pequeño dentro de otro",
+    "meta_description": "El pequeño pimiento dentro de un pimiento grande suele ser una proliferación interna originada en tejido placentario. No es un gusano ni un parásito.",
+    "search_intent": "Entender la pequeña estructura con forma de pimiento que puede aparecer dentro de un pimiento y saber si el fruto sigue siendo comestible."
+  },
+  "excerpt": "El mini pimiento que aparece dentro de algunos pimientos suele ser una proliferación interna: tejido del propio fruto que creció de forma adicional desde la placenta. Es una rareza botánica, no un animal ni un parásito.",
+  "taxonomy": {
+    "food_family": "fruiting-vegetables",
+    "food_subcategories": ["pepper","internal-proliferation","plant-development"],
+    "article_types": ["food-science","ingredient-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>La pequeña estructura con forma de pimiento que a veces aparece dentro de un pimiento grande suele ser una proliferación interna, un crecimiento secundario producido por tejidos del propio fruto.</strong> Puede parecer un pimiento en miniatura con lóbulos definidos, pero está formado por células vegetales del pimiento y no por un parásito.</p><p>Normalmente surge a partir de tejido placentario, la parte clara interna donde se insertan las semillas. En determinadas circunstancias, señales de desarrollo hacen que una zona continúe creciendo y adopte una forma parecida a un fruto extra.</p><h2>El crecimiento comienza en tejido que ya estaba dentro del pimiento</h2><p>Botánicamente, el pimiento es un fruto derivado del ovario de una flor. En su interior, la placenta sostiene las semillas y está conectada al sistema vascular. Si una zona de ese tejido prolifera de manera anómala, puede generar una masa carnosa sorprendentemente parecida a un pimiento pequeño.</p><p>En horticultura se denomina proliferación interna. La estructura extra puede ser irregular y diminuta o llegar a presentar una forma bastante definida. Su color varía desde blanco verdoso hasta verde o amarillento según el grado de madurez y el tejido implicado.</p><p>Al cortarla, suele verse como pulpa vegetal normal y continua con las estructuras internas, no como un organismo extraño.</p><h2>Hormonas y variaciones del desarrollo parecen estar implicadas</h2><p>El desarrollo de un fruto depende de hormonas vegetales y programas genéticos que responden a polinización, semillas, temperatura y otras condiciones. La proliferación interna aparece cuando una zona modifica localmente ese control y continúa creciendo más de lo habitual.</p><p>En un pimiento concreto del supermercado casi nunca puede saberse cuál fue el desencadenante exacto. Se han relacionado factores ambientales, genética y equilibrio hormonal. Lo esencial es que la estructura se originó mientras el pimiento crecía en la planta.</p><p>No procede de un gusano que haya entrado después de la cosecha ni es algo que se reproduzca de forma independiente dentro del fruto.</p><h2>¿Se puede comer ese pequeño pimiento interior?</h2><p>Si el pimiento principal está fresco y sano, la proliferación interna es simplemente tejido vegetal adicional. Puede resultar más firme, pálida o menos sabrosa que la pared externa, de modo que muchas personas la retiran por textura y no por seguridad.</p><p>Inspecciona la cavidad como harías con cualquier pimiento cortado. Moho, podredumbre viscosa, olor fuerte o zonas muy blandas sí son señales de deterioro y deben valorarse por separado. El pequeño crecimiento no es por sí mismo una de ellas.</p><p>Las semillas normales alrededor de la placenta también cambian de color con la maduración. Semillas oscuras acompañadas de moho o tejido deteriorado son una cuestión distinta.</p><h2>Por qué resulta tan extraño a simple vista</h2><p>Esperamos encontrar una cavidad hueca con semillas y nervios claros. Una pieza carnosa bien estructurada rompe ese patrón familiar y por eso parece algo ajeno al pimiento. Sin embargo, las plantas producen con cierta frecuencia anomalías cuando ovarios, meristemos o placentas reciben señales de crecimiento poco habituales.</p><p>Otros frutos también muestran proliferaciones de tejidos, aunque no siempre con el mismo aspecto ni por las mismas causas. Son consecuencia de sistemas biológicos vivos, no de un proceso industrial perfectamente uniforme.</p><p><strong>Un pimiento dentro de otro suele ser, en definitiva, la propia planta produciendo tejido parecido a un fruto en un lugar inesperado.</strong> Puede ser llamativo, pero en un pimiento sano no indica una infestación.</p>",
+  "faq": [
+    {"question":"¿El pimiento pequeño de dentro es un parásito?","answer":"No. Normalmente es una proliferación interna formada por tejido placentario o del propio fruto."},
+    {"question":"¿Se puede comer el pimiento pequeño interior?","answer":"Si el pimiento principal está fresco y sin deterioro, el tejido interno suele ser comestible, aunque puedes retirarlo si su textura no te gusta."},
+    {"question":"¿Por qué tiene forma de pimiento completo?","answer":"El tejido activa parte de los mismos programas de desarrollo que dan forma al fruto normal, por eso puede adquirir una estructura parecida."}
+  ],
+  "sources": [
+    {"name":"University of Connecticut Home & Garden Education Center — Pepper internal proliferation","url":"https://homegarden.cahnr.uconn.edu/factsheets/internal-proliferation-in-peppers/","note":"Explica el crecimiento parecido a un fruto que puede aparecer dentro de pimientos y su origen en tejidos internos."},
+    {"name":"University of Delaware Cooperative Extension — Strange growth inside peppers","url":"https://sites.udel.edu/weeklycropupdate/?p=7529","note":"Discusión hortícola sobre proliferación interna del pimiento y factores de desarrollo asociados."}
+  ],
+  "image": {
+    "concept": "Pimiento grande abierto mostrando dentro una pequeña estructura limpia con forma de otro pimiento, fotografía realista de producto fresco, sin texto.",
+    "alt": "Pequeño crecimiento con forma de pimiento dentro de un pimiento"
+  },
+  "status": "publish"
+}

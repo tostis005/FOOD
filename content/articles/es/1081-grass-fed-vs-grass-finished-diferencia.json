@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-1081-grass-fed-vs-grass-finished-diferencia",
+  "article_number": 1081,
+  "translation_group": "1081-grass-fed-vs-grass-finished",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional con foco en las alegaciones estadounidenses USDA/FSIS y el uso comercial de grass-finished.",
+  "title": "Grass-fed vs. grass-finished: por qué no significan exactamente lo mismo",
+  "slug": "grass-fed-vs-grass-finished-diferencia",
+  "seo": {
+    "title": "Grass-fed vs. grass-finished: cuál es la diferencia",
+    "meta_description": "Grass-fed y grass-finished suelen aparecer juntos, pero describen ideas distintas. Grass-finished pone el foco en la dieta durante la fase final de engorde.",
+    "search_intent": "Entender la diferencia práctica y de etiquetado entre grass-fed y grass-finished, especialmente en carne de vacuno estadounidense."
+  },
+  "excerpt": "Grass-fed describe de forma amplia un programa de alimentación basado en forraje, mientras grass-finished suele destacar que la fase final antes del sacrificio también se hizo con pasto o forraje.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["grass-fed","grass-finished","beef-labels"],
+    "article_types": ["label-explainer","buying-guide"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>Grass-fed y grass-finished están relacionados, pero no deben darse por sinónimos automáticos.</strong> Grass-fed suele describir una alegación de alimentación basada en hierba y forraje a lo largo del programa de cría, mientras grass-finished pone el énfasis en que la fase final de engorde antes del sacrificio también se mantuvo sobre forraje.</p><p>La confusión aparece porque algunos productores utilizan ambos términos para describir exactamente el mismo sistema de alimentación de por vida, mientras otros usan grass-finished para diferenciarse de animales que pastaron durante gran parte de su vida pero terminaron con una ración rica en grano.</p><h2>Grass-fed es una alegación de alimentación que debe poder justificarse</h2><p>USDA FSIS considera grass-fed una alegación voluntaria sobre la cría del animal. Las etiquetas con este tipo de afirmaciones deben estar respaldadas por documentación del protocolo de producción para que no sean falsas o engañosas.</p><p>Una explicación de askFSIS describe grass o forage fed como animales cuya fuente de alimento después de la leche previa al destete es hierba y forraje, sin grano ni subproductos de grano y con acceso a pasto durante la temporada de crecimiento. El programa USDA para pequeños productores certificados grass-fed trabaja con una lógica semejante de dieta basada exclusivamente en forraje.</p><p>Sin embargo, el antiguo estándar federal de marketing de Agricultural Marketing Service para grass-fed fue retirado en 2016. Por eso hoy conviven protocolos privados, certificaciones y definiciones de productor, aunque una alegación utilizada en una etiqueta bajo FSIS debe seguir estando documentada y no inducir a error.</p><h2>Grass-finished se centra normalmente en la fase final antes del sacrificio</h2><p>Finishing es el periodo en el que el ganado alcanza el peso y la composición corporal deseados antes del sacrificio. En sistemas convencionales, un animal puede pasar muchos meses comiendo pasto o forraje y después entrar en un cebadero con una ración que incluya grano y concentrados.</p><p>La expresión grass-finished se utiliza para comunicar que esa fase final también continuó con forraje. Resulta útil para quien quiere saber específicamente si hubo una transición a grano al final.</p><p>Pero la frase por sí sola no debería interpretarse como respuesta a todas las preguntas sobre la alimentación de toda la vida, salvo que la etiqueta o la certificación la defina de ese modo. Por eso algunas marcas combinan 100% grass-fed and grass-finished para reducir ambigüedad.</p><h2>Ni grass-fed ni grass-finished garantizan pasto fresco todos los días</h2><p>Forraje no significa necesariamente hierba verde recién pastada en cada comida. Heno, ensilado, henolaje y otros forrajes pueden formar parte de un sistema aceptado, especialmente fuera de la temporada de crecimiento o en zonas con inviernos largos.</p><p>Tampoco son sinónimos de ecológico, sin antibióticos, sin hormonas o mayor bienestar animal. Esas son afirmaciones diferentes. El propio programa USDA de grass-fed para pequeños productores se centra en la alimentación y no pretende describir todas las prácticas de cría.</p><p>El sabor y la composición grasa tampoco quedan predeterminados por una sola palabra. Raza, edad, calidad del forraje, grado de engrasamiento, clima, maduración y cocinado pueden modificar mucho la experiencia final.</p><h2>Cómo leer estas etiquetas sin rellenar los huecos con suposiciones</h2><p>Busca expresiones más concretas: 100% grass-fed, grass-fed and grass-finished, forage-fed o porcentajes de dieta. Comprueba si aparece una certificación de terceros o un programa de verificación USDA. FSIS recomienda con fuerza la certificación independiente para reforzar la credibilidad de las alegaciones de cría.</p><p>Si el productor ofrece una definición en el envase o su web, revisa qué entiende por forraje, si se administró grano después del destete, cómo fue la fase de acabado y qué entidad verifica el protocolo.</p><p>Una frase frontal nunca resume por completo la vida productiva de un animal. Cuanto más específica y comprobable sea, menos tendrás que inferir.</p><p><strong>En términos prácticos, grass-fed es la alegación de alimentación más amplia y grass-finished suele subrayar que el periodo final de engorde también fue con forraje.</strong> Pueden describir exactamente el mismo sistema, pero no conviene asumirlo sin leer la definición o certificación que acompaña a la carne.</p>",
+  "faq": [
+    {"question":"¿Un animal puede comer pasto y terminar con grano?","answer":"Sí en el lenguaje general de producción, razón por la que muchos compradores buscan 100% grass-fed o grass-finished cuando quieren evitar un acabado con grano."},
+    {"question":"¿Grass-fed significa ecológico?","answer":"No. La certificación ecológica incluye requisitos adicionales y es una alegación distinta."},
+    {"question":"¿Grass-finished tiene una única definición legal universal?","answer":"El uso comercial puede variar, así que el protocolo respaldado o la certificación son importantes para conocer el significado concreto."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — What is grass fed meat?","url":"https://ask.fsis.usda.gov/article/What-is-grass-fed-meat","note":"Describe el concepto de alimentación con hierba y forraje utilizado en las alegaciones grass-fed."},
+    {"name":"USDA FSIS — Guideline on Substantiating Animal-Raising or Environment-Related Labeling Claims","url":"https://www.fsis.usda.gov/guidelines/2024-0006","note":"Guía actual sobre documentación y verificación de alegaciones de cría como grass-fed."},
+    {"name":"USDA AMS — Withdrawal of U.S. Standards for Livestock and Meat Marketing Claims","url":"https://www.ams.usda.gov/rules-regulations/withdrawal-united-states-standards-livestock-and-meat-marketing-claims","note":"Documenta la retirada en 2016 del antiguo estándar federal de marketing grass-fed."}
+  ],
+  "image": {
+    "concept": "Ganado pastando con una composición dividida que muestra acabado con forraje frente a una ración de cebadero con grano, fotografía agrícola editorial realista, sin texto.",
+    "alt": "Sistemas de alimentación que ilustran grass-fed y grass-finished"
+  },
+  "status": "publish"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1093-que-significan-rayas-blancas-pechuga-pollo",
+  "article_number": 1093,
+  "translation_group": "1093-what-white-stripes-on-chicken-breast-mean",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; white striping en pechuga de pollo explicado como miopatía muscular y problema de calidad.",
+  "title": "Pechuga de pollo con rayas blancas: qué significan y si afectan a la calidad",
+  "slug": "que-significan-rayas-blancas-pechuga-pollo",
+  "seo": {
+    "title": "Qué significan las rayas blancas de la pechuga de pollo",
+    "meta_description": "Las líneas blancas paralelas de algunas pechugas pueden ser white striping, una miopatía del pollo que sustituye parte del músculo por grasa y tejido conectivo.",
+    "search_intent": "Entender el white striping de la pechuga de pollo, por qué aparece, cómo afecta a la calidad y si es lo mismo que woody breast."
+  },
+  "excerpt": "El white striping es una alteración del músculo pectoral del pollo visible como líneas claras paralelas a las fibras. Refleja cambios estructurales que pueden modificar grasa, retención de agua, textura y comportamiento durante la cocción.",
+  "taxonomy": {
+    "food_family": "poultry",
+    "food_subcategories": ["chicken-breast","white-striping","myopathy"],
+    "article_types": ["food-science","meat-quality"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Las líneas blancas paralelas que aparecen en algunas pechugas de pollo pueden corresponder a white striping, una miopatía muscular observada en pollos de crecimiento rápido.</strong> Las franjas reflejan daño y remodelación microscópica del músculo, con más tejido conectivo y grasa en zonas donde las fibras normales han degenerado.</p><p>Es principalmente un problema de calidad de la carne. Está relacionado con woody breast, pero no es exactamente lo mismo: en woody breast destaca una dureza anormal del músculo.</p><h2>Las rayas son un cambio interno del músculo, no moho superficial</h2><p>El pectoral mayor es el gran músculo que forma la mayor parte de una pechuga deshuesada. En los animales afectados aparecen líneas pálidas que siguen aproximadamente la dirección de las fibras. Los estudios histológicos describen degeneración y necrosis muscular, cambios regenerativos, fibrosis y depósito de grasa.</p><p>La grasa y el tejido conectivo hacen que esas bandas destaquen sobre el músculo rosado. En casos leves pueden ser discretas; en casos severos se observan franjas anchas y numerosas atravesando buena parte del filete.</p><p>La alteración está dentro del tejido y se produjo mientras el animal estaba vivo. No se elimina al limpiar la superficie ni tiene aspecto de crecimiento algodonoso como un moho.</p><h2>Se asocia con los pollos modernos de crecimiento rápido</h2><p>Las revisiones científicas relacionan white striping y otras miopatías de pechuga con líneas de pollos seleccionadas durante décadas por crecimiento rápido y gran rendimiento pectoral. La causa exacta es compleja, pero un crecimiento muscular muy intenso puede superar la capacidad del tejido para mantener una irrigación y metabolismo normales.</p><p>En músculo afectado se han observado estrés metabólico, inflamación, alteraciones circulatorias y ciclos de degeneración y reparación. White striping puede aparecer solo o junto con woody breast y spaghetti meat.</p><p>Por eso una pechuga puede mostrar líneas visibles y, al mismo tiempo, presentar una dureza anormal correspondiente a otra miopatía.</p><h2>Puede modificar composición y comportamiento durante la cocción</h2><p>Los estudios suelen encontrar más grasa intramuscular y proporcionalmente menos proteína en pechugas afectadas, sobre todo cuando el grado es severo. También puede cambiar la capacidad de retener agua y aumentar las pérdidas durante almacenamiento o cocción.</p><p>El efecto sobre la textura varía. Un caso leve puede resultar difícil de notar en una comida doméstica; las alteraciones musculares más marcadas pueden empeorar ternura, jugosidad, absorción de marinadas y rendimiento industrial. Cuando white striping y woody breast aparecen juntos, el perjuicio de calidad suele ser mayor.</p><p>Las líneas aportan información sobre la calidad del músculo, pero no permiten predecir con exactitud cómo quedará cada pechuga concreta al cocinarla.</p><h2>No es la misma cuestión que la seguridad microbiológica del pollo crudo</h2><p>White striping es una alteración del desarrollo muscular, no una señal de crecimiento bacteriano. Una pechuga con rayas necesita las mismas precauciones que cualquier pollo crudo: mantener el frío, evitar contaminación cruzada y alcanzar una temperatura interna segura.</p><p>El mal olor persistente, la baba, un envase deteriorado u otras señales de alteración deben valorarse aparte. Tener rayas blancas no vuelve aceptable un pollo estropeado, y no tenerlas tampoco garantiza ausencia de microorganismos peligrosos.</p><p><strong>La lectura más útil es considerar white striping un marcador visible de músculo alterado y de posible pérdida de calidad.</strong> No debe confundirse con moho, con grasa añadida después del sacrificio ni con woody breast, aunque ambas miopatías puedan coexistir.</p>",
+  "faq": [
+    {"question":"¿Las rayas blancas de la pechuga son grasa?","answer":"Incluyen un aumento de grasa y tejido conectivo asociado a degeneración muscular, así que son más que simples depósitos normales superficiales."},
+    {"question":"¿White striping y woody breast son lo mismo?","answer":"No. Son miopatías relacionadas que pueden coexistir, pero woody breast se caracteriza sobre todo por una dureza y rigidez anormales."},
+    {"question":"¿Las rayas blancas significan que el pollo está malo?","answer":"No. Son una alteración muscular. El deterioro debe juzgarse aparte por conservación, olor, baba y otras señales."}
+  ],
+  "sources": [
+    {"name":"Poultry Science — White striping and woody breast myopathies review","url":"https://pubmed.ncbi.nlm.nih.gov/27450434/","note":"Revisa degeneración muscular, fibrosis, depósito de grasa, asociación con crecimiento rápido y efectos de calidad de white striping y woody breast."},
+    {"name":"Poultry Science — Textural and physical properties of breast fillets with myopathies","url":"https://doi.org/10.1016/j.psj.2022.102309","note":"Compara efectos de calidad de white striping, woody breast y spaghetti meat a distintos grados de severidad."}
+  ],
+  "image": {
+    "concept": "Pechuga de pollo cruda con varias rayas blancas paralelas sobre el músculo rosado junto a una pechuga sin alteración para comparar, fotografía realista, sin texto.",
+    "alt": "White striping visible como líneas blancas paralelas en una pechuga de pollo cruda"
+  },
+  "status": "publish"
+}

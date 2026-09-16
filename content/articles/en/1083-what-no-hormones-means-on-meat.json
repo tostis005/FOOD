@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "en-1083-what-no-hormones-means-on-meat",
+  "article_number": 1083,
+  "translation_group": "1083-what-no-hormones-means-on-meat",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; species-specific USDA/FDA hormone-use claims on meat and poultry labels.",
+  "title": "What No Hormones Really Means on a Meat Label",
+  "slug": "what-no-hormones-means-on-meat",
+  "seo": {
+    "title": "What Does No Hormones Mean on Meat Labels?",
+    "meta_description": "No-hormone claims describe animal-raising practices and depend on species. Beef can use approved growth hormones; poultry has no approved steroid hormone implants, and pork rules need nuance.",
+    "search_intent": "Understand what no hormones or no added hormones claims mean on U.S. beef, pork and poultry labels."
+  },
+  "excerpt": "A no-hormone label is a production claim, not a statement that meat contains no natural hormones. Its significance changes by species because approved veterinary hormone uses are not the same for cattle, pigs and poultry.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["hormones","animal-raising-claims","labeling"],
+    "article_types": ["label-explainer","food-policy"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>A no-hormones or no-added-hormones statement on U.S. meat is an animal-raising claim about whether hormonal drugs were administered, not a claim that the meat contains literally no hormones.</strong> Animals naturally produce hormones as part of normal biology, so the meaningful question is whether approved hormone products were used during production.</p><p>The answer depends on species. FDA approves hormonal drugs only for particular animal classes and uses, while USDA FSIS reviews label claims and the documentation used to support them.</p><h2>Beef claims matter because approved growth-promoting hormones exist for cattle</h2><p>Cattle can legally receive certain FDA-approved hormone products, including growth-promoting implants used under labeled conditions. Consequently, a beef label saying no hormones administered or raised without added hormones conveys a real distinction in the production program.</p><p>FSIS can approve such claims when the producer provides sufficient documentation showing that the animals were raised consistently with the statement. The claim does not mean the beef is chemically hormone-free; endogenous hormones naturally remain part of animal tissue.</p><p>It also does not automatically mean organic, grass-fed or antibiotic-free. Those practices are controlled through separate programs or claims.</p><h2>Poultry is different because steroid hormone implants are not approved for growth</h2><p>USDA notes that no hormones are used in raising chickens for growth because FDA has not approved steroid hormone implants for that purpose in poultry. This is why hormone claims on chicken can be misleading if they imply that the brand avoided a routine practice used by competitors.</p><p>Historically, poultry labels using no-hormone language have required qualifying context explaining the federal prohibition. The broader lesson is that a claim can sound impressive while describing something that applies across the category rather than a unique production advantage.</p><p>For poultry shoppers, other differences such as feeding program, antibiotic policy, organic certification or welfare standard may provide more discriminating information than a hormone statement.</p><h2>Pork requires more nuance than the old slogan suggests</h2><p>Older consumer materials often stated that federal regulations simply prohibited hormones in hog production. USDA clarified in 2020 that this blanket statement was no longer accurate because FDA has approved some hormonal uses in swine, including uses associated with reproduction rather than ordinary growth promotion.</p><p>As a result, FSIS indicated that pork labels making no-hormone claims should be supported with production documentation rather than relying on an outdated universal disclaimer. This distinction illustrates why species and purpose matter. A hormone drug approved for a specific reproductive use is not the same thing as a cattle growth implant.</p><p>When comparing pork, read the exact phrase and supporting certification instead of assuming the claim has the same significance as it does on beef.</p><h2>No-hormone claims are about administration history, not zero hormone molecules</h2><p>Meat from every animal contains naturally occurring hormones and hormone metabolites at some level. Marketing phrases such as no hormones administered, no added hormones or raised without hormones refer to management practices, not complete chemical absence.</p><p>They also should not be confused with residue safety. Veterinary drugs that are approved for food animals are regulated for species, dose, route and withdrawal conditions. Special no-use claims add production information beyond those baseline requirements.</p><p>USDA's current animal-raising claim framework emphasizes documentation, traceability and truthful wording. Third-party certification can provide additional confidence where the program's standard is transparent.</p><p><strong>The useful way to read a no-hormone label is species by species.</strong> On beef it can distinguish cattle raised without approved growth-promoting hormones. On poultry, growth hormone implants are not an approved routine option. On pork, the regulatory picture is more nuanced, so the exact claim and its supporting protocol matter.</p>",
+  "faq": [
+    {"question":"Does no hormones mean the meat contains zero hormones?","answer":"No. Animals naturally produce hormones; the claim concerns administration of hormone products during raising."},
+    {"question":"Are growth hormones used in chickens?","answer":"FDA has not approved steroid hormone implants for growth purposes in poultry."},
+    {"question":"Does no hormones also mean no antibiotics?","answer":"No. Hormone-use and antibiotic-use claims describe separate practices."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — Who approves the use of hormones in animals?","url":"https://ask.fsis.usda.gov/article/Who-approves-the-use-of-hormones-in-animals","note":"Explains that FDA approves hormone uses for specific animal classes and that poultry does not have approved growth hormone use."},
+    {"name":"USDA FSIS — Constituent Update, June 19 2020","url":"https://www.fsis.usda.gov/news-events/news-press-releases/constituent-update-june-19-2020","note":"Clarifies why pork hormone claims require nuance and documentation rather than the older blanket disclaimer."},
+    {"name":"USDA FSIS — Guideline on Substantiating Animal-Raising or Environment-Related Labeling Claims","url":"https://www.fsis.usda.gov/guidelines/2024-0006","note":"Current guidance for substantiating voluntary animal-raising claims."}
+  ],
+  "image": {
+    "concept": "Generic beef, pork and chicken packages with a neutral no-added-hormones label card and species icons, educational editorial style, no brands.",
+    "alt": "No-hormone meat claims compared across beef pork and poultry"
+  },
+  "status": "publish"
+}

@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "en-1084-what-uncured-means-on-bacon",
+  "article_number": 1084,
+  "translation_group": "1084-what-uncured-means-on-bacon",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; USDA labeling rules for uncured bacon, nitrate and nitrite sources.",
+  "title": "What Uncured Means on Bacon and Other Processed Meats",
+  "slug": "what-uncured-means-on-bacon",
+  "seo": {
+    "title": "What Does Uncured Bacon Really Mean?",
+    "meta_description": "Uncured bacon does not necessarily mean nitrate- or nitrite-free. Products can use natural sources such as celery powder and still require uncured labeling under U.S. rules.",
+    "search_intent": "Understand why uncured bacon may still contain nitrite derived from celery or other natural sources and what the U.S. label actually means."
+  },
+  "excerpt": "Uncured on U.S. bacon is a regulatory labeling term, not a guarantee that the product contains no nitrate or nitrite chemistry. Natural nitrite sources can produce many of the same curing effects.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["bacon","nitrite","curing"],
+    "article_types": ["label-explainer","food-science"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>Uncured bacon is not necessarily bacon made without nitrate or nitrite chemistry.</strong> Under U.S. rules, bacon and similar products made without the conventional approved nitrate or nitrite curing ingredients can carry the word uncured, even when ingredients such as celery powder supply naturally occurring nitrate or nitrite that contributes to a cured-meat effect.</p><p>That is why many packages say uncured and also include a statement such as no nitrates or nitrites added except those naturally occurring in celery powder. The two statements are intended to be read together.</p><h2>Conventional curing uses specifically approved nitrate or nitrite ingredients</h2><p>Traditional commercial curing commonly uses sodium nitrite, potassium nitrite or other approved curing systems within regulated limits. Nitrite helps create the characteristic pink cured color, contributes flavor, slows rancidity and, importantly, helps control Clostridium botulinum in appropriate formulations.</p><p>USDA FSIS regulates which curing agents can be used and in what amounts. Products made under a standard of identity with conventional curing ingredients are labeled accordingly and list those ingredients in the ingredient statement.</p><p>The chemistry is functional, not merely cosmetic. That is why the curing system, salt, processing conditions and refrigeration all matter to product safety and shelf life.</p><h2>Celery powder can supply nitrate or nitrite even when the label says uncured</h2><p>Celery and some other vegetables naturally contain nitrate. Commercial celery powders can be standardized and, through microbial conversion or pre-conversion, provide nitrite in a meat formulation. That nitrite can react with meat pigments and produce familiar cured color and flavor.</p><p>FSIS guidance explains that natural sources such as celery powder are not treated as the conventional approved curing agents listed for that specific regulatory purpose. As a result, products that substitute these natural sources for conventional nitrite curing agents can fall under special uncured labeling requirements.</p><p>So the word uncured describes the regulatory route and ingredient classification more than the absence of curing-like chemistry in the finished food.</p><h2>No nitrates or nitrites added usually needs a qualifying statement</h2><p>When a product contains a natural nitrate or nitrite source, an unqualified no nitrates or nitrites statement would be misleading. U.S. rules require qualifying language such as except for those naturally occurring in celery powder when that is the source.</p><p>Reading only the large word uncured and ignoring the smaller qualifier can create the false impression that the product contains no nitrite at all. The ingredient list often makes the system clearer because it names celery powder, cultured celery powder or another natural source.</p><p>The exact residual nitrite in the finished product can vary with formulation and processing. Natural origin does not make the nitrite molecule functionally unrelated to nitrite from a conventional curing ingredient.</p><h2>Uncured does not automatically mean healthier or less processed</h2><p>The term does not tell you the product's sodium, saturated fat, calorie content or overall degree of processing. Two bacon products can differ substantially in those respects regardless of which curing route is used.</p><p>It also does not mean the product can be handled like fresh raw pork. Follow the storage and cooking directions on the package. Some uncured products are fully cooked, some are raw, and refrigeration requirements depend on the specific product.</p><p>If your goal is to compare nitrate and nitrite exposure, read the complete ingredients and qualifier rather than relying on the front word. If your goal is nutrition, compare Nutrition Facts and serving size.</p><p><strong>The counterintuitive part is that uncured is a labeling category, not proof that nitrate and nitrite are absent.</strong> Bacon made with celery-derived nitrite can still develop the color, flavor and preservation effects associated with curing while being labeled uncured under the U.S. regulatory framework.</p>",
+  "faq": [
+    {"question":"Does uncured bacon contain no nitrites?","answer":"Not necessarily. It may use natural sources such as celery powder that provide nitrate or nitrite."},
+    {"question":"Why does uncured bacon stay pink?","answer":"Nitrite generated or supplied from natural ingredients can react with meat pigments and create a cured pink color."},
+    {"question":"Is uncured bacon automatically healthier?","answer":"No. The term describes the curing and labeling route, not the full nutrient profile."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — Stabilization Guideline for Meat and Poultry Products, natural sources of nitrite section","url":"https://fsistraining.fsis.usda.gov/pluginfile.php/17042/mod_resource/content/2/Appendix-B.pdf","note":"Explains labeling of products made with celery powder and other natural nitrite sources as uncured with qualifying language."},
+    {"name":"USDA FSIS — What are nitrites?","url":"https://ask.fsis.usda.gov/article/What-are-nitrites","note":"Describes nitrite's roles in cured-meat color, flavor, rancidity control and botulism prevention."},
+    {"name":"USDA AMS — Bacon and Poultry Bacon specification","url":"https://www.ams.usda.gov/sites/default/files/media/BaconandPoultryBaconPrecookedSlicedShelfStable.pdf","note":"References U.S. rules permitting the uncured designation for bacon prepared without conventional nitrate or nitrite curing agents."}
+  ],
+  "image": {
+    "concept": "Two packages of bacon represented generically, one conventional cured and one uncured with celery powder beside celery stalks, realistic food-label editorial photo, no brands.",
+    "alt": "Uncured bacon with celery-derived nitrate compared with conventionally cured bacon"
+  },
+  "status": "publish"
+}

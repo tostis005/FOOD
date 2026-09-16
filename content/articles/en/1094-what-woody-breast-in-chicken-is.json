@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1094-what-woody-breast-in-chicken-is",
+  "article_number": 1094,
+  "translation_group": "1094-what-woody-breast-in-chicken-is",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; woody breast explained as a broiler muscle myopathy and quality defect rather than a cooking error.",
+  "title": "Why Some Chicken Breast Feels Hard or Woody",
+  "slug": "what-woody-breast-in-chicken-is",
+  "seo": {
+    "title": "What Is Woody Breast in Chicken?",
+    "meta_description": "Woody breast is a broiler muscle myopathy that makes chicken breast unusually hard, firm, and sometimes bulging. It can reduce tenderness, juiciness, and water-holding quality.",
+    "search_intent": "Understand woody breast in chicken, why some raw breasts feel abnormally hard, and how the condition affects cooking quality."
+  },
+  "excerpt": "Woody breast is a muscle disorder of modern broiler chickens that can make breast fillets unusually hard and rigid. The altered tissue may cook tougher and lose more moisture even when it is handled correctly.",
+  "taxonomy": {
+    "food_family": "poultry",
+    "food_subcategories": ["chicken-breast","woody-breast","myopathy"],
+    "article_types": ["food-science","meat-quality"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Woody breast is a muscle myopathy that makes some chicken breasts feel abnormally hard, rigid, or wood-like before and after cooking.</strong> It develops in the pectoralis major muscle of broiler chickens and is associated with structural damage, fibrosis, altered fat deposition, inflammation, and changes in the way the muscle holds water.</p><p>The condition is not caused by overcooking at home, although cooking can make its texture more obvious. A severely affected fillet may already feel firm and swollen while raw.</p><h2>Woody breast changes the structure of the pectoral muscle</h2><p>Normal chicken breast is made of long muscle fibers supported by connective tissue and supplied by blood vessels. In woody breast, microscopic studies show degeneration and necrosis of muscle fibers, regenerative attempts, fibrosis, and other remodeling. Parts of the muscle are effectively replaced or surrounded by tougher connective tissue.</p><p>That structural change explains the name. The fillet can resist pressure when squeezed and may feel dense rather than flexible. Severe examples can have a bulging shape and a pale, sometimes glossy surface. Small hemorrhages or clear fluid may also occur in affected tissue.</p><p>Not every firm chicken breast has woody breast. Chilling, freezing, cooking, and natural anatomical differences also change texture, but the characteristic raw hardness is a useful clue.</p><h2>Fast growth and large breast yield are strongly associated with the condition</h2><p>Scientific reviews link woody breast with modern fast-growing broilers selected for rapid weight gain and high breast-meat yield. The exact chain of events is still being studied, but one leading explanation is that very rapid muscle enlargement creates metabolic and circulatory stress within the pectoral tissue.</p><p>Researchers have documented impaired oxygen supply, oxidative stress, inflammation, abnormal calcium handling, and repeated degeneration and repair. Genetics, growth rate, nutrition, and management can all influence risk rather than one single cause acting alone.</p><p>Woody breast often overlaps with white striping and sometimes spaghetti meat. These conditions share aspects of muscle damage but are classified separately because their visible and textural features differ.</p><h2>Why woody breast often cooks tougher and drier</h2><p>Affected tissue handles water differently from normal muscle. Studies find higher drip loss and cooking loss in many woody-breast samples, especially when the condition is severe. The dense connective tissue and damaged muscle also alter tenderness.</p><p>That is why a chicken breast can reach the correct internal temperature yet still feel unusually chewy, crunchy, rubbery, or fibrous in parts. Additional cooking does not repair the muscle structure and can make moisture loss worse.</p><p>Marinades, grinding, chopping, or slow moist cooking can sometimes make the texture less objectionable, but they do not turn severely affected tissue back into normal breast muscle. Commercial processors may therefore divert affected fillets into products where texture is less obvious.</p><h2>Woody breast is mainly a quality issue, but normal raw-chicken safety rules still apply</h2><p>The myopathy itself is not a sign that the meat has spoiled on the counter. A woody breast still needs the same refrigeration, clean handling, cross-contamination control, and safe cooking as any other raw poultry.</p><p>Separately, if chicken has a persistent foul odor, abnormal slime, damaged packaging, or an unsafe time-temperature history, those concerns should be handled as spoilage or food-safety issues. Hardness alone does not diagnose bacterial contamination.</p><p><strong>The most useful way to understand woody breast is as a pre-existing muscle-quality defect.</strong> The unusual firmness begins in the bird before processing, and the resulting structural changes explain why the meat can remain tough even when the cook does everything correctly.</p>",
+  "faq": [
+    {"question":"How can I recognize woody breast before cooking?","answer":"A strongly affected raw breast often feels unusually hard or rigid, especially in the thicker upper portion, and may look bulging or pale."},
+    {"question":"Is woody breast the same as white striping?","answer":"No. They are related broiler myopathies and can occur together, but white striping is identified mainly by visible pale bands while woody breast is defined by abnormal hardness."},
+    {"question":"Can cooking fix woody breast texture?","answer":"Cooking methods can make the meat more pleasant, but they cannot reverse the underlying fibrosis and muscle damage."}
+  ],
+  "sources": [
+    {"name":"Poultry Science — White striping and woody breast myopathies review","url":"https://pubmed.ncbi.nlm.nih.gov/27450434/","note":"Reviews the pathology, growth-rate associations, and meat-quality consequences of woody breast and related broiler myopathies."},
+    {"name":"Poultry Science — Textural and physical properties of breast fillets with myopathies","url":"https://doi.org/10.1016/j.psj.2022.102309","note":"Reports increased firmness and quality changes in fillets affected by woody breast, including effects on drip loss and cooking loss."}
+  ],
+  "image": {
+    "concept": "Two raw chicken breast fillets side by side, one normal and flexible-looking and one visibly thick, bulging, pale, and firm to illustrate woody breast, realistic food-science photography, no text.",
+    "alt": "Normal chicken breast compared with a thick firm woody breast fillet"
+  },
+  "status": "publish"
+}

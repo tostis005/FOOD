@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1079-por-que-salmon-es-rosa",
+  "article_number": 1079,
+  "translation_group": "1079-why-salmon-is-pink",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; pigmentos del salmón, astaxantina y alimentación acuícola explicados sin mitos sobre tintes.",
+  "title": "Por qué el salmón es rosa y de qué depende su color",
+  "slug": "por-que-salmon-es-rosa",
+  "seo": {
+    "title": "Por qué el salmón es rosa y de qué depende su color",
+    "meta_description": "El salmón es rosa por carotenoides como la astaxantina que acumula a partir de la dieta. Especie, alimentación y metabolismo cambian la intensidad del color.",
+    "search_intent": "Entender por qué la carne del salmón es rosa o naranja y por qué cambia entre especies, peces salvajes y salmón de acuicultura."
+  },
+  "excerpt": "El color típico del salmón procede de pigmentos carotenoides que el pez obtiene mediante la alimentación. La especie y la cantidad de pigmento disponible determinan gran parte del tono final.",
+  "taxonomy": {
+    "food_family": "seafood",
+    "food_subcategories": ["salmon","astaxanthin","color"],
+    "article_types": ["food-science","ingredient-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>El salmón es rosa porque en su músculo se acumulan pigmentos carotenoides rojizos y anaranjados procedentes de la dieta, sobre todo astaxantina.</strong> A diferencia de muchas carnes rojas, el color característico del salmón no se explica principalmente por una gran cantidad de mioglobina. El pez depende de los pigmentos que ingiere.</p><p>Por eso hay salmones rosa pálido, naranjas y casi rojos. La especie, el tipo de alimento, la cantidad de carotenoides, el metabolismo y las condiciones de cría influyen en el tono que acaba viendo el consumidor.</p><h2>El salmón salvaje recibe carotenoides a través de la cadena alimentaria</h2><p>La astaxantina aparece en niveles bajos de la cadena acuática y se concentra en organismos como el kril y otros crustáceos. Un salmón salvaje puede comer esos organismos directamente o consumir peces que ya han ingerido fuentes pigmentadas. Después absorbe los carotenoides y deposita parte de ellos en el músculo.</p><p>NOAA señala que carotenoides como astaxantina y cantaxantina son responsables del color característico de la carne. El pez no necesita comer algo que parezca rojo de forma literal; necesita moléculas pigmentarias que su sistema digestivo pueda absorber y transportar.</p><p>Cada especie tiene dieta y fisiología diferentes. El salmón rosado, por ejemplo, presenta una carne bastante más pálida que otros salmones, mientras el sockeye puede alcanzar tonos rojo-anaranjados muy intensos.</p><h2>El salmón de acuicultura también obtiene la astaxantina de la comida</h2><p>El salmón atlántico criado no sigue la misma cadena alimentaria que un pez salvaje, por lo que el pienso formulado incorpora carotenoides. NOAA explica que puede añadirse astaxantina natural o sintética equivalente al pigmento que el salmón obtiene en libertad. Describirlo como una inyección de tinte es incorrecto: el pigmento se aporta en el alimento y el animal lo absorbe al digerirlo.</p><p>La alimentación permite controlar mejor la cantidad disponible, pero el color sigue dependiendo de la absorción y la biología del pez. No basta con añadir un colorante para pintar el músculo desde fuera. La molécula debe ingerirse, atravesar el sistema digestivo, circular y quedar retenida en los tejidos.</p><p>Los piensos han cambiado con el tiempo al reducirse o sustituirse algunos ingredientes marinos. La suplementación con pigmentos mantiene el color esperado cuando otras materias primas aportan menos astaxantina de forma natural.</p><h2>Un tono más intenso no mide directamente frescura ni omega-3</h2><p>Un filete más naranja no es automáticamente más fresco, seguro o nutritivo que uno más pálido. El color refleja sobre todo el depósito de carotenoides. El contenido de omega-3 depende de la especie, la dieta y el perfil de grasas mediante mecanismos diferentes.</p><p>La frescura se evalúa mejor con la cadena de frío, olor, textura, estado del envase y pautas de seguridad. El color también cambia con congelación, almacenamiento y cocinado porque los pigmentos y proteínas reaccionan a luz, oxígeno y calor.</p><p>Tampoco es fiable identificar únicamente por el color si el salmón es salvaje o de acuicultura. Hay tendencias típicas, pero existe bastante solapamiento.</p><h2>Por qué algunos salmones son casi rojos y otros rosa claro</h2><p>La genética de la especie modifica la eficiencia con la que el pez absorbe y almacena pigmentos. La dieta decide cuánta astaxantina está disponible. La grasa y la estructura del músculo cambian cómo se refleja la luz. El resultado es un continuo de tonos y no un único color correcto.</p><p>Al cocinar, las proteínas musculares se vuelven más opacas y el filete suele parecer más claro. El pigmento sigue presente en buena medida, pero queda visualmente combinado con una matriz de proteína blanca y coagulada.</p><p>Un salmón especialmente pálido no está estropeado solo por ese rasgo, y un naranja intenso tampoco garantiza calidad. Hay que valorar el producto completo.</p><p><strong>El salmón es rosa porque almacena carotenoides de la dieta, especialmente astaxantina.</strong> El pez salvaje los recibe de la cadena alimentaria y el criado los recibe mediante piensos formulados; la especie y la fisiología determinan cuánto termina acumulándose en el músculo.</p>",
+  "faq": [
+    {"question":"¿Al salmón de acuicultura le inyectan tinte rosa?","answer":"No. Los carotenoides se incorporan al pienso y el pez los absorbe mediante la digestión."},
+    {"question":"¿Por qué algunos salmones son mucho más rojos?","answer":"Especie, dieta, disponibilidad de pigmentos y capacidad de almacenar astaxantina cambian la intensidad del color."},
+    {"question":"¿Un color más oscuro significa más omega-3?","answer":"No necesariamente. El color y el contenido de omega-3 pueden estar influidos por la dieta, pero uno no mide directamente al otro."}
+  ],
+  "sources": [
+    {"name":"NOAA Fisheries — Feeds for Aquaculture","url":"https://www.fisheries.noaa.gov/insight/feeds-aquaculture","note":"Explica el papel de astaxantina y cantaxantina en el color y cómo se aportan pigmentos al alimento del salmón criado."},
+    {"name":"NOAA Fisheries — Atlantic Salmon","url":"https://www.fisheries.noaa.gov/species/atlantic-salmon","note":"Describe el color rojizo-anaranjado o rosa y la influencia del pienso formulado en salmón atlántico de acuicultura."}
+  ],
+  "image": {
+    "concept": "Varios filetes de salmón desde rosa pálido hasta naranja rojizo junto a pequeños crustáceos y pellets de pienso, fotografía editorial realista, sin texto.",
+    "alt": "Filetes de salmón con distintos tonos causados por carotenoides de la dieta"
+  },
+  "status": "publish"
+}

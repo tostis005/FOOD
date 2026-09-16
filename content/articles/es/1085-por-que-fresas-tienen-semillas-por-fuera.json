@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1085-por-que-fresas-tienen-semillas-por-fuera",
+  "article_number": 1085,
+  "translation_group": "1085-why-strawberries-have-seeds-on-the-outside",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; botánica de la fresa, aquenios y desarrollo del receptáculo.",
+  "title": "Por qué las fresas tienen las semillas por fuera",
+  "slug": "por-que-fresas-tienen-semillas-por-fuera",
+  "seo": {
+    "title": "Por qué las fresas tienen las semillas por fuera",
+    "meta_description": "Los puntos de una fresa son aquenios, pequeños frutos secos individuales. La parte roja es un receptáculo floral agrandado y por eso los frutos quedan en la superficie.",
+    "search_intent": "Entender por qué las fresas parecen tener semillas externas y qué son botánicamente la parte roja y los pequeños puntos de la superficie."
+  },
+  "excerpt": "La fresa invierte la imagen habitual de una fruta: la parte roja y jugosa procede sobre todo del receptáculo de la flor, mientras cada pequeño punto duro de fuera es un fruto llamado aquenio.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": ["strawberry","achenes","botany"],
+    "article_types": ["food-science","botany-explainer"],
+    "primary_article_type": "botany-explainer"
+  },
+  "content_html": "<p><strong>Las fresas parecen tener las semillas por fuera porque la parte roja y jugosa no es el fruto derivado de un único ovario como ocurre en muchas otras plantas.</strong> Los pequeños puntos duros de la superficie son frutos individuales llamados aquenios, y dentro de cada aquenio suele haber una semilla.</p><p>La pulpa roja procede principalmente del receptáculo floral, el tejido que sostenía las estructuras reproductivas de la flor. Cuando ese receptáculo aumenta muchísimo de tamaño, los aquenios permanecen distribuidos por su superficie.</p><h2>Cada punto es técnicamente un fruto y no una semilla desnuda</h2><p>Una flor de fresa posee muchos ovarios separados. Tras la polinización y la fecundación, cada ovario puede convertirse en un pequeño fruto seco. Botánicamente ese fruto se llama aquenio.</p><p>Lo que coloquialmente llamamos semilla de fresa es por tanto el aquenio completo que vemos y notamos al masticar. La semilla verdadera está encerrada dentro de su pared.</p><p>Una fresa puede llevar alrededor de un par de centenares de aquenios, aunque el número cambia con la variedad, el desarrollo de la flor y el éxito de la polinización.</p><h2>La parte roja es un receptáculo floral que se ha agrandado</h2><p>En frutas conocidas como melocotón, tomate o uva, gran parte del fruto procede del ovario. La fresa sigue otro diseño. Después de la fecundación, el receptáculo situado debajo de todos los ovarios se expande y se transforma en el tejido blando, dulce y rojo que comemos.</p><p>Como los ovarios estaban originalmente colocados alrededor de la parte exterior de ese receptáculo, sus aquenios maduros siguen fuera mientras el tejido se hincha. No son semillas empujadas desde el interior. La disposición procede directamente de la anatomía de la flor.</p><p>Por esta razón la fresa se describe como fruto agregado accesorio: agregado porque intervienen muchos ovarios y accesorio porque buena parte del tejido comestible procede de una estructura distinta de esos ovarios.</p><h2>Los aquenios ayudan a dirigir el crecimiento de la fresa</h2><p>Los pequeños frutos superficiales no son simples adornos. Cuando los óvulos se fecundan, los aquenios en desarrollo generan señales hormonales, entre ellas relacionadas con auxinas, que estimulan la expansión del receptáculo cercano.</p><p>Si una zona de la flor se poliniza mal o sufre daño por insectos, frío u otro estrés, algunos aquenios no se desarrollan con normalidad. El tejido rojo próximo puede crecer menos y producir una fresa deformada, hundida o asimétrica.</p><p>Por eso a los productores les importa la polinización no solo para que se formen semillas, sino también para lograr una forma y tamaño uniformes del fruto comercial.</p><h2>Por qué esos frutos externos se comen sin problema</h2><p>Los aquenios forman parte normal y comestible de la fresa. Sus paredes firmes aportan una textura ligeramente granulosa, pero casi todo el mundo los traga sin prestarles atención. Retirarlos dañaría el receptáculo blando y no ofrece una ventaja culinaria habitual.</p><p>La producción comercial de fresa utiliza con frecuencia estolones y plantas de vivero, así que los aquenios de la fruta del supermercado no están ahí porque se espere que el consumidor los plante. Simplemente son el resultado natural del ciclo de la flor.</p><p>La misma anatomía explica otra sorpresa: la fresa no es una baya verdadera según la definición botánica estricta, mientras frutas como el plátano sí entran en esa categoría. El lenguaje culinario y la botánica clasifican con criterios distintos.</p><p><strong>Las aparentes semillas están fuera porque la fresa se construye a partir de muchos pequeños frutos situados sobre una base floral agrandada.</strong> El receptáculo se hincha a su alrededor y los aquenios permanecen exactamente donde estaban los ovarios originales: en la superficie.</p>",
+  "faq": [
+    {"question":"¿Los puntos de una fresa son realmente semillas?","answer":"Son aquenios, pequeños frutos secos que normalmente contienen una semilla en su interior."},
+    {"question":"¿Qué es la parte roja de la fresa?","answer":"Es principalmente el receptáculo de la flor que ha aumentado de tamaño."},
+    {"question":"¿Por qué algunas fresas salen deformadas?","answer":"Una polinización deficiente o daño en algunos aquenios puede reducir las señales de crecimiento y hacer que el receptáculo se desarrolle de forma desigual."}
+  ],
+  "sources": [
+    {"name":"University of California ANR — Growth of the Strawberry Fruit Related to Flower Ovule Number and Auxin Production","url":"https://ucanr.edu/node/116390/printable/print","note":"Explica que los puntos son aquenios y cómo los óvulos fecundados ayudan a impulsar el crecimiento del receptáculo."},
+    {"name":"Encyclopaedia Britannica — Strawberry","url":"https://www.britannica.com/plant/strawberry","note":"Contexto botánico sobre la fresa como fruto agregado accesorio con aquenios en la superficie."}
+  ],
+  "image": {
+    "concept": "Macro de una fresa donde se vean claramente los aquenios junto a una transición botánica sutil de flor a fruto, estilo científico editorial realista, sin texto.",
+    "alt": "Aquenios visibles en la superficie exterior de una fresa"
+  },
+  "status": "publish"
+}
