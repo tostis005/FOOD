@@ -1,0 +1,42 @@
+name: Temp audit 1053-1075
+
+on:
+  push:
+    branches:
+      - tmp-audit-1053-1075
+
+permissions:
+  contents: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Report target article lengths
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import html, json, re
+          from pathlib import Path
+
+          target = {1053,1062,1064,1065,1067,1068,1069,1070,1071,1072,1073,1074,1075}
+
+          def visible_text(content_html):
+              text = re.sub(r'(?is)<(?:script|style)\\b[^>]*>.*?</(?:script|style)>', ' ', content_html)
+              text = re.sub(r'<[^>]+>', ' ', text)
+              text = html.unescape(text)
+              return re.sub(r'\\s+', ' ', text).strip()
+
+          def wc(text):
+              return len(re.findall(r"\\b[^\\W_]+(?:['’\\-][^\\W_]+)*\\b", text, flags=re.UNICODE))
+
+          for lang in ('es','en'):
+              for path in sorted(Path('content/articles',lang).glob('*.json')):
+                  data = json.loads(path.read_text(encoding='utf-8'))
+                  num = int(data.get('article_number',0) or 0)
+                  if num not in target:
+                      continue
+                  content = str(data.get('content_html',''))
+                  print('TARGET', lang, num, 'words='+str(wc(visible_text(content))), 'h2='+str(len(re.findall(r'<h2\\b', content, flags=re.I))), 'path='+path.as_posix(), 'title='+str(data.get('title','')), sep='|')
+          PY
