@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1076-how-food-can-say-zero-calories",
+  "article_number": 1076,
+  "translation_group": "1076-how-food-can-say-zero-calories",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; FDA calorie declaration rules and practical label interpretation.",
+  "title": "How Can a Food Say 0 Calories If It Actually Contains Some?",
+  "slug": "how-food-can-say-zero-calories",
+  "seo": {
+    "title": "How Can a Food Say 0 Calories If It Has Calories?",
+    "meta_description": "Under U.S. labeling rules, a serving with fewer than 5 calories may be declared as 0 calories. Serving size and repeated servings explain why the real total may be higher.",
+    "search_intent": "Understand how a food can legally display zero calories even when a serving contains a small amount of energy."
+  },
+  "excerpt": "Zero calories on a U.S. label can be a permitted rounded declaration rather than a claim that the product contains literally no metabolizable energy. The key is the amount per labeled serving.",
+  "taxonomy": {
+    "food_family": "nutrition-labels",
+    "food_subcategories": ["calories","rounding","serving-size"],
+    "article_types": ["label-explainer","nutrition-explainer"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>A food can show 0 Calories on a U.S. Nutrition Facts label even when a serving contains a small amount of energy because FDA rules allow values below 5 calories per serving to be expressed as zero.</strong> That is a labeling convention, not a statement that every molecule in the product is energy-free.</p><p>The distinction matters most with foods eaten in several servings, products used spoonful by spoonful, and items whose serving size is very small. One serving can round to zero while a larger amount produces a calorie total that is no longer negligible.</p><h2>FDA rules allow very small calorie values to round to zero</h2><p>Nutrition labels cannot display endless decimal places. Federal rules specify increments for calories and nutrients so labels remain readable and reasonably consistent. FDA guidance states that when the caloric value of a serving is less than 5 calories, it may be expressed as zero. Values at and below 50 calories are generally expressed to the nearest 5-calorie increment, while values above 50 are generally expressed to the nearest 10-calorie increment.</p><p>This means a serving that contains, for example, a few calories can legitimately show 0 Calories. The underlying formulation or laboratory calculation may still contain a nonzero value. The printed number is the declared value after the applicable rounding convention.</p><p>The same basic idea appears elsewhere on Nutrition Facts panels. Small amounts of fat, carbohydrate and other nutrients can be rounded according to their own thresholds and increments. A label is therefore a regulated summary of the product, not a laboratory report printed at full precision.</p><h2>Serving size is what makes the effect noticeable</h2><p>The calorie declaration is tied to the labeled serving. If a product provides fewer than 5 calories in one serving but you use several servings, the unrounded calories add together even though each individual serving qualifies to display zero.</p><p>Cooking sprays are a familiar example because their labeled serving can be extremely small. Sweeteners, flavorings, coffee additions, condiments and other concentrated products can create the same misunderstanding when people consume much more than the serving used for the label.</p><p>Suppose a serving contains 4 calories and is declared as zero. Five such servings would contain about 20 calories before rounding at the larger amount. You should not multiply the printed zero and conclude that the total remains zero indefinitely. The label describes the specified serving, not every possible quantity a person might eat.</p><h2>Zero calories and calorie-free are regulatory terms, not chemical absolutes</h2><p>FDA guidance also treats foods with fewer than 5 calories per reference amount and labeled serving as eligible for a calorie-free claim when the other conditions for the claim are met. In everyday speech, people often interpret calorie-free as meaning absolutely no energy. Regulation uses the term around a defined threshold because amounts below it are considered dietarily insignificant at the specified serving.</p><p>This is common in food labeling: words such as free, low, reduced and light have technical conditions that do not always match casual conversation. The package should therefore be read as a set of regulated definitions rather than as ordinary-language promises.</p><p>None of this permits a manufacturer to invent an unrealistically tiny serving simply to erase meaningful calories. Serving sizes are governed by reference amounts and other rules intended to reflect how foods are customarily consumed. The exact serving framework depends on the food category and package.</p><h2>How to estimate the real intake when the label says zero</h2><p>If you use only the stated serving, the difference between zero and a value under 5 calories is usually nutritionally small. If you use many servings, check the serving weight or volume and compare it with the amount you actually use. The ingredient list can also reveal whether the product contains energy-bearing ingredients such as oils, sugars, starches or protein even when the per-serving calorie declaration is zero.</p><p>For precise tracking, manufacturer data, gram-weight calculations or a food-composition database may give more useful numbers than multiplying a rounded label value. Remember that nutrient values themselves have normal analytical and manufacturing variation, so extreme precision can create an illusion of certainty.</p><p><strong>The practical rule is simple: 0 Calories can mean less than 5 calories in the labeled serving, not necessarily literally zero.</strong> For one normal serving the difference is usually trivial. It becomes relevant when the serving is tiny and you repeatedly use several of them.</p>",
+  "faq": [
+    {"question":"Does 0 Calories always mean absolutely no calories?","answer":"No. Under U.S. rules, a serving with fewer than 5 calories may be declared as zero."},
+    {"question":"Can several zero-calorie servings add up to calories?","answer":"Yes. The underlying unrounded calories accumulate when multiple servings are consumed."},
+    {"question":"Is a calorie-free claim the same as chemically containing no energy?","answer":"Not necessarily. Calorie-free is a regulated claim with a small per-serving threshold rather than a requirement of literal zero energy."}
+  ],
+  "sources": [
+    {"name":"FDA — Food Labeling Guide","url":"https://www.fda.gov/media/81606/download","note":"Explains that caloric values below 5 calories per serving may be expressed as zero and describes calorie rounding increments."},
+    {"name":"FDA — Guide for Developing and Using Data Bases for Nutrition Labeling","url":"https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-guide-developing-and-using-data-bases-nutrition-labeling","note":"Provides FDA nutrient declaration and rounding guidance for Nutrition Facts labels."}
+  ],
+  "image": {
+    "concept": "A generic nutrition label showing zero calories beside several tiny measured servings accumulating into a larger portion, clean editorial food-label graphic, no brand names.",
+    "alt": "Several small servings explaining how zero-calorie label rounding can add up"
+  },
+  "status": "publish"
+}
