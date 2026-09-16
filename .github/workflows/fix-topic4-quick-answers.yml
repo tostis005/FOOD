@@ -1,0 +1,142 @@
+name: Fix topic 4 quick answers
+
+on:
+  push:
+    branches:
+      - fix-topic4-quick-answers-916-1035
+
+permissions:
+  contents: write
+
+jobs:
+  fix:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: fix-topic4-quick-answers-916-1035
+          fetch-depth: 0
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Replace generic summaries with direct answers
+        shell: bash
+        run: |
+          python - <<'PY'
+          import html
+          import json
+          import pathlib
+          import re
+          import subprocess
+
+          LOW, HIGH = 916, 1035
+
+          def visible(fragment: str) -> str:
+              text = re.sub(r'<[^>]+>', '', fragment)
+              text = html.unescape(text)
+              return re.sub(r'\s+', ' ', text).strip()
+
+          def meta(text: str, limit: int = 160) -> str:
+              if len(text) <= limit:
+                  return text
+              sentences = re.split(r'(?<=[.!?])\s+', text)
+              kept = []
+              for sentence in sentences:
+                  candidate = ' '.join(kept + [sentence])
+                  if len(candidate) <= limit:
+                      kept.append(sentence)
+                  else:
+                      break
+              if kept:
+                  return ' '.join(kept)
+              cut = text[:limit - 1].rsplit(' ', 1)[0].rstrip(' ,;:')
+              return cut + '…'
+
+          def replace_first_json_string(raw: str, key: str, value: str) -> str:
+              pattern = re.compile(r'("' + re.escape(key) + r'"\s*:\s*)"(?:\\.|[^"\\])*"')
+              encoded = json.dumps(value, ensure_ascii=False)
+              updated, count = pattern.subn(lambda m: m.group(1) + encoded, raw, count=1)
+              if count != 1:
+                  raise RuntimeError(f'{key}: expected one replacement, got {count}')
+              return updated
+
+          counts = {'es': 0, 'en': 0}
+          touched = []
+
+          for lang in ('es', 'en'):
+              for path in sorted(pathlib.Path(f'content/articles/{lang}').glob('*.json')):
+                  raw = path.read_text(encoding='utf-8')
+                  obj = json.loads(raw)
+                  number = int(obj['article_number'])
+                  if not LOW <= number <= HIGH:
+                      continue
+
+                  match = re.search(r'<p>\s*<strong>(.*?)</strong>', obj['content_html'], flags=re.I | re.S)
+                  if not match:
+                      raise RuntimeError(f'No opening strong answer in {path}')
+
+                  answer = visible(match.group(1))
+                  if not answer:
+                      raise RuntimeError(f'Empty opening answer in {path}')
+
+                  updated = replace_first_json_string(raw, 'excerpt', answer)
+                  updated = replace_first_json_string(updated, 'meta_description', meta(answer))
+                  check = json.loads(updated)
+
+                  if check['excerpt'] != answer:
+                      raise RuntimeError(f'Excerpt mismatch in {path}')
+                  if check['seo']['meta_description'] != meta(answer):
+                      raise RuntimeError(f'Meta description mismatch in {path}')
+                  if len(check['seo']['meta_description']) > 160:
+                      raise RuntimeError(f'Meta description exceeds 160 chars in {path}')
+
+                  if updated != raw:
+                      path.write_text(updated, encoding='utf-8')
+                      touched.append(str(path))
+                  counts[lang] += 1
+
+          if counts != {'es': 120, 'en': 120}:
+              raise RuntimeError(f'Unexpected target counts: {counts}')
+
+          generic_prefixes = ('respuesta práctica', 'a practical guide')
+          for lang in ('es', 'en'):
+              for path in sorted(pathlib.Path(f'content/articles/{lang}').glob('*.json')):
+                  obj = json.loads(path.read_text(encoding='utf-8'))
+                  number = int(obj['article_number'])
+                  if not LOW <= number <= HIGH:
+                      continue
+                  for value in (obj['excerpt'], obj['seo']['meta_description']):
+                      if value.strip().lower().startswith(generic_prefixes):
+                          raise RuntimeError(f'Generic summary remains in {path}: {value}')
+
+          changed = subprocess.check_output(['git', 'diff', '--name-only'], text=True).splitlines()
+          for filename in changed:
+              if not filename.startswith(('content/articles/es/', 'content/articles/en/')):
+                  raise RuntimeError(f'Unexpected changed file: {filename}')
+              obj = json.loads(pathlib.Path(filename).read_text(encoding='utf-8'))
+              number = int(obj['article_number'])
+              if not LOW <= number <= HIGH:
+                  raise RuntimeError(f'Out-of-range article changed: {number} ({filename})')
+
+          print(f'Validated target files: ES={counts["es"]}, EN={counts["en"]}')
+          print(f'Files changed: {len(changed)}')
+          PY
+
+      - name: Run editorial audit
+        run: python content/tools/audit-article-editorial.py
+
+      - name: Commit corrected JSON files
+        shell: bash
+        run: |
+          if git diff --quiet -- content/articles/es content/articles/en; then
+            echo "No article changes to commit"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/articles/es content/articles/en
+          git commit -m "Fix quick answers in articles 916-1035"
+          git push origin HEAD:fix-topic4-quick-answers-916-1035
