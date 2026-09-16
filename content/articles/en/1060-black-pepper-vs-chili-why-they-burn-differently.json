@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1060-black-pepper-vs-chili-why-they-burn-differently",
+  "article_number": 1060,
+  "translation_group": "1060-black-pepper-vs-chili-why-they-burn-differently",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; sensory comparison of black-pepper piperine and chili capsaicin.",
+  "title": "Black Pepper vs. Chili: Why Their Heat Feels Different",
+  "slug": "black-pepper-vs-chili-why-they-burn-differently",
+  "seo": {
+    "title": "Black Pepper vs. Chili: Why the Burn Is Different",
+    "meta_description": "Black pepper gets heat mainly from piperine and chili from capsaicin. Both can activate TRPV1, but potency, persistence, distribution, and aroma differ.",
+    "search_intent": "Compare black-pepper and chili pungency, understand piperine versus capsaicin, and explain why the two kinds of heat feel different."
+  },
+  "excerpt": "Piperine and capsaicin can both stimulate TRPV1, yet they differ greatly in potency and arrive with different aromas and food matrices. That creates two recognizable kinds of burn.",
+  "taxonomy": {
+    "food_family": "spices",
+    "food_subcategories": ["black-pepper","chili","piperine","capsaicin"],
+    "article_types": ["food-science","comparison"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Black pepper and chili can stimulate part of the same heat-sensing system, but they rely on different pungent molecules: piperine and capsaicin.</strong> Both compounds can activate TRPV1, an ion channel on sensory nerve endings that also responds to potentially damaging temperatures.</p><p>Sharing a receptor does not make the sensations identical. Capsaicin is highly potent at low concentrations, while piperine contributes a drier kind of pungency surrounded by the citrusy, woody, and resinous aromas of pepper essential oils. The brain therefore receives a different combination of chemical irritation and smell.</p><h2>Capsaicin and piperine come from different chemical families</h2><p>Chili peppers in the genus Capsicum produce capsaicinoids, especially capsaicin and dihydrocapsaicin, in tissues around the internal placenta. The concentration of these compounds accounts for much of the enormous heat range between sweet peppers and extremely hot cultivars.</p><p>Black pepper comes from Piper nigrum. Its signature pungent alkaloid is piperine, which sits in the peppercorn alongside many volatile aroma compounds. Freshly cracked pepper therefore delivers piperine together with terpenes and other molecules that smell floral, citrusy, piney, or woody.</p><p>Direct experiments with human TRPV1 have shown that both piperine and capsaicin act on the channel, while capsaicin is much more potent by concentration. That matches the kitchen experience: a tiny amount of a powerful chili can overwhelm a dish that would require far more black pepper to produce a comparable burn.</p><h2>The same sensory channel can produce different timing and intensity</h2><p>TRPV1 behaves as an integrative molecular sensor. Heat, acidity, and several plant chemicals can change its state. When the channel opens, ions flow into the sensory neuron and help generate the signal interpreted as heat or burning. Different molecules interact with the channel in different ways.</p><p>Piperine can activate TRPV1 and has been observed to produce a distinct pattern of desensitization during repeated exposure. Capsaicin has its own activation dynamics and can remain strongly noticeable on oral surfaces. The food itself also changes concentration and contact time.</p><p>Black pepper consequently tends to produce a dry, immediate, aromatic prickling that is often localized around pepper particles. Chili heat may spread across the mouth, build over several bites, and linger. There are exceptions, but this contrast describes common culinary experience well.</p><h2>Aroma makes black pepper feel even less like chili</h2><p>Grinding a peppercorn ruptures structures that hold volatile oils. Those aromas reach the nose almost immediately, sometimes before piperine has made much contact with oral nerves. What seems like pepper heat is therefore a compound sensory event involving smell, taste, texture, and trigeminal irritation.</p><p>Chili peppers also carry complex aromas, from green and fruity to raisin-like, smoky, or earthy after drying and roasting. In very hot cultivars, however, capsaicin can dominate attention. Two foods with a similar subjective heat level can taste completely different because their volatile chemistry is different.</p><p>Cooking changes both ingredients. Long heating drives off pepper aromatics, while drying, toasting, or smoking chili reshapes its volatile profile. The spice molecule matters, but the finished food matrix matters too.</p><h2>Dose, particle size, fat, and water reshape the burn</h2><p>Capsaicin and piperine are both relatively poorly soluble in plain water. A sip of water may move food particles around without efficiently removing pungent compounds spread through fatty oral surfaces. Foods containing fat and protein can help disperse and carry away some of that material.</p><p>Black pepper is usually eaten in small solid particles. Coarse grinding creates occasional intense hits when a fragment is bitten, while fine pepper distributes piperine more evenly. Chili is often delivered through sauces or oils that coat a much larger area of the mouth, increasing contact and persistence.</p><p><strong>Black pepper and chili both create heat by stimulating sensory pathways, but they are not interchangeable.</strong> Piperine and capsaicin share TRPV1 as one important target, while differences in potency, delivery, desensitization, and aroma give each spice its own recognizable sensory signature.</p>",
+  "faq": [
+    {"question":"Does black pepper contain capsaicin?","answer":"No. Black pepper's principal pungent compound is piperine, while capsaicin is characteristic of hot chili peppers."},
+    {"question":"Do piperine and capsaicin activate the same receptor?","answer":"Both can activate TRPV1, although they differ greatly in potency and in the time course of the sensory response."},
+    {"question":"Why does chili often burn longer than black pepper?","answer":"Capsaicin can be very potent and remain spread over oral surfaces, while black pepper is usually consumed in smaller particulate doses and has different sensory dynamics."}
+  ],
+  "sources": [
+    {"name":"British Journal of Pharmacology — Piperine at human TRPV1","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC1576058/","note":"Compares piperine and capsaicin at human TRPV1, including differences in potency and desensitization."},
+    {"name":"Food Chemistry — Piperine pungency review","url":"https://pubmed.ncbi.nlm.nih.gov/38850607/","note":"Reviews piperine as the major pungent component of black pepper and its TRPV1-mediated sensory action."}
+  ],
+  "image": {
+    "concept": "Freshly cracked black peppercorns beside opened red chili peppers in a clean side-by-side composition, realistic editorial food photography, no text.",
+    "alt": "Black pepper and chili compared by their different pungent compounds"
+  },
+  "status": "publish"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1066-pesar-carne-cruda-cocinada-calorias-proteina",
+  "article_number": 1066,
+  "translation_group": "1066-weigh-meat-raw-or-cooked-for-calories-protein",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; seguimiento práctico de calorías y proteína en carne con bases de datos nutricionales.",
+  "title": "¿Hay que pesar la carne cruda o cocinada para contar calorías y proteína?",
+  "slug": "pesar-carne-cruda-cocinada-calorias-proteina",
+  "seo": {
+    "title": "¿Pesar la carne cruda o cocinada para contar macros?",
+    "meta_description": "Puedes pesar carne cruda o cocinada: lo importante es usar una entrada nutricional del mismo estado. Cocinar cambia sobre todo agua y rendimiento por peso.",
+    "search_intent": "Saber si conviene pesar la carne cruda o cocinada para registrar calorías y proteína y evitar errores al mezclar pesos con datos nutricionales incompatibles."
+  },
+  "excerpt": "No existe un único peso correcto para registrar carne. El método funciona si el peso medido coincide con una referencia nutricional cruda o cocinada del mismo alimento y preparación.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["nutrition-tracking","cooking-yield","protein"],
+    "article_types": ["nutrition-explainer","food-science"],
+    "primary_article_type": "nutrition-explainer"
+  },
+  "content_html": "<p><strong>Puedes pesar la carne cruda o cocinada para contar calorías y proteína; lo decisivo es emparejar el peso con datos nutricionales del mismo estado.</strong> Si pesas 150 gramos de pollo cocinado pero introduces una entrada para pollo crudo por 100 gramos, mezclas dos referencias que contienen cantidades diferentes de agua por unidad de peso y el cálculo deja de ser comparable.</p><p>La cocción no crea proteína de la nada. Lo que suele cambiar de forma drástica es el agua retenida y, según la carne y el método, parte de la grasa. Por eso 100 gramos cocinados pueden concentrar más proteína y energía que 100 gramos crudos aun cuando la pieza completa no haya ganado nutrientes.</p><h2>La regla práctica es hacer coincidir el estado del alimento y la base de datos</h2><p>Las bases de composición distinguen entre alimentos crudos y preparaciones cocinadas porque no pesan igual después de calentarse. Una entrada puede referirse a pechuga cruda, otra a pechuga asada y otra a carne cocida con piel. Cada una representa una muestra diferente y no debería intercambiarse automáticamente.</p><p>Si preparas porciones individuales, pesar crudo suele ser sencillo: pesas cada pieza antes de cocinar y registras una entrada cruda. Si cocinas un lote grande, también puedes pesar el lote ya terminado, utilizar datos de una preparación cocinada apropiada y repartir el peso final entre raciones.</p><p>La consistencia importa más que una supuesta superioridad universal de un método. Lo que produce errores es cambiar de criterio sin cambiar la referencia nutricional o asumir que un peso cocinado equivale al mismo número de gramos en crudo.</p><h2>El agua explica gran parte de la diferencia entre 100 gramos crudos y cocinados</h2><p>La carne contiene mucha agua. El USDA explica que carnes y aves pueden tener aproximadamente entre la mitad y tres cuartas partes de su peso como agua, según especie, corte y composición. Al cocinar, las proteínas se contraen y el tejido pierde líquido por evaporación y goteo.</p><p>Si una pieza de 200 gramos termina pesando 150 gramos, los nutrientes que permanecen quedan repartidos en menos masa. Una porción de 100 gramos de esa carne cocinada representa más cantidad del alimento original que una porción de 100 gramos antes de cocinar. De ahí sale buena parte de la aparente subida de proteína por 100 gramos.</p><p>El rendimiento no es fijo. Una sartén muy caliente, una cocción larga, el grosor de la pieza y el punto final pueden cambiar cuánta agua se pierde. Aplicar siempre un factor genérico puede ser menos preciso que pesar tu propio lote cuando buscas consistencia.</p><h2>La grasa puede complicar el cálculo más que el agua</h2><p>Con cortes magros, gran parte del cambio de peso puede ser agua. En carnes grasas, cocinar también puede fundir grasa que termina en la sartén, parrilla o recipiente. Si esa grasa no se consume, la pieza final ha perdido energía además de agua. Si se reincorpora a una salsa, forma parte de la comida otra vez.</p><p>Esto explica por qué convertir peso crudo en cocinado con una proporción fija no funciona igual para pechuga de pollo, hamburguesa, bacon o un corte muy marmoleado. Las bases de datos nutricionales que especifican método y estado intentan capturar esas diferencias promedio, aunque ningún valor de laboratorio reproduce exactamente cada cocina.</p><p>Para recetas, una opción robusta es calcular los nutrientes de todos los ingredientes antes de cocinar, sumar la receta completa y dividir después por raciones o por el peso final del plato. Así no necesitas fingir que cada ingrediente conserva un rendimiento estándar.</p><h2>Qué método elegir para que el registro sea reproducible</h2><p>Si cocinas siempre en casa y tienes acceso al producto antes de prepararlo, el peso crudo suele ser cómodo porque evita que pequeñas diferencias de cocción cambien la cantidad registrada. Si compras carne ya cocinada, haces meal prep por peso final o sirves directamente de una bandeja cocinada, utilizar una entrada cocinada equivalente es más práctico.</p><p>Comprueba también si la etiqueta del envase declara valores por producto tal como se vende o preparado según instrucciones. En aplicaciones nutricionales, no te fíes solo del nombre corto: revisa descripción, base de datos, corte, presencia de piel, porcentaje de grasa y estado crudo o cocido.</p><p><strong>El objetivo no es elegir entre crudo y cocinado como si uno fuera correcto y el otro incorrecto.</strong> El objetivo es que el número de gramos y el dato por 100 gramos describan el mismo tipo de alimento. Esa coincidencia elimina la mayor fuente de confusión y hace que el seguimiento sea mucho más coherente.</p>",
+  "faq": [
+    {"question":"¿Pesar carne cocinada cuenta más proteína?","answer":"No crea más proteína. Al perder agua, la proteína restante queda más concentrada por cada 100 gramos de peso final."},
+    {"question":"¿Puedo usar siempre un factor para convertir crudo a cocinado?","answer":"Solo como aproximación. La pérdida de agua y grasa varía con corte, método, tiempo y punto de cocción."},
+    {"question":"¿Qué hago con una receta de varias raciones?","answer":"Puedes calcular los nutrientes de los ingredientes del lote completo y repartir el total por raciones o por gramos del plato ya cocinado."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — Water in Meat and Poultry","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/water-meat-poultry","note":"Explica el alto contenido de agua de carne y aves y cómo la cocción reduce agua y peso."},
+    {"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Base oficial que distingue alimentos y preparaciones con estados crudos y cocinados."}
+  ],
+  "image": {
+    "concept": "Misma pechuga de pollo sobre báscula antes y después de cocinar, dos platos separados y números de peso visibles en la báscula pero sin texto añadido, fotografía editorial realista.",
+    "alt": "Carne pesada cruda y cocinada para comparar el cambio de peso"
+  },
+  "status": "publish"
+}

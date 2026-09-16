@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1065-por-que-manzanas-flotan-agua",
+  "article_number": 1065,
+  "translation_group": "1065-why-apples-float-in-water",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; flotación de manzanas explicada mediante densidad, porosidad y anatomía del fruto.",
+  "title": "Por qué las manzanas flotan en el agua",
+  "slug": "por-que-manzanas-flotan-agua",
+  "seo": {
+    "title": "Por qué las manzanas flotan en el agua",
+    "meta_description": "Las manzanas flotan porque su tejido contiene numerosos espacios de aire. Esa porosidad reduce la densidad media del fruto por debajo de la del agua.",
+    "search_intent": "Entender por qué una manzana flota, qué papel tienen los espacios de aire internos y por qué variedades distintas pueden comportarse de forma algo diferente."
+  },
+  "excerpt": "La pulpa de una manzana no es un bloque sólido: contiene una red extensa de espacios intercelulares llenos de gas. Ese aire baja la densidad global y permite que el fruto flote.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": ["apple","density","porosity"],
+    "article_types": ["food-science","physics"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Las manzanas flotan porque su densidad media es menor que la del agua, en gran parte gracias a los numerosos espacios llenos de aire que hay entre sus células.</strong> La pulpa parece compacta al morderla, pero a escala microscópica es un material poroso atravesado por huecos intercelulares.</p><p>Esos huecos pesan muy poco y ocupan volumen. Cuando se promedia la masa del tejido, el agua del fruto, los azúcares y todo ese aire interno, el conjunto puede desplazar una cantidad de agua que pesa más que la propia manzana. El empuje resultante la mantiene en la superficie.</p><h2>Flotar depende de la densidad, no de que la fruta sea ligera en términos absolutos</h2><p>Una manzana grande puede pesar 200 gramos y aun así flotar. Lo importante no es el peso aislado, sino cuánto pesa en relación con el volumen que ocupa. Si un objeto tiene una densidad media inferior a la del agua, puede encontrar un equilibrio antes de quedar completamente sumergido.</p><p>El principio de Arquímedes describe el fenómeno: un cuerpo sumergido recibe un empuje hacia arriba igual al peso del líquido que desplaza. La manzana se hunde parcialmente hasta desplazar suficiente agua para equilibrar su peso. A partir de ahí queda flotando con una parte por encima de la superficie.</p><p>Por eso una piedra pequeña puede hundirse mientras una manzana mucho más pesada flota. La piedra concentra mucha masa en poco volumen; la manzana incluye una cantidad significativa de espacio lleno de gas.</p><h2>La pulpa de manzana puede contener una proporción sorprendente de aire</h2><p>Estudios con microtomografía de rayos X muestran redes tridimensionales de poros dentro del tejido de manzana. Dependiendo de variedad y zona del fruto, el espacio intercelular puede constituir una fracción considerable del volumen. Algunas investigaciones describen valores que alcanzan alrededor de una cuarta parte del tejido o incluso más en ciertas condiciones.</p><p>Los huecos no son burbujas grandes que puedan verse a simple vista. Forman canales y cavidades microscópicas entre células del parénquima. Esa red también sirve para mover oxígeno, dióxido de carbono y vapor de agua dentro del fruto vivo.</p><p>La misma microestructura influye en la textura. Una manzana crujiente se rompe de una manera relacionada con cómo están organizadas las células y los espacios entre ellas. Flotación y mordida tienen, por tanto, una raíz común en la arquitectura del tejido.</p><h2>No todas las manzanas tienen exactamente la misma flotabilidad</h2><p>La porosidad varía entre cultivares y también dentro de una sola manzana. Investigaciones en variedades como Jonagold, Braeburn y otras han encontrado diferencias en tamaño, conexión y distribución de los espacios vacíos. Eso cambia ligeramente la densidad del tejido.</p><p>Maduración, pérdida de agua y almacenamiento también pueden modificar masa y estructura. Una manzana deshidratada pierde agua, pero al mismo tiempo su tejido puede encogerse; el efecto final sobre densidad no se resume en una regla simple. Una pieza dañada que absorba agua en cavidades abiertas tampoco se comportará exactamente como un fruto intacto.</p><p>Aun así, la mayoría de las manzanas frescas comunes conservan suficiente porosidad para flotar claramente en agua corriente.</p><h2>Cortar una manzana cambia el experimento</h2><p>Una manzana entera protege muchos de sus espacios de aire dentro de una piel relativamente continua. Al cortarla, se abren poros y superficies. El agua puede penetrar gradualmente en parte de la red y reemplazar gas, aumentando la densidad local de los trozos.</p><p>El tamaño del corte importa. Un gajo grande puede seguir flotando; piezas pequeñas o tejido aplastado ofrecen más caminos para que el agua entre. Temperatura, tiempo y variedad también alteran cuánto se infiltra. Por eso un experimento con trozos no siempre reproduce el comportamiento de una manzana completa.</p><p><strong>La manzana flota porque es, microscópicamente, más parecida a una espuma vegetal que a un bloque macizo.</strong> Sus espacios de aire reducen la densidad media, y el agua proporciona suficiente empuje para sostener el fruto antes de que se sumerja por completo.</p>",
+  "faq": [
+    {"question":"¿Las manzanas flotan porque tienen un 25 % de aire?","answer":"La porosidad puede acercarse a ese orden de magnitud en algunos tejidos y variedades, pero no existe un porcentaje único válido para todas las manzanas."},
+    {"question":"¿Una manzana pesada también puede flotar?","answer":"Sí. Lo decisivo es la densidad, es decir, masa en relación con volumen, no el peso absoluto del fruto."},
+    {"question":"¿Los trozos de manzana flotan igual que una entera?","answer":"No siempre. Al cortar se abren poros y el agua puede sustituir parte del aire interno, modificando la densidad del trozo."}
+  ],
+  "sources": [
+    {"name":"Planta — 3D pore space in apple tissue","url":"https://pubmed.ncbi.nlm.nih.gov/17361459/","note":"Utiliza microtomografía para cuantificar la red tridimensional de espacios porosos en tejidos de manzana."},
+    {"name":"BMC Plant Biology — Transport structures in developing apple fruit","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC4554951/","note":"Describe cómo los espacios intercelulares llenos de gas pueden ocupar una fracción importante del volumen del fruto."}
+  ],
+  "image": {
+    "concept": "Manzana roja flotando parcialmente sumergida en un recipiente transparente con agua, pequeñas burbujas y corte de manzana mostrando textura porosa al lado, sin texto.",
+    "alt": "Manzana flotando gracias a su baja densidad y espacios internos de aire"
+  },
+  "status": "publish"
+}

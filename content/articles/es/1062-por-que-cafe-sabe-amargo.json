@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "es-1062-por-que-cafe-sabe-amargo",
+  "article_number": 1062,
+  "translation_group": "1062-why-coffee-tastes-bitter",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; amargor del café explicado por tostado, extracción y múltiples compuestos, no solo cafeína.",
+  "title": "Por qué el café sabe amargo y qué influye en ese amargor",
+  "slug": "por-que-cafe-sabe-amargo",
+  "seo": {
+    "title": "Por qué el café sabe amargo",
+    "meta_description": "La cafeína aporta amargor, pero no está sola. Tostado, lactonas de ácidos clorogénicos, fenilindanos, extracción, especie y temperatura cambian la taza.",
+    "search_intent": "Entender qué moléculas hacen amargo al café y cómo tostado, grano, molienda y extracción hacen que una taza resulte equilibrada o excesivamente amarga."
+  },
+  "excerpt": "El amargor del café no procede de una sola sustancia. Cafeína y varios productos creados o transformados durante el tostado se combinan, y el método de extracción decide cuánto llega a la taza.",
+  "taxonomy": {
+    "food_family": "beverages",
+    "food_subcategories": ["coffee","bitterness","roasting"],
+    "article_types": ["food-science","beverage-science"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>El café sabe amargo porque contiene varias familias de moléculas capaces de activar receptores de amargor, y el tostado crea otras nuevas.</strong> La cafeína participa, pero atribuirle todo el amargor es demasiado simple. Lactonas derivadas de ácidos clorogénicos, fenilindanos y otros compuestos del café tostado también contribuyen de manera importante.</p><p>La taza final depende además de cuánto extraemos. El mismo grano puede saber dulce y equilibrado en una preparación y seco, áspero y excesivamente amargo en otra si cambian molienda, temperatura, tiempo o proporción de agua.</p><h2>La cafeína es amarga, pero no explica por sí sola el sabor del café</h2><p>La cafeína activa varios receptores humanos de sabor amargo y su presencia se nota, especialmente en cafés con concentraciones altas. Sin embargo, estudios sensoriales y moleculares muestran que el café contiene numerosos compuestos amargos y que algunos interactúan con receptores a concentraciones muy bajas.</p><p>Eso ayuda a entender por qué un café descafeinado sigue pudiendo ser amargo. El proceso reduce gran parte de la cafeína, pero deja muchos productos del tostado y otros sólidos solubles. También explica por qué dos cafés con cantidades parecidas de cafeína pueden tener perfiles de amargor muy distintos.</p><p>Robusta suele contener más cafeína que arábica, aunque especie, origen y procesamiento afectan muchos componentes a la vez. La variedad botánica es solo una pieza del perfil sensorial.</p><h2>El tostado transforma ácidos clorogénicos y genera nuevos amargos</h2><p>El grano verde es rico en ácidos clorogénicos. Durante el tostado, parte de ellos se degrada, se isomeriza o forma lactonas. Investigaciones han identificado lactonas de ácido clorogénico como contribuyentes importantes al amargor de cafés tostados. Con tostados más intensos aparecen otros productos, incluidos fenilindanos asociados a notas amargas fuertes.</p><p>Esto significa que oscuro no equivale simplemente a más cafeína. De hecho, la química del tostado es mucho más decisiva para ciertas notas de amargor que pequeños cambios de cafeína. Un tostado muy desarrollado puede mostrar sabores tostados, carbonizados o secos que el consumidor interpreta como amargos incluso cuando parte de los ácidos originales ya se ha destruido.</p><p>El punto ideal depende del café y del estilo buscado. Tostados claros conservan más acidez y características del origen; tostados oscuros desplazan el perfil hacia productos térmicos y sabores de tostado.</p><h2>La extracción decide cuánto material amargo termina en el agua</h2><p>Preparar café consiste en disolver selectivamente sustancias del grano molido. Algunas salen rápido y otras necesitan más contacto. Una molienda muy fina, agua muy caliente, tiempo excesivo o demasiada agua en relación con el café pueden aumentar la extracción total y llevar la taza hacia sequedad y amargor.</p><p>Eso no significa que todos los compuestos amargos aparezcan únicamente al final. La extracción es más compleja, pero en cocina resulta útil pensar que un café sobreextraído ha perdido equilibrio: el dulzor, los ácidos y los aromas agradables ya no compensan la carga amarga y astringente.</p><p>La uniformidad de molienda también cuenta. Si una parte del polvo es muy fina y otra muy gruesa, algunas partículas se sobreextraen mientras otras quedan cortas. El resultado puede ser simultáneamente agrio y amargo.</p><h2>Agua, temperatura de servicio y expectativas cambian la percepción</h2><p>El agua de preparación aporta minerales que afectan la extracción y la forma en que se perciben ácidos y amargos. No hace falta convertir cada taza en un experimento de laboratorio, pero un agua extremadamente dura o muy pobre en minerales puede cambiar de forma evidente el equilibrio.</p><p>La temperatura de servicio también modifica la percepción. Cuando un café se enfría, ciertas notas que estaban ocultas por el calor se vuelven más fáciles de distinguir. A veces aparece más acidez; otras veces se hace evidente una aspereza que ya estaba presente. Azúcar y leche reducen el contraste del amargor mediante dulzor, grasa, proteínas y dilución.</p><p><strong>El amargor del café es el resultado de una red de compuestos y decisiones, no de una sola molécula.</strong> Cafeína, productos de ácidos clorogénicos, intensidad de tostado y extracción se combinan. Controlar la preparación no elimina todo amargor —forma parte de la identidad del café—, pero permite que deje espacio para dulzor, acidez y aroma.</p>",
+  "faq": [
+    {"question":"¿La cafeína es la única causa del amargor del café?","answer":"No. La cafeína contribuye, pero lactonas de ácidos clorogénicos y otros productos del tostado también aportan amargor."},
+    {"question":"¿Un café descafeinado puede ser amargo?","answer":"Sí. Eliminar gran parte de la cafeína no elimina los numerosos compuestos amargos formados o presentes en el grano tostado."},
+    {"question":"¿Por qué un café sobreextraído sabe tan amargo?","answer":"Una extracción excesiva puede aumentar la proporción de compuestos que aportan amargor, sequedad y astringencia y romper el equilibrio con dulzor y acidez."}
+  ],
+  "sources": [
+    {"name":"Journal of Agricultural and Food Chemistry — Coffee bitterness receptors","url":"https://pubmed.ncbi.nlm.nih.gov/32437139/","note":"Identifica múltiples compuestos de café capaces de activar receptores humanos de amargor además de la cafeína."},
+    {"name":"Food Chemistry — Chlorogenic acid lactones and coffee bitterness","url":"https://pubmed.ncbi.nlm.nih.gov/27719962/","note":"Demuestra la contribución sensorial de lactonas de ácidos clorogénicos al amargor de la bebida."},
+    {"name":"Journal of Agricultural and Food Chemistry — Lactones formed during roasting","url":"https://pubmed.ncbi.nlm.nih.gov/15740032/","note":"Describe cómo el tostado genera distintas lactonas a partir de precursores clorogénicos."}
+  ],
+  "image": {
+    "concept": "Taza de café negro junto a granos con tres niveles de tostado y café molido, iluminación editorial cálida, sin texto.",
+    "alt": "Café y granos tostados que muestran factores relacionados con el amargor"
+  },
+  "status": "publish"
+}

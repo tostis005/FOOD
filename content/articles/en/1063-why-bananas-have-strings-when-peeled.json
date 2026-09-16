@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1063-why-bananas-have-strings-when-peeled",
+  "article_number": 1063,
+  "translation_group": "1063-why-bananas-have-strings-when-peeled",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; banana string anatomy and everyday edibility explained with updated botanical nuance.",
+  "title": "Why Bananas Have Strings When You Peel Them",
+  "slug": "why-bananas-have-strings-when-peeled",
+  "seo": {
+    "title": "What Banana Strings Are and Whether You Can Eat Them",
+    "meta_description": "Banana strings are normal fruit tissue. They include parenchyma and small vascular bundles containing xylem and phloem, and they are edible.",
+    "search_intent": "Understand what the strings on a peeled banana really are, what role the tissues played during growth, and whether they need to be removed."
+  },
+  "excerpt": "The strands clinging to banana flesh are normal parts of the fruit. They are not parasites or foreign fibers, and there is no need to remove them before eating.",
+  "taxonomy": {
+    "food_family": "fruit",
+    "food_subcategories": ["banana","plant-anatomy","vascular-tissue"],
+    "article_types": ["food-science","visible-food-anomaly"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>The strings that cling to a peeled banana are normal fruit tissues and are edible.</strong> They have long been popularly described as phloem bundles, referring to the plant tissue that transports sugars. That explanation contains a piece of the anatomy, but it makes the strands sound simpler than they really are.</p><p>A 2022 morphoanatomical study examined the structures microscopically and found that much of each strand consisted of parenchyma and other cells, with a small number of vascular bundles containing both xylem and phloem. They are therefore not cords made entirely of phloem; they are complex strips of fruit tissue associated with the vascular system.</p><h2>The strands develop as part of the banana's normal internal structure</h2><p>A growing fruit must move water, minerals, sugars, and signaling molecules between the stalk and developing tissues. Vascular bundles provide routes for that movement, just as they do in stems, leaves, and other plant organs. In bananas, vascular structures run lengthwise through tissues associated with the peel and edible interior.</p><p>Peeling creates a fracture between layers of the fruit. Some strands stay with the peel while others remain attached to the flesh. Their rope-like shape makes them look like separate objects, but they arose as part of the same developing fruit rather than being added or produced after harvest.</p><p>The number you notice can differ between cultivars and individual bananas. One fruit may peel almost cleanly while another leaves several obvious strands. That variation is not, by itself, a sign of poor quality.</p><h2>Why calling them pure phloem is too simple</h2><p>Phloem and xylem are the two major vascular tissues. Phloem moves photosynthetic products, including sugars, while xylem is strongly associated with water and mineral transport. Because vascular bundles run through banana fruit, the visible strands became widely known as phloem bundles.</p><p>More specific anatomical work found a broader tissue composition. Phloem cells were present, but they were arranged within only a few small vascular bundles that also contained xylem. Most of the visible strand consisted of parenchymatous and other fruit cells surrounding those bundles.</p><p>The correction does not mean vascular transport was irrelevant to banana development. It simply means the popular label identifies one component and then treats it as the entire structure. Calling the strings fruit tissue containing vascular bundles is more precise.</p><h2>You can eat the strings; removing them is a texture preference</h2><p>The strands are part of the banana tissue you are already eating. Their slightly firmer texture does not make them hazardous. Chewed along with the pulp, they may feel a little more fibrous or dry, but that is a sensory difference rather than a safety warning.</p><p>Some people remove every strand because they dislike the appearance or mouthfeel. Others eat the banana without noticing them. Neither approach changes the basic food safety of a normal, sound banana.</p><p>Visible strings also do not prove the banana is underripe. Ripening changes tissue softness and adhesion, but cultivar, individual anatomy, and the direction of peeling all influence whether a strand stays on the peel or remains on the flesh.</p><h2>Ripening can make the contrast between pulp and strands more obvious</h2><p>As a banana ripens, starch in the pulp is converted toward sugars, cell walls are remodeled, and the flesh softens. Relatively firm structural tissues can stand out more against a creamy ripe pulp even when the strands themselves were present all along.</p><p>Peeling technique matters too. Pulling the skin in a different direction changes where tissues separate. There is no universal method that sends every strand neatly away with the peel because the attachment pattern varies throughout the fruit.</p><p><strong>Banana strings are not a defect; they are a visible consequence of fruit anatomy.</strong> They contain ordinary plant tissues and small vascular bundles that were part of development. Remove them if you prefer a smoother bite, or eat them with the rest of the banana.</p>",
+  "faq": [
+    {"question":"Are banana strings really phloem?","answer":"They contain small vascular bundles with phloem and xylem, but anatomical research found that much of the visible strand is made of surrounding parenchyma and other cells."},
+    {"question":"Can you eat banana strings?","answer":"Yes. They are normal edible fruit tissue; removing them is mainly a texture and preference choice."},
+    {"question":"Do lots of strings mean a banana is bad?","answer":"No. Visibility varies with cultivar, individual fruit anatomy, ripeness, and the way the banana is peeled."}
+  ],
+  "sources": [
+    {"name":"Cadernos UniFOA — Morphoanatomy of Musa fruit tissue","url":"https://doi.org/10.47385/cadunifoa.v17.n50.3938","note":"Microscopic study showing that the visible strands contain only a few vascular bundles within predominantly other fruit tissues."},
+    {"name":"International Tropical Fruits Network — Banana botany","url":"https://www.itfnet.org/v1/2016/03/banana-name-taxonomy-botany/","note":"General botanical description of banana fruit and the longitudinal strands commonly visible after peeling."}
+  ],
+  "image": {
+    "concept": "Partially peeled yellow banana with several longitudinal strands clearly visible against the flesh, realistic editorial macro photography, no text.",
+    "alt": "Natural strings visible on a freshly peeled banana"
+  },
+  "status": "publish"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1074-cocinar-verduras-destruye-fibra",
+  "article_number": 1074,
+  "translation_group": "1074-does-cooking-vegetables-destroy-fiber",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; efecto de la cocción sobre fibra soluble, insoluble y estructura de verduras.",
+  "title": "¿Cocinar las verduras destruye su fibra?",
+  "slug": "cocinar-verduras-destruye-fibra",
+  "seo": {
+    "title": "¿Cocinar verduras destruye la fibra?",
+    "meta_description": "Cocinar no borra la fibra de las verduras, pero puede ablandar paredes celulares, solubilizar algunos polímeros y cambiar la proporción soluble e insoluble.",
+    "search_intent": "Entender qué le ocurre a la fibra vegetal con hervido, vapor y otros métodos y por qué los análisis pueden mostrar aumentos o descensos."
+  },
+  "excerpt": "El calor modifica la estructura de la fibra más de lo que la elimina. Parte de la fibra insoluble puede volverse más soluble, algunos componentes pueden lixiviarse y el agua cambia las cifras por 100 gramos.",
+  "taxonomy": {
+    "food_family": "vegetables",
+    "food_subcategories": ["dietary-fiber","cooking","plant-cell-walls"],
+    "article_types": ["nutrition-explainer","food-science"],
+    "primary_article_type": "nutrition-explainer"
+  },
+  "content_html": "<p><strong>Cocinar verduras no destruye de golpe su fibra, pero sí puede cambiar la estructura y la proporción de sus distintas fracciones.</strong> Celulosa, hemicelulosas, pectinas y otros componentes de pared celular responden de manera diferente al calor, al agua y al tiempo de cocción.</p><p>Eso explica por qué una zanahoria cocida es blanda aunque siga conteniendo fibra. Las paredes y adhesiones entre células se han modificado, pero el material vegetal resistente a la digestión no ha desaparecido por completo.</p><h2>El calor ablanda la pared celular y puede hacer parte de la fibra más soluble</h2><p>Durante la cocción, las pectinas que ayudan a mantener unidas las células pueden solubilizarse o cambiar químicamente. Algunas hemicelulosas también se modifican. La celulosa suele ser más resistente, aunque la estructura del tejido se debilita y se vuelve mucho más fácil de masticar.</p><p>En un estudio reciente con verduras crucíferas, vapor y cocción en agua cambiaron de forma marcada la distribución entre fibra insoluble y soluble, mientras el total en base seca varió mucho menos. La fibra soluble aumentó y la insoluble disminuyó en las condiciones estudiadas.</p><p>Ese resultado muestra por qué decir destrucción es demasiado tosco. Parte del material puede cambiar de categoría analítica o de accesibilidad sin desaparecer del alimento.</p><h2>Hervir puede transferir componentes al agua de cocción</h2><p>Cuando una verdura hierve sumergida, moléculas solubles pueden difundirse hacia el líquido. Si el agua se desecha, lo que haya pasado a ella abandona el plato. La magnitud depende de tamaño de corte, tiempo, temperatura, tipo de fibra y química de la verdura.</p><p>El vapor reduce el contacto directo con un gran volumen de agua y puede limitar ciertas pérdidas por lixiviación, aunque sigue sometiendo el tejido a calor y modifica sus paredes celulares. Saltear o asar produce menos lixiviación, pero añade otras variables como pérdida de agua y, a veces, absorción de aceite.</p><p>Por eso no existe un método que conserve cada componente en la misma proporción. Cocinar es una transformación, y el resultado depende del objetivo: textura, digestibilidad, sabor o retención de determinados nutrientes.</p><h2>Las cifras por 100 gramos pueden subir aunque no se haya creado fibra</h2><p>Asar una verdura hace que pierda agua y concentre sólidos, de modo que ciertos nutrientes por 100 gramos pueden parecer mayores. Hervir puede hacer lo contrario si el alimento absorbe agua. Comparar tablas sin mirar el estado de la muestra puede dar la impresión de que cocinar fabricó o destruyó grandes cantidades de fibra.</p><p>Los métodos analíticos también influyen. Algunos tratamientos térmicos generan complejos resistentes o transforman almidón de manera que una fracción se mida dentro de categorías relacionadas con fibra. Un aumento de laboratorio no significa que la planta haya sintetizado fibra después de cosechada.</p><p>La base seca, que elimina el efecto del agua del denominador, ayuda a comparar cambios estructurales reales entre muestras.</p><h2>Verduras crudas y cocinadas pueden aportar fibra dentro de una dieta variada</h2><p>La cocción tiene ventajas prácticas: ablanda tejidos, hace agradables verduras que serían duras crudas y puede aumentar la disponibilidad de algunos compuestos. Comer una cantidad mayor de verduras cocidas puede aportar más fibra total que evitar cocinarlas por miedo a destruirla.</p><p>Si quieres minimizar lixiviación, técnicas breves con poca agua son razonables. Si haces sopa o guiso y consumes el líquido, componentes solubles que salen de la verdura siguen dentro del plato. La textura final también ayuda a decidir qué método encaja mejor.</p><p><strong>La fibra vegetal no es una sustancia única que el calor encienda o apague.</strong> Cocinar remodela paredes celulares, puede convertir parte de la fracción insoluble en formas más solubles y puede mover material al agua. El resultado es un cambio de estructura y distribución, no una desaparición automática de la fibra.</p>",
+  "faq": [
+    {"question":"¿Las verduras cocidas siguen teniendo fibra?","answer":"Sí. La cocción modifica su estructura y las proporciones soluble e insoluble, pero no elimina automáticamente toda la fibra."},
+    {"question":"¿Hervir hace perder más fibra que cocinar al vapor?","answer":"Puede favorecer la salida de componentes solubles al agua; la magnitud depende de la verdura, corte, tiempo y si el líquido se consume."},
+    {"question":"¿Por qué algunas tablas muestran más fibra después de cocinar?","answer":"La pérdida de agua concentra sólidos por 100 gramos y ciertos cambios químicos o analíticos pueden alterar qué se mide como fibra."}
+  ],
+  "sources": [
+    {"name":"Foods — Cooking and dietary fiber profile in cruciferous vegetables","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC11821131/","note":"Compara fibra total, soluble e insoluble tras cocción al vapor y en agua."},
+    {"name":"Foods — Household cooking and vegetable nutrients","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC8289605/","note":"Revisa cambios de fibra y otros nutrientes bajo métodos culinarios habituales."}
+  ],
+  "image": {
+    "concept": "Misma selección de verduras crudas, al vapor y hervidas en tres platos, detalle de textura celular suavizada, fotografía editorial realista, sin texto.",
+    "alt": "Verduras crudas y cocinadas comparando cambios de textura y fibra"
+  },
+  "status": "publish"
+}

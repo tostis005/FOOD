@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1075-why-calories-from-macros-do-not-match-label",
+  "article_number": 1075,
+  "translation_group": "1075-why-calories-from-macros-do-not-match-label",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; calorie calculation, Atwater factors, special energy contributors, and label rounding.",
+  "title": "Why Calories Calculated From Protein, Fat, and Carbs Do Not Always Match the Label",
+  "slug": "why-calories-from-macros-do-not-match-label",
+  "seo": {
+    "title": "Why Calories and Macros Do Not Always Add Up",
+    "meta_description": "The 4-4-9 macro calculation is an approximation. Fiber, sugar alcohols, alcohol, specific Atwater factors, serving definitions, and rounding can create differences.",
+    "search_intent": "Understand why Nutrition Facts calories do not always equal protein times 4 plus carbohydrate times 4 plus fat times 9."
+  },
+  "excerpt": "The 4-4-9 calculation is useful but does not capture every energy-bearing component or every labeling rule. Separate rounding and specific energy factors can make the printed total differ.",
+  "taxonomy": {
+    "food_family": "nutrition-labels",
+    "food_subcategories": ["calories","macronutrients","labeling"],
+    "article_types": ["nutrition-explainer","label-explainer"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>Calories on a Nutrition Facts label do not always equal protein × 4 + carbohydrate × 4 + fat × 9 because that shortcut simplifies both food chemistry and labeling rules.</strong> Some components use different energy factors, and each printed nutrient value can also be rounded separately.</p><p>A small mismatch is therefore not evidence that the label is wrong. You first need to know which substances are included in the carbohydrate total, how fiber and sugar alcohols are treated, and which calculation method was used for that product.</p><h2>The 4-4-9 rule is a useful approximation rather than a universal identity</h2><p>General Atwater factors assign roughly four kilocalories per gram to protein and carbohydrate and nine to fat. These numbers are excellent for mental estimates, but foods can contain alcohol, fiber, sugar alcohols, and organic acids that do not fit neatly into those three buckets.</p><p>U.S. regulations allow calorie calculation using general factors and, in appropriate cases, specific food factors or other permitted methods. Specific Atwater factors account for differences in the metabolizable energy of protein, fat, and carbohydrate across food groups rather than treating every gram as chemically identical.</p><p>That means two legitimate calculations can differ slightly even before any rounding appears on the label.</p><h2>Fiber, sugar alcohols, and alcohol can break a simple macro calculation</h2><p>Dietary fiber does not always contribute energy at the same four-calorie factor used in the common shortcut for carbohydrate. Fermentable fibers can supply some metabolizable energy through microbial fermentation, while labeling systems account for fiber under specific rules.</p><p>Sugar alcohols are another common source of confusion. Erythritol, sorbitol, maltitol, and related ingredients do not all provide the same metabolizable energy as ordinary sugar. A low-sugar bar with substantial polyols can therefore produce a calorie total that looks strange if every carbohydrate gram is multiplied by four.</p><p>Alcohol contributes roughly seven kilocalories per gram and sits outside the protein-fat-carbohydrate trio as consumers usually calculate it. Foods or beverages containing ethanol cannot be reconstructed properly from only those three displayed macro numbers.</p><h2>Rounding means correct underlying numbers may no longer add up after printing</h2><p>Nutrition labels do not display infinite precision. FDA rounding rules specify different increments depending on the nutrient and amount. For calories, values up to 50 calories are generally expressed in five-calorie increments, while values above 50 are expressed in ten-calorie increments, subject to the detailed regulation.</p><p>Macronutrient grams are rounded under their own rules. A food might contain an underlying value between two printed increments for protein, carbohydrate, or fat. If you multiply the displayed values rather than the unrounded values used in formulation or analysis, the small differences accumulate.</p><p>Then the calorie total itself is rounded again. A discrepancy of several calories can arise without any contradiction because you are performing arithmetic on already-rounded inputs and comparing the result with another rounded output.</p><h2>Serving sizes, databases, and calculation methods create additional differences</h2><p>A manufacturer may determine nutrient values from laboratory analysis, ingredient data, databases, or a combination of permitted approaches, while a tracking app may use a different database entry. Moisture variation and manufacturing tolerances also mean real food is not chemically identical from package to package.</p><p>Check serving size before doing any math. A label may show nutrients for a rounded serving weight while you calculate from a different gram amount. Foods containing multiple energy contributors, especially bars, beverages, fermented products, and reduced-sugar products, are the easiest places to see a mismatch.</p><p><strong>The useful role of 4-4-9 is as a reasonableness check, not a requirement that every label reproduce your arithmetic exactly.</strong> Small differences are commonly explained by rounding and special factors. A large discrepancy deserves a closer look at serving size, fiber, sugar alcohols, alcohol, and whether the correct product data are being compared.</p>",
+  "faq": [
+    {"question":"Are protein, carbs, and fat always exactly 4, 4, and 9 calories per gram?","answer":"Those are useful general factors, but specific Atwater factors and special components such as fiber, sugar alcohols, and alcohol can differ."},
+    {"question":"Can rounding alone make label calories fail to add up?","answer":"Yes. Macro grams and total calories are rounded under separate rules, so arithmetic using the displayed values can differ from calculations using unrounded values."},
+    {"question":"Does a calorie mismatch mean the label is false?","answer":"Not necessarily. Check serving size, special energy contributors, permitted calculation methods, and rounding before assuming an error."}
+  ],
+  "sources": [
+    {"name":"FDA — Food Labeling Guide","url":"https://www.fda.gov/files/food/published/Food-Labeling-Guide-%28PDF%29.pdf","note":"Explains U.S. calorie calculation options and nutrient rounding rules used on food labels."},
+    {"name":"FDA — Guide for Developing and Using Data Bases for Nutrition Labeling","url":"https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-guide-developing-and-using-data-bases-nutrition-labeling","note":"Provides FDA guidance on nutrition database values, compliance, and rounding conventions."}
+  ],
+  "image": {
+    "concept": "Generic Nutrition Facts-style panel beside a calculator showing macro arithmetic that differs slightly from the calorie total, no brand names and no readable invented claims.",
+    "alt": "Calorie calculation from macronutrients compared with a nutrition label"
+  },
+  "status": "publish"
+}

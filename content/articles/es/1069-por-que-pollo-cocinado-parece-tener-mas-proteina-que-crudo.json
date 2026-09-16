@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1069-por-que-pollo-cocinado-parece-tener-mas-proteina-que-crudo",
+  "article_number": 1069,
+  "translation_group": "1069-why-cooked-chicken-has-more-protein-per-100g",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; concentración de nutrientes por pérdida de agua en pollo cocinado.",
+  "title": "Por qué 100 gramos de pollo cocinado parecen tener más proteína que 100 gramos crudos",
+  "slug": "por-que-pollo-cocinado-parece-tener-mas-proteina-que-crudo",
+  "seo": {
+    "title": "Por qué pollo cocinado tiene más proteína por 100 g",
+    "meta_description": "El pollo no fabrica proteína al cocinarse. Pierde agua, pesa menos y la proteína restante queda más concentrada, por eso sube el valor por 100 gramos.",
+    "search_intent": "Entender por qué las tablas muestran más proteína por 100 g de pollo cocinado que crudo y cómo comparar porciones sin duplicar nutrientes."
+  },
+  "excerpt": "La diferencia es principalmente una cuestión de concentración. Al cocinar pollo sale agua y la misma pieza pesa menos, de modo que 100 gramos cocinados contienen más materia seca que 100 gramos crudos.",
+  "taxonomy": {
+    "food_family": "poultry",
+    "food_subcategories": ["chicken","protein","water-loss"],
+    "article_types": ["nutrition-explainer","food-science"],
+    "primary_article_type": "nutrition-explainer"
+  },
+  "content_html": "<p><strong>Cien gramos de pollo cocinado suelen mostrar más proteína que cien gramos crudos porque el pollo pierde agua durante la cocción y la proteína queda concentrada en menos peso.</strong> El fuego no fabrica proteína. Lo que cambia es el denominador: una porción de 100 gramos del producto final representa más cantidad del pollo original.</p><p>USDA utiliza el agua como ejemplo claro del fenómeno. La carne blanca de pollo puede pasar de alrededor de un 69 % de agua cruda a cerca de un 61 % después de cocinarse, aunque las cifras exactas dependen del corte y del método.</p><h2>Comparar 100 gramos con 100 gramos no significa comparar la misma pieza</h2><p>Imagina una pechuga que pesa 200 gramos cruda y termina en 150 gramos después de asarla. Si la mayor parte de su proteína permanece, esa cantidad está ahora concentrada en un cuerpo más pequeño. Tomar 100 gramos del producto cocinado equivale a tomar dos tercios de la pieza final, mientras que 100 gramos crudos eran solo la mitad de la pieza inicial.</p><p>Por eso las tablas nutricionales por 100 gramos pueden parecer contradictorias. En realidad describen dos alimentos con diferente contenido de agua. La unidad de peso es la misma, pero la proporción de sólidos no.</p><p>El mismo principio se observa al secar fruta, concentrar leche o cocer muchos alimentos ricos en agua. Quitar agua aumenta la densidad de nutrientes por gramo aunque no se hayan creado nutrientes nuevos.</p><h2>La cantidad total de proteína cambia mucho menos que el peso total</h2><p>Las proteínas musculares se desnaturalizan durante la cocción, pero sus cadenas de aminoácidos permanecen en gran medida. Puede haber pequeñas pérdidas hacia jugos o modificaciones con calor intenso, pero la reducción de peso por agua suele dominar el cambio aparente.</p><p>Si conservas y consumes los jugos, parte del material soluble que salió del músculo continúa dentro de la comida. Si se desechan, hay una pequeña separación de componentes. Aun así, no explica una supuesta creación de diez gramos extra de proteína por calentar una pechuga.</p><p>Para comparar de manera intuitiva, es mejor seguir una misma pieza antes y después que enfrentar dos columnas por 100 gramos. Verás que el peso cae mientras la proteína total se mantiene relativamente estable.</p><h2>El punto de cocción y el método cambian cuánto se concentra</h2><p>Una pechuga cocinada solo hasta alcanzar el punto necesario puede retener más agua que otra sometida a calor durante mucho tiempo. La segunda pesará menos y, por 100 gramos, puede parecer todavía más concentrada. Asar, hervir, cocinar al vapor o freír también producen rendimientos diferentes.</p><p>La presencia de piel, grasa añadida o marinadas complica la comparación. Una pechuga salteada con aceite no es nutricionalmente equivalente a una pechuga asada sin grasa añadida, aunque ambas tengan el mismo peso final. Por eso las entradas de una base de datos deben leerse con detalle.</p><p>Las cifras exactas también cambian entre animales, marcas y análisis de laboratorio. El principio de concentración es robusto, pero una tabla nunca debe interpretarse como una composición idéntica para toda pechuga existente.</p><h2>Cómo registrar pollo sin contar proteína dos veces</h2><p>Si pesas crudo, utiliza datos de pollo crudo. Si pesas después de cocinar, elige una entrada cocinada que se parezca al método y al corte. No utilices el peso final con una entrada cruda porque estarías aplicando una concentración incorrecta.</p><p>Para meal prep, puedes calcular el lote a partir del peso crudo total y después repartir esos nutrientes según el peso cocinado de cada ración. Si el lote terminado pesa 750 gramos y una caja recibe 150 gramos, esa caja contiene el 20 % de los nutrientes del lote, salvo que la distribución de ingredientes sea desigual.</p><p><strong>El aparente aumento de proteína es, sobre todo, una ilusión creada por la pérdida de agua y la comparación por peso fijo.</strong> La pieza se hace más ligera, no más proteica en términos absolutos. Por eso 100 gramos cocinados representan más tejido original que 100 gramos crudos.</p>",
+  "faq": [
+    {"question":"¿El pollo gana proteína cuando se cocina?","answer":"No. La proteína se concentra porque sale agua y baja el peso total de la pieza."},
+    {"question":"¿Por qué distintas webs dan cifras diferentes?","answer":"Pueden usar cortes, estados crudos o cocinados, métodos, piel y bases de datos diferentes."},
+    {"question":"¿Cómo comparo correctamente pollo crudo y cocinado?","answer":"Compara el mismo lote antes y después o utiliza datos nutricionales que correspondan al estado en que pesaste el alimento."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — Water in Meat and Poultry","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/water-meat-poultry","note":"Ofrece ejemplos de contenido de agua en pollo crudo y cocinado y explica la pérdida durante el calentamiento."},
+    {"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Permite comparar registros de pollo crudo y preparaciones cocinadas por 100 gramos."}
+  ],
+  "image": {
+    "concept": "Pechuga de pollo cruda y pechuga cocinada en básculas separadas con aspecto más pequeño tras cocinar, composición limpia de laboratorio culinario, sin texto.",
+    "alt": "Pollo crudo y cocinado mostrando concentración por pérdida de agua"
+  },
+  "status": "publish"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1061-why-water-tastes-sweet-after-artichoke",
+  "article_number": 1061,
+  "translation_group": "1061-why-water-tastes-sweet-after-artichoke",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; temporary taste modification after artichoke explained through sensory science.",
+  "title": "Why Water Can Taste Sweet After Eating Artichoke",
+  "slug": "why-water-tastes-sweet-after-artichoke",
+  "seo": {
+    "title": "Why Water Tastes Sweet After Artichoke",
+    "meta_description": "Artichoke can temporarily modify taste perception so plain water seems sweet. Cynarin and chlorogenic-acid compounds have been implicated in the effect.",
+    "search_intent": "Understand why plain water can seem sweet after artichoke, which compounds are involved, and why the water has not actually gained sugar."
+  },
+  "excerpt": "Plain water can seem unexpectedly sweet after artichoke even though nothing has been added to it. Compounds from the vegetable briefly change how subsequent taste signals are perceived.",
+  "taxonomy": {
+    "food_family": "vegetables",
+    "food_subcategories": ["artichoke","taste-modification","cynarin"],
+    "article_types": ["food-science","sensory-explainer"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Water can taste sweet after artichoke because compounds from the vegetable temporarily alter the way later taste stimuli are perceived.</strong> Sugar has not appeared in the glass, and the water has not chemically become sweet. The change happens in the sensory system of the person drinking it.</p><p>The effect has been documented experimentally for decades. A classic study in Science showed that exposing the tongue to artichoke could make water taste sweet and identified salts of chlorogenic acid and cynarin among the important active components.</p><h2>Artichoke leaves a sensory aftereffect that outlasts the bite</h2><p>We often imagine each mouthful as a separate event, yet taste receptors and the chemical environment on the tongue can remain influenced by what came immediately before. Artichoke is a striking example because its vegetal and somewhat bitter flavor can be followed by a sip of ordinary water that suddenly seems sweet.</p><p>This is a form of taste modification rather than simple leftover sweetness. The previous food changes the response to the next stimulus, allowing something nearly neutral to be interpreted differently. The strength of the effect varies between people and can also depend on artichoke variety, preparation, portion, and which tissues were eaten.</p><p>One diner may notice an almost candy-like change while another detects only a mild shift. Individual sensory sensitivity is part of the story, just as it is with bitterness, cilantro aroma, or chili heat.</p><h2>Cynarin and related phenolic compounds are part of the explanation</h2><p>Cynarin is a dicaffeoylquinic acid found in artichoke, while chlorogenic acids make up a related family of plant phenolics. The 1972 experiment compared artichoke extract with isolated constituents and confirmed that both the vegetable and selected compounds could produce the unusual sweet-water aftereffect.</p><p>The mechanism should not be simplified into the claim that cynarin turns into sugar. It does not. The phenomenon involves sensory interactions at the tongue and the way subsequent stimuli are encoded. The complete artichoke extract also produced a stronger effect than some isolated compounds, suggesting that the food matrix and multiple molecules contribute.</p><p>Artichoke contains distinctly bitter compounds as well, including sesquiterpene lactones. The transition from those signals to a neutral sip is part of the overall experience, though the documented taste modification is more than a simple psychological comparison between bitter and bland.</p><h2>Plain water makes the change unusually easy to notice</h2><p>Water carries very little flavor of its own, so a temporary shift in taste processing has almost nothing to compete against. A sweetened soda, wine, or flavored drink already supplies strong chemical and aromatic signals. With water, the altered perception stands exposed.</p><p>Serving temperature may change how obvious the effect seems. Very cold water can reduce sensitivity to some taste stimuli, while moderate temperatures may make subtle differences easier to detect. There is no single required temperature, which is another reason two people can report different intensities from the same meal.</p><p>This sensory aftereffect is also one reason artichoke has a reputation for being tricky with wine. A sip taken after the vegetable may seem sweeter or otherwise shifted relative to the same wine tasted before eating.</p><h2>The effect fades and does not mean blood sugar changed the water</h2><p>Taste modification is temporary. Saliva, swallowing, other foods, and time gradually remove or dilute compounds interacting with the tongue, and normal perception returns. It does not indicate permanent receptor damage and generally requires no special action.</p><p>It also has nothing to do with the body secreting enough glucose to sweeten a glass of water. Sweetness is a neural interpretation produced after receptors are stimulated. The physical water remains the same water, with the same sugar content it had before the artichoke.</p><p><strong>The surprising change is in perception, not in the drink.</strong> Artichoke leaves behind compounds capable of shifting the response to later stimuli, and plain water provides such a neutral background that the effect becomes unusually obvious.</p>",
+  "faq": [
+    {"question":"Does cynarin turn water into sugar?","answer":"No. Cynarin and related compounds can temporarily modify taste perception, but they do not add sugar to the water."},
+    {"question":"Does everyone experience sweet water after artichoke?","answer":"Not equally. Sensory sensitivity and the type, amount, and preparation of artichoke can all affect how noticeable the change is."},
+    {"question":"How long does the effect last?","answer":"It is temporary and generally fades as saliva, drinking, eating, and time remove the compounds influencing taste perception."}
+  ],
+  "sources": [
+    {"name":"Science — Sweet taste of water induced by artichoke","url":"https://pubmed.ncbi.nlm.nih.gov/5084667/","note":"Classic experimental work documenting sweet-water perception after artichoke and testing cynarin and chlorogenic compounds."},
+    {"name":"Journal of the Science of Food and Agriculture — Artichoke bitterness chemistry","url":"https://doi.org/10.1002/jsfa.2180","note":"Examines characteristic bitter artichoke compounds and their structure–bitterness relationships."}
+  ],
+  "image": {
+    "concept": "Cooked artichoke opened beside a crystal-clear glass of water in a minimal composition suggesting sensory change without added sugar, no text.",
+    "alt": "Artichoke beside water that may taste sweet after eating it"
+  },
+  "status": "publish"
+}

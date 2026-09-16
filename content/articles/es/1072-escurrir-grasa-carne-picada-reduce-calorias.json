@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1072-escurrir-grasa-carne-picada-reduce-calorias",
+  "article_number": 1072,
+  "translation_group": "1072-does-draining-ground-beef-reduce-calories",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; efecto real de cocinar y escurrir carne picada sobre grasa y energía.",
+  "title": "¿Escurrir la grasa de la carne picada reduce realmente las calorías?",
+  "slug": "escurrir-grasa-carne-picada-reduce-calorias",
+  "seo": {
+    "title": "¿Escurrir grasa de carne picada reduce calorías?",
+    "meta_description": "Sí: cocinar y escurrir puede retirar parte de la grasa de carne picada y reducir su energía total. El efecto depende del porcentaje inicial y del método.",
+    "search_intent": "Saber si escurrir la grasa de carne picada reduce calorías, cuánto puede cambiar la composición y por qué el resultado varía entre preparaciones."
+  },
+  "excerpt": "La grasa que queda en la sartén contiene energía que ya no terminará en el plato si se desecha. Por eso escurrir carne picada puede reducir su grasa y calorías, aunque no existe un porcentaje fijo para todos los casos.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["ground-beef","fat","cooking-yield"],
+    "article_types": ["nutrition-explainer","food-science"],
+    "primary_article_type": "nutrition-explainer"
+  },
+  "content_html": "<p><strong>Sí, escurrir la grasa después de cocinar carne picada puede reducir las calorías del alimento que finalmente consumes porque una parte de la grasa fundida se separa y se desecha.</strong> La grasa aporta aproximadamente nueve kilocalorías por gramo, así que retirar lípidos del lote reduce su energía total.</p><p>El tamaño del efecto depende del porcentaje de grasa inicial, del método, de cuánto se escurre y de si los jugos se reincorporan. No existe una cifra única que pueda restarse automáticamente a cualquier hamburguesa o boloñesa.</p><h2>Al calentar, parte de la grasa se funde y abandona el tejido</h2><p>La carne picada distribuye tejido adiposo en pequeñas partículas. Durante el calentamiento, la grasa se vuelve líquida y puede salir al fondo de la sartén junto con agua y jugos. Si inclinas el recipiente y eliminas ese líquido graso, una fracción de los lípidos originales deja de formar parte de la comida.</p><p>No toda la grasa se marcha. Parte permanece dentro de la carne y parte puede quedar adherida a la superficie. Además, el líquido de la sartén no es grasa pura: suele contener agua, proteínas solubles y otros componentes. Medir solo el volumen escurrido no permite traducirlo directamente a gramos de grasa.</p><p>Una carne inicialmente muy magra tiene menos grasa disponible para fundirse, así que el cambio absoluto será menor que en una mezcla con un porcentaje alto de grasa.</p><h2>Los estudios muestran reducciones reales, pero variables</h2><p>En un estudio realizado en servicio de comidas, cocinar y escurrir carne picada redujo la grasa total y varias clases de ácidos grasos aproximadamente entre un 31 % y un 35 % respecto a la carne cruda analizada. En ese protocolo, un lavado posterior con agua caliente redujo todavía más la grasa retenida.</p><p>Otro trabajo comparó carnes picadas con diferentes porcentajes de grasa y varios métodos de cocción. Confirmó que el nivel inicial de grasa influía mucho en la composición final y que enjuagar carne desmenuzada cocida podía reducir los lípidos manteniendo bien proteína, hierro, zinc y vitamina B12.</p><p>Esas cifras describen experimentos concretos, no una promesa de que tu sartén eliminará exactamente un tercio. Forma de la carne, temperatura, tiempo, tamaño de partícula y escurrido cambian el rendimiento.</p><h2>El peso final puede hacer que las cifras por 100 gramos parezcan confusas</h2><p>Cocinar también expulsa agua. Si se pierde mucha agua a la vez que algo de grasa, el producto termina pesando menos. Eso significa que una carne escurrida puede tener menos grasa total en el lote pero no mostrar una reducción proporcional por cada 100 gramos, porque esos 100 gramos representan más carne original.</p><p>Para saber cuánta energía consumiste, el cálculo más útil considera el lote completo, no solo una comparación de porcentajes. Si conoces la composición inicial y utilizas datos de rendimiento específicos, puedes aproximar mejor la energía retenida.</p><p>Las aplicaciones nutricionales que ofrecen entradas de carne cocinada y escurrida pueden ser más apropiadas que aplicar valores de carne cruda al peso final, siempre que la descripción se parezca a tu preparación.</p><h2>Qué pasa si utilizas la grasa escurrida en la receta</h2><p>Si retiras la grasa y luego la incorporas a una salsa, patatas o verduras, su energía sigue en la comida. La reducción solo existe para la porción de grasa que realmente se elimina del plato. Lo mismo ocurre con drippings de una bandeja de horno.</p><p>Enjuagar carne desmenuzada puede retirar más grasa, pero también cambia textura y sabor, y no suele tener sentido para hamburguesas intactas. Escurrir bien es una técnica más habitual y suficiente cuando el objetivo es evitar consumir el exceso visible.</p><p><strong>Escurrir sí puede reducir las calorías, pero el efecto es una cuestión de masa de grasa realmente retirada, no de una regla porcentual universal.</strong> Cuanto más grasa tenga el producto inicial y más grasa fundida se deseche, mayor puede ser la diferencia entre lo que entró en la sartén y lo que acaba en el plato.</p>",
+  "faq": [
+    {"question":"¿La grasa líquida que escurro son calorías que elimino?","answer":"En gran parte sí, siempre que esa grasa se deseche y no vuelva a la receta; el líquido también puede contener agua y otros componentes."},
+    {"question":"¿Se elimina toda la grasa de la carne picada al escurrir?","answer":"No. Una proporción permanece dentro y sobre las partículas de carne."},
+    {"question":"¿Escurrir afecta a la proteína?","answer":"Los estudios de carne picada escurrida y enjuagada encontraron buena retención de proteína, aunque la composición por peso cambia con la pérdida de agua y grasa."}
+  ],
+  "sources": [
+    {"name":"Journal of the American Dietetic Association — Reducing fat in ground beef","url":"https://pubmed.ncbi.nlm.nih.gov/7930317/","note":"Mide reducciones de grasa tras cocinar, escurrir y enjuagar carne picada."},
+    {"name":"Journal of the American Dietetic Association — Nutrient composition of cooked ground beef","url":"https://pubmed.ncbi.nlm.nih.gov/1430722/","note":"Compara contenido de grasa, energía y nutrientes según porcentaje inicial, cocción y enjuague."}
+  ],
+  "image": {
+    "concept": "Carne picada dorada en sartén inclinada mientras grasa líquida se separa hacia un recipiente, composición culinaria realista, sin texto.",
+    "alt": "Grasa escurrida de carne picada después de cocinar"
+  },
+  "status": "publish"
+}

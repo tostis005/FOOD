@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1064-por-que-agua-tonica-sabe-amarga",
+  "article_number": 1064,
+  "translation_group": "1064-why-tonic-water-tastes-bitter",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; amargor de tónica explicado mediante quinina, receptores gustativos y formulación de bebidas.",
+  "title": "Por qué el agua tónica sabe amarga",
+  "slug": "por-que-agua-tonica-sabe-amarga",
+  "seo": {
+    "title": "Por qué el agua tónica sabe amarga",
+    "meta_description": "La tónica sabe amarga principalmente por la quinina, un alcaloide detectado a concentraciones muy bajas por el sistema gustativo. Azúcar, ácido y burbujas equilibran la bebida.",
+    "search_intent": "Entender por qué la tónica es amarga, qué papel tiene la quinina y cómo dulzor, acidez, carbonatación y temperatura modifican su sabor."
+  },
+  "excerpt": "La firma amarga de la tónica procede sobre todo de la quinina. El sistema gustativo humano es muy sensible a este alcaloide, por eso una concentración pequeña puede dominar una bebida entera.",
+  "taxonomy": {
+    "food_family": "beverages",
+    "food_subcategories": ["tonic-water","quinine","bitterness"],
+    "article_types": ["food-science","beverage-science"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>El agua tónica sabe amarga principalmente porque contiene quinina, un alcaloide extremadamente perceptible para el sistema del gusto.</strong> Los humanos detectamos muchos compuestos amargos a concentraciones mucho menores que el azúcar o la sal. La quinina es uno de los ejemplos clásicos utilizados para estudiar esa sensibilidad.</p><p>La tónica moderna equilibra ese amargor con azúcar o edulcorantes, ácido, aromas cítricos y carbonatación. Por eso puede resultar refrescante y amarga al mismo tiempo: ninguna de esas señales desaparece, sino que se superponen.</p><h2>La quinina activa el sistema humano de detección de amargos</h2><p>El gusto amargo se detecta mediante una familia de receptores conocida como T2R o TAS2R. Existen varios tipos porque las sustancias amargas tienen estructuras químicas muy diversas. La quinina activa esta red sensorial con eficacia suficiente para percibirse en cantidades pequeñas.</p><p>Desde una perspectiva evolutiva, el amargor funciona como una señal que obliga a prestar atención antes de ingerir ciertas sustancias vegetales. Eso no significa que todo lo amargo sea venenoso, ni que un alimento seguro se vuelva peligroso solo por ser amargo. El sistema es una alarma general, no un detector específico de toxicidad.</p><p>En una tónica, esa alarma se utiliza como parte del sabor. La cantidad de quinina alimentaria es muy distinta del uso histórico o farmacológico de quinina, y las formulaciones comerciales están sujetas a límites regulatorios según el país.</p><h2>Azúcar y ácido no eliminan el amargor: cambian el equilibrio</h2><p>Una tónica sin dulzor puede resultar agresivamente amarga para muchas personas. Añadir azúcar o edulcorante activa señales dulces que compiten perceptualmente con el amargo. El cerebro integra ambas y la bebida parece más equilibrada, aunque la quinina siga ahí.</p><p>El ácido cítrico u otros acidulantes añaden una nota agria que aporta brillo y evita que el dulzor resulte pesado. Los aromas de limón, lima, naranja o hierbas completan el perfil. Algunas tónicas premium reducen el azúcar para dejar la quinina más expuesta; otras buscan un estilo redondo y dulce.</p><p>Por eso dos marcas con cantidades similares de quinina podrían percibirse diferentes si cambian la receta de azúcar, acidez y aromas. El sabor no es una lectura aislada de una sola molécula.</p><h2>Las burbujas añaden otra sensación que puede intensificar el carácter seco</h2><p>La carbonatación produce ácido carbónico en la bebida y también estimula terminaciones sensoriales a través del cosquilleo del dióxido de carbono. Esa sensación física hace que una tónica parezca más viva, punzante y seca que la misma solución completamente plana.</p><p>La temperatura importa. Servirla fría reduce la intensidad de algunas sensaciones y mantiene mejor el dióxido de carbono disuelto. Al calentarse y perder gas, desaparece parte de la vivacidad y pueden quedar más expuestos el dulzor y el amargor de fondo.</p><p>El hielo diluye progresivamente la bebida. En un vaso largo, esa dilución puede suavizar la quinina y el azúcar a la vez. El resultado depende de cuánto hielo se derrita y de la concentración inicial de la tónica.</p><h2>Por qué algunas personas encuentran la tónica agradable y otras demasiado amarga</h2><p>La sensibilidad a compuestos amargos varía mucho entre individuos. Diferencias genéticas en receptores gustativos, edad, experiencia y exposición repetida influyen en la intensidad percibida. Alguien acostumbrado a café, cerveza amarga o verduras intensas puede además interpretar el amargor dentro de un contexto aprendido y agradable.</p><p>La preferencia también depende del acompañamiento. Comida salada, cítricos, alcohol en un combinado o aperitivos grasos cambian el contraste. Una tónica que parece muy amarga sola puede parecer equilibrada en una mezcla, mientras que una versión muy dulce puede perder definición.</p><p><strong>El amargor de la tónica no es un fallo que el fabricante intenta ocultar: es parte central de su identidad.</strong> La quinina proporciona la señal amarga y el resto de la fórmula la encuadra con dulzor, ácido, aroma y burbujas hasta convertir una molécula intensamente amarga en una bebida reconocible.</p>",
+  "faq": [
+    {"question":"¿Qué hace amarga al agua tónica?","answer":"Principalmente la quinina, un alcaloide que el sistema gustativo humano puede detectar a concentraciones muy bajas."},
+    {"question":"¿El azúcar elimina el sabor de la quinina?","answer":"No. Añade una señal dulce que reduce el contraste perceptual del amargor, pero la quinina sigue presente."},
+    {"question":"¿Por qué una tónica caliente sabe diferente?","answer":"Pierde carbonatación y cambia la intensidad relativa de dulzor, acidez y amargor, por lo que puede parecer menos fresca y más plana."}
+  ],
+  "sources": [
+    {"name":"NCBI Bookshelf — Taste perception in humans","url":"https://www.ncbi.nlm.nih.gov/books/NBK10833/","note":"Utiliza la quinina como ejemplo clásico de compuesto amargo detectado a concentración muy baja."},
+    {"name":"PMC — Peripheral coding of taste","url":"https://pmc.ncbi.nlm.nih.gov/articles/PMC3994536/","note":"Revisa receptores T2R de amargor e incluye la quinina de la tónica como ejemplo."}
+  ],
+  "image": {
+    "concept": "Vaso alto de agua tónica con hielo, burbujas finas y piel de cítrico, botella abierta al fondo, fotografía editorial nítida, sin texto.",
+    "alt": "Agua tónica con burbujas cuyo amargor procede de la quinina"
+  },
+  "status": "publish"
+}

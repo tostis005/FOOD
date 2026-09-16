@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1072-does-draining-ground-beef-reduce-calories",
+  "article_number": 1072,
+  "translation_group": "1072-does-draining-ground-beef-reduce-calories",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; actual effect of cooking and draining ground beef on retained fat and energy.",
+  "title": "Does Draining Ground Beef Really Reduce Calories?",
+  "slug": "does-draining-ground-beef-reduce-calories",
+  "seo": {
+    "title": "Does Draining Ground Beef Reduce Calories?",
+    "meta_description": "Yes. Cooking and draining can remove part of the fat from ground beef and reduce total energy. The amount depends on starting fat percentage and cooking method.",
+    "search_intent": "Learn whether draining cooked ground beef reduces calories, how much fat can be removed, and why the result varies between batches."
+  },
+  "excerpt": "Fat left behind in the pan carries energy that is no longer eaten when it is discarded. Draining can therefore reduce retained fat and calories, but the reduction is not a fixed percentage.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["ground-beef","fat","cooking-yield"],
+    "article_types": ["nutrition-explainer","food-science"],
+    "primary_article_type": "nutrition-explainer"
+  },
+  "content_html": "<p><strong>Yes, draining ground beef after cooking can reduce the calories you ultimately eat because some rendered fat separates from the meat and is discarded.</strong> Fat provides about nine kilocalories per gram, so removing lipid mass from the batch reduces its total food energy.</p><p>The size of the reduction depends on starting fat percentage, cooking method, how thoroughly the meat is drained, and whether the drippings are used elsewhere. There is no single percentage that can be subtracted from every burger or meat sauce.</p><h2>Heating lets part of the fat render out of the meat</h2><p>Ground beef distributes adipose tissue throughout many small particles. As the meat heats, fat liquefies and can collect in the pan along with water and meat juices. Tilting and draining the pan removes a portion of that fat from the food that will be served.</p><p>Not all fat leaves. Some remains within the cooked particles and some coats their surfaces. The liquid in the pan is not pure fat either; it often contains water, dissolved proteins, and other compounds. Measuring the volume of drippings alone cannot tell you exactly how many grams of fat were removed.</p><p>Very lean beef has less fat available to render, so the absolute calorie reduction will usually be smaller than with a high-fat blend.</p><h2>Controlled studies show real but variable fat reductions</h2><p>In a school-foodservice study, cooking and draining ground beef reduced total fat and several fatty-acid classes by roughly 31 to 35 percent relative to the analyzed raw beef. Rinsing the cooked crumbles with hot water under that protocol removed additional fat.</p><p>Another study compared ground beef at different starting fat levels and multiple cooking methods. It confirmed that initial fat content strongly affected the cooked composition and found that warm-water rinsing of cooked crumbles could lower retained lipid while protein, iron, zinc, and vitamin B12 were well retained.</p><p>Those numbers describe specific experiments, not a guarantee that every skillet loses exactly one-third of its fat. Particle size, shape, heat, cooking time, and draining technique all influence retention.</p><h2>Water loss can make per-100-gram numbers look counterintuitive</h2><p>Cooking drives off water at the same time that some fat is lost. The finished ground beef therefore weighs less. A drained batch can contain less total fat yet fail to show an equally dramatic drop in fat per 100 grams because each 100 grams of cooked meat represents more of the original product.</p><p>For the calories you actually consume, whole-batch retention is often more useful than comparing two percentages. Starting composition plus cooking-yield data can provide a better estimate than treating cooked weight as though it were raw weight.</p><p>Tracking databases sometimes offer records specifically for cooked and drained ground beef. Those are more appropriate than applying a raw entry to the final cooked weight when the descriptions match your preparation.</p><h2>Using the drippings elsewhere puts those calories back into the meal</h2><p>If the rendered fat is drained from beef and then stirred into gravy, potatoes, or vegetables, its energy remains part of the meal. The calorie reduction applies only to fat that is genuinely discarded. The same logic applies to drippings from roasted or grilled meat.</p><p>Rinsing cooked crumbles can remove still more surface fat, but it changes flavor and texture and is not practical for intact patties. Ordinary draining is the more common technique when the goal is simply to leave excess visible fat behind.</p><p><strong>Draining can reduce calories, but the effect comes from the actual mass of fat removed rather than a universal discount.</strong> The fattier the starting meat and the more rendered fat that is discarded, the larger the possible difference between what entered the pan and what reaches the plate.</p>",
+  "faq": [
+    {"question":"Are the drippings I pour off calories I no longer eat?","answer":"Largely yes when they are discarded, although pan liquid contains water and other components in addition to fat."},
+    {"question":"Does draining remove all the fat from ground beef?","answer":"No. A significant amount can remain within and on the cooked meat particles."},
+    {"question":"Does draining remove much protein?","answer":"Studies of drained and rinsed ground beef found good protein retention, although water and fat loss change composition per unit weight."}
+  ],
+  "sources": [
+    {"name":"Journal of the American Dietetic Association — Reducing fat in ground beef","url":"https://pubmed.ncbi.nlm.nih.gov/7930317/","note":"Measures fat reductions after cooking, draining, and rinsing ground beef."},
+    {"name":"Journal of the American Dietetic Association — Nutrient composition of cooked ground beef","url":"https://pubmed.ncbi.nlm.nih.gov/1430722/","note":"Compares fat, energy, and nutrient composition across starting fat levels, cooking methods, and rinsing."}
+  ],
+  "image": {
+    "concept": "Browned ground beef in a tilted skillet with rendered fat flowing toward a separate heatproof container, realistic editorial kitchen photography, no text.",
+    "alt": "Rendered fat being drained from cooked ground beef"
+  },
+  "status": "publish"
+}

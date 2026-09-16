@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1075-calorias-macros-no-coinciden-etiqueta",
+  "article_number": 1075,
+  "translation_group": "1075-why-calories-from-macros-do-not-match-label",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/Unión Europea con comparación internacional; cálculo energético, factores de conversión y redondeo de etiquetas.",
+  "title": "Por qué las calorías calculadas con proteína, grasa y carbohidratos no siempre coinciden con la etiqueta",
+  "slug": "calorias-macros-no-coinciden-etiqueta",
+  "seo": {
+    "title": "Por qué calorías y macros no siempre cuadran",
+    "meta_description": "Multiplicar proteína y carbohidratos por 4 y grasa por 9 es una aproximación. Fibra, polialcoholes, alcohol, factores oficiales y redondeos explican diferencias.",
+    "search_intent": "Entender por qué las calorías de una etiqueta no siempre coinciden al multiplicar gramos de proteína, carbohidratos y grasa por 4, 4 y 9."
+  },
+  "excerpt": "La cuenta 4-4-9 es útil, pero no describe todos los componentes energéticos ni cómo se declaran los valores. Redondeos y factores específicos pueden separar la suma manual del número impreso.",
+  "taxonomy": {
+    "food_family": "nutrition-labels",
+    "food_subcategories": ["calories","macronutrients","labeling"],
+    "article_types": ["nutrition-explainer","label-explainer"],
+    "primary_article_type": "label-explainer"
+  },
+  "content_html": "<p><strong>Las calorías de una etiqueta no siempre coinciden con proteína × 4 + carbohidratos × 4 + grasa × 9 porque esa cuenta simplifica tanto la química como las reglas de declaración.</strong> Algunos componentes usan factores energéticos diferentes y, además, cada cifra impresa puede estar redondeada por separado.</p><p>Una diferencia pequeña no demuestra que la etiqueta esté mal. Antes de comparar, hay que saber qué incluye la definición legal de hidratos de carbono, cómo se trata la fibra y qué factores de conversión se aplican en el mercado donde se vende el producto.</p><h2>La fórmula 4-4-9 es una aproximación útil, no una identidad matemática universal</h2><p>Los factores generales de Atwater asignan aproximadamente 4 kcal por gramo a proteína y carbohidratos disponibles y 9 kcal por gramo a grasa. Funcionan muy bien como regla mental, pero los alimentos pueden contener alcohol, fibra, polialcoholes y ácidos orgánicos que no encajan en esas tres columnas.</p><p>En la Unión Europea, el Reglamento 1169/2011 fija factores para el cálculo de energía: 4 kcal/g para proteína y carbohidratos distintos de polialcoholes, 9 para grasa, 7 para alcohol, 2 para fibra, 2,4 para polialcoholes en general, 3 para ácidos orgánicos y 0 para eritritol, entre otros.</p><p>Eso significa que sumar solo las tres macros principales puede omitir energía que la normativa sí cuenta o atribuir a ciertos carbohidratos un valor distinto del cuatro simplificado.</p><h2>Fibra y polialcoholes son una fuente frecuente de diferencias</h2><p>Un alimento rico en fibra puede declarar muchos gramos que no aportan cuatro kilocalorías cada uno bajo los factores europeos. Si una persona incluye toda la fibra dentro de los carbohidratos y multiplica ese total por cuatro, puede sobreestimar la energía calculada frente a la etiqueta.</p><p>Los polialcoholes complican todavía más el cálculo. Eritritol tiene un tratamiento energético distinto de otros polioles en la normativa europea, y una barrita o un dulce sin azúcar puede contener cantidades importantes. Aplicar cuatro kcal por gramo a todo lo que parece carbohidrato puede alejar bastante la suma manual.</p><p>El alcohol también queda fuera de la tríada clásica y aporta energía relevante. Una bebida o alimento con etanol no puede reconstruirse correctamente con solo proteína, grasa y carbohidratos.</p><h2>El redondeo hace que números correctos dejen de sumar exactamente</h2><p>Las etiquetas no tienen por qué mostrar cada nutriente con precisión infinita. Las normas permiten o exigen determinadas formas de expresión y tolerancias. Eso significa que el valor real usado para calcular energía puede ser 4,4 gramos mientras la tabla muestra una cifra redondeada diferente.</p><p>Si proteína, grasa y carbohidratos se redondean por separado y después intentas reconstruir las calorías con esos números ya redondeados, los pequeños errores se acumulan. En Estados Unidos, por ejemplo, FDA establece incrementos específicos para redondear calorías y nutrientes; la cifra final de calorías puede volver a redondearse de forma independiente.</p><p>Cuanto menor sea la porción, más visible puede resultar una diferencia de uno o dos gramos. Multiplicada por factores de cuatro o nueve y combinada con el redondeo de calorías, la discrepancia puede parecer mayor de lo que realmente es.</p><h2>Las definiciones y métodos cambian entre países y bases de datos</h2><p>No todas las jurisdicciones presentan carbohidratos de la misma forma ni utilizan exactamente el mismo esquema para cada ingrediente. En Estados Unidos pueden emplearse factores generales o factores específicos de Atwater para calcular energía en determinadas circunstancias. En Europa, los factores de conversión están especificados en la normativa de información alimentaria.</p><p>Además, una etiqueta se basa en análisis, cálculos a partir de ingredientes o bases de datos y está sujeta a tolerancias reguladas. Una aplicación de seguimiento puede utilizar otra fuente y otra porción. Dos números razonables pueden no coincidir al último decimal.</p><p><strong>La prueba útil no es exigir que una multiplicación 4-4-9 reproduzca siempre la etiqueta exactamente.</strong> Esa cuenta sirve como comprobación aproximada. Para diferencias pequeñas, redondeo y factores especiales suelen ser la explicación; para discrepancias grandes, entonces sí conviene revisar porción, fibra, alcoholes, ingredientes y posible error de registro.</p>",
+  "faq": [
+    {"question":"¿Proteína, carbohidratos y grasa siempre valen 4, 4 y 9 kcal por gramo?","answer":"Son factores generales útiles, pero fibra, polialcoholes, alcohol y otros componentes pueden usar factores distintos según la normativa."},
+    {"question":"¿Por qué una etiqueta no suma exactamente aunque la diferencia sea pequeña?","answer":"Porque gramos de nutrientes y calorías pueden estar redondeados por separado y la suma manual parte de esos valores ya redondeados."},
+    {"question":"¿Una diferencia significa que el fabricante miente?","answer":"No necesariamente. Primero hay que considerar factores energéticos especiales, definiciones legales, porción, redondeo y tolerancias aplicables."}
+  ],
+  "sources": [
+    {"name":"EUR-Lex — Reglamento (UE) 1169/2011, Anexo XIV","url":"https://eur-lex.europa.eu/eli/reg/2011/1169/2025-04-01/spa","note":"Establece factores de conversión de energía para carbohidratos, proteína, grasa, fibra, polialcoholes, alcohol y otros componentes en la UE."},
+    {"name":"FDA — Food Labeling Guide","url":"https://www.fda.gov/files/food/published/Food-Labeling-Guide-%28PDF%29.pdf","note":"Describe reglas estadounidenses de redondeo y métodos permitidos para declarar calorías y nutrientes."}
+  ],
+  "image": {
+    "concept": "Etiqueta nutricional ficticia genérica junto a calculadora mostrando una suma de macros ligeramente distinta al total calórico, sin marcas comerciales y sin texto legible añadido.",
+    "alt": "Cálculo de calorías a partir de macronutrientes comparado con una etiqueta"
+  },
+  "status": "publish"
+}

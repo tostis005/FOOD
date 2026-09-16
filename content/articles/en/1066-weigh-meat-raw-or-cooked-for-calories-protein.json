@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1066-weigh-meat-raw-or-cooked-for-calories-protein",
+  "article_number": 1066,
+  "translation_group": "1066-weigh-meat-raw-or-cooked-for-calories-protein",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; practical calorie and protein tracking using food-composition data.",
+  "title": "Should You Weigh Meat Raw or Cooked for Calories and Protein?",
+  "slug": "weigh-meat-raw-or-cooked-for-calories-protein",
+  "seo": {
+    "title": "Weigh Meat Raw or Cooked for Calories and Protein?",
+    "meta_description": "Either raw or cooked weighing can work. Match the weight you measure to nutrition data for the same state because cooking changes water and sometimes fat retention.",
+    "search_intent": "Learn whether to weigh meat raw or cooked for calories and protein and how to avoid mismatching cooked weights with raw nutrition entries."
+  },
+  "excerpt": "There is no single correct weighing state for meat. Accurate tracking comes from pairing the measured weight with a nutrition reference that describes the same raw or cooked preparation.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": ["nutrition-tracking","cooking-yield","protein"],
+    "article_types": ["nutrition-explainer","food-science"],
+    "primary_article_type": "nutrition-explainer"
+  },
+  "content_html": "<p><strong>You can weigh meat either raw or cooked for calorie and protein tracking as long as your nutrition entry describes the same state.</strong> If you weigh 150 grams of cooked chicken and log 150 grams from a raw-chicken database entry, you are mixing foods with different water content per unit of weight and the result can be misleading.</p><p>Cooking does not magically create protein. The largest change is often water loss, with fat loss also important for some cuts and methods. That is why 100 grams of cooked meat can contain more protein and calories than 100 grams of the same meat raw even though the whole piece did not gain nutrients.</p><h2>Match the measured state to the nutrition reference</h2><p>Food-composition databases distinguish raw foods from cooked preparations because heating changes yield. One entry may describe raw boneless chicken breast, another roasted breast, and another cooked meat with skin. Each represents a different analytical or calculated food and should not be swapped casually.</p><p>If you portion meat before cooking, raw weighing is straightforward: record each raw piece against a raw entry. If you cook a large batch and portion it afterward, cooked weighing can be equally valid when you use an appropriate cooked entry or calculate the batch from its ingredients.</p><p>Consistency matters more than a universal rule favoring one state. Errors arise when people change the scale weight but keep the wrong nutrition reference or assume that 100 grams cooked corresponds to 100 grams raw.</p><h2>Water loss explains much of the per-100-gram change</h2><p>Meat is largely water. USDA guidance notes that meat and poultry commonly contain roughly half to three-quarters water depending on species, cut, and composition. Heat causes muscle proteins to change structure and the tissue loses liquid through evaporation and drip.</p><p>If a 200-gram piece finishes at 150 grams, the nutrients that remain are now distributed through less total mass. A 100-gram serving of that cooked meat represents more of the original piece than a 100-gram raw serving did. That concentration effect explains much of the higher protein number seen per 100 grams after cooking.</p><p>Yield is not constant. Pan temperature, final doneness, thickness, resting, and cooking duration all influence moisture loss. A fixed conversion factor can therefore be less accurate than weighing your own batch when repeatability matters.</p><h2>Fat loss makes some meats harder to convert</h2><p>With a very lean cut, water can dominate the weight change. With fatty meat, rendered fat may leave the food and remain in the pan, grill, or roasting tray. If that fat is discarded, the cooked piece has lost energy as well as water. If the drippings are incorporated into gravy or sauce, they remain part of the meal.</p><p>This is why one raw-to-cooked percentage cannot describe chicken breast, ground beef, bacon, and a highly marbled steak equally well. Database entries that specify cooking method and fat level attempt to capture typical differences, but no reference value exactly reproduces every home kitchen.</p><p>For mixed recipes, a strong method is to calculate the nutrients of the full ingredient list, cook the batch, then divide the total by servings or by the finished recipe weight. That avoids pretending every component follows a standard yield.</p><h2>Choose the method you can reproduce consistently</h2><p>If you usually cook at home and handle the food before heating, raw weights are convenient because changes in doneness do not alter the logged starting quantity. If you buy cooked meat, portion meal-prep containers after cooking, or serve from a finished roast, a matching cooked entry is often more practical.</p><p>Check what a package label describes as well. Some labels refer to the product as sold, while certain products provide preparation information. In tracking apps, read beyond the short food name and look for cut, skin, fat percentage, cooking method, and whether the record is raw or cooked.</p><p><strong>The useful rule is not raw versus cooked; it is like-for-like measurement.</strong> Make sure the grams on the scale and the nutrition values per 100 grams refer to the same form of the food. Once those two pieces match, either workflow can be internally consistent.</p>",
+  "faq": [
+    {"question":"Does cooked meat actually gain protein?","answer":"No. Water loss concentrates the protein that remains, so the amount per 100 grams can increase even though the whole piece did not create protein."},
+    {"question":"Can I always convert raw meat weight to cooked with one factor?","answer":"Only approximately. Water and fat losses vary with cut, cooking method, time, and final doneness."},
+    {"question":"How should I track a large meal-prep recipe?","answer":"Calculate the nutrients of the whole ingredient batch, then divide the total by servings or by the finished cooked weight."}
+  ],
+  "sources": [
+    {"name":"USDA FSIS — Water in Meat and Poultry","url":"https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/water-meat-poultry","note":"Explains the high water content of meat and poultry and how cooking changes retained water and weight."},
+    {"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Official database containing separate records for raw foods and cooked preparations."}
+  ],
+  "image": {
+    "concept": "Same chicken breast on a kitchen scale before and after cooking, shown in two clean side-by-side plates with realistic weight readouts on the scale, no added text.",
+    "alt": "Meat weighed raw and cooked to compare the change in weight"
+  },
+  "status": "publish"
+}

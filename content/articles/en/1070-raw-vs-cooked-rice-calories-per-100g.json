@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "en-1070-raw-vs-cooked-rice-calories-per-100g",
+  "article_number": 1070,
+  "translation_group": "1070-raw-vs-cooked-rice-calories-per-100g",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; calorie-density difference between dry and cooked rice explained through water absorption.",
+  "title": "Raw vs. Cooked Rice: Why Calories per 100 Grams Change So Much",
+  "slug": "raw-vs-cooked-rice-calories-per-100g",
+  "seo": {
+    "title": "Raw vs. Cooked Rice Calories per 100 Grams",
+    "meta_description": "Rice absorbs substantial water during cooking. Water adds weight without calories, so 100 g cooked contains much less energy than 100 g dry rice.",
+    "search_intent": "Understand why cooked rice has far fewer calories per 100 grams than dry rice and how to calculate a serving from a cooked batch."
+  },
+  "excerpt": "The large per-100-gram difference is mainly water. Dry grains absorb liquid and become heavier, spreading the same starting energy across many more grams of cooked food.",
+  "taxonomy": {
+    "food_family": "grains",
+    "food_subcategories": ["rice","water-absorption","calorie-density"],
+    "article_types": ["nutrition-explainer","food-science"],
+    "primary_article_type": "nutrition-explainer"
+  },
+  "content_html": "<p><strong>Cooked rice has far fewer calories per 100 grams than dry rice because it absorbs water during cooking, adding weight without adding energy.</strong> The grain's carbohydrate does not disappear in proportion to the increase in mass. Instead, starch and the spaces within the grain take up water, diluting calories across a heavier finished food.</p><p>Comparing 100 grams dry with 100 grams cooked therefore compares very different amounts of the original rice. One hundred grams of dry grains can become several hundred grams after cooking depending on variety and method.</p><h2>Water multiplies batch weight without multiplying calories</h2><p>As rice heats in water, starch granules absorb liquid, swell, and gelatinize. The grains soften and their mass rises. Plain water contributes no food energy, so simply hydrating rice does not increase the calorie total of the starting grains.</p><p>If 100 grams dry finishes as 280 grams cooked, the original calories are now distributed through those 280 grams apart from small losses or added ingredients. A 100-gram cooked portion in that example represents only about 36 grams of the dry starting rice.</p><p>This is why nutrition apps can show roughly several times more calories per 100 grams for dry rice than cooked rice without either listing being wrong.</p><h2>Cooking yield varies by rice type and technique</h2><p>There is no universal one-to-three conversion. Long-grain, short-grain, brown, basmati, jasmine, and sticky rices absorb different amounts of water. Results also change between excess-water boiling and draining, absorption cooking, pressure cooking, and steaming.</p><p>Final doneness matters. Firm rice retains less water than grains cooked very soft. Even two batches from the same bag can finish at slightly different weights because of evaporation rate, burner intensity, lid fit, and resting time.</p><p>A fixed conversion is therefore useful only as an estimate. Weighing your actual finished batch is more reproducible when you want to divide a recipe precisely.</p><h2>How to calculate portions from a whole cooked batch</h2><p>A practical method is to weigh the dry rice first and record the nutrition for that quantity. After cooking, weigh the whole finished batch. Your serving's share of the final weight tells you the same share of the original rice nutrients.</p><p>If 300 grams dry produces 840 grams cooked and you serve 210 grams, the serving is one quarter of the finished batch. It receives roughly one quarter of the nutrients from the original 300 grams, assuming the batch is uniform.</p><p>You can also weigh the cooked serving directly and use a food-composition entry for the same type of cooked rice. The mistake to avoid is applying dry-rice calories per 100 grams to the much heavier cooked weight.</p><h2>Oil, broth, and other ingredients can change the calorie total</h2><p>Water alone adds no calories, but rice recipes often contain oil, butter, coconut milk, nuts, or energy-dense sauces. Those ingredients increase the batch total and need to be included when calculating the complete dish.</p><p>Broth may add a modest amount of energy and substantial sodium depending on its formula. In risotto, butter and cheese can alter energy density far more than the hydration step itself. Fried rice adds another layer because oil and other ingredients become part of the final weight and calorie total.</p><p><strong>The dry-versus-cooked difference is an example of energy density, not disappearing calories.</strong> Cooking adds water, total weight rises, and the starting energy is distributed through more grams. Match your nutrition data to the same state that you put on the scale.</p>",
+  "faq": [
+    {"question":"Does rice lose most of its calories when cooked?","answer":"No. The large drop per 100 grams mainly reflects water absorption and the resulting increase in weight."},
+    {"question":"Does 100 grams dry always become 300 grams cooked?","answer":"No. Yield varies with rice type, water ratio, cooking method, evaporation, and final texture."},
+    {"question":"How should I log rice in a tracking app?","answer":"Use dry weight with a dry entry or cooked weight with a cooked entry rather than mixing the two states."}
+  ],
+  "sources": [
+    {"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Official database with separate records for dry rice and cooked rice preparations."},
+    {"name":"FAO — Rice in human nutrition","url":"https://www.fao.org/4/t0567e/t0567e00.htm","note":"Technical reference on rice composition, starch, processing, and preparation as a staple food."}
+  ],
+  "image": {
+    "concept": "Two scale bowls showing a small amount of dry rice and the much larger cooked volume produced from it, clean realistic editorial food photography, no text.",
+    "alt": "Dry and cooked rice showing weight gain from absorbed water"
+  },
+  "status": "publish"
+}

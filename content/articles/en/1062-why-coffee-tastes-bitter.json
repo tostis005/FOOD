@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "id": "en-1062-why-coffee-tastes-bitter",
+  "article_number": 1062,
+  "translation_group": "1062-why-coffee-tastes-bitter",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; coffee bitterness explained through roasting chemistry, brewing, and multiple bitter compounds.",
+  "title": "Why Coffee Tastes Bitter and What Controls the Bitterness",
+  "slug": "why-coffee-tastes-bitter",
+  "seo": {
+    "title": "Why Coffee Tastes Bitter",
+    "meta_description": "Caffeine contributes bitterness, but roasting also creates bitter chlorogenic-acid lactones and other compounds. Brewing determines how much reaches the cup.",
+    "search_intent": "Understand which compounds make coffee bitter and how roast, bean type, grind, water, and extraction can make bitterness balanced or excessive."
+  },
+  "excerpt": "Coffee bitterness comes from a mixture rather than one chemical. Caffeine joins roasting products and other bitter molecules, while brewing conditions determine their concentration in the cup.",
+  "taxonomy": {
+    "food_family": "beverages",
+    "food_subcategories": ["coffee","bitterness","roasting"],
+    "article_types": ["food-science","beverage-science"],
+    "primary_article_type": "food-science"
+  },
+  "content_html": "<p><strong>Coffee tastes bitter because it contains several families of molecules that stimulate bitter taste receptors, and roasting creates additional bitter compounds.</strong> Caffeine matters, but it is not a complete explanation. Chlorogenic-acid lactones, phenylindane-type roasting products, and other constituents all contribute to the sensory profile.</p><p>The cup also reflects extraction. The same roasted coffee can taste sweet and balanced in one brew and dry, harsh, and excessively bitter in another when grind size, water temperature, contact time, or brew ratio changes.</p><h2>Caffeine is bitter, but it cannot explain coffee bitterness by itself</h2><p>Caffeine activates multiple human bitter taste receptors, and higher concentrations can clearly add bitterness. Yet molecular and sensory studies have identified many additional bitter coffee compounds, some of which stimulate receptors at relatively low concentrations.</p><p>That helps explain why decaffeinated coffee can still taste quite bitter. Decaffeination removes most caffeine but leaves numerous roasting products and other soluble solids. It also explains why two coffees with similar caffeine levels can differ strongly in perceived bitterness.</p><p>Robusta typically carries more caffeine than arabica, but species differences extend beyond one alkaloid. Genetics, origin, fermentation, roast, and brewing all shift many compounds simultaneously, so caffeine content alone is a poor prediction of the final flavor.</p><h2>Roasting transforms chlorogenic acids into new bitter molecules</h2><p>Green coffee beans are rich in chlorogenic acids. During roasting, these compounds undergo degradation, isomerization, and cyclization. Research has identified chlorogenic-acid lactones as meaningful contributors to the bitterness of roasted coffee. More intense thermal treatment can generate additional products, including phenylindanes associated with strong bitter notes.</p><p>This is why darker does not simply mean more caffeine. Roasting chemistry can have a larger influence on certain bitter sensations than modest caffeine differences. A highly developed roast can introduce smoky, charred, dry, and bitter impressions even though much of the original green-bean chemistry has been transformed.</p><p>The desirable roast point depends on the coffee and brewing style. Light roasting often preserves more origin-specific acidity and aromatics, while darker roasting shifts the balance toward thermal flavors and heavier roast character.</p><h2>Brewing controls how much bitter material reaches the cup</h2><p>Making coffee means dissolving compounds from ground beans into water. They do not all leave the particles at the same rate. Very fine grinding, long contact time, high extraction, or a large water-to-coffee ratio can move the cup toward dryness and bitterness if the overall balance is pushed too far.</p><p>It is an oversimplification to say that every bitter compound appears only at the end of brewing. Extraction curves overlap. The practical point is that an overextracted cup often loses balance: sweetness and pleasant acidity no longer offset bitter and astringent material.</p><p>Grind uniformity matters as well. A grinder that produces both dust-like fines and large boulders can overextract tiny particles while underextracting large ones. The resulting cup may taste simultaneously sour, hollow, and bitter rather than simply stronger.</p><h2>Water chemistry and serving temperature change what you notice</h2><p>Brewing water contains minerals that affect extraction and the expression of acids and bitter compounds. Extremely hard water or almost mineral-free water can change flavor noticeably. Good brewing water provides enough mineral content to extract coffee effectively without overwhelming the cup.</p><p>Serving temperature shifts perception too. As coffee cools, flavors hidden by heat become easier to distinguish. Acidity may become brighter, or a dry bitterness that was already present may emerge. Milk and sugar reduce the contrast by adding sweetness, fat, protein, and dilution rather than by removing every bitter molecule.</p><p><strong>Coffee bitterness is a network of chemistry and preparation choices, not a caffeine switch.</strong> Caffeine, chlorogenic-acid derivatives, roast intensity, extraction, and the rest of the beverage matrix work together. Good brewing does not eliminate bitterness; it keeps it in proportion with sweetness, acidity, body, and aroma.</p>",
+  "faq": [
+    {"question":"Is caffeine the only reason coffee is bitter?","answer":"No. Caffeine contributes, but chlorogenic-acid lactones and many other coffee and roasting compounds also stimulate bitter perception."},
+    {"question":"Can decaf coffee still be bitter?","answer":"Yes. Removing most caffeine leaves many other bitter compounds and roast products in the beans."},
+    {"question":"Why does overextracted coffee taste bitter?","answer":"Excessive extraction can shift the balance toward bitter, dry, and astringent compounds so they dominate sweetness and pleasant acidity."}
+  ],
+  "sources": [
+    {"name":"Journal of Agricultural and Food Chemistry — Coffee bitterness receptors","url":"https://pubmed.ncbi.nlm.nih.gov/32437139/","note":"Identifies multiple coffee constituents that stimulate human bitter receptors in addition to caffeine."},
+    {"name":"Food Chemistry — Chlorogenic acid lactones and coffee bitterness","url":"https://pubmed.ncbi.nlm.nih.gov/27719962/","note":"Demonstrates the sensory contribution of chlorogenic-acid lactones to coffee bitterness."},
+    {"name":"Journal of Agricultural and Food Chemistry — Lactones formed during roasting","url":"https://pubmed.ncbi.nlm.nih.gov/15740032/","note":"Describes formation of several chlorogenic-acid lactones across roast development."}
+  ],
+  "image": {
+    "concept": "Cup of black coffee beside beans at light, medium, and dark roast levels with ground coffee, warm realistic editorial lighting, no text.",
+    "alt": "Coffee and roasted beans illustrating factors that influence bitterness"
+  },
+  "status": "publish"
+}

@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "id": "es-1071-pasta-seca-vs-cocida-calorias-100-gramos",
+  "article_number": 1071,
+  "translation_group": "1071-dry-vs-cooked-pasta-calories-per-100g",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; diferencia de densidad energética entre pasta seca y cocida explicada por hidratación.",
+  "title": "Pasta seca vs. cocida: por qué las calorías por 100 gramos son tan diferentes",
+  "slug": "pasta-seca-vs-cocida-calorias-100-gramos",
+  "seo": {
+    "title": "Pasta seca vs. cocida: calorías por 100 gramos",
+    "meta_description": "La pasta absorbe agua al cocerse y aumenta mucho de peso. El agua no aporta calorías, por eso 100 g cocidos contienen menos energía que 100 g secos.",
+    "search_intent": "Entender por qué las calorías por 100 g cambian entre pasta seca y cocida y cómo registrar correctamente una ración."
+  },
+  "excerpt": "La pasta cocida parece mucho menos calórica por 100 gramos porque ha incorporado agua. La energía del cereal queda repartida en una masa final bastante mayor.",
+  "taxonomy": {
+    "food_family": "grains",
+    "food_subcategories": ["pasta","water-absorption","calorie-density"],
+    "article_types": ["nutrition-explainer","food-science"],
+    "primary_article_type": "nutrition-explainer"
+  },
+  "content_html": "<p><strong>La pasta cocida tiene muchas menos calorías por 100 gramos que la pasta seca porque absorbe una gran cantidad de agua durante la cocción.</strong> Ese agua aumenta el peso del alimento sin añadir energía. El almidón y las proteínas de la sémola siguen aportando aproximadamente la misma energía al lote, pero ahora están repartidos entre muchos más gramos.</p><p>Por eso cien gramos secos y cien gramos cocidos no representan la misma cantidad de pasta original. Una ración que empieza con 80 gramos secos puede acabar pesando bastante más del doble después de hervir, según formato, tiempo y textura final.</p><h2>La pasta se hidrata mientras el almidón gelatiniza</h2><p>Al entrar en agua caliente, la humedad penetra desde la superficie hacia el centro. El almidón se hidrata y gelatiniza progresivamente, mientras la red de gluten y la estructura del producto limitan cuánto se hincha y ayudan a mantener la forma. Parte de los sólidos pasa al agua, pero el aumento de masa por absorción suele ser mucho mayor que esa pérdida.</p><p>Un estudio sobre cocción de pasta seca encontró una absorción de agua cercana a 1,3 gramos por cada gramo de pasta seca en las condiciones ensayadas, junto con una pérdida de cocción mucho menor. Eso ilustra por qué el peso final puede superar ampliamente al inicial.</p><p>La cifra exacta no es universal. Espagueti, penne, pasta integral, pasta fresca y productos sin gluten tienen estructuras diferentes y pueden absorber distintas cantidades de agua.</p><h2>Las calorías no desaparecen en la misma proporción que baja el valor por 100 gramos</h2><p>Supón que 100 gramos de pasta seca aportan una cantidad determinada de energía y, una vez cocidos, pesan 230 gramos. Si sirves 100 gramos de la pasta terminada, estás comiendo aproximadamente el 43 % de aquel lote inicial, no todos los 100 gramos secos.</p><p>El número por 100 gramos cae porque cambió la densidad energética. Es el mismo principio que explica por qué una fruta deshidratada concentra calorías y una sopa diluye ingredientes en agua. El agua modifica cuánta energía hay por unidad de peso sin ser una fuente energética por sí misma.</p><p>Puede haber pequeñas pérdidas de almidón y otros sólidos al agua de cocción, especialmente si la pasta se rompe o se cuece mucho. Aun así, esas pérdidas no explican la gran diferencia entre una tabla de pasta seca y otra cocida.</p><h2>El punto al dente y el tiempo de cocción cambian el rendimiento</h2><p>Una pasta al dente suele retener menos agua que la misma pasta cocida durante más tiempo. Mantenerla varios minutos extra permite que continúe la hidratación y puede aumentar el peso final. El grosor y la forma también alteran la velocidad de entrada de agua.</p><p>La cantidad de agua de la olla influye menos en la absorción final de lo que muchas personas imaginan dentro de rangos razonables. La investigación sobre reducción de agua de cocción encontró una absorción similar en varias proporciones de agua a pasta, siempre que hubiese suficiente medio para cocinar correctamente.</p><p>Después de escurrir, la pasta sigue cambiando. Puede evaporar algo de humedad o absorber salsa. Pesarla inmediatamente y pesarla veinte minutos después no siempre dará exactamente el mismo resultado.</p><h2>Cómo contar una ración sin mezclar pasta seca y cocida</h2><p>El sistema más simple es pesar la cantidad seca y usar datos para pasta seca. Si cocinas un lote para varias personas, puedes registrar todo el peso seco, pesar después la pasta cocida y repartir los nutrientes según la fracción del peso final que recibe cada plato.</p><p>También puedes pesar directamente una porción cocida y utilizar una entrada nutricional que describa pasta cocida de tipo similar. Lo que genera errores grandes es multiplicar el peso cocido por las calorías de pasta seca por 100 gramos.</p><p>Las salsas deben añadirse aparte. Aceite, queso, pesto o nata pueden aportar más energía que la diferencia de hidratación de la pasta. <strong>La gran caída de calorías por 100 gramos al cocer pasta es, ante todo, una cuestión de agua y densidad energética, no de energía que desaparece durante la cocción.</strong></p>",
+  "faq": [
+    {"question":"¿La pasta pierde muchas calorías al hervir?","answer":"No. La gran diferencia por 100 gramos se debe principalmente al agua absorbida, que aumenta el peso y diluye la energía por gramo."},
+    {"question":"¿Cuánto aumenta de peso la pasta al cocerse?","answer":"Depende del formato y del punto de cocción, pero puede superar ampliamente el doble del peso seco."},
+    {"question":"¿Debo pesar pasta seca o cocida?","answer":"Ambos métodos sirven si el peso se empareja con datos nutricionales del mismo estado."}
+  ],
+  "sources": [
+    {"name":"Journal of the Science of Food and Agriculture — Water uptake during pasta cooking","url":"https://pubmed.ncbi.nlm.nih.gov/30073660/","note":"Mide absorción de agua, pérdida de cocción y gelatinización en pasta seca bajo distintas proporciones de agua."},
+    {"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Incluye registros diferenciados para productos de pasta seca y preparaciones cocidas."}
+  ],
+  "image": {
+    "concept": "Pasta seca y la misma pasta ya cocida en recipientes sobre báscula, gran diferencia de volumen y peso, fotografía editorial realista, sin texto.",
+    "alt": "Pasta seca y cocida mostrando el aumento de peso por hidratación"
+  },
+  "status": "publish"
+}
