@@ -1,4 +1,4 @@
-name: Diagnose 1016-1035 word counts
+name: Snapshot 1016-1035 for validation
 
 on:
   push:
@@ -9,36 +9,23 @@ permissions:
   contents: read
 
 jobs:
-  diagnose:
+  snapshot:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Write exact audit diagnostics
+      - name: Collect target block
         run: |
-          python3 - <<'PY' > diagnostic-1016-1035.txt
-          import html, json, re
-          from pathlib import Path
-          ids = [1016, 1019, 1020, 1021, 1022, 1028]
-          def visible_text(content_html):
-              text = re.sub(r'(?is)<(?:script|style)\b[^>]*>.*?</(?:script|style)>', ' ', content_html)
-              text = re.sub(r'<[^>]+>', ' ', text)
-              text = html.unescape(text)
-              return re.sub(r'\s+', ' ', text).strip()
-          def word_count(text):
-              return len(re.findall(r"\b[^\W_]+(?:['’\-][^\W_]+)*\b", text, flags=re.UNICODE))
-          for lang in ('es','en'):
-              for n in ids:
-                  matches=list(Path(f'content/articles/{lang}').glob(f'{n}-*.json'))
-                  if not matches:
-                      print(lang,n,'MISSING'); continue
-                  d=json.loads(matches[0].read_text(encoding='utf-8'))
-                  text=visible_text(d.get('content_html',''))
-                  bad=[p for p in ['deliberadamente','deliberately'] if p in text.lower()]
-                  print(lang,n,word_count(text),'forbidden='+(','.join(bad) if bad else 'none'))
-          PY
-          cat diagnostic-1016-1035.txt
-      - name: Upload diagnostics
+          mkdir -p snapshot/content/articles/es snapshot/content/articles/en snapshot/content/tools
+          for lang in es en; do
+            for n in $(seq 1016 1035); do
+              f=$(find "content/articles/$lang" -maxdepth 1 -type f -name "$n-*.json" -print -quit)
+              test -n "$f"
+              cp "$f" "snapshot/content/articles/$lang/"
+            done
+          done
+          cp content/tools/audit-article-editorial.py snapshot/content/tools/
+      - name: Upload target block
         uses: actions/upload-artifact@v4
         with:
-          name: diagnostic-1016-1035
-          path: diagnostic-1016-1035.txt
+          name: snapshot-1016-1035
+          path: snapshot
