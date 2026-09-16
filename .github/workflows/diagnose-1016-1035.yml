@@ -20,12 +20,12 @@ jobs:
           from pathlib import Path
           ids = [1016, 1019, 1020, 1021, 1022, 1028]
           def visible_text(content_html):
-              text = re.sub(r'(?is)<(?:script|style)\\b[^>]*>.*?</(?:script|style)>', ' ', content_html)
+              text = re.sub(r'(?is)<(?:script|style)\b[^>]*>.*?</(?:script|style)>', ' ', content_html)
               text = re.sub(r'<[^>]+>', ' ', text)
               text = html.unescape(text)
-              return re.sub(r'\\s+', ' ', text).strip()
+              return re.sub(r'\s+', ' ', text).strip()
           def word_count(text):
-              return len(re.findall(r"\\b[^\\W_]+(?:['’\\-][^\\W_]+)*\\b", text, flags=re.UNICODE))
+              return len(re.findall(r"\b[^\W_]+(?:['’\-][^\W_]+)*\b", text, flags=re.UNICODE))
           for lang in ('es','en'):
               for n in ids:
                   matches=list(Path(f'content/articles/{lang}').glob(f'{n}-*.json'))
@@ -34,5 +34,5 @@ jobs:
                   d=json.loads(matches[0].read_text(encoding='utf-8'))
                   text=visible_text(d.get('content_html',''))
                   bad=[p for p in ['deliberadamente','deliberately'] if p in text.lower()]
-                  print(lang,n,word_count(text),'forbidden='+','.join(bad) if bad else 'forbidden=none')
+                  print(lang,n,word_count(text),'forbidden='+(','.join(bad) if bad else 'none'))
           PY
