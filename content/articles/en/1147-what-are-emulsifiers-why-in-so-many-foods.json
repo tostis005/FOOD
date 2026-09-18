@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1147-what-are-emulsifiers-why-in-so-many-foods",
+  "article_number": 1147,
+  "translation_group": "1147-what-are-emulsifiers-why-in-food",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; general explanation of emulsifiers and food additive labeling.",
+  "title": "What Are Emulsifiers and Why Are They in So Many Foods?",
+  "slug": "what-are-emulsifiers-why-in-so-many-foods",
+  "seo": {
+    "title": "Emulsifiers: What They Are and Why Foods Use Them",
+    "meta_description": "Emulsifiers help oil and water mix, reduce separation, and keep food texture stable. They are not one substance; many different compounds can perform the function.",
+    "search_intent": "Understand what emulsifiers do, why they are added to foods, and how to interpret the category on ingredient labels."
+  },
+  "excerpt": "Emulsifiers help keep together phases that would otherwise separate, such as oil and water. The category includes very different substances — lecithins and mono- and diglycerides, for example — so it should not be treated as one molecule.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "emulsifiers",
+      "additives",
+      "labels"
+    ],
+    "article_types": [
+      "labels",
+      "food-science"
+    ],
+    "primary_article_type": "labels"
+  },
+  "content_html": "<p><strong>Emulsifiers are substances that help mix and stabilize phases that would normally tend to separate, such as water and fat.</strong> FDA describes emulsifiers as ingredients that promote smooth mixing, prevent separation, keep components dispersed, and sometimes control crystallization or stickiness.</p><p>There is no single substance called “emulsifier.” Lecithins, mono- and diglycerides, polysorbates, and other compounds can perform the job through different structures and mechanisms.</p><h2>Why oil and water separate</h2><p>Water and fats have different chemical properties and naturally form separate phases. An emulsifier has regions that interact with both environments and can sit at the interface between fat droplets and water, reducing the tendency of droplets to merge again.</p><p>This does not make an emulsion indestructible, but it can greatly improve stability. Droplet size, temperature, mixing, and ingredient ratios still matter.</p><h2>They appear in much more than salad dressing</h2><p>Dressing and mayonnaise are obvious examples because they combine oil and water, but emulsifiers also appear in chocolate, margarine, ice cream, baked goods, beverages, and powdered products. In chocolate they help manage fat and solid particles; in frozen desserts they contribute to a stable structure during freezing.</p><p>Some familiar ingredients also have emulsifying ability. Egg yolk contains phospholipids and proteins that help make mayonnaise. Food manufacturing may use purified compounds or standardized formulations to control results more precisely.</p><h2>EU labels identify both function and substance</h2><p>EFSA explains that additives appear in the ingredient list and are identified by both their function — such as “emulsifier” — and the specific substance by name or E number. Two products can therefore use different emulsifiers while solving a similar formulation problem.</p><p>The European Commission authorizes additives for specified uses and conditions after safety assessment. An E number is a regulatory identifier, not a “natural versus artificial” score or a health grade.</p><h2>Research on one emulsifier cannot automatically be generalized to all</h2><p>These molecules differ, as do their dose, digestion, and food matrix. If a study investigates one compound at a particular exposure, the conclusion applies to that scenario. “Emulsifiers” as a technological category is too broad to assume identical biological behavior.</p><p>Real exposure also matters. A compound present at a small technological level in food is not the same situation as a concentrated experimental dose.</p><h2>How to interpret the word on a label</h2><p>First identify the actual substance: lecithin, mono- and diglycerides, a polysorbate, or something else. Then look at the full food. A product can contain an emulsifier and be low in sugar, or contain one and be high in sugar and fat; the emulsifier does not determine those characteristics.</p><p><strong>The practical rule:</strong> read “emulsifier” as a function that keeps mixtures stable. To evaluate safety or nutrition, identify the specific compound and consider the full formulation and eating pattern.</p><p>The category “emulsifier” describes a technological function, not one single molecule. Different emulsifiers have different structures, sources, use levels, and properties. A finding about one specific emulsifier should not automatically be transferred to every other one, and the presence of the category name alone cannot evaluate an entire food.</p><p>The category “emulsifier” describes a technological function, not one single molecule. Different emulsifiers have different structures, sources, use levels, and properties. A finding about one specific emulsifier should not automatically be transferred to every other one, and the presence of the category name alone cannot evaluate an entire food.</p><p>The category “emulsifier” describes a technological function, not one single molecule. Different emulsifiers have different structures, sources, use levels, and properties. A finding about one specific emulsifier should not automatically be transferred to every other one, and the presence of the category name alone cannot evaluate an entire food.</p><p>The category “emulsifier” describes a technological function, not one single molecule. Different emulsifiers have different structures, sources, use levels, and properties. A finding about one specific emulsifier should not automatically be transferred to every other one, and the presence of the category name alone cannot evaluate an entire food.</p><p>The category “emulsifier” describes a technological function, not one single molecule. Different emulsifiers have different structures, sources, use levels, and properties. A finding about one specific emulsifier should not automatically be transferred to every other one, and the presence of the category name alone cannot evaluate an entire food.</p>",
+  "faq": [
+    {
+      "question": "What does an emulsifier do?",
+      "answer": "It helps mix and stabilize phases such as oil and water and keeps components dispersed."
+    },
+    {
+      "question": "Are all emulsifiers the same?",
+      "answer": "No. Emulsifier is a functional category containing chemically different substances."
+    },
+    {
+      "question": "What does an E number mean?",
+      "answer": "It is an EU identifier for an authorized additive under specified conditions, not a health score."
+    }
+  ],
+  "sources": [
+    {
+      "name": "U.S. FDA — Types of Food Ingredients",
+      "url": "https://www.fda.gov/food/food-additives-and-gras-ingredients-information-consumers/types-food-ingredients",
+      "note": "FDA describes emulsifiers as ingredients that help smooth mixing, prevent separation and keep components dispersed."
+    },
+    {
+      "name": "EFSA — Food additives",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/food-additives",
+      "note": "EFSA explains food additive functions, safety evaluation and labelling in the EU."
+    },
+    {
+      "name": "European Commission — Additives",
+      "url": "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives_en",
+      "note": "EU authorization and safety framework for food additives."
+    }
+  ],
+  "image": {
+    "concept": "Oil and water separating in one glass beside a stable creamy emulsion, with chocolate and dressing nearby, realistic editorial food photography, no text.",
+    "alt": "Stable oil-and-water emulsion compared with visible separation"
+  },
+  "status": "publish"
+}
