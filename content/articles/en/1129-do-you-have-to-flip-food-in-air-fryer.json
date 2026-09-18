@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1129-do-you-have-to-flip-food-in-air-fryer",
+  "article_number": 1129,
+  "translation_group": "1129-turn-food-air-fryer",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; practical technique depending on food shape, load and appliance design.",
+  "title": "Do You Have to Flip Food in an Air Fryer?",
+  "slug": "do-you-have-to-flip-food-in-air-fryer",
+  "seo": {
+    "title": "Do You Have to Flip Food in an Air Fryer?",
+    "meta_description": "Not always, but flipping or shaking often improves evenness when pieces overlap or one side receives less moving air.",
+    "search_intent": "Understand when food needs flipping, turning, or shaking in an air fryer and when the step can be skipped."
+  },
+  "excerpt": "Not every food has to be flipped, but turning often improves evenness when one side rests against the basket or pieces overlap. For fries, nuggets, and small wings, shaking the basket is usually more practical than flipping pieces one at a time.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "air-fryer",
+      "airflow",
+      "cooking"
+    ],
+    "article_types": [
+      "cooking-techniques",
+      "cooking-science"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p><strong>Food does not have to be flipped in every air-fryer recipe, but turning often improves browning and even cooking.</strong> The fan moves air throughout the chamber, yet a surface pressed against the basket or covered by another piece receives less direct airflow. Turning exposes that side.</p><p>The right movement depends on the food. A basket of fries is redistributed by shaking; a burger or steak can be flipped with tongs; a cake inside a pan obviously should not be turned. Technique should follow the geometry of the food and accessory.</p><h2>Shake many small pieces; flip a few large ones</h2><p>Philips recommends shaking foods cooked in more than one layer because the movement changes which pieces sit on top, below, or against the basket. Fries, nuggets, and wings are common examples. Waiting until a breaded surface has started to set can reduce coating loss.</p><p>With one or two large pieces, shaking may accomplish very little. Tongs let you turn the underside toward stronger moving air and, in many designs, toward more direct upper heat. Avoid stabbing meat unnecessarily when it can be handled securely with tongs or a spatula.</p><h2>A single layer reduces the need but does not always eliminate it</h2><p>If every piece is separated and the basket design sends air underneath, food may brown reasonably well without intervention. Even then, the side touching metal or sitting in a sheltered area can look different. On the first attempt with a recipe, inspect partway through and decide whether a turn produces a meaningful improvement.</p><p>Some appliances have dual heating elements or airflow designs that reduce the need for flipping. Others deliver much more heat from above. That is why the manual and experience with your exact model matter more than a universal rule.</p><h2>Fragile foods benefit from less handling</h2><p>Delicate fish, softened vegetables, doughs, and wet breadings can break if moved too early. Let the structure set before turning, or arrange fragile food in a single layer so it needs less movement. A thin spatula may support a delicate piece better than tongs.</p><p>Work safely too: open the drawer as the manufacturer directs, set it on a heat-safe surface if needed, and keep hands away from the element. The basket does not need to stay out long; the purpose is quick redistribution, not cooling the food.</p><h2>Turning is a correction tool, not a ritual</h2><p>If both sides already cook evenly without flipping, there is no benefit in opening the appliance just to follow a habit. If one side stays pale or damp, turning is a logical fix. Small foods may need one or more gentle shakes; a large piece may need only one flip.</p><p><strong>The practical rule:</strong> flip when one face is shielded, shake when many small pieces overlap, and leave fragile foods alone until they can handle movement. Use the first batch to learn what your particular air fryer actually needs.</p><p>The first time you cook that food in your machine, inspect the underside and center before assuming another recipe’s timing transfers exactly. Wattage, basket design, and fan behavior vary among models. Repeating with a similar load and piece size turns that observation into a consistent technique.</p><p>The first time you cook that food in your machine, inspect the underside and center before assuming another recipe’s timing transfers exactly. Wattage, basket design, and fan behavior vary among models. Repeating with a similar load and piece size turns that observation into a consistent technique.</p><p>The first time you cook that food in your machine, inspect the underside and center before assuming another recipe’s timing transfers exactly. Wattage, basket design, and fan behavior vary among models. Repeating with a similar load and piece size turns that observation into a consistent technique.</p><p>The first time you cook that food in your machine, inspect the underside and center before assuming another recipe’s timing transfers exactly. Wattage, basket design, and fan behavior vary among models. Repeating with a similar load and piece size turns that observation into a consistent technique.</p>",
+  "faq": [
+    {
+      "question": "Do I need to flip fries one by one?",
+      "answer": "No. Shaking the basket usually redistributes fries and other small pieces effectively."
+    },
+    {
+      "question": "What foods benefit from flipping?",
+      "answer": "Larger pieces such as burgers, steaks, or some chicken portions often benefit when one side receives less direct heat."
+    },
+    {
+      "question": "Can I leave the air fryer closed the entire time?",
+      "answer": "Yes for some recipes, but on the first attempt check whether there are obvious differences between sides or zones."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Air Fryers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/air-fryers-and-food-safety",
+      "note": "Explains airflow, overcrowding and safe cooking in air fryers."
+    },
+    {
+      "name": "Philips — Why do I have to shake the food in my Airfryer?",
+      "url": "https://www.usa.philips.com/c-f/XC000003597/why-do-i-have-to-shake-the-food-in-my-philips-airfryer",
+      "note": "Explains how shaking improves circulation around food cooked in layers."
+    },
+    {
+      "name": "Philips Airfryer support",
+      "url": "https://www.usa.philips.com/c-p/NA340_00/3000-series-airfryer-7-6Qt/support",
+      "note": "Manufacturer support for capacity, shaking and model-specific cooking behavior."
+    }
+  ],
+  "image": {
+    "concept": "Hand using tongs to flip a large piece of food while small fries are shaken in an air fryer basket, realistic instructional photography, no text.",
+    "alt": "Food being flipped midway through air frying"
+  },
+  "status": "publish"
+}
