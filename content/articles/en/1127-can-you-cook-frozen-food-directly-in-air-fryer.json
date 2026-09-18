@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1127-can-you-cook-frozen-food-directly-in-air-fryer",
+  "article_number": 1127,
+  "translation_group": "1127-cook-frozen-food-directly-air-fryer",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; general cooking and safety guidance with package instructions taking priority.",
+  "title": "Can You Cook Frozen Food Directly in an Air Fryer?",
+  "slug": "can-you-cook-frozen-food-directly-in-air-fryer",
+  "seo": {
+    "title": "Can You Cook Frozen Food Straight in an Air Fryer?",
+    "meta_description": "Many frozen foods can go straight into an air fryer, especially prepared products. Thick raw meat needs more careful timing and internal-temperature checks.",
+    "search_intent": "Understand which frozen foods can be air-fried without thawing and how to cook them evenly and safely."
+  },
+  "excerpt": "Yes, many foods can be cooked directly from frozen in an air fryer. Fries, nuggets, and other prepared products are often designed for it. With raw meat, fish, or thick pieces, cooking takes longer and safety should be verified by internal temperature rather than exterior browning.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "air-fryer",
+      "cooking",
+      "food-safety"
+    ],
+    "article_types": [
+      "cooking-techniques",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p><strong>Many frozen foods can go directly from the freezer into an air fryer.</strong> Prefried fries, nuggets, frozen vegetables, and numerous snacks are formulated to cook without thawing. Moving hot air first melts surface ice and then dries and browns the exterior.</p><p>The challenge increases with thick raw pieces. A frozen chicken breast or dense fish portion can brown outside while the center is still cold. That does not automatically make air frying impossible, but time, temperature, and the final doneness check have to account for thickness and product-specific directions.</p><h2>Package directions are the best starting point when they include air frying</h2><p>Manufacturers test their food at a particular size, coating, and frozen state. If the package provides air-fryer directions, use those before trying to convert an oven time mechanically. Appliances vary in power and chamber volume, so the first batch is still a calibration point for adding or subtracting a few minutes.</p><p>Do not automatically add oil to prefried foods. Many already contain surface fat and are designed to brown without more. Separating stuck pieces and knocking off large sheets of loose freezer ice can matter more than extra oil.</p><h2>Raw pieces require an internal-temperature check</h2><p>USDA emphasizes safe internal temperatures for meat, poultry, and fish cooked in air fryers. Poultry, for example, should reach 165°F. A browned coating cannot tell you what happened in the center, especially when the food began frozen.</p><p>If a piece is so thick that it becomes dark before the middle warms through, lower the cooking temperature and extend the time, or thaw it safely before cooking. Do not partially cook raw food and then hold it for hours to finish later.</p><h2>Separating and shaking matter when small frozen pieces release water</h2><p>Frozen vegetables and fries sometimes enter the basket as a block. Cooked as a compact mass, inner pieces receive less moving air and sit in steam. After the first few minutes, once they loosen, shake or stir the basket so individual pieces spread out and newly exposed surfaces can dry.</p><p>Avoid filling the basket to the top. USDA warns that overcrowding restricts circulation and can produce uneven cooking. Extra moisture released from frozen foods makes that limitation even more obvious.</p><h2>Frozen is a starting condition, not a single cooking method</h2><p>A small frozen pizza, green beans, and a raw frozen chicken portion have different requirements. Coating, thickness, and microbiological risk determine the right approach. With delicate breaded foods, turning too early can tear the coating; let it set before moving the pieces.</p><p><strong>The practical rule:</strong> cook from frozen when the product allows it and thickness is manageable, leave room for air, separate pieces during cooking, and check internal temperature when safety depends on full cooking. Package and appliance directions outrank generic charts.</p><p>On the first batch, check before the maximum time and adjust from there. Air fryers differ substantially in wattage, basket size, and fan speed, so even a reliable recipe needs a little calibration in your machine. Keeping piece size and basket load similar makes that adjustment repeatable.</p><p>On the first batch, check before the maximum time and adjust from there. Air fryers differ substantially in wattage, basket size, and fan speed, so even a reliable recipe needs a little calibration in your machine. Keeping piece size and basket load similar makes that adjustment repeatable.</p><p>On the first batch, check before the maximum time and adjust from there. Air fryers differ substantially in wattage, basket size, and fan speed, so even a reliable recipe needs a little calibration in your machine. Keeping piece size and basket load similar makes that adjustment repeatable.</p><p>On the first batch, check before the maximum time and adjust from there. Air fryers differ substantially in wattage, basket size, and fan speed, so even a reliable recipe needs a little calibration in your machine. Keeping piece size and basket load similar makes that adjustment repeatable.</p><p>On the first batch, check before the maximum time and adjust from there. Air fryers differ substantially in wattage, basket size, and fan speed, so even a reliable recipe needs a little calibration in your machine. Keeping piece size and basket load similar makes that adjustment repeatable.</p>",
+  "faq": [
+    {
+      "question": "Do frozen fries need thawing first?",
+      "answer": "Usually no. Commercial frozen fries are generally designed to cook directly from frozen."
+    },
+    {
+      "question": "Can I air-fry frozen chicken?",
+      "answer": "It may be possible depending on size and appliance, but it requires longer cooking and must reach a safe internal temperature."
+    },
+    {
+      "question": "Why does frozen food turn watery?",
+      "answer": "Ice becomes water. Separating pieces, avoiding overcrowding, and shaking helps moisture escape."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Air Fryers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/air-fryers-and-food-safety",
+      "note": "Guidance on cooking frozen and raw foods, airflow, overcrowding and safe internal temperatures."
+    },
+    {
+      "name": "Philips Airfryer support",
+      "url": "https://www.usa.philips.com/c-p/NA340_00/3000-series-airfryer-7-6Qt/support",
+      "note": "Manufacturer support index covering frozen foods, capacity, shaking and general use."
+    }
+  ],
+  "image": {
+    "concept": "Frozen fries and vegetables going straight from freezer bags into an air fryer basket, realistic kitchen photography, no text.",
+    "alt": "Frozen foods ready to cook directly in an air fryer"
+  },
+  "status": "publish"
+}
