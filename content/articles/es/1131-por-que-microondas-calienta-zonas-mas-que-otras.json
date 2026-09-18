@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "es-1131-por-que-microondas-calienta-zonas-mas-que-otras",
+  "article_number": 1131,
+  "translation_group": "1131-why-microwave-heats-unevenly",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; explicación física y seguridad doméstica basada en guías oficiales de microondas.",
+  "title": "Por qué el microondas calienta unas zonas más que otras",
+  "slug": "por-que-microondas-calienta-zonas-mas-que-otras",
+  "seo": {
+    "title": "Por qué el microondas calienta de forma desigual",
+    "meta_description": "Las microondas no calientan cada punto por igual. La geometría del horno, el agua del alimento y la profundidad de penetración crean zonas calientes y frías.",
+    "search_intent": "Entender por qué un microondas produce zonas calientes y frías y cómo mejorar la uniformidad al cocinar o recalentar."
+  },
+  "excerpt": "Un microondas no calienta el alimento de manera perfectamente uniforme. Las ondas forman patrones dentro de la cavidad y penetran solo una distancia limitada en alimentos gruesos; después, el calor tiene que desplazarse por conducción. Girar, remover y dejar reposar ayuda a reducir las diferencias.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "microwave",
+      "cooking",
+      "food-safety"
+    ],
+    "article_types": [
+      "cooking-science",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>Un microondas puede dejar una parte hirviendo y otra apenas templada porque la energía no se deposita de manera uniforme en todo el alimento.</strong> El magnetrón genera ondas electromagnéticas que rebotan dentro de la cavidad. Según la forma del horno, del recipiente y del alimento, se crean zonas donde el campo es más intenso y otras donde llega menos energía.</p><p>El plato giratorio ayuda porque mueve la comida a través de ese patrón, pero no lo elimina. Además, el agua, la grasa y los azúcares absorben la energía de forma distinta y la geometría del alimento cambia cómo penetra. Por eso dos porciones del mismo plato pueden calentarse a ritmos diferentes.</p><h2>Las microondas no cocinan un alimento grueso desde el centro hacia fuera</h2><p>USDA explica que las microondas penetran solo aproximadamente entre 2,5 y 4 centímetros en muchos alimentos. En una pieza gruesa, el centro termina calentándose en gran parte por conducción: el calor viaja desde las zonas que absorbieron energía directamente. Ese proceso necesita tiempo.</p><p>La idea de que el microondas cocina “de dentro hacia fuera” es, por tanto, engañosa. Una lasaña puede tener bordes muy calientes mientras el centro aún está frío. Cuanto más densa y gruesa sea la porción, más importante se vuelve el reparto físico del alimento y el reposo posterior.</p><h2>Remover y redistribuir cambia qué zonas reciben energía</h2><p>En sopas, arroz, purés y platos con trozos, remover a mitad del calentamiento desplaza las partes frías hacia posiciones que antes estaban ocupadas por partes calientes. Girar un recipiente rectangular o dar la vuelta a piezas individuales hace algo parecido. El movimiento no añade energía, pero la reparte en el espacio y en el tiempo.</p><p>Cuando no se puede remover, colocar las piezas en círculo y dejar el centro menos cargado puede ayudar. Cubrir de forma ventilada también retiene vapor, que contribuye a transferir calor en la superficie y reduce el secado.</p><h2>El tiempo de reposo forma parte de la cocción</h2><p>Cuando el magnetrón se apaga, el calor acumulado continúa moviéndose desde las zonas más calientes hacia las más frías. USDA llama a este intervalo standing time y destaca que puede elevar la temperatura de zonas internas. Saltarse el reposo indicado en el envase puede dejar un producto menos uniformemente caliente.</p><p>El reposo importa especialmente en alimentos densos, congelados y platos con carne o huevo. No es un minuto “decorativo”: permite que la conducción reduzca diferencias creadas durante la exposición a las microondas.</p><h2>Los puntos fríos son también una cuestión de seguridad</h2><p>En carne, aves, pescado, huevos y sobras, una zona fría puede permitir que sobrevivan microorganismos aunque otra parte esté humeando. USDA recomienda comprobar la temperatura en varios puntos y respetar el tiempo de reposo. Para sobras, su referencia es 165 °F, unos 74 °C.</p><p><strong>La regla práctica:</strong> distribuye la comida en una capa uniforme cuando puedas, remueve o gira a mitad, deja reposar y comprueba varios puntos si la seguridad depende de la temperatura. El plato giratorio ayuda, pero no convierte el calentamiento en perfectamente uniforme.</p><p>Como regla de comprobación, sigue primero las instrucciones del alimento y del horno, porque la potencia nominal no describe por sí sola cómo se reparte la energía dentro de la cavidad. Cuando la seguridad dependa de la temperatura, mide en más de un punto después del tiempo de reposo; el aspecto exterior no permite detectar todos los puntos fríos.</p><p>Como regla de comprobación, sigue primero las instrucciones del alimento y del horno, porque la potencia nominal no describe por sí sola cómo se reparte la energía dentro de la cavidad. Cuando la seguridad dependa de la temperatura, mide en más de un punto después del tiempo de reposo; el aspecto exterior no permite detectar todos los puntos fríos.</p><p>Como regla de comprobación, sigue primero las instrucciones del alimento y del horno, porque la potencia nominal no describe por sí sola cómo se reparte la energía dentro de la cavidad. Cuando la seguridad dependa de la temperatura, mide en más de un punto después del tiempo de reposo; el aspecto exterior no permite detectar todos los puntos fríos.</p>",
+  "faq": [
+    {
+      "question": "¿Por qué el plato giratorio no evita todos los puntos fríos?",
+      "answer": "Porque solo mueve la comida por el patrón de ondas; la composición, el grosor y la forma del alimento siguen creando diferencias."
+    },
+    {
+      "question": "¿Hay que dejar reposar la comida?",
+      "answer": "Sí cuando las instrucciones lo indican; durante el reposo el calor sigue desplazándose y puede igualar temperaturas."
+    },
+    {
+      "question": "¿Dónde medir con termómetro?",
+      "answer": "En varias zonas, especialmente las más gruesas o centrales, después del reposo recomendado."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Cooking with Microwave Ovens",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cooking-microwave-ovens",
+      "note": "Explains microwave heating, penetration depth, cold spots, stirring, standing time, safe temperatures and container guidance."
+    },
+    {
+      "name": "U.S. FDA — Microwave Ovens",
+      "url": "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens",
+      "note": "Explains microwave operation and general container/material guidance."
+    }
+  ],
+  "image": {
+    "concept": "Microwave meal with a thermal-style conceptual contrast between hot edges and a cooler center, realistic kitchen photography, no text.",
+    "alt": "Plato de microondas con zonas que se calientan de forma desigual"
+  },
+  "status": "publish"
+}

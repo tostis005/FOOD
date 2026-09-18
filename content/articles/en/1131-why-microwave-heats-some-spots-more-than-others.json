@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1131-why-microwave-heats-some-spots-more-than-others",
+  "article_number": 1131,
+  "translation_group": "1131-why-microwave-heats-unevenly",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; microwave physics and household safety based on official guidance.",
+  "title": "Why the Microwave Heats Some Spots More Than Others",
+  "slug": "why-microwave-heats-some-spots-more-than-others",
+  "seo": {
+    "title": "Why Does a Microwave Heat Unevenly?",
+    "meta_description": "Microwaves do not deposit energy evenly everywhere. Cavity patterns, food composition, and limited penetration create hot and cold spots.",
+    "search_intent": "Understand why microwave ovens create hot and cold spots and how to improve even heating."
+  },
+  "excerpt": "A microwave does not heat food perfectly evenly. Electromagnetic waves form patterns inside the cavity and penetrate only a limited distance into thick foods; heat then has to move by conduction. Stirring, rotating, and standing time reduce the differences.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "microwave",
+      "cooking",
+      "food-safety"
+    ],
+    "article_types": [
+      "cooking-science",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>A microwave can make one part of a dish boiling hot while another remains lukewarm because energy is not deposited uniformly throughout the food.</strong> The magnetron produces electromagnetic waves that reflect inside the oven cavity. Depending on cavity shape, container position, and food geometry, some locations experience stronger fields than others.</p><p>The turntable helps by moving food through that pattern, but it does not erase it. Water, fat, and sugar also interact with microwave energy differently, and the shape of the food changes how deeply energy reaches. Two areas of the same meal can therefore heat at noticeably different rates.</p><h2>Microwaves do not cook a thick food from the center outward</h2><p>USDA explains that microwaves penetrate only about 1 to 1.5 inches into many foods. In a thick item, the center is heated substantially by conduction: heat travels inward from zones that absorbed microwave energy directly. That transfer takes time.</p><p>The common idea that microwave ovens cook “inside out” is therefore misleading. A lasagna can have extremely hot edges while its middle is still cool. The thicker and denser the portion, the more important food arrangement and standing time become.</p><h2>Stirring and redistributing changes which zones receive energy</h2><p>In soup, rice, puree, and mixed dishes, stirring halfway moves cooler food into positions previously occupied by hotter food. Rotating a rectangular dish or turning individual pieces accomplishes something similar. Movement does not add energy; it redistributes exposure over space and time.</p><p>When stirring is impossible, arranging pieces in a ring with less food in the center can help. A vented cover also retains steam, which transfers heat around the surface and reduces drying while the interior catches up.</p><h2>Standing time is part of the cooking process</h2><p>After the magnetron switches off, stored heat continues moving from hotter regions toward cooler ones. USDA calls this standing time and notes that internal temperature can continue to rise. Skipping the standing interval printed on a frozen meal can leave the food less evenly heated.</p><p>Standing is particularly important for dense foods, frozen meals, and dishes containing meat or egg. It is not an arbitrary pause: it gives conduction time to smooth out some of the differences created during microwave exposure.</p><h2>Cold spots are also a food-safety issue</h2><p>In meat, poultry, fish, eggs, and leftovers, a cold area can allow microorganisms to survive even when another area is steaming. USDA recommends checking temperature in several locations and observing standing time. For reheated leftovers, its target is 165°F.</p><p><strong>The practical rule:</strong> arrange food evenly, stir or rotate when possible, allow standing time, and check more than one spot when safety depends on temperature. A turntable helps, but it does not make microwave heating perfectly uniform.</p><p>As a final check, follow the food and oven instructions first because the wattage rating alone does not tell you how energy is distributed inside the cavity. When safety depends on temperature, measure in more than one place after the recommended standing time; appearance cannot reveal every cold spot.</p><p>As a final check, follow the food and oven instructions first because the wattage rating alone does not tell you how energy is distributed inside the cavity. When safety depends on temperature, measure in more than one place after the recommended standing time; appearance cannot reveal every cold spot.</p><p>As a final check, follow the food and oven instructions first because the wattage rating alone does not tell you how energy is distributed inside the cavity. When safety depends on temperature, measure in more than one place after the recommended standing time; appearance cannot reveal every cold spot.</p><p>As a final check, follow the food and oven instructions first because the wattage rating alone does not tell you how energy is distributed inside the cavity. When safety depends on temperature, measure in more than one place after the recommended standing time; appearance cannot reveal every cold spot.</p><p>As a final check, follow the food and oven instructions first because the wattage rating alone does not tell you how energy is distributed inside the cavity. When safety depends on temperature, measure in more than one place after the recommended standing time; appearance cannot reveal every cold spot.</p>",
+  "faq": [
+    {
+      "question": "Why does the turntable not eliminate cold spots?",
+      "answer": "It moves food through the field pattern, but food thickness, shape, and composition still create heating differences."
+    },
+    {
+      "question": "Does standing time really matter?",
+      "answer": "Yes. Heat continues moving after microwave power stops, helping cooler regions catch up."
+    },
+    {
+      "question": "Where should I use a food thermometer?",
+      "answer": "Check several places, especially thick or central areas, after the recommended standing time."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Cooking with Microwave Ovens",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cooking-microwave-ovens",
+      "note": "Explains microwave heating, penetration depth, cold spots, stirring, standing time, safe temperatures and container guidance."
+    },
+    {
+      "name": "U.S. FDA — Microwave Ovens",
+      "url": "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens",
+      "note": "Explains microwave operation and general container/material guidance."
+    }
+  ],
+  "image": {
+    "concept": "Microwave meal with a thermal-style conceptual contrast between hot edges and a cooler center, realistic kitchen photography, no text.",
+    "alt": "Microwave meal with unevenly heated areas"
+  },
+  "status": "publish"
+}
