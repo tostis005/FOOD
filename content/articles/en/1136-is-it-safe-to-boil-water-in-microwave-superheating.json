@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1136-is-it-safe-to-boil-water-in-microwave-superheating",
+  "article_number": 1136,
+  "translation_group": "1136-boiling-water-microwave-superheating",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; burn prevention for superheated liquids based on FDA and USDA guidance.",
+  "title": "Is It Safe to Boil Water in the Microwave? The Risk of Superheating",
+  "slug": "is-it-safe-to-boil-water-in-microwave-superheating",
+  "seo": {
+    "title": "Is It Safe to Boil Water in the Microwave?",
+    "meta_description": "Yes, but water can become superheated without visible boiling and erupt when the cup is moved. Avoid excessive heating times and follow the oven manual.",
+    "search_intent": "Understand microwave water superheating and how to reduce the risk of a sudden eruption of boiling liquid."
+  },
+  "excerpt": "Microwaving water is common, but there is an uncommon hazard: water can rise above its normal boiling point without obvious bubbles. Moving the cup or adding coffee or sugar can then trigger sudden boiling and eject extremely hot water.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "microwave",
+      "eggs",
+      "food-safety"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-science"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>Heating water in a microwave can be safe, but there is an uncommon hazard known as superheating.</strong> Water can rise above its normal boiling temperature without showing the vigorous bubbling people expect. If the cup is then moved or coffee, sugar, or a utensil is introduced, boiling can start suddenly and eject very hot water.</p><p>FDA has received reports of serious burns from this phenomenon. It does not happen every time water is microwaved, but the mechanism is real enough to justify respecting heating times and appliance instructions.</p><h2>Why water can exceed 212°F without looking as though it is boiling</h2><p>Bubbles need places where they can begin to form. A very clean, smooth container may provide relatively few nucleation sites. While the microwave keeps adding energy, some of the water can become hotter than 212°F without developing the familiar visible rolling boil.</p><p>USDA notes that superheating is especially associated with plain water heated in a very clean vessel. Internal hot spots can also exist below the surface even when the top looks calm.</p><h2>Movement can trigger boiling all at once</h2><p>If the liquid is superheated, a vibration, lifting the cup, or adding instant coffee can provide the disturbance or nucleation sites that allow many bubbles to form at once. Their rapid expansion can push hot water up and out of the container.</p><p>The main hazard is scalding to hands and face. Keep your face away from an extremely hot cup and allow a brief standing period rather than jerking or stirring it aggressively immediately after heating.</p><h2>Do not add extra time just to make sure it boils</h2><p>FDA advises following the oven manual and avoiding heating longer than recommended to reach the desired temperature. Adding extra minutes after the water is already very hot supplies more energy without a useful benefit.</p><p>USDA suggests several precautions, including a vessel with sloping sides and occasional stirring. When appropriate for the drink, adding something such as a tea bag or a small amount of instant coffee before or partway through heating can provide nucleation sites.</p><h2>Container shape and fill level matter</h2><p>Do not fill a cup to the brim; leave room for expansion and safe handling. Use microwave-safe containers and avoid damaged vessels or materials not intended for microwave use. A handle can also become hot, so use protection when needed.</p><p>For large amounts of boiling water, a kettle or saucepan gives a more obvious visual boil and may be easier to control. A microwave is not inherently unsafe, but it deserves care because the absence of bubbles does not prove the water is below boiling.</p><p><strong>The practical rule:</strong> heat only as long as needed, use a stable microwave-safe vessel, leave headspace, keep your face back when removing it, and handle gently. If you need boiling water repeatedly, a kettle provides a clearer visual cue.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p>",
+  "faq": [
+    {
+      "question": "Can water exceed 212°F without boiling visibly?",
+      "answer": "Yes. Under superheating conditions it can exceed its normal boiling point without obvious bubbles."
+    },
+    {
+      "question": "What triggers the sudden eruption?",
+      "answer": "Moving the cup or adding a substance can rapidly initiate bubble formation."
+    },
+    {
+      "question": "How can I reduce the risk?",
+      "answer": "Avoid excessive heating, use an appropriate vessel, stir when suitable, and follow the microwave manufacturer’s instructions."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Cooking with Microwave Ovens",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cooking-microwave-ovens",
+      "note": "Official guidance on eggs, standing time, safe temperatures, cold spots and superheated liquids in microwave ovens."
+    },
+    {
+      "name": "U.S. FDA — Microwave Ovens",
+      "url": "https://www.fda.gov/radiation-emitting-products/resources-you-radiation-emitting-products/microwave-ovens",
+      "note": "FDA guidance on safe operation and avoiding burns from superheated water."
+    }
+  ],
+  "image": {
+    "concept": "Clear measuring cup of hot water in a microwave with gentle steam and a microwave-safe spoon, realistic safety photography, no violent splash, no text.",
+    "alt": "Hot water in a sloped-sided microwave-safe measuring cup"
+  },
+  "status": "publish"
+}

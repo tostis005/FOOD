@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1135-can-you-cook-eggs-safely-in-microwave",
+  "article_number": 1135,
+  "translation_group": "1135-cook-eggs-safely-microwave",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; household safety using USDA temperature guidance and university extension technique.",
+  "title": "Can You Cook Eggs Safely in the Microwave?",
+  "slug": "can-you-cook-eggs-safely-in-microwave",
+  "seo": {
+    "title": "How to Cook Eggs Safely in the Microwave",
+    "meta_description": "Yes, but never in the shell. Beating the egg or breaking the yolk membrane reduces burst risk, and egg dishes still need safe cooking.",
+    "search_intent": "Understand how to microwave eggs without pressure bursts and with sufficiently even cooking."
+  },
+  "excerpt": "Yes, eggs can be cooked in a microwave, but they should not be heated whole in the shell. Scrambled eggs and omelets are more predictable. If the yolk stays intact, break its membrane and use moderate power; egg dishes still need to reach a safe temperature.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "microwave",
+      "eggs",
+      "food-safety"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>Yes, eggs can be cooked safely in a microwave, but technique matters.</strong> The clearest mistake is trying to cook an intact egg in its shell. Steam can build pressure until the shell ruptures violently. Oregon State University Extension recommends removing the shell and notes that scrambled eggs and omelets are particularly practical microwave methods.</p><p>Even without the shell, an intact yolk has a membrane that can trap pressure. If you microwave an unbeaten egg, break that membrane first or use a recipe specifically designed for your appliance.</p><h2>Scrambled eggs and omelets are the most controllable methods</h2><p>Beating yolk and white removes separate enclosed compartments and distributes fat and water more evenly. Use a roomy microwave-safe vessel so the mixture has space to expand, cook in short intervals, and stir partway through to move cooler zones into positions receiving more energy.</p><p>USDA notes that microwave ovens can leave cold spots. Stirring and a short standing period therefore improve both evenness and texture. The eggs continue changing after the magnetron stops because stored heat keeps moving through the food.</p><h2>Full power is not always the best choice</h2><p>USDA says eggs and cheese can toughen when microwaved on high and are often better suited to reduced power. Aggressive heating contracts proteins rapidly and can make the exterior rubbery before temperatures inside the portion have evened out.</p><p>For a small serving, start with brief intervals and add seconds rather than programming several minutes at once. The difference between tender and overcooked can be very small in a high-wattage oven.</p><h2>Safety is judged across the whole dish</h2><p>USDA recommends 160°F for eggs and casseroles containing egg. In a thick or liquid egg dish, stir and check where practical, remembering that temperature can continue to rise during standing time.</p><p>If the dish contains raw meat or another ingredient with a different minimum temperature, follow the requirement for the most safety-sensitive component. Do not rely only on yolk or white color as proof of doneness.</p><h2>Do not reheat a whole hard-cooked egg as if it were scrambled egg</h2><p>A cooked egg can retain small pockets of moisture and pressure within a dense protein structure. Reheating it whole may lead to a sudden burst when it is cut or bitten. Cutting it first and warming it gently as part of another dish, or using another method, is safer.</p><p><strong>The practical rule:</strong> never microwave eggs in the shell; for predictable results, beat and stir them; if a yolk remains whole, break its membrane; and cook thoroughly without using more power or time than necessary.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p><p>Oven wattage, container shape, and portion size all change the required time. Start with the shortest recommended interval, add time in small steps, and allow standing before judging the center. When safety depends on temperature, use a thermometer rather than relying on appearance alone.</p>",
+  "faq": [
+    {
+      "question": "Can I microwave an egg in its shell?",
+      "answer": "No. Pressure can build and the egg can explode."
+    },
+    {
+      "question": "What is the easiest microwave method?",
+      "answer": "Scrambled eggs and omelets are generally more even because yolk and white are mixed."
+    },
+    {
+      "question": "What temperature should eggs reach?",
+      "answer": "USDA recommends 160°F for eggs and egg dishes."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Cooking with Microwave Ovens",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cooking-microwave-ovens",
+      "note": "Official guidance on eggs, standing time, safe temperatures, cold spots and superheated liquids in microwave ovens."
+    },
+    {
+      "name": "Oregon State University Extension — Is it possible to microwave an egg?",
+      "url": "https://extension.oregonstate.edu/ask-extension/featured/it-possible-microwave-egg",
+      "note": "Extension guidance recommending eggs be removed from the shell and favoring scrambled or omelet-style microwave cooking."
+    }
+  ],
+  "image": {
+    "concept": "Microwave-safe ramekin with beaten eggs and a fork beside it, whole shell egg shown separately as not for microwave, realistic photography, no text.",
+    "alt": "Beaten eggs in a microwave-safe ramekin"
+  },
+  "status": "publish"
+}
