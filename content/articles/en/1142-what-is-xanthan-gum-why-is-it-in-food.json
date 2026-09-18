@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1142-what-is-xanthan-gum-why-is-it-in-food",
+  "article_number": 1142,
+  "translation_group": "1142-xanthan-gum-what-is-it",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; ingredient and additive explanation using FDA and EFSA sources.",
+  "title": "What Is Xanthan Gum and Why Is It in So Many Foods?",
+  "slug": "what-is-xanthan-gum-why-is-it-in-food",
+  "seo": {
+    "title": "Xanthan Gum: What It Is and What It Does",
+    "meta_description": "Xanthan gum is a fermentation-produced polysaccharide used as a thickener and stabilizer. In the EU it is identified as E415.",
+    "search_intent": "Understand what xanthan gum is, how it is made, what technological function it serves, and what its presence on a label means."
+  },
+  "excerpt": "Xanthan gum is made by microbial fermentation. Food manufacturers use it mainly to thicken, stabilize, and keep texture uniform; in the EU it is E415.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "xanthan-gum",
+      "additives",
+      "labels"
+    ],
+    "article_types": [
+      "labels",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "labels"
+  },
+  "content_html": "<p><strong>Xanthan gum is a fermentation-produced polysaccharide used mainly to control texture and stability.</strong> EFSA identifies it as E415 and describes production by fermenting carbohydrates with strains of <em>Xanthomonas campestris</em>. The material is then recovered and purified into a powder that works at low concentrations.</p><p>Its presence in sauces, beverages, gluten-free foods, and desserts reflects a physical job: it increases viscosity and helps water, particles, and other components remain distributed more evenly.</p><h2>It thickens and stabilizes with a small amount</h2><p>Xanthan’s long molecules interact with water and create viscosity at low concentrations. That can give a sauce body or slow the separation of a suspension without turning the food into a solid gel.</p><p>FDA lists xanthan among stabilizers, thickeners, and texturizers. In dressing it can keep spices suspended; in sauce it builds consistency; in gluten-free baking it can help retain gas and provide cohesion when a gluten network is absent.</p><h2>Fermentation does not mean the final food contains live bacteria</h2><p>Xanthan is made through a microbial process, but the final ingredient is not added as a probiotic. Fermentation produces the polysaccharide, which is then separated and processed. Seeing a bacterium named in the manufacturing description does not mean the finished food contains an active live culture.</p><p>This is common with industrial fermentation ingredients: what matters is the final substance, its purity, and its specifications rather than assuming it contains every component of the original culture.</p><h2>E415 is a regulatory identifier, not a warning label</h2><p>EFSA re-evaluated xanthan gum and concluded there was no safety concern for the general population at the uses and exposure levels assessed. Authorization includes specifications and conditions of use, while labeling identifies the function and substance as required.</p><p>That does not make every xanthan-containing food nutritionally ideal, but a technical ingredient name alone is not enough to classify a product as harmful. The whole formulation still matters.</p><h2>Why it appears often in gluten-free food</h2><p>Gluten creates an elastic network that traps gas and gives dough structure. When gluten is removed, dough can become fragile or separate easily. Xanthan adds viscosity and cohesion, helps distribute water, and can support retention of fermentation gas.</p><p>It does not replace every function of gluten by itself. It usually works with starches, flours, proteins, and sometimes other hydrocolloids, and the useful amount varies with the recipe.</p><h2>How to read it on a label without overreacting</h2><p>“Thickener: xanthan gum” or “stabilizer: E415” tells you why it is present. Ingredient position adds context because ingredients are generally listed in descending order by weight.</p><p>A food containing xanthan can be high or low in sugar, fat, protein, or fiber. Those qualities depend on the full formula. Seeing E415 does not replace reading the nutrition panel and the rest of the ingredient list.</p><p><strong>The practical rule:</strong> when you see xanthan gum or E415, read it first as a thickener or stabilizer and then judge the food by its complete nutritional and ingredient profile.</p><p>The amount used also matters. A small technological dose that changes viscosity is different from consuming a concentrated gum on its own. Ingredient function describes what the substance does in the recipe; it does not tell you that it is a major calorie source or one of the dominant ingredients. That distinction is useful whenever a label contains several unfamiliar technical names.</p><p>The amount used also matters. A small technological dose that changes viscosity is different from consuming a concentrated gum on its own. Ingredient function describes what the substance does in the recipe; it does not tell you that it is a major calorie source or one of the dominant ingredients. That distinction is useful whenever a label contains several unfamiliar technical names.</p><p>The amount used also matters. A small technological dose that changes viscosity is different from consuming a concentrated gum on its own. Ingredient function describes what the substance does in the recipe; it does not tell you that it is a major calorie source or one of the dominant ingredients. That distinction is useful whenever a label contains several unfamiliar technical names.</p>",
+  "faq": [
+    {
+      "question": "Is xanthan gum natural or synthetic?",
+      "answer": "It is produced by microbial fermentation of carbohydrates and then processed and purified."
+    },
+    {
+      "question": "What does it do in food?",
+      "answer": "It mainly thickens, stabilizes, and improves texture uniformity."
+    },
+    {
+      "question": "Does E415 mean it is dangerous?",
+      "answer": "No. E415 is its EU additive identifier; EFSA has evaluated its authorized uses."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EFSA — Re-evaluation of xanthan gum (E 415)",
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2017.4909",
+      "note": "EFSA description and safety re-evaluation of xanthan gum."
+    },
+    {
+      "name": "EFSA — Food additives",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/food-additives",
+      "note": "EU additive functions, labelling and safety evaluation."
+    },
+    {
+      "name": "U.S. FDA — Types of Food Ingredients",
+      "url": "https://www.fda.gov/food/food-additives-and-gras-ingredients-information-consumers/types-food-ingredients",
+      "note": "FDA lists xanthan gum among stabilizers, thickeners and texturizers."
+    }
+  ],
+  "image": {
+    "concept": "Sauce, gluten-free batter and salad dressing beside a small bowl of xanthan gum powder, realistic editorial food photography, no text.",
+    "alt": "Foods thickened with a small amount of xanthan gum nearby"
+  },
+  "status": "publish"
+}
