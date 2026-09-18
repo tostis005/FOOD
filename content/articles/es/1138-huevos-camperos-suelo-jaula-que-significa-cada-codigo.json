@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "es-1138-huevos-camperos-suelo-jaula-que-significa-cada-codigo",
+  "article_number": 1138,
+  "translation_group": "1138-eu-egg-farming-codes",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/UE; interpretación del código europeo de producción impreso en la cáscara.",
+  "title": "Huevos camperos, de suelo y de jaula: qué significa realmente cada código",
+  "slug": "huevos-camperos-suelo-jaula-que-significa-cada-codigo",
+  "seo": {
+    "title": "Código de los huevos 0, 1, 2 y 3: qué significa",
+    "meta_description": "En la UE, el primer dígito del código identifica el sistema de cría: 0 ecológico, 1 campero, 2 suelo y 3 jaula. El resto identifica país y productor.",
+    "search_intent": "Entender el código impreso en los huevos europeos y qué informa —y qué no— sobre el sistema de producción."
+  },
+  "excerpt": "El primer número del código europeo no indica tamaño ni frescura. Identifica el sistema de cría: 0 ecológico, 1 campero, 2 gallinas criadas en suelo y 3 gallinas criadas en jaula. Después aparecen el código del Estado miembro y la identificación del productor.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "labeling",
+      "farming-system",
+      "buying"
+    ],
+    "article_types": [
+      "labels",
+      "shopping-guides"
+    ],
+    "primary_article_type": "labels"
+  },
+  "content_html": "<p><strong>En la Unión Europea, el primer dígito del código estampado en el huevo identifica el sistema de producción de la gallina.</strong> La normativa usa 0 para producción ecológica, 1 para gallinas camperas, 2 para gallinas criadas en suelo y 3 para gallinas criadas en jaula. Después aparecen letras del Estado miembro y una identificación del establecimiento productor.</p><p>Ese código es una herramienta de trazabilidad y de información sobre el sistema de cría. No es una clasificación de tamaño, frescura, sabor o calidad nutricional.</p><h2>0 significa producción ecológica</h2><p>El cero se reserva a producción bajo las condiciones de la normativa ecológica aplicable. Además del acceso y manejo exigidos por ese sistema, la alimentación y otras prácticas deben cumplir requisitos específicos de producción ecológica.</p><p>No debe interpretarse como “cero antibióticos” en cualquier circunstancia ni como garantía de una composición nutricional completamente distinta. El código describe el sistema regulado de producción.</p><h2>1 es campero y 2 es criado en suelo</h2><p>El código 1 corresponde a free range o campero: las gallinas tienen las condiciones exigidas para acceso al exterior dentro del sistema regulado. El código 2 corresponde a barn o suelo: las aves no están en jaulas, pero el sistema es interior.</p><p>Por eso “suelo” y “campero” no son sinónimos. Ambos pueden permitir movimiento fuera de jaulas, pero el acceso al exterior es la diferencia central que el consumidor debe entender al comparar 1 y 2.</p><h2>3 identifica producción en jaula</h2><p>El número 3 corresponde al sistema de jaulas permitido por la normativa vigente. No dice que el huevo esté “peor” microbiológicamente ni que sea más pequeño: informa únicamente del sistema de alojamiento de las gallinas.</p><p>La seguridad del huevo depende de controles sanitarios, manipulación, almacenamiento y cocción. El tamaño, por su parte, se expresa mediante S, M, L y XL, no mediante este primer dígito.</p><h2>Las letras y números siguientes sirven para localizar el origen</h2><p>Tras el dígito del sistema aparece el código del Estado miembro —por ejemplo ES para España— y luego una identificación asignada al centro o productor por la autoridad competente. La estructura permite rastrear el huevo hasta su origen productivo.</p><p>El envase aporta información adicional como categoría, tamaño, fechas y denominación del sistema. Leer cáscara y caja juntas evita sacar más conclusiones de las que el primer número realmente permite.</p><p><strong>La regla práctica:</strong> usa 0/1/2/3 para conocer el sistema de cría; usa las letras posteriores para país y trazabilidad, y consulta el envase para tamaño, fechas y otras características. No conviertas un único dígito en un resumen de toda la calidad del huevo.</p><p>Para interpretar una caja de huevos conviene separar tres cosas: el sistema de cría, el tamaño y la calidad o frescura. Ninguna de esas señales debe sustituir a las demás. Un color, un código o una letra informa de una característica concreta, no resume por sí solo todo el valor nutricional, el bienestar, la seguridad o el rendimiento culinario del huevo.</p><p>Para interpretar una caja de huevos conviene separar tres cosas: el sistema de cría, el tamaño y la calidad o frescura. Ninguna de esas señales debe sustituir a las demás. Un color, un código o una letra informa de una característica concreta, no resume por sí solo todo el valor nutricional, el bienestar, la seguridad o el rendimiento culinario del huevo.</p><p>Para interpretar una caja de huevos conviene separar tres cosas: el sistema de cría, el tamaño y la calidad o frescura. Ninguna de esas señales debe sustituir a las demás. Un color, un código o una letra informa de una característica concreta, no resume por sí solo todo el valor nutricional, el bienestar, la seguridad o el rendimiento culinario del huevo.</p><p>Para interpretar una caja de huevos conviene separar tres cosas: el sistema de cría, el tamaño y la calidad o frescura. Ninguna de esas señales debe sustituir a las demás. Un color, un código o una letra informa de una característica concreta, no resume por sí solo todo el valor nutricional, el bienestar, la seguridad o el rendimiento culinario del huevo.</p>",
+  "faq": [
+    {
+      "question": "¿Qué significa 0?",
+      "answer": "Producción ecológica bajo la normativa aplicable."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre 1 y 2?",
+      "answer": "El 1 es campero con acceso exterior regulado; el 2 corresponde a gallinas criadas en suelo en sistema interior."
+    },
+    {
+      "question": "¿El 3 significa peor calidad nutricional?",
+      "answer": "No. El 3 identifica el sistema de jaula, no una clasificación nutricional."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EUR-Lex — egg producer code farming methods",
+      "url": "https://eur-lex.europa.eu/eli/dir/2002/4/2007-01-01/eng",
+      "note": "EU producer code: 0 organic, 1 free range, 2 barn, 3 cages, followed by Member State and producer identification."
+    }
+  ],
+  "image": {
+    "concept": "European eggs stamped with example producer codes beginning 0, 1, 2 and 3 arranged beside cartons, realistic photography, no brand text.",
+    "alt": "Huevos europeos con códigos de producción 0, 1, 2 y 3"
+  },
+  "status": "publish"
+}
