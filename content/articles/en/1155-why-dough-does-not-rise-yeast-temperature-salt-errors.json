@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1155-why-dough-does-not-rise-yeast-temperature-salt-errors",
+  "article_number": 1155,
+  "translation_group": "1155-why-dough-does-not-rise",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; practical troubleshooting for commercial-yeast doughs.",
+  "title": "Why Dough Does Not Rise: Yeast, Temperature, Salt and Other Causes",
+  "slug": "why-dough-does-not-rise-yeast-temperature-salt-errors",
+  "seo": {
+    "title": "Why Dough Does Not Rise and How to Diagnose It",
+    "meta_description": "Dough may fail to rise because of weak yeast, cold conditions, overly hot liquid, too much flour, excessive salt or sugar, or a gluten network that cannot retain gas.",
+    "search_intent": "Diagnose why commercial-yeast dough rises slowly or not at all and correct yeast activity, temperature, hydration, salt, sugar, and structure."
+  },
+  "excerpt": "Dough that does not rise does not always mean the yeast is dead. Fermentation depends on active yeast, water, food, and temperature, while gluten must retain the CO₂ produced. Cold, old yeast, overheated liquid, dry dough, or excessive salt or sugar can all slow the process.",
+  "taxonomy": {
+    "food_family": "grains",
+    "food_subcategories": [
+      "bread-dough",
+      "yeast",
+      "fermentation"
+    ],
+    "article_types": [
+      "cooking-science",
+      "troubleshooting"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>Dough fails to rise when one of two broad things goes wrong: yeast does not produce enough gas, or the dough cannot retain the gas it produces.</strong> Yeast needs water, nutrients, and suitable temperature to ferment sugars and generate carbon dioxide. The gluten network then has to trap those bubbles for volume to increase.</p><p>That is why adding more yeast is not a universal solution. A cold, overly dry, or structurally weak dough can still make a low loaf even when more microorganisms are added.</p><h2>First, check whether the yeast is active</h2><p>Dry yeast loses activity with age, especially after the package is opened or exposed to heat. King Arthur recommends keeping yeast tightly sealed and cold; old or poorly stored yeast can ferment very slowly.</p><p>For yeast types that are normally activated first, a test in lukewarm liquid can show bubbles and foam. Instant yeast does not always need proofing, but if an older package repeatedly produces flat dough, replacing it is a reasonable diagnostic step.</p><h2>Water that is too hot can kill yeast; cold conditions mainly slow it</h2><p>King Arthur notes that water hotter than about 139°F can kill yeast. A cold kitchen, by contrast, usually does not destroy yeast; it simply reduces fermentation rate and makes a recipe’s stated clock time less reliable.</p><p>Many wheat doughs perform predictably around a finished dough temperature in the mid-to-upper 70s°F. If dough is much colder, giving it more time is generally better than exposing it to aggressive heat.</p><h2>Too much flour can create a dry, slow dough</h2><p>King Arthur notes that stiff, dry dough tends to rise more slowly and produce denser bread. Water affects more than texture: yeast needs dissolved nutrients, and dough needs enough flexibility to expand around growing gas cells.</p><p>Volume measuring can accidentally add excess flour when it is packed into a cup. Weighing flour and water reduces that error. Do not keep adding flour merely to make every trace of stickiness disappear; many successful doughs remain slightly tacky.</p><h2>Salt slows yeast, but normal amounts do not simply “kill” it</h2><p>Salt attracts water and creates osmotic pressure around yeast cells, moderating fermentation rate. That slowdown is useful: salt also strengthens dough, improves flavor, and helps prevent fermentation from racing ahead.</p><p>Excessive salt can substantially reduce volume, but leaving salt out is not automatically better. Unsalted dough can ferment too quickly, become slack, and collapse. The issue is proportion rather than the mere presence of salt.</p><h2>High sugar and fat also slow enriched doughs</h2><p>Doughs rich in sugar, butter, egg, or fat commonly need more time. King Arthur notes that high sugar levels bind water and slow yeast activity. A brioche should not be judged against a lean pizza dough using the same fermentation clock.</p><p>Special osmotolerant yeast exists for very sweet doughs, but for ordinary home baking the first step is to follow the formula and allow the temperature and time the dough actually needs.</p><h2>Dough can produce gas yet still fail to rise if it cannot retain it</h2><p>If gluten is underdeveloped, hydration is badly mismatched, or fermentation has gone so far that the network weakens, carbon dioxide escapes. A dough that rose and then collapsed has a different problem from one that never showed activity.</p><p>Overproofing can stretch the network until it no longer supports gas cells. In that case, more waiting makes the situation worse. Watch volume, tension, and bubbles rather than the clock alone.</p><p><strong>The practical rule:</strong> check yeast, temperature, and measurements before blaming salt. Keep reasonable hydration, allow extra time for cold dough, avoid scalding liquid, and distinguish “not making gas” from “not holding gas.” That diagnosis tells you what to change next time.</p><p>To diagnose the problem, change one variable per batch and note the result. Ambient humidity, piece size, actual oil or oven temperature, and batch size can substantially change texture and timing. A measured adjustment is more useful than adding several tricks at once.</p><p>To diagnose the problem, change one variable per batch and note the result. Ambient humidity, piece size, actual oil or oven temperature, and batch size can substantially change texture and timing. A measured adjustment is more useful than adding several tricks at once.</p>",
+  "faq": [
+    {
+      "question": "Does salt kill yeast?",
+      "answer": "Not at normal bread-dough levels. It slows fermentation and helps control it; excessive salt can strongly inhibit activity."
+    },
+    {
+      "question": "What temperature should the liquid be?",
+      "answer": "Use lukewarm liquid appropriate to the recipe; very hot water can damage or kill yeast."
+    },
+    {
+      "question": "Why does dough rise and then fall?",
+      "answer": "It may be overproofed or have a gluten network that can no longer retain the gas."
+    }
+  ],
+  "sources": [
+    {
+      "name": "King Arthur Baking — Yeast",
+      "url": "https://www.kingarthurbaking.com/pro/reference/yeast",
+      "note": "Professional reference on moisture, food, oxygen, dough temperature, salt, sugar, and yeast fermentation."
+    },
+    {
+      "name": "King Arthur Baking — Yeast Baking 101",
+      "url": "https://www.kingarthurbaking.com/learn/guides/yeast-baking",
+      "note": "Practical guidance on flour quantity, hydration, salt, yeast storage, and liquid temperature."
+    },
+    {
+      "name": "King Arthur Baking — Comprehensive guide to baking with yeast",
+      "url": "https://www.kingarthurbaking.com/blog/2023/05/10/guide-to-baking-with-yeast",
+      "note": "Explains weak/dead yeast, excessive heat, sugar/salt effects, and why dough can stop rising when gluten no longer retains gas."
+    },
+    {
+      "name": "King Arthur Baking — Does salt kill yeast?",
+      "url": "https://www.kingarthurbaking.com/blog/2023/07/05/does-salt-kill-yeast",
+      "note": "Shows normal salt levels slow fermentation rather than simply killing yeast; excessively hot water and poor storage are more common yeast-killing problems."
+    }
+  ],
+  "image": {
+    "concept": "Three bowls of bread dough: well-risen, dense dry dough, and flat dough beside yeast packet and thermometer, realistic baking photography, no text.",
+    "alt": "Bread doughs with different fermentation problems beside yeast and a thermometer"
+  },
+  "status": "publish"
+}
