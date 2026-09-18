@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1126-why-air-fryer-food-is-not-crispy",
+  "article_number": 1126,
+  "translation_group": "1126-air-fryer-food-not-crispy",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; practical cooking science with manufacturer instructions taking priority.",
+  "title": "Why Air Fryer Food Is Not Crispy",
+  "slug": "why-air-fryer-food-is-not-crispy",
+  "seo": {
+    "title": "Why Is My Air Fryer Food Not Crispy?",
+    "meta_description": "Poor crispness usually comes from excess surface moisture, an overcrowded basket, restricted airflow, or a surface that never dries and browns efficiently.",
+    "search_intent": "Diagnose why air-fried food stays soft and fix moisture, loading, temperature, and technique."
+  },
+  "excerpt": "When air-fryer food stays soft, the surface usually is not drying fast enough. Excess water, too many pieces touching, or restricted airflow can prevent a dry browned crust from forming.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "air-fryer",
+      "crispness",
+      "cooking"
+    ],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>For food to become crisp in an air fryer, its surface has to lose water before the interior overcooks.</strong> The appliance helps by moving hot air rapidly, but it cannot dry a compact basket of wet food efficiently. When moisture accumulates around the pieces, the surface steams and stays flexible instead of turning into a dry crust.</p><p>That is why raising the temperature is not always the first fix. If the basket is packed or fresh potatoes go in dripping wet after rinsing, extra heat may brown exposed tips while protected surfaces remain damp. Start the diagnosis with moisture and airflow.</p><h2>Surface drying matters more than many recipes make obvious</h2><p>Washed potatoes and vegetables, tofu, and marinated meat can carry a film of water that must evaporate before browning accelerates. Pat food dry when the recipe allows and drain excess marinade. With fresh potatoes, drying after soaking is particularly important because clinging water adds an evaporation burden exactly when you want the crust to form.</p><p>Frozen food may also carry loose ice. Products designed to cook from frozen do not need thawing, but large sheets of freezer frost add water and can delay crisping.</p><h2>An overfilled basket turns fast-moving air into humid trapped air</h2><p>USDA cautions that overcrowding an air fryer can restrict circulation and produce uneven cooking. Crispness follows the same physics: pieces pressed together create damp contact zones and shield one another from moving hot air. Two smaller batches often produce better texture than one deep pile.</p><p>Shaking partway through cooking redistributes small pieces and exposes surfaces that were blocked. Philips recommends shaking foods cooked in more than one layer to improve air exposure. Fragile foods are better arranged in a single layer.</p><h2>A little fat can help, but it cannot replace drying</h2><p>On fresh ingredients, a thin film of oil can promote browning and improve crisp texture. More is not automatically better: excess oil can drip, smoke, or leave the coating heavy. Prefried frozen foods already contain fat and often need none added, so extra oil will not solve an airflow problem.</p><p>Solid liners can also reduce air exposure on the underside. Fries or wings often dry more efficiently when the open basket is left exposed, provided the manufacturer’s instructions are followed.</p><h2>Temperature and piece size must allow browning in time</h2><p>Very large pieces take longer to heat; very small ones can dry out before they develop the crust you want. Cut evenly and choose temperature for the food rather than defaulting to maximum heat. If the exterior is pale when the center is done, a short preheat or slightly hotter finishing stage may help. If the outside darkens too quickly, lower the temperature and extend the cook.</p><p><strong>The practical rule:</strong> dry the surface, leave space, shake when appropriate, and use only the fat that helps the food. An air fryer creates favorable conditions for crispness, but it cannot overcome a wet surface or a basket with no path for air.</p><p>When testing a fix, change only one variable at a time: load, temperature, timing, or arrangement. That makes it possible to identify what actually corrected the texture and adapt the recipe to your machine’s real power and geometry instead of changing several things at once.</p><p>When testing a fix, change only one variable at a time: load, temperature, timing, or arrangement. That makes it possible to identify what actually corrected the texture and adapt the recipe to your machine’s real power and geometry instead of changing several things at once.</p><p>When testing a fix, change only one variable at a time: load, temperature, timing, or arrangement. That makes it possible to identify what actually corrected the texture and adapt the recipe to your machine’s real power and geometry instead of changing several things at once.</p><p>When testing a fix, change only one variable at a time: load, temperature, timing, or arrangement. That makes it possible to identify what actually corrected the texture and adapt the recipe to your machine’s real power and geometry instead of changing several things at once.</p>",
+  "faq": [
+    {
+      "question": "Why do air-fryer fries come out soft?",
+      "answer": "Surface moisture, overcrowding, and restricted airflow are common causes. Dry the potatoes and cook in shallower batches."
+    },
+    {
+      "question": "Will more oil make them crispier?",
+      "answer": "A thin coating can help, but excess oil cannot replace drying and airflow."
+    },
+    {
+      "question": "Do I have to shake the basket?",
+      "answer": "For small foods stacked in layers, shaking usually improves air exposure and evenness."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Air Fryers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/air-fryers-and-food-safety",
+      "note": "Explains airflow, overcrowding and safe cooking in air fryers."
+    },
+    {
+      "name": "Philips — Why do I have to shake the food in my Airfryer?",
+      "url": "https://www.usa.philips.com/c-f/XC000003597/why-do-i-have-to-shake-the-food-in-my-philips-airfryer",
+      "note": "Explains how shaking improves air exposure around food cooked in layers."
+    }
+  ],
+  "image": {
+    "concept": "Air fryer basket with crisp golden fries in a loose layer beside an overcrowded softer batch, realistic food photography, no text.",
+    "alt": "Crisp fries arranged loosely in an air fryer basket"
+  },
+  "status": "publish"
+}
