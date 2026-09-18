@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1122-can-you-use-parchment-paper-in-air-fryer",
+  "article_number": 1122,
+  "translation_group": "1122-parchment-paper-air-fryer-safe-use",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; safe use depends on appliance design and manufacturer instructions.",
+  "title": "Can You Use Parchment Paper in an Air Fryer?",
+  "slug": "can-you-use-parchment-paper-in-air-fryer",
+  "seo": {
+    "title": "Can You Use Parchment Paper in an Air Fryer?",
+    "meta_description": "Parchment can block airflow or lift toward the heating element. Use it only if your manufacturer allows it, keep food on top, and cover no more area than needed.",
+    "search_intent": "Understand whether parchment paper is safe in an air fryer and how to avoid airflow and heating-element hazards."
+  },
+  "excerpt": "Parchment paper is not a universal air-fryer accessory. Some manufacturers advise against it because it can reduce airflow and, if left loose, the fan can pull it toward the heating element. If your model permits it, keep it weighted by food and avoid covering more of the perforated basket than necessary.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "air-fryer",
+      "cooking",
+      "kitchen-technique"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>Parchment paper can be used in some air fryers, but only when the manufacturer allows it and it does not defeat the airflow the appliance relies on.</strong> The main issue is not that oven-safe parchment suddenly becomes toxic in an air fryer. The practical concern is that a large sheet can cover basket holes, reduce circulation, or be lifted by the fan when there is no food holding it down.</p><p>Philips, for example, advises against parchment and foil in several models because covering the basket bottom diminishes airflow. It also warns that an unweighted sheet in an empty machine can be sucked toward the heating element and burn. Other brands sell perforated liners or permit specific uses, so the manual for your machine should settle the question.</p><h2>The basket holes are part of the cooking system</h2><p>A perforated basket is not merely a drain for fat. It gives hot air a path to the underside of the food and helps circulation around individual pieces. Cover most of that surface with a solid sheet and the appliance behaves more like a small oven with a tray: it will still heat, but you may lose some of the fast, even drying that produces the characteristic air-fryer result.</p><p>This is also why a liner should not extend far up the sides and block intake or return paths. USDA guidance notes that even overcrowding can limit circulation enough to cause uneven or inadequate cooking. A broad sheet of paper can create a similar airflow problem even when the basket does not look full.</p><h2>Do not preheat with loose parchment in the basket</h2><p>An air-fryer fan moves air forcefully. A lightweight sheet with nothing on it can slide, fold, or rise into the heating element, where it may scorch or ignite. If your manual permits parchment, put it in with the food so the food physically anchors it, and make sure corners cannot reach the heater.</p><p>Use actual cooking parchment within its rated temperature range, not wax paper, grocery bags, or napkins. Wax paper has a coating that is not intended for oven-level heat. Do not keep reusing a badly browned or grease-soaked liner either; accumulated fat can smoke and the weakened paper can tear or move more easily.</p><h2>Perforated liners preserve more airflow, but they are not magic</h2><p>Holes give hot air more access to the underside of the food, which makes perforated parchment less obstructive than a solid sheet. Liners can be handy for sticky doughs, marinades, or foods that leave stubborn residue. For fries, wings, and foods where you want the bottom surface very dry and crisp, direct contact with the open basket often gives air more room to circulate.</p><p>Fit matters too. A liner that stays beneath the footprint of the food usually interferes less than one that curls up the walls. If your appliance maker sells a dedicated liner or accessory, follow its loading and temperature instructions instead of assuming that any generic paper product will behave identically.</p><h2>Easy cleanup is useful only if the food still cooks properly</h2><p>Parchment can save scrubbing time, but a clean basket is not worth uneven cooking. If food takes longer, stays soft underneath, or develops cool areas, try cooking without the liner or use a smaller perforated one. For meat and poultry, use a thermometer when doneness has a food-safety consequence rather than judging only by color.</p><p><strong>The practical rule:</strong> check the manual; if parchment is allowed, keep it anchored under food, away from the element, and clear of as many basket perforations as possible. If your manufacturer says not to use it, there is no need to invent a workaround.</p><p>On the first trial, it is worth using a small batch and watching three things at once: how long the center takes to cook, what the underside looks like, and whether air can move freely between pieces. That test turns a general recommendation into a technique suited to your actual machine. If you change the liner, load, temperature, or arrangement, change only one variable at a time; that makes it much easier to identify what improved or harmed the result and to repeat a safe, even cook.</p>",
+  "faq": [
+    {
+      "question": "Can I put parchment in while the air fryer preheats?",
+      "answer": "Do not leave loose parchment in an empty basket. The fan can lift it toward the heating element; follow your model manual."
+    },
+    {
+      "question": "Is perforated parchment better?",
+      "answer": "It usually preserves more airflow than a solid sheet, but it still needs to be allowed by the manufacturer and held down by food."
+    },
+    {
+      "question": "Can I use wax paper instead?",
+      "answer": "No. Wax paper is not designed for air-fryer cooking temperatures."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Air Fryers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/air-fryers-and-food-safety",
+      "note": "Explains hot-air circulation, overcrowding, safe internal temperatures and manufacturer-instruction guidance for air fryers."
+    },
+    {
+      "name": "Philips — Can I use baking paper/tin foil in my Airfryer?",
+      "url": "https://www.usa.philips.com/c-f/XC000003625/can-i-use-baking-paper-tin-foil-in-my-philips-airfryer",
+      "note": "Manufacturer guidance warning that paper or foil can obstruct airflow and can be drawn into the heating element if not weighed down by food."
+    }
+  ],
+  "image": {
+    "concept": "Perforated parchment liner fitted under food in an air fryer basket, with air holes still visible, realistic kitchen photography, no text.",
+    "alt": "Perforated parchment under food in an air fryer basket"
+  },
+  "status": "publish"
+}

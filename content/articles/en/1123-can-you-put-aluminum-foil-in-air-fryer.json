@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1123-can-you-put-aluminum-foil-in-air-fryer",
+  "article_number": 1123,
+  "translation_group": "1123-aluminum-foil-air-fryer-safe-use",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; use depends on appliance design and manufacturer instructions.",
+  "title": "Can You Put Aluminum Foil in an Air Fryer?",
+  "slug": "can-you-put-aluminum-foil-in-air-fryer",
+  "seo": {
+    "title": "Can You Put Aluminum Foil in an Air Fryer?",
+    "meta_description": "Foil is not automatically appropriate in every air fryer. It can block airflow, lift toward the element, and react with very acidic foods.",
+    "search_intent": "Understand when foil can be used in an air fryer and how to avoid airflow, heating-element, and acidic-food problems."
+  },
+  "excerpt": "Aluminum foil can tolerate normal air-fryer temperatures, but that does not mean it belongs in every model or every position. It can block circulation, move if left loose, or reach the heating element. Start with your appliance manual.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "air-fryer",
+      "cooking",
+      "kitchen-technique"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>Aluminum foil can withstand normal air-fryer temperatures, but it is not a universally recommended accessory.</strong> The important question is not simply whether the metal will melt — it will not at ordinary cooking temperatures — but where it sits and what it does to airflow. Some manufacturers, including Philips for a number of models, advise against covering the basket or pan because it reduces circulation.</p><p>An air fryer cooks by moving hot air rapidly around food. Turn a perforated basket into a mostly solid tray with foil and you change that airflow pattern. A loose or poorly fitted piece can also be lifted toward the heating element. For those reasons, your model instructions matter more than a blanket internet answer of yes or no.</p><h2>Foil can block the air the appliance needs</h2><p>Lining the entire bottom looks convenient for catching grease, but it can stop hot air from reaching the underside of the food. The likely result is less browning underneath and more variation between pieces. USDA warns about a similar effect from overcrowding: when circulation is restricted, cooking can become uneven.</p><p>If your manufacturer permits foil for a particular use, use only as much as needed and do not cover air inlets, outlets, or the whole perforated surface. A small foil boat for a saucy food may interfere less than wrapping every piece completely, but only use that approach if your manual permits pans or foil containers in that location.</p><h2>Keep it anchored and away from the heating element</h2><p>A sheet placed in an empty basket during preheating can move in the fan stream. Direct contact with a glowing element or extremely hot surface can damage the foil, create smoke, or leave residue where it does not belong. Food should be heavy enough to keep the foil stable, and edges should not stick up where moving air can catch them.</p><p>Do not line parts of the machine the manufacturer did not intend to be covered, including a lower pan if that area forms part of the air path. A cleanup shortcut can increase cooking time or redirect grease in an unhelpful way. If catching drips matters, a model-approved accessory is a better solution.</p><h2>Highly acidic foods are another reason to choose a different vessel</h2><p>Tomatoes, citrus, vinegar, and strongly acidic marinades can react with aluminum during prolonged contact, especially when salt is present. This is not usually the main hazard in a brief cook, but the foil can pit and food can pick up a metallic taste. For strongly acidic dishes, an approved glass, ceramic, or other compatible container is simpler.</p><p>Foil also does not make food crisp merely because it is metal. Covering basket holes can do the opposite by trapping moisture underneath. Fries, breaded foods, and wings generally take better advantage of the appliance when as much basket airflow as possible remains open.</p><h2>Food safety is still separate from the liner material</h2><p>A clean-looking sheet and a browned exterior do not prove the center is fully cooked. Check meat, poultry, fish, and other safety-sensitive foods appropriately, using a thermometer when needed. If foil creates cooler spots or obviously uneven results, remove it and cook in smaller batches.</p><p><strong>The practical rule:</strong> use foil only if your model manual permits it, never leave it loose, keep it away from the element, and do not choke off circulation. For very acidic dishes or foods where maximum crispness is the goal, another setup is usually better.</p><p>On the first trial, it is worth using a small batch and watching three things at once: how long the center takes to cook, what the underside looks like, and whether air can move freely between pieces. That test turns a general recommendation into a technique suited to your actual machine. If you change the liner, load, temperature, or arrangement, change only one variable at a time; that makes it much easier to identify what improved or harmed the result and to repeat a safe, even cook.</p>",
+  "faq": [
+    {
+      "question": "Will aluminum foil melt in an air fryer?",
+      "answer": "Not at normal air-fryer temperatures, but it can disrupt airflow or reach places it should not. Follow the appliance manual."
+    },
+    {
+      "question": "Can I cover the entire basket with foil?",
+      "answer": "That can block much of the airflow and reduce cooking performance, so it is generally a poor setup."
+    },
+    {
+      "question": "Can I cook tomatoes on foil?",
+      "answer": "Brief contact is not usually the main concern, but salty acidic foods can react with aluminum; an approved nonreactive container is preferable."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Air Fryers and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/air-fryers-and-food-safety",
+      "note": "Explains hot-air circulation, overcrowding, safe internal temperatures and manufacturer-instruction guidance for air fryers."
+    },
+    {
+      "name": "Philips — Can I use baking paper/tin foil in my Airfryer?",
+      "url": "https://www.usa.philips.com/c-f/XC000003625/can-i-use-baking-paper-tin-foil-in-my-philips-airfryer",
+      "note": "Manufacturer guidance warning that paper or foil can obstruct airflow and can be drawn into the heating element if not weighed down by food."
+    }
+  ],
+  "image": {
+    "concept": "Small piece of aluminum foil neatly anchored under food in an air fryer basket while perforations remain visible, realistic photography, no text.",
+    "alt": "Aluminum foil used without covering the entire air fryer basket"
+  },
+  "status": "publish"
+}
