@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1145-what-does-modified-food-starch-mean-on-label",
+  "article_number": 1145,
+  "translation_group": "1145-modified-starch-ingredient-label",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; ingredient-label interpretation and food-starch functionality.",
+  "title": "What Does “Modified Food Starch” Mean on an Ingredient List?",
+  "slug": "what-does-modified-food-starch-mean-on-label",
+  "seo": {
+    "title": "Modified Food Starch: What It Means on a Label",
+    "meta_description": "Modified food starch is starch treated to change thickening, heat, freeze-thaw, or acid stability. It does not automatically mean genetically modified.",
+    "search_intent": "Understand what modified food starch is, why starch is modified, and what the label term does — and does not — imply."
+  },
+  "excerpt": "“Modified food starch” means a food starch has been treated to change properties such as viscosity, stability, or processing tolerance. Modification can be physical, enzymatic, or chemical; the term is not a synonym for genetically modified crops.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "modified-starch",
+      "labels",
+      "food-technology"
+    ],
+    "article_types": [
+      "labels",
+      "food-science"
+    ],
+    "primary_article_type": "labels"
+  },
+  "content_html": "<p><strong>“Modified food starch” means a food starch has been treated to change how it behaves during manufacturing or cooking.</strong> Native starch can lose viscosity under acid, intense heat, freezing and thawing, or mechanical shear. Modifying its structure lets manufacturers design more stable texture for sauces, soups, desserts, fillings, and frozen foods.</p><p>FDA recognizes modified food starch as an ingredient with functions including stabilizing, thickening, moisture control, and dispersion. The word “modified” describes technological performance, not a quality judgment.</p><h2>It is not the same thing as “genetically modified”</h2><p>Starch modification happens after starch is obtained from a plant. Physical, enzymatic, or chemical processes can alter how starch chains absorb water, swell, or resist processing.</p><p>The phrase “modified food starch” does not by itself tell you whether the source crop was genetically engineered. That is a separate issue governed by other labeling and traceability requirements.</p><h2>Why not just use ordinary starch?</h2><p>A native starch may thicken a freshly cooked sauce but separate after freezing. Another may break down in acidic conditions or lose body under industrial pumping and mixing. Modification is used to solve a particular performance problem.</p><p>In refrigerated pudding it can preserve texture during storage; in instant soup it can improve rehydration; in fruit filling it can maintain viscosity despite acid and heat.</p><h2>Plant source and starch modification are separate questions</h2><p>Starch can come from corn, potato, tapioca, wheat, rice, and other sources. It is then modified according to the desired function. Label rules determine when a source must be declared more specifically, especially where allergens are relevant.</p><p>Do not infer the plant source only from the generic term. If source matters for celiac disease, allergy, or preference, use the product’s specific labeling and manufacturer information.</p><h2>Nutritionally, it is still primarily starch</h2><p>Technological modification does not automatically turn the ingredient into fiber, protein, or fat. In most uses it still contributes primarily carbohydrate, although digestibility and exact properties can vary with the modification.</p><p>Amount matters too. It may appear as a minor thickener or make up a more meaningful portion of a formulation. Ingredient order and the nutrition facts provide that context.</p><p><strong>The practical rule:</strong> read “modified food starch” as “starch adapted to perform better during processing.” Do not equate the term with genetic engineering or use it alone to judge whether a food is healthy.</p><p>A functional ingredient should be interpreted together with its amount and the rest of the food. The technical name explains how the product was formulated; it does not replace the nutrition facts, serving size, or how often the food is eaten. Keeping those ideas separate prevents judging an entire formulation by one component.</p><p>A functional ingredient should be interpreted together with its amount and the rest of the food. The technical name explains how the product was formulated; it does not replace the nutrition facts, serving size, or how often the food is eaten. Keeping those ideas separate prevents judging an entire formulation by one component.</p><p>A functional ingredient should be interpreted together with its amount and the rest of the food. The technical name explains how the product was formulated; it does not replace the nutrition facts, serving size, or how often the food is eaten. Keeping those ideas separate prevents judging an entire formulation by one component.</p><p>A functional ingredient should be interpreted together with its amount and the rest of the food. The technical name explains how the product was formulated; it does not replace the nutrition facts, serving size, or how often the food is eaten. Keeping those ideas separate prevents judging an entire formulation by one component.</p><p>A functional ingredient should be interpreted together with its amount and the rest of the food. The technical name explains how the product was formulated; it does not replace the nutrition facts, serving size, or how often the food is eaten. Keeping those ideas separate prevents judging an entire formulation by one component.</p><p>A functional ingredient should be interpreted together with its amount and the rest of the food. The technical name explains how the product was formulated; it does not replace the nutrition facts, serving size, or how often the food is eaten. Keeping those ideas separate prevents judging an entire formulation by one component.</p>",
+  "faq": [
+    {
+      "question": "Does modified food starch mean GMO?",
+      "answer": "No. It describes functional modification of starch after extraction; genetic modification of the source crop is a separate issue."
+    },
+    {
+      "question": "Why modify starch?",
+      "answer": "To improve stability, thickening, and resistance to heat, freezing, acid, or mechanical processing."
+    },
+    {
+      "question": "What plants can it come from?",
+      "answer": "Sources can include corn, potato, tapioca, wheat, rice, and others."
+    }
+  ],
+  "sources": [
+    {
+      "name": "U.S. FDA — STARCH, FOOD, MODIFIED",
+      "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=STARCHFOODMODIFIED&set=FoodSubstances",
+      "note": "FDA inventory entry listing technological functions of modified food starch."
+    },
+    {
+      "name": "U.S. FDA — Types of Food Ingredients",
+      "url": "https://www.fda.gov/food/food-additives-and-gras-ingredients-information-consumers/types-food-ingredients",
+      "note": "FDA overview of thickeners, emulsifiers, acidulants and other ingredient functions."
+    },
+    {
+      "name": "EFSA — Food additives",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/food-additives",
+      "note": "Explains EU food additive functions, authorization, labelling and E numbers."
+    }
+  ],
+  "image": {
+    "concept": "Soup, pudding and sauce beside native starch and modified starch powder in small bowls, realistic editorial food photography, no text.",
+    "alt": "Foods thickened with modified food starch nearby"
+  },
+  "status": "publish"
+}
