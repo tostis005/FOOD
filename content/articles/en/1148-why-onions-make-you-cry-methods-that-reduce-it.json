@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1148-why-onions-make-you-cry-methods-that-reduce-it",
+  "article_number": 1148,
+  "translation_group": "1148-why-onions-make-you-cry",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; cooking science and safe kitchen technique.",
+  "title": "Why Onions Make You Cry and Which Methods Actually Reduce It",
+  "slug": "why-onions-make-you-cry-methods-that-reduce-it",
+  "seo": {
+    "title": "Why Onions Make You Cry and How to Reduce It",
+    "meta_description": "Cutting onions creates a volatile eye irritant. A sharp knife, gentler cutting, and airflow away from your face can reduce exposure.",
+    "search_intent": "Understand why cutting onions triggers tears and which methods have a plausible physical or experimental basis for reducing them."
+  },
+  "excerpt": "Cutting an onion ruptures cells and triggers chemistry that produces syn-propanethial-S-oxide, a volatile irritant that reaches the eyes and triggers tears. The most useful strategies reduce how much irritant is sprayed or how much reaches your face.",
+  "taxonomy": {
+    "food_family": "vegetables",
+    "food_subcategories": [
+      "onion",
+      "cooking-science",
+      "kitchen-technique"
+    ],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>Onions make you cry because cutting them ruptures cells that normally keep enzymes and sulfur-containing precursors separated.</strong> The Library of Congress explains that the reaction ultimately forms syn-propanethial-S-oxide, a volatile irritant that reaches the eyes and stimulates the tear glands. Tears are a protective response that dilutes and removes the irritant.</p><p>The problem is therefore more specific than a “strong smell.” What matters is how much tissue is disrupted, how much aerosol and vapor is released, and whether that plume reaches your eyes.</p><h2>A sharp knife has experimental support</h2><p>A 2025 study used high-speed imaging to observe droplets and aerosol leaving onions during cutting. Duller blades required more force, compressed the tissue more before breaking through, and launched more droplets with greater energy. The researchers’ practical conclusion was to cut gently with a sharp blade.</p><p>That does not stop all onion chemistry, but it reduces unnecessary crushing. A sharp knife also improves control, so the same recommendation helps precision and kitchen safety while potentially reducing tears.</p><h2>Ventilation works by moving the irritant away before it reaches your eyes</h2><p>A range hood or small fan that moves air from the cutting board away from your face can carry part of the aerosol elsewhere. The logic is direct: the irritant has to travel from the cut surface to your eyes before it can trigger tearing.</p><p>Leaning directly over the onion increases exposure. Keeping some distance and directing airflow away is generally more practical than trying to capture every volatile compound at the cutting surface.</p><h2>Sealed goggles attack the problem from the other side</h2><p>If the irritant does not contact the eye surface, the tear response is greatly reduced. Close-fitting goggles provide a physical barrier. They do not stop the onion from releasing compounds, but they reduce direct exposure of the eyes.</p><p>For someone who is especially sensitive or chopping a large batch, this can be more effective than combining many small kitchen tricks. Ordinary open-sided glasses provide less protection than eyewear that seals around the eyes.</p><h2>Chilling and underwater cutting come with caveats</h2><p>Cold can slow chemical reactions, which is why refrigeration is a common suggestion, but recent droplet research suggests the physical release process is more complicated than a simple “colder is always better” rule. Cutting under water can capture some irritant, yet it introduces an important practical problem: a wet onion, knife, and work surface are more slippery.</p><p>For safety, there is little reason to make knife work awkward inside a sink. A sharp blade, controlled cuts, and useful ventilation address the problem without making the board unstable.</p><h2>Leaving the root for last is not a guarantee</h2><p>Sulfur compounds are not distributed perfectly uniformly, but cutting less tissue always means rupturing fewer cells. Keeping the onion stable and avoiding unnecessary trimming can help, yet the major variables remain tissue damage and the path the aerosol takes toward your eyes.</p><p><strong>The practical rule:</strong> use a very sharp knife, cut without crushing or chopping violently, run a hood or fan that sends air away from your face, and use sealed goggles if you are particularly sensitive. These methods act on the mechanism rather than relying on hard-to-explain folklore.</p><p>For a practical test, change only one variable at a time and watch the result. In home cooking, piece size, food variety, water, and heat output can substantially change timing. A repeatable method is more useful than stacking several contradictory tricks without knowing which one actually helped.</p><p>For a practical test, change only one variable at a time and watch the result. In home cooking, piece size, food variety, water, and heat output can substantially change timing. A repeatable method is more useful than stacking several contradictory tricks without knowing which one actually helped.</p><p>For a practical test, change only one variable at a time and watch the result. In home cooking, piece size, food variety, water, and heat output can substantially change timing. A repeatable method is more useful than stacking several contradictory tricks without knowing which one actually helped.</p>",
+  "faq": [
+    {
+      "question": "What chemical makes onions cause tears?",
+      "answer": "The main lachrymatory factor is syn-propanethial-S-oxide, formed after onion cells are ruptured."
+    },
+    {
+      "question": "Does a sharp knife really help?",
+      "answer": "Yes. High-speed research found less spray with sharper blades and gentler cutting."
+    },
+    {
+      "question": "Should I cut an onion under water?",
+      "answer": "It may reduce irritant exposure, but it makes knife work slippery and awkward; ventilation and a sharp knife are safer practical options."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Library of Congress — Why does chopping an onion make you cry?",
+      "url": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/",
+      "note": "Explains lachrymatory-factor synthase and syn-propanethial-S-oxide as the tear-inducing mechanism."
+    },
+    {
+      "name": "PNAS / PMC — Droplet outbursts from onion cutting",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12557780/",
+      "note": "High-speed study showing sharper blades and gentler cutting reduce tear-inducing droplet release."
+    },
+    {
+      "name": "Cornell Chronicle — Mist opportunity reveals how onions make cooks cry",
+      "url": "https://news.cornell.edu/stories/2025/10/mist-opportunity-reveals-how-onions-make-cooks-cry",
+      "note": "Summarizes 2025 Cornell research on aerosol release and the practical sharp-knife, gentle-cut recommendation."
+    }
+  ],
+  "image": {
+    "concept": "Person slicing an onion with a sharp chef knife beside a small kitchen fan pulling air away, realistic editorial food photography, no text.",
+    "alt": "Onion being cut with a sharp knife while airflow carries vapors away"
+  },
+  "status": "publish"
+}
