@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1134-why-some-foods-explode-in-microwave",
+  "article_number": 1134,
+  "translation_group": "1134-why-foods-explode-in-microwave",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; cooking science and burn prevention for microwave use.",
+  "title": "Why Do Some Foods Explode in the Microwave?",
+  "slug": "why-some-foods-explode-in-microwave",
+  "seo": {
+    "title": "Why Do Foods Explode in the Microwave?",
+    "meta_description": "When steam or hot liquid is trapped under a skin, shell, or membrane, pressure can rise rapidly until that barrier ruptures.",
+    "search_intent": "Understand why eggs and other enclosed foods can burst in a microwave and how to reduce the risk."
+  },
+  "excerpt": "Many foods that burst in a microwave share one feature: a barrier that makes it hard for steam to escape. Shells, skins, and membranes can trap pressure while the interior heats rapidly. When the barrier fails, hot steam and food can be released suddenly.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "microwave",
+      "cooking",
+      "food-safety"
+    ],
+    "article_types": [
+      "cooking-science",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>Foods tend to explode in a microwave when rapid heating creates steam or internal expansion faster than a shell, skin, or membrane can release it.</strong> Microwave energy can heat moist regions inside food quickly. If that moisture becomes vapor behind a restrictive barrier, pressure rises until the structure fails.</p><p>A whole egg is the classic example. The shell and internal membranes restrict steam escape, so rupture can be sudden. Even after the shell is removed, the membrane surrounding an intact yolk can trap pressure during microwave heating.</p><h2>The risky combination is rapid heating plus a closed barrier</h2><p>A potato, tomato, sausage, or chestnut has a skin capable of retaining some steam. Not every one will burst and not every skin has the same strength, but the mechanism is similar: the interior expands and pressure seeks a path out.</p><p>That is why many microwave directions call for piercing or cutting certain foods first. The opening does not help microwaves “get inside”; it simply gives steam an escape path before pressure becomes excessive.</p><h2>Eggs have a second barrier: the yolk membrane</h2><p>University of Georgia Extension explains that an egg should not be microwaved in its shell because steam pressure can make it explode. It also recommends breaking the yolk membrane when microwaving an unbeaten egg because that membrane can behave like a small sealed pouch.</p><p>Whisking yolk and white together removes that separate chamber and distributes the structure. Scrambled eggs are therefore generally more predictable than trying to hard-cook an intact egg in the microwave.</p><h2>A burst can occur after the microwave stops</h2><p>The hazard does not necessarily end when the magnetron switches off. Very hot food can retain pressurized steam inside a membrane, pocket, or cavity. Cutting, piercing, or moving it can trigger sudden release. Reheated whole hard-cooked eggs are a known example of delayed bursting and burn risk.</p><p>Allow standing time, handle hot food with utensils, and open covers away from your face. For containers, follow venting instructions and never heat ordinary sealed containers with no route for steam to escape.</p><h2>Some splattering is boiling rather than pressure rupture</h2><p>Fatty or sugary sauces can form large bubbles and splatter as they boil even without a sealed skin. A vented microwave cover can reduce mess and retain moisture, but the vent matters because steam still needs a controlled route out.</p><p><strong>The practical rule:</strong> do not microwave eggs in the shell; break restrictive membranes or skins when the recipe calls for it; vent covers; and let very hot food stand before handling. The goal is to give steam a controlled exit before pressure accumulates.</p><p>If a food or material behaves differently from what you expect, stop the oven and check the manufacturer instructions before repeating the test. Microwave ovens differ in wattage, field distribution, and cavity design, so a practice tolerated by one model should not automatically become a universal rule.</p><p>If a food or material behaves differently from what you expect, stop the oven and check the manufacturer instructions before repeating the test. Microwave ovens differ in wattage, field distribution, and cavity design, so a practice tolerated by one model should not automatically become a universal rule.</p><p>If a food or material behaves differently from what you expect, stop the oven and check the manufacturer instructions before repeating the test. Microwave ovens differ in wattage, field distribution, and cavity design, so a practice tolerated by one model should not automatically become a universal rule.</p><p>If a food or material behaves differently from what you expect, stop the oven and check the manufacturer instructions before repeating the test. Microwave ovens differ in wattage, field distribution, and cavity design, so a practice tolerated by one model should not automatically become a universal rule.</p><p>If a food or material behaves differently from what you expect, stop the oven and check the manufacturer instructions before repeating the test. Microwave ovens differ in wattage, field distribution, and cavity design, so a practice tolerated by one model should not automatically become a universal rule.</p>",
+  "faq": [
+    {
+      "question": "Why does an egg explode?",
+      "answer": "The shell or yolk membrane can trap steam until pressure ruptures the barrier."
+    },
+    {
+      "question": "Does piercing a potato help?",
+      "answer": "Creating small openings gives steam a route to escape during heating."
+    },
+    {
+      "question": "Can food burst after I take it out?",
+      "answer": "Yes. Some foods retain pressurized steam or very hot pockets that can release when cut or moved."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Cooking with Microwave Ovens",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cooking-microwave-ovens",
+      "note": "Official guidance on microwave heating, containers, aluminum foil, cold spots, standing time and food safety."
+    },
+    {
+      "name": "University of Georgia Extension — Microwaved Eggs Can Burst With Flavor, or Just Explode",
+      "url": "https://fieldreport.caes.uga.edu/news/microwaved-eggs-can-burst-with-flavor-or-just-explode/",
+      "note": "Extension explanation of pressure buildup in eggs and yolk membranes during microwave heating."
+    },
+    {
+      "name": "Cornell Chronicle — Why some microwaved foods explode",
+      "url": "https://news.cornell.edu/stories/1998/06/why-some-microwaved-foods-explode",
+      "note": "Research explanation of rapid internal heating, steam and pressure in foods with restrictive surfaces."
+    }
+  ],
+  "image": {
+    "concept": "Whole egg, potato, tomato and sausage shown before microwave cooking with small venting cuts, realistic educational food photography, no explosion, no text.",
+    "alt": "Foods with skins or membranes that can trap pressure in a microwave"
+  },
+  "status": "publish"
+}

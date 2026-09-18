@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "en-1133-can-you-put-aluminum-foil-in-microwave-what-happens",
+  "article_number": 1133,
+  "translation_group": "1133-aluminum-foil-microwave-what-happens",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; microwave material safety based on official guidance and appliance instructions.",
+  "title": "Can You Put Aluminum Foil in the Microwave? What Actually Happens",
+  "slug": "can-you-put-aluminum-foil-in-microwave-what-happens",
+  "seo": {
+    "title": "Can You Put Aluminum Foil in a Microwave?",
+    "meta_description": "Metal reflects microwaves and sharp or wrinkled foil can arc. USDA permits only limited foil shielding when the oven manufacturer allows it.",
+    "search_intent": "Understand why foil can spark in a microwave and the narrow circumstances in which a small smooth piece may be used as shielding."
+  },
+  "excerpt": "As a general rule, do not put a sheet or container of aluminum foil in a microwave unless the instructions specifically allow it. Metal reflects microwave energy, and wrinkles or sharp edges can concentrate the electric field and cause arcing. USDA allows small smooth shields in limited situations.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "microwave",
+      "cooking",
+      "food-safety"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-science"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>Aluminum foil should not be treated like an ordinary microwave-safe material.</strong> Microwaves do not pass through metal the way they pass through glass or many plastics; metal reflects the electromagnetic field. At thin edges, points, and wrinkles, that field can become concentrated enough to produce electrical arcing — the familiar sparks people sometimes see after putting metal in a microwave by mistake.</p><p>That does not mean every tiny amount of foil instantly causes a fire. USDA recognizes a narrow use for small, smooth pieces of foil to shield areas of food that would otherwise overcook. The first condition, however, is that your microwave manual permits the practice.</p><h2>A large sheet changes how the oven can deliver energy</h2><p>If food is completely wrapped in foil, microwave energy cannot reach it effectively. USDA advises against putting fully foil-wrapped food or covered metal pans in the microwave because the food is not available to absorb the energy. Running a microwave without an appropriate absorbing load can also damage the oven.</p><p>That is why a metal container is not interchangeable with a glass dish. Some commercial foil packages are specifically engineered with microwave directions; outside such manufacturer-tested instructions, improvising with metal is a poor idea.</p><h2>Wrinkles and sharp edges make arcing more likely</h2><p>When foil is used as a shield, USDA recommends new, smooth foil. Crumpled foil creates many edges and points where the electric field can concentrate. The guidance also says foil should remain at least one inch from the oven walls.</p><p>If the microwave has metal shelves or a metal turntable, restrictions can differ. The owner’s manual matters because cavity design determines which combinations are acceptable. A technique approved for one model should not be assumed safe in another.</p><h2>The permitted use is small and functional</h2><p>Shielding means covering a limited area that heats too quickly, such as a thin end of a food. USDA advises covering no more than one-quarter of the food, shaping the foil smoothly to the surface, and avoiding protruding edges.</p><p>That is very different from lining the plate, covering a whole dish, or placing a foil ball inside. If you see arcing, stop the microwave immediately and remove the foil only when it is safe to do so.</p><h2>Shiny side versus dull side does not solve the issue</h2><p>USDA notes that it does not matter which side faces outward. Safety depends on amount, shape, clearance from the walls, and oven design rather than which surface looks shiny. A first attempt without sparks also does not prove a setup will always be safe.</p><p><strong>The practical rule:</strong> avoid foil unless the manual or food package gives explicit instructions. When a small shield is permitted, keep it smooth, fitted closely to the food, and away from walls and metal components; stop immediately if arcing occurs.</p><p>If a food or material behaves differently from what you expect, stop the oven and check the manufacturer instructions before repeating the test. Microwave ovens differ in wattage, field distribution, and cavity design, so a practice tolerated by one model should not automatically become a universal rule.</p><p>If a food or material behaves differently from what you expect, stop the oven and check the manufacturer instructions before repeating the test. Microwave ovens differ in wattage, field distribution, and cavity design, so a practice tolerated by one model should not automatically become a universal rule.</p><p>If a food or material behaves differently from what you expect, stop the oven and check the manufacturer instructions before repeating the test. Microwave ovens differ in wattage, field distribution, and cavity design, so a practice tolerated by one model should not automatically become a universal rule.</p><p>If a food or material behaves differently from what you expect, stop the oven and check the manufacturer instructions before repeating the test. Microwave ovens differ in wattage, field distribution, and cavity design, so a practice tolerated by one model should not automatically become a universal rule.</p><p>If a food or material behaves differently from what you expect, stop the oven and check the manufacturer instructions before repeating the test. Microwave ovens differ in wattage, field distribution, and cavity design, so a practice tolerated by one model should not automatically become a universal rule.</p>",
+  "faq": [
+    {
+      "question": "Why does foil spark in a microwave?",
+      "answer": "Edges and wrinkles can concentrate the electric field and cause electrical arcing."
+    },
+    {
+      "question": "Can a small piece ever be used?",
+      "answer": "USDA allows limited smooth foil shielding in certain situations, but only when the microwave manufacturer permits it."
+    },
+    {
+      "question": "Does the shiny side matter?",
+      "answer": "No. USDA says shiny versus dull orientation is not the deciding factor."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Cooking with Microwave Ovens",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/cooking-microwave-ovens",
+      "note": "Official guidance on microwave heating, containers, aluminum foil, cold spots, standing time and food safety."
+    }
+  ],
+  "image": {
+    "concept": "Microwave with a small smooth foil shield on a food edge versus crumpled foil sparking conceptually, realistic kitchen photography, no text.",
+    "alt": "Limited foil shielding compared with crumpled foil in a microwave"
+  },
+  "status": "publish"
+}
