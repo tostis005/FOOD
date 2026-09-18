@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1151-why-green-ring-around-hard-boiled-egg-yolk",
+  "article_number": 1151,
+  "translation_group": "1151-green-ring-hard-boiled-egg",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; cooking science and food safety based on USDA guidance.",
+  "title": "Why a Green Ring Appears Around a Hard-Boiled Egg Yolk",
+  "slug": "why-green-ring-around-hard-boiled-egg-yolk",
+  "seo": {
+    "title": "Why Hard-Boiled Egg Yolks Get a Green Ring",
+    "meta_description": "The green ring forms when sulfur compounds from the white react with iron in the yolk, especially after excessive heating. It is safe to eat.",
+    "search_intent": "Understand what causes the green-gray edge on hard-cooked yolks, whether it is safe, and how cooking and cooling reduce it."
+  },
+  "excerpt": "A green-gray ring around a hard-cooked yolk is not mold or proof that the egg is spoiled. USDA says it forms when sulfur and iron compounds react, especially after excessive heat or cooking time. The color is safe to eat.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "hard-boiled-eggs",
+      "food-science",
+      "appearance"
+    ],
+    "article_types": [
+      "cooking-science",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>The green or gray ring that sometimes forms around a hard-cooked yolk is a chemical reaction, not a sign of spoilage.</strong> USDA explains that excessive cooking allows sulfur compounds in the egg to react with iron at the surface of the yolk. The result is a visible greenish layer at the boundary between yolk and white.</p><p>The appearance may be unappealing, but USDA confirms the green color is safe to consume. The main drawback is culinary: an egg with a strong ring has often received more heat than necessary, so the white may be rubbery and the yolk drier.</p><h2>The sulfur comes largely from proteins in the white</h2><p>As egg proteins heat, their structures change and sulfur-containing compounds can be released. Some of those compounds move toward the yolk, particularly when the egg remains hot for a prolonged period.</p><p>The yolk contains iron. Where the sulfur-containing compounds and iron meet, a green-gray iron-sulfur compound forms. That is why the discoloration concentrates on the yolk surface instead of appearing evenly through the entire egg.</p><h2>More time and more heat make the ring more likely</h2><p>An egg kept at a hard rolling boil for a long time remains at high temperature longer than needed. That provides more time for sulfur compounds to form, move, and react with iron.</p><p>A gentler method — bringing water to a boil, then removing or reducing the heat and letting eggs finish in retained heat or at a bare simmer — limits thermal exposure. Exact timing still depends on egg size and method.</p><h2>Rapid cooling helps too</h2><p>After an egg leaves hot water, stored heat continues cooking the center. Transferring eggs immediately to cold water or an ice bath brings the temperature down faster and shortens the period during which the reaction can continue.</p><p>Cooling also has a practical benefit: the eggs become easier to handle sooner, and a batch that was properly cooked does not continue overcooking while it sits in the hot pan.</p><h2>Iron-rich cooking water can contribute</h2><p>USDA notes that high iron content in the cooking water can also promote green color. In most kitchens, excess cooking time is the easier variable to correct, but if the ring appears consistently even with moderate cooking, water composition is another possibility.</p><p>Testing one batch with different water can help identify that factor. There is no need to add ingredients intended to “bleach” the yolk; controlling heat and time is the primary fix.</p><h2>A green ring is different from signs of spoilage</h2><p>Location and context matter. A uniform ring around a firm yolk after prolonged cooking fits this normal reaction. Unusual odors, pink or iridescent egg whites, and other abnormal changes are separate issues and should not be explained away as the same harmless phenomenon.</p><p><strong>The practical rule:</strong> use moderate cooking, match time to egg size, and cool promptly. If a green ring appears, the egg is safe to eat; treat the color mainly as feedback that the next batch can use a little less heat.</p><p>To test the cause, change one variable on the next batch. Keep the same quantity and equipment, and change only timing, cooling, or handling technique. That comparison makes it easier to distinguish a real effect from an apparent improvement caused by several simultaneous changes.</p><p>To test the cause, change one variable on the next batch. Keep the same quantity and equipment, and change only timing, cooling, or handling technique. That comparison makes it easier to distinguish a real effect from an apparent improvement caused by several simultaneous changes.</p><p>To test the cause, change one variable on the next batch. Keep the same quantity and equipment, and change only timing, cooling, or handling technique. That comparison makes it easier to distinguish a real effect from an apparent improvement caused by several simultaneous changes.</p><p>To test the cause, change one variable on the next batch. Keep the same quantity and equipment, and change only timing, cooling, or handling technique. That comparison makes it easier to distinguish a real effect from an apparent improvement caused by several simultaneous changes.</p>",
+  "faq": [
+    {
+      "question": "Is the green ring dangerous?",
+      "answer": "No. USDA says the sulfur-iron green discoloration is safe to eat."
+    },
+    {
+      "question": "Why is it only around the yolk?",
+      "answer": "That boundary is where sulfur compounds moving from the white meet iron in the yolk."
+    },
+    {
+      "question": "How can I prevent it?",
+      "answer": "Use gentler cooking and cool the eggs rapidly when they are done."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — What causes a green ring around the yolk of a hard-cooked egg?",
+      "url": "https://ask.fsis.usda.gov/article/What-causes-a-green-ring-around-the-yolk-of-a-hard-cooked-egg",
+      "note": "USDA explains the sulfur-iron reaction, overcooking, high-iron water, and confirms the green color is safe to eat."
+    },
+    {
+      "name": "USDA FSIS — Shell Eggs from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "note": "Official egg appearance and safety guidance, including green rings on hard-cooked yolks."
+    }
+  ],
+  "image": {
+    "concept": "Hard-boiled egg cut in half, one yolk clean yellow and one with a thin green-gray ring, realistic food photography, no text.",
+    "alt": "Hard-boiled egg with a thin green ring around the yolk"
+  },
+  "status": "publish"
+}
