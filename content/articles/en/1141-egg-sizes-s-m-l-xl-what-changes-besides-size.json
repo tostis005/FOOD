@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1141-egg-sizes-s-m-l-xl-what-changes-besides-size",
+  "article_number": 1141,
+  "translation_group": "1141-eu-egg-sizes-s-m-l-xl",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "European Union; official Class A egg grading by weight with practical cooking implications.",
+  "title": "Egg Sizes S, M, L and XL: What Changes Besides Size?",
+  "slug": "egg-sizes-s-m-l-xl-what-changes-besides-size",
+  "seo": {
+    "title": "Egg Sizes S, M, L and XL: Weights and Differences",
+    "meta_description": "In the EU, S is under 53 g; M 53–<63 g; L 63–<73 g; XL 73 g or more. Size changes quantities and timing, not quality by itself.",
+    "search_intent": "Understand official S, M, L and XL egg weight ranges and how size affects recipes, portions, and cooking."
+  },
+  "excerpt": "S, M, L, and XL are weight classes, not quality grades. EU rules set S below 53 g, M at 53–<63 g, L at 63–<73 g, and XL at 73 g or more. A larger egg provides more total food and can change a recipe, but it is not automatically fresher or more nutritious per gram.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "size",
+      "labeling",
+      "baking"
+    ],
+    "article_types": [
+      "labels",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "labels"
+  },
+  "content_html": "<p><strong>S, M, L, and XL tell you how much an egg weighs, not how good it is.</strong> In the European Union, Class A eggs are graded as follows: S below 53 grams; M from 53 to under 63; L from 63 to under 73; and XL at 73 grams or more.</p><p>The letter matters in cooking because a recipe using several eggs can accumulate a substantial difference in liquid, protein, and fat if medium eggs are replaced with extra-large eggs without adjustment.</p><h2>The class is based on the weight of the whole egg</h2><p>The stated weight includes shell, white, and yolk. Two eggs in the same class do not weigh exactly the same; they fall inside a range. That is why professional formulas often specify grams of egg without shell when precision matters.</p><p>Size classes also do not describe hen age, freshness, farming method, or commercial quality. Those are communicated through other labels and standards.</p><h2>A larger egg gives you more total food, not necessarily more per 100 grams</h2><p>Compare one XL egg with one S egg and the XL provides more food simply because it weighs more. That means more total protein, fat, and energy per egg. But composition per 100 grams can be broadly similar; size does not transform the egg into a different food.</p><p>The relative proportion of white and yolk can also vary among individual eggs. In everyday cooking that variation is often minor, but in meringues, custards, and tightly balanced formulas it can matter.</p><h2>In baking, changing size can alter structure</h2><p>Egg contributes water, proteins, emulsifiers, and fat. Using five XL eggs in a formula developed for five M eggs can add a meaningful amount of liquid. A cake may become wetter, custard may take longer to set, or dough may need more flour.</p><p>If you do not have the specified size, crack the eggs, mix gently, and weigh the amount needed. That is more precise than trying to remove an arbitrary spoonful of white.</p><h2>For boiled or fried eggs, size mainly changes timing</h2><p>An XL egg generally takes somewhat longer to heat through than an S egg under the same conditions. For boiling, poaching, or baking, adjust time and judge against the desired yolk texture rather than assuming one timing fits every size.</p><p><strong>The practical rule:</strong> read the size letter as weight information. Weigh eggs for sensitive recipes and adjust time or portion for simple cooking. XL does not mean “extra quality,” and S does not mean an inferior egg.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p>",
+  "faq": [
+    {
+      "question": "How much does an EU medium egg weigh?",
+      "answer": "From 53 g to under 63 g."
+    },
+    {
+      "question": "Does XL mean higher quality?",
+      "answer": "No. It means 73 g or more; quality is assessed separately."
+    },
+    {
+      "question": "Can I substitute L for M in baking?",
+      "answer": "Usually, but several substitutions can materially change total egg quantity; weighing is more precise."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EUR-Lex — Commission Delegated Regulation (EU) 2023/2465",
+      "url": "https://eur-lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32023R2465",
+      "note": "Current EU Class A egg weight categories: S, M, L and XL."
+    },
+    {
+      "name": "USDA FSIS — Shell Eggs from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "note": "Official guidance on yolk color, shell appearance, egg safety and quality."
+    }
+  ],
+  "image": {
+    "concept": "Four eggs of visibly increasing size beside a kitchen scale, realistic food photography, no printed text on eggs.",
+    "alt": "Four different egg sizes beside a kitchen scale"
+  },
+  "status": "publish"
+}

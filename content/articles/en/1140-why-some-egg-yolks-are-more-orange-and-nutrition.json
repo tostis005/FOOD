@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "id": "en-1140-why-some-egg-yolks-are-more-orange-and-nutrition",
+  "article_number": 1140,
+  "translation_group": "1140-yolk-color-nutrition",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; food science and visual interpretation based on USDA guidance.",
+  "title": "Why Some Egg Yolks Are More Orange — and Whether They Are More Nutritious",
+  "slug": "why-some-egg-yolks-are-more-orange-and-nutrition",
+  "seo": {
+    "title": "Orange vs. Yellow Egg Yolks: What Color Means",
+    "meta_description": "Yolk color mainly reflects pigments in the hen's diet. A deeper orange yolk does not by itself prove the egg is more nutritious overall.",
+    "search_intent": "Understand what determines yolk color and whether a deeper orange shade indicates better nutrition."
+  },
+  "excerpt": "A deeper orange yolk usually means the hen consumed more yellow-orange pigments such as carotenoids from particular feed ingredients. USDA says diet determines yolk shade; color alone is not an overall nutrition score.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "yolk-color",
+      "nutrition",
+      "food-science"
+    ],
+    "article_types": [
+      "cooking-science",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>Yolk color is driven mainly by pigments in the hen’s diet, not by an automatic difference in overall egg quality.</strong> USDA explains that feeds rich in yellow-orange plant pigments, such as yellow corn or marigold petals, produce darker yolks than diets containing fewer of those pigments.</p><p>That makes color a clue about some feed ingredients, but not a complete nutritional measurement. A deep orange yolk does not automatically mean more protein, less cholesterol, or a better nutrient profile across the board.</p><h2>Carotenoids account for much of the visible color</h2><p>Many plants contain carotenoids and xanthophylls that can accumulate in yolk. A diet containing more of certain pigments can shift yolk color from pale yellow toward deep orange while the egg remains entirely normal.</p><p>USDA also notes that artificial color additives are not permitted in eggs. Producers can, however, formulate feed with naturally pigmented ingredients that influence yolk appearance.</p><h2>Color and nutrition can overlap in details, but they are not the same thing</h2><p>Some carotenoids are nutrients, and a feed that changes yolk color may alter their concentration. But that relationship does not turn your eyes into a laboratory test. Two yolks of similar color can still differ in fatty-acid profile, vitamins, and other nutrients.</p><p>Enriched eggs — omega-3 eggs, for example — are produced through specific feeding strategies, but that attribute should be verified on the label. It cannot be reliably inferred from orange color alone.</p><h2>Production system does not determine yolk shade by itself</h2><p>A free-range hen may consume plants and insects in addition to formulated feed, which can affect pigments, but an indoor hen can also produce a very orange yolk if the feed contains those pigments. Using yolk color to guess whether an egg is organic, free range, or barn-raised is therefore unreliable.</p><p>Production method should be read from the actual label or producer code, not from yolk color.</p><h2>Color does not reliably indicate freshness or safety either</h2><p>A vivid yolk can be fresh or older; a pale yolk can be fresh too. Freshness depends on time and storage, while safety depends on handling, refrigeration, and cooking. USDA treats diet-driven color variation as normal.</p><p><strong>The practical rule:</strong> enjoy yolk color as a visual and feed-related characteristic, but do not use it as an overall nutrition score. If you want omega-3 enrichment, a particular production system, or another defined attribute, read the label.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p><p>In cooking, egg size and composition affect timing and the balance of white and yolk. When a recipe depends strongly on structure — cakes, custards, meringues, or enriched doughs — use the specified size or weigh the egg without its shell rather than assuming every egg is interchangeable.</p>",
+  "faq": [
+    {
+      "question": "Is an orange yolk more nutritious?",
+      "answer": "Not necessarily overall. Color mainly reflects feed pigments, not the full nutritional profile."
+    },
+    {
+      "question": "What makes a yolk darker?",
+      "answer": "Carotenoids and related pigments in the hen’s diet are major contributors."
+    },
+    {
+      "question": "Is a pale yolk lower quality?",
+      "answer": "Not automatically. Pale yolks can be normal and safe; color is not an overall quality grade."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Shell Eggs from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "note": "Official guidance on yolk color, shell appearance, egg safety and quality."
+    }
+  ],
+  "image": {
+    "concept": "Egg yolks ranging from pale yellow to deep orange in identical white dishes, realistic editorial food photography, no text.",
+    "alt": "Egg yolks ranging from pale yellow to deep orange"
+  },
+  "status": "publish"
+}
