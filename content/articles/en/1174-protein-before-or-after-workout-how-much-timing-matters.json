@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1174-protein-before-or-after-workout-how-much-timing-matters",
+  "article_number": 1174,
+  "translation_group": "1174-protein-before-or-after-workout",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; sports nutrition for healthy adults performing resistance training.",
+  "title": "Protein Before or After a Workout? How Much Timing Really Matters",
+  "slug": "protein-before-or-after-workout-how-much-timing-matters",
+  "seo": {
+    "title": "Protein Before or After a Workout: What Matters More",
+    "meta_description": "Protein before or after training can support muscle protein synthesis, but direct trials show little difference in lean-mass gains. Total daily protein matters more.",
+    "search_intent": "Understand whether protein is better before or after training and how timing compares with total daily protein intake in importance."
+  },
+  "excerpt": "Protein close to a workout is practical, but there is no narrow window that determines results. A meta-analysis of direct before-versus-after trials found no important difference in lean-mass gains. Total daily protein and sensible distribution remain higher priorities.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "protein",
+      "sports-nutrition",
+      "timing"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "comparisons"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>For building muscle, consuming enough protein across the day matters much more than hitting a narrow window immediately before or after training.</strong> Protein near a workout can be useful and convenient, but studies directly comparing the two options do not show an important, consistent difference in lean-mass gain.</p><p>A recent meta-analysis that included only direct pre-versus-post comparisons found no significant difference in lean body mass. There was a signal in one lower-body strength outcome, but the authors concluded that more evidence is needed before claiming a robust advantage for pre-workout protein.</p><h2>Where did the “anabolic window” idea come from?</h2><p>Resistance training increases muscle sensitivity to amino acids and stimulates muscle protein synthesis. It was reasonable to propose that protein immediately after training might make better use of this response and that waiting an hour or two would “miss” the opportunity.</p><p>Later research shows the exercise-induced anabolic response lasts far longer than a few minutes. Pre-exercise nutrition also matters: someone who ate a protein-containing meal before training continues digesting and absorbing amino acids throughout and after the session.</p><h2>If you train after several hours without food, post-workout protein becomes more useful</h2><p>When many hours have passed since a protein-rich meal, eating protein after training ensures amino acids are available during a period of elevated muscle-protein synthesis. The reason is not that a clock closes a door; it is that there has already been a long gap since the last protein feeding.</p><p>By contrast, if you ate a complete meal containing protein one or two hours before training, there is no urgent need to drink a shake the moment the session ends. A normal meal can follow according to your schedule.</p><h2>Pre-workout protein works too</h2><p>A protein-containing meal or shake before exercise supplies amino acids that remain available during and after the session. Direct trials do not support the idea that protein is somehow wasted because it was consumed before the workout.</p><p>Some people experience gastrointestinal discomfort from a large meal close to exercise. In that case, a smaller portion, easier-to-digest food, or moving the meal earlier can improve comfort without sacrificing the overall strategy.</p><h2>Total daily protein is the first question</h2><p>Someone can time a shake perfectly and still consume too little protein over the entire day. Training adaptation depends on having sufficient amino acids available repeatedly, not on concentrating all attention on one serving.</p><p>Adults doing resistance training often benefit from more protein than the minimum requirement for sedentary adults. The exact amount depends on goals, total energy intake, age, and individual context, so a general timing article should not turn one range into a universal prescription.</p><h2>Spreading protein across meals is a reasonable strategy</h2><p>Instead of consuming nearly all protein at dinner, distributing quality protein sources across the day creates multiple opportunities to stimulate muscle protein synthesis. A pre- or post-workout meal can fit naturally into that distribution without requiring an extra feeding when the daily total is already adequate.</p><p>Eggs, dairy, fish, meat, soy foods, legumes within a varied diet, and supplements when convenient can all contribute. A protein shake is a tool rather than a requirement.</p><h2>What should you actually do?</h2><p>If convenient, include a meaningful protein serving within the hours around training. If you ate shortly before, you do not need to sprint to a shake afterward. If you train fasted or many hours have passed since your last meal, post-workout protein has greater practical value.</p><p><strong>The practical rule:</strong> first make sure daily protein intake is sufficient, then distribute it sensibly across meals. Protein before and after training are both valid options, and current evidence does not justify obsessing over a window measured in minutes.</p><p>As always in nutrition, the useful number depends on the full context: total daily intake, diet quality, health status, and goal. A strategy can be appropriate for one person and unnecessary for another, so general guidance should be kept separate from individualized clinical advice.</p><p>As always in nutrition, the useful number depends on the full context: total daily intake, diet quality, health status, and goal. A strategy can be appropriate for one person and unnecessary for another, so general guidance should be kept separate from individualized clinical advice.</p>",
+  "faq": [
+    {
+      "question": "Is protein better before or after training?",
+      "answer": "Direct studies show little meaningful difference in lean-mass gain. Total daily intake and distribution are more important."
+    },
+    {
+      "question": "Do I need a shake immediately after training?",
+      "answer": "Not if you ate a protein-rich meal relatively close to training; the anabolic response lasts much longer than a few minutes."
+    },
+    {
+      "question": "What if I train fasted?",
+      "answer": "Post-workout protein becomes more practical because more time has passed since the last amino-acid intake."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Does Protein Ingestion Timing Affect Exercise-Induced Adaptations?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40647175/",
+      "note": "Systematic review and meta-analysis directly comparing protein before versus after resistance training; no important difference in lean mass."
+    },
+    {
+      "name": "PubMed — Effects of Timing and Types of Protein Supplementation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38039960/",
+      "note": "Network meta-analysis of 116 trials examining protein timing, muscle mass, strength and performance."
+    },
+    {
+      "name": "PubMed — ISSN position stand: nutrient timing",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28919842/",
+      "note": "Sports-nutrition position stand emphasizing total daily intake and practical distribution while discussing peri-workout protein."
+    }
+  ],
+  "image": {
+    "concept": "Protein-rich meal and shake positioned on either side of a workout notebook and clock, realistic editorial sports-nutrition photography, no brand text.",
+    "alt": "Protein intake represented before and after a resistance-training session"
+  },
+  "status": "publish"
+}

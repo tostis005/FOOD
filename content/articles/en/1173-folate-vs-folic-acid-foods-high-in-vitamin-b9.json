@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1173-folate-vs-folic-acid-foods-high-in-vitamin-b9",
+  "article_number": 1173,
+  "translation_group": "1173-folate-vs-folic-acid-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; vitamin B9, dietary sources, and differences between natural folate and folic acid.",
+  "title": "Folate vs. Folic Acid: Foods High in Vitamin B9 and the Difference Between Them",
+  "slug": "folate-vs-folic-acid-foods-high-in-vitamin-b9",
+  "seo": {
+    "title": "Folate vs. Folic Acid: Differences and Food Sources",
+    "meta_description": "Folate is the general term for vitamin B9; folic acid is a form used in supplements and fortification. Leafy greens, legumes, asparagus and fortified grains are major sources.",
+    "search_intent": "Understand the difference between folate and folic acid, what dietary folate equivalents mean, and which foods provide the most vitamin B9."
+  },
+  "excerpt": "Folate is the general term for vitamin B9 and refers to forms found naturally in food, while folic acid is a stable form used in many supplements and fortified foods. Leafy greens, legumes, asparagus, liver, and selected enriched grains are important sources.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "folate",
+      "folic-acid",
+      "vitamin-b9"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "nutrient-sources"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Folate and folic acid are closely related, but they are not exactly the same thing.</strong> “Folate” is the general term for vitamin B9 and is also commonly used for forms naturally present in food. Folic acid is a stable oxidized form used widely in fortified foods and dietary supplements.</p><p>The body needs vitamin B9 to make DNA and RNA, support cell division, and participate in amino-acid metabolism. Requirements therefore become particularly important during periods of rapid cell growth, including pregnancy.</p><h2>Why labels and recommendations use dietary folate equivalents</h2><p>Folic acid is more bioavailable than much of the naturally occurring folate in food. To compare these sources, U.S. nutrition recommendations use micrograms of DFE, or dietary folate equivalents.</p><p>NIH explains that 1 mcg DFE equals 1 mcg of naturally occurring food folate, while about 0.6 mcg of folic acid consumed with food equals 1 mcg DFE. A supplement number therefore cannot always be compared one-for-one with natural food folate.</p><h2>Dark leafy vegetables are among the richest natural sources</h2><p>Spinach, other dark greens, asparagus, and Brussels sprouts provide meaningful folate. NIH lists roughly 131 mcg DFE in one-half cup of cooked spinach and about 89 mcg in four cooked asparagus spears.</p><p>That does not mean one vegetable needs to carry the entire diet. A varied vegetable intake also supplies vitamin C, potassium, fiber, carotenoids, and many other nutrients.</p><h2>Legumes are another particularly useful source</h2><p>Beans, peas, and other legumes provide folate together with fiber and plant protein. NIH lists about 105 mcg DFE in one-half cup of cooked black-eyed peas, while kidney beans also make a meaningful contribution.</p><p>Combining legumes with leafy vegetables makes it possible to obtain substantial folate without depending only on fortified foods.</p><h2>Liver, citrus fruit, and nuts also contribute</h2><p>Beef liver is a highly concentrated source, while fruit such as oranges and papaya provides smaller but useful amounts. Peanuts and other nuts or seeds add folate across the day as well.</p><p>Concentration is not the only reason to choose a food. Portion size, frequency, preferences, and other nutrients matter. A very folate-rich food such as liver does not need to be eaten every day.</p><h2>Fortified foods contain added folic acid</h2><p>In countries with fortification programs, selected breads, flours, pasta, rice, and breakfast cereals can provide added folic acid. The amount varies by country and product, so the ingredient and nutrition labels are useful references.</p><p>In the United States, mandatory fortification of many enriched grains began in 1998 to reduce neural-tube defects. Other countries, including South Africa, also have mandatory folic-acid fortification programs.</p><h2>How much does an adult need?</h2><p>NIH sets the adult recommendation at 400 mcg DFE per day. Pregnancy raises the recommendation to 600 mcg DFE and breastfeeding to 500. People who could become pregnant also receive specific folic-acid recommendations from supplements or fortified foods because adequate intake before and early in pregnancy lowers neural-tube-defect risk.</p><p>High supplemental doses should not be assumed to be better. An upper intake level exists for synthetic folate from supplements and fortified foods because excessive intake can, among other concerns, mask vitamin B12 deficiency.</p><p><strong>The practical rule:</strong> folate describes vitamin B9 and its naturally occurring forms, while folic acid is a more bioavailable form used mainly in fortification and supplements. For everyday eating, leafy greens, legumes, asparagus, fruit, and fortified foods can supply a substantial share of requirements.</p><p>As always in nutrition, the useful number depends on the full context: total daily intake, diet quality, health status, and goal. A strategy can be appropriate for one person and unnecessary for another, so general guidance should be kept separate from individualized clinical advice.</p><p>As always in nutrition, the useful number depends on the full context: total daily intake, diet quality, health status, and goal. A strategy can be appropriate for one person and unnecessary for another, so general guidance should be kept separate from individualized clinical advice.</p><p>As always in nutrition, the useful number depends on the full context: total daily intake, diet quality, health status, and goal. A strategy can be appropriate for one person and unnecessary for another, so general guidance should be kept separate from individualized clinical advice.</p>",
+  "faq": [
+    {
+      "question": "Are folate and folic acid the same?",
+      "answer": "They are related forms of vitamin B9, but folic acid is a stable form used in fortification and supplements and has different bioavailability."
+    },
+    {
+      "question": "Which foods are high in folate?",
+      "answer": "Leafy greens, asparagus, legumes, liver, selected fruit, nuts, and fortified grain foods are important sources."
+    },
+    {
+      "question": "How much folate do adults need?",
+      "answer": "NIH recommends 400 mcg DFE per day for adults, with higher requirements during pregnancy and breastfeeding."
+    }
+  ],
+  "sources": [
+    {
+      "name": "NIH ODS — Folate Fact Sheet for Consumers",
+      "url": "https://ods.od.nih.gov/factsheets/Folate-Consumer/",
+      "note": "NIH explanation of folate, folic acid, dietary folate equivalents, food sources and intake recommendations."
+    },
+    {
+      "name": "NIH ODS — Folate Fact Sheet for Health Professionals",
+      "url": "https://ods.od.nih.gov/factsheets/Folate-HealthProfessional/",
+      "note": "Detailed NIH reference on natural food folates, folic acid bioavailability, fortified foods, recommended intakes and upper limits."
+    }
+  ],
+  "image": {
+    "concept": "Spinach, asparagus, lentils, beans, orange and fortified grain foods arranged around a folate supplement bottle without brand text, realistic food photography, no readable labels.",
+    "alt": "Folate-rich foods beside a representation of fortified folic acid"
+  },
+  "status": "publish"
+}
