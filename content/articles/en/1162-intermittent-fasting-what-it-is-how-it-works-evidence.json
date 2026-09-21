@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1162-intermittent-fasting-what-it-is-how-it-works-evidence",
+  "article_number": 1162,
+  "translation_group": "1162-intermittent-fasting-what-it-is-evidence",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; explanation of fasting strategies in adults, not individualized clinical prescribing.",
+  "title": "Intermittent Fasting: What It Is, How It Works, and What the Evidence Actually Says",
+  "slug": "intermittent-fasting-what-it-is-how-it-works-evidence",
+  "seo": {
+    "title": "Intermittent Fasting: What It Is and What Evidence Says",
+    "meta_description": "Intermittent fasting alternates eating and fasting periods. It can help with weight loss, but on average it is not clearly superior to sustainable continuous calorie restriction.",
+    "search_intent": "Understand what intermittent fasting is, its main formats, why it may reduce weight, and what randomized trials show compared with other dietary strategies."
+  },
+  "excerpt": "Intermittent fasting changes when you eat rather than prescribing one specific food list. It includes time-restricted eating, alternate-day fasting, and schedules such as 5:2. Trials show weight loss compared with unrestricted eating, but differences versus continuous calorie restriction are generally small.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "intermittent-fasting",
+      "weight-management",
+      "dietary-patterns"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "dietary-patterns"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Intermittent fasting is a way of organizing meal timing by alternating periods of eating with periods of little or no calorie intake.</strong> It does not, by itself, specify which foods should be eaten. A person can practice intermittent fasting with a nutrient-dense diet or a poor-quality diet; meal timing and food quality are separate variables.</p><p>The most studied formats include time-restricted eating, in which meals are concentrated into a daily window; alternate-day fasting; and whole-day or partially restricted schedules such as the 5:2 approach.</p><h2>Why can intermittent fasting lead to weight loss?</h2><p>The simplest explanation is that fewer opportunities to eat can reduce total energy intake. If someone removes late-night snacks, an eating period, or one or more high-calorie occasions and does not completely compensate later, an energy deficit develops.</p><p>That does not mean the clock overrides energy balance. Fasting can function as a behavioral tool that makes eating less easier for some people. For others it creates hunger, compensatory meals, or social difficulties and is therefore less sustainable.</p><h2>What do randomized trials show compared with unrestricted eating?</h2><p>A 2025 BMJ network meta-analysis included 99 randomized trials involving 6,582 adults. Intermittent-fasting strategies and continuous energy restriction reduced body weight compared with ad-libitum eating patterns.</p><p>That supports intermittent fasting as a workable weight-management strategy. But showing benefit compared with unrestricted eating is different from proving it is superior to other ways of creating a calorie deficit.</p><h2>Compared with continuous calorie restriction, differences are small</h2><p>In the same analysis, alternate-day fasting was the only fasting strategy with a statistically significant weight advantage over continuous energy restriction, averaging about 1.3 kg. Overall differences among structured strategies were modest, and other meta-analyses find broadly comparable changes in weight and cardiometabolic markers.</p><p>This shifts the practical question. Rather than looking for a metabolically unbeatable schedule, it may be more useful to identify which structure helps an individual sustain adequate nutrition for months.</p><h2>16:8 is not a magic formula</h2><p>An eight-hour eating window has become popular because it is simple to describe, but there is no universal rule that everyone needs exactly sixteen fasting hours. Studies use different windows, schedules, and populations.</p><p>Time of day may matter as well. Eating more energy earlier can align better with circadian physiology than routinely shifting most intake late at night. Even so, adherence, food quality, sleep, and physical activity remain important.</p><h2>Fasting does not compensate for poor diet quality</h2><p>Fitting highly energy-dense, low-fiber, micronutrient-poor foods into an eight-hour period does not automatically create a healthy diet. During the eating window, vegetables, fruit, legumes, whole grains, protein sources, appropriate fats, and hydration still matter.</p><p>The window should also not become a race to “make up” every calorie supposedly missed during fasting. The approach is less useful when it promotes cycles of extreme restriction followed by overeating.</p><h2>It is not appropriate for everyone without professional guidance</h2><p>Pregnancy and breastfeeding, childhood and adolescence, a history of eating disorders, diabetes treated with medications that can cause hypoglycemia, and certain medical conditions require particular caution or clinical supervision. Medication and meal requirements can make fasting unsafe or impractical.</p><p><strong>The practical rule:</strong> intermittent fasting is a timing structure that can help some people reduce energy intake and simplify food decisions. It has not been shown to be universally superior to well-managed continuous calorie restriction. The best approach is one that can be sustained, meets nutritional needs, and fits safely with the person’s health and treatment.</p><p>An eating pattern does not need to be perfect to be recognizable or useful. Overall quality depends on habitual foods, quantities, variety, sustainability, and individual health context. A diet label does not automatically make every meal carrying that label healthy, nor does it mean everyone needs to follow the pattern in exactly the same way.</p><p>An eating pattern does not need to be perfect to be recognizable or useful. Overall quality depends on habitual foods, quantities, variety, sustainability, and individual health context. A diet label does not automatically make every meal carrying that label healthy, nor does it mean everyone needs to follow the pattern in exactly the same way.</p>",
+  "faq": [
+    {
+      "question": "Does intermittent fasting cause weight loss?",
+      "answer": "It can, particularly when it reduces total energy intake. It is not generally much better than sustainable continuous calorie restriction."
+    },
+    {
+      "question": "Is 16:8 the best schedule?",
+      "answer": "No universally superior eating window has been established; different protocols may work depending on context and adherence."
+    },
+    {
+      "question": "Who should be especially cautious?",
+      "answer": "Pregnant or breastfeeding people, minors, people with eating-disorder histories, and people with diabetes using medications that can cause hypoglycemia should seek professional guidance."
+    }
+  ],
+  "sources": [
+    {
+      "name": "BMJ/PubMed — Intermittent fasting strategies: network meta-analysis of 99 randomized trials",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40533200/",
+      "note": "2025 network meta-analysis of 99 randomized trials comparing intermittent fasting, continuous energy restriction and ad-libitum diets."
+    },
+    {
+      "name": "PubMed — Intermittent fasting versus caloric restriction meta-analysis (2025)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40130017/",
+      "note": "Meta-analysis finding broadly similar weight and cardiometabolic effects between intermittent fasting and continuous energy restriction."
+    },
+    {
+      "name": "PubMed — Updated umbrella review of intermittent fasting outcomes",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39618023/",
+      "note": "Umbrella review assessing the quality and certainty of evidence across intermittent-fasting health outcomes."
+    }
+  ],
+  "image": {
+    "concept": "Clock beside two balanced meals illustrating an eating window and fasting period, realistic editorial food photography, no text or body transformation imagery.",
+    "alt": "Clock and balanced meals illustrating a time-restricted eating window"
+  },
+  "status": "publish"
+}

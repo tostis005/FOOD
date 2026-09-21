@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1161-mediterranean-diet-what-it-is-foods-included",
+  "article_number": 1161,
+  "translation_group": "1161-mediterranean-diet-what-it-is",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; Mediterranean eating pattern and lifestyle, not an individualized clinical diet.",
+  "title": "Mediterranean Diet: What It Is, Which Foods It Includes, and What Following It Really Means",
+  "slug": "mediterranean-diet-what-it-is-foods-included",
+  "seo": {
+    "title": "Mediterranean Diet: What It Is and Foods It Includes",
+    "meta_description": "The Mediterranean diet emphasizes vegetables, fruit, legumes, whole grains, nuts and olive oil, with moderate fish and dairy and less red and processed meat.",
+    "search_intent": "Understand what actually defines the Mediterranean diet, which foods predominate, what is limited, and why it is broader than a list of recipes."
+  },
+  "excerpt": "The Mediterranean diet is not unlimited pasta, bread, and olive oil. Its core is plant-forward: vegetables, fruit, legumes, minimally refined grains, nuts, and olive oil as the primary fat, with moderate fish, dairy, and poultry and less red meat and highly processed food.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "mediterranean-diet",
+      "healthy-eating",
+      "dietary-patterns"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "dietary-patterns"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>The Mediterranean diet is a plant-forward eating pattern built around vegetables, fruit, legumes, whole or minimally refined grains, nuts, and olive oil, with moderate amounts of fish, dairy, and white meat and a smaller role for red meat, processed meat, and highly processed foods.</strong></p><p>A 2026 evidence-based definition developed for Italian national guidelines also emphasizes that the Mediterranean diet extends beyond a food list. It includes lifestyle practices, shared meals, and sustainability. “Mediterranean” therefore describes a repeated pattern rather than one particular recipe.</p><h2>The foundation is plant food, not simply food from Mediterranean countries</h2><p>A meal of pizza, processed meat, and dessert can come from a Mediterranean country without representing the dietary pattern particularly well. What matters is relative frequency: vegetables and fruit every day, legumes regularly, whole or minimally refined grains, nuts and seeds, and olive oil as the primary culinary fat.</p><p>Together these foods supply fiber, unsaturated fats, micronutrients, and a wide range of plant compounds. Research does not reduce the observed benefits to one “superfood”; the overall combination and what it replaces are more important.</p><h2>Olive oil matters, but the pattern does not mean unlimited fat</h2><p>Olive oil has a central role largely because it replaces fats higher in saturated fatty acids. It is still energy-dense, however. Mediterranean eating is not about pouring unlimited oil onto any meal; it is about using olive oil as the main fat within a diet rich in plant foods.</p><p>Nuts follow a similar logic. They contribute unsaturated fat, plant protein, and minerals, but they are integrated in sensible amounts. Fat quality matters alongside total intake and the rest of the diet.</p><h2>Fish, dairy, and poultry are present without dominating the plate</h2><p>Modern definitions usually describe moderate intake of fish, dairy foods, and white meat. Fish provides another protein source and fatty species provide omega-3 fats. Yogurt and cheese can fit the pattern without making dairy the centerpiece of every meal.</p><p>Red meat and especially processed meat appear less often. That does not require eliminating all meat to “qualify.” The defining feature is that it occupies less space than plant foods and is not the default center of every meal.</p><h2>Wine is not required, and there is no reason to start drinking</h2><p>Some historical definitions mention moderate wine with meals because it was part of particular Mediterranean cultures. That does not make alcohol necessary for health benefits and does not mean a person who does not drink should begin.</p><p>A Mediterranean dietary pattern can be followed completely without alcohol. Its value comes from the overall food structure rather than treating wine as an essential nutrient.</p><h2>What does the health evidence show?</h2><p>Current reviews report the strongest and most consistent favorable evidence for cardiovascular and metabolic outcomes. The literature includes observational cohorts, randomized trials, and meta-analyses. Effects still depend on adherence, the diet being replaced, and the characteristics of the population studied.</p><p>The pattern is not a cure or a guarantee against disease. Its practical strength is that it organizes a high-quality diet around principles that overlap with broader healthy-diet guidance: diversity, plant emphasis, unsaturated fats, minimally processed foods, and moderation.</p><h2>What does a genuinely Mediterranean-style day look like?</h2><p>One example might be fruit and plain yogurt with nuts; lentils cooked with vegetables and olive oil; whole-grain bread; and later fish with salad, potatoes or grain, and fruit. Another day can look completely different while preserving the same proportions.</p><p>The approach does not require imported specialty food. Beans, seasonal vegetables, oats, brown rice, local nuts and seeds, and locally available fish can fill the same nutritional roles even if the menu does not look like a Mediterranean postcard.</p><p><strong>The practical rule:</strong> think in proportions rather than prohibitions: more vegetables, legumes, whole grains, nuts, and olive oil; moderate fish and dairy; less red/processed meat and highly refined food. That is much closer to the actual Mediterranean pattern than simply collecting recipes labeled “Mediterranean.”</p><p>An eating pattern does not need to be perfect to be recognizable or useful. Overall quality depends on habitual foods, quantities, variety, sustainability, and individual health context. A diet label does not automatically make every meal carrying that label healthy, nor does it mean everyone needs to follow the pattern in exactly the same way.</p>",
+  "faq": [
+    {
+      "question": "Is the Mediterranean diet vegetarian?",
+      "answer": "Not necessarily. It is plant-forward but can include fish, dairy, eggs, and moderate amounts of poultry."
+    },
+    {
+      "question": "Do you have to drink wine?",
+      "answer": "No. Alcohol is not required to follow a Mediterranean pattern, and people who do not drink do not need to start."
+    },
+    {
+      "question": "Is pasta part of the Mediterranean diet?",
+      "answer": "It can be, particularly when combined with vegetables, legumes, olive oil, and other foods that fit the broader pattern."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Evidence-based multidimensional definition of the Mediterranean Diet (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41819766/",
+      "note": "2026 Italian national-guideline work defining the pattern as plant-forward, olive-oil centered, moderate in fish/dairy/white meat and limited in red meat and processed foods."
+    },
+    {
+      "name": "PubMed — Mediterranean diet: definitions, health effects and metabolic pathways (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42442659/",
+      "note": "Current review of Mediterranean-diet components and evidence across cardiovascular and metabolic outcomes."
+    },
+    {
+      "name": "WHO/FAO — What are healthy diets?",
+      "url": "https://www.who.int/publications/i/item/9789240101876",
+      "note": "Joint healthy-diet principles emphasizing adequacy, balance, moderation and diversity while recognizing cultural context."
+    }
+  ],
+  "image": {
+    "concept": "Mediterranean table with vegetables, legumes, whole grains, fruit, nuts, olive oil, fish and yogurt arranged naturally, realistic editorial food photography, no text.",
+    "alt": "Table filled with foods characteristic of a Mediterranean dietary pattern"
+  },
+  "status": "publish"
+}
