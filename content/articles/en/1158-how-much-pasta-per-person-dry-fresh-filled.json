@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1158-how-much-pasta-per-person-dry-fresh-filled",
+  "article_number": 1158,
+  "translation_group": "1158-pasta-per-person",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; practical pasta portion planning.",
+  "title": "How Much Pasta Per Person: Dry, Fresh and Filled Pasta Portions",
+  "slug": "how-much-pasta-per-person-dry-fresh-filled",
+  "seo": {
+    "title": "How Much Pasta Per Person: Dry, Fresh and Filled",
+    "meta_description": "A useful guide is 70–100 g dry pasta per adult for a main dish. Fresh and filled pasta weigh more before cooking because they already contain water and filling.",
+    "search_intent": "Calculate how much dry, fresh, or filled pasta to prepare per person depending on whether it is the main dish, starter, or side."
+  },
+  "excerpt": "Dry and fresh pasta should not be measured the same way. A useful starting point is 70–100 g dry pasta per adult for a main dish; fresh pasta needs a higher raw weight, and filled pasta higher still because part of the weight is moisture and filling.",
+  "taxonomy": {
+    "food_family": "grains",
+    "food_subcategories": [
+      "pasta",
+      "portion-size",
+      "meal-planning"
+    ],
+    "article_types": [
+      "cooking-techniques",
+      "portion-guides"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p><strong>A practical starting point is about 70–100 grams of dry pasta per adult when pasta is the main dish.</strong> If it is one course in a larger meal, 50–70 g may be enough. Fresh pasta and filled pasta need different raw weights because they already contain more water and, in the case of ravioli or tortellini, a substantial portion of the weight is filling.</p><p>There is no universal serving number. Barilla uses 2 ounces/56 g dry pasta as a standard serving in the United States, while research describing Netherlands Nutrition Centre guidance cites 100 g per person and up to 125 g for larger appetites. That gap shows that a nutrition-label serving and a real-world main-course portion are not always the same thing.</p><h2>Dry pasta: 70–100 g is a useful household range</h2><p>For spaghetti, penne, fusilli, rigatoni, or other dried pasta served as the core of a meal, 70–100 g per adult covers a moderate through generous portion. If the meal includes substantial meat, salad, bread, and dessert, stay toward the lower end; if pasta is almost the whole meal, the upper end makes more sense.</p><p>Dry pasta absorbs water during cooking and may roughly double in weight. Barilla notes that a 56 g dry serving yields about one cup cooked for many shapes, although exact volume depends on pasta geometry.</p><h2>Fresh pasta needs more raw grams because it already contains water</h2><p>Fresh tagliatelle, fettuccine, or egg pasta weighs more before cooking than an equivalent dry portion because the dough retains moisture. A useful main-meal starting range is roughly 100–130 g fresh pasta per adult.</p><p>Do not expect it to gain as much weight as dried pasta because there is less additional water to absorb and the cooking time is shorter. Packaged fresh pasta is especially worth checking because moisture content varies between products.</p><h2>Ravioli and tortellini are a different calculation again</h2><p>Filled pasta may require about 150–200 g per person when it is the main dish, but the range changes substantially with piece size and filling density. Ten tiny ravioli and ten large ones are clearly not the same meal even though both counts could be called “one serving.”</p><p>Cheese- or meat-filled pasta is also more energy-dense than unfilled pasta. Rich sauce, appetizers, or side dishes reduce the amount needed.</p><h2>Shape changes volume, so a scale beats a measuring cup</h2><p>A cup of dry elbows does not weigh the same as a cup of farfalle because the shapes leave different amounts of empty space. Long spaghetti, nests, shells, and short pasta all make volume measurement inconsistent.</p><p>Grams remove that problem and make scaling simple. For four adults, 80 g each means 320 g total; 100 g each means 400 g. If you are unsure which to choose, look at the size of the sauce and the rest of the meal.</p><h2>Children and soup pasta need much less</h2><p>A child portion depends on age and appetite and does not need to match an adult serving. In soup, pasta is a supporting ingredient: roughly 25–40 g dry per person may be enough because broth, vegetables, beans, or meat supply the rest of the volume.</p><p>It is often better to cook a moderate amount and offer seconds than automatically prepare 100 g per person when several other foods are on the table. Portion guidance should reduce waste without leaving people hungry, not turn every meal into a rigid formula.</p><p><strong>The practical rule:</strong> for adults, think about 70–100 g dry pasta for a main dish, roughly 100–130 g fresh pasta, and around 150–200 g filled pasta. Adjust downward for multi-course meals and measure by weight rather than volume for consistency.</p><p>These quantities are a starting point rather than a rigid rule. Food size, recipe, appetite, side dishes, and cooking method all change the result. If you make the dish regularly, note what worked in your kitchen: your own repeatable reference is often more useful than one number applied to every situation.</p>",
+  "faq": [
+    {
+      "question": "How much dry pasta per person?",
+      "answer": "A practical main-course range is about 70–100 g dry per adult, with less needed in a larger meal."
+    },
+    {
+      "question": "How much fresh pasta per person?",
+      "answer": "Roughly 100–130 g is a useful adult starting point."
+    },
+    {
+      "question": "How much ravioli per person?",
+      "answer": "Filled pasta often needs a higher raw weight, around 150–200 g for a main dish depending on size and filling."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Barilla — Dry & Cooked Pasta Serving Size",
+      "url": "https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/pasta-serving-size",
+      "note": "Barilla uses 2 oz/56 g dry pasta per serving and provides cooked yields by pasta shape."
+    },
+    {
+      "name": "Barilla — Fresh Pasta vs. Dry Pasta",
+      "url": "https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/dry-vs-cooked-pasta",
+      "note": "Explains that fresh and dry pasta are measured differently and that dry pasta commonly expands substantially during cooking."
+    },
+    {
+      "name": "Frontiers in Nutrition — Development and Evaluation of the Eetmaatje Measuring Cup",
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2019.00197/full",
+      "note": "Reports Netherlands Nutrition Centre guidance using 100 g dry pasta per person, or 125 g for large appetites, demonstrating that practical portions vary by context."
+    }
+  ],
+  "image": {
+    "concept": "Kitchen scale with dry spaghetti, fresh tagliatelle and filled ravioli in three separate portions, realistic food photography, no text.",
+    "alt": "Measured portions of dry, fresh, and filled pasta"
+  },
+  "status": "publish"
+}
