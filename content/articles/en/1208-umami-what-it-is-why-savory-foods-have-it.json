@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1208-umami-what-it-is-why-savory-foods-have-it",
+  "article_number": 1208,
+  "translation_group": "1208-what-is-umami",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; sensory science and naturally umami-rich foods.",
+  "title": "Umami: What It Is, Why It Tastes Savory, and Which Foods Have It",
+  "slug": "umami-what-it-is-why-savory-foods-have-it",
+  "seo": {
+    "title": "Umami: What It Is, How It Works, and Foods That Have It",
+    "meta_description": "Umami is one of the five basic tastes. Glutamate is its best-known trigger, and inosinate or guanylate can strongly enhance it in foods such as kombu, tomatoes, aged cheese, mushrooms, meat, and fish.",
+    "search_intent": "Understand what umami taste is, which molecules activate it, why certain food combinations taste especially savory, and which foods naturally provide umami compounds."
+  },
+  "excerpt": "Umami is a basic taste distinct from sweet, sour, salty, and bitter. Glutamate is its best-known signal, while nucleotides such as inosinate and guanylate can amplify the sensation. This is why combinations such as tomato with aged cheese or kombu with fish can taste more savory together than alone.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "umami",
+      "taste",
+      "glutamate"
+    ],
+    "article_types": [
+      "cooking-science",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>Umami is one of the five recognized basic tastes, alongside sweet, salty, sour, and bitter.</strong> It is often described as savory, meaty, or broth-like, but it is not simply the aroma of meat. Specific molecules bind to taste receptors and create a distinct sensory signal.</p><p>Free glutamate is the best-known trigger. Nucleotides including IMP — inosine monophosphate — and GMP — guanosine monophosphate — also matter and can dramatically strengthen umami perception when combined with glutamate.</p><h2>The discovery began with kombu</h2><p>In 1908, Japanese chemist Kikunae Ikeda investigated the distinctive taste of kombu broth and linked it to salts of glutamic acid. He proposed the word “umami” for the sensation.</p><p>Later sensory, biochemical, and receptor research established that the response is distinguishable from the four older basic-taste categories.</p><h2>Glutamate does not automatically mean added MSG</h2><p>Glutamate is an amino acid naturally present in many foods. Ripe tomatoes, aged cheeses, mushrooms, fermented soy foods, seaweed, and meat can contain meaningful free glutamate.</p><p>MSG, or monosodium glutamate, is the sodium salt of glutamic acid. Once dissolved, it supplies glutamate that activates the same taste systems. A food tasting umami does not prove MSG was added.</p><h2>Why do certain combinations taste much more intense?</h2><p>A hallmark of umami is synergy. Receptors such as T1R1/T1R3 respond to amino acids including glutamate, and their response is strongly enhanced in the presence of IMP or GMP.</p><p>This helps explain long-standing culinary pairings that predate receptor science: glutamate-rich kombu with nucleotide-rich bonito, tomato with aged cheese, or mushrooms alongside meat.</p><h2>Which foods provide free glutamate?</h2><p>Kombu is the classic example, but tomatoes, soy sauce, miso, aged cheeses, mushrooms, and fermented foods also contribute. Ripening, fermentation, and aging can break proteins apart and increase free amino acids.</p><p>That is one reason a very ripe tomato or aged Parmesan-style cheese can taste deeper than a younger version without simply containing more salt.</p><h2>Meat and fish contribute other umami enhancers</h2><p>Animal foods can supply IMP, while selected mushrooms are rich in GMP. These nucleotides have limited impact alone but can greatly intensify umami when glutamate is present.</p><p>In cooking, pairing a plant source of glutamate with nucleotide-rich ingredients can build depth without relying only on additional salt or fat.</p><h2>Umami is not the same as salty</h2><p>The confusion comes from the fact that many umami foods — soy sauce, cheese, broth — also contain sodium. But salty and umami perception use different sensory pathways.</p><p>A ripe tomato can be umami-rich without tasting very salty. A solution of table salt can taste salty without providing umami.</p><h2>Can umami help reduce salt?</h2><p>Some research suggests umami ingredients can improve palatability in lower-sodium formulations. That does not mean adding MSG erases sodium concerns, but it shows overall flavor intensity does not depend on salt alone.</p><p>At home, concentrating tomatoes, browning mushrooms, using kombu broth, or adding a small amount of aged cheese can build complexity.</p><h2>More umami is not always better</h2><p>A soup overloaded with soy sauce, cheese, and MSG can lose balance just as a dessert can become too sweet. Umami works best when it supports other tastes and aromas rather than overwhelming them.</p><p><strong>The practical rule:</strong> look for glutamate in tomato, seaweed, fermented foods, and aged cheese, and for nucleotides in meat, fish, and mushrooms. Combining the two often creates more depth than simply adding extra salt.</p><p>The practical value comes from understanding the mechanism before changing ingredients. Flavor, fermentation, and gelation depend on concentration, temperature, and the food matrix, so a substitution or amount that works in one recipe can behave differently in another.</p><p>The practical value comes from understanding the mechanism before changing ingredients. Flavor, fermentation, and gelation depend on concentration, temperature, and the food matrix, so a substitution or amount that works in one recipe can behave differently in another.</p><p>The practical value comes from understanding the mechanism before changing ingredients. Flavor, fermentation, and gelation depend on concentration, temperature, and the food matrix, so a substitution or amount that works in one recipe can behave differently in another.</p>",
+  "faq": [
+    {
+      "question": "What is umami?",
+      "answer": "It is a basic taste driven especially by glutamate and strongly enhanced by nucleotides such as IMP and GMP."
+    },
+    {
+      "question": "Does umami mean a food contains MSG?",
+      "answer": "No. Many foods naturally contain free glutamate; MSG is one added sodium salt of glutamate."
+    },
+    {
+      "question": "Which foods are rich in umami?",
+      "answer": "Kombu, ripe tomatoes, aged cheeses, mushrooms, soy sauce, miso, meat, and fish are common examples."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Molecular insights into human taste perception and umami tastants",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35301715/",
+      "note": "2022 review of umami taste receptors, glutamate and the strong enhancement produced by inosinate and guanylate."
+    },
+    {
+      "name": "PubMed — Glutamate: from discovery as a food flavor to basic taste",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/19640953/",
+      "note": "Historical and sensory review describing Ikeda's identification of glutamate in kombu and later recognition of umami as a fifth basic taste."
+    },
+    {
+      "name": "PubMed — Pharmacology of the Umami Taste Receptor",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33580387/",
+      "note": "Review listing natural umami sources including kombu, beans, soy sauce, tomatoes, cheeses, mushrooms, meats and fish."
+    },
+    {
+      "name": "PubMed — Umami the Fifth Basic Taste",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26247011/",
+      "note": "Review emphasizing synergism between glutamate and the nucleotides inosinate and guanylate."
+    }
+  ],
+  "image": {
+    "concept": "Kombu, ripe tomatoes, Parmesan-style aged cheese, mushrooms, soy sauce and cooked meat arranged as natural umami-rich foods, realistic editorial food photography, no text.",
+    "alt": "Kombu, tomato, aged cheese, mushrooms, and other umami-rich foods"
+  },
+  "status": "publish"
+}
