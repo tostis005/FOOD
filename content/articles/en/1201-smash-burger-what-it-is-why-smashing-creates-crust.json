@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1201-smash-burger-what-it-is-why-smashing-creates-crust",
+  "article_number": 1201,
+  "translation_group": "1201-what-is-smash-burger",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; thin griddled burger cooking technique.",
+  "title": "Smash Burger: What It Is and Why Smashing the Meat Creates Such an Intense Crust",
+  "slug": "smash-burger-what-it-is-why-smashing-creates-crust",
+  "seo": {
+    "title": "Smash Burger: What It Is and Why the Crust Is Different",
+    "meta_description": "A smash burger is pressed onto a very hot surface at the start of cooking. Greater contact drives rapid browning and more Maillard flavor while producing a thin patty.",
+    "search_intent": "Understand what defines a smash burger, why the meat is pressed at the beginning, how contact increases browning, and what safe internal temperature ground beef requires."
+  },
+  "excerpt": "A smash burger starts as a ball of ground beef pressed firmly against a very hot griddle or skillet during the first moments of cooking. The increased metal contact drives off surface moisture quickly and creates an extensive browned crust through Maillard reactions.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "smash-burger",
+      "ground-beef",
+      "browning"
+    ],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>A smash burger is a thin burger formed by pressing a ball of ground meat directly onto a very hot cooking surface at the beginning of cooking.</strong> The purpose is not to squeeze a burger that is already cooked; it is to maximize contact between raw meat and hot metal from the first seconds.</p><p>That broad contact creates a much larger browned, crisp surface than a thick burger, where only part of the patty touches the skillet under pressure.</p><h2>The crust comes from contact, not from “sealing in juices”</h2><p>The old idea that browning meat seals in moisture is not an accurate description of cooking. Heat still causes water to migrate and evaporate.</p><p>What changes with a smash burger is direct contact area. A thin pressed surface loses water quickly and reaches temperatures that favor intense browning chemistry.</p><h2>What does the Maillard reaction do?</h2><p>Reviews of cooked-meat flavor show that intense heat promotes reactions between amino compounds and reducing sugars, generating many roasted and savory aroma molecules.</p><p>Fat breakdown contributes additional aroma. A smash-burger crust combines these processes: protein-and-sugar chemistry on a hot surface plus fat cooking at high temperature.</p><h2>Why is the burger smashed only at the beginning?</h2><p>During the first seconds, the meat has not yet developed a firm cooked structure, so it can spread against the surface without first accumulating large amounts of hot free liquid inside the patty.</p><p>Repeated pressing later, after cooking is well underway, can force moisture and fat out onto the griddle. The smash technique means one strong early press rather than constantly crushing the burger.</p><h2>The cooking surface needs to hold heat</h2><p>Cast iron, carbon steel, or a heavy griddle works well because it retains heat when cold meat is added. A lightweight pan can cool rapidly, encouraging the meat to release water before strong browning develops.</p><p>Cook only a few patties at a time. Crowding lowers surface temperature and traps steam, both of which work against a dry dark crust.</p><h2>You do not need extremely lean ground beef</h2><p>Fat contributes flavor and helps fry the burger surface. Very lean meat can become dry quickly because a smash patty is thin and cooks rapidly.</p><p>That does not mean the fattiest possible grind is automatically best. Excess fat can create dramatic shrinkage, smoke, and a greasy texture. The useful balance depends on preference and what meat is available.</p><h2>Scrape the crust rather than gently lifting it</h2><p>Once the underside is deeply browned, part of the crust can adhere strongly to the metal. A thin rigid spatula lets you scrape underneath and keep that browned layer attached when flipping.</p><p>Trying to lift the patty before the crust has developed enough can tear the meat or leave the most flavorful layer stuck to the griddle.</p><h2>Ground beef still needs a safe internal temperature</h2><p>USDA recommends cooking ground beef to 160°F/71.1°C. Color is not a reliable safety test: a burger can turn brown before reaching that temperature or remain somewhat pink after reaching it.</p><p>With a thin patty, insert a food thermometer from the side toward the center for the most useful reading.</p><h2>Why has the technique become so popular?</h2><p>It is fast, requires few ingredients, and creates a texture that translates clearly to video: thin irregular edges and dramatic browning. Current search-trend datasets show strong growth in smash-burger interest through 2026.</p><p><strong>The practical rule:</strong> start with a ball of meat, use a very hot heat-retentive surface, press firmly at the beginning, and then let the crust develop. The extra flavor comes from greater contact and browning chemistry, not repeated squeezing.</p><p>The easiest way to repeat the result is to control one variable at a time: ingredient, temperature, ratio, or timing. With newer or highly viral foods, online recipes can differ dramatically, so it helps to understand what actually defines the product before adjusting it.</p><p>The easiest way to repeat the result is to control one variable at a time: ingredient, temperature, ratio, or timing. With newer or highly viral foods, online recipes can differ dramatically, so it helps to understand what actually defines the product before adjusting it.</p>",
+  "faq": [
+    {
+      "question": "What is a smash burger?",
+      "answer": "It is a thin burger formed by pressing a ball of ground meat directly onto a very hot griddle or skillet at the start of cooking."
+    },
+    {
+      "question": "Why does it get more crust?",
+      "answer": "Smashing increases contact between meat and hot metal, promoting surface drying and Maillard browning."
+    },
+    {
+      "question": "Should you keep pressing the burger while it cooks?",
+      "answer": "No. The strong press happens at the beginning; repeated pressing later can squeeze out moisture and fat."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Beef flavor: a review from chemistry to consumer",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25857365/",
+      "note": "Review explaining that high-heat, fast cooking generates more Maillard-reaction products that contribute to beef flavor."
+    },
+    {
+      "name": "PubMed — Meat flavor precursors and factors influencing flavor",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26319308/",
+      "note": "Systematic review identifying the Maillard reaction and lipid reactions as major contributors to cooked-meat flavor."
+    },
+    {
+      "name": "USDA FSIS — Ground Beef and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat/ground-beef-and-food-safety",
+      "note": "USDA guidance that ground beef should reach 160°F/71.1°C and that color alone does not confirm safety."
+    },
+    {
+      "name": "PartyTrends — Smash Burgers search trend in South Africa",
+      "url": "https://www.partytrends.co.za/articles/smash-burgers-the-unexpected-food-trend-taking-south-africa-by-storm",
+      "note": "Current search-trend analysis showing strong growth in smash-burger interest through 2026."
+    }
+  ],
+  "image": {
+    "concept": "Thin smash burger patty being pressed onto a very hot cast-iron griddle with a metal spatula, showing a deeply browned crust, realistic food photography, no text.",
+    "alt": "Smash burger pressed onto a hot griddle with a deeply browned crust"
+  },
+  "status": "publish"
+}
