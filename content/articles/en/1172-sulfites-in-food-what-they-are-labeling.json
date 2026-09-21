@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1172-sulfites-in-food-what-they-are-labeling",
+  "article_number": 1172,
+  "translation_group": "1172-sulfites-food-labels",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; sulfites E220–E228, labeling and sensitivity using EFSA/FDA guidance.",
+  "title": "Sulfites in Food: What They Are, Where They Appear, and Why Labels Declare Them",
+  "slug": "sulfites-in-food-what-they-are-labeling",
+  "seo": {
+    "title": "Sulfites in Food: What They Are and How Labels Work",
+    "meta_description": "Sulfites E220–E228 are preservatives and antioxidants. In the EU they must be declared above 10 mg/kg or 10 mg/L; some sensitive people can react.",
+    "search_intent": "Understand what sulfites are, why foods use them, where they occur, why labels declare them, and who may experience sensitivity."
+  },
+  "excerpt": "Sulfites are used to slow oxidation, browning, and selected deterioration processes. In the EU, sulfur dioxide and sulfites are declared above 10 mg/kg or 10 mg/L as total SO₂ because a minority of sensitive people, particularly some with asthma, can react.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "sulfites",
+      "preservatives",
+      "labels"
+    ],
+    "article_types": [
+      "labels",
+      "food-safety"
+    ],
+    "primary_article_type": "labels"
+  },
+  "content_html": "<p><strong>Sulfites are a group of sulfur-containing compounds used as preservatives and antioxidants to slow browning, limit oxidation, and help preserve selected foods and beverages.</strong> In the European Union they include sulfur dioxide and sulfite, bisulfite, and metabisulfite salts identified within the E220–E228 group.</p><p>They can occur in wine and other fermented drinks, dried fruit, some potato products, juices, and other foods where oxidation or color control matters. Small amounts of sulfites can also form naturally during some fermentation processes.</p><h2>What do sulfites actually do in food?</h2><p>A cut apple, peeled potato, or dried apricot can darken through enzymatic and oxidative reactions. Sulfites interfere with several of these pathways and help maintain a lighter color. They can also suppress selected microorganisms and protect certain food components from oxidation.</p><p>The exact function varies by product. In wine they help manage oxidation and microbial stability; in dried fruit they can preserve color; elsewhere they may act mainly as preservatives. The category name does not mean every sulfite performs exactly the same job in every food.</p><h2>Why are sulfites specifically declared on labels?</h2><p>In the EU, sulfur dioxide and sulfites must be indicated when present above 10 mg per kilogram or 10 mg per liter, expressed as total SO₂. That threshold exists because some sensitive people can react to comparatively small amounts.</p><p>In the United States, FDA uses an equivalent threshold of 10 parts per million for declaration of sulfiting agents. Depending on the market, the ingredient list may identify the specific sulfite compound or otherwise make its presence clear under labeling rules.</p><h2>Sulfite sensitivity is not necessarily a classic food allergy</h2><p>The best-known reactions occur in a minority of sensitive people and are more common among people with asthma. Symptoms can include bronchoconstriction, wheezing, coughing, chest tightness, and other respiratory effects; hives and gastrointestinal symptoms have also been reported.</p><p>EFSA notes that many sulfite reactions do not necessarily fit the classic IgE-mediated mechanism of food allergy. That is why “sulfite sensitivity” or “sulfite intolerance” is often used even though labeling laws give sulfites special prominence for susceptible consumers.</p><h2>Not everyone with asthma reacts to sulfites</h2><p>Having asthma does not automatically mean having sulfite sensitivity. Risk is concentrated in a subgroup and response can vary with dose, food, and route of exposure. Someone who repeatedly develops symptoms after wine, dried fruit, or another food should discuss the pattern with a healthcare professional rather than self-diagnosing by eliminating many foods.</p><p>When sensitivity is confirmed, reading labels is more reliable than guessing from appearance. Two similar-looking foods can be made using different preservation methods and additives.</p><h2>What did EFSA say about safety and high exposure?</h2><p>In its 2022 re-evaluation, EFSA said available data were insufficient to establish a new conventional acceptable daily intake and identified a potential concern for high consumers. That does not mean every food containing sulfites is unsafe.</p><p>Regulatory assessment considers cumulative exposure from multiple foods and compares those estimates with levels associated with effects in the evidence. EFSA has continued updating exposure estimates to better understand which groups may approach levels of concern.</p><h2>Does everyone need to avoid sulfites?</h2><p>For the general population there is no recommendation to systematically eliminate every food containing sulfites. People with confirmed sensitivity need to follow their clinician’s advice and use label declarations to reduce exposure.</p><p>It is also important not to turn the absence of sulfites into an overall nutrition claim. A sulfite-free product is not automatically healthier than one containing them; sugar, alcohol, sodium, fiber, nutrients, and the broader eating pattern are separate considerations.</p><p><strong>The practical rule:</strong> E220–E228 identifies sulfites used mainly as preservatives and antioxidants. In the EU they must be declared above 10 mg/kg or 10 mg/L as total SO₂. For most people this is primarily a food-technology and labeling issue; for sensitive individuals, particularly some people with asthma, the declaration can be clinically important.</p><p>Sulfites need to be interpreted in context and by amount. A preservative may be present to limit oxidation or spoilage without defining the food's overall nutritional quality. For a sensitive person, however, label declaration has direct practical importance and needs to be checked consistently.</p>",
+  "faq": [
+    {
+      "question": "What are sulfites?",
+      "answer": "They are sulfur-containing compounds used mainly as preservatives and antioxidants, including additives E220–E228."
+    },
+    {
+      "question": "Which foods contain sulfites?",
+      "answer": "They can occur in wine, dried fruit, selected potato products, juices, and other preserved foods."
+    },
+    {
+      "question": "Is sulfite sensitivity an allergy?",
+      "answer": "Sulfites can cause sensitivity reactions, particularly respiratory symptoms in some people with asthma; many reactions are not classic IgE-mediated allergy."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EFSA — Sulphites: safety concern for high consumers, but data lacking",
+      "url": "https://www.efsa.europa.eu/en/news/sulfites-safety-concern-high-consumers-data-lacking",
+      "note": "EFSA overview of sulfites E220–E228, food uses, sensitivity and the 2022 re-evaluation."
+    },
+    {
+      "name": "EFSA — Food allergens",
+      "url": "https://www.efsa.europa.eu/en/safe2eat/food-allergens",
+      "note": "EU consumer guidance noting sulfur dioxide and sulfites among substances requiring declaration above 10 mg/kg or 10 mg/L as total SO2."
+    },
+    {
+      "name": "U.S. FDA — Food Allergies",
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/food-allergies",
+      "note": "FDA labeling guidance requiring declaration of sulfiting agents at 10 ppm or more due to clinically important sensitivity reactions."
+    },
+    {
+      "name": "EFSA Journal — Follow-up of the re-evaluation of sulfur dioxide-sulfites (E220–228)",
+      "url": "https://efsa.onlinelibrary.wiley.com/doi/10.2903/j.efsa.2022.7594",
+      "note": "Technical assessment discussing sulfite exposure, sensitivity reactions and limitations in toxicological data."
+    }
+  ],
+  "image": {
+    "concept": "Dried apricots, wine glass, packaged potato product and ingredient-label concept associated with sulfites, realistic editorial food photography, no readable brand text.",
+    "alt": "Foods and beverages that may contain sulfites beside an ingredient-label concept"
+  },
+  "status": "publish"
+}
