@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1187-what-are-micronutrients-vs-macronutrients",
+  "article_number": 1187,
+  "translation_group": "1187-what-are-micronutrients",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; general nutrition education about vitamins and minerals.",
+  "title": "What Are Micronutrients and How Are They Different From Macronutrients?",
+  "slug": "what-are-micronutrients-vs-macronutrients",
+  "seo": {
+    "title": "Micronutrients: What They Are vs. Macronutrients",
+    "meta_description": "Micronutrients are essential vitamins and minerals needed in small amounts. They do not provide energy like protein, fat, or carbohydrate but enable vital functions.",
+    "search_intent": "Understand what micronutrients are, which vitamins and minerals they include, why they do not provide calories, and how they differ from macronutrients."
+  },
+  "excerpt": "Micronutrients are vitamins and minerals the body needs in small but essential amounts. They do not supply calories like macronutrients, but they enable blood production, bone maintenance, hormone synthesis, tissue protection, and hundreds of metabolic reactions.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "micronutrients",
+      "vitamins",
+      "minerals"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Micronutrients are essential vitamins and minerals the body needs in much smaller amounts than protein, carbohydrate, and fat but that remain indispensable for health.</strong> They do not supply energy in the same way as macronutrients; instead, they act as cofactors, structural components, and regulators of hundreds of processes.</p><p>WHO describes roughly 30 essential micronutrients, including 13 vitamins and about 16 minerals, although exact counting can vary with classification.</p><h2>Vitamins are organic compounds with specific roles</h2><p>Vitamins A, C, D, E, K, and the B-complex participate in vision, immune function, energy metabolism, blood clotting, blood-cell formation, bone maintenance, and many other functions.</p><p>Some are water-soluble, such as vitamin C and most B vitamins, while others are fat-soluble, including A, D, E, and K. This difference affects absorption, storage, and the potential for accumulation.</p><h2>Minerals are elements rather than organic molecules</h2><p>Iron, calcium, zinc, iodine, magnesium, selenium, potassium, and other minerals form structures or participate in physiology. Iron is central to oxygen transport; calcium contributes to bone and cell signaling; iodine is required for thyroid hormone production.</p><p>The body cannot manufacture a mineral element from another substance, so it must come from food, water, or supplementation when indicated.</p><h2>“Micro” means a small required amount, not small importance</h2><p>Iron deficiency can cause anemia; severe vitamin C deficiency causes scurvy; iodine deficiency can impair thyroid function; inadequate folate during critical stages raises neural-tube-defect risk.</p><p>Needing milligrams or micrograms does not make these nutrients optional. “Micro” describes the scale of requirement rather than biological importance.</p><h2>The major difference from macros is amount and energy contribution</h2><p>Protein, carbohydrate, and fat are commonly consumed in tens or hundreds of grams and provide energy or large-scale structural material. Vitamins and minerals are needed in grams, milligrams, or micrograms and do not contribute calories.</p><p>The groups also depend on each other. B vitamins, for example, participate in pathways that allow the body to use energy from carbohydrate, fat, and protein.</p><h2>More is not always better</h2><p>Deficiency can be harmful, but excessive amounts of selected micronutrients can be harmful too. Vitamins A and D can accumulate; excess iron can be toxic; high zinc intake over time can interfere with copper status.</p><p>This is why tolerable upper intake levels exist for many nutrients. A supplement providing 1,000% of a daily value is not automatically ten times better.</p><h2>Dietary variety reduces the chance of gaps</h2><p>WHO recommends a diverse diet containing fruit, vegetables, whole grains, legumes, nuts, seeds, and lean animal-source foods when they fit the dietary pattern. Food groups offer different profiles: legumes and meat contribute iron; dairy and fortified alternatives provide calcium; leafy greens supply folate and vitamin K.</p><p>No single food needs to contain every micronutrient when the overall pattern is varied.</p><h2>Fortification and supplements have a role when a specific need exists</h2><p>Iodized salt, folic-acid-fortified flour, vitamin D fortification, and other programs help prevent deficiencies at population level.</p><p>Supplements can be needed in pregnancy, diagnosed deficiency, restrictive diets, or conditions affecting absorption, but they do not automatically replace a high-quality diet.</p><p><strong>The practical rule:</strong> macronutrients provide most dietary energy and large-scale building material; micronutrients are vitamins and minerals needed in small amounts to make those systems work. An adequate diet needs both rather than choosing between “macros” and “micros.”</p><p>The most useful way to apply this information is to look at the whole food or dietary pattern rather than one isolated number. Needs change with age, activity, health, pregnancy, and other factors; general guidance explains concepts but does not replace clinical advice when a medical condition is involved.</p><p>The most useful way to apply this information is to look at the whole food or dietary pattern rather than one isolated number. Needs change with age, activity, health, pregnancy, and other factors; general guidance explains concepts but does not replace clinical advice when a medical condition is involved.</p><p>The most useful way to apply this information is to look at the whole food or dietary pattern rather than one isolated number. Needs change with age, activity, health, pregnancy, and other factors; general guidance explains concepts but does not replace clinical advice when a medical condition is involved.</p>",
+  "faq": [
+    {
+      "question": "Do micronutrients provide calories?",
+      "answer": "No. Vitamins and minerals do not supply energy like protein, carbohydrate, or fat."
+    },
+    {
+      "question": "What are examples of micronutrients?",
+      "answer": "They include vitamins A, C, D, E, K and B vitamins, plus minerals such as iron, calcium, zinc, iodine, magnesium, and selenium."
+    },
+    {
+      "question": "Do I need supplements to get them?",
+      "answer": "Not always. A varied diet can meet many needs; supplements and fortification are useful when a specific need exists."
+    }
+  ],
+  "sources": [
+    {
+      "name": "WHO — Healthy diet (2026)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "note": "WHO describes micronutrients as essential vitamins and minerals needed in small amounts and gives examples of deficiency consequences."
+    },
+    {
+      "name": "WHO/FAO — What are healthy diets?",
+      "url": "https://www.who.int/publications/i/item/9789240101876",
+      "note": "Joint healthy-diet principles emphasizing adequacy of micronutrients through dietary diversity."
+    },
+    {
+      "name": "NIH Office of Dietary Supplements — Dietary Supplement Fact Sheets",
+      "url": "https://ods.od.nih.gov/factsheets/list-all/",
+      "note": "NIH reference hub for individual vitamins and minerals, recommended intakes, food sources and upper limits."
+    }
+  ],
+  "image": {
+    "concept": "Colorful foods representing vitamins and minerals: leafy greens, legumes, dairy, fish, fruit, nuts and iodized salt, realistic food photography, no text.",
+    "alt": "Varied foods supplying vitamins and minerals"
+  },
+  "status": "publish"
+}

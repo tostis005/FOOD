@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "en-1186-what-are-macronutrients-protein-carbs-fats",
+  "article_number": 1186,
+  "translation_group": "1186-what-are-macronutrients",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; general nutrition education.",
+  "title": "What Are Macronutrients? Protein, Carbohydrates, and Fats Explained Simply",
+  "slug": "what-are-macronutrients-protein-carbs-fats",
+  "seo": {
+    "title": "Macronutrients: Protein, Carbs, and Fats Explained",
+    "meta_description": "Macronutrients are nutrients needed in relatively large amounts. Protein, carbohydrates, and fats provide energy and perform different structural and metabolic functions.",
+    "search_intent": "Understand what macronutrients are, what each does, how many calories they provide, and why food quality matters as much as macro percentages."
+  },
+  "excerpt": "Protein, carbohydrates, and fats are the three macronutrients that supply most dietary energy. Carbohydrate and protein provide about 4 calories per gram and fat about 9, but their roles extend beyond calories into tissue, hormones, membranes, enzymes, and fuel.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "macronutrients",
+      "protein",
+      "carbohydrates",
+      "fats"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Macronutrients are nutrients the body needs in relatively large amounts and that form the energetic and structural foundation of the diet.</strong> In everyday nutrition, the three major macronutrients are carbohydrates, protein, and fat.</p><p>Carbohydrate and protein provide roughly 4 kilocalories per gram, while fat provides about 9. But reducing them to calorie numbers hides their differences: each group performs distinct physiological functions and contains very different compounds.</p><h2>Carbohydrates: the main energy source in many diets</h2><p>Carbohydrates include sugars, starches, and fiber. Glucose and other digestible carbohydrates supply energy, while fiber has digestive and metabolic roles and does not behave exactly like available starch.</p><p>WHO recommends that, for most people, carbohydrate foods come mainly from whole grains, vegetables, fruit, and legumes. The word “carbohydrate” alone does not distinguish lentils from a sugar-sweetened drink.</p><h2>Protein: amino acids for structure and function</h2><p>Proteins are built from amino acids. The body uses them to build and renew muscle, enzymes, transport proteins, antibodies, hormones, and many other structures.</p><p>Some amino acids are essential because the body cannot make enough of them. They can come from animal and plant foods; a varied diet can meet needs without every single meal requiring one “perfect” protein source.</p><h2>Fat: concentrated energy and essential components</h2><p>Dietary fats supply fatty acids, form part of cell membranes, and help absorb the fat-soluble vitamins A, D, E, and K. Linoleic acid and alpha-linolenic acid are essential fatty acids that must come from food.</p><p>Quality matters. WHO favors unsaturated fats from fish, nuts, seeds, avocado, and plant oils over a high intake of saturated and trans fats.</p><h2>What percentage of each do you need?</h2><p>WHO gives broad adult reference ranges of roughly 45–75% of energy from carbohydrate, at least about 15% and often up to 30% or more from fat depending on context, and around 10–15% from protein for typical adult needs. These are not exact targets every individual must hit.</p><p>Physical activity, age, sports goals, pregnancy, disease, and preference can shift distribution while the diet remains adequate. A percentage does not replace food quality.</p><h2>Alcohol supplies energy but is not a required macronutrient</h2><p>Alcohol supplies about 7 kcal per gram, but it is not an essential nutrient and WHO does not treat it as a necessary part of a healthy diet. Providing calories does not automatically make something a required macronutrient.</p><p>Water is needed in large quantities and is sometimes classified broadly as a macronutrient by amount, but it supplies no energy. In conversations about “tracking macros,” people almost always mean protein, carbohydrate, and fat.</p><h2>Tracking macros is not the same as eating well</h2><p>Two diets can both provide 50% carbohydrate, 25% fat, and 25% protein while looking completely different. One can emphasize legumes, whole grains, vegetables, nuts, and fish; another can rely heavily on refined foods and processed meat.</p><p>Macro percentages describe energy distribution, not vitamin and mineral density, fiber, food structure, or degree of processing.</p><h2>Foods rarely fit into only one macro box</h2><p>A meal built from whole grains, beans, vegetables, and olive oil provides all three macronutrients together. Nuts contain fat, protein, and carbohydrate; legumes contain substantial protein and carbohydrate.</p><p>This is why macro counting is a model rather than a description of foods as isolated nutrient packets.</p><p><strong>The practical rule:</strong> use macronutrients to understand where dietary energy comes from and what roles protein, carbohydrate, and fat play. Then examine the quality of the foods supplying them. “Hitting macros” is an organizational tool, not a complete definition of a healthy diet.</p><p>The most useful way to apply this information is to look at the whole food or dietary pattern rather than one isolated number. Needs change with age, activity, health, pregnancy, and other factors; general guidance explains concepts but does not replace clinical advice when a medical condition is involved.</p><p>The most useful way to apply this information is to look at the whole food or dietary pattern rather than one isolated number. Needs change with age, activity, health, pregnancy, and other factors; general guidance explains concepts but does not replace clinical advice when a medical condition is involved.</p>",
+  "faq": [
+    {
+      "question": "What are the three macronutrients?",
+      "answer": "Protein, carbohydrates, and fats are the three main energy-yielding macronutrients."
+    },
+    {
+      "question": "How many calories does each provide?",
+      "answer": "Protein and carbohydrate provide about 4 kcal/g and fat about 9 kcal/g."
+    },
+    {
+      "question": "Does hitting macros guarantee a healthy diet?",
+      "answer": "No. The same macro split can come from very different foods; fiber, vitamins, minerals, and overall dietary pattern also matter."
+    }
+  ],
+  "sources": [
+    {
+      "name": "WHO — Healthy diet (2026)",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "note": "Current WHO definition of healthy diet, macronutrient roles and adult energy ranges for carbohydrate, fat and protein."
+    },
+    {
+      "name": "WHO/FAO — What are healthy diets?",
+      "url": "https://www.who.int/publications/i/item/9789240101876",
+      "note": "Joint statement on adequacy, balance, moderation and diversity, including macronutrient distribution."
+    },
+    {
+      "name": "WHO — Healthy diet topic",
+      "url": "https://www.who.int/health-topics/healthy-diet",
+      "note": "WHO overview emphasizing carbohydrates, fats and proteins as major dietary energy and structural nutrients."
+    }
+  ],
+  "image": {
+    "concept": "Balanced plate visually divided among whole-grain carbohydrates, protein-rich foods and unsaturated-fat sources, realistic food photography, no text.",
+    "alt": "Foods representing carbohydrates, proteins, and fats"
+  },
+  "status": "publish"
+}
