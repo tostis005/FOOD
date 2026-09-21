@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1160-how-to-make-homemade-yogurt-safely-temperature-fermentation",
+  "article_number": 1160,
+  "translation_group": "1160-safe-homemade-yogurt",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; safe home yogurt making with pasteurized milk and thermophilic cultures.",
+  "title": "How to Make Homemade Yogurt Safely: Milk, Temperature and Fermentation",
+  "slug": "how-to-make-homemade-yogurt-safely-temperature-fermentation",
+  "seo": {
+    "title": "How to Make Homemade Yogurt Safely",
+    "meta_description": "Heat milk, cool it to about 112–115°F, add live starter, incubate near 110°F until sufficiently acidified, then refrigerate promptly. Hygiene and temperature control matter.",
+    "search_intent": "Learn how to make homemade yogurt while controlling heating, starter culture, temperature, time, pH, and hygiene for safe consistent fermentation."
+  },
+  "excerpt": "A controlled home-yogurt process heats milk to about 185–200°F, cools it to roughly 112–115°F, adds an active yogurt culture, incubates near 110°F for several hours, and refrigerates once the yogurt has set and acidified sufficiently.",
+  "taxonomy": {
+    "food_family": "dairy",
+    "food_subcategories": [
+      "yogurt",
+      "fermentation",
+      "food-safety"
+    ],
+    "article_types": [
+      "cooking-techniques",
+      "food-safety"
+    ],
+    "primary_article_type": "cooking-techniques"
+  },
+  "content_html": "<p><strong>A controlled home-yogurt method heats pasteurized milk to about 185–200°F, holds it hot for several minutes, cools it to roughly 112–115°F, adds an active yogurt culture, and incubates it near 110°F until it sets and acidifies.</strong> The finished yogurt is then refrigerated promptly.</p><p>Utah State University Extension recommends heating milk to 185–200°F, holding it for 10–20 minutes, cooling to 112–115°F, and incubating for roughly 4–8 hours. Its endpoint is a pH of 4.6 or lower before immediate refrigeration.</p><h2>Heating the milk does more than reduce microorganisms</h2><p>Pasteurized milk has already received an industrial heat treatment, but heating it again during yogurt making serves another useful purpose. High heat changes whey proteins so they interact more effectively with the milk-protein network, helping the yogurt hold water and develop a thicker, more stable texture.</p><p>The step also reduces microorganisms introduced during handling and gives the chosen starter culture a cleaner environment in which to dominate. Use a clean pot and stir so milk does not scorch on the bottom.</p><h2>Cool the milk before adding the culture</h2><p>Traditional yogurt bacteria are thermophilic, but heat-loving does not mean they tolerate near-boiling milk. Utah State places inoculation around 112–115°F, while Colorado State recommends maintaining incubation near 110°F with roughly a 5°F margin.</p><p>If starter is added while milk is too hot, the culture can be damaged or inactivated and the batch may fail to acidify. If the milk is too cool, fermentation becomes much slower and less predictable.</p><h2>The starter should contain active live cultures</h2><p>You can use a commercial yogurt starter or plain yogurt labeled with live cultures. A heavily flavored yogurt with numerous added ingredients is not the easiest starter because it introduces unnecessary variables into a process that depends on culture activity.</p><p>Utah State suggests mixing a small portion of the warm milk with the starter first and then combining it with the rest. This disperses the culture gently and reduces clumping.</p><h2>Incubation requires stable warmth, not simply leaving milk on the counter</h2><p>A yogurt maker is convenient because it holds an appropriate temperature for hours. A carefully controlled oven, electric cooker with a suitable yogurt setting, or another tested system can also work when its temperature is verified with a thermometer. Colorado State recommends about 110°F and monitoring that temperature during incubation.</p><p>Leaving the container at random room temperature is not the same as controlled fermentation. In a cool kitchen acidification may be too slow; in an environment that becomes too hot, the starter can lose activity.</p><h2>Time is useful, but pH confirms that fermentation progressed far enough</h2><p>Utah State gives a typical window of 4–8 hours and a target pH of 4.6 or below. As yogurt bacteria convert lactose into lactic acid, pH falls and milk proteins form the familiar gel.</p><p>Longer fermentation generally creates a more tart flavor, but yogurt should not remain at incubation temperature indefinitely. Once it has set and reached adequate acidity, refrigeration slows bacterial activity and protects quality.</p><h2>Sanitation is part of the recipe</h2><p>Clean hands, pot, thermometer, jars, lids, and utensils thoroughly. Use pasteurized milk to reduce avoidable risk, and do not seed a new batch with questionable old yogurt. Utah State cautions that safe home fermentation depends on controlling time, temperature, and acidity rather than following improvised instructions that omit those checkpoints.</p><p>If the batch develops mold, abnormal colors, an unpleasant odor different from normal clean yogurt acidity, or fails to set and acidify as expected, discard it rather than trying to rescue an uncertain fermentation.</p><p><strong>The practical rule:</strong> use pasteurized milk and clean equipment, heat the milk sufficiently, cool to starter temperature, add live culture, incubate steadily around 110°F, reach pH 4.6 or below, and refrigerate promptly. Those controls make homemade yogurt repeatable rather than accidental.</p><p>The practical answer also depends on individual context. For supplementation, training, or home fermentation, general guidance does not replace clinical advice or the instructions for a specific product. Keeping the method consistent and noting the result makes it easier to adjust without turning a general recommendation into an absolute rule.</p>",
+  "faq": [
+    {
+      "question": "What temperature should the starter be added?",
+      "answer": "Utah State recommends about 112–115°F; substantially hotter milk can inactivate the culture."
+    },
+    {
+      "question": "How long does yogurt take?",
+      "answer": "Often about 4–8 hours, but the stronger endpoint is a set yogurt that has reached pH 4.6 or below."
+    },
+    {
+      "question": "Can I leave it on the counter overnight?",
+      "answer": "That is not the most controlled method. Yogurt should ferment at an appropriate maintained temperature and be refrigerated once sufficiently acidified."
+    }
+  ],
+  "sources": [
+    {
+      "name": "Utah State University Extension — Homemade Fermented Yogurt",
+      "url": "https://extension.usu.edu/preserve-the-harvest/fermented-yogurt",
+      "note": "Home-yogurt process: heat milk to 185–200°F, cool to 112–115°F, inoculate, incubate 4–8 hours to pH 4.6 or below, then refrigerate."
+    },
+    {
+      "name": "Colorado State University Extension — Making Yogurt",
+      "url": "https://www.extension.colostate.edu/docs/pubs/foodnut/09336.pdf",
+      "note": "Food-safety extension guidance on yogurt cultures, heating milk and maintaining an incubation temperature around 110°F ±5°F."
+    },
+    {
+      "name": "Utah State University Extension — Tips to Safely Ferment at Home",
+      "url": "https://extension.usu.edu/preserve-the-harvest/research/tips-to-safely-ferment-at-home",
+      "note": "General fermentation-safety guidance emphasizing time, temperature, pH and refrigeration."
+    }
+  ],
+  "image": {
+    "concept": "Clean glass jars of homemade yogurt incubating beside a food thermometer and saucepan of milk, realistic kitchen photography, no text.",
+    "alt": "Homemade yogurt incubating in clean jars beside a kitchen thermometer"
+  },
+  "status": "publish"
+}
