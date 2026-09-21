@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1163-what-is-a-calorie-deficit-and-how-it-affects-weight-loss",
+  "article_number": 1163,
+  "translation_group": "1163-calorie-deficit-what-it-is",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; explanation of adult energy balance, not individualized weight-loss prescribing.",
+  "title": "What Is a Calorie Deficit and Why Does It Affect Weight Loss?",
+  "slug": "what-is-a-calorie-deficit-and-how-it-affects-weight-loss",
+  "seo": {
+    "title": "Calorie Deficit: What It Is and How It Works",
+    "meta_description": "A calorie deficit occurs when you consume less energy than you use. It enables weight loss, but the response is not linear because energy expenditure adapts over time.",
+    "search_intent": "Understand what a calorie deficit means, how it is created, why it enables weight loss, and why real-world loss does not follow one fixed formula."
+  },
+  "excerpt": "A calorie deficit is a sustained gap between energy intake and energy use. It is the energy condition required for weight loss, but it does not by itself define diet quality or guarantee an exact rate of loss.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "calorie-deficit",
+      "energy-balance",
+      "weight-management"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "weight-management"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>A calorie deficit means that, over a period of time, the body receives less energy from food and drink than it uses.</strong> When that gap is maintained, the body has to cover part of its energy needs from stored energy, and body weight tends to decrease.</p><p>The principle is simple, but the real response is not a straight line. As body weight changes, so do energy expenditure, spontaneous movement, the amount of tissue being maintained, and other physiological responses. That is why “eating 500 calories less every day” does not produce exactly the same loss week after week.</p><h2>A deficit can come from eating less, expending more, or both</h2><p>NIDDK explains that people aiming to lose weight can reduce energy intake and increase physical activity. In practice, a combination is often more flexible than trying to create the entire gap from only one side.</p><p>Reducing sugar-sweetened drinks, adjusting portions of energy-dense foods, or replacing part of them with higher-volume, higher-fiber foods can reduce intake without turning the diet into a list of forbidden foods. Physical activity adds expenditure and has health benefits independent of weight loss.</p><h2>There is no single “correct” deficit for everyone</h2><p>Energy requirements depend on body size, age, sex, body composition, activity, health status, and other factors. Two people at the same body weight can maintain that weight on different calorie intakes.</p><p>That is why a generic calorie number should not be presented as a universal prescription. NIDDK’s Body Weight Planner uses variables such as age, sex, height, weight, and activity to model change more realistically than simply subtracting a fixed number from a table.</p><h2>The old 3,500-calorie rule is too simple</h2><p>For decades, people repeated the idea that accumulating a 3,500-calorie deficit would produce about one pound of weight loss. NIDDK explains that this rule breaks down when projected across weeks and months because the body adapts.</p><p>As weight falls, a smaller body generally requires less energy to maintain. Resting expenditure and spontaneous activity can also change. The result is that the rate of loss often slows even when similar habits continue.</p><h2>Weight loss is not the same thing as pure fat loss</h2><p>A scale measures fat, water, glycogen, gastrointestinal contents, and lean tissue together. Early in some diets, particularly when carbohydrate or sodium intake changes sharply, a substantial part of rapid scale loss can be water.</p><p>Over time, the usual goal when reducing body fat is to preserve as much muscle as possible. Adequate protein and resistance training can support that goal within an appropriate plan, although exact needs vary between individuals.</p><h2>A very aggressive deficit is not automatically better</h2><p>The larger the restriction, the harder it can become to obtain enough protein, vitamins, minerals, and fiber, and the greater the likelihood of hunger, fatigue, or lean-mass loss. A strategy that cannot be maintained only works for as long as it can be tolerated.</p><p>A useful approach is usually a reduction that still allows a varied diet, regular activity, and enough adherence for meaningful time. The appropriate rate depends on health context, and people with obesity or related medical conditions may benefit from professional support.</p><h2>Diet quality still matters even though calories determine the deficit</h2><p>Two diets can create the same energy deficit while providing very different amounts of fiber, protein, micronutrients, and satiating foods. Energy balance explains the direction of body-weight change, but it does not summarize nutritional quality or the broader health effects of a dietary pattern.</p><p>Vegetables, fruit, legumes, whole grains, protein-rich foods, and appropriate fats make it possible to build a lower-energy diet without relying entirely on “diet” products or weighing every ingredient forever.</p><p><strong>The practical rule:</strong> a calorie deficit is the energy condition that allows weight loss, not one specific diet and not a magic number. It needs to be large enough to create change but sustainable enough to preserve nutrition, activity, and adherence while the body adapts.</p><p>Energy estimates are always approximate: food labels, portion sizes, and daily expenditure all have error. A multiweek trend is therefore more informative than trying to interpret every daily scale change as fat gained or lost.</p>",
+  "faq": [
+    {
+      "question": "What is a calorie deficit?",
+      "answer": "It means consuming less energy than the body uses over a period of time."
+    },
+    {
+      "question": "Does a 500-calorie deficit always cause the same loss?",
+      "answer": "No. Energy expenditure adapts and the rate of weight loss changes over time."
+    },
+    {
+      "question": "Does food quality matter if calories are in deficit?",
+      "answer": "Yes. The deficit affects weight direction, while diet quality determines fiber, protein, micronutrients, satiety, and other health factors."
+    }
+  ],
+  "sources": [
+    {
+      "name": "NIDDK — Eating & Physical Activity to Lose or Maintain Weight",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/adult-overweight-obesity/eating-physical-activity",
+      "note": "NIH/NIDDK guidance explaining that reducing calorie intake and increasing physical activity can support weight loss and maintenance."
+    },
+    {
+      "name": "NIDDK — Research Behind the Body Weight Planner",
+      "url": "https://www.niddk.nih.gov/research-funding/at-niddk/labs-branches/laboratory-biological-modeling/integrative-physiology-section/research/body-weight-planner",
+      "note": "Explains dynamic body-weight adaptation and why the traditional linear 3,500-kcal-per-pound rule overpredicts long-term weight loss."
+    },
+    {
+      "name": "NIDDK — Body Weight Planner",
+      "url": "https://www.niddk.nih.gov/health-information/weight-management/body-weight-planner",
+      "note": "NIH tool using dynamic models to estimate calorie and activity changes for adult weight goals."
+    }
+  ],
+  "image": {
+    "concept": "Balanced plate beside an energy intake and expenditure scale concept using food and walking shoes, realistic editorial photography, no body transformation imagery, no text.",
+    "alt": "Balanced meal beside a concept of energy intake and expenditure"
+  },
+  "status": "publish"
+}
