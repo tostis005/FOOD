@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1167-why-mayonnaise-breaks-how-to-fix-it",
+  "article_number": 1167,
+  "translation_group": "1167-broken-mayonnaise-how-to-fix",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; cooking science and homemade-mayonnaise food safety.",
+  "title": "Why Mayonnaise Breaks and How to Fix a Split Emulsion",
+  "slug": "why-mayonnaise-breaks-how-to-fix-it",
+  "seo": {
+    "title": "Why Mayonnaise Breaks and How to Fix It",
+    "meta_description": "Mayonnaise breaks when oil droplets stop remaining dispersed and merge. Adding oil too quickly is a common cause; starting a new aqueous base can rescue it.",
+    "search_intent": "Understand why mayonnaise loses its emulsion, which mistakes make splitting more likely, and how to disperse the oil again in a controlled way."
+  },
+  "excerpt": "Mayonnaise is an emulsion of tiny oil droplets dispersed through a water-based phase stabilized by egg-yolk components. It breaks when those droplets merge and free oil separates. Adding oil too quickly or exceeding the emulsion’s current capacity are common causes.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "mayonnaise",
+      "emulsions",
+      "cooking-science"
+    ],
+    "article_types": [
+      "cooking-science",
+      "troubleshooting"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>Mayonnaise breaks when its stable dispersion of tiny oil droplets in a water-based phase collapses and droplets merge until free oil separates.</strong> Normal mayonnaise is an oil-in-water emulsion. Egg yolk supplies lipoproteins, proteins, and phospholipids that sit at the oil-water interface and help prevent droplets from coalescing again.</p><p>Whisking does not make oil and water truly miscible. It breaks oil into very small droplets while emulsifying compounds cover the newly created surfaces. If oil arrives faster than the system can stabilize those surfaces, the structure can collapse.</p><h2>Adding oil too quickly is the classic failure</h2><p>At the beginning there is relatively little aqueous phase and a limited amount of emulsifier distributed around droplets. A large pour of oil introduced before earlier droplets are fully dispersed creates larger droplets that collide and merge more easily.</p><p>That is why hand-whisked recipes often begin with drops or a thin stream and speed up only after the mayonnaise has become visibly thick and stable. An immersion blender changes the geometry and shear rate, but the physical principle is the same.</p><h2>An extremely thick mayonnaise may need water, not more oil</h2><p>As oil concentration rises, droplets occupy most of the volume and become tightly packed. That makes mayonnaise thick, but eventually adding more oil without enough continuous water phase makes formation and stabilization of new droplets more difficult.</p><p>A small amount of water, lemon juice, or vinegar can increase the continuous phase and give the emulsion more room to reorganize. This does not mean thinning the sauce dramatically; a teaspoon-scale addition can sometimes restore workable flow.</p><h2>How to rescue mayonnaise that has already split</h2><p>The most reliable approach is to start a new emulsion and treat the broken mayonnaise as though it were the oil. Put a fresh yolk or another suitable small aqueous emulsifying base in a clean bowl, begin whisking, and add the split mixture gradually.</p><p>Start with very small additions. Once the new base has incorporated enough oil into fine droplets and looks thick and uniform, the remaining broken mixture can be added faster. Pouring all of it in at once can simply recreate the original failure.</p><h2>Temperature can affect how easy the emulsion is to build</h2><p>Ingredients at very different temperatures can differ in viscosity and fat behavior, which may make a hand emulsion less predictable. Using ingredients at similar moderate temperatures often makes the process easier.</p><p>But not every broken mayonnaise is caused by a “cold egg.” Addition rate, available water phase, mixing intensity, and the oil-to-emulsifier ratio have more direct effects on the emulsion microstructure.</p><h2>A broken emulsion is not the same as unsafe mayonnaise</h2><p>Separation is a physical problem; egg safety is a different issue. USDA does not recommend uncooked recipes made with ordinary raw shell eggs because Salmonella can be present.</p><p>For uncooked homemade mayonnaise, USDA recommends pasteurized shell eggs or pasteurized egg products. The mayonnaise should then be kept refrigerated, and USDA guidance recommends using homemade mayonnaise within four days.</p><h2>Freezing is not a reliable way to preserve the emulsion</h2><p>USDA notes that mayonnaise does not freeze well because emulsions can separate and look curdled after thawing. Ice formation in the aqueous phase disrupts the distribution and protective layers around oil droplets.</p><p><strong>The practical rule:</strong> begin slowly, allow each addition of oil to become fully emulsified, and add a little aqueous liquid if the sauce becomes excessively dense. If it has already split, build a new base and whisk the broken mixture into it gradually. For uncooked egg mayonnaise, use pasteurized egg and refrigerate.</p><p>For repeatable results, use the same measuring method and change only one variable at a time. In cooking, thickness, starting temperature, equipment, and mixing speed can create more variation than a recipe timed to the minute. Measuring and observing is more reliable than depending only on visual cues.</p><p>For repeatable results, use the same measuring method and change only one variable at a time. In cooking, thickness, starting temperature, equipment, and mixing speed can create more variation than a recipe timed to the minute. Measuring and observing is more reliable than depending only on visual cues.</p>",
+  "faq": [
+    {
+      "question": "Why does mayonnaise split?",
+      "answer": "The oil droplets stop staying separate and begin merging, commonly because oil was added faster than the emulsion could stabilize it."
+    },
+    {
+      "question": "How do you fix broken mayonnaise?",
+      "answer": "Start a new emulsifying base and slowly whisk the broken mayonnaise into it as if it were oil."
+    },
+    {
+      "question": "Is homemade mayonnaise with raw egg safe?",
+      "answer": "USDA recommends pasteurized egg for uncooked homemade mayonnaise and prompt refrigeration."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PMC — Mayonnaise main ingredients influence on its structure as an emulsion",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9114219/",
+      "note": "Review of mayonnaise as an oil-in-water emulsion and the emulsifying role of egg-yolk proteins, lipoproteins and phospholipids."
+    },
+    {
+      "name": "Food Hydrocolloids — Microstructure and image analysis of mayonnaises",
+      "url": "https://www.sciencedirect.com/science/article/abs/pii/S0268005X98000769",
+      "note": "Describes mayonnaise microstructure, oil-droplet size and the role of processing and egg yolk in emulsion stability."
+    },
+    {
+      "name": "USDA FSIS — Is homemade mayonnaise safe?",
+      "url": "https://ask.fsis.usda.gov/article/Es-inocua-la-mayonesa-preparada-en-el-hogar",
+      "note": "USDA recommends pasteurized shell eggs or pasteurized egg products for uncooked homemade mayonnaise and refrigeration after preparation."
+    }
+  ],
+  "image": {
+    "concept": "Two bowls of homemade mayonnaise, one smooth and one visibly split, with whisk, egg yolk and a thin stream of oil, realistic food photography, no text.",
+    "alt": "Smooth mayonnaise beside a broken separated mayonnaise emulsion"
+  },
+  "status": "publish"
+}

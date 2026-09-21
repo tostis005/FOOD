@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1166-chicken-internal-temperature-when-done-how-to-measure",
+  "article_number": 1166,
+  "translation_group": "1166-chicken-internal-temperature",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; household food safety based on USDA guidance.",
+  "title": "Chicken Internal Temperature: When It Is Really Done and How to Measure It",
+  "slug": "chicken-internal-temperature-when-done-how-to-measure",
+  "seo": {
+    "title": "Chicken Internal Temperature: When It Is Done",
+    "meta_description": "USDA recommends all chicken reach at least 165°F (74°C). Measure the thickest part away from bone and do not use color as the only safety test.",
+    "search_intent": "Learn the safe internal temperature for chicken, where to place a thermometer for different cuts, and why color cannot confirm safety."
+  },
+  "excerpt": "Chicken is considered safely cooked when all parts reach at least 165°F (74°C). For breasts, thighs, and wings, measure the thickest area without touching bone; for a whole chicken, check the breast, innermost thigh, and innermost wing.",
+  "taxonomy": {
+    "food_family": "poultry",
+    "food_subcategories": [
+      "chicken",
+      "food-safety",
+      "internal-temperature"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>USDA recommends cooking all chicken to a minimum internal temperature of 165°F, or 74°C, measured with a food thermometer.</strong> That target applies to breasts, thighs, wings, whole birds, ground chicken, giblets, and stuffing cooked inside poultry.</p><p>Cooking time is useful for planning but cannot prove that a particular piece reached a safe temperature. Thickness, starting temperature, bird size, cooking appliance, and the number of pieces all change how quickly the center heats.</p><h2>Where to measure a chicken breast</h2><p>Insert the probe into the thickest part and position the thermometer’s sensing area in the thermal center of the meat. Avoid touching bone, the hot pan, or a pocket of fat, because those can produce a reading that does not represent the center of the chicken.</p><p>For thin breasts, USDA recommends inserting an instant-read thermometer through the side so more of the sensing area passes through the middle. With an irregularly shaped piece, check more than one location and use the lowest reading as the safety reference.</p><h2>Thighs and wings also need measurements away from bone</h2><p>Dark meat contains more connective tissue and is often cooked to higher temperatures for texture, but the food-safety minimum remains 165°F. Place the probe in the thickest fleshy section without resting it on bone.</p><p>A high reading beside the bone does not prove another thicker area is equally hot. With large pieces or a crowded sheet pan, checking two or three pieces is more reliable than choosing the one that looks darkest.</p><h2>A whole chicken needs checks in multiple locations</h2><p>USDA says to check the innermost part of the thigh, innermost part of the wing, and thickest part of the breast. Each area must reach 165°F. If the bird is stuffed, the center of the stuffing must also reach that temperature.</p><p>Breast and leg meat do not heat at the same rate because they differ in thickness and composition. One surface reading can therefore miss a cooler zone elsewhere in the bird.</p><h2>Pink chicken is not automatically raw</h2><p>USDA explains that safely cooked poultry can remain white, pink, or tan. Hemoglobin, bone pigments, smoke, oven gases, and other factors can leave pink color even after the meat reaches 165°F.</p><p>The reverse problem is also possible: a white exterior does not prove the center is safe. Color is a quality and appearance cue; temperature is the safety measurement.</p><h2>Clear juices are not a sufficient test either</h2><p>The familiar advice to cook chicken until “the juices run clear” does not measure the temperature of the coldest part. Liquid appearance changes with pigments and proteins and can create false confidence.</p><p>An instant-read thermometer takes seconds and can actually reduce overcooking because you no longer need to keep heating every breast until visual signs look unquestionably done.</p><h2>The thermometer needs correct handling too</h2><p>Wash the probe if it has touched raw poultry before using it on cooked food. Thermometers that can be calibrated should be checked periodically, especially after being dropped or subjected to rough handling.</p><p><strong>The practical rule:</strong> replace “cook until it is not pink” with a measured endpoint. Look for 165°F/74°C in the center of the thickest area, avoid bone, and check multiple locations when the piece or bird is large. That reading is more reliable than time, color, or juices.</p><p>For repeatable results, use the same measuring method and change only one variable at a time. In cooking, thickness, starting temperature, equipment, and mixing speed can create more variation than a recipe timed to the minute. Measuring and observing is more reliable than depending only on visual cues.</p><p>For repeatable results, use the same measuring method and change only one variable at a time. In cooking, thickness, starting temperature, equipment, and mixing speed can create more variation than a recipe timed to the minute. Measuring and observing is more reliable than depending only on visual cues.</p><p>For repeatable results, use the same measuring method and change only one variable at a time. In cooking, thickness, starting temperature, equipment, and mixing speed can create more variation than a recipe timed to the minute. Measuring and observing is more reliable than depending only on visual cues.</p>",
+  "faq": [
+    {
+      "question": "What temperature is chicken safe at?",
+      "answer": "USDA recommends a minimum internal temperature of 165°F (74°C) for all poultry."
+    },
+    {
+      "question": "Where should the thermometer go?",
+      "answer": "Into the thickest part, with the sensing area in the center and away from bone."
+    },
+    {
+      "question": "Can safely cooked chicken still be pink?",
+      "answer": "Yes. Poultry can remain pink after reaching a safe internal temperature, so use a thermometer rather than color."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Food Thermometers",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers",
+      "note": "USDA guidance: all poultry should reach 165°F; measure parts in the thickest area while avoiding bone, and check multiple locations in whole birds."
+    },
+    {
+      "name": "USDA FSIS — Chicken from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+      "note": "USDA chicken safety guidance and recommended 165°F minimum internal temperature."
+    },
+    {
+      "name": "USDA FSIS — The Color of Meat and Poultry",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/color-meat-and-poultry",
+      "note": "Explains why safely cooked poultry can remain pink and why color is not a reliable safety test."
+    }
+  ],
+  "image": {
+    "concept": "Digital food thermometer inserted sideways into the thickest part of a cooked chicken breast beside a whole roast chicken, realistic kitchen photography, no text.",
+    "alt": "Food thermometer measuring the internal temperature of a chicken breast"
+  },
+  "status": "publish"
+}

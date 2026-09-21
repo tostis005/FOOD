@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "es-1166-temperatura-interna-pollo-cuando-esta-cocinado-como-medir",
+  "article_number": 1166,
+  "translation_group": "1166-chicken-internal-temperature",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/internacional; seguridad alimentaria doméstica con referencia USDA.",
+  "title": "Temperatura interna del pollo: cuándo está realmente cocinado y cómo medirla",
+  "slug": "temperatura-interna-pollo-cuando-esta-cocinado-como-medir",
+  "seo": {
+    "title": "Temperatura interna del pollo: cuándo está cocinado",
+    "meta_description": "USDA recomienda que todo el pollo alcance al menos 74 °C (165 °F). Mide en la parte más gruesa, lejos del hueso, y no uses el color como único indicador.",
+    "search_intent": "Saber qué temperatura interna debe alcanzar el pollo, dónde colocar el termómetro según la pieza y por qué el color no confirma la seguridad."
+  },
+  "excerpt": "El pollo está considerado seguro cuando todas sus partes alcanzan al menos 74 °C (165 °F). En pechugas, muslos y alas, coloca el termómetro en la zona más gruesa sin tocar hueso; en un pollo entero, comprueba pechuga, interior del muslo e interior del ala.",
+  "taxonomy": {
+    "food_family": "poultry",
+    "food_subcategories": [
+      "chicken",
+      "food-safety",
+      "internal-temperature"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>USDA recomienda cocinar todo el pollo hasta una temperatura interna mínima de 74 °C, equivalentes a 165 °F, medida con un termómetro de alimentos.</strong> Esa cifra se aplica a pechuga, muslo, ala, pollo entero, carne picada de pollo y rellenos cocinados dentro del ave.</p><p>El tiempo de horno o sartén sirve para planificar, pero no puede confirmar por sí solo que una pieza concreta haya alcanzado una temperatura segura. El grosor, la temperatura inicial, el tamaño del ave, el aparato y la cantidad de piezas cambian la velocidad de calentamiento.</p><h2>Dónde medir una pechuga de pollo</h2><p>Introduce la sonda en la parte más gruesa, intentando que la zona sensible del termómetro quede en el centro térmico de la pieza. Evita tocar hueso, una bandeja caliente o una bolsa de grasa porque pueden dar una lectura que no representa la carne.</p><p>En pechugas finas, USDA recomienda entrar desde un lateral para que una mayor parte de la sonda quede atravesando el centro. Si la pieza tiene forma irregular, comprueba más de un punto y utiliza la lectura más baja como referencia.</p><h2>En muslos y alas también importa evitar el hueso</h2><p>El muslo tiene más tejido conectivo y suele cocinarse hasta temperaturas superiores por preferencia de textura, pero desde el punto de vista de seguridad el mínimo sigue siendo 74 °C. Inserta la sonda en la zona carnosa más gruesa sin apoyarla en el hueso.</p><p>Una lectura alta junto al hueso no garantiza que otra zona más gruesa esté igual. Con piezas grandes o agrupadas en una bandeja, medir dos o tres unidades es una comprobación más fiable que elegir la que parece más dorada.</p><h2>En un pollo entero hay que revisar varias zonas</h2><p>USDA indica comprobar la parte más interna del muslo, la parte más interna del ala y la zona más gruesa de la pechuga. Todas deben llegar a 165 °F. Si el ave está rellena, el centro del relleno también debe alcanzar esa temperatura.</p><p>La pechuga y los muslos no se calientan al mismo ritmo porque tienen distinto grosor y composición. Por eso una única lectura superficial puede pasar por alto un punto frío en otra parte del ave.</p><h2>El color rosa no significa necesariamente que esté crudo</h2><p>USDA explica que pollo cocinado de forma segura puede conservar tonos blancos, rosados o tostados. La hemoglobina, los pigmentos del hueso, el humo, determinados gases de horno y otros factores pueden mantener color rosado incluso después de alcanzar 74 °C.</p><p>También ocurre lo contrario: una superficie blanca no demuestra que el centro esté seguro. El color es una característica visual y de calidad; el termómetro es la herramienta para verificar temperatura.</p><h2>Los jugos transparentes tampoco son una prueba suficiente</h2><p>La idea de que el pollo está listo cuando “los jugos salen claros” no mide la temperatura de la zona más fría. La apariencia del líquido cambia con pigmentos y proteínas y puede dar una falsa sensación de seguridad.</p><p>Utilizar un termómetro instantáneo lleva segundos y evita tener que sobrecocinar todas las piezas por miedo. Una pechuga puede retirarse cuando ha alcanzado el mínimo seguro sin esperar a que quede seca y fibrosa.</p><h2>El termómetro también necesita estar bien utilizado</h2><p>Lava la sonda después de medir carne cruda y antes de introducirla en alimentos cocinados si ha habido contaminación. Los modelos que pueden calibrarse deben comprobarse periódicamente, especialmente si han recibido golpes.</p><p><strong>La regla práctica:</strong> olvida el “hasta que deje de verse rosa” como criterio de seguridad. Busca 74 °C en el centro de la parte más gruesa, evita hueso y mide varios puntos cuando la pieza o el ave sean grandes. Esa lectura vale más que el tiempo, el color o los jugos.</p><p>Para repetir el resultado, utiliza siempre el mismo método de medición y cambia una sola variable cada vez. En cocina, diferencias de grosor, temperatura inicial, utensilio y velocidad de mezclado pueden explicar más variación que una receta escrita al minuto. Observar y medir evita depender solo de señales visuales.</p>",
+  "faq": [
+    {
+      "question": "¿A qué temperatura está seguro el pollo?",
+      "answer": "USDA recomienda una temperatura interna mínima de 74 °C (165 °F) en todas las partes."
+    },
+    {
+      "question": "¿Dónde pongo el termómetro?",
+      "answer": "En la parte más gruesa, con la zona sensible de la sonda en el centro y sin tocar hueso."
+    },
+    {
+      "question": "¿Puede estar rosa y ser seguro?",
+      "answer": "Sí. El pollo puede conservar color rosado incluso después de alcanzar una temperatura segura; utiliza termómetro."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Food Thermometers",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers",
+      "note": "USDA guidance: all poultry should reach 165°F; measure parts in the thickest area while avoiding bone, and check multiple locations in whole birds."
+    },
+    {
+      "name": "USDA FSIS — Chicken from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/poultry/chicken-farm-table",
+      "note": "USDA chicken safety guidance and recommended 165°F minimum internal temperature."
+    },
+    {
+      "name": "USDA FSIS — The Color of Meat and Poultry",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/color-meat-and-poultry",
+      "note": "Explains why safely cooked poultry can remain pink and why color is not a reliable safety test."
+    }
+  ],
+  "image": {
+    "concept": "Digital food thermometer inserted sideways into the thickest part of a cooked chicken breast beside a whole roast chicken, realistic kitchen photography, no text.",
+    "alt": "Termómetro midiendo la temperatura interna de una pechuga de pollo"
+  },
+  "status": "publish"
+}
