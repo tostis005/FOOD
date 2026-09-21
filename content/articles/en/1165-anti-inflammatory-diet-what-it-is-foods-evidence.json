@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1165-anti-inflammatory-diet-what-it-is-foods-evidence",
+  "article_number": 1165,
+  "translation_group": "1165-anti-inflammatory-diet-what-it-is",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; explanation of dietary patterns linked with inflammatory biomarkers, not treatment of inflammatory disease.",
+  "title": "Anti-Inflammatory Diet: What It Is, Foods It Prioritizes, and Claims the Evidence Does Not Support",
+  "slug": "anti-inflammatory-diet-what-it-is-foods-evidence",
+  "seo": {
+    "title": "Anti-Inflammatory Diet: What It Is and Foods to Prioritize",
+    "meta_description": "There is no single official anti-inflammatory diet. The strongest evidence favors Mediterranean-style patterns rich in plants, whole grains, nuts and unsaturated fats.",
+    "search_intent": "Understand what an anti-inflammatory diet actually means, which patterns have evidence, which foods are prioritized, and which claims go beyond the data."
+  },
+  "excerpt": "“Anti-inflammatory diet” is not one standardized protocol. The most consistent evidence favors high-quality patterns, especially Mediterranean-style eating, built around vegetables, fruit, legumes, whole grains, nuts, olive oil, and fish with less processed meat and highly refined food.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "anti-inflammatory-diet",
+      "inflammation",
+      "dietary-patterns"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "dietary-patterns"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>There is no single official “anti-inflammatory diet” with one universal list of allowed and forbidden foods.</strong> The term is generally used for dietary patterns associated with lower levels of selected inflammatory biomarkers or with a lower overall pro-inflammatory dietary profile.</p><p>The strongest evidence does not point to one supplement, juice, or superfood. A 2026 umbrella review found the clearest anti-inflammatory pattern evidence for Mediterranean diets and, with lower certainty, vegetarian patterns across selected inflammatory markers.</p><h2>Acute and chronic inflammation are not the same thing</h2><p>Acute inflammation is a normal immune response to infection or injury. Pain, heat, swelling, and immune activation can be part of healing. Trying to “eliminate all inflammation” would not make biological sense.</p><p>Nutrition discussions usually mean chronic low-grade inflammation, which is associated with obesity, cardiovascular disease, type 2 diabetes, and other conditions. Even there, a marker such as C-reactive protein is influenced by more than food: adiposity, smoking, infection, sleep, activity, and disease all contribute.</p><h2>The Mediterranean pattern has the strongest practical support</h2><p>A 2026 meta-analysis pooled 33 randomized trials involving 3,476 participants and reported reductions in selected markers including hs-CRP, IL-6, and IL-17 with Mediterranean-diet interventions. Not every marker improved, and results varied across studies.</p><p>That matches the 2026 umbrella review, which found favorable evidence for Mediterranean dietary patterns across CRP, IL-6, and adiponectin with varying certainty. This is a stronger basis for dietary decisions than attributing powerful effects to one isolated food.</p><h2>What foods does an evidence-aligned pattern emphasize?</h2><p>In practice, it includes a large variety of vegetables and fruit, legumes, whole grains, nuts and seeds, olive oil and other unsaturated fats, and fish regularly when it fits the person’s preferences.</p><p>These foods provide fiber, unsaturated fats, vitamins, minerals, and plant compounds. The effect probably comes from the combination and from the foods they displace rather than each ingredient acting as an independent medicine.</p><h2>What tends to be reduced?</h2><p>Dietary patterns associated with a less favorable inflammatory profile often contain more sugar-sweetened drinks, processed meat, trans fats, highly refined foods, and fewer fiber-rich plant foods. Reducing them does not require permanently banning every food that contains sugar, white flour, or saturated fat.</p><p>Frequency and the overall pattern matter more than assigning every ingredient to an “inflammatory” or “anti-inflammatory” category. That binary label oversimplifies nutrition.</p><h2>Turmeric, ginger, berries, and other foods do not replace the whole pattern</h2><p>Many foods contain polyphenols and other compounds studied in laboratory and human research. That can make them useful parts of a varied diet, but it does not prove that a spoonful, tea, or daily shot can independently treat arthritis, autoimmune disease, or systemic inflammation.</p><p>Evidence from complete dietary patterns is more useful for everyday decisions than extrapolating a mechanism from one isolated compound. A bowl full of “superfoods” does not necessarily compensate for poor overall diet quality.</p><h2>Diet is not a substitute for medical treatment of inflammatory disease</h2><p>Autoimmune diseases, inflammatory bowel diseases, arthritis, and other inflammatory conditions have specific mechanisms and treatments. Food may be part of care, but it should not be used to stop medication or replace clinical follow-up based on internet claims.</p><p><strong>The practical rule:</strong> if you want a pattern with reasonable anti-inflammatory evidence, think of a high-quality Mediterranean-style diet: plenty of plant foods, legumes, whole grains and nuts, unsaturated fats, fish when appropriate, and less processed meat and highly refined food. Be skeptical of plans promising to “switch off inflammation” by eliminating one food or selling one miracle product.</p><p>The usefulness of an eating pattern depends on whether it can be maintained while meeting nutritional needs. A highly restrictive strategy can produce short-term results and still be a poor long-term fit for a particular person. Evidence needs to be interpreted alongside safety, adherence, food quality, and medical context.</p><p>The usefulness of an eating pattern depends on whether it can be maintained while meeting nutritional needs. A highly restrictive strategy can produce short-term results and still be a poor long-term fit for a particular person. Evidence needs to be interpreted alongside safety, adherence, food quality, and medical context.</p>",
+  "faq": [
+    {
+      "question": "Is there one official anti-inflammatory diet?",
+      "answer": "No single universal protocol exists. The most consistent evidence supports high-quality patterns, particularly Mediterranean-style eating."
+    },
+    {
+      "question": "Which foods are prioritized?",
+      "answer": "Vegetables, fruit, legumes, whole grains, nuts, seeds, olive oil, and fish when appropriate."
+    },
+    {
+      "question": "Can it cure inflammatory disease?",
+      "answer": "It should not be presented as a cure or used to replace medical treatment. Diet can be one part of a broader care plan."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Dietary Patterns Associated With Anti-inflammatory Effects: umbrella review (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40657695/",
+      "note": "Umbrella review finding the strongest anti-inflammatory pattern evidence for Mediterranean and, with lower certainty, vegetarian patterns."
+    },
+    {
+      "name": "PubMed — Mediterranean Diet Reduces Inflammation in Adults: meta-analysis of randomized trials (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41211687/",
+      "note": "Meta-analysis of 33 randomized trials reporting improvements in selected inflammatory biomarkers with Mediterranean-diet interventions."
+    },
+    {
+      "name": "WHO/FAO — What are healthy diets?",
+      "url": "https://www.who.int/publications/i/item/9789240101876",
+      "note": "Joint healthy-diet principles emphasizing adequacy, balance, moderation and dietary diversity."
+    }
+  ],
+  "image": {
+    "concept": "Colorful vegetables, berries, legumes, whole grains, nuts, olive oil and fish arranged as a balanced meal, realistic editorial food photography, no text.",
+    "alt": "Plant foods, olive oil, nuts, whole grains and fish in a high-quality dietary pattern"
+  },
+  "status": "publish"
+}

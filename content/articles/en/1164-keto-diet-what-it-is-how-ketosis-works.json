@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1164-keto-diet-what-it-is-how-ketosis-works",
+  "article_number": 1164,
+  "translation_group": "1164-keto-diet-what-it-is-ketosis",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; general explanation of ketogenic diets in adults, not individualized medical treatment.",
+  "title": "Keto Diet: What It Is, How Ketosis Works, and What It Really Involves",
+  "slug": "keto-diet-what-it-is-how-ketosis-works",
+  "seo": {
+    "title": "Keto Diet: What It Is and How Ketosis Works",
+    "meta_description": "A keto diet sharply restricts carbohydrates to induce nutritional ketosis. It can produce short-term weight loss but is restrictive and has no clear long-term universal advantage.",
+    "search_intent": "Understand what defines a ketogenic diet, what nutritional ketosis is, which foods are restricted, and what evidence shows about benefits, limits, and risks."
+  },
+  "excerpt": "A ketogenic diet cuts carbohydrate intake very low and raises the proportion of fat so the body produces more ketones. It can support short-term weight loss, but it is restrictive and current evidence does not show a clear long-term advantage over other sustainable approaches.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "ketogenic-diet",
+      "ketosis",
+      "weight-management"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "dietary-patterns"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>A ketogenic or keto diet is a very-low-carbohydrate, relatively high-fat eating pattern designed to produce nutritional ketosis.</strong> In this state, the liver makes more ketone bodies from fat and the body increases its use of ketones and fatty acids for fuel.</p><p>The International Society of Sports Nutrition uses less than roughly 50 g of carbohydrate per day as a broad guideline that induces ketosis in many people, although the exact threshold varies with the individual, physical activity, and diet composition.</p><h2>Nutritional ketosis is not the same as ketoacidosis</h2><p>This distinction is essential. In nutritional ketosis, ketones rise in a controlled physiological response to low carbohydrate availability. Ketoacidosis is a medical emergency, most often associated with severe diabetes dysregulation, involving much higher ketone concentrations and dangerous acid-base disturbance.</p><p>Sharing the word “keto” does not make the two conditions equivalent. A healthy person producing ketones on a ketogenic diet should not assume that nutritional ketosis itself is diabetic ketoacidosis.</p><h2>Which foods are reduced, and what replaces them?</h2><p>Keeping carbohydrate very low limits bread, pasta, rice, potatoes, many grains, sugar, sweets, and much fruit. Normal portions of legumes can also become difficult to fit because beans and lentils provide carbohydrate along with their fiber and protein.</p><p>Energy shifts toward oils, avocado, nuts, seeds, eggs, fish, meat, cheese, and non-starchy vegetables. Food quality matters greatly: a keto pattern centered on olive oil, fish, nuts, seeds, and vegetables is nutritionally different from one dominated by processed meat, butter, and high-fat cheese.</p><h2>It can cause weight loss, especially early on</h2><p>Ketogenic diets can reduce body weight in the short term. Some of the early drop is water because lowering carbohydrate reduces glycogen stores, and glycogen is stored with water. After that initial shift, body-fat loss still requires energy intake to remain below expenditure.</p><p>A 2026 review concluded that ketogenic diets can improve short-term weight and selected metabolic measures in adults with obesity, while long-term effects remain less certain and do not appear to offer a major advantage over other dietary strategies.</p><h2>Appetite may change, but calories still matter</h2><p>Some people find protein- and fat-rich meals satiating and spontaneously eat less. Others miss familiar foods, compensate with large portions of energy-dense keto foods, or stop following the plan because it is socially difficult.</p><p>Being in ketosis does not guarantee fat loss if energy intake is high enough to maintain body weight. Ketosis describes fuel availability and metabolism; it does not cancel energy balance.</p><h2>Severe carbohydrate restriction has practical and nutritional costs</h2><p>Mayo Clinic lists short-term effects such as constipation, headache, cramps, tiredness, weakness, and “keto flu”-type symptoms. Long-term restriction of fruit, whole grains, legumes, and other carbohydrate-rich foods can also reduce fiber and selected micronutrients if the diet is not carefully planned.</p><p>Safety studies report a range of adverse effects and tolerability issues. Blood lipids also respond differently between people; LDL cholesterol can rise substantially in some individuals, so weight loss should not automatically be assumed to improve every cardiometabolic marker.</p><h2>Ketogenic diets have real medical uses, but that does not validate every popular claim</h2><p>Ketogenic diets have a long-established clinical role in drug-resistant epilepsy under specialist supervision. Therapeutic protocols include monitoring and are not equivalent to following a general online keto plan for weight loss.</p><p>People using diabetes medications, people with kidney disease, pregnancy or breastfeeding, and those with other relevant medical conditions should discuss severe carbohydrate restriction with their healthcare team because treatment and monitoring may need adjustment.</p><p><strong>The practical rule:</strong> keto is a very-low-carbohydrate tool that can work for some people, especially short term, but ketosis is not required for fat loss and the diet has not proved universally superior over the long term. Food quality and sustainability matter as much as reaching ketosis.</p><p>The usefulness of an eating pattern depends on whether it can be maintained while meeting nutritional needs. A highly restrictive strategy can produce short-term results and still be a poor long-term fit for a particular person. Evidence needs to be interpreted alongside safety, adherence, food quality, and medical context.</p>",
+  "faq": [
+    {
+      "question": "How many carbs are allowed on keto?",
+      "answer": "A common broad guideline is under about 50 g per day, but the amount needed to achieve ketosis differs between people."
+    },
+    {
+      "question": "Are ketosis and ketoacidosis the same?",
+      "answer": "No. Nutritional ketosis is a physiological adaptation; ketoacidosis is a medical emergency."
+    },
+    {
+      "question": "Does keto cause more weight loss than other diets?",
+      "answer": "It can produce weight loss, particularly in the short term, but evidence does not show a clear long-term universal advantage."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Ketogenic diet in adult obesity: safety, limitations, and evidence (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42466787/",
+      "note": "2026 review finding short-term weight-loss and metabolic effects but no clear long-term advantage over other dietary strategies, with safety and adherence limitations."
+    },
+    {
+      "name": "PubMed — ISSN position stand: ketogenic diets",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38934469/",
+      "note": "Defines nutritional ketosis and notes that very-low-carbohydrate ketogenic diets commonly use less than about 50 g carbohydrate per day."
+    },
+    {
+      "name": "Mayo Clinic — Low-carb diet: Can it help you lose weight?",
+      "url": "https://www.mayoclinic.org/healthy-lifestyle/weight-loss/in-depth/low-carb-diet/art-20045831",
+      "note": "Current clinical overview of low-carbohydrate diets, ketosis, short-term effects and potential long-term nutrient and digestive concerns."
+    },
+    {
+      "name": "PubMed — Adverse events and tolerability of ketogenic diets (2026)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41715236/",
+      "note": "Systematic analysis of adverse events reported in prospective ketogenic-diet interventions."
+    }
+  ],
+  "image": {
+    "concept": "Low-carbohydrate meal with leafy vegetables, eggs, fish, avocado, olive oil and nuts beside a small portion of grains set apart, realistic editorial food photography, no text.",
+    "alt": "Common ketogenic foods beside carbohydrate-rich foods that are restricted"
+  },
+  "status": "publish"
+}
