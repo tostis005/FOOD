@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1190-why-cake-does-not-rise-even-with-baking-powder",
+  "article_number": 1190,
+  "translation_group": "1190-cake-does-not-rise-baking-powder",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; troubleshooting chemically leavened cakes, distinct from rise-then-collapse failures.",
+  "title": "Why a Cake Does Not Rise Even When It Contains Baking Powder",
+  "slug": "why-cake-does-not-rise-even-with-baking-powder",
+  "seo": {
+    "title": "Why Cake Does Not Rise With Baking Powder",
+    "meta_description": "A cake can stay low because of weak leavener, long batter rest, excess flour, poor aeration, cold ingredients, or an oven that is not actually hot enough.",
+    "search_intent": "Diagnose why a cake barely rises from the beginning even though it contains baking powder, without confusing it with a cake that rises and later sinks."
+  },
+  "excerpt": "Baking powder in the ingredient list does not guarantee volume. Old leavener, incorrect amounts, gas lost while batter waits, poor creaming, excess flour, or inadequate oven heat can leave a cake low and dense from the start.",
+  "taxonomy": {
+    "food_family": "cocoa-sweets",
+    "food_subcategories": [
+      "cake",
+      "baking-powder",
+      "baking-science"
+    ],
+    "article_types": [
+      "cooking-science",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>A cake can contain baking powder and still stay low because chemical leavener is only one part of the system that creates volume.</strong> The batter must generate gas, incorporate or retain air, have the correct ingredient balance, and reach a temperature where its structure sets before too much gas escapes.</p><p>This is different from a cake that rises dramatically and then sinks. Here the main symptom is that the batter never develops the expected height or shows only weak expansion from the beginning.</p><h2>Baking powder can be old or weakened</h2><p>King Arthur notes that expired or weak leavener can produce dense, low cakes. Baking powder reacts with moisture and heat; after long storage, exposure to humidity, or expiration, it may release less gas.</p><p>If several reliable recipes suddenly start failing and the container is old, replacing it is an easy test. Do not compensate by adding a large extra amount: too much leavener can create oversized bubbles and a different rise-then-collapse problem.</p><h2>The wrong amount changes the batter balance</h2><p>Confusing teaspoons with tablespoons, failing to level a measure, or changing flour quantity without adjusting the formula can significantly alter the relationship between structure and gas. Too little leavener means less expansion; too much can expand batter faster than it can support.</p><p>Weighing major ingredients and carefully measuring small ones removes one of the easiest sources of error.</p><h2>Letting batter sit too long can reduce its eventual rise</h2><p>Many modern baking powders are double-acting: part of the gas is released after hydration and another part is released with oven heat. When batter sits for a long period, some of the first reaction can occur while it is still in the bowl.</p><p>King Arthur testing shows prolonged resting can reduce volume in some cakes, particularly when the formula depends strongly on baking soda or early leavener activity. Preheat the oven and prepare the pan before finishing the batter.</p><h2>In creamed cakes, baking powder does not replace incorporated air</h2><p>When a recipe asks you to cream butter and sugar, that step creates small air cells that later expand. Butter that is too cold does not trap air effectively; butter that is nearly melted cannot hold a stable network.</p><p>Very cold eggs can also cool or break a butter emulsion. Following the recipe’s ingredient-temperature guidance helps the aeration system work as intended.</p><h2>Too much flour creates a heavy batter</h2><p>Scooping flour by plunging a measuring cup directly into the bag can compact much more flour than intended. Excess flour reduces the relative liquid content, makes batter stiff, and requires more gas to expand.</p><p>A kitchen scale removes most of this uncertainty. If cups are necessary, fluff the flour, spoon it into the cup, and level it without packing.</p><h2>Both undermixing and overmixing can affect volume</h2><p>King Arthur testing shows insufficient mixing can leave an uneven, weak structure, while aggressive mixing after flour is added can develop too much gluten and alter the crumb. Recipe mixing methods exist for a reason.</p><p>In a creaming-method cake, beat the fat and sugar as instructed; after adding flour, mix until evenly distributed and stop according to the method rather than following a universal “less mixing is always better” rule.</p><h2>Your oven may be cooler than the dial says</h2><p>If the oven starts too cool, gas can escape and fat can melt before proteins and starch set the structure. The result can be a low dense layer even when the baking powder is fresh.</p><p>An independent oven thermometer can reveal a meaningful calibration error. It also helps confirm that the oven is truly preheated before the cake goes in.</p><h2>Pan size changes batter depth</h2><p>A pan that is too large spreads batter into a shallow layer that can look “under-risen” even if the percentage expansion was normal. A pan that is too small creates other problems such as overflow or a center that cannot bake in time.</p><p><strong>The practical rule:</strong> when a cake never rises well, check fresh leavener and correct quantity first, then oven heat, flour measurement, ingredient temperature, and mixing method. Reserve the “sinking” diagnosis for a cake that actually gained volume and then lost it.</p>",
+  "faq": [
+    {
+      "question": "Why does my cake not rise even with baking powder?",
+      "answer": "The leavener may be weak, the amount incorrect, gas may be lost during a long rest, or the batter may be too heavy or poorly aerated."
+    },
+    {
+      "question": "Can I just add more baking powder?",
+      "answer": "Not safely without reformulating. Excess leavener can create large bubbles, off flavors, and collapse."
+    },
+    {
+      "question": "Should cake batter be baked immediately?",
+      "answer": "Many batters benefit from going into a preheated oven promptly because part of leavener activity begins after hydration."
+    }
+  ],
+  "sources": [
+    {
+      "name": "King Arthur Baking — What is cake cleaching?",
+      "url": "https://www.kingarthurbaking.com/blog/2026/02/11/cake-cleaching",
+      "note": "2026 Test Kitchen discussion of too little or expired leavener, ingredient temperature, mixing, and batter balance as causes of dense low cakes."
+    },
+    {
+      "name": "King Arthur Baking — How long can cake batter rest before baking?",
+      "url": "https://www.kingarthurbaking.com/blog/2025/11/20/rest-cake-batter",
+      "note": "Explains that extended resting can reduce rise, particularly when baking soda or the first reaction of double-acting baking powder begins before the cake reaches the oven."
+    },
+    {
+      "name": "King Arthur Baking — How to prevent dense, gluey streaks in cake",
+      "url": "https://www.kingarthurbaking.com/blog/2014/07/15/how-to-prevent-dense-gluey-streaks-in-your-cake",
+      "note": "Explains how mixing and creaming affect incorporated air, cake structure and final rise."
+    },
+    {
+      "name": "King Arthur Baking — Cake baking guide",
+      "url": "https://www.kingarthurbaking.com/learn/cake",
+      "note": "General cake-science guidance on ingredient temperature, creaming, mixing, pans and oven behavior."
+    }
+  ],
+  "image": {
+    "concept": "Two cake batters baked side by side, one low and dense and one properly risen, with baking powder, scale and oven thermometer nearby, realistic baking photography, no text.",
+    "alt": "Low dense cake beside a properly risen cake and baking tools"
+  },
+  "status": "publish"
+}

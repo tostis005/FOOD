@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "id": "en-1188-meat-internal-temperatures-beef-pork-lamb-ground-meat",
+  "article_number": 1188,
+  "translation_group": "1188-meat-internal-temperatures",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; household food-safety guidance based on USDA minimum temperatures.",
+  "title": "Meat Internal Temperatures: Beef, Pork, Lamb, and Ground Meat",
+  "slug": "meat-internal-temperatures-beef-pork-lamb-ground-meat",
+  "seo": {
+    "title": "Safe Internal Temperatures for Meat",
+    "meta_description": "USDA recommends 145°F plus a 3-minute rest for whole cuts of beef, pork and lamb, and 160°F for ground meat. Color is not a substitute for a thermometer.",
+    "search_intent": "Learn the safe minimum internal temperature for whole cuts of beef, pork and lamb versus ground meat and how to measure it correctly."
+  },
+  "excerpt": "For whole cuts of beef, pork, veal, and lamb, USDA recommends 145°F (62.8°C) followed by at least a 3-minute rest. Ground meat from these species should reach 160°F (71.1°C). Grinding changes the safety target because surface contamination can be redistributed through the interior.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "internal-temperature",
+      "beef",
+      "pork",
+      "lamb",
+      "ground-meat"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>For whole cuts of beef, pork, veal, and lamb, USDA recommends a minimum internal temperature of 145°F (62.8°C) followed by at least a 3-minute rest before cutting or eating.</strong> For ground beef, pork, veal, or lamb, the minimum rises to <strong>160°F (71.1°C)</strong>.</p><p>These are safety minimums, not an instruction that every cut must be served at exactly that doneness. You can cook meat to a higher temperature for texture or preference. The key is not confusing visual doneness with a measured internal endpoint.</p><h2>Whole cuts: 145°F plus a 3-minute rest</h2><p>A steak, chop, or roast generally keeps most initial bacterial contamination on its outer surface. Cooking exposes that surface to intense heat while the center can remain cooler.</p><p>USDA pairs 145°F with a rest of at least three minutes. During that period, temperature remains elevated and may continue rising because of carryover heat, completing the time-temperature treatment behind the recommendation.</p><h2>Ground meat: 160°F without relying on color</h2><p>Grinding mixes outside surfaces into the interior. Bacteria that were originally on the exterior can therefore be distributed throughout a burger, meatball, sausage filling, or other ground preparation. That is why the minimum target is higher.</p><p>A burger can turn brown inside before reaching 160°F, while another can remain pink even after it is safe. USDA warns that color is not a reliable safety indicator.</p><h2>Where should the thermometer go?</h2><p>Place the sensing area in the thickest portion and avoid bone, large pockets of fat, and gristle. For thin foods such as burgers or chops, an instant-read thermometer can be inserted from the side so the sensing zone passes through the center.</p><p>For a large roast, check more than one location. The coldest area does not always sit at the exact geometric center, especially when the cut has an irregular shape.</p><h2>145°F does not mean every whole cut has to be served pink</h2><p>Food safety and preferred doneness are separate questions. A pork chop can be safely cooked to 145°F with the required rest and still show some pink color. If you prefer a firmer texture, cooking it farther is fine.</p><p>Tough collagen-rich cuts used for braising are routinely taken to much higher temperatures for longer periods so connective tissue softens. That higher endpoint is mainly a texture goal rather than evidence that 145°F is unsafe for all whole cuts.</p><h2>The rest period is part of the 145°F recommendation</h2><p>The official instruction combines temperature and time. Cutting into a chop the instant it first touches 145°F removes part of the thermal holding period included in USDA guidance.</p><p>Resting also allows heat and juices to redistribute. In large roasts, the central temperature can continue climbing several degrees after removal from the oven.</p><h2>A thermometer helps prevent overcooking too</h2><p>Without measurement, people often keep meat cooking “just to be safe” until it becomes dry. Knowing the internal temperature lets you stop once both safety and your desired texture have been reached.</p><p>Check thermometer accuracy periodically and clean the probe after it contacts raw meat before using it on cooked or ready-to-eat food.</p><h2>Quick temperature summary</h2><p>Beef, pork, veal, and lamb steaks, chops, and roasts: <strong>145°F plus a 3-minute rest</strong>. Ground meat from those species: <strong>160°F</strong>. Poultry uses a different target — 165°F — and is best treated as its own category.</p><p><strong>The practical rule:</strong> measure the thickest part, stay away from bone and fat, and use temperature rather than color. For a whole cut, reach at least 145°F and rest; for ground meat, reach 160°F.</p><p>For repeatable results, measure the variable that actually determines the endpoint: temperature for food safety, texture and dispersion in a sauce, or volume and structure in a batter. Time and visual cues are useful guides, but direct checks greatly reduce error.</p><p>For repeatable results, measure the variable that actually determines the endpoint: temperature for food safety, texture and dispersion in a sauce, or volume and structure in a batter. Time and visual cues are useful guides, but direct checks greatly reduce error.</p>",
+  "faq": [
+    {
+      "question": "What temperature is beef or pork safe at?",
+      "answer": "For whole cuts, USDA recommends 145°F (62.8°C) plus at least a 3-minute rest."
+    },
+    {
+      "question": "What about ground meat?",
+      "answer": "Ground beef, pork, veal, and lamb should reach 160°F (71.1°C)."
+    },
+    {
+      "question": "Can I judge safety by color?",
+      "answer": "No. Meat can change color before or after reaching a safe temperature, so use a food thermometer."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Safe Minimum Internal Temperature Chart",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart",
+      "note": "USDA minimums: whole cuts of beef, pork, veal and lamb 145°F/62.8°C plus a 3-minute rest; ground meats 160°F/71.1°C."
+    },
+    {
+      "name": "USDA FSIS — Food Thermometers",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/food-thermometers",
+      "note": "Official guidance on placing thermometers in the thickest portion while avoiding bone, fat and gristle."
+    },
+    {
+      "name": "USDA FSIS — Doneness Versus Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/doneness-versus-safety",
+      "note": "Explains that color and visual doneness are not reliable substitutes for a food thermometer."
+    }
+  ],
+  "image": {
+    "concept": "Digital food thermometer checking steak, pork chop, lamb chop and ground-meat patty on separate plates, realistic food-safety photography, no text.",
+    "alt": "Food thermometer checking whole meat cuts and ground meat"
+  },
+  "status": "publish"
+}
