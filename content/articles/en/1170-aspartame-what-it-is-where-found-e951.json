@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1170-aspartame-what-it-is-where-found-e951",
+  "article_number": 1170,
+  "translation_group": "1170-aspartame-e951",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; food additive E951 with EFSA, JECFA, IARC and FDA context.",
+  "title": "Aspartame: What It Is, Where It Is Found, and What E951 Means",
+  "slug": "aspartame-what-it-is-where-found-e951",
+  "seo": {
+    "title": "Aspartame (E951): What It Is and What the Evidence Says",
+    "meta_description": "Aspartame is an intense sweetener about 200 times sweeter than sugar. In the EU it is E951; EFSA and JECFA set an ADI of 40 mg/kg body weight per day.",
+    "search_intent": "Understand what aspartame is, which foods use it, what E951 means, and how to interpret EFSA, JECFA, IARC and FDA safety assessments."
+  },
+  "excerpt": "Aspartame is a high-intensity sweetener used in sugar-free drinks, gum, desserts, and other products. In the EU it is E951. EFSA and JECFA retain an acceptable daily intake of 40 mg per kg body weight; people with phenylketonuria need to avoid it because it provides phenylalanine.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "aspartame",
+      "sweeteners",
+      "labels"
+    ],
+    "article_types": [
+      "labels",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "labels"
+  },
+  "content_html": "<p><strong>Aspartame is a high-intensity sweetener roughly 200 times sweeter than sugar, so only a small amount is needed to create sweetness.</strong> In the European Union it is identified as aspartame or E951 and can appear in sugar-free drinks, chewing gum, desserts, flavored dairy products, tabletop sweeteners, and other formulations designed to reduce sugar or energy.</p><p>Chemically, aspartame is made from components related to two amino acids, aspartic acid and phenylalanine. Because it provides phenylalanine when digested, products containing aspartame carry a warning for people with phenylketonuria, who must restrict phenylalanine intake.</p><h2>E951 is an identifier, not a danger rating</h2><p>E numbers identify additives authorized for food use in the EU. Seeing E951 means the formulation contains aspartame under regulated conditions; “951” is not an amount, toxicity score, or nutrition grade.</p><p>Labels may identify the sweetener by name or E number together with its technological function according to local rules. Actual exposure depends on how much aspartame a product contains and how much of that product is consumed.</p><h2>What does the 40 mg/kg acceptable daily intake mean?</h2><p>EFSA and JECFA retain an acceptable daily intake of 40 mg per kilogram of body weight per day. For a 70 kg adult, that corresponds to 2,800 mg per day. The ADI is an amount that can be consumed daily over a lifetime without appreciable health risk based on the available assessment.</p><p>It is not a line where one extra milligram changes a substance from safe to poisonous in a single exposure. Regulators derive ADIs by applying safety factors to exposure levels that did not cause adverse effects in the evidence used for assessment.</p><h2>Why did IARC classify aspartame as “possibly carcinogenic”?</h2><p>In 2023, IARC classified aspartame as Group 2B, “possibly carcinogenic to humans,” based on limited evidence. IARC hazard classification asks whether an agent could be capable of causing cancer under some circumstances; it does not estimate the cancer risk from ordinary dietary exposure.</p><p>At the same time, JECFA assessed exposure and risk and kept its 0–40 mg/kg/day ADI. Those conclusions are not logically incompatible: IARC identified a possible hazard signal, while JECFA did not find evidence strong enough to change the exposure level considered acceptable.</p><h2>EFSA continues to maintain its safety assessment</h2><p>EFSA comprehensively re-evaluated aspartame in 2013 and concluded that aspartame and its breakdown products were safe for the general population at evaluated exposures, with the specific exception of people with phenylketonuria. EFSA’s topic page was reviewed again in September 2026 and continues to list the 40 mg/kg/day ADI.</p><p>Safety assessments can be updated when new data emerge. That is normal regulatory practice: a safety conclusion does not mean research stops forever; it means current evidence supports the stated conditions of use until new evidence warrants reassessment.</p><h2>The United States uses a different ADI</h2><p>FDA uses an acceptable daily intake of 50 mg/kg body weight per day. The difference from the 40 mg/kg value used by EFSA and JECFA does not mean one regulator calls the substance dangerous while another calls it safe; it reflects differences in regulatory assessments and safety margins.</p><p>Typical population exposure estimates are generally below these limits. Estimating an individual intake accurately requires knowing the actual milligrams in specific products, which are not always displayed on a nutrition label.</p><h2>Is aspartame “better” than sugar?</h2><p>Aspartame can reduce the amount of sugar needed for sweetness and can lower free-sugar or energy content in some drinks and foods. That does not automatically make the complete product nutritionally superior. A sugar-free soda and a nutrient-rich yogurt remain very different foods even if both use a sweetener.</p><p><strong>The practical rule:</strong> E951 means aspartame, an authorized and repeatedly evaluated sweetener. EFSA and JECFA maintain an ADI of 40 mg/kg/day for the general population. IARC’s classification describes potential hazard rather than individual risk at a particular dose. People with phenylketonuria are the important exception because they must restrict phenylalanine.</p><p>When interpreting a food additive, separate three questions: what the substance is, why it is used, and what exposure level regulators consider acceptable. An E number identifies a substance authorized under specified conditions; it is not a nutrition-quality score for the entire product.</p>",
+  "faq": [
+    {
+      "question": "What does E951 mean?",
+      "answer": "E951 is the EU food-additive identifier for aspartame."
+    },
+    {
+      "question": "Does aspartame cause cancer?",
+      "answer": "IARC classified it as possibly carcinogenic based on limited evidence, while JECFA retained the 0–40 mg/kg/day ADI; hazard and risk at a given exposure are different concepts."
+    },
+    {
+      "question": "Who should avoid aspartame?",
+      "answer": "People with phenylketonuria need to restrict it because aspartame provides phenylalanine."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EFSA — Aspartame",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/aspartame",
+      "note": "Current EFSA topic page, reviewed September 2026, covering E951, sweetness, labeling and the EU acceptable daily intake."
+    },
+    {
+      "name": "WHO — Aspartame hazard and risk assessment results released",
+      "url": "https://www.who.int/news/item/14-07-2023-aspartame-hazard-and-risk-assessment-results-released",
+      "note": "Joint IARC/JECFA communication distinguishing IARC hazard classification from JECFA risk assessment and reaffirming the 0–40 mg/kg/day ADI."
+    },
+    {
+      "name": "WHO JECFA database — Aspartame",
+      "url": "https://apps.who.int/food-additives-contaminants-jecfa-database/Home/Chemical/62",
+      "note": "JECFA assessment retaining an acceptable daily intake of 0–40 mg/kg body weight per day."
+    },
+    {
+      "name": "U.S. FDA — Aspartame and Other Sweeteners in Food",
+      "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food",
+      "note": "FDA overview of aspartame safety, U.S. ADI and the phenylalanine warning for people with phenylketonuria."
+    }
+  ],
+  "image": {
+    "concept": "Sugar-free soft drink, chewing gum and tabletop sweetener beside a small ingredient label concept showing E951, realistic editorial food photography, no brand names or readable label text.",
+    "alt": "Sugar-free products associated with aspartame E951"
+  },
+  "status": "publish"
+}

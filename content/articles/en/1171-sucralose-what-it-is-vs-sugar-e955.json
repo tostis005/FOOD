@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1171-sucralose-what-it-is-vs-sugar-e955",
+  "article_number": 1171,
+  "translation_group": "1171-sucralose-e955",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; E955 sweetener with 2026 EFSA reassessment and FDA context.",
+  "title": "Sucralose: What It Is, How It Differs From Sugar, and What E955 Means",
+  "slug": "sucralose-what-it-is-vs-sugar-e955",
+  "seo": {
+    "title": "Sucralose (E955): What It Is vs. Sugar",
+    "meta_description": "Sucralose is an intense sweetener about 600 times sweeter than sugar. In the EU it is E955; EFSA retains a 15 mg/kg/day ADI for currently authorized uses.",
+    "search_intent": "Understand what sucralose is, how it differs from sugar, what E955 means, and what EFSA concluded in its 2026 re-evaluation."
+  },
+  "excerpt": "Sucralose is a high-intensity non-nutritive sweetener that creates sweetness at very small amounts. In the EU it is E955. EFSA concluded in 2026 that currently authorized uses remain safe and retained an acceptable daily intake of 15 mg/kg body weight.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "sucralose",
+      "sweeteners",
+      "labels"
+    ],
+    "article_types": [
+      "labels",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "labels"
+  },
+  "content_html": "<p><strong>Sucralose is a high-intensity sweetener about 600 times sweeter than sugar, allowing manufacturers to create sweetness with very small amounts.</strong> In the European Union it is identified as E955 and can appear in sugar-free beverages, tabletop sweeteners, desserts, chewing gum, supplements, and other products formulated with little or no added sugar.</p><p>It is made from sucrose through a chemical modification in which selected hydroxyl groups are replaced by chlorine atoms. That change makes the molecule far sweeter and means the body does not handle it in the same way as ordinary sucrose.</p><h2>Sucralose and sugar do not have the same nutritional or culinary roles</h2><p>Sugar provides about four calories per gram and contributes more than sweetness. It supplies bulk, participates in browning, binds water, and affects the structure of baked goods and confectionery. Sucralose is used at tiny concentrations because of its sweetness and cannot automatically replace all those functions.</p><p>A “sugar-free” formulation may therefore need other ingredients for body, texture, or volume. Replacing sugar with sucralose can reduce sugar or energy, but the final nutritional profile still depends on the entire recipe.</p><h2>E955 identifies the authorized additive in the EU</h2><p>The E number is not an amount or risk score. E955 is simply the regulatory identifier for sucralose. Ingredient lists can identify it by name or E number according to applicable rules.</p><p>EFSA re-evaluated the additive in 2026 and retained an acceptable daily intake of 15 mg per kilogram of body weight per day. Its exposure estimates indicated that intake from currently authorized uses remained below that reference level.</p><h2>The 2026 review confirmed current uses but drew a line around proposed new ones</h2><p>EFSA concluded that sucralose remained safe for currently authorized uses. It could not, however, confirm the safety of extending certain proposed uses in fine bakery products exposed to prolonged high-temperature processing.</p><p>That finding does not mean currently authorized sucralose is unsafe. It reflects uncertainty about potential chemical reactions under specific heating conditions and insufficient data to approve that particular expansion of use.</p><h2>Can you cook and bake with sucralose?</h2><p>The answer depends on the product, temperature, and authorized application. Many retail sweeteners combine sucralose with bulking agents and provide specific baking instructions. Following the manufacturer’s formulation guidance is more reliable than assuming pure sucralose behaves like sugar.</p><p>The European reassessment reinforces an important distinction: being suitable for many food uses does not mean every imaginable high-temperature process has been evaluated in exactly the same way.</p><h2>Why is the U.S. ADI different?</h2><p>FDA uses an acceptable daily intake of 5 mg/kg/day for sucralose, while EFSA uses 15 mg/kg/day. Regulatory reference values can differ because agencies may use different datasets, assumptions, and approaches in their assessments.</p><p>An ADI is not the amount an average person is expected to consume. It is a long-term daily exposure reference that incorporates safety margins. Population exposure estimates are compared with it to assess whether authorized uses create concern.</p><h2>Does sucralose cause weight loss?</h2><p>Replacing caloric sugar with a high-intensity sweetener can reduce energy intake when those calories are not replaced elsewhere. Using sucralose, however, does not automatically create an energy deficit or guarantee weight loss.</p><p><strong>The practical rule:</strong> E955 means sucralose, a very intense sweetener. EFSA confirmed the safety of current authorized uses in 2026 and retained a 15 mg/kg/day ADI, while not supporting certain proposed extensions involving prolonged high heat. Evaluate the whole food rather than judging it only by whether it contains sugar or a sweetener.</p><p>When interpreting a food additive, separate three questions: what the substance is, why it is used, and what exposure level regulators consider acceptable. An E number identifies a substance authorized under specified conditions; it is not a nutrition-quality score for the entire product.</p><p>When interpreting a food additive, separate three questions: what the substance is, why it is used, and what exposure level regulators consider acceptable. An E number identifies a substance authorized under specified conditions; it is not a nutrition-quality score for the entire product.</p>",
+  "faq": [
+    {
+      "question": "What does E955 mean?",
+      "answer": "E955 is the EU food-additive identifier for sucralose."
+    },
+    {
+      "question": "Is sucralose the same as sugar?",
+      "answer": "No. It is far sweeter, used at much lower amounts, and does not provide sugar's bulk, browning, and structural functions."
+    },
+    {
+      "question": "Is sucralose safe for baking?",
+      "answer": "EFSA considers currently authorized uses safe, but in 2026 could not confirm some proposed extensions involving prolonged high-temperature bakery processing."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EFSA — Re-evaluation of sucralose (E955)",
+      "url": "https://www.efsa.europa.eu/en/plain-language-summary/re-evaluation-sucralose-e-955-food-additive",
+      "note": "2026 EFSA re-evaluation of sucralose, current authorized uses and EU acceptable daily intake."
+    },
+    {
+      "name": "EFSA — Sucralose safe for currently authorised uses",
+      "url": "https://www.efsa.europa.eu/en/news/efsa-finds-sucralose-safe-when-used-currently-authorised-cannot-confirm-safety-extending-its",
+      "note": "2026 EFSA conclusion that current uses are safe while uncertainty remains for proposed extended high-temperature bakery uses."
+    },
+    {
+      "name": "U.S. FDA — Aspartame and Other Sweeteners in Food",
+      "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food",
+      "note": "FDA overview of high-intensity sweeteners including sucralose and the U.S. acceptable daily intake."
+    }
+  ],
+  "image": {
+    "concept": "Tabletop sweetener, sugar cubes and sugar-free dessert arranged for comparison beside an E955 ingredient concept, realistic food photography, no readable text.",
+    "alt": "Sucralose visually compared with sugar and sugar-free foods"
+  },
+  "status": "publish"
+}
