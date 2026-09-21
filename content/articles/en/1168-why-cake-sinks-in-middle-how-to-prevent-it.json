@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1168-why-cake-sinks-in-middle-how-to-prevent-it",
+  "article_number": 1168,
+  "translation_group": "1168-why-cake-sinks-middle",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; home-baking troubleshooting for chemically leavened cakes.",
+  "title": "Why a Cake Sinks in the Middle and How to Prevent It",
+  "slug": "why-cake-sinks-in-middle-how-to-prevent-it",
+  "seo": {
+    "title": "Why Does a Cake Sink in the Middle?",
+    "meta_description": "A cake sinks when it expands before its structure is strong enough to hold. Underbaking, excess leavener, mixing errors, or the wrong pan are common causes.",
+    "search_intent": "Diagnose why a cake rises in the oven and then collapses in the center and correct baking time, leavener, mixing, pan size, and oven temperature."
+  },
+  "excerpt": "A cake that rises and then sinks usually created more expansion than its structure could support. Removing it before the center sets, using too much chemical leavener, mixing incorrectly, or baking a batter too deep for the pan can all cause collapse.",
+  "taxonomy": {
+    "food_family": "baking",
+    "food_subcategories": [
+      "cake",
+      "baking-science",
+      "troubleshooting"
+    ],
+    "article_types": [
+      "cooking-science",
+      "troubleshooting"
+    ],
+    "primary_article_type": "cooking-science"
+  },
+  "content_html": "<p><strong>A cake sinks in the center when the batter expands during baking but its structure is not yet strong enough to hold that volume.</strong> As a cake heats, incorporated air, steam, and gases from chemical leaveners expand. At the same time, proteins and starches have to set into a network capable of supporting those bubbles.</p><p>If expansion gets too far ahead of structural setting, the cake can look impressive in the oven and then collapse as temperature falls or soon after it is removed.</p><h2>Taking the cake out too early is one of the most common causes</h2><p>King Arthur explains that a cake can rise normally and fall during cooling when the center remains underbaked. Edges heat sooner because they contact the pan, while the center takes longer to lose moisture and establish structure.</p><p>Surface color does not prove the middle is done. Use several cues together: the center should offer some spring when gently pressed, batter beneath the surface should no longer feel fluid, and depending on the recipe the edges may begin pulling slightly away from the pan.</p><h2>Too much leavener can make a cake rise too fast</h2><p>More baking powder or baking soda does not mean more stable volume. Excess leavener releases too much gas, bubbles enlarge quickly, and the structure stretches beyond what it can support. Those oversized cells can then break or collapse.</p><p>This is especially easy when leavener is measured by eye or a tablespoon is confused with a teaspoon. Level measurements or weighing ingredients where practical reduces accumulated error.</p><h2>Overmixing can also create a rise that later fails</h2><p>In creaming-method cakes, beating butter and sugar incorporates air. Excessive creaming can trap too much air and encourage an exaggerated rise. After flour is added, aggressive mixing can develop too much gluten and create a structure different from what the formula was designed around.</p><p>King Arthur has also shown that undermixing can weaken certain cakes. The useful lesson is not “always mix as little as possible,” but to follow the recipe’s method and stop when the specified texture is reached.</p><h2>Pan size changes batter depth and center baking time</h2><p>A batter designed for a 9-inch pan behaves differently in a much smaller pan. The smaller pan creates a deeper layer, allowing edges to set while the center remains wet for longer.</p><p>Do not overfill a pan beyond what the recipe expects. Extra batter is better baked separately than turned into a deeper cake that needs a completely different time-temperature balance. Pan material and color also affect heat transfer and browning.</p><h2>An inaccurate oven can cause collapse in two different ways</h2><p>An oven that is too hot can make the outside and top rise and set rapidly while the middle is still soft. An oven that is too cool lets gas cells continue expanding for too long before the structure gains enough strength.</p><p>If reliable recipes repeatedly fail, an independent oven thermometer can reveal a meaningful gap between the selected temperature and the actual one.</p><h2>Opening the oven too early can trigger the final collapse</h2><p>Early in baking, the cake structure is still fragile. Opening the door causes a rapid temperature drop and air movement. A nearly set cake can tolerate that; a batter still relying on hot expanded gas for support may lose volume.</p><p><strong>The practical rule:</strong> measure leavener accurately, use the intended pan size, mix according to the method, avoid opening the oven too early, and do not remove the cake until the center is genuinely set. If it rises dramatically and then falls, think first about excessive expansion versus insufficient structure.</p><p>When diagnosing the problem, change one variable on the next batch. Keeping the recipe, quantity, and equipment the same makes it possible to tell whether the improvement really came from timing, temperature, pan choice, or storage. In home cooking, a controlled repeatable method is more useful than stacking multiple tricks.</p><p>When diagnosing the problem, change one variable on the next batch. Keeping the recipe, quantity, and equipment the same makes it possible to tell whether the improvement really came from timing, temperature, pan choice, or storage. In home cooking, a controlled repeatable method is more useful than stacking multiple tricks.</p>",
+  "faq": [
+    {
+      "question": "Why does my cake rise and then sink?",
+      "answer": "The batter expanded before the internal structure was sufficiently set to support the volume."
+    },
+    {
+      "question": "Can too much baking powder make a cake sink?",
+      "answer": "Yes. Excess leavener can create a rapid rise and oversized bubbles that later collapse."
+    },
+    {
+      "question": "Can opening the oven make a cake fall?",
+      "answer": "Yes, especially early in baking while the internal structure is still fragile."
+    }
+  ],
+  "sources": [
+    {
+      "name": "King Arthur Baking — Why did my cake fall flat?",
+      "url": "https://www.kingarthurbaking.com/blog/2025/05/22/why-did-my-cake-fall-flat",
+      "note": "Explains common cake-collapse causes including too much leavener and removing the cake before the internal structure has set."
+    },
+    {
+      "name": "King Arthur Baking — How to prevent dense, gluey streaks in your cake",
+      "url": "https://www.kingarthurbaking.com/blog/2014/07/15/how-to-prevent-dense-gluey-streaks-in-your-cake",
+      "note": "Explains how over-creaming and overmixing can create excessive rise followed by sinking and dense streaks."
+    },
+    {
+      "name": "King Arthur Baking — What is cake cleaching?",
+      "url": "https://www.kingarthurbaking.com/blog/2026/02/11/cake-cleaching",
+      "note": "2026 Test Kitchen discussion of under/overmixing, leavener amount, ingredient temperature and excess weight as causes of cake collapse or gummy dense layers."
+    }
+  ],
+  "image": {
+    "concept": "Layer cake with a sunken center beside a correctly baked level cake, baking powder spoon and oven thermometer, realistic baking photography, no text.",
+    "alt": "Cake with a sunken center beside a correctly baked level cake"
+  },
+  "status": "publish"
+}
