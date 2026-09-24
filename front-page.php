@@ -126,6 +126,24 @@ $topic_descriptions_en = array(
 	</div>
 </section>
 
+<section class="section editorial-method-home">
+	<div class="container editorial-method-home__inner">
+		<div class="editorial-method-home__copy">
+			<span class="section-label"><?php echo esc_html( $english ? 'How we work' : 'Cómo trabajamos' ); ?></span>
+			<h2><?php echo esc_html( $english ? 'Food information you can trace and understand' : 'Información sobre alimentación que puedes comprobar y entender' ); ?></h2>
+			<p><?php echo esc_html( $english
+				? 'We start with a specific question, prioritize official and specialist sources, and add the practical context needed to understand what the data actually means. Key sources are shown in each article.'
+				: 'Partimos de una pregunta concreta, priorizamos fuentes oficiales y especializadas y añadimos el contexto práctico necesario para entender qué significan realmente los datos. Las fuentes principales se muestran en cada artículo.' ); ?></p>
+			<a class="editorial-method-home__link" href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'methodology', $english ? 'en' : 'es' ) : home_url( $english ? '/en/editorial-methodology/' : '/metodologia-editorial/' ) ); ?>"><?php echo esc_html( $english ? 'Read our editorial methodology' : 'Consulta nuestra metodología editorial' ); ?> <span aria-hidden="true">↗</span></a>
+		</div>
+		<div class="editorial-method-home__points" aria-label="<?php echo esc_attr( $english ? 'Quinnoa editorial principles' : 'Principios editoriales de Quinnoa' ); ?>">
+			<div><strong><?php echo esc_html( $english ? 'Traceable sources' : 'Fuentes consultables' ); ?></strong><span><?php echo esc_html( $english ? 'Primary, official and specialist references whenever they are available.' : 'Referencias primarias, oficiales y especializadas siempre que están disponibles.' ); ?></span></div>
+			<div><strong><?php echo esc_html( $english ? 'Useful context' : 'Contexto útil' ); ?></strong><span><?php echo esc_html( $english ? 'We explain limits, comparisons and the conditions that can change a result.' : 'Explicamos límites, comparaciones y condiciones que pueden cambiar un resultado.' ); ?></span></div>
+			<div><strong><?php echo esc_html( $english ? 'Corrections over volume' : 'Correcciones antes que volumen' ); ?></strong><span><?php echo esc_html( $english ? 'When something needs clarification or updating, we improve the existing page.' : 'Cuando algo necesita aclararse o actualizarse, mejoramos la página existente.' ); ?></span></div>
+		</div>
+	</div>
+</section>
+
 <?php if ( ! empty( $discover_ids ) ) : ?>
 	<section class="section discover-section">
 		<div class="container">
