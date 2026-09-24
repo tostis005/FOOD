@@ -39,6 +39,22 @@ function food_editorial_pages() {
 				'sections' => array(),
 			),
 		),
+		'methodology' => array(
+			'es' => array(
+				'slug'     => 'metodologia-editorial',
+				'title'    => 'Metodología editorial',
+				'eyebrow'  => 'Cómo trabajamos',
+				'intro'    => '',
+				'sections' => array(),
+			),
+			'en' => array(
+				'slug'     => 'editorial-methodology',
+				'title'    => 'Editorial methodology',
+				'eyebrow'  => 'How we work',
+				'intro'    => '',
+				'sections' => array(),
+			),
+		),
 		'contact' => array(
 			'es' => array(
 				'slug'     => 'contacto',
@@ -111,9 +127,9 @@ function food_register_editorial_page_rewrites() {
 		add_rewrite_rule( '^' . preg_quote( $languages['es']['slug'], '#' ) . '/?$', 'index.php?food_editorial_page=' . $key . '&food_lang=es', 'top' );
 		add_rewrite_rule( '^en/' . preg_quote( $languages['en']['slug'], '#' ) . '/?$', 'index.php?food_editorial_page=' . $key . '&food_lang=en', 'top' );
 	}
-	if ( '7' !== get_option( 'food_editorial_pages_rewrite_version' ) ) {
+	if ( '8' !== get_option( 'food_editorial_pages_rewrite_version' ) ) {
 		flush_rewrite_rules( false );
-		update_option( 'food_editorial_pages_rewrite_version', '7' );
+		update_option( 'food_editorial_pages_rewrite_version', '8' );
 	}
 }
 add_action( 'init', 'food_register_editorial_page_rewrites', 99 );
