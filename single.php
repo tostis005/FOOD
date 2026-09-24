@@ -47,7 +47,12 @@ get_header();
 			<?php endforeach; ?>
 		</div>
 		<h1><?php the_title(); ?></h1>
-		<div class="article-meta"><span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span></div>
+		<div class="article-meta">
+			<span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span>
+			<span aria-hidden="true">·</span>
+			<span class="article-byline"><?php echo esc_html( $food_english ? 'By the Quinnoa editorial team' : 'Por el equipo editorial de Quinnoa' ); ?></span>
+			<a class="article-methodology-link" href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'methodology', $food_english ? 'en' : 'es' ) : home_url( $food_english ? '/en/editorial-methodology/' : '/metodologia-editorial/' ) ); ?>"><?php echo esc_html( $food_english ? 'How we work' : 'Cómo trabajamos' ); ?></a>
+		</div>
 	</header>
 
 	<?php if ( has_post_thumbnail() ) : ?>
