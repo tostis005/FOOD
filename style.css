@@ -125,6 +125,8 @@ button, input { font: inherit; }
 .article-header h1 { max-width: 900px; margin: 12px auto 18px; font-size: clamp(43px,7vw,78px); }
 .article-deck { color: var(--muted); max-width: 760px; margin: 0 auto 18px; font-size: clamp(18px,2.2vw,22px); }
 .article-meta { color: var(--muted); font-size: 13px; display: flex; justify-content: center; flex-wrap: wrap; gap: 8px 14px; }
+.article-meta a { color: inherit; text-underline-offset: 3px; }
+.article-meta .article-byline { font-weight: 700; color: var(--ink); }
 .article-hero { width: min(calc(100% - 36px), 1180px); margin: 0 auto 34px; border-radius: 28px; overflow: hidden; background: #ddd4c4; }
 .article-hero img { width: 100%; max-height: 720px; object-fit: cover; }
 .answer-box { margin: 28px 0 34px; border-radius: 18px; padding: 23px 25px; background: #e9eee6; border-left: 5px solid var(--green); }
