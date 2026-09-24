@@ -142,6 +142,10 @@ function food_seo_v2_description() {
 				'es' => 'Conoce Quinnoa, su enfoque editorial y cómo organizamos información clara y rigurosa sobre alimentos.',
 				'en' => 'About Quinnoa, our editorial approach and how we organize clear, reliable information about food.',
 			),
+			'methodology' => array(
+				'es' => 'Cómo selecciona, documenta, redacta, verifica y actualiza Quinnoa sus artículos sobre alimentación.',
+				'en' => 'How Quinnoa selects, sources, writes, checks and updates its food articles.',
+			),
 			'contact' => array(
 				'es' => 'Página de contacto de Quinnoa para enviar consultas y mensajes al equipo.',
 				'en' => 'Quinnoa contact page for sending questions and messages to the team.',
@@ -314,6 +318,16 @@ function food_seo_v2_head() {
 add_action( 'wp_head', 'food_seo_v2_head', 0 );
 
 function food_seo_v2_robots( $robots ) {
+	/*
+	 * Utility archives do not add unique editorial value. Keep their links
+	 * crawlable while preventing author/date/tag/search/attachment pages from
+	 * becoming low-value index entries next to the curated article library.
+	 */
+	if ( is_search() || is_tag() || is_author() || is_date() || is_attachment() ) {
+		$robots['noindex'] = true;
+		unset( $robots['index'] );
+	}
+
 	if ( ! isset( $robots['noindex'] ) ) {
 		$robots['max-image-preview'] = 'large';
 		$robots['max-snippet'] = '-1';

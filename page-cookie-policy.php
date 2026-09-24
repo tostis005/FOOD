@@ -18,8 +18,8 @@ $title    = $english ? 'Cookie policy' : 'Política de cookies';
 	<header class="editorial-page-header">
 		<h1><?php echo esc_html( $title ); ?></h1>
 		<p><?php echo esc_html( $english
-			? 'This policy explains which cookies Quinnoa uses, why they are used and how you can manage them. Last updated: September 3, 2026.'
-			: 'Esta política explica qué cookies utiliza Quinnoa, para qué se usan y cómo puedes gestionarlas. Última actualización: 3 de septiembre de 2026.' ); ?></p>
+			? 'This policy explains which cookies Quinnoa uses, why they are used and how you can manage them. Last updated: September 24, 2026.'
+			: 'Esta política explica qué cookies utiliza Quinnoa, para qué se usan y cómo puedes gestionarlas. Última actualización: 24 de septiembre de 2026.' ); ?></p>
 	</header>
 
 	<div class="editorial-page-content">
@@ -31,17 +31,22 @@ $title    = $english ? 'Cookie policy' : 'Política de cookies';
 		</section>
 
 		<section>
-			<h2><?php echo esc_html( $english ? 'Cookie used by Quinnoa' : 'Cookie utilizada por Quinnoa' ); ?></h2>
+			<h2><?php echo esc_html( $english ? 'Cookies and measurement used by Quinnoa' : 'Cookies y medición utilizadas por Quinnoa' ); ?></h2>
 			<p><?php echo esc_html( $english
-				? 'In normal public browsing, Quinnoa uses one first-party preference cookie to remember the language that you have explicitly selected. It is not used to identify you, build a profile, measure browsing behaviour or personalize advertising.'
-				: 'En la navegación pública ordinaria, Quinnoa utiliza una única cookie propia de preferencia para recordar el idioma que has seleccionado expresamente. No se utiliza para identificarte, elaborar perfiles, medir tu navegación ni personalizar publicidad.' ); ?></p>
+				? 'Quinnoa uses two first-party preference cookies: one to remember the language you explicitly select and another to remember your cookie choice. Google Analytics is configured with analytics storage denied by default and is only granted analytics storage if you choose to allow analytics cookies.'
+				: 'Quinnoa utiliza dos cookies propias de preferencia: una para recordar el idioma que eliges expresamente y otra para recordar tu elección sobre cookies. Google Analytics está configurado con el almacenamiento analítico denegado por defecto y solo recibe permiso de almacenamiento analítico si eliges permitir cookies analíticas.' ); ?></p>
 			<ul>
 				<li><strong>quinnoa_language</strong> — <?php echo esc_html( $english
-					? 'Provider: Quinnoa. Type: first-party functional/preference cookie. Purpose: remember whether you selected Spanish or English. Duration: 6 months.'
-					: 'Proveedor: Quinnoa. Tipo: cookie propia funcional/de preferencia. Finalidad: recordar si has elegido español o inglés. Duración: 6 meses.' ); ?></li>
+					? 'Provider: Quinnoa. Purpose: remember Spanish or English after an explicit language choice. Duration: 6 months.'
+					: 'Proveedor: Quinnoa. Finalidad: recordar español o inglés después de una elección expresa de idioma. Duración: 6 meses.' ); ?></li>
+				<li><strong>quinnoa_cookie_consent</strong> — <?php echo esc_html( $english
+					? 'Provider: Quinnoa. Purpose: remember whether you accepted analytics or chose necessary cookies only. Duration: 12 months.'
+					: 'Proveedor: Quinnoa. Finalidad: recordar si aceptaste analítica o elegiste solo cookies necesarias. Duración: 12 meses.' ); ?></li>
 			</ul>
+			<p><?php echo esc_html( $english
+				? 'The site also contains Google AdSense code used for advertising setup and verification. Advertising storage, ad user data and ad personalization consent signals are denied by default in the current site configuration. Google services may still make technical requests needed to load or measure their services.'
+				: 'El sitio también contiene código de Google AdSense utilizado para la configuración y verificación publicitaria. En la configuración actual de la web, las señales de consentimiento para almacenamiento publicitario, datos de usuario publicitarios y personalización de anuncios están denegadas por defecto. Los servicios de Google pueden realizar solicitudes técnicas necesarias para cargar o medir sus servicios.' ); ?></p>
 		</section>
-
 		<section>
 			<h2><?php echo esc_html( $english ? 'Browser-language detection' : 'Detección del idioma del navegador' ); ?></h2>
 			<p><?php echo esc_html( $english
@@ -70,10 +75,10 @@ $title    = $english ? 'Cookie policy' : 'Política de cookies';
 		</section>
 
 		<section>
-			<h2><?php echo esc_html( $english ? 'Future changes and non-essential cookies' : 'Cambios futuros y cookies no necesarias' ); ?></h2>
+			<h2><?php echo esc_html( $english ? 'Advertising consent and future changes' : 'Consentimiento publicitario y cambios futuros' ); ?></h2>
 			<p><?php echo esc_html( $english
-				? 'Quinnoa does not use the language preference for analytics, advertising or profiling. If the site later introduces cookies or similar technologies that are not exempt from consent, they will not be activated before the corresponding information and consent mechanism has been implemented.'
-				: 'Quinnoa no utiliza la preferencia de idioma para analítica, publicidad ni elaboración de perfiles. Si el sitio incorpora en el futuro cookies o tecnologías similares que no estén exentas de consentimiento, no se activarán hasta que se haya implantado la información y el mecanismo de consentimiento correspondientes.' ); ?></p>
+				? 'If Quinnoa serves ads to users in the EEA, the United Kingdom or Switzerland in a way that requires Google-certified consent management, the site will use the consent mechanism required for that advertising configuration. The current preference panel should not be interpreted as a substitute for a certified advertising CMP where Google requires one.'
+				: 'Si Quinnoa sirve anuncios a usuarios del EEE, Reino Unido o Suiza de una forma que requiera gestión de consentimiento certificada por Google, la web utilizará el mecanismo de consentimiento exigido para esa configuración publicitaria. El panel de preferencias actual no debe interpretarse como sustituto de una CMP publicitaria certificada cuando Google la requiera.' ); ?></p>
 			<p><?php echo esc_html( $english ? 'For questions about this policy, use the Contact page.' : 'Para cualquier consulta sobre esta política, utiliza la página de Contacto.' ); ?> <a href="<?php echo esc_url( $contact ); ?>"><?php echo esc_html( $english ? 'Contact' : 'Contacto' ); ?></a>.</p>
 		</section>
 	</div>

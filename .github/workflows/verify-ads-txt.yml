@@ -45,7 +45,7 @@ jobs:
           for attempt in 1 2 3 4 5; do
             HTML="$(curl -fsSL --max-time 20 -H 'Cache-Control: no-cache' "https://www.quinnoa.com/?adsense-check=${GITHUB_RUN_ID}-${attempt}")" || HTML=''
 
-            if printf '%s' "$HTML" | grep -Fq "$EXPECTED"; then
+            if grep -Fq "$EXPECTED" <<< "$HTML"; then
               echo "El script publico de AdSense esta presente en Quinnoa."
               exit 0
             fi
