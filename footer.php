@@ -37,9 +37,9 @@ $food_cookie_js  = get_template_directory() . '/assets/js/quinnoa-cookie-consent
 	<div class="quinnoa-cookie-banner__inner">
 		<p class="quinnoa-cookie-banner__copy">
 			<?php if ( $food_english ) : ?>
-				We use necessary cookies and, if you allow them, analytics and advertising cookies. Advertising consent controls whether Adsterra placements load. <a href="<?php echo esc_url( $food_cookie_policy_url ); ?>">Cookie policy</a>.
+				We use necessary cookies and, if you allow them, analytics cookies. Quinnoa also displays third-party advertising from Adsterra; see the policy for details. <a href="<?php echo esc_url( $food_cookie_policy_url ); ?>">Cookie policy</a>.
 			<?php else : ?>
-				Usamos cookies necesarias y, si las aceptas, cookies analíticas y publicitarias. El consentimiento publicitario controla si se cargan los espacios de Adsterra. <a href="<?php echo esc_url( $food_cookie_policy_url ); ?>">Política de cookies</a>.
+				Usamos cookies necesarias y, si las aceptas, cookies analíticas. Quinnoa también muestra publicidad de terceros mediante Adsterra; consulta la política para más detalles. <a href="<?php echo esc_url( $food_cookie_policy_url ); ?>">Política de cookies</a>.
 			<?php endif; ?>
 		</p>
 		<div class="quinnoa-cookie-banner__actions">
@@ -54,7 +54,7 @@ $food_cookie_js  = get_template_directory() . '/assets/js/quinnoa-cookie-consent
 	<div class="quinnoa-cookie-settings__panel">
 		<h2 id="quinnoa-cookie-settings-title"><?php echo esc_html( $food_english ? 'Cookie preferences' : 'Preferencias de cookies' ); ?></h2>
 		<p class="quinnoa-cookie-settings__intro">
-			<?php echo esc_html( $food_english ? 'Choose whether Quinnoa may use analytics and advertising cookies. Necessary cookies remain active so the site and your preference can work correctly.' : 'Elige si Quinnoa puede utilizar cookies analíticas y publicitarias. Las cookies necesarias permanecen activas para que la web y tu preferencia funcionen correctamente.' ); ?>
+			<?php echo esc_html( $food_english ? 'Choose whether Quinnoa may use analytics cookies. Necessary cookies remain active so the site and your preference can work correctly. Advertising is not controlled by this setting.' : 'Elige si Quinnoa puede utilizar cookies analíticas. Las cookies necesarias permanecen activas para que la web y tu preferencia funcionen correctamente. La publicidad no se controla desde este ajuste.' ); ?>
 			<a href="<?php echo esc_url( $food_cookie_policy_url ); ?>"><?php echo esc_html( $food_english ? 'Cookie policy' : 'Política de cookies' ); ?></a>.
 		</p>
 		<div class="quinnoa-cookie-setting">
@@ -72,17 +72,6 @@ $food_cookie_js  = get_template_directory() . '/assets/js/quinnoa-cookie-consent
 			<label class="quinnoa-cookie-switch">
 				<span class="screen-reader-text"><?php echo esc_html( $food_english ? 'Allow analytics cookies' : 'Permitir cookies analíticas' ); ?></span>
 				<input id="quinnoa-cookie-analytics" type="checkbox" value="1">
-				<span aria-hidden="true"></span>
-			</label>
-		</div>
-		<div class="quinnoa-cookie-setting">
-			<div>
-				<strong><?php echo esc_html( $food_english ? 'Advertising' : 'Publicidad' ); ?></strong>
-				<p><?php echo esc_html( $food_english ? 'Allows Adsterra advertising placements to load on Quinnoa.' : 'Permite cargar los espacios publicitarios de Adsterra en Quinnoa.' ); ?></p>
-			</div>
-			<label class="quinnoa-cookie-switch">
-				<span class="screen-reader-text"><?php echo esc_html( $food_english ? 'Allow advertising cookies' : 'Permitir cookies publicitarias' ); ?></span>
-				<input id="quinnoa-cookie-advertising" type="checkbox" value="1">
 				<span aria-hidden="true"></span>
 			</label>
 		</div>
