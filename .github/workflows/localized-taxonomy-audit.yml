@@ -29,49 +29,12 @@ jobs:
           php -l archive.php
           php -l template-parts/card.php
 
-      - name: Configure SSH
-        env:
-          VPS_SSH_KEY: ${{ secrets.VPS_SSH_KEY }}
-          VPS_HOST: ${{ secrets.VPS_HOST }}
+      - name: Set public Quinnoa URL
         run: |
           set -euo pipefail
-          mkdir -p ~/.ssh
-          printf '%s\n' "$VPS_SSH_KEY" > ~/.ssh/food_audit_key
-          chmod 600 ~/.ssh/food_audit_key
-          ssh-keyscan -H "$VPS_HOST" >> ~/.ssh/known_hosts
-
-      - name: Discover live URL and warm rewrites
-        env:
-          VPS_HOST: ${{ secrets.VPS_HOST }}
-          VPS_USER: ${{ secrets.VPS_USER }}
-        run: |
-          set -euo pipefail
-          SITE_URL="$(ssh -i ~/.ssh/food_audit_key "$VPS_USER@$VPS_HOST" 'bash -s' <<'REMOTE'
-          set -euo pipefail
-          if ! command -v docker >/dev/null 2>&1; then
-            exit 1
-          fi
-          for CID in $(docker ps -q); do
-            ROOT="$(docker exec "$CID" sh -lc '
-              for p in /var/www/html /var/www/wordpress/html /app/public /app; do
-                if [ -f "$p/wp-load.php" ]; then
-                  echo "$p"
-                  exit 0
-                fi
-              done
-            ' 2>/dev/null || true)"
-            if [ -n "$ROOT" ] && docker exec "$CID" sh -lc 'command -v php >/dev/null 2>&1' >/dev/null 2>&1; then
-              docker exec "$CID" php -r "require '$ROOT/wp-load.php'; echo home_url('/');"
-              exit 0
-            fi
-          done
-          exit 1
-          REMOTE
-          )"
-          test -n "$SITE_URL"
-          echo "::add-mask::$SITE_URL"
-          echo "SITE_URL=$SITE_URL" >> "$GITHUB_ENV"
-          curl -fsSL "$SITE_URL/" >/dev/null
+          echo "SITE_URL=https://www.quinnoa.com/" >> "$GITHUB_ENV"
+          echo "Auditing public WordPress frontend: https://www.quinnoa.com/"
+          curl -fsSL "https://www.quinnoa.com/" >/dev/null
 
       - name: Verify localized routes and redirects
         run: |
