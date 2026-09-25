@@ -6,9 +6,8 @@
 	var banner = document.getElementById('quinnoa-cookie-banner');
 	var settings = document.getElementById('quinnoa-cookie-settings');
 	var analyticsToggle = document.getElementById('quinnoa-cookie-analytics');
-	var advertisingToggle = document.getElementById('quinnoa-cookie-advertising');
 
-	if (!banner || !settings || !analyticsToggle || !advertisingToggle) {
+	if (!banner || !settings || !analyticsToggle) {
 		return;
 	}
 
@@ -30,10 +29,6 @@
 		return value === 'analytics' || value === 'all';
 	}
 
-	function hasAdvertising(value) {
-		return value === 'ads' || value === 'all';
-	}
-
 	function updateGoogleConsent(analyticsGranted) {
 		if (typeof window.gtag !== 'function') {
 			return;
@@ -52,41 +47,22 @@
 		document.documentElement.classList.remove('quinnoa-cookie-settings-open');
 	}
 
-	function valueFromToggles() {
-		if (analyticsToggle.checked && advertisingToggle.checked) return 'all';
-		if (analyticsToggle.checked) return 'analytics';
-		if (advertisingToggle.checked) return 'ads';
-		return 'necessary';
-	}
-
 	function applyChoice(value, isFreshChoice) {
-		var previous = readConsent();
-		var analyticsGranted = hasAnalytics(value);
-		var advertisingChanged = hasAdvertising(previous) !== hasAdvertising(value);
-
+		var granted = value === 'analytics';
 		writeConsent(value);
-		updateGoogleConsent(analyticsGranted);
+		updateGoogleConsent(granted);
 		closeAll();
 
-		if (analyticsGranted && isFreshChoice && typeof window.gtag === 'function') {
+		if (granted && isFreshChoice && typeof window.gtag === 'function') {
 			window.gtag('event', 'cookie_consent_granted', {
 				event_category: 'consent',
 				non_interaction: true
 			});
 		}
-
-		if (advertisingChanged) window.location.reload();
 	}
 
 	function openSettings() {
-		var saved = readConsent();
-		if (!saved && readCookie(LEGACY_COOKIE_NAME) === 'analytics') {
-			analyticsToggle.checked = true;
-			advertisingToggle.checked = false;
-		} else {
-			analyticsToggle.checked = hasAnalytics(saved);
-			advertisingToggle.checked = hasAdvertising(saved);
-		}
+		analyticsToggle.checked = hasAnalytics(readConsent());
 		settings.hidden = false;
 		document.documentElement.classList.add('quinnoa-cookie-settings-open');
 		var heading = settings.querySelector('h2');
@@ -97,41 +73,63 @@
 	}
 
 	var saved = readConsent();
-	if (saved === 'all' || saved === 'analytics' || saved === 'ads' || saved === 'necessary') {
-		updateGoogleConsent(hasAnalytics(saved));
+	if (saved === 'all' || saved === 'analytics') {
+		updateGoogleConsent(true);
+		banner.hidden = true;
+	} else if (saved === 'ads' || saved === 'necessary') {
+		updateGoogleConsent(false);
 		banner.hidden = true;
 	} else {
-		updateGoogleConsent(readCookie(LEGACY_COOKIE_NAME) === 'analytics');
-		banner.hidden = false;
+		var legacy = readCookie(LEGACY_COOKIE_NAME);
+		if (legacy === 'analytics') {
+			writeConsent('analytics');
+			updateGoogleConsent(true);
+			banner.hidden = true;
+		} else if (legacy === 'necessary') {
+			writeConsent('necessary');
+			updateGoogleConsent(false);
+			banner.hidden = true;
+		} else {
+			banner.hidden = false;
+		}
 	}
 
 	document.querySelectorAll('[data-quinnoa-cookie-accept]').forEach(function (button) {
-		button.addEventListener('click', function () { applyChoice('all', true); });
+		button.addEventListener('click', function () {
+			applyChoice('analytics', true);
+		});
 	});
+
 	document.querySelectorAll('[data-quinnoa-cookie-reject]').forEach(function (button) {
-		button.addEventListener('click', function () { applyChoice('necessary', false); });
+		button.addEventListener('click', function () {
+			applyChoice('necessary', false);
+		});
 	});
+
 	document.querySelectorAll('[data-quinnoa-cookie-settings]').forEach(function (button) {
 		button.addEventListener('click', openSettings);
 	});
+
 	document.querySelectorAll('[data-quinnoa-cookie-close]').forEach(function (button) {
 		button.addEventListener('click', function () {
 			settings.hidden = true;
 			document.documentElement.classList.remove('quinnoa-cookie-settings-open');
 		});
 	});
+
 	document.querySelectorAll('[data-quinnoa-cookie-save]').forEach(function (button) {
 		button.addEventListener('click', function () {
-			var value = valueFromToggles();
-			applyChoice(value, hasAnalytics(value));
+			applyChoice(analyticsToggle.checked ? 'analytics' : 'necessary', analyticsToggle.checked);
 		});
 	});
+
 	settings.addEventListener('click', function (event) {
 		if (event.target === settings) {
 			settings.hidden = true;
 			document.documentElement.classList.remove('quinnoa-cookie-settings-open');
 		}
 	});
+
 	document.addEventListener('keydown', function (event) {
 		if (event.key === 'Escape' && !settings.hidden) {
 			settings.hidden = true;
