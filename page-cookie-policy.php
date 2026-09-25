@@ -18,8 +18,8 @@ $title    = $english ? 'Cookie policy' : 'Política de cookies';
 	<header class="editorial-page-header">
 		<h1><?php echo esc_html( $title ); ?></h1>
 		<p><?php echo esc_html( $english
-			? 'This policy explains which cookies Quinnoa uses, why they are used and how you can manage them. Last updated: September 24, 2026.'
-			: 'Esta política explica qué cookies utiliza Quinnoa, para qué se usan y cómo puedes gestionarlas. Última actualización: 24 de septiembre de 2026.' ); ?></p>
+			? 'This policy explains which cookies Quinnoa uses, why they are used and how you can manage them. Last updated: September 25, 2026.'
+			: 'Esta política explica qué cookies utiliza Quinnoa, para qué se usan y cómo puedes gestionarlas. Última actualización: 25 de septiembre de 2026.' ); ?></p>
 	</header>
 
 	<div class="editorial-page-content">
@@ -31,21 +31,21 @@ $title    = $english ? 'Cookie policy' : 'Política de cookies';
 		</section>
 
 		<section>
-			<h2><?php echo esc_html( $english ? 'Cookies and measurement used by Quinnoa' : 'Cookies y medición utilizadas por Quinnoa' ); ?></h2>
+			<h2><?php echo esc_html( $english ? 'Cookies, measurement and advertising used by Quinnoa' : 'Cookies, medición y publicidad utilizadas por Quinnoa' ); ?></h2>
 			<p><?php echo esc_html( $english
-				? 'Quinnoa uses two first-party preference cookies: one to remember the language you explicitly select and another to remember your cookie choice. Google Analytics is configured with analytics storage denied by default and is only granted analytics storage if you choose to allow analytics cookies.'
-				: 'Quinnoa utiliza dos cookies propias de preferencia: una para recordar el idioma que eliges expresamente y otra para recordar tu elección sobre cookies. Google Analytics está configurado con el almacenamiento analítico denegado por defecto y solo recibe permiso de almacenamiento analítico si eliges permitir cookies analíticas.' ); ?></p>
+				? 'Quinnoa uses two first-party preference cookies: one to remember the language you explicitly select and another to remember your current cookie choices. Google Analytics is configured with analytics storage denied by default and is only granted analytics storage if you allow analytics cookies. Adsterra advertising placements are rendered only when you allow advertising cookies.'
+				: 'Quinnoa utiliza dos cookies propias de preferencia: una para recordar el idioma que eliges expresamente y otra para recordar tus elecciones actuales sobre cookies. Google Analytics está configurado con el almacenamiento analítico denegado por defecto y solo recibe permiso de almacenamiento analítico si permites cookies analíticas. Los espacios publicitarios de Adsterra solo se muestran cuando permites cookies publicitarias.' ); ?></p>
 			<ul>
 				<li><strong>quinnoa_language</strong> — <?php echo esc_html( $english
 					? 'Provider: Quinnoa. Purpose: remember Spanish or English after an explicit language choice. Duration: 6 months.'
 					: 'Proveedor: Quinnoa. Finalidad: recordar español o inglés después de una elección expresa de idioma. Duración: 6 meses.' ); ?></li>
-				<li><strong>quinnoa_cookie_consent</strong> — <?php echo esc_html( $english
-					? 'Provider: Quinnoa. Purpose: remember whether you accepted analytics or chose necessary cookies only. Duration: 12 months.'
-					: 'Proveedor: Quinnoa. Finalidad: recordar si aceptaste analítica o elegiste solo cookies necesarias. Duración: 12 meses.' ); ?></li>
+				<li><strong>quinnoa_cookie_consent_v2</strong> — <?php echo esc_html( $english
+					? 'Provider: Quinnoa. Purpose: remember your choices for analytics and advertising cookies. Duration: 12 months.'
+					: 'Proveedor: Quinnoa. Finalidad: recordar tus elecciones sobre cookies analíticas y publicitarias. Duración: 12 meses.' ); ?></li>
 			</ul>
 			<p><?php echo esc_html( $english
-				? 'The site also contains Google AdSense code used for advertising setup and verification. Advertising storage, ad user data and ad personalization consent signals are denied by default in the current site configuration. Google services may still make technical requests needed to load or measure their services.'
-				: 'El sitio también contiene código de Google AdSense utilizado para la configuración y verificación publicitaria. En la configuración actual de la web, las señales de consentimiento para almacenamiento publicitario, datos de usuario publicitarios y personalización de anuncios están denegadas por defecto. Los servicios de Google pueden realizar solicitudes técnicas necesarias para cargar o medir sus servicios.' ); ?></p>
+				? 'When advertising consent is granted, Quinnoa can load Adsterra advertising code. Adsterra and the advertising partners involved in delivering an ad may use cookies, local storage or similar technologies according to the ad configuration and their own policies. If advertising consent is not granted, Quinnoa does not render these Adsterra placements.'
+				: 'Cuando se concede el consentimiento publicitario, Quinnoa puede cargar código publicitario de Adsterra. Adsterra y los socios publicitarios que intervienen en la entrega de un anuncio pueden utilizar cookies, almacenamiento local o tecnologías similares según la configuración del anuncio y sus propias políticas. Si no se concede el consentimiento publicitario, Quinnoa no muestra estos espacios de Adsterra.' ); ?></p>
 		</section>
 		<section>
 			<h2><?php echo esc_html( $english ? 'Browser-language detection' : 'Detección del idioma del navegador' ); ?></h2>
@@ -68,17 +68,17 @@ $title    = $english ? 'Cookie policy' : 'Política de cookies';
 		</section>
 
 		<section>
-			<h2><?php echo esc_html( $english ? 'How to manage or delete the cookie' : 'Cómo gestionar o eliminar la cookie' ); ?></h2>
+			<h2><?php echo esc_html( $english ? 'How to manage or delete your preferences' : 'Cómo gestionar o eliminar tus preferencias' ); ?></h2>
 			<p><?php echo esc_html( $english
-				? 'You can change the saved value at any time by selecting another language in Quinnoa. You can also delete the cookie through your browser settings. If you delete it, Quinnoa may again use your browser language when you later enter through the Spanish home page.'
-				: 'Puedes cambiar el valor guardado en cualquier momento seleccionando otro idioma en Quinnoa. También puedes eliminar la cookie desde la configuración de tu navegador. Si la borras, Quinnoa podrá volver a utilizar el idioma del navegador cuando entres posteriormente por la portada en español.' ); ?></p>
+				? 'You can change the saved language at any time from the Quinnoa language selector and adjust analytics or advertising choices from Cookie settings. You can also delete Quinnoa cookies in your browser. If the consent cookie is deleted, the site will ask for your choices again.'
+				: 'Puedes cambiar el idioma guardado en cualquier momento desde el selector de Quinnoa y ajustar las opciones de analítica o publicidad desde la configuración de Cookies. También puedes eliminar las cookies de Quinnoa en tu navegador. Si eliminas la cookie de consentimiento, la web volverá a pedirte tus preferencias.' ); ?></p>
 		</section>
 
 		<section>
 			<h2><?php echo esc_html( $english ? 'Advertising consent and future changes' : 'Consentimiento publicitario y cambios futuros' ); ?></h2>
 			<p><?php echo esc_html( $english
-				? 'If Quinnoa serves ads to users in the EEA, the United Kingdom or Switzerland in a way that requires Google-certified consent management, the site will use the consent mechanism required for that advertising configuration. The current preference panel should not be interpreted as a substitute for a certified advertising CMP where Google requires one.'
-				: 'Si Quinnoa sirve anuncios a usuarios del EEE, Reino Unido o Suiza de una forma que requiera gestión de consentimiento certificada por Google, la web utilizará el mecanismo de consentimiento exigido para esa configuración publicitaria. El panel de preferencias actual no debe interpretarse como sustituto de una CMP publicitaria certificada cuando Google la requiera.' ); ?></p>
+				? 'Advertising is opt-in on Quinnoa: Adsterra placements are not rendered unless the advertising option is enabled. You can withdraw that choice from Cookie settings; the page reloads so advertising code is removed from the rendered page.'
+				: 'La publicidad es opcional en Quinnoa: los espacios de Adsterra no se muestran salvo que actives la opción de publicidad. Puedes retirar esa elección desde la configuración de Cookies; la página se recarga para que el código publicitario deje de formar parte de la página mostrada.' ); ?></p>
 			<p><?php echo esc_html( $english ? 'For questions about this policy, use the Contact page.' : 'Para cualquier consulta sobre esta política, utiliza la página de Contacto.' ); ?> <a href="<?php echo esc_url( $contact ); ?>"><?php echo esc_html( $english ? 'Contact' : 'Contacto' ); ?></a>.</p>
 		</section>
 	</div>

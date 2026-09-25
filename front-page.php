@@ -126,6 +126,10 @@ $topic_descriptions_en = array(
 	</div>
 </section>
 
+<?php if ( function_exists( 'food_adsterra_render_responsive_banner' ) ) : ?>
+	<div class="container"><?php food_adsterra_render_responsive_banner( 'home' ); ?></div>
+<?php endif; ?>
+
 <section class="section editorial-method-home">
 	<div class="container editorial-method-home__inner">
 		<div class="editorial-method-home__copy">
@@ -168,7 +172,9 @@ $topic_descriptions_en = array(
 	</section>
 <?php endif; ?>
 
-<?php if ( is_active_sidebar( 'home-ad' ) ) : ?><div class="container ad-slot"><?php dynamic_sidebar( 'home-ad' ); ?></div><?php endif; ?>
+<?php if ( function_exists( 'food_adsterra_render_native_banner' ) ) : ?>
+	<div class="container"><?php food_adsterra_render_native_banner( 'home' ); ?></div>
+<?php endif; ?>
 
 <section class="section latest-guides latest-guides-v5" id="ultimos-articulos">
 	<div class="container">

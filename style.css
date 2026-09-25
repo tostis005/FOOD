@@ -106,7 +106,25 @@ button, input { font: inherit; }
 .quick-link span { color: var(--muted); font-size: 13px; }
 .quick-arrow { font-size: 22px; color: var(--terracotta); }
 
-.ad-slot { margin: 32px auto; min-height: 120px; border: 1px dashed #bdb4a5; border-radius: 16px; display: grid; place-items: center; color: #8b847a; font-size: 12px; letter-spacing: .1em; text-transform: uppercase; background: rgba(255,255,255,.25); }
+.quinnoa-ad { margin: 32px auto; max-width: 100%; text-align: center; overflow: hidden; }
+.quinnoa-ad__label { display: block; margin: 0 0 8px; color: #8b847a; font: 700 10px/1.2 Inter, sans-serif; letter-spacing: .12em; text-transform: uppercase; }
+.quinnoa-ad__creative { display: flex; justify-content: center; align-items: flex-start; max-width: 100%; overflow: hidden; }
+.quinnoa-ad__creative--native { display: block; width: 100%; overflow: visible; }
+.quinnoa-ad--leaderboard { min-height: 118px; }
+.quinnoa-ad--rectangle { max-width: 320px !important; margin-top: 38px !important; margin-bottom: 38px !important; }
+.quinnoa-ad--native { margin-top: 46px; margin-bottom: 46px; overflow: visible; }
+.article-body-layout { display: grid; grid-template-columns: minmax(0, 760px) 160px; gap: 60px; align-items: start; }
+.article-body-layout .entry-content { min-width: 0; }
+.quinnoa-ad--skyscraper { position: sticky; top: 24px; width: 160px; min-height: 620px; margin: 0; overflow: visible; }
+@media (max-width: 1120px) {
+  .article-body-layout { display: block; }
+  .quinnoa-ad--skyscraper { display: none; }
+}
+@media (max-width: 767px) {
+  .quinnoa-ad { margin-top: 26px; margin-bottom: 26px; }
+  .quinnoa-ad--leaderboard { min-height: 78px; }
+  .quinnoa-ad--rectangle { margin-top: 32px !important; margin-bottom: 32px !important; }
+}
 
 .archive-wrap { padding: 45px 0 70px; }
 .archive-header { max-width: 800px; margin-bottom: 32px; }

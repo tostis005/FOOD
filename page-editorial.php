@@ -161,7 +161,7 @@ if ( $page && 'contact' === $key ) {
 
 if ( $page && 'privacy' === $key ) {
 	if ( 'en' === $language ) {
-		$page['intro'] = 'This policy explains how personal information, analytics and cookies are handled on Quinnoa. Last updated: September 24, 2026.';
+		$page['intro'] = 'This policy explains how personal information, analytics and cookies are handled on Quinnoa. Last updated: September 25, 2026.';
 		$page['sections'] = array(
 			array(
 				'title' => 'Contact information',
@@ -186,7 +186,7 @@ if ( $page && 'privacy' === $key ) {
 			array(
 				'title' => 'Cookies',
 				'paragraphs' => array(
-					'The site uses preference cookies for language and cookie choices. Google Analytics is configured with analytics storage denied by default and can use analytics storage only after the visitor grants that preference. Google AdSense code is present for advertising setup and verification; advertising consent signals are denied by default in the current configuration. See the Cookie policy for the current details.',
+					'The site uses preference cookies for language and cookie choices. Google Analytics is configured with analytics storage denied by default and can use analytics storage only after the visitor grants that preference. Adsterra advertising placements are rendered only after the visitor grants advertising consent. See the Cookie policy for the current details.',
 				),
 			),
 			array(
@@ -197,7 +197,7 @@ if ( $page && 'privacy' === $key ) {
 			),
 		);
 	} else {
-		$page['intro'] = 'Esta política explica cómo se tratan los datos personales, la analítica y las cookies en Quinnoa. Última actualización: 24 de septiembre de 2026.';
+		$page['intro'] = 'Esta política explica cómo se tratan los datos personales, la analítica y las cookies en Quinnoa. Última actualización: 25 de septiembre de 2026.';
 		$page['sections'] = array(
 			array(
 				'title' => 'Contacto en materia de privacidad',
@@ -222,7 +222,7 @@ if ( $page && 'privacy' === $key ) {
 			array(
 				'title' => 'Cookies',
 				'paragraphs' => array(
-					'El sitio utiliza cookies de preferencia para idioma y elección de cookies. Google Analytics está configurado con el almacenamiento analítico denegado por defecto y solo puede recibir permiso de almacenamiento analítico después de que el visitante lo acepte. También está presente el código de Google AdSense para configuración y verificación publicitaria; en la configuración actual las señales de consentimiento publicitario permanecen denegadas por defecto. La Política de cookies recoge el detalle vigente.',
+					'El sitio utiliza cookies de preferencia para idioma y elección de cookies. Google Analytics está configurado con el almacenamiento analítico denegado por defecto y solo puede recibir permiso de almacenamiento analítico después de que el visitante lo acepte. Los espacios publicitarios de Adsterra solo se muestran después de que el visitante conceda consentimiento publicitario. La Política de cookies recoge el detalle vigente.',
 				),
 			),
 			array(
