@@ -167,13 +167,14 @@ function food_seo_v2_description() {
 	if ( is_category() ) {
 		$term = get_queried_object();
 		if ( $term instanceof WP_Term ) {
-			$name        = $english && function_exists( 'food_family_display' ) ? food_family_display( $term->slug ) : $term->name;
-			$description = term_description( $term );
-			if ( $english ) {
-				$short       = function_exists( 'food_family_display' ) ? food_family_display( $term->slug, 'short' ) : '';
-				$description = sprintf( 'Quinnoa articles about %s. %s', $name, $short );
-			} elseif ( ! $description ) {
-				$description = sprintf( 'Artículos de Quinnoa sobre %s, con información clara y contextualizada sobre este grupo de alimentos.', $name );
+			$name = $english && function_exists( 'food_family_display' ) ? food_family_display( $term->slug ) : $term->name;
+			$description = function_exists( 'food_taxonomy_archive_description' )
+				? food_taxonomy_archive_description( $term, $english ? 'en' : 'es' )
+				: trim( wp_strip_all_tags( term_description( $term ) ) );
+			if ( ! $description ) {
+				$description = $english
+					? sprintf( 'Quinnoa articles about %s, with practical information on nutrition, quality, storage and cooking.', $name )
+					: sprintf( 'Artículos de Quinnoa sobre %s, con información práctica sobre nutrición, calidad, conservación y cocina.', $name );
 			}
 			return food_seo_v2_paginated_text( $description );
 		}
@@ -182,12 +183,14 @@ function food_seo_v2_description() {
 	if ( is_tax( 'food_topic' ) ) {
 		$term = get_queried_object();
 		if ( $term instanceof WP_Term ) {
-			$name        = $english && function_exists( 'food_topic_display' ) ? food_topic_display( $term ) : $term->name;
-			$description = term_description( $term );
-			if ( $english ) {
-				$description = sprintf( 'Quinnoa articles about %s, with clear explanations, useful data and practical context.', $name );
-			} elseif ( ! $description ) {
-				$description = sprintf( 'Artículos de Quinnoa sobre %s, con explicaciones claras, datos útiles y contexto práctico.', $name );
+			$name = $english && function_exists( 'food_topic_display' ) ? food_topic_display( $term ) : $term->name;
+			$description = function_exists( 'food_taxonomy_archive_description' )
+				? food_taxonomy_archive_description( $term, $english ? 'en' : 'es' )
+				: trim( wp_strip_all_tags( term_description( $term ) ) );
+			if ( ! $description ) {
+				$description = $english
+					? sprintf( 'Quinnoa articles about %s, with clear explanations, useful data and practical context.', $name )
+					: sprintf( 'Artículos de Quinnoa sobre %s, con explicaciones claras, datos útiles y contexto práctico.', $name );
 			}
 			return food_seo_v2_paginated_text( $description );
 		}

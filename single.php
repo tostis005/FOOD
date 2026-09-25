@@ -18,6 +18,23 @@ get_header();
 	$food_topics   = function_exists( 'food_get_article_topics' ) ? food_get_article_topics() : array();
 	$food_visual   = function_exists( 'food_get_post_visual_context' ) ? food_get_post_visual_context() : null;
 	$food_content  = apply_filters( 'the_content', get_the_content() );
+	$food_sources  = json_decode( (string) get_post_meta( get_the_ID(), '_food_sources', true ), true );
+	$food_source_count = is_array( $food_sources )
+		? count(
+			array_filter(
+				$food_sources,
+				function( $source ) {
+					return is_array( $source ) && ! empty( $source['name'] ) && ! empty( $source['url'] );
+				}
+			)
+		)
+		: 0;
+	$food_published_ts = (int) get_post_time( 'U', true, get_the_ID() );
+	$food_modified_ts  = (int) get_post_modified_time( 'U', true, get_the_ID() );
+	$food_show_updated = $food_modified_ts > ( $food_published_ts + DAY_IN_SECONDS );
+	$food_date_ts      = $food_show_updated ? $food_modified_ts : $food_published_ts;
+	$food_date_iso     = $food_show_updated ? get_the_modified_date( DATE_W3C ) : get_the_date( DATE_W3C );
+	$food_date_display = $food_english ? gmdate( 'M j, Y', $food_date_ts ) : gmdate( 'd/m/Y', $food_date_ts );
 
 	// Older imported articles may contain a prose Sources/Fuentes block inside
 	// content_html as well as the structured source list appended by the importer.
@@ -31,19 +48,47 @@ get_header();
 		);
 	}
 
+	if ( $food_source_count > 0 ) {
+		$food_content = preg_replace(
+			'#<h2>\s*(Fuentes|Sources)\s*</h2>#iu',
+			'<h2 id="article-sources">$1</h2>',
+			$food_content,
+			1
+		);
+	}
+
+	/*
+	 * Keep advertising proportional to the amount of editorial material.
+	 * Most Quinnoa guides are deliberately concise, so short pages should not
+	 * carry the same ad load as a substantially longer reference article.
+	 */
+	$food_plain_content = trim( wp_strip_all_tags( html_entity_decode( $food_content, ENT_QUOTES | ENT_HTML5, 'UTF-8' ) ) );
+	$food_word_matches  = array();
+	$food_word_count    = preg_match_all( "/[\\p{L}\\p{N}]+(?:['’\\-][\\p{L}\\p{N}]+)*/u", $food_plain_content, $food_word_matches );
+	$food_word_count    = false === $food_word_count ? 0 : (int) $food_word_count;
+	$food_ad_medium     = $food_word_count >= 850;
+	$food_ad_long       = $food_word_count >= 1100;
+	$food_ad_extra_long = $food_word_count >= 1400;
+
 	if ( function_exists( 'food_internal_links_inject' ) ) {
 		$food_content = food_internal_links_inject( $food_content, get_the_ID() );
 	}
 	$food_native_in_content = false;
 	$food_h2_count = preg_match_all( '#<h2\\b#i', $food_content );
+
+	// Two placements are enough for a standard 4-minute guide.
 	if ( function_exists( 'food_adsterra_inject_rectangle_after_second_heading' ) ) {
 		$food_content = food_adsterra_inject_rectangle_after_second_heading( $food_content );
 	}
-	if ( function_exists( 'food_adsterra_inject_native_after_fifth_heading' ) && $food_h2_count >= 5 ) {
+
+	// Add a native placement only when the article has enough editorial depth.
+	if ( $food_ad_medium && function_exists( 'food_adsterra_inject_native_after_fifth_heading' ) && $food_h2_count >= 5 ) {
 		$food_content = food_adsterra_inject_native_after_fifth_heading( $food_content );
 		$food_native_in_content = true;
 	}
-	if ( function_exists( 'food_adsterra_inject_tall_rectangle_after_seventh_heading' ) && $food_h2_count >= 7 ) {
+
+	// Reserve the extra in-content unit for genuinely long future guides.
+	if ( $food_ad_extra_long && function_exists( 'food_adsterra_inject_tall_rectangle_after_seventh_heading' ) && $food_h2_count >= 7 ) {
 		$food_content = food_adsterra_inject_tall_rectangle_after_seventh_heading( $food_content );
 	}
 	?>
@@ -63,6 +108,17 @@ get_header();
 			<span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span>
 			<span aria-hidden="true">·</span>
 			<span class="article-byline"><?php echo esc_html( $food_english ? 'By the Quinnoa editorial team' : 'Por el equipo editorial de Quinnoa' ); ?></span>
+			<span aria-hidden="true">·</span>
+			<time datetime="<?php echo esc_attr( $food_date_iso ); ?>"><?php echo esc_html( ( $food_show_updated ? ( $food_english ? 'Updated ' : 'Actualizado ' ) : ( $food_english ? 'Published ' : 'Publicado ' ) ) . $food_date_display ); ?></time>
+			<?php if ( $food_source_count > 0 ) : ?>
+				<span aria-hidden="true">·</span>
+				<a class="article-sources-link" href="#article-sources"><?php
+					printf(
+						esc_html( $food_english ? _n( '%s source', '%s sources', $food_source_count, 'food' ) : _n( '%s fuente', '%s fuentes', $food_source_count, 'food' ) ),
+						esc_html( number_format_i18n( $food_source_count ) )
+					);
+				?></a>
+			<?php endif; ?>
 			<a class="article-methodology-link" href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'methodology', $food_english ? 'en' : 'es' ) : home_url( $food_english ? '/en/editorial-methodology/' : '/metodologia-editorial/' ) ); ?>"><?php echo esc_html( $food_english ? 'How we work' : 'Cómo trabajamos' ); ?></a>
 		</div>
 	</header>
@@ -81,7 +137,7 @@ get_header();
 		<?php if ( function_exists( 'food_adsterra_render_responsive_banner' ) ) { food_adsterra_render_responsive_banner( 'article' ); } ?>
 		<div class="article-body-layout">
 			<div class="entry-content"><?php echo $food_content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
-			<?php if ( function_exists( 'food_adsterra_render_skyscraper' ) ) { food_adsterra_render_skyscraper(); } ?>
+			<?php if ( $food_ad_extra_long && function_exists( 'food_adsterra_render_skyscraper' ) ) { food_adsterra_render_skyscraper(); } ?>
 		</div>
 		<div class="article-share">
 			<button
@@ -99,11 +155,11 @@ get_header();
 		</div>
 	</article>
 
-	<?php if ( ! $food_native_in_content && function_exists( 'food_adsterra_render_native_banner' ) ) : ?>
+	<?php if ( $food_ad_medium && ! $food_native_in_content && function_exists( 'food_adsterra_render_native_banner' ) ) : ?>
 		<div class="article-shell"><?php food_adsterra_render_native_banner( 'article-end' ); ?></div>
 	<?php endif; ?>
 
-	<?php if ( function_exists( 'food_adsterra_render_article_footer_banner' ) ) : ?>
+	<?php if ( $food_ad_long && function_exists( 'food_adsterra_render_article_footer_banner' ) ) : ?>
 		<div class="article-shell article-footer-ad"><?php food_adsterra_render_article_footer_banner(); ?></div>
 	<?php endif; ?>
 

@@ -71,6 +71,159 @@ function food_topic_definitions() {
 	);
 }
 
+/**
+ * English archive descriptions live next to the editorial taxonomy so English
+ * hubs never fall back to generic "Articles about this topic" copy.
+ */
+function food_topic_description_en( $slug ) {
+	$descriptions = array(
+		'nutricion-composicion' => 'Protein, fats, carbohydrates, fiber, vitamins, minerals, calories and food composition explained with practical context.',
+		'rankings-mejores-fuentes' => 'Rankings and source guides that compare foods using a clear nutritional, culinary or quality criterion.',
+		'comparativas' => 'Side-by-side differences between foods, varieties, formats and methods, with comparable data and the context needed to interpret it.',
+		'seguridad-alimentaria' => 'Food-safety guidance on handling, cooking, storage, spoilage signs and when food should be discarded.',
+		'conservacion-almacenamiento' => 'How long foods keep and how refrigeration, containers, temperature and storage conditions affect quality and safety.',
+		'congelacion-descongelacion' => 'Which foods freeze well, how freezing changes them, how long they keep and safer ways to thaw them.',
+		'cocina-ciencia-alimentos' => 'What happens inside food when heat, water, mixing, fermentation and other cooking processes change its structure.',
+		'preparacion-tecnicas-cocina' => 'Practical methods, temperatures, timings and techniques for more reliable cooking results.',
+		'salud-consumo-habitual' => 'General educational context on eating patterns, frequency of consumption and how foods can fit into an everyday diet.',
+		'conceptos-nutricion' => 'Clear explanations of nutrition concepts such as protein, fiber, glycemic response, energy density and nutrient quality.',
+		'mitos-preguntas-frecuentes' => 'Direct answers to common food questions and careful checks of popular nutrition and cooking claims.',
+		'procesamiento-produccion-elaboracion' => 'How foods are produced, processed, fermented, cured and manufactured, and what those processes change.',
+		'compra-calidad-maduracion' => 'How to choose foods, interpret labels and quality signals, judge ripeness and understand origin or commercial categories.',
+	);
+	return isset( $descriptions[ $slug ] ) ? $descriptions[ $slug ] : '';
+}
+
+function food_family_description_en( $slug ) {
+	$descriptions = array(
+		'alimentacion-general' => 'Cross-cutting food guides covering everyday questions, nutrition, cooking, safety and concepts that apply to more than one food family.',
+		'carnes' => 'Meat types and cuts, quality, storage, food safety, nutrition and the cooking science behind better results.',
+		'pescados-mariscos' => 'Fish and seafood species, freshness, safety, storage, nutrition, buying cues and cooking techniques.',
+		'huevos' => 'Egg freshness, labeling, storage, food safety, nutrition and the science behind different cooking methods.',
+		'lacteos-quesos' => 'Milk, yogurt, cheese and other dairy foods: composition, varieties, processing, storage and quality.',
+		'legumbres-soja' => 'Lentils, chickpeas, beans, soy and soy foods: nutrition, soaking, cooking, storage and practical uses.',
+		'frutos-secos-semillas' => 'Nuts and seeds: nutrition, portions, storage, roasting, quality and differences between varieties.',
+		'cereales-pseudocereales-derivados' => 'Rice, oats, wheat, quinoa, bread, pasta, flour and other grain foods: nutrition, processing, storage and cooking.',
+		'tuberculos' => 'Potatoes, sweet potatoes and other tubers: nutrition, storage, food safety, preparation and cooking.',
+		'verduras-hortalizas-setas' => 'Vegetables and mushrooms: seasonality, freshness, storage, safety, nutrition and cooking.',
+		'frutas' => 'Fruit ripeness, seasonality, storage, safety, nutrition and practical signs of quality.',
+		'aceites-grasas' => 'Olive oil, other oils and culinary fats: composition, quality, storage, cooking uses and how they differ.',
+		'bebidas' => 'Water, coffee, tea, infusions and other drinks: composition, preparation, storage and everyday consumption.',
+		'chocolate-cacao-dulces' => 'Chocolate, cocoa and sweet foods: ingredients, composition, processing, quality and storage.',
+		'fermentados' => 'Fermented foods: microbes, fermentation processes, food safety, storage, production and consumption.',
+		'algas-especias-otros-alimentos' => 'Seaweeds, spices, condiments and other foods: composition, uses, quality, safety and storage.',
+	);
+	return isset( $descriptions[ $slug ] ) ? $descriptions[ $slug ] : '';
+}
+
+function food_taxonomy_archive_description( $term, $language = '' ) {
+	if ( ! $term instanceof WP_Term ) {
+		return '';
+	}
+	$language = $language ?: ( function_exists( 'food_current_language' ) ? food_current_language() : 'es' );
+
+	if ( 'en' === $language ) {
+		if ( 'food_topic' === $term->taxonomy ) {
+			return food_topic_description_en( $term->slug );
+		}
+		if ( 'category' === $term->taxonomy ) {
+			return food_family_description_en( $term->slug );
+		}
+	}
+
+	return trim( wp_strip_all_tags( term_description( $term ) ) );
+}
+
+/**
+ * Build useful cross-navigation for a taxonomy hub from the actual library.
+ * A food-family page surfaces the main article topics represented there, while
+ * a topic page surfaces the food families with the deepest coverage.
+ */
+function food_taxonomy_cross_links( $term, $language = '', $limit = 6 ) {
+	if ( ! $term instanceof WP_Term || ! in_array( $term->taxonomy, array( 'category', 'food_topic' ), true ) ) {
+		return array();
+	}
+
+	$language = 'en' === $language ? 'en' : 'es';
+	$limit    = max( 1, (int) $limit );
+	$cache_key = 'food_cross_' . $term->taxonomy . '_' . (int) $term->term_id . '_' . $language . '_v1';
+	$cached    = get_transient( $cache_key );
+	if ( is_array( $cached ) ) {
+		return array_slice( $cached, 0, $limit );
+	}
+
+	$args = array(
+		'post_type'              => 'post',
+		'post_status'            => 'publish',
+		'posts_per_page'         => -1,
+		'fields'                 => 'ids',
+		'no_found_rows'          => true,
+		'ignore_sticky_posts'    => true,
+		'food_language_bypass'   => 1,
+		'tax_query'              => array(
+			array(
+				'taxonomy' => $term->taxonomy,
+				'field'    => 'term_id',
+				'terms'    => array( (int) $term->term_id ),
+			),
+		),
+	);
+	if ( function_exists( 'food_language_query_clause' ) ) {
+		$args['meta_query'] = array( food_language_query_clause( $language ) );
+	}
+
+	$post_ids = get_posts( $args );
+	if ( empty( $post_ids ) ) {
+		set_transient( $cache_key, array(), 12 * HOUR_IN_SECONDS );
+		return array();
+	}
+
+	$other_taxonomy = 'category' === $term->taxonomy ? 'food_topic' : 'category';
+	$terms          = wp_get_object_terms( $post_ids, $other_taxonomy, array( 'fields' => 'all_with_object_id' ) );
+	if ( is_wp_error( $terms ) || empty( $terms ) ) {
+		set_transient( $cache_key, array(), 12 * HOUR_IN_SECONDS );
+		return array();
+	}
+
+	$allowed = 'food_topic' === $other_taxonomy
+		? array_fill_keys( array_keys( food_topic_definitions() ), true )
+		: ( function_exists( 'food_family_definitions' ) ? array_fill_keys( array_keys( food_family_definitions() ), true ) : array() );
+
+	$counts = array();
+	$by_slug = array();
+	foreach ( $terms as $other_term ) {
+		if ( ! $other_term instanceof WP_Term || ! isset( $allowed[ $other_term->slug ] ) ) {
+			continue;
+		}
+		$counts[ $other_term->slug ] = isset( $counts[ $other_term->slug ] ) ? $counts[ $other_term->slug ] + 1 : 1;
+		$by_slug[ $other_term->slug ] = $other_term;
+	}
+
+	arsort( $counts, SORT_NUMERIC );
+	$links = array();
+	foreach ( $counts as $slug => $count ) {
+		$other_term = $by_slug[ $slug ];
+		if ( 'food_topic' === $other_taxonomy ) {
+			$label = function_exists( 'food_topic_display' ) ? food_topic_display( $other_term ) : $other_term->name;
+			$url   = function_exists( 'food_topic_url_for_language' ) ? food_topic_url_for_language( $other_term, $language ) : get_term_link( $other_term );
+		} else {
+			$label = function_exists( 'food_family_display' ) ? food_family_display( $other_term->slug ) : $other_term->name;
+			$url   = function_exists( 'food_category_url_for_language' ) ? food_category_url_for_language( $other_term, $language ) : get_category_link( $other_term );
+		}
+		if ( is_wp_error( $url ) || ! $url ) {
+			continue;
+		}
+		$links[] = array(
+			'label' => $label,
+			'url'   => $url,
+			'count' => (int) $count,
+		);
+	}
+
+	set_transient( $cache_key, $links, 12 * HOUR_IN_SECONDS );
+	return array_slice( $links, 0, $limit );
+}
+
 function food_register_topic_taxonomy() {
 	register_taxonomy(
 		'food_topic',
