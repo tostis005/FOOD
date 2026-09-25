@@ -34,8 +34,13 @@ get_header();
 	if ( function_exists( 'food_internal_links_inject' ) ) {
 		$food_content = food_internal_links_inject( $food_content, get_the_ID() );
 	}
+	$food_native_in_content = false;
 	if ( function_exists( 'food_adsterra_inject_rectangle_after_second_heading' ) ) {
 		$food_content = food_adsterra_inject_rectangle_after_second_heading( $food_content );
+	}
+	if ( function_exists( 'food_adsterra_inject_native_after_fifth_heading' ) && preg_match_all( '#<h2\\b#i', $food_content ) >= 5 ) {
+		$food_content = food_adsterra_inject_native_after_fifth_heading( $food_content );
+		$food_native_in_content = true;
 	}
 	?>
 	<div class="article-shell"><?php function_exists( 'food_language_breadcrumbs' ) ? food_language_breadcrumbs() : food_breadcrumbs(); ?></div>
@@ -89,6 +94,10 @@ get_header();
 			<span class="article-share-status screen-reader-text" aria-live="polite"></span>
 		</div>
 	</article>
+
+	<?php if ( ! $food_native_in_content && function_exists( 'food_adsterra_render_native_banner' ) ) : ?>
+		<div class="article-shell"><?php food_adsterra_render_native_banner( 'article-end' ); ?></div>
+	<?php endif; ?>
 
 	<?php
 	$related_args = array(
