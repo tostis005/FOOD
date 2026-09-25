@@ -209,27 +209,31 @@ function food_internal_link_fallback_posts( $post_id, $limit = 3 ) {
 		return array();
 	}
 
-	$candidates = get_posts(
-		array(
-			'post_type'              => 'post',
-			'post_status'            => 'publish',
-			'posts_per_page'         => 30,
-			'post__not_in'           => array( $post_id ),
-			'ignore_sticky_posts'    => true,
-			'no_found_rows'          => true,
-			'orderby'                => 'date',
-			'order'                  => 'DESC',
-			'food_language_bypass'   => 1,
-			'meta_query'             => array(
-				array(
-					'key'     => '_food_language',
-					'value'   => $language,
-					'compare' => '=',
-				),
-			),
-			'tax_query'              => $tax_query,
-		)
+	$fallback_args = array(
+		'post_type'              => 'post',
+		'post_status'            => 'publish',
+		'posts_per_page'         => 30,
+		'post__not_in'           => array( $post_id ),
+		'ignore_sticky_posts'    => true,
+		'no_found_rows'          => true,
+		'orderby'                => 'date',
+		'order'                  => 'DESC',
+		'food_language_bypass'   => 1,
+		'tax_query'              => $tax_query,
 	);
+	if ( function_exists( 'food_language_query_clause' ) ) {
+		$fallback_args['meta_query'] = array( food_language_query_clause( $language ) );
+	} else {
+		$fallback_args['meta_query'] = array(
+			array(
+				'key'     => '_food_language',
+				'value'   => $language,
+				'compare' => '=',
+			),
+		);
+	}
+
+	$candidates = get_posts( $fallback_args );
 
 	if ( empty( $candidates ) ) {
 		return array();
