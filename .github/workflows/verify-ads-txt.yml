@@ -10,16 +10,16 @@ jobs:
   verify-advertising:
     runs-on: ubuntu-latest
     steps:
-      - name: Verify consented Adsterra placements are in the public HTML
+      - name: Verify Adsterra placements are in the public HTML
         run: |
           set -euo pipefail
           for attempt in 1 2 3 4 5; do
-            HTML="$(curl -fsSL --max-time 20 -H 'Cache-Control: no-cache' -H 'Cookie: quinnoa_cookie_consent_v2=all' "https://www.quinnoa.com/?adsterra-check=${GITHUB_RUN_ID}-${attempt}")" || HTML=''
+            HTML="$(curl -fsSL --max-time 20 -H 'Cache-Control: no-cache' "https://www.quinnoa.com/?adsterra-check=${GITHUB_RUN_ID}-${attempt}")" || HTML=''
             if grep -Fq 'highrevenueformat.com' <<< "$HTML" && grep -Fq 'profitableratecpmnetwork.com/7db463293bb3ce15ac447767c0af596a/invoke.js' <<< "$HTML"; then
-              echo "Consented Adsterra placements are present in the public frontend."
+              echo "Adsterra placements are present in the public frontend."
               exit 0
             fi
             sleep 15
           done
-          echo "ERROR: expected consented Adsterra placements are missing from the public frontend."
+          echo "ERROR: expected Adsterra placements are missing from the public frontend."
           exit 1
