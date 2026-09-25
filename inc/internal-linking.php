@@ -102,14 +102,9 @@ function food_internal_link_posts( $post_id ) {
 		return $cache[ $post_id ];
 	}
 
-	$numbers = food_internal_link_target_numbers( $post_id );
-	if ( empty( $numbers ) ) {
-		$cache[ $post_id ] = array();
-		return $cache[ $post_id ];
-	}
-
+	$numbers  = food_internal_link_target_numbers( $post_id );
 	$language = food_internal_link_language( $post_id );
-	$posts    = get_posts(
+	$posts = empty( $numbers ) ? array() : get_posts(
 		array(
 			'post_type'              => 'post',
 			'post_status'            => 'publish',
@@ -149,8 +144,150 @@ function food_internal_link_posts( $post_id ) {
 		}
 	}
 
+	/*
+	 * The hand-curated graph currently covers the original library. Newer
+	 * articles must not become isolated while the editorial map catches up, so
+	 * supplement missing links with deterministic taxonomy-based suggestions.
+	 */
+	if ( count( $ordered ) < 3 ) {
+		$fallback = food_internal_link_fallback_posts( $post_id, 3 );
+		$seen_ids = array_map(
+			function( $post ) {
+				return (int) $post->ID;
+			},
+			$ordered
+		);
+
+		foreach ( $fallback as $post ) {
+			if ( in_array( (int) $post->ID, $seen_ids, true ) ) {
+				continue;
+			}
+			$ordered[]  = $post;
+			$seen_ids[] = (int) $post->ID;
+			if ( count( $ordered ) >= 3 ) {
+				break;
+			}
+		}
+	}
+
 	$cache[ $post_id ] = $ordered;
 	return $cache[ $post_id ];
+}
+
+/**
+ * Find stable contextual links for articles that do not yet have a manual map
+ * entry. Candidates must share the food family or at least one editorial topic.
+ */
+function food_internal_link_fallback_posts( $post_id, $limit = 3 ) {
+	$post_id = (int) $post_id;
+	$limit   = max( 1, (int) $limit );
+
+	$language = food_internal_link_language( $post_id );
+	$category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category( $post_id ) : null;
+	$topics   = function_exists( 'food_get_article_topics' ) ? food_get_article_topics( $post_id ) : array();
+
+	$tax_query = array( 'relation' => 'OR' );
+	if ( $category instanceof WP_Term ) {
+		$tax_query[] = array(
+			'taxonomy' => 'category',
+			'field'    => 'term_id',
+			'terms'    => array( (int) $category->term_id ),
+		);
+	}
+	foreach ( $topics as $topic ) {
+		if ( ! $topic instanceof WP_Term ) {
+			continue;
+		}
+		$tax_query[] = array(
+			'taxonomy' => 'food_topic',
+			'field'    => 'term_id',
+			'terms'    => array( (int) $topic->term_id ),
+		);
+	}
+
+	if ( count( $tax_query ) < 2 ) {
+		return array();
+	}
+
+	$candidates = get_posts(
+		array(
+			'post_type'              => 'post',
+			'post_status'            => 'publish',
+			'posts_per_page'         => 30,
+			'post__not_in'           => array( $post_id ),
+			'ignore_sticky_posts'    => true,
+			'no_found_rows'          => true,
+			'orderby'                => 'date',
+			'order'                  => 'DESC',
+			'food_language_bypass'   => 1,
+			'meta_query'             => array(
+				array(
+					'key'     => '_food_language',
+					'value'   => $language,
+					'compare' => '=',
+				),
+			),
+			'tax_query'              => $tax_query,
+		)
+	);
+
+	if ( empty( $candidates ) ) {
+		return array();
+	}
+
+	$current_topic_slugs = array();
+	foreach ( $topics as $topic ) {
+		if ( $topic instanceof WP_Term ) {
+			$current_topic_slugs[ $topic->slug ] = true;
+		}
+	}
+	$current_category_slug = $category instanceof WP_Term ? $category->slug : '';
+
+	$scored = array();
+	foreach ( $candidates as $candidate ) {
+		$score = 0;
+
+		$candidate_category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category( $candidate->ID ) : null;
+		if ( $current_category_slug && $candidate_category instanceof WP_Term && $candidate_category->slug === $current_category_slug ) {
+			$score += 4;
+		}
+
+		$candidate_topics = function_exists( 'food_get_article_topics' ) ? food_get_article_topics( $candidate->ID ) : array();
+		$topic_overlap    = 0;
+		foreach ( $candidate_topics as $candidate_topic ) {
+			if ( $candidate_topic instanceof WP_Term && isset( $current_topic_slugs[ $candidate_topic->slug ] ) ) {
+				$topic_overlap++;
+			}
+		}
+		$score += 3 * $topic_overlap;
+
+		if ( $score <= 0 ) {
+			continue;
+		}
+
+		$scored[] = array(
+			'post'   => $candidate,
+			'score'  => $score,
+			'number' => food_internal_link_article_number( $candidate->ID ),
+		);
+	}
+
+	usort(
+		$scored,
+		function( $a, $b ) {
+			if ( $a['score'] !== $b['score'] ) {
+				return $b['score'] <=> $a['score'];
+			}
+			return $b['number'] <=> $a['number'];
+		}
+	);
+
+	return array_map(
+		function( $row ) {
+			return $row['post'];
+		},
+		array_slice( $scored, 0, $limit )
+	);
 }
 
 function food_internal_link_target_post_ids( $post_id ) {
