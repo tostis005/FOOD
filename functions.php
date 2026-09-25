@@ -530,6 +530,16 @@ function food_adsterra_rectangle_markup() {
 	return (string) ob_get_clean();
 }
 
+function food_adsterra_tall_rectangle_markup() {
+	ob_start();
+	food_adsterra_render_banner( 'f9f201bd20761f3ec87326bd7f5d39af', 160, 300, 'tall-rectangle' );
+	return (string) ob_get_clean();
+}
+
+function food_adsterra_render_article_footer_banner() {
+	food_adsterra_render_banner( '8db5e1c7c8d8509428be98b18d0bc101', 468, 60, 'article-footer' );
+}
+
 function food_adsterra_inject_rectangle_after_second_heading( $html ) {
 	if ( ! food_advertising_consent_granted() || false === stripos( $html, '</h2>' ) ) {
 		return $html;
@@ -544,6 +554,25 @@ function food_adsterra_inject_rectangle_after_second_heading( $html ) {
 		function ( $matches ) use ( &$count, $markup ) {
 			$count++;
 			return 2 === $count ? $matches[0] . $markup : $matches[0];
+		},
+		$html
+	);
+}
+
+function food_adsterra_inject_tall_rectangle_after_seventh_heading( $html ) {
+	if ( false === stripos( $html, '</h2>' ) ) {
+		return $html;
+	}
+	$markup = food_adsterra_tall_rectangle_markup();
+	if ( '' === $markup ) {
+		return $html;
+	}
+	$count = 0;
+	return preg_replace_callback(
+		'#</h2>#i',
+		function ( $matches ) use ( &$count, $markup ) {
+			$count++;
+			return 7 === $count ? $matches[0] . $markup : $matches[0];
 		},
 		$html
 	);
