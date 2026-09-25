@@ -93,16 +93,26 @@ function food_seo_v2_schema_graph( $canonical, $description ) {
 	$lang     = food_seo_v2_is_english() ? 'en-US' : 'es-ES';
 	$org_id   = $home_url . '#organization';
 	$site_id  = $home_url . '#website';
-	$page_id  = $canonical . '#webpage';
-	$graph    = array();
+	$page_id     = $canonical . '#webpage';
+	$graph       = array();
+	$methodology = function_exists( 'food_editorial_page_url' )
+		? food_editorial_page_url( 'methodology', food_seo_v2_is_english() ? 'en' : 'es' )
+		: '';
 
-	$graph[] = array(
-		'@type' => 'Organization',
-		'@id'   => $org_id,
-		'name'  => 'Quinnoa',
-		'url'   => $home_url,
-		'logo'  => array( '@type' => 'ImageObject', 'url' => get_template_directory_uri() . '/assets/quinnoa-grain.svg' ),
+	$organization = array(
+		'@type'       => 'Organization',
+		'@id'         => $org_id,
+		'name'        => 'Quinnoa',
+		'url'         => $home_url,
+		'description' => food_seo_v2_is_english()
+			? 'Independent digital food library with sourced, practical articles about nutrition, cooking, safety, storage and food quality.'
+			: 'Biblioteca digital independiente sobre alimentación, con artículos documentados y prácticos sobre nutrición, cocina, seguridad, conservación y calidad.',
+		'logo'        => array( '@type' => 'ImageObject', 'url' => get_template_directory_uri() . '/assets/quinnoa-grain.svg' ),
 	);
+	if ( $methodology ) {
+		$organization['publishingPrinciples'] = $methodology;
+	}
+	$graph[] = $organization;
 	$graph[] = array(
 		'@type'      => 'WebSite',
 		'@id'        => $site_id,
@@ -139,6 +149,9 @@ function food_seo_v2_schema_graph( $canonical, $description ) {
 			'publisher'        => array( '@id' => $org_id ),
 			'inLanguage'       => $lang,
 		);
+		if ( $methodology ) {
+			$article['publishingPrinciples'] = $methodology;
+		}
 		if ( has_post_thumbnail( $post_id ) ) {
 			$article['image'] = array( get_the_post_thumbnail_url( $post_id, 'full' ) );
 		}
