@@ -49,10 +49,8 @@ add_action( 'wp_enqueue_scripts', 'food_enqueue_assets' );
 
 function food_widgets_init() {
 	$areas = array(
-		'home-ad'    => 'Publicidad · portada',
-		'article-ad' => 'Publicidad · artículo',
-		'footer-1'   => 'Pie · columna 1',
-		'footer-2'   => 'Pie · columna 2',
+		'footer-1' => 'Pie · columna 1',
+		'footer-2' => 'Pie · columna 2',
 	);
 
 	foreach ( $areas as $id => $name ) {
@@ -387,14 +385,144 @@ if ( file_exists( $food_sitemaps ) ) {
 }
 
 /**
- * Load the official AdSense site script from wp_head, following the same
- * integration pattern used by Mercado de Origen.
+ * Advertising consent and Adsterra placements.
+ *
+ * Ads are rendered only after explicit advertising consent. The v2 consent
+ * cookie intentionally does not reinterpret older analytics-only choices.
  */
-function food_adsense_output_head_code() {
-	if ( is_admin() || is_feed() || is_preview() ) {
+function food_advertising_consent_granted() {
+	if ( empty( $_COOKIE['quinnoa_cookie_consent_v2'] ) ) {
+		return false;
+	}
+	$choice = sanitize_text_field( wp_unslash( $_COOKIE['quinnoa_cookie_consent_v2'] ) );
+	return in_array( $choice, array( 'ads', 'all' ), true );
+}
+
+function food_advertisement_label() {
+	return function_exists( 'food_is_english' ) && food_is_english() ? 'Advertisement' : 'Publicidad';
+}
+
+function food_adsterra_render_banner( $key, $width, $height, $modifier = '' ) {
+	if ( ! food_advertising_consent_granted() ) {
 		return;
 	}
-
-	echo '<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3168527008181132" crossorigin="anonymous"></script>' . "\n";
+	$class = 'quinnoa-ad quinnoa-ad--banner';
+	if ( $modifier ) {
+		$class .= ' quinnoa-ad--' . sanitize_html_class( $modifier );
+	}
+	?>
+	<div class="<?php echo esc_attr( $class ); ?>" role="complementary" aria-label="<?php echo esc_attr( food_advertisement_label() ); ?>">
+		<span class="quinnoa-ad__label"><?php echo esc_html( food_advertisement_label() ); ?></span>
+		<div class="quinnoa-ad__creative">
+			<script>
+				window.atOptions = {
+					'key': <?php echo wp_json_encode( $key ); ?>,
+					'format': 'iframe',
+					'height': <?php echo (int) $height; ?>,
+					'width': <?php echo (int) $width; ?>,
+					'params': {}
+				};
+			</script>
+			<script src="https://www.highrevenueformat.com/<?php echo esc_attr( $key ); ?>/invoke.js"></script>
+		</div>
+	</div>
+	<?php
 }
-add_action( 'wp_head', 'food_adsense_output_head_code', 2 );
+
+function food_adsterra_render_responsive_banner( $context = '' ) {
+	if ( ! food_advertising_consent_granted() ) {
+		return;
+	}
+	$context_class = $context ? ' quinnoa-ad--' . sanitize_html_class( $context ) : '';
+	?>
+	<div class="quinnoa-ad quinnoa-ad--leaderboard<?php echo esc_attr( $context_class ); ?>" role="complementary" aria-label="<?php echo esc_attr( food_advertisement_label() ); ?>">
+		<span class="quinnoa-ad__label"><?php echo esc_html( food_advertisement_label() ); ?></span>
+		<div class="quinnoa-ad__creative">
+			<script>
+				(function () {
+					var isMobile = window.matchMedia('(max-width: 767px)').matches;
+					var key = isMobile ? '2fd51cc69c493e294fcc452e4902ef8a' : '62bfda055f24c65c5594ad3805fb47c4';
+					window.atOptions = {
+						'key': key,
+						'format': 'iframe',
+						'height': isMobile ? 50 : 90,
+						'width': isMobile ? 320 : 728,
+						'params': {}
+					};
+					document.write('<script src="https://www.highrevenueformat.com/' + key + '/invoke.js"><\/script>');
+				}());
+			</script>
+		</div>
+	</div>
+	<?php
+}
+
+function food_adsterra_render_skyscraper() {
+	if ( ! food_advertising_consent_granted() ) {
+		return;
+	}
+	?>
+	<aside class="quinnoa-ad quinnoa-ad--skyscraper" role="complementary" aria-label="<?php echo esc_attr( food_advertisement_label() ); ?>">
+		<span class="quinnoa-ad__label"><?php echo esc_html( food_advertisement_label() ); ?></span>
+		<div class="quinnoa-ad__creative">
+			<script>
+				if (window.matchMedia('(min-width: 1121px)').matches) {
+					window.atOptions = {
+						'key': '0e19aebc3a01cf4f0371f19e5a25d80e',
+						'format': 'iframe',
+						'height': 600,
+						'width': 160,
+						'params': {}
+					};
+					document.write('<script src="https://www.highrevenueformat.com/0e19aebc3a01cf4f0371f19e5a25d80e/invoke.js"><\/script>');
+				}
+			</script>
+		</div>
+	</aside>
+	<?php
+}
+
+function food_adsterra_render_native_banner( $context = '' ) {
+	if ( ! food_advertising_consent_granted() ) {
+		return;
+	}
+	$context_class = $context ? ' quinnoa-ad--' . sanitize_html_class( $context ) : '';
+	?>
+	<div class="quinnoa-ad quinnoa-ad--native<?php echo esc_attr( $context_class ); ?>" role="complementary" aria-label="<?php echo esc_attr( food_advertisement_label() ); ?>">
+		<span class="quinnoa-ad__label"><?php echo esc_html( food_advertisement_label() ); ?></span>
+		<div class="quinnoa-ad__creative quinnoa-ad__creative--native">
+			<script async="async" data-cfasync="false" src="https://pl31502193.profitableratecpmnetwork.com/7db463293bb3ce15ac447767c0af596a/invoke.js"></script>
+			<div id="container-7db463293bb3ce15ac447767c0af596a"></div>
+		</div>
+	</div>
+	<?php
+}
+
+function food_adsterra_rectangle_markup() {
+	if ( ! food_advertising_consent_granted() ) {
+		return '';
+	}
+	ob_start();
+	food_adsterra_render_banner( 'a458e8bdbfec90b9007f69b19307038c', 300, 250, 'rectangle' );
+	return (string) ob_get_clean();
+}
+
+function food_adsterra_inject_rectangle_after_second_heading( $html ) {
+	if ( ! food_advertising_consent_granted() || false === stripos( $html, '</h2>' ) ) {
+		return $html;
+	}
+	$markup = food_adsterra_rectangle_markup();
+	if ( '' === $markup ) {
+		return $html;
+	}
+	$count = 0;
+	return preg_replace_callback(
+		'#</h2>#i',
+		function ( $matches ) use ( &$count, $markup ) {
+			$count++;
+			return 2 === $count ? $matches[0] . $markup : $matches[0];
+		},
+		$html
+	);
+}
+
