@@ -35,12 +35,16 @@ get_header();
 		$food_content = food_internal_links_inject( $food_content, get_the_ID() );
 	}
 	$food_native_in_content = false;
+	$food_h2_count = preg_match_all( '#<h2\\b#i', $food_content );
 	if ( function_exists( 'food_adsterra_inject_rectangle_after_second_heading' ) ) {
 		$food_content = food_adsterra_inject_rectangle_after_second_heading( $food_content );
 	}
-	if ( function_exists( 'food_adsterra_inject_native_after_fifth_heading' ) && preg_match_all( '#<h2\\b#i', $food_content ) >= 5 ) {
+	if ( function_exists( 'food_adsterra_inject_native_after_fifth_heading' ) && $food_h2_count >= 5 ) {
 		$food_content = food_adsterra_inject_native_after_fifth_heading( $food_content );
 		$food_native_in_content = true;
+	}
+	if ( function_exists( 'food_adsterra_inject_tall_rectangle_after_seventh_heading' ) && $food_h2_count >= 7 ) {
+		$food_content = food_adsterra_inject_tall_rectangle_after_seventh_heading( $food_content );
 	}
 	?>
 	<div class="article-shell"><?php function_exists( 'food_language_breadcrumbs' ) ? food_language_breadcrumbs() : food_breadcrumbs(); ?></div>
@@ -97,6 +101,10 @@ get_header();
 
 	<?php if ( ! $food_native_in_content && function_exists( 'food_adsterra_render_native_banner' ) ) : ?>
 		<div class="article-shell"><?php food_adsterra_render_native_banner( 'article-end' ); ?></div>
+	<?php endif; ?>
+
+	<?php if ( function_exists( 'food_adsterra_render_article_footer_banner' ) ) : ?>
+		<div class="article-shell article-footer-ad"><?php food_adsterra_render_article_footer_banner(); ?></div>
 	<?php endif; ?>
 
 	<?php
