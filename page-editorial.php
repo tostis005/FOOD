@@ -186,7 +186,7 @@ if ( $page && 'privacy' === $key ) {
 			array(
 				'title' => 'Cookies',
 				'paragraphs' => array(
-					'The site uses preference cookies for language and cookie choices. Google Analytics is configured with analytics storage denied by default and can use analytics storage only after the visitor grants that preference. Adsterra advertising placements are rendered only after the visitor grants advertising consent. See the Cookie policy for the current details.',
+					'The site uses preference cookies for language and analytics choices. Google Analytics is configured with analytics storage denied by default and can use analytics storage only after the visitor grants that preference. Pages may also load Adsterra advertising code independently of the analytics preference; Adsterra and advertising partners may use third-party advertising technologies as described in the Cookie policy.',
 				),
 			),
 			array(
@@ -222,7 +222,7 @@ if ( $page && 'privacy' === $key ) {
 			array(
 				'title' => 'Cookies',
 				'paragraphs' => array(
-					'El sitio utiliza cookies de preferencia para idioma y elección de cookies. Google Analytics está configurado con el almacenamiento analítico denegado por defecto y solo puede recibir permiso de almacenamiento analítico después de que el visitante lo acepte. Los espacios publicitarios de Adsterra solo se muestran después de que el visitante conceda consentimiento publicitario. La Política de cookies recoge el detalle vigente.',
+					'El sitio utiliza cookies de preferencia para idioma y elección de analítica. Google Analytics está configurado con el almacenamiento analítico denegado por defecto y solo puede recibir permiso de almacenamiento analítico después de que el visitante lo acepte. Las páginas también pueden cargar código publicitario de Adsterra independientemente de la preferencia de analítica; Adsterra y sus socios publicitarios pueden utilizar tecnologías publicitarias de terceros según se describe en la Política de cookies.',
 				),
 			),
 			array(
