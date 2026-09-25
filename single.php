@@ -18,6 +18,23 @@ get_header();
 	$food_topics   = function_exists( 'food_get_article_topics' ) ? food_get_article_topics() : array();
 	$food_visual   = function_exists( 'food_get_post_visual_context' ) ? food_get_post_visual_context() : null;
 	$food_content  = apply_filters( 'the_content', get_the_content() );
+	$food_sources  = json_decode( (string) get_post_meta( get_the_ID(), '_food_sources', true ), true );
+	$food_source_count = is_array( $food_sources )
+		? count(
+			array_filter(
+				$food_sources,
+				function( $source ) {
+					return is_array( $source ) && ! empty( $source['name'] ) && ! empty( $source['url'] );
+				}
+			)
+		)
+		: 0;
+	$food_published_ts = (int) get_post_time( 'U', true, get_the_ID() );
+	$food_modified_ts  = (int) get_post_modified_time( 'U', true, get_the_ID() );
+	$food_show_updated = $food_modified_ts > ( $food_published_ts + DAY_IN_SECONDS );
+	$food_date_ts      = $food_show_updated ? $food_modified_ts : $food_published_ts;
+	$food_date_iso     = $food_show_updated ? get_the_modified_date( DATE_W3C ) : get_the_date( DATE_W3C );
+	$food_date_display = $food_english ? gmdate( 'M j, Y', $food_date_ts ) : gmdate( 'd/m/Y', $food_date_ts );
 
 	// Older imported articles may contain a prose Sources/Fuentes block inside
 	// content_html as well as the structured source list appended by the importer.
@@ -26,6 +43,15 @@ get_header();
 		$food_content = preg_replace(
 			'#<h2>\s*(?:Fuentes|Sources)\s*</h2>\s*<p>.*?</p>(?=.*?<ul[^>]*class=["\'][^"\']*food-article-sources[^"\']*["\'])#is',
 			'',
+			$food_content,
+			1
+		);
+	}
+
+	if ( $food_source_count > 0 ) {
+		$food_content = preg_replace(
+			'#<h2>\s*(Fuentes|Sources)\s*</h2>#iu',
+			'<h2 id="article-sources">$1</h2>',
 			$food_content,
 			1
 		);
@@ -82,6 +108,17 @@ get_header();
 			<span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span>
 			<span aria-hidden="true">·</span>
 			<span class="article-byline"><?php echo esc_html( $food_english ? 'By the Quinnoa editorial team' : 'Por el equipo editorial de Quinnoa' ); ?></span>
+			<span aria-hidden="true">·</span>
+			<time datetime="<?php echo esc_attr( $food_date_iso ); ?>"><?php echo esc_html( ( $food_show_updated ? ( $food_english ? 'Updated ' : 'Actualizado ' ) : ( $food_english ? 'Published ' : 'Publicado ' ) ) . $food_date_display ); ?></time>
+			<?php if ( $food_source_count > 0 ) : ?>
+				<span aria-hidden="true">·</span>
+				<a class="article-sources-link" href="#article-sources"><?php
+					printf(
+						esc_html( $food_english ? _n( '%s source', '%s sources', $food_source_count, 'food' ) : _n( '%s fuente', '%s fuentes', $food_source_count, 'food' ) ),
+						esc_html( number_format_i18n( $food_source_count ) )
+					);
+				?></a>
+			<?php endif; ?>
 			<a class="article-methodology-link" href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'methodology', $food_english ? 'en' : 'es' ) : home_url( $food_english ? '/en/editorial-methodology/' : '/metodologia-editorial/' ) ); ?>"><?php echo esc_html( $food_english ? 'How we work' : 'Cómo trabajamos' ); ?></a>
 		</div>
 	</header>
