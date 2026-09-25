@@ -73,7 +73,7 @@ jobs:
               assert_no_ga(d, 'Spanish fresh visit')
               d.find_element(By.CSS_SELECTOR, '[data-quinnoa-cookie-reject]').click()
               time.sleep(1)
-              consent = d.get_cookie('quinnoa_cookie_consent')
+              consent = d.get_cookie('quinnoa_cookie_consent_v2')
               if not consent or consent.get('value') != 'necessary':
                   raise AssertionError('Reject did not persist necessary-only consent')
               assert_no_ga(d, 'Spanish rejected visit')
@@ -93,7 +93,7 @@ jobs:
               assert_no_ga(d, 'Spanish fresh accept visit')
               d.find_element(By.CSS_SELECTOR, '[data-quinnoa-cookie-accept]').click()
               time.sleep(5)
-              consent = d.get_cookie('quinnoa_cookie_consent')
+              consent = d.get_cookie('quinnoa_cookie_consent_v2')
               if not consent or consent.get('value') != 'analytics':
                   raise AssertionError('Accept did not persist analytics consent')
               names = cookie_names(d)
