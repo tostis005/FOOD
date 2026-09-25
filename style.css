@@ -235,3 +235,17 @@ button, input { font: inherit; }
 	.editorial-method-home__inner { grid-template-columns: 1fr; gap: 24px; padding: 28px 22px; }
 }
 
+/* Context-rich taxonomy hubs. */
+.taxonomy-hub-context { display: grid; grid-template-columns: minmax(0, .95fr) minmax(320px, 1.05fr); gap: 30px; align-items: start; margin: 0 0 38px; padding: 28px; border: 1px solid var(--line); border-radius: 24px; background: var(--paper); }
+.taxonomy-hub-context__copy h2 { margin: 7px 0 12px; font-size: clamp(27px, 3.5vw, 40px); }
+.taxonomy-hub-context__copy p { margin: 0 0 12px; color: var(--muted); line-height: 1.65; }
+.taxonomy-hub-context__links { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.taxonomy-hub-context__links a { display: block; padding: 14px 15px; border: 1px solid var(--line); border-radius: 14px; text-decoration: none; background: #f4efe5; }
+.taxonomy-hub-context__links strong, .taxonomy-hub-context__links span { display: block; }
+.taxonomy-hub-context__links strong { line-height: 1.25; }
+.taxonomy-hub-context__links span { margin-top: 4px; color: var(--muted); font-size: 12px; }
+@media (max-width: 760px) {
+	.taxonomy-hub-context { grid-template-columns: 1fr; padding: 22px; }
+	.taxonomy-hub-context__links { grid-template-columns: 1fr; }
+}
+
