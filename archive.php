@@ -112,11 +112,11 @@ if ( $archive_term instanceof WP_Term && ( is_category() || is_tax( 'food_topic'
 				?>
 			</h1>
 			<?php
-			$archive_description = term_description();
-			if ( ( is_category() || is_tax( 'food_topic' ) ) && $archive_description && ! $food_english ) : ?>
-				<div class="taxonomy-description"><?php echo wp_kses_post( $archive_description ); ?></div>
-			<?php elseif ( $food_english && $archive_term instanceof WP_Term ) : ?>
-				<div class="taxonomy-description"><p><?php echo esc_html( is_category() ? food_family_display( $archive_term->slug, 'short' ) : 'Articles about this topic.' ); ?></p></div>
+			$archive_description = $archive_term instanceof WP_Term && function_exists( 'food_taxonomy_archive_description' )
+				? food_taxonomy_archive_description( $archive_term, $food_english ? 'en' : 'es' )
+				: trim( wp_strip_all_tags( term_description() ) );
+			if ( ( is_category() || is_tax( 'food_topic' ) ) && $archive_description ) : ?>
+				<div class="taxonomy-description"><p><?php echo esc_html( $archive_description ); ?></p></div>
 			<?php endif; ?>
 		</div>
 
@@ -126,6 +126,59 @@ if ( $archive_term instanceof WP_Term && ( is_category() || is_tax( 'food_topic'
 			</div>
 		<?php endif; ?>
 	</header>
+
+	<?php
+	if ( 1 === $current_page && $archive_term instanceof WP_Term && ( is_category() || is_tax( 'food_topic' ) ) ) :
+		$archive_count = isset( $food_loop->found_posts ) ? (int) $food_loop->found_posts : 0;
+		$cross_links   = function_exists( 'food_taxonomy_cross_links' ) ? food_taxonomy_cross_links( $archive_term, $food_english ? 'en' : 'es', 6 ) : array();
+		$archive_name  = is_category()
+			? ( function_exists( 'food_family_display' ) ? food_family_display( $archive_term->slug ) : $archive_term->name )
+			: ( function_exists( 'food_topic_display' ) ? food_topic_display( $archive_term ) : $archive_term->name );
+	?>
+		<section class="taxonomy-hub-context" aria-labelledby="taxonomy-hub-title">
+			<div class="taxonomy-hub-context__copy">
+				<span class="section-label"><?php echo esc_html( $food_english ? 'Inside the library' : 'Dentro de la biblioteca' ); ?></span>
+				<h2 id="taxonomy-hub-title"><?php echo esc_html( $food_english ? 'Explore this collection with more context' : 'Explora esta colección con más contexto' ); ?></h2>
+				<p>
+					<?php
+					if ( $food_english ) {
+						printf(
+							esc_html( _n( 'Quinnoa currently groups %1$s article under %2$s.', 'Quinnoa currently groups %1$s articles under %2$s.', $archive_count, 'food' ) ),
+							esc_html( number_format_i18n( $archive_count ) ),
+							esc_html( $archive_name )
+						);
+					} else {
+						printf(
+							esc_html( _n( 'Quinnoa reúne actualmente %1$s artículo dentro de %2$s.', 'Quinnoa reúne actualmente %1$s artículos dentro de %2$s.', $archive_count, 'food' ) ),
+							esc_html( number_format_i18n( $archive_count ) ),
+							esc_html( $archive_name )
+						);
+					}
+					?>
+				</p>
+				<?php if ( ! empty( $cross_links ) ) : ?>
+					<p><?php echo esc_html( is_category()
+						? ( $food_english ? 'The strongest editorial angles represented in this food family are:' : 'Los enfoques editoriales con más presencia en esta familia son:' )
+						: ( $food_english ? 'The food families most represented in this topic are:' : 'Las familias de alimentos con más presencia en este tema son:' ) ); ?></p>
+				<?php endif; ?>
+			</div>
+			<?php if ( ! empty( $cross_links ) ) : ?>
+				<nav class="taxonomy-hub-context__links" aria-label="<?php echo esc_attr( $food_english ? 'Related Quinnoa sections' : 'Secciones relacionadas de Quinnoa' ); ?>">
+					<?php foreach ( $cross_links as $cross_link ) : ?>
+						<a href="<?php echo esc_url( $cross_link['url'] ); ?>">
+							<strong><?php echo esc_html( $cross_link['label'] ); ?></strong>
+							<span><?php
+								printf(
+									esc_html( $food_english ? _n( '%s article', '%s articles', $cross_link['count'], 'food' ) : _n( '%s artículo', '%s artículos', $cross_link['count'], 'food' ) ),
+									esc_html( number_format_i18n( $cross_link['count'] ) )
+								);
+							?></span>
+						</a>
+					<?php endforeach; ?>
+				</nav>
+			<?php endif; ?>
+		</section>
+	<?php endif; ?>
 
 	<?php if ( is_search() ) : ?>
 		<div class="search-panel"><?php get_search_form(); ?></div>
