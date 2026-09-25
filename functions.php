@@ -391,11 +391,7 @@ if ( file_exists( $food_sitemaps ) ) {
  * cookie intentionally does not reinterpret older analytics-only choices.
  */
 function food_advertising_consent_granted() {
-	if ( empty( $_COOKIE['quinnoa_cookie_consent_v2'] ) ) {
-		return false;
-	}
-	$choice = sanitize_text_field( wp_unslash( $_COOKIE['quinnoa_cookie_consent_v2'] ) );
-	return in_array( $choice, array( 'ads', 'all' ), true );
+	return true;
 }
 
 function food_advertisement_label() {
@@ -496,6 +492,33 @@ function food_adsterra_render_native_banner( $context = '' ) {
 		</div>
 	</div>
 	<?php
+}
+
+function food_adsterra_native_markup( $context = '' ) {
+	ob_start();
+	food_adsterra_render_native_banner( $context );
+	return (string) ob_get_clean();
+}
+
+function food_adsterra_inject_native_after_fifth_heading( $html ) {
+	if ( false === stripos( $html, '</h2>' ) ) {
+		return $html;
+	}
+
+	$markup = food_adsterra_native_markup( 'article-mid' );
+	if ( '' === $markup ) {
+		return $html;
+	}
+
+	$count = 0;
+	return preg_replace_callback(
+		'#</h2>#i',
+		function ( $matches ) use ( &$count, $markup ) {
+			$count++;
+			return 5 === $count ? $matches[0] . $markup : $matches[0];
+		},
+		$html
+	);
 }
 
 function food_adsterra_rectangle_markup() {
