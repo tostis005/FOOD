@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "en-1290-uht-vs-pasteurized-milk-differences-storage-nutrition",
+  "article_number": 1290,
+  "translation_group": "1290-uht-vs-pasteurized-milk",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; pasteurized and UHT/aseptically processed cow's milk for direct consumption.",
+  "title": "UHT vs. Pasteurized Milk: Differences, Storage, and Nutrition",
+  "slug": "uht-vs-pasteurized-milk-differences-storage-nutrition",
+  "seo": {
+    "title": "UHT vs. Pasteurized Milk: Storage and Nutrition Differences",
+    "meta_description": "Pasteurized milk uses less heat and requires refrigeration. UHT milk is typically heated around 135–150 °C for seconds and aseptically packaged, making it shelf-stable unopened. Protein, fat, and mineral differences are small.",
+    "search_intent": "Compare UHT and pasteurized milk by heat treatment, shelf life, refrigeration, flavor, and nutritional value."
+  },
+  "excerpt": "Pasteurized milk receives enough heat to destroy relevant pathogens but still requires refrigeration because it is not commercially sterile. UHT milk is typically heated to roughly 135–150 °C for a few seconds and packaged aseptically, allowing unopened packages to remain shelf-stable for months. Protein, fat, lactose, and major minerals remain broadly similar, while the stronger heat treatment causes more changes to selected whey proteins and heat-sensitive vitamins.",
+  "taxonomy": {
+    "food_family": "dairy",
+    "food_subcategories": [
+      "milk",
+      "uht-milk",
+      "pasteurized-milk"
+    ],
+    "article_types": [
+      "comparisons",
+      "processing-production",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p><strong>The biggest difference between UHT and pasteurized milk is the intensity of heat treatment and the microbiological stability achieved together with packaging.</strong> Pasteurization destroys relevant pathogens but does not make milk commercially sterile, so it needs refrigeration. UHT processing uses much higher heat for only a few seconds and combines it with aseptic packaging, allowing unopened milk to remain shelf-stable for months.</p><p>That does not make one “real milk” and the other nutritionally empty. Both still provide milk protein, lactose, calcium, phosphorus, and—depending on fat level—milk fat.</p><h2>Pasteurization uses a milder heat treatment</h2><p>A classic high-temperature short-time process heats milk to at least 161 °F (72 °C) for 15 seconds, followed by rapid cooling. Other validated time-temperature combinations can achieve equivalent pasteurization.</p><p>The purpose is pathogen control, not destruction of every heat-resistant microorganism or spore. Spoilage organisms can remain or enter later, which is why the cold chain remains essential.</p><p>Pasteurized milk is therefore sold refrigerated and generally has a shelf life measured in days or weeks depending on processing, packaging, hygiene, and local standards.</p><h2>UHT uses much higher heat for only seconds</h2><p>Codex and FAO describe UHT treatment as generally using about 135–150 °C with holding times sufficient to achieve commercial sterility, often only a few seconds.</p><p>Heat alone is not enough. The milk must be filled into sterile or aseptic packaging without recontamination. That combination is what produces a product that remains microbiologically stable at room temperature while unopened.</p><p>After opening, the system is no longer sterile. The milk must be refrigerated and handled like another perishable dairy food.</p><h2>Flavor is often the most obvious consumer difference</h2><p>UHT treatment causes more whey-protein denaturation and more heat-related chemical reactions than conventional pasteurization. Freshly processed UHT milk can have a more noticeable cooked or sulfur-like flavor.</p><p>During long room-temperature storage, UHT milk can also develop flavor changes, sediment, or age gelation as milk proteins and other components continue to interact.</p><p>Pasteurized milk generally retains a flavor closer to fresh milk, although brand, homogenization, feed, and personal preference all matter.</p><h2>Protein, fat, lactose, and minerals change little in amount</h2><p>Heating changes the structure of selected proteins—especially whey proteins—but does not erase the grams of protein from the carton. Casein is relatively heat-stable compared with whey proteins.</p><p>Minerals such as calcium are not destroyed by heat. Their distribution between soluble and colloidal phases can shift, but total mineral content remains largely intact.</p><p>Lactose also remains, so choosing UHT rather than pasteurized milk does not make regular milk suitable for lactose intolerance unless the product is specifically lactose-free.</p><h2>Some heat-sensitive vitamins can change more</h2><p>More intense heating creates greater potential loss of heat-sensitive vitamins. Reviews of milk processing report changes in selected B vitamins and other micronutrients, with magnitude depending on the exact thermal process and storage conditions.</p><p>For the nutrients that make milk a major dietary contributor—protein, calcium, phosphorus, and often fortified vitamins—the overall difference between ordinary pasteurized and UHT milk is usually much smaller than the difference in shelf life.</p><p>A 2024 review emphasizes that stronger processing increases structural and chemical changes but does not support describing UHT milk as nutritionally “destroyed.”</p><h2>Aseptic packaging is essential to the long shelf life</h2><p>UHT milk does not last for months merely because it was briefly heated to a high temperature. It also needs hygienic, aseptic filling and packaging that limits re-entry of microorganisms, oxygen, and light.</p><p>Once the seal is broken, microbes from air, hands, cups, or the refrigerator can enter. Follow the manufacturer's after-opening storage instructions.</p><p>Pasteurized milk needs refrigeration even while sealed because its process is not designed to make it room-temperature shelf stable.</p><h2>Which one should you buy?</h2><p>UHT makes sense when you want long unopened shelf life, pantry storage, emergency backup, or easier transport. Pasteurized milk may appeal more if you prefer a fresher sensory profile and consume milk quickly.</p><p><strong>The practical rule:</strong> process, flavor, and storage are the big differences; nutrition differences are much smaller. Both can fit the same diet, and both become refrigerated perishable foods after the package is opened.</p>",
+  "faq": [
+    {
+      "question": "Is UHT milk less nutritious than pasteurized milk?",
+      "answer": "It can have more heat-related changes in selected vitamins and whey proteins, but protein, fat, lactose, and major mineral amounts remain broadly similar."
+    },
+    {
+      "question": "Why is UHT milk shelf-stable unopened?",
+      "answer": "UHT treatment achieves commercial sterility and is paired with aseptic packaging that prevents recontamination while sealed."
+    },
+    {
+      "question": "Does UHT milk need refrigeration after opening?",
+      "answer": "Yes. Once opened, it loses the protection of the aseptic package and must be refrigerated according to label directions."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FAO — Packaging, storage and distribution of processed milk",
+      "url": "https://www.fao.org/4/X6511e/X6511E01.htm",
+      "note": "Describe UHT a 135–150 °C durante unos segundos, el papel del envasado aséptico y la larga vida útil cerrada."
+    },
+    {
+      "name": "FDA — Grade A Pasteurized Milk Ordinance",
+      "url": "https://www.fda.gov/media/140394/download",
+      "note": "Recoge el tratamiento HTST clásico de 72 °C durante 15 segundos para pasteurización."
+    },
+    {
+      "name": "PubMed — The Impact of Thermal Treatment Intensity on Milk",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39201356/",
+      "note": "Revisión de 2024 sobre cómo la intensidad térmica afecta proteínas, grasas, micronutrientes, sabor y marcadores de calentamiento."
+    },
+    {
+      "name": "PubMed — Heat Treatment of Milk: Rapid Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33996872/",
+      "note": "Revisión de estudios humanos sobre pasteurización/UHT y cinética posprandial de proteínas y lípidos."
+    }
+  ],
+  "image": {
+    "concept": "Editorial comparison photograph of refrigerated pasteurized milk beside shelf-stable UHT cartons, with simple temperature and storage cues, no brands.",
+    "alt": "Pasteurized refrigerated milk compared with shelf-stable UHT milk"
+  },
+  "status": "publish"
+}
