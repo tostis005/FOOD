@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1270-how-much-fat-per-day-why-you-need-it",
+  "article_number": 1270,
+  "translation_group": "1270-daily-fat-needs-why-not-eliminate",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; generally healthy adults using U.S./Canadian Dietary Reference Intakes for fat.",
+  "title": "How Much Fat Do You Need per Day, and Why Shouldn't You Eliminate It?",
+  "slug": "how-much-fat-per-day-why-you-need-it",
+  "seo": {
+    "title": "How Much Fat Do You Need per Day?",
+    "meta_description": "The adult AMDR for total fat is 20–35% of calories. At 2,000 calories that is about 44–78 g/day. Fat supplies essential fatty acids and helps absorb vitamins A, D, E, and K.",
+    "search_intent": "Understand how many grams of fat an adult may need, how to convert the 20–35% AMDR into grams, and why dietary fat is necessary even while saturated fat is limited."
+  },
+  "excerpt": "For U.S. and Canadian adults, the Acceptable Macronutrient Distribution Range for total fat is 20–35% of calories. At 2,000 calories, that is about 44–78 g per day because fat provides roughly 9 calories per gram. Fat is not optional: it supplies essential fatty acids, supports cell structure, and helps the body absorb vitamins A, D, E, and K.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "dietary-fat",
+      "daily-intake",
+      "essential-fatty-acids"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Dietary fat is not something the body can simply do without: the adult Acceptable Macronutrient Distribution Range is 20–35% of total calories.</strong> Because fat supplies about 9 calories per gram, the gram amount depends on how much energy a person needs.</p><p>At 2,000 calories, 20% equals 400 calories from fat, or about 44 g; 35% equals 700 calories, or roughly 78 g. At 2,500 calories, the same percentage range becomes about 56–97 g.</p><h2>Fat performs jobs carbohydrate cannot fully replace</h2><p>Fat is an energy-dense nutrient and a structural component of cell membranes. It also supplies essential fatty acids the body cannot synthesize in adequate amounts, including linoleic acid and alpha-linolenic acid.</p><p>Vitamins A, D, E, and K are fat-soluble. Dietary fat in a meal supports their absorption in the intestine. Extremely low-fat diets can therefore make it harder to obtain and absorb some nutrients adequately.</p><p>That is why “less fat” is not automatically a healthier diet. Amount and source both matter.</p><h2>Daily grams change with total calories</h2><p>To convert the AMDR to grams, multiply daily calories by 0.20 and 0.35 and divide each number by nine. The result is a range rather than a precise prescription.</p><p>A highly active person eating 3,000 calories can consume substantially more grams of fat than a smaller inactive person while staying at the same percentage of energy. Comparing gram totals without calorie context can therefore be misleading.</p><p>It is also normal for the percentage to vary from day to day. The overall pattern matters more than hitting the same number at every meal.</p><h2>Type of fat matters as much as total fat</h2><p>Olive oil, nuts, seeds, avocado, and fish provide mostly unsaturated fats and, in selected foods, essential omega-3 and omega-6 fatty acids. Butter, fatty meats, some cheeses, coconut oil, and many baked goods can provide more saturated fat.</p><p>Current U.S. nutrition guidance emphasizes replacing sources of saturated fat with unsaturated fats rather than simply removing all fat. The FDA Daily Value for saturated fat is 20 g on a 2,000-calorie label and is framed as an amount to stay below.</p><p>Seventy grams of fat mostly from olive oil, nuts, seeds, and fish therefore describes a different food pattern from 70 g mostly from butter, processed meats, and pastries.</p><h2>Essential fatty acids are one reason zero-fat eating makes no sense</h2><p>The Dietary Reference Intakes establish Adequate Intakes for linoleic acid and alpha-linolenic acid because they are essential. Requirements vary by age and sex; adult reference values are commonly around 12–17 g/day for linoleic acid and 1.1–1.6 g/day for alpha-linolenic acid.</p><p>Foods such as vegetable oils, nuts, seeds, and selected fish make these targets easier to meet. A diet that systematically avoids all higher-fat foods can make essential-fat intake unnecessarily difficult.</p><h2>Very low-fat diets can crowd out useful foods</h2><p>Reducing calorie-dense fats can lower total energy intake when that is the goal, but indiscriminate fat avoidance can remove nuts, seeds, olive oil, avocado, and fish along with less-desirable sources.</p><p>Fat also affects flavor, texture, and fullness. An extremely restrictive diet may be less satisfying and harder to maintain over time.</p><p>Selected medical conditions may call for a lower-fat diet, but that is not a reason for every healthy adult to minimize fat as much as possible.</p><h2>Choose a range and focus on food sources</h2><p>For a generally healthy adult, the 20–35% AMDR leaves substantial flexibility. You do not need every meal to match the range exactly. Looking at the whole day and emphasizing unsaturated sources is more useful.</p><p>If you eat around 2,000 calories, 44–78 g provides a useful illustration. If your energy needs are higher or lower, the gram range moves with them.</p><p><strong>The practical rule:</strong> do not aim for zero fat. Use the 20–35% range as a framework and prioritize unsaturated sources such as oils, nuts, seeds, avocado, and fish while keeping saturated fat comparatively limited.</p>",
+  "faq": [
+    {
+      "question": "How much fat should an adult eat per day?",
+      "answer": "The adult AMDR is 20–35% of calories. At 2,000 calories, that is roughly 44–78 g per day."
+    },
+    {
+      "question": "Why shouldn't you eliminate fat?",
+      "answer": "Fat supplies essential fatty acids, supports cell structures, and helps absorb the fat-soluble vitamins A, D, E, and K."
+    },
+    {
+      "question": "Which fats should you prioritize?",
+      "answer": "Generally, unsaturated fats from oils, nuts, seeds, avocado, and fish, while keeping saturated fat comparatively lower."
+    }
+  ],
+  "sources": [
+    {
+      "name": "National Academies — Dietary Reference Intakes for Macronutrients",
+      "url": "https://nap.nationalacademies.org/read/10490",
+      "note": "Sets the adult fat AMDR of 20–35% of energy and Adequate Intakes for essential fatty acids."
+    },
+    {
+      "name": "FDA — How to Understand and Use the Nutrition Facts Label",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+      "note": "Current label guidance listing saturated fat as a nutrient to limit and the 20 g Daily Value on a 2,000-calorie diet."
+    },
+    {
+      "name": "ODPHP — Current Dietary Guidelines 2025–2030",
+      "url": "https://odphp.health.gov/our-work/nutrition-physical-activity/dietary-guidelines/current-dietary-guidelines",
+      "note": "Current U.S. dietary guidance emphasizing nutrient-dense foods and healthy fats."
+    }
+  ],
+  "image": {
+    "concept": "Editorial nutrition photograph of olive oil, walnuts, seeds, avocado and oily fish arranged beside a meal, with subtle calorie-percentage cues, no readable text.",
+    "alt": "Unsaturated fat sources including olive oil, nuts, seeds, avocado and fish"
+  },
+  "status": "publish"
+}
