@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1269-how-many-carbs-per-day-what-it-depends-on",
+  "article_number": 1269,
+  "translation_group": "1269-daily-carbohydrate-needs",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; generally healthy adults using U.S./Canadian Dietary Reference Intakes for carbohydrate.",
+  "title": "How Many Carbohydrates Do You Need per Day, and What Does It Depend On?",
+  "slug": "how-many-carbs-per-day-what-it-depends-on",
+  "seo": {
+    "title": "How Many Carbs Do You Need per Day?",
+    "meta_description": "The adult carbohydrate RDA is 130 g/day, but the AMDR is 45–65% of calories. At 2,000 calories that is about 225–325 g. Energy needs, training load, and food quality determine the practical amount.",
+    "search_intent": "Understand the adult carbohydrate RDA and AMDR, how to convert percentage of calories into grams, and how energy needs, training, and food quality change the practical amount."
+  },
+  "excerpt": "For U.S. and Canadian adults, the carbohydrate RDA is 130 g/day, while the Acceptable Macronutrient Distribution Range is 45–65% of total calories. At 2,000 calories, that range equals about 225–325 g. The 130-g RDA is not a universal optimal target; it was set largely around glucose needs and is different from the broader intake range used to build complete diets.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "carbohydrates",
+      "daily-intake",
+      "sports-nutrition"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>U.S. and Canadian reference values give two different carbohydrate numbers because they answer different questions.</strong> The adult RDA is 130 g/day, while the Acceptable Macronutrient Distribution Range (AMDR) is 45–65% of total energy.</p><p>At 2,000 calories, 45–65% equals roughly 225–325 g of carbohydrate because each gram supplies about 4 calories. The 130-g RDA should therefore not be interpreted as the ideal amount for every adult; it is a lower reference designed around physiological glucose requirements, while the AMDR helps build a complete dietary pattern.</p><h2>Why the RDA and AMDR are so different</h2><p>The carbohydrate RDA was set at 130 g/day for adults, a level intended to cover the brain's average minimum glucose requirement in almost all healthy people. The body can also make glucose, so the value is not evidence that exactly 130 g must come from food for survival.</p><p>The AMDR is broader because a healthy diet must allocate energy among carbohydrate, fat, and protein. Forty-five to sixty-five percent allows a wide range of eating patterns while leaving room for adequate protein, essential fats, and micronutrient-rich foods.</p><p>This is why a Nutrition Facts Daily Value or a single gram target should not be treated as a personalized prescription.</p><h2>Converting a percentage to grams is straightforward</h2><p>Multiply daily calories by the carbohydrate percentage, then divide by four. On 2,500 calories, 45% equals 1,125 calories from carbohydrate, or about 281 g. Sixty-five percent equals 1,625 calories, or about 406 g.</p><p>This also explains why “200 grams of carbs” can be a high intake for one person and a low intake for another. Total energy needs set the scale.</p><p>The FDA Daily Value for total carbohydrate is 275 g on the standard 2,000-calorie label. That is useful for interpreting packaged foods, not as proof that every adult needs 275 g.</p><h2>Training volume can raise practical carbohydrate needs</h2><p>Muscle stores carbohydrate as glycogen, a major fuel for moderate- to high-intensity exercise. Long endurance sessions, high-volume team sports, multiple workouts per day, or demanding competition schedules can make glycogen replacement a much bigger priority.</p><p>Sports-nutrition guidance often uses grams per kilogram of body weight and scales intake with training demand. An endurance athlete can therefore need substantially more carbohydrate than an inactive adult of the same size.</p><p>That is a performance-specific adjustment layered on top of general population reference values.</p><h2>The food source matters as much as the gram total</h2><p>Oats, beans, fruit, potatoes, rice, bread, milk, table sugar, soda, and candy all contain carbohydrate. Nutritionally, they are not interchangeable.</p><p>Whole grains, legumes, fruits, vegetables, and starchy vegetables can provide fiber, vitamins, minerals, and phytochemicals along with carbohydrate. Added sugars and refined foods can contribute carbohydrate with far less fiber and micronutrient density.</p><p>A diet does not become high quality merely because the carbohydrate percentage lands inside the AMDR.</p><h2>Low carbohydrate does not have one universal definition</h2><p>Low-carbohydrate diets range from modest reductions to ketogenic patterns. Some people use them by preference or for selected clinical purposes, but they are not required for general health or fat loss.</p><p>The body can make glucose through gluconeogenesis, yet dietary carbohydrate remains an efficient fuel for high-intensity exercise and a major vehicle for fiber-rich foods. Very low intake can make performance or fiber goals harder to meet if the diet is not carefully designed.</p><h2>Choose the amount in the context of total energy</h2><p>For a healthy adult without a specialized performance or medical goal, the AMDR provides a useful framework. Then adjust based on total calories, food preferences, hunger, training, and the quality of carbohydrate sources.</p><p>People with diabetes or other metabolic conditions may need individualized carbohydrate distribution rather than a generic percentage.</p><p><strong>The practical rule:</strong> do not confuse the 130-g RDA with an ideal target for everyone. The broader 45–65% AMDR means about 225–325 g on 2,000 calories, and that gram range rises or falls with total energy needs.</p>",
+  "faq": [
+    {
+      "question": "How many carbs should an adult eat per day?",
+      "answer": "The adult RDA is 130 g/day, but the AMDR is 45–65% of calories. On a 2,000-calorie diet, that is roughly 225–325 g."
+    },
+    {
+      "question": "Is 130 grams of carbohydrate the ideal target?",
+      "answer": "No. It is the RDA, not a universal optimal intake. The broader AMDR is used to plan macronutrient distribution across the diet."
+    },
+    {
+      "question": "Do athletes need more carbs?",
+      "answer": "Often yes, especially with long or frequent high-intensity training because muscle glycogen is a major fuel source."
+    }
+  ],
+  "sources": [
+    {
+      "name": "National Academies — Dietary Reference Intakes for Macronutrients",
+      "url": "https://nap.nationalacademies.org/read/10490",
+      "note": "Foundational U.S./Canadian DRI report setting the adult carbohydrate RDA of 130 g/day and AMDR of 45–65% of energy."
+    },
+    {
+      "name": "FDA — Daily Value on the Nutrition and Supplement Facts Labels",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels",
+      "note": "Lists the current labeling Daily Value of 275 g total carbohydrate on a 2,000-calorie diet."
+    },
+    {
+      "name": "ODPHP — Current Dietary Guidelines 2025–2030",
+      "url": "https://odphp.health.gov/our-work/nutrition-physical-activity/dietary-guidelines/current-dietary-guidelines",
+      "note": "Current U.S. dietary-guidance context prioritizing nutrient-dense foods and whole grains."
+    }
+  ],
+  "image": {
+    "concept": "Editorial nutrition photograph of whole grains, potatoes, rice, beans, fruit and vegetables beside subtle calorie-to-gram calculation cues, no readable text.",
+    "alt": "Whole-food carbohydrate sources including grains, potatoes, beans and fruit"
+  },
+  "status": "publish"
+}
