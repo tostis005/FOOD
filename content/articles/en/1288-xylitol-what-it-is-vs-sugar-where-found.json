@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1288-xylitol-what-it-is-vs-sugar-where-found",
+  "article_number": 1288,
+  "translation_group": "1288-xylitol-vs-sugar-uses",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; xylitol as a sugar alcohol used in gum, candy, oral-care products, and sugar-free foods, with current EFSA re-evaluation context.",
+  "title": "Xylitol: What It Is, How It Differs From Sugar, and Where You Usually Find It",
+  "slug": "xylitol-what-it-is-vs-sugar-where-found",
+  "seo": {
+    "title": "Xylitol: Calories, Teeth, and How It Differs From Sugar",
+    "meta_description": "Xylitol is a sugar alcohol with sweetness similar to sugar but less usable energy. It produces a smaller glucose response and does not promote tooth decay like sucrose, so it is common in sugar-free gum. Large doses can cause GI symptoms, and xylitol is highly toxic to dogs.",
+    "search_intent": "Understand what xylitol is, how it compares with sugar in sweetness, calories, glucose response, and dental effects, where it is used, and what safety cautions matter."
+  },
+  "excerpt": "Xylitol is a sugar alcohol with sweetness close to sucrose. European labeling assigns polyols such as xylitol 2.4 kcal/g, versus about 4 kcal/g for sugar. It produces a smaller glucose response and oral bacteria do not use it the way they use sucrose, which is why it is common in sugar-free gum and oral-care products. High doses can cause GI symptoms, and xylitol is highly toxic to dogs.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "xylitol",
+      "polyols",
+      "oral-health"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "comparisons"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Xylitol is a sugar alcohol whose sweetness is close to that of sucrose but whose metabolism is different.</strong> It is especially common in sugar-free gum, mints, candy, tabletop sweeteners, and oral-care products.</p><p>Unlike stevia or saccharin, xylitol is not hundreds of times sweeter than sugar. It is used in gram quantities, contributes bulk, and creates a characteristic cooling sensation as it dissolves.</p><h2>Xylitol provides less energy than sucrose</h2><p>European nutrition labeling assigns 2.4 kcal/g to polyols other than erythritol. Sucrose provides about 4 kcal/g.</p><p>That is roughly a 40% reduction per gram in the European calculation. It can reduce a product's calories, but the finished food may still contain substantial fat, flour, nuts, or other energy sources.</p><p>Xylitol-sweetened does not mean calorie-free.</p><h2>Its blood-glucose response is generally smaller</h2><p>Xylitol is incompletely absorbed and does not produce the same rapid glucose rise as an equivalent amount of sucrose. This makes it useful when manufacturers want sweetness with a lower glycemic effect.</p><p>The entire food still matters. A xylitol cookie can contain starch, and a sugar-free chocolate can contain substantial fat and other carbohydrates.</p><p>An ingredient's glycemic behavior should not be treated as a complete diabetes recommendation for the finished product.</p><h2>Why is xylitol so common in gum and dental products?</h2><p>Cavity-associated oral bacteria do not ferment xylitol the same way they ferment sucrose and other cariogenic sugars. Sugar-free chewing gum also stimulates saliva, which helps neutralize acids and support enamel remineralization.</p><p>FDA notes broadly that sugar alcohols do not promote tooth decay like traditional sugars. This is one reason xylitol has become strongly associated with gum, mints, and oral-care products.</p><p>It does not replace fluoride toothpaste, brushing, flossing, or dental care.</p><h2>Large amounts can cause GI symptoms</h2><p>Unabsorbed xylitol reaches the colon, where some fermentation occurs. Polyols also exert an osmotic effect that can draw water into the bowel.</p><p>High intakes can therefore cause gas, bloating, rumbling, or diarrhea. Tolerance varies, and a large amount consumed quickly is more likely to cause problems.</p><p>European foods containing more than 10% added polyols must warn that excessive consumption may produce laxative effects.</p><h2>Xylitol is highly dangerous to dogs</h2><p>Dogs regulate xylitol very differently from humans. Even relatively small exposures can trigger a rapid insulin release and severe hypoglycemia; larger exposures can also cause serious liver injury.</p><p>Sugar-free gum, candy, peanut or nut spreads, baked products, and dental products containing xylitol should be stored where pets cannot reach them. Suspected dog ingestion is a veterinary emergency.</p><p>The canine toxicity mechanism should not be extrapolated to humans.</p><h2>What about the recent cardiovascular study?</h2><p>A 2024 study reported an association between higher circulating xylitol and cardiovascular events in high-risk cohorts and also found acute effects on platelet responsiveness in laboratory and small human experiments.</p><p>This is a research signal, not proof that ordinary dietary xylitol causes heart attacks or strokes. Circulating xylitol can also reflect endogenous metabolism and underlying health state, so blood concentration is not a simple measure of how much gum or sweetener someone consumed.</p><p>EFSA's re-evaluation of E 967 remains ongoing in 2026, so it is appropriate to describe the emerging evidence without inventing a final regulatory conclusion.</p><h2>Where xylitol usually appears</h2><p>Look for it in sugar-free chewing gum, mints, candy, throat lozenges, tabletop sweeteners, some nut spreads, and oral-care products. It can also be part of a mixed-polyol system in confectionery.</p><p><strong>The practical rule:</strong> xylitol can replace sugar with lower energy and lower cariogenic potential, but it is not unlimited. Large amounts can cause digestive symptoms, and every xylitol-containing product should be kept away from dogs.</p>",
+  "faq": [
+    {
+      "question": "How many calories does xylitol have?",
+      "answer": "European labeling uses 2.4 kcal/g for polyols such as xylitol, compared with about 4 kcal/g for sucrose."
+    },
+    {
+      "question": "Is xylitol good for teeth?",
+      "answer": "It is not fermented by cavity-causing bacteria like sugar and is useful in sugar-free gum, but it does not replace fluoride and oral hygiene."
+    },
+    {
+      "question": "Is xylitol toxic to dogs?",
+      "answer": "Yes. It can cause severe hypoglycemia and liver injury in dogs and requires urgent veterinary attention after ingestion."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EFSA — Sweeteners",
+      "url": "https://www.efsa.europa.eu/en/topics/topic/sweeteners",
+      "note": "Estado actualizado: la reevaluación de xilitol E967 sigue en curso."
+    },
+    {
+      "name": "FDA — Sugars That Are Metabolized Differently Than Traditional Sugars",
+      "url": "https://www.fda.gov/food/food-additives-petitions/sugars-are-metabolized-differently-traditional-sugars",
+      "note": "Explica que los alcoholes de azúcar como xilitol aportan menos energía, producen menos aumento brusco de glucosa y no favorecen caries como azúcares tradicionales."
+    },
+    {
+      "name": "European Commission — Non-nutritive sweeteners",
+      "url": "https://health.ec.europa.eu/document/download/1bae66e9-7d33-4bcf-a8c1-fddbd38001bd_en",
+      "note": "Resume el factor europeo de 2,4 kcal/g para polioles salvo eritritol."
+    },
+    {
+      "name": "PubMed — Xylitol is prothrombotic and associated with cardiovascular risk",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38842092/",
+      "note": "Estudio de 2024 que generó una señal cardiovascular observacional y mecanística que aún no demuestra causalidad por consumo habitual."
+    }
+  ],
+  "image": {
+    "concept": "Editorial photograph of xylitol crystals beside sugar, sugar-free chewing gum and oral-care products, with a clear visual cue to keep them away from a dog, no brands.",
+    "alt": "Xylitol beside sugar, sugar-free gum and dental-care products"
+  },
+  "status": "publish"
+}
