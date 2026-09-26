@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1277-what-are-e-numbers-food-labels",
+  "article_number": 1277,
+  "translation_group": "1277-e-numbers-food-labels",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "European Union/international; explanation of EU E-numbers for food additives, with context for readers outside Europe.",
+  "title": "What Are E-Numbers, and What Do They Really Mean on a Food Label?",
+  "slug": "what-are-e-numbers-food-labels",
+  "seo": {
+    "title": "E-Numbers: What They Mean on Food Labels",
+    "meta_description": "An E-number identifies a food additive authorized for specified uses in the EU. It is not a danger score and does not mean the ingredient is synthetic; permitted uses and levels are regulated.",
+    "search_intent": "Understand what an E-number means on European food labels, how additives are authorized, and why the code does not indicate that an ingredient is inherently artificial or dangerous."
+  },
+  "excerpt": "An E-number is a European identifier for an authorized food additive. The “E” is not a danger rating and does not mean synthetic: ascorbic acid, pectin, and guar gum all have E-numbers. Authorization applies to specified food uses and conditions, so the same additive cannot simply be used without limits in every product.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "food-additives",
+      "e-numbers",
+      "food-labels"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>An E-number is a code identifying a food additive authorized for specified uses in the European Union.</strong> It is not a toxicity score, a measure of processing, or proof that the substance was made synthetically.</p><p>The system makes complicated chemical names easier to recognize across languages. On an EU ingredient list, an additive is generally identified by its functional class followed by its specific name or E-number—for example, “thickener: guar gum” or “thickener: E 412.”</p><h2>The E identifies the additive within the European system</h2><p>To be legally used as a food additive, a substance must appear on the EU Union list and satisfy the conditions established for the relevant food categories. The European Commission maintains a searchable database of authorized additives and permitted uses.</p><p>Authorization is not permission to use unlimited amounts everywhere. Some additives have numerical maximum levels. Others are permitted at <em>quantum satis</em>, meaning only as much as necessary to achieve the technological purpose under good manufacturing practice.</p><p>The common code also helps consumers and regulators identify the same substance in different European languages.</p><h2>An E-number does not mean an ingredient is artificial</h2><p>Many E-numbered substances occur naturally or are obtained from natural raw materials. Ascorbic acid—vitamin C—is E 300. Pectins from fruit are E 440. Guar gum from a legume seed is E 412.</p><p>Other additives are manufactured through industrial synthesis or fermentation. The E-number alone does not distinguish the production route.</p><p>Likewise, “natural” does not automatically mean safe and “synthetic” does not automatically mean harmful. Risk assessment focuses on identity, toxicology, exposure, and conditions of use.</p><h2>Additives have specific technological jobs</h2><p>Preservatives slow microbial spoilage. Antioxidants limit oxidation. Colors alter appearance. Emulsifiers help oil and water phases stay mixed. Stabilizers limit separation, thickeners increase viscosity, and sweeteners provide sweetness.</p><p>European labels identify the functional class because knowing why an additive is present can be as useful as knowing its chemical identity.</p><p>An E-number is therefore not evidence that an ingredient has no purpose. It may improve food safety, consistency, texture, shelf life, or manufacturing reliability.</p><h2>How an additive becomes authorized</h2><p>EFSA evaluates scientific evidence and estimated dietary exposure. Depending on the substance, it may establish an Acceptable Daily Intake or conclude that a numerical ADI is unnecessary when the toxicological and exposure data support that approach.</p><p>The European Commission and member states then manage legal authorization and conditions of use. Current Commission guidance summarizes key principles: the proposed use must not pose a health risk at authorized levels, there must be a technological need, and the additive must not mislead consumers.</p><p>Additives approved before 2009 have also been undergoing systematic re-evaluation, so authorization is not a one-time judgment that can never change.</p><h2>Authorized does not mean unlimited</h2><p>Safety conclusions apply to specified uses and exposure levels. Dose matters, just as it does for many naturally occurring substances in foods.</p><p>Where an ADI is established, it is usually expressed per kilogram of body weight and contains safety margins relative to doses that did not produce adverse effects in suitable studies.</p><p>Authorities estimate both average and high-consumer exposure when assessing whether proposed food uses could approach those levels.</p><h2>Why someone might still prefer fewer additives</h2><p>A preference for shorter ingredient lists, a particular style of eating, or a specific texture is completely separate from toxicological risk assessment. Some individuals may also need to avoid specific ingredients because of allergy or intolerance.</p><p>But counting E-numbers is not a reliable measure of nutritional quality. A sugary drink may have only a few ingredients, while a nutrient-dense food can use an authorized antioxidant, pectin, or stabilizer.</p><h2>You do not need to memorize hundreds of codes</h2><p>Start with the functional class—preservative, stabilizer, thickener, color, or another function. If a particular additive matters to you, search its name or number in the European Commission database to see where and how it is authorized.</p><p><strong>The practical rule:</strong> an E-number is a regulatory identifier, not a warning symbol. It tells you which additive is present; evaluating the food still requires looking at the main ingredients, nutrition, amount consumed, and overall dietary pattern.</p>",
+  "faq": [
+    {
+      "question": "What does the E in an E-number mean?",
+      "answer": "It identifies the additive within the European authorization and labeling system."
+    },
+    {
+      "question": "Are all E-numbers artificial chemicals?",
+      "answer": "No. E-numbers also cover naturally occurring or plant-derived substances such as vitamin C, pectin, and guar gum."
+    },
+    {
+      "question": "Does an E-number mean an additive is safe?",
+      "answer": "Its authorized uses have been assessed under specified conditions and levels. Authorization does not mean unlimited use in every food."
+    }
+  ],
+  "sources": [
+    {
+      "name": "European Commission — Additives",
+      "url": "https://food.ec.europa.eu/food-safety/campaign-2026/additives_en",
+      "note": "Explica qué son los aditivos, cómo se evalúan y que deben declararse mediante clase funcional y nombre o número E."
+    },
+    {
+      "name": "European Commission — Food additives",
+      "url": "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives_en",
+      "note": "Confirma que solo los aditivos autorizados figuran en la lista de la Unión y resume el sistema de evaluación y reevaluación."
+    },
+    {
+      "name": "European Commission — Food additives database",
+      "url": "https://food.ec.europa.eu/food-safety/food-improvement-agents/additives/database_en",
+      "note": "Base oficial de aditivos aprobados y condiciones de uso en la UE."
+    }
+  ],
+  "image": {
+    "concept": "Editorial close-up of a generic European ingredient list with functional classes and E-number codes beside familiar natural ingredients such as citrus fruit and pectin-rich fruit, no brands.",
+    "alt": "European ingredient label with E-numbers beside familiar natural foods"
+  },
+  "status": "publish"
+}
