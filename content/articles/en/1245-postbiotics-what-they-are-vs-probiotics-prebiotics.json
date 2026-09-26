@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1245-postbiotics-what-they-are-vs-probiotics-prebiotics",
+  "article_number": 1245,
+  "translation_group": "1245-postbiotics-vs-probiotics-prebiotics",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; scientific definition of postbiotics under the ISAPP consensus and differences from probiotics and prebiotics.",
+  "title": "Postbiotics: What They Are and How They Differ From Probiotics and Prebiotics",
+  "slug": "postbiotics-what-they-are-vs-probiotics-prebiotics",
+  "seo": {
+    "title": "Postbiotics: What They Are vs. Probiotics and Prebiotics",
+    "meta_description": "Postbiotics are not simply 'good metabolites.' ISAPP defines them as preparations of inanimate microorganisms and/or their components that confer a demonstrated health benefit.",
+    "search_intent": "Understand the scientific definition of a postbiotic and how it differs from a live probiotic and a prebiotic substrate used by host microorganisms."
+  },
+  "excerpt": "Under the ISAPP consensus definition, a postbiotic is a preparation of inanimate microorganisms and/or their components that confers a health benefit. Unlike a probiotic, it does not need living microorganisms; unlike a prebiotic, it is not a substrate that host microbes must selectively use. An isolated microbial metabolite by itself does not necessarily qualify.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "postbiotics",
+      "probiotics",
+      "prebiotics"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "processing-production"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>A postbiotic is not simply “what comes after a probiotic,” and it is not any beneficial-looking compound made by bacteria.</strong> The International Scientific Association for Probiotics and Prebiotics (ISAPP) defines a postbiotic as a preparation of inanimate microorganisms and/or their components that confers a health benefit on the host.</p><p>The word <em>preparation</em> matters. Under this definition, the material must contain inactivated microbial cells, cell components, or both, and a health benefit must be demonstrated. Heating a bacterium until it is no longer alive does not automatically create a useful postbiotic.</p><h2>Probiotic, prebiotic, and postbiotic describe different things</h2><p>A <strong>probiotic</strong> is a live microorganism that, when administered in an adequate amount, confers a health benefit. Viability is part of the definition; once the organism is no longer alive, it is not a probiotic in the strict scientific sense.</p><p>A <strong>prebiotic</strong> is a substrate selectively utilized by host microorganisms that confers a health benefit. Many fermentable fibers affect gut microbes, but not every fiber automatically qualifies as a prebiotic. Selective utilization and a beneficial outcome need evidence.</p><p>A <strong>postbiotic</strong> starts with microorganisms that are no longer alive. The preparation may contain intact inactivated cells, cell-wall fragments, other cellular structures, and metabolites that remain with the preparation.</p><h2>An isolated metabolite is not automatically a postbiotic</h2><p>This is a common source of marketing confusion. Microorganisms produce organic acids, peptides, vitamins, and many other compounds during growth and fermentation. The ISAPP definition, however, does not classify every purified microbial molecule as a postbiotic.</p><p>Inanimate microorganisms or their components need to be present in the preparation. Metabolites can be included, but metabolites alone do not replace that requirement.</p><p>Butyrate is a good example. It is an important metabolite made by selected gut microbes, but a bottle of purified butyrate does not become a postbiotic simply because microbes can produce the same molecule.</p><h2>Why use inactivated microorganisms at all?</h2><p>One practical attraction is stability. A live probiotic has to remain viable through manufacturing and storage and, depending on the intended action, withstand challenging conditions on the way to its target site. An inactivated preparation can be more compatible with heat processing, long shelf life, low-water-activity foods, or supply chains in which maintaining viable organisms is difficult.</p><p>That does not make postbiotics a superior version of probiotics. If a probiotic's effect depends on active metabolism or sustained interaction while alive, inactivation could remove the very feature that matters. In other cases, cell structures or compounds retained after inactivation may still have biological activity.</p><p>The only reliable answer comes from studying the specific preparation: the original organism, inactivation method, dose, formulation, and target population.</p><h2>Evidence cannot simply be transferred between products</h2><p>The ISAPP definition requires a demonstrated health benefit. A strain's reputation is not enough, and evidence for the living version of a microorganism cannot automatically be assigned to a heat-killed preparation of that strain.</p><p>Processing can also change the material. Heat, pressure, or other inactivation technologies may preserve or alter surface proteins, membranes, and metabolites. Two preparations made from the same starting organism can therefore be functionally different.</p><p>A recent review of postbiotics in functional foods highlights their potential stability advantages while also emphasizing unresolved issues in standardization, production, regulation, and comparability among studies.</p><h2>Fermented does not automatically mean postbiotic</h2><p>Yogurt, kefir, sauerkraut, and miso may contain mixtures of live microorganisms, dead cells, cellular material, and fermentation metabolites. That does not make the whole food a scientifically demonstrated postbiotic.</p><p>Likewise, pasteurizing a fermented food may inactivate many microbes, but it does not automatically create a postbiotic. “Contains inactivated microbes” describes what is present; “postbiotic” adds a demonstrated health-benefit requirement.</p><h2>The terminology is still evolving</h2><p>The 2021 ISAPP definition is widely cited and was followed by a detailed FAQ paper addressing its scope and implementation. Even so, recent reviews note that alternative definitions and looser commercial uses of the term still coexist.</p><p><strong>The practical rule:</strong> probiotic means a live microorganism with a demonstrated benefit; prebiotic means a substrate selectively used by microorganisms with a demonstrated benefit; postbiotic means a preparation of inanimate microorganisms and/or their components with a demonstrated benefit. None of the three terms should be treated as a generic synonym for “good for your gut.”</p>",
+  "faq": [
+    {
+      "question": "Are postbiotics just dead bacteria?",
+      "answer": "They can contain inactivated microorganisms, but dead bacteria alone are not enough. The preparation must be characterized and shown to confer a health benefit."
+    },
+    {
+      "question": "Are short-chain fatty acids postbiotics?",
+      "answer": "Not automatically. Under the ISAPP definition, a purified metabolite alone does not meet the requirement for inanimate microorganisms or their components to be present."
+    },
+    {
+      "question": "Is a pasteurized fermented food a postbiotic?",
+      "answer": "Not automatically. It may contain inactivated cells and metabolites, but the postbiotic label requires a defined preparation and evidence of a health benefit."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — ISAPP consensus statement on the definition and scope of postbiotics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33948025/",
+      "note": "Consenso que define postbiótico como una preparación de microorganismos inanimados y/o sus componentes que confiere un beneficio al huésped."
+    },
+    {
+      "name": "PubMed — Frequently asked questions about the ISAPP postbiotic definition",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38268705/",
+      "note": "Documento de aclaración sobre alcance, composición, eficacia, seguridad y aplicación de la definición ISAPP."
+    },
+    {
+      "name": "PubMed — The Concept of Postbiotics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35454664/",
+      "note": "Revisión del concepto y de por qué la definición exige microorganismos inactivados o sus componentes, con o sin metabolitos."
+    },
+    {
+      "name": "PubMed — Postbiotics in Functional Foods: Production, Delivery, Preservation, and Regulation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42511181/",
+      "note": "Revisión reciente sobre estabilidad, técnicas de inactivación y retos regulatorios de postbióticos en alimentos."
+    }
+  ],
+  "image": {
+    "concept": "Clean scientific editorial illustration comparing three concepts: live microorganisms for probiotics, dietary substrate feeding resident microbes for prebiotics, and inactivated microbial cells/components for postbiotics, no readable text.",
+    "alt": "Visual comparison of probiotics, prebiotics and postbiotics"
+  },
+  "status": "publish"
+}
