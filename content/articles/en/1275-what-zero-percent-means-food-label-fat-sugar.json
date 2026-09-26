@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1275-what-zero-percent-means-food-label-fat-sugar",
+  "article_number": 1275,
+  "translation_group": "1275-zero-percent-food-label-claims",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; interpretation of zero, free, and no-added claims under FDA nutrient-content rules.",
+  "title": "What Does “0%” Mean on a Food Label? Fat, Sugar, and Other Zero Claims",
+  "slug": "what-zero-percent-means-food-label-fat-sugar",
+  "seo": {
+    "title": "What Does 0% Mean on a Food Label?",
+    "meta_description": "A zero claim does not always mean a laboratory value of exactly zero. In the U.S., fat-free and sugar-free generally allow less than 0.5 g per reference amount and serving. No added sugar is a separate claim.",
+    "search_intent": "Understand what zero-style front-of-pack claims mean in the U.S. and distinguish fat-free, sugar-free, no-added-sugar, calorie-free, and other claims."
+  },
+  "excerpt": "A large “0” on the front of a package only tells you something if you know what it refers to. Under U.S. rules, “fat free” generally means less than 0.5 g fat per reference amount and serving, while “sugar free” means less than 0.5 g sugars. “No added sugar” is a different claim about formulation and does not guarantee zero Total Sugars.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "food-labels",
+      "nutrition-claims",
+      "zero-percent"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>A big “0” on the front of a package is not a universal nutrition statement.</strong> It may refer to fat, sugar, added sugar, calories, alcohol, or another feature. The exact wording determines what the claim means.</p><p>Under U.S. nutrient-content rules, several “free” or “zero” claims allow tiny residual amounts rather than requiring an analytical value of exactly 0.000 g.</p><h2>Fat-free generally means less than 0.5 gram</h2><p>FDA rules allow “fat free” when a food contains less than 0.5 g total fat per reference amount customarily consumed and per labeled serving, with additional ingredient conditions.</p><p>This is why a package can legally display zero grams of fat or a fat-free claim even when highly sensitive laboratory testing could detect a trace amount.</p><p>U.S. rules also allow percentage-fat-free statements under specific conditions, so the American framework differs from European rules on this wording.</p><h2>Sugar-free also uses a trace threshold</h2><p>Terms such as “sugar free,” “no sugar,” and “zero sugar” generally require less than 0.5 g sugars per reference amount and labeled serving, along with other labeling conditions.</p><p>FDA also requires calorie-related disclosures in some situations because consumers may interpret sugar-free as meaning low calorie.</p><p>A sugar-free candy can therefore still provide calories from fat, starch, sugar alcohols, or other ingredients.</p><h2>No added sugar is not the same as sugar-free</h2><p>“No added sugar,” “without added sugar,” and similar terms describe what was added during processing. A food can naturally contain substantial sugar and still qualify if no sugars or ingredients functioning as added sugars were added under the rule.</p><p>Plain milk, fruit products, and other foods with naturally occurring sugars demonstrate why Total Sugars and Added Sugars are separate lines on the Nutrition Facts panel.</p><p>If a no-added-sugar food is not low or reduced in calories, U.S. rules can require an accompanying statement making that clear.</p><h2>Zero fat does not mean zero calories</h2><p>Fat is only one source of energy. Carbohydrate and protein also contribute calories. A fat-free dessert may still contain sugar or starch, while a sugar-free product may contain substantial fat.</p><p>The front claim can be completely accurate and still tell you very little about the rest of the food.</p><p>Check Calories, Added Sugars, Saturated Fat, Sodium, and protein in the context of the serving you actually eat.</p><h2>Not every zero claim uses the same rule</h2><p>“Calorie free,” “sodium free,” “sugar free,” and “fat free” each have their own FDA definitions and thresholds. Claims involving alcohol, lactose, preservatives, or allergens can fall under different regulations or factual-labeling rules.</p><p>Do not assume every “0%” or “zero” phrase means less than 0.5 g. The nutrient and exact wording matter.</p><h2>Front-of-pack claims are intentionally narrow</h2><p>A zero-sugar soda can contain sweeteners and caffeine. A fat-free yogurt can contain naturally occurring or added sugars. A sugar-free chocolate can contain fat and sugar alcohols.</p><p>These examples do not mean the claims are false. They show that nutrient-content claims answer one narrow question at a time.</p><h2>How to read a zero claim quickly</h2><p>First identify what the zero refers to. Then find that nutrient on the Nutrition Facts panel. Next check whether the wording is “free,” “zero,” or “no added,” because those claims can describe different things.</p><p>Finally, look at the nutrients that remain. The best comparison is usually between similar products using the same serving size.</p><p><strong>The practical rule:</strong> treat “0%” or “zero” as a prompt to read one specific line, not as a health score. Ask “zero what?” before deciding what the product actually offers.</p>",
+  "faq": [
+    {
+      "question": "Does fat-free mean exactly zero fat?",
+      "answer": "Not necessarily. FDA generally allows a fat-free claim when the food has less than 0.5 g fat per reference amount and labeled serving."
+    },
+    {
+      "question": "Is zero sugar the same as no added sugar?",
+      "answer": "No. Zero/sugar-free is based on the amount of sugars present, while no-added-sugar describes what was added during processing."
+    },
+    {
+      "question": "Does a zero-fat food have zero calories?",
+      "answer": "No. Carbohydrate and protein also provide calories, so a fat-free food can still be energy-dense."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — NLEA Requirements Attachment 1",
+      "url": "https://www.fda.gov/nutrition-labeling-and-education-act-nlea-requirements-attachment-1",
+      "note": "Summarizes U.S. thresholds for fat-free, saturated-fat-free, and related nutrient-content claims."
+    },
+    {
+      "name": "FDA — Dear Manufacturer Letter Regarding Sugar Free Claims",
+      "url": "https://www.fda.gov/regulatory-information/search-fda-guidance-documents/guidance-industry-and-fda-dear-manufacturer-letter-regarding-sugar-free-claims",
+      "note": "Explains the less-than-0.5-g threshold and conditions for sugar-free claims."
+    },
+    {
+      "name": "FDA — Industry Resources on Changes to the Nutrition Facts Label",
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/industry-resources-changes-nutrition-facts-label",
+      "note": "Clarifies zero-sugar amount statements, sugar claims, and Nutrition Facts labeling."
+    }
+  ],
+  "image": {
+    "concept": "Editorial grocery photograph of several unbranded products with generic zero-style labels beside Nutrition Facts panels showing different nutrients, no readable brand names.",
+    "alt": "Foods with zero claims compared using Nutrition Facts labels"
+  },
+  "status": "publish"
+}
