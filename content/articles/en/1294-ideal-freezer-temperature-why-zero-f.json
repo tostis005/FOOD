@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1294-ideal-freezer-temperature-why-zero-f",
+  "article_number": 1294,
+  "translation_group": "1294-ideal-freezer-temperature-minus-18",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; household freezers and long-term frozen-food storage.",
+  "title": "Ideal Freezer Temperature: Why 0°F (−18°C) Is Recommended",
+  "slug": "ideal-freezer-temperature-why-zero-f",
+  "seo": {
+    "title": "Ideal Freezer Temperature: Why 0°F (−18°C)?",
+    "meta_description": "Keep a household freezer at 0°F (−18°C) or below. At that temperature food stays solidly frozen, microbial growth stops, and quality-damaging chemical and physical reactions slow dramatically.",
+    "search_intent": "Understand what temperature a home freezer should maintain, why 0°F/−18°C is the standard, what happens when the freezer is warmer, and how to verify the actual temperature."
+  },
+  "excerpt": "0 °F (−18 °C) or below is the standard household target for long-term frozen-food storage. At that temperature, food remains solidly frozen, microorganisms cannot grow, and chemical and physical reactions that damage flavor, color, and texture slow dramatically. Freezing does not necessarily kill bacteria; surviving organisms can become active again after thawing.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "freezing",
+      "freezer-temperature",
+      "food-safety"
+    ],
+    "article_types": [
+      "food-safety",
+      "storage-shelf-life"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>A household freezer intended for long-term food storage should stay at 0 °F (−18 °C) or below.</strong> That is the standard used by U.S. food-safety guidance and is also central to international frozen-food practice.</p><p>Zero Fahrenheit is not a magical point where all food deterioration ends. It is a practical balance: food stays solidly frozen, microbial growth stops, and quality-damaging physical and chemical reactions become very slow.</p><h2>Freezing stops microbial growth but does not sterilize food</h2><p>When water becomes ice, microorganisms lose access to the liquid water they need for active growth. At 0 °F, foodborne bacteria do not meaningfully multiply.</p><p>Many bacteria survive the frozen state, however. Once the food thaws, they can become active again under suitable conditions.</p><p>Freezing therefore cannot rescue food that was handled unsafely before it entered the freezer.</p><h2>Why 0°F became the household reference</h2><p>At −18 °C, a large share of the freezable water in many foods is already ice and molecular mobility is low. Colder commercial storage can preserve quality even better, but it costs more energy.</p><p>USDA recommends 0 °F or below for best long-term frozen-food quality. European quick-frozen-food systems likewise use −18 °C as a core storage temperature.</p><p>Warmer freezers—especially those regularly drifting toward 10–15 °F—allow quality changes such as ice recrystallization to happen faster.</p><h2>Quality still changes at 0°F</h2><p>Fat oxidation, pigment changes, moisture migration, enzyme activity, and flavor loss can continue slowly. This is why freezer-storage tables list months for best quality rather than a moment when frozen food suddenly becomes unsafe.</p><p>FoodSafety.gov notes that food continuously held at 0 °F or below can remain safe indefinitely from a microbial-growth standpoint, although eating quality declines.</p><p>A dry steak or icy frozen dessert can therefore be safe but disappointing.</p><h2>Temperature swings are especially damaging</h2><p>Every long door opening brings warm air inside. If surface ice partially melts and refreezes repeatedly, small crystals can migrate and grow into larger ones.</p><p>This is especially noticeable in ice cream, fruit, vegetables, and emulsified foods. A freezer can remain “frozen” while still causing rapid quality loss if the temperature cycles widely.</p><p>Keep the door closed as much as practical and make sure the gasket seals well.</p><h2>The control setting may not show the real temperature</h2><p>A numbered freezer dial often represents cooling intensity rather than degrees. Use a freezer thermometer if you want to know whether the food is actually at 0 °F.</p><p>USDA recommends placing the thermometer between frozen packages and allowing several hours for a stable reading.</p><p>Adding a large quantity of unfrozen food can temporarily warm the compartment. A fast-freeze setting can help if the appliance has one.</p><h2>Fast freezing generally protects texture better</h2><p>Rapid freezing creates many small ice crystals. Slow freezing allows larger crystals to form, which can damage cells, protein gels, and emulsions.</p><p>Freeze food in manageable portions and initially spread new packages so cold air can reach them. After they are solid, packages can be stacked more closely.</p><p>This improves both freezing speed and final quality.</p><h2>Power outages require a different safety check</h2><p>A full closed freezer holds its temperature much longer than a half-empty one. USDA guidance allows food to be safely refrozen if it still contains ice crystals or is at 40 °F (4 °C) or below, although quality may suffer.</p><p>If perishable food has fully thawed and spent too long above refrigeration temperature, freezing it again does not reverse bacterial growth that already occurred.</p><p><strong>The practical rule:</strong> keep the freezer at 0 °F or below and verify it with a thermometer. That temperature is excellent for safety and long-term quality, but it does not permanently stop every chemical or physical change in food.</p>",
+  "faq": [
+    {
+      "question": "What temperature should a freezer be?",
+      "answer": "0 °F (−18 °C) or below for long-term frozen-food storage."
+    },
+    {
+      "question": "Does freezing at 0°F kill bacteria?",
+      "answer": "Not necessarily. It stops bacterial growth, but many microorganisms survive and can become active after thawing."
+    },
+    {
+      "question": "Does frozen food become unsafe after a certain number of months?",
+      "answer": "Food continuously held at 0°F remains microbiologically safe for very long periods; recommended freezer times mainly describe best quality."
+    }
+  ],
+  "sources": [
+    {
+      "name": "AESAN — Higiene de los alimentos",
+      "url": "https://aesan.gob.es/seguridad-alimentaria/higiene-alimentos",
+      "note": "Indica −18 °C o menos para alimentos congelados o ultracongelados en su tabla de temperaturas."
+    },
+    {
+      "name": "USDA FSIS — Freezing and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
+      "note": "Explica seguridad a 0 °F/−18 °C, supervivencia microbiana y ventajas de congelación rápida."
+    },
+    {
+      "name": "FoodSafety.gov — Cold Food Storage Chart",
+      "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "note": "Señala que los tiempos de congelación a −18 °C son principalmente de calidad y que la congelación continua mantiene seguridad."
+    }
+  ],
+  "image": {
+    "concept": "Editorial photograph of a freezer thermometer reading 0 °F between neatly frozen packages, with small ice-crystal and closed-door cues, no brands.",
+    "alt": "Freezer thermometer showing 0°F among frozen food packages"
+  },
+  "status": "publish"
+}
