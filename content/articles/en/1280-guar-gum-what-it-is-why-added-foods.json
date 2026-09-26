@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1280-guar-gum-what-it-is-why-added-foods",
+  "article_number": 1280,
+  "translation_group": "1280-guar-gum-food-use",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "European Union/international; guar gum E 412 as an authorized plant-derived hydrocolloid.",
+  "title": "Guar Gum: What It Is and Why It Is Added to So Many Foods",
+  "slug": "guar-gum-what-it-is-why-added-foods",
+  "seo": {
+    "title": "Guar Gum: What It Is and Why Foods Use It",
+    "meta_description": "Guar gum E412 is a galactomannan from the endosperm of guar seeds. It thickens strongly at low concentrations, hydrates in cold water, and is used to stabilize sauces, ice cream, gluten-free foods, and beverages.",
+    "search_intent": "Understand what guar gum is, where it comes from, why it thickens food so effectively, where it is used, and what EFSA has concluded about safety and digestive tolerance."
+  },
+  "excerpt": "Guar gum (E 412) is a plant polysaccharide—a galactomannan—obtained from the endosperm of guar seeds. Its ability to hydrate rapidly and create high viscosity at low concentrations explains its use in sauces, ice cream, gluten-free baking, drinks, and processed foods. EFSA concluded that a numerical ADI was not needed for the general population at assessed uses, although high intakes can cause gastrointestinal symptoms.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "guar-gum",
+      "food-additives",
+      "hydrocolloids"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "processing-production"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p><strong>Guar gum is a plant polysaccharide obtained from the endosperm of seeds of <em>Cyamopsis tetragonoloba</em>.</strong> In the European Union it is food additive E 412 and belongs to the hydrocolloid family—ingredients that interact strongly with water and change food texture.</p><p>Its major technological advantage is the ability to produce substantial viscosity at low concentrations. It also hydrates well in cold water, making it useful in beverages, sauces, instant mixes, and products that do not undergo intense heating.</p><h2>Its molecular structure explains the strong thickening effect</h2><p>Guar gum is a galactomannan built from a mannose backbone with galactose side branches. The molecule contains many sites capable of hydrogen bonding with water.</p><p>When properly dispersed, the polymer hydrates, expands, and makes the liquid resist flow. A sauce becomes thicker, a beverage gains body, and dough or batter can hold more water.</p><p>The amount needed is often small relative to structural ingredients such as flour or starch. Guar can therefore appear low on an ingredient list while still having a large effect on texture.</p><h2>Why it shows up in ice cream, sauces, and gluten-free foods</h2><p>In ice cream, guar helps manage water mobility, limit ice-crystal growth, and preserve a smoother texture during storage.</p><p>In sauces, soups, and dressings it increases viscosity and reduces phase separation. In gluten-free baking it can improve moisture retention and cohesion when the gluten network is absent.</p><p>It also appears in fillings, beverages, processed meats, desserts, and instant foods. The same water-binding property solves different formulation problems in each product.</p><h2>Guar is not the same as locust bean gum or xanthan</h2><p>Guar and locust bean gum are both galactomannans, but their mannose-to-galactose structure differs. Guar has more galactose branching and hydrates more readily in cold water.</p><p>Xanthan gum is produced by bacterial fermentation and has a different molecular structure. It maintains useful viscosity across broad pH and temperature conditions and has distinctive shear-thinning behavior.</p><p>Food formulators often blend gums because combinations can produce textures and stability that are difficult to achieve with one hydrocolloid alone.</p><h2>What happens to guar gum during digestion?</h2><p>EFSA describes guar gum as being practically undigested and not absorbed intact in the small intestine. A substantial fraction reaches the colon, where gut bacteria ferment it.</p><p>This also explains why guar behaves as a soluble dietary fiber. At gram-level doses, guar and partially hydrolyzed guar gum have been studied as functional fibers.</p><p>That fiber-supplement context should not be confused with the much smaller amount needed to thicken a food.</p><h2>Can guar gum cause gas or bloating?</h2><p>Yes, particularly when intake is high or increased quickly. Because it is fermentable, larger doses can cause gas, bloating, stool changes, or discomfort in sensitive people.</p><p>EFSA's 2017 re-evaluation found oral guar gum generally well tolerated in adults and concluded that a numerical Acceptable Daily Intake was not necessary for the general population at the assessed food-additive uses.</p><p>Uses in foods for infants and young children with special medical needs have been evaluated separately. In 2024, EFSA concluded that submitted data were insufficient to support selected infant-category uses. That finding should not be generalized without context to ordinary adult food exposure.</p><h2>Plant-derived does not mean unregulated</h2><p>Its seed origin does not exempt guar gum from additive rules. Food-grade E 412 must comply with purity specifications and can only be used where authorized.</p><p>Food-grade guar gum, partially hydrolyzed guar sold as fiber, and chemically modified guar products used in other industries are not interchangeable merely because they share a plant source.</p><h2>How to read guar gum on an ingredient list</h2><p>If the label says “thickener: guar gum” or E 412, its purpose is usually physical—viscosity, water retention, or stability. Its presence alone does not establish whether the food is nutritious, unhealthy, or highly processed.</p><p><strong>The practical rule:</strong> guar gum is a plant-derived fiber with unusually strong water-thickening ability. Manufacturers use it because a small amount works well and can hydrate in cold systems. The tiny amount used as an additive should not be confused with gram-level fiber supplementation, which can produce much more noticeable digestive effects.</p>",
+  "faq": [
+    {
+      "question": "What is guar gum made from?",
+      "answer": "It comes from the endosperm of guar seeds from the legume Cyamopsis tetragonoloba."
+    },
+    {
+      "question": "Why does guar gum thicken food?",
+      "answer": "Its galactomannan hydrates strongly and interacts with water, creating high viscosity even at low concentrations."
+    },
+    {
+      "question": "Can guar gum cause gas?",
+      "answer": "High intakes can cause gas, bloating, or bowel changes because it is fermented in the colon; food-additive amounts are generally much smaller."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Re-evaluation of guar gum (E 412) as a food additive",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32625396/",
+      "note": "Opinión EFSA que concluye que no hace falta una ADI numérica para la población general en los usos evaluados y describe digestión y fermentación."
+    },
+    {
+      "name": "PubMed — Re-evaluation of guar gum (E 412) in foods for infants and follow-up",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38711804/",
+      "note": "Seguimiento de EFSA de 2024 para categorías infantiles y actualización de especificaciones."
+    },
+    {
+      "name": "PubMed — Application of guar gum in food technologies",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37701200/",
+      "note": "Revisión reciente de estructura, hidratación, propiedades de espesamiento y aplicaciones alimentarias."
+    },
+    {
+      "name": "PubMed — Guar gum: processing, properties and food applications",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24587515/",
+      "note": "Revisión clásica sobre origen en la semilla de guar, galactomanano y usos como espesante y estabilizante."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food-science photograph of guar beans and pale guar gum powder beside thick sauce, ice cream and gluten-free batter with a subtle water-thickening illustration, no readable labels.",
+    "alt": "Guar seeds and guar gum beside foods that use it as a thickener"
+  },
+  "status": "publish"
+}
