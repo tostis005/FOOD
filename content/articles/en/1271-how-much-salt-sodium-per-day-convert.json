@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "en-1271-how-much-salt-sodium-per-day-convert",
+  "article_number": 1271,
+  "translation_group": "1271-daily-salt-sodium-conversion",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; WHO sodium guidance and current U.S. FDA sodium Daily Value.",
+  "title": "How Much Salt or Sodium Should You Have per Day, and How Do You Convert Between Them?",
+  "slug": "how-much-salt-sodium-per-day-convert",
+  "seo": {
+    "title": "How Much Sodium per Day? Convert Sodium to Salt",
+    "meta_description": "WHO recommends under 2,000 mg sodium per day, equal to under 5 g salt. The U.S. FDA Daily Value is under 2,300 mg sodium. Convert sodium to salt by multiplying by 2.5.",
+    "search_intent": "Understand daily sodium and salt recommendations, how the WHO target differs from the U.S. Daily Value, and how to convert milligrams of sodium into grams of salt."
+  },
+  "excerpt": "WHO recommends less than 2,000 mg of sodium per day for adults, equivalent to less than 5 g of salt. The U.S. FDA Daily Value is less than 2,300 mg sodium, which is about 5.75 g salt equivalent. To convert sodium to salt, multiply grams of sodium by 2.5; 400 mg sodium is approximately 1 g salt.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "salt",
+      "sodium",
+      "food-labels"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Salt and sodium are related, but they are not the same number.</strong> WHO recommends that adults consume less than 2,000 mg of sodium per day, equivalent to less than 5 g of salt. In the United States, the FDA Daily Value used on Nutrition Facts labels is less than 2,300 mg sodium per day.</p><p>Table salt is sodium chloride, and sodium makes up about 40% of its weight. That is why the practical conversion is <strong>salt = sodium × 2.5</strong>. Two grams of sodium correspond to about 5 g of salt.</p><h2>How to convert sodium milligrams into salt grams</h2><p>If the label lists sodium in milligrams, first remember that 1,000 mg equals 1 g. Then multiply grams of sodium by 2.5.</p><p>For example, 200 mg sodium equals 0.2 g sodium, which corresponds to about 0.5 g salt. Eight hundred milligrams sodium equals 0.8 g sodium, or about 2 g salt. Two thousand milligrams sodium equals 2 g sodium, or 5 g salt.</p><p>A convenient shortcut is that roughly 400 mg of sodium equals 1 g of salt. To convert salt back to sodium, divide by 2.5.</p><h2>WHO and U.S. labeling use slightly different reference numbers</h2><p>WHO's global public-health recommendation is less than 2,000 mg sodium per day. FDA's current Daily Value for food labeling is less than 2,300 mg per day.</p><p>Using the conversion, 2,300 mg sodium equals about 5.75 g salt. The difference does not mean one system thinks sodium is harmless between 2,000 and 2,300 mg; they are different reference frameworks used for different policy and labeling purposes.</p><p>For an individual with high blood pressure, kidney disease, heart failure, or another medical condition, a clinician may recommend a more specific target.</p><h2>Most sodium is not necessarily coming from your salt shaker</h2><p>Breads, cheese, processed meats, soups, sauces, packaged meals, snack foods, and restaurant foods can contribute substantial sodium. A food does not have to taste extremely salty to add meaningfully to the daily total.</p><p>FDA notes that average U.S. sodium intake remains well above the 2,300 mg Daily Value. Comparing similar products by sodium per serving can therefore reduce intake without requiring a completely different diet.</p><p>Serving size matters: a food listing 600 mg sodium per serving contributes 1,200 mg if you eat two servings.</p><h2>Sodium is essential, but more is not better</h2><p>The body needs sodium for fluid balance, nerve signaling, and muscle function. The issue is not that sodium is a toxin; it is that typical intakes in many populations are far above physiological needs.</p><p>Higher sodium intake raises blood pressure in a dose-responsive way for many people, and population sodium reduction lowers cardiovascular risk. That is the basis for WHO and U.S. recommendations.</p><p>People losing very large amounts of sweat during hours of endurance exercise or heavy work in heat can have substantially different short-term sodium replacement needs. That situation should not be confused with ordinary daily eating.</p><h2>Salt substitutes can lower sodium, but they are not for everyone</h2><p>WHO's 2025 guideline suggests that adults who choose to use table salt may benefit from replacing regular salt with lower-sodium potassium-containing substitutes as part of a sodium-reduction strategy.</p><p>However, potassium-based salt substitutes can be inappropriate for people with impaired kidney function or other conditions and medications that raise blood potassium. They should not be treated as a universal swap.</p><h2>How to use a Nutrition Facts label</h2><p>U.S. labels list sodium directly in milligrams and as % Daily Value. FDA's general guide considers 5% DV or less per serving low and 20% DV or more high.</p><p>If you want the salt equivalent, multiply the sodium grams by 2.5. A meal with 1,000 mg sodium contains 1 g sodium, which equals about 2.5 g of salt equivalent.</p><p><strong>The practical rule:</strong> remember the difference between the global WHO target and the U.S. label reference: under 2,000 mg sodium per day versus a 2,300 mg FDA Daily Value. For conversion, 400 mg sodium is about 1 g salt, and grams of sodium multiplied by 2.5 gives grams of salt.</p>",
+  "faq": [
+    {
+      "question": "How much sodium should an adult have per day?",
+      "answer": "WHO recommends less than 2,000 mg/day. The U.S. FDA Daily Value used on Nutrition Facts labels is less than 2,300 mg/day."
+    },
+    {
+      "question": "How do you convert sodium to salt?",
+      "answer": "Multiply grams of sodium by 2.5. About 400 mg sodium equals 1 g salt."
+    },
+    {
+      "question": "How much salt is 2,300 mg sodium?",
+      "answer": "2,300 mg sodium is 2.3 g sodium; multiplied by 2.5, that equals about 5.75 g salt."
+    }
+  ],
+  "sources": [
+    {
+      "name": "WHO — Sodium reduction",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sodium-reduction",
+      "note": "2026 update recommending less than 2,000 mg sodium per day, equivalent to less than 5 g salt for adults."
+    },
+    {
+      "name": "FDA — Sodium in Your Diet",
+      "url": "https://www.fda.gov/food/nutrition-education-resources-materials/sodium-your-diet",
+      "note": "Current U.S. guidance using a Daily Value of less than 2,300 mg sodium and label-reading guidance."
+    },
+    {
+      "name": "FDA — Daily Value on Nutrition and Supplement Facts Labels",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/daily-value-nutrition-and-supplement-facts-labels",
+      "note": "Lists the current 2,300 mg sodium Daily Value."
+    },
+    {
+      "name": "WHO — Use of lower-sodium salt substitutes",
+      "url": "https://www.who.int/publications/i/item/9789240105591",
+      "note": "2025 guideline on potassium-containing lower-sodium salt substitutes and relevant cautions."
+    }
+  ],
+  "image": {
+    "concept": "Editorial nutrition photograph of a teaspoon of salt beside a U.S.-style Nutrition Facts sodium panel and a simple visual conversion cue, no readable brand names.",
+    "alt": "Table salt and a sodium nutrition label illustrating sodium-to-salt conversion"
+  },
+  "status": "publish"
+}
