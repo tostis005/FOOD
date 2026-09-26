@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1246-synbiotics-what-they-are-probiotics-prebiotics",
+  "article_number": 1246,
+  "translation_group": "1246-synbiotics-probiotics-prebiotics",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; ISAPP scientific definition of synbiotics and complementary versus synergistic formulations.",
+  "title": "Synbiotics: What They Are and Why They Combine Probiotics and Prebiotics",
+  "slug": "synbiotics-what-they-are-probiotics-prebiotics",
+  "seo": {
+    "title": "Synbiotics: How Probiotics and Prebiotics Work Together",
+    "meta_description": "A synbiotic combines live microorganisms with one or more substrates used by microorganisms and must confer a demonstrated health benefit. ISAPP distinguishes complementary and synergistic synbiotics.",
+    "search_intent": "Understand what a synbiotic is, why it combines live microorganisms with microbial substrates, and how complementary and synergistic synbiotics differ."
+  },
+  "excerpt": "A synbiotic is not simply any product that puts bacteria and fiber in the same capsule. ISAPP defines it as a mixture of live microorganisms and substrate(s) selectively utilized by microorganisms that, together, confers a health benefit. Synbiotics can be complementary—probiotic plus prebiotic acting independently—or synergistic, designed so the substrate supports the co-administered microorganism.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "synbiotics",
+      "probiotics",
+      "prebiotics"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "processing-production"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>A synbiotic combines live microorganisms with one or more substrates that microorganisms can use, but the combination has to do more than share a capsule.</strong> Under the ISAPP consensus definition, the mixture must confer a health benefit on the host.</p><p>That distinction prevents every yogurt with added fiber or supplement containing a bacterium plus inulin from automatically qualifying. The identity of the microorganisms, the substrate, the dose, and evidence for the actual formulation matter.</p><h2>The basic idea is to combine two microbiome-directed strategies</h2><p>Probiotics are live microorganisms shown to confer a health benefit when administered in adequate amounts. Prebiotics are substrates selectively utilized by host microorganisms that confer a health benefit.</p><p>A synbiotic brings live microorganisms and microbial substrates into one intervention. But the 2020 ISAPP consensus updated the simplistic idea that every synbiotic has to be nothing more than a probiotic plus a prebiotic that already work independently.</p><p>The panel therefore recognized two categories: complementary synbiotics and synergistic synbiotics.</p><h2>A complementary synbiotic combines an established probiotic and prebiotic</h2><p>In a complementary synbiotic, the microorganism meets probiotic criteria and the substrate meets prebiotic criteria. Each component can contribute to health through its own route; the substrate does not have to be designed specifically to feed the microorganism included in the product.</p><p>Conceptually, a well-characterized probiotic strain could be paired with a prebiotic that primarily changes the activity of resident gut microbes. The two components may provide complementary effects without depending on each other mechanistically.</p><p>The key point is that a familiar bacterial species plus a fashionable fiber is not enough. Probiotic and prebiotic definitions already require evidence of health benefit, and a complementary synbiotic must respect those criteria.</p><h2>A synergistic synbiotic is designed so the components work together</h2><p>In a synergistic synbiotic, the substrate is selected to be preferentially used by the co-administered microorganism. The intended logic is to enhance its survival, activity, or function at the target site.</p><p>Here, the individual components do not have to independently satisfy every criterion for a conventional probiotic and prebiotic. What needs to be demonstrated is that the combined system—live microorganism plus selectively utilized substrate—confers a health benefit.</p><p>That distinction avoids a circular problem. A substrate designed specifically for an administered strain might do little on its own to resident microbes and still be valuable when paired with that strain.</p><h2>Not every “pro + pre” product has synbiotic evidence</h2><p>Effects of live microorganisms can be strain-specific. NCCIH emphasizes that an effect shown for one probiotic cannot automatically be generalized to another strain or product. The same caution applies even more strongly to combinations.</p><p>Two supplements may list similar species on the front label but contain different strains, different viable counts, different substrates, different doses, and different storage requirements. The word “synbiotic” on a package does not prove that the mixture has been studied for the population or goal you care about.</p><p>A more informative evaluation looks for strain identification, viable quantity through shelf life when relevant, the identity and amount of the substrate, and trials using the actual formulation rather than one of its ingredients in isolation.</p><h2>Synbiotic does not mean automatically better for the microbiome</h2><p>Combining components does not guarantee a larger effect than using one component alone. The term describes the design and evidence framework, not a hierarchy in which synbiotics always beat probiotics or prebiotics.</p><p>Responses can also vary among people. Baseline diet, starting microbiota, medication use, and the clinical condition being targeted can influence outcomes. There is no universal synbiotic that every healthy person needs.</p><h2>Synbiotics are also different from postbiotics</h2><p>Synbiotics contain live microorganisms. Under the ISAPP definition, postbiotics contain inanimate microorganisms and/or their components and must confer a health benefit. Similar terminology should not obscure that basic difference.</p><p><strong>The practical rule:</strong> a synbiotic is a functional combination, not a marketing equation. A complementary synbiotic combines a probiotic and a prebiotic that meet their own criteria; a synergistic synbiotic is designed so the microorganism and substrate work together. In either case, the most meaningful evidence belongs to the formulation you are actually taking.</p>",
+  "faq": [
+    {
+      "question": "Is a synbiotic just a probiotic with fiber?",
+      "answer": "Not necessarily. It must combine live microorganisms with selectively utilized substrate(s) and the combination must confer a demonstrated health benefit."
+    },
+    {
+      "question": "What is the difference between complementary and synergistic synbiotics?",
+      "answer": "A complementary synbiotic combines an established probiotic and prebiotic. A synergistic one designs the substrate to be used by the co-administered microorganism and demonstrates benefit from the combined system."
+    },
+    {
+      "question": "Are synbiotics better than probiotics?",
+      "answer": "Not by definition. Effectiveness depends on the strains, substrates, doses, population, and outcome studied; adding components does not guarantee a larger benefit."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — ISAPP consensus statement on the definition and scope of synbiotics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32826966/",
+      "note": "Consenso que define simbiótico y distingue formulaciones complementarias y sinérgicas."
+    },
+    {
+      "name": "PubMed — ISAPP consensus statement on the scope and appropriate use of the term probiotic",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24912386/",
+      "note": "Reafirma la definición de probiótico como microorganismo vivo que, administrado en cantidad adecuada, confiere un beneficio."
+    },
+    {
+      "name": "PubMed — ISAPP consensus statement on the definition and scope of prebiotics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28611480/",
+      "note": "Define prebiótico como un sustrato utilizado selectivamente por microorganismos del huésped que confiere un beneficio."
+    },
+    {
+      "name": "NCCIH — Probiotics: Usefulness and Safety",
+      "url": "https://www.nccih.nih.gov/health/probiotics-usefulness-and-safety",
+      "note": "Revisión para consumidores sobre variabilidad entre productos probióticos y por qué los resultados no se extrapolan entre cepas o formulaciones."
+    }
+  ],
+  "image": {
+    "concept": "Scientific editorial illustration of a synbiotic: live beneficial microbes alongside distinct prebiotic substrates, with one scene showing complementary independent actions and another showing the substrate directly feeding the co-administered organism, no readable text.",
+    "alt": "Synbiotic shown as live microorganisms combined with selectively used substrates"
+  },
+  "status": "publish"
+}
