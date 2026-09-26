@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1274-how-much-saturated-fat-per-day-food-sources",
+  "article_number": 1274,
+  "translation_group": "1274-daily-saturated-fat-recommendation",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; generally healthy adults using WHO guidance and FDA's current saturated-fat Daily Value.",
+  "title": "How Much Saturated Fat Should You Have per Day, and Which Foods Contain It?",
+  "slug": "how-much-saturated-fat-per-day-food-sources",
+  "seo": {
+    "title": "How Much Saturated Fat per Day?",
+    "meta_description": "WHO recommends saturated fat at 10% of calories or less. At 2,000 calories that is about 22 g; the FDA Daily Value is 20 g. Replacing saturated fat with unsaturated fats matters.",
+    "search_intent": "Understand daily saturated-fat limits, how WHO's percentage converts to grams, how it compares with the FDA Daily Value, and which foods contribute saturated fat."
+  },
+  "excerpt": "WHO recommends reducing saturated fat to about 10% of total energy or less. At 2,000 calories, that equals roughly 22 g. The U.S. FDA Daily Value is 20 g on a 2,000-calorie diet. The goal is not simply to remove saturated fat, but to replace some of it with unsaturated fats or fiber-rich carbohydrate foods.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "saturated-fat",
+      "dietary-fat",
+      "cardiovascular-health"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>WHO recommends reducing saturated fat to about 10% of total calories or less.</strong> On a 2,000-calorie diet, 10% equals 200 calories, or roughly 22 g of saturated fat because fat supplies about 9 calories per gram.</p><p>U.S. Nutrition Facts labels use a slightly different practical reference: the FDA Daily Value for saturated fat is 20 g on a 2,000-calorie diet. Both numbers point in the same direction—saturated fat is a nutrient to limit, not a target to reach.</p><h2>How to convert 10% of calories into grams</h2><p>Multiply daily calories by 0.10 and divide by nine. At 1,800 calories, 10% is 180 calories or 20 g. At 2,500 calories, it is about 28 g.</p><p>The result changes with energy needs, which is why a fixed gram number is only a reference. FDA uses 20 g as a standardized label Daily Value so packaged foods can be compared consistently.</p><h2>Where saturated fat is commonly found</h2><p>Common sources include butter, cream, higher-fat cheeses, fatty meats, processed meats, lard, coconut oil, and palm oil. Saturated fat can also be substantial in chocolate, pastries, cookies, ice cream, and prepared foods.</p><p>Those foods are not nutritionally identical. Cheese can provide protein and calcium, while pastries may also provide refined flour and added sugars. Saturated fat is one property within the whole food.</p><h2>What replaces saturated fat matters</h2><p>WHO recommends replacing saturated fatty acids with polyunsaturated fat, plant-source monounsaturated fat, or carbohydrates from foods naturally rich in dietary fiber.</p><p>Replacing butter with olive oil, nuts, seeds, or fish changes the fatty-acid pattern. Replacing the same calories with highly refined sugary foods is not the same substitution and may not produce the same cardiovascular benefit.</p><h2>Total fat and saturated fat are different numbers</h2><p>A food can be high in total fat while most of that fat is unsaturated. Olive oil, avocado, and many nuts fit this pattern.</p><p>Another food can have less total fat but a greater proportion as saturated fat. That is why Nutrition Facts labels list Saturated Fat separately from Total Fat.</p><h2>What does the evidence say about cardiovascular risk?</h2><p>WHO's guideline draws on systematic reviews showing cardiovascular benefit when saturated fat intake is reduced, particularly when replacement energy comes from more favorable fat types or fiber-rich carbohydrate foods.</p><p>The evidence is not well summarized as “every food with saturated fat is bad.” Dose, food matrix, overall pattern, and replacement nutrient all matter.</p><h2>How to reduce saturated fat without tracking every gram</h2><p>Use liquid plant oils instead of butter more often, choose leaner meats, include fish and beans regularly, and make pastries and heavily processed snacks less frequent.</p><p>On labels, compare similar foods by serving and by %DV. FDA's general rule of thumb considers 20% DV or more high for a nutrient.</p><p><strong>The practical rule:</strong> treat about 10% of calories as a ceiling and use the 20-g FDA Daily Value as a quick U.S. label reference. The main improvement comes from replacing some saturated fat with unsaturated fats and fiber-rich foods, not from chasing zero.</p>",
+  "faq": [
+    {
+      "question": "How much saturated fat should you have per day?",
+      "answer": "WHO recommends about 10% of calories or less. At 2,000 calories that is roughly 22 g, while the FDA Daily Value is 20 g."
+    },
+    {
+      "question": "Which foods are high in saturated fat?",
+      "answer": "Butter, cream, fatty cheeses, fatty and processed meats, coconut oil, palm oil, chocolate, pastries, and some prepared foods can be major sources."
+    },
+    {
+      "question": "What should replace saturated fat?",
+      "answer": "WHO prioritizes polyunsaturated fats, plant-source monounsaturated fats, and carbohydrates from naturally fiber-rich foods."
+    }
+  ],
+  "sources": [
+    {
+      "name": "WHO — Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "note": "Current WHO guidance limiting saturated fat to 10% of total energy or less."
+    },
+    {
+      "name": "WHO — Saturated fatty acid and trans-fatty acid intake for adults and children",
+      "url": "https://www.who.int/publications/i/item/9789240073630",
+      "note": "Specific WHO guideline on saturated-fat reduction and recommended replacement nutrients."
+    },
+    {
+      "name": "FDA — How to Understand and Use the Nutrition Facts Label",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/how-understand-and-use-nutrition-facts-label",
+      "note": "Current U.S. label guidance using a 20 g Daily Value for saturated fat."
+    }
+  ],
+  "image": {
+    "concept": "Editorial nutrition photograph contrasting butter, cheese and fatty meat with olive oil, nuts, avocado and fish to illustrate saturated versus unsaturated fat sources, no readable text.",
+    "alt": "Saturated-fat foods compared with unsaturated-fat foods"
+  },
+  "status": "publish"
+}
