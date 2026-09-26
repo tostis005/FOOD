@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1236-how-much-protein-per-day-grams-per-kg-activity-goal",
+  "article_number": 1236,
+  "translation_group": "1236-daily-protein-grams-per-kg-activity-goal",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; healthy adults, with U.S. DRI values for the general population and sports-nutrition evidence for people who train.",
+  "title": "How Much Protein Do You Need per Day? Grams per Kilogram by Activity and Goal",
+  "slug": "how-much-protein-per-day-grams-per-kg-activity-goal",
+  "seo": {
+    "title": "How Much Protein Do You Need per Day by Weight and Activity?",
+    "meta_description": "The U.S. adult protein RDA is 0.8 g/kg/day, while people who train often use higher intakes. Learn how body weight, training, and goals change a useful daily target.",
+    "search_intent": "Calculate a useful daily protein intake from body weight, activity level, and goal while distinguishing the general adult RDA from common sports-nutrition ranges."
+  },
+  "excerpt": "For healthy U.S. adults, the current protein RDA is 0.8 g per kilogram of body weight per day. That is a population reference, not a ceiling. People who exercise regularly often use higher intakes; sports-nutrition guidance commonly places most exercising adults around 1.4–2.0 g/kg/day when the goal is to build or maintain muscle.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "protein",
+      "daily-intake",
+      "sports-nutrition"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Protein needs make more sense in grams per kilogram of body weight than as one fixed number for every adult.</strong> The current U.S. Recommended Dietary Allowance is 0.8 g/kg/day for healthy adults. At 154 lb, or about 70 kg, that works out to roughly 56 g of protein per day.</p><p>The RDA is designed as a population reference that covers the needs of nearly all healthy people in a life-stage group. It is not a maximum, and it is not automatically the best performance target for someone lifting weights, training for endurance events, or dieting while trying to preserve lean mass.</p><h2>Start with body weight rather than a universal gram target</h2><p>Expressing protein relative to body weight avoids a basic problem with fixed targets: a 110-lb adult and a 200-lb adult do not have the same amount of tissue to maintain. Multiplying body weight in kilograms by 0.8 gives the current U.S. RDA for a healthy adult.</p><table><thead><tr><th>Body weight</th><th>0.8 g/kg/day</th></tr></thead><tbody><tr><td>110 lb / 50 kg</td><td>40 g</td></tr><tr><td>132 lb / 60 kg</td><td>48 g</td></tr><tr><td>154 lb / 70 kg</td><td>56 g</td></tr><tr><td>176 lb / 80 kg</td><td>64 g</td></tr><tr><td>198 lb / 90 kg</td><td>72 g</td></tr></tbody></table><p>Those numbers answer a nutrient-adequacy question for the general healthy population. They do not tell an athlete how much protein will best support training, nor do they mean eating above the RDA is inherently excessive. The RDA and a performance-oriented target answer different questions.</p><h2>Regular training usually moves the useful range upward</h2><p>Resistance training repeatedly stimulates muscle remodeling, and endurance work also increases protein turnover and repair demands. That is why sports-nutrition organizations commonly recommend more protein for healthy people who train than the general adult RDA.</p><p>The International Society of Sports Nutrition position stand concludes that <strong>1.4–2.0 g/kg/day</strong> is sufficient for most exercising people who want to build or maintain muscle. For a 154-lb person, that is about 98–140 g per day.</p><p>That range should not be read as “everyone who exercises needs 2.0.” Training volume, sport, calorie intake, experience, and the size of the goal all matter. A recreationally active person eating enough calories may have little reason to chase the top end simply because it is available.</p><h2>Your goal changes the context, but more is not automatically better</h2><p>For muscle gain, adequate protein supplies amino acids, but resistance training is the signal that drives adaptation. Adding protein without progressive training does not reproduce what training does. Total calorie intake also matters because building new tissue is harder when energy intake is chronically too low.</p><p>During weight loss, protein becomes especially relevant because the goal is often to lose fat while keeping as much lean tissue as practical. Research in resistance-trained people under calorie restriction has examined intakes above the standard exercise range, but those specialized protocols should not be turned into blanket advice for anyone trying to lose weight.</p><p>Food pattern matters too. Meat, fish, eggs, dairy, legumes, soy foods, nuts, seeds, and mixed plant meals can all contribute to the daily total. Protein powder can make a target more convenient, but it is not required if ordinary food already gets you there.</p><h2>Some situations need more than a simple calculator</h2><p>The numbers above are for generally healthy adults. Pregnancy and lactation have their own reference values, children and teenagers have growth-related needs, and kidney disease, liver disease, metabolic conditions, recovery from illness, or other clinical situations can change the appropriate target.</p><p>Body weight itself can also need interpretation. In marked obesity, significant underweight, or major body-composition change, multiplying scale weight by a generic sports target may produce a number that is not useful. A clinician or sports dietitian may instead consider reference weight, lean mass, energy intake, and the reason for changing protein.</p><p><strong>A useful way to think about the numbers is this:</strong> 0.8 g/kg/day is the current U.S. adult RDA; regular training often justifies a higher range; and the best target is the one that fits your training, calorie intake, health, and overall diet. Protein is important, but the goal is not to win a contest for the highest gram total.</p>",
+  "faq": [
+    {
+      "question": "How much protein does a 154-lb person need per day?",
+      "answer": "At the U.S. adult RDA of 0.8 g/kg, a 154-lb (70-kg) healthy adult is at about 56 g/day. A person who trains regularly may use a higher sports-nutrition target."
+    },
+    {
+      "question": "Do you need 2 g of protein per kg to build muscle?",
+      "answer": "Not necessarily. Sports-nutrition guidance commonly places most exercising people in a 1.4–2.0 g/kg/day range, with the useful point depending on training, calories, and goals."
+    },
+    {
+      "question": "Is the protein RDA a maximum?",
+      "answer": "No. It is a recommended intake designed to cover the needs of nearly all healthy adults in the population, not a tolerable upper limit."
+    }
+  ],
+  "sources": [
+    {
+      "name": "NCBI Bookshelf — Evaluation of Dietary Protein and Amino Acid Requirements: A Systematic Review",
+      "url": "https://www.ncbi.nlm.nih.gov/books/NBK614631/",
+      "note": "Recent systematic-review background for the U.S.-Canada DRI process states that the current adult protein RDA remains 0.8 g/kg/day."
+    },
+    {
+      "name": "PubMed — International Society of Sports Nutrition Position Stand: protein and exercise",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/",
+      "note": "Position stand concluding that 1.4–2.0 g/kg/day is sufficient for most healthy exercising people seeking to build or maintain muscle."
+    },
+    {
+      "name": "ODPHP — Current Dietary Guidelines for Americans, 2025–2030",
+      "url": "https://odphp.health.gov/our-work/nutrition-physical-activity/dietary-guidelines/current-dietary-guidelines",
+      "note": "Current U.S. federal dietary-guidelines landing page, updated in 2026, providing the broader food-pattern context for protein-rich foods."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food photography of ordinary protein foods arranged beside a kitchen scale and subtle body-weight calculation cues, balanced mix of animal and plant foods, no readable text.",
+    "alt": "Protein-rich foods beside a scale for calculating daily protein by body weight"
+  },
+  "status": "publish"
+}
