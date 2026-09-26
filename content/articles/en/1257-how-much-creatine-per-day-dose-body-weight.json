@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1257-how-much-creatine-per-day-dose-body-weight",
+  "article_number": 1257,
+  "translation_group": "1257-daily-creatine-dose-body-weight",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; generally healthy adults using creatine monohydrate for training or sports nutrition.",
+  "title": "How Much Creatine Should You Take per Day? Typical Dose and Whether Body Weight Matters",
+  "slug": "how-much-creatine-per-day-dose-body-weight",
+  "seo": {
+    "title": "How Much Creatine per Day? 3–5 g and When Weight Matters",
+    "meta_description": "For most healthy adults, 3–5 g/day of creatine monohydrate is a well-studied maintenance dose. About 0.1 g/kg/day is another approach; body weight can refine dosing but does not require precision.",
+    "search_intent": "Understand how many grams of creatine monohydrate to take daily, whether a fixed or body-weight-based dose makes more sense, and how dosing changes with a loading phase."
+  },
+  "excerpt": "For most healthy adults, 3–5 g of creatine monohydrate per day is a well-studied maintenance approach. Reviews also describe roughly 0.1 g/kg body weight per day. Body weight can help at the extremes, but a 154-lb adult does not need to calculate every fraction of a gram for supplementation to work.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "creatine",
+      "sports-nutrition",
+      "supplements"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>For most healthy adults using creatine monohydrate, 3–5 grams per day is the simplest well-studied maintenance approach.</strong> Dosing can also be expressed relative to body weight, and recent reviews commonly cite about 0.1 g/kg/day as another practical reference.</p><p>That does not mean everyone needs a calculator. Creatine works by gradually increasing muscle creatine and phosphocreatine stores. The goal is to keep those stores elevated, not to hit a perfect decimal dose every morning.</p><h2>Why 3–5 grams per day works for so many people</h2><p>Muscle stores free creatine and phosphocreatine, which help regenerate ATP during brief, high-intensity work. Once supplementation has raised those stores, a relatively small daily amount can replace ongoing creatine breakdown and maintain the higher level.</p><p>A widely cited review on creatine questions and misconceptions lists recommended maintenance intakes of 3–5 g/day or about 0.1 g/kg body mass per day. Those are two ways of framing maintenance, not competing protocols.</p><p>At 132 lb (60 kg), 0.1 g/kg equals about 6 g; at 176 lb (80 kg), about 8 g. In practice, a large portion of exercise research has successfully used fixed 3–5 g doses, so an average-sized adult should not assume weight-based dosing is inherently superior.</p><h2>When body weight can be useful</h2><p>Relative dosing can make sense for very large athletes, people with unusually high lean mass, or research protocols that need to standardize exposure. Body weight is also commonly used during loading: roughly 0.3 g/kg/day for 5–7 days.</p><p>Turning maintenance dosing into a rigid equation can create false precision, however. A 172-lb person does not need to distinguish between 5.0 and 5.2 g for creatine to be effective. Daily adherence and enough time matter more than tiny differences.</p><p>People also differ in baseline muscle creatine, dietary intake of meat and fish, muscle mass, and response to supplementation. The dose is only one part of the variation.</p><h2>Loading changes the speed, not the final requirement</h2><p>A classic loading protocol uses about 20 g/day—often divided into four 5-g servings—or roughly 0.3 g/kg/day for 5–7 days, followed by 3–5 g/day. This raises muscle creatine quickly.</p><p>Loading is optional. Taking about 3 g/day for several weeks can eventually raise stores to a similar level; it simply takes longer. The choice is mainly whether rapid saturation matters to you.</p><p>If creatine is becoming a long-term part of training and there is no deadline, the difference between reaching saturation in roughly a week versus several weeks usually has little practical importance.</p><h2>More is not automatically better once stores are high</h2><p>Muscle has a finite capacity for creatine storage. Once stores are elevated, continually increasing the dose does not guarantee additional strength, muscle gain, or performance. Excess creatine is ultimately converted and excreted.</p><p>Taking 10, 15, or 20 g every day for months is unnecessary for most sports users. Large single doses can also increase the chance of gastrointestinal discomfort or diarrhea.</p><p>Higher doses used in clinical research answer different questions and should not automatically be treated as routine gym dosing.</p><h2>Does the time of day matter?</h2><p>Creatine is not like caffeine, where the acute timing of the dose can matter. Its main effect depends on elevated tissue stores maintained over days and weeks.</p><p>A recent review found no convincing evidence that taking creatine immediately before or after training is clearly superior when total daily intake is consistent. A time you remember every day is usually more useful than chasing a narrow “anabolic window.”</p><h2>When to ask a clinician first</h2><p>Creatine monohydrate is extensively studied in healthy adults and is generally well tolerated at recommended intakes. People with known kidney disease, relevant medical conditions, pregnancy, breastfeeding, or medications requiring renal monitoring should discuss supplementation with a qualified clinician.</p><p>Creatine can also raise blood creatinine because creatine naturally degrades to creatinine. That can complicate interpretation of a kidney-function panel without necessarily indicating kidney injury, so tell the clinician that you use creatine.</p><p><strong>The practical rule:</strong> for a generally healthy adult, 3–5 g/day of creatine monohydrate is a simple evidence-based starting point. Weight-based dosing can be useful in selected situations, but consistency matters far more than adjusting every fraction of a gram.</p>",
+  "faq": [
+    {
+      "question": "How much creatine should you take every day?",
+      "answer": "For most healthy adults, 3–5 g/day of creatine monohydrate is a common maintenance dose."
+    },
+    {
+      "question": "Should creatine dose depend on body weight?",
+      "answer": "It can be expressed as roughly 0.1 g/kg/day, but a fixed 3–5 g dose is practical and widely studied for most adults."
+    },
+    {
+      "question": "Do you need to take creatine every day?",
+      "answer": "Daily use is the usual approach because the goal is to maintain elevated muscle stores. Exact timing matters much less than consistency."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Common questions and misconceptions about creatine supplementation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33557850/",
+      "note": "Revisión que recoge dosis habituales de 3–5 g/día o aproximadamente 0,1 g/kg/día y revisa seguridad y mitos frecuentes."
+    },
+    {
+      "name": "PubMed — Creatine supplementation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/23851411/",
+      "note": "Revisión sobre dosis de carga de 0,3 g/kg/día durante 5–7 días y mantenimiento, destacando que la carga no es necesaria."
+    },
+    {
+      "name": "PubMed — Part II. Common questions and misconceptions about creatine supplementation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39720835/",
+      "note": "Actualización reciente sobre timing, combinaciones, respuestas individuales y otras preguntas prácticas de suplementación."
+    },
+    {
+      "name": "PubMed — International Society of Sports Nutrition position stand: safety and efficacy of creatine supplementation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28615996/",
+      "note": "Posicionamiento amplio sobre eficacia, dosificación y seguridad de creatina monohidrato."
+    }
+  ],
+  "image": {
+    "concept": "Editorial sports-nutrition photograph of unbranded creatine monohydrate powder measured on a small gram scale beside a glass of water and subtle body-weight cues, no readable labels.",
+    "alt": "Creatine monohydrate measured in grams beside a glass of water"
+  },
+  "status": "publish"
+}
