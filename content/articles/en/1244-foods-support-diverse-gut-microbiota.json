@@ -1,0 +1,77 @@
+{
+  "schema_version": 1,
+  "id": "en-1244-foods-support-diverse-gut-microbiota",
+  "article_number": 1244,
+  "translation_group": "1244-foods-support-diverse-gut-microbiota",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; healthy adults, using observational evidence and dietary intervention trials on plant variety, fiber, and fermented foods.",
+  "title": "Which Foods Support a Diverse Gut Microbiota?",
+  "slug": "foods-support-diverse-gut-microbiota",
+  "seo": {
+    "title": "Foods for a Diverse Gut Microbiota: What the Evidence Shows",
+    "meta_description": "No single food guarantees a diverse gut microbiota. Evidence points toward plant variety, adequate fiber, and in some trials fermented foods, with effects depending on the whole diet.",
+    "search_intent": "Identify food groups associated with or shown to support aspects of gut-microbiota diversity and function without turning the evidence into a superfood list."
+  },
+  "excerpt": "The strongest evidence points to dietary patterns rather than one 'microbiome food.' A large observational project linked eating more than 30 different plant foods per week with greater microbial diversity than eating 10 or fewer. In a small trial, increasing fermented foods also raised diversity, while a high-fiber diet changed microbial function without necessarily increasing that metric.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "gut-microbiota",
+      "plant-diversity",
+      "fermented-foods"
+    ],
+    "article_types": [
+      "health-daily-consumption",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "health-daily-consumption"
+  },
+  "content_html": "<p><strong>If the goal is to support a diverse gut microbiota, the evidence points more toward variety across the diet than toward one star ingredient.</strong> Legumes, whole grains, fruits, vegetables, nuts, seeds, and some fermented foods can influence the gut ecosystem through different mechanisms. None guarantees a perfect microbiome on its own.</p><p>Diversity also is not automatically synonymous with health. It is a useful ecological measure in many studies, but there is no universal number of species everyone should reach. The meaningful picture combines microbial function, composition, digestive tolerance, and the quality of the overall diet.</p><h2>Plant variety is one of the clearest recurring signals</h2><p>The American Gut citizen-science project, which analyzed thousands of participants, found that the number of different plant foods people reported eating was associated with microbiome composition. Participants eating more than 30 types of plants per week had greater microbial diversity than those eating 10 or fewer.</p><p>That was observational, so it cannot prove that crossing a 30-plant threshold caused the difference. People who eat a very broad range of plants may also differ in exercise, medication use, processed-food intake, and other behaviors. Still, the finding is biologically plausible because different plants bring different fibers, resistant starches, and polyphenols.</p><p>Thirty can be a fun prompt for dietary variety. It is not a clinical requirement or a magic microbiome cutoff.</p><h2>Legumes and whole grains bring more than a fiber number</h2><p>Beans, lentils, chickpeas, oats, barley, rye, and other whole grains contain different mixtures of fibers and starches. Some components are fermented rapidly; others travel farther through the colon or hold water. That range of substrates creates opportunities for different microbial groups to participate in digestion.</p><p>In a small randomized crossover trial, replacing white bread with a high-fiber bread for two weeks roughly doubled fiber intake to about 40 g/day and increased fecal alpha diversity, along with shifts in bacteria associated with short-chain-fatty-acid production. The study was small, but it illustrates how an ordinary substitution can change the microbial environment.</p><h2>Fruits, vegetables, nuts, and seeds widen the chemical menu</h2><p>An apple, a serving of lentils, and walnuts do not supply the same fibers or polyphenols. Rotating colors, plant families, and plant parts—fruit, leaf, root, seed, and grain—broadens the mix of compounds reaching the gut.</p><p>Nothing about this requires exotic foods. Onions, garlic, leeks, oats, beans, bananas, apples, berries, leafy vegetables, cooled potatoes, nuts, and seeds all contribute fermentable fibers, resistant starch, or polyphenols in different proportions. The effect depends on portion size and on what else is eaten.</p><h2>Fermented foods have interesting trial evidence, but they are not one category nutritionally</h2><p>In a 17-week study of healthy adults, gradually increasing fermented foods produced a steady increase in microbial diversity and reductions in several inflammatory markers. The high-fiber arm, by contrast, did not increase overall diversity even though microbial carbohydrate-processing capacity changed.</p><p>That contrast is useful: fiber can change what microbes do without increasing a headline diversity score. It also matters that “fermented food” is broad. Yogurt with live cultures, kefir, kimchi, and refrigerated sauerkraut may contain living microbes; foods pasteurized after fermentation may not.</p><p>And fermented does not automatically mean probiotic. Scientifically, a probiotic is a defined live microorganism demonstrated to confer a health benefit in an adequate amount.</p><h2>What you replace matters as much as what you add</h2><p>Adding a spoonful of seeds to an otherwise repetitive diet is a modest change. Replacing some refined grains with whole grains, eating legumes regularly, and making fruits and vegetables routine at several meals changes a much larger set of substrates.</p><p>For the same reason, a supplement marketed to increase microbiome diversity is not a substitute for a varied diet. Isolated fibers can have useful functions, but they provide a narrower chemical repertoire than a rotating mix of whole plant foods.</p><h2>Do not chase diversity at the expense of tolerance</h2><p>A sudden jump in beans, cruciferous vegetables, bran, inulin, and fermented foods can cause gas and bloating. A more diverse microbiota is not useful if the diet leaves you persistently uncomfortable. People with IBS or other gastrointestinal conditions may need to adjust the type and amount of fermentable carbohydrate.</p><p><strong>The practical rule:</strong> think weekly variety rather than one daily superfood. Rotate legumes, whole grains, fruits, vegetables, nuts, and seeds, and include fermented foods if they are tolerated and fit your diet. The goal is not a perfect microbiome score; it is a sustainable diet that gives the gut ecosystem a varied set of inputs.</p>",
+  "faq": [
+    {
+      "question": "Do you need to eat 30 different plants per week?",
+      "answer": "No. The number comes from an observational association in the American Gut project. It can be a practical variety challenge, but it is not a clinical requirement."
+    },
+    {
+      "question": "Do fermented foods increase gut diversity?",
+      "answer": "A small trial in healthy adults found increased diversity with a fermented-food diet, but that does not prove every fermented food has the same effect."
+    },
+    {
+      "question": "Does more fiber always increase microbiome diversity?",
+      "answer": "No. Fiber can change microbial metabolic function even when overall diversity does not clearly increase."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — American Gut: an Open Platform for Citizen Science Microbiome Research",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29795809/",
+      "note": "Gran estudio observacional que relacionó una mayor variedad semanal de alimentos vegetales con mayor diversidad del microbioma intestinal."
+    },
+    {
+      "name": "PubMed — Gut-microbiota-targeted diets modulate human immune status",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/34256014/",
+      "note": "Ensayo de 17 semanas que comparó dietas altas en fibra y en alimentos fermentados y encontró respuestas microbianas diferentes."
+    },
+    {
+      "name": "PubMed — Swapping White for High-Fibre Bread Increases Microbiome Diversity",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38613022/",
+      "note": "Ensayo cruzado pequeño en adultos que observó mayor diversidad fecal al sustituir pan blanco por pan rico en fibra."
+    },
+    {
+      "name": "PubMed — Diet and the Human Gut Microbiome: An International Review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32060812/",
+      "note": "Revisión internacional sobre cómo fibra, patrones dietéticos y cambios alimentarios interactúan con la microbiota intestinal."
+    },
+    {
+      "name": "PubMed — What defines a healthy gut microbiome?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39322314/",
+      "note": "Revisión que advierte contra reducir salud intestinal a una única composición o métrica de diversidad."
+    }
+  ],
+  "image": {
+    "concept": "Editorial overhead photograph of a weekly variety of ordinary plant foods—beans, whole grains, berries, apples, greens, carrots, nuts and seeds—plus yogurt and sauerkraut, no supplement products, no readable text.",
+    "alt": "A wide variety of plant and fermented foods associated with gut microbiota diversity"
+  },
+  "status": "publish"
+}
