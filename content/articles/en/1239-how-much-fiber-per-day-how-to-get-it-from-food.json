@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1239-how-much-fiber-per-day-how-to-get-it-from-food",
+  "article_number": 1239,
+  "translation_group": "1239-daily-fiber-how-much-foods",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; healthy adults, using current National Academies fiber AIs and practical food-based guidance.",
+  "title": "How Much Fiber Do You Need per Day, and How Can You Get It From Food?",
+  "slug": "how-much-fiber-per-day-how-to-get-it-from-food",
+  "seo": {
+    "title": "How Much Fiber Do You Need per Day? Food-Based Targets",
+    "meta_description": "U.S. fiber AIs are based on 14 g per 1,000 kcal, including 25 g/day for women and 38 g/day for men ages 19–50. Learn how legumes, fruit, vegetables and whole grains add up.",
+    "search_intent": "Understand daily fiber targets for adults and how to reach them with ordinary foods without increasing intake too quickly."
+  },
+  "excerpt": "U.S. fiber Adequate Intakes are based on 14 g per 1,000 calories. For adults ages 19–50, that translates to 25 g/day for women and 38 g/day for men. Those numbers are reference values, not a challenge to hit with supplements; legumes, whole grains, fruit, vegetables, nuts, and seeds can build the total across the day.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "dietary-fiber",
+      "daily-intake",
+      "whole-foods"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>For U.S. adults, the fiber Adequate Intake is built around roughly 14 grams per 1,000 calories.</strong> In the National Academies tables, that works out to 25 g/day for women ages 19–50 and 38 g/day for men in the same age range. Needs drop somewhat at older ages as reference energy intake falls.</p><p>Those numbers are useful planning targets, not a reason to chase the largest fiber number you can find on a package. A food pattern built around beans, whole grains, fruit, vegetables, nuts, and seeds can reach them without turning every meal into a fiber supplement.</p><h2>The target is tied to energy intake, not a universal number</h2><p>The U.S. Adequate Intake for total fiber was set at 14 g per 1,000 kcal, based on intake levels associated with lower coronary heart disease risk. That is why the reference values differ by age and sex rather than giving every adult the same gram amount.</p><table><thead><tr><th>Adult group</th><th>Total fiber AI</th></tr></thead><tbody><tr><td>Women 19–50</td><td>25 g/day</td></tr><tr><td>Women 51+</td><td>21 g/day</td></tr><tr><td>Men 19–50</td><td>38 g/day</td></tr><tr><td>Men 51+</td><td>30 g/day</td></tr></tbody></table><p>The table is a reference framework rather than a diagnostic test. Eating 24 g instead of 25 g does not suddenly make a diet deficient, and a physically large or highly active person may naturally eat more food and more fiber.</p><h2>What does 25–38 grams look like in actual food?</h2><p>A single cup of cooked beans or lentils can contribute a large share of the daily target. Whole fruit is another efficient source because the skin, seeds, and intact plant tissue remain in the food. Whole grains and vegetables then add smaller amounts meal after meal.</p><p>As a rough illustration, a breakfast with oatmeal and berries, a lunch containing beans, a piece of fruit, vegetables at dinner, and a small serving of nuts can move well into the recommended range. Exact numbers vary by food and portion, so the useful habit is to spread fiber-rich foods through the day instead of relying on one enormous dose.</p><h2>Whole foods make it easier to get different kinds of fiber</h2><p>“Fiber” describes a broad group of nondigestible carbohydrates rather than one identical substance. Oats contain viscous beta-glucan; legumes contain resistant starches and fermentable fibers; wheat bran is rich in less-fermentable structural fiber; fruits and vegetables provide mixtures of pectin, cellulose, hemicellulose, and other components.</p><p>That variety matters because different fibers behave differently in water and are fermented at different rates. A snack bar fortified with one isolated fiber can legitimately add fiber grams, but it does not reproduce the full food matrix of beans, berries, vegetables, or whole grains.</p><h2>Increasing fiber too fast can backfire</h2><p>If someone moves from a very low-fiber diet to a large amount of beans, bran, inulin, and a fiber supplement all at once, gas and bloating are predictable possibilities. NIDDK advises increasing fiber a little at a time and drinking enough fluids to help the fiber work properly.</p><p>This is especially relevant when a person is trying to “catch up” in a day. The gut microbiota ferment many fiber types, and more fermentable substrate can mean more gas. A slower increase gives the digestive system time to adjust and also makes it easier to identify a specific food that causes symptoms.</p><h2>More fiber is not always the right advice for every digestive condition</h2><p>People with irritable bowel syndrome may tolerate some fibers better than others. During active inflammatory bowel disease, after certain gastrointestinal surgeries, or with narrowing of the intestine, generic advice to simply add more fiber may be inappropriate.</p><p><strong>The practical rule:</strong> use the U.S. AIs as a planning guide, but focus on the food pattern rather than the scoreboard. Build fiber from legumes, whole grains, fruit, vegetables, nuts, and seeds, increase gradually if your current intake is low, and let your daily total rise as a consequence of those foods rather than forcing it with a huge single dose.</p>",
+  "faq": [
+    {
+      "question": "How much fiber should an adult get per day?",
+      "answer": "For U.S. adults ages 19–50, the National Academies AI is 25 g/day for women and 38 g/day for men, based on 14 g per 1,000 kcal."
+    },
+    {
+      "question": "Can you get enough fiber without a supplement?",
+      "answer": "Yes. Beans and lentils, whole grains, fruit, vegetables, nuts, and seeds can reach recommended amounts across ordinary meals."
+    },
+    {
+      "question": "Why does increasing fiber cause gas?",
+      "answer": "Many fibers are fermented by gut microbes. A sudden large increase can produce more gas and bloating, so gradual increases and adequate fluids are generally better tolerated."
+    }
+  ],
+  "sources": [
+    {
+      "name": "National Academies — Dietary Reference Intakes: Recommended Intakes for Individuals",
+      "url": "https://www.nationalacademies.org/index.php/cdn/materials/9fb9fae6-337c-4b7c-9821-2c81d1f65ad0",
+      "note": "Current National Academies DRI table listing total fiber AIs by age and sex, including 25 g/day for women and 38 g/day for men ages 19–50."
+    },
+    {
+      "name": "National Academies — Dietary Reference Intakes for Energy, Carbohydrate, Fiber, Fat, Fatty Acids, Cholesterol, Protein, and Amino Acids",
+      "url": "https://www.nationalacademies.org/read/10490",
+      "note": "Foundational DRI report establishing the adult fiber AI framework at 14 g per 1,000 kcal."
+    },
+    {
+      "name": "PubMed — Carbohydrate quality and human health: systematic reviews and meta-analyses",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30638909/",
+      "note": "Large evidence synthesis linking higher fiber intake with lower risk of several chronic diseases and finding strongest observed benefits around 25–29 g/day."
+    },
+    {
+      "name": "NIDDK — Eating, Diet, & Nutrition for Constipation",
+      "url": "https://www.niddk.nih.gov/health-information/digestive-diseases/constipation/eating-diet-nutrition",
+      "note": "Recommends increasing fiber gradually, drinking adequate fluids, and using whole grains, legumes, fruit, vegetables, and nuts as food sources."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food photography of beans, oats, berries, pears, whole grains, vegetables, nuts and seeds arranged as ordinary meals across a day, no supplement container, no readable text.",
+    "alt": "Fiber-rich foods including beans, oats, fruit, vegetables, whole grains and nuts"
+  },
+  "status": "publish"
+}
