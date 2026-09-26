@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1237-how-much-protein-per-meal-distribute-through-day",
+  "article_number": 1237,
+  "translation_group": "1237-protein-per-meal-distribution",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; healthy adults and physically active people interested in distributing daily protein.",
+  "title": "How Much Protein Should You Eat per Meal, and How Should You Spread It Through the Day?",
+  "slug": "how-much-protein-per-meal-distribute-through-day",
+  "seo": {
+    "title": "How Much Protein per Meal? Distribution Through the Day",
+    "meta_description": "Your body does not stop absorbing protein above 20 or 30 g. For muscle-focused diets, about 0.4 g/kg per meal is one evidence-based distribution target, not a universal absorption limit.",
+    "search_intent": "Understand how much protein makes sense in one meal, whether the body has a protein absorption limit, and how to distribute daily protein across meals."
+  },
+  "excerpt": "There is no 20-, 30-, or 40-gram point at which your body simply stops absorbing protein from a meal. For maximizing muscle-building opportunities, one review proposed about 0.4 g/kg per meal across at least four meals when daily intake is around 1.6 g/kg, but that is a sports-nutrition strategy rather than a universal requirement.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "protein",
+      "meal-distribution",
+      "muscle-protein-synthesis"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Your body does not stop absorbing protein because a meal contains more than 20 or 30 grams.</strong> Digestion and amino-acid absorption continue. The more useful question is how much additional muscle-protein-synthesis response a larger dose produces at that moment, and whether the meal fits a sensible daily total.</p><p>Someone simply trying to meet basic nutrition needs can be quite flexible about meal distribution. Someone training to maximize muscle gain has more reason to spread an adequate daily intake across several eating occasions.</p><h2>Set the daily target before micromanaging each meal</h2><p>A beautifully even distribution cannot rescue an inadequate daily intake. If your goal is 100 g per day, debating whether breakfast should contain 25 or 30 g matters less than consistently reaching something close to the daily amount that fits your body size and training.</p><p>Once the daily number is reasonable, dividing it over three, four, or five eating occasions can prevent one dinner from carrying nearly the entire day. The meals do not need to match gram for gram. A 25-g lunch and a 32-g dinner are not meaningfully “uneven” in the way a 5-g breakfast followed by a 70-g dinner is.</p><h2>About 0.4 g/kg per meal is a useful target, not an absorption ceiling</h2><p>A review examining how much protein can be used from one meal proposed roughly <strong>0.4 g/kg per meal</strong> across at least four meals to reach a daily intake around 1.6 g/kg. For a 154-lb, 70-kg person, that works out to about 28 g at each meal.</p><p>That number should not be turned into a hard biological limit. Studies using rapidly digested isolated protein after training do not perfectly reproduce a mixed meal containing fat, carbohydrate, and slower-digesting proteins. Amino acids that are not immediately incorporated into new muscle proteins also do not vanish; the body can use them for other proteins and nitrogen-containing compounds or oxidize them for energy.</p><p>So the popular statement that “you can only absorb 30 g at a time” confuses two different ideas: intestinal absorption and the size of the acute muscle-building response.</p><h2>Distribution becomes most relevant when dinner contains almost everything</h2><p>Protein intake in many real diets is skewed toward the evening. A small crossover feeding study in healthy adults compared meals containing roughly 30 g of protein at breakfast, lunch, and dinner with a pattern that supplied much less early in the day and more than 60 g at dinner. The even pattern produced greater 24-hour muscle protein synthesis.</p><p>That finding does not prove everyone needs exactly three 30-g meals. Long-term evidence is less tidy than acute metabolism studies. A systematic review found that more even protein distribution was associated with higher muscle mass in some evidence, while findings for strength and protein turnover were less consistent.</p><p>A sensible interpretation is that if your daily total is already adequate, moving some protein away from an enormous dinner and into low-protein meals can create several meaningful protein feedings across the day.</p><h2>Build normal meals first, then fine-tune the grams</h2><p>For an active person with a relatively high daily target, start by giving three or four meals an obvious protein anchor. Then adjust portions to fit the daily goal instead of forcing every meal to meet a rigid number.</p><p>A main meal might use fish, meat, eggs, dairy, tofu, tempeh, or legumes as its anchor. Breakfast or a snack can use yogurt, cottage cheese, milk or soy milk, eggs, or a combination of grains, nuts, and seeds. Protein powder can make one feeding convenient, but it does not create a special anabolic category if ordinary food supplies enough protein.</p><p><strong>The practical rule:</strong> get the daily total right first. If performance or muscle gain matters, spreading that total over several substantial protein meals is reasonable. Treat 0.4 g/kg per meal as one useful muscle-focused benchmark, not as a line beyond which your body suddenly wastes the protein.</p>",
+  "faq": [
+    {
+      "question": "Can your body only absorb 30 grams of protein at a time?",
+      "answer": "No. Protein digestion and amino-acid absorption continue above 30 g. The acute muscle-protein-synthesis response can level off, but that is not the same as an absorption limit."
+    },
+    {
+      "question": "How much protein per meal for a 154-lb person?",
+      "answer": "At the muscle-focused benchmark of 0.4 g/kg per meal, a 154-lb (70-kg) person would be around 28 g. That is a distribution strategy, not a universal requirement."
+    },
+    {
+      "question": "Is it better to spread protein across the day?",
+      "answer": "When daily intake is adequate, spreading meaningful protein servings across several meals is reasonable and may support repeated muscle-protein-synthesis responses, though exact meal symmetry is unnecessary."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — How much protein can the body use in a single meal for muscle-building?",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29497353/",
+      "note": "Review distinguishing absorption from the muscle-building response and proposing about 0.4 g/kg per meal across four meals to reach 1.6 g/kg/day."
+    },
+    {
+      "name": "PubMed — Dietary protein distribution positively influences 24-h muscle protein synthesis in healthy adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/24477298/",
+      "note": "Small crossover feeding study comparing an even protein pattern with one heavily skewed toward dinner."
+    },
+    {
+      "name": "PubMed — Evenness of dietary protein distribution and muscle outcomes: systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33550490/",
+      "note": "Systematic review evaluating protein distribution in relation to muscle mass, strength, and protein turnover."
+    },
+    {
+      "name": "PubMed — ISSN Position Stand: protein and exercise",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/",
+      "note": "Provides daily sports-nutrition context for meal-level protein targets in healthy exercising people."
+    }
+  ],
+  "image": {
+    "concept": "A breakfast, lunch, snack and dinner arranged along a clean day timeline, each with a realistic protein source and normal portions, editorial food photography, no readable text.",
+    "alt": "Protein spread across several meals from morning to evening"
+  },
+  "status": "publish"
+}
