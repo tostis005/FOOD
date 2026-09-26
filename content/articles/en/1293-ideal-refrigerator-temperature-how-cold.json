@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1293-ideal-refrigerator-temperature-how-cold",
+  "article_number": 1293,
+  "translation_group": "1293-ideal-refrigerator-temperature",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; household refrigerators and safe cold storage of perishable foods.",
+  "title": "Ideal Refrigerator Temperature: How Cold Should Your Fridge Be?",
+  "slug": "ideal-refrigerator-temperature-how-cold",
+  "seo": {
+    "title": "Ideal Refrigerator Temperature: 40°F or Below",
+    "meta_description": "Keep a home refrigerator at 40°F (4°C) or below; around 37–40°F is practical without freezing most foods. Use an appliance thermometer because the control dial often does not show the actual temperature.",
+    "search_intent": "Understand the safest household refrigerator temperature, how to measure it, why internal zones differ, and how fridge organization affects food safety."
+  },
+  "excerpt": "A home refrigerator should stay at 40 °F (4 °C) or below. A practical target is roughly 37–40 °F (3–4 °C), cold enough to slow microbial growth while avoiding accidental freezing of most foods. The number on the control dial often represents cooling power rather than an exact temperature, so an appliance thermometer is the best check.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "refrigeration",
+      "food-safety",
+      "cold-storage"
+    ],
+    "article_types": [
+      "food-safety",
+      "storage-shelf-life"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>Keep a household refrigerator at 40 °F (4 °C) or below.</strong> A practical target around 37–40 °F (3–4 °C) provides a margin below the safety limit without freezing most refrigerated foods.</p><p>The refrigerator dial is not always a thermometer. A setting marked 1 through 5 may represent cooling intensity, and the actual temperature changes with room temperature, food load, door openings, and location inside the appliance.</p><h2>A few degrees make a meaningful safety difference</h2><p>Refrigeration does not sterilize food. It slows chemical reactions and, more importantly, slows the growth of many microorganisms.</p><p>As food warms above 40 °F, many spoilage and disease-causing bacteria can multiply more rapidly. Keeping the refrigerator consistently cold makes recommended storage times much more reliable.</p><p>Some organisms, including <em>Listeria monocytogenes</em>, can still grow slowly under refrigeration, so cold storage does not replace good hygiene, date control, or proper storage times.</p><h2>Why not set the whole refrigerator near freezing?</h2><p>Areas that fall below 32 °F (0 °C) can partially freeze high-water foods. Lettuce, cucumbers, some fruit, eggs, and dairy foods can develop texture damage.</p><p>A target around 37–40 °F leaves enough margin below the safety ceiling while reducing the chance that every cold spot becomes a freezing zone.</p><p>If food repeatedly freezes against the back wall, airflow or the thermostat setting may need adjustment.</p><h2>Temperature varies across the refrigerator</h2><p>The door experiences the largest swings because warm room air enters every time it opens. Use it for drinks, condiments, and comparatively stable items rather than raw meat or highly perishable foods.</p><p>Lower rear areas are often colder in many models. Store raw meat, poultry, and seafood low in leak-proof containers so juices cannot drip onto ready-to-eat food.</p><p>Produce drawers are designed partly around humidity control and can have a slightly different microclimate from the center shelf.</p><h2>An appliance thermometer is more reliable than the dial</h2><p>Place a refrigerator/freezer thermometer in the appliance and let it sit for several hours. USDA suggests measuring in a glass of water in the middle of the refrigerator for a stable reading.</p><p>If you adjust the thermostat, give the refrigerator several hours to reach a new equilibrium before judging the result.</p><p>Checking more than one location can help if some foods freeze while others spoil too quickly.</p><h2>Do not overpack the refrigerator</h2><p>Cold air must circulate around food. A refrigerator packed tightly from wall to wall can develop warm pockets and cool unevenly.</p><p>A reasonably full refrigerator can hold temperature well because chilled food adds thermal mass, but vents and airflow paths still need space.</p><p>The goal is full enough to be efficient, not so full that air cannot move.</p><h2>Cool leftovers promptly</h2><p>Food-safety guidance emphasizes getting perishable cooked foods into refrigeration within two hours, or within one hour in very hot conditions.</p><p>Divide large quantities into shallow containers so the center cools quickly. Avoid leaving a large pot on the counter for hours while waiting for it to become completely cold.</p><p>A huge boiling stockpot can warm the whole refrigerator, so portioning is better than moving a very large hot mass directly inside.</p><h2>Power outages change the decision</h2><p>A closed refrigerator generally keeps food safely cold for about four hours during a power outage. After that, actual temperature and time become important.</p><p>Perishable food held above 40 °F for two hours or more may need to be discarded. Smell and appearance cannot reliably identify pathogenic bacterial growth.</p><p><strong>The practical rule:</strong> aim for about 37–40 °F and verify it with an appliance thermometer. What matters is the actual food-storage temperature, not the number printed on the control knob.</p>",
+  "faq": [
+    {
+      "question": "What temperature should a refrigerator be?",
+      "answer": "40 °F (4 °C) or below. A practical household target is about 37–40 °F (3–4 °C)."
+    },
+    {
+      "question": "Does setting 3 mean 3 degrees?",
+      "answer": "Usually not. Many refrigerator dials show cooling level rather than exact temperature, so use an appliance thermometer."
+    },
+    {
+      "question": "What is the coldest part of a refrigerator?",
+      "answer": "It depends on the model, but lower rear areas are often colder and the door is usually most variable. Check the manual or measure different zones."
+    }
+  ],
+  "sources": [
+    {
+      "name": "AESAN — Guía práctica de seguridad alimentaria",
+      "url": "https://www.aesan.gob.es/AECOSAN/docs/documentos/tema_interes/guia_baja.pdf",
+      "note": "Recomienda para el frigorífico doméstico un rango de 0–5 °C y organización que evite contaminación cruzada."
+    },
+    {
+      "name": "USDA FSIS — Refrigeration & Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/refrigeration",
+      "note": "Recomienda 40 °F/4,4 °C o menos y el uso de un termómetro de electrodoméstico."
+    },
+    {
+      "name": "FoodSafety.gov — 4 Steps to Food Safety",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+      "note": "Recomienda frigorífico a 40 °F/4 °C o menos y refrigeración rápida de perecederos."
+    }
+  ],
+  "image": {
+    "concept": "Editorial kitchen photograph of a refrigerator thermometer reading about 38 °F in a well-organized fridge with raw foods stored low and ready-to-eat foods above, no brands.",
+    "alt": "Refrigerator thermometer showing about 38°F in an organized fridge"
+  },
+  "status": "publish"
+}
