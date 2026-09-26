@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1267-how-many-calories-per-day-what-it-depends-on",
+  "article_number": 1267,
+  "translation_group": "1267-daily-calorie-needs-factors",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; generally healthy adults, using the 2023 National Academies Dietary Reference Intakes for Energy.",
+  "title": "How Many Calories Do You Need per Day, and What Does It Depend On?",
+  "slug": "how-many-calories-per-day-what-it-depends-on",
+  "seo": {
+    "title": "How Many Calories Do You Need per Day?",
+    "meta_description": "There is no universal calorie target. Energy needs depend on age, sex, height, weight, body composition, and activity. Equations provide a starting estimate; weight trends help show whether it fits.",
+    "search_intent": "Understand how many calories an adult needs per day, which factors determine energy expenditure, and why a standard 2,000-calorie reference is not a personal prescription."
+  },
+  "excerpt": "There is no single correct calorie number for all adults. Daily expenditure combines resting metabolism, the thermic effect of food, and physical activity, and it varies with age, sex, height, weight, body composition, and activity level. The familiar 2,000-calorie figure on food labels is a reference value, not a personalized energy prescription.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "energy-needs",
+      "calories",
+      "energy-balance"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>There is no single daily calorie target that fits every adult.</strong> Energy needs depend on how much energy your body uses at rest, how much is spent processing food, and how much you move. Age, sex, height, weight, body composition, pregnancy, lactation, and physical activity can all shift the result substantially.</p><p>The familiar 2,000-calorie figure is useful for Nutrition Facts labeling and examples. It is not a universal maintenance target. A smaller inactive adult may need less, while a larger highly active adult can need far more.</p><h2>Daily energy expenditure has three major components</h2><p>The largest component for many adults is resting energy expenditure: the energy required to keep circulation, breathing, temperature regulation, brain activity, and other basic functions operating. Food also has a thermic effect because digestion, absorption, and nutrient processing require energy.</p><p>Physical activity is the most variable component. It includes formal exercise but also walking, commuting, household tasks, physical work, standing, and spontaneous movement. Two similarly sized people can therefore have very different total expenditure if one spends most of the day seated and the other moves for hours.</p><p>The 2023 National Academies energy report explicitly incorporates physical-activity categories into its updated Estimated Energy Requirement equations.</p><h2>Age, body size, and body composition matter</h2><p>A larger body generally costs more energy to maintain and move. Fat-free mass—muscle, organs, bone, and other lean tissue—is strongly related to resting expenditure, so people with the same scale weight do not necessarily have identical energy needs.</p><p>Energy expenditure often decreases with age through changes in body composition, activity, and physiology. The change is not identical for everyone. An older adult who preserves muscle and remains highly active may expend more energy than a much younger but very inactive person.</p><p>That is why the updated adult prediction equations use age, sex, height, weight, and physical-activity category rather than assigning every adult the same calorie number.</p><h2>Equations are estimates, not metabolic measurements</h2><p>The National Academies developed updated equations using doubly labeled water data, a strong method for measuring free-living total energy expenditure. For weight-stable adults, estimated energy requirement is intended to approximate total daily expenditure.</p><p>Even so, prediction equations have error. In the adult equations, average prediction errors can amount to a few hundred calories per day for individuals. The activity category itself can also be difficult to classify accurately.</p><p>That makes an equation a reasonable starting point, not proof that your body burns exactly the calculated number every day.</p><h2>A stable weight provides useful feedback about maintenance needs</h2><p>If body weight remains reasonably stable for several weeks while activity is also stable, average energy intake is probably close to average expenditure. Daily intake does not have to be identical because energy balance is expressed over time.</p><p>When intake persistently exceeds expenditure, body energy stores tend to rise and weight usually increases. When intake remains below expenditure, weight usually falls. The exact rate depends on metabolic adaptation, changing activity, and changing body composition.</p><p>Day-to-day scale fluctuations from water, glycogen, sodium, and gastrointestinal contents can obscure the trend, so several weeks of data are more informative than one morning.</p><h2>Your calorie needs change when your life changes</h2><p>Maintenance calories are not fixed forever. Losing body mass generally lowers the energy cost of maintaining and moving the body. Gaining mass can increase it. Starting a physically demanding job, increasing endurance training, or becoming less active can all change needs without any change in age.</p><p>This is why a calorie estimate from last year may no longer fit. Re-estimate when body weight, training volume, occupation, or life stage changes substantially.</p><h2>Calories do not describe diet quality</h2><p>Two diets with the same energy can differ dramatically in protein, fiber, essential fats, vitamins, minerals, and fullness. Meeting an energy target does not guarantee nutritional adequacy.</p><p>For people with a history of eating disorders, strict calorie tracking may be counterproductive. Pregnancy, lactation, illness, growth, and high-level sports training can also make individualized guidance especially valuable.</p><p><strong>The practical rule:</strong> use an equation or calculator as a starting estimate rather than a number you must obey exactly. Age, size, and activity build the estimate; several weeks of body-weight trend, performance, hunger, and real-life context tell you whether that estimate fits.</p>",
+  "faq": [
+    {
+      "question": "Is 2,000 calories per day right for everyone?",
+      "answer": "No. It is a useful labeling reference, but individual needs vary with age, sex, height, weight, body composition, and activity."
+    },
+    {
+      "question": "What changes calorie needs the most?",
+      "answer": "Physical activity can create large differences between otherwise similar people, while body size, lean mass, age, and life stage also matter."
+    },
+    {
+      "question": "How do you know your maintenance calories?",
+      "answer": "If body weight stays reasonably stable for several weeks while activity and eating patterns are consistent, average intake is probably close to average expenditure."
+    }
+  ],
+  "sources": [
+    {
+      "name": "National Academies — Dietary Reference Intakes for Energy (2023)",
+      "url": "https://www.nationalacademies.org/read/26818/chapter/2",
+      "note": "Current U.S./Canadian DRI summary explaining updated energy equations and their use for individuals."
+    },
+    {
+      "name": "National Academies — Factors Affecting Energy Expenditure and Requirements",
+      "url": "https://www.nationalacademies.org/read/26818/chapter/6",
+      "note": "Explains total energy expenditure as resting expenditure, thermic effect of food, and physical activity."
+    },
+    {
+      "name": "National Academies — Development of Prediction Equations for Estimated Energy Requirements",
+      "url": "https://www.nationalacademies.org/read/26818/chapter/7",
+      "note": "Provides current adult EER equations using age, height, weight, sex, and physical-activity category."
+    }
+  ],
+  "image": {
+    "concept": "Editorial nutrition photograph showing adults of different sizes and activity levels beside ordinary meals and subtle activity cues, illustrating variable energy needs with no readable calorie numbers.",
+    "alt": "Adults with different body sizes and activity levels illustrating different calorie needs"
+  },
+  "status": "publish"
+}
