@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1272-how-much-sugar-per-day-free-added-total",
+  "article_number": 1272,
+  "translation_group": "1272-daily-sugar-free-added-total",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; healthy adults, distinguishing WHO free sugars from FDA added sugars and total sugars on Nutrition Facts labels.",
+  "title": "How Much Sugar Should You Have per Day? Free, Added, and Total Sugars Explained",
+  "slug": "how-much-sugar-per-day-free-added-total",
+  "seo": {
+    "title": "How Much Sugar per Day? Free, Added, and Total Sugar",
+    "meta_description": "WHO recommends free sugars below 10% of calories and preferably below 5%. FDA's Daily Value for added sugars is 50 g on 2,000 calories. Total sugars are a different number.",
+    "search_intent": "Understand how much sugar is recommended per day and distinguish WHO free sugars, FDA added sugars, and total sugars on food labels."
+  },
+  "excerpt": "WHO recommends keeping free sugars below 10% of daily energy and suggests going below 5% for additional benefits. At 2,000 calories, that is under 50 g and preferably under 25 g. In the U.S., the FDA Daily Value for added sugars is 50 g on a 2,000-calorie diet. Neither limit applies to every gram of total sugar in whole fruit, plain milk, or similar foods.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "sugar",
+      "free-sugars",
+      "food-labels"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>There is no single daily limit that applies to every gram listed under Total Sugars.</strong> WHO focuses on free sugars, while U.S. Nutrition Facts labels separately list Added Sugars.</p><p>WHO recommends free sugars below 10% of daily energy and suggests reducing them below 5% for additional benefits. At 2,000 calories, those levels equal less than 50 g and less than 25 g respectively. FDA's Daily Value for Added Sugars is 50 g on a 2,000-calorie diet.</p><h2>Free sugars and added sugars overlap, but they are not identical</h2><p>WHO free sugars include sugars added by manufacturers, cooks, or consumers plus sugars naturally present in honey, syrups, fruit juices, and fruit-juice concentrates.</p><p>U.S. added sugars include sugars added during processing, packaged sweeteners, sugars from syrups and honey, and sugars from concentrated fruit or vegetable juices in certain contexts. The labeling rules are specific and are not simply another name for Total Sugars.</p><p>A 100% fruit juice can therefore contain substantial free sugar even when its label shows zero grams of Added Sugars.</p><h2>Total Sugars includes naturally occurring sugars too</h2><p>Total Sugars on a Nutrition Facts label includes both naturally occurring and added sugars. Plain milk contains lactose. Whole fruit contains glucose, fructose, and sucrose. Those sugars contribute to the Total Sugars line even when nothing sweet has been added.</p><p>That is why the 50-g added-sugar Daily Value is not a 50-g cap on Total Sugars from all foods. A diet with whole fruit and plain dairy can exceed 50 g of Total Sugars without exceeding the added-sugar recommendation.</p><h2>Why the recommendation focuses on added or free sugars</h2><p>WHO's free-sugar recommendation is supported especially by evidence on dental caries and excess energy intake. Sugary beverages, sweets, desserts, and similar foods can add substantial energy without much fiber or satiety.</p><p>FDA also notes that high added-sugar intake can make it harder to meet nutrient needs while staying within calorie limits. The Added Sugars line was introduced to make that distinction visible.</p><h2>How to convert the percentage into grams</h2><p>Multiply daily calories by the percentage and divide by four because sugar provides about 4 calories per gram. Ten percent of 1,800 calories is 180 calories, or 45 g. Five percent is 90 calories, or 22.5 g.</p><p>At 2,500 calories, 10% equals 62.5 g. These are ceilings, not targets you need to reach.</p><h2>How to use the U.S. label</h2><p>The Nutrition Facts panel lists Total Sugars and underneath it Added Sugars. FDA uses a 50-g Daily Value for Added Sugars on a 2,000-calorie diet, which corresponds to 10% of calories.</p><p>A product can have 12 g Total Sugars and zero Added Sugars if those sugars come naturally from ingredients such as milk or fruit. Another product may have the same 12 g total with most of it added during manufacturing.</p><h2>You do not need to fear every naturally sweet food</h2><p>Whole fruit brings fiber, water, vitamins, minerals, and phytochemicals along with its sugars. Plain dairy supplies protein and micronutrients. These foods do not play the same nutritional role as soda or candy simply because they all contain sugar molecules.</p><p><strong>The practical rule:</strong> use Added Sugars on U.S. labels and free sugars in WHO guidance rather than treating Total Sugars as the number to keep below 50 g. At 2,000 calories, 50 g corresponds to the 10% ceiling, while 25 g corresponds to WHO's more ambitious 5% level.</p>",
+  "faq": [
+    {
+      "question": "How much added sugar should you have per day?",
+      "answer": "FDA's Daily Value is 50 g on a 2,000-calorie diet, corresponding to 10% of calories. WHO recommends free sugars below 10% and preferably below 5%."
+    },
+    {
+      "question": "Does sugar in fruit count toward the added-sugar limit?",
+      "answer": "Sugar naturally present in whole fruit is not added sugar and is not counted as WHO free sugar. Juice sugars are treated differently and count as free sugars."
+    },
+    {
+      "question": "Is Total Sugars the same as Added Sugars?",
+      "answer": "No. Total Sugars includes naturally occurring sugars plus added sugars. Added Sugars is the subset added during processing or preparation under FDA rules."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Added Sugars on the Nutrition Facts Label",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label",
+      "note": "Current FDA guidance stating a 50 g Daily Value for added sugars on a 2,000-calorie diet."
+    },
+    {
+      "name": "WHO — Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "note": "Current WHO guidance recommending free sugars below 10% of energy and preferably below 5%."
+    },
+    {
+      "name": "WHO — Sugars and dental caries",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/sugars-and-dental-caries",
+      "note": "Explains the free-sugar definition and its relationship with dental caries."
+    }
+  ],
+  "image": {
+    "concept": "Editorial nutrition photograph showing sugar, honey, fruit juice, whole fruit and plain milk or yogurt to illustrate added, free and total sugars, no readable labels.",
+    "alt": "Sugar, honey, juice, fruit and dairy illustrating different sugar categories"
+  },
+  "status": "publish"
+}
