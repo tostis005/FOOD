@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1273-free-sugar-vs-added-sugar-difference",
+  "article_number": 1273,
+  "translation_group": "1273-free-vs-added-sugar",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; conceptual difference between WHO free sugars and FDA added sugars.",
+  "title": "Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing",
+  "slug": "free-sugar-vs-added-sugar-difference",
+  "seo": {
+    "title": "Free Sugar vs. Added Sugar: What's the Difference?",
+    "meta_description": "Added and free sugars overlap, but WHO's free-sugar definition is broader and includes sugars naturally present in honey, syrups, fruit juice, and juice concentrates. Whole fruit and plain milk are different.",
+    "search_intent": "Understand the difference between WHO free sugars and U.S. added sugars, using examples such as honey, juice, whole fruit, and milk."
+  },
+  "excerpt": "Free sugar is a broader public-health concept than added sugar. It includes sugars added during manufacturing or preparation, but it also includes sugars naturally present in honey, syrups, fruit juices, and juice concentrates. That is why a product can show 0 g Added Sugars and still contribute free sugars.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "free-sugars",
+      "added-sugars",
+      "food-labels"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Free sugars and added sugars overlap heavily, but they are not exact synonyms.</strong> The difference becomes clearest with honey, syrups, fruit juice, and juice concentrates: they can contribute free sugars even when no table sugar has been added.</p><p>This matters because WHO recommendations are written around free sugars, while the U.S. Nutrition Facts label uses Added Sugars as a regulated category.</p><h2>Added sugars usually fall inside the free-sugar category</h2><p>If a manufacturer adds sucrose, glucose, fructose, syrup, or honey to sweeten a food, those sugars are free sugars under WHO's definition.</p><p>The same is true when you add sugar to coffee or honey to oatmeal. The term “free” is not a judgment about whether the sweetener sounds natural; it describes how the sugar exists relative to the original food structure.</p><h2>Fruit juice shows the difference best</h2><p>Sugars inside whole fruit are not classified as free sugars by WHO. They remain within the intact cellular structure and come with fiber and water.</p><p>Once fruit is juiced, its sugars are treated as free sugars. A bottle of 100% orange juice can therefore show 0 g Added Sugars on a U.S. label while still contributing free sugars under WHO guidance.</p><p>This does not mean juice and soda are nutritionally identical. It means both contribute to the free-sugar total.</p><h2>Honey and syrups count as free sugars too</h2><p>Honey, maple syrup, agave syrup, and similar sweeteners contain readily available sugars and fall within WHO's free-sugar definition.</p><p>Replacing table sugar with honey can change flavor and add small amounts of other compounds, but it does not remove those sugar grams from the public-health recommendation.</p><h2>Zero Added Sugars does not mean sugar-free</h2><p>FDA distinguishes Total Sugars from Added Sugars. A food can contain naturally occurring sugars and still have 0 g Added Sugars.</p><p>Plain milk is a simple example: lactose contributes to Total Sugars but is not Added Sugar. Whole fruit works similarly. Juice is more complicated because it may show 0 g Added Sugars while still counting as free sugar under WHO's framework.</p><p>This is why the two systems can appear to disagree when they are actually answering different questions.</p><h2>Milk illustrates the opposite case</h2><p>Plain milk contains lactose naturally. That lactose is included in Total Sugars but is not free sugar under WHO's definition and is not Added Sugar on the U.S. label.</p><p>If sugar, honey, or syrup is added to flavored milk, the added portion becomes Added Sugar and also contributes free sugar.</p><h2>Why WHO uses free sugars</h2><p>The free-sugar category is designed for public-health guidance, particularly around dental caries and excessive energy intake. It captures sweeteners and juice sugars even when no refined sugar is added.</p><p>It does not claim every source is nutritionally identical. Honey, juice, and soda can differ in vitamins, minerals, and other compounds while still contributing free sugars.</p><p><strong>The practical rule:</strong> use Added Sugars to read U.S. labels, but remember that WHO free sugars are broader. A “0 g Added Sugars” label does not automatically mean the food contributes zero free sugar.</p>",
+  "faq": [
+    {
+      "question": "Are all added sugars free sugars?",
+      "answer": "Generally yes. Sugars added during processing or preparation fall within WHO's free-sugar definition."
+    },
+    {
+      "question": "Can a food have 0 g Added Sugars and still contain free sugar?",
+      "answer": "Yes. One clear example is 100% fruit juice, whose juice sugars are free sugars under WHO guidance but may not be Added Sugars on the U.S. label."
+    },
+    {
+      "question": "Is lactose in plain milk a free sugar?",
+      "answer": "No. Naturally occurring lactose in plain milk is Total Sugar but not Added Sugar and is not classified as free sugar by WHO."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Added Sugars on the Nutrition Facts Label",
+      "url": "https://www.fda.gov/food/nutrition-facts-label/added-sugars-nutrition-facts-label",
+      "note": "Explains Added Sugars and the distinction from Total Sugars on U.S. labels."
+    },
+    {
+      "name": "WHO — Healthy diet",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "note": "Defines free sugars and includes honey, syrups, juices, and juice concentrates."
+    },
+    {
+      "name": "WHO — Guideline: Sugars intake for adults and children",
+      "url": "https://www.who.int/publications/i/item/9789241549028",
+      "note": "Formal WHO definition and recommendations for free sugars."
+    }
+  ],
+  "image": {
+    "concept": "Editorial comparison photograph with whole orange, orange juice, honey, plain milk and sugar arranged in separate groups to illustrate free versus added sugars, no readable text.",
+    "alt": "Whole fruit, juice, honey, milk and sugar illustrating free versus added sugar"
+  },
+  "status": "publish"
+}
