@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1357-imo-fiber",
+  "article_number": 1357,
+  "translation_group": "1357-isomaltooligosaccharides-fiber",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; commercial isomaltooligosaccharides made from starch and marketed as sweetener, prebiotic, or fiber ingredients.",
+  "title": "Isomaltooligosaccharides (IMO): What They Are and Why They Do Not Always Count as Fiber",
+  "slug": "isomaltooligosaccharides-imo-not-always-fiber",
+  "seo": {
+    "title": "IMO: What They Are and Why They Are Not Always Fiber",
+    "meta_description": "Isomaltooligosaccharides are short glucose chains, often produced from starch, containing alpha-1,6 and alpha-1,4 linkages. Some bonds resist digestion, but many commercial IMO products also contain readily digestible carbohydrate, so fiber content and glycemic impact can vary substantially.",
+    "search_intent": "Understand what IMO ingredients are, how they are made, why they are marketed as fiber or prebiotic, and why some can raise blood glucose more than expected."
+  },
+  "excerpt": "Isomaltooligosaccharides, or IMO, are mixtures of short glucose chains that commonly contain alpha-1,6 and alpha-1,4 linkages. Many commercial ingredients are produced from starch through hydrolysis and transglucosylation. Although part of an IMO mixture may resist digestion, another part can be hydrolyzed and absorbed as glucose. This is why different IMO syrups can have very different true fiber content and glycemic effects.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "isomaltooligosaccharides",
+      "dietary-fiber",
+      "functional-ingredients"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "processing-production"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Isomaltooligosaccharides, or IMO, are mixtures of short glucose chains that can contain both digestible and digestion-resistant linkages.</strong> That distinction matters because commercial IMO is not automatically equivalent to pure dietary fiber.</p><p>Products may call the ingredient IMO syrup, prebiotic fiber, or fiber syrup, but the metabolic behavior depends on the actual carbohydrate profile.</p><h2>How commercial IMO is produced</h2><p>A common industrial route starts with corn, tapioca, or another starch. The starch is first hydrolyzed into glucose, maltose, and short chains, then enzymes such as alpha-glucosidase rearrange some bonds to create more alpha-1,6 linkages.</p><p>The finished ingredient is not one defined molecule. It is a mixture of monosaccharides, disaccharides, and oligosaccharides of different lengths.</p><p>The proportions determine how much can be digested in the small intestine.</p><h2>Why some IMO is more digestible than the label suggests</h2><p>Alpha-1,6 linkages are slower to hydrolyze than many alpha-1,4 bonds, but human enzymes can still break down a substantial share of typical industrial IMO.</p><p>A survey of commercially available ingredients found major differences among products and concluded that the potential glycemic impact of some industrial IMO was inconsistent with treating the entire ingredient as prebiotic fiber.</p><p>A label that says IMO therefore does not guarantee that every gram reaches the colon intact.</p><h2>Human trials show measurable glucose responses</h2><p>Randomized crossover studies in healthy adults have found that IMO ingredients can generate measurable glucose and insulin responses.</p><p>The magnitude differs according to free glucose, maltose, chain length, and the share of bonds that resist hydrolysis.</p><p>This matters particularly for people following tightly controlled low-carbohydrate diets, where assuming that all IMO carbohydrate is fiber can underestimate available carbohydrate.</p><h2>Can IMO still have prebiotic effects?</h2><p>Yes. The fraction that escapes small-intestinal digestion can reach the colon and be fermented by microbes.</p><p>Recent reviews discuss IMO-related changes in microbial composition, short-chain fatty-acid production, and gastrointestinal outcomes.</p><p>However, an ingredient can be partly prebiotic and partly digestible at the same time. Those properties are not mutually exclusive.</p><h2>Why “fiber syrup” can be misleading</h2><p>IMO became common in bars and low-carb products partly because older analytical methods could classify a large portion as fiber even when human digestion was greater than expected.</p><p>Modern interpretation needs validated methods for nondigestible carbohydrate rather than relying only on total carbohydrate minus sugars.</p><p>If the goal is a reliably low-glycemic fiber ingredient, the specific chemistry and regulatory fiber status matter more than the marketing name.</p><h2>IMO is not isomaltulose or isomalt</h2><p>The names are easy to confuse. Isomaltulose is a digestible glucose-fructose disaccharide; isomalt is a sugar alcohol; IMO is a mixture of glucose oligosaccharides.</p><p>IMO also differs from resistant maltodextrin, where processing is specifically designed to maximize nondigestible linkages.</p><p><strong>The practical rule:</strong> IMO may provide fermentable fiber, but do not assume all of its carbohydrate is fiber. Available glucose and glycemic response depend on the specific product composition.</p>",
+  "faq": [
+    {
+      "question": "Are IMO ingredients dietary fiber?",
+      "answer": "Some contain meaningful nondigestible carbohydrate, but many commercial IMO products also contain digestible carbohydrate that can raise blood glucose."
+    },
+    {
+      "question": "Are IMO ingredients prebiotic?",
+      "answer": "The nondigested fraction can be fermented and may have prebiotic effects, depending on structure and dose."
+    },
+    {
+      "question": "Are IMO and isomalt the same?",
+      "answer": "No. IMO are glucose oligosaccharides, while isomalt is a sugar alcohol."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Survey of commercially available IMO-based food ingredients",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28140467/",
+      "note": "Reports large differences in digestibility, true fiber content, and potential glycemic impact."
+    },
+    {
+      "name": "PubMed — Gastrointestinal tolerance and glycemic response of IMO",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29510490/",
+      "note": "Human crossover trials examining fermentability and glycemic response."
+    },
+    {
+      "name": "PubMed — Current research on IMO and gastrointestinal health",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38974594/",
+      "note": "Recent review of gut, microbiota, and metabolic effects."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food-science image of IMO syrup beside a glucose-chain diagram showing digestible and resistant linkages plus a nutrition bar, no brands.",
+    "alt": "Isomaltooligosaccharides containing both digestible and resistant fractions"
+  },
+  "status": "publish"
+}
