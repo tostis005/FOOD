@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "en-1363-soluble-tapioca-fiber",
+  "article_number": 1363,
+  "translation_group": "1363-soluble-tapioca-fiber-vs-starch",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; soluble tapioca fiber/resistant dextrin from tapioca used as added dietary fiber and compared with digestible tapioca starch.",
+  "title": "Soluble Tapioca Fiber: What It Is and How It Differs From Tapioca Starch",
+  "slug": "soluble-tapioca-fiber-vs-tapioca-starch",
+  "seo": {
+    "title": "Soluble Tapioca Fiber vs. Tapioca Starch: What Is the Difference?",
+    "meta_description": "Soluble tapioca fiber is commonly a resistant dextrin made from cassava starch through hydrolysis and repolymerization that creates poorly digestible linkages. Ordinary tapioca starch gelatinizes and is mostly digested as carbohydrate, while qualifying resistant dextrin can count as dietary fiber in the U.S.",
+    "search_intent": "Understand what soluble tapioca fiber means on a label, how it is produced, and why it is metabolically different from tapioca starch."
+  },
+  "excerpt": "Soluble tapioca fiber is not simply tapioca starch under another name. It is commonly a resistant dextrin manufactured from cassava starch through hydrolysis and rearrangement of glucose linkages so that much of the material resists digestive enzymes. Conventional tapioca starch, by contrast, gelatinizes when heated and is largely digested to glucose. The difference is the structure created during processing.",
+  "taxonomy": {
+    "food_family": "tubers",
+    "food_subcategories": [
+      "soluble-tapioca-fiber",
+      "resistant-dextrin",
+      "tapioca"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "comparisons",
+      "processing-production"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p><strong>Soluble tapioca fiber is usually a resistant dextrin made from cassava starch rather than ordinary tapioca starch.</strong> Both begin with the same plant, but processing rearranges glucose bonds and changes how human digestive enzymes can access them.</p><p>Labels may use soluble tapioca fiber, tapioca fiber, resistant dextrin from tapioca, or resistant maltodextrin.</p><h2>The starting material really is tapioca starch</h2><p>Cassava roots store carbohydrate mainly as starch. Manufacturers extract and purify this starch for ordinary food use.</p><p>To make resistant soluble fiber, starch is hydrolyzed and then subjected to transglucosylation or repolymerization reactions that create a broader mixture of poorly digestible linkages.</p><p>The product is purified and dried into a soluble dextrin with a high nondigestible-carbohydrate fraction.</p><h2>Ordinary tapioca starch is digested very differently</h2><p>When regular tapioca starch is heated with water, its granules gelatinize and become accessible to amylase enzymes.</p><p>Most is eventually converted into absorbable glucose unless a specific process creates resistant starch.</p><p>Soluble tapioca fiber is intentionally engineered so a large fraction survives small-intestinal digestion and can reach the colon.</p><h2>Why it can count as dietary fiber</h2><p>FDA closed a GRAS notice in 2022 for a tapioca-derived resistant dextrin intended as a fiber source in beverages, baked goods, cereal bars, dairy products, sauces, and many other foods.</p><p>The notice places the ingredient within the resistant dextrin/resistant maltodextrin category that FDA recognizes as nondigestible carbohydrate meeting the dietary-fiber definition.</p><p>This applies to ingredients meeting the relevant identity and specifications rather than every syrup derived from cassava.</p><h2>Why it appears in reduced-sugar foods</h2><p>Soluble tapioca fiber has mild flavor and relatively low viscosity, allowing several grams of fiber to be added without turning a beverage into a gel.</p><p>It can also restore solids and body when sugar or digestible starch is reduced.</p><p>In bars, it can help manage chewiness and carbohydrate composition while supporting a higher-fiber label.</p><h2>Does it raise blood glucose?</h2><p>The truly resistant fraction is not converted rapidly into glucose in the small intestine and therefore has much less direct glycemic impact than ordinary tapioca starch.</p><p>Commercial products can still blend it with digestible carbohydrates, and the phrase tapioca fiber syrup does not guarantee identical composition among brands.</p><p>For precise carbohydrate management, the measured nondigestible fraction and the complete Nutrition Facts panel matter.</p><h2>What happens in the colon?</h2><p>Nondigested dextrin can be partly fermented into short-chain fatty acids.</p><p>As with other resistant dextrins, larger amounts may cause gas or stool changes in some people even though the ingredient is easy to formulate because it is not very viscous.</p><p>Tolerance depends on dose and the combined load of other fermentable fibers.</p><h2>How to identify the difference on a label</h2><p>Tapioca starch indicates primarily digestible starch used for thickening and structure. Resistant dextrin from tapioca or soluble tapioca fiber describes material processed specifically to resist digestion.</p><p><strong>The practical rule:</strong> shared cassava origin does not mean shared metabolism. Tapioca starch is mainly a digestible thickener, while soluble tapioca fiber is structured to behave as dietary fiber.</p>",
+  "faq": [
+    {
+      "question": "Are soluble tapioca fiber and tapioca starch the same?",
+      "answer": "No. Soluble tapioca fiber is commonly a resistant dextrin processed to resist much of digestion."
+    },
+    {
+      "question": "Does soluble tapioca fiber count as fiber?",
+      "answer": "Qualifying resistant dextrin/resistant maltodextrin ingredients can count as dietary fiber in the United States."
+    },
+    {
+      "question": "Does it have less glycemic impact than tapioca starch?",
+      "answer": "Yes for the genuinely resistant fraction, because it is not rapidly digested to glucose."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — GRAS Notice 1045 Resistant dextrin from tapioca",
+      "url": "https://www.fda.gov/media/161882/download",
+      "note": "Describes identity, manufacturing, and dietary-fiber category."
+    },
+    {
+      "name": "FDA — GRN No. 1045",
+      "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=1045&set=GRASNotices",
+      "note": "Summarizes intended uses as a fiber source."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food-science comparison of cassava root, tapioca starch powder and soluble tapioca fiber powder with digestible versus resistant glucose-chain diagrams, no brands.",
+    "alt": "Soluble tapioca fiber compared with tapioca starch"
+  },
+  "status": "publish"
+}
