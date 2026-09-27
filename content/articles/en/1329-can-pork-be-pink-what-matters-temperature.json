@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "id": "en-1329-can-pork-be-pink-what-matters-temperature",
+  "article_number": 1329,
+  "translation_group": "1329-pink-pork-safe-temperature",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; cooked whole-muscle pork evaluated by internal temperature rather than color.",
+  "title": "Can Pork Be Pink? What Matters More Than Color",
+  "slug": "can-pork-be-pink-what-matters-temperature",
+  "seo": {
+    "title": "Can Pork Be Pink and Still Be Safe? Temperature Matters More",
+    "meta_description": "Yes. Whole cuts of pork can remain pink and still be safe if they reach the proper internal temperature. USDA recommends 145°F/63°C plus a 3-minute rest for chops, steaks, and roasts; ground pork should reach 160°F/71°C.",
+    "search_intent": "Understand whether pink pork can be safely cooked, which internal temperatures apply, and why meat color is not a reliable doneness test."
+  },
+  "excerpt": "Yes, a whole cut of pork can remain slightly pink in the center and still be properly cooked. USDA says pork chops, steaks, and roasts can be removed from heat at 145 °F (62.8 °C) and rested for at least three minutes. Ground pork requires 160 °F (71.1 °C). Color depends on pigments, pH, ingredients, and cooking method, so a thermometer is more reliable than waiting for every trace of pink to disappear.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "pork",
+      "food-safety",
+      "cooking-temperature"
+    ],
+    "article_types": [
+      "food-safety",
+      "cooking-science",
+      "myths-faq"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>Yes, a whole cut of pork can remain slightly pink and still be safe when it has reached the correct internal temperature.</strong> Color is not a thermometer.</p><p>USDA recommends a minimum of 145 °F (62.8 °C) for pork chops, steaks, and roasts, followed by at least a three-minute rest before carving or eating.</p><h2>Pink color can remain at a safe temperature</h2><p>Meat color comes largely from myoglobin and from how that pigment responds to heat, oxygen, acidity, and other compounds.</p><p>Two pork chops reaching the same internal temperature can finish with visibly different colors.</p><p>USDA specifically states that fresh pork can remain pink even after reaching a safe minimum temperature.</p><h2>Whole cuts: 145 °F plus a three-minute rest</h2><p>The current U.S. recommendation for whole-muscle pork is 145 °F measured in the thickest part, followed by at least three minutes of rest.</p><p>Resting gives the time-temperature combination additional opportunity to reduce pathogens while the meat remains hot.</p><p>You can cook pork further for personal preference, but safety does not require turning every chop uniformly gray.</p><h2>Ground pork follows a different rule</h2><p>USDA recommends 160 °F (71.1 °C) for ground pork.</p><p>Grinding can distribute surface bacteria throughout the mixture, so the intact-muscle logic does not transfer directly to pork burgers, fresh sausage, or other ground products.</p><p>Stuffed or mixed products should follow the specific guidance for the whole dish.</p><h2>Cooking method changes color</h2><p>Roasting, sous vide, smoking, pan-searing, and acidic marinades create different chemical environments.</p><p>Smoking can produce a persistent pink smoke ring as meat pigments react with nitrogen compounds.</p><p>The reverse can happen too: pork can look brown before it has reached a safe internal temperature.</p><h2>A thermometer gives the useful answer</h2><p>Insert a food thermometer into the thickest part while avoiding bone and large fat pockets. For thin chops, inserting the probe from the side can be easier.</p><p>Check more than one location when the cut has uneven thickness.</p><p>This directly measures the factor used in safety guidance rather than relying on appearance.</p><h2>What about trichinosis?</h2><p>Historical fear of undercooked pork was strongly linked to <em>Trichinella</em>. Modern commercial production controls have greatly reduced that risk in many countries.</p><p>Validated time-temperature recommendations account for relevant pathogens when applied correctly.</p><p>Wild boar and pork from production systems with different exposure can carry different risks and may require more specific guidance.</p><h2>Pink is not the same as cold and raw</h2><p>A verified lightly pink center is different from meat that is still cold, translucent, or obviously raw inside.</p><p>If you do not have a thermometer and the center appears raw, continuing to cook is safer than guessing.</p><p>A simple digital thermometer removes most of that uncertainty.</p><h2>Pink juices are not literally blood</h2><p>Liquid released from cooked meat is mostly water mixed with proteins and pigments such as myoglobin.</p><p>Resting redistributes moisture and can slightly change how pink the meat looks when sliced.</p><p><strong>The practical rule:</strong> for whole cuts of pork, trust temperature and time rather than chasing a completely gray color. USDA uses 145 °F plus a three-minute rest; ground pork should reach 160 °F.</p>",
+  "faq": [
+    {
+      "question": "Can pork be pink and safe?",
+      "answer": "Yes. USDA confirms that whole-muscle pork can remain pink after reaching a safe internal temperature."
+    },
+    {
+      "question": "What temperature should pork chops reach?",
+      "answer": "USDA recommends 145°F (63°C) followed by at least a 3-minute rest."
+    },
+    {
+      "question": "What about ground pork?",
+      "answer": "Ground pork should reach 160°F (71°C)."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Is pink pork safe?",
+      "url": "https://ask.fsis.usda.gov/article/Is-pink-pork-safe",
+      "note": "Confirma que el cerdo puede seguir rosado a temperatura segura y establece 145 °F con reposo para cortes enteros y 160 °F para picado."
+    },
+    {
+      "name": "USDA FSIS — Safe Minimum Internal Temperature Chart",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/safe-temperature-chart",
+      "note": "Tabla oficial de temperaturas internas mínimas para cerdo y otras carnes."
+    }
+  ],
+  "image": {
+    "concept": "Editorial cooking photograph of a sliced pork chop with a light pink center beside a digital thermometer reading 145°F/63°C, no brands.",
+    "alt": "Slightly pink pork chop at a verified safe internal temperature"
+  },
+  "status": "publish"
+}
