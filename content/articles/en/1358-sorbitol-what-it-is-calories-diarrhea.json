@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1358-sorbitol-calories-gi",
+  "article_number": 1358,
+  "translation_group": "1358-sorbitol-calories-gi",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; sorbitol as a naturally occurring and manufactured sugar alcohol used as sweetener and humectant.",
+  "title": "Sorbitol: What It Is, How Many Calories It Has, and Why It Can Cause Diarrhea",
+  "slug": "sorbitol-what-it-is-calories-diarrhea",
+  "seo": {
+    "title": "Sorbitol: Calories, Blood Sugar, and Why It Can Cause Diarrhea",
+    "meta_description": "Sorbitol is a sugar alcohol that is less sweet than sugar and incompletely absorbed. FDA uses 2.6 calories per gram for U.S. labeling. The unabsorbed fraction draws water into the intestine and is fermented in the colon, so larger doses can cause gas, bloating, and diarrhea.",
+    "search_intent": "Understand what sorbitol is, where it is found, how many calories it provides, how it affects glucose, and why it can trigger gastrointestinal symptoms."
+  },
+  "excerpt": "Sorbitol is a sugar alcohol found naturally in selected fruits and manufactured for sugar-free candy, gum, baked goods, oral-care products, and liquid medicines. It is incompletely absorbed, provides fewer calories than sucrose, and causes a smaller glucose response. The same incomplete absorption explains its osmotic and laxative effects when intake exceeds individual tolerance.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "sorbitol",
+      "polyols",
+      "sweeteners"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "food-labels"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Sorbitol is a sugar alcohol that is less sweet than sucrose and only partly absorbed in the small intestine.</strong> This gives it fewer calories and a smaller immediate glucose effect than sugar, while also creating a dose-dependent risk of gastrointestinal symptoms.</p><p>Ingredient lists may call it sorbitol or glucitol.</p><h2>Where sorbitol is found</h2><p>Sorbitol occurs naturally in apples, pears, peaches, plums, and selected dried fruits. Commercial sorbitol is commonly produced by hydrogenating glucose.</p><p>Food manufacturers use it in sugar-free gum, candy, cookies, diabetic-style products, toothpaste, and liquid formulations because it supplies sweetness, bulk, and moisture retention.</p><p>FDA lists sorbitol among sugar alcohols used as sugar substitutes.</p><h2>How many calories does sorbitol provide?</h2><p>For U.S. Nutrition Facts calculations, FDA uses a specific factor of 2.6 calories per gram for sorbitol, compared with 4 calories per gram for ordinary digestible carbohydrate.</p><p>The lower value reflects incomplete absorption and different metabolism.</p><p>Sorbitol is therefore lower-calorie rather than calorie-free. A large serving can still contribute meaningful energy.</p><h2>Why the blood-glucose response is smaller</h2><p>Sorbitol is absorbed more slowly and incompletely than glucose. Absorbed sorbitol can enter metabolic pathways that eventually generate fructose and other intermediates rather than appearing immediately as a large glucose load.</p><p>FDA notes that sugar alcohols do not produce the same sudden blood-glucose increase as sugar.</p><p>A sugar-free food can still contain starch, flour, or other available carbohydrates, so the complete label matters.</p><h2>Why sorbitol can cause diarrhea</h2><p>Unabsorbed sorbitol remains osmotically active and draws water into the intestinal lumen. When it reaches the colon, microbes can ferment it and generate gas.</p><p>The combination of extra water and fermentation can cause rumbling, bloating, cramping, loose stools, and diarrhea.</p><p>Classic absorption studies found increased breath hydrogen even with 5 grams in some adults and progressively more symptoms as the dose increased.</p><h2>Tolerance varies widely</h2><p>A person may tolerate a small amount spread across several pieces of gum but develop symptoms after a large single serving of sugar-free candy.</p><p>Polyol malabsorption also increases when several sugar alcohols are consumed together. Systematic reviews describe a clear dose relationship for GI effects.</p><p>People with IBS can be particularly sensitive because sorbitol is a FODMAP carbohydrate.</p><h2>Why manufacturers use sorbitol as a humectant</h2><p>Sorbitol attracts and retains water, helping products such as soft candy, baked goods, shredded coconut, and fillings stay moist during storage.</p><p>This technical role means sorbitol can appear even when its main purpose is not sweetness.</p><p>Its low crystallization tendency can also help maintain a smooth texture.</p><h2>How to interpret a laxative warning</h2><p>Warnings about excessive consumption reflect the same incomplete absorption that gives polyols their lower calorie value.</p><p>There is no single symptom threshold that applies to everyone because dose, meal context, adaptation, and individual sensitivity all matter.</p><p><strong>The practical rule:</strong> sorbitol can reduce sugar and calories, but incomplete absorption is a tradeoff. If a sugar-free food causes gas or diarrhea, check both the polyol amount and how much you consumed at one time.</p>",
+  "faq": [
+    {
+      "question": "How many calories does sorbitol have?",
+      "answer": "FDA uses 2.6 calories per gram for U.S. Nutrition Facts calculations."
+    },
+    {
+      "question": "Why can sorbitol cause diarrhea?",
+      "answer": "Unabsorbed sorbitol draws water into the intestine and is then fermented by colonic microbes."
+    },
+    {
+      "question": "Is sorbitol a FODMAP?",
+      "answer": "Yes. It is a fermentable polyol that can trigger symptoms in sensitive people, especially some people with IBS."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Aspartame and Other Sweeteners in Food",
+      "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food",
+      "note": "Lists sorbitol among sugar alcohol sweeteners."
+    },
+    {
+      "name": "FDA — Nutrition Facts Small Entity Compliance Guide",
+      "url": "https://www.fda.gov/media/134505/download?attachment=",
+      "note": "Uses 2.6 kcal/g for sorbitol."
+    },
+    {
+      "name": "PubMed — Systematic review of polyols and gastrointestinal health",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28710145/",
+      "note": "Reviews dose-dependent malabsorption and GI effects."
+    },
+    {
+      "name": "PubMed — Sorbitol intolerance",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6847853/",
+      "note": "Human absorption and symptom study at multiple doses."
+    }
+  ],
+  "image": {
+    "concept": "Editorial sweetener image of sorbitol crystals beside sugar-free gum and fruit with an intestinal water-and-fermentation diagram, no brands.",
+    "alt": "Sorbitol in sugar-free foods and its osmotic intestinal effect"
+  },
+  "status": "publish"
+}
