@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1350-gos-microbiota",
+  "article_number": 1350,
+  "translation_group": "1350-galactooligosaccharides-microbiota",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; galactooligosaccharides produced from lactose and used as prebiotic ingredients.",
+  "title": "Galactooligosaccharides (GOS): What They Are, Where They Come From, and How They Affect the Microbiota",
+  "slug": "galactooligosaccharides-gos-what-they-are-microbiota",
+  "seo": {
+    "title": "GOS: What They Are, How They Are Made, and Gut Effects",
+    "meta_description": "Galactooligosaccharides are short galactose chains usually produced from lactose using beta-galactosidase enzymes. They resist digestion and reach the colon, where they preferentially support bifidobacteria. GOS appear in supplements, foods, and infant formula, although larger doses can cause gas.",
+    "search_intent": "Understand what GOS are, how they are produced from lactose, why they are prebiotics, how they affect gut microbes, and how they are tolerated."
+  },
+  "excerpt": "Galactooligosaccharides, or GOS, are short oligosaccharides made mainly from galactose. Most commercial GOS are produced from lactose using beta-galactosidase enzymes that build new galactose-containing linkages. Human enzymes digest these structures poorly, so much of the ingredient reaches the colon, where bifidobacteria and other microbes can use it.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "galactooligosaccharides",
+      "prebiotics",
+      "functional-ingredients"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "processing-production"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Galactooligosaccharides, or GOS, are short galactose-rich carbohydrates widely used as prebiotic ingredients.</strong> Most commercial GOS are made from lactose with beta-galactosidase enzymes.</p><p>Under the right conditions, the enzyme does more than split lactose. It transfers galactose and creates new bonds, producing a mixture of short oligosaccharides.</p><h2>Why lactose is the usual starting material</h2><p>Lactose contains glucose and galactose and is abundant in dairy whey and permeate streams.</p><p>Beta-galactosidase can use lactose in transgalactosylation reactions, joining galactose units into chains linked to glucose or other galactose units.</p><p>The final syrup can also contain residual lactose, glucose, and galactose depending on purification.</p><h2>GOS are not the same thing as lactose</h2><p>Although the ingredient starts with lactose, its final bonds and chain lengths are different and human digestive enzymes do not hydrolyze them efficiently.</p><p>This allows much of the GOS fraction to reach the colon.</p><p>For people with lactose intolerance, tolerance of a GOS product can also depend on how much residual lactose remains in that specific preparation.</p><h2>Why do GOS qualify as prebiotics?</h2><p>Selected bifidobacteria have specialized transport and enzyme systems that use GOS efficiently.</p><p>Recent reviews place GOS among the best-established prebiotic ingredient groups, while emphasizing that linkage pattern and chain length influence microbial utilization.</p><p>Two commercial GOS mixtures can therefore differ in composition and fermentation behavior.</p><h2>What do they do to the microbiota?</h2><p>Human feeding trials commonly report increases in bifidobacteria after supplementation with selected GOS products.</p><p>Fermentation also generates short-chain fatty acids and can shift the colonic chemical environment.</p><p>An increase in one bacterial group should not be interpreted as a universal treatment effect; clinical benefit depends on the population and outcome being studied.</p><h2>Why are GOS used in infant formula?</h2><p>Human milk oligosaccharides are much more structurally diverse than GOS, but GOS/FOS blends are sometimes added to formula to reproduce selected prebiotic functions.</p><p>A 2025 ESPGHAN technical review concluded that prebiotic-supplemented formulas are generally well tolerated and can change stool consistency and frequency depending on type and dose.</p><p>The review did not find consistent overall benefits for infections, antibiotic use, colic, or allergy in healthy infants.</p><h2>GOS are also used in adult foods</h2><p>They appear in fiber powders, supplements, yogurt, bars, and other functional foods.</p><p>GOS have mild sweetness and useful stability, allowing several grams to be added without overwhelming sweetness.</p><p>Serving sizes vary substantially across products.</p><h2>How well are GOS tolerated?</h2><p>Because they are fermentable, GOS can produce gas and bloating when intake exceeds individual tolerance.</p><p>Reviews of nondigestible carbohydrates show that dose, fermentation rate, baseline microbiota, and other fermentable ingredients all influence symptoms.</p><p>Increasing gradually is often more comfortable than adding several new prebiotic products at once.</p><h2>GOS, FOS, and inulin are not interchangeable</h2><p>All can function as prebiotics, but their sugar building blocks and linkage structures differ.</p><p>That changes which microbes use them, fermentation location, and tolerance.</p><p><strong>The practical rule:</strong> GOS are prebiotic carbohydrates commonly made from lactose, but they are not simply lactose under another name. Their effects depend on structure, purity, dose, and individual microbiota.</p>",
+  "faq": [
+    {
+      "question": "Do GOS contain lactose?",
+      "answer": "Some products contain residual lactose depending on purification, although GOS themselves have different structures."
+    },
+    {
+      "question": "Are GOS prebiotics?",
+      "answer": "Yes. They are among the best-established prebiotic ingredients and commonly support bifidobacteria."
+    },
+    {
+      "question": "Can GOS cause gas?",
+      "answer": "Yes. Larger doses of fermentable GOS can cause gas, bloating, or stool changes in some people."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Prebiotic properties and application of galactooligosaccharides",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41263347/",
+      "note": "Recent review of GOS structure, applications, and prebiotic effects."
+    },
+    {
+      "name": "PubMed — Galactooligosaccharides: synthesis, metabolism and food applications",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36632761/",
+      "note": "Reviews production, metabolism, and food use of GOS."
+    },
+    {
+      "name": "PubMed — ESPGHAN technical review of prebiotic-supplemented infant formula",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40384260/",
+      "note": "2025 technical review of tolerance and clinical outcomes."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food-science image of lactose being enzymatically converted into short GOS chains beside bifidobacteria icons, no brands.",
+    "alt": "GOS production from lactose and use by bifidobacteria"
+  },
+  "status": "publish"
+}
