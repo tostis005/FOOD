@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1310-bone-broth-collagen-protein-how-much",
+  "article_number": 1310,
+  "translation_group": "1310-bone-broth-collagen-protein",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; homemade and commercial bone broth as a variable source of gelatin and collagen-derived protein.",
+  "title": "Bone Broth: What It Is and How Much Collagen and Protein It Really Contains",
+  "slug": "bone-broth-collagen-protein-how-much",
+  "seo": {
+    "title": "Bone Broth: How Much Protein and Collagen Does It Really Have?",
+    "meta_description": "Bone broth is made by simmering bones and connective tissue for hours. It can contain gelatin, collagen-derived peptides, and amino acids, but protein varies widely by recipe. Research shows broth does not reliably provide the same collagen-amino-acid doses used in supplement studies.",
+    "search_intent": "Understand what bone broth contains, how much protein or collagen it can provide, why it gels, and whether it is equivalent to collagen supplements."
+  },
+  "excerpt": "Bone broth is a long-cooked stock made from bones, joints, and connective tissue. Heat converts some collagen into gelatin and releases protein and amino acids into the liquid, but the final concentration depends on bones, water, cooking time, temperature, and reduction. A study analyzing broths found highly variable collagen-related amino acids and generally lower amounts than a 20-g reference dose of collagen supplement.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "bone-broth",
+      "collagen",
+      "broth"
+    ],
+    "article_types": [
+      "nutrition-composition",
+      "cooking-science"
+    ],
+    "primary_article_type": "nutrition-composition"
+  },
+  "content_html": "<p><strong>Bone broth is a long-simmered stock made with bones and collagen-rich connective tissues.</strong> Extended heat converts part of the collagen in cartilage, tendons, skin, and joints into gelatin and smaller protein fragments that move into the liquid.</p><p>This is why a concentrated broth can set into a soft gel in the refrigerator. Gel strength, however, does not tell you an exact number of grams of collagen.</p><h2>The recipe dramatically changes protein concentration</h2><p>Joints, skin, and tendons generally provide more collagen potential than clean mineralized bones. Water-to-bone ratio, cooking time, and evaporation also matter.</p><p>A heavily reduced stock can contain much more protein per cup than a thin broth made with large amounts of water.</p><p>Commercial products add another variable because some use collagen or protein concentrates to reach a target label value.</p><h2>Collagen, gelatin, and collagen peptides are related but different</h2><p>Native collagen is a structural protein organized into a triple helix. Long cooking denatures that structure into gelatin.</p><p>Gelatin keeps the characteristic collagen amino-acid profile, especially glycine, proline, and hydroxyproline.</p><p>Commercial collagen peptides undergo additional hydrolysis, producing smaller fragments that dissolve readily even in cool liquids.</p><h2>How much protein is in one cup?</h2><p>There is no universal answer. Commercial labels range from only a few grams to well over ten grams per serving.</p><p>Homemade broth cannot be quantified accurately without laboratory analysis. A firm refrigerated gel suggests substantial gelatin, but there is no reliable conversion from “how jiggly it is” to grams of protein.</p><p>If exact daily protein tracking matters, a standardized nutrition label is more useful than visual estimation.</p><h2>Bone broth does not reliably equal a collagen-supplement dose</h2><p>A study analyzed common laboratory-prepared and commercial broths and compared key amino acids with a 20-g collagen supplement reference dose.</p><p>Broths varied widely, and standardized recipes generally supplied lower concentrations of glycine, proline, hydroxyproline, and other relevant amino acids than the reference supplement.</p><p>This does not make broth useless; it means broth is not a standardized collagen dosing system.</p><h2>What about calcium from the bones?</h2><p>Some minerals can move into broth, especially with long cooking and acidic ingredients, but amounts vary too much to assume bone broth is automatically a strong calcium source.</p><p>A food containing bones during preparation is not equivalent to eating the bone mineral itself.</p><p>For calcium goals, foods with measured content such as dairy, fortified alternatives, or selected fish are more predictable.</p><h2>Sodium may be more nutritionally important</h2><p>Many commercial broths contain substantial sodium. A mug used as a beverage can contribute a meaningful part of daily sodium intake.</p><p>High-protein bone broths may also contain added protein concentrate, so check both the ingredient list and Nutrition Facts.</p><p>Homemade broth gives more control over salt and final reduction.</p><h2>Where bone broth fits in a diet</h2><p>It is a flavorful liquid that can provide water, some protein, and cooking-derived compounds and works well in soups, sauces, grains, and stews.</p><p>As a primary protein food, it is less predictable than meat, fish, eggs, dairy, tofu, or legumes.</p><p><strong>The practical rule:</strong> bone broth can contain meaningful gelatin and protein, but there is no universal collagen dose per cup. When a precise amount matters, rely on a tested product label or standardized supplement rather than the broth's thickness.</p>",
+  "faq": [
+    {
+      "question": "Does bone broth contain collagen?",
+      "answer": "It contains collagen that has been converted largely into gelatin and smaller protein fragments, but the amount varies widely."
+    },
+    {
+      "question": "Is one cup equivalent to collagen powder?",
+      "answer": "Not reliably. Research shows broths can contain much smaller and more variable amounts of collagen-related amino acids than supplement doses."
+    },
+    {
+      "question": "Is bone broth high in calcium?",
+      "answer": "Not necessarily. Mineral content depends greatly on preparation and should not be assumed from the presence of bones."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Bone Broth Unlikely to Provide Reliable Concentrations of Collagen Precursors",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/29893587/",
+      "note": "Analiza caldos y encuentra aminoácidos de colágeno variables y generalmente inferiores a una dosis de 20 g de suplemento de referencia."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Permite comprobar proteína y sodio de productos de caldo comerciales concretos, que varían ampliamente."
+    }
+  ],
+  "image": {
+    "concept": "Editorial cooking photograph of long-simmered bone broth, cooled broth set into a soft gel, and collagen-rich joint bones, no brands or graphic imagery.",
+    "alt": "Hot bone broth and refrigerated gelled broth"
+  },
+  "status": "publish"
+}
