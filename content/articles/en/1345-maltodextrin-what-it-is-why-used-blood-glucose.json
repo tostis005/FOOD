@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1345-maltodextrin-glucose",
+  "article_number": 1345,
+  "translation_group": "1345-maltodextrin-glucose",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; digestible maltodextrin used as a food ingredient and rapidly available carbohydrate.",
+  "title": "Maltodextrin: What It Is, Why It Is Used, and How It Affects Blood Glucose",
+  "slug": "maltodextrin-what-it-is-why-used-blood-glucose",
+  "seo": {
+    "title": "Maltodextrin: What It Is, Why Foods Use It, and Blood Glucose",
+    "meta_description": "Maltodextrin is a mixture of short glucose chains made by partially hydrolyzing starch. It is soluble, only mildly sweet, and useful for bulking, flavor delivery, powders, sauces, and sports products. Conventional maltodextrin is rapidly digested and can produce a strong glucose response.",
+    "search_intent": "Understand what maltodextrin is, how it is made, why food manufacturers use it, and how it behaves metabolically compared with other carbohydrates."
+  },
+  "excerpt": "Maltodextrin is a carbohydrate made by partially breaking down starch from corn, potato, rice, wheat, or other sources into shorter glucose chains. It dissolves easily, is only mildly sweet, and works well for adding body, carrying flavors, drying ingredients, and providing rapidly available carbohydrate. Unlike resistant dextrin, ordinary maltodextrin is readily digested and can raise blood glucose quickly.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "maltodextrin",
+      "carbohydrates",
+      "food-additives"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "processing-production"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Maltodextrin is a mixture of short glucose chains produced by partially hydrolyzing starch.</strong> The technical name starts from familiar raw materials such as corn, potato, rice, wheat, or other starch-rich crops.</p><p>Processing cuts large starch molecules into smaller fragments that dissolve readily and have relatively little sweetness.</p><h2>How maltodextrin is made</h2><p>Starch is treated with enzymes or acid to break selected bonds between glucose units.</p><p>The hydrolysis is stopped before the material becomes pure glucose, leaving a mixture of chains with different lengths.</p><p>The purified syrup is commonly spray-dried into a white powder.</p><h2>Why is it used in so many foods?</h2><p>Maltodextrin adds bulk without intense sweetness. It can improve texture, carry flavors, disperse oils, stabilize dry powders, and make spray-drying easier.</p><p>It can increase solids in sauces and beverages without creating an obviously sugary taste.</p><p>Sports products also use it because large amounts of carbohydrate can be dissolved without extreme sweetness.</p><h2>It is not table sugar, but digestion releases glucose</h2><p>Sucrose contains glucose plus fructose. Maltodextrin is composed almost entirely of linked glucose units.</p><p>Digestive enzymes rapidly break many of those bonds and release absorbable glucose.</p><p>Metabolically, conventional maltodextrin therefore behaves much more like accessible starch than dietary fiber.</p><h2>Blood glucose can rise quickly</h2><p>Nutrition reviews describe maltodextrin as rapidly digested and absorbed and note that replacing less processed starch with maltodextrin can increase glycemic load and post-meal glucose.</p><p>The actual response depends on dose, the rest of the meal, activity, and individual metabolic status.</p><p>During prolonged exercise, rapid carbohydrate delivery may be useful; at a sedentary snack, the same property may offer no special advantage.</p><h2>Low sweetness does not mean low carbohydrate</h2><p>Sweet taste depends on receptor activation, while glycemic response depends on digestion and absorption.</p><p>An ingredient can taste barely sweet and still deliver glucose rapidly.</p><p>Digestible maltodextrin contributes roughly 4 calories per gram like other available carbohydrates.</p><h2>Why athletes use it</h2><p>High solubility makes it practical for drinks, gels, and recovery powders containing substantial carbohydrate.</p><p>During long-duration exercise, available carbohydrate helps maintain fuel supply and supports glycogen replacement.</p><p>Outside that context, maltodextrin is simply one way to deliver carbohydrate rather than an inherently superior nutrient.</p><h2>Maltodextrin and resistant maltodextrin are not the same</h2><p>Ordinary maltodextrin is readily digestible. Resistant maltodextrin or resistant dextrin is processed to contain bonds that human enzymes cannot efficiently break and can qualify as dietary fiber.</p><p>The word resistant completely changes the metabolic interpretation.</p><p>A label listing only maltodextrin should not be assumed to mean fiber.</p><h2>What about claims that maltodextrin harms the gut?</h2><p>Experimental research has raised questions about microbiota and intestinal-barrier effects, but human clinical evidence remains limited and heterogeneous.</p><p>A systematic review of trials using maltodextrin as a placebo found that it may not be physiologically inert in every context.</p><p>That finding does not establish that ordinary food amounts are harmful to everyone.</p><h2>How to interpret it on a label</h2><p>Ingredient order gives a rough indication of how much is used relative to other ingredients.</p><p>Its digestible carbohydrate contribution appears within total carbohydrate on Nutrition Facts.</p><p><strong>The practical rule:</strong> maltodextrin is a functional, rapidly digestible carbohydrate. It can be useful for food texture or fast fuel, but it is not fiber and it is not metabolically invisible just because it tastes only mildly sweet.</p>",
+  "faq": [
+    {
+      "question": "Does maltodextrin raise blood sugar?",
+      "answer": "It can raise glucose quickly because its glucose chains are readily digested."
+    },
+    {
+      "question": "Is maltodextrin sugar?",
+      "answer": "It is not sucrose or free glucose, but it is made of short glucose chains and contributes available carbohydrate."
+    },
+    {
+      "question": "Is resistant maltodextrin the same thing?",
+      "answer": "No. Resistant maltodextrin contains poorly digestible bonds and can function as dietary fiber."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Nutrition, Health, and Regulatory Aspects of Digestible Maltodextrins",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25674937/",
+      "note": "Reviews production, rapid digestion, metabolism, and glycemic implications."
+    },
+    {
+      "name": "PubMed — Validity of maltodextrin as placebo and effects on human gut physiology",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35230477/",
+      "note": "Systematic review of human trials examining physiological and microbial effects."
+    }
+  ],
+  "image": {
+    "concept": "Editorial ingredient photograph of white maltodextrin powder beside a sports drink, sauce mix, and a simple glucose-chain diagram, no brands.",
+    "alt": "Maltodextrin powder used in sports drinks and processed foods"
+  },
+  "status": "publish"
+}
