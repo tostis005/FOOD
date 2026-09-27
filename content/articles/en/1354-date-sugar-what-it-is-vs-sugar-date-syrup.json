@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1354-date-sugar-vs-syrup",
+  "article_number": 1354,
+  "translation_group": "1354-date-sugar-vs-syrup",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; date sugar as dried date powder or date-derived sweetener compared with refined sugar and date syrup.",
+  "title": "Date Sugar: What It Is and How It Differs From Sugar and Date Syrup",
+  "slug": "date-sugar-what-it-is-vs-sugar-date-syrup",
+  "seo": {
+    "title": "Date Sugar: What It Is and How It Differs From Date Syrup",
+    "meta_description": "Date sugar commonly means dried, ground dates, so it can retain some fiber, minerals, and polyphenols from the fruit. It does not dissolve like sucrose and remains rich in glucose and fructose. Date syrup is different: soluble sugars are extracted and concentrated, leaving much less fiber.",
+    "search_intent": "Understand what date sugar is, whether it retains fiber, how it compares with white sugar, and why it differs from date syrup."
+  },
+  "excerpt": "“Date sugar” commonly refers to dried dates ground into powder, although commercial terminology is not perfectly standardized. When the product is whole dried fruit, it retains some fiber, minerals, and polyphenols from the date. It is still highly concentrated in naturally occurring sugars, especially glucose and fructose. Date syrup is produced differently by extracting soluble sugars and concentrating the liquid.",
+  "taxonomy": {
+    "food_family": "fruits",
+    "food_subcategories": [
+      "dates",
+      "date-sugar",
+      "date-syrup"
+    ],
+    "article_types": [
+      "comparisons",
+      "processing-production"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p><strong>Date sugar usually means dried dates ground into a powder rather than purified sugar crystals extracted from the fruit.</strong> That distinction matters because whole-fruit powder can retain components that white sugar lacks, including some fiber and plant compounds.</p><p>Commercial naming is not fully standardized, so the ingredient list is the best way to confirm what a product actually contains.</p><h2>How traditional date sugar is made</h2><p>Dates are dried until moisture is low enough for milling and then ground into fine particles.</p><p>Industrial processes can use oven drying, hot air, or spray-drying approaches with ingredients that reduce stickiness. Research on date powders shows that cultivar and drying method affect moisture, fiber, color, and phenolic content.</p><p>If the only ingredient is dried dates, the powder behaves more like pulverized fruit than chemically pure sucrose.</p><h2>It is still highly concentrated in sugars</h2><p>Ripe dates contain a high proportion of simple carbohydrates, mainly glucose and fructose, with sucrose also important in selected cultivars.</p><p>Removing water concentrates those sugars substantially per spoonful.</p><p>Fruit origin does not remove the calories or mean a recipe containing a large amount is no longer sugar-rich.</p><h2>Fiber is a real difference from white sugar</h2><p>Refined sucrose contains essentially no dietary fiber. Whole-date powder can retain a portion of the fruit's cell-wall material.</p><p>That contributes fiber and changes texture, but the powder still does not reproduce the full structure and water content of eating intact dates.</p><p>Some commercial powders are more processed or contain drying aids, so the Nutrition Facts panel is worth checking.</p><h2>Why date sugar does not dissolve like table sugar</h2><p>White sugar is crystalline sucrose and dissolves completely in water. Date powder contains insoluble fiber particles and other fruit solids.</p><p>It can leave sediment in coffee, add body to sauces, and darken or change moisture in baked foods.</p><p>A one-for-one replacement therefore does not always reproduce the texture of sucrose.</p><h2>Date sugar and date syrup are different products</h2><p>Date syrup is typically made by crushing or extracting date flesh with water, separating solid material, and concentrating the sugar-rich liquid.</p><p>A 2026 review describes multiple extraction and evaporation approaches that change composition and flavor.</p><p>Removing much of the insoluble material means syrup generally contains far less fiber than whole-date powder.</p><h2>Date syrup is usually dominated by glucose and fructose</h2><p>Recent compositional analyses of commercial date syrups show that monosaccharides make up most of the sugar fraction, although proportions vary.</p><p>Research on Barhi date syrups found glucose-to-fructose ratios close to one-to-one under selected processing conditions.</p><p>This helps explain the syrup's high sweetness and easy solubility.</p><h2>Is date sugar better than white sugar?</h2><p>Whole-date powder can provide more fiber, potassium, and phenolic compounds than refined sucrose. That is a meaningful compositional difference.</p><p>Those nutrients come packaged with a high concentration of fruit sugars, so date sugar is not the most efficient way to meet fiber or mineral needs.</p><p>Its strongest advantages are culinary and structural: caramel-like flavor, fruit solids, and retention of part of the original food matrix.</p><h2>What to check before buying</h2><p>Look for a one-ingredient product listing dates or date powder if you want whole-fruit material.</p><p>If extracts, syrups, maltodextrin, or processing aids appear prominently, the final nutrition can be quite different.</p><p><strong>The practical rule:</strong> date sugar can retain more of the fruit than white sugar, but it is still concentrated in sugars. Date syrup is different again because it concentrates mainly the soluble fraction.</p>",
+  "faq": [
+    {
+      "question": "Does date sugar contain fiber?",
+      "answer": "If it is made from whole dried dates, it can retain some fiber, although the amount varies by product."
+    },
+    {
+      "question": "Can date sugar replace white sugar one-for-one?",
+      "answer": "Not always. It does not dissolve completely and can change moisture, color, and texture."
+    },
+    {
+      "question": "Is date sugar the same as date syrup?",
+      "answer": "No. Date syrup concentrates extracted soluble sugars and generally contains much less fiber."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Impact of drying methods on date powder",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31367363/",
+      "note": "Examines sugar, fiber, phenolics, and physical properties of date powders."
+    },
+    {
+      "name": "PubMed — Comprehensive review on date syrup",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42450518/",
+      "note": "2026 review of date-syrup production, composition, and applications."
+    },
+    {
+      "name": "PubMed — Effects of extraction and evaporation on date syrups",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36981193/",
+      "note": "Compares date-syrup processing and composition."
+    }
+  ],
+  "image": {
+    "concept": "Editorial sweetener comparison showing whole dates, fine date powder, white sugar, and glossy date syrup in separate bowls, no brands.",
+    "alt": "Date sugar powder compared with white sugar and date syrup"
+  },
+  "status": "publish"
+}
