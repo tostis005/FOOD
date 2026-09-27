@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1308-protein-coffee-proffee-what-changes",
+  "article_number": 1308,
+  "translation_group": "1308-protein-coffee-proffee",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; coffee mixed with whey protein, high-protein milk, or ready-to-drink protein shakes.",
+  "title": "Protein Coffee or Proffee: What It Is and What Changes When You Add Protein",
+  "slug": "protein-coffee-proffee-what-changes",
+  "seo": {
+    "title": "Protein Coffee: What Changes When You Add Protein?",
+    "meta_description": "Protein coffee, or proffee, is coffee mixed with whey, high-protein milk, or a protein shake. It adds protein and calories according to the recipe. Hot coffee can denature whey and cause clumps, but denaturation does not destroy the amino acids.",
+    "search_intent": "Understand what protein coffee is, how much protein it can contain, what hot coffee does to whey, and whether it can replace breakfast."
+  },
+  "excerpt": "Protein coffee, or “proffee,” is simply coffee combined with a concentrated protein source such as whey, high-protein milk, plant protein, or a ready-to-drink shake. There is no standard formula. It may add 15–30 g of protein, but it can also add calories, sweeteners, or sugar. Very hot coffee can denature and aggregate whey proteins, causing clumps, without making the protein nutritionally useless.",
+  "taxonomy": {
+    "food_family": "beverages",
+    "food_subcategories": [
+      "coffee",
+      "protein",
+      "whey"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "cooking-science"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Protein coffee, often called “proffee,” is coffee combined with a concentrated protein source.</strong> That can mean whey powder, casein, high-protein milk, plant protein, or a bottled protein shake.</p><p>There is no official recipe. A coffee with a splash of high-protein milk and one made with an entire shake can carry the same social-media name while having very different nutrition.</p><h2>The protein comes from what you add</h2><p>Black coffee contains very little protein. If a drink reaches 20 or 30 grams, nearly all of that protein comes from the powder, milk, or shake.</p><p>A scoop of whey often provides roughly 20–25 grams, while ready-to-drink shakes vary widely.</p><p>“Protein coffee” therefore does not guarantee a particular dose.</p><h2>Heat can cause clumping without destroying the protein</h2><p>Whey proteins are heat-sensitive. As temperature rises, they unfold and can aggregate with one another.</p><p>This is why dry whey dumped directly into very hot coffee may form lumps. Denaturation changes structure and solubility, but it does not make the amino acids disappear.</p><p>Research on heat-treated whey supplements still finds substantial protein digestion and amino-acid release after simulated gastrointestinal digestion.</p><h2>How to make a smoother protein coffee</h2><p>Mix the protein with a small amount of cold or lukewarm liquid first, then add hot coffee gradually.</p><p>Cold brew, iced espresso, or using a ready-to-drink shake as the creamer can be even easier. Casein and plant proteins behave differently from whey, so texture varies.</p><p>Coffee acidity and minerals in the mixture also affect stability.</p><h2>It can turn a nearly calorie-free coffee into a real snack</h2><p>Black coffee contributes very little energy. Twenty-five grams of protein alone represents about 100 calories before milk fat, sugar, syrups, or other ingredients are counted.</p><p>That is not inherently a problem. It may be exactly what someone wants from a more filling breakfast drink.</p><p>The important point is that “high protein” does not automatically mean low calorie or sugar-free.</p><h2>Caffeine and protein do different jobs</h2><p>Caffeine is a stimulant. Protein provides amino acids and helps meet daily protein needs. Combining them does not automatically make either one work better.</p><p>For exercise, protein benefit depends heavily on total daily intake and distribution. Caffeine can be useful before training for some people, but that is a separate nutritional question.</p><p>Total caffeine intake still matters if the drink is added to several other coffees or energy drinks.</p><h2>Does proffee replace breakfast?</h2><p>It can supply a substantial protein dose, but breakfast can also provide fiber, fruit, whole grains, and other nutrients.</p><p>Protein coffee can be part of a meal or a convenient option when appetite is low, but it is not automatically equivalent to a complete breakfast.</p><p>Fullness depends on total volume, energy, fiber, fat, and individual response.</p><h2>What to check on a commercial protein coffee</h2><p>Look at protein per serving, added sugar, calories, and caffeine. A large “protein” claim on the front does not tell you the whole formulation.</p><p><strong>The practical rule:</strong> proffee is a format, not a special nutrient category. It can be a convenient way to add protein, while the nutritional value still depends on the protein source, amount, sweeteners, and what the drink replaces.</p>",
+  "faq": [
+    {
+      "question": "Does hot coffee destroy whey protein?",
+      "answer": "No. Heat can denature whey and cause clumping, but the amino acids remain and the protein can still be digested."
+    },
+    {
+      "question": "How much protein is in protein coffee?",
+      "answer": "It depends on the recipe. A scoop of whey or a full shake often provides around 20–30 g, but labels vary."
+    },
+    {
+      "question": "Can protein coffee replace breakfast?",
+      "answer": "It can provide protein and calories but may lack fiber, fruit, or other components of a balanced meal."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Increasing thermal stability of high-protein whey beverages",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41724475/",
+      "note": "Describe desnaturalización y agregación térmica de proteínas del suero en bebidas de alta proteína."
+    },
+    {
+      "name": "PubMed — Whey-based sports supplements: heat damage and digestion",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39059896/",
+      "note": "Muestra que el daño térmico y desnaturalización no eliminan la liberación de aminoácidos tras digestión simulada."
+    },
+    {
+      "name": "PubMed — International Society of Sports Nutrition position stand: protein and exercise",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28642676/",
+      "note": "Contexto sobre importancia de proteína diaria total y distribución en personas activas."
+    }
+  ],
+  "image": {
+    "concept": "Editorial coffee photograph showing espresso poured into a chilled protein shake and a second cup with protein powder mixed smoothly, no brands.",
+    "alt": "Protein coffee prepared with whey and a ready-to-drink protein shake"
+  },
+  "status": "publish"
+}
