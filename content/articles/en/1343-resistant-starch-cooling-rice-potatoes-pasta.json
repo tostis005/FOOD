@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1343-resistant-starch-cooling",
+  "article_number": 1343,
+  "translation_group": "1343-resistant-starch-cooling",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; resistant starch in foods and formation through cooking, chilling, and reheating.",
+  "title": "Resistant Starch: What It Is and What Changes When You Cool Rice, Potatoes, or Pasta",
+  "slug": "resistant-starch-cooling-rice-potatoes-pasta",
+  "seo": {
+    "title": "Resistant Starch: What Cooling Rice, Potatoes, and Pasta Does",
+    "meta_description": "Resistant starch escapes digestion in the small intestine. Cooking and cooling rice, potatoes, or pasta allows some gelatinized starch to retrograde into less enzyme-accessible RS3. The increase is real but variable and does not remove most of the food's digestible carbohydrate.",
+    "search_intent": "Understand resistant starch, why cooling cooked starch increases it, whether reheating destroys it, and what the change means for glucose response and gut fermentation."
+  },
+  "excerpt": "Resistant starch is the fraction of starch that is not fully digested in the small intestine and reaches the colon. One form, RS3, develops when cooked gelatinized starch reorganizes during cooling. This is why cooked-and-chilled rice, pasta, and potatoes often contain more resistant starch than the same foods freshly cooked. The increase is real but does not turn them into low-carbohydrate foods.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "resistant-starch",
+      "starch",
+      "cooling"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "cooking-science"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Resistant starch is starch that escapes digestion in the small intestine and reaches the colon without being fully converted to absorbed glucose.</strong> There it can be fermented by gut microbes and behave physiologically like selected dietary fibers.</p><p>One of the best-known forms develops after a starchy food is cooked and then cooled long enough for part of the gelatinized starch to reorganize.</p><h2>Resistant starch is not one single structure</h2><p>Traditional categories include RS1 trapped physically inside food structures, RS2 in selected native starch granules, RS3 formed through retrogradation, RS4 created by chemical modification, and RS5 involving starch-lipid complexes.</p><p>This is why green bananas, legumes, raw potato starch, bread, and chilled rice can contain resistant starch for very different structural reasons.</p><p>The categories also differ in how quickly gut microbes ferment them.</p><h2>Cooking usually makes starch easier to digest</h2><p>When rice, pasta, or potatoes are heated with water, starch granules absorb moisture, swell, and gelatinize.</p><p>This disrupts crystalline structure and gives digestive amylase much easier access to starch chains.</p><p>Freshly cooked starch is therefore generally more digestible than the tightly packed raw granule.</p><h2>Cooling creates retrograded starch</h2><p>As temperature drops, some amylose and amylopectin chains begin associating again into more ordered structures.</p><p>Part of that retrograded material becomes less accessible to digestive enzymes and is classified as RS3.</p><p>The process develops over hours and depends on starch type, amylose content, moisture, and storage temperature.</p><h2>Rice, pasta, and potatoes can all gain RS during chilling</h2><p>Reviews of commonly consumed foods find that cooking followed by cooling generally increases resistant starch compared with eating the food freshly cooked.</p><p>The magnitude varies greatly between varieties and preparation methods.</p><p>There is no reliable rule that cooling cuts available carbohydrate by a fixed percentage.</p><h2>Does reheating destroy the resistant starch?</h2><p>Not necessarily. Some RS3 formed during refrigeration can remain after moderate reheating.</p><p>Final levels depend on reheating temperature, duration, moisture, and whether the food has gone through repeated cooling cycles.</p><p>A reheated portion can still contain more RS than it did immediately after the original cooking.</p><h2>Glycemic response may decrease, but not in every meal</h2><p>Less enzyme-accessible starch means a slightly smaller fraction is rapidly converted to glucose.</p><p>Some acute studies report lower post-meal glucose responses after cooling and reheating, but rice variety, texture, serving size, fat, protein, and other meal components all influence the outcome.</p><p>Most starch remains digestible, so the food is still a meaningful carbohydrate source.</p><h2>In the colon, resistant starch becomes fermentable substrate</h2><p>Gut microbes can ferment resistant starch and produce short-chain fatty acids including butyrate.</p><p>Different RS structures favor different microbial responses, and individuals vary substantially.</p><p>A sudden large increase can also produce gas or bowel changes.</p><h2>Do not create resistant starch by unsafe cooling</h2><p>Cooked rice and other moist foods should be cooled promptly and refrigerated rather than left warm for hours.</p><p><em>Bacillus cereus</em> can grow in improperly held cooked rice, and reheating may not correct every problem caused by poor storage.</p><p><strong>The practical rule:</strong> chilling can convert a modest fraction of digestible starch into RS3, but the effect is variable. It changes starch structure rather than erasing the carbohydrates in the meal.</p>",
+  "faq": [
+    {
+      "question": "Does cooling rice increase resistant starch?",
+      "answer": "Usually yes. Cooling promotes retrogradation and formation of some RS3, although the amount varies."
+    },
+    {
+      "question": "Does reheating destroy it?",
+      "answer": "Not necessarily. A portion of the resistant starch formed during chilling can survive moderate reheating."
+    },
+    {
+      "question": "Is cold rice low carb?",
+      "answer": "No. Most of its starch remains digestible; only a fraction becomes resistant."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Resistant Starch Content in Foods Commonly Consumed in the United States",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32040399/",
+      "note": "Reviews resistant starch in foods and reports higher values after cooking and chilling."
+    },
+    {
+      "name": "PubMed — New definition of resistant starch types from the gut microbiota perspective",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35075962/",
+      "note": "Reviews resistant-starch types and microbial fermentation differences."
+    },
+    {
+      "name": "PubMed — Resistant starch structure and physiological function",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27646607/",
+      "note": "Explains resistance in native and retrograded starch structures."
+    },
+    {
+      "name": "FoodSafety.gov — 4 Steps to Food Safety",
+      "url": "https://www.foodsafety.gov/keep-food-safe/4-steps-to-food-safety",
+      "note": "General safe chilling and refrigeration guidance."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food-science photograph of freshly cooked rice, pasta and potatoes beside chilled versions with a starch-chain retrogradation diagram, no brands.",
+    "alt": "Cooked and chilled rice, pasta, and potatoes forming resistant starch"
+  },
+  "status": "publish"
+}
