@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "en-1309-sea-moss-what-it-is-nutrients-popularity",
+  "article_number": 1309,
+  "translation_group": "1309-sea-moss-nutrients-popularity",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; products sold as sea moss, Irish moss, dried red seaweed, powders, supplements, and gels.",
+  "title": "Sea Moss: What It Is, What Nutrients It Contains, and Why It Became Popular",
+  "slug": "sea-moss-what-it-is-nutrients-popularity",
+  "seo": {
+    "title": "Sea Moss: What It Is, Nutrients, and What the Hype Misses",
+    "meta_description": "Sea moss often refers to red seaweeds such as Chondrus crispus or Gracilaria sold dried or as gel. They contain minerals and polysaccharides, but iodine, metals, and microbial quality vary widely. Broad disease-treatment claims are not supported by strong clinical evidence.",
+    "search_intent": "Understand what sea moss is, which seaweeds are sold under the name, what nutrients it may provide, why it became popular, and what iodine, metal, and quality risks matter."
+  },
+  "excerpt": "“Sea moss” is a market term rather than one standardized species or nutrient profile. It often refers to Irish moss, <em>Chondrus crispus</em>, but other red seaweeds are also sold dried, powdered, encapsulated, or as gel. These seaweeds contain polysaccharides and minerals including iodine, yet concentrations vary greatly. Recent testing of commercial sea moss products also found wide variation in microbial quality and detected selected metals.",
+  "taxonomy": {
+    "food_family": "seafood",
+    "food_subcategories": [
+      "seaweed",
+      "sea-moss",
+      "irish-moss"
+    ],
+    "article_types": [
+      "nutrition-composition",
+      "nutrition-concepts",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Sea moss is a marketing term, not one standardized species or nutrient composition.</strong> It often refers to <em>Chondrus crispus</em>, or Irish moss, but other red seaweeds are also sold under the same name.</p><p>Products come as dried seaweed, powder, capsules, and especially gel made by soaking and blending the seaweed with water.</p><h2>It is a red seaweed rich in structural polysaccharides</h2><p><em>Chondrus crispus</em> is a red seaweed and a traditional source of carrageenan-type polysaccharides that bind water and form gels.</p><p>This helps explain the thick texture of sea moss gel: much of the volume is water held in a polysaccharide network.</p><p>Whole seaweed is not identical to refined carrageenan additive because it also contains proteins, minerals, pigments, and other compounds.</p><h2>Sea moss can provide iodine, but the amount is not fixed</h2><p>Seaweeds concentrate minerals from seawater, and many contain meaningful iodine. The concentration changes by species, harvest location, season, and processing.</p><p>A study of <em>Chondrus crispus</em> found iodine concentrations high enough that relatively small dry portions contributed meaningfully to daily intake.</p><p>That result cannot be converted into one universal “iodine per spoonful of gel” number for every commercial product.</p><h2>More iodine is not automatically better</h2><p>Iodine is essential for thyroid hormone production, but both too little and too much can disrupt thyroid function in susceptible people.</p><p>Large seaweed intakes combined with iodine-containing supplements can therefore create a much higher exposure than expected.</p><p>People with thyroid disease, pregnancy, or relevant medication should get individualized advice before using concentrated seaweed supplements.</p><h2>Seaweeds can also accumulate unwanted elements</h2><p>Depending on growing environment, seaweeds can accumulate arsenic, cadmium, mercury, and other elements. Species differ by orders of magnitude in some mineral concentrations.</p><p>A 2026 study of 66 commercial sea moss products sold online in the United States found substantial variability in microbial quality and detected arsenic, cobalt, and mercury in selected dried products.</p><p>This does not mean every product is hazardous, but sourcing and quality control matter.</p><h2>Sea moss gel is a wet perishable food</h2><p>Hydrating and blending dried seaweed dramatically increases water activity. A moist gel can support microbial growth if processing, acidity, and refrigeration are inadequate.</p><p>The same 2026 commercial survey found wide ranges of pH and microbial counts in sea moss gels.</p><p>“Natural” is not a substitute for hygienic preparation and cold storage.</p><h2>What health benefits are actually established?</h2><p>Sea moss provides components found in edible seaweeds and can be part of a diet, but claims that the gel detoxifies the body, cures thyroid disease, dramatically boosts immunity, improves fertility, or causes major weight loss are not supported by strong clinical trials of sea moss gel itself.</p><p>Many online claims extrapolate from purified seaweed fibers, carrageenan chemistry, or laboratory studies to a highly variable commercial food.</p><p>That is a major evidence gap.</p><h2>Why did it become so popular?</h2><p>Its gel texture, association with marine minerals, social-media visibility, and easy use in smoothies fit the functional-food trend.</p><p>It also feels more like a food ingredient than a conventional supplement, which can make health claims seem more intuitive than they really are.</p><p><strong>The practical rule:</strong> sea moss is edible seaweed with polysaccharides and minerals, not a standardized multivitamin. Choose products with clear sourcing and quality controls, and do not assume that more gel or more iodine means more benefit.</p>",
+  "faq": [
+    {
+      "question": "Are sea moss and Irish moss the same?",
+      "answer": "They are often used interchangeably for Chondrus crispus, but products labeled sea moss can also come from other red seaweeds."
+    },
+    {
+      "question": "Is sea moss high in iodine?",
+      "answer": "It can contribute substantial iodine, but the amount varies widely among species, growing areas, and products."
+    },
+    {
+      "question": "Are sea moss gel health claims proven?",
+      "answer": "Many broad claims are not supported by strong clinical trials of commercial sea moss gel itself."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Risk assessment of iodine from red seaweeds",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32803579/",
+      "note": "Analiza yodo en Chondrus crispus y muestra que la cantidad puede contribuir de forma relevante a la ingesta."
+    },
+    {
+      "name": "PubMed — Essential and toxic elements in seaweeds",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/26817952/",
+      "note": "Muestra gran variabilidad de minerales y elementos tóxicos entre especies de algas."
+    },
+    {
+      "name": "PubMed — Microbial and Heavy Metal Analyses of Commercially Available Sea Moss",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/42710593/",
+      "note": "Estudio de 2026 de 66 productos comerciales con gran variabilidad microbiológica y detección de metales."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food photograph of dried red seaweed, a jar of sea moss gel, and a spoonful of gel beside a simple mineral illustration, no brands.",
+    "alt": "Dried sea moss and sea moss gel"
+  },
+  "status": "publish"
+}
