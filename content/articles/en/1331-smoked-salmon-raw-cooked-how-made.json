@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "en-1331-smoked-salmon-raw-cooked-how-made",
+  "article_number": 1331,
+  "translation_group": "1331-smoked-salmon-cold-hot-smoking",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; refrigerated cold-smoked and hot-smoked salmon products.",
+  "title": "Smoked Salmon: Is It Raw or Cooked, and How Is It Made?",
+  "slug": "smoked-salmon-raw-cooked-how-made",
+  "seo": {
+    "title": "Smoked Salmon: Is It Raw or Cooked? Cold vs. Hot Smoked",
+    "meta_description": "Cold-smoked salmon is salted or cured and smoked at low temperatures that do not provide a full cooking kill step, so it retains a silky cured texture. Hot-smoked salmon is heated enough to cook the fish. Both are ready-to-eat, but refrigerated cold-smoked salmon requires special Listeria awareness.",
+    "search_intent": "Understand whether smoked salmon is raw or cooked, how cold and hot smoking differ, how the products are made, and which food-safety risks matter."
+  },
+  "excerpt": "“Smoked salmon” can describe two very different processes. Cold-smoked salmon is cured with salt and exposed to smoke at low temperature without a full cooking treatment, leaving a silky texture similar to cured raw fish. Hot-smoked salmon receives enough heat to cook and coagulate the fish proteins, producing a firm, flaky texture. Refrigerated cold-smoked salmon is ready-to-eat but deserves particular attention because of Listeria risk.",
+  "taxonomy": {
+    "food_family": "seafood",
+    "food_subcategories": [
+      "salmon",
+      "smoked-fish",
+      "food-safety"
+    ],
+    "article_types": [
+      "processing-production",
+      "food-safety",
+      "cooking-science"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p><strong>It depends on the process: cold-smoked salmon is not cooked like a baked fillet, while hot-smoked salmon receives enough heat to cook the fish.</strong> Both use salt and smoke, but their temperature profiles and final textures are very different.</p><p>Labels may use terms such as cold-smoked, Nova-style, lox, hot-smoked, or kippered depending on the product and market.</p><h2>Cold smoking uses relatively low temperatures</h2><p>Salmon is typically dry-cured or brined first. Salt lowers water activity, seasons the fish, and changes texture.</p><p>The fish is then exposed to smoke in a relatively cool chamber. FDA describes cold-smoking conditions that do not provide a heat treatment sufficient to reliably inactivate vegetative pathogens.</p><p>The result remains soft, translucent, and silky rather than flaky.</p><h2>Hot smoking actually cooks the fish</h2><p>Hot smoking uses a warmer chamber and brings the center of the fish to a validated time-temperature combination that coagulates proteins and reduces vegetative pathogens.</p><p>FDA cites processes reaching approximately 145 °F (62.8 °C) for a sustained period as an example.</p><p>The finished salmon flakes apart much like conventionally cooked fish.</p><h2>Curing and smoking are not the same process</h2><p>Traditional lox refers to salt-cured salmon and historically does not require smoke. Nova-style salmon usually combines curing with cold smoking.</p><p>Modern labels are not always used consistently, so process wording is more useful than relying on the product name alone.</p><p>Gravlax is another example: it is cured with salt, sugar, and herbs but is not necessarily smoked.</p><h2>Smoke adds flavor and some preservative effects</h2><p>Smoke contains phenolic and carbonyl compounds that contribute aroma, surface color, and some antimicrobial and antioxidant activity.</p><p>Salt, partial drying, vacuum packaging, and refrigeration work together as preservation hurdles.</p><p>These hurdles do not make refrigerated cold-smoked salmon sterile.</p><h2>Listeria is the key concern in refrigerated smoked seafood</h2><p><em>Listeria monocytogenes</em> can grow slowly at refrigerator temperatures. Because cold-smoked salmon lacks a final lethal cooking step, contamination can survive.</p><p>FDA treats refrigerated smoked seafood as a higher-concern ready-to-eat food for pregnant people, older adults, and people with weakened immune systems.</p><p>U.S. guidance for these groups recommends avoiding refrigerated smoked seafood unless it is used in a cooked dish.</p><h2>Hot-smoked salmon still needs refrigeration</h2><p>A validated heating step reduces pathogens present during smoking, but contamination can occur later during slicing, handling, or packaging.</p><p>Hot-smoked salmon is therefore still a perishable ready-to-eat food with a limited refrigerated shelf life.</p><p>Package swelling, abnormal odor, or poor temperature history are reasons to discard it.</p><h2>Nutritionally it remains salmon, with more sodium</h2><p>Smoked salmon retains protein and much of salmon's omega-3 fat, while curing usually raises sodium substantially.</p><p>Moisture loss can also concentrate nutrients per 100 grams.</p><p>Products vary based on brine strength, sugar, fish fat content, and drying.</p><h2>How to identify what you are buying</h2><p>Cold-smoked salmon is usually sold as thin silky slices. Hot-smoked salmon is more often a thicker, firm piece that flakes when pressed.</p><p><strong>The practical rule:</strong> cold smoking cures and smokes salmon without a complete cooking kill step; hot smoking cooks it. Both can be ready-to-eat, but refrigerated cold-smoked salmon requires particular Listeria awareness.</p>",
+  "faq": [
+    {
+      "question": "Is cold-smoked salmon raw?",
+      "answer": "It is cured and smoked, so it is not untreated raw fish, but it does not receive a full cooking heat treatment."
+    },
+    {
+      "question": "Is hot-smoked salmon cooked?",
+      "answer": "Yes. Hot smoking uses enough heat to cook and coagulate the fish."
+    },
+    {
+      "question": "Why is Listeria a concern?",
+      "answer": "Listeria can grow at refrigerator temperatures and can survive cold smoking because there is no final lethal cooking step."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Processing Parameters Needed to Control Pathogens in Cold-Smoked Fish",
+      "url": "https://www.fda.gov/files/food/published/Processing-Parameters-Needed-to-Control-Pathogens-in-Cold-Smoked-Fish.pdf",
+      "note": "Distingue ahumado en frío y caliente y explica que el cold-smoked no recibe calor suficiente para inactivar patógenos vegetativos."
+    },
+    {
+      "name": "FDA — Listeria monocytogenes Risk Assessment Q&A",
+      "url": "https://www.fda.gov/food/risk-and-safety-assessments-food/listeria-monocytogenes-risk-assessment-questions-and-answers",
+      "note": "Recomienda a grupos de alto riesgo evitar pescado ahumado refrigerado salvo en platos cocinados."
+    },
+    {
+      "name": "FDA — Ready-to-Eat Foods for Moms-to-Be",
+      "url": "https://www.fda.gov/food/people-risk-foodborne-illness/ready-eat-foods-food-safety-moms-be",
+      "note": "Incluye smoked salmon y otros pescados ahumados refrigerados entre alimentos de riesgo para embarazo."
+    }
+  ],
+  "image": {
+    "concept": "Editorial seafood comparison of thin silky cold-smoked salmon slices and a flaky hot-smoked salmon fillet with subtle smoke cues, no brands.",
+    "alt": "Cold-smoked salmon compared with hot-smoked salmon"
+  },
+  "status": "publish"
+}
