@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "en-1356-rice-syrup-arsenic",
+  "article_number": 1356,
+  "translation_group": "1356-rice-syrup-arsenic",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; brown rice syrup/rice syrup made by starch saccharification and variable arsenic exposure from rice raw material.",
+  "title": "Rice Syrup: What It Is, How It Is Made, and What to Know About Arsenic",
+  "slug": "rice-syrup-what-it-is-how-made-arsenic",
+  "seo": {
+    "title": "Rice Syrup: How It Is Made and What to Know About Arsenic",
+    "meta_description": "Rice syrup is made by enzymatically breaking rice starch into smaller sugars, mainly maltose, glucose, and glucose oligosaccharides, then concentrating the liquid. Because rice can accumulate inorganic arsenic, some of that contaminant can occur in rice-derived ingredients. Levels vary and not every syrup is high.",
+    "search_intent": "Understand what rice syrup is, how it is produced, which sugars it contains, how it behaves nutritionally, and what the arsenic concern actually means."
+  },
+  "excerpt": "Rice syrup is a sweetener made by breaking down rice starch with enzymes and concentrating the soluble sugars produced. It commonly contains maltose, glucose, and short glucose chains, with little or no fructose depending on processing. The best-known safety question is arsenic: rice can accumulate more inorganic arsenic than many other grains, and some can carry into rice-derived ingredients, although concentrations vary widely among raw materials and products.",
+  "taxonomy": {
+    "food_family": "grains",
+    "food_subcategories": [
+      "rice-syrup",
+      "brown-rice-syrup",
+      "sweeteners"
+    ],
+    "article_types": [
+      "processing-production",
+      "food-safety",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p><strong>Rice syrup is a sugar syrup made by converting rice starch into smaller carbohydrates and then concentrating the liquid.</strong> It is not squeezed from rice like fruit juice, and it is not simply blended cooked rice.</p><p>Labels may call it rice syrup or brown rice syrup, particularly in cereal bars, snacks, and products marketed around fructose-free sweetening.</p><h2>How starch becomes syrup</h2><p>Most carbohydrate in rice is starch, long chains of glucose with relatively little sweetness.</p><p>During syrup production, the starch is cooked or gelatinized and exposed to amylolytic enzymes that cut the chains into smaller molecules. Manufacturers can use alpha-amylase, beta-amylase, and related enzymes to shape the final sugar profile.</p><p>Solids are separated and water is evaporated until the liquid becomes thick and shelf-stable.</p><h2>Which sugars are in rice syrup?</h2><p>The answer depends on how far saccharification proceeds. Research on rice-syrup production shows maltose and glucose can predominate, alongside larger glucose oligosaccharides.</p><p>Unlike honey, agave, or sucrose, rice syrup generally contains very little fructose because its starting material is glucose-based starch.</p><p>Low fructose does not mean low sugar; maltose and glucose are readily available carbohydrates.</p><h2>Fructose-free is not the same as low glycemic</h2><p>Maltose is hydrolyzed into two glucose molecules, and glucose is absorbed directly into circulation.</p><p>A syrup rich in maltose and glucose can therefore create a substantial glycemic response despite containing little fructose.</p><p>A fructose-free label can matter for a specific formulation goal, but it does not turn rice syrup into fiber or a low-calorie sweetener.</p><h2>Why is it used in bars and cereals?</h2><p>Beyond sweetness, rice syrup is sticky and helps bind oats, nuts, puffed grains, and other particles into bars and clusters.</p><p>It also contributes moisture, solids, browning, and flavor delivery.</p><p>Its mild flavor can be useful when honey or molasses would dominate the food.</p><h2>The arsenic concern comes from rice itself</h2><p>Rice tends to accumulate more inorganic arsenic than many other cereal crops because it is commonly grown under flooded conditions that make arsenic in soil and water more available to the plant.</p><p>FDA confirms that rice and rice products often contain higher inorganic arsenic concentrations than many other foods it has tested, while levels vary widely.</p><p>Making syrup does not create arsenic; the issue is how much was present in the rice and how processing affects the final concentration.</p><h2>A landmark study found high values in some rice-syrup products</h2><p>In 2012 researchers tested organic brown rice syrups and foods containing them, including products for children and endurance athletes. They found variable total and inorganic arsenic, with some comparatively high results.</p><p>The study was important because it showed that rice-derived ingredients can be an arsenic source even when a food does not look like a rice product.</p><p>It does not establish that today's products all contain the same levels or allow the amount in any specific brand to be predicted without testing.</p><h2>Organic certification does not remove environmental arsenic</h2><p>Arsenic can occur naturally in rock, soil, and groundwater and can also reflect historical contamination.</p><p>Organic rules govern agricultural practices but cannot prevent a rice plant from taking up an element already present in its environment.</p><p>Source selection, rice variety, processing, and analytical testing are more relevant to the final arsenic concentration.</p><h2>What are regulators doing?</h2><p>FDA maintains a 100-ppb action level for inorganic arsenic in infant rice cereal and continues monitoring arsenic in foods. That infant-cereal action level is not a universal limit for rice syrup.</p><p>The European Union also sets maximum inorganic-arsenic levels for rice and multiple rice-based food categories, with especially protective limits for foods intended for infants and young children.</p><p>These policies reflect the importance of cumulative exposure, particularly in young children and people who consume rice products very frequently.</p><h2>How to put the risk in perspective</h2><p>An occasional small serving of rice syrup should not automatically be treated as dangerous, while making one rice-derived sweetener a dominant daily food is also unnecessary.</p><p>For infants and young children, varying grains and foods helps avoid dependence on one potential contaminant source.</p><p><strong>The practical rule:</strong> rice syrup is a glucose- and maltose-rich sweetener made from starch. Arsenic is a raw-material and quality-control issue whose level varies, so labels such as organic or natural cannot substitute for responsible sourcing and testing.</p>",
+  "faq": [
+    {
+      "question": "Does rice syrup contain fructose?",
+      "answer": "Usually very little or none; maltose, glucose, and glucose oligosaccharides are the main carbohydrates."
+    },
+    {
+      "question": "Does every rice syrup contain high arsenic?",
+      "answer": "No. Levels vary substantially with rice source and processing and cannot be known for a specific product without testing."
+    },
+    {
+      "question": "Is organic brown rice syrup lower in arsenic?",
+      "answer": "Not necessarily. Environmental arsenic can be present in soil and water regardless of organic certification."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Brown rice syrup production and starch saccharification",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/31539460/",
+      "note": "Describes enzymatic conversion of rice starch into maltose, glucose, and oligosaccharides."
+    },
+    {
+      "name": "PubMed — Arsenic, organic foods, and brown rice syrup",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/22336149/",
+      "note": "2012 study detecting variable arsenic in brown rice syrup and foods containing it."
+    },
+    {
+      "name": "FDA — Arsenic in Food",
+      "url": "https://www.fda.gov/food/environmental-contaminants-food/arsenic-food",
+      "note": "Current FDA context for arsenic exposure, monitoring, and guidance."
+    },
+    {
+      "name": "European Commission — Arsenic in food",
+      "url": "https://food.ec.europa.eu/food-safety/chemical-safety/contaminants/catalogue/arsenic_en",
+      "note": "EU context and maximum levels for rice and rice-based food categories."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food-safety image of amber brown rice syrup beside rice grains and an enzyme diagram converting starch to maltose, with a subtle laboratory testing icon, no brands.",
+    "alt": "Rice syrup production and arsenic quality-control concept"
+  },
+  "status": "publish"
+}
