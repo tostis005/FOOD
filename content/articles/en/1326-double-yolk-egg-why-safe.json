@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "en-1326-double-yolk-egg-why-safe",
+  "article_number": 1326,
+  "translation_group": "1326-double-yolk-egg-safety",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; double-yolk chicken eggs and food safety.",
+  "title": "Double-Yolk Egg: Why It Happens and Whether It Is Safe to Eat",
+  "slug": "double-yolk-egg-why-safe",
+  "seo": {
+    "title": "Double-Yolk Eggs: Why They Happen and Are They Safe?",
+    "meta_description": "A double-yolk egg forms when two yolks are released close together and become enclosed in the same white and shell. It is especially common in young hens whose laying cycles are not fully synchronized and in hens producing very large eggs. USDA says double-yolk eggs are safe to eat.",
+    "search_intent": "Understand why some eggs contain two yolks, whether they are safe, why they are more common in young hens, and how they affect nutrition and cooking."
+  },
+  "excerpt": "A double-yolk egg forms when a hen releases two yolks close together and both travel through the oviduct before the white, membranes, and shell form around them. This is especially common early in a young hen's laying cycle, when ovulation timing is not yet well synchronized, and can also occur in hens producing extra-large eggs. USDA states that double-yolk eggs do not present a special food-safety risk.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "double-yolk",
+      "eggs",
+      "egg-safety"
+    ],
+    "article_types": [
+      "myths-faq",
+      "food-safety",
+      "cooking-science"
+    ],
+    "primary_article_type": "myths-faq"
+  },
+  "content_html": "<p><strong>A double-yolk egg is a normal biological variation, and USDA states that having two yolks does not create a special food-safety risk.</strong> The difference begins before the shell forms, when two yolks enter the oviduct close together.</p><p>The egg white, membranes, and shell then form around both yolks, usually producing a larger-than-average egg.</p><h2>A hen can release two yolks at nearly the same time</h2><p>In a typical cycle, one mature yolk leaves the ovary, enters the oviduct, and receives layers of albumen, membranes, and shell.</p><p>USDA's Egg Grading Manual explains that double yolks occur when two yolks are released at about the same time or, less commonly, when one yolk is temporarily lost into the body cavity and is picked up when the next yolk arrives.</p><p>Both end up enclosed in one finished egg.</p><h2>They are especially common in young hens</h2><p>When pullets first begin laying, their reproductive hormonal rhythm is still becoming synchronized.</p><p>This makes closely spaced ovulations more likely.</p><p>Double yolks can also occur in older hens and in birds or genetic lines that tend to produce very large eggs.</p><h2>Can you identify one before cracking it?</h2><p>Double-yolk eggs are often large or extra large because the shell must contain two yolks, but size is not a guarantee.</p><p>Commercial grading operations can detect them by candling, using light to view internal egg structures without breaking the shell.</p><p>This is how some producers can intentionally sell cartons of double-yolk eggs.</p><h2>Are double-yolk eggs safe?</h2><p>Yes. USDA Agricultural Research Service explicitly states that double-yolk eggs have no special food-safety risk simply because they contain two yolks.</p><p>The same rules still apply as with any shell egg: keep eggs properly refrigerated where required, avoid cracked shells, and cook them safely.</p><p>The possibility of <em>Salmonella</em> is not caused by having one versus two yolks.</p><h2>Nutrition is not exactly the same as one standard egg</h2><p>The yolk contains much of an egg's fat, cholesterol, choline, fat-soluble vitamins, and other micronutrients.</p><p>Two yolks therefore usually mean more of those components than in one standard-size egg, while the amount of egg white does not necessarily double.</p><p>For precise nutrition tracking, an unusually large double-yolk egg should not be assumed to equal an ordinary large egg.</p><h2>Double yolks can change baking and emulsions</h2><p>For fried eggs or scrambled eggs, you simply get more yolk. In cakes, custards, mayonnaise, and other ratio-sensitive recipes, the yolk-to-white balance matters.</p><p>Several double-yolk eggs can make a batter richer, alter tenderness, or change how strongly a custard sets.</p><p>For precision baking, weighing beaten egg is more accurate than counting shells.</p><h2>They are not evidence of added hormones</h2><p>Double yolks result naturally from ovulation timing. They can occur without any artificial treatment.</p><p>The association with young hens and irregular early laying cycles is well documented by USDA and the egg industry.</p><p>Finding one does not mean the hen was unhealthy.</p><h2>What should you do when you find one?</h2><p>If the shell was intact and the egg was stored properly, cook it as you would another egg.</p><p>FDA recommends cooking eggs until whites and yolks are firm for maximum safety, especially for higher-risk people, unless a recipe uses appropriately pasteurized eggs.</p><p><strong>The practical rule:</strong> two yolks mean two ovulations happened close enough together to be packaged inside one shell. It is an interesting reproductive quirk, not a dangerous defect.</p>",
+  "faq": [
+    {
+      "question": "Why does an egg have two yolks?",
+      "answer": "Two yolks were released close together and traveled through the oviduct before one shell formed around them."
+    },
+    {
+      "question": "Are double-yolk eggs safe to eat?",
+      "answer": "Yes. USDA states that double yolks do not create a special food-safety risk."
+    },
+    {
+      "question": "Are double yolks more common in young hens?",
+      "answer": "Yes. Young hens can have less synchronized laying cycles and release two yolks close together."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA ARS — Egg-citing Facts About Eating Eggs",
+      "url": "https://www.ars.usda.gov/ARSUserFiles/oc/aglab/learnexplore/eggsafety/eggsafety_eatingeggs.pdf",
+      "note": "USDA confirma que los huevos de dos yemas no presentan riesgo especial de seguridad."
+    },
+    {
+      "name": "USDA AMS — Egg Grading Manual",
+      "url": "https://www.ams.usda.gov/sites/default/files/EggGradingManual.pdf",
+      "note": "Explica cómo se forman huevos de doble yema cuando dos yemas son liberadas casi al mismo tiempo."
+    },
+    {
+      "name": "USDA FSIS — ¿Por qué algunos huevos tienen doble yema?",
+      "url": "https://ask.fsis.usda.gov/article/Por-que-algunos-huevos-tienen-doble-yema",
+      "note": "Actualización 2025: señala mayor frecuencia en gallinas jóvenes y posibles factores genéticos."
+    },
+    {
+      "name": "FDA — What You Need to Know About Egg Safety",
+      "url": "https://www.fda.gov/food/buy-store-serve-safe-food/what-you-need-know-about-egg-safety",
+      "note": "Recomendaciones generales de compra, refrigeración y cocción segura de huevos."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food photograph of a cracked double-yolk egg beside a normal single-yolk egg and an intact extra-large egg, clean kitchen setting, no brands.",
+    "alt": "Double-yolk egg compared with a normal egg"
+  },
+  "status": "publish"
+}
