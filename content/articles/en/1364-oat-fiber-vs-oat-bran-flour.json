@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1364-oat-fiber-vs-bran",
+  "article_number": 1364,
+  "translation_group": "1364-oat-fiber-vs-bran-flour",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; commercial oat fiber, especially oat-hull insoluble fiber, compared with oat bran, flour, and whole oats.",
+  "title": "Oat Fiber: What It Is and Why It Is Not the Same as Oat Bran or Oat Flour",
+  "slug": "oat-fiber-vs-oat-bran-flour",
+  "seo": {
+    "title": "Oat Fiber vs. Oat Bran and Oat Flour: What Is the Difference?",
+    "meta_description": "Commercial oat fiber is commonly made from oat hulls and consists mostly of insoluble cellulose and hemicellulose. It is not the same as oat bran, flour, or rolled oats, which come from the edible groat and provide starch, protein, and beta-glucan. FDA describes oat hull fiber as generally at least 85% nondigestible carbohydrate.",
+    "search_intent": "Understand what commercial oat fiber is, which part of the oat it comes from, and how it differs from oat bran, oat flour, and beta-glucan."
+  },
+  "excerpt": "The oat fiber listed in high-fiber foods is commonly oat-hull fiber rather than oat flour or bran. FDA describes oat hull fiber as isolated from the outer hull removed from the edible oat groat and generally containing at least about 85% nondigestible carbohydrate, mostly insoluble cellulose and hemicellulose. This makes it very different from bran or flour, which still contain substantial starch, protein, and beta-glucan.",
+  "taxonomy": {
+    "food_family": "grains",
+    "food_subcategories": [
+      "oat-fiber",
+      "oat-hull",
+      "insoluble-fiber"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "comparisons"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p><strong>Commercial “oat fiber” is commonly concentrated insoluble fiber made from the oat hull rather than ground oats or oat bran.</strong> This is why it can contain very high fiber with very little starch, fat, or protein.</p><p>The names are confusing because all of these ingredients come from oats, but they come from different anatomical parts of the grain.</p><h2>Which part of the oat becomes oat fiber?</h2><p>During oat processing, the tough outer hull is removed from the groat, the edible kernel used to make oatmeal and flour.</p><p>FDA describes oat hull fiber as generally containing at least 85% nondigestible carbohydrate, with most of that fiber being insoluble.</p><p>Cellulose and hemicellulose are major structural components.</p><h2>Why oat fiber is not oat bran</h2><p>Oat bran comes from outer layers of the edible groat and retains beta-glucan, starch, protein, minerals, and other grain components.</p><p>It is nutritionally more complex and can provide the viscous soluble beta-glucan associated with cholesterol-lowering effects.</p><p>Oat-hull fiber is primarily insoluble and should not be thought of as concentrated oat beta-glucan.</p><h2>It is not oat flour either</h2><p>Oat flour is made by grinding the edible groat and therefore contains substantial starch and protein along with some fiber.</p><p>It is an energy-providing flour rather than a nearly pure insoluble-fiber ingredient.</p><p>Isolated oat fiber has a different formulation role: adding bulk and fiber with much less digestible starch.</p><h2>What does insoluble oat fiber do?</h2><p>Hull fibers hold water and increase physical bulk in the intestinal contents and stool without forming the thick gel associated with beta-glucan.</p><p>FDA's scientific review considered human studies in which selected oat-hull-fiber intakes increased fecal weight.</p><p>This fits the expected behavior of structural, relatively poorly fermented insoluble fibers.</p><h2>Why is oat fiber used in bread, bars, and meat products?</h2><p>Beyond raising dietary fiber, the ingredient can hold water, modify texture, and act as an extender.</p><p>An FDA GRAS notice described use in breads, pizza crust, cookies, cereals, snacks, coatings, and selected meat products.</p><p>Particle size and processing influence water absorption, grittiness, hardness, and the final eating quality.</p><h2>Does oat fiber provide all the benefits of oats?</h2><p>No. Whole oats and oat bran also provide beta-glucan, protein, unsaturated fat, avenanthramides, minerals, and other grain compounds.</p><p>Hull fiber delivers a much more concentrated insoluble-fiber fraction.</p><p>It can be useful for formulation and stool bulk while not reproducing the full nutritional matrix of whole oats.</p><h2>How to read the ingredient name</h2><p>Oat fiber or oat hull fiber usually signals concentrated insoluble hull material. Oat bran comes from the groat, oat flour is ground groat, and oat beta-glucan identifies a different soluble fiber fraction.</p><p><strong>The practical rule:</strong> sharing the word oat does not make these ingredients equivalent. Commercial oat fiber is usually hull-derived cellulose and hemicellulose, while bran and flour retain much more of the edible grain.</p>",
+  "faq": [
+    {
+      "question": "Does oat fiber contain beta-glucan?",
+      "answer": "Oat-hull fiber contains very little compared with oat bran or the edible grain; it is mainly insoluble cellulose and hemicellulose."
+    },
+    {
+      "question": "Is oat fiber the same as oat bran?",
+      "answer": "No. Bran comes from the edible groat and retains beta-glucan, protein, starch, and minerals."
+    },
+    {
+      "question": "Why is oat fiber added to foods?",
+      "answer": "It raises fiber, holds water, adds bulk, and changes texture."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Science Review of Isolated and Synthetic Dietary Fibers",
+      "url": "https://www.fda.gov/files/food/published/Science-Review-of-Isolated-and-Synthetic-Non-Digestible-Carbohydrates-PDF.pdf",
+      "note": "Describes oat hull fiber composition and laxation evidence."
+    },
+    {
+      "name": "FDA — GRAS Notice 261 Oat hull fiber",
+      "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=261&set=GRASNotices",
+      "note": "Summarizes source and intended food uses."
+    },
+    {
+      "name": "PubMed — Processing of oats and nutritional impact",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25267246/",
+      "note": "Explains oat dehulling and groat processing."
+    }
+  ],
+  "image": {
+    "concept": "Editorial grain comparison showing oat hull fiber powder, oat bran, oat flour, and rolled oats in separate bowls, no brands.",
+    "alt": "Oat fiber compared with oat bran, oat flour, and rolled oats"
+  },
+  "status": "publish"
+}
