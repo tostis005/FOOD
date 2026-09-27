@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "es-1358-sorbitol-calorias-diarrea",
+  "article_number": 1358,
+  "translation_group": "1358-sorbitol-calories-gi",
+  "language": "es",
+  "locale": "es-ES",
+  "market_context": "España/UE e internacional; sorbitol como polialcohol presente naturalmente y utilizado como edulcorante/humectante.",
+  "title": "Sorbitol: qué es, cuántas calorías aporta y por qué puede causar diarrea",
+  "slug": "sorbitol-que-es-calorias-diarrea",
+  "seo": {
+    "title": "Sorbitol: qué es, calorías y por qué puede causar diarrea",
+    "meta_description": "El sorbitol es un polialcohol menos dulce que el azúcar y parcialmente absorbido. FDA utiliza 2,6 kcal/g para el etiquetado estadounidense. La fracción no absorbida atrae agua y se fermenta en el colon, por lo que dosis altas pueden causar gas, distensión y diarrea.",
+    "search_intent": "Entender qué es sorbitol, dónde aparece, cuántas calorías tiene, cómo afecta a glucosa y por qué puede producir síntomas digestivos."
+  },
+  "excerpt": "El sorbitol es un polialcohol o alcohol de azúcar que aparece naturalmente en algunas frutas y también se fabrica para alimentos sin azúcar, chicles, caramelos, productos horneados y medicamentos líquidos. Se absorbe de forma incompleta, aporta menos energía que la sacarosa y produce una respuesta de glucosa menor. Esa misma absorción incompleta explica su efecto osmótico y laxante cuando la dosis supera la tolerancia individual.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "sorbitol",
+      "polyols",
+      "sweeteners"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "food-labels"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>El sorbitol es un polialcohol que endulza menos que la sacarosa y se absorbe de forma incompleta en el intestino delgado.</strong> Por eso aporta menos calorías que el azúcar y produce una respuesta glucémica más moderada, pero también puede causar síntomas digestivos a dosis altas.</p><p>En etiquetas puede aparecer como sorbitol, glucitol o E420 en determinados mercados.</p><h2>Dónde se encuentra</h2><p>El sorbitol existe de forma natural en frutas como manzana, pera, melocotón, ciruela y algunas frutas desecadas. También se produce industrialmente mediante hidrogenación de glucosa.</p><p>La industria lo utiliza en chicles sin azúcar, caramelos, galletas, productos para personas con diabetes, pasta dental y preparados líquidos porque aporta dulzor, volumen y retención de humedad.</p><p>FDA lo incluye entre los polioles autorizados para sustituir azúcar en alimentos.</p><h2>Cuántas calorías aporta</h2><p>En Estados Unidos, la guía de FDA utiliza un factor de 2,6 kcal por gramo para sorbitol, frente a 4 kcal/g de los carbohidratos digeribles tradicionales.</p><p>La reducción energética se debe a que una parte no se absorbe y otra se metaboliza de forma diferente a glucosa.</p><p>No es un edulcorante “cero calorías”: una gran cantidad puede aportar energía significativa.</p><h2>Por qué sube menos la glucosa</h2><p>El sorbitol se absorbe lentamente y solo una fracción llega rápidamente a circulación. Parte se convierte posteriormente en fructosa y otros metabolitos.</p><p>FDA señala que los alcoholes de azúcar, como grupo, no provocan la subida brusca de glucosa típica del azúcar.</p><p>Eso no convierte automáticamente un producto “sin azúcar” en bajo en carbohidratos, porque puede contener harina, almidón u otros ingredientes disponibles.</p><h2>Por qué puede causar gas y diarrea</h2><p>La fracción no absorbida permanece osmóticamente activa y atrae agua hacia la luz intestinal. Al llegar al colon, las bacterias la fermentan y producen gas.</p><p>La combinación de agua y fermentación puede causar borborigmos, distensión, cólicos y heces blandas.</p><p>Estudios clásicos de malabsorción observaron aumentos de hidrógeno incluso con dosis de 5 g en algunos adultos y síntomas más claros a medida que aumentaba la dosis.</p><h2>La tolerancia es muy individual</h2><p>Una persona puede tolerar una cantidad en chicle repartida durante el día y tener síntomas con una dosis grande tomada de una vez.</p><p>La malabsorción también aumenta cuando varios polioles se consumen juntos. Revisiones sistemáticas describen una relación dosis-respuesta clara para síntomas gastrointestinales.</p><p>Las personas con IBS suelen ser más sensibles porque sorbitol pertenece al grupo de FODMAPs.</p><h2>Por qué aparece como humectante</h2><p>Sorbitol atrae y retiene agua, lo que ayuda a mantener blandos caramelos, bizcochos, coco rallado y otros productos.</p><p>Esta propiedad también evita que determinados rellenos se sequen durante almacenamiento.</p><p>Por eso puede estar presente incluso cuando el objetivo principal del fabricante no es endulzar.</p><h2>Qué significa “un consumo excesivo puede producir efectos laxantes”</h2><p>En mercados donde se exige esa advertencia para determinados polioles, el mensaje refleja precisamente su absorción incompleta.</p><p>No existe un umbral idéntico para todas las personas y alimentos.</p><p><strong>La regla práctica:</strong> sorbitol puede reducir azúcar y calorías, pero la misma característica que limita su absorción puede provocar molestias. Si un producto “sin azúcar” te causa gas o diarrea, revisa cuántos gramos de polioles aporta y cuánto consumes de una sola vez.</p>",
+  "faq": [
+    {
+      "question": "¿Cuántas calorías tiene el sorbitol?",
+      "answer": "FDA utiliza 2,6 kcal/g para el etiquetado en Estados Unidos."
+    },
+    {
+      "question": "¿Por qué da diarrea?",
+      "answer": "La parte no absorbida atrae agua al intestino y después puede fermentar en el colon."
+    },
+    {
+      "question": "¿El sorbitol es un FODMAP?",
+      "answer": "Sí. Es un poliol fermentable y puede producir síntomas en personas sensibles, especialmente con IBS."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Aspartame and Other Sweeteners in Food",
+      "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food",
+      "note": "Incluye sorbitol entre los alcoholes de azúcar utilizados en alimentos."
+    },
+    {
+      "name": "FDA — Nutrition Facts Small Entity Compliance Guide",
+      "url": "https://www.fda.gov/media/134505/download?attachment=",
+      "note": "Establece un factor energético de 2,6 kcal/g para sorbitol."
+    },
+    {
+      "name": "PubMed — Systematic review of polyols and gastrointestinal health",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28710145/",
+      "note": "Revisa malabsorción dosis-dependiente y síntomas digestivos de polioles."
+    },
+    {
+      "name": "PubMed — Sorbitol intolerance",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/6847853/",
+      "note": "Estudio de absorción y síntomas a distintas dosis."
+    }
+  ],
+  "image": {
+    "concept": "Editorial sweetener image of sorbitol crystals beside sugar-free gum and fruit, with an intestinal water-and-fermentation diagram, no brands.",
+    "alt": "Sorbitol en alimentos sin azúcar y su efecto osmótico intestinal"
+  },
+  "status": "publish"
+}
