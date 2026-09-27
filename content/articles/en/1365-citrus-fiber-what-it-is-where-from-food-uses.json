@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1365-citrus-fiber",
+  "article_number": 1365,
+  "translation_group": "1365-citrus-fiber-food-use",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; citrus fiber made from orange, lemon, and other citrus processing by-products and used as a functional dietary fiber.",
+  "title": "Citrus Fiber: What It Is, Where It Comes From, and Why It Is Used in So Many Foods",
+  "slug": "citrus-fiber-what-it-is-where-from-food-uses",
+  "seo": {
+    "title": "Citrus Fiber: What It Is, Where It Comes From, and Food Uses",
+    "meta_description": "Citrus fiber is commonly made from peel, albedo, and pulp left after orange or lemon juice production. It contains varying amounts of pectin, cellulose, and hemicellulose and is valued for holding water and oil. It can improve juiciness, texture, and emulsion stability while adding dietary fiber.",
+    "search_intent": "Understand what citrus fiber is, how it is made from citrus by-products, how it differs from pectin, and why it is used in meat, bakery, dairy, sauces, and reduced-fat foods."
+  },
+  "excerpt": "Citrus fiber is an ingredient made mainly from the peel, albedo, and pulp left after citrus juice processing. Washing, drying, and milling produce a dietary-fiber-rich material containing pectin, cellulose, and hemicellulose in varying proportions. Its value is not only nutritional: citrus fiber can bind substantial water and oil, increase viscosity, and stabilize food structures, which is why it appears across many product categories.",
+  "taxonomy": {
+    "food_family": "fruits",
+    "food_subcategories": [
+      "citrus-fiber",
+      "food-byproducts",
+      "dietary-fiber"
+    ],
+    "article_types": [
+      "processing-production",
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p><strong>Citrus fiber is made from cell-wall-rich parts of oranges, lemons, and other citrus fruits, especially peel, albedo, and leftover pulp.</strong> It turns juice-processing by-products into a useful functional food ingredient.</p><p>It is not one purified molecule. The material contains varying proportions of pectin, cellulose, hemicellulose, and smaller amounts of other plant compounds.</p><h2>Where citrus fiber comes from</h2><p>Juice production leaves large quantities of peel, membranes, and pulp that still contain substantial dietary fiber.</p><p>Manufacturing can include washing to remove sugars and acids, drying, milling, and physical or enzymatic treatments that alter particle size and functionality.</p><p>Recent reviews describe citrus fiber as an important way to upcycle processing by-products into higher-value food ingredients.</p><h2>Why citrus fiber is not the same as pectin</h2><p>Commercial pectin is a more purified soluble fraction extracted from citrus or apple cell walls.</p><p>Citrus fiber preserves a broader matrix that includes insoluble cellulose and hemicellulose in addition to pectin.</p><p>This means its functionality is not limited to pectin gelation and can include water binding, oil binding, and physical stabilization.</p><h2>Water holding is a major advantage</h2><p>Porous structure and hydrophilic groups allow citrus fiber to absorb and retain substantial water.</p><p>This can improve juiciness in meat products, reduce moisture loss during baking, and add body to sauces and fillings.</p><p>The exact capacity depends on particle size, pectin content, and processing treatment.</p><h2>It can also bind oil and stabilize emulsions</h2><p>The mixture of insoluble structure and surface-active components can trap part of the fat phase and help keep oil and water distributed.</p><p>In burgers, sausages, dressings, or fillings this can improve structure and reduce visible separation.</p><p>It does not act exactly like a small-molecule emulsifier, but its physical network can reinforce the food system.</p><h2>Why it appears in reduced-fat foods</h2><p>Water retention and bulk can replace some of the texture lost when fat is reduced.</p><p>This does not mean citrus fiber nutritionally replaces fat; the effect is mainly physical, changing moisture, body, and mouthfeel.</p><p>When enough is used, it can also raise the dietary-fiber content of the finished product.</p><h2>What does citrus fiber contribute nutritionally?</h2><p>It is primarily dietary fiber, with both soluble and insoluble fractions.</p><p>Selected products may retain phenolic compounds and other citrus components, but concentrations vary and should not be assumed from the ingredient name alone.</p><p>Health findings from whole citrus fruit cannot simply be transferred to a few grams of isolated fiber.</p><h2>Fermentation depends on the composition</h2><p>Pectin is relatively fermentable, while cellulose is generally broken down more slowly.</p><p>A pectin-rich citrus fiber can therefore behave differently in the gut from a more insoluble preparation.</p><p>Recent research is examining how extraction and modification change digestibility, fermentation, and potential prebiotic properties.</p><h2>How it appears on labels</h2><p>Names can include citrus fiber, orange fiber, or lemon fiber. A label that specifically lists pectin is using a more defined isolated fraction.</p><p><strong>The practical rule:</strong> citrus fiber is a functional mixture recovered from structural parts of fruit. Its main formulation strengths are water and oil retention, texture support, by-product upcycling, and added dietary fiber.</p>",
+  "faq": [
+    {
+      "question": "Are citrus fiber and pectin the same?",
+      "answer": "No. Citrus fiber contains pectin plus cellulose, hemicellulose, and other cell-wall components."
+    },
+    {
+      "question": "Why is citrus fiber added to foods?",
+      "answer": "It binds water and oil, supports texture and stability, and can increase dietary fiber."
+    },
+    {
+      "question": "Is citrus fiber made from waste?",
+      "answer": "It is commonly made from peel, albedo, and pulp by-products from juice processing, which are cleaned and processed as food ingredients."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Citrus fiber as a functional component: comprehensive review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38677689/",
+      "note": "Reviews extraction, modification, structure, and food applications."
+    },
+    {
+      "name": "PubMed — Citrus endogenous components as prebiotics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40263823/",
+      "note": "Reviews fiber and other citrus by-product components, digestion, and fermentation."
+    },
+    {
+      "name": "PubMed — Chemical variability and applications of citrus plants",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36830039/",
+      "note": "Broader review of citrus composition and food-industry applications."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food-science image of orange and lemon peels, pale citrus fiber powder, a sauce, and a meat patty with water-retention icons, no brands.",
+    "alt": "Citrus fiber made from peel and pulp and used for water retention"
+  },
+  "status": "publish"
+}
