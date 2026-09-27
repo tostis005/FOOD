@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1324-are-canned-legumes-as-nutritious-home-cooked",
+  "article_number": 1324,
+  "translation_group": "1324-canned-vs-home-cooked-legumes",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; canned beans, chickpeas, and lentils compared with dried pulses soaked and cooked at home.",
+  "title": "Are Canned Legumes as Nutritious as Home-Cooked Beans and Lentils?",
+  "slug": "are-canned-legumes-as-nutritious-home-cooked",
+  "seo": {
+    "title": "Canned vs. Home-Cooked Legumes: Are They as Nutritious?",
+    "meta_description": "Canned beans and chickpeas still provide protein, fiber, resistant starch, and minerals. Canning can reduce some water-soluble nutrients and added salt can raise sodium. Draining, rinsing, or choosing no-salt-added products helps control sodium.",
+    "search_intent": "Compare canned and home-cooked legumes for protein, fiber, minerals, sodium, antinutrients, texture, and convenience."
+  },
+  "excerpt": "Canned legumes remain highly nutritious foods. They retain protein, substantial fiber, complex carbohydrate, and many minerals, although heat processing and storage liquid can alter some water-soluble nutrients. Research finds greater losses of selected fiber or minerals in some canned pulses, while other nutrients remain well preserved. The easiest practical difference to control is sodium through no-salt-added products or draining and rinsing.",
+  "taxonomy": {
+    "food_family": "legumes",
+    "food_subcategories": [
+      "canned-legumes",
+      "beans",
+      "chickpeas"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p><strong>Canned beans, chickpeas, and lentils remain nutritious foods; canning does not turn them into an inferior version of the pulse.</strong> They still provide protein, fiber, starch, minerals, and many plant compounds.</p><p>The main differences come from thermal intensity, time in packing liquid, texture, and the salt added to many products.</p><h2>Protein is generally well retained</h2><p>Pulse proteins denature during heating just as they do in home cooking, but denaturation does not make the amino acids disappear.</p><p>Studies of canned pulses find similar or somewhat lower protein per 100 grams depending on the species and how much water the seed absorbs.</p><p>Some apparent dilution is simply moisture: a more hydrated bean has fewer dry nutrients per 100 grams of finished food.</p><h2>Fiber changes, but canned pulses still provide a lot</h2><p>Heat and pressure alter cell walls and can solubilize some fiber.</p><p>A comparison of commonly eaten French pulses found greater reductions in selected nutrients, including fiber, from canning than from household cooking in some bean varieties.</p><p>Other studies report good retention depending on analytical method and pulse type. Either way, canned beans remain a meaningful fiber source.</p><h2>Minerals are not destroyed, but some move into the liquid</h2><p>Iron, magnesium, potassium, and other minerals are elements and cannot be destroyed by heat.</p><p>They can diffuse out of the seed into the canning liquid, so discarding the liquid can remove some soluble minerals.</p><p>For many people, the practical benefit of lowering sodium and improving flavor through draining or rinsing is still worthwhile.</p><h2>Sodium is the most obvious practical difference</h2><p>Traditional canned beans often contain added salt, sometimes much more than beans cooked at home without salt.</p><p>No-salt-added and low-sodium versions narrow that gap. Draining and rinsing also remove some sodium from the liquid and bean surface.</p><p>USDA FoodData Central now includes specific Foundation Foods entries for canned beans and chickpeas with sodium added, drained and rinsed.</p><h2>Canning also reduces antinutritional factors</h2><p>Soaking and heating reduce active lectins, trypsin inhibitors, and portions of oligosaccharides and phytate.</p><p>A study of canned Spanish beans found no detectable lectins and major reductions in trypsin inhibitors after industrial processing.</p><p>This is particularly relevant to kidney beans, which should never be eaten raw or inadequately cooked.</p><h2>Are canned beans softer and more glycemic?</h2><p>Pressure processing can soften cell walls and make starch more accessible. Some classic studies found a somewhat higher glycemic response from canned beans than the same varieties cooked from dry.</p><p>Even so, the canned beans still produced much lower responses than refined reference foods.</p><p>The real response depends on bean species, texture, serving size, and the rest of the meal.</p><h2>Convenience can improve diet quality</h2><p>Canned pulses eliminate soaking and long cooking. A can can be rinsed and added to salad, stew, pasta, or grain bowls in minutes.</p><p>If that convenience makes you eat beans more often, it can have a larger nutritional impact than modest differences in one mineral between cooking methods.</p><p>Frequency of pulse intake matters more than culinary purity.</p><h2>How to choose</h2><p>Look for a short ingredient list, compare sodium, and choose no-salt-added when useful. Rinse if you want less brine flavor or sodium.</p><p><strong>The practical rule:</strong> canned legumes are cooked legumes, not nutritionally empty convenience food. Some soluble nutrients change, but protein and fiber remain substantial, antinutritional factors fall, and sodium is easy to manage.</p>",
+  "faq": [
+    {
+      "question": "Do canned beans still have protein?",
+      "answer": "Yes. They retain most of the pulse protein, although the amount per 100 g changes with water absorption."
+    },
+    {
+      "question": "Should you rinse canned beans?",
+      "answer": "It is not required, but draining and rinsing can reduce sodium and brine flavor."
+    },
+    {
+      "question": "Are canned beans worse than dried beans?",
+      "answer": "Not generally. There are differences in texture and selected soluble nutrients, but canned pulses remain highly nutritious and convenient."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Nutritional composition of pulses and effect of cooking method",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/30400385/",
+      "note": "Compara legumbres cocidas en casa y enlatadas y muestra que el efecto depende del nutriente y la especie."
+    },
+    {
+      "name": "PubMed — Industrial canning of Spanish dry beans",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25053030/",
+      "note": "Analiza proteína, fibra, minerales, lectinas, fitatos e inhibidores tras enlatado."
+    },
+    {
+      "name": "USDA FoodData Central — canned beans drained and rinsed",
+      "url": "https://fdc.nal.usda.gov/food-search/?query=beans&type=Foundation",
+      "note": "Incluye datos recientes de alubias y garbanzos enlatados con sodio añadido, escurridos y enjuagados."
+    },
+    {
+      "name": "PubMed — Effect of canning on glycemic response to beans",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/3570870/",
+      "note": "Estudio clásico que compara respuesta glucémica de judías enlatadas y cocidas desde seco."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food comparison of canned chickpeas and beans being rinsed beside a pot of home-cooked dried pulses, no brands.",
+    "alt": "Rinsed canned legumes compared with home-cooked dried legumes"
+  },
+  "status": "publish"
+}
