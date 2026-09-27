@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1366-powdered-microcrystalline-cellulose",
+  "article_number": 1366,
+  "translation_group": "1366-powdered-microcrystalline-cellulose",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; powdered cellulose and microcrystalline cellulose used as purified cellulose fibers and technological food ingredients.",
+  "title": "Powdered and Microcrystalline Cellulose: What They Are and Why They Appear in Food",
+  "slug": "powdered-microcrystalline-cellulose-food",
+  "seo": {
+    "title": "Powdered and Microcrystalline Cellulose: What They Are in Food",
+    "meta_description": "Powdered cellulose and microcrystalline cellulose are purified forms of plant cellulose. They are used as anticaking agents, stabilizers, thickeners, bulking agents, and texturizers. EFSA concludes that celluloses are not significantly absorbed. They are different from carboxymethylcellulose and are not simply sawdust.",
+    "search_intent": "Understand what powdered cellulose and microcrystalline cellulose are, where they come from, why food manufacturers use them, and whether they are the same as CMC or sawdust."
+  },
+  "excerpt": "Powdered cellulose and microcrystalline cellulose are purified forms of cellulose, the major structural polysaccharide in plant cell walls. Powdered cellulose is produced mainly through fine mechanical pulverization of purified cellulose, while microcrystalline cellulose receives partial hydrolysis that removes more amorphous regions. Both are used for physical functionality such as anticaking, stabilization, bulking, and texture rather than sweetness.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "cellulose",
+      "microcrystalline-cellulose",
+      "food-additives"
+    ],
+    "article_types": [
+      "processing-production",
+      "food-labels"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p><strong>Powdered cellulose and microcrystalline cellulose are purified forms of the same plant polymer that gives cell walls structural strength.</strong> They are not sugar or starch, and human digestive enzymes do not cleave their beta linkages the way they digest starch.</p><p>In Europe, microcrystalline cellulose is E460(i) and powdered cellulose is E460(ii).</p><h2>Where food-grade cellulose comes from</h2><p>Cellulose can be isolated from plant pulps rich in the polymer, including appropriately processed wood or cotton sources.</p><p>This does not make the finished ingredient “sawdust.” Sawdust is a physical mixture of wood containing lignin, hemicellulose, extractives, and other components, while food cellulose is isolated and purified to defined specifications.</p><p>Raw-material origin and ingredient identity are two separate questions.</p><h2>Powdered and microcrystalline cellulose are processed differently</h2><p>FDA describes powdered cellulose as material generally obtained by mechanically micropulverizing purified cellulose.</p><p>Microcrystalline cellulose is prepared by partially hydrolyzing purified cellulose pulp, preferentially removing amorphous regions and leaving more crystalline particles.</p><p>The difference changes particle structure, surface properties, dispersion behavior, and technical performance.</p><h2>Why food manufacturers use cellulose</h2><p>FDA lists microcrystalline cellulose for functions including anticaking, drying aid, formulation aid, humectant, stabilizer, thickener, and texturizer.</p><p>It can help powders flow, reduce clumping, provide bulk, keep particles suspended, and adjust mouthfeel.</p><p>In reduced-fat or lower-calorie formulations, it can supply physical structure without contributing the same available energy as starch or fat.</p><h2>Does cellulose count as fiber?</h2><p>Cellulose is a nondigestible carbohydrate and a major component of naturally occurring insoluble dietary fiber in plants.</p><p>FDA notes that powdered cellulose and microcrystalline cellulose are chemically equivalent to isolated cellulose forms evaluated as nondigestible carbohydrate.</p><p>Its physiological behavior differs from viscous fibers such as beta-glucan or psyllium, so the word fiber does not imply identical health effects.</p><h2>What happens after you eat it?</h2><p>EFSA's re-evaluation concluded that celluloses are not absorbed and are largely excreted intact, although selected forms can undergo limited microbial fermentation.</p><p>Their dietary role is therefore mainly structural rather than supplying available glucose.</p><p>GI effects depend on amount, particle properties, and the overall diet just as they do with other insoluble fibers.</p><h2>Cellulose is not carboxymethylcellulose</h2><p>Carboxymethylcellulose, or CMC, is chemically modified with carboxymethyl groups that greatly increase solubility and change thickening behavior.</p><p>Powdered cellulose and microcrystalline cellulose are forms of cellulose itself rather than the same modified polymer.</p><p>Research findings about CMC should therefore not be automatically transferred to E460(i) or E460(ii).</p><h2>What safety evaluations say</h2><p>EFSA re-evaluated microcrystalline cellulose, powdered cellulose, and multiple cellulose derivatives and did not consider a numerical acceptable daily intake necessary for the unmodified celluloses under the evaluated uses.</p><p>This is a toxicological conclusion, not a recommendation to maximize intake.</p><p><strong>The practical rule:</strong> food cellulose is purified plant structure used for physical functionality. It is not simply sawdust, it does not behave like digestible starch, and it should not be confused with modified derivatives such as CMC.</p>",
+  "faq": [
+    {
+      "question": "Is microcrystalline cellulose sawdust?",
+      "answer": "No. It can originate from plant or wood pulp, but food-grade cellulose is isolated and purified to defined specifications; sawdust is a mixture of wood components."
+    },
+    {
+      "question": "Why is cellulose added to food?",
+      "answer": "Depending on the formulation it can act as an anticaking agent, stabilizer, thickener, bulking agent, or texturizer."
+    },
+    {
+      "question": "Is microcrystalline cellulose the same as carboxymethylcellulose?",
+      "answer": "No. CMC is a chemically modified, much more soluble cellulose derivative."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Review of Certain Non-Digestible Carbohydrates",
+      "url": "https://www.fda.gov/files/food/published/Review-of-the-Scientific-Evidence-on-the-Physiological-Effects-of-Certain-Non-Digestible-Carbohydrates-PDF.pdf",
+      "note": "Defines powdered and microcrystalline cellulose and manufacturing differences."
+    },
+    {
+      "name": "FDA — Substances Added to Food: Microcrystalline Cellulose",
+      "url": "https://www.hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=CELLULOSEMICROCRYSTALLINE&set=FoodSubstances",
+      "note": "Lists technical food functions."
+    },
+    {
+      "name": "EFSA — Re-evaluation of celluloses E460–E469",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32625652/",
+      "note": "Safety evaluation and discussion of absorption and fermentation."
+    },
+    {
+      "name": "PubMed — Functionality and nutritional aspects of microcrystalline cellulose",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28606522/",
+      "note": "Review of food functionality and nutritional aspects of MCC."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food-science image of purified white cellulose powder beside plant fibers and examples of powdered food and shredded cheese, with a cell-wall illustration, no brands.",
+    "alt": "Powdered and microcrystalline cellulose used as food ingredients"
+  },
+  "status": "publish"
+}
