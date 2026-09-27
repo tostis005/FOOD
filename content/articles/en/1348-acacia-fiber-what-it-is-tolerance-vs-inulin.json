@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1348-acacia-fiber-vs-inulin",
+  "article_number": 1348,
+  "translation_group": "1348-acacia-fiber-vs-inulin",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; gum arabic/acacia fiber as a soluble fermentable fiber and practical comparison with inulin.",
+  "title": "Acacia Fiber: What It Is, How It Is Tolerated, and How It Differs From Inulin",
+  "slug": "acacia-fiber-what-it-is-tolerance-vs-inulin",
+  "seo": {
+    "title": "Acacia Fiber: Tolerance and How It Differs From Inulin",
+    "meta_description": "Acacia fiber, or gum arabic, comes from the dried exudate of trees such as Acacia senegal. It is soluble, low-viscosity, and fermented relatively slowly. Compared with inulin, its fermentation tends to be more gradual, which can change GI tolerance, although high doses can still cause gas.",
+    "search_intent": "Understand what acacia fiber is, how it is made, how well it is tolerated, and how its fermentation and texture differ from inulin."
+  },
+  "excerpt": "Acacia fiber, also called gum arabic, is a plant exudate rich in complex polysaccharides obtained mainly from <em>Acacia senegal</em> and <em>Acacia seyal</em>. It dissolves readily, adds little viscosity at moderate concentrations, and largely reaches the colon for fermentation. Compared with inulin, it is generally described as fermenting more gradually, which can create a different gastrointestinal tolerance profile.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "acacia-fiber",
+      "gum-arabic",
+      "prebiotic-fiber"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "comparisons"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Acacia fiber is a soluble fiber made from the dried exudate of selected acacia trees, especially <em>Acacia senegal</em> and <em>Acacia seyal</em>.</strong> Food labels may call it gum arabic, gum acacia, or acacia fiber.</p><p>Its structure is complex, containing highly branched polysaccharides rich in galactose, arabinose, and uronic acids plus a small protein fraction.</p><h2>It dissolves without making a very thick gel</h2><p>Unlike psyllium, acacia is soluble but relatively low in viscosity at typical food concentrations.</p><p>This makes it easy to add to drinks, yogurt, powders, and bars without dramatically changing mouthfeel.</p><p>It also functions technologically as an emulsifier and stabilizer, not only as a source of fiber.</p><h2>Most of it reaches the colon</h2><p>Human digestive enzymes break down very little of the branched polysaccharide structure.</p><p>A substantial fraction reaches the large intestine, where microbes can ferment it and produce short-chain fatty acids.</p><p>Fermentation is generally more gradual than with very rapidly fermented fructans such as inulin and oligofructose.</p><h2>Why can tolerance differ from inulin?</h2><p>Inulin can ferment rapidly in the proximal colon and generate gas quickly, particularly at larger doses.</p><p>Gum arabic is structurally more heterogeneous and tends to be degraded more slowly and across a broader region of the colon.</p><p>This does not guarantee symptom-free use, but it helps explain why some people tolerate moderate acacia doses better than equivalent inulin doses.</p><h2>Clinical tolerance is reasonably favorable</h2><p>Reviews of nondigestible carbohydrates generally place acacia among fibers with relatively good tolerance, although studies use different products and dose ranges.</p><p>As with any fermentable fiber, gas, bloating, or stool changes can occur when intake increases too quickly.</p><p>Personal tolerance also depends on baseline diet and other added fibers.</p><h2>What has been studied in IBS-C?</h2><p>A 2024 double-blind randomized trial in 180 people with constipation-predominant irritable bowel syndrome compared 10 grams per day of acacia fiber with a probiotic and placebo over four weeks.</p><p>The study provides direct evidence on stool pattern, GI symptoms, and tolerance in a defined population.</p><p>It does not prove that acacia cures IBS, but it shows that practical daily doses can be studied clinically.</p><h2>Is acacia fiber a prebiotic?</h2><p>Acacia can alter selected bacterial groups and colonic fermentation, which is why some products are marketed as prebiotic.</p><p>The scientific definition requires selective microbial utilization that confers a health benefit.</p><p>Evidence can depend on dose and formulation, so every gum-arabic product should not automatically receive identical claims.</p><h2>Acacia and inulin are not interchangeable in food formulation</h2><p>Inulin can create creaminess and sometimes replace part of the fat in food systems. Acacia is especially useful for solubility, low viscosity, and emulsification.</p><p>Both can raise fiber in a drink while producing different mouthfeel and fermentation profiles.</p><p>Replacing one with the other one-for-one can therefore change both texture and GI response.</p><h2>How to use it when increasing fiber</h2><p>Start with a moderate amount and increase gradually, especially if the diet already includes inulin, FOS, sugar alcohols, or multiple fortified fibers.</p><p>Fluids still matter in a high-fiber diet even though acacia does not create an obvious gel.</p><p><strong>The practical rule:</strong> acacia fiber is soluble, low-viscosity, and fermentable. Compared with inulin it tends to ferment more slowly, but tolerance still depends on dose, individual response, and total fiber load.</p>",
+  "faq": [
+    {
+      "question": "Are acacia fiber and gum arabic the same thing?",
+      "answer": "In foods, they generally refer to the dried exudate from species such as Acacia senegal or Acacia seyal."
+    },
+    {
+      "question": "Does acacia cause less gas than inulin?",
+      "answer": "It often ferments more slowly and some people tolerate it better, but high doses can still cause gas or bloating."
+    },
+    {
+      "question": "Is acacia fiber prebiotic?",
+      "answer": "It can show prebiotic effects in selected studies, although evidence depends on the specific product and dose."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Acacia fiber in IBS-C randomized trial",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38653808/",
+      "note": "2024 double-blind trial using 10 g/day in people with IBS-C."
+    },
+    {
+      "name": "PubMed — Gum Arabic clinical trials systematic review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36671523/",
+      "note": "Systematic review of clinical trials involving gum arabic."
+    },
+    {
+      "name": "PubMed — Gastrointestinal Effects and Tolerance of Nondigestible Carbohydrate Consumption",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36041173/",
+      "note": "Provides broader context for fiber fermentation and tolerance."
+    }
+  ],
+  "image": {
+    "concept": "Editorial ingredient photograph of pale acacia fiber powder beside natural acacia gum and a clear drink, with a slow-fermentation comparison to inulin, no brands.",
+    "alt": "Acacia fiber compared with inulin by fermentation rate"
+  },
+  "status": "publish"
+}
