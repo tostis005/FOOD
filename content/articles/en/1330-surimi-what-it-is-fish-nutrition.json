@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1330-surimi-what-it-is-fish-nutrition",
+  "article_number": 1330,
+  "translation_group": "1330-surimi-what-fish-nutrition",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; surimi and imitation crab products made from processed fish muscle protein.",
+  "title": "Surimi: What It Is, What Fish It Is Made From, and Its Nutrition",
+  "slug": "surimi-what-it-is-fish-nutrition",
+  "seo": {
+    "title": "Surimi: What Fish It Is Made From and Its Nutrition",
+    "meta_description": "Surimi is washed, minced fish muscle concentrated into a functional protein paste, often from Alaska pollock. Imitation crab adds starch, egg white, sugar or sorbitol, salt, oils, flavorings, and color. It provides fish protein but usually less protein and more sodium/carbohydrate than a plain fillet.",
+    "search_intent": "Understand what surimi is, which fish are used, how imitation crab is made, and how its nutrition compares with whole fish."
+  },
+  "excerpt": "Surimi is a fish-protein paste made by mincing, washing, and concentrating fish muscle to remove part of the fat, pigments, and soluble compounds. Alaska pollock is a common raw material, although other fish can be used. To make imitation crab sticks, manufacturers usually add starch, salt, sugar or sorbitol, egg white, oils, flavorings, and color. It still provides fish protein but is not nutritionally identical to a fillet.",
+  "taxonomy": {
+    "food_family": "seafood",
+    "food_subcategories": [
+      "surimi",
+      "pollock",
+      "imitation-crab"
+    ],
+    "article_types": [
+      "processing-production",
+      "nutrition-composition"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p><strong>Surimi is real fish that has been processed to concentrate muscle proteins into a paste capable of forming a springy gel.</strong> It is not synthetic seafood, although the finished imitation-crab product can contain many ingredients besides fish.</p><p>Alaska pollock is one of the most common raw materials because its proteins form stable gels and its flavor is relatively neutral.</p><h2>How the basic surimi paste is made</h2><p>Fish is headed, gutted, and separated from skin and bones. The muscle is minced and repeatedly washed with cold water.</p><p>Washing removes part of the fat, blood, pigments, soluble proteins, and enzymes, leaving a fraction rich in myofibrillar proteins.</p><p>Excess water is then removed to create a concentrated paste that can be frozen as an industrial ingredient.</p><h2>Why sugar, sorbitol, and phosphates may be added</h2><p>Fish proteins can denature during frozen storage and lose their ability to form an elastic gel.</p><p>Frozen surimi therefore commonly uses cryoprotectants such as sucrose, sorbitol, polydextrose, or phosphates in varying formulations.</p><p>These ingredients help preserve protein solubility and functional texture during long storage.</p><h2>Imitation crab is a second formulation step</h2><p>To make crab sticks or similar products, surimi paste is mixed with starch, salt, egg white or other proteins, oils, flavorings, coloring, and sometimes additional sugar.</p><p>The mixture is cooked and structured into fibers or layers that resemble crab meat.</p><p>The percentage of fish varies widely between products, so the ingredient list matters.</p><h2>Which fish are used?</h2><p>Alaska pollock is a major source in North America and Japan, but hake, cod, hoki, tropical species, and other fish with suitable gelling proteins can also be used.</p><p>Surimi describes the processing approach rather than one fish species.</p><p>If species, sustainability, or allergy details matter, check the specific package.</p><h2>Surimi provides protein, but usually less than a plain fillet</h2><p>Lean fish often contains roughly 18–22 grams of protein per 100 grams. Formulated imitation crab typically contains less because part of its weight comes from water, starch, sugar, and other ingredients.</p><p>Commercial values differ, but many imitation products fall in a moderate rather than very high protein range.</p><p>The protein that remains is still largely high-quality fish protein.</p><h2>Sodium and carbohydrate are major differences</h2><p>Plain fish contains almost no carbohydrate. Surimi products can contain meaningful starch and sugar used for structure, freezing stability, and flavor.</p><p>Added salt can also make sodium substantially higher than in an unseasoned fish fillet.</p><p>This makes surimi a processed seafood product rather than a direct nutritional equivalent to whole fish.</p><h2>What about omega-3 fats?</h2><p>Pollock and similar lean fish start with relatively little total fat, and washing removes part of the lipid fraction.</p><p>Surimi may retain some EPA and DHA, but it is usually not as concentrated an omega-3 source as salmon, sardines, or mackerel.</p><p>Added vegetable oil does not necessarily increase marine omega-3.</p><h2>How to compare products</h2><p>Check fish position or percentage in the ingredient list, protein per 100 grams, sodium, starches, and added sugars. Also review allergens because formulations can contain fish, egg, wheat, soy, or shellfish-derived flavorings.</p><p><strong>The practical rule:</strong> surimi is a technology for concentrating fish muscle protein and giving it a moldable texture. The final crab-style product still contains fish, but added ingredients change its protein, sodium, and carbohydrate profile compared with a plain fillet.</p>",
+  "faq": [
+    {
+      "question": "Is surimi real fish?",
+      "answer": "Yes. It is made from washed, concentrated fish muscle, commonly Alaska pollock."
+    },
+    {
+      "question": "Why does surimi contain starch and sugar?",
+      "answer": "Starch supports texture, while sugars or polyols can help protect fish proteins during frozen storage."
+    },
+    {
+      "question": "Does surimi have as much protein as fish?",
+      "answer": "Usually less per 100 g because the finished product contains water, starch, and other ingredients in addition to fish."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Molecular insights into freeze-induced quality deterioration in surimi",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/40865448/",
+      "note": "Revisión reciente que define surimi como producto concentrado de proteínas miofibrilares y explica congelación y estabilidad."
+    },
+    {
+      "name": "Food Reviews International — Role of Cryoprotectants in Surimi",
+      "url": "https://www.tandfonline.com/doi/full/10.1080/87559129.2020.1768403",
+      "note": "Revisa sacarosa, sorbitol, fosfatos y otros crioprotectores utilizados para conservar funcionalidad del surimi."
+    },
+    {
+      "name": "Alaska Seafood — What Is Surimi?",
+      "url": "https://surimi.alaskaseafood.org/en/what-is-surimi/",
+      "note": "Describe el uso frecuente de abadejo de Alaska y las etapas industriales básicas."
+    }
+  ],
+  "image": {
+    "concept": "Editorial seafood photograph showing Alaska pollock fillet, white surimi paste, and finished imitation crab sticks in sequence, no brands.",
+    "alt": "Fish fillet transformed into surimi and imitation crab sticks"
+  },
+  "status": "publish"
+}
