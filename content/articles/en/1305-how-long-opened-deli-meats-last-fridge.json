@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1305-how-long-opened-deli-meats-last-fridge",
+  "article_number": 1305,
+  "translation_group": "1305-opened-deli-meats-fridge-life",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; opened cooked deli meats, sliced cold cuts, and dry-cured meats in household refrigeration.",
+  "title": "How Long Do Opened Deli Meats Last in the Refrigerator?",
+  "slug": "how-long-opened-deli-meats-last-fridge",
+  "seo": {
+    "title": "How Long Do Opened Deli Meats Last in the Fridge?",
+    "meta_description": "Opened cooked lunch meat and deli-sliced meat generally keep 3–5 days refrigerated. Dry-cured salami, prosciutto, or similar meats can have much longer product-specific windows. Follow the label and identify the type of meat before applying a storage rule.",
+    "search_intent": "Understand how long opened deli meats keep, why cooked cold cuts differ from dry-cured meats, and which storage and spoilage signs matter."
+  },
+  "excerpt": "There is no single refrigerator window for every food called a deli meat or cold cut. For moist cooked lunch meats—ham, turkey, bologna, and similar sliced products—USDA uses 3–5 days after opening or deli slicing. Dry-cured salami, prosciutto, and similar products can have very different storage lives. Processing method and package directions matter more than applying one rule to all cured meats.",
+  "taxonomy": {
+    "food_family": "meat",
+    "food_subcategories": [
+      "deli-meat",
+      "cold-cuts",
+      "cured-meat"
+    ],
+    "article_types": [
+      "storage-shelf-life",
+      "food-safety"
+    ],
+    "primary_article_type": "storage-shelf-life"
+  },
+  "content_html": "<p><strong>For opened cooked lunch meat or deli-sliced cold cuts, 3–5 refrigerated days at 40 °F (4 °C) or below is the standard U.S. reference.</strong> This fits products such as sliced cooked ham, turkey, bologna, and many sandwich meats.</p><p>But “deli meat” can also include dry-cured products. Dry salami, prosciutto, and cooked turkey are not microbiologically or physically the same food.</p><h2>Opened moist lunch meats generally get 3–5 days</h2><p>FoodSafety.gov and USDA list 3–5 days for luncheon meat after a package is opened or when meat has been sliced at the deli counter.</p><p>These products are moist, ready to eat, and exposed to handling after processing. Opening also removes the protection of the original sealed environment.</p><p>If the package says “use within three days of opening,” follow that shorter instruction.</p><h2>Dry-cured meats are a different category</h2><p>Dry salami, cured chorizo, prosciutto, and selected hams lose water during curing and may use salt, fermentation, and other hurdles that slow microbial growth.</p><p>Some therefore keep for weeks or longer under specific conditions. USDA, for example, gives sliced prosciutto, Parma, or Serrano-style ham a much longer refrigerated window than ordinary cooked lunch meat.</p><p>Do not transfer that long window to a fresh or cooked sausage simply because both products are called sausage.</p><h2>Factory packaging and deli slicing differ too</h2><p>A factory-sealed pack may use modified atmosphere and tightly controlled filling. Deli slicing introduces cutting surfaces and extra handling.</p><p>This is why the same 3–5 day reference applies to many meats sliced at the store even when they were purchased that day.</p><p>Store slices tightly covered and do not return pieces that have sat on a serving plate for a long time to the main package.</p><h2>Listeria is one reason storage time matters</h2><p>Ready-to-eat deli meats can occasionally become contaminated with <em>Listeria monocytogenes</em> after cooking. Unlike many foodborne bacteria, Listeria can grow slowly at refrigerator temperatures.</p><p>Keeping the refrigerator cold and limiting storage time is particularly important for pregnant people, older adults, and people with weakened immune systems.</p><p>Public-health agencies may recommend reheating selected deli meats until steaming for higher-risk individuals.</p><h2>What spoilage signs matter?</h2><p>New slime, sour or rancid odor, unexpected mold, gas, package swelling, or abnormal color are reasons to discard a product.</p><p>Selected dry-cured meats can have an intentional surface culture, so know what is normal for that specific product.</p><p>Pathogens do not always create a bad smell, so sensory checks cannot replace refrigerator time and temperature.</p><h2>How to store opened deli meat</h2><p>Keep it at 40 °F or below in a tightly closed package or container. Use clean hands or utensils when separating slices.</p><p>Many lunch meats can be frozen, with USDA using roughly 1–2 months as a best-quality window. Thawed slices may lose some moisture or texture.</p><p>Freeze portions while they are still fresh rather than after they have already exceeded the refrigerator window.</p><h2>Use the right rule for the right product</h2><p>First identify whether the meat is moist and cooked, dry cured, fresh, or fermented. Then check the manufacturer's after-opening direction.</p><p>For ordinary cooked or deli-sliced lunch meat without a different instruction, 3–5 days is a useful benchmark. For dry-cured meat, use product-specific guidance.</p><p><strong>The practical rule:</strong> do not apply “one week” to every cold cut. Think 3–5 days for opened moist lunch meat; for dry-cured products, identify the product and follow its specific label because storage can be much longer.</p>",
+  "faq": [
+    {
+      "question": "How long does opened sliced ham last?",
+      "answer": "For ordinary cooked deli ham, a standard refrigerator reference is 3–5 days at 40°F or below."
+    },
+    {
+      "question": "Does dry salami only last 3–5 days?",
+      "answer": "Not necessarily. Dry-cured meats can have substantially longer storage windows depending on processing, moisture, format, and label instructions."
+    },
+    {
+      "question": "How long does meat sliced at the deli counter last?",
+      "answer": "USDA uses 3–5 days for luncheon meat that is opened or deli sliced."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FoodSafety.gov — Cold Food Storage Chart",
+      "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
+      "note": "Utiliza 3–5 días para luncheon meat abierto o loncheado en tienda y 1–2 meses en congelador para calidad."
+    },
+    {
+      "name": "USDA FSIS — Meat and Poultry Packaging Materials",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/meat-and-poultry-packaging",
+      "note": "Confirma 3–5 días refrigerados para paquetes abiertos de luncheon meat."
+    },
+    {
+      "name": "USDA FSIS — Hams and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/hams-and-food-safety",
+      "note": "Muestra cómo los plazos varían mucho entre jamón cocido, fiambre, productos curados y jamón tipo serrano/prosciutto."
+    }
+  ],
+  "image": {
+    "concept": "Editorial refrigerator photograph comparing opened sliced cooked deli meat in a sealed container with a dry-cured salami or ham product, each dated, no brands.",
+    "alt": "Opened cooked deli meat compared with a dry-cured meat product"
+  },
+  "status": "publish"
+}
