@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "en-1311-legume-pasta-vs-wheat-protein-fiber-texture",
+  "article_number": 1311,
+  "translation_group": "1311-legume-vs-wheat-pasta",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; dry 100% legume pasta compared with traditional durum-wheat pasta.",
+  "title": "Legume Pasta vs. Wheat Pasta: Protein, Fiber, and Texture",
+  "slug": "legume-pasta-vs-wheat-protein-fiber-texture",
+  "seo": {
+    "title": "Legume Pasta vs. Wheat Pasta: Protein, Fiber, and Texture",
+    "meta_description": "Lentil, chickpea, and pea pasta generally provide more protein and fiber than refined wheat pasta, but their structure is different, so they may be less elastic and lose more solids during cooking. Whole-wheat pasta narrows the fiber gap.",
+    "search_intent": "Compare legume and wheat pasta for protein, fiber, carbohydrates, gluten, texture, cooking behavior, and practical use."
+  },
+  "excerpt": "Legume pasta usually contains more protein and fiber than traditional durum-wheat pasta because it starts with lentil, chickpea, pea, or bean flour. Without the same gluten network that traps starch in wheat pasta, however, 100% legume noodles can be more fragile, less elastic, and more prone to cooking losses. The actual difference depends on whether the product is all legume or a blend.",
+  "taxonomy": {
+    "food_family": "grains",
+    "food_subcategories": [
+      "pasta",
+      "legumes",
+      "wheat"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition-composition",
+      "cooking-science"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p><strong>Legume pasta usually provides more protein and fiber than refined wheat pasta, but it also behaves differently in the pot.</strong> Products made entirely from lentils, chickpeas, peas, or beans use the natural protein and fiber of the pulse rather than relying on a gluten network.</p><p>Durum pasta combines starch-rich semolina with gluten-forming proteins that create a compact structure and familiar al dente bite.</p><h2>Legume pasta generally has more protein</h2><p>Regular dry wheat pasta commonly provides roughly 12–15 grams of protein per 100 grams, while many 100% legume pastas fall around 20–25 grams.</p><p>The exact number depends on the pulse and whether protein concentrates have been added.</p><p>Protein quality also differs: pulses tend to be relatively low in sulfur-containing amino acids, while wheat is limited in lysine. A varied diet easily combines complementary protein sources.</p><h2>Fiber can be an even bigger difference</h2><p>Pulse flour retains cell-wall fiber, resistant starch, and both soluble and insoluble fractions. Many legume pastas therefore contain roughly twice or more the fiber of refined semolina pasta.</p><p>Whole-wheat pasta narrows that difference because bran and germ remain in the product.</p><p>The useful comparison is therefore not simply pulse versus wheat; refined versus whole-grain wheat matters too.</p><h2>Legume pasta is still a carbohydrate food</h2><p>Higher protein does not make a bowl of chickpea pasta low carb. Pulses contain substantial starch, and a dry serving still concentrates energy.</p><p>The combination of protein, fiber, resistant starch, and food structure can slow starch digestion and improve fullness compared with more refined products.</p><p>The actual glucose response also depends on cooking time, portion size, sauce, and the rest of the meal.</p><h2>Gluten explains much of the texture difference</h2><p>In durum pasta, the gluten network surrounds starch granules and limits how much material leaches into cooking water. That helps create elasticity and a firm bite.</p><p>One hundred percent legume pasta lacks that continuous gluten matrix. Research describes a weaker protein network that develops during cooking and can allow greater cooking loss.</p><p>Some lentil or chickpea noodles therefore move from firm to soft quickly or break more easily when overcooked.</p><h2>Cooking deserves closer attention</h2><p>Follow the package time and start tasting a minute or two early. The ideal window may be narrower than with durum pasta.</p><p>Stir gently to limit breakage. Rinsing can remove surface starch for a cold salad, while leaving that starch can help hot sauce cling.</p><p>Foam during cooking is common with pulse pasta and is not itself a spoilage sign.</p><h2>Is legume pasta always gluten-free?</h2><p>Pasta made only from chickpea, lentil, pea, or bean flour is naturally gluten-free. But a product marketed as “legume pasta” can contain wheat as part of a blend.</p><p>For celiac disease, check for a certified or regulated gluten-free claim rather than assuming from the front label.</p><p>Wheat pasta, including whole wheat, contains gluten.</p><h2>Which should you choose?</h2><p>If you want more protein and fiber built directly into the pasta, a 100% pulse product is convenient. If classic texture, broad shape selection, and forgiving cooking matter most, durum wheat has culinary advantages.</p><p><strong>The practical rule:</strong> legume pasta changes both nutrition and physical structure. Compare protein and fiber per 100 grams, confirm whether it is 100% legume, and adjust cooking for a noodle that may be less elastic than wheat pasta.</p>",
+  "faq": [
+    {
+      "question": "Does legume pasta have more protein?",
+      "answer": "Usually yes, especially when it is made entirely from lentils, chickpeas, peas, or beans."
+    },
+    {
+      "question": "Is legume pasta low carb?",
+      "answer": "Not necessarily. It can have somewhat less starch and more protein and fiber, but it remains a carbohydrate-rich food."
+    },
+    {
+      "question": "Is all legume pasta gluten-free?",
+      "answer": "No. Some products blend legumes with wheat, so celiac consumers should check for a specific gluten-free label."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Structural, Culinary, Nutritional and Anti-Nutritional Properties of 100% Legume Pasta",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27603917/",
+      "note": "Compara estructura, proteína, fibra, almidón resistente, textura y pérdidas de cocción de pastas 100% de legumbres."
+    },
+    {
+      "name": "PubMed — Faba bean fortification of durum wheat pasta",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33567351/",
+      "note": "Muestra cómo harina y concentrados de haba aumentan proteína y fibra y modifican digestibilidad y estructura."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Base para comparar composición de pastas de trigo y productos concretos de legumbres."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food comparison of cooked red lentil, chickpea and durum wheat pasta in separate bowls, emphasizing texture differences, no brands.",
+    "alt": "Red lentil, chickpea, and wheat pasta compared"
+  },
+  "status": "publish"
+}
