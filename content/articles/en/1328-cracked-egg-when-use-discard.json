@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1328-cracked-egg-when-use-discard",
+  "article_number": 1328,
+  "translation_group": "1328-cracked-egg-safety",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; shell eggs cracked before purchase, accidentally cracked at home, or cracked during cooking.",
+  "title": "Cracked Egg: When You Can Use It and When You Should Throw It Away",
+  "slug": "cracked-egg-when-use-discard",
+  "seo": {
+    "title": "Cracked Eggs: When to Use Them and When to Throw Them Away",
+    "meta_description": "Do not buy eggs that are already cracked because bacteria can enter through the shell. If an intact refrigerated egg cracks accidentally at home, USDA advises transferring it to a clean covered container, refrigerating it, and using it within 2 days. Eggs cracked during hard cooking are safe.",
+    "search_intent": "Understand what to do with a cracked egg and how safety differs between a pre-existing crack, an accidental crack at home, and a crack that occurs during cooking."
+  },
+  "excerpt": "A crack breaks an egg's main physical barrier. USDA advises against buying eggs that are already cracked because bacteria on the shell can enter. If a refrigerated intact egg cracks accidentally at home, it can be handled immediately: transfer the contents to a clean covered container, refrigerate, and use within a short period, preferably fully cooked. If an egg cracks during hard cooking, USDA says it is safe.",
+  "taxonomy": {
+    "food_family": "eggs",
+    "food_subcategories": [
+      "cracked-egg",
+      "egg-safety",
+      "shell-eggs"
+    ],
+    "article_types": [
+      "food-safety",
+      "storage-shelf-life"
+    ],
+    "primary_article_type": "food-safety"
+  },
+  "content_html": "<p><strong>Do not routinely buy or keep an egg that was already cracked because a shell crack can let bacteria enter from the outside.</strong> The shell and membranes are important contamination barriers.</p><p>Not every crack happens under the same circumstances, however. An egg that breaks in your kitchen moments ago is different from one that may have been cracked for hours in a carton.</p><h2>Do not buy eggs that are already cracked</h2><p>USDA recommends choosing clean eggs with intact shells. With a crack present before purchase, you do not know when it happened or how the egg was handled afterward.</p><p>The shell surface can carry environmental microorganisms, and an opening gives them an easier route inside.</p><p>The uncertainty is the main reason to discard rather than gamble on a pre-cracked egg.</p><h2>If an egg cracks accidentally at home, act immediately</h2><p>USDA guidance allows an egg that accidentally cracks at home to be broken completely into a clean container.</p><p>Cover it, refrigerate it promptly, and use it within about two days.</p><p>This advice assumes you know the egg was intact and properly refrigerated immediately before the accident.</p><h2>Do not store raw egg inside a broken shell</h2><p>Once the shell is compromised, leaving the contents partly exposed inside it is not reliable protection.</p><p>Moving the egg to a clean covered container limits exposure and lets you store it properly.</p><p>Label the container if you are not using it immediately so the short storage window is obvious.</p><h2>An egg that cracks during boiling is different</h2><p>USDA specifically says eggs that crack during hard cooking are safe.</p><p>In that situation, the egg is receiving heat while the crack occurs rather than sitting raw for an unknown period.</p><p>Some white may leak into the cooking water, but that is mainly a quality problem.</p><h2>Hairline cracks still count</h2><p>Some cracks are difficult to see. A shell may have a fine line without obviously splitting apart.</p><p>Commercial grading systems treat cracked eggs as restricted rather than ordinary consumer-grade shell eggs.</p><p>If you discover a hairline crack at home but cannot tell when it happened, discarding the egg is the safer choice.</p><h2>Washing does not repair a crack</h2><p>Rinsing a cracked shell does not restore its barrier and can move moisture and contamination around the damaged area.</p><p>Household tape, plastic wrap, or wax does not make the shell safe again either.</p><p>The decision depends on when the crack occurred and how the egg was handled.</p><h2>How should an accidentally cracked egg be cooked?</h2><p>For maximum safety, use it in a fully cooked preparation such as firm scrambled eggs, a cooked omelet, cake, or another dish that receives adequate heat.</p><p>A stored cracked egg is not the best choice for homemade mayonnaise, tiramisu, raw batter, or runny-yolk preparations.</p><p>Pregnant people, older adults, and people with weakened immunity should be especially cautious with unpasteurized eggs.</p><h2>What if several eggs break in the carton?</h2><p>If you know exactly when it happened, such as dropping the carton after arriving home, separate the damaged eggs immediately so raw contents do not continue contaminating intact shells.</p><p>Clean the storage area and handle the spill like other raw egg contamination.</p><p><strong>The practical rule:</strong> an unknown or pre-purchase crack means discard. A fresh accidental crack at home can be transferred to a clean container, refrigerated, and used promptly in a fully cooked dish. A crack that occurs during hard cooking is safe.</p>",
+  "faq": [
+    {
+      "question": "Can you eat an egg that was already cracked when purchased?",
+      "answer": "It is not recommended. USDA advises against buying cracked eggs because bacteria can enter through the damaged shell."
+    },
+    {
+      "question": "What if an egg cracks at home?",
+      "answer": "If it just happened, transfer it to a clean covered container, refrigerate it, and use it within about 2 days in a fully cooked dish."
+    },
+    {
+      "question": "Is an egg safe if it cracks while boiling?",
+      "answer": "Yes. USDA says eggs that crack during hard cooking are safe to eat."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FSIS — Is it safe to use eggs that have cracks?",
+      "url": "https://ask.fsis.usda.gov/article/Is-it-safe-to-use-eggs-that-have-cracks",
+      "note": "Indica no comprar huevos agrietados y confirma que los que se agrietan durante cocción son seguros."
+    },
+    {
+      "name": "USDA FSIS — Shell Eggs from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "note": "Explica compra, refrigeración, cáscaras intactas y manejo general de huevos."
+    },
+    {
+      "name": "USDA AMS — Shell Egg Surveillance",
+      "url": "https://www.ams.usda.gov/rules-regulations/eggs",
+      "note": "Define huevos agrietados como restringidos dentro del sistema de comercialización estadounidense."
+    }
+  ],
+  "image": {
+    "concept": "Editorial kitchen photograph showing an intact egg, a hairline-cracked egg, and freshly cracked egg contents in a small covered container, no brands.",
+    "alt": "Cracked egg compared with intact egg and egg moved to a clean container"
+  },
+  "status": "publish"
+}
