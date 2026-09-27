@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1313-konjac-shirataki-why-so-low-calorie",
+  "article_number": 1313,
+  "translation_group": "1313-konjac-shirataki-low-calorie",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; shirataki noodles made primarily from konjac glucomannan and water.",
+  "title": "Konjac or Shirataki: What It Is and Why It Has So Few Calories",
+  "slug": "konjac-shirataki-why-so-low-calorie",
+  "seo": {
+    "title": "Shirataki Noodles: Why Konjac Is So Low in Calories",
+    "meta_description": "Shirataki noodles are mostly water held in a gel of konjac glucomannan, a highly water-binding soluble fiber. That is why a large serving can contain very little energy. Texture is springy and the noodles provide few nutrients beyond fiber.",
+    "search_intent": "Understand what konjac and shirataki are, why the noodles contain so few calories, how they differ from pasta, and which digestive cautions matter."
+  },
+  "excerpt": "Shirataki noodles are extremely low in calories because they are mostly water trapped in a gel made from glucomannan, the soluble fiber of <em>Amorphophallus konjac</em>. Glucomannan holds very large amounts of water and forms a stable structure with little dry matter. That creates noodle volume without the starch load of wheat pasta.",
+  "taxonomy": {
+    "food_family": "vegetables",
+    "food_subcategories": [
+      "konjac",
+      "shirataki",
+      "glucomannan"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "cooking-science"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Shirataki noodles are made mainly from water and konjac glucomannan, a soluble fiber extracted from the tuber of <em>Amorphophallus konjac</em>.</strong> Glucomannan's exceptional water-holding capacity creates a large serving with very little dry material.</p><p>This is why an entire package can provide far fewer calories than the same weight of cooked wheat pasta.</p><h2>Glucomannan forms a highly hydrated gel</h2><p>Glucomannan is a polysaccharide built mainly from glucose and mannose. Its long chains interact strongly with water and form very viscous solutions.</p><p>Shirataki production combines konjac flour with water and an alkaline setting agent to form a stable gel structure.</p><p>The finished noodle can be well over 90% water.</p><h2>Low calories come from replacing starch with water and fiber</h2><p>Traditional dry pasta contains a large amount of starch, which supplies metabolizable carbohydrate. Shirataki contains very little digestible dry matter.</p><p>Glucomannan is not digested like starch in the small intestine and much of it reaches the colon, where microbes can ferment it.</p><p>Nutrition labels therefore show very little energy per serving, although exact numbers depend on formulation.</p><h2>Shirataki is not nutritionally equivalent to pasta</h2><p>Few calories also means little protein, fat, and many micronutrients unless the product is fortified or blended.</p><p>Wheat and legume pastas provide substantial carbohydrate and protein, while pulse pasta can contribute considerable fiber too.</p><p>If shirataki replaces the entire starch base of a meal, build nutrition through the sauce, protein source, vegetables, and fats.</p><h2>The texture is fundamentally different</h2><p>Konjac gel is springy, resilient, and somewhat rubbery. It does not have a gluten network or the soft starch structure of conventional noodles.</p><p>Rinsing removes the characteristic packaging liquid odor. Dry-pan heating for a few minutes can remove surface water and help sauce cling.</p><p>Even then, shirataki does not absorb sauce exactly like wheat pasta.</p><h2>Glucomannan can cause GI symptoms</h2><p>It is a very viscous, fermentable fiber. Larger intakes can cause gas, bloating, diarrhea, or constipation in some people.</p><p>EFSA's review of konjac as a food additive did not require a numerical ADI at assessed uses, while gram-level doses in adults produced GI discomfort in some participants.</p><p>Individual tolerance and serving size matter.</p><h2>Noodles are not the same as dry glucomannan supplements</h2><p>Shirataki already contains fully hydrated fiber. Dry glucomannan supplements can expand greatly when exposed to water and need to be used exactly as directed.</p><p>There have also been historical choking problems with certain small konjac jelly candies whose shape and texture were unsuitable.</p><p>Those products are physically different from a plate of hydrated noodles.</p><h2>Does konjac cause weight loss?</h2><p>Replacing calorie-dense pasta with a very-low-energy base can reduce the energy of a meal if the rest of the meal does not compensate.</p><p>Trials of glucomannan supplements have produced mixed weight-loss findings, so the noodle should not be treated as a weight-loss drug.</p><p><strong>The practical rule:</strong> shirataki is low calorie because it is mostly water structured by konjac fiber. It is useful for volume, but it is not nutritionally interchangeable with protein- and starch-containing pasta.</p>",
+  "faq": [
+    {
+      "question": "Why are shirataki noodles so low calorie?",
+      "answer": "They are mostly water plus a small amount of glucomannan fiber rather than a large amount of starch."
+    },
+    {
+      "question": "Is konjac a fiber?",
+      "answer": "Yes. Its main functional component is glucomannan, a highly viscous soluble dietary fiber."
+    },
+    {
+      "question": "Are shirataki the same as pasta?",
+      "answer": "No. They have much less energy and protein and a distinctly springy gel texture."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Re-evaluation of konjac gum and glucomannan E425",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32625526/",
+      "note": "EFSA describe absorción, fermentación, uso como aditivo y síntomas gastrointestinales a dosis de gramos."
+    },
+    {
+      "name": "FDA — Glucomannan as Dietary Fiber",
+      "url": "https://www.fda.gov/food/hfp-constituent-updates/fda-grants-citizen-petition-glucomannan-dietary-fiber",
+      "note": "Reconoce glucomanano como fibra dietética y su origen en la planta konjac."
+    },
+    {
+      "name": "PubMed — Konjac glucomannan review",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/38388033/",
+      "note": "Revisión reciente de propiedades de hidratación, viscosidad y aplicaciones alimentarias de glucomanano."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food photograph of translucent shirataki noodles beside a konjac tuber illustration and a bowl of wheat noodles for contrast, no brands.",
+    "alt": "Shirataki konjac noodles compared with conventional pasta"
+  },
+  "status": "publish"
+}
