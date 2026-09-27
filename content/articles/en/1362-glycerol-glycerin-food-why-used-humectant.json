@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1362-glycerol-food",
+  "article_number": 1362,
+  "translation_group": "1362-glycerol-food-humectant",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; food-grade glycerol/glycerin used as humectant, solvent, texturizer, vehicle, and nutritive sweetener.",
+  "title": "Glycerol or Glycerin in Food: What It Is and Why It Is Used as a Humectant",
+  "slug": "glycerol-glycerin-food-why-used-humectant",
+  "seo": {
+    "title": "Glycerol or Glycerin in Food: What It Is and Why It Is Used",
+    "meta_description": "Glycerol and glycerin are names for the same three-carbon compound that forms the backbone of triglycerides. In food it is used mainly as a humectant because it attracts and retains water, helping bars, baked goods, fillings, and candy stay soft. It also acts as solvent, texturizer, and nutritive sweetener.",
+    "search_intent": "Understand what glycerol/glycerin is, where it comes from, why it keeps foods moist, and what its presence on an ingredient label means."
+  },
+  "excerpt": "Glycerol and glycerin are two names for the same compound. It is a small three-carbon molecule that occurs naturally as the backbone of triglycerides in fats and oils. In foods it is especially useful because it is hygroscopic, meaning it attracts and holds water. This helps keep baked goods, bars, fillings, and confectionery soft. It can also function as a solvent, carrier, stabilizer, and nutritive sweetener.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "glycerol",
+      "humectants",
+      "food-additives"
+    ],
+    "article_types": [
+      "processing-production",
+      "food-labels"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p><strong>Glycerol and glycerin are names for the same three-carbon alcohol that naturally forms the backbone of fats and oils.</strong> In food manufacturing it is especially valuable because it attracts and retains water, a property known as hygroscopicity.</p><p>Ingredient lists may use glycerin or glycerol; in Europe it is also identified as E422.</p><h2>Where glycerol comes from</h2><p>Triglycerides in fats and oils contain one glycerol molecule attached to three fatty acids. Hydrolysis and other processing can separate and purify the glycerol portion.</p><p>Glycerol can also be produced through synthetic or fermentation routes. Once purified to food specifications, the molecule is chemically the same.</p><p>Plant, animal, or synthetic origin may matter for dietary preferences, while the core chemistry remains unchanged.</p><h2>Why glycerin works as a humectant</h2><p>Glycerol has three hydroxyl groups that form multiple interactions with water molecules.</p><p>This reduces the tendency of food to dry out and helps preserve a soft, flexible texture during storage.</p><p>FDA explicitly lists glycerin among food humectants, alongside ingredients such as sorbitol.</p><h2>Where it appears in foods</h2><p>Glycerin can occur in soft nutrition bars, fondant, candy, baked goods, fillings, coatings, flavor systems, and extracts.</p><p>It also works as a solvent for flavor compounds that do not disperse well in water alone and as a carrier for concentrated ingredients.</p><p>In selected formulations it contributes viscosity, gloss, chewiness, and mouthfeel.</p><h2>Glycerol is not the same thing as fat</h2><p>Although glycerol is part of a triglyceride, isolated glycerol does not contain the three attached fatty acids that make a dietary fat.</p><p>The body can absorb and metabolize glycerol through pathways that can contribute to glucose production or triglyceride synthesis depending on metabolic state.</p><p>FDA therefore also lists it as a nutritive sweetener rather than a zero-calorie intense sweetener.</p><h2>Moisture control is not the same as preservation by itself</h2><p>Glycerol can influence water activity because it binds water strongly, which can help texture and formulation stability.</p><p>Microbial safety still depends on the complete product: final water activity, pH, heat treatment, packaging, and any antimicrobial hurdles.</p><p>A small amount of glycerin should not be assumed to make a moist food shelf-stable on its own.</p><h2>What safety reviews say</h2><p>EFSA re-evaluated glycerol as food additive E422 and concluded that acute toxicity is low and that available data did not raise concern for genotoxicity or carcinogenicity under the evaluated uses.</p><p>Irritating effects seen with very large exposures are consistent with glycerol's hygroscopic and osmotic properties.</p><p>As with other osmotic ingredients, excessive single doses can cause GI discomfort, while normal formulation amounts are generally much lower.</p><h2>Food-grade glycerin matters</h2><p>The fact that the molecule is familiar does not make every bottle labeled glycerin edible.</p><p>Food-grade material must meet purity and contaminant specifications. Technical, cosmetic, and industrial grades can be manufactured to different standards.</p><p><strong>The practical rule:</strong> food-grade glycerin is mainly a moisture and texture tool. Its presence on a label does not mean the food contains drinking alcohol or that glycerol is itself a dietary fat.</p>",
+  "faq": [
+    {
+      "question": "Are glycerol and glycerin the same thing?",
+      "answer": "Yes. They are two names for the same compound; E422 is the European food-additive designation."
+    },
+    {
+      "question": "Why is glycerin added to food?",
+      "answer": "Mainly to retain moisture, keep foods soft, and act as a solvent, carrier, or texturizer."
+    },
+    {
+      "question": "Is glycerol a fat?",
+      "answer": "No. It forms the backbone of triglycerides, but isolated glycerol does not contain the fatty acids that make a fat."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Substances Added to Food: Glycerin",
+      "url": "https://hfpappexternal.fda.gov/scripts/fdcc/index.cfm?id=GLYCERIN&set=FoodSubstances",
+      "note": "Lists food functions including humectant, solvent, texturizer, stabilizer, and nutritive sweetener."
+    },
+    {
+      "name": "FDA — Types of Food Ingredients",
+      "url": "https://www.fda.gov/food/food-additives-and-gras-ingredients-information-consumers/types-food-ingredients",
+      "note": "Lists glycerin as a food humectant."
+    },
+    {
+      "name": "EFSA — Re-evaluation of glycerol E422",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32625431/",
+      "note": "Safety evaluation of glycerol as a food additive."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food-science image of clear food-grade glycerin drops beside a soft nutrition bar and baked good with water molecules being retained, no brands.",
+    "alt": "Food-grade glycerin used as a humectant to retain moisture"
+  },
+  "status": "publish"
+}
