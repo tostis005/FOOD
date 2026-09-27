@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1342-oat-beta-glucan-cholesterol",
+  "article_number": 1342,
+  "translation_group": "1342-oat-beta-glucan-cholesterol",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; oat beta-glucan as a viscous soluble fiber and its relationship with LDL cholesterol.",
+  "title": "Oat Beta-Glucan: What It Is, How Much You Need, and Why It Is Linked to Cholesterol",
+  "slug": "oat-beta-glucan-how-much-cholesterol",
+  "seo": {
+    "title": "Oat Beta-Glucan: How Much for Cholesterol?",
+    "meta_description": "Oat beta-glucan is a viscous soluble fiber. Randomized trials and meta-analyses show that around 3 g/day or more can modestly lower LDL cholesterol when consumed regularly. Molecular weight, viscosity, and food processing also influence the effect.",
+    "search_intent": "Understand what oat beta-glucan is, how much has been studied for cholesterol lowering, and why viscosity and processing matter."
+  },
+  "excerpt": "Oat beta-glucan is a soluble fiber that forms viscous solutions in the gut. That viscosity helps explain its well-studied relationship with modest reductions in LDL cholesterol. Meta-analyses of randomized trials commonly use at least 3 g/day and find significant decreases in LDL and total cholesterol. The amount of oats needed to provide 3 g varies because beta-glucan concentration differs among products.",
+  "taxonomy": {
+    "food_family": "grains",
+    "food_subcategories": [
+      "oats",
+      "beta-glucan",
+      "soluble-fiber"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "health-daily-consumption"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Oat beta-glucan is a viscous soluble fiber with one of the best-studied food-component relationships to LDL cholesterol.</strong> It is not the only fiber in oats, but it is one of the grain's defining functional fibers.</p><p>Beta-glucan is built from glucose units connected by bonds that human digestive enzymes do not break like ordinary starch.</p><h2>Solubility is only part of the story</h2><p>Oat beta-glucan absorbs water and can make intestinal contents more viscous. That physical property changes how nutrients, bile acids, and digestive enzymes move and mix.</p><p>Not every soluble fiber reaches the same viscosity, while many insoluble fibers work through very different mechanisms.</p><p>Calling beta-glucan simply “soluble fiber” therefore misses an important part of its function.</p><h2>Why can beta-glucan lower LDL cholesterol?</h2><p>The viscous matrix can reduce reabsorption of some bile acids and increase their loss through the intestine.</p><p>The liver then uses cholesterol to make additional bile acids, which can contribute to lower circulating LDL.</p><p>Colonic fermentation and microbial metabolites may contribute too, although viscosity appears particularly important.</p><h2>Three grams per day appears repeatedly in trials</h2><p>A meta-analysis of 28 randomized controlled trials using at least 3 g/day of oat beta-glucan found average reductions of about 0.25 mmol/L in LDL cholesterol and 0.30 mmol/L in total cholesterol versus control.</p><p>Later meta-analyses in people with elevated cholesterol have reported similar statistically significant LDL reductions at intakes around 3 g/day or more.</p><p>This is an evidence-based dose range for a cholesterol effect, not a universal requirement to take a supplement.</p><h2>How much oatmeal provides 3 grams?</h2><p>There is no one conversion because beta-glucan content changes with oat variety, milling, bran concentration, and product formulation.</p><p>Rolled oats, oat bran, cereal, bread, and oat drinks can provide very different amounts per serving.</p><p>When a specific beta-glucan dose matters, a label declaring grams per serving is more reliable than assuming every bowl provides the same amount.</p><h2>Processing can change function even when grams stay similar</h2><p>Milling, extrusion, fermentation, and aggressive processing can reduce beta-glucan molecular weight.</p><p>Shorter chains may produce less viscosity even if a laboratory still measures a similar total amount of beta-glucan.</p><p>Research comparing food matrices suggests that delivery form and molecular properties influence the size of the cholesterol effect.</p><h2>Beta-glucan can also affect post-meal glucose</h2><p>A viscous intestinal environment can slow starch digestion and glucose absorption within a meal.</p><p>This is why oat and barley beta-glucans have also been studied for lowering postprandial glycemic responses.</p><p>The outcome depends on dose, viscosity, and the carbohydrate eaten with it; beta-glucan does not neutralize a heavily sugared food.</p><h2>Whole oats and isolated beta-glucan are not identical</h2><p>Whole oats also provide starch, protein, unsaturated fat, minerals, and other plant compounds.</p><p>A beta-glucan concentrate can deliver a more precise dose but does not reproduce the entire grain matrix.</p><p>Both approaches can be useful depending on the goal.</p><h2>How to include it practically</h2><p>Rolled oats, oat bran, foods containing a meaningful proportion of oats, and some enriched products can all contribute.</p><p>Cholesterol changes in trials develop with regular intake over weeks rather than from one breakfast.</p><p><strong>The practical rule:</strong> about 3 g/day is the amount most repeatedly studied for LDL lowering, but effective beta-glucan also needs adequate molecular weight and viscosity within the food matrix.</p>",
+  "faq": [
+    {
+      "question": "How much oat beta-glucan is used for cholesterol lowering?",
+      "answer": "Many randomized trials and meta-analyses use at least 3 g/day and find modest LDL reductions."
+    },
+    {
+      "question": "Does one bowl of oatmeal provide 3 grams?",
+      "answer": "Not necessarily. Beta-glucan content varies by oat product and serving size."
+    },
+    {
+      "question": "Does processing matter?",
+      "answer": "Yes. Processing that greatly reduces molecular weight can lower viscosity and potentially reduce the physiological effect."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Cholesterol-lowering effects of oat beta-glucan: meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25411276/",
+      "note": "Meta-analysis of 28 trials using ≥3 g/day."
+    },
+    {
+      "name": "PubMed — Oat beta-glucan and lipid profiles in hypercholesterolemic adults",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35631184/",
+      "note": "Later meta-analysis confirming reductions in LDL and total cholesterol."
+    },
+    {
+      "name": "PubMed — Effects of different delivering matrices of beta-glucan",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32378501/",
+      "note": "Shows that food matrix and delivery properties influence outcomes."
+    }
+  ],
+  "image": {
+    "concept": "Editorial nutrition photograph of oat flakes and oat bran beside an illustration of a viscous beta-glucan gel and an LDL arrow, no brands.",
+    "alt": "Oats and viscous beta-glucan linked with LDL cholesterol"
+  },
+  "status": "publish"
+}
