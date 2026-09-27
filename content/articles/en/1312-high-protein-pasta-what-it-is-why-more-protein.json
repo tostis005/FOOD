@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "id": "en-1312-high-protein-pasta-what-it-is-why-more-protein",
+  "article_number": 1312,
+  "translation_group": "1312-high-protein-pasta-how-made",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; pasta marketed as high-protein and made from wheat, legumes, eggs, or added protein concentrates.",
+  "title": "High-Protein Pasta: What It Is and Why It Can Have More Protein Than Regular Pasta",
+  "slug": "high-protein-pasta-what-it-is-why-more-protein",
+  "seo": {
+    "title": "High-Protein Pasta: Where the Extra Protein Comes From",
+    "meta_description": "High-protein pasta can use legumes, vital wheat gluten, egg, pea protein, soy, or other concentrates. There is no single recipe. Compare protein, fiber, ingredients, and serving size because two protein pastas can be nutritionally very different.",
+    "search_intent": "Understand what high-protein pasta is, which ingredients raise its protein content, and how to compare different products."
+  },
+  "excerpt": "“High-protein pasta” describes a nutritional outcome rather than one recipe. It can be 100% legume pasta, wheat pasta enriched with vital gluten, a blend containing pea or soy protein, or an egg-based formula. Products with similar protein numbers can therefore have very different fiber, texture, gluten content, and ingredients.",
+  "taxonomy": {
+    "food_family": "grains",
+    "food_subcategories": [
+      "pasta",
+      "high-protein",
+      "protein-fortification"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "processing-production",
+      "buying-quality-ripeness"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>High-protein pasta is not one standardized recipe; it is pasta formulated so protein makes up a larger share of the product.</strong> Manufacturers can get there with legumes, vital wheat gluten, pea or soy protein, egg, dairy proteins, or combinations.</p><p>That means two boxes with “protein” on the front can have very different ingredients, fiber, texture, and cooking behavior.</p><h2>One route is to start with naturally protein-rich flour</h2><p>Lentils, chickpeas, peas, and faba beans naturally contain more protein than refined durum semolina. A 100% pulse pasta can reach roughly 20 grams or more per 100 grams without an isolated protein ingredient.</p><p>It often brings more fiber too, although the absence of a traditional gluten network changes texture.</p><p>In this case, legume pasta and high-protein pasta can be the same product.</p><h2>Wheat pasta can also be fortified</h2><p>Durum semolina can be blended with vital wheat gluten, pea protein, soy protein, faba-bean concentrate, egg white, or other protein-rich ingredients.</p><p>This can preserve more of the familiar wheat flavor and structure while raising the protein number.</p><p>Research using faba-bean concentrates and isolates in durum pasta shows higher protein and fiber together with changes in starch composition and digestibility.</p><h2>Protein claims do not tell you the whole formula</h2><p>U.S. packages can emphasize grams per serving, while European “high protein” claims are tied to the percentage of food energy supplied by protein.</p><p>Neither approach tells you whether the protein came from whole legumes or a purified isolate.</p><p>The ingredient list and Nutrition Facts are needed to understand what changed.</p><h2>More protein does not automatically mean more fiber</h2><p>A lentil pasta can be high in both protein and fiber. Wheat pasta fortified with an isolate can raise protein while leaving fiber close to ordinary pasta.</p><p>Some products add fiber separately as well.</p><p>If both nutrients matter, compare grams per 100 grams or per equal dry serving rather than relying on the front claim.</p><h2>Texture depends on the protein source</h2><p>Protein ingredients change how much water dough absorbs and how starch and proteins interact. Some interfere with gluten; others make pasta firmer, drier, or more fragile.</p><p>Manufacturers adjust extrusion, drying, particle size, and ingredient blends to compensate.</p><p>This is why two pastas with 25 grams of protein can have very different cooking times and bite.</p><h2>Can protein pasta help meet daily needs?</h2><p>Yes. It can make a pasta-centered meal provide 25–35 grams of protein without requiring a large amount of meat or cheese.</p><p>Whether that matters depends on your total daily intake, body size, activity, and goals.</p><p>If your diet already provides ample protein, paying extra for fortified pasta may provide little practical advantage.</p><h2>How to compare products</h2><p>Start with protein per equal dry weight. Then check fiber, ingredients, sodium, and whether the product contains wheat or allergens such as egg or soy.</p><p>Watch serving sizes because a larger declared serving can make the front protein number look more impressive.</p><p><strong>The practical rule:</strong> “high-protein pasta” tells you the formula contains proportionally more protein, not where it came from. The ingredient list reveals whether the extra protein comes from whole pulses, gluten, eggs, or concentrates—and helps predict fiber and texture.</p>",
+  "faq": [
+    {
+      "question": "What makes pasta high in protein?",
+      "answer": "It can use naturally high-protein flours or added ingredients such as vital wheat gluten, egg, pea protein, soy protein, or other concentrates."
+    },
+    {
+      "question": "Does high-protein pasta always contain more fiber?",
+      "answer": "No. Legume pasta often does, while wheat pasta fortified with isolated protein may not."
+    },
+    {
+      "question": "Is high-protein pasta always gluten-free?",
+      "answer": "No. Many products are wheat-based or add vital wheat gluten."
+    }
+  ],
+  "sources": [
+    {
+      "name": "EUR-Lex — Regulation EC 1924/2006 nutrition claims",
+      "url": "https://eur-lex.europa.eu/eli/reg/2006/1924/oj/eng",
+      "note": "Define 'source of protein' como ≥12% de energía y 'high protein' como ≥20% de energía procedente de proteína."
+    },
+    {
+      "name": "PubMed — Faba bean protein fortification of durum pasta",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33567351/",
+      "note": "Muestra cómo concentrados y aislados de proteína de haba elevan proteína y modifican fibra, almidón y digestibilidad."
+    },
+    {
+      "name": "PubMed — 100% legume pasta",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27603917/",
+      "note": "Describe pastas naturalmente altas en proteína elaboradas solo con legumbres y sus diferencias estructurales."
+    }
+  ],
+  "image": {
+    "concept": "Editorial comparison of three high-protein pasta formulations: chickpea pasta, durum pasta with pea protein, and egg-enriched pasta, with generic ingredient bowls, no brands.",
+    "alt": "Different ways high-protein pasta can be formulated"
+  },
+  "status": "publish"
+}
