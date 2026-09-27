@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1334-polenta-what-it-is-vs-cornmeal",
+  "article_number": 1334,
+  "translation_group": "1334-polenta-vs-cornmeal-semolina",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; Italian-style polenta made primarily from medium- or coarse-ground cornmeal and packaged products labeled polenta.",
+  "title": "Polenta: What It Is, What It Is Made From, and How It Differs From Cornmeal",
+  "slug": "polenta-what-it-is-vs-cornmeal",
+  "seo": {
+    "title": "Polenta: What It Is and How It Differs From Cornmeal",
+    "meta_description": "Polenta is a dish rather than a separate grain: today it is usually made by cooking medium- or coarse-ground cornmeal in water. A bag labeled polenta may simply be cornmeal milled for that texture. Whole-grain, degermed, instant, and precooked products differ.",
+    "search_intent": "Understand what polenta is, which cornmeal is used, whether polenta and cornmeal are the same thing, and how coarse, whole-grain, instant, and precooked products differ."
+  },
+  "excerpt": "Polenta is a preparation: a thick porridge made by cooking ground grain in water. Today the word usually means medium- or coarse-ground yellow or white corn. A package labeled “polenta” may therefore be ordinary cornmeal milled to a useful particle size for the dish. The meaningful differences are usually grind size, whether germ and bran remain, and whether the product was precooked.",
+  "taxonomy": {
+    "food_family": "grains",
+    "food_subcategories": [
+      "polenta",
+      "cornmeal",
+      "maize"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "cooking-science"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Polenta is first a dish: ground grain cooked in water until it becomes a thick porridge.</strong> Today the word is most strongly associated with corn, especially in Italian cooking, although older forms used other grains too.</p><p>This is why a bag labeled polenta and a bag labeled coarse cornmeal can sometimes contain almost the same ingredient.</p><h2>Modern polenta usually uses medium- or coarse-ground corn</h2><p>Its texture comes from corn particles larger than fine flour. During heating, starch gelatinizes while the particles absorb water and soften.</p><p>Fine meal cooks faster and produces a smoother porridge. Coarser meal needs more time and creates a more distinct granular texture.</p><p>Yellow and white corn both work.</p><h2>“Polenta” on a package often describes intended use</h2><p>The ingredient may simply be listed as cornmeal or ground maize.</p><p>Some manufacturers select a specific grind or corn variety to produce predictable hydration and texture.</p><p>You do not need a separate botanical species called polenta corn to make the dish.</p><h2>What does cornmeal mean?</h2><p>Cornmeal is dried corn ground to a range of particle sizes. Medium or coarse cornmeal can be used directly for polenta.</p><p>The category also includes degermed, whole-grain, precooked, and specialty products designed for baking or other regional dishes.</p><p>Cooking instructions therefore tell you more than the front name alone.</p><h2>Whole-grain and degermed cornmeal differ nutritionally</h2><p>A corn kernel contains a starch-rich endosperm, an oil- and nutrient-rich germ, and outer layers containing fiber.</p><p>Many commercial cornmeals remove much of the germ to improve resistance to rancidity during storage.</p><p>Whole-grain meal retains more natural fat, fiber, and selected micronutrients, while degermed meal is more shelf-stable.</p><h2>Instant polenta has already been processed further</h2><p>Instant polenta is precooked or pregelatinized and then dried. Hot water can therefore rehydrate the starch much more quickly.</p><p>This shortens cooking from a long simmer to only a few minutes.</p><p>The texture can be more uniform, while the nutrition difference still depends mainly on whole-grain status and added ingredients.</p><h2>Cooked polenta is diluted with a lot of water</h2><p>A bowl of soft polenta can weigh much more than the dry cornmeal used to make it because the starch absorbs water.</p><p>Butter, cheese, cream, and oil can dramatically increase calories compared with plain water-cooked polenta.</p><p>Restaurant polenta and plain home polenta can therefore have very different energy density.</p><h2>Why does polenta become firm when cold?</h2><p>Gelatinized starch chains reorganize during cooling, a process called retrogradation. This turns soft porridge into a sliceable mass.</p><p>Cooled polenta can be cut, grilled, baked, or fried.</p><p>Reheating softens part of the starch network again.</p><h2>How to choose the right product</h2><p>Use medium or coarse meal for traditional creamy polenta, instant for speed, and whole-grain cornmeal when you want more of the original grain components.</p><p><strong>The practical rule:</strong> polenta is the preparation and cornmeal is the ingredient. In many grocery products they are nearly the same ground corn; grind size, germ removal, and precooking are the differences that matter.</p>",
+  "faq": [
+    {
+      "question": "Are polenta and cornmeal the same thing?",
+      "answer": "Polenta is the dish; cornmeal is the ground corn used to make it. Packaged products can be nearly identical ingredients."
+    },
+    {
+      "question": "Is polenta gluten-free?",
+      "answer": "Corn is naturally gluten-free, but people with celiac disease should check contamination controls and labeling."
+    },
+    {
+      "question": "What is instant polenta?",
+      "answer": "It is precooked or pregelatinized cornmeal that has been dried so it rehydrates in only a few minutes."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Base para comparar cornmeal integral, degerminado y preparaciones de polenta cocida."
+    },
+    {
+      "name": "Encyclopaedia Britannica — Polenta",
+      "url": "https://www.britannica.com/topic/polenta",
+      "note": "Contexto culinario e histórico de la polenta como preparación italiana de cereal molido."
+    }
+  ],
+  "image": {
+    "concept": "Editorial Italian food photograph of creamy yellow polenta beside coarse and fine cornmeal plus a cooled sliceable slab, no brands.",
+    "alt": "Creamy polenta alongside different grinds of cornmeal"
+  },
+  "status": "publish"
+}
