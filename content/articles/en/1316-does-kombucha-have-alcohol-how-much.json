@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "id": "en-1316-does-kombucha-have-alcohol-how-much",
+  "article_number": 1316,
+  "translation_group": "1316-kombucha-alcohol-content",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; commercial and homemade kombucha, fermented sweet tea, and variable ethanol content.",
+  "title": "Does Kombucha Have Alcohol? How Much It Can Contain and What Determines It",
+  "slug": "does-kombucha-have-alcohol-how-much",
+  "seo": {
+    "title": "Does Kombucha Have Alcohol? How Much and Why It Can Rise",
+    "meta_description": "Yes. Kombucha yeast converts sugar into ethanol, while acetic-acid bacteria consume some of that alcohol. Many commercial products aim to stay below 0.5% ABV, but time, temperature, sugar, microbes, and continued bottle fermentation can raise alcohol.",
+    "search_intent": "Understand why kombucha contains alcohol, how much it may contain, which factors change the level, and why alcohol can increase after bottling."
+  },
+  "excerpt": "Yes, kombucha can contain alcohol because its fermentation includes yeasts that convert sugar into ethanol. Acetic-acid bacteria then convert part of that ethanol into acids, so final alcohol depends on the balance between production and consumption. In the United States, kombucha that reaches 0.5% alcohol by volume or more is subject to federal alcohol-beverage regulation.",
+  "taxonomy": {
+    "food_family": "beverages",
+    "food_subcategories": [
+      "kombucha",
+      "fermentation",
+      "alcohol"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "processing-production",
+      "food-safety"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p><strong>Yes, kombucha can contain alcohol because yeast produces ethanol while fermenting the sugar in sweet tea.</strong> The culture also contains bacteria, including acetic-acid bacteria that convert some of that ethanol into organic acids.</p><p>The finished drink is therefore not guaranteed to contain zero alcohol. The level depends on how much ethanol is produced, how much is consumed by bacteria, and whether fermentation continues after bottling.</p><h2>Alcohol is a normal part of kombucha fermentation</h2><p>Yeasts break down sucrose and other sugars and produce ethanol and carbon dioxide. Acetic-acid bacteria use oxygen to oxidize some ethanol into acetic acid.</p><p>Alcohol and acidity can therefore rise and fall at different stages.</p><p>Kombucha is a dynamic mixed-culture fermentation rather than simply tea containing bacteria.</p><h2>There is no single alcohol percentage</h2><p>A commercial non-alcoholic kombucha may contain only trace alcohol or a few tenths of a percent, while a home-brewed or longer-fermented product can exceed that.</p><p>An experimental study of green-tea kombucha found ethanol exceeding 0.5% ABV after several fermentation days under the tested conditions.</p><p>That number should not be applied to every recipe, but it shows how process conditions can change the result.</p><h2>0.5% ABV is a key U.S. regulatory threshold</h2><p>TTB states that kombucha reaching 0.5% alcohol by volume or more during production, at bottling, or afterward is regulated federally as an alcohol beverage.</p><p>A bottle that leaves a producer below the threshold but later ferments above it is still affected.</p><p>Other countries use different legal definitions, so local labeling rules matter.</p><h2>Time, temperature, sugar, and culture all matter</h2><p>More fermentable sugar can give yeast more substrate, although the outcome depends on which microbes dominate.</p><p>Within favorable ranges, warmer temperatures often accelerate microbial activity. TTB specifically identifies time and temperature as factors affecting alcohol production.</p><p>Longer fermentation does not guarantee continuously rising alcohol because bacteria can also consume ethanol.</p><h2>Bottle fermentation can raise alcohol</h2><p>Adding fruit, juice, or sugar before sealing a bottle gives yeast fresh substrate. Carbon dioxide accumulates and ethanol can continue to form.</p><p>Refrigeration slows fermentation but does not necessarily stop every viable yeast immediately.</p><p>This is why non-alcoholic kombucha producers need to control alcohol throughout shelf life, not only at bottling.</p><h2>Pasteurized kombucha behaves differently</h2><p>Heat treatment that inactivates yeast can stop or greatly reduce later fermentation. Filtration and other stabilization methods can also be used.</p><p>These processes improve alcohol stability but change the presence of live microorganisms.</p><p>Raw, unpasteurized kombucha has more potential to continue changing when viable yeast and residual sugar remain.</p><h2>Does such a small amount matter?</h2><p>For many adults, a few tenths of a percent represents a small alcohol exposure, but it is not irrelevant in every situation.</p><p>Pregnancy, childhood, alcohol-use recovery, religious reasons, medication, or a need for complete abstinence may make residual alcohol important.</p><p>Homemade kombucha cannot be assigned a reliable ABV by taste or fermentation time alone.</p><h2>How to read the package</h2><p>Look for an alcohol statement when present, refrigeration instructions, and whether the product is legally sold as alcoholic or non-alcoholic in your market.</p><p><strong>The practical rule:</strong> kombucha can contain alcohol because ethanol is a normal fermentation intermediate. Recipe, microbes, time, temperature, and storage determine the amount, so “fermented” does not mean 0.0% ABV.</p>",
+  "faq": [
+    {
+      "question": "Does all kombucha contain alcohol?",
+      "answer": "Fermentation can produce ethanol, although commercial products may keep levels very low through process control, filtration, or pasteurization."
+    },
+    {
+      "question": "Can kombucha alcohol increase after bottling?",
+      "answer": "Yes. If viable yeast and fermentable sugar remain, fermentation can continue and raise alcohol."
+    },
+    {
+      "question": "How much alcohol is in kombucha?",
+      "answer": "It varies widely. In the United States, 0.5% ABV is the key federal regulatory threshold."
+    }
+  ],
+  "sources": [
+    {
+      "name": "TTB — Kombucha",
+      "url": "https://www.ttb.gov/regulated-commodities/beverage-alcohol/kombucha",
+      "note": "Explica producción de alcohol y umbral estadounidense de 0,5% ABV durante producción, embotellado o almacenamiento."
+    },
+    {
+      "name": "TTB — Kombucha Information and Resources",
+      "url": "https://www.ttb.gov/regulated-commodities/beverage-alcohol/kombucha/kombucha-general",
+      "note": "Identifica tiempo, temperatura y fermentación posterior al embotellado como factores que pueden elevar el alcohol."
+    },
+    {
+      "name": "PubMed — Fermentation time and ethanol in green tea kombucha",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/37986521/",
+      "note": "Estudio experimental que monitoriza etanol durante fermentación y muestra que puede superar 0,5% según condiciones."
+    },
+    {
+      "name": "PubMed — Storage time and temperature affect kombucha microbial dynamics",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36130465/",
+      "note": "Muestra que la comunidad microbiana de kombucha sigue respondiendo a tiempo y temperatura durante almacenamiento."
+    }
+  ],
+  "image": {
+    "concept": "Editorial fermentation photograph of kombucha in a glass fermenter with tea, sugar, bubbles and a sealed bottle beside a subtle low-ABV gauge, no brands.",
+    "alt": "Kombucha fermentation producing small amounts of alcohol"
+  },
+  "status": "publish"
+}
