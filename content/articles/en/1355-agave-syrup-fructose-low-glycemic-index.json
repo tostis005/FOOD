@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1355-agave-syrup-fructose",
+  "article_number": 1355,
+  "translation_group": "1355-agave-syrup-fructose-glycemic",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; agave syrup/nectar used as a fructose-rich liquid sweetener.",
+  "title": "Agave Syrup: Why It Is High in Fructose and Whether Its Glycemic Index Is Lower",
+  "slug": "agave-syrup-fructose-low-glycemic-index",
+  "seo": {
+    "title": "Agave Syrup: Fructose, Glycemic Index, and How It Compares With Sugar",
+    "meta_description": "Agave syrup is made by breaking down agave fructans into simple sugars and concentrating the juice. It is often high in fructose, which can produce a lower immediate blood-glucose rise than sucrose. That does not make it sugar-free or mean high fructose intake is automatically healthier.",
+    "search_intent": "Understand how agave syrup is made, why it contains so much fructose, why its glycemic index can be lower, and whether that makes it healthier than table sugar."
+  },
+  "excerpt": "Agave syrup is produced by converting fructans stored in the agave plant into smaller sugars and concentrating the resulting liquid. Many products end up particularly rich in fructose. Because fructose does not raise blood glucose immediately as much as glucose does, agave can have a lower glycemic index than sucrose. That difference does not remove its calories or make a high intake of concentrated sweetener metabolically advantageous.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "agave-syrup",
+      "fructose",
+      "sweeteners"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "comparisons"
+    ],
+    "primary_article_type": "comparisons"
+  },
+  "content_html": "<p><strong>Agave syrup often has a lower glycemic index than white sugar because a large share of its sugar is fructose.</strong> A lower glycemic index, however, does not stop it from being a concentrated sweetener.</p><p>The useful distinction is between the immediate blood-glucose response and the broader metabolism of total sugar and energy.</p><h2>Agave stores carbohydrate as fructans</h2><p>The agave plant contains fructans, chains built mainly from fructose that serve as carbohydrate reserves.</p><p>To make syrup, manufacturers hydrolyze those polymers using heat, acid, enzymes, or combinations of processing steps.</p><p>The liquid is then filtered and concentrated into a sweet syrup.</p><h2>Why the finished syrup is fructose-rich</h2><p>Breaking fructans releases many fructose units. Exact composition varies with agave species, maturity, and processing, but reviews consistently describe a high fructose proportion relative to many common sweeteners.</p><p>Glucose and other carbohydrates are also present in smaller amounts.</p><p>The finished syrup is therefore very different from intact prebiotic fructans inside the plant.</p><h2>Fructose produces a smaller immediate glucose rise</h2><p>Glucose enters circulation directly and strongly influences insulin secretion. Fructose follows a different initial pathway and is processed largely by the liver.</p><p>A sweetener containing proportionally more fructose can therefore generate a lower blood-glucose curve than one containing more glucose for an equivalent carbohydrate dose.</p><p>This is the main reason agave is often described as lower glycemic.</p><h2>Low GI does not automatically mean healthy</h2><p>Glycemic index measures one response to a standardized dose of available carbohydrate. It does not measure total energy, overall diet quality, or every metabolic consequence of an ingredient.</p><p>Fructose still provides about 4 calories per gram. A lower glucose peak does not cancel excess energy when added-sugar intake is high.</p><p>Using GI alone can therefore create an incomplete nutrition picture.</p><h2>Fructose should be neither demonized nor idealized</h2><p>Fructose in whole fruit comes packaged with water, fiber, chewing, and a food matrix that limits the speed and amount commonly consumed.</p><p>A concentrated syrup makes it easy to consume many grams quickly.</p><p>Agave reviews link its lower glycemic response to its fructose-rich composition but do not establish broad superiority over other sugars at high intakes.</p><h2>High sweetness can be useful if it reduces the dose</h2><p>Fructose is intensely sweet, so some recipes may achieve the desired sweetness with less agave than sucrose.</p><p>That advantage only matters if the actual amount used falls. Matching or exceeding the original sweetener quantity removes much of the potential reduction.</p><p>Liquid texture can also make portions less visually obvious than spoonfuls of granulated sugar.</p><h2>How agave behaves in cooking</h2><p>Agave dissolves easily in cold beverages, contributes moisture in baking, and participates in browning.</p><p>Because it is liquid, replacing dry granulated sugar may require reducing another liquid ingredient.</p><p>Its relatively neutral flavor compared with honey or maple syrup is one reason it is widely used.</p><h2>How it compares with sucrose</h2><p>Sucrose ultimately delivers approximately equal amounts of glucose and fructose after digestion. Agave usually shifts that balance toward more fructose.</p><p>This changes the immediate glycemic response but not the fact that both are concentrated sources of sugar and energy.</p><p><strong>The practical rule:</strong> agave can raise blood glucose more slowly because it is fructose-rich. That is a real property, not a free pass—the total amount of added sugar still matters most.</p>",
+  "faq": [
+    {
+      "question": "Why is agave low glycemic?",
+      "answer": "It is commonly high in fructose, which causes a smaller immediate blood-glucose rise than glucose."
+    },
+    {
+      "question": "Is agave healthier than white sugar?",
+      "answer": "Not automatically. It has a different glycemic profile but remains a concentrated source of sugar and calories."
+    },
+    {
+      "question": "Does agave syrup contain prebiotic fructans?",
+      "answer": "Most fructans are hydrolyzed during syrup production, leaving mainly simple sugars."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Agave Syrup: Chemical Analysis and Nutritional Profile",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35742286/",
+      "note": "Reviews agave production, sugar composition, applications, and health considerations."
+    },
+    {
+      "name": "PubMed — Effects of commercial sweeteners on baking and starch",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/33496959/",
+      "note": "Includes blue agave syrup in comparative food-technology testing."
+    }
+  ],
+  "image": {
+    "concept": "Editorial sweetener image of agave plant, amber syrup and white sugar beside a glucose-versus-fructose diagram, no brands.",
+    "alt": "Agave syrup compared with table sugar and its higher fructose proportion"
+  },
+  "status": "publish"
+}
