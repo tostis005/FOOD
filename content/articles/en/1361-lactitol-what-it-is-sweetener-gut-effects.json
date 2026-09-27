@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "en-1361-lactitol-gut",
+  "article_number": 1361,
+  "translation_group": "1361-lactitol-sweetener-gut",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; lactitol as a lactose-derived sugar alcohol used as bulk sweetener and, in separate medical contexts, an osmotic agent.",
+  "title": "Lactitol: What It Is, Why It Is Used as a Sweetener, and What It Does in the Gut",
+  "slug": "lactitol-what-it-is-sweetener-gut-effects",
+  "seo": {
+    "title": "Lactitol: Calories, Food Uses, and Gut Effects",
+    "meta_description": "Lactitol is a sugar alcohol made by hydrogenating lactose. FDA uses 2 calories per gram for labeling. It is poorly absorbed, so it provides bulk with less energy, but much of the dose reaches the colon, where fermentation and osmotic effects can soften stool or cause gas and diarrhea at larger amounts.",
+    "search_intent": "Understand what lactitol is, how it is produced from lactose, why it is used in sugar-free foods, and why it has pronounced gastrointestinal effects."
+  },
+  "excerpt": "Lactitol is a sugar alcohol produced by hydrogenating lactose. It is much less sweet than sucrose and is poorly absorbed in the small intestine, making it useful as a lower-energy bulking sweetener. FDA uses 2 kcal/g for U.S. labeling. Most of the dose reaches the colon for fermentation, which explains both its lower energy value and its laxative potential at sufficiently high intake.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "lactitol",
+      "polyols",
+      "sweeteners"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "processing-production"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Lactitol is a lactose-derived sugar alcohol that is absorbed very poorly in the small intestine.</strong> It provides less sweetness and less metabolizable energy than sucrose, while delivering a large share of the ingested carbohydrate to the colon.</p><p>That profile explains both its food-ingredient role and its separate use as an osmotic agent in medical settings.</p><h2>How lactitol is made from lactose</h2><p>Lactose consists of glucose and galactose. Catalytic hydrogenation converts its reducing group and produces lactitol.</p><p>The process can use lactose recovered from dairy-whey streams, turning an abundant dairy carbohydrate into a functional polyol.</p><p>Reviews of lactose-derived sugar alcohols describe lactitol as one of the main value-added products from this chemistry.</p><h2>How many calories does lactitol provide?</h2><p>FDA uses a specific factor of 2.0 calories per gram for lactitol in U.S. Nutrition Facts calculations.</p><p>The value is lower than sucrose because small-intestinal absorption is limited. Metabolic studies have reported greater malabsorption for lactitol than for isomalt or maltitol.</p><p>Some energy is recovered after colonic fermentation into short-chain fatty acids.</p><h2>Why food manufacturers use it</h2><p>Lactitol provides physical bulk with modest sweetness, making it useful alongside high-intensity sweeteners when a product needs structure without as much sucrose.</p><p>It can appear in chocolate, confectionery, baked goods, desserts, and sugar-free formulations.</p><p>Like other polyols, it is less cariogenic than sucrose because oral bacteria do not convert it as efficiently into enamel-demineralizing acids.</p><h2>What happens in the intestine?</h2><p>Because little lactitol is absorbed, a large fraction reaches the colon. It increases osmotic load and becomes substrate for microbial fermentation.</p><p>Fermentation produces short-chain fatty acids and gases, while retained water can soften stool.</p><p>The combination explains why sufficient doses can act as a laxative and why gas, cramping, or urgency can occur.</p><h2>Dose separates food use from a strong laxative effect</h2><p>Tolerance trials using chocolate found that single servings containing 30–40 grams of lactitol substantially increased gastrointestinal symptoms compared with sucrose.</p><p>Constipation trials also show that targeted lactitol dosing can increase bowel-movement frequency.</p><p>Those clinical effects do not mean that every food containing a small amount acts like a medication; the amount matters.</p><h2>Lactitol is not lactose</h2><p>Although lactose is the starting material, hydrogenation creates a different molecule with different digestion.</p><p>Someone with lactose intolerance should not assume the two ingredients cause symptoms through exactly the same mechanism. Product purity can also vary, so residual lactose may matter in selected formulations.</p><p>For milk-protein allergy, the relevant question is residual dairy protein rather than the lactitol molecule itself.</p><h2>How to use foods containing lactitol</h2><p>If you are not accustomed to polyols, a smaller serving makes it easier to assess tolerance before eating multiple portions.</p><p>Lactitol can combine with sorbitol, mannitol, maltitol, and fermentable fibers to create cumulative GI effects.</p><p><strong>The practical rule:</strong> lactitol is lower in calories because most of it is not absorbed. The same chemistry makes it strongly fermentable and osmotic, so serving size is central to tolerance.</p>",
+  "faq": [
+    {
+      "question": "How many calories does lactitol have?",
+      "answer": "FDA uses 2 calories per gram for U.S. labeling."
+    },
+    {
+      "question": "Is lactitol the same as lactose?",
+      "answer": "No. Lactitol is made from lactose by hydrogenation and has very different digestion."
+    },
+    {
+      "question": "Why can lactitol be laxative?",
+      "answer": "It is poorly absorbed, retains water in the intestine, and is extensively fermented in the colon."
+    }
+  ],
+  "sources": [
+    {
+      "name": "FDA — Aspartame and Other Sweeteners in Food",
+      "url": "https://www.fda.gov/food/food-additives-petitions/aspartame-and-other-sweeteners-food",
+      "note": "Lists lactitol among sugar alcohol sweeteners."
+    },
+    {
+      "name": "FDA — Nutrition Facts Small Entity Compliance Guide",
+      "url": "https://www.fda.gov/media/134505/download?attachment=",
+      "note": "Uses 2.0 kcal/g for lactitol."
+    },
+    {
+      "name": "PubMed — Sugar alcohols derived from lactose",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/32989517/",
+      "note": "Reviews production and food applications."
+    },
+    {
+      "name": "PubMed — Lactitol for adult constipation meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/25050074/",
+      "note": "Reviews bowel-function effects and tolerance."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food-science image of lactose transforming into lactitol crystals beside sugar-free chocolate and a colon-fermentation diagram, no brands.",
+    "alt": "Lactitol derived from lactose and fermented in the colon"
+  },
+  "status": "publish"
+}
