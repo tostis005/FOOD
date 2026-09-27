@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "id": "en-1349-fos-prebiotics",
+  "article_number": 1349,
+  "translation_group": "1349-fructooligosaccharides-prebiotics",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; naturally occurring and added fructooligosaccharides used as prebiotic fiber ingredients.",
+  "title": "Fructooligosaccharides (FOS): What They Are, Where They Occur, and Why They Are Used as Prebiotics",
+  "slug": "fructooligosaccharides-fos-what-they-are-prebiotic",
+  "seo": {
+    "title": "FOS: What They Are, Food Sources, and Why They Are Prebiotic",
+    "meta_description": "Fructooligosaccharides are short fructose chains that resist small-intestinal digestion and reach the colon for microbial fermentation. They occur naturally in foods such as onion, garlic, and chicory and are also added to yogurt, bars, and supplements. They can increase bifidobacteria but may cause gas at higher doses.",
+    "search_intent": "Understand what FOS are, where they occur, how they are made, why they qualify as prebiotics, and how well they are tolerated."
+  },
+  "excerpt": "Fructooligosaccharides, or FOS, are short-chain carbohydrates made mostly of fructose. Human digestive enzymes break them down poorly, so they reach the colon and become substrates for gut microbes. This is why FOS are widely used as prebiotic ingredients. Smaller amounts also occur naturally in chicory, onion, garlic, leek, asparagus, wheat, and selected fruits.",
+  "taxonomy": {
+    "food_family": "general",
+    "food_subcategories": [
+      "fructooligosaccharides",
+      "prebiotics",
+      "dietary-fiber"
+    ],
+    "article_types": [
+      "nutrition-concepts"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Fructooligosaccharides, or FOS, are short chains made mainly of fructose that human small-intestinal enzymes digest poorly.</strong> Because they reach the colon largely intact, selected microbes can use them, which is why FOS are classic prebiotic ingredients.</p><p>They belong to the fructan family and are closely related to inulin, although their chains are generally shorter.</p><h2>FOS and inulin are related but not identical</h2><p>Both consist mainly of fructose units and can terminate in a glucose unit. The main practical difference is average chain length.</p><p>FOS have a lower degree of polymerization and tend to ferment relatively quickly. Inulin can contain substantially longer chains and a wider molecular-size distribution.</p><p>Commercial ingredients may combine inulin and oligofructose, so labels sometimes use both terms.</p><h2>Where do FOS occur naturally?</h2><p>Fructans occur in chicory, onions, garlic, leeks, asparagus, artichokes, wheat, and selected bananas, among other foods.</p><p>Concentration varies with variety, maturity, and processing. Eating these foods does not equal taking a concentrated purified FOS dose.</p><p>Commercial FOS can be produced by partially hydrolyzing inulin or by enzymatically building short fructose chains from sucrose.</p><h2>Why are FOS considered prebiotics?</h2><p>A prebiotic is a substrate selectively utilized by host microorganisms that confers a health benefit.</p><p>FOS are a classic example because selected bacteria, especially bifidobacteria, use them efficiently.</p><p>A meta-analysis of randomized human trials found a significant increase in <em>Bifidobacterium</em> during FOS supplementation, with larger changes in interventions lasting more than four weeks and at doses above 5 grams per day.</p><h2>Fermentation produces both useful metabolites and gas</h2><p>Gut microbes convert FOS into short-chain fatty acids and other fermentation products. This changes the colonic environment and contributes to their prebiotic effects.</p><p>The same fermentation produces hydrogen, carbon dioxide, and other gases. Higher doses can therefore cause bloating and flatulence, especially when introduced abruptly.</p><p>Tolerance varies widely, and people sensitive to fructans, including some with IBS, may react to smaller amounts.</p><h2>What has been studied for constipation?</h2><p>A 2024 systematic review and meta-analysis of randomized trials evaluated FOS supplementation for functional constipation and reported signals of improvement in bowel-movement frequency and selected gut outcomes.</p><p>Results varied because dose, duration, population, and FOS preparation differed among studies.</p><p>Persistent constipation with pain, bleeding, weight loss, or other warning signs requires medical evaluation rather than simply escalating a fiber supplement.</p><h2>Why are FOS added to processed foods?</h2><p>They appear in yogurt, beverages, cereal, bars, infant formula, and supplements to add fiber, mild sweetness, and prebiotic functionality.</p><p>FOS are much less sweet than sucrose but can improve body and flavor in reduced-sugar formulations.</p><p>Labels may also use the term oligofructose.</p><h2>How to increase FOS more comfortably</h2><p>If a supplement supplies several grams per serving, starting with a smaller amount and increasing gradually is often easier to tolerate.</p><p>Count other fermentable ingredients too, because inulin, GOS, sugar alcohols, and other fibers can have cumulative GI effects.</p><p><strong>The practical rule:</strong> FOS are well-established prebiotics, but more is not always better. A dose that supports bifidobacteria can still be uncomfortable if fermentation exceeds an individual's tolerance.</p>",
+  "faq": [
+    {
+      "question": "Are FOS and inulin the same?",
+      "answer": "They are related fructans, but FOS usually have shorter chains and ferment more quickly."
+    },
+    {
+      "question": "Are FOS prebiotics?",
+      "answer": "Yes. FOS are classic prebiotic ingredients and human trials show increases in bifidobacteria."
+    },
+    {
+      "question": "Can FOS cause gas?",
+      "answer": "Yes. Rapid fermentation can cause bloating and flatulence, particularly at higher doses or in sensitive people."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — FOS supplementation and gut microbiota meta-analysis",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/36014803/",
+      "note": "Meta-analysis of human trials showing increased Bifidobacterium with FOS."
+    },
+    {
+      "name": "PubMed — Fructooligosaccharides for functional constipation",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/39766936/",
+      "note": "2024 systematic review and meta-analysis of randomized trials."
+    },
+    {
+      "name": "PubMed — Prebiotic Oligosaccharides with focus on FOS",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/28948462/",
+      "note": "Reviews FOS chemistry, production, fermentation, and applications."
+    }
+  ],
+  "image": {
+    "concept": "Editorial nutrition image of onions, garlic, chicory and asparagus beside a simplified short fructose-chain diagram and gut bacteria icons, no brands.",
+    "alt": "Foods containing fructooligosaccharides and an FOS structure illustration"
+  },
+  "status": "publish"
+}
