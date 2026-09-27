@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "id": "en-1320-black-garlic-what-it-is-why-sweet-how-made",
+  "article_number": 1320,
+  "translation_group": "1320-black-garlic-production-sweetness",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; black garlic produced by controlled warm, humid aging of fresh garlic.",
+  "title": "Black Garlic: What It Is, Why It Tastes Sweet, and How It Is Made",
+  "slug": "black-garlic-what-it-is-why-sweet-how-made",
+  "seo": {
+    "title": "Black Garlic: Why It Turns Sweet and Black",
+    "meta_description": "Black garlic is fresh garlic aged for weeks under controlled heat and humidity. It is not a separate variety and is not necessarily fermented microbiologically. Maillard browning, fructan breakdown, and sulfur-compound changes make the cloves dark, soft, sweet, and less pungent.",
+    "search_intent": "Understand what black garlic is, how it is produced, why it turns dark and sweet, and how it differs chemically from fresh garlic."
+  },
+  "excerpt": "Black garlic is made by aging ordinary fresh garlic for weeks under controlled heat and humidity. Although it is often described as fermented, the key changes do not necessarily require microbial fermentation: Maillard browning and transformations of sugars and sulfur compounds dominate. The finished cloves are dark, soft, sweet, balsamic, and much less pungent than raw garlic.",
+  "taxonomy": {
+    "food_family": "vegetables",
+    "food_subcategories": [
+      "garlic",
+      "black-garlic",
+      "processing"
+    ],
+    "article_types": [
+      "processing-production",
+      "cooking-science"
+    ],
+    "primary_article_type": "processing-production"
+  },
+  "content_html": "<p><strong>Black garlic is ordinary garlic transformed through prolonged warm, humid aging.</strong> It is not a naturally black variety of <em>Allium sativum</em>, and no coloring is required.</p><p>Over several weeks the cloves darken, soften, lose the sharp bite of fresh garlic, and develop sweet, balsamic flavors often compared with dried fruit or molasses.</p><h2>The black color comes mainly from browning chemistry</h2><p>Maillard reactions occur when reducing sugars react with amino groups from amino acids and proteins under heat.</p><p>As aging continues, intermediate compounds eventually form dark high-molecular-weight pigments known as melanoidins.</p><p>Temperature, humidity, and time determine how rapidly this happens and whether the final flavor is balanced or overly bitter.</p><h2>Why does black garlic taste sweet?</h2><p>Fresh garlic contains fructans, carbohydrate chains that can break down into smaller sugars during processing.</p><p>At the same time, pungent sulfur chemistry changes and moisture loss can concentrate soluble flavors.</p><p>The combination creates a much sweeter sensory profile than raw garlic.</p><h2>What happens to allicin and the pungent aroma?</h2><p>Allicin forms when fresh garlic is cut or crushed and is highly reactive and unstable.</p><p>During long warm aging, many sharp volatile sulfur compounds decline while more stable sulfur-containing molecules such as S-allyl-L-cysteine become more prominent.</p><p>This helps explain black garlic's softer aroma and lack of raw-garlic burn.</p><h2>Is black garlic actually fermented?</h2><p>The term fermented is common in marketing, but a typical industrial black-garlic process does not necessarily depend on intentionally growing microorganisms.</p><p>Heat, humidity, and time are enough to drive Maillard reactions and other chemical transformations.</p><p>Some processes may involve incidental microbial activity, but black garlic should not automatically be treated as a probiotic fermented food.</p><h2>Processing conditions change the final product</h2><p>Higher temperatures speed browning and softening, while lower-temperature methods require longer aging.</p><p>Controlled humidity prevents excessive drying before internal reactions progress.</p><p>Recent reviews emphasize that production is not fully standardized, so flavor and bioactive-compound profiles can differ between manufacturers.</p><h2>Does black garlic contain more antioxidants?</h2><p>Many chemical studies report increases in measured antioxidant capacity, available polyphenols, and S-allyl-L-cysteine during aging.</p><p>That does not mean every laboratory effect translates directly into a large clinical benefit from eating a few cloves.</p><p>Human trials remain much less extensive than chemical and preclinical research.</p><h2>How is it used?</h2><p>The soft texture can be blended into dressings, butter, sauces, purees, and marinades. Its sweet-savory character works with mushrooms, cheese, roasted vegetables, and meats.</p><p>Because it is less pungent, it can also be added near the end of cooking to preserve its balsamic flavor.</p><p><strong>The practical rule:</strong> black garlic is heat- and humidity-aged garlic, not a separate species. Its dark color and sweetness come mainly from chemical transformations of sugars, proteins, and sulfur compounds.</p>",
+  "faq": [
+    {
+      "question": "Is black garlic a different garlic variety?",
+      "answer": "No. It is usually ordinary garlic transformed by weeks of controlled warm, humid aging."
+    },
+    {
+      "question": "Why is black garlic sweet?",
+      "answer": "Fructans break down into smaller sugars while pungent sulfur compounds decrease and flavors concentrate."
+    },
+    {
+      "question": "Is black garlic fermented?",
+      "answer": "Not necessarily in the microbial sense. Many production methods rely primarily on heat, humidity, and Maillard chemistry."
+    }
+  ],
+  "sources": [
+    {
+      "name": "PubMed — Black Garlic: Evolution of Chemical Composition and Biological Activities",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/41126383/",
+      "note": "Revisión reciente de producción, Maillard, azúcares, compuestos sulfurados y variabilidad por temperatura y humedad."
+    },
+    {
+      "name": "PubMed — Black garlic processing and bioactive compounds",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/?term=black+garlic+Maillard+S-allyl+cysteine",
+      "note": "Literatura de referencia sobre transformación de compuestos azufrados y S-alil-cisteína durante maduración."
+    }
+  ],
+  "image": {
+    "concept": "Editorial food photograph showing fresh white garlic bulbs transitioning to soft black garlic cloves through a warm controlled-aging process, no brands.",
+    "alt": "Fresh garlic transforming into black garlic during controlled aging"
+  },
+  "status": "publish"
+}
