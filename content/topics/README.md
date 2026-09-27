@@ -14,6 +14,7 @@ The inventory is split into numbered ranges so it can grow without mixing topic 
 - `TOPICS-1156-1195.md` — approved topics 1156–1195.
 - `TOPICS-1196-1235.md` — approved topics 1196–1235.
 - `TOPICS-1236-1335.md` — approved topics 1236–1335.
+- `TOPICS-1336-1336.md` — approved topic 1336.
 
 Future approved batches must be added to this folder as a new non-overlapping numbered range.
 
