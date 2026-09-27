@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "id": "en-1317-does-kombucha-have-probiotics-fermented-meaning",
+  "article_number": 1317,
+  "translation_group": "1317-kombucha-probiotics-fermented",
+  "language": "en",
+  "locale": "en-US",
+  "market_context": "United States/international; commercial and homemade kombucha, live microbes, and scientifically correct probiotic terminology.",
+  "title": "Does Kombucha Have Probiotics? What Being Fermented Really Means",
+  "slug": "does-kombucha-have-probiotics-fermented-meaning",
+  "seo": {
+    "title": "Does Kombucha Have Probiotics? Fermented Is Not the Same Thing",
+    "meta_description": "Raw kombucha can contain live bacteria and yeasts, but that does not automatically make them probiotics. A probiotic must be defined, viable at an adequate dose, and supported by human evidence for a health benefit.",
+    "search_intent": "Understand whether kombucha contains probiotics, which live microbes may be present, and why fermented and probiotic are not interchangeable terms."
+  },
+  "excerpt": "Kombucha can contain live bacteria and yeasts when it is raw and unpasteurized, but live microbes alone do not meet the scientific definition of a probiotic. A probiotic must be sufficiently identified, delivered alive at an adequate amount, and supported by evidence for a health benefit. Traditional kombucha communities vary from batch to batch and usually do not meet all of those criteria.",
+  "taxonomy": {
+    "food_family": "beverages",
+    "food_subcategories": [
+      "kombucha",
+      "fermented-foods",
+      "probiotics"
+    ],
+    "article_types": [
+      "nutrition-concepts",
+      "myths-faq"
+    ],
+    "primary_article_type": "nutrition-concepts"
+  },
+  "content_html": "<p><strong>Kombucha can contain live microorganisms, but that does not automatically mean it contains probiotics.</strong> Fermentation simply means microorganisms transformed components of the food or drink. Probiotic is a much more specific scientific category.</p><p>Raw kombucha can retain viable yeasts and bacteria from fermentation, but their species, strains, and numbers vary with the culture, manufacturer, temperature, and storage time.</p><h2>What the word probiotic actually requires</h2><p>The widely accepted ISAPP definition describes probiotics as live microorganisms that, when administered in adequate amounts, confer a health benefit on the host.</p><p>That requires more than finding live bacteria. The microorganism must be adequately characterized, remain viable at an appropriate dose, and have human evidence supporting the claimed benefit.</p><p>A variable community with unknown strain identity and dose is more accurately described as live cultures or live dietary microbes.</p><h2>Which microbes can occur in kombucha?</h2><p>Kombucha usually contains a mixed community of yeasts and acetic-acid bacteria, with lactic-acid bacteria appearing in some cultures and products.</p><p>The exact community depends on the SCOBY, tea, sugar, temperature, fermentation length, and where the starter culture came from.</p><p>Two bottles can therefore contain very different microbial populations even when both are marketed as kombucha.</p><h2>Pasteurization changes the answer</h2><p>Pasteurized kombucha is still a fermented beverage because fermentation was used to make it, but heat treatment reduces or eliminates viable microorganisms.</p><p>Fine filtration and other stabilization processes can also reduce microbial counts.</p><p>Fermented therefore does not guarantee live cultures at consumption, and live cultures do not automatically guarantee probiotics.</p><h2>Is raw kombucha probiotic?</h2><p>Not necessarily. Having viable microbes meets only one part of the probiotic concept. To justify the term, you would want defined microorganisms, an adequate viable quantity, and evidence that the strain or combination produces a health benefit.</p><p>ISAPP specifically notes that traditional fermented foods such as kombucha, kimchi, and many kefirs usually contain microbes that have not been characterized and tested to probiotic standards.</p><p>A manufacturer could add a separately studied probiotic strain, but that should be distinguished from the spontaneous fermentation community.</p><h2>Kombucha may still contain interesting fermentation products</h2><p>Fermentation produces organic acids, changes tea polyphenols, and generates microbial metabolites in addition to live cells.</p><p>If kombucha has a health effect, it could therefore come from the whole fermented matrix rather than from a classic probiotic mechanism.</p><p>Controlled human trials of kombucha remain relatively limited compared with its popularity, so broad claims should be treated cautiously.</p><h2>What to look for on the label</h2><p>Words such as raw, unpasteurized, or contains live cultures suggest viable microbes may remain, but they do not necessarily identify which microbes or how many survive to the end of shelf life.</p><p>A stronger probiotic claim would identify defined microorganisms and, where appropriate, a viable quantity linked to evidence.</p><p>If the beverage is pasteurized after fermentation, do not assume the original live culture remains.</p><h2>Kombucha, yogurt, and probiotic supplements are different systems</h2><p>A yogurt with defined cultures, a supplement listing strains and CFU, and a home-brewed kombucha are not scientifically interchangeable.</p><p>All can involve microbes, but their standardization, viability, and evidence bases differ substantially.</p><p><strong>The practical rule:</strong> fermented kombucha may contain live microbes, but live does not automatically mean probiotic. Reserve that term for defined microorganisms backed by evidence of benefit.</p>",
+  "faq": [
+    {
+      "question": "Does raw kombucha contain live bacteria?",
+      "answer": "It often contains viable bacteria and yeasts, although their identity and amount vary between products and over storage."
+    },
+    {
+      "question": "Does fermented mean probiotic?",
+      "answer": "No. A probiotic must be a defined live microorganism given at an adequate dose with demonstrated health benefit."
+    },
+    {
+      "question": "Does pasteurized kombucha contain probiotics?",
+      "answer": "Pasteurization reduces or eliminates viable fermentation microbes, so live cultures should not be assumed."
+    }
+  ],
+  "sources": [
+    {
+      "name": "ISAPP — Do fermented foods contain probiotics?",
+      "url": "https://isappscience.org/do-fermented-foods-contain-probiotics/",
+      "note": "Explica por qué la mayoría de alimentos fermentados, incluida kombucha, no cumplen automáticamente la definición de probiótico."
+    },
+    {
+      "name": "ISAPP — What qualifies as a probiotic?",
+      "url": "https://isappscience.org/resource/what-qualifies-as-a-probiotic/",
+      "note": "Criterios actualizados sobre microorganismos definidos, viabilidad, dosis y evidencia de beneficio."
+    },
+    {
+      "name": "ISAPP — Fermented Foods",
+      "url": "https://isappscience.org/topic/fermented-foods/",
+      "note": "Distingue alimentos fermentados, cultivos vivos y probióticos."
+    }
+  ],
+  "image": {
+    "concept": "Editorial fermentation photograph of kombucha bottles beside a SCOBY and a scientific diagram distinguishing live cultures from defined probiotic strains, no brands.",
+    "alt": "Kombucha live cultures compared with scientifically defined probiotics"
+  },
+  "status": "publish"
+}
