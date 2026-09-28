@@ -39,12 +39,21 @@ function food_seo_v2_page_number() {
 }
 
 function food_seo_v2_trim( $text, $length = 158 ) {
-	$text = trim( preg_replace( '/\s+/u', ' ', wp_strip_all_tags( strip_shortcodes( (string) $text ) ) ) );
+	$text = trim( preg_replace( '/\\s+/u', ' ', wp_strip_all_tags( strip_shortcodes( (string) $text ) ) ) );
 	if ( '' === $text ) {
 		return '';
 	}
-	$size = function_exists( 'mb_strlen' ) ? mb_strlen( $text ) : strlen( $text );
-	return $size <= $length ? $text : wp_html_excerpt( $text, $length - 1, '…' );
+
+	$length = max( 40, (int) $length );
+	$size   = function_exists( 'mb_strlen' ) ? mb_strlen( $text, 'UTF-8' ) : strlen( $text );
+	if ( $size <= $length ) {
+		return $text;
+	}
+
+	$excerpt = function_exists( 'mb_substr' ) ? mb_substr( $text, 0, $length - 1, 'UTF-8' ) : substr( $text, 0, $length - 1 );
+	$excerpt = preg_replace( '/\\s+\\S*$/u', '', $excerpt );
+	$excerpt = rtrim( (string) $excerpt, " \\t\\n\\r\\0\\x0B,;:–—-" );
+	return $excerpt . '…';
 }
 
 function food_seo_v2_paginated_text( $text ) {

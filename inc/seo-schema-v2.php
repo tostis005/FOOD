@@ -123,7 +123,7 @@ function food_seo_v2_schema_graph( $canonical, $description ) {
 	);
 
 	$page = array(
-		'@type'      => food_seo_v2_directory() ? 'CollectionPage' : 'WebPage',
+		'@type'      => ( food_seo_v2_directory() || is_category() || is_tax( 'food_topic' ) ) ? 'CollectionPage' : 'WebPage',
 		'@id'        => $page_id,
 		'url'        => $canonical,
 		'name'       => wp_get_document_title(),

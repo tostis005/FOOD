@@ -73,19 +73,22 @@ function food_excerpt_length( $length ) {
 }
 add_filter( 'excerpt_length', 'food_excerpt_length', 999 );
 
+function food_word_count_unicode( $content ) {
+	$text = trim( wp_strip_all_tags( html_entity_decode( (string) $content, ENT_QUOTES | ENT_HTML5, 'UTF-8' ) ) );
+	if ( '' === $text ) {
+		return 0;
+	}
+	$count = preg_match_all( "/[\\p{L}\\p{N}]+(?:['’\\-][\\p{L}\\p{N}]+)*/u", $text, $matches );
+	return false === $count ? 0 : (int) $count;
+}
+
 function food_reading_time() {
 	$content = get_post_field( 'post_content', get_the_ID() );
-	$words   = str_word_count( wp_strip_all_tags( $content ) );
+	$words   = food_word_count_unicode( $content );
 	$minutes = max( 1, (int) ceil( $words / 210 ) );
 	return sprintf( _n( '%s min de lectura', '%s min de lectura', $minutes, 'food' ), $minutes );
 }
 
-/**
- * Definitive first-version classification by food.
- *
- * A post may have one of these terms, or none when the subject is purely
- * transversal. The independent article-type taxonomy is defined separately.
- */
 function food_family_definitions() {
 	return array(
 		'alimentacion-general' => array(

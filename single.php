@@ -107,7 +107,7 @@ get_header();
 		<div class="article-meta">
 			<span><?php echo esc_html( function_exists( 'food_localized_reading_time' ) ? food_localized_reading_time() : food_reading_time() ); ?></span>
 			<span aria-hidden="true">·</span>
-			<span class="article-byline"><?php echo esc_html( $food_english ? 'By the Quinnoa editorial team' : 'Por el equipo editorial de Quinnoa' ); ?></span>
+			<a class="article-byline" href="<?php echo esc_url( function_exists( 'food_editorial_page_url' ) ? food_editorial_page_url( 'about', $food_english ? 'en' : 'es' ) : home_url( $food_english ? '/en/about/' : '/acerca-de/' ) ); ?>"><?php echo esc_html( $food_english ? 'By the Quinnoa editorial team' : 'Por el equipo editorial de Quinnoa' ); ?></a>
 			<span aria-hidden="true">·</span>
 			<time datetime="<?php echo esc_attr( $food_date_iso ); ?>"><?php echo esc_html( ( $food_show_updated ? ( $food_english ? 'Updated ' : 'Actualizado ' ) : ( $food_english ? 'Published ' : 'Publicado ' ) ) . $food_date_display ); ?></time>
 			<?php if ( $food_source_count > 0 ) : ?>

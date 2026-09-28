@@ -175,6 +175,39 @@ function food_internal_link_posts( $post_id ) {
 }
 
 /**
+ * Extract meaningful title tokens for fallback-link scoring.
+ *
+ * Taxonomy remains the eligibility gate. Title overlap only reorders eligible
+ * candidates, so generic lexical similarity cannot introduce unrelated links.
+ */
+function food_internal_link_title_tokens( $post_id ) {
+	$title = remove_accents( wp_strip_all_tags( get_the_title( (int) $post_id ) ) );
+	$title = function_exists( 'mb_strtolower' ) ? mb_strtolower( $title, 'UTF-8' ) : strtolower( $title );
+	$parts = preg_split( '/[^\\p{L}\\p{N}]+/u', $title, -1, PREG_SPLIT_NO_EMPTY );
+	if ( ! is_array( $parts ) ) {
+		return array();
+	}
+
+	$stopwords = array(
+		'a','al','and','are','as','can','como','con','cual','de','del','difference','differences','diferencia','diferencias',
+		'el','en','es','for','from','how','in','is','it','la','las','lo','los','mas','menos','of','o','para','por','que',
+		'the','to','un','una','vs','what','which','with','y'
+	);
+	$stop = array_fill_keys( $stopwords, true );
+	$tokens = array();
+
+	foreach ( $parts as $token ) {
+		$length = function_exists( 'mb_strlen' ) ? mb_strlen( $token, 'UTF-8' ) : strlen( $token );
+		if ( $length < 4 || isset( $stop[ $token ] ) || is_numeric( $token ) ) {
+			continue;
+		}
+		$tokens[ $token ] = true;
+	}
+
+	return array_keys( $tokens );
+}
+
+/**
  * Find stable contextual links for articles that do not yet have a manual map
  * entry. Candidates must share the food family or at least one editorial topic.
  */
@@ -212,7 +245,7 @@ function food_internal_link_fallback_posts( $post_id, $limit = 3 ) {
 	$fallback_args = array(
 		'post_type'              => 'post',
 		'post_status'            => 'publish',
-		'posts_per_page'         => 30,
+		'posts_per_page'         => 60,
 		'post__not_in'           => array( $post_id ),
 		'ignore_sticky_posts'    => true,
 		'no_found_rows'          => true,
@@ -246,6 +279,7 @@ function food_internal_link_fallback_posts( $post_id, $limit = 3 ) {
 		}
 	}
 	$current_category_slug = $category instanceof WP_Term ? $category->slug : '';
+	$current_title_tokens = food_internal_link_title_tokens( $post_id );
 
 	$scored = array();
 	foreach ( $candidates as $candidate ) {
@@ -264,6 +298,13 @@ function food_internal_link_fallback_posts( $post_id, $limit = 3 ) {
 			}
 		}
 		$score += 3 * $topic_overlap;
+
+		$candidate_title_tokens = food_internal_link_title_tokens( $candidate->ID );
+		$title_overlap = count( array_intersect( $current_title_tokens, $candidate_title_tokens ) );
+		$score += 2 * $title_overlap;
+		if ( $title_overlap >= 2 ) {
+			$score += 3;
+		}
 
 		if ( $score <= 0 ) {
 			continue;

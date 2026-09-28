@@ -303,7 +303,7 @@ add_filter( 'language_attributes', 'food_language_attributes' );
 
 function food_localized_reading_time() {
 	$content = get_post_field( 'post_content', get_the_ID() );
-	$words   = str_word_count( wp_strip_all_tags( $content ) );
+	$words   = function_exists( 'food_word_count_unicode' ) ? food_word_count_unicode( $content ) : str_word_count( wp_strip_all_tags( $content ) );
 	$minutes = max( 1, (int) ceil( $words / 210 ) );
 	return food_is_english() ? sprintf( '%d min read', $minutes ) : sprintf( '%d min de lectura', $minutes );
 }

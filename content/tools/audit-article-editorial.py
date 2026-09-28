@@ -11,6 +11,8 @@ MIN_WORDS = 631
 WORDS_PER_MINUTE = 210
 H2_TRIGGER = 5
 MIN_WORDS_PER_H2 = 80.0
+SEO_TITLE_REVIEW_LENGTH = 65
+SEO_META_REVIEW_LENGTH = 160
 
 args = [arg for arg in sys.argv[1:] if not arg.startswith('--')]
 strict_quality = '--strict-quality' in sys.argv[1:]
@@ -124,6 +126,30 @@ for path in files:
         msg = f'{path}: status is {data.get("status")!r}, expected publish'
         errors.append(msg)
         add_reason(result, 'status_not_publish', msg)
+
+    seo = data.get('seo') if isinstance(data.get('seo'), dict) else {}
+    seo_title = re.sub(r'\\s+', ' ', str(seo.get('title', ''))).strip()
+    meta_description = re.sub(r'\\s+', ' ', str(seo.get('meta_description', ''))).strip()
+    if not seo_title:
+        msg = f'{path}: missing seo.title'
+        errors.append(msg)
+        add_reason(result, 'missing_seo_title', msg)
+    elif len(seo_title) > SEO_TITLE_REVIEW_LENGTH:
+        add_reason(
+            result,
+            'seo_title_long',
+            f'{path}: SEO title is {len(seo_title)} characters; review above {SEO_TITLE_REVIEW_LENGTH}'
+        )
+    if not meta_description:
+        msg = f'{path}: missing seo.meta_description'
+        errors.append(msg)
+        add_reason(result, 'missing_meta_description', msg)
+    elif len(meta_description) > SEO_META_REVIEW_LENGTH:
+        add_reason(
+            result,
+            'meta_description_long',
+            f'{path}: meta description is {len(meta_description)} characters; review above {SEO_META_REVIEW_LENGTH}'
+        )
 
     content = str(data.get('content_html', ''))
     text = visible_text(content)
@@ -242,6 +268,8 @@ print(f'MIN_WORDS={MIN_WORDS}')
 print(f'WORDS_PER_MINUTE={WORDS_PER_MINUTE}')
 print(f'H2_CATALOGUE_TRIGGER={H2_TRIGGER}')
 print(f'MIN_WORDS_PER_H2={MIN_WORDS_PER_H2:.0f}')
+print(f'SEO_TITLE_REVIEW_LENGTH={SEO_TITLE_REVIEW_LENGTH}')
+print(f'SEO_META_REVIEW_LENGTH={SEO_META_REVIEW_LENGTH}')
 print(f'VERSIONS={len(version_results)}')
 print(f'VERSION_PASS={version_pass}')
 print(f'VERSION_FAIL={version_fail}')
