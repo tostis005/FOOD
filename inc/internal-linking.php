@@ -183,7 +183,7 @@ function food_internal_link_posts( $post_id ) {
 function food_internal_link_title_tokens( $post_id ) {
 	$title = remove_accents( wp_strip_all_tags( get_the_title( (int) $post_id ) ) );
 	$title = function_exists( 'mb_strtolower' ) ? mb_strtolower( $title, 'UTF-8' ) : strtolower( $title );
-	$parts = preg_split( '/[^\\p{L}\\p{N}]+/u', $title, -1, PREG_SPLIT_NO_EMPTY );
+	$parts = preg_split( '/[^\p{L}\p{N}]+/u', $title, -1, PREG_SPLIT_NO_EMPTY );
 	if ( ! is_array( $parts ) ) {
 		return array();
 	}

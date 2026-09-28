@@ -78,7 +78,7 @@ function food_word_count_unicode( $content ) {
 	if ( '' === $text ) {
 		return 0;
 	}
-	$count = preg_match_all( "/[\\p{L}\\p{N}]+(?:['’\\-][\\p{L}\\p{N}]+)*/u", $text, $matches );
+	$count = preg_match_all( "/[\p{L}\p{N}]+(?:['’\-][\p{L}\p{N}]+)*/u", $text, $matches );
 	return false === $count ? 0 : (int) $count;
 }
 
@@ -88,6 +88,13 @@ function food_reading_time() {
 	$minutes = max( 1, (int) ceil( $words / 210 ) );
 	return sprintf( _n( '%s min de lectura', '%s min de lectura', $minutes, 'food' ), $minutes );
 }
+
+/**
+ * Definitive first-version classification by food.
+ *
+ * A post may have one of these terms, or none when the subject is purely
+ * transversal. The independent article-type taxonomy is defined separately.
+ */
 
 function food_family_definitions() {
 	return array(

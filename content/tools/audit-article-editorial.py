@@ -128,8 +128,8 @@ for path in files:
         add_reason(result, 'status_not_publish', msg)
 
     seo = data.get('seo') if isinstance(data.get('seo'), dict) else {}
-    seo_title = re.sub(r'\\s+', ' ', str(seo.get('title', ''))).strip()
-    meta_description = re.sub(r'\\s+', ' ', str(seo.get('meta_description', ''))).strip()
+    seo_title = re.sub(r'\s+', ' ', str(seo.get('title', ''))).strip()
+    meta_description = re.sub(r'\s+', ' ', str(seo.get('meta_description', ''))).strip()
     if not seo_title:
         msg = f'{path}: missing seo.title'
         errors.append(msg)
