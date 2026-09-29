@@ -16,6 +16,83 @@
     "raw_seo_title_under_28": 57,
     "raw_meta_over_220": 227
   },
+  "cannibalization_allowlist": [
+    {
+      "a": 1,
+      "b": 13,
+      "reason": "all-food protein ranking vs meat-only protein ranking"
+    },
+    {
+      "a": 16,
+      "b": 17,
+      "reason": "nut protein ranking vs seed protein ranking"
+    },
+    {
+      "a": 38,
+      "b": 167,
+      "reason": "broad omega-3 food ranking vs plant/fish omega-3 type comparison"
+    },
+    {
+      "a": 52,
+      "b": 183,
+      "reason": "tuna/salmon comparison vs salmon profile"
+    },
+    {
+      "a": 60,
+      "b": 276,
+      "reason": "whole egg/whites comparison vs white/yolk component comparison"
+    },
+    {
+      "a": 81,
+      "b": 82,
+      "reason": "processed/ultra-processed distinction vs definition of ultra-processed foods"
+    },
+    {
+      "a": 127,
+      "b": 167,
+      "reason": "plant omega-3 sources vs plant/fish omega-3 comparison"
+    },
+    {
+      "a": 183,
+      "b": 185,
+      "reason": "salmon profile vs hake/salmon comparison"
+    },
+    {
+      "a": 512,
+      "b": 513,
+      "reason": "70/85/100 cacao comparison vs definition of cacao percentage"
+    },
+    {
+      "a": 553,
+      "b": 554,
+      "reason": "hummus profile vs hummus/guacamole comparison"
+    },
+    {
+      "a": 582,
+      "b": 584,
+      "reason": "cottage cheese profile vs cottage cheese/ricotta comparison"
+    },
+    {
+      "a": 601,
+      "b": 603,
+      "reason": "honey/table-sugar comparison vs sugars present in honey"
+    },
+    {
+      "a": 606,
+      "b": 607,
+      "reason": "dates nutrient profile vs dates/table-sugar comparison"
+    },
+    {
+      "a": 705,
+      "b": 1273,
+      "reason": "label claims (sugar-free/no added sugar) vs free/added sugar definitions"
+    },
+    {
+      "a": 724,
+      "b": 725,
+      "reason": "HFCS/table-sugar comparison vs corn-syrup/HFCS ingredient distinction"
+    }
+  ],
   "unknown_families": {},
   "unknown_article_types": {},
   "family_alias_usage": {
@@ -152,182 +229,6 @@
   "exact_duplicate_search_intents": [],
   "repeated_first_answers": [],
   "cannibalization_candidates": [
-    {
-      "language": "en",
-      "a": 705,
-      "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
-      "b": 1273,
-      "b_title": "Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing",
-      "similarity": 0.8043,
-      "title_jaccard": 0.8889,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 606,
-      "a_title": "Dates: sugar, fiber and calories",
-      "b": 607,
-      "b_title": "Dates vs. sugar: nutrition differences",
-      "similarity": 0.8767,
-      "title_jaccard": 0.5,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 582,
-      "a_title": "Cottage cheese: protein, fat and calories",
-      "b": 584,
-      "b_title": "Cottage cheese vs. ricotta: nutrition differences",
-      "similarity": 0.6177,
-      "title_jaccard": 0.8571,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 553,
-      "a_title": "Hummus: protein, fiber, fat and nutrition",
-      "b": 554,
-      "b_title": "Hummus vs. guacamole: nutrition differences",
-      "similarity": 0.5639,
-      "title_jaccard": 0.8571,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 183,
-      "a_title": "Salmón: proteína, omega-3, grasa y calorías",
-      "b": 185,
-      "b_title": "Merluza vs. salmón: proteína, grasa y calorías",
-      "similarity": 0.5379,
-      "title_jaccard": 0.8333,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 52,
-      "a_title": "Atún vs. salmón: proteína, omega-3, grasa y calorías",
-      "b": 183,
-      "b_title": "Salmón: proteína, omega-3, grasa y calorías",
-      "similarity": 0.5231,
-      "title_jaccard": 0.8333,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 724,
-      "a_title": "Jarabe de maíz de alta fructosa o azúcar: ¿son realmente diferentes?",
-      "b": 725,
-      "b_title": "Jarabe de maíz y jarabe de maíz de alta fructosa: no son el mismo endulzante",
-      "similarity": 0.822,
-      "title_jaccard": 0.5,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 38,
-      "a_title": "Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA",
-      "b": 167,
-      "b_title": "Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained",
-      "similarity": 0.8142,
-      "title_jaccard": 0.4167,
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "es",
-      "a": 38,
-      "a_title": "Los alimentos con más omega-3: pescado, semillas y nueces sin mezclar ALA con EPA y DHA",
-      "b": 167,
-      "b_title": "Omega-3 vegetal vs. omega-3 del pescado",
-      "similarity": 0.8106,
-      "title_jaccard": 0.5556,
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "es",
-      "a": 1,
-      "a_title": "Los alimentos con más proteína: ranking por cada 100 gramos",
-      "b": 13,
-      "b_title": "Las carnes con más proteína: ranking por cada 100 gramos",
-      "similarity": 0.4699,
-      "title_jaccard": 0.8,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 601,
-      "a_title": "Honey vs. sugar: nutrition differences",
-      "b": 603,
-      "b_title": "What sugars are in honey?",
-      "similarity": 0.7833,
-      "title_jaccard": 0.2857,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 512,
-      "a_title": "70%, 85%, and 100% cacao chocolate: what really changes?",
-      "b": 513,
-      "b_title": "What does the cacao percentage on chocolate mean?",
-      "similarity": 0.7819,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 16,
-      "a_title": "Highest-Protein Nuts: Ranking per 100 Grams and per Ounce",
-      "b": 17,
-      "b_title": "Highest-Protein Seeds: Ranking per 100 Grams and per Ounce",
-      "similarity": 0.4922,
-      "title_jaccard": 0.7778,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 127,
-      "a_title": "The best plant sources of omega-3",
-      "b": 167,
-      "b_title": "Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained",
-      "similarity": 0.7757,
-      "title_jaccard": 0.25,
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 60,
-      "a_title": "Whole Egg vs Egg Whites: Protein, Fat and Nutrients",
-      "b": 276,
-      "b_title": "Egg white vs. yolk: what each part provides",
-      "similarity": 0.7618,
-      "title_jaccard": 0.5455,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 81,
-      "a_title": "Processed vs. ultra-processed foods: differences and examples",
-      "b": 82,
-      "b_title": "What ultra-processed foods actually are",
-      "similarity": 0.7547,
-      "title_jaccard": 0.4,
-      "family_match": true,
-      "type_overlap": 2
-    },
     {
       "language": "en",
       "a": 164,
@@ -736,17 +637,6 @@
       "type_overlap": 2
     },
     {
-      "language": "es",
-      "a": 582,
-      "a_title": "Cottage cheese: proteína, grasa y calorías",
-      "b": 584,
-      "b_title": "Cottage cheese vs. ricotta: diferencias nutricionales",
-      "similarity": 0.6232,
-      "title_jaccard": 0.7143,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
       "language": "en",
       "a": 33,
       "a_title": "How Long Does Raw Meat Last in the Fridge?",
@@ -781,28 +671,6 @@
     },
     {
       "language": "en",
-      "a": 183,
-      "a_title": "Salmon: protein, omega-3, fat, and calories",
-      "b": 185,
-      "b_title": "Hake vs. salmon: protein, fat, calories, and omega-3",
-      "similarity": 0.5891,
-      "title_jaccard": 0.7143,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 1,
-      "a_title": "Highest-Protein Foods: A Practical Ranking per 100 Grams",
-      "b": 13,
-      "b_title": "Highest-Protein Meats: Ranking per 100 Grams",
-      "similarity": 0.5832,
-      "title_jaccard": 0.7143,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
       "a": 771,
       "a_title": "Does soy sauce need refrigeration after opening?",
       "b": 970,
@@ -821,17 +689,6 @@
       "similarity": 0.5514,
       "title_jaccard": 0.7143,
       "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 52,
-      "a_title": "Tuna vs Salmon: Protein, Omega-3, Fat and Calories",
-      "b": 183,
-      "b_title": "Salmon: protein, omega-3, fat, and calories",
-      "similarity": 0.5481,
-      "title_jaccard": 0.7143,
-      "family_match": true,
       "type_overlap": 1
     },
     {
@@ -1086,28 +943,6 @@
       "title_jaccard": 0.5714,
       "family_match": true,
       "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 606,
-      "a_title": "Dátiles: azúcar, fibra y calorías",
-      "b": 607,
-      "b_title": "Dátiles vs. azúcar: diferencias nutricionales",
-      "similarity": 0.7112,
-      "title_jaccard": 0.5714,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 512,
-      "a_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
-      "b": 513,
-      "b_title": "Qué significa el porcentaje de cacao del chocolate",
-      "similarity": 0.711,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 0
     },
     {
       "language": "en",
@@ -1459,17 +1294,6 @@
       "similarity": 0.6835,
       "title_jaccard": 0.6667,
       "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 724,
-      "a_title": "High-Fructose Corn Syrup vs Sugar: Are They Really Different?",
-      "b": 725,
-      "b_title": "Corn Syrup vs High-Fructose Corn Syrup: They Are Not the Same Sweetener",
-      "similarity": 0.6827,
-      "title_jaccard": 0.4545,
-      "family_match": false,
       "type_overlap": 1
     },
     {
@@ -2898,6 +2722,259 @@
       "b": 975,
       "b_title": "Cuánto dura el caldo abierto en la nevera",
       "similarity": 0.3831,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 1300,
+      "a_title": "Cuánto dura el hummus abierto en la nevera",
+      "b": 1301,
+      "b_title": "Cuánto dura el tofu abierto en la nevera",
+      "similarity": 0.3816,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 215,
+      "a_title": "How long do cooked lentils last in the fridge?",
+      "b": 284,
+      "b_title": "How long does cooked shrimp last in the fridge?",
+      "similarity": 0.3753,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 297,
+      "a_title": "How long does fresh cheese last in the fridge?",
+      "b": 989,
+      "b_title": "How Long Do Fresh Mushrooms Last in the Fridge?",
+      "similarity": 0.3703,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 437,
+      "a_title": "Vegetables Highest in Calcium",
+      "b": 438,
+      "b_title": "Vegetables Highest in Potassium",
+      "similarity": 0.3689,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 117,
+      "a_title": "Is it healthy to eat yogurt every day?",
+      "b": 119,
+      "b_title": "Is it healthy to eat rice every day?",
+      "similarity": 0.3641,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 966,
+      "a_title": "Does Mustard Need Refrigeration After Opening?",
+      "b": 980,
+      "b_title": "Do Pickles Need Refrigeration After Opening?",
+      "similarity": 0.3633,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 1300,
+      "a_title": "Cuánto dura el hummus abierto en la nevera",
+      "b": 1303,
+      "b_title": "Cuánto dura el guacamole abierto en la nevera",
+      "similarity": 0.3631,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 217,
+      "a_title": "How long do cooked chickpeas last in the fridge?",
+      "b": 284,
+      "b_title": "How long does cooked shrimp last in the fridge?",
+      "similarity": 0.3607,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 974,
+      "a_title": "Cuánto dura el pesto abierto en la nevera",
+      "b": 1303,
+      "b_title": "Cuánto dura el guacamole abierto en la nevera",
+      "similarity": 0.359,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 265,
+      "a_title": "Cuánto dura un huevo abierto en la nevera",
+      "b": 1301,
+      "b_title": "Cuánto dura el tofu abierto en la nevera",
+      "similarity": 0.3584,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 176,
+      "a_title": "Chickpeas: protein, fiber, calories, and nutrition",
+      "b": 177,
+      "b_title": "Beans: protein, fiber, calories, and nutrition",
+      "similarity": 0.3575,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 296,
+      "a_title": "Cuánto dura el queso abierto en la nevera",
+      "b": 1301,
+      "b_title": "Cuánto dura el tofu abierto en la nevera",
+      "similarity": 0.3524,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 33,
+      "a_title": "Cuánto dura la carne cruda en la nevera",
+      "b": 985,
+      "b_title": "Cuánto dura la salchicha cruda en la nevera",
+      "similarity": 0.3523,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 265,
+      "a_title": "Cuánto dura un huevo abierto en la nevera",
+      "b": 974,
+      "b_title": "Cuánto dura el pesto abierto en la nevera",
+      "similarity": 0.3518,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 435,
+      "a_title": "Vegetables Highest in Vitamin C",
+      "b": 437,
+      "b_title": "Vegetables Highest in Calcium",
+      "similarity": 0.3515,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 15,
+      "a_title": "Highest-Protein Cheeses: Ranking per 100 Grams and Serving",
+      "b": 17,
+      "b_title": "Highest-Protein Seeds: Ranking per 100 Grams and per Ounce",
+      "similarity": 0.349,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 265,
+      "a_title": "Cuánto dura un huevo abierto en la nevera",
+      "b": 296,
+      "b_title": "Cuánto dura el queso abierto en la nevera",
+      "similarity": 0.3484,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 68,
+      "a_title": "How long does cooked pasta last in the fridge?",
+      "b": 284,
+      "b_title": "How long does cooked shrimp last in the fridge?",
+      "similarity": 0.3466,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 252,
+      "a_title": "How long does cooked fish last in the fridge?",
+      "b": 986,
+      "b_title": "How Long Does Cooked Bacon Last in the Fridge?",
+      "similarity": 0.3348,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 296,
+      "a_title": "Cuánto dura el queso abierto en la nevera",
+      "b": 1300,
+      "b_title": "Cuánto dura el hummus abierto en la nevera",
+      "similarity": 0.3343,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 278,
+      "a_title": "How long does cooked salmon last in the fridge?",
+      "b": 986,
+      "b_title": "How Long Does Cooked Bacon Last in the Fridge?",
+      "similarity": 0.3335,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 296,
+      "a_title": "Cuánto dura el queso abierto en la nevera",
+      "b": 1303,
+      "b_title": "Cuánto dura el guacamole abierto en la nevera",
+      "similarity": 0.3262,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 265,
+      "a_title": "Cuánto dura un huevo abierto en la nevera",
+      "b": 1303,
+      "b_title": "Cuánto dura el guacamole abierto en la nevera",
+      "similarity": 0.3255,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1

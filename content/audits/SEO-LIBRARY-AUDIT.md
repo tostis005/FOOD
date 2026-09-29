@@ -36,22 +36,6 @@ These are similarity candidates, not automatic cannibalization verdicts.
 
 | Lang | A | B | Similarity | Title overlap |
 | --- | ---: | ---: | ---: | ---: |
-| en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 1273 - Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing | 0.804 | 0.889 |
-| en | 606 - Dates: sugar, fiber and calories | 607 - Dates vs. sugar: nutrition differences | 0.877 | 0.500 |
-| en | 582 - Cottage cheese: protein, fat and calories | 584 - Cottage cheese vs. ricotta: nutrition differences | 0.618 | 0.857 |
-| en | 553 - Hummus: protein, fiber, fat and nutrition | 554 - Hummus vs. guacamole: nutrition differences | 0.564 | 0.857 |
-| es | 183 - Salmón: proteína, omega-3, grasa y calorías | 185 - Merluza vs. salmón: proteína, grasa y calorías | 0.538 | 0.833 |
-| es | 52 - Atún vs. salmón: proteína, omega-3, grasa y calorías | 183 - Salmón: proteína, omega-3, grasa y calorías | 0.523 | 0.833 |
-| es | 724 - Jarabe de maíz de alta fructosa o azúcar: ¿son realmente diferentes? | 725 - Jarabe de maíz y jarabe de maíz de alta fructosa: no son el mismo endulzante | 0.822 | 0.500 |
-| en | 38 - Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.814 | 0.417 |
-| es | 38 - Los alimentos con más omega-3: pescado, semillas y nueces sin mezclar ALA con EPA y DHA | 167 - Omega-3 vegetal vs. omega-3 del pescado | 0.811 | 0.556 |
-| es | 1 - Los alimentos con más proteína: ranking por cada 100 gramos | 13 - Las carnes con más proteína: ranking por cada 100 gramos | 0.470 | 0.800 |
-| en | 601 - Honey vs. sugar: nutrition differences | 603 - What sugars are in honey? | 0.783 | 0.286 |
-| en | 512 - 70%, 85%, and 100% cacao chocolate: what really changes? | 513 - What does the cacao percentage on chocolate mean? | 0.782 | 0.333 |
-| en | 16 - Highest-Protein Nuts: Ranking per 100 Grams and per Ounce | 17 - Highest-Protein Seeds: Ranking per 100 Grams and per Ounce | 0.492 | 0.778 |
-| en | 127 - The best plant sources of omega-3 | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.776 | 0.250 |
-| en | 60 - Whole Egg vs Egg Whites: Protein, Fat and Nutrients | 276 - Egg white vs. yolk: what each part provides | 0.762 | 0.545 |
-| en | 81 - Processed vs. ultra-processed foods: differences and examples | 82 - What ultra-processed foods actually are | 0.755 | 0.400 |
 | en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.755 | 0.111 |
 | en | 572 - Oat milk vs. soy milk: nutrition differences | 573 - Almond milk vs. oat milk: nutrition differences | 0.730 | 0.750 |
 | es | 572 - Bebida de avena vs. bebida de soja: diferencias nutricionales | 573 - Bebida de almendra vs. bebida de avena: diferencias nutricionales | 0.699 | 0.750 |
@@ -89,15 +73,11 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 977 - How Long Do Opened Canned Beans Last in the Fridge? | 978 - How Long Do Opened Canned Tomatoes Last in the Fridge? | 0.646 | 0.714 |
 | en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.640 | 0.714 |
 | en | 607 - Dates vs. sugar: nutrition differences | 608 - Dates vs. raisins: sugar, fiber and calories | 0.626 | 0.714 |
-| es | 582 - Cottage cheese: proteína, grasa y calorías | 584 - Cottage cheese vs. ricotta: diferencias nutricionales | 0.623 | 0.714 |
 | en | 33 - How Long Does Raw Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.605 | 0.714 |
 | es | 771 - ¿La salsa de soja necesita nevera después de abrirla? | 971 - ¿La salsa de pescado necesita nevera después de abrirla? | 0.594 | 0.714 |
 | es | 60 - Huevo entero vs. claras: proteína, grasa y nutrientes | 194 - Huevos: proteína, grasa, calorías y nutrientes | 0.591 | 0.714 |
-| en | 183 - Salmon: protein, omega-3, fat, and calories | 185 - Hake vs. salmon: protein, fat, calories, and omega-3 | 0.589 | 0.714 |
-| en | 1 - Highest-Protein Foods: A Practical Ranking per 100 Grams | 13 - Highest-Protein Meats: Ranking per 100 Grams | 0.583 | 0.714 |
 | en | 771 - Does soy sauce need refrigeration after opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.561 | 0.714 |
 | es | 976 - Cuánto dura la leche de coco abierta en la nevera | 1302 - Cuánto dura la leche vegetal abierta en la nevera | 0.551 | 0.714 |
-| en | 52 - Tuna vs Salmon: Protein, Omega-3, Fat and Calories | 183 - Salmon: protein, omega-3, fat, and calories | 0.548 | 0.714 |
 | en | 4 - Highest-Fiber Foods: Ranking per 100 Grams and by Serving | 74 - The fruits highest in fiber | 0.545 | 0.714 |
 | en | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.530 | 0.714 |
 | en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.517 | 0.714 |
@@ -116,3 +96,23 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 1300 - How Long Does Opened Hummus Last in the Refrigerator? | 1301 - How Long Does Opened Tofu Last in the Refrigerator? | 0.319 | 0.714 |
 | en | 1300 - How Long Does Opened Hummus Last in the Refrigerator? | 1303 - How Long Does Opened Guacamole Last in the Refrigerator? | 0.299 | 0.714 |
 | en | 183 - Salmon: protein, omega-3, fat, and calories | 219 - Mackerel: protein, omega-3s, and nutrition | 0.238 | 0.714 |
+| en | 329 - Whole-wheat bread vs. rye bread: fiber, protein and satiety | 385 - White bread vs. whole-wheat bread: nutritional differences | 0.714 | 0.333 |
+| en | 683 - Coconut Milk vs Coconut Cream: Richness, Fat, and Cooking Uses | 684 - Canned Coconut Milk vs Coconut Beverage: Why They Are Not Interchangeable | 0.714 | 0.154 |
+| en | 924 - Japanese Wagyu vs. American Wagyu: What Is the Real Difference? | 928 - What Is American Wagyu, and How Much Wagyu Is It Really? | 0.714 | 0.200 |
+| es | 730 - Caldo de huesos o caldo tradicional: ¿hay realmente tanta diferencia? | 1310 - Caldo de huesos: qué es, cuánto colágeno y proteína aporta realmente | 0.712 | 0.333 |
+| es | 64 - Quinoa vs. arroz: proteína, fibra y carbohidratos | 203 - Arroz integral vs. quinoa: fibra, proteína y calorías | 0.711 | 0.571 |
+| en | 64 - Quinoa vs. rice: protein, fiber, and carbs | 203 - Brown rice vs. quinoa: protein, fiber, and calories | 0.710 | 0.571 |
+| es | 504 - Cacao vs. chocolate: diferencias nutricionales y de elaboración | 512 - Chocolate 70%, 85% y 100% cacao: qué cambia realmente | 0.709 | 0.333 |
+| en | 436 - Peanuts: Protein, Fat, Fiber, and Calories | 550 - Peanuts vs. almonds: nutrition differences | 0.709 | 0.375 |
+| en | 553 - Hummus: protein, fiber, fat and nutrition | 555 - Hummus vs. tahini: nutrition differences | 0.707 | 0.286 |
+| es | 699 - Sirope de arce o azúcar: cuál contiene realmente más azúcar | 700 - Sirope de arce o miel: cuál tiene más azúcar y calorías | 0.706 | 0.500 |
+| en | 102 - Raw vs. roasted nuts: nutritional differences | 195 - Do nuts lose nutrients when roasted? | 0.705 | 0.333 |
+| es | 547 - Tahini vs. crema de cacahuete | 548 - Crema de cacahuete vs. crema de almendras | 0.705 | 0.667 |
+| en | 49 - Chicken vs Turkey: Nutrition Differences | 173 - Turkey: protein, fat, and calories by cut | 0.704 | 0.571 |
+| es | 124 - Alimentos con más vitamina C que la naranja | 130 - ¿Es realmente la naranja la fruta con más vitamina C? | 0.703 | 0.500 |
+| en | 510 - How much caffeine is in cocoa? | 511 - Cocoa vs. coffee: caffeine and other differences | 0.702 | 0.250 |
+| es | 581 - Skyr vs. cottage cheese: proteína y calorías | 582 - Cottage cheese: proteína, grasa y calorías | 0.702 | 0.667 |
+| en | 687 - Bread Flour vs All-Purpose Flour: Protein, Gluten, and Real-World Substitutions | 689 - Cake Flour vs All-Purpose Flour: Why the Crumb Changes | 0.701 | 0.250 |
+| es | 200 - Las carnes más magras: ranking de cortes con menos grasa | 227 - Las carnes con menos calorías | 0.701 | 0.429 |
+| en | 746 - Natural vs regular peanut butter: what changes in the ingredients | 747 - Powdered vs regular peanut butter: where do the calories go? | 0.701 | 0.333 |
+| es | 93 - Aguacate entero vs. aceite de oliva: grasa, fibra y calorías | 637 - Aceite de aguacate o de oliva: cuál conviene más para cocinar | 0.698 | 0.333 |
