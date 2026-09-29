@@ -428,19 +428,38 @@ def main() -> int:
     args = parser.parse_args()
     root = Path(args.root)
     map_path = Path(args.map_path)
-    generated, stats = generate_map(root, map_path)
-    payload = json.dumps(generated, ensure_ascii=False, indent=2) + '\n'
-    print('INTERNAL_LINK_MAP_AUDIT')
-    for key, value in stats.items():
-        print(f'{key.upper()}={value:.2f}' if isinstance(value, float) else f'{key.upper()}={value}')
-    current = map_path.read_text(encoding='utf-8') if map_path.exists() else ''
     if args.check:
+        generated, stats = generate_map(root, map_path)
+        payload = json.dumps(generated, ensure_ascii=False, indent=2) + '\n'
+        print('INTERNAL_LINK_MAP_AUDIT')
+        for key, value in stats.items():
+            print(f'{key.upper()}={value:.2f}' if isinstance(value, float) else f'{key.upper()}={value}')
+        current = map_path.read_text(encoding='utf-8') if map_path.exists() else ''
         if current != payload:
             print('INTERNAL_LINK_MAP=STALE')
             return 1
         print('INTERNAL_LINK_MAP=PASS')
         return 0
-    map_path.write_text(payload, encoding='utf-8')
+
+    # The legacy portion intentionally uses the previous curated map as input.
+    # Iterate until that stateful seed reaches a fixed point so a subsequent
+    # --check is guaranteed to reproduce the exact same graph.
+    max_passes = 6
+    stats = {}
+    for convergence_pass in range(1, max_passes + 1):
+        generated, stats = generate_map(root, map_path)
+        payload = json.dumps(generated, ensure_ascii=False, indent=2) + '\n'
+        current = map_path.read_text(encoding='utf-8') if map_path.exists() else ''
+        if current == payload:
+            break
+        map_path.write_text(payload, encoding='utf-8')
+    else:
+        raise SystemExit(f'Internal-link map did not converge after {max_passes} passes')
+
+    print('INTERNAL_LINK_MAP_AUDIT')
+    for key, value in stats.items():
+        print(f'{key.upper()}={value:.2f}' if isinstance(value, float) else f'{key.upper()}={value}')
+    print(f'CONVERGENCE_PASSES={convergence_pass}')
     print(f'WROTE={map_path}')
     return 0
 
