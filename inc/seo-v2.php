@@ -190,7 +190,7 @@ function food_seo_v2_description() {
 		// Prefer the curated excerpt when the stored meta description is an
 		// extreme outlier. This improves very short snippets and avoids chopping
 		// 300+ character descriptions mid-thought, without rewriting article data.
-		if ( $excerpt_length >= 90 && $excerpt_length <= 220 && ( $description_length < 70 || $description_length > 220 ) ) {
+		if ( $excerpt_length >= 90 && $excerpt_length <= 220 && ( $description_length < 90 || $description_length > 220 ) ) {
 			$description = $excerpt;
 		}
 
