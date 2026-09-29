@@ -1,0 +1,47 @@
+name: Rebuild internal link map
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/articles/es/**.json'
+      - 'content/articles/en/**.json'
+      - 'content/tools/build-internal-link-map.py'
+      - '.github/workflows/internal-link-map.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quinnoa-internal-link-map
+  cancel-in-progress: true
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Generate curated internal-link graph
+        run: |
+          set -euo pipefail
+          python3 content/tools/build-internal-link-map.py
+          python3 content/tools/build-internal-link-map.py --check
+
+      - name: Commit regenerated map
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- content/articles/INTERNAL-LINK-MAP.json; then
+            echo "Internal-link map is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/articles/INTERNAL-LINK-MAP.json
+          git commit -m "Regenerate internal link map"
+          git push origin HEAD:main
