@@ -342,7 +342,7 @@ function food_family_display( $slug, $field = 'name' ) {
 
 function food_topic_english_labels() {
 	return array(
-		'nutricion-composicion' => 'Nutrition & composition', 'rankings-mejores-fuentes' => 'Rankings & best sources', 'comparativas' => 'Comparisons', 'seguridad-alimentaria' => 'Food safety', 'conservacion-almacenamiento' => 'Storage & shelf life', 'congelacion-descongelacion' => 'Freezing & thawing', 'cocina-ciencia-alimentos' => 'Cooking & food science', 'preparacion-tecnicas-cocina' => 'Preparation & cooking techniques', 'salud-consumo-habitual' => 'Health & everyday consumption', 'conceptos-nutricion' => 'Nutrition concepts', 'mitos-preguntas-frecuentes' => 'Myths & common questions', 'procesamiento-produccion-elaboracion' => 'Processing & production', 'compra-calidad-maduracion' => 'Buying, quality & ripeness',
+		'nutricion-composicion' => 'Nutrition & composition', 'rankings-mejores-fuentes' => 'Rankings & best sources', 'comparativas' => 'Comparisons', 'seguridad-alimentaria' => 'Food safety', 'conservacion-almacenamiento' => 'Storage & shelf life', 'congelacion-descongelacion' => 'Freezing & thawing', 'cocina-ciencia-alimentos' => 'Cooking & food science', 'preparacion-tecnicas-cocina' => 'Preparation & cooking techniques', 'salud-consumo-habitual' => 'Health & everyday consumption', 'conceptos-nutricion' => 'Nutrition concepts', 'mitos-preguntas-frecuentes' => 'Myths & common questions', 'procesamiento-produccion-elaboracion' => 'Processing & production', 'compra-calidad-maduracion' => 'Buying, quality & ripeness', 'etiquetado-ingredientes' => 'Food labels & ingredients',
 	);
 }
 

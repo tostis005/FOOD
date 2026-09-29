@@ -68,6 +68,10 @@ function food_topic_definitions() {
 			'name'        => 'Compra, calidad y maduración',
 			'description' => 'Cómo elegir alimentos, interpretar señales de calidad, reconocer el punto de maduración y entender etiquetas, categorías y origen.',
 		),
+		'etiquetado-ingredientes' => array(
+			'name'        => 'Etiquetado e ingredientes',
+			'description' => 'Cómo interpretar listas de ingredientes, aditivos, denominaciones y términos de etiqueta para entender qué contiene un alimento y para qué sirve cada componente.',
+		),
 	);
 }
 
@@ -90,6 +94,7 @@ function food_topic_description_en( $slug ) {
 		'mitos-preguntas-frecuentes' => 'Direct answers to common food questions and careful checks of popular nutrition and cooking claims.',
 		'procesamiento-produccion-elaboracion' => 'How foods are produced, processed, fermented, cured and manufactured, and what those processes change.',
 		'compra-calidad-maduracion' => 'How to choose foods, interpret labels and quality signals, judge ripeness and understand origin or commercial categories.',
+		'etiquetado-ingredientes' => 'How to interpret ingredient lists, additives, label terms and product descriptions so readers can understand what a food contains and why each component is used.',
 	);
 	return isset( $descriptions[ $slug ] ) ? $descriptions[ $slug ] : '';
 }
@@ -255,7 +260,7 @@ function food_register_topic_taxonomy() {
 add_action( 'init', 'food_register_topic_taxonomy', 8 );
 
 function food_ensure_topic_terms() {
-	$version = '2';
+	$version = '3';
 	if ( get_option( 'food_topic_structure_version' ) === $version ) {
 		return;
 	}

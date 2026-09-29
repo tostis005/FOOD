@@ -135,7 +135,36 @@ function food_import_topic_map() {
         'myths-faq'                 => 'mitos-preguntas-frecuentes',
         'processing-production'     => 'procesamiento-produccion-elaboracion',
         'buying-quality-ripeness'   => 'compra-calidad-maduracion',
+        'food-labels'               => 'etiquetado-ingredientes',
     );
+}
+
+function food_import_validate_taxonomy( $taxonomy, $file ) {
+    $family_map = food_import_family_map();
+    $topic_map  = food_import_topic_map();
+
+    $family_key = isset( $taxonomy['food_family'] ) ? (string) $taxonomy['food_family'] : 'general';
+    if ( ! array_key_exists( $family_key, $family_map ) ) {
+        throw new RuntimeException( "Unsupported food_family '{$family_key}' in {$file}" );
+    }
+
+    $types = ! empty( $taxonomy['article_types'] ) && is_array( $taxonomy['article_types'] )
+        ? array_values( array_unique( array_map( 'strval', $taxonomy['article_types'] ) ) )
+        : array();
+
+    foreach ( $types as $type_key ) {
+        if ( ! isset( $topic_map[ $type_key ] ) ) {
+            throw new RuntimeException( "Unsupported article_type '{$type_key}' in {$file}" );
+        }
+    }
+
+    $primary_key = isset( $taxonomy['primary_article_type'] ) ? (string) $taxonomy['primary_article_type'] : '';
+    if ( '' !== $primary_key && ! isset( $topic_map[ $primary_key ] ) ) {
+        throw new RuntimeException( "Unsupported primary_article_type '{$primary_key}' in {$file}" );
+    }
+    if ( '' !== $primary_key && ! in_array( $primary_key, $types, true ) ) {
+        throw new RuntimeException( "Primary article type '{$primary_key}' is not present in article_types in {$file}" );
+    }
 }
 
 function food_import_required_string( $data, $key, $file ) {
@@ -362,6 +391,7 @@ foreach ( $files as $file ) {
         $excerpt           = isset( $data['excerpt'] ) ? (string) $data['excerpt'] : '';
         $seo               = isset( $data['seo'] ) && is_array( $data['seo'] ) ? $data['seo'] : array();
         $taxonomy          = isset( $data['taxonomy'] ) && is_array( $data['taxonomy'] ) ? $data['taxonomy'] : array();
+        food_import_validate_taxonomy( $taxonomy, $file );
         $sources           = isset( $data['sources'] ) && is_array( $data['sources'] ) ? $data['sources'] : array();
         $faq               = isset( $data['faq'] ) && is_array( $data['faq'] ) ? $data['faq'] : array();
         $image             = isset( $data['image'] ) && is_array( $data['image'] ) ? $data['image'] : array();

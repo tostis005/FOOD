@@ -56,6 +56,7 @@ function food_topic_icon_svg( $slug ) {
 		'mitos-preguntas-frecuentes' => '<path d="M11 14h42v31H32L21 54v-9H11V14Z"/><path d="M25 25c1-6 13-7 14 0 1 6-7 6-7 12"/><circle cx="32" cy="42" r="1.5"/>',
 		'procesamiento-produccion-elaboracion' => '<circle cx="24" cy="34" r="8"/><path d="M24 19v7M24 42v7M9 34h7M32 34h7M13 23l5 5M30 40l5 5M13 45l5-5M30 28l5-5"/><path d="M41 19h14v33H37V29h4V19Z"/><path d="M45 26h6M45 34h6M45 42h6"/>',
 		'compra-calidad-maduracion' => '<path d="M13 25h38l-4 27H17l-4-27Z"/><path d="M22 25c0-7 4-12 10-12s10 5 10 12"/><path d="m24 38 6 6 12-14"/>',
+		'etiquetado-ingredientes' => '<path d="M11 14h31l11 11v25H11V14Z"/><path d="M42 14v12h11M18 25h16M18 33h28M18 41h22"/><circle cx="46" cy="42" r="4"/>',
 	);
 
 	$path = isset( $paths[ $slug ] )
