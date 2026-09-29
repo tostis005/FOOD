@@ -98,7 +98,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 771 - Does soy sauce need refrigeration after opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.561 | 0.714 |
 | es | 976 - Cuánto dura la leche de coco abierta en la nevera | 1302 - Cuánto dura la leche vegetal abierta en la nevera | 0.551 | 0.714 |
 | en | 52 - Tuna vs Salmon: Protein, Omega-3, Fat and Calories | 183 - Salmon: protein, omega-3, fat, and calories | 0.548 | 0.714 |
-| en | 4 - Highest-Fiber Foods: Ranking per 100 Grams and by Serving | 74 - The fruits highest in fiber | 0.544 | 0.714 |
+| en | 4 - Highest-Fiber Foods: Ranking per 100 Grams and by Serving | 74 - The fruits highest in fiber | 0.545 | 0.714 |
 | en | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.530 | 0.714 |
 | en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.517 | 0.714 |
 | en | 32 - How Long Does Cooked Meat Last in the Fridge? | 33 - How Long Does Raw Meat Last in the Fridge? | 0.501 | 0.714 |

@@ -840,7 +840,7 @@
       "a_title": "Highest-Fiber Foods: Ranking per 100 Grams and by Serving",
       "b": 74,
       "b_title": "The fruits highest in fiber",
-      "similarity": 0.5442,
+      "similarity": 0.5447,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1154,17 +1154,6 @@
       "type_overlap": 1
     },
     {
-      "language": "en",
-      "a": 123,
-      "a_title": "Foods with more potassium than a banana",
-      "b": 131,
-      "b_title": "Why Bananas Are Famous for Potassium",
-      "similarity": 0.7061,
-      "title_jaccard": 0.5,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
       "language": "es",
       "a": 699,
       "a_title": "Sirope de arce o azúcar: cuál contiene realmente más azúcar",
@@ -1368,7 +1357,7 @@
       "a_title": "Foods with more vitamin C than an orange",
       "b": 130,
       "b_title": "Is the orange really the fruit with the most vitamin C?",
-      "similarity": 0.692,
+      "similarity": 0.6919,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -1451,6 +1440,17 @@
       "type_overlap": 1
     },
     {
+      "language": "en",
+      "a": 432,
+      "a_title": "Fruit Sugar vs. Added Sugar: What’s the Difference?",
+      "b": 705,
+      "b_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
+      "similarity": 0.6837,
+      "title_jaccard": 0.2222,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
       "language": "es",
       "a": 64,
       "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
@@ -1459,17 +1459,6 @@
       "similarity": 0.6835,
       "title_jaccard": 0.6667,
       "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 432,
-      "a_title": "Fruit Sugar vs. Added Sugar: What’s the Difference?",
-      "b": 705,
-      "b_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
-      "similarity": 0.6834,
-      "title_jaccard": 0.2222,
-      "family_match": false,
       "type_overlap": 1
     },
     {
@@ -1500,7 +1489,7 @@
       "a_title": "Fresh vs. frozen fruit: nutritional differences",
       "b": 443,
       "b_title": "Does Frozen Fruit Lose Vitamins?",
-      "similarity": 0.6819,
+      "similarity": 0.6814,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
@@ -1550,6 +1539,17 @@
       "type_overlap": 2
     },
     {
+      "language": "en",
+      "a": 705,
+      "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
+      "b": 706,
+      "b_title": "Total Sugars vs Added Sugars: The Difference to Read on a Label",
+      "similarity": 0.6785,
+      "title_jaccard": 0.1818,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
       "language": "es",
       "a": 503,
       "a_title": "Cacao puro: fibra, grasa, proteína y minerales",
@@ -1559,17 +1559,6 @@
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 705,
-      "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
-      "b": 706,
-      "b_title": "Total Sugars vs Added Sugars: The Difference to Read on a Label",
-      "similarity": 0.6784,
-      "title_jaccard": 0.1818,
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "en",
@@ -1731,7 +1720,7 @@
       "a_title": "Aceite de oliva virgen extra: grasas, calorías y composición",
       "b": 380,
       "b_title": "¿Se puede freír con aceite de oliva virgen extra?",
-      "similarity": 0.6694,
+      "similarity": 0.6693,
       "title_jaccard": 0.4444,
       "family_match": true,
       "type_overlap": 0
@@ -2017,7 +2006,7 @@
       "a_title": "¿Es saludable comer huevos todos los días?",
       "b": 117,
       "b_title": "¿Es saludable comer yogur todos los días?",
-      "similarity": 0.5713,
+      "similarity": 0.5712,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2901,6 +2890,17 @@
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 265,
+      "a_title": "Cuánto dura un huevo abierto en la nevera",
+      "b": 975,
+      "b_title": "Cuánto dura el caldo abierto en la nevera",
+      "similarity": 0.3831,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
     }
   ],
   "issues": {},
