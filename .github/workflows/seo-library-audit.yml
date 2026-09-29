@@ -46,7 +46,7 @@ jobs:
         shell: bash
         run: |
           set -euo pipefail
-          if git diff --quiet -- content/audits/SEO-LIBRARY-AUDIT.json content/audits/SEO-LIBRARY-AUDIT.md; then
+          if [ -z "$(git status --porcelain -- content/audits/SEO-LIBRARY-AUDIT.json content/audits/SEO-LIBRARY-AUDIT.md)" ]; then
             echo "SEO library audit is already current."
             exit 0
           fi
