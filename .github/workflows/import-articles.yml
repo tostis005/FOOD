@@ -107,8 +107,6 @@ jobs:
               re.IGNORECASE | re.DOTALL,
           )
           html_tag = re.compile(r'</?[A-Za-z][^>]*>')
-          legacy_excerpt_numbers = set(range(776, 784))
-
           changed = 0
           excerpt_changed = 0
           source_changed = 0
@@ -123,9 +121,8 @@ jobs:
                   source_changed += 1
                   dirty = True
 
-              number = int(data.get('article_number', 0) or 0)
               excerpt = data.get('excerpt', '')
-              if number in legacy_excerpt_numbers and isinstance(excerpt, str):
+              if isinstance(excerpt, str):
                   normalized_excerpt = html_tag.sub('', excerpt).strip()
                   if normalized_excerpt != excerpt:
                       data['excerpt'] = normalized_excerpt
