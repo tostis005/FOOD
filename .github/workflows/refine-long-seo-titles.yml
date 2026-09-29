@@ -1,0 +1,64 @@
+name: Refine long SEO titles
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/tools/refine-long-seo-titles.py'
+      - '.github/workflows/refine-long-seo-titles.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quinnoa-long-seo-title-refinement
+  cancel-in-progress: true
+
+jobs:
+  refine:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Refine titles and rebuild derived SEO data
+        run: |
+          set -euo pipefail
+          python3 content/tools/refine-long-seo-titles.py
+          python3 content/tools/build-internal-link-map.py
+          python3 content/tools/build-internal-link-map.py --check
+          python3 content/tools/audit-seo-library.py
+
+      - name: Commit refined SEO titles and derived data
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            if git diff --quiet -- content/articles/es content/articles/en content/articles/INTERNAL-LINK-MAP.json content/audits/SEO-LIBRARY-AUDIT.json content/audits/SEO-LIBRARY-AUDIT.md; then
+              echo "Long SEO titles and derived data are already current."
+              exit 0
+            fi
+
+            git add content/articles/es content/articles/en content/articles/INTERNAL-LINK-MAP.json content/audits/SEO-LIBRARY-AUDIT.json content/audits/SEO-LIBRARY-AUDIT.md
+            git commit -m "Refine long SEO titles"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "main advanced during title refinement; recalculating on latest HEAD (attempt $attempt/3)."
+            git fetch origin main
+            git reset --hard origin/main
+            python3 content/tools/refine-long-seo-titles.py
+            python3 content/tools/build-internal-link-map.py
+            python3 content/tools/build-internal-link-map.py --check
+            python3 content/tools/audit-seo-library.py
+          done
+
+          echo "ERROR: Could not publish long SEO title refinement after 3 attempts." >&2
+          exit 1
