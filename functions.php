@@ -85,6 +85,9 @@ function food_word_count_unicode( $content ) {
 function food_reading_time() {
 	$content = get_post_field( 'post_content', get_the_ID() );
 	$words   = food_word_count_unicode( $content );
+	if ( function_exists( 'food_article_faq_word_count' ) ) {
+		$words += food_article_faq_word_count( get_the_ID() );
+	}
 	$minutes = max( 1, (int) ceil( $words / 210 ) );
 	return sprintf( _n( '%s min de lectura', '%s min de lectura', $minutes, 'food' ), $minutes );
 }
@@ -377,6 +380,11 @@ if ( file_exists( $food_language_routing ) ) {
 $food_seo_consolidations = get_template_directory() . '/inc/seo-consolidations.php';
 if ( file_exists( $food_seo_consolidations ) ) {
 	require_once $food_seo_consolidations;
+}
+
+$food_article_faq = get_template_directory() . '/inc/article-faq.php';
+if ( file_exists( $food_article_faq ) ) {
+	require_once $food_article_faq;
 }
 
 $food_internal_linking = get_template_directory() . '/inc/internal-linking.php';

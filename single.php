@@ -91,6 +91,25 @@ get_header();
 	if ( $food_ad_extra_long && function_exists( 'food_adsterra_inject_tall_rectangle_after_seventh_heading' ) && $food_h2_count >= 7 ) {
 		$food_content = food_adsterra_inject_tall_rectangle_after_seventh_heading( $food_content );
 	}
+
+	// FAQs are useful editorial content. Keep them visible, but do not emit FAQ
+	// structured data because Google retired FAQ rich results in 2026.
+	$food_faq_html = function_exists( 'food_article_faq_html' )
+		? food_article_faq_html( get_the_ID(), $food_english ? 'en' : 'es' )
+		: '';
+	if ( $food_faq_html ) {
+		$source_heading = '<h2 id="article-sources">';
+		if ( false !== strpos( $food_content, $source_heading ) ) {
+			$food_content = preg_replace(
+				'#<h2 id=["\']article-sources["\']>#i',
+				$food_faq_html . '<h2 id="article-sources">',
+				$food_content,
+				1
+			);
+		} else {
+			$food_content .= $food_faq_html;
+		}
+	}
 	?>
 	<div class="article-shell"><?php function_exists( 'food_language_breadcrumbs' ) ? food_language_breadcrumbs() : food_breadcrumbs(); ?></div>
 

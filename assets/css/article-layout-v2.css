@@ -117,3 +117,61 @@ body.single-post .article-share-button svg { width: 18px; height: 18px; flex: 0 
   body.single-post .article-context-links { margin-top: 28px; padding: 17px 16px; }
   body.single-post .article-share { margin-top: 32px; margin-bottom: 26px; padding-top: 18px; }
 }
+
+body.single-post .article-faq {
+  margin: 38px 0 30px;
+  padding-top: 6px;
+}
+
+body.single-post .article-faq > h2 {
+  margin-bottom: 16px;
+}
+
+body.single-post .article-faq-list {
+  display: grid;
+  gap: 10px;
+}
+
+body.single-post .article-faq-item {
+  border: 1px solid rgba(73, 62, 49, .16);
+  border-radius: 14px;
+  background: rgba(255, 255, 255, .42);
+  overflow: clip;
+}
+
+body.single-post .article-faq-item summary {
+  position: relative;
+  padding: 15px 46px 15px 16px;
+  font-weight: 700;
+  line-height: 1.4;
+  cursor: pointer;
+  list-style: none;
+}
+
+body.single-post .article-faq-item summary::-webkit-details-marker { display: none; }
+
+body.single-post .article-faq-item summary::after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 17px;
+  transform: translateY(-50%);
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
+body.single-post .article-faq-item[open] summary::after { content: '−'; }
+
+body.single-post .article-faq-answer {
+  padding: 0 16px 15px;
+}
+
+body.single-post .article-faq-answer p {
+  margin: 0;
+}
+
+body.single-post .article-faq-item summary:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: -3px;
+}
+
