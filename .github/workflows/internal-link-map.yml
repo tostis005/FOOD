@@ -8,6 +8,7 @@ on:
       - 'content/articles/es/**.json'
       - 'content/articles/en/**.json'
       - 'content/articles/taxonomies.json'
+      - 'content/articles/SEO-CONSOLIDATIONS.json'
       - 'content/tools/build-internal-link-map.py'
       - '.github/workflows/internal-link-map.yml'
   workflow_dispatch:

@@ -374,6 +374,11 @@ if ( file_exists( $food_language_routing ) ) {
 }
 
 
+$food_seo_consolidations = get_template_directory() . '/inc/seo-consolidations.php';
+if ( file_exists( $food_seo_consolidations ) ) {
+	require_once $food_seo_consolidations;
+}
+
 $food_internal_linking = get_template_directory() . '/inc/internal-linking.php';
 if ( file_exists( $food_internal_linking ) ) {
 	require_once $food_internal_linking;

@@ -12,6 +12,7 @@ from pathlib import Path
 ROOT = Path('content/articles')
 MAP_PATH = ROOT / 'INTERNAL-LINK-MAP.json'
 TAXONOMIES_PATH = ROOT / 'taxonomies.json'
+CONSOLIDATIONS_PATH = ROOT / 'SEO-CONSOLIDATIONS.json'
 LEGACY_CUTOFF = 635
 TARGET_LINKS = 4
 MAX_LINKS = 5
@@ -63,6 +64,23 @@ def load_taxonomy_aliases():
     return families, types
 
 FAMILY_ALIASES, JSON_TYPE_ALIASES = load_taxonomy_aliases()
+
+def load_consolidations():
+    try:
+        data = json.loads(CONSOLIDATIONS_PATH.read_text(encoding='utf-8'))
+    except Exception:
+        return {}
+    return {int(k): int(v) for k, v in data.items() if str(k).isdigit() and int(v) > 0 and int(k) != int(v)}
+
+CONSOLIDATIONS = load_consolidations()
+
+def canonical_number(number: int) -> int:
+    number = int(number)
+    seen = set()
+    while number in CONSOLIDATIONS and number not in seen:
+        seen.add(number)
+        number = int(CONSOLIDATIONS[number])
+    return number
 
 def norm(text: str) -> str:
     text = unicodedata.normalize('NFKD', text or '')
@@ -243,7 +261,7 @@ def rank_candidates(number: int, numbers: list[int], features, vectors):
     strict = []
     relaxed = []
     for other in numbers:
-        if other == number:
+        if other == number or other in CONSOLIDATIONS:
             continue
         score, evidence = pair_score(number, other, features, vectors)
         row = (other, score, evidence)
@@ -276,6 +294,7 @@ def generate_map(root: Path, existing_map: Path):
     features = {number: article_features(article) for number, article in articles.items()}
     vectors = build_vectors(features)
     numbers = sorted(articles)
+    active_numbers = [number for number in numbers if number not in CONSOLIDATIONS]
     max_number = max(numbers)
     current = json.loads(existing_map.read_text(encoding='utf-8')) if existing_map.exists() else {}
     result = {}
@@ -284,13 +303,15 @@ def generate_map(root: Path, existing_map: Path):
         if isinstance(values, list):
             result[str(number)] = [int(v) for v in values if isinstance(v, int)]
     for number in range(LEGACY_CUTOFF + 1, max_number + 1):
-        ranked = rank_candidates(number, numbers, features, vectors)
+        if number in CONSOLIDATIONS:
+            continue
+        ranked = rank_candidates(number, active_numbers, features, vectors)
         links = select_links(number, ranked, features)
         if len(links) < 3:
             raise SystemExit(f'Article {number} has too few safe internal-link candidates: {links}')
         result[str(number)] = links
     old_to_new = 0
-    new_numbers = [n for n in numbers if n > LEGACY_CUTOFF]
+    new_numbers = [n for n in active_numbers if n > LEGACY_CUTOFF]
     for number in range(1, min(LEGACY_CUTOFF, max_number) + 1):
         links = result.get(str(number), [])
         if len(links) >= 4:
@@ -314,6 +335,36 @@ def generate_map(root: Path, existing_map: Path):
             links = [*links, candidates[0][0]]
             result[str(number)] = list(dict.fromkeys(links))[:MAX_LINKS]
             old_to_new += 1
+    # Rewrite any historical targets that now consolidate elsewhere, then
+    # supplement a source if deduplication leaves it with fewer than three links.
+    for source in active_numbers:
+        key = str(source)
+        links = result.get(key, [])
+        normalized = []
+        for target in links:
+            target = canonical_number(target)
+            if target == source or target in normalized or target not in articles or target in CONSOLIDATIONS:
+                continue
+            normalized.append(target)
+
+        if len(normalized) < 3:
+            ranked = rank_candidates(source, active_numbers, features, vectors)
+            for target, score, evidence in ranked:
+                target = canonical_number(target)
+                if target == source or target in normalized or target in CONSOLIDATIONS:
+                    continue
+                normalized.append(target)
+                if len(normalized) >= 3:
+                    break
+        result[key] = normalized[:MAX_LINKS]
+
+    # Consolidated source keys remain in the map for structural continuity, but
+    # mirror their canonical target. Runtime requests redirect before rendering.
+    for source, target in CONSOLIDATIONS.items():
+        canonical = canonical_number(target)
+        if str(canonical) in result:
+            result[str(source)] = list(result[str(canonical)])
+
     inbound = Counter()
     for source in new_numbers:
         for target in result.get(str(source), []):

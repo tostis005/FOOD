@@ -8,8 +8,27 @@ ROOT = Path('content/articles')
 TAXONOMIES = ROOT / 'taxonomies.json'
 OUT_JSON = Path('content/audits/SEO-LIBRARY-AUDIT.json')
 OUT_MD = Path('content/audits/SEO-LIBRARY-AUDIT.md')
+CONSOLIDATIONS_PATH = ROOT / 'SEO-CONSOLIDATIONS.json'
 STOP = set("""a al algo and are as at be by can como con cual cuando de del desde do does el en es esta este esto for from ha hay how if in into is it la las lo los mas me menos mi no of o on or para pero por que se si sin sobre su sus than the to un una uno unos unas vs what when where which who why with y ya you your article articulo articulos food foods alimento alimentos guia guide best better mejor mejores difference differences diferencia diferencias""".split())
 WORD_RE = re.compile(r"[\wÀ-ÿ]+(?:['’\-][\wÀ-ÿ]+)*", re.UNICODE)
+
+def load_consolidations():
+    try:
+        data=json.loads(CONSOLIDATIONS_PATH.read_text(encoding='utf-8'))
+    except Exception:
+        return {}
+    return {int(k):int(v) for k,v in data.items() if str(k).isdigit() and int(v)>0 and int(k)!=int(v)}
+
+CONSOLIDATIONS=load_consolidations()
+
+def canonical_number(number):
+    if not isinstance(number,int):
+        return number
+    seen=set()
+    while number in CONSOLIDATIONS and number not in seen:
+        seen.add(number)
+        number=CONSOLIDATIONS[number]
+    return number
 
 def norm(text):
     text = unicodedata.normalize('NFKD', str(text or ''))
@@ -66,7 +85,7 @@ def dup_groups(metrics,key):
     out=[]
     for (_,value),items in buckets.items():
         nums=sorted({x['number'] for x in items if isinstance(x.get('number'),int)})
-        if len(nums)>1:
+        if len(nums)>1 and len({canonical_number(n) for n in nums})>1:
             out.append({'language':items[0]['language'],'value':value,'articles':[{'number':x['number'],'title':x['title'],'path':x['path']} for x in items]})
     return sorted(out,key=lambda g:(g['language'],g['articles'][0]['number'] or 0))
 
@@ -97,6 +116,8 @@ def cannibal_pairs(metrics,limit=250):
                 union=a['title_tokens']|b['title_tokens']; jac=shared_title/len(union) if union else 0.0
                 if sim<0.64 and jac<0.52: continue
                 if shared_title<2 and sim<0.74: continue
+                if canonical_number(a_num)==canonical_number(b_num):
+                    continue
                 results.append({'language':lang,'a':a_num,'a_title':a['title'],'b':b_num,'b_title':b['title'],'similarity':round(sim,4),'title_jaccard':round(jac,4),'family_match':family,'type_overlap':type_overlap})
     results.sort(key=lambda x:(-max(x['similarity'],x['title_jaccard']),-x['similarity'],x['language'],x['a'],x['b']))
     return results[:limit]
@@ -144,6 +165,7 @@ def main():
     report={
         'summary':{'versions':len(metrics),'es':len(nums['es']),'en':len(nums['en']),'logical_articles':len(all_nums),'max_article_number':max(all_nums) if all_nums else 0,'invalid_json':len(invalid),'missing_translation_pairs':len(missing_pairs),'translation_group_mismatches':len(mismatches)},
         'issue_counts':{k:len(v) for k,v in sorted(issues.items())},'unknown_families':dict(unknown_f.most_common()),'unknown_article_types':dict(unknown_t.most_common()),'family_alias_usage':dict(alias_f.most_common()),'article_type_alias_usage':dict(alias_t.most_common()),
+        'known_consolidations':{str(k):v for k,v in sorted(CONSOLIDATIONS.items())},
         'missing_translation_pairs':missing_pairs,'translation_group_mismatches':mismatches,'exact_duplicate_titles':dup_groups(metrics,'title'),'exact_duplicate_seo_titles':dup_groups(metrics,'seo_title'),
         'exact_duplicate_meta_descriptions':dup_groups(metrics,'meta_description'),'exact_duplicate_search_intents':dup_groups(metrics,'search_intent'),
         'repeated_first_answers':repeated[:100],'cannibalization_candidates':cannibal_pairs(metrics,250),'issues':{k:v[:500] for k,v in sorted(issues.items())},'invalid_json':invalid

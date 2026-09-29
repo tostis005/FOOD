@@ -163,6 +163,10 @@ function food_render_language_sitemap( $language ) {
 	}
 
 	foreach ( food_sitemap_posts( $language ) as $post ) {
+		$article_number = (int) get_post_meta( $post->ID, '_food_article_number', true );
+		if ( function_exists( 'food_seo_consolidation_target_number' ) && food_seo_consolidation_target_number( $article_number ) > 0 ) {
+			continue;
+		}
 		$url = get_permalink( $post );
 		if ( ! $url || isset( $seen[ $url ] ) ) {
 			continue;

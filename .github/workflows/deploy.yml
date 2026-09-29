@@ -69,6 +69,13 @@ jobs:
           cp "$SOURCE" "$TARGET"
           cmp -s "$SOURCE" "$TARGET"
 
+          CONSOLIDATION_SOURCE='content/articles/SEO-CONSOLIDATIONS.json'
+          CONSOLIDATION_TARGET='inc/data/seo-consolidations.json'
+          test -s "$CONSOLIDATION_SOURCE"
+          php -r '$data = json_decode(file_get_contents($argv[1]), true, 512, JSON_THROW_ON_ERROR); if (!is_array($data) || empty($data)) { fwrite(STDERR, "SEO consolidation map is empty.\n"); exit(1); }' "$CONSOLIDATION_SOURCE"
+          cp "$CONSOLIDATION_SOURCE" "$CONSOLIDATION_TARGET"
+          cmp -s "$CONSOLIDATION_SOURCE" "$CONSOLIDATION_TARGET"
+
       - name: Validate theme PHP before deploy
         run: |
           set -euo pipefail
@@ -191,15 +198,22 @@ jobs:
           set -euo pipefail
           TARGET="$WP_ROOT/wp-content/themes/food"
           LOCAL_MAP_SHA="$(sha256sum inc/data/internal-link-map.json | awk '{print $1}')"
-          REMOTE_MAP_SHA="$(
+          LOCAL_CONSOLIDATION_SHA="$(sha256sum inc/data/seo-consolidations.json | awk '{print $1}')"
+          REMOTE_DEPLOY_SHA="$(
             ssh -i ~/.ssh/food_deploy_key "$VPS_USER@$VPS_HOST" \
-              "test -f '$TARGET/style.css' && test -f '$TARGET/functions.php' && test -s '$TARGET/assets/css/quinnoa-ui.css' && test -s '$TARGET/inc/data/internal-link-map.json' && sha256sum '$TARGET/inc/data/internal-link-map.json'" \
+              "test -f '$TARGET/style.css' && test -f '$TARGET/functions.php' && test -s '$TARGET/assets/css/quinnoa-ui.css' && test -s '$TARGET/inc/data/internal-link-map.json' && test -s '$TARGET/inc/data/seo-consolidations.json' && sha256sum '$TARGET/inc/data/internal-link-map.json' && sha256sum '$TARGET/inc/data/seo-consolidations.json'" \
               | awk '{print $1}'
           )"
+          REMOTE_MAP_SHA="$(printf '%s\n' "$REMOTE_DEPLOY_SHA" | sed -n '1p')"
+          REMOTE_CONSOLIDATION_SHA="$(printf '%s\n' "$REMOTE_DEPLOY_SHA" | sed -n '2p')"
 
           if [ "$LOCAL_MAP_SHA" != "$REMOTE_MAP_SHA" ]; then
             echo "ERROR: El mapa de enlaces internos desplegado no coincide con la fuente."
             exit 1
           fi
+          if [ "$LOCAL_CONSOLIDATION_SHA" != "$REMOTE_CONSOLIDATION_SHA" ]; then
+            echo "ERROR: El mapa de consolidaciones SEO desplegado no coincide con la fuente."
+            exit 1
+          fi
 
-          echo "FOOD desplegado correctamente en $TARGET con mapa de enlaces internos verificado"
+          echo "FOOD desplegado correctamente en $TARGET con mapas SEO verificados"

@@ -82,16 +82,19 @@ function food_internal_link_target_numbers( $post_id ) {
 		return array();
 	}
 
-	$targets = array_values(
-		array_unique(
-			array_filter(
-				array_map( 'intval', $map[ $key ] ),
-				function( $target ) use ( $number ) {
-					return $target > 0 && $target !== $number;
-				}
-			)
-		)
-	);
+	$canonical_number = function_exists( 'food_seo_consolidation_canonical_number' )
+		? food_seo_consolidation_canonical_number( $number )
+		: $number;
+	$targets = array();
+	foreach ( array_map( 'intval', $map[ $key ] ) as $target ) {
+		if ( function_exists( 'food_seo_consolidation_canonical_number' ) ) {
+			$target = food_seo_consolidation_canonical_number( $target );
+		}
+		if ( $target < 1 || $target === $number || $target === $canonical_number || in_array( $target, $targets, true ) ) {
+			continue;
+		}
+		$targets[] = $target;
+	}
 	return array_slice( $targets, 0, 5 );
 }
 
@@ -283,6 +286,10 @@ function food_internal_link_fallback_posts( $post_id, $limit = 3 ) {
 
 	$scored = array();
 	foreach ( $candidates as $candidate ) {
+		$candidate_number = food_internal_link_article_number( $candidate->ID );
+		if ( function_exists( 'food_seo_consolidation_target_number' ) && food_seo_consolidation_target_number( $candidate_number ) > 0 ) {
+			continue;
+		}
 		$score = 0;
 
 		$candidate_category = function_exists( 'food_get_primary_food_category' ) ? food_get_primary_food_category( $candidate->ID ) : null;
