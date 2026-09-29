@@ -297,6 +297,30 @@ def generate_map(root: Path, existing_map: Path):
             if target > LEGACY_CUTOFF:
                 inbound[target] += 1
     repaired = 0
+    for target in new_numbers:
+        if inbound[target] > 0:
+            continue
+
+        # Reciprocal repair only: the target already selected these pages among
+        # its four closest semantic neighbours, so adding the reverse edge does
+        # not invent a new topical relationship.
+        outgoing = result.get(str(target), [])
+        sources = [source for source in outgoing if source > LEGACY_CUTOFF]
+        sources += [source for source in outgoing if source <= LEGACY_CUTOFF]
+
+        for source in sources:
+            links = result.get(str(source), [])
+            if target in links:
+                inbound[target] += 1
+                break
+            if len(links) >= MAX_LINKS:
+                continue
+            links.append(target)
+            result[str(source)] = links
+            inbound[target] += 1
+            repaired += 1
+            break
+
     zero_inbound = [target for target in new_numbers if inbound[target] == 0]
     invalid = []
     for number in numbers:
