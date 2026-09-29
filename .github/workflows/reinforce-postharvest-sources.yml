@@ -1,0 +1,60 @@
+name: Reinforce postharvest article sources
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/tools/reinforce-postharvest-sources.py'
+      - '.github/workflows/reinforce-postharvest-sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quinnoa-postharvest-source-reinforcement
+  cancel-in-progress: true
+
+jobs:
+  reinforce:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Add USDA postharvest reference
+        run: |
+          set -euo pipefail
+          python3 content/tools/reinforce-postharvest-sources.py
+          python3 content/tools/audit-seo-library.py
+
+      - name: Commit reinforced sources and audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            if git diff --quiet -- content/articles/es content/articles/en content/audits/SEO-LIBRARY-AUDIT.json content/audits/SEO-LIBRARY-AUDIT.md; then
+              echo "Postharvest source coverage is already current."
+              exit 0
+            fi
+
+            git add content/articles/es content/articles/en content/audits/SEO-LIBRARY-AUDIT.json content/audits/SEO-LIBRARY-AUDIT.md
+            git commit -m "Reinforce postharvest article sources"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "main advanced during source reinforcement; recalculating on latest HEAD (attempt $attempt/3)."
+            git fetch origin main
+            git reset --hard origin/main
+            python3 content/tools/reinforce-postharvest-sources.py
+            python3 content/tools/audit-seo-library.py
+          done
+
+          echo "ERROR: Could not publish postharvest source reinforcement after 3 attempts." >&2
+          exit 1
