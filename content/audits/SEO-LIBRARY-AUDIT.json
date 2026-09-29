@@ -12,7 +12,7 @@
     "translation_group_mismatches": 0
   },
   "issue_counts": {
-    "effective_meta_under_90": 95,
+    "effective_meta_under_90": 88,
     "seo_title_under_28": 57,
     "source_meta_over_220": 227,
     "sources_under_3": 1634
@@ -2908,31 +2908,10 @@
     "effective_meta_under_90": [
       {
         "language": "es",
-        "number": 1006,
-        "title": "¿Se puede comer la piel del mango?",
-        "path": "content/articles/es/1006-se-puede-comer-piel-mango.json",
-        "value": 89
-      },
-      {
-        "language": "es",
-        "number": 1008,
-        "title": "¿Se puede comer la piel del limón?",
-        "path": "content/articles/es/1008-se-puede-comer-piel-limon.json",
-        "value": 82
-      },
-      {
-        "language": "es",
         "number": 1025,
         "title": "¿Hay que lavar los champiñones antes de cocinarlos?",
         "path": "content/articles/es/1025-hay-que-lavar-champinones-antes-cocinar.json",
         "value": 56
-      },
-      {
-        "language": "es",
-        "number": 1027,
-        "title": "Por qué la leche de coco se separa dentro de la lata",
-        "path": "content/articles/es/1027-por-que-leche-coco-se-separa-lata.json",
-        "value": 85
       },
       {
         "language": "es",
@@ -3180,32 +3159,11 @@
         "value": 89
       },
       {
-        "language": "es",
-        "number": 997,
-        "title": "Qué significa realmente “sushi grade” y si garantiza que un pescado sea seguro",
-        "path": "content/articles/es/997-que-significa-sushi-grade-pescado.json",
-        "value": 84
-      },
-      {
-        "language": "en",
-        "number": 1006,
-        "title": "Can you eat mango skin?",
-        "path": "content/articles/en/1006-can-you-eat-mango-skin.json",
-        "value": 81
-      },
-      {
         "language": "en",
         "number": 1016,
         "title": "Why Milk Curdles in Coffee—and Whether It Means It Is Bad",
         "path": "content/articles/en/1016-why-milk-curdles-in-coffee.json",
         "value": 77
-      },
-      {
-        "language": "en",
-        "number": 1022,
-        "title": "Why a Skin Forms on Hot Milk",
-        "path": "content/articles/en/1022-why-skin-forms-on-hot-milk.json",
-        "value": 89
       },
       {
         "language": "en",
@@ -3563,13 +3521,6 @@
         "title": "Can You Eat Raw Salmon? What Must Be True for It to Be Safer",
         "path": "content/articles/en/995-can-you-eat-raw-salmon-safely.json",
         "value": 66
-      },
-      {
-        "language": "en",
-        "number": 998,
-        "title": "Can you eat raw mushrooms?",
-        "path": "content/articles/en/998-can-you-eat-raw-mushrooms.json",
-        "value": 86
       }
     ],
     "seo_title_under_28": [

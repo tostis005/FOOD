@@ -15,7 +15,7 @@
 | --- | ---: |
 | sources_under_3 | 1634 |
 | source_meta_over_220 | 227 |
-| effective_meta_under_90 | 95 |
+| effective_meta_under_90 | 88 |
 | seo_title_under_28 | 57 |
 
 ## Vocabulary drift
