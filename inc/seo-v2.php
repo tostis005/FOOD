@@ -194,6 +194,13 @@ function food_seo_v2_description() {
 			$description = $excerpt;
 		}
 
+		// Some legacy articles have very short curated meta + excerpt fields,
+		// while the opening paragraph contains the complete direct answer.
+		// Use that opening content rather than emitting a thin SERP snippet.
+		if ( $description_length < 90 && $excerpt_length < 90 ) {
+			$description = (string) get_post_field( 'post_content', $post_id );
+		}
+
 		if ( $description ) {
 			return food_seo_v2_trim( $description );
 		}

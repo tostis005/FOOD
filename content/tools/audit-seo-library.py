@@ -45,6 +45,8 @@ def runtime_meta_description(meta, excerpt, body=''):
     description=meta
     if len(excerpt) >= 90 and (len(description) < 90 or (len(description) > 220 and len(excerpt) <= 220)):
         description=excerpt
+    if len(description) < 90 and len(excerpt) < 90:
+        description=body
     if not description:
         description=excerpt or body
     if len(description) <= 158:
