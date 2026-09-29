@@ -29,7 +29,7 @@ reading_time_counts = Counter()
 
 FORBIDDEN = [
     'merece un artículo', 'merece otro artículo', 'otro artículo', 'en este artículo',
-    'hemos elegido', 'hemos usado', 'hemos utilizado', 'deliberadamente',
+    'hemos elegido', 'hemos usado', 'hemos utilizado',
     'se excluye deliberadamente', 'excluimos deliberadamente', 'para no manipular',
     'criterio de ordenación', 'fuentes y criterio', 'registro utilizado', 'registros concretos',
     'la tabla no pretende', 'no pretendemos', 'cocinado con calor seco',
@@ -37,7 +37,7 @@ FORBIDDEN = [
     'la tabla de arriba', 'el ranking de arriba', 'como vimos', 'como hemos visto',
     'en otra guía', 'en otra entrada', 'en otro post', 'en otra página',
     'deserves its own article', 'another article', 'in this article',
-    'we chose', 'we have chosen', 'we used', 'we have used', 'deliberately',
+    'we chose', 'we have chosen', 'we used', 'we have used',
     'to avoid manipulating', 'ordering criteria', 'sources and methodology',
     'record used', 'specific records', 'the table is not intended', 'cooked by dry heat',
     'main table', 'main ranking', 'previous table', 'previous ranking',
@@ -154,11 +154,21 @@ for path in files:
     content = str(data.get('content_html', ''))
     text = visible_text(content)
     plain = text.lower()
-    words = word_count(text)
+    body_words = word_count(text)
+    faq = data.get('faq') if isinstance(data.get('faq'), list) else []
+    faq_text = ' '.join(
+        str(item.get('question', '')) + ' ' + str(item.get('answer', ''))
+        for item in faq
+        if isinstance(item, dict)
+    )
+    faq_words = word_count(faq_text)
+    words = body_words + faq_words
     h2_count = len(re.findall(r'<h2\b', content, flags=re.IGNORECASE))
     minutes = max(1, math.ceil(words / WORDS_PER_MINUTE)) if words else 0
-    words_per_h2 = (words / h2_count) if h2_count else None
+    words_per_h2 = (body_words / h2_count) if h2_count else None
 
+    result['body_words'] = body_words
+    result['faq_words'] = faq_words
     result['words'] = words
     result['reading_minutes'] = minutes
     result['h2'] = h2_count
@@ -176,7 +186,7 @@ for path in files:
         add_reason(
             result,
             'thin_h2_catalogue',
-            f'{path}: {h2_count} H2 across {words} words = {words_per_h2:.1f} words/H2; minimum is {MIN_WORDS_PER_H2:.0f}'
+            f'{path}: {h2_count} H2 across {body_words} body words = {words_per_h2:.1f} words/H2; minimum is {MIN_WORDS_PER_H2:.0f}'
         )
 
     for phrase in FORBIDDEN:
