@@ -19,7 +19,9 @@
     "seo_title_under_28": 58,
     "sources_under_3": 1668
   },
-  "unknown_families": {
+  "unknown_families": {},
+  "unknown_article_types": {},
+  "family_alias_usage": {
     "vegetables": 98,
     "dairy": 96,
     "grains": 86,
@@ -71,7 +73,7 @@
     "herbs-spices": 2,
     "prepared-foods": 2
   },
-  "unknown_article_types": {
+  "article_type_alias_usage": {
     "food-science": 362,
     "food-explainer": 216,
     "nutrition": 106,
