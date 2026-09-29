@@ -75,7 +75,7 @@ def metric(row):
     return {
         'language':row['language'],'path':row['path'],'number':d.get('article_number'),'translation_group':str(d.get('translation_group') or ''),
         'title':title,'slug':str(d.get('slug') or ''),'seo_title':seo_title,'seo_title_len':len(seo_title),'meta_description':meta,'meta_len':len(meta),
-        'search_intent':intent,'excerpt_len':len(excerpt),'words':page_words,'body_words':body_words,'faq_words':faq_words,'h2':len(re.findall(r'<h2\\b',str(d.get('content_html') or ''),re.I)),
+        'search_intent':intent,'excerpt_len':len(excerpt),'words':page_words,'body_words':body_words,'faq_words':faq_words,'h2':len(re.findall(r'<h2\b',str(d.get('content_html') or ''),re.I)),
         'faq_count':len(faq),'sources_count':len(sources),'food_family':str(tax.get('food_family') or ''),
         'article_types':[str(x) for x in (tax.get('article_types') or []) if isinstance(x,str)],'primary_article_type':str(tax.get('primary_article_type') or ''),
         'status':str(d.get('status') or ''),'first_answer':' '.join(word_list(body)[:32]),'feature_tokens':toks(feature),'title_tokens':set(toks(title+' '+seo_title)),
