@@ -13,7 +13,6 @@
   },
   "issue_counts": {
     "faq_under_2": 22,
-    "high_stakes_sources_under_2": 26,
     "meta_over_160": 1214,
     "meta_over_220": 229,
     "meta_under_90": 95,
@@ -3275,190 +3274,6 @@
         "title": "Tuna in water vs oil: what really changes after draining",
         "path": "content/articles/en/tuna-in-water-vs-oil-what-really-changes-after-draining.json",
         "value": 0
-      }
-    ],
-    "high_stakes_sources_under_2": [
-      {
-        "language": "es",
-        "number": 22,
-        "title": "Patatas con brotes: cuándo se pueden comer y cuándo es mejor tirarlas",
-        "path": "content/articles/es/022-patatas-con-brotes.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 23,
-        "title": "Patatas verdes: por qué ocurre y por qué es mejor no comerlas",
-        "path": "content/articles/es/023-patatas-verdes.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 25,
-        "title": "Aguacate y calorías: ¿engorda realmente?",
-        "path": "content/articles/es/025-aguacate-calorias-engorda.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 1133,
-        "title": "¿Se puede poner papel de aluminio en el microondas? Qué ocurre realmente",
-        "path": "content/articles/es/1133-se-puede-poner-papel-aluminio-microondas-que-ocurre.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 143,
-        "title": "Por qué aumentar la fibra demasiado rápido puede dar gases",
-        "path": "content/articles/es/143-aumentar-fibra-rapido-gases.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 145,
-        "title": "Moho en los alimentos: cuándo cortar una parte y cuándo tirarlo todo",
-        "path": "content/articles/es/145-moho-alimentos-cortar-o-tirar.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 150,
-        "title": "Cuántas veces se puede recalentar una comida",
-        "path": "content/articles/es/150-cuantas-veces-recalentar-comida.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 428,
-        "title": "¿Se puede comer pan duro?",
-        "path": "content/articles/es/428-se-puede-comer-pan-duro.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 445,
-        "title": "Cómo saber si unos champiñones están malos",
-        "path": "content/articles/es/445-como-saber-champinones-malos.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 450,
-        "title": "¿Por qué las fresas desarrollan moho tan rápido?",
-        "path": "content/articles/es/450-por-que-fresas-moho-rapido.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 458,
-        "title": "Cuánto dura un yogur abierto y cómo saber si está malo",
-        "path": "content/articles/es/458-cuanto-dura-yogur-abierto-como-saber-malo.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 482,
-        "title": "¿La quinoa tiene gluten?",
-        "path": "content/articles/es/482-quinoa-tiene-gluten.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 487,
-        "title": "Cuánto dura la quinoa cocida y si se puede congelar",
-        "path": "content/articles/es/487-cuanto-dura-quinoa-cocida-congelar.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 22,
-        "title": "Sprouted Potatoes: When You Can Trim Them and When to Throw Them Out",
-        "path": "content/articles/en/022-sprouted-potatoes.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 23,
-        "title": "Green Potatoes: Why They Turn Green and Why You Should Be Cautious",
-        "path": "content/articles/en/023-green-potatoes.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 25,
-        "title": "Avocado Calories: Does Avocado Make You Gain Weight?",
-        "path": "content/articles/en/025-avocado-calories-weight-gain.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 1133,
-        "title": "Can You Put Aluminum Foil in the Microwave? What Actually Happens",
-        "path": "content/articles/en/1133-can-you-put-aluminum-foil-in-microwave-what-happens.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 143,
-        "title": "Why increasing fiber too quickly can cause gas",
-        "path": "content/articles/en/143-why-increasing-fiber-too-fast-causes-gas.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 145,
-        "title": "Mold on food: when can you cut it off and when should you throw it away?",
-        "path": "content/articles/en/145-mold-food-cut-off-or-discard.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 150,
-        "title": "How many times can you reheat food?",
-        "path": "content/articles/en/150-how-many-times-can-reheat-food.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 428,
-        "title": "Can You Eat Stale Bread?",
-        "path": "content/articles/en/428-can-you-eat-stale-bread.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 445,
-        "title": "How to Tell if Mushrooms Have Gone Bad",
-        "path": "content/articles/en/445-how-to-tell-mushrooms-bad.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 450,
-        "title": "Why strawberries mold so fast",
-        "path": "content/articles/en/450-why-strawberries-mold-so-fast.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 458,
-        "title": "How Long Does Opened Yogurt Last, and How Can You Tell It’s Bad?",
-        "path": "content/articles/en/458-how-long-opened-yogurt-lasts.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 482,
-        "title": "Does Quinoa Have Gluten?",
-        "path": "content/articles/en/482-does-quinoa-have-gluten.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 487,
-        "title": "How Long Does Cooked Quinoa Last, and Can You Freeze It?",
-        "path": "content/articles/en/487-how-long-cooked-quinoa-lasts-freezing.json",
-        "value": 1
       }
     ],
     "meta_over_160": [
@@ -10395,14 +10210,14 @@
         "number": 22,
         "title": "Patatas con brotes: cuándo se pueden comer y cuándo es mejor tirarlas",
         "path": "content/articles/es/022-patatas-con-brotes.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
         "number": 23,
         "title": "Patatas verdes: por qué ocurre y por qué es mejor no comerlas",
         "path": "content/articles/es/023-patatas-verdes.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -10416,7 +10231,7 @@
         "number": 25,
         "title": "Aguacate y calorías: ¿engorda realmente?",
         "path": "content/articles/es/025-aguacate-calorias-engorda.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -11746,7 +11561,7 @@
         "number": 1133,
         "title": "¿Se puede poner papel de aluminio en el microondas? Qué ocurre realmente",
         "path": "content/articles/es/1133-se-puede-poner-papel-aluminio-microondas-que-ocurre.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -12061,7 +11876,7 @@
         "number": 143,
         "title": "Por qué aumentar la fibra demasiado rápido puede dar gases",
         "path": "content/articles/es/143-aumentar-fibra-rapido-gases.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -12075,7 +11890,7 @@
         "number": 145,
         "title": "Moho en los alimentos: cuándo cortar una parte y cuándo tirarlo todo",
         "path": "content/articles/es/145-moho-alimentos-cortar-o-tirar.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -12103,7 +11918,7 @@
         "number": 150,
         "title": "Cuántas veces se puede recalentar una comida",
         "path": "content/articles/es/150-cuantas-veces-recalentar-comida.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -13314,7 +13129,7 @@
         "number": 428,
         "title": "¿Se puede comer pan duro?",
         "path": "content/articles/es/428-se-puede-comer-pan-duro.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -13433,7 +13248,7 @@
         "number": 445,
         "title": "Cómo saber si unos champiñones están malos",
         "path": "content/articles/es/445-como-saber-champinones-malos.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -13468,7 +13283,7 @@
         "number": 450,
         "title": "¿Por qué las fresas desarrollan moho tan rápido?",
         "path": "content/articles/es/450-por-que-fresas-moho-rapido.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -13517,7 +13332,7 @@
         "number": 458,
         "title": "Cuánto dura un yogur abierto y cómo saber si está malo",
         "path": "content/articles/es/458-cuanto-dura-yogur-abierto-como-saber-malo.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -13671,7 +13486,7 @@
         "number": 482,
         "title": "¿La quinoa tiene gluten?",
         "path": "content/articles/es/482-quinoa-tiene-gluten.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
@@ -13706,7 +13521,7 @@
         "number": 487,
         "title": "Cuánto dura la quinoa cocida y si se puede congelar",
         "path": "content/articles/es/487-cuanto-dura-quinoa-cocida-congelar.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",

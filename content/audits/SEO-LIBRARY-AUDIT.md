@@ -19,7 +19,6 @@
 | meta_under_90 | 95 |
 | seo_title_over_65 | 85 |
 | seo_title_under_28 | 58 |
-| high_stakes_sources_under_2 | 26 |
 | faq_under_2 | 22 |
 | page_under_631 | 1 |
 
