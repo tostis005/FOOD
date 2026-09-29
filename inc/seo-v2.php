@@ -93,7 +93,9 @@ function food_seo_v2_title( $title ) {
 			$base = $pages[ $key ][ $lang ]['title'];
 		}
 	} elseif ( is_singular( 'post' ) ) {
-		$base = get_the_title( get_queried_object_id() );
+		$post_id   = get_queried_object_id();
+		$seo_title = trim( (string) get_post_meta( $post_id, '_food_seo_title', true ) );
+		$base      = $seo_title ? $seo_title : get_the_title( $post_id );
 	} elseif ( is_category() ) {
 		$term = get_queried_object();
 		if ( $term instanceof WP_Term ) {
@@ -169,8 +171,13 @@ function food_seo_v2_description() {
 	}
 
 	if ( is_singular( 'post' ) ) {
-		$excerpt = get_the_excerpt( get_queried_object_id() );
-		return $excerpt ? food_seo_v2_trim( $excerpt ) : food_seo_v2_trim( get_post_field( 'post_content', get_queried_object_id() ) );
+		$post_id     = get_queried_object_id();
+		$description = trim( (string) get_post_meta( $post_id, '_food_meta_description', true ) );
+		if ( $description ) {
+			return food_seo_v2_trim( $description );
+		}
+		$excerpt = get_the_excerpt( $post_id );
+		return $excerpt ? food_seo_v2_trim( $excerpt ) : food_seo_v2_trim( get_post_field( 'post_content', $post_id ) );
 	}
 
 	if ( is_category() ) {
