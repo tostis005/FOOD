@@ -40,6 +40,18 @@
     {
       "question": "Which has fewer calories?",
       "answer": "Pistachios by a small margin: about 560 calories per 100 g versus 579 for almonds."
+    },
+    {
+      "question": "Which has more protein, pistachios or almonds?",
+      "answer": "They are very close: about 20.5 versus 21.5 g/100 g."
+    },
+    {
+      "question": "Which has more magnesium?",
+      "answer": "Almonds: about 258 versus 110 mg/100 g."
+    },
+    {
+      "question": "Which has more potassium?",
+      "answer": "Pistachios in this comparison: about 947 versus 733 mg/100 g."
     }
   ],
   "sources": [
@@ -52,6 +64,11 @@
       "name": "FDA — Reference Amounts Customarily Consumed",
       "url": "https://www.fda.gov/media/102587/download",
       "note": "U.S. labeling reference amount of 30 g for nuts and seeds."
+    },
+    {
+      "name": "USDA FoodData Central — Nuts, pistachio nuts, raw (FDC 2515379)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2515379/nutrients",
+      "note": "Current Foundation composition for raw pistachios."
     }
   ],
   "image": {

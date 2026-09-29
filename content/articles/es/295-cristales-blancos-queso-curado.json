@@ -39,6 +39,14 @@
     {
       "question": "¿Cómo se diferencian del moho?",
       "answer": "Los cristales son duros y definidos; el moho es crecimiento microbiano y suele presentar una textura superficial distinta. El tipo de queso y el patrón de crecimiento también importan."
+    },
+    {
+      "question": "¿Los cristales blancos del parmesano son sal?",
+      "answer": "A menudo no. En Parmigiano-Reggiano envejecido se han identificado cristales interiores de tirosina."
+    },
+    {
+      "question": "¿Los cristales blancos son moho?",
+      "answer": "No necesariamente. Los cristales suelen ser secos, duros y granulares; el moho suele formar colonias con aspecto velloso, polvoriento o irregular."
     }
   ],
   "sources": [
@@ -51,6 +59,21 @@
       "name": "University of Vermont — Cheese crystal research summary",
       "url": "https://www.uvm.edu/vtaes/AnnualReportFY2014/NUTsum.htm",
       "note": "Investigación sobre distintos tipos de cristales identificados en cheddar, gouda, asiago y otros quesos curados."
+    },
+    {
+      "name": "Journal of Dairy Science — Crystal fingerprinting in cheese",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27034746/",
+      "note": "Identificación por difracción de tirosina en Parmigiano-Reggiano y gouda curados."
+    },
+    {
+      "name": "Journal of Dairy Science — Cheese pH, protein concentration, and calcium lactate crystals",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17033000/",
+      "note": "Factores asociados a cristales de lactato cálcico."
+    },
+    {
+      "name": "USDA FSIS — Mold on food",
+      "url": "https://ask.fsis.usda.gov/article/If-food-has-mold-is-it-safe-to-eat",
+      "note": "Cómo manejar moho inesperado en quesos blandos y duros."
     }
   ],
   "image": {

@@ -39,6 +39,14 @@
     {
       "question": "Which has more fiber?",
       "answer": "It depends on serving. 100 g of avocado provides about 6.7 g, versus about 3.5 g in an ounce of almonds and 1.9 g in an ounce of walnuts."
+    },
+    {
+      "question": "Which has more calories, nuts or avocado?",
+      "answer": "Nuts by a large margin per 100 g: avocado is about 160 calories, almonds about 579, and walnuts 654."
+    },
+    {
+      "question": "Which has healthier fat?",
+      "answer": "There is no simple winner. Avocado and almonds are rich in monounsaturated fat; walnuts contain more polyunsaturated fat, including alpha-linolenic acid."
     }
   ],
   "sources": [
@@ -46,6 +54,11 @@
       "name": "USDA FoodData Central",
       "url": "https://fdc.nal.usda.gov/",
       "note": "Composition of avocado, almonds, walnuts and pistachios."
+    },
+    {
+      "name": "USDA FoodData Central — Avocados, raw, all commercial varieties",
+      "url": "https://fdc.nal.usda.gov/food-search/?query=avocados%20raw%20all%20commercial%20varieties",
+      "note": "Energy, fat, fiber, water, and protein values for avocado."
     }
   ],
   "image": {

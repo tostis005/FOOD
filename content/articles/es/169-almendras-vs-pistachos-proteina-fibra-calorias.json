@@ -40,6 +40,18 @@
     {
       "question": "¿Cuál tiene menos calorías?",
       "answer": "Los pistachos por poco: alrededor de 560 kcal/100 g frente a 579 kcal/100 g en almendras."
+    },
+    {
+      "question": "¿Qué tiene más proteína, pistacho o almendra?",
+      "answer": "Son muy parecidos: unos 20,5 g/100 g en pistacho y 21,5 g en almendra."
+    },
+    {
+      "question": "¿Cuál tiene más magnesio?",
+      "answer": "La almendra: unos 258 mg/100 g frente a 110 mg en pistacho."
+    },
+    {
+      "question": "¿Cuál tiene más potasio?",
+      "answer": "El pistacho en esta comparación: unos 947 frente a 733 mg/100 g."
     }
   ],
   "sources": [
@@ -47,6 +59,11 @@
       "name": "USDA FoodData Central",
       "url": "https://fdc.nal.usda.gov/",
       "note": "Composición de almendras enteras crudas y pistachos crudos por 100 g."
+    },
+    {
+      "name": "USDA FoodData Central — Nuts, pistachio nuts, raw (FDC 2515379)",
+      "url": "https://fdc.nal.usda.gov/fdc-app.html#/food-details/2515379/nutrients",
+      "note": "Composición Foundation actual de pistachos crudos."
     }
   ],
   "image": {

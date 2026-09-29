@@ -41,6 +41,18 @@
     {
       "question": "Are organic eggs automatically more nutritious?",
       "answer": "No. The organic label describes production standards, not a guaranteed protein or vitamin advantage."
+    },
+    {
+      "question": "What does 0 mean?",
+      "answer": "Organic production under the applicable EU rules."
+    },
+    {
+      "question": "What is the difference between 1 and 2?",
+      "answer": "1 is free range with regulated outdoor access; 2 is barn housing indoors without cages."
+    },
+    {
+      "question": "Does 3 mean nutritionally worse?",
+      "answer": "No. Code 3 identifies the cage production system, not a nutrition grade."
     }
   ],
   "sources": [
@@ -58,6 +70,11 @@
       "name": "USDA AMS — Organic Livestock and Poultry Standards",
       "url": "https://www.ams.usda.gov/rules-regulations/organic-livestock-and-poultry-standards",
       "note": "Current organic poultry compliance requirements and timelines."
+    },
+    {
+      "name": "EUR-Lex — egg producer code farming methods",
+      "url": "https://eur-lex.europa.eu/eli/dir/2002/4/2007-01-01/eng",
+      "note": "EU producer code: 0 organic, 1 free range, 2 barn, 3 cages, followed by Member State and producer identification."
     }
   ],
   "image": {

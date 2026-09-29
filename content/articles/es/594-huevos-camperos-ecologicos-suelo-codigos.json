@@ -41,6 +41,18 @@
     {
       "question": "¿El código indica cuál es más nutritivo?",
       "answer": "No. Identifica principalmente el sistema de producción y la explotación, no una puntuación nutricional."
+    },
+    {
+      "question": "¿Qué significa 0?",
+      "answer": "Producción ecológica bajo la normativa aplicable."
+    },
+    {
+      "question": "¿Cuál es la diferencia entre 1 y 2?",
+      "answer": "El 1 es campero con acceso exterior regulado; el 2 corresponde a gallinas criadas en suelo en sistema interior."
+    },
+    {
+      "question": "¿El 3 significa peor calidad nutricional?",
+      "answer": "No. El 3 identifica el sistema de jaula, no una clasificación nutricional."
     }
   ],
   "sources": [
@@ -58,6 +70,11 @@
       "name": "Reglamento (UE) 2018/848 — producción ecológica",
       "url": "https://eur-lex.europa.eu/eli/reg/2018/848/oj",
       "note": "Marco aplicable a la producción ecológica, incluido el código 0."
+    },
+    {
+      "name": "EUR-Lex — egg producer code farming methods",
+      "url": "https://eur-lex.europa.eu/eli/dir/2002/4/2007-01-01/eng",
+      "note": "EU producer code: 0 organic, 1 free range, 2 barn, 3 cages, followed by Member State and producer identification."
     }
   ],
   "image": {

@@ -39,6 +39,18 @@
     {
       "question": "¿Cuánto dura un huevo cocido en la nevera?",
       "answer": "FoodSafety.gov recomienda un máximo de una semana refrigerado."
+    },
+    {
+      "question": "¿Por qué los huevos frescos se pelan peor?",
+      "answer": "Porque su clara tiene un pH más bajo y se adhiere con más fuerza a la membrana interna de la cáscara."
+    },
+    {
+      "question": "¿Cuánto tiempo hay que guardar los huevos?",
+      "answer": "USDA señala que los extremadamente frescos son difíciles de pelar y recomienda para cocción dura huevos que hayan estado refrigerados durante algún tiempo."
+    },
+    {
+      "question": "¿El agua fría ayuda?",
+      "answer": "Sí. Detiene la cocción, facilita la manipulación y puede ayudar a separar membrana y clara durante el pelado."
     }
   ],
   "sources": [
@@ -51,6 +63,16 @@
       "name": "FoodSafety.gov — Cold Food Storage Chart",
       "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
       "note": "Indica un plazo refrigerado de una semana para huevos cocidos."
+    },
+    {
+      "name": "USDA FSIS — Shell Eggs from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "note": "Explains why fresh eggs are harder to peel: albumen pH rises with age and adhesion to the inner shell membrane decreases."
+    },
+    {
+      "name": "USDA FSIS — How long does it take to hard cook an egg?",
+      "url": "https://ask.fsis.usda.gov/article/How-long-does-it-take-to--hard-cook-an-egg",
+      "note": "USDA hard-cooking method, immediate cooling, peeling under running water, and note that extremely fresh eggs are difficult to peel."
     }
   ],
   "image": {

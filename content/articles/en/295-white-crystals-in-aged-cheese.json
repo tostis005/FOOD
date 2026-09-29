@@ -39,6 +39,18 @@
     {
       "question": "How can you tell crystals from mold?",
       "answer": "Crystals are hard and defined; mold is microbial growth and often has a fuzzy, powdery, or otherwise growing surface texture. Cheese type and location matter too."
+    },
+    {
+      "question": "Are the white crystals in Parmesan salt?",
+      "answer": "Often they are not. Research has confirmed tyrosine crystals in aged Parmigiano-Reggiano."
+    },
+    {
+      "question": "How can I tell crystals from mold?",
+      "answer": "Crystals are hard and granular; mold commonly looks fuzzy, powdery or irregular and may spread."
+    },
+    {
+      "question": "Can you eat cheese crystals?",
+      "answer": "Normal ripening crystals such as tyrosine and calcium lactate are part of the cheese and are edible."
     }
   ],
   "sources": [
@@ -51,6 +63,21 @@
       "name": "University of Vermont — Cheese crystal research summary",
       "url": "https://www.uvm.edu/vtaes/AnnualReportFY2014/NUTsum.htm",
       "note": "Research identifying several crystal types in Cheddar, Gouda, Asiago, Parmigiano Reggiano, and other aged cheeses."
+    },
+    {
+      "name": "Journal of Dairy Science — Crystal fingerprinting in cheese",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27034746/",
+      "note": "X-ray identification of tyrosine crystals in aged Parmigiano-Reggiano and Gouda."
+    },
+    {
+      "name": "Journal of Dairy Science — Cheese pH, protein concentration, and calcium lactate crystals",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/17033000/",
+      "note": "Factors involved in calcium-lactate crystal formation."
+    },
+    {
+      "name": "USDA FSIS — If food has mold, is it safe to eat?",
+      "url": "https://ask.fsis.usda.gov/article/If-food-has-mold-is-it-safe-to-eat",
+      "note": "Consumer guidance for unexpected mold on hard and soft cheese."
     }
   ],
   "image": {

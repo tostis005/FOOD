@@ -39,6 +39,18 @@
     {
       "question": "How long do hard-cooked eggs keep in the refrigerator?",
       "answer": "FoodSafety.gov lists one week as the refrigerated storage time."
+    },
+    {
+      "question": "Why are fresh eggs harder to peel?",
+      "answer": "Their albumen has a lower pH and adheres more strongly to the inner shell membrane."
+    },
+    {
+      "question": "How old should eggs be?",
+      "answer": "USDA notes that extremely fresh eggs are difficult to peel and recommends eggs that have spent some time refrigerated for hard cooking."
+    },
+    {
+      "question": "Does cold water help?",
+      "answer": "Yes. It stops cooking, makes handling easier, and can help water work between the membrane and egg white."
     }
   ],
   "sources": [
@@ -51,6 +63,16 @@
       "name": "FoodSafety.gov — Cold Food Storage Chart",
       "url": "https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts",
       "note": "Lists one week of refrigerated storage for hard-cooked eggs."
+    },
+    {
+      "name": "USDA FSIS — Shell Eggs from Farm to Table",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/eggs/shell-eggs-farm-table",
+      "note": "Explains why fresh eggs are harder to peel: albumen pH rises with age and adhesion to the inner shell membrane decreases."
+    },
+    {
+      "name": "USDA FSIS — How long does it take to hard cook an egg?",
+      "url": "https://ask.fsis.usda.gov/article/How-long-does-it-take-to--hard-cook-an-egg",
+      "note": "USDA hard-cooking method, immediate cooling, peeling under running water, and note that extremely fresh eggs are difficult to peel."
     }
   ],
   "image": {

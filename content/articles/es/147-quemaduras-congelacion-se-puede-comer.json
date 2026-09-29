@@ -34,6 +34,18 @@
     {
       "question": "¿Por qué aparece?",
       "answer": "Principalmente por exposición al aire y pérdida de humedad durante el almacenamiento congelado."
+    },
+    {
+      "question": "¿Se puede comer carne con quemadura por congelación?",
+      "answer": "Sí, si se ha mantenido correctamente congelada. La quemadura afecta principalmente a textura y sabor; puedes recortar las zonas secas."
+    },
+    {
+      "question": "¿Por qué aparece la quemadura por congelación?",
+      "answer": "Porque el hielo de la superficie sublima y la humedad se pierde, especialmente cuando el envase deja entrar aire o hay mucho espacio vacío."
+    },
+    {
+      "question": "¿La quemadura por congelación significa que el alimento se descongeló?",
+      "answer": "No necesariamente. Puede aparecer simplemente por almacenamiento prolongado o mal envasado. La seguridad ante una posible descongelación debe evaluarse por tiempo y temperatura."
     }
   ],
   "sources": [
@@ -41,6 +53,21 @@
       "name": "USDA FSIS — Freezing and Food Safety",
       "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
       "note": "Freezer burn como problema de calidad, no de seguridad."
+    },
+    {
+      "name": "USDA FSIS — What is freezer burn?",
+      "url": "https://ask.fsis.usda.gov/article/What-is-freezer-burn",
+      "note": "Actualización de 2025: describe zonas secas coriáceas y confirma que pueden recortarse."
+    },
+    {
+      "name": "USDA FSIS — Safe freezing packaging materials",
+      "url": "https://ask.fsis.usda.gov/article/What-materials-are-safe-to-freeze-food-in",
+      "note": "Explica que el objetivo del envasado para congelación es mantener el aire fuera y reducir quemadura por congelación."
+    },
+    {
+      "name": "USDA FSIS — Meat and Poultry Packaging Materials",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/meat-and-poultry-packaging",
+      "note": "Describe la importancia de envases impermeables al aire para almacenamiento congelado prolongado."
     }
   ],
   "image": {

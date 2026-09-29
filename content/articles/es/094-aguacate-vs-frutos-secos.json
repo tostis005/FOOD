@@ -39,6 +39,14 @@
     {
       "question": "¿Qué tiene más fibra?",
       "answer": "Depende de la ración. 100 g de aguacate aportan unos 6,7 g; 30 g de almendras unos 3,8 g y 30 g de nueces unos 2 g."
+    },
+    {
+      "question": "¿Qué tiene más calorías, frutos secos o aguacate?",
+      "answer": "Los frutos secos por 100 g: el aguacate ronda 160 kcal, las almendras unas 579 y las nueces 654 kcal."
+    },
+    {
+      "question": "¿Cuál tiene grasas mejores?",
+      "answer": "No hay un ganador simple. El aguacate y las almendras destacan en monoinsaturadas; las nueces aportan más poliinsaturadas y ácido alfa-linolénico."
     }
   ],
   "sources": [
@@ -46,6 +54,11 @@
       "name": "USDA FoodData Central",
       "url": "https://fdc.nal.usda.gov/",
       "note": "Composición de aguacate, almendras, nueces y pistachos."
+    },
+    {
+      "name": "USDA FoodData Central — Avocados, raw, all commercial varieties",
+      "url": "https://fdc.nal.usda.gov/food-search/?query=avocados%20raw%20all%20commercial%20varieties",
+      "note": "Energía, grasa, fibra, agua y proteína del aguacate."
     }
   ],
   "image": {

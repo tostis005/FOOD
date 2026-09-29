@@ -36,6 +36,18 @@
     {
       "question": "¿Las gafas funcionan?",
       "answer": "Sí. Unas gafas que sellan alrededor de los ojos impiden que el vapor alcance directamente la superficie ocular."
+    },
+    {
+      "question": "¿Qué sustancia hace llorar?",
+      "answer": "El principal factor lacrimógeno es syn-propanethial-S-oxide, formado tras romper las células de la cebolla."
+    },
+    {
+      "question": "¿Un cuchillo afilado ayuda?",
+      "answer": "Sí. Investigación con imagen de alta velocidad encontró menos pulverización cuando se corta con una hoja afilada y de forma suave."
+    },
+    {
+      "question": "¿Es buena idea cortar la cebolla bajo el agua?",
+      "answer": "Puede reducir exposición al irritante, pero hace el trabajo con cuchillo más incómodo y resbaladizo; ventilación y cuchillo afilado son opciones más seguras."
     }
   ],
   "sources": [
@@ -43,6 +55,21 @@
       "name": "Enzyme That Makes You Cry — Lachrymatory Factor Synthase",
       "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5693239/",
       "note": "Explica la estructura y función de la enzima que genera el factor lacrimógeno de la cebolla."
+    },
+    {
+      "name": "Library of Congress — Why does chopping an onion make you cry?",
+      "url": "https://www.loc.gov/everyday-mysteries/food-and-nutrition/item/why-does-chopping-an-onion-make-you-cry/",
+      "note": "Explains lachrymatory-factor synthase and syn-propanethial-S-oxide as the tear-inducing mechanism."
+    },
+    {
+      "name": "PNAS / PMC — Droplet outbursts from onion cutting",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12557780/",
+      "note": "High-speed study showing sharper blades and gentler cutting reduce tear-inducing droplet release."
+    },
+    {
+      "name": "Cornell Chronicle — Mist opportunity reveals how onions make cooks cry",
+      "url": "https://news.cornell.edu/stories/2025/10/mist-opportunity-reveals-how-onions-make-cooks-cry",
+      "note": "Summarizes 2025 Cornell research on aerosol release and the practical sharp-knife, gentle-cut recommendation."
     }
   ],
   "image": {

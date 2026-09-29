@@ -34,6 +34,14 @@
     {
       "question": "What causes freezer burn?",
       "answer": "Air exposure and moisture loss during frozen storage are the main causes."
+    },
+    {
+      "question": "Can you eat meat with freezer burn?",
+      "answer": "Yes, if it remained properly frozen. Freezer burn mainly affects texture and flavor, and dry areas can be trimmed."
+    },
+    {
+      "question": "Does freezer burn mean food thawed?",
+      "answer": "Not necessarily. It can develop during long frozen storage or poor packaging. Suspected thawing must be judged by time and temperature."
     }
   ],
   "sources": [
@@ -41,6 +49,21 @@
       "name": "USDA FSIS — Freezing and Food Safety",
       "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/freezing-and-food-safety",
       "note": "Freezer burn and food quality."
+    },
+    {
+      "name": "USDA FSIS — What is freezer burn?",
+      "url": "https://ask.fsis.usda.gov/article/What-is-freezer-burn",
+      "note": "Actualización de 2025: describe zonas secas coriáceas y confirma que pueden recortarse."
+    },
+    {
+      "name": "USDA FSIS — Safe freezing packaging materials",
+      "url": "https://ask.fsis.usda.gov/article/What-materials-are-safe-to-freeze-food-in",
+      "note": "Explica que el objetivo del envasado para congelación es mantener el aire fuera y reducir quemadura por congelación."
+    },
+    {
+      "name": "USDA FSIS — Meat and Poultry Packaging Materials",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/meat-and-poultry-packaging",
+      "note": "Describe la importancia de envases impermeables al aire para almacenamiento congelado prolongado."
     }
   ],
   "image": {
