@@ -11,7 +11,6 @@
 
 | Signal | Count |
 | --- | ---: |
-| h2_under_3 | 2732 |
 | sources_under_3 | 1648 |
 | meta_over_160 | 1233 |
 | meta_over_220 | 241 |
