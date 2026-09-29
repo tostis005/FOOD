@@ -140,12 +140,14 @@ function food_import_topic_map() {
 }
 
 function food_import_taxonomy_vocabulary() {
+    global $articles_root;
+
     static $vocabulary = null;
     if ( null !== $vocabulary ) {
         return $vocabulary;
     }
 
-    $path = dirname( __DIR__ ) . '/articles/taxonomies.json';
+    $path = rtrim( (string) $articles_root, '/' ) . '/taxonomies.json';
     if ( ! is_readable( $path ) ) {
         throw new RuntimeException( "Taxonomy vocabulary not readable: {$path}" );
     }

@@ -343,6 +343,7 @@ jobs:
           BASE_SHA=""
           rm -rf /tmp/food-package
           mkdir -p /tmp/food-package/content/articles/es /tmp/food-package/content/articles/en
+          cp content/articles/taxonomies.json /tmp/food-package/content/articles/taxonomies.json
           : > /tmp/food-selected-files.txt
 
           if [ "$EVENT_NAME" = "workflow_dispatch" ]; then
