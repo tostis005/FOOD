@@ -1,0 +1,206 @@
+name: Audit live Quinnoa SEO
+
+on:
+  workflow_run:
+    workflows:
+      - Deploy FOOD theme to WordPress
+    types:
+      - completed
+  workflow_dispatch:
+
+jobs:
+  live-seo:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout deployed revision
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.workflow_run.head_sha || 'main' }}
+
+      - name: Audit public SEO signals
+        env:
+          SITE_URL: https://www.quinnoa.com
+        run: |
+          set -euo pipefail
+          python3 - <<'PY'
+          import html
+          import json
+          import os
+          import re
+          import subprocess
+          from html.parser import HTMLParser
+          from pathlib import Path
+          from urllib.parse import urljoin
+
+          SITE = os.environ['SITE_URL'].rstrip('/') + '/'
+          UA = 'Quinnoa live SEO audit/1.0'
+
+          def article(path):
+              return json.loads(Path(path).read_text(encoding='utf-8'))
+
+          def article_url(data):
+              slug = str(data['slug']).strip('/')
+              return urljoin(SITE, ('en/' if data.get('language') == 'en' else '') + slug + '/')
+
+          def fetch(url, follow=True):
+              cmd = [
+                  'curl', '--fail', '--silent', '--show-error',
+                  '--user-agent', UA,
+              ]
+              if follow:
+                  cmd.append('--location')
+              cmd.append(url)
+              return subprocess.check_output(cmd, text=True)
+
+          def response_headers(url):
+              proc = subprocess.run(
+                  [
+                      'curl', '--silent', '--show-error',
+                      '--user-agent', UA,
+                      '--dump-header', '-', '--output', '/dev/null',
+                      url,
+                  ],
+                  text=True,
+                  capture_output=True,
+                  check=True,
+              )
+              blocks = [block for block in re.split(r'\r?\n\r?\n', proc.stdout.strip()) if block.strip()]
+              if not blocks:
+                  raise AssertionError(f'No response headers for {url}')
+              lines = blocks[-1].splitlines()
+              status_match = re.search(r'\s(\d{3})(?:\s|$)', lines[0])
+              if not status_match:
+                  raise AssertionError(f'Cannot parse status for {url}: {lines[0]}')
+              headers = {}
+              for line in lines[1:]:
+                  if ':' not in line:
+                      continue
+                  key, value = line.split(':', 1)
+                  headers.setdefault(key.strip().lower(), []).append(value.strip())
+              return int(status_match.group(1)), headers
+
+          class HeadParser(HTMLParser):
+              def __init__(self):
+                  super().__init__()
+                  self.in_title = False
+                  self.title = []
+                  self.links = []
+                  self.metas = []
+
+              def handle_starttag(self, tag, attrs):
+                  attrs = dict(attrs)
+                  if tag.lower() == 'title':
+                      self.in_title = True
+                  elif tag.lower() == 'link':
+                      self.links.append(attrs)
+                  elif tag.lower() == 'meta':
+                      self.metas.append(attrs)
+
+              def handle_endtag(self, tag):
+                  if tag.lower() == 'title':
+                      self.in_title = False
+
+              def handle_data(self, data):
+                  if self.in_title:
+                      self.title.append(data)
+
+          def parse_head(body):
+              parser = HeadParser()
+              parser.feed(body)
+              return parser
+
+          def norm(value):
+              return re.sub(r'\s+', ' ', html.unescape(str(value or ''))).strip()
+
+          def link_href(parser, rel=None, hreflang=None):
+              for attrs in parser.links:
+                  rel_value = str(attrs.get('rel', '')).lower().split()
+                  if rel and rel not in rel_value:
+                      continue
+                  if hreflang and str(attrs.get('hreflang', '')).lower() != hreflang:
+                      continue
+                  return attrs.get('href', '')
+              return ''
+
+          def meta_content(parser, name):
+              name = name.lower()
+              for attrs in parser.metas:
+                  if str(attrs.get('name', '')).lower() == name:
+                      return attrs.get('content', '')
+              return ''
+
+          # Short title should retain the brand; long title should not spend
+          # additional SERP space on the brand suffix.
+          short_en = article('content/articles/en/1005-can-you-eat-raw-potato.json')
+          long_es = article('content/articles/es/845-moras-pequenos-pelos-blancos-distinguir-estructuras-naturales-moho.json')
+          short_es = article('content/articles/es/1005-se-puede-comer-patata-cruda.json')
+
+          for data, expect_brand in ((short_en, True), (long_es, False)):
+              url = article_url(data)
+              body = fetch(url)
+              parser = parse_head(body)
+              base_title = str((data.get('seo') or {}).get('title') or data['title']).strip()
+              expected_title = base_title + ' | Quinnoa' if len(base_title) <= 55 else base_title
+              actual_title = norm(''.join(parser.title))
+              assert actual_title == expected_title, (
+                  f'Title mismatch for {url}\nExpected: {expected_title}\nActual: {actual_title}'
+              )
+              assert ('| Quinnoa' in actual_title) is expect_brand, f'Unexpected brand suffix for {url}'
+              assert link_href(parser, rel='canonical') == url, f'Canonical mismatch for {url}'
+              robots = meta_content(parser, 'robots').lower()
+              assert 'noindex' not in robots, f'Indexable article unexpectedly noindex: {url}'
+              description = norm(meta_content(parser, 'description'))
+              assert 70 <= len(description) <= 160, f'Meta description length {len(description)} for {url}'
+
+          # Translation alternates must point to equivalent pages, not language homes.
+          en_url = article_url(short_en)
+          es_url = article_url(short_es)
+          for data in (short_en, short_es):
+              url = article_url(data)
+              parser = parse_head(fetch(url))
+              assert link_href(parser, rel='alternate', hreflang='en') == en_url, f'Bad EN hreflang for {url}'
+              assert link_href(parser, rel='alternate', hreflang='es') == es_url, f'Bad ES hreflang for {url}'
+              assert link_href(parser, rel='alternate', hreflang='x-default') == es_url, f'Bad x-default for {url}'
+
+          sitemap_index = fetch(urljoin(SITE, 'sitemap.xml'))
+          assert urljoin(SITE, 'sitemap-es.xml') in sitemap_index
+          assert urljoin(SITE, 'sitemap-en.xml') in sitemap_index
+
+          robots_txt = fetch(urljoin(SITE, 'robots.txt'))
+          assert 'Sitemap: ' + urljoin(SITE, 'sitemap.xml') in robots_txt
+
+          # A consolidated URL must 301 to its older canonical counterpart and
+          # must not survive in the language sitemap.
+          pairs = [
+              (
+                  article('content/articles/es/300-prueba-agua-huevos-que-indica.json'),
+                  article('content/articles/es/285-por-que-flotan-huevos.json'),
+                  'sitemap-es.xml',
+              ),
+              (
+                  article('content/articles/en/300-egg-float-test-what-it-really-means.json'),
+                  article('content/articles/en/285-why-eggs-float.json'),
+                  'sitemap-en.xml',
+              ),
+          ]
+          for source, target, sitemap_name in pairs:
+              source_url = article_url(source)
+              target_url = article_url(target)
+              status, headers = response_headers(source_url)
+              location = (headers.get('location') or [''])[0]
+              assert status == 301, f'Expected 301 for {source_url}, got {status}'
+              assert location == target_url, f'Bad redirect for {source_url}: {location} != {target_url}'
+              sitemap = fetch(urljoin(SITE, sitemap_name))
+              assert target_url in sitemap, f'Canonical target missing from {sitemap_name}: {target_url}'
+              assert source_url not in sitemap, f'Redirect source still present in {sitemap_name}: {source_url}'
+
+          print('LIVE_SEO_AUDIT=PASS')
+          print(f'SHORT_TITLE={article_url(short_en)}')
+          print(f'LONG_TITLE={article_url(long_es)}')
+          print(f'HREFLANG_PAIR={es_url} <-> {en_url}')
+          print('SITEMAPS=PASS')
+          print('ROBOTS=PASS')
+          print('CONSOLIDATED_REDIRECTS=PASS')
+          PY
