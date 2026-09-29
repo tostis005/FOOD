@@ -19,6 +19,7 @@ $topic_descriptions_en = array(
 	'mitos-preguntas-frecuentes' => 'Direct answers to common questions and popular claims about food and nutrition.',
 	'procesamiento-produccion-elaboracion' => 'How food is produced, processed, fermented, cured and manufactured.',
 	'compra-calidad-maduracion' => 'How to choose food, recognize quality, understand ripeness and read useful signals.',
+	'etiquetado-ingredientes' => 'How to read ingredient lists, additives and label terms and understand why they appear in food.',
 );
 
 $page_label = $is_foods ? ( $english ? 'Foods' : 'Alimentos' ) : ( $english ? 'Topics' : 'Temas' );

@@ -601,12 +601,46 @@ function food_clear_home_rotation_cache() {
 add_action( 'save_post_post', 'food_clear_home_rotation_cache' );
 add_action( 'deleted_post', 'food_clear_home_rotation_cache' );
 
+function food_taxonomy_language_post_count( $term, $language = '', $limit = 3 ) {
+	if ( ! $term instanceof WP_Term || ! in_array( $term->taxonomy, array( 'category', 'food_topic' ), true ) ) {
+		return 0;
+	}
+
+	$language = $language ?: ( function_exists( 'food_current_language' ) ? food_current_language() : 'es' );
+	$limit    = max( 1, (int) $limit );
+	$args     = array(
+		'post_type'            => 'post',
+		'post_status'          => 'publish',
+		'posts_per_page'       => $limit,
+		'fields'               => 'ids',
+		'no_found_rows'        => true,
+		'ignore_sticky_posts'  => true,
+		'food_language_bypass' => 1,
+		'tax_query'            => array(
+			array(
+				'taxonomy' => $term->taxonomy,
+				'field'    => 'term_id',
+				'terms'    => array( (int) $term->term_id ),
+			),
+		),
+	);
+	if ( function_exists( 'food_language_query_clause' ) ) {
+		$args['meta_query'] = array( food_language_query_clause( 'en' === $language ? 'en' : 'es' ) );
+	}
+
+	return count( get_posts( $args ) );
+}
+
 function food_topic_archive_robots( $robots ) {
 	if ( is_tax( 'food_topic' ) ) {
 		$term = get_queried_object();
-		if ( $term instanceof WP_Term && (int) $term->count < 3 ) {
-			$robots['noindex'] = true;
-			$robots['follow']  = true;
+		if ( $term instanceof WP_Term ) {
+			$language = function_exists( 'food_current_language' ) ? food_current_language() : 'es';
+			$count    = food_taxonomy_language_post_count( $term, $language, 3 );
+			if ( $count < 3 ) {
+				$robots['noindex'] = true;
+				$robots['follow']  = true;
+			}
 		}
 	}
 	return $robots;
