@@ -173,10 +173,21 @@ function food_seo_v2_description() {
 	if ( is_singular( 'post' ) ) {
 		$post_id     = get_queried_object_id();
 		$description = trim( (string) get_post_meta( $post_id, '_food_meta_description', true ) );
+		$excerpt     = trim( (string) get_the_excerpt( $post_id ) );
+
+		$description_length = function_exists( 'mb_strlen' ) ? mb_strlen( $description, 'UTF-8' ) : strlen( $description );
+		$excerpt_length     = function_exists( 'mb_strlen' ) ? mb_strlen( $excerpt, 'UTF-8' ) : strlen( $excerpt );
+
+		// Prefer the curated excerpt when the stored meta description is an
+		// extreme outlier. This improves very short snippets and avoids chopping
+		// 300+ character descriptions mid-thought, without rewriting article data.
+		if ( $excerpt_length >= 90 && $excerpt_length <= 220 && ( $description_length < 70 || $description_length > 220 ) ) {
+			$description = $excerpt;
+		}
+
 		if ( $description ) {
 			return food_seo_v2_trim( $description );
 		}
-		$excerpt = get_the_excerpt( $post_id );
 		return $excerpt ? food_seo_v2_trim( $excerpt ) : food_seo_v2_trim( get_post_field( 'post_content', $post_id ) );
 	}
 
