@@ -171,7 +171,7 @@
       "a_title": "Dates: sugar, fiber and calories",
       "b": 607,
       "b_title": "Dates vs. sugar: nutrition differences",
-      "similarity": 0.8765,
+      "similarity": 0.8766,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 1
@@ -204,7 +204,7 @@
       "a_title": "Salmón: proteína, omega-3, grasa y calorías",
       "b": 185,
       "b_title": "Merluza vs. salmón: proteína, grasa y calorías",
-      "similarity": 0.5378,
+      "similarity": 0.5379,
       "title_jaccard": 0.8333,
       "family_match": true,
       "type_overlap": 1
@@ -215,7 +215,7 @@
       "a_title": "Atún vs. salmón: proteína, omega-3, grasa y calorías",
       "b": 183,
       "b_title": "Salmón: proteína, omega-3, grasa y calorías",
-      "similarity": 0.523,
+      "similarity": 0.5231,
       "title_jaccard": 0.8333,
       "family_match": true,
       "type_overlap": 1
@@ -259,7 +259,7 @@
       "a_title": "Los alimentos con más proteína: ranking por cada 100 gramos",
       "b": 13,
       "b_title": "Las carnes con más proteína: ranking por cada 100 gramos",
-      "similarity": 0.4695,
+      "similarity": 0.4698,
       "title_jaccard": 0.8,
       "family_match": false,
       "type_overlap": 2
@@ -270,7 +270,7 @@
       "a_title": "Foods with more potassium than a banana",
       "b": 131,
       "b_title": "Is the banana really one of the best sources of potassium?",
-      "similarity": 0.7955,
+      "similarity": 0.7954,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -292,7 +292,7 @@
       "a_title": "70%, 85%, and 100% cacao chocolate: what really changes?",
       "b": 513,
       "b_title": "What does the cacao percentage on chocolate mean?",
-      "similarity": 0.7818,
+      "similarity": 0.7819,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 0
@@ -358,7 +358,7 @@
       "a_title": "Dietary cholesterol vs. blood cholesterol: what’s the difference?",
       "b": 165,
       "b_title": "Eggs and cholesterol: what the relationship actually means",
-      "similarity": 0.7546,
+      "similarity": 0.7545,
       "title_jaccard": 0.1111,
       "family_match": false,
       "type_overlap": 2
@@ -402,7 +402,7 @@
       "a_title": "Cuánto tiempo puede estar la comida fuera de la nevera",
       "b": 270,
       "b_title": "Cuánto tiempo puede estar la carne fuera de la nevera",
-      "similarity": 0.6259,
+      "similarity": 0.626,
       "title_jaccard": 0.75,
       "family_match": false,
       "type_overlap": 2
@@ -589,7 +589,7 @@
       "a_title": "How Long Does Bacon Last Once Opened?",
       "b": 986,
       "b_title": "How Long Does Cooked Bacon Last in the Fridge?",
-      "similarity": 0.7317,
+      "similarity": 0.7319,
       "title_jaccard": 0.5714,
       "family_match": true,
       "type_overlap": 2
@@ -650,17 +650,6 @@
       "type_overlap": 2
     },
     {
-      "language": "en",
-      "a": 305,
-      "a_title": "Extra-virgin olive oil: fat, calories and composition",
-      "b": 380,
-      "b_title": "Can you fry with extra-virgin olive oil?",
-      "similarity": 0.7213,
-      "title_jaccard": 0.5,
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
       "language": "es",
       "a": 130,
       "a_title": "¿Es realmente la naranja la fruta con más vitamina C?",
@@ -681,6 +670,17 @@
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 305,
+      "a_title": "Extra-virgin olive oil: fat, calories and composition",
+      "b": 380,
+      "b_title": "Can you fry with extra-virgin olive oil?",
+      "similarity": 0.7201,
+      "title_jaccard": 0.5,
+      "family_match": true,
+      "type_overlap": 0
     },
     {
       "language": "en",
@@ -721,7 +721,7 @@
       "a_title": "Avocado vs. olive oil: fats and nutritional differences",
       "b": 637,
       "b_title": "Avocado Oil vs Olive Oil: Which Is Better for Cooking?",
-      "similarity": 0.7147,
+      "similarity": 0.7148,
       "title_jaccard": 0.3,
       "family_match": false,
       "type_overlap": 1
@@ -776,7 +776,7 @@
       "a_title": "How Long Does Cooked Chicken Last in the Fridge?",
       "b": 30,
       "b_title": "How Long Does Raw Chicken Last in the Fridge?",
-      "similarity": 0.6502,
+      "similarity": 0.6504,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -864,7 +864,7 @@
       "a_title": "Salmon: protein, omega-3, fat, and calories",
       "b": 185,
       "b_title": "Hake vs. salmon: protein, fat, calories, and omega-3",
-      "similarity": 0.5899,
+      "similarity": 0.5898,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -875,7 +875,7 @@
       "a_title": "Highest-Protein Foods: A Practical Ranking per 100 Grams",
       "b": 13,
       "b_title": "Highest-Protein Meats: Ranking per 100 Grams",
-      "similarity": 0.5832,
+      "similarity": 0.5831,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -952,7 +952,7 @@
       "a_title": "How Long Does Cooked Meat Last in the Fridge?",
       "b": 33,
       "b_title": "How Long Does Raw Meat Last in the Fridge?",
-      "similarity": 0.501,
+      "similarity": 0.5011,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1007,7 +1007,7 @@
       "a_title": "How Long Does Cooked Chicken Last in the Fridge?",
       "b": 32,
       "b_title": "How Long Does Cooked Meat Last in the Fridge?",
-      "similarity": 0.4309,
+      "similarity": 0.4306,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1040,7 +1040,7 @@
       "a_title": "How Long Does Cooked Rice Last in the Fridge?",
       "b": 32,
       "b_title": "How Long Does Cooked Meat Last in the Fridge?",
-      "similarity": 0.3961,
+      "similarity": 0.3958,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1051,7 +1051,7 @@
       "a_title": "How Long Does Cooked Chicken Last in the Fridge?",
       "b": 9,
       "b_title": "How Long Does Cooked Rice Last in the Fridge?",
-      "similarity": 0.3825,
+      "similarity": 0.3822,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1084,7 +1084,7 @@
       "a_title": "How Long Does Opened Hummus Last in the Refrigerator?",
       "b": 1301,
       "b_title": "How Long Does Opened Tofu Last in the Refrigerator?",
-      "similarity": 0.3193,
+      "similarity": 0.3194,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1095,7 +1095,7 @@
       "a_title": "How Long Does Opened Hummus Last in the Refrigerator?",
       "b": 1303,
       "b_title": "How Long Does Opened Guacamole Last in the Refrigerator?",
-      "similarity": 0.2989,
+      "similarity": 0.2991,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1326,7 +1326,7 @@
       "a_title": "Natural vs regular peanut butter: what changes in the ingredients",
       "b": 747,
       "b_title": "Powdered vs regular peanut butter: where do the calories go?",
-      "similarity": 0.7009,
+      "similarity": 0.701,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
@@ -1337,7 +1337,7 @@
       "a_title": "Coconut Milk vs Coconut Cream: Richness, Fat, and Cooking Uses",
       "b": 976,
       "b_title": "How Long Does Opened Coconut Milk Last in the Fridge?",
-      "similarity": 0.6977,
+      "similarity": 0.6976,
       "title_jaccard": 0.1818,
       "family_match": false,
       "type_overlap": 0
@@ -1348,7 +1348,7 @@
       "a_title": "¿Hay que remojar las semillas de chía?",
       "b": 210,
       "b_title": "¿Se pueden comer semillas de chía sin remojar?",
-      "similarity": 0.6967,
+      "similarity": 0.6966,
       "title_jaccard": 0.6,
       "family_match": true,
       "type_overlap": 2
@@ -1480,7 +1480,7 @@
       "a_title": "Foods with more potassium than a banana",
       "b": 168,
       "b_title": "Avocado vs. banana: potassium, fiber, and calories",
-      "similarity": 0.6849,
+      "similarity": 0.6848,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -1546,7 +1546,7 @@
       "a_title": "Fresh vs. frozen fruit: nutritional differences",
       "b": 443,
       "b_title": "Does Frozen Fruit Lose Vitamins?",
-      "similarity": 0.6824,
+      "similarity": 0.6825,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
@@ -1579,7 +1579,7 @@
       "a_title": "Atún: proteína, grasa, mercurio y valor nutricional",
       "b": 763,
       "b_title": "Atún blanco o atún claro: cuál suele contener más mercurio",
-      "similarity": 0.6799,
+      "similarity": 0.6798,
       "title_jaccard": 0.1818,
       "family_match": true,
       "type_overlap": 2
@@ -1590,7 +1590,7 @@
       "a_title": "Cacao puro: fibra, grasa, proteína y minerales",
       "b": 505,
       "b_title": "Cacao puro vs. cacao soluble: diferencias",
-      "similarity": 0.6786,
+      "similarity": 0.6785,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 1
@@ -1656,7 +1656,7 @@
       "a_title": "Serrano ham vs. Iberian ham: nutrition and production differences",
       "b": 370,
       "b_title": "Can you freeze Serrano ham or cooked ham?",
-      "similarity": 0.6756,
+      "similarity": 0.6757,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 0
@@ -1750,6 +1750,17 @@
       "type_overlap": 1
     },
     {
+      "language": "es",
+      "a": 675,
+      "a_title": "Leche pasteurizada o UHT: por qué una dura días y otra meses",
+      "b": 1290,
+      "b_title": "Leche UHT vs. pasteurizada: diferencias, conservación y valor nutricional",
+      "similarity": 0.671,
+      "title_jaccard": 0.2727,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
       "language": "en",
       "a": 39,
       "a_title": "Foods Highest in Potassium: It Is Not Just Bananas",
@@ -1759,17 +1770,6 @@
       "title_jaccard": 0.25,
       "family_match": true,
       "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 675,
-      "a_title": "Leche pasteurizada o UHT: por qué una dura días y otra meses",
-      "b": 1290,
-      "b_title": "Leche UHT vs. pasteurizada: diferencias, conservación y valor nutricional",
-      "similarity": 0.6709,
-      "title_jaccard": 0.2727,
-      "family_match": true,
-      "type_overlap": 1
     },
     {
       "language": "en",
@@ -1887,7 +1887,7 @@
       "a_title": "¿Es saludable comer legumbres todos los días?",
       "b": 117,
       "b_title": "¿Es saludable comer yogur todos los días?",
-      "similarity": 0.6367,
+      "similarity": 0.6366,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -1909,7 +1909,7 @@
       "a_title": "Can you freeze cooked chicken?",
       "b": 277,
       "b_title": "Can you freeze cooked meat?",
-      "similarity": 0.6233,
+      "similarity": 0.6232,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -1964,7 +1964,7 @@
       "a_title": "Nueces: propiedades nutricionales y omega-3",
       "b": 189,
       "b_title": "Nueces vs. pistachos: diferencias nutricionales",
-      "similarity": 0.5999,
+      "similarity": 0.6,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
@@ -2030,7 +2030,7 @@
       "a_title": "Salmón: proteína, omega-3, grasa y calorías",
       "b": 186,
       "b_title": "Salmón vs. sardinas: omega-3, proteína y calorías",
-      "similarity": 0.5882,
+      "similarity": 0.5881,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
@@ -2162,7 +2162,7 @@
       "a_title": "How Much Lentils Per Person: Dry and Cooked Amounts",
       "b": 1181,
       "b_title": "How Much Chickpeas Per Person: Dry, Soaked, and Cooked Amounts",
-      "similarity": 0.549,
+      "similarity": 0.5489,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2206,7 +2206,7 @@
       "a_title": "Cuánto dura una cebolla cortada en la nevera",
       "b": 988,
       "b_title": "Cuánto dura una sandía cortada en la nevera",
-      "similarity": 0.5308,
+      "similarity": 0.5309,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -2261,7 +2261,7 @@
       "a_title": "Is it healthy to eat eggs every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.5171,
+      "similarity": 0.517,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2294,7 +2294,7 @@
       "a_title": "How long does cooked fish last in the fridge?",
       "b": 278,
       "b_title": "How long does cooked salmon last in the fridge?",
-      "similarity": 0.5101,
+      "similarity": 0.5099,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2437,7 +2437,7 @@
       "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
       "b": 213,
       "b_title": "Ground beef vs. ground turkey: nutrition differences",
-      "similarity": 0.4829,
+      "similarity": 0.483,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2481,7 +2481,7 @@
       "a_title": "Is it healthy to eat yogurt every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.4683,
+      "similarity": 0.4684,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2492,7 +2492,7 @@
       "a_title": "How long do cooked lentils last in the fridge?",
       "b": 217,
       "b_title": "How long do cooked chickpeas last in the fridge?",
-      "similarity": 0.4676,
+      "similarity": 0.4674,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2558,7 +2558,7 @@
       "a_title": "How long do cooked chickpeas last in the fridge?",
       "b": 252,
       "b_title": "How long does cooked fish last in the fridge?",
-      "similarity": 0.4506,
+      "similarity": 0.4504,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2587,22 +2587,22 @@
     },
     {
       "language": "en",
-      "a": 217,
-      "a_title": "How long do cooked chickpeas last in the fridge?",
-      "b": 278,
-      "b_title": "How long does cooked salmon last in the fridge?",
-      "similarity": 0.441,
+      "a": 974,
+      "a_title": "How Long Does Opened Pesto Last in the Fridge?",
+      "b": 975,
+      "b_title": "How Long Does Opened Broth Last in the Fridge?",
+      "similarity": 0.4409,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
     },
     {
       "language": "en",
-      "a": 974,
-      "a_title": "How Long Does Opened Pesto Last in the Fridge?",
-      "b": 975,
-      "b_title": "How Long Does Opened Broth Last in the Fridge?",
-      "similarity": 0.4409,
+      "a": 217,
+      "a_title": "How long do cooked chickpeas last in the fridge?",
+      "b": 278,
+      "b_title": "How long does cooked salmon last in the fridge?",
+      "similarity": 0.4408,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2624,7 +2624,7 @@
       "a_title": "Is it healthy to eat nuts every day?",
       "b": 119,
       "b_title": "Is it healthy to eat rice every day?",
-      "similarity": 0.4358,
+      "similarity": 0.4359,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2635,7 +2635,7 @@
       "a_title": "How long do cooked lentils last in the fridge?",
       "b": 278,
       "b_title": "How long does cooked salmon last in the fridge?",
-      "similarity": 0.4345,
+      "similarity": 0.4342,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2646,7 +2646,7 @@
       "a_title": "How long does cooked pasta last in the fridge?",
       "b": 252,
       "b_title": "How long does cooked fish last in the fridge?",
-      "similarity": 0.4331,
+      "similarity": 0.4328,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2679,7 +2679,7 @@
       "a_title": "How long does cooked pasta last in the fridge?",
       "b": 278,
       "b_title": "How long does cooked salmon last in the fridge?",
-      "similarity": 0.4308,
+      "similarity": 0.4305,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2701,7 +2701,7 @@
       "a_title": "How long do cooked lentils last in the fridge?",
       "b": 252,
       "b_title": "How long does cooked fish last in the fridge?",
-      "similarity": 0.4254,
+      "similarity": 0.4252,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2712,7 +2712,7 @@
       "a_title": "Is it healthy to eat eggs every day?",
       "b": 119,
       "b_title": "Is it healthy to eat rice every day?",
-      "similarity": 0.4244,
+      "similarity": 0.4245,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2734,7 +2734,7 @@
       "a_title": "Cuánto dura la carne cocinada en la nevera",
       "b": 33,
       "b_title": "Cuánto dura la carne cruda en la nevera",
-      "similarity": 0.4205,
+      "similarity": 0.4212,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2767,7 +2767,7 @@
       "a_title": "Cuánto dura la carne cocinada en la nevera",
       "b": 34,
       "b_title": "Cuánto dura la carne picada en la nevera",
-      "similarity": 0.4116,
+      "similarity": 0.4123,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2796,17 +2796,6 @@
     },
     {
       "language": "en",
-      "a": 252,
-      "a_title": "How long does cooked fish last in the fridge?",
-      "b": 284,
-      "b_title": "How long does cooked shrimp last in the fridge?",
-      "similarity": 0.4111,
-      "title_jaccard": 0.6667,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
       "a": 119,
       "a_title": "Is it healthy to eat rice every day?",
       "b": 122,
@@ -2815,6 +2804,17 @@
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 3
+    },
+    {
+      "language": "en",
+      "a": 252,
+      "a_title": "How long does cooked fish last in the fridge?",
+      "b": 284,
+      "b_title": "How long does cooked shrimp last in the fridge?",
+      "similarity": 0.4109,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
     },
     {
       "language": "en",
@@ -2844,7 +2844,7 @@
       "a_title": "How long does cooked salmon last in the fridge?",
       "b": 284,
       "b_title": "How long does cooked shrimp last in the fridge?",
-      "similarity": 0.403,
+      "similarity": 0.4027,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2

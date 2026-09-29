@@ -38,7 +38,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | Lang | A | B | Similarity | Title overlap |
 | --- | ---: | ---: | ---: | ---: |
 | en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 1273 - Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing | 0.804 | 0.889 |
-| en | 606 - Dates: sugar, fiber and calories | 607 - Dates vs. sugar: nutrition differences | 0.876 | 0.500 |
+| en | 606 - Dates: sugar, fiber and calories | 607 - Dates vs. sugar: nutrition differences | 0.877 | 0.500 |
 | en | 582 - Cottage cheese: protein, fat and calories | 584 - Cottage cheese vs. ricotta: nutrition differences | 0.618 | 0.857 |
 | en | 553 - Hummus: protein, fiber, fat and nutrition | 554 - Hummus vs. guacamole: nutrition differences | 0.564 | 0.857 |
 | es | 183 - Salmón: proteína, omega-3, grasa y calorías | 185 - Merluza vs. salmón: proteína, grasa y calorías | 0.538 | 0.833 |
@@ -46,7 +46,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | es | 724 - Jarabe de maíz de alta fructosa o azúcar: ¿son realmente diferentes? | 725 - Jarabe de maíz y jarabe de maíz de alta fructosa: no son el mismo endulzante | 0.822 | 0.500 |
 | en | 38 - Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.814 | 0.417 |
 | es | 38 - Los alimentos con más omega-3: pescado, semillas y nueces sin mezclar ALA con EPA y DHA | 167 - Omega-3 vegetal vs. omega-3 del pescado | 0.811 | 0.556 |
-| es | 1 - Los alimentos con más proteína: ranking por cada 100 gramos | 13 - Las carnes con más proteína: ranking por cada 100 gramos | 0.469 | 0.800 |
+| es | 1 - Los alimentos con más proteína: ranking por cada 100 gramos | 13 - Las carnes con más proteína: ranking por cada 100 gramos | 0.470 | 0.800 |
 | en | 123 - Foods with more potassium than a banana | 131 - Is the banana really one of the best sources of potassium? | 0.795 | 0.333 |
 | en | 601 - Honey vs. sugar: nutrition differences | 603 - What sugars are in honey? | 0.783 | 0.286 |
 | en | 512 - 70%, 85%, and 100% cacao chocolate: what really changes? | 513 - What does the cacao percentage on chocolate mean? | 0.782 | 0.333 |
@@ -55,7 +55,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 127 - The best plant sources of omega-3 | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.776 | 0.250 |
 | en | 60 - Whole Egg vs Egg Whites: Protein, Fat and Nutrients | 276 - Egg white vs. yolk: what each part provides | 0.762 | 0.545 |
 | en | 81 - Processed vs. ultra-processed foods: differences and examples | 82 - What ultra-processed foods actually are | 0.755 | 0.400 |
-| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.755 | 0.111 |
+| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.754 | 0.111 |
 | en | 572 - Oat milk vs. soy milk: nutrition differences | 573 - Almond milk vs. oat milk: nutrition differences | 0.730 | 0.750 |
 | es | 572 - Bebida de avena vs. bebida de soja: diferencias nutricionales | 573 - Bebida de almendra vs. bebida de avena: diferencias nutricionales | 0.699 | 0.750 |
 | en | 213 - Ground beef vs. ground turkey: nutrition differences | 218 - Ground beef vs. ground pork: nutrition differences | 0.673 | 0.750 |
@@ -82,9 +82,9 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 1119 - How Long Does Food Last in the Refrigerator During a Power Outage? | 1120 - How Long Does Food Last in the Freezer During a Power Outage? | 0.544 | 0.727 |
 | es | 39 - Los alimentos con más potasio: no solo el plátano | 131 - ¿Es realmente el plátano una de las mejores fuentes de potasio? | 0.726 | 0.286 |
 | es | 262 - Cómo descongelar pollo de forma segura | 271 - Cómo descongelar carne de forma segura | 0.722 | 0.600 |
-| en | 305 - Extra-virgin olive oil: fat, calories and composition | 380 - Can you fry with extra-virgin olive oil? | 0.721 | 0.500 |
 | es | 130 - ¿Es realmente la naranja la fruta con más vitamina C? | 398 - Las frutas con más vitamina C | 0.721 | 0.400 |
 | es | 497 - Los cereales integrales con más proteína | 498 - Los cereales integrales con más fibra | 0.720 | 0.500 |
+| en | 305 - Extra-virgin olive oil: fat, calories and composition | 380 - Can you fry with extra-virgin olive oil? | 0.720 | 0.500 |
 | en | 699 - Maple Syrup vs Sugar: Which Actually Contains More Sugar? | 700 - Maple Syrup vs Honey: Which Has More Sugar and Calories? | 0.718 | 0.556 |
 | en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 1272 - How Much Sugar Should You Have per Day? Free, Added, and Total Sugars Explained | 0.717 | 0.200 |
 | en | 684 - Canned Coconut Milk vs Coconut Beverage: Why They Are Not Interchangeable | 976 - How Long Does Opened Coconut Milk Last in the Fridge? | 0.717 | 0.167 |
