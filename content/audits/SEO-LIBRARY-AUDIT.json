@@ -171,7 +171,7 @@
       "a_title": "Dates: sugar, fiber and calories",
       "b": 607,
       "b_title": "Dates vs. sugar: nutrition differences",
-      "similarity": 0.8766,
+      "similarity": 0.8765,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 1
@@ -182,7 +182,7 @@
       "a_title": "Cottage cheese: protein, fat and calories",
       "b": 584,
       "b_title": "Cottage cheese vs. ricotta: nutrition differences",
-      "similarity": 0.6179,
+      "similarity": 0.6177,
       "title_jaccard": 0.8571,
       "family_match": true,
       "type_overlap": 2
@@ -204,7 +204,7 @@
       "a_title": "Salmón: proteína, omega-3, grasa y calorías",
       "b": 185,
       "b_title": "Merluza vs. salmón: proteína, grasa y calorías",
-      "similarity": 0.5377,
+      "similarity": 0.5378,
       "title_jaccard": 0.8333,
       "family_match": true,
       "type_overlap": 1
@@ -215,7 +215,7 @@
       "a_title": "Atún vs. salmón: proteína, omega-3, grasa y calorías",
       "b": 183,
       "b_title": "Salmón: proteína, omega-3, grasa y calorías",
-      "similarity": 0.5229,
+      "similarity": 0.523,
       "title_jaccard": 0.8333,
       "family_match": true,
       "type_overlap": 1
@@ -237,7 +237,7 @@
       "a_title": "Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA",
       "b": 167,
       "b_title": "Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained",
-      "similarity": 0.8143,
+      "similarity": 0.8142,
       "title_jaccard": 0.4167,
       "family_match": true,
       "type_overlap": 0
@@ -248,7 +248,7 @@
       "a_title": "Los alimentos con más omega-3: pescado, semillas y nueces sin mezclar ALA con EPA y DHA",
       "b": 167,
       "b_title": "Omega-3 vegetal vs. omega-3 del pescado",
-      "similarity": 0.8106,
+      "similarity": 0.8107,
       "title_jaccard": 0.5556,
       "family_match": true,
       "type_overlap": 0
@@ -259,7 +259,7 @@
       "a_title": "Los alimentos con más proteína: ranking por cada 100 gramos",
       "b": 13,
       "b_title": "Las carnes con más proteína: ranking por cada 100 gramos",
-      "similarity": 0.4696,
+      "similarity": 0.4695,
       "title_jaccard": 0.8,
       "family_match": false,
       "type_overlap": 2
@@ -270,7 +270,7 @@
       "a_title": "Foods with more potassium than a banana",
       "b": 131,
       "b_title": "Is the banana really one of the best sources of potassium?",
-      "similarity": 0.7951,
+      "similarity": 0.7955,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -281,7 +281,7 @@
       "a_title": "Honey vs. sugar: nutrition differences",
       "b": 603,
       "b_title": "What sugars are in honey?",
-      "similarity": 0.783,
+      "similarity": 0.7829,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 1
@@ -292,7 +292,7 @@
       "a_title": "70%, 85%, and 100% cacao chocolate: what really changes?",
       "b": 513,
       "b_title": "What does the cacao percentage on chocolate mean?",
-      "similarity": 0.7819,
+      "similarity": 0.7818,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 0
@@ -303,7 +303,7 @@
       "a_title": "Alimentos con más potasio que el plátano",
       "b": 131,
       "b_title": "¿Es realmente el plátano una de las mejores fuentes de potasio?",
-      "similarity": 0.7784,
+      "similarity": 0.7788,
       "title_jaccard": 0.5,
       "family_match": false,
       "type_overlap": 1
@@ -314,7 +314,7 @@
       "a_title": "Highest-Protein Nuts: Ranking per 100 Grams and per Ounce",
       "b": 17,
       "b_title": "Highest-Protein Seeds: Ranking per 100 Grams and per Ounce",
-      "similarity": 0.4928,
+      "similarity": 0.4923,
       "title_jaccard": 0.7778,
       "family_match": true,
       "type_overlap": 2
@@ -325,7 +325,7 @@
       "a_title": "The best plant sources of omega-3",
       "b": 167,
       "b_title": "Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained",
-      "similarity": 0.7756,
+      "similarity": 0.776,
       "title_jaccard": 0.25,
       "family_match": false,
       "type_overlap": 0
@@ -336,7 +336,7 @@
       "a_title": "Whole Egg vs Egg Whites: Protein, Fat and Nutrients",
       "b": 276,
       "b_title": "Egg white vs. yolk: what each part provides",
-      "similarity": 0.7615,
+      "similarity": 0.7617,
       "title_jaccard": 0.5455,
       "family_match": true,
       "type_overlap": 2
@@ -424,7 +424,7 @@
       "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
       "b": 49,
       "b_title": "Chicken vs Turkey: Nutrition Differences",
-      "similarity": 0.5606,
+      "similarity": 0.5607,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 2
@@ -446,7 +446,7 @@
       "a_title": "Carne de pollo: proteína, grasa y calorías según el corte",
       "b": 172,
       "b_title": "Carne de cerdo: cortes, proteína, grasa y calorías",
-      "similarity": 0.4769,
+      "similarity": 0.477,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 1
@@ -468,7 +468,7 @@
       "a_title": "¿La salsa picante necesita nevera después de abrirla?",
       "b": 970,
       "b_title": "¿La salsa Worcestershire necesita nevera después de abrirla?",
-      "similarity": 0.4505,
+      "similarity": 0.4506,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 2
@@ -479,7 +479,7 @@
       "a_title": "Soja: proteína, grasa y valor nutricional",
       "b": 553,
       "b_title": "Hummus: proteína, fibra, grasa y valor nutricional",
-      "similarity": 0.2749,
+      "similarity": 0.2751,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 1
@@ -501,7 +501,7 @@
       "a_title": "Tahini vs. peanut butter",
       "b": 548,
       "b_title": "Peanut butter vs. almond butter",
-      "similarity": 0.746,
+      "similarity": 0.7469,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -512,7 +512,7 @@
       "a_title": "Aguacate vs. aceite de oliva: grasas y diferencias nutricionales",
       "b": 637,
       "b_title": "Aceite de aguacate o de oliva: cuál conviene más para cocinar",
-      "similarity": 0.7399,
+      "similarity": 0.7413,
       "title_jaccard": 0.375,
       "family_match": false,
       "type_overlap": 1
@@ -523,7 +523,7 @@
       "a_title": "Glycemic index: what it is and which foods are highest",
       "b": 135,
       "b_title": "Glycemic index vs. glycemic load",
-      "similarity": 0.7394,
+      "similarity": 0.7393,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
@@ -545,7 +545,7 @@
       "a_title": "Bulgur vs. Couscous: Nutrition Compared",
       "b": 1217,
       "b_title": "Bulgur: What It Is, How to Cook It, and How It Differs From Couscous",
-      "similarity": 0.7361,
+      "similarity": 0.736,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -600,7 +600,7 @@
       "a_title": "Los alimentos con más potasio: no solo el plátano",
       "b": 123,
       "b_title": "Alimentos con más potasio que el plátano",
-      "similarity": 0.7317,
+      "similarity": 0.7316,
       "title_jaccard": 0.4,
       "family_match": true,
       "type_overlap": 2
@@ -611,7 +611,7 @@
       "a_title": "Which Foods Have Gluten, and Which Are Naturally Gluten-Free?",
       "b": 954,
       "b_title": "Do Potatoes Have Gluten?",
-      "similarity": 0.73,
+      "similarity": 0.7299,
       "title_jaccard": 0.25,
       "family_match": false,
       "type_overlap": 0
@@ -633,7 +633,7 @@
       "a_title": "Los alimentos con más potasio: no solo el plátano",
       "b": 131,
       "b_title": "¿Es realmente el plátano una de las mejores fuentes de potasio?",
-      "similarity": 0.7261,
+      "similarity": 0.726,
       "title_jaccard": 0.2857,
       "family_match": false,
       "type_overlap": 1
@@ -655,21 +655,10 @@
       "a_title": "Extra-virgin olive oil: fat, calories and composition",
       "b": 380,
       "b_title": "Can you fry with extra-virgin olive oil?",
-      "similarity": 0.7205,
+      "similarity": 0.7213,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 0
-    },
-    {
-      "language": "es",
-      "a": 497,
-      "a_title": "Los cereales integrales con más proteína",
-      "b": 498,
-      "b_title": "Los cereales integrales con más fibra",
-      "similarity": 0.7205,
-      "title_jaccard": 0.5,
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "es",
@@ -677,10 +666,21 @@
       "a_title": "¿Es realmente la naranja la fruta con más vitamina C?",
       "b": 398,
       "b_title": "Las frutas con más vitamina C",
-      "similarity": 0.7203,
+      "similarity": 0.7206,
       "title_jaccard": 0.4,
       "family_match": true,
       "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 497,
+      "a_title": "Los cereales integrales con más proteína",
+      "b": 498,
+      "b_title": "Los cereales integrales con más fibra",
+      "similarity": 0.7203,
+      "title_jaccard": 0.5,
+      "family_match": true,
+      "type_overlap": 2
     },
     {
       "language": "en",
@@ -688,7 +688,7 @@
       "a_title": "Maple Syrup vs Sugar: Which Actually Contains More Sugar?",
       "b": 700,
       "b_title": "Maple Syrup vs Honey: Which Has More Sugar and Calories?",
-      "similarity": 0.7181,
+      "similarity": 0.718,
       "title_jaccard": 0.5556,
       "family_match": true,
       "type_overlap": 3
@@ -699,7 +699,7 @@
       "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
       "b": 1272,
       "b_title": "How Much Sugar Should You Have per Day? Free, Added, and Total Sugars Explained",
-      "similarity": 0.7173,
+      "similarity": 0.7172,
       "title_jaccard": 0.2,
       "family_match": true,
       "type_overlap": 1
@@ -717,11 +717,22 @@
     },
     {
       "language": "en",
+      "a": 93,
+      "a_title": "Avocado vs. olive oil: fats and nutritional differences",
+      "b": 637,
+      "b_title": "Avocado Oil vs Olive Oil: Which Is Better for Cooking?",
+      "similarity": 0.7147,
+      "title_jaccard": 0.3,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
       "a": 329,
       "a_title": "Whole-wheat bread vs. rye bread: fiber, protein and satiety",
       "b": 385,
       "b_title": "White bread vs. whole-wheat bread: nutritional differences",
-      "similarity": 0.7145,
+      "similarity": 0.7143,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 2
@@ -754,7 +765,7 @@
       "a_title": "Does soy sauce need refrigeration after opening?",
       "b": 971,
       "b_title": "Does Fish Sauce Need Refrigeration After Opening?",
-      "similarity": 0.6659,
+      "similarity": 0.6658,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 1
@@ -765,7 +776,7 @@
       "a_title": "How Long Does Cooked Chicken Last in the Fridge?",
       "b": 30,
       "b_title": "How Long Does Raw Chicken Last in the Fridge?",
-      "similarity": 0.6501,
+      "similarity": 0.6502,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -798,7 +809,7 @@
       "a_title": "Dates vs. sugar: nutrition differences",
       "b": 608,
       "b_title": "Dates vs. raisins: sugar, fiber and calories",
-      "similarity": 0.6257,
+      "similarity": 0.6258,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -831,7 +842,7 @@
       "a_title": "¿La salsa de soja necesita nevera después de abrirla?",
       "b": 971,
       "b_title": "¿La salsa de pescado necesita nevera después de abrirla?",
-      "similarity": 0.5945,
+      "similarity": 0.5944,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 1
@@ -853,7 +864,7 @@
       "a_title": "Salmon: protein, omega-3, fat, and calories",
       "b": 185,
       "b_title": "Hake vs. salmon: protein, fat, calories, and omega-3",
-      "similarity": 0.5898,
+      "similarity": 0.5899,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -864,7 +875,7 @@
       "a_title": "Highest-Protein Foods: A Practical Ranking per 100 Grams",
       "b": 13,
       "b_title": "Highest-Protein Meats: Ranking per 100 Grams",
-      "similarity": 0.5834,
+      "similarity": 0.5832,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -897,7 +908,7 @@
       "a_title": "Tuna vs Salmon: Protein, Omega-3, Fat and Calories",
       "b": 183,
       "b_title": "Salmon: protein, omega-3, fat, and calories",
-      "similarity": 0.5487,
+      "similarity": 0.5488,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -908,7 +919,7 @@
       "a_title": "Highest-Fiber Foods: Ranking per 100 Grams and by Serving",
       "b": 74,
       "b_title": "The fruits highest in fiber",
-      "similarity": 0.5443,
+      "similarity": 0.5441,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -919,7 +930,7 @@
       "a_title": "Does Worcestershire Sauce Need Refrigeration After Opening?",
       "b": 971,
       "b_title": "Does Fish Sauce Need Refrigeration After Opening?",
-      "similarity": 0.5298,
+      "similarity": 0.5297,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -941,7 +952,7 @@
       "a_title": "How Long Does Cooked Meat Last in the Fridge?",
       "b": 33,
       "b_title": "How Long Does Raw Meat Last in the Fridge?",
-      "similarity": 0.5009,
+      "similarity": 0.501,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -952,7 +963,7 @@
       "a_title": "Beef vs Pork: Protein, Fat, Iron and Calories",
       "b": 171,
       "b_title": "Beef cuts: protein, fat, calories, and iron",
-      "similarity": 0.4897,
+      "similarity": 0.4898,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -963,7 +974,7 @@
       "a_title": "Yogur: proteína, calcio, grasa y valor nutricional",
       "b": 1318,
       "b_title": "Tahini: valor nutricional, grasas, proteína y calcio",
-      "similarity": 0.4785,
+      "similarity": 0.4787,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 1
@@ -985,7 +996,7 @@
       "a_title": "Tuna vs Salmon: Protein, Omega-3, Fat and Calories",
       "b": 185,
       "b_title": "Hake vs. salmon: protein, fat, calories, and omega-3",
-      "similarity": 0.4406,
+      "similarity": 0.4407,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1007,7 +1018,7 @@
       "a_title": "Atún vs. salmón: proteína, omega-3, grasa y calorías",
       "b": 185,
       "b_title": "Merluza vs. salmón: proteína, grasa y calorías",
-      "similarity": 0.4204,
+      "similarity": 0.4205,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1018,7 +1029,7 @@
       "a_title": "How Long Does Cooked Meat Last in the Fridge?",
       "b": 34,
       "b_title": "How Long Does Ground Meat Last in the Fridge?",
-      "similarity": 0.4144,
+      "similarity": 0.4145,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1029,7 +1040,7 @@
       "a_title": "How Long Does Cooked Rice Last in the Fridge?",
       "b": 32,
       "b_title": "How Long Does Cooked Meat Last in the Fridge?",
-      "similarity": 0.396,
+      "similarity": 0.3961,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1040,7 +1051,7 @@
       "a_title": "How Long Does Cooked Chicken Last in the Fridge?",
       "b": 9,
       "b_title": "How Long Does Cooked Rice Last in the Fridge?",
-      "similarity": 0.3824,
+      "similarity": 0.3825,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1051,7 +1062,7 @@
       "a_title": "Foods with the most protein per calorie",
       "b": 617,
       "b_title": "Foods with the most fiber per calorie",
-      "similarity": 0.3682,
+      "similarity": 0.368,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1095,7 +1106,7 @@
       "a_title": "Salmon: protein, omega-3, fat, and calories",
       "b": 219,
       "b_title": "Mackerel: protein, omega-3s, and nutrition",
-      "similarity": 0.2378,
+      "similarity": 0.2379,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -1123,17 +1134,6 @@
       "type_overlap": 1
     },
     {
-      "language": "en",
-      "a": 93,
-      "a_title": "Avocado vs. olive oil: fats and nutritional differences",
-      "b": 637,
-      "b_title": "Avocado Oil vs Olive Oil: Which Is Better for Cooking?",
-      "similarity": 0.7135,
-      "title_jaccard": 0.3,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
       "language": "es",
       "a": 730,
       "a_title": "Caldo de huesos o caldo tradicional: ¿hay realmente tanta diferencia?",
@@ -1143,6 +1143,17 @@
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 64,
+      "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
+      "b": 203,
+      "b_title": "Arroz integral vs. quinoa: fibra, proteína y calorías",
+      "similarity": 0.7113,
+      "title_jaccard": 0.5714,
+      "family_match": true,
+      "type_overlap": 1
     },
     {
       "language": "es",
@@ -1157,22 +1168,11 @@
     },
     {
       "language": "es",
-      "a": 64,
-      "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
-      "b": 203,
-      "b_title": "Arroz integral vs. quinoa: fibra, proteína y calorías",
-      "similarity": 0.7111,
-      "title_jaccard": 0.5714,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
       "a": 512,
       "a_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
       "b": 513,
       "b_title": "Qué significa el porcentaje de cacao del chocolate",
-      "similarity": 0.711,
+      "similarity": 0.7109,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 0
@@ -1183,7 +1183,7 @@
       "a_title": "Quinoa vs. rice: protein, fiber, and carbs",
       "b": 203,
       "b_title": "Brown rice vs. quinoa: protein, fiber, and calories",
-      "similarity": 0.7099,
+      "similarity": 0.71,
       "title_jaccard": 0.5714,
       "family_match": true,
       "type_overlap": 1
@@ -1194,7 +1194,7 @@
       "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
       "b": 512,
       "b_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
-      "similarity": 0.7092,
+      "similarity": 0.709,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 2
@@ -1205,7 +1205,7 @@
       "a_title": "Peanuts: Protein, Fat, Fiber, and Calories",
       "b": 550,
       "b_title": "Peanuts vs. almonds: nutrition differences",
-      "similarity": 0.709,
+      "similarity": 0.7089,
       "title_jaccard": 0.375,
       "family_match": true,
       "type_overlap": 1
@@ -1216,7 +1216,7 @@
       "a_title": "Hummus: protein, fiber, fat and nutrition",
       "b": 555,
       "b_title": "Hummus vs. tahini: nutrition differences",
-      "similarity": 0.7073,
+      "similarity": 0.7072,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 1
@@ -1227,10 +1227,21 @@
       "a_title": "Sirope de arce o azúcar: cuál contiene realmente más azúcar",
       "b": 700,
       "b_title": "Sirope de arce o miel: cuál tiene más azúcar y calorías",
-      "similarity": 0.7056,
+      "similarity": 0.7055,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 3
+    },
+    {
+      "language": "en",
+      "a": 102,
+      "a_title": "Raw vs. roasted nuts: nutritional differences",
+      "b": 195,
+      "b_title": "Do nuts lose nutrients when roasted?",
+      "similarity": 0.7053,
+      "title_jaccard": 0.3333,
+      "family_match": true,
+      "type_overlap": 1
     },
     {
       "language": "es",
@@ -1245,12 +1256,12 @@
     },
     {
       "language": "en",
-      "a": 102,
-      "a_title": "Raw vs. roasted nuts: nutritional differences",
-      "b": 195,
-      "b_title": "Do nuts lose nutrients when roasted?",
-      "similarity": 0.7041,
-      "title_jaccard": 0.3333,
+      "a": 49,
+      "a_title": "Chicken vs Turkey: Nutrition Differences",
+      "b": 173,
+      "b_title": "Turkey: protein, fat, and calories by cut",
+      "similarity": 0.7038,
+      "title_jaccard": 0.5714,
       "family_match": true,
       "type_overlap": 1
     },
@@ -1260,20 +1271,9 @@
       "a_title": "Alimentos con más vitamina C que la naranja",
       "b": 130,
       "b_title": "¿Es realmente la naranja la fruta con más vitamina C?",
-      "similarity": 0.7041,
+      "similarity": 0.7037,
       "title_jaccard": 0.5,
       "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 49,
-      "a_title": "Chicken vs Turkey: Nutrition Differences",
-      "b": 173,
-      "b_title": "Turkey: protein, fat, and calories by cut",
-      "similarity": 0.7038,
-      "title_jaccard": 0.5714,
-      "family_match": true,
       "type_overlap": 1
     },
     {
@@ -1293,7 +1293,7 @@
       "a_title": "Skyr vs. cottage cheese: proteína y calorías",
       "b": 582,
       "b_title": "Cottage cheese: proteína, grasa y calorías",
-      "similarity": 0.7017,
+      "similarity": 0.7018,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
@@ -1315,7 +1315,7 @@
       "a_title": "Las carnes más magras: ranking de cortes con menos grasa",
       "b": 227,
       "b_title": "Las carnes con menos calorías",
-      "similarity": 0.7012,
+      "similarity": 0.7011,
       "title_jaccard": 0.4286,
       "family_match": true,
       "type_overlap": 2
@@ -1326,7 +1326,7 @@
       "a_title": "Natural vs regular peanut butter: what changes in the ingredients",
       "b": 747,
       "b_title": "Powdered vs regular peanut butter: where do the calories go?",
-      "similarity": 0.7003,
+      "similarity": 0.7009,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
@@ -1359,7 +1359,7 @@
       "a_title": "Bulgur vs. cuscús: diferencias nutricionales",
       "b": 1217,
       "b_title": "Bulgur: qué es, cómo se cocina y en qué se diferencia del cuscús",
-      "similarity": 0.6964,
+      "similarity": 0.6963,
       "title_jaccard": 0.5,
       "family_match": false,
       "type_overlap": 1
@@ -1381,7 +1381,7 @@
       "a_title": "Should you rinse rice before cooking?",
       "b": 373,
       "b_title": "Do you need to rinse every type of rice?",
-      "similarity": 0.694,
+      "similarity": 0.6941,
       "title_jaccard": 0.2,
       "family_match": true,
       "type_overlap": 2
@@ -1414,7 +1414,7 @@
       "a_title": "Foods with more vitamin C than an orange",
       "b": 130,
       "b_title": "Is the orange really the fruit with the most vitamin C?",
-      "similarity": 0.6914,
+      "similarity": 0.6912,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -1432,24 +1432,24 @@
     },
     {
       "language": "en",
-      "a": 497,
-      "a_title": "Whole Grains Highest in Protein",
-      "b": 498,
-      "b_title": "Whole Grains Highest in Fiber",
-      "similarity": 0.6878,
-      "title_jaccard": 0.6,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
       "a": 379,
       "a_title": "Hot vs. cooled potatoes: what happens to resistant starch?",
       "b": 610,
       "b_title": "Resistant starch in cooled rice, potatoes and pasta",
-      "similarity": 0.6875,
+      "similarity": 0.6874,
       "title_jaccard": 0.5,
       "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 497,
+      "a_title": "Whole Grains Highest in Protein",
+      "b": 498,
+      "b_title": "Whole Grains Highest in Fiber",
+      "similarity": 0.6873,
+      "title_jaccard": 0.6,
+      "family_match": true,
       "type_overlap": 2
     },
     {
@@ -1458,7 +1458,7 @@
       "a_title": "Dates: sugar, fiber and calories",
       "b": 608,
       "b_title": "Dates vs. raisins: sugar, fiber and calories",
-      "similarity": 0.6861,
+      "similarity": 0.6863,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 1
@@ -1469,7 +1469,7 @@
       "a_title": "Dátiles: azúcar, fibra y calorías",
       "b": 608,
       "b_title": "Dátiles vs. pasas: azúcar, fibra y calorías",
-      "similarity": 0.6855,
+      "similarity": 0.6857,
       "title_jaccard": 0.5714,
       "family_match": true,
       "type_overlap": 1
@@ -1491,8 +1491,19 @@
       "a_title": "Semillas de cáñamo: proteína y perfil nutricional",
       "b": 544,
       "b_title": "Chía vs. semillas de cáñamo",
-      "similarity": 0.684,
+      "similarity": 0.6841,
       "title_jaccard": 0.4,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 64,
+      "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
+      "b": 490,
+      "b_title": "Quinoa vs. lentejas: proteína, fibra y carbohidratos",
+      "similarity": 0.6835,
+      "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
     },
@@ -1502,20 +1513,9 @@
       "a_title": "Fruit Sugar vs. Added Sugar: What’s the Difference?",
       "b": 705,
       "b_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
-      "similarity": 0.6834,
+      "similarity": 0.6832,
       "title_jaccard": 0.2222,
       "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 64,
-      "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
-      "b": 490,
-      "b_title": "Quinoa vs. lentejas: proteína, fibra y carbohidratos",
-      "similarity": 0.6833,
-      "title_jaccard": 0.6667,
-      "family_match": true,
       "type_overlap": 1
     },
     {
@@ -1524,7 +1524,7 @@
       "a_title": "High-Fructose Corn Syrup vs Sugar: Are They Really Different?",
       "b": 725,
       "b_title": "Corn Syrup vs High-Fructose Corn Syrup: They Are Not the Same Sweetener",
-      "similarity": 0.6826,
+      "similarity": 0.6827,
       "title_jaccard": 0.4545,
       "family_match": false,
       "type_overlap": 1
@@ -1535,7 +1535,7 @@
       "a_title": "Tahini: qué es y qué aporta nutricionalmente",
       "b": 1318,
       "b_title": "Tahini: valor nutricional, grasas, proteína y calcio",
-      "similarity": 0.6824,
+      "similarity": 0.6826,
       "title_jaccard": 0.3,
       "family_match": true,
       "type_overlap": 1
@@ -1546,7 +1546,7 @@
       "a_title": "Fresh vs. frozen fruit: nutritional differences",
       "b": 443,
       "b_title": "Does Frozen Fruit Lose Vitamins?",
-      "similarity": 0.6819,
+      "similarity": 0.6824,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
@@ -1557,7 +1557,7 @@
       "a_title": "Hemp seeds: protein, fat, omega-3, and nutrition",
       "b": 544,
       "b_title": "Chia vs. hemp seeds",
-      "similarity": 0.6807,
+      "similarity": 0.6806,
       "title_jaccard": 0.4444,
       "family_match": true,
       "type_overlap": 1
@@ -1579,7 +1579,7 @@
       "a_title": "Atún: proteína, grasa, mercurio y valor nutricional",
       "b": 763,
       "b_title": "Atún blanco o atún claro: cuál suele contener más mercurio",
-      "similarity": 0.68,
+      "similarity": 0.6799,
       "title_jaccard": 0.1818,
       "family_match": true,
       "type_overlap": 2
@@ -1678,7 +1678,7 @@
       "a_title": "Whole-bean vs. ground coffee",
       "b": 964,
       "b_title": "Is a Coffee Bean Really a Bean or a Seed?",
-      "similarity": 0.6747,
+      "similarity": 0.6749,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 0
@@ -1689,7 +1689,7 @@
       "a_title": "Leche ultrafiltrada o normal: por qué una puede tener mucha más proteína",
       "b": 1340,
       "b_title": "Leche ultrafiltrada: por qué tiene más proteína y menos azúcar que la leche normal",
-      "similarity": 0.6738,
+      "similarity": 0.6737,
       "title_jaccard": 0.3636,
       "family_match": true,
       "type_overlap": 0
@@ -1711,7 +1711,7 @@
       "a_title": "What does nutrient-dense actually mean?",
       "b": 614,
       "b_title": "Nutrient density: how to compare foods beyond calories",
-      "similarity": 0.6723,
+      "similarity": 0.672,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
@@ -1729,25 +1729,36 @@
     },
     {
       "language": "en",
+      "a": 678,
+      "a_title": "What Is Whey? The Liquid Left After Milk Proteins Separate",
+      "b": 1250,
+      "b_title": "Clear Whey: What It Is and How It Differs From Traditional Whey Protein",
+      "similarity": 0.6717,
+      "title_jaccard": 0.2143,
+      "family_match": false,
+      "type_overlap": 0
+    },
+    {
+      "language": "en",
       "a": 320,
       "a_title": "How long does a whole Spanish ham last once you start cutting it?",
       "b": 368,
       "b_title": "How to store a whole Spanish ham after you start cutting it",
-      "similarity": 0.6718,
+      "similarity": 0.6716,
       "title_jaccard": 0.6,
       "family_match": true,
       "type_overlap": 1
     },
     {
       "language": "en",
-      "a": 678,
-      "a_title": "What Is Whey? The Liquid Left After Milk Proteins Separate",
-      "b": 1250,
-      "b_title": "Clear Whey: What It Is and How It Differs From Traditional Whey Protein",
-      "similarity": 0.6718,
-      "title_jaccard": 0.2143,
-      "family_match": false,
-      "type_overlap": 0
+      "a": 39,
+      "a_title": "Foods Highest in Potassium: It Is Not Just Bananas",
+      "b": 123,
+      "b_title": "Foods with more potassium than a banana",
+      "similarity": 0.6709,
+      "title_jaccard": 0.25,
+      "family_match": true,
+      "type_overlap": 2
     },
     {
       "language": "es",
@@ -1758,28 +1769,6 @@
       "similarity": 0.6709,
       "title_jaccard": 0.2727,
       "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 39,
-      "a_title": "Foods Highest in Potassium: It Is Not Just Bananas",
-      "b": 123,
-      "b_title": "Foods with more potassium than a banana",
-      "similarity": 0.6707,
-      "title_jaccard": 0.25,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 24,
-      "a_title": "Avocado Fat vs Olive Oil, Nuts and Butter: What Changes?",
-      "b": 93,
-      "b_title": "Avocado vs. olive oil: fats and nutritional differences",
-      "similarity": 0.6703,
-      "title_jaccard": 0.3333,
-      "family_match": false,
       "type_overlap": 1
     },
     {
@@ -1795,24 +1784,24 @@
     },
     {
       "language": "es",
-      "a": 566,
-      "a_title": "Soja texturizada: proteína, fibra y valor nutricional",
-      "b": 567,
-      "b_title": "Soja texturizada o tofu: diferencias nutricionales y de uso",
-      "similarity": 0.6692,
-      "title_jaccard": 0.2727,
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "es",
       "a": 305,
       "a_title": "Aceite de oliva virgen extra: grasas, calorías y composición",
       "b": 380,
       "b_title": "¿Se puede freír con aceite de oliva virgen extra?",
-      "similarity": 0.6683,
+      "similarity": 0.6693,
       "title_jaccard": 0.4444,
       "family_match": true,
+      "type_overlap": 0
+    },
+    {
+      "language": "es",
+      "a": 566,
+      "a_title": "Soja texturizada: proteína, fibra y valor nutricional",
+      "b": 567,
+      "b_title": "Soja texturizada o tofu: diferencias nutricionales y de uso",
+      "similarity": 0.669,
+      "title_jaccard": 0.2727,
+      "family_match": false,
       "type_overlap": 0
     },
     {
@@ -1821,10 +1810,21 @@
       "a_title": "Arroz integral vs. quinoa: fibra, proteína y calorías",
       "b": 242,
       "b_title": "Arroz integral: fibra, proteína y valor nutricional",
-      "similarity": 0.6678,
+      "similarity": 0.668,
       "title_jaccard": 0.5556,
       "family_match": true,
       "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 118,
+      "a_title": "Is it healthy to eat canned tuna frequently?",
+      "b": 589,
+      "b_title": "Fresh vs. canned tuna: nutrition differences",
+      "similarity": 0.6672,
+      "title_jaccard": 0.1818,
+      "family_match": true,
+      "type_overlap": 0
     },
     {
       "language": "en",
@@ -1836,17 +1836,6 @@
       "title_jaccard": 0.4,
       "family_match": true,
       "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 118,
-      "a_title": "Is it healthy to eat canned tuna frequently?",
-      "b": 589,
-      "b_title": "Fresh vs. canned tuna: nutrition differences",
-      "similarity": 0.6668,
-      "title_jaccard": 0.1818,
-      "family_match": true,
-      "type_overlap": 0
     },
     {
       "language": "es",
@@ -1898,7 +1887,7 @@
       "a_title": "¿Es saludable comer legumbres todos los días?",
       "b": 117,
       "b_title": "¿Es saludable comer yogur todos los días?",
-      "similarity": 0.6383,
+      "similarity": 0.6367,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -1909,7 +1898,7 @@
       "a_title": "Edamame vs. chickpeas: protein, fiber, and calories",
       "b": 108,
       "b_title": "Edamame: protein, fiber, and nutrients",
-      "similarity": 0.6354,
+      "similarity": 0.6355,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -1931,7 +1920,7 @@
       "a_title": "Edamame vs. chickpeas: protein, fiber, and calories",
       "b": 176,
       "b_title": "Chickpeas: protein, fiber, calories, and nutrition",
-      "similarity": 0.6176,
+      "similarity": 0.6177,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -1964,7 +1953,7 @@
       "a_title": "¿Es saludable comer aguacate todos los días?",
       "b": 116,
       "b_title": "¿Es saludable comer legumbres todos los días?",
-      "similarity": 0.6047,
+      "similarity": 0.6029,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -1981,26 +1970,26 @@
       "type_overlap": 1
     },
     {
-      "language": "en",
-      "a": 114,
-      "a_title": "Is it healthy to eat eggs every day?",
-      "b": 115,
-      "b_title": "Is it healthy to eat nuts every day?",
-      "similarity": 0.599,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
       "language": "es",
       "a": 99,
       "a_title": "Nueces: propiedades nutricionales y omega-3",
       "b": 100,
       "b_title": "Almendras vs. nueces: diferencias nutricionales",
-      "similarity": 0.5977,
+      "similarity": 0.5978,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 114,
+      "a_title": "Is it healthy to eat eggs every day?",
+      "b": 115,
+      "b_title": "Is it healthy to eat nuts every day?",
+      "similarity": 0.5966,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
     },
     {
       "language": "es",
@@ -2015,28 +2004,6 @@
     },
     {
       "language": "es",
-      "a": 114,
-      "a_title": "¿Es saludable comer huevos todos los días?",
-      "b": 116,
-      "b_title": "¿Es saludable comer legumbres todos los días?",
-      "similarity": 0.5903,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 95,
-      "a_title": "Is it healthy to eat avocado every day?",
-      "b": 115,
-      "b_title": "Is it healthy to eat nuts every day?",
-      "similarity": 0.5901,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
       "a": 252,
       "a_title": "Cuánto dura el pescado cocinado en la nevera",
       "b": 278,
@@ -2048,14 +2015,36 @@
     },
     {
       "language": "es",
+      "a": 114,
+      "a_title": "¿Es saludable comer huevos todos los días?",
+      "b": 116,
+      "b_title": "¿Es saludable comer legumbres todos los días?",
+      "similarity": 0.5886,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
       "a": 183,
       "a_title": "Salmón: proteína, omega-3, grasa y calorías",
       "b": 186,
       "b_title": "Salmón vs. sardinas: omega-3, proteína y calorías",
-      "similarity": 0.588,
+      "similarity": 0.5882,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 95,
+      "a_title": "Is it healthy to eat avocado every day?",
+      "b": 115,
+      "b_title": "Is it healthy to eat nuts every day?",
+      "similarity": 0.588,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
     },
     {
       "language": "es",
@@ -2063,7 +2052,7 @@
       "a_title": "¿Es saludable comer aguacate todos los días?",
       "b": 117,
       "b_title": "¿Es saludable comer yogur todos los días?",
-      "similarity": 0.5823,
+      "similarity": 0.5805,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2085,7 +2074,7 @@
       "a_title": "Is it healthy to eat nuts every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.5732,
+      "similarity": 0.5714,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2096,7 +2085,7 @@
       "a_title": "¿Es saludable comer huevos todos los días?",
       "b": 117,
       "b_title": "¿Es saludable comer yogur todos los días?",
-      "similarity": 0.5722,
+      "similarity": 0.5704,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2107,7 +2096,7 @@
       "a_title": "Por qué la col morada puede volverse azul al cocinarla",
       "b": 1042,
       "b_title": "Por qué la cebolla morada puede volverse azul o verde al cocinarla",
-      "similarity": 0.5692,
+      "similarity": 0.5691,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
@@ -2129,7 +2118,7 @@
       "a_title": "Dátiles vs. azúcar: diferencias nutricionales",
       "b": 608,
       "b_title": "Dátiles vs. pasas: azúcar, fibra y calorías",
-      "similarity": 0.5573,
+      "similarity": 0.5574,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2140,7 +2129,7 @@
       "a_title": "Is it healthy to eat avocado every day?",
       "b": 114,
       "b_title": "Is it healthy to eat eggs every day?",
-      "similarity": 0.5559,
+      "similarity": 0.554,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2162,7 +2151,7 @@
       "a_title": "Las frutas con menos azúcar",
       "b": 427,
       "b_title": "Las frutas con más azúcar",
-      "similarity": 0.5513,
+      "similarity": 0.5523,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2206,7 +2195,7 @@
       "a_title": "Los frutos secos con más fibra",
       "b": 101,
       "b_title": "Los frutos secos con más omega-3",
-      "similarity": 0.5347,
+      "similarity": 0.5361,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2228,7 +2217,7 @@
       "a_title": "Is it healthy to eat avocado every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.5295,
+      "similarity": 0.5282,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2239,7 +2228,7 @@
       "a_title": "¿Es saludable comer aguacate todos los días?",
       "b": 114,
       "b_title": "¿Es saludable comer huevos todos los días?",
-      "similarity": 0.5278,
+      "similarity": 0.5259,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2250,7 +2239,7 @@
       "a_title": "¿Es saludable comer legumbres todos los días?",
       "b": 122,
       "b_title": "¿Es saludable comer queso todos los días?",
-      "similarity": 0.5271,
+      "similarity": 0.5257,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2261,7 +2250,7 @@
       "a_title": "¿Es saludable comer yogur todos los días?",
       "b": 122,
       "b_title": "¿Es saludable comer queso todos los días?",
-      "similarity": 0.5209,
+      "similarity": 0.5193,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2272,7 +2261,7 @@
       "a_title": "Is it healthy to eat eggs every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.5186,
+      "similarity": 0.5171,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2316,7 +2305,7 @@
       "a_title": "¿Es saludable comer legumbres todos los días?",
       "b": 119,
       "b_title": "¿Es saludable comer arroz todos los días?",
-      "similarity": 0.5097,
+      "similarity": 0.5081,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2327,7 +2316,7 @@
       "a_title": "White pasta vs. whole-wheat pasta: nutritional differences",
       "b": 385,
       "b_title": "White bread vs. whole-wheat bread: nutritional differences",
-      "similarity": 0.5042,
+      "similarity": 0.5039,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2344,23 +2333,23 @@
       "type_overlap": 2
     },
     {
-      "language": "en",
-      "a": 115,
-      "a_title": "Is it healthy to eat nuts every day?",
-      "b": 117,
-      "b_title": "Is it healthy to eat yogurt every day?",
-      "similarity": 0.5034,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
       "language": "es",
       "a": 974,
       "a_title": "Cuánto dura el pesto abierto en la nevera",
       "b": 975,
       "b_title": "Cuánto dura el caldo abierto en la nevera",
       "similarity": 0.5019,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 115,
+      "a_title": "Is it healthy to eat nuts every day?",
+      "b": 117,
+      "b_title": "Is it healthy to eat yogurt every day?",
+      "similarity": 0.5014,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2382,7 +2371,7 @@
       "a_title": "Is it healthy to eat avocado every day?",
       "b": 117,
       "b_title": "Is it healthy to eat yogurt every day?",
-      "similarity": 0.4968,
+      "similarity": 0.4954,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2404,29 +2393,7 @@
       "a_title": "¿Es saludable comer huevos todos los días?",
       "b": 122,
       "b_title": "¿Es saludable comer queso todos los días?",
-      "similarity": 0.4867,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 117,
-      "a_title": "¿Es saludable comer yogur todos los días?",
-      "b": 119,
-      "b_title": "¿Es saludable comer arroz todos los días?",
-      "similarity": 0.4858,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 95,
-      "a_title": "¿Es saludable comer aguacate todos los días?",
-      "b": 119,
-      "b_title": "¿Es saludable comer arroz todos los días?",
-      "similarity": 0.4851,
+      "similarity": 0.485,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2443,6 +2410,28 @@
       "type_overlap": 1
     },
     {
+      "language": "es",
+      "a": 117,
+      "a_title": "¿Es saludable comer yogur todos los días?",
+      "b": 119,
+      "b_title": "¿Es saludable comer arroz todos los días?",
+      "similarity": 0.4842,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 95,
+      "a_title": "¿Es saludable comer aguacate todos los días?",
+      "b": 119,
+      "b_title": "¿Es saludable comer arroz todos los días?",
+      "similarity": 0.4835,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
       "language": "en",
       "a": 7,
       "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
@@ -2451,17 +2440,6 @@
       "similarity": 0.4829,
       "title_jaccard": 0.6667,
       "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 114,
-      "a_title": "Is it healthy to eat eggs every day?",
-      "b": 117,
-      "b_title": "Is it healthy to eat yogurt every day?",
-      "similarity": 0.4827,
-      "title_jaccard": 0.6667,
-      "family_match": false,
       "type_overlap": 2
     },
     {
@@ -2477,11 +2455,22 @@
     },
     {
       "language": "en",
+      "a": 114,
+      "a_title": "Is it healthy to eat eggs every day?",
+      "b": 117,
+      "b_title": "Is it healthy to eat yogurt every day?",
+      "similarity": 0.4811,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
       "a": 981,
       "a_title": "Do Olives Need Refrigeration After Opening?",
       "b": 982,
       "b_title": "Does Tahini Need Refrigeration After Opening?",
-      "similarity": 0.4733,
+      "similarity": 0.4721,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2492,7 +2481,7 @@
       "a_title": "Is it healthy to eat yogurt every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.4696,
+      "similarity": 0.4683,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2514,7 +2503,7 @@
       "a_title": "¿Es saludable comer huevos todos los días?",
       "b": 119,
       "b_title": "¿Es saludable comer arroz todos los días?",
-      "similarity": 0.4654,
+      "similarity": 0.4638,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2525,7 +2514,7 @@
       "a_title": "Does ketchup need refrigeration after opening?",
       "b": 981,
       "b_title": "Do Olives Need Refrigeration After Opening?",
-      "similarity": 0.4628,
+      "similarity": 0.4617,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -2547,7 +2536,7 @@
       "a_title": "Is it healthy to eat avocado every day?",
       "b": 119,
       "b_title": "Is it healthy to eat rice every day?",
-      "similarity": 0.4552,
+      "similarity": 0.4538,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2569,18 +2558,7 @@
       "a_title": "How long do cooked chickpeas last in the fridge?",
       "b": 252,
       "b_title": "How long does cooked fish last in the fridge?",
-      "similarity": 0.4507,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 95,
-      "a_title": "¿Es saludable comer aguacate todos los días?",
-      "b": 122,
-      "b_title": "¿Es saludable comer queso todos los días?",
-      "similarity": 0.4477,
+      "similarity": 0.4506,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2595,6 +2573,17 @@
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 95,
+      "a_title": "¿Es saludable comer aguacate todos los días?",
+      "b": 122,
+      "b_title": "¿Es saludable comer queso todos los días?",
+      "similarity": 0.4458,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
     },
     {
       "language": "en",
@@ -2635,7 +2624,7 @@
       "a_title": "Is it healthy to eat nuts every day?",
       "b": 119,
       "b_title": "Is it healthy to eat rice every day?",
-      "similarity": 0.4378,
+      "similarity": 0.4358,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2708,22 +2697,22 @@
     },
     {
       "language": "en",
-      "a": 114,
-      "a_title": "Is it healthy to eat eggs every day?",
-      "b": 119,
-      "b_title": "Is it healthy to eat rice every day?",
-      "similarity": 0.4262,
+      "a": 215,
+      "a_title": "How long do cooked lentils last in the fridge?",
+      "b": 252,
+      "b_title": "How long does cooked fish last in the fridge?",
+      "similarity": 0.4254,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
     },
     {
       "language": "en",
-      "a": 215,
-      "a_title": "How long do cooked lentils last in the fridge?",
-      "b": 252,
-      "b_title": "How long does cooked fish last in the fridge?",
-      "similarity": 0.4254,
+      "a": 114,
+      "a_title": "Is it healthy to eat eggs every day?",
+      "b": 119,
+      "b_title": "Is it healthy to eat rice every day?",
+      "similarity": 0.4244,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2745,7 +2734,7 @@
       "a_title": "Cuánto dura la carne cocinada en la nevera",
       "b": 33,
       "b_title": "Cuánto dura la carne cruda en la nevera",
-      "similarity": 0.4204,
+      "similarity": 0.4205,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2774,36 +2763,25 @@
     },
     {
       "language": "es",
-      "a": 119,
-      "a_title": "¿Es saludable comer arroz todos los días?",
-      "b": 122,
-      "b_title": "¿Es saludable comer queso todos los días?",
-      "similarity": 0.4128,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 3
-    },
-    {
-      "language": "en",
-      "a": 119,
-      "a_title": "Is it healthy to eat rice every day?",
-      "b": 122,
-      "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.4122,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 3
-    },
-    {
-      "language": "es",
       "a": 32,
       "a_title": "Cuánto dura la carne cocinada en la nevera",
       "b": 34,
       "b_title": "Cuánto dura la carne picada en la nevera",
-      "similarity": 0.4117,
+      "similarity": 0.4116,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 119,
+      "a_title": "¿Es saludable comer arroz todos los días?",
+      "b": 122,
+      "b_title": "¿Es saludable comer queso todos los días?",
+      "similarity": 0.4113,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 3
     },
     {
       "language": "en",
@@ -2829,11 +2807,22 @@
     },
     {
       "language": "en",
+      "a": 119,
+      "a_title": "Is it healthy to eat rice every day?",
+      "b": 122,
+      "b_title": "Is it healthy to eat cheese every day?",
+      "similarity": 0.411,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 3
+    },
+    {
+      "language": "en",
       "a": 980,
       "a_title": "Do Pickles Need Refrigeration After Opening?",
       "b": 981,
       "b_title": "Do Olives Need Refrigeration After Opening?",
-      "similarity": 0.4108,
+      "similarity": 0.4098,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2864,9 +2853,9 @@
       "language": "en",
       "a": 966,
       "a_title": "Does Mustard Need Refrigeration After Opening?",
-      "b": 981,
-      "b_title": "Do Olives Need Refrigeration After Opening?",
-      "similarity": 0.4012,
+      "b": 982,
+      "b_title": "Does Tahini Need Refrigeration After Opening?",
+      "similarity": 0.4008,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2875,9 +2864,9 @@
       "language": "en",
       "a": 966,
       "a_title": "Does Mustard Need Refrigeration After Opening?",
-      "b": 982,
-      "b_title": "Does Tahini Need Refrigeration After Opening?",
-      "similarity": 0.4008,
+      "b": 981,
+      "b_title": "Do Olives Need Refrigeration After Opening?",
+      "similarity": 0.4002,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2902,6 +2891,17 @@
       "similarity": 0.3957,
       "title_jaccard": 0.6667,
       "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 1301,
+      "a_title": "Cuánto dura el tofu abierto en la nevera",
+      "b": 1303,
+      "b_title": "Cuánto dura el guacamole abierto en la nevera",
+      "similarity": 0.3957,
+      "title_jaccard": 0.6667,
+      "family_match": false,
       "type_overlap": 2
     }
   ],
