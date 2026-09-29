@@ -12,11 +12,11 @@
     "translation_group_mismatches": 0
   },
   "issue_counts": {
-    "meta_over_160": 1212,
+    "meta_over_160": 1213,
     "meta_over_220": 227,
     "meta_under_90": 95,
     "seo_title_over_65": 75,
-    "seo_title_under_28": 58,
+    "seo_title_under_28": 57,
     "sources_under_3": 1634
   },
   "unknown_families": {},
@@ -420,17 +420,6 @@
       "type_overlap": 2
     },
     {
-      "language": "en",
-      "a": 1004,
-      "a_title": "Can you eat raw sweet potato?",
-      "b": 1005,
-      "b_title": "Can you eat raw potato?",
-      "similarity": 0.6051,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
       "language": "es",
       "a": 100,
       "a_title": "Almendras vs. nueces: diferencias nutricionales",
@@ -645,7 +634,7 @@
       "a_title": "How Long Does Food Last in the Refrigerator During a Power Outage?",
       "b": 1120,
       "b_title": "How Long Does Food Last in the Freezer During a Power Outage?",
-      "similarity": 0.5445,
+      "similarity": 0.5444,
       "title_jaccard": 0.7273,
       "family_match": true,
       "type_overlap": 1
@@ -1371,7 +1360,7 @@
       "a_title": "¿Hay que remojar las semillas de chía?",
       "b": 210,
       "b_title": "¿Se pueden comer semillas de chía sin remojar?",
-      "similarity": 0.6967,
+      "similarity": 0.6968,
       "title_jaccard": 0.6,
       "family_match": true,
       "type_overlap": 2
@@ -2812,7 +2801,7 @@
       "a_title": "Cuánto dura la carne cocinada en la nevera",
       "b": 34,
       "b_title": "Cuánto dura la carne picada en la nevera",
-      "similarity": 0.4114,
+      "similarity": 0.4115,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2904,6 +2893,17 @@
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 980,
+      "a_title": "Do Pickles Need Refrigeration After Opening?",
+      "b": 982,
+      "b_title": "Does Tahini Need Refrigeration After Opening?",
+      "similarity": 0.3957,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
     }
   ],
   "issues": {
@@ -3012,6 +3012,13 @@
         "title": "Aguacate vs. aceite de oliva: grasas y diferencias nutricionales",
         "path": "content/articles/es/093-aguacate-vs-aceite-oliva.json",
         "value": 165
+      },
+      {
+        "language": "es",
+        "number": 1005,
+        "title": "¿Se puede comer patata cruda?",
+        "path": "content/articles/es/1005-se-puede-comer-patata-cruda.json",
+        "value": 162
       },
       {
         "language": "es",
@@ -6400,13 +6407,6 @@
         "title": "Horno vs. freidora de aire: diferencias nutricionales",
         "path": "content/articles/es/631-horno-vs-freidora-aire-diferencias-nutricionales.json",
         "value": 170
-      },
-      {
-        "language": "es",
-        "number": 635,
-        "title": "¿Hace falta lavar frutas y verduras con vinagre o bicarbonato?",
-        "path": "content/articles/es/635-lavar-frutas-verduras-vinagre-bicarbonato.json",
-        "value": 168
       }
     ],
     "meta_over_220": [
@@ -9327,13 +9327,6 @@
         "title": "Can you eat raw asparagus?",
         "path": "content/articles/en/1002-can-you-eat-raw-asparagus.json",
         "value": 26
-      },
-      {
-        "language": "en",
-        "number": 1005,
-        "title": "Can you eat raw potato?",
-        "path": "content/articles/en/1005-can-you-eat-raw-potato.json",
-        "value": 23
       },
       {
         "language": "en",

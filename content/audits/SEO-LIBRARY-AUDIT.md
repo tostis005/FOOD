@@ -14,11 +14,11 @@
 | Signal | Count |
 | --- | ---: |
 | sources_under_3 | 1634 |
-| meta_over_160 | 1212 |
+| meta_over_160 | 1213 |
 | meta_over_220 | 227 |
 | meta_under_90 | 95 |
 | seo_title_over_65 | 75 |
-| seo_title_under_28 | 58 |
+| seo_title_under_28 | 57 |
 
 ## Vocabulary drift
 
@@ -66,7 +66,6 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | es | 572 - Bebida de avena vs. bebida de soja: diferencias nutricionales | 573 - Bebida de almendra vs. bebida de avena: diferencias nutricionales | 0.699 | 0.750 |
 | en | 213 - Ground beef vs. ground turkey: nutrition differences | 218 - Ground beef vs. ground pork: nutrition differences | 0.673 | 0.750 |
 | es | 70 - Cuánto tiempo puede estar la comida fuera de la nevera | 270 - Cuánto tiempo puede estar la carne fuera de la nevera | 0.626 | 0.750 |
-| en | 1004 - Can you eat raw sweet potato? | 1005 - Can you eat raw potato? | 0.605 | 0.750 |
 | es | 100 - Almendras vs. nueces: diferencias nutricionales | 189 - Nueces vs. pistachos: diferencias nutricionales | 0.564 | 0.750 |
 | en | 7 - Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories | 49 - Chicken vs Turkey: Nutrition Differences | 0.561 | 0.750 |
 | es | 105 - Soja: proteína, grasa y valor nutricional | 566 - Soja texturizada: proteína, fibra y valor nutricional | 0.506 | 0.750 |
@@ -122,3 +121,4 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 30 - How Long Does Raw Chicken Last in the Fridge? | 33 - How Long Does Raw Meat Last in the Fridge? | 0.460 | 0.714 |
 | en | 52 - Tuna vs Salmon: Protein, Omega-3, Fat and Calories | 185 - Hake vs. salmon: protein, fat, calories, and omega-3 | 0.441 | 0.714 |
 | en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 32 - How Long Does Cooked Meat Last in the Fridge? | 0.431 | 0.714 |
+| es | 52 - Atún vs. salmón: proteína, omega-3, grasa y calorías | 185 - Merluza vs. salmón: proteína, grasa y calorías | 0.420 | 0.714 |
