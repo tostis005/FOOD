@@ -11,6 +11,7 @@ from pathlib import Path
 
 ROOT = Path('content/articles')
 MAP_PATH = ROOT / 'INTERNAL-LINK-MAP.json'
+TAXONOMIES_PATH = ROOT / 'taxonomies.json'
 LEGACY_CUTOFF = 635
 TARGET_LINKS = 4
 MAX_LINKS = 5
@@ -30,21 +31,38 @@ STOPWORDS = {
     'productos','use','used','using','usar','usa','utiliza','utilizar',
 }
 
-TYPE_ALIASES = {
-    'comparisons': 'comparison', 'comparison': 'comparison', 'comparativas': 'comparison',
-    'food-safety': 'safety', 'seguridad-alimentaria': 'safety',
-    'storage': 'storage', 'conservacion-almacenamiento': 'storage',
-    'freezing-thawing': 'freezing', 'congelacion-descongelacion': 'freezing',
-    'nutrition-composition': 'nutrition', 'nutricion-composicion': 'nutrition',
-    'health-regular-consumption': 'health', 'salud-consumo-habitual': 'health',
-    'cooking-food-science': 'food-science', 'cocina-ciencia-alimentos': 'food-science',
-    'preparation-cooking-techniques': 'cooking', 'preparacion-tecnicas-cocina': 'cooking',
-    'buying-quality-ripeness': 'buying-quality', 'compra-calidad-maduracion': 'buying-quality',
-    'processing-production': 'processing', 'procesamiento-produccion-elaboracion': 'processing',
-    'rankings-best-sources': 'ranking', 'rankings-mejores-fuentes': 'ranking',
-    'nutrition-concepts': 'nutrition-concepts', 'conceptos-nutricion': 'nutrition-concepts',
-    'myths-common-questions': 'myths', 'mitos-preguntas-frecuentes': 'myths',
+BASE_TYPE_ALIASES = {
+    'comparativas': 'comparisons',
+    'seguridad-alimentaria': 'food-safety',
+    'conservacion-almacenamiento': 'storage',
+    'congelacion-descongelacion': 'freezing-thawing',
+    'nutricion-composicion': 'nutrition-composition',
+    'health-regular-consumption': 'health-daily-consumption',
+    'salud-consumo-habitual': 'health-daily-consumption',
+    'cooking-food-science': 'cooking-science',
+    'cocina-ciencia-alimentos': 'cooking-science',
+    'preparation-cooking-techniques': 'cooking-techniques',
+    'preparacion-tecnicas-cocina': 'cooking-techniques',
+    'compra-calidad-maduracion': 'buying-quality-ripeness',
+    'procesamiento-produccion-elaboracion': 'processing-production',
+    'rankings-best-sources': 'rankings',
+    'rankings-mejores-fuentes': 'rankings',
+    'conceptos-nutricion': 'nutrition-concepts',
+    'myths-common-questions': 'myths-faq',
+    'mitos-preguntas-frecuentes': 'myths-faq',
+    'etiquetado-ingredientes': 'food-labels',
 }
+
+def load_taxonomy_aliases():
+    try:
+        data = json.loads(TAXONOMIES_PATH.read_text(encoding='utf-8'))
+    except Exception:
+        return {}, {}
+    families = {str(k): str(v) for k, v in (data.get('food_family_aliases') or {}).items()}
+    types = {str(k): str(v) for k, v in (data.get('article_type_aliases') or {}).items()}
+    return families, types
+
+FAMILY_ALIASES, JSON_TYPE_ALIASES = load_taxonomy_aliases()
 
 def norm(text: str) -> str:
     text = unicodedata.normalize('NFKD', text or '')
@@ -70,7 +88,12 @@ def tokens(text: str) -> list[str]:
 
 def canonical_type(value: str) -> str:
     value = norm(value).replace('_', '-')
-    return TYPE_ALIASES.get(value, value)
+    value = JSON_TYPE_ALIASES.get(value, value)
+    return BASE_TYPE_ALIASES.get(value, value)
+
+def canonical_family(value: str) -> str:
+    value = norm(value).replace('_', '-')
+    return FAMILY_ALIASES.get(value, value)
 
 def load_articles(root: Path) -> dict[int, dict]:
     by_number: dict[int, dict] = {}
@@ -132,7 +155,7 @@ def article_features(article: dict) -> dict:
     for token in excerpt_tokens:
         tf[token] += 0.45
     return {
-        'family': canonical_type(family),
+        'family': canonical_family(family),
         'types': types,
         'primary': primary,
         'tf': tf,

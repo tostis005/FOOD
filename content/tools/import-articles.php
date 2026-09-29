@@ -139,31 +139,74 @@ function food_import_topic_map() {
     );
 }
 
+function food_import_taxonomy_vocabulary() {
+    static $vocabulary = null;
+    if ( null !== $vocabulary ) {
+        return $vocabulary;
+    }
+
+    $path = dirname( __DIR__ ) . '/articles/taxonomies.json';
+    if ( ! is_readable( $path ) ) {
+        throw new RuntimeException( "Taxonomy vocabulary not readable: {$path}" );
+    }
+
+    $decoded = json_decode( file_get_contents( $path ), true, 512, JSON_THROW_ON_ERROR );
+    if ( ! is_array( $decoded ) ) {
+        throw new RuntimeException( "Taxonomy vocabulary is not a JSON object: {$path}" );
+    }
+
+    $vocabulary = $decoded;
+    return $vocabulary;
+}
+
+function food_import_canonical_family_key( $key ) {
+    $key = (string) $key;
+    $vocabulary = food_import_taxonomy_vocabulary();
+    $aliases = isset( $vocabulary['food_family_aliases'] ) && is_array( $vocabulary['food_family_aliases'] )
+        ? $vocabulary['food_family_aliases']
+        : array();
+    return isset( $aliases[ $key ] ) ? (string) $aliases[ $key ] : $key;
+}
+
+function food_import_canonical_type_key( $key ) {
+    $key = (string) $key;
+    $vocabulary = food_import_taxonomy_vocabulary();
+    $aliases = isset( $vocabulary['article_type_aliases'] ) && is_array( $vocabulary['article_type_aliases'] )
+        ? $vocabulary['article_type_aliases']
+        : array();
+    return isset( $aliases[ $key ] ) ? (string) $aliases[ $key ] : $key;
+}
+
 function food_import_validate_taxonomy( $taxonomy, $file ) {
     $family_map = food_import_family_map();
     $topic_map  = food_import_topic_map();
 
-    $family_key = isset( $taxonomy['food_family'] ) ? (string) $taxonomy['food_family'] : 'general';
+    $family_raw = isset( $taxonomy['food_family'] ) ? (string) $taxonomy['food_family'] : 'general';
+    $family_key = food_import_canonical_family_key( $family_raw );
     if ( ! array_key_exists( $family_key, $family_map ) ) {
-        throw new RuntimeException( "Unsupported food_family '{$family_key}' in {$file}" );
+        throw new RuntimeException( "Unsupported food_family '{$family_raw}' in {$file}" );
     }
 
-    $types = ! empty( $taxonomy['article_types'] ) && is_array( $taxonomy['article_types'] )
+    $types_raw = ! empty( $taxonomy['article_types'] ) && is_array( $taxonomy['article_types'] )
         ? array_values( array_unique( array_map( 'strval', $taxonomy['article_types'] ) ) )
         : array();
 
-    foreach ( $types as $type_key ) {
+    $types = array();
+    foreach ( $types_raw as $type_raw ) {
+        $type_key = food_import_canonical_type_key( $type_raw );
         if ( ! isset( $topic_map[ $type_key ] ) ) {
-            throw new RuntimeException( "Unsupported article_type '{$type_key}' in {$file}" );
+            throw new RuntimeException( "Unsupported article_type '{$type_raw}' in {$file}" );
         }
+        $types[] = $type_key;
     }
 
-    $primary_key = isset( $taxonomy['primary_article_type'] ) ? (string) $taxonomy['primary_article_type'] : '';
+    $primary_raw = isset( $taxonomy['primary_article_type'] ) ? (string) $taxonomy['primary_article_type'] : '';
+    $primary_key = '' !== $primary_raw ? food_import_canonical_type_key( $primary_raw ) : '';
     if ( '' !== $primary_key && ! isset( $topic_map[ $primary_key ] ) ) {
-        throw new RuntimeException( "Unsupported primary_article_type '{$primary_key}' in {$file}" );
+        throw new RuntimeException( "Unsupported primary_article_type '{$primary_raw}' in {$file}" );
     }
     if ( '' !== $primary_key && ! in_array( $primary_key, $types, true ) ) {
-        throw new RuntimeException( "Primary article type '{$primary_key}' is not present in article_types in {$file}" );
+        throw new RuntimeException( "Primary article type '{$primary_raw}' is not present in article_types in {$file}" );
     }
 }
 
@@ -232,7 +275,8 @@ function food_import_apply_taxonomies( $post_id, $taxonomy ) {
     $family_map = food_import_family_map();
     $topic_map  = food_import_topic_map();
 
-    $family_key  = isset( $taxonomy['food_family'] ) ? (string) $taxonomy['food_family'] : 'general';
+    $family_raw  = isset( $taxonomy['food_family'] ) ? (string) $taxonomy['food_family'] : 'general';
+    $family_key  = food_import_canonical_family_key( $family_raw );
     $family_slug = array_key_exists( $family_key, $family_map ) ? $family_map[ $family_key ] : null;
 
     // Every imported guide remains inside the aggregate Alimentos category.
@@ -262,7 +306,8 @@ function food_import_apply_taxonomies( $post_id, $taxonomy ) {
         ? $taxonomy['article_types']
         : array();
 
-    foreach ( $types as $type_key ) {
+    foreach ( $types as $type_raw ) {
+        $type_key = food_import_canonical_type_key( $type_raw );
         if ( ! isset( $topic_map[ $type_key ] ) ) {
             continue;
         }
@@ -274,7 +319,8 @@ function food_import_apply_taxonomies( $post_id, $taxonomy ) {
 
     wp_set_object_terms( $post_id, array_values( array_unique( $topic_ids ) ), 'food_topic', false );
 
-    $primary_key  = isset( $taxonomy['primary_article_type'] ) ? (string) $taxonomy['primary_article_type'] : '';
+    $primary_raw  = isset( $taxonomy['primary_article_type'] ) ? (string) $taxonomy['primary_article_type'] : '';
+    $primary_key  = '' !== $primary_raw ? food_import_canonical_type_key( $primary_raw ) : '';
     $primary_slug = isset( $topic_map[ $primary_key ] ) ? $topic_map[ $primary_key ] : '';
 
     update_post_meta( $post_id, '_food_primary_article_type', $primary_slug );
