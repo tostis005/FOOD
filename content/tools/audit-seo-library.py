@@ -177,11 +177,11 @@ def main():
         canonical_types={type_aliases.get(t,t) for t in m['article_types']}
         high_stakes=bool({'food-safety','health-daily-consumption'} & canonical_types)
         checks={
-            'missing_seo_title':not m['seo_title'],'seo_title_over_65':m['seo_title_len']>65,'seo_title_under_28':0<m['seo_title_len']<28,'effective_seo_title_over_65':m['effective_seo_title_len']>65,
-            'missing_meta':not m['meta_description'],'effective_meta_over_160':m['effective_meta_len']>160,'effective_meta_under_90':0<m['effective_meta_len']<90,'source_meta_over_220':m['meta_len']>220,
-            'page_under_631':m['words']<631,'body_under_450':m['body_words']<450,'h2_under_3':m['h2']<3,'sources_under_3':m['sources_count']<3,'high_stakes_sources_under_2':high_stakes and m['sources_count']<2,'faq_under_2':m['faq_count']<2,'status_not_publish':m['status']!='publish'
+            'missing_seo_title':not m['seo_title'],'seo_title_over_65':m['seo_title_len']>65,'effective_seo_title_over_65':m['effective_seo_title_len']>65,'effective_seo_title_under_30':0<m['effective_seo_title_len']<30,
+            'missing_meta':not m['meta_description'],'effective_meta_over_160':m['effective_meta_len']>160,'effective_meta_under_90':0<m['effective_meta_len']<90,
+            'page_under_631':m['words']<631,'body_under_450':m['body_words']<450,'h2_under_3':m['h2']<3,'sources_under_2':m['sources_count']<2,'high_stakes_sources_under_2':high_stakes and m['sources_count']<2,'faq_under_2':m['faq_count']<2,'status_not_publish':m['status']!='publish'
         }
-        value_map={'seo_title_over_65':m['seo_title_len'],'seo_title_under_28':m['seo_title_len'],'effective_seo_title_over_65':m['effective_seo_title_len'],'effective_meta_over_160':m['effective_meta_len'],'effective_meta_under_90':m['effective_meta_len'],'source_meta_over_220':m['meta_len'],'page_under_631':m['words'],'body_under_450':m['body_words'],'h2_under_3':m['h2'],'sources_under_3':m['sources_count'],'high_stakes_sources_under_2':m['sources_count'],'faq_under_2':m['faq_count'],'status_not_publish':m['status']}
+        value_map={'seo_title_over_65':m['seo_title_len'],'effective_seo_title_over_65':m['effective_seo_title_len'],'effective_seo_title_under_30':m['effective_seo_title_len'],'effective_meta_over_160':m['effective_meta_len'],'effective_meta_under_90':m['effective_meta_len'],'page_under_631':m['words'],'body_under_450':m['body_words'],'h2_under_3':m['h2'],'sources_under_2':m['sources_count'],'high_stakes_sources_under_2':m['sources_count'],'faq_under_2':m['faq_count'],'status_not_publish':m['status']}
         for key,hit in checks.items():
             if hit: issues[key].append({'language':lang,'number':n,'title':m['title'],'path':m['path'],'value':value_map.get(key)})
         fk=norm(m['first_answer'])
@@ -199,7 +199,10 @@ def main():
     indexable_numbers=[n for n in all_nums if n not in CONSOLIDATIONS]
     report={
         'summary':{'versions':len(metrics),'es':len(nums['es']),'en':len(nums['en']),'logical_articles':len(all_nums),'indexable_logical_articles':len(indexable_numbers),'consolidated_redirects':len(CONSOLIDATIONS),'max_article_number':max(all_nums) if all_nums else 0,'invalid_json':len(invalid),'missing_translation_pairs':len(missing_pairs),'translation_group_mismatches':len(mismatches)},
-        'issue_counts':{k:len(v) for k,v in sorted(issues.items())},'unknown_families':dict(unknown_f.most_common()),'unknown_article_types':dict(unknown_t.most_common()),'family_alias_usage':dict(alias_f.most_common()),'article_type_alias_usage':dict(alias_t.most_common()),
+        'issue_counts':{k:len(v) for k,v in sorted(issues.items())},'source_data_signals':{
+            'raw_seo_title_under_28':sum(1 for m in active_metrics if 0<m['seo_title_len']<28),
+            'raw_meta_over_220':sum(1 for m in active_metrics if m['meta_len']>220),
+        },'unknown_families':dict(unknown_f.most_common()),'unknown_article_types':dict(unknown_t.most_common()),'family_alias_usage':dict(alias_f.most_common()),'article_type_alias_usage':dict(alias_t.most_common()),
         'known_consolidations':{str(k):v for k,v in sorted(CONSOLIDATIONS.items())},
         'missing_translation_pairs':missing_pairs,'translation_group_mismatches':mismatches,'exact_duplicate_titles':dup_groups(active_metrics,'title'),'exact_duplicate_seo_titles':dup_groups(active_metrics,'seo_title'),
         'exact_duplicate_meta_descriptions':dup_groups(active_metrics,'meta_description'),'exact_duplicate_search_intents':dup_groups(active_metrics,'search_intent'),
