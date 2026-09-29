@@ -30,7 +30,7 @@ Recognized article-type aliases in use: food-science (362), food-explainer (216)
 ## Exact duplicates
 
 - Titles: 0
-- SEO titles: 4
+- SEO titles: 0
 - Meta descriptions: 0
 - Search intents: 2
 - Repeated opening answers: 0
@@ -42,10 +42,8 @@ These are similarity candidates, not automatic cannibalization verdicts.
 
 | Lang | A | B | Similarity | Title overlap |
 | --- | ---: | ---: | ---: | ---: |
-| en | 287 - Why are some hard-boiled eggs so hard to peel? | 1152 - Why Some Hard-Boiled Eggs Are So Hard to Peel | 0.780 | 1.000 |
 | en | 688 - Self-Rising vs All-Purpose Flour: What Is Actually Inside? | 1228 - Self-Rising Flour: What It Is and How It Differs From All-Purpose Flour With Leavener | 0.897 | 0.500 |
 | en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 1273 - Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing | 0.804 | 0.889 |
-| en | 655 - Whey Isolate vs Concentrate: What Actually Changes? | 1183 - Whey Isolate vs. Whey Concentrate: Protein, Lactose, Calories, and the Real Differences | 0.885 | 0.444 |
 | en | 606 - Dates: sugar, fiber and calories | 607 - Dates vs. sugar: nutrition differences | 0.877 | 0.500 |
 | es | 94 - Aguacate vs. frutos secos: grasa, fibra, proteína y calorías | 408 - Frutos secos vs. aguacate: grasas, fibra y calorías | 0.814 | 0.857 |
 | en | 582 - Cottage cheese: protein, fat and calories | 584 - Cottage cheese vs. ricotta: nutrition differences | 0.617 | 0.857 |
@@ -53,26 +51,18 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 94 - Avocado vs. nuts: fat, fiber, protein and calories | 408 - Nuts vs. Avocado: Fat, Fiber, and Calories | 0.802 | 0.833 |
 | es | 183 - Salmón: proteína, omega-3, grasa y calorías | 185 - Merluza vs. salmón: proteína, grasa y calorías | 0.538 | 0.833 |
 | es | 52 - Atún vs. salmón: proteína, omega-3, grasa y calorías | 183 - Salmón: proteína, omega-3, grasa y calorías | 0.523 | 0.833 |
-| es | 169 - Almendras vs. pistachos: proteína, fibra y calorías | 551 - Pistachos vs. almendras: diferencias nutricionales | 0.830 | 0.250 |
-| en | 169 - Almonds vs. pistachios: protein, fiber, and calories | 551 - Pistachios vs. almonds: nutrition differences | 0.829 | 0.286 |
 | en | 327 - Why does a hard-boiled egg yolk get a green ring? | 1151 - Why a Green Ring Appears Around a Hard-Boiled Egg Yolk | 0.826 | 0.700 |
 | es | 724 - Jarabe de maíz de alta fructosa o azúcar: ¿son realmente diferentes? | 725 - Jarabe de maíz y jarabe de maíz de alta fructosa: no son el mismo endulzante | 0.820 | 0.500 |
 | en | 38 - Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.814 | 0.417 |
 | es | 38 - Los alimentos con más omega-3: pescado, semillas y nueces sin mezclar ALA con EPA y DHA | 167 - Omega-3 vegetal vs. omega-3 del pescado | 0.811 | 0.556 |
 | es | 1 - Los alimentos con más proteína: ranking por cada 100 gramos | 13 - Las carnes con más proteína: ranking por cada 100 gramos | 0.468 | 0.800 |
 | en | 123 - Foods with more potassium than a banana | 131 - Is the banana really one of the best sources of potassium? | 0.795 | 0.333 |
-| en | 295 - What are the white crystals in aged cheese? | 326 - White crystals in cheese: what are they and why do they form? | 0.794 | 0.667 |
-| en | 610 - Resistant starch in cooled rice, potatoes and pasta | 1343 - Resistant Starch: What It Is and What Changes When You Cool Rice, Potatoes, or Pasta | 0.790 | 0.556 |
 | en | 601 - Honey vs. sugar: nutrition differences | 603 - What sugars are in honey? | 0.783 | 0.286 |
 | en | 512 - 70%, 85%, and 100% cacao chocolate: what really changes? | 513 - What does the cacao percentage on chocolate mean? | 0.782 | 0.333 |
 | es | 123 - Alimentos con más potasio que el plátano | 131 - ¿Es realmente el plátano una de las mejores fuentes de potasio? | 0.779 | 0.500 |
 | en | 16 - Highest-Protein Nuts: Ranking per 100 Grams and per Ounce | 17 - Highest-Protein Seeds: Ranking per 100 Grams and per Ounce | 0.493 | 0.778 |
 | en | 127 - The best plant sources of omega-3 | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.776 | 0.250 |
-| es | 610 - Almidón resistente en arroz, patata y pasta enfriados | 1343 - Almidón resistente: qué es y qué cambia al enfriar arroz, patata o pasta | 0.776 | 0.750 |
-| en | 147 - Freezer burn: what it is and whether the food is safe to eat | 1296 - Freezer Burn: What It Is and Whether the Food Is Still Safe | 0.770 | 0.667 |
-| es | 468 - Por qué las cebollas hacen llorar y cómo reducirlo | 1148 - Por qué las cebollas hacen llorar y qué métodos realmente lo reducen | 0.765 | 0.500 |
 | en | 24 - Avocado Fat: How Much It Has, What Type, and How It Compares | 96 - How much fat is in an avocado, and what type is it? | 0.764 | 0.500 |
-| es | 593 - Huevos blancos vs. marrones: ¿hay diferencias nutricionales? | 1137 - Huevos blancos vs. huevos marrones: qué cambia realmente | 0.763 | 0.333 |
 | en | 60 - Whole Egg vs Egg Whites: Protein, Fat and Nutrients | 276 - Egg white vs. yolk: what each part provides | 0.759 | 0.545 |
 | en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.757 | 0.111 |
 | en | 81 - Processed vs. ultra-processed foods: differences and examples | 82 - What ultra-processed foods actually are | 0.755 | 0.400 |
@@ -90,13 +80,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | es | 105 - Soja: proteína, grasa y valor nutricional | 553 - Hummus: proteína, fibra, grasa y valor nutricional | 0.275 | 0.750 |
 | en | 469 - Kefir: What It Is, How It’s Made, and What It Provides | 470 - Milk Kefir vs. Water Kefir: What’s the Difference? | 0.749 | 0.167 |
 | en | 547 - Tahini vs. peanut butter | 548 - Peanut butter vs. almond butter | 0.748 | 0.667 |
-| es | 594 - Huevos camperos, ecológicos y de suelo: qué significan los códigos | 1138 - Huevos camperos, de suelo y de jaula: qué significa realmente cada código | 0.747 | 0.500 |
-| en | 702 - Coconut Sugar vs Regular Sugar: Is It Really Healthier? | 1353 - Coconut Sugar: What It Is and Whether It Is Really Better Than White Sugar | 0.746 | 0.375 |
-| en | 775 - Pre-washed salad: should you wash it again before eating? | 1306 - Should You Wash Bagged Salad Before Eating It? | 0.742 | 0.417 |
-| es | 702 - Azúcar de coco o azúcar normal: ¿es realmente más saludable? | 1353 - Azúcar de coco: qué es y si realmente es mejor que el azúcar blanco | 0.742 | 0.500 |
 | es | 93 - Aguacate vs. aceite de oliva: grasas y diferencias nutricionales | 637 - Aceite de aguacate o de oliva: cuál conviene más para cocinar | 0.741 | 0.375 |
-| en | 674 - A2 Milk vs Regular Milk: What Is Actually Different? | 1341 - A2 Milk: What It Is, How It Differs From Regular Milk, and What the Evidence Says | 0.741 | 0.167 |
-| es | 295 - Qué son los cristales blancos del queso curado | 326 - Cristales blancos en el queso: qué son y por qué aparecen | 0.738 | 0.667 |
 | es | 453 - Masa madre vs. pan convencional: ¿qué cambia realmente? | 562 - Masa madre vs. pan integral: diferencias | 0.738 | 0.250 |
 | en | 496 - Bulgur vs. Couscous: Nutrition Compared | 1217 - Bulgur: What It Is, How to Cook It, and How It Differs From Couscous | 0.736 | 0.333 |
 | es | 537 - Matcha vs. café: cafeína y diferencias | 539 - Café, té, mate y matcha: comparativa de cafeína | 0.736 | 0.444 |
@@ -108,17 +92,33 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 664 - Which Foods Have Gluten, and Which Are Naturally Gluten-Free? | 954 - Do Potatoes Have Gluten? | 0.728 | 0.250 |
 | en | 1119 - How Long Does Food Last in the Refrigerator During a Power Outage? | 1120 - How Long Does Food Last in the Freezer During a Power Outage? | 0.546 | 0.727 |
 | es | 39 - Los alimentos con más potasio: no solo el plátano | 131 - ¿Es realmente el plátano una de las mejores fuentes de potasio? | 0.726 | 0.286 |
-| en | 593 - White vs. brown eggs: are there nutrition differences? | 1137 - White vs. Brown Eggs: What Actually Changes? | 0.724 | 0.333 |
 | es | 262 - Cómo descongelar pollo de forma segura | 271 - Cómo descongelar carne de forma segura | 0.723 | 0.600 |
 | en | 305 - Extra-virgin olive oil: fat, calories and composition | 380 - Can you fry with extra-virgin olive oil? | 0.722 | 0.500 |
 | es | 130 - ¿Es realmente la naranja la fruta con más vitamina C? | 398 - Las frutas con más vitamina C | 0.721 | 0.400 |
 | es | 497 - Los cereales integrales con más proteína | 498 - Los cereales integrales con más fibra | 0.721 | 0.500 |
-| es | 674 - Leche A2 o leche convencional: qué diferencia hay realmente | 1341 - Leche A2: qué es, en qué se diferencia de la leche convencional y qué dice la evidencia | 0.720 | 0.333 |
 | en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 1272 - How Much Sugar Should You Have per Day? Free, Added, and Total Sugars Explained | 0.717 | 0.200 |
 | en | 699 - Maple Syrup vs Sugar: Which Actually Contains More Sugar? | 700 - Maple Syrup vs Honey: Which Has More Sugar and Calories? | 0.717 | 0.556 |
 | es | 286 - Por qué algunos huevos tienen dos yemas | 1326 - Huevo con dos yemas: por qué ocurre y si es seguro comerlo | 0.716 | 0.333 |
 | en | 329 - Whole-wheat bread vs. rye bread: fiber, protein and satiety | 385 - White bread vs. whole-wheat bread: nutritional differences | 0.715 | 0.333 |
 | en | 93 - Avocado vs. olive oil: fats and nutritional differences | 637 - Avocado Oil vs Olive Oil: Which Is Better for Cooking? | 0.715 | 0.300 |
 | en | 924 - Japanese Wagyu vs. American Wagyu: What Is the Real Difference? | 928 - What Is American Wagyu, and How Much Wagyu Is It Really? | 0.715 | 0.200 |
-| es | 767 - Cuánto dura un pollo asado en la nevera y cuándo hay que tirarlo | 1304 - Cuánto dura el pollo asado del supermercado en la nevera | 0.693 | 0.714 |
 | en | 172 - Pork cuts: protein, fat, and calories | 280 - The leanest cuts of pork | 0.690 | 0.714 |
+| en | 771 - Does soy sauce need refrigeration after opening? | 967 - Does Hot Sauce Need Refrigeration After Opening? | 0.676 | 0.714 |
+| en | 771 - Does soy sauce need refrigeration after opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.665 | 0.714 |
+| en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 30 - How Long Does Raw Chicken Last in the Fridge? | 0.648 | 0.714 |
+| en | 977 - How Long Do Opened Canned Beans Last in the Fridge? | 978 - How Long Do Opened Canned Tomatoes Last in the Fridge? | 0.647 | 0.714 |
+| en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.640 | 0.714 |
+| en | 607 - Dates vs. sugar: nutrition differences | 608 - Dates vs. raisins: sugar, fiber and calories | 0.626 | 0.714 |
+| es | 582 - Cottage cheese: proteína, grasa y calorías | 584 - Cottage cheese vs. ricotta: diferencias nutricionales | 0.624 | 0.714 |
+| en | 33 - How Long Does Raw Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.605 | 0.714 |
+| es | 771 - ¿La salsa de soja necesita nevera después de abrirla? | 971 - ¿La salsa de pescado necesita nevera después de abrirla? | 0.594 | 0.714 |
+| en | 183 - Salmon: protein, omega-3, fat, and calories | 185 - Hake vs. salmon: protein, fat, calories, and omega-3 | 0.590 | 0.714 |
+| es | 60 - Huevo entero vs. claras: proteína, grasa y nutrientes | 194 - Huevos: proteína, grasa, calorías y nutrientes | 0.588 | 0.714 |
+| en | 1 - Highest-Protein Foods: A Practical Ranking per 100 Grams | 13 - Highest-Protein Meats: Ranking per 100 Grams | 0.586 | 0.714 |
+| en | 771 - Does soy sauce need refrigeration after opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.560 | 0.714 |
+| es | 976 - Cuánto dura la leche de coco abierta en la nevera | 1302 - Cuánto dura la leche vegetal abierta en la nevera | 0.551 | 0.714 |
+| en | 52 - Tuna vs Salmon: Protein, Omega-3, Fat and Calories | 183 - Salmon: protein, omega-3, fat, and calories | 0.549 | 0.714 |
+| en | 4 - Highest-Fiber Foods: Ranking per 100 Grams and by Serving | 74 - The fruits highest in fiber | 0.543 | 0.714 |
+| es | 285 - ¿Por qué flotan algunos huevos? | 300 - La prueba del agua de los huevos: qué indica realmente | 0.531 | 0.714 |
+| en | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.529 | 0.714 |
+| en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.517 | 0.714 |

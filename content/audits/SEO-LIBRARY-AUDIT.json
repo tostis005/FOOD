@@ -127,75 +127,25 @@
     "agriculture": 2,
     "ranking": 2
   },
+  "known_consolidations": {
+    "326": 295,
+    "551": 169,
+    "1137": 593,
+    "1138": 594,
+    "1148": 468,
+    "1152": 287,
+    "1183": 655,
+    "1296": 147,
+    "1304": 767,
+    "1306": 775,
+    "1341": 674,
+    "1343": 610,
+    "1353": 702
+  },
   "missing_translation_pairs": [],
   "translation_group_mismatches": [],
   "exact_duplicate_titles": [],
-  "exact_duplicate_seo_titles": [
-    {
-      "language": "en",
-      "value": "why onions make you cry and how to reduce it",
-      "articles": [
-        {
-          "number": 1148,
-          "title": "Why Onions Make You Cry and Which Methods Actually Reduce It",
-          "path": "content/articles/en/1148-why-onions-make-you-cry-methods-that-reduce-it.json"
-        },
-        {
-          "number": 468,
-          "title": "Why Onions Make You Cry and How to Reduce It",
-          "path": "content/articles/en/468-why-onions-make-you-cry.json"
-        }
-      ]
-    },
-    {
-      "language": "en",
-      "value": "whey isolate vs concentrate: real differences",
-      "articles": [
-        {
-          "number": 1183,
-          "title": "Whey Isolate vs. Whey Concentrate: Protein, Lactose, Calories, and the Real Differences",
-          "path": "content/articles/en/1183-whey-isolate-vs-concentrate-protein-lactose-calories.json"
-        },
-        {
-          "number": 655,
-          "title": "Whey Isolate vs Concentrate: What Actually Changes?",
-          "path": "content/articles/en/655-whey-isolate-vs-concentrate.json"
-        }
-      ]
-    },
-    {
-      "language": "en",
-      "value": "how long does rotisserie chicken last in the fridge?",
-      "articles": [
-        {
-          "number": 1304,
-          "title": "How Long Does Store-Bought Rotisserie Chicken Last in the Refrigerator?",
-          "path": "content/articles/en/1304-how-long-store-bought-rotisserie-chicken-lasts-fridge.json"
-        },
-        {
-          "number": 767,
-          "title": "How long does rotisserie chicken last in the fridge, and when should you toss it?",
-          "path": "content/articles/en/how-long-does-rotisserie-chicken-last-in-the-fridge-and-when-should-you-toss-it.json"
-        }
-      ]
-    },
-    {
-      "language": "es",
-      "value": "codigo de los huevos 0, 1, 2 y 3: que significa",
-      "articles": [
-        {
-          "number": 1138,
-          "title": "Huevos camperos, de suelo y de jaula: qué significa realmente cada código",
-          "path": "content/articles/es/1138-huevos-camperos-suelo-jaula-que-significa-cada-codigo.json"
-        },
-        {
-          "number": 594,
-          "title": "Huevos camperos, ecológicos y de suelo: qué significan los códigos",
-          "path": "content/articles/es/594-huevos-camperos-ecologicos-suelo-codigos.json"
-        }
-      ]
-    }
-  ],
+  "exact_duplicate_seo_titles": [],
   "exact_duplicate_meta_descriptions": [],
   "exact_duplicate_search_intents": [
     {
@@ -415,17 +365,6 @@
   "cannibalization_candidates": [
     {
       "language": "en",
-      "a": 287,
-      "a_title": "Why are some hard-boiled eggs so hard to peel?",
-      "b": 1152,
-      "b_title": "Why Some Hard-Boiled Eggs Are So Hard to Peel",
-      "similarity": 0.7802,
-      "title_jaccard": 1.0,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
       "a": 688,
       "a_title": "Self-Rising vs All-Purpose Flour: What Is Actually Inside?",
       "b": 1228,
@@ -445,17 +384,6 @@
       "title_jaccard": 0.8889,
       "family_match": true,
       "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 655,
-      "a_title": "Whey Isolate vs Concentrate: What Actually Changes?",
-      "b": 1183,
-      "b_title": "Whey Isolate vs. Whey Concentrate: Protein, Lactose, Calories, and the Real Differences",
-      "similarity": 0.8849,
-      "title_jaccard": 0.4444,
-      "family_match": false,
-      "type_overlap": 1
     },
     {
       "language": "en",
@@ -535,28 +463,6 @@
       "type_overlap": 1
     },
     {
-      "language": "es",
-      "a": 169,
-      "a_title": "Almendras vs. pistachos: proteína, fibra y calorías",
-      "b": 551,
-      "b_title": "Pistachos vs. almendras: diferencias nutricionales",
-      "similarity": 0.8303,
-      "title_jaccard": 0.25,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 169,
-      "a_title": "Almonds vs. pistachios: protein, fiber, and calories",
-      "b": 551,
-      "b_title": "Pistachios vs. almonds: nutrition differences",
-      "similarity": 0.8288,
-      "title_jaccard": 0.2857,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
       "language": "en",
       "a": 327,
       "a_title": "Why does a hard-boiled egg yolk get a green ring?",
@@ -624,28 +530,6 @@
     },
     {
       "language": "en",
-      "a": 295,
-      "a_title": "What are the white crystals in aged cheese?",
-      "b": 326,
-      "b_title": "White crystals in cheese: what are they and why do they form?",
-      "similarity": 0.7937,
-      "title_jaccard": 0.6667,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 610,
-      "a_title": "Resistant starch in cooled rice, potatoes and pasta",
-      "b": 1343,
-      "b_title": "Resistant Starch: What It Is and What Changes When You Cool Rice, Potatoes, or Pasta",
-      "similarity": 0.7899,
-      "title_jaccard": 0.5556,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
       "a": 601,
       "a_title": "Honey vs. sugar: nutrition differences",
       "b": 603,
@@ -700,39 +584,6 @@
       "type_overlap": 0
     },
     {
-      "language": "es",
-      "a": 610,
-      "a_title": "Almidón resistente en arroz, patata y pasta enfriados",
-      "b": 1343,
-      "b_title": "Almidón resistente: qué es y qué cambia al enfriar arroz, patata o pasta",
-      "similarity": 0.776,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 147,
-      "a_title": "Freezer burn: what it is and whether the food is safe to eat",
-      "b": 1296,
-      "b_title": "Freezer Burn: What It Is and Whether the Food Is Still Safe",
-      "similarity": 0.7702,
-      "title_jaccard": 0.6667,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 468,
-      "a_title": "Por qué las cebollas hacen llorar y cómo reducirlo",
-      "b": 1148,
-      "b_title": "Por qué las cebollas hacen llorar y qué métodos realmente lo reducen",
-      "similarity": 0.7652,
-      "title_jaccard": 0.5,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
       "language": "en",
       "a": 24,
       "a_title": "Avocado Fat: How Much It Has, What Type, and How It Compares",
@@ -740,17 +591,6 @@
       "b_title": "How much fat is in an avocado, and what type is it?",
       "similarity": 0.7644,
       "title_jaccard": 0.5,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 593,
-      "a_title": "Huevos blancos vs. marrones: ¿hay diferencias nutricionales?",
-      "b": 1137,
-      "b_title": "Huevos blancos vs. huevos marrones: qué cambia realmente",
-      "similarity": 0.7629,
-      "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
     },
@@ -943,50 +783,6 @@
     },
     {
       "language": "es",
-      "a": 594,
-      "a_title": "Huevos camperos, ecológicos y de suelo: qué significan los códigos",
-      "b": 1138,
-      "b_title": "Huevos camperos, de suelo y de jaula: qué significa realmente cada código",
-      "similarity": 0.7467,
-      "title_jaccard": 0.5,
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 702,
-      "a_title": "Coconut Sugar vs Regular Sugar: Is It Really Healthier?",
-      "b": 1353,
-      "b_title": "Coconut Sugar: What It Is and Whether It Is Really Better Than White Sugar",
-      "similarity": 0.7456,
-      "title_jaccard": 0.375,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 775,
-      "a_title": "Pre-washed salad: should you wash it again before eating?",
-      "b": 1306,
-      "b_title": "Should You Wash Bagged Salad Before Eating It?",
-      "similarity": 0.7421,
-      "title_jaccard": 0.4167,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 702,
-      "a_title": "Azúcar de coco o azúcar normal: ¿es realmente más saludable?",
-      "b": 1353,
-      "b_title": "Azúcar de coco: qué es y si realmente es mejor que el azúcar blanco",
-      "similarity": 0.742,
-      "title_jaccard": 0.5,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
       "a": 93,
       "a_title": "Aguacate vs. aceite de oliva: grasas y diferencias nutricionales",
       "b": 637,
@@ -995,28 +791,6 @@
       "title_jaccard": 0.375,
       "family_match": false,
       "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 674,
-      "a_title": "A2 Milk vs Regular Milk: What Is Actually Different?",
-      "b": 1341,
-      "b_title": "A2 Milk: What It Is, How It Differs From Regular Milk, and What the Evidence Says",
-      "similarity": 0.7408,
-      "title_jaccard": 0.1667,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 295,
-      "a_title": "Qué son los cristales blancos del queso curado",
-      "b": 326,
-      "b_title": "Cristales blancos en el queso: qué son y por qué aparecen",
-      "similarity": 0.7381,
-      "title_jaccard": 0.6667,
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "es",
@@ -1140,17 +914,6 @@
       "type_overlap": 1
     },
     {
-      "language": "en",
-      "a": 593,
-      "a_title": "White vs. brown eggs: are there nutrition differences?",
-      "b": 1137,
-      "b_title": "White vs. Brown Eggs: What Actually Changes?",
-      "similarity": 0.7243,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
       "language": "es",
       "a": 262,
       "a_title": "Cómo descongelar pollo de forma segura",
@@ -1193,17 +956,6 @@
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 674,
-      "a_title": "Leche A2 o leche convencional: qué diferencia hay realmente",
-      "b": 1341,
-      "b_title": "Leche A2: qué es, en qué se diferencia de la leche convencional y qué dice la evidencia",
-      "similarity": 0.7197,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 1
     },
     {
       "language": "en",
@@ -1272,17 +1024,6 @@
       "type_overlap": 1
     },
     {
-      "language": "es",
-      "a": 767,
-      "a_title": "Cuánto dura un pollo asado en la nevera y cuándo hay que tirarlo",
-      "b": 1304,
-      "b_title": "Cuánto dura el pollo asado del supermercado en la nevera",
-      "similarity": 0.6927,
-      "title_jaccard": 0.7143,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
       "language": "en",
       "a": 172,
       "a_title": "Pork cuts: protein, fat, and calories",
@@ -1303,17 +1044,6 @@
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 287,
-      "a_title": "Por qué algunos huevos cocidos se pelan mal",
-      "b": 1152,
-      "b_title": "Por qué algunos huevos cocidos se pelan tan mal",
-      "similarity": 0.6757,
-      "title_jaccard": 0.7143,
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "en",
@@ -1789,17 +1519,6 @@
       "type_overlap": 1
     },
     {
-      "language": "en",
-      "a": 468,
-      "a_title": "Why Onions Make You Cry and How to Reduce It",
-      "b": 1148,
-      "b_title": "Why Onions Make You Cry and Which Methods Actually Reduce It",
-      "similarity": 0.7073,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
       "language": "es",
       "a": 547,
       "a_title": "Tahini vs. crema de cacahuete",
@@ -2271,17 +1990,6 @@
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 0
-    },
-    {
-      "language": "es",
-      "a": 147,
-      "a_title": "Quemaduras por congelación: qué son y si el alimento se puede comer",
-      "b": 1296,
-      "b_title": "Quemadura por congelación: qué es y si el alimento sigue siendo seguro",
-      "similarity": 0.6748,
-      "title_jaccard": 0.2,
-      "family_match": true,
-      "type_overlap": 1
     },
     {
       "language": "en",
@@ -3162,6 +2870,248 @@
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 0
+    },
+    {
+      "language": "en",
+      "a": 95,
+      "a_title": "Is it healthy to eat avocado every day?",
+      "b": 119,
+      "b_title": "Is it healthy to eat rice every day?",
+      "similarity": 0.4564,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 439,
+      "a_title": "How Long Does a Cut Onion Last in the Fridge?",
+      "b": 987,
+      "b_title": "How Long Does a Cut Tomato Last in the Fridge?",
+      "similarity": 0.4552,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 217,
+      "a_title": "How long do cooked chickpeas last in the fridge?",
+      "b": 252,
+      "b_title": "How long does cooked fish last in the fridge?",
+      "similarity": 0.4492,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 95,
+      "a_title": "¿Es saludable comer aguacate todos los días?",
+      "b": 122,
+      "b_title": "¿Es saludable comer queso todos los días?",
+      "similarity": 0.4484,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 975,
+      "a_title": "Cuánto dura el caldo abierto en la nevera",
+      "b": 1301,
+      "b_title": "Cuánto dura el tofu abierto en la nevera",
+      "similarity": 0.4456,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 974,
+      "a_title": "How Long Does Opened Pesto Last in the Fridge?",
+      "b": 975,
+      "b_title": "How Long Does Opened Broth Last in the Fridge?",
+      "similarity": 0.4409,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 217,
+      "a_title": "How long do cooked chickpeas last in the fridge?",
+      "b": 278,
+      "b_title": "How long does cooked salmon last in the fridge?",
+      "similarity": 0.44,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 115,
+      "a_title": "Is it healthy to eat nuts every day?",
+      "b": 119,
+      "b_title": "Is it healthy to eat rice every day?",
+      "similarity": 0.4387,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 975,
+      "a_title": "Cuánto dura el caldo abierto en la nevera",
+      "b": 1300,
+      "b_title": "Cuánto dura el hummus abierto en la nevera",
+      "similarity": 0.4379,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 215,
+      "a_title": "How long do cooked lentils last in the fridge?",
+      "b": 278,
+      "b_title": "How long does cooked salmon last in the fridge?",
+      "similarity": 0.4337,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 438,
+      "a_title": "Vegetables Highest in Potassium",
+      "b": 451,
+      "b_title": "Vegetables Highest in Iron",
+      "similarity": 0.4336,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 68,
+      "a_title": "How long does cooked pasta last in the fridge?",
+      "b": 252,
+      "b_title": "How long does cooked fish last in the fridge?",
+      "similarity": 0.4334,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 439,
+      "a_title": "How Long Does a Cut Onion Last in the Fridge?",
+      "b": 988,
+      "b_title": "How Long Does Cut Watermelon Last in the Fridge?",
+      "similarity": 0.4331,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 68,
+      "a_title": "How long does cooked pasta last in the fridge?",
+      "b": 278,
+      "b_title": "How long does cooked salmon last in the fridge?",
+      "similarity": 0.4316,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 772,
+      "a_title": "Does ketchup need refrigeration after opening?",
+      "b": 966,
+      "b_title": "Does Mustard Need Refrigeration After Opening?",
+      "similarity": 0.4287,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 114,
+      "a_title": "Is it healthy to eat eggs every day?",
+      "b": 119,
+      "b_title": "Is it healthy to eat rice every day?",
+      "similarity": 0.4278,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 215,
+      "a_title": "How long do cooked lentils last in the fridge?",
+      "b": 252,
+      "b_title": "How long does cooked fish last in the fridge?",
+      "similarity": 0.424,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 435,
+      "a_title": "Vegetables Highest in Vitamin C",
+      "b": 438,
+      "b_title": "Vegetables Highest in Potassium",
+      "similarity": 0.4227,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 32,
+      "a_title": "Cuánto dura la carne cocinada en la nevera",
+      "b": 33,
+      "b_title": "Cuánto dura la carne cruda en la nevera",
+      "similarity": 0.4206,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 772,
+      "a_title": "Does ketchup need refrigeration after opening?",
+      "b": 980,
+      "b_title": "Do Pickles Need Refrigeration After Opening?",
+      "similarity": 0.4169,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 296,
+      "a_title": "Cuánto dura el queso abierto en la nevera",
+      "b": 975,
+      "b_title": "Cuánto dura el caldo abierto en la nevera",
+      "similarity": 0.416,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 119,
+      "a_title": "¿Es saludable comer arroz todos los días?",
+      "b": 122,
+      "b_title": "¿Es saludable comer queso todos los días?",
+      "similarity": 0.4146,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 3
     }
   ],
   "issues": {
