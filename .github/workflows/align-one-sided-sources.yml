@@ -1,0 +1,60 @@
+name: Align one-sided article sources
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/tools/align-one-sided-sources.py'
+      - '.github/workflows/align-one-sided-sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quinnoa-one-sided-source-alignment
+  cancel-in-progress: true
+
+jobs:
+  align:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Align bilingual source coverage
+        run: |
+          set -euo pipefail
+          python3 content/tools/align-one-sided-sources.py
+          python3 content/tools/audit-seo-library.py
+
+      - name: Commit source alignment and audit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          for attempt in 1 2 3; do
+            if git diff --quiet -- content/articles/es content/articles/en content/audits/SEO-LIBRARY-AUDIT.json content/audits/SEO-LIBRARY-AUDIT.md; then
+              echo "One-sided source coverage is already aligned."
+              exit 0
+            fi
+
+            git add content/articles/es content/articles/en content/audits/SEO-LIBRARY-AUDIT.json content/audits/SEO-LIBRARY-AUDIT.md
+            git commit -m "Align bilingual article sources"
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+
+            echo "main advanced during source alignment; recalculating on latest HEAD (attempt $attempt/3)."
+            git fetch origin main
+            git reset --hard origin/main
+            python3 content/tools/align-one-sided-sources.py
+            python3 content/tools/audit-seo-library.py
+          done
+
+          echo "ERROR: Could not publish one-sided source alignment after 3 attempts." >&2
+          exit 1
