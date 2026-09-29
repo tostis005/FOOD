@@ -25,6 +25,9 @@ STOPWORDS = {
     'of','on','or','than','the','to','versus','what','when','where','which','who','why',
     'with','you','your',
     'article','articulo','articulos','food','foods','alimento','alimentos','guia',
+    'beneficio','beneficios','effect','effects','efecto','efectos','health','salud',
+    'nutrition','nutritional','nutricion','nutricional','product','products','producto',
+    'productos','use','used','using','usar','usa','utiliza','utilizar',
 }
 
 TYPE_ALIASES = {
@@ -169,16 +172,16 @@ def pair_score(a_num: int, b_num: int, features, vectors):
     text_similarity = cosine(vectors[a_num], vectors[b_num])
     title_overlap = len(a['title_tokens'] & b['title_tokens'])
     intent_overlap = len(a['intent_tokens'] & b['intent_tokens'])
-    score = text_similarity * 9.0
+    score = text_similarity * 16.0
     if family_match:
-        score += 4.0
-    score += min(4.5, type_overlap * 1.5)
+        score += 1.75
+    score += min(2.0, type_overlap * 0.65)
     if primary_match:
-        score += 2.0
-    score += min(2.0, title_overlap * 0.5)
-    score += min(1.5, intent_overlap * 0.25)
-    if abs(a_num - b_num) <= 12 and (family_match or type_overlap or text_similarity >= 0.08):
-        score += 0.15
+        score += 0.75
+    score += min(3.0, title_overlap * 1.25)
+    score += min(1.5, intent_overlap * 0.30)
+    if abs(a_num - b_num) <= 12 and (text_similarity >= 0.08 or title_overlap >= 1):
+        score += 0.05
     evidence = {
         'family_match': family_match,
         'type_overlap': type_overlap,
@@ -190,50 +193,60 @@ def pair_score(a_num: int, b_num: int, features, vectors):
     return score, evidence
 
 def eligible(evidence: dict) -> bool:
-    return (
-        (evidence['family_match'] and (
-            evidence['text_similarity'] >= 0.04
-            or evidence['title_overlap'] >= 1
-            or evidence['intent_overlap'] >= 1
-        ))
-        or (evidence['type_overlap'] >= 2 and evidence['text_similarity'] >= 0.06)
-        or evidence['text_similarity'] >= 0.16
+    semantic = (
+        evidence['text_similarity'] >= 0.075
+        or evidence['title_overlap'] >= 1
+        or evidence['intent_overlap'] >= 2
+    )
+    structural = (
+        evidence['family_match']
+        or evidence['type_overlap'] >= 1
+        or evidence['text_similarity'] >= 0.14
         or evidence['title_overlap'] >= 2
-        or evidence['intent_overlap'] >= 3
+    )
+    return semantic and structural
+
+def relaxed_eligible(evidence: dict) -> bool:
+    return (
+        (evidence['text_similarity'] >= 0.055 and (
+            evidence['family_match'] or evidence['primary_match'] or evidence['type_overlap'] >= 1
+        ))
+        or (evidence['title_overlap'] >= 1 and (
+            evidence['family_match'] or evidence['type_overlap'] >= 1
+        ))
     )
 
 def rank_candidates(number: int, numbers: list[int], features, vectors):
-    ranked = []
+    strict = []
+    relaxed = []
     for other in numbers:
         if other == number:
             continue
         score, evidence = pair_score(number, other, features, vectors)
-        if not eligible(evidence):
-            continue
-        ranked.append((other, score, evidence))
-    ranked.sort(key=lambda row: (-row[1], -row[2]['text_similarity'], abs(number - row[0]), row[0]))
-    return ranked
+        row = (other, score, evidence)
+        if eligible(evidence):
+            strict.append(row)
+        elif relaxed_eligible(evidence):
+            relaxed.append(row)
+
+    key = lambda row: (-row[1], -row[2]['text_similarity'], -row[2]['title_overlap'], abs(number - row[0]), row[0])
+    strict.sort(key=key)
+    relaxed.sort(key=key)
+
+    if len(strict) < 6:
+        seen = {row[0] for row in strict}
+        strict.extend(row for row in relaxed if row[0] not in seen)
+    return strict
 
 def select_links(number: int, ranked, features) -> list[int]:
     chosen = []
-    def take(predicate):
-        for other, score, evidence in ranked:
-            if other in chosen or not predicate(other, score, evidence):
-                continue
-            chosen.append(other)
-            return True
-        return False
-    current = features[number]
-    take(lambda other, score, ev: other <= LEGACY_CUTOFF and score >= 5.0)
-    if current['family']:
-        take(lambda other, score, ev: ev['family_match'] and score >= 4.5)
-    take(lambda other, score, ev: ev['primary_match'] and score >= 4.0)
     for other, score, evidence in ranked:
+        if other in chosen:
+            continue
+        chosen.append(other)
         if len(chosen) >= TARGET_LINKS:
             break
-        if other not in chosen:
-            chosen.append(other)
-    return chosen[:TARGET_LINKS]
+    return chosen
 
 def generate_map(root: Path, existing_map: Path):
     articles = load_articles(root)
@@ -266,11 +279,11 @@ def generate_map(root: Path, existing_map: Path):
                 continue
             if evidence['type_overlap'] < 1 and not evidence['primary_match']:
                 continue
-            if evidence['text_similarity'] < 0.14:
+            if evidence['text_similarity'] < 0.16:
                 continue
-            if evidence['title_overlap'] < 1 and evidence['intent_overlap'] < 2:
+            if evidence['title_overlap'] < 1 and evidence['intent_overlap'] < 3:
                 continue
-            if score < 6.2:
+            if score < 4.8:
                 continue
             candidates.append((other, score, evidence))
         candidates.sort(key=lambda row: (-row[1], -row[2]['text_similarity'], row[0]))
@@ -284,30 +297,7 @@ def generate_map(root: Path, existing_map: Path):
             if target > LEGACY_CUTOFF:
                 inbound[target] += 1
     repaired = 0
-    for target in new_numbers:
-        if inbound[target] > 0:
-            continue
-        source_candidates = []
-        for source in new_numbers:
-            if source == target:
-                continue
-            score, evidence = pair_score(source, target, features, vectors)
-            if not eligible(evidence):
-                continue
-            source_candidates.append((source, score, evidence))
-        source_candidates.sort(key=lambda row: (-row[1], -row[2]['text_similarity'], abs(row[0] - target)))
-        if not source_candidates:
-            raise SystemExit(f'No safe inbound-link source found for article {target}')
-        source = source_candidates[0][0]
-        links = result[str(source)]
-        if target not in links:
-            if len(links) < MAX_LINKS:
-                links.append(target)
-            else:
-                links[-1] = target
-            result[str(source)] = links
-            inbound[target] += 1
-            repaired += 1
+    zero_inbound = [target for target in new_numbers if inbound[target] == 0]
     invalid = []
     for number in numbers:
         links = result.get(str(number), [])
@@ -326,6 +316,7 @@ def generate_map(root: Path, existing_map: Path):
         'new_generated': max(0, max_number - LEGACY_CUTOFF),
         'old_to_new_added': old_to_new,
         'inbound_repairs': repaired,
+        'new_inbound_zero': len(zero_inbound),
         'new_inbound_min': min((inbound[n] for n in new_numbers), default=0),
         'new_inbound_avg': sum(inbound[n] for n in new_numbers) / len(new_numbers) if new_numbers else 0.0,
     }
