@@ -12,6 +12,7 @@
     "translation_group_mismatches": 0
   },
   "issue_counts": {
+    "effective_seo_title_over_65": 75,
     "meta_over_160": 1213,
     "meta_over_220": 227,
     "meta_under_90": 95,
@@ -2907,6 +2908,533 @@
     }
   ],
   "issues": {
+    "effective_seo_title_over_65": [
+      {
+        "language": "es",
+        "number": 86,
+        "title": "¿El cuerpo procesa igual todas las calorías?",
+        "path": "content/articles/es/086-todas-calorias-iguales-nutricionalmente.json",
+        "value": 71
+      },
+      {
+        "language": "es",
+        "number": 1010,
+        "title": "¿Son venenosas las semillas de manzana? Cuánto riesgo hay realmente",
+        "path": "content/articles/es/1010-son-venenosas-semillas-manzana.json",
+        "value": 67
+      },
+      {
+        "language": "es",
+        "number": 1016,
+        "title": "Por qué la leche se corta al echarla al café y si significa que está mala",
+        "path": "content/articles/es/1016-por-que-leche-se-corta-cafe.json",
+        "value": 73
+      },
+      {
+        "language": "es",
+        "number": 1018,
+        "title": "Por qué el agua de la pasta hace tanta espuma y se sale de la olla",
+        "path": "content/articles/es/1018-por-que-agua-pasta-hace-espuma-se-sale.json",
+        "value": 66
+      },
+      {
+        "language": "es",
+        "number": 1023,
+        "title": "Por qué la nata montada se convierte en mantequilla si sigues batiendo",
+        "path": "content/articles/es/1023-por-que-nata-montada-se-convierte-mantequilla.json",
+        "value": 70
+      },
+      {
+        "language": "es",
+        "number": 1035,
+        "title": "Por qué las verduras congeladas pueden quedar blandas al cocinarlas",
+        "path": "content/articles/es/1035-por-que-verduras-congeladas-quedan-blandas-cocinar.json",
+        "value": 67
+      },
+      {
+        "language": "es",
+        "number": 1289,
+        "title": "Carne separada mecánicamente: qué es y cómo reconocerla en una etiqueta",
+        "path": "content/articles/es/1289-carne-separada-mecanicamente-que-es-como-reconocer-etiqueta.json",
+        "value": 66
+      },
+      {
+        "language": "es",
+        "number": 1317,
+        "title": "¿La kombucha tiene probióticos? Qué significa realmente que esté fermentada",
+        "path": "content/articles/es/1317-kombucha-probioticos-que-significa-fermentada.json",
+        "value": 66
+      },
+      {
+        "language": "es",
+        "number": 1355,
+        "title": "Sirope de agave: por qué es tan rico en fructosa y si tiene un índice glucémico más bajo",
+        "path": "content/articles/es/1355-sirope-agave-fructosa-indice-glucemico.json",
+        "value": 68
+      },
+      {
+        "language": "es",
+        "number": 283,
+        "title": "Cómo saber si las gambas están malas",
+        "path": "content/articles/es/283-como-saber-si-gambas-estan-malas.json",
+        "value": 66
+      },
+      {
+        "language": "es",
+        "number": 285,
+        "title": "¿Por qué flotan algunos huevos?",
+        "path": "content/articles/es/285-por-que-flotan-huevos.json",
+        "value": 66
+      },
+      {
+        "language": "es",
+        "number": 756,
+        "title": "¿El tomate es una fruta o una verdura? La respuesta depende de cómo lo mires",
+        "path": "content/articles/es/756-el-tomate-es-una-fruta-o-una-verdura.json",
+        "value": 76
+      },
+      {
+        "language": "es",
+        "number": 838,
+        "title": "Uvas que se desprenden fácilmente del racimo: qué dice sobre su frescura",
+        "path": "content/articles/es/838-uvas-se-desprenden-racimo-que-dice-sobre-frescura.json",
+        "value": 72
+      },
+      {
+        "language": "es",
+        "number": 840,
+        "title": "Fresas con zonas blancas o verdes junto al tallo: madurez o problema",
+        "path": "content/articles/es/840-fresas-zonas-blancas-verdes-junto-tallo-madurez-o-problema.json",
+        "value": 68
+      },
+      {
+        "language": "es",
+        "number": 843,
+        "title": "Arándanos blandos o que revientan al tocarlos: cómo saber si están pasados",
+        "path": "content/articles/es/843-arandanos-blandos-revientan-al-tocarlos-como-saber-si-estan-pasados.json",
+        "value": 74
+      },
+      {
+        "language": "es",
+        "number": 844,
+        "title": "Frambuesas con jugo en el fondo del envase: cuándo es señal de deterioro",
+        "path": "content/articles/es/844-frambuesas-jugo-fondo-envase-cuando-senal-deterioro.json",
+        "value": 72
+      },
+      {
+        "language": "es",
+        "number": 845,
+        "title": "Moras con pequeños pelos blancos: cómo distinguir estructuras naturales de moho",
+        "path": "content/articles/es/845-moras-pequenos-pelos-blancos-distinguir-estructuras-naturales-moho.json",
+        "value": 79
+      },
+      {
+        "language": "es",
+        "number": 846,
+        "title": "Naranja seca por dentro: por qué ocurre aunque la piel parezca normal",
+        "path": "content/articles/es/846-naranja-seca-por-dentro-por-que-ocurre-aunque-piel-parezca-normal.json",
+        "value": 69
+      },
+      {
+        "language": "es",
+        "number": 849,
+        "title": "Mandarina hinchada o con la piel separada de la pulpa: qué significa",
+        "path": "content/articles/es/849-mandarina-hinchada-piel-separada-pulpa-que-significa.json",
+        "value": 68
+      },
+      {
+        "language": "es",
+        "number": 851,
+        "title": "Pomelo rosado con zonas pálidas o secas: madurez frente a deterioro",
+        "path": "content/articles/es/851-pomelo-rosado-zonas-palidas-secas-madurez-frente-deterioro.json",
+        "value": 67
+      },
+      {
+        "language": "es",
+        "number": 858,
+        "title": "Piña con centro marrón: qué significa y si se puede comer el resto",
+        "path": "content/articles/es/858-pina-centro-marron-que-significa-si-se-puede-comer-resto.json",
+        "value": 66
+      },
+      {
+        "language": "es",
+        "number": 866,
+        "title": "Plátano rojo o rosado por dentro: cuándo puede indicar un problema",
+        "path": "content/articles/es/866-platano-rojo-rosado-por-dentro-cuando-puede-indicar-problema.json",
+        "value": 66
+      },
+      {
+        "language": "es",
+        "number": 874,
+        "title": "Cómo saber si la leche está mala: olor, grumos y cambios de textura",
+        "path": "content/articles/es/874-como-saber-si-leche-esta-mala-olor-grumos-cambios-textura.json",
+        "value": 67
+      },
+      {
+        "language": "es",
+        "number": 876,
+        "title": "Nata montada que suelta agua: por qué ocurre y si sigue siendo segura",
+        "path": "content/articles/es/876-nata-montada-suelta-agua-por-que-ocurre-si-sigue-siendo-segura.json",
+        "value": 69
+      },
+      {
+        "language": "es",
+        "number": 877,
+        "title": "Mantequilla con zonas amarillas oscuras o translúcidas: qué significa",
+        "path": "content/articles/es/877-mantequilla-zonas-amarillas-oscuras-translucidas-que-significa.json",
+        "value": 69
+      },
+      {
+        "language": "es",
+        "number": 883,
+        "title": "Yema que se rompe al cascar el huevo: qué dice sobre su frescura y qué no",
+        "path": "content/articles/es/883-yema-se-rompe-al-cascar-huevo-que-dice-sobre-frescura-y-que-no.json",
+        "value": 73
+      },
+      {
+        "language": "es",
+        "number": 889,
+        "title": "Arroz seco con insectos: por qué aparecen y qué hacer con la despensa",
+        "path": "content/articles/es/889-arroz-seco-insectos-por-que-aparecen-que-hacer-despensa.json",
+        "value": 69
+      },
+      {
+        "language": "es",
+        "number": 898,
+        "title": "Crema de cacahuete con aceite separado: por qué ocurre y si hay que mezclarlo",
+        "path": "content/articles/es/898-crema-cacahuete-aceite-separado-por-que-ocurre-si-mezclarlo.json",
+        "value": 77
+      },
+      {
+        "language": "es",
+        "number": 900,
+        "title": "Semillas de chía con olor raro o rancio: cómo saber si se han estropeado",
+        "path": "content/articles/es/900-semillas-chia-olor-raro-rancio-como-saber-si-estropeado.json",
+        "value": 72
+      },
+      {
+        "language": "es",
+        "number": 901,
+        "title": "Conserva con la tapa abombada: por qué no debe abrirse ni probarse",
+        "path": "content/articles/es/901-conserva-tapa-abombada-por-que-no-debe-abrirse-ni-probarse.json",
+        "value": 66
+      },
+      {
+        "language": "es",
+        "number": 902,
+        "title": "Conserva con óxido en la lata: cuándo es superficial y cuándo desecharla",
+        "path": "content/articles/es/902-conserva-oxido-lata-cuando-superficial-cuando-desecharla.json",
+        "value": 72
+      },
+      {
+        "language": "es",
+        "number": 903,
+        "title": "Lata abollada: qué golpes son solo estéticos y cuáles pueden ser un riesgo",
+        "path": "content/articles/es/903-lata-abollada-golpes-esteticos-cuales-pueden-ser-riesgo.json",
+        "value": 74
+      },
+      {
+        "language": "es",
+        "number": 904,
+        "title": "Mermelada con cristales de azúcar: por qué aparecen y si se puede comer",
+        "path": "content/articles/es/904-mermelada-cristales-azucar-por-que-aparecen-si-se-puede-comer.json",
+        "value": 71
+      },
+      {
+        "language": "es",
+        "number": 905,
+        "title": "Salsa de tomate con agua separada en la superficie: por qué ocurre",
+        "path": "content/articles/es/905-salsa-tomate-agua-separada-superficie-por-que-ocurre.json",
+        "value": 66
+      },
+      {
+        "language": "es",
+        "number": 906,
+        "title": "Kétchup oscurecido después de abierto: por qué cambia y cuándo tirarlo",
+        "path": "content/articles/es/906-ketchup-oscurecido-despues-abierto-por-que-cambia-cuando-tirarlo.json",
+        "value": 70
+      },
+      {
+        "language": "es",
+        "number": 907,
+        "title": "Mayonesa separada o aguada: cuándo es un problema de calidad y cuándo desecharla",
+        "path": "content/articles/es/907-mayonesa-separada-aguada-calidad-cuando-desecharla.json",
+        "value": 80
+      },
+      {
+        "language": "es",
+        "number": 908,
+        "title": "Salsa de soja con sedimento o cristales: qué puede ser y si sigue buena",
+        "path": "content/articles/es/908-salsa-soja-sedimento-cristales-que-puede-ser-si-sigue-buena.json",
+        "value": 71
+      },
+      {
+        "language": "es",
+        "number": 909,
+        "title": "Madre del vinagre: qué es la masa gelatinosa que puede formarse en la botella",
+        "path": "content/articles/es/909-madre-vinagre-que-es-masa-gelatinosa-botella.json",
+        "value": 77
+      },
+      {
+        "language": "es",
+        "number": 910,
+        "title": "Azúcar moreno duro como una piedra: por qué ocurre y cómo saber si sigue bueno",
+        "path": "content/articles/es/910-azucar-moreno-duro-piedra-por-que-ocurre-como-saber-si-sigue-bueno.json",
+        "value": 78
+      },
+      {
+        "language": "es",
+        "number": 911,
+        "title": "Verduras congeladas apelmazadas en un bloque: qué indica sobre la cadena de frío",
+        "path": "content/articles/es/911-verduras-congeladas-apelmazadas-bloque-que-indica-cadena-frio.json",
+        "value": 80
+      },
+      {
+        "language": "es",
+        "number": 912,
+        "title": "Helado con cristales grandes de hielo: por qué aparecen y si se puede comer",
+        "path": "content/articles/es/912-helado-cristales-grandes-hielo-por-que-aparecen-si-se-puede-comer.json",
+        "value": 75
+      },
+      {
+        "language": "es",
+        "number": 996,
+        "title": "¿Se puede comer atún crudo? Qué diferencia hay con el atún para sushi",
+        "path": "content/articles/es/996-se-puede-comer-atun-crudo.json",
+        "value": 69
+      },
+      {
+        "language": "es",
+        "number": 997,
+        "title": "Qué significa realmente “sushi grade” y si garantiza que un pescado sea seguro",
+        "path": "content/articles/es/997-que-significa-sushi-grade-pescado.json",
+        "value": 78
+      },
+      {
+        "language": "en",
+        "number": 86,
+        "title": "Does the body process all calories the same way?",
+        "path": "content/articles/en/086-are-all-calories-nutritionally-equal.json",
+        "value": 74
+      },
+      {
+        "language": "en",
+        "number": 1289,
+        "title": "Mechanically Separated Meat: What It Is and How to Recognize It on a Label",
+        "path": "content/articles/en/1289-mechanically-separated-meat-what-it-is-label.json",
+        "value": 66
+      },
+      {
+        "language": "en",
+        "number": 1355,
+        "title": "Agave Syrup: Why It Is High in Fructose and Whether Its Glycemic Index Is Lower",
+        "path": "content/articles/en/1355-agave-syrup-fructose-low-glycemic-index.json",
+        "value": 69
+      },
+      {
+        "language": "en",
+        "number": 653,
+        "title": "Which Foods Naturally Provide the Most Electrolytes?",
+        "path": "content/articles/en/653-foods-high-in-electrolytes.json",
+        "value": 68
+      },
+      {
+        "language": "en",
+        "number": 840,
+        "title": "Strawberries with white or green areas near the stem: ripeness or a problem?",
+        "path": "content/articles/en/840-strawberries-white-green-areas-near-stem-ripeness-or-problem.json",
+        "value": 76
+      },
+      {
+        "language": "en",
+        "number": 843,
+        "title": "Soft blueberries that burst when touched: how to tell if they're past their best",
+        "path": "content/articles/en/843-soft-blueberries-burst-when-touched-how-to-tell-if-past-best.json",
+        "value": 80
+      },
+      {
+        "language": "en",
+        "number": 844,
+        "title": "Juice at the bottom of a raspberry container: when it signals spoilage",
+        "path": "content/articles/en/844-juice-at-bottom-of-raspberry-container-when-it-signals-spoilage.json",
+        "value": 70
+      },
+      {
+        "language": "en",
+        "number": 851,
+        "title": "Pink grapefruit with pale or dry areas: ripeness versus deterioration",
+        "path": "content/articles/en/851-pink-grapefruit-pale-dry-areas-ripeness-versus-deterioration.json",
+        "value": 69
+      },
+      {
+        "language": "en",
+        "number": 858,
+        "title": "Pineapple with a brown center: what it means and whether the rest is edible",
+        "path": "content/articles/en/858-pineapple-brown-center-what-it-means-can-you-eat-the-rest.json",
+        "value": 75
+      },
+      {
+        "language": "en",
+        "number": 859,
+        "title": "Pineapple smells like alcohol: why it happens and when to discard it",
+        "path": "content/articles/en/859-pineapple-smells-like-alcohol-why-it-happens-when-to-discard.json",
+        "value": 68
+      },
+      {
+        "language": "en",
+        "number": 862,
+        "title": "Yellowish or translucent watermelon flesh: when it is past its best",
+        "path": "content/articles/en/862-yellowish-translucent-watermelon-flesh-when-past-best.json",
+        "value": 67
+      },
+      {
+        "language": "en",
+        "number": 871,
+        "title": "Fresh figs leaking liquid or tasting fermented: when to discard them",
+        "path": "content/articles/en/871-fresh-figs-leaking-liquid-fermented-taste-when-to-discard.json",
+        "value": 68
+      },
+      {
+        "language": "en",
+        "number": 873,
+        "title": "Pomegranate with internal mold: why it may not show on the outside",
+        "path": "content/articles/en/873-pomegranate-internal-mold-why-it-may-not-show-outside.json",
+        "value": 66
+      },
+      {
+        "language": "en",
+        "number": 876,
+        "title": "Whipped cream releases water: why it happens and whether it is still safe",
+        "path": "content/articles/en/876-whipped-cream-releases-water-why-it-happens-is-it-still-safe.json",
+        "value": 73
+      },
+      {
+        "language": "en",
+        "number": 881,
+        "title": "Watery ricotta or sour-smelling ricotta: how to tell if it is spoiled",
+        "path": "content/articles/en/881-watery-sour-smelling-ricotta-how-to-tell-if-spoiled.json",
+        "value": 69
+      },
+      {
+        "language": "en",
+        "number": 883,
+        "title": "Egg yolk breaks when cracked: what it says about freshness and what it does not",
+        "path": "content/articles/en/883-egg-yolk-breaks-when-cracked-what-it-says-about-freshness.json",
+        "value": 79
+      },
+      {
+        "language": "en",
+        "number": 886,
+        "title": "Condensation inside a bag of sliced bread: why it happens and when to worry",
+        "path": "content/articles/en/886-condensation-inside-sliced-bread-bag-why-it-happens-when-to-worry.json",
+        "value": 75
+      },
+      {
+        "language": "en",
+        "number": 887,
+        "title": "Sliced bread is damp or sticky with no visible mold: when to throw it away",
+        "path": "content/articles/en/887-sliced-bread-damp-sticky-no-visible-mold-when-to-discard.json",
+        "value": 74
+      },
+      {
+        "language": "en",
+        "number": 889,
+        "title": "Insects in dry rice: why they appear and what to do with the pantry",
+        "path": "content/articles/en/889-insects-in-dry-rice-why-they-appear-what-to-do-pantry.json",
+        "value": 67
+      },
+      {
+        "language": "en",
+        "number": 896,
+        "title": "Tempeh with black spots: when they are normal and when they are not",
+        "path": "content/articles/en/896-tempeh-black-spots-when-normal-when-not.json",
+        "value": 67
+      },
+      {
+        "language": "en",
+        "number": 898,
+        "title": "Peanut butter with separated oil: why it happens and whether to stir it back in",
+        "path": "content/articles/en/898-peanut-butter-separated-oil-why-happens-stir-back-in.json",
+        "value": 79
+      },
+      {
+        "language": "en",
+        "number": 899,
+        "title": "Insects, holes or powder in nuts: what to do with the package and pantry",
+        "path": "content/articles/en/899-insects-holes-powder-nuts-what-to-do-package-pantry.json",
+        "value": 72
+      },
+      {
+        "language": "en",
+        "number": 900,
+        "title": "Chia seeds smell strange or rancid: how to tell if they have spoiled",
+        "path": "content/articles/en/900-chia-seeds-strange-rancid-smell-how-to-tell-spoiled.json",
+        "value": 68
+      },
+      {
+        "language": "en",
+        "number": 904,
+        "title": "Sugar crystals in jam: why they form and whether it is safe to eat",
+        "path": "content/articles/en/904-sugar-crystals-in-jam-why-form-safe-to-eat.json",
+        "value": 66
+      },
+      {
+        "language": "en",
+        "number": 906,
+        "title": "Ketchup darkened after opening: why it changes and when to discard it",
+        "path": "content/articles/en/906-ketchup-darkened-after-opening-why-changes-when-discard.json",
+        "value": 69
+      },
+      {
+        "language": "en",
+        "number": 908,
+        "title": "Soy sauce with sediment or crystals: what it can be and whether it is still good",
+        "path": "content/articles/en/908-soy-sauce-sediment-crystals-what-it-can-be-still-good.json",
+        "value": 80
+      },
+      {
+        "language": "en",
+        "number": 910,
+        "title": "Brown sugar hard as a rock: why it happens and how to tell if it is still good",
+        "path": "content/articles/en/910-brown-sugar-hard-as-rock-why-happens-still-good.json",
+        "value": 78
+      },
+      {
+        "language": "en",
+        "number": 911,
+        "title": "Frozen vegetables clumped into a solid block: what it says about the cold chain",
+        "path": "content/articles/en/911-frozen-vegetables-clumped-solid-block-what-it-says-cold-chain.json",
+        "value": 79
+      },
+      {
+        "language": "en",
+        "number": 912,
+        "title": "Ice cream with large ice crystals: why they form and whether it is safe to eat",
+        "path": "content/articles/en/912-ice-cream-large-ice-crystals-why-form-safe-to-eat.json",
+        "value": 78
+      },
+      {
+        "language": "en",
+        "number": 913,
+        "title": "Ground coffee with clumps or moisture: when it is better to discard it",
+        "path": "content/articles/en/913-ground-coffee-clumps-moisture-when-to-discard.json",
+        "value": 70
+      },
+      {
+        "language": "en",
+        "number": 914,
+        "title": "Unopened food package swollen before opening: why that is a sign not to taste it",
+        "path": "content/articles/en/914-unopened-food-package-swollen-why-not-taste.json",
+        "value": 80
+      },
+      {
+        "language": "en",
+        "number": 997,
+        "title": "What “sushi grade” really means and whether it guarantees safe fish",
+        "path": "content/articles/en/997-what-sushi-grade-really-means.json",
+        "value": 67
+      }
+    ],
     "meta_over_160": [
       {
         "language": "es",
