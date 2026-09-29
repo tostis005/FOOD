@@ -13,9 +13,7 @@
 
 | Signal | Count |
 | --- | ---: |
-| sources_under_3 | 1634 |
-| source_meta_over_220 | 227 |
-| seo_title_under_28 | 57 |
+| sources_under_2 | 175 |
 
 ## Vocabulary drift
 
