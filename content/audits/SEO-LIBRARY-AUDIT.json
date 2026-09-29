@@ -13,7 +13,7 @@
   },
   "issue_counts": {
     "faq_under_2": 22,
-    "high_stakes_sources_under_2": 56,
+    "high_stakes_sources_under_2": 32,
     "meta_over_160": 1214,
     "meta_over_220": 229,
     "meta_under_90": 95,
@@ -3280,20 +3280,6 @@
     "high_stakes_sources_under_2": [
       {
         "language": "es",
-        "number": 8,
-        "title": "Cómo saber si un huevo está malo: qué señales sirven y cuáles no",
-        "path": "content/articles/es/008-como-saber-huevo-malo.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 9,
-        "title": "Cuánto dura el arroz cocido en la nevera y cómo conservarlo con seguridad",
-        "path": "content/articles/es/009-cuanto-dura-arroz-cocido-nevera.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 22,
         "title": "Patatas con brotes: cuándo se pueden comer y cuándo es mejor tirarlas",
         "path": "content/articles/es/022-patatas-con-brotes.json",
@@ -3357,13 +3343,6 @@
       },
       {
         "language": "es",
-        "number": 442,
-        "title": "Por qué los plátanos se ponen negros",
-        "path": "content/articles/es/442-por-que-platanos-se-ponen-negros.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 445,
         "title": "Cómo saber si unos champiñones están malos",
         "path": "content/articles/es/445-como-saber-champinones-malos.json",
@@ -3399,13 +3378,6 @@
       },
       {
         "language": "es",
-        "number": 464,
-        "title": "Por qué la lechuga se pone marrón",
-        "path": "content/articles/es/464-por-que-lechuga-se-pone-marron.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 482,
         "title": "¿La quinoa tiene gluten?",
         "path": "content/articles/es/482-quinoa-tiene-gluten.json",
@@ -3416,34 +3388,6 @@
         "number": 487,
         "title": "Cuánto dura la quinoa cocida y si se puede congelar",
         "path": "content/articles/es/487-cuanto-dura-quinoa-cocida-congelar.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 824,
-        "title": "Alcachofa con hojas muy abiertas o secas: cómo saber si está pasada",
-        "path": "content/articles/es/824-alcachofa-hojas-abiertas-secas.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 825,
-        "title": "Remolacha blanda o arrugada: cuándo sigue siendo comestible",
-        "path": "content/articles/es/825-remolacha-blanda-arrugada.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 827,
-        "title": "Rábano blando o esponjoso por dentro: por qué ocurre",
-        "path": "content/articles/es/827-rabano-blando-esponjoso.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 20,
-        "title": "Can You Refreeze Thawed Food? The Rules Depend on How It Thawed",
-        "path": "content/articles/en/020-can-you-refreeze-thawed-food.json",
         "value": 1
       },
       {
@@ -3469,20 +3413,6 @@
       },
       {
         "language": "en",
-        "number": 30,
-        "title": "How Long Does Raw Chicken Last in the Fridge?",
-        "path": "content/articles/en/030-how-long-raw-chicken-fridge.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 33,
-        "title": "How Long Does Raw Meat Last in the Fridge?",
-        "path": "content/articles/en/033-how-long-raw-meat-fridge.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 1133,
         "title": "Can You Put Aluminum Foil in the Microwave? What Actually Happens",
         "path": "content/articles/en/1133-can-you-put-aluminum-foil-in-microwave-what-happens.json",
@@ -3504,37 +3434,9 @@
       },
       {
         "language": "en",
-        "number": 146,
-        "title": "Do frozen foods expire?",
-        "path": "content/articles/en/146-do-frozen-foods-expire.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 148,
-        "title": "Does freezing food kill bacteria?",
-        "path": "content/articles/en/148-does-freezing-kill-bacteria.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 150,
         "title": "How many times can you reheat food?",
         "path": "content/articles/en/150-how-many-times-can-reheat-food.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 152,
-        "title": "How to organize your refrigerator to keep food safe longer",
-        "path": "content/articles/en/152-how-organize-refrigerator-food-safety.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 279,
-        "title": "How to tell when salmon is done",
-        "path": "content/articles/en/279-how-to-tell-salmon-done.json",
         "value": 1
       },
       {
@@ -3553,23 +3455,9 @@
       },
       {
         "language": "en",
-        "number": 442,
-        "title": "Why Bananas Turn Black",
-        "path": "content/articles/en/442-why-bananas-turn-black.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 445,
         "title": "How to Tell if Mushrooms Have Gone Bad",
         "path": "content/articles/en/445-how-to-tell-mushrooms-bad.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 446,
-        "title": "When Should You Wash Fruit: Before Storing or Before Eating?",
-        "path": "content/articles/en/446-when-wash-fruit-before-storing-or-eating.json",
         "value": 1
       },
       {
@@ -3595,30 +3483,9 @@
       },
       {
         "language": "en",
-        "number": 457,
-        "title": "How to Tell if Flour Has Gone Bad",
-        "path": "content/articles/en/457-how-to-tell-flour-bad.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 458,
         "title": "How Long Does Opened Yogurt Last, and How Can You Tell It’s Bad?",
         "path": "content/articles/en/458-how-long-opened-yogurt-lasts.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 459,
-        "title": "How to Store Strawberries So They Last Longer",
-        "path": "content/articles/en/459-how-to-store-strawberries-longer.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 464,
-        "title": "Why Lettuce Turns Brown",
-        "path": "content/articles/en/464-why-lettuce-turns-brown.json",
         "value": 1
       },
       {
@@ -3633,41 +3500,6 @@
         "number": 487,
         "title": "How Long Does Cooked Quinoa Last, and Can You Freeze It?",
         "path": "content/articles/en/487-how-long-cooked-quinoa-lasts-freezing.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 645,
-        "title": "Can You Reuse Cooking Oil? How to Do It More Safely",
-        "path": "content/articles/en/645-reusing-cooking-oil.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 817,
-        "title": "Shriveled or dried-out ginger: when it is still good to use",
-        "path": "content/articles/en/817-shriveled-dry-ginger.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 824,
-        "title": "Artichoke with wide-open or dry leaves: how to tell if it is past its prime",
-        "path": "content/articles/en/824-open-dry-artichoke-leaves.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 825,
-        "title": "Soft or wrinkled beet: when it is still okay to eat",
-        "path": "content/articles/en/825-soft-wrinkled-beet.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 827,
-        "title": "Soft or spongy radish inside: why it happens",
-        "path": "content/articles/en/827-soft-spongy-radish.json",
         "value": 1
       }
     ],
@@ -10507,14 +10339,14 @@
         "number": 8,
         "title": "Cómo saber si un huevo está malo: qué señales sirven y cuáles no",
         "path": "content/articles/es/008-como-saber-huevo-malo.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
         "number": 9,
         "title": "Cuánto dura el arroz cocido en la nevera y cómo conservarlo con seguridad",
         "path": "content/articles/es/009-cuanto-dura-arroz-cocido-nevera.json",
-        "value": 1
+        "value": 2
       },
       {
         "language": "es",
