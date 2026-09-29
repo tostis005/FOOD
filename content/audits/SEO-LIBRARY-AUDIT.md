@@ -37,7 +37,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | Lang | A | B | Similarity | Title overlap |
 | --- | ---: | ---: | ---: | ---: |
 | en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 1273 - Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing | 0.804 | 0.889 |
-| en | 606 - Dates: sugar, fiber and calories | 607 - Dates vs. sugar: nutrition differences | 0.876 | 0.500 |
+| en | 606 - Dates: sugar, fiber and calories | 607 - Dates vs. sugar: nutrition differences | 0.877 | 0.500 |
 | en | 582 - Cottage cheese: protein, fat and calories | 584 - Cottage cheese vs. ricotta: nutrition differences | 0.618 | 0.857 |
 | en | 553 - Hummus: protein, fiber, fat and nutrition | 554 - Hummus vs. guacamole: nutrition differences | 0.564 | 0.857 |
 | es | 183 - Salmón: proteína, omega-3, grasa y calorías | 185 - Merluza vs. salmón: proteína, grasa y calorías | 0.538 | 0.833 |
@@ -46,15 +46,15 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 38 - Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.814 | 0.417 |
 | es | 38 - Los alimentos con más omega-3: pescado, semillas y nueces sin mezclar ALA con EPA y DHA | 167 - Omega-3 vegetal vs. omega-3 del pescado | 0.811 | 0.556 |
 | es | 1 - Los alimentos con más proteína: ranking por cada 100 gramos | 13 - Las carnes con más proteína: ranking por cada 100 gramos | 0.470 | 0.800 |
-| en | 123 - Foods with more potassium than a banana | 131 - Is the banana really one of the best sources of potassium? | 0.795 | 0.333 |
+| en | 123 - Foods with more potassium than a banana | 131 - Is the banana really one of the best sources of potassium? | 0.796 | 0.333 |
 | en | 601 - Honey vs. sugar: nutrition differences | 603 - What sugars are in honey? | 0.783 | 0.286 |
 | en | 512 - 70%, 85%, and 100% cacao chocolate: what really changes? | 513 - What does the cacao percentage on chocolate mean? | 0.782 | 0.333 |
-| es | 123 - Alimentos con más potasio que el plátano | 131 - ¿Es realmente el plátano una de las mejores fuentes de potasio? | 0.779 | 0.500 |
+| es | 123 - Alimentos con más potasio que el plátano | 131 - ¿Es realmente el plátano una de las mejores fuentes de potasio? | 0.780 | 0.500 |
 | en | 16 - Highest-Protein Nuts: Ranking per 100 Grams and per Ounce | 17 - Highest-Protein Seeds: Ranking per 100 Grams and per Ounce | 0.492 | 0.778 |
 | en | 127 - The best plant sources of omega-3 | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.776 | 0.250 |
 | en | 60 - Whole Egg vs Egg Whites: Protein, Fat and Nutrients | 276 - Egg white vs. yolk: what each part provides | 0.762 | 0.545 |
 | en | 81 - Processed vs. ultra-processed foods: differences and examples | 82 - What ultra-processed foods actually are | 0.755 | 0.400 |
-| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.755 | 0.111 |
+| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.754 | 0.111 |
 | en | 572 - Oat milk vs. soy milk: nutrition differences | 573 - Almond milk vs. oat milk: nutrition differences | 0.730 | 0.750 |
 | es | 572 - Bebida de avena vs. bebida de soja: diferencias nutricionales | 573 - Bebida de almendra vs. bebida de avena: diferencias nutricionales | 0.699 | 0.750 |
 | en | 213 - Ground beef vs. ground turkey: nutrition differences | 218 - Ground beef vs. ground pork: nutrition differences | 0.673 | 0.750 |
@@ -72,13 +72,11 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | es | 453 - Masa madre vs. pan convencional: ¿qué cambia realmente? | 562 - Masa madre vs. pan integral: diferencias | 0.737 | 0.250 |
 | en | 496 - Bulgur vs. Couscous: Nutrition Compared | 1217 - Bulgur: What It Is, How to Cook It, and How It Differs From Couscous | 0.736 | 0.333 |
 | es | 537 - Matcha vs. café: cafeína y diferencias | 539 - Café, té, mate y matcha: comparativa de cafeína | 0.735 | 0.444 |
-| en | 57 - Potato vs Sweet Potato: Nutrition Differences | 358 - Sweet potato: calories, fiber, carbohydrates and nutrients | 0.734 | 0.714 |
+| en | 57 - Potato vs Sweet Potato: Nutrition Differences | 358 - Sweet potato: calories, fiber, carbohydrates and nutrients | 0.735 | 0.714 |
 | en | 595 - Grass-fed vs. grain-fed beef: nutrition differences | 1081 - Grass-Fed vs. Grass-Finished: Why They Do Not Mean Exactly the Same Thing | 0.732 | 0.231 |
 | en | 984 - How Long Does Bacon Last Once Opened? | 986 - How Long Does Cooked Bacon Last in the Fridge? | 0.732 | 0.571 |
-| es | 39 - Los alimentos con más potasio: no solo el plátano | 123 - Alimentos con más potasio que el plátano | 0.732 | 0.400 |
-| en | 664 - Which Foods Have Gluten, and Which Are Naturally Gluten-Free? | 954 - Do Potatoes Have Gluten? | 0.730 | 0.250 |
+| en | 664 - Which Foods Have Gluten, and Which Are Naturally Gluten-Free? | 954 - Do Potatoes Have Gluten? | 0.731 | 0.250 |
 | en | 1119 - How Long Does Food Last in the Refrigerator During a Power Outage? | 1120 - How Long Does Food Last in the Freezer During a Power Outage? | 0.544 | 0.727 |
-| es | 39 - Los alimentos con más potasio: no solo el plátano | 131 - ¿Es realmente el plátano una de las mejores fuentes de potasio? | 0.726 | 0.286 |
 | es | 262 - Cómo descongelar pollo de forma segura | 271 - Cómo descongelar carne de forma segura | 0.722 | 0.600 |
 | es | 130 - ¿Es realmente la naranja la fruta con más vitamina C? | 398 - Las frutas con más vitamina C | 0.721 | 0.400 |
 | es | 497 - Los cereales integrales con más proteína | 498 - Los cereales integrales con más fibra | 0.720 | 0.500 |
@@ -97,11 +95,11 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 33 - How Long Does Raw Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.605 | 0.714 |
 | es | 771 - ¿La salsa de soja necesita nevera después de abrirla? | 971 - ¿La salsa de pescado necesita nevera después de abrirla? | 0.594 | 0.714 |
 | es | 60 - Huevo entero vs. claras: proteína, grasa y nutrientes | 194 - Huevos: proteína, grasa, calorías y nutrientes | 0.591 | 0.714 |
-| en | 183 - Salmon: protein, omega-3, fat, and calories | 185 - Hake vs. salmon: protein, fat, calories, and omega-3 | 0.590 | 0.714 |
+| en | 183 - Salmon: protein, omega-3, fat, and calories | 185 - Hake vs. salmon: protein, fat, calories, and omega-3 | 0.589 | 0.714 |
 | en | 1 - Highest-Protein Foods: A Practical Ranking per 100 Grams | 13 - Highest-Protein Meats: Ranking per 100 Grams | 0.583 | 0.714 |
 | en | 771 - Does soy sauce need refrigeration after opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.561 | 0.714 |
 | es | 976 - Cuánto dura la leche de coco abierta en la nevera | 1302 - Cuánto dura la leche vegetal abierta en la nevera | 0.551 | 0.714 |
-| en | 52 - Tuna vs Salmon: Protein, Omega-3, Fat and Calories | 183 - Salmon: protein, omega-3, fat, and calories | 0.549 | 0.714 |
+| en | 52 - Tuna vs Salmon: Protein, Omega-3, Fat and Calories | 183 - Salmon: protein, omega-3, fat, and calories | 0.548 | 0.714 |
 | en | 4 - Highest-Fiber Foods: Ranking per 100 Grams and by Serving | 74 - The fruits highest in fiber | 0.544 | 0.714 |
 | en | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.530 | 0.714 |
 | en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.517 | 0.714 |
@@ -116,3 +114,5 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 9 - How Long Does Cooked Rice Last in the Fridge? | 32 - How Long Does Cooked Meat Last in the Fridge? | 0.396 | 0.714 |
 | en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 9 - How Long Does Cooked Rice Last in the Fridge? | 0.382 | 0.714 |
 | en | 616 - Foods with the most protein per calorie | 617 - Foods with the most fiber per calorie | 0.368 | 0.714 |
+| en | 1301 - How Long Does Opened Tofu Last in the Refrigerator? | 1303 - How Long Does Opened Guacamole Last in the Refrigerator? | 0.343 | 0.714 |
+| en | 1300 - How Long Does Opened Hummus Last in the Refrigerator? | 1301 - How Long Does Opened Tofu Last in the Refrigerator? | 0.319 | 0.714 |
