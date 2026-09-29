@@ -1,0 +1,37 @@
+name: Backfill article FAQs
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/articles/FAQ-BACKFILL-MAP.json'
+      - 'content/tools/backfill-article-faqs.py'
+      - '.github/workflows/backfill-article-faqs.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Add useful bilingual FAQs
+        run: python3 content/tools/backfill-article-faqs.py
+      - name: Commit FAQ backfill
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- content/articles/es content/articles/en; then
+            echo "FAQ backfill already applied."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/articles/es content/articles/en
+          git commit -m "Backfill useful article FAQs"
+          git push origin HEAD:main
