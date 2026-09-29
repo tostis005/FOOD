@@ -26,7 +26,12 @@ function food_article_seo_document_title( $title ) {
 		return $title;
 	}
 
-	return $seo_title . ' | Quinnoa';
+	if ( function_exists( 'food_seo_v2_title_with_brand' ) ) {
+		return food_seo_v2_title_with_brand( $seo_title );
+	}
+
+	$length = function_exists( 'mb_strlen' ) ? mb_strlen( $seo_title, 'UTF-8' ) : strlen( $seo_title );
+	return $length <= 55 ? $seo_title . ' | Quinnoa' : $seo_title;
 }
 add_filter( 'pre_get_document_title', 'food_article_seo_document_title', 200 );
 

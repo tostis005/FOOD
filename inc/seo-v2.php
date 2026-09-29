@@ -56,6 +56,15 @@ function food_seo_v2_trim( $text, $length = 158 ) {
 	return $excerpt . '…';
 }
 
+function food_seo_v2_title_with_brand( $base ) {
+	$base = trim( (string) $base );
+	if ( '' === $base ) {
+		return '';
+	}
+	$length = function_exists( 'mb_strlen' ) ? mb_strlen( $base, 'UTF-8' ) : strlen( $base );
+	return $length <= 55 ? $base . ' | Quinnoa' : $base;
+}
+
 function food_seo_v2_paginated_text( $text ) {
 	$page = food_seo_v2_page_number();
 	if ( $page > 1 ) {
@@ -119,7 +128,7 @@ function food_seo_v2_title( $title ) {
 	if ( $page > 1 && ( 'latest' === $directory || is_category() || is_tax( 'food_topic' ) ) ) {
 		$base .= $english ? sprintf( ' – Page %d', $page ) : sprintf( ' – Página %d', $page );
 	}
-	return $base . ' | Quinnoa';
+	return food_seo_v2_title_with_brand( $base );
 }
 add_filter( 'pre_get_document_title', 'food_seo_v2_title', 100 );
 
