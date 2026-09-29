@@ -8,12 +8,60 @@
   "market_context": "United States; food composition, labeling, and food-safety guidance localized to U.S. sources where relevant",
   "title": "Canned Coconut Milk vs Coconut Beverage: Why They Are Not Interchangeable",
   "slug": "canned-coconut-milk-vs-coconut-beverage",
-  "seo": {"title":"Canned Coconut Milk vs Carton Coconut Beverage","meta_description":"Canned coconut milk is a concentrated cooking ingredient rich in coconut fat. Carton coconut beverage is diluted for drinking and may be fortified, so it is far thinner and usually much lower in calories.","search_intent":"Explain the difference between canned coconut milk and coconut beverage, including fat, fortification, cooking behavior, and substitutions."},
+  "seo": {
+    "title": "Canned Coconut Milk vs Carton Coconut Beverage",
+    "meta_description": "Canned coconut milk is a concentrated cooking ingredient rich in coconut fat. Carton coconut beverage is diluted for drinking and may be fortified, so it is far thinner and usually much lower in calories.",
+    "search_intent": "Explain the difference between canned coconut milk and coconut beverage, including fat, fortification, cooking behavior, and substitutions."
+  },
   "excerpt": "Canned coconut milk is concentrated enough to thicken curries and sauces. Carton coconut beverage is mostly water and is formulated to drink like milk, often with added calcium and vitamins. The similar name hides a large difference in fat, richness, and culinary behavior.",
-  "taxonomy": {"food_family":"plant-foods","food_subcategories":["coconut-milk","plant-beverages"],"article_types":["comparisons","ingredients","labels"],"primary_article_type":"comparisons"},
+  "taxonomy": {
+    "food_family": "plant-foods",
+    "food_subcategories": [
+      "coconut-milk",
+      "plant-beverages"
+    ],
+    "article_types": [
+      "comparisons",
+      "ingredients",
+      "labels"
+    ],
+    "primary_article_type": "comparisons"
+  },
   "content_html": "<p>The word “coconut milk” can refer to two products that behave nothing alike. <strong>Canned coconut milk is a rich culinary ingredient made with a substantial amount of coconut extract and fat. Refrigerated or shelf-stable coconut beverage in a carton is diluted to drink by the glass and may be fortified to resemble other milk alternatives nutritionally.</strong> If you pour carton beverage into a curry that expects canned milk, the dish will usually be thin because most of the fat and coconut solids are missing.</p><h2>Canned coconut milk is designed for cooking</h2><p>A can of full-fat coconut milk often separates into a thick cream layer and a thinner liquid because coconut fat rises during storage. Shaking or stirring recombines it. That fat and concentrated coconut material give curries, soups, rice dishes, sauces, and desserts body and flavor. “Light” canned coconut milk is more diluted and behaves somewhere between full-fat canned milk and a beverage. Recipes that rely on emulsified richness generally mean the canned product unless they specifically say drinking coconut milk.</p><h2>Carton coconut beverage is mostly a drink</h2><p>Coconut beverage is formulated to be pourable and relatively light. It usually contains much more water and far less coconut fat than canned milk. Manufacturers may add stabilizers, calcium, vitamin D, vitamin B12, or other nutrients, and sweetened or flavored versions may contain added sugars. Those fortifications can make the beverage useful as a cereal or coffee milk, but they do not recreate the fat needed for a Thai-style curry, coconut custard, or rich soup.</p><h2>Calories and saturated fat can be dramatically different</h2><p>Coconut fat is rich in saturated fat, so a cup of full-fat canned coconut milk can be much more calorie-dense than a cup of carton beverage. Light canned versions fall in between. Exact figures vary by brand, and serving sizes on cans may be smaller than a drinking-glass serving on cartons. Compare equal volumes or equal grams if nutrition is important. A low-calorie carton is not evidence that coconut itself contains little fat; it mainly reflects how much the coconut has been diluted.</p><h2>Fortification changes the nutrition story</h2><p>Unlike dairy milk, coconut is naturally low in protein, and many coconut beverages provide little protein unless another ingredient is added. Some cartons compensate by adding calcium and vitamins, but amounts vary. Canned coconut milk is usually treated as a cooking ingredient rather than a nutritional milk replacement and may not be fortified. Someone choosing a daily plant beverage for protein, calcium, vitamin D, or B12 should check the label rather than assuming all plant “milks” have the same profile.</p><h2>Substituting usually requires changing concentration</h2><p>If a recipe calls for carton coconut beverage, canned coconut milk can often be diluted with water, though the flavor may remain richer. The reverse is harder: reducing carton beverage on the stove removes water, but stabilizers and low coconut solids may prevent it from ever matching canned milk. For a curry emergency, another rich ingredient such as dairy cream or a different unsweetened plant cream may provide body better than a thin coconut drink, depending on dietary needs and the flavor of the dish.</p><h2>Read the package format and ingredient list</h2><p>The easiest shortcut is physical: cans usually signal a concentrated cooking product; cartons usually signal a beverage. But labels still deserve a check because “light,” “cream,” “unsweetened,” and “sweetened” alter the result. <strong>Canned coconut milk and coconut beverage share a base ingredient, not a culinary role.</strong> Choose the can when the recipe needs coconut fat and thickness; choose the carton when you want a drink, cereal liquid, smoothie base, or a thin milk substitute.</p><p>The protein gap matters when a coconut beverage is replacing dairy milk in a child or adult diet. Many coconut drinks provide only a small amount of protein per cup, while dairy milk and soy beverages typically provide much more. Fortified calcium and vitamin D can make some nutrients comparable, but fortification does not create protein. For habitual use, read the label for the nutrients you actually need rather than choosing a beverage solely because its color and package resemble milk.</p>",
-  "faq": [{"question":"Can I use carton coconut milk in curry?","answer":"You can, but the curry will usually be much thinner and less rich than with canned full-fat coconut milk."},{"question":"Why is canned coconut milk higher in calories?","answer":"It contains much more coconut fat and solids and far less water than a drinking beverage."},{"question":"Is coconut beverage a good protein source?","answer":"Usually not. Many coconut beverages are low in protein, so check the label if protein is an important reason for choosing a milk alternative."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Reference database for food composition and nutrient values."}],
-  "image": {"concept":"A can of thick coconut milk beside a carton of thin coconut beverage poured into glasses, natural food photography without readable branding or text.","alt":"A can of thick coconut milk beside a carton of thin coconut beverage poured into glasses"},
+  "faq": [
+    {
+      "question": "Can I use carton coconut milk in curry?",
+      "answer": "You can, but the curry will usually be much thinner and less rich than with canned full-fat coconut milk."
+    },
+    {
+      "question": "Why is canned coconut milk higher in calories?",
+      "answer": "It contains much more coconut fat and solids and far less water than a drinking beverage."
+    },
+    {
+      "question": "Is coconut beverage a good protein source?",
+      "answer": "Usually not. Many coconut beverages are low in protein, so check the label if protein is an important reason for choosing a milk alternative."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Reference database for food composition and nutrient values."
+    },
+    {
+      "name": "Codex Alimentarius — Standard for Aqueous Coconut Products (CXS 240-2003)",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/es/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B240-2003%252FCXS_240e.pdf",
+      "note": "International standard defining culinary coconut milk."
+    },
+    {
+      "name": "FDA — Milk and Plant-Based Milk Alternatives: Know the Nutrient Difference",
+      "url": "https://www.fda.gov/consumers/consumer-updates/milk-and-plant-based-milk-alternatives-know-nutrient-difference",
+      "note": "Guidance explaining nutrient variability among plant-based beverages sold as milk alternatives."
+    }
+  ],
+  "image": {
+    "concept": "A can of thick coconut milk beside a carton of thin coconut beverage poured into glasses, natural food photography without readable branding or text.",
+    "alt": "A can of thick coconut milk beside a carton of thin coconut beverage poured into glasses"
+  },
   "status": "publish"
 }

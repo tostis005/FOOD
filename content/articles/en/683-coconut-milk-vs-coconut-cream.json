@@ -8,12 +8,56 @@
   "market_context": "United States; food composition, labeling, and food-safety guidance localized to U.S. sources where relevant",
   "title": "Coconut Milk vs Coconut Cream: Richness, Fat, and Cooking Uses",
   "slug": "coconut-milk-vs-coconut-cream",
-  "seo": {"title":"Coconut Milk vs Coconut Cream","meta_description":"Coconut cream contains a higher proportion of coconut solids and fat than coconut milk, so it is thicker and richer. Both differ from sweetened cream of coconut and from refrigerated coconut beverages.","search_intent":"Explain coconut milk and coconut cream differences, how they are made, and which is better for curries, soups, desserts, and substitutions."},
+  "seo": {
+    "title": "Coconut Milk vs Coconut Cream",
+    "meta_description": "Coconut cream contains a higher proportion of coconut solids and fat than coconut milk, so it is thicker and richer. Both differ from sweetened cream of coconut and from refrigerated coconut beverages.",
+    "search_intent": "Explain coconut milk and coconut cream differences, how they are made, and which is better for curries, soups, desserts, and substitutions."
+  },
   "excerpt": "Canned coconut milk and coconut cream are both made from coconut flesh and water, but coconut cream is more concentrated. It has more coconut solids and usually more fat, giving it a thicker texture and richer flavor. Sweetened cream of coconut is a different product.",
-  "taxonomy": {"food_family":"plant-foods","food_subcategories":["coconut","coconut-milk","coconut-cream"],"article_types":["comparisons","ingredients","cooking-techniques"],"primary_article_type":"comparisons"},
+  "taxonomy": {
+    "food_family": "plant-foods",
+    "food_subcategories": [
+      "coconut",
+      "coconut-milk",
+      "coconut-cream"
+    ],
+    "article_types": [
+      "comparisons",
+      "ingredients",
+      "cooking-techniques"
+    ],
+    "primary_article_type": "comparisons"
+  },
   "content_html": "<p>Coconut milk and coconut cream come from the same basic idea: coconut meat is combined with water and the liquid is extracted. <strong>The difference is concentration.</strong> Coconut cream contains a larger proportion of coconut solids and fat, so it is thicker, richer, and more calorie-dense. Canned coconut milk contains more water and flows more easily. Because brands formulate them differently, the boundary is not perfectly standardized in every market, making the ingredient list and nutrition panel useful when a recipe depends on a specific richness.</p><h2>How the two products are made</h2><p>Mature coconut flesh contains substantial fat. When shredded or ground flesh is mixed with water and pressed, fat, flavor compounds, and fine solids move into the liquid. A more concentrated extraction or a product made with more coconut relative to water becomes creamier. Stabilizers or gums may be added to keep the emulsion uniform. Separation in the can is normal for many products: a firm fat-rich layer can rise to the top while watery liquid remains underneath. Stirring or warming gently recombines the two for most recipes.</p><h2>Coconut cream brings more fat and body</h2><p>Because coconut cream is more concentrated, equal spoonfuls generally provide more fat, saturated fat, calories, and coconut flavor than canned coconut milk. That makes cream useful when a dish needs body without long reduction. Coconut milk is easier for soups, curries, rice, and braises where some extra water is welcome. Neither profile is universal, however. “Light” coconut milk is diluted further, and some brands sell unusually rich coconut milk that approaches another brand’s cream. Compare fat grams per 100 grams or per serving when consistency matters.</p><h2>Do not confuse coconut cream with cream of coconut</h2><p>Cream of coconut is usually a sweetened product designed for cocktails and desserts. It can contain substantial added sugar and is not a direct substitute for unsweetened coconut cream in a savory curry. The names are frustratingly similar, so read the ingredient list. Unsweetened coconut cream should taste rich and coconut-forward rather than syrupy. If a recipe calls for cream of coconut in a piña colada or dessert, using plain coconut cream without adding sugar will produce a much less sweet result.</p><h2>How to substitute one for the other</h2><p>To replace coconut cream with canned coconut milk, use the richest portion of a full-fat can or simmer the milk to reduce some water. The finished dish may still be less rich. To replace coconut milk with coconut cream, dilute the cream gradually with water until the texture resembles the original ingredient. Exact ratios are difficult because brands vary. For baking, ice cream, or custard, fat concentration affects texture more strongly than it does in a flexible soup, so following the product type named by the recipe is safer.</p><h2>Both are different from carton coconut beverages</h2><p>Refrigerated or shelf-stable coconut “milk” beverages are formulated for drinking. They contain far more water, often very little coconut fat, and may be fortified with calcium or vitamins. A cup can have dramatically fewer calories than canned coconut milk. That is useful as a beverage but poor evidence that it will behave the same way in curry. A thin fortified drink cannot provide the same emulsion, fat, or reduction characteristics as canned full-fat coconut milk or coconut cream.</p><h2>Pick concentration to match the dish</h2><p>For a curry or soup that should be rich but spoonable, full-fat canned coconut milk is usually the default. For whipped toppings, ganache-like fillings, thick sauces, and extra-rich desserts, coconut cream is more efficient. <strong>The distinction is mainly water versus coconut solids and fat: cream is more concentrated, milk is more diluted.</strong> Always check for added sugar, especially when a label says “cream of coconut,” and use the nutrition panel when saturated fat or calorie intake matters.</p><p>Storage behavior can also help identify what you bought. Full-fat coconut cream often firms dramatically in a cool pantry or refrigerator because coconut fat is solid at cooler temperatures, while diluted coconut milk remains more fluid. This is normal and usually reversible with gentle warming and stirring. If a recipe asks for the solid cream layer specifically, chilling a can of full-fat coconut milk can sometimes provide it, though yield varies by brand and stabilizer use.</p>",
-  "faq": [{"question":"Is coconut cream the same as coconut milk?","answer":"No. Coconut cream is more concentrated in coconut solids and fat, so it is thicker and richer."},{"question":"Is cream of coconut the same as coconut cream?","answer":"Usually not. Cream of coconut is typically sweetened and intended for desserts or cocktails."},{"question":"Can I dilute coconut cream to make coconut milk?","answer":"Often yes for flexible recipes. Add water gradually until the richness and texture match what the dish needs."}],
-  "sources": [{"name":"USDA FoodData Central","url":"https://fdc.nal.usda.gov/","note":"Reference database for food composition and nutrient values."}],
-  "image": {"concept":"Open cans of coconut milk and coconut cream showing different thicknesses, natural food photography without readable branding or text.","alt":"Open cans of coconut milk and coconut cream showing different thicknesses"},
+  "faq": [
+    {
+      "question": "Is coconut cream the same as coconut milk?",
+      "answer": "No. Coconut cream is more concentrated in coconut solids and fat, so it is thicker and richer."
+    },
+    {
+      "question": "Is cream of coconut the same as coconut cream?",
+      "answer": "Usually not. Cream of coconut is typically sweetened and intended for desserts or cocktails."
+    },
+    {
+      "question": "Can I dilute coconut cream to make coconut milk?",
+      "answer": "Often yes for flexible recipes. Add water gradually until the richness and texture match what the dish needs."
+    }
+  ],
+  "sources": [
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Reference database for food composition and nutrient values."
+    },
+    {
+      "name": "Codex Alimentarius — Standard for Aqueous Coconut Products (CXS 240-2003)",
+      "url": "https://www.fao.org/fao-who-codexalimentarius/sh-proxy/es/?lnk=1&url=https%253A%252F%252Fworkspace.fao.org%252Fsites%252Fcodex%252FStandards%252FCXS%2B240-2003%252FCXS_240e.pdf",
+      "note": "International standard defining coconut milk and coconut cream and their characteristics."
+    }
+  ],
+  "image": {
+    "concept": "Open cans of coconut milk and coconut cream showing different thicknesses, natural food photography without readable branding or text.",
+    "alt": "Open cans of coconut milk and coconut cream showing different thicknesses"
+  },
   "status": "publish"
 }
