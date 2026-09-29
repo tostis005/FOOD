@@ -17,9 +17,9 @@
 | meta_over_160 | 1213 |
 | meta_over_220 | 227 |
 | meta_under_90 | 95 |
-| effective_seo_title_over_65 | 75 |
-| seo_title_over_65 | 75 |
 | seo_title_under_28 | 57 |
+| effective_seo_title_over_65 | 48 |
+| seo_title_over_65 | 48 |
 
 ## Vocabulary drift
 
