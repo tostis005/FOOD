@@ -1,0 +1,48 @@
+name: Sync bilingual high-stakes sources
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/articles/es/**.json'
+      - 'content/articles/en/**.json'
+      - 'content/articles/taxonomies.json'
+      - 'content/articles/SEO-CONSOLIDATIONS.json'
+      - 'content/tools/sync-bilingual-high-stakes-sources.py'
+      - '.github/workflows/sync-bilingual-high-stakes-sources.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quinnoa-high-stakes-source-sync
+  cancel-in-progress: true
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Sync vetted sources across translations
+        run: |
+          set -euo pipefail
+          python3 content/tools/sync-bilingual-high-stakes-sources.py
+
+      - name: Commit source enrichment
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- content/articles/es content/articles/en; then
+            echo "High-stakes bilingual sources are already aligned."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/articles/es content/articles/en
+          git commit -m "Sync bilingual high-stakes sources"
+          git push origin HEAD:main
