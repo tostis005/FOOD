@@ -12,12 +12,11 @@
     "translation_group_mismatches": 0
   },
   "issue_counts": {
-    "faq_under_2": 22,
     "meta_over_160": 1214,
     "meta_over_220": 229,
     "meta_under_90": 95,
     "page_under_631": 1,
-    "seo_title_over_65": 85,
+    "seo_title_over_65": 75,
     "seo_title_under_28": 58,
     "sources_under_3": 1638
   },
@@ -1023,7 +1022,7 @@
       "a_title": "How Long Does Cooked Chicken Last in the Fridge?",
       "b": 30,
       "b_title": "How Long Does Raw Chicken Last in the Fridge?",
-      "similarity": 0.6492,
+      "similarity": 0.6493,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1859,7 +1858,7 @@
       "a_title": "Do chia seeds need to be soaked?",
       "b": 210,
       "b_title": "Can you eat chia seeds without soaking them?",
-      "similarity": 0.6787,
+      "similarity": 0.6788,
       "title_jaccard": 0.25,
       "family_match": true,
       "type_overlap": 2
@@ -2783,7 +2782,7 @@
       "a_title": "Should you wash fish before cooking it?",
       "b": 1025,
       "b_title": "Should You Wash Mushrooms Before Cooking?",
-      "similarity": 0.4588,
+      "similarity": 0.4589,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 0
@@ -2970,7 +2969,7 @@
       "a_title": "How long do cooked lentils last in the fridge?",
       "b": 252,
       "b_title": "How long does cooked fish last in the fridge?",
-      "similarity": 0.4257,
+      "similarity": 0.4258,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -3120,162 +3119,6 @@
     }
   ],
   "issues": {
-    "faq_under_2": [
-      {
-        "language": "es",
-        "number": 763,
-        "title": "Atún blanco o atún claro: cuál suele contener más mercurio",
-        "path": "content/articles/es/atun-blanco-o-atun-claro-cual-suele-contener-mas-mercurio.json",
-        "value": 0
-      },
-      {
-        "language": "es",
-        "number": 764,
-        "title": "Atún en agua o en aceite: qué cambia realmente después de escurrirlo",
-        "path": "content/articles/es/atun-en-agua-o-en-aceite-que-cambia-realmente-despues-de-escurrirlo.json",
-        "value": 0
-      },
-      {
-        "language": "es",
-        "number": 765,
-        "title": "Beicon tradicional o de pavo: cuál tiene menos grasa, sodio y calorías",
-        "path": "content/articles/es/beicon-tradicional-o-de-pavo-cual-tiene-menos-grasa-sodio-y-calorias.json",
-        "value": 0
-      },
-      {
-        "language": "es",
-        "number": 766,
-        "title": "Cuánto dura el fiambre abierto y cuándo deja de ser seguro",
-        "path": "content/articles/es/cuanto-dura-el-fiambre-abierto-y-cuando-deja-de-ser-seguro.json",
-        "value": 0
-      },
-      {
-        "language": "es",
-        "number": 773,
-        "title": "Cuánto dura la leche abierta: la fecha del envase no cuenta toda la historia",
-        "path": "content/articles/es/cuanto-dura-la-leche-abierta-la-fecha-del-envase-no-cuenta-toda-la-historia.json",
-        "value": 0
-      },
-      {
-        "language": "es",
-        "number": 772,
-        "title": "¿El kétchup necesita nevera después de abrirlo?",
-        "path": "content/articles/es/el-ketchup-necesita-nevera-despues-de-abrirlo.json",
-        "value": 0
-      },
-      {
-        "language": "es",
-        "number": 770,
-        "title": "¿Hay que guardar el sirope de arce en la nevera una vez abierto?",
-        "path": "content/articles/es/hay-que-guardar-el-sirope-de-arce-en-la-nevera-una-vez-abierto.json",
-        "value": 0
-      },
-      {
-        "language": "es",
-        "number": 768,
-        "title": "¿Hay que guardar la crema de cacahuete en la nevera después de abrirla?",
-        "path": "content/articles/es/hay-que-guardar-la-crema-de-cacahuete-en-la-nevera-despues-de-abrirla.json",
-        "value": 0
-      },
-      {
-        "language": "es",
-        "number": 769,
-        "title": "¿La mantequilla puede quedarse fuera de la nevera?",
-        "path": "content/articles/es/la-mantequilla-puede-quedarse-fuera-de-la-nevera.json",
-        "value": 0
-      },
-      {
-        "language": "es",
-        "number": 771,
-        "title": "¿La salsa de soja necesita nevera después de abrirla?",
-        "path": "content/articles/es/la-salsa-de-soja-necesita-nevera-despues-de-abrirla.json",
-        "value": 0
-      },
-      {
-        "language": "es",
-        "number": 774,
-        "title": "¿Se puede congelar la leche? Sí, pero esto es lo que cambia",
-        "path": "content/articles/es/se-puede-congelar-la-leche-si-pero-esto-es-lo-que-cambia.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 763,
-        "title": "Albacore vs light tuna: which usually contains more mercury?",
-        "path": "content/articles/en/albacore-vs-light-tuna-which-usually-contains-more-mercury.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 769,
-        "title": "Can butter stay out of the refrigerator?",
-        "path": "content/articles/en/can-butter-stay-out-of-the-refrigerator.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 774,
-        "title": "Can you freeze milk? Yes, but here is what changes",
-        "path": "content/articles/en/can-you-freeze-milk-yes-but-here-is-what-changes.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 772,
-        "title": "Does ketchup need refrigeration after opening?",
-        "path": "content/articles/en/does-ketchup-need-refrigeration-after-opening.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 771,
-        "title": "Does soy sauce need refrigeration after opening?",
-        "path": "content/articles/en/does-soy-sauce-need-refrigeration-after-opening.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 766,
-        "title": "How long does opened deli meat last, and when is it no longer safe?",
-        "path": "content/articles/en/how-long-does-opened-deli-meat-last-and-when-is-it-no-longer-safe.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 773,
-        "title": "How long does opened milk last? The carton date is not the whole story",
-        "path": "content/articles/en/how-long-does-opened-milk-last-the-carton-date-is-not-the-whole-story.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 765,
-        "title": "Pork bacon vs turkey bacon: which has less fat, sodium, and calories?",
-        "path": "content/articles/en/pork-bacon-vs-turkey-bacon-which-has-less-fat-sodium-and-calories.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 770,
-        "title": "Should maple syrup be refrigerated after opening?",
-        "path": "content/articles/en/should-maple-syrup-be-refrigerated-after-opening.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 768,
-        "title": "Should peanut butter be refrigerated after opening?",
-        "path": "content/articles/en/should-peanut-butter-be-refrigerated-after-opening.json",
-        "value": 0
-      },
-      {
-        "language": "en",
-        "number": 764,
-        "title": "Tuna in water vs oil: what really changes after draining",
-        "path": "content/articles/en/tuna-in-water-vs-oil-what-really-changes-after-draining.json",
-        "value": 0
-      }
-    ],
     "meta_over_160": [
       {
         "language": "es",
@@ -9237,31 +9080,10 @@
       },
       {
         "language": "es",
-        "number": 882,
-        "title": "Clara de huevo turbia: por qué suele indicar frescura y no que el huevo esté malo",
-        "path": "content/articles/es/882-clara-huevo-turbia-por-que-suele-indicar-frescura-no-que-este-malo.json",
-        "value": 81
-      },
-      {
-        "language": "es",
         "number": 883,
         "title": "Yema que se rompe al cascar el huevo: qué dice sobre su frescura y qué no",
         "path": "content/articles/es/883-yema-se-rompe-al-cascar-huevo-que-dice-sobre-frescura-y-que-no.json",
         "value": 73
-      },
-      {
-        "language": "es",
-        "number": 886,
-        "title": "Pan de molde con condensación dentro de la bolsa: por qué ocurre y cuándo preocuparse",
-        "path": "content/articles/es/886-pan-molde-condensacion-dentro-bolsa-por-que-ocurre-cuando-preocuparse.json",
-        "value": 85
-      },
-      {
-        "language": "es",
-        "number": 888,
-        "title": "Gorgojos o insectos en la harina: de dónde salen y qué hacer con el paquete y la despensa",
-        "path": "content/articles/es/888-gorgojos-insectos-harina-de-donde-salen-que-hacer-paquete-despensa.json",
-        "value": 89
       },
       {
         "language": "es",
@@ -9272,24 +9094,10 @@
       },
       {
         "language": "es",
-        "number": 894,
-        "title": "Legumbres cocidas con espuma o burbujas en la nevera: cuándo puede indicar fermentación",
-        "path": "content/articles/es/894-legumbres-cocidas-espuma-burbujas-nevera-cuando-puede-indicar-fermentacion.json",
-        "value": 87
-      },
-      {
-        "language": "es",
         "number": 898,
         "title": "Crema de cacahuete con aceite separado: por qué ocurre y si hay que mezclarlo",
         "path": "content/articles/es/898-crema-cacahuete-aceite-separado-por-que-ocurre-si-mezclarlo.json",
         "value": 77
-      },
-      {
-        "language": "es",
-        "number": 899,
-        "title": "Insectos, agujeros o polvo en los frutos secos: qué hacer con el paquete y la despensa",
-        "path": "content/articles/es/899-insectos-agujeros-polvo-frutos-secos-que-hacer-paquete-despensa.json",
-        "value": 86
       },
       {
         "language": "es",
@@ -9381,13 +9189,6 @@
         "title": "Helado con cristales grandes de hielo: por qué aparecen y si se puede comer",
         "path": "content/articles/es/912-helado-cristales-grandes-hielo-por-que-aparecen-si-se-puede-comer.json",
         "value": 75
-      },
-      {
-        "language": "es",
-        "number": 914,
-        "title": "Envase cerrado de comida hinchado antes de abrirlo: por qué es una señal para no probarlo",
-        "path": "content/articles/es/914-envase-cerrado-comida-hinchado-antes-abrir-por-que-no-probarlo.json",
-        "value": 89
       },
       {
         "language": "es",
@@ -9531,24 +9332,10 @@
       },
       {
         "language": "en",
-        "number": 888,
-        "title": "Weevils or insects in flour: where they come from and what to do with the package and pantry",
-        "path": "content/articles/en/888-weevils-insects-flour-where-they-come-from-what-to-do-pantry.json",
-        "value": 92
-      },
-      {
-        "language": "en",
         "number": 889,
         "title": "Insects in dry rice: why they appear and what to do with the pantry",
         "path": "content/articles/en/889-insects-in-dry-rice-why-they-appear-what-to-do-pantry.json",
         "value": 67
-      },
-      {
-        "language": "en",
-        "number": 894,
-        "title": "Cooked legumes with foam or bubbles in the fridge: when it can indicate fermentation",
-        "path": "content/articles/en/894-cooked-legumes-foam-bubbles-fridge-when-it-can-indicate-fermentation.json",
-        "value": 84
       },
       {
         "language": "en",
@@ -9594,13 +9381,6 @@
       },
       {
         "language": "en",
-        "number": 907,
-        "title": "Separated or watery mayonnaise: when it is a quality issue and when to discard it",
-        "path": "content/articles/en/907-separated-watery-mayonnaise-quality-issue-when-discard.json",
-        "value": 81
-      },
-      {
-        "language": "en",
         "number": 908,
         "title": "Soy sauce with sediment or crystals: what it can be and whether it is still good",
         "path": "content/articles/en/908-soy-sauce-sediment-crystals-what-it-can-be-still-good.json",
@@ -9640,13 +9420,6 @@
         "title": "Unopened food package swollen before opening: why that is a sign not to taste it",
         "path": "content/articles/en/914-unopened-food-package-swollen-why-not-taste.json",
         "value": 80
-      },
-      {
-        "language": "en",
-        "number": 915,
-        "title": "Leftovers with bubbles or gas when you open the container: when to throw them away",
-        "path": "content/articles/en/915-leftovers-bubbles-gas-open-container-when-throw-away.json",
-        "value": 82
       },
       {
         "language": "en",
