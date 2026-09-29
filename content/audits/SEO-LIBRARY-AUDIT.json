@@ -12,7 +12,7 @@
     "translation_group_mismatches": 0
   },
   "issue_counts": {
-    "sources_under_2": 76
+    "sources_under_2": 44
   },
   "source_data_signals": {
     "raw_seo_title_under_28": 57,
@@ -3000,62 +3000,6 @@
       },
       {
         "language": "es",
-        "number": 429,
-        "title": "Cómo saber si una piña está madura",
-        "path": "content/articles/es/429-como-saber-pina-madura.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 430,
-        "title": "Cómo saber si un mango está maduro",
-        "path": "content/articles/es/430-como-saber-mango-maduro.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 440,
-        "title": "Lechuga rosa o rojiza: qué significa y si se puede comer",
-        "path": "content/articles/es/440-lechuga-rosa-rojiza-se-puede-comer.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 442,
-        "title": "Por qué los plátanos se ponen negros",
-        "path": "content/articles/es/442-por-que-platanos-se-ponen-negros.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 444,
-        "title": "Por qué los plátanos maduran más rápido junto a otras frutas",
-        "path": "content/articles/es/444-por-que-platanos-maduran-mas-rapido-junto-otras-frutas.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 448,
-        "title": "Brócoli amarillo: qué significa y si se puede comer",
-        "path": "content/articles/es/448-brocoli-amarillo-se-puede-comer.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 449,
-        "title": "Qué frutas siguen madurando después de cosecharlas",
-        "path": "content/articles/es/449-frutas-siguen-madurando-despues-cosecha.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 454,
-        "title": "¿Se pueden comer plátanos muy maduros o negros?",
-        "path": "content/articles/es/454-se-pueden-comer-platanos-muy-maduros-negros.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 461,
         "title": "¿Se pueden congelar fresas?",
         "path": "content/articles/es/461-se-pueden-congelar-fresas.json",
@@ -3063,30 +3007,9 @@
       },
       {
         "language": "es",
-        "number": 464,
-        "title": "Por qué la lechuga se pone marrón",
-        "path": "content/articles/es/464-por-que-lechuga-se-pone-marron.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 465,
-        "title": "Cómo elegir una sandía madura y dulce",
-        "path": "content/articles/es/465-como-elegir-sandia-madura-dulce.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 466,
         "title": "Cómo evitar que una manzana cortada se ponga marrón",
         "path": "content/articles/es/466-evitar-manzana-cortada-marron.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 467,
-        "title": "¿Hay que guardar las manzanas en la nevera?",
-        "path": "content/articles/es/467-hay-que-guardar-manzanas-nevera.json",
         "value": 1
       },
       {
@@ -3129,41 +3052,6 @@
         "number": 684,
         "title": "Leche de coco en lata o bebida de coco: no son lo mismo",
         "path": "content/articles/es/684-leche-coco-lata-o-bebida-coco.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 819,
-        "title": "Maíz en mazorca con granos hundidos o secos: si sigue siendo bueno",
-        "path": "content/articles/es/819-maiz-mazorca-granos-hundidos-secos.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 824,
-        "title": "Alcachofa con hojas muy abiertas o secas: cómo saber si está pasada",
-        "path": "content/articles/es/824-alcachofa-hojas-abiertas-secas.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 825,
-        "title": "Remolacha blanda o arrugada: cuándo sigue siendo comestible",
-        "path": "content/articles/es/825-remolacha-blanda-arrugada.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 826,
-        "title": "Remolacha con anillos blancos por dentro: qué significan",
-        "path": "content/articles/es/826-remolacha-anillos-blancos.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 827,
-        "title": "Rábano blando o esponjoso por dentro: por qué ocurre",
-        "path": "content/articles/es/827-rabano-blando-esponjoso.json",
         "value": 1
       },
       {
@@ -3266,62 +3154,6 @@
       },
       {
         "language": "en",
-        "number": 429,
-        "title": "How to Tell if a Pineapple Is Ripe",
-        "path": "content/articles/en/429-how-to-tell-pineapple-ripe.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 430,
-        "title": "How to Tell if a Mango Is Ripe",
-        "path": "content/articles/en/430-how-to-tell-mango-ripe.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 440,
-        "title": "Pink or Reddish Lettuce: What It Means and Whether You Can Eat It",
-        "path": "content/articles/en/440-pink-reddish-lettuce-safe-to-eat.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 442,
-        "title": "Why Bananas Turn Black",
-        "path": "content/articles/en/442-why-bananas-turn-black.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 444,
-        "title": "Why Bananas Ripen Faster Near Other Fruit",
-        "path": "content/articles/en/444-why-bananas-ripen-faster-near-other-fruit.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 448,
-        "title": "Yellow Broccoli: What It Means and Whether You Can Eat It",
-        "path": "content/articles/en/448-yellow-broccoli-safe-to-eat.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 449,
-        "title": "Which Fruits Keep Ripening After Harvest?",
-        "path": "content/articles/en/449-fruits-ripen-after-harvest.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 454,
-        "title": "Can You Eat Very Ripe or Black Bananas?",
-        "path": "content/articles/en/454-can-you-eat-very-ripe-black-bananas.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 461,
         "title": "Can You Freeze Strawberries?",
         "path": "content/articles/en/461-can-you-freeze-strawberries.json",
@@ -3329,30 +3161,9 @@
       },
       {
         "language": "en",
-        "number": 464,
-        "title": "Why Lettuce Turns Brown",
-        "path": "content/articles/en/464-why-lettuce-turns-brown.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 465,
-        "title": "How to choose a ripe, sweet watermelon",
-        "path": "content/articles/en/465-how-to-choose-ripe-sweet-watermelon.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 466,
         "title": "How to Keep Cut Apples From Browning",
         "path": "content/articles/en/466-how-to-keep-cut-apple-from-browning.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 467,
-        "title": "Should Apples Be Refrigerated?",
-        "path": "content/articles/en/467-should-apples-be-refrigerated.json",
         "value": 1
       },
       {
@@ -3395,41 +3206,6 @@
         "number": 684,
         "title": "Canned Coconut Milk vs Coconut Beverage: Why They Are Not Interchangeable",
         "path": "content/articles/en/684-canned-coconut-milk-vs-coconut-beverage.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 819,
-        "title": "Corn on the cob with shriveled or dry kernels: is it still good?",
-        "path": "content/articles/en/819-shriveled-dry-corn-kernels.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 824,
-        "title": "Artichoke with wide-open or dry leaves: how to tell if it is past its prime",
-        "path": "content/articles/en/824-open-dry-artichoke-leaves.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 825,
-        "title": "Soft or wrinkled beet: when it is still okay to eat",
-        "path": "content/articles/en/825-soft-wrinkled-beet.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 826,
-        "title": "White rings inside a beet: what they mean",
-        "path": "content/articles/en/826-white-rings-beet.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 827,
-        "title": "Soft or spongy radish inside: why it happens",
-        "path": "content/articles/en/827-soft-spongy-radish.json",
         "value": 1
       },
       {
