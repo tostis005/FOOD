@@ -147,12 +147,21 @@ def main():
         if m['primary_article_type']:
             if m['primary_article_type'] not in recognized_t: unknown_t[m['primary_article_type']]+=1
             elif m['primary_article_type'] in type_aliases: alias_t[m['primary_article_type']]+=1
+
+        # Redirected duplicate URLs are kept in the inventory for integrity
+        # checks, but they are not part of the indexable corpus and must not
+        # inflate content-quality review signals.
+        if isinstance(n,int) and n in CONSOLIDATIONS:
+            continue
+
+        canonical_types={type_aliases.get(t,t) for t in m['article_types']}
+        high_stakes=bool({'food-safety','health-daily-consumption'} & canonical_types)
         checks={
             'missing_seo_title':not m['seo_title'],'seo_title_over_65':m['seo_title_len']>65,'seo_title_under_28':0<m['seo_title_len']<28,
             'missing_meta':not m['meta_description'],'meta_over_160':m['meta_len']>160,'meta_over_220':m['meta_len']>220,'meta_under_90':0<m['meta_len']<90,
-            'page_under_631':m['words']<631,'body_under_450':m['body_words']<450,'h2_under_3':m['h2']<3,'sources_under_3':m['sources_count']<3,'faq_under_2':m['faq_count']<2,'status_not_publish':m['status']!='publish'
+            'page_under_631':m['words']<631,'body_under_450':m['body_words']<450,'h2_under_3':m['h2']<3,'sources_under_3':m['sources_count']<3,'high_stakes_sources_under_2':high_stakes and m['sources_count']<2,'faq_under_2':m['faq_count']<2,'status_not_publish':m['status']!='publish'
         }
-        value_map={'seo_title_over_65':m['seo_title_len'],'seo_title_under_28':m['seo_title_len'],'meta_over_160':m['meta_len'],'meta_over_220':m['meta_len'],'meta_under_90':m['meta_len'],'page_under_631':m['words'],'body_under_450':m['body_words'],'h2_under_3':m['h2'],'sources_under_3':m['sources_count'],'faq_under_2':m['faq_count'],'status_not_publish':m['status']}
+        value_map={'seo_title_over_65':m['seo_title_len'],'seo_title_under_28':m['seo_title_len'],'meta_over_160':m['meta_len'],'meta_over_220':m['meta_len'],'meta_under_90':m['meta_len'],'page_under_631':m['words'],'body_under_450':m['body_words'],'h2_under_3':m['h2'],'sources_under_3':m['sources_count'],'high_stakes_sources_under_2':m['sources_count'],'faq_under_2':m['faq_count'],'status_not_publish':m['status']}
         for key,hit in checks.items():
             if hit: issues[key].append({'language':lang,'number':n,'title':m['title'],'path':m['path'],'value':value_map.get(key)})
         fk=norm(m['first_answer'])
@@ -166,16 +175,18 @@ def main():
     for (lang,value),items in firsts.items():
         if len(items)>1: repeated.append({'language':lang,'count':len(items),'articles':[{'number':x['number'],'title':x['title']} for x in items[:20]],'prefix':value[:220]})
     repeated.sort(key=lambda x:(-x['count'],x['language']))
+    active_metrics=[m for m in metrics if not (isinstance(m.get('number'),int) and m['number'] in CONSOLIDATIONS)]
+    indexable_numbers=[n for n in all_nums if n not in CONSOLIDATIONS]
     report={
-        'summary':{'versions':len(metrics),'es':len(nums['es']),'en':len(nums['en']),'logical_articles':len(all_nums),'max_article_number':max(all_nums) if all_nums else 0,'invalid_json':len(invalid),'missing_translation_pairs':len(missing_pairs),'translation_group_mismatches':len(mismatches)},
+        'summary':{'versions':len(metrics),'es':len(nums['es']),'en':len(nums['en']),'logical_articles':len(all_nums),'indexable_logical_articles':len(indexable_numbers),'consolidated_redirects':len(CONSOLIDATIONS),'max_article_number':max(all_nums) if all_nums else 0,'invalid_json':len(invalid),'missing_translation_pairs':len(missing_pairs),'translation_group_mismatches':len(mismatches)},
         'issue_counts':{k:len(v) for k,v in sorted(issues.items())},'unknown_families':dict(unknown_f.most_common()),'unknown_article_types':dict(unknown_t.most_common()),'family_alias_usage':dict(alias_f.most_common()),'article_type_alias_usage':dict(alias_t.most_common()),
         'known_consolidations':{str(k):v for k,v in sorted(CONSOLIDATIONS.items())},
-        'missing_translation_pairs':missing_pairs,'translation_group_mismatches':mismatches,'exact_duplicate_titles':dup_groups(metrics,'title'),'exact_duplicate_seo_titles':dup_groups(metrics,'seo_title'),
-        'exact_duplicate_meta_descriptions':dup_groups(metrics,'meta_description'),'exact_duplicate_search_intents':dup_groups(metrics,'search_intent'),
-        'repeated_first_answers':repeated[:100],'cannibalization_candidates':cannibal_pairs(metrics,250),'issues':{k:v[:500] for k,v in sorted(issues.items())},'invalid_json':invalid
+        'missing_translation_pairs':missing_pairs,'translation_group_mismatches':mismatches,'exact_duplicate_titles':dup_groups(active_metrics,'title'),'exact_duplicate_seo_titles':dup_groups(active_metrics,'seo_title'),
+        'exact_duplicate_meta_descriptions':dup_groups(active_metrics,'meta_description'),'exact_duplicate_search_intents':dup_groups(active_metrics,'search_intent'),
+        'repeated_first_answers':repeated[:100],'cannibalization_candidates':cannibal_pairs(active_metrics,250),'issues':{k:v[:500] for k,v in sorted(issues.items())},'invalid_json':invalid
     }
     outj=Path(args.json_out); outm=Path(args.md_out); outj.parent.mkdir(parents=True,exist_ok=True); outj.write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-    s=report['summary']; lines=['# Quinnoa SEO Library Audit','',f"- Logical articles: **{s['logical_articles']}**",f"- Versions: **{s['versions']}** ({s['es']} ES + {s['en']} EN)",f"- Highest article number: **{s['max_article_number']}**",f"- Invalid JSON: **{s['invalid_json']}**",f"- Missing translation pairs: **{s['missing_translation_pairs']}**",f"- Translation-group mismatches: **{s['translation_group_mismatches']}**",'','## Review signals','','| Signal | Count |','| --- | ---: |']
+    s=report['summary']; lines=['# Quinnoa SEO Library Audit','',f"- Logical articles: **{s['logical_articles']}**",f"- Indexable logical articles after consolidations: **{s['indexable_logical_articles']}**",f"- 301 consolidations: **{s['consolidated_redirects']}**",f"- Versions: **{s['versions']}** ({s['es']} ES + {s['en']} EN)",f"- Highest article number: **{s['max_article_number']}**",f"- Invalid JSON: **{s['invalid_json']}**",f"- Missing translation pairs: **{s['missing_translation_pairs']}**",f"- Translation-group mismatches: **{s['translation_group_mismatches']}**",'','## Review signals','','| Signal | Count |','| --- | ---: |']
     for key,count in sorted(report['issue_counts'].items(),key=lambda kv:(-kv[1],kv[0])): lines.append(f'| {key} | {count} |')
     lines += ['','## Vocabulary drift','',('Unknown food families: '+(', '.join(report['unknown_families']) if report['unknown_families'] else 'none.')),('Unknown article types: '+(', '.join(f"{k} ({v})" for k,v in report['unknown_article_types'].items()) if report['unknown_article_types'] else 'none.')),('Recognized family aliases in use: '+(', '.join(f"{k} ({v})" for k,v in report['family_alias_usage'].items()) if report['family_alias_usage'] else 'none.')),('Recognized article-type aliases in use: '+(', '.join(f"{k} ({v})" for k,v in report['article_type_alias_usage'].items()) if report['article_type_alias_usage'] else 'none.')),'','## Exact duplicates','',f"- Titles: {len(report['exact_duplicate_titles'])}",f"- SEO titles: {len(report['exact_duplicate_seo_titles'])}",f"- Meta descriptions: {len(report['exact_duplicate_meta_descriptions'])}",f"- Search intents: {len(report['exact_duplicate_search_intents'])}",f"- Repeated opening answers: {len(report['repeated_first_answers'])}",'','## Potential cannibalization','',f"Candidates retained for manual review: **{len(report['cannibalization_candidates'])}**.",'These are similarity candidates, not automatic cannibalization verdicts.','','| Lang | A | B | Similarity | Title overlap |','| --- | ---: | ---: | ---: | ---: |']
     for item in report['cannibalization_candidates'][:80]: lines.append(f"| {item['language']} | {item['a']} - {item['a_title'].replace('|','/')} | {item['b']} - {item['b_title'].replace('|','/')} | {item['similarity']:.3f} | {item['title_jaccard']:.3f} |")
