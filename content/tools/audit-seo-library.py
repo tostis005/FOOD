@@ -71,10 +71,11 @@ def metric(row):
     body_words=len(word_list(body))
     faq_words=len(word_list(faq_text))
     page_words=body_words+faq_words
+    effective_seo_title=seo_title + ' | Quinnoa' if seo_title and len(seo_title)<=55 else seo_title
     feature=' '.join([title,seo_title,str(d.get('slug') or ''),intent,excerpt[:260]])
     return {
         'language':row['language'],'path':row['path'],'number':d.get('article_number'),'translation_group':str(d.get('translation_group') or ''),
-        'title':title,'slug':str(d.get('slug') or ''),'seo_title':seo_title,'seo_title_len':len(seo_title),'meta_description':meta,'meta_len':len(meta),
+        'title':title,'slug':str(d.get('slug') or ''),'seo_title':seo_title,'seo_title_len':len(seo_title),'effective_seo_title':effective_seo_title,'effective_seo_title_len':len(effective_seo_title),'meta_description':meta,'meta_len':len(meta),
         'search_intent':intent,'excerpt_len':len(excerpt),'words':page_words,'body_words':body_words,'faq_words':faq_words,'h2':len(re.findall(r'<h2\b',str(d.get('content_html') or ''),re.I)),
         'faq_count':len(faq),'sources_count':len(sources),'food_family':str(tax.get('food_family') or ''),
         'article_types':[str(x) for x in (tax.get('article_types') or []) if isinstance(x,str)],'primary_article_type':str(tax.get('primary_article_type') or ''),
@@ -157,11 +158,11 @@ def main():
         canonical_types={type_aliases.get(t,t) for t in m['article_types']}
         high_stakes=bool({'food-safety','health-daily-consumption'} & canonical_types)
         checks={
-            'missing_seo_title':not m['seo_title'],'seo_title_over_65':m['seo_title_len']>65,'seo_title_under_28':0<m['seo_title_len']<28,
+            'missing_seo_title':not m['seo_title'],'seo_title_over_65':m['seo_title_len']>65,'seo_title_under_28':0<m['seo_title_len']<28,'effective_seo_title_over_65':m['effective_seo_title_len']>65,
             'missing_meta':not m['meta_description'],'meta_over_160':m['meta_len']>160,'meta_over_220':m['meta_len']>220,'meta_under_90':0<m['meta_len']<90,
             'page_under_631':m['words']<631,'body_under_450':m['body_words']<450,'h2_under_3':m['h2']<3,'sources_under_3':m['sources_count']<3,'high_stakes_sources_under_2':high_stakes and m['sources_count']<2,'faq_under_2':m['faq_count']<2,'status_not_publish':m['status']!='publish'
         }
-        value_map={'seo_title_over_65':m['seo_title_len'],'seo_title_under_28':m['seo_title_len'],'meta_over_160':m['meta_len'],'meta_over_220':m['meta_len'],'meta_under_90':m['meta_len'],'page_under_631':m['words'],'body_under_450':m['body_words'],'h2_under_3':m['h2'],'sources_under_3':m['sources_count'],'high_stakes_sources_under_2':m['sources_count'],'faq_under_2':m['faq_count'],'status_not_publish':m['status']}
+        value_map={'seo_title_over_65':m['seo_title_len'],'seo_title_under_28':m['seo_title_len'],'effective_seo_title_over_65':m['effective_seo_title_len'],'meta_over_160':m['meta_len'],'meta_over_220':m['meta_len'],'meta_under_90':m['meta_len'],'page_under_631':m['words'],'body_under_450':m['body_words'],'h2_under_3':m['h2'],'sources_under_3':m['sources_count'],'high_stakes_sources_under_2':m['sources_count'],'faq_under_2':m['faq_count'],'status_not_publish':m['status']}
         for key,hit in checks.items():
             if hit: issues[key].append({'language':lang,'number':n,'title':m['title'],'path':m['path'],'value':value_map.get(key)})
         fk=norm(m['first_answer'])
