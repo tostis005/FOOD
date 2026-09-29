@@ -1,58 +1,13 @@
 [
   {
-    "a": 705,
-    "b": 1273,
-    "reason": "label claims (sugar-free/no added sugar) vs free/added sugar definitions"
-  },
-  {
-    "a": 606,
-    "b": 607,
-    "reason": "dates nutrient profile vs dates/table-sugar comparison"
-  },
-  {
-    "a": 582,
-    "b": 584,
-    "reason": "cottage cheese profile vs cottage cheese/ricotta comparison"
-  },
-  {
-    "a": 553,
-    "b": 554,
-    "reason": "hummus profile vs hummus/guacamole comparison"
-  },
-  {
-    "a": 183,
-    "b": 185,
-    "reason": "salmon profile vs hake/salmon comparison"
-  },
-  {
-    "a": 52,
-    "b": 183,
-    "reason": "tuna/salmon comparison vs salmon profile"
-  },
-  {
-    "a": 724,
-    "b": 725,
-    "reason": "HFCS/table-sugar comparison vs corn-syrup/HFCS ingredient distinction"
-  },
-  {
-    "a": 38,
-    "b": 167,
-    "reason": "broad omega-3 food ranking vs plant/fish omega-3 type comparison"
-  },
-  {
     "a": 1,
     "b": 13,
     "reason": "all-food protein ranking vs meat-only protein ranking"
   },
   {
-    "a": 601,
-    "b": 603,
-    "reason": "honey/table-sugar comparison vs sugars present in honey"
-  },
-  {
-    "a": 512,
-    "b": 513,
-    "reason": "70/85/100 cacao comparison vs definition of cacao percentage"
+    "a": 7,
+    "b": 49,
+    "reason": "four-meat comparison vs chicken/turkey focused comparison"
   },
   {
     "a": 16,
@@ -60,9 +15,19 @@
     "reason": "nut protein ranking vs seed protein ranking"
   },
   {
-    "a": 127,
+    "a": 38,
     "b": 167,
-    "reason": "plant omega-3 sources vs plant/fish omega-3 comparison"
+    "reason": "broad omega-3 food ranking vs plant/fish omega-3 type comparison"
+  },
+  {
+    "a": 52,
+    "b": 183,
+    "reason": "tuna/salmon comparison vs salmon profile"
+  },
+  {
+    "a": 57,
+    "b": 358,
+    "reason": "potato/sweet-potato comparison vs sweet-potato nutrition profile"
   },
   {
     "a": 60,
@@ -70,8 +35,188 @@
     "reason": "whole egg/whites comparison vs white/yolk component comparison"
   },
   {
+    "a": 70,
+    "b": 270,
+    "reason": "general food time outside refrigeration vs meat-specific safety guidance"
+  },
+  {
     "a": 81,
     "b": 82,
     "reason": "processed/ultra-processed distinction vs definition of ultra-processed foods"
+  },
+  {
+    "a": 100,
+    "b": 189,
+    "reason": "almond/walnut comparison vs walnut/pistachio comparison"
+  },
+  {
+    "a": 105,
+    "b": 566,
+    "reason": "whole soybean nutrition profile vs textured soy protein profile"
+  },
+  {
+    "a": 127,
+    "b": 167,
+    "reason": "plant omega-3 sources vs plant/fish omega-3 comparison"
+  },
+  {
+    "a": 130,
+    "b": 398,
+    "reason": "orange vitamin-C myth check vs broad fruit vitamin-C ranking"
+  },
+  {
+    "a": 134,
+    "b": 135,
+    "reason": "glycemic-index explainer/ranking vs glycemic-index/glycemic-load distinction"
+  },
+  {
+    "a": 164,
+    "b": 165,
+    "reason": "general dietary-vs-blood cholesterol concept vs egg-specific cholesterol guidance"
+  },
+  {
+    "a": 170,
+    "b": 172,
+    "reason": "chicken cuts profile vs pork cuts profile"
+  },
+  {
+    "a": 172,
+    "b": 280,
+    "reason": "pork-cuts nutrition profile vs leanest-pork-cuts ranking"
+  },
+  {
+    "a": 183,
+    "b": 185,
+    "reason": "salmon profile vs hake/salmon comparison"
+  },
+  {
+    "a": 213,
+    "b": 218,
+    "reason": "ground beef/turkey comparison vs ground beef/pork comparison"
+  },
+  {
+    "a": 262,
+    "b": 271,
+    "reason": "chicken-specific thawing guidance vs general meat thawing guidance"
+  },
+  {
+    "a": 280,
+    "b": 281,
+    "reason": "lean pork cuts vs lean beef cuts"
+  },
+  {
+    "a": 305,
+    "b": 380,
+    "reason": "extra-virgin olive-oil composition profile vs frying-use question"
+  },
+  {
+    "a": 453,
+    "b": 562,
+    "reason": "sourdough/conventional-bread comparison vs sourdough/whole-wheat-bread comparison"
+  },
+  {
+    "a": 469,
+    "b": 470,
+    "reason": "kefir overview vs milk-kefir/water-kefir comparison"
+  },
+  {
+    "a": 496,
+    "b": 1217,
+    "reason": "bulgur/couscous nutrition comparison vs broad bulgur cooking and identity guide"
+  },
+  {
+    "a": 497,
+    "b": 498,
+    "reason": "whole-grain protein ranking vs whole-grain fiber ranking"
+  },
+  {
+    "a": 512,
+    "b": 513,
+    "reason": "70/85/100 cacao comparison vs definition of cacao percentage"
+  },
+  {
+    "a": 537,
+    "b": 539,
+    "reason": "matcha/coffee comparison vs multi-beverage caffeine comparison"
+  },
+  {
+    "a": 547,
+    "b": 548,
+    "reason": "tahini/peanut-butter comparison vs peanut/almond-butter comparison"
+  },
+  {
+    "a": 553,
+    "b": 554,
+    "reason": "hummus profile vs hummus/guacamole comparison"
+  },
+  {
+    "a": 572,
+    "b": 573,
+    "reason": "oat/soy beverage comparison vs almond/oat beverage comparison"
+  },
+  {
+    "a": 582,
+    "b": 584,
+    "reason": "cottage cheese profile vs cottage cheese/ricotta comparison"
+  },
+  {
+    "a": 595,
+    "b": 1081,
+    "reason": "grass-fed/grain-fed nutrition comparison vs grass-fed/grass-finished terminology"
+  },
+  {
+    "a": 601,
+    "b": 603,
+    "reason": "honey/table-sugar comparison vs sugars present in honey"
+  },
+  {
+    "a": 606,
+    "b": 607,
+    "reason": "dates nutrient profile vs dates/table-sugar comparison"
+  },
+  {
+    "a": 664,
+    "b": 954,
+    "reason": "broad gluten/gluten-free foods guide vs potato-specific gluten question"
+  },
+  {
+    "a": 684,
+    "b": 976,
+    "reason": "canned coconut milk/coconut beverage distinction vs opened coconut-milk storage"
+  },
+  {
+    "a": 699,
+    "b": 700,
+    "reason": "maple-syrup/table-sugar comparison vs maple-syrup/honey comparison"
+  },
+  {
+    "a": 705,
+    "b": 1272,
+    "reason": "sugar-free/no-added-sugar label claims vs daily sugar intake guidance"
+  },
+  {
+    "a": 705,
+    "b": 1273,
+    "reason": "label claims (sugar-free/no added sugar) vs free/added sugar definitions"
+  },
+  {
+    "a": 724,
+    "b": 725,
+    "reason": "HFCS/table-sugar comparison vs corn-syrup/HFCS ingredient distinction"
+  },
+  {
+    "a": 967,
+    "b": 970,
+    "reason": "hot-sauce refrigeration guidance vs Worcestershire-sauce refrigeration guidance"
+  },
+  {
+    "a": 984,
+    "b": 986,
+    "reason": "opened raw bacon storage vs cooked bacon storage"
+  },
+  {
+    "a": 1119,
+    "b": 1120,
+    "reason": "refrigerator power-outage guidance vs freezer power-outage guidance"
   }
 ]
