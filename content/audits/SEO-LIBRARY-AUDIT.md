@@ -46,15 +46,13 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 38 - Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.814 | 0.417 |
 | es | 38 - Los alimentos con más omega-3: pescado, semillas y nueces sin mezclar ALA con EPA y DHA | 167 - Omega-3 vegetal vs. omega-3 del pescado | 0.811 | 0.556 |
 | es | 1 - Los alimentos con más proteína: ranking por cada 100 gramos | 13 - Las carnes con más proteína: ranking por cada 100 gramos | 0.470 | 0.800 |
-| en | 123 - Foods with more potassium than a banana | 131 - Is the banana really one of the best sources of potassium? | 0.796 | 0.333 |
 | en | 601 - Honey vs. sugar: nutrition differences | 603 - What sugars are in honey? | 0.783 | 0.286 |
 | en | 512 - 70%, 85%, and 100% cacao chocolate: what really changes? | 513 - What does the cacao percentage on chocolate mean? | 0.782 | 0.333 |
-| es | 123 - Alimentos con más potasio que el plátano | 131 - ¿Es realmente el plátano una de las mejores fuentes de potasio? | 0.780 | 0.500 |
 | en | 16 - Highest-Protein Nuts: Ranking per 100 Grams and per Ounce | 17 - Highest-Protein Seeds: Ranking per 100 Grams and per Ounce | 0.492 | 0.778 |
 | en | 127 - The best plant sources of omega-3 | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.776 | 0.250 |
 | en | 60 - Whole Egg vs Egg Whites: Protein, Fat and Nutrients | 276 - Egg white vs. yolk: what each part provides | 0.762 | 0.545 |
 | en | 81 - Processed vs. ultra-processed foods: differences and examples | 82 - What ultra-processed foods actually are | 0.755 | 0.400 |
-| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.754 | 0.111 |
+| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.755 | 0.111 |
 | en | 572 - Oat milk vs. soy milk: nutrition differences | 573 - Almond milk vs. oat milk: nutrition differences | 0.730 | 0.750 |
 | es | 572 - Bebida de avena vs. bebida de soja: diferencias nutricionales | 573 - Bebida de almendra vs. bebida de avena: diferencias nutricionales | 0.699 | 0.750 |
 | en | 213 - Ground beef vs. ground turkey: nutrition differences | 218 - Ground beef vs. ground pork: nutrition differences | 0.673 | 0.750 |
@@ -71,8 +69,8 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 134 - Glycemic index: what it is and which foods are highest | 135 - Glycemic index vs. glycemic load | 0.739 | 0.333 |
 | es | 453 - Masa madre vs. pan convencional: ¿qué cambia realmente? | 562 - Masa madre vs. pan integral: diferencias | 0.737 | 0.250 |
 | en | 496 - Bulgur vs. Couscous: Nutrition Compared | 1217 - Bulgur: What It Is, How to Cook It, and How It Differs From Couscous | 0.736 | 0.333 |
+| en | 57 - Potato vs Sweet Potato: Nutrition Differences | 358 - Sweet potato: calories, fiber, carbohydrates and nutrients | 0.736 | 0.714 |
 | es | 537 - Matcha vs. café: cafeína y diferencias | 539 - Café, té, mate y matcha: comparativa de cafeína | 0.735 | 0.444 |
-| en | 57 - Potato vs Sweet Potato: Nutrition Differences | 358 - Sweet potato: calories, fiber, carbohydrates and nutrients | 0.735 | 0.714 |
 | en | 595 - Grass-fed vs. grain-fed beef: nutrition differences | 1081 - Grass-Fed vs. Grass-Finished: Why They Do Not Mean Exactly the Same Thing | 0.732 | 0.231 |
 | en | 984 - How Long Does Bacon Last Once Opened? | 986 - How Long Does Cooked Bacon Last in the Fridge? | 0.732 | 0.571 |
 | en | 664 - Which Foods Have Gluten, and Which Are Naturally Gluten-Free? | 954 - Do Potatoes Have Gluten? | 0.731 | 0.250 |
@@ -88,7 +86,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 771 - Does soy sauce need refrigeration after opening? | 967 - Does Hot Sauce Need Refrigeration After Opening? | 0.677 | 0.714 |
 | en | 771 - Does soy sauce need refrigeration after opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.666 | 0.714 |
 | en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 30 - How Long Does Raw Chicken Last in the Fridge? | 0.650 | 0.714 |
-| en | 977 - How Long Do Opened Canned Beans Last in the Fridge? | 978 - How Long Do Opened Canned Tomatoes Last in the Fridge? | 0.647 | 0.714 |
+| en | 977 - How Long Do Opened Canned Beans Last in the Fridge? | 978 - How Long Do Opened Canned Tomatoes Last in the Fridge? | 0.646 | 0.714 |
 | en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.640 | 0.714 |
 | en | 607 - Dates vs. sugar: nutrition differences | 608 - Dates vs. raisins: sugar, fiber and calories | 0.626 | 0.714 |
 | es | 582 - Cottage cheese: proteína, grasa y calorías | 584 - Cottage cheese vs. ricotta: diferencias nutricionales | 0.623 | 0.714 |
@@ -110,9 +108,11 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 52 - Tuna vs Salmon: Protein, Omega-3, Fat and Calories | 185 - Hake vs. salmon: protein, fat, calories, and omega-3 | 0.441 | 0.714 |
 | en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 32 - How Long Does Cooked Meat Last in the Fridge? | 0.431 | 0.714 |
 | es | 52 - Atún vs. salmón: proteína, omega-3, grasa y calorías | 185 - Merluza vs. salmón: proteína, grasa y calorías | 0.420 | 0.714 |
-| en | 32 - How Long Does Cooked Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.415 | 0.714 |
+| en | 32 - How Long Does Cooked Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.414 | 0.714 |
 | en | 9 - How Long Does Cooked Rice Last in the Fridge? | 32 - How Long Does Cooked Meat Last in the Fridge? | 0.396 | 0.714 |
 | en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 9 - How Long Does Cooked Rice Last in the Fridge? | 0.382 | 0.714 |
 | en | 616 - Foods with the most protein per calorie | 617 - Foods with the most fiber per calorie | 0.368 | 0.714 |
 | en | 1301 - How Long Does Opened Tofu Last in the Refrigerator? | 1303 - How Long Does Opened Guacamole Last in the Refrigerator? | 0.343 | 0.714 |
 | en | 1300 - How Long Does Opened Hummus Last in the Refrigerator? | 1301 - How Long Does Opened Tofu Last in the Refrigerator? | 0.319 | 0.714 |
+| en | 1300 - How Long Does Opened Hummus Last in the Refrigerator? | 1303 - How Long Does Opened Guacamole Last in the Refrigerator? | 0.299 | 0.714 |
+| en | 183 - Salmon: protein, omega-3, fat, and calories | 219 - Mackerel: protein, omega-3s, and nutrition | 0.238 | 0.714 |
