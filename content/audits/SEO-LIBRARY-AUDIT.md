@@ -36,37 +36,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 
 | Lang | A | B | Similarity | Title overlap |
 | --- | ---: | ---: | ---: | ---: |
-| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.755 | 0.111 |
-| en | 572 - Oat milk vs. soy milk: nutrition differences | 573 - Almond milk vs. oat milk: nutrition differences | 0.730 | 0.750 |
-| es | 572 - Bebida de avena vs. bebida de soja: diferencias nutricionales | 573 - Bebida de almendra vs. bebida de avena: diferencias nutricionales | 0.699 | 0.750 |
-| en | 213 - Ground beef vs. ground turkey: nutrition differences | 218 - Ground beef vs. ground pork: nutrition differences | 0.673 | 0.750 |
-| es | 70 - Cuánto tiempo puede estar la comida fuera de la nevera | 270 - Cuánto tiempo puede estar la carne fuera de la nevera | 0.626 | 0.750 |
-| es | 100 - Almendras vs. nueces: diferencias nutricionales | 189 - Nueces vs. pistachos: diferencias nutricionales | 0.564 | 0.750 |
-| en | 7 - Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories | 49 - Chicken vs Turkey: Nutrition Differences | 0.561 | 0.750 |
-| es | 105 - Soja: proteína, grasa y valor nutricional | 566 - Soja texturizada: proteína, fibra y valor nutricional | 0.506 | 0.750 |
-| es | 170 - Carne de pollo: proteína, grasa y calorías según el corte | 172 - Carne de cerdo: cortes, proteína, grasa y calorías | 0.477 | 0.750 |
-| en | 280 - The leanest cuts of pork | 281 - The leanest cuts of beef | 0.464 | 0.750 |
-| es | 967 - ¿La salsa picante necesita nevera después de abrirla? | 970 - ¿La salsa Worcestershire necesita nevera después de abrirla? | 0.451 | 0.750 |
 | es | 105 - Soja: proteína, grasa y valor nutricional | 553 - Hummus: proteína, fibra, grasa y valor nutricional | 0.275 | 0.750 |
-| en | 469 - Kefir: What It Is, How It’s Made, and What It Provides | 470 - Milk Kefir vs. Water Kefir: What’s the Difference? | 0.748 | 0.167 |
-| en | 547 - Tahini vs. peanut butter | 548 - Peanut butter vs. almond butter | 0.747 | 0.667 |
-| en | 134 - Glycemic index: what it is and which foods are highest | 135 - Glycemic index vs. glycemic load | 0.739 | 0.333 |
-| es | 453 - Masa madre vs. pan convencional: ¿qué cambia realmente? | 562 - Masa madre vs. pan integral: diferencias | 0.737 | 0.250 |
-| en | 496 - Bulgur vs. Couscous: Nutrition Compared | 1217 - Bulgur: What It Is, How to Cook It, and How It Differs From Couscous | 0.736 | 0.333 |
-| en | 57 - Potato vs Sweet Potato: Nutrition Differences | 358 - Sweet potato: calories, fiber, carbohydrates and nutrients | 0.736 | 0.714 |
-| es | 537 - Matcha vs. café: cafeína y diferencias | 539 - Café, té, mate y matcha: comparativa de cafeína | 0.735 | 0.444 |
-| en | 595 - Grass-fed vs. grain-fed beef: nutrition differences | 1081 - Grass-Fed vs. Grass-Finished: Why They Do Not Mean Exactly the Same Thing | 0.732 | 0.231 |
-| en | 984 - How Long Does Bacon Last Once Opened? | 986 - How Long Does Cooked Bacon Last in the Fridge? | 0.732 | 0.571 |
-| en | 664 - Which Foods Have Gluten, and Which Are Naturally Gluten-Free? | 954 - Do Potatoes Have Gluten? | 0.731 | 0.250 |
-| en | 1119 - How Long Does Food Last in the Refrigerator During a Power Outage? | 1120 - How Long Does Food Last in the Freezer During a Power Outage? | 0.544 | 0.727 |
-| es | 262 - Cómo descongelar pollo de forma segura | 271 - Cómo descongelar carne de forma segura | 0.722 | 0.600 |
-| es | 130 - ¿Es realmente la naranja la fruta con más vitamina C? | 398 - Las frutas con más vitamina C | 0.721 | 0.400 |
-| es | 497 - Los cereales integrales con más proteína | 498 - Los cereales integrales con más fibra | 0.720 | 0.500 |
-| en | 305 - Extra-virgin olive oil: fat, calories and composition | 380 - Can you fry with extra-virgin olive oil? | 0.720 | 0.500 |
-| en | 699 - Maple Syrup vs Sugar: Which Actually Contains More Sugar? | 700 - Maple Syrup vs Honey: Which Has More Sugar and Calories? | 0.718 | 0.556 |
-| en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 1272 - How Much Sugar Should You Have per Day? Free, Added, and Total Sugars Explained | 0.717 | 0.200 |
-| en | 684 - Canned Coconut Milk vs Coconut Beverage: Why They Are Not Interchangeable | 976 - How Long Does Opened Coconut Milk Last in the Fridge? | 0.717 | 0.167 |
-| en | 172 - Pork cuts: protein, fat, and calories | 280 - The leanest cuts of pork | 0.690 | 0.714 |
 | en | 771 - Does soy sauce need refrigeration after opening? | 967 - Does Hot Sauce Need Refrigeration After Opening? | 0.677 | 0.714 |
 | en | 771 - Does soy sauce need refrigeration after opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.666 | 0.714 |
 | en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 30 - How Long Does Raw Chicken Last in the Fridge? | 0.650 | 0.714 |
@@ -80,7 +50,6 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | es | 976 - Cuánto dura la leche de coco abierta en la nevera | 1302 - Cuánto dura la leche vegetal abierta en la nevera | 0.551 | 0.714 |
 | en | 4 - Highest-Fiber Foods: Ranking per 100 Grams and by Serving | 74 - The fruits highest in fiber | 0.545 | 0.714 |
 | en | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.530 | 0.714 |
-| en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.517 | 0.714 |
 | en | 32 - How Long Does Cooked Meat Last in the Fridge? | 33 - How Long Does Raw Meat Last in the Fridge? | 0.501 | 0.714 |
 | en | 50 - Beef vs Pork: Protein, Fat, Iron and Calories | 171 - Beef cuts: protein, fat, calories, and iron | 0.490 | 0.714 |
 | es | 393 - Yogur: proteína, calcio, grasa y valor nutricional | 1318 - Tahini: valor nutricional, grasas, proteína y calcio | 0.479 | 0.714 |
@@ -105,9 +74,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | es | 504 - Cacao vs. chocolate: diferencias nutricionales y de elaboración | 512 - Chocolate 70%, 85% y 100% cacao: qué cambia realmente | 0.709 | 0.333 |
 | en | 436 - Peanuts: Protein, Fat, Fiber, and Calories | 550 - Peanuts vs. almonds: nutrition differences | 0.709 | 0.375 |
 | en | 553 - Hummus: protein, fiber, fat and nutrition | 555 - Hummus vs. tahini: nutrition differences | 0.707 | 0.286 |
-| es | 699 - Sirope de arce o azúcar: cuál contiene realmente más azúcar | 700 - Sirope de arce o miel: cuál tiene más azúcar y calorías | 0.706 | 0.500 |
 | en | 102 - Raw vs. roasted nuts: nutritional differences | 195 - Do nuts lose nutrients when roasted? | 0.705 | 0.333 |
-| es | 547 - Tahini vs. crema de cacahuete | 548 - Crema de cacahuete vs. crema de almendras | 0.705 | 0.667 |
 | en | 49 - Chicken vs Turkey: Nutrition Differences | 173 - Turkey: protein, fat, and calories by cut | 0.704 | 0.571 |
 | es | 124 - Alimentos con más vitamina C que la naranja | 130 - ¿Es realmente la naranja la fruta con más vitamina C? | 0.703 | 0.500 |
 | en | 510 - How much caffeine is in cocoa? | 511 - Cocoa vs. coffee: caffeine and other differences | 0.702 | 0.250 |
@@ -116,3 +83,36 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | es | 200 - Las carnes más magras: ranking de cortes con menos grasa | 227 - Las carnes con menos calorías | 0.701 | 0.429 |
 | en | 746 - Natural vs regular peanut butter: what changes in the ingredients | 747 - Powdered vs regular peanut butter: where do the calories go? | 0.701 | 0.333 |
 | es | 93 - Aguacate entero vs. aceite de oliva: grasa, fibra y calorías | 637 - Aceite de aguacate o de oliva: cuál conviene más para cocinar | 0.698 | 0.333 |
+| en | 683 - Coconut Milk vs Coconut Cream: Richness, Fat, and Cooking Uses | 976 - How Long Does Opened Coconut Milk Last in the Fridge? | 0.698 | 0.182 |
+| es | 207 - ¿Hay que remojar las semillas de chía? | 210 - ¿Se pueden comer semillas de chía sin remojar? | 0.697 | 0.600 |
+| es | 504 - Cacao vs. chocolate: diferencias nutricionales y de elaboración | 513 - Qué significa el porcentaje de cacao del chocolate | 0.694 | 0.333 |
+| en | 73 - Should you rinse rice before cooking? | 373 - Do you need to rinse every type of rice? | 0.694 | 0.200 |
+| en | 1092 - Why Meat Can Look Green or Rainbow-Colored Without Being Spoiled | 1100 - Why Fish Can Have a Rainbow Shine Without Being Spoiled | 0.694 | 0.583 |
+| es | 123 - Alimentos con más potasio que el plátano | 168 - Aguacate vs. plátano: potasio, fibra y calorías | 0.693 | 0.400 |
+| en | 124 - Foods with more vitamin C than an orange | 130 - Is the orange really the fruit with the most vitamin C? | 0.692 | 0.333 |
+| en | 379 - Hot vs. cooled potatoes: what happens to resistant starch? | 610 - Resistant starch in cooled rice, potatoes and pasta | 0.687 | 0.500 |
+| en | 606 - Dates: sugar, fiber and calories | 608 - Dates vs. raisins: sugar, fiber and calories | 0.686 | 0.500 |
+| en | 123 - Foods with more potassium than a banana | 168 - Avocado vs. banana: potassium, fiber, and calories | 0.686 | 0.333 |
+| es | 606 - Dátiles: azúcar, fibra y calorías | 608 - Dátiles vs. pasas: azúcar, fibra y calorías | 0.686 | 0.571 |
+| es | 184 - Semillas de cáñamo: proteína y perfil nutricional | 544 - Chía vs. semillas de cáñamo | 0.684 | 0.400 |
+| en | 432 - Fruit Sugar vs. Added Sugar: What’s the Difference? | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 0.684 | 0.222 |
+| es | 64 - Quinoa vs. arroz: proteína, fibra y carbohidratos | 490 - Quinoa vs. lentejas: proteína, fibra y carbohidratos | 0.683 | 0.667 |
+| es | 546 - Tahini: qué es y qué aporta nutricionalmente | 1318 - Tahini: valor nutricional, grasas, proteína y calcio | 0.683 | 0.300 |
+| en | 154 - Fresh vs. frozen fruit: nutritional differences | 443 - Does Frozen Fruit Lose Vitamins? | 0.681 | 0.333 |
+| en | 184 - Hemp seeds: protein, fat, omega-3, and nutrition | 544 - Chia vs. hemp seeds | 0.681 | 0.444 |
+| es | 510 - ¿Cuánta cafeína tiene el cacao? | 511 - Cacao vs. café: cafeína y diferencias | 0.681 | 0.286 |
+| es | 208 - Atún: proteína, grasa, mercurio y valor nutricional | 763 - Atún blanco o atún claro: cuál suele contener más mercurio | 0.680 | 0.182 |
+| en | 207 - Do chia seeds need to be soaked? | 210 - Can you eat chia seeds without soaking them? | 0.678 | 0.250 |
+| en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 706 - Total Sugars vs Added Sugars: The Difference to Read on a Label | 0.678 | 0.182 |
+| es | 503 - Cacao puro: fibra, grasa, proteína y minerales | 505 - Cacao puro vs. cacao soluble: diferencias | 0.678 | 0.286 |
+| en | 734 - Cold Brew vs Iced Coffee: They Look Similar, but They Are Made Differently | 735 - Cold Brew vs Hot Coffee: What Changes in Caffeine and Flavor? | 0.678 | 0.214 |
+| es | 683 - Leche de coco o crema de coco: diferencias y usos | 684 - Leche de coco en lata o bebida de coco: no son lo mismo | 0.678 | 0.250 |
+| en | 62 - Tofu vs. tempeh: protein and nutrition differences | 565 - Seitan vs. tofu vs. tempeh: nutrition compared | 0.677 | 0.571 |
+| en | 93 - Whole Avocado vs Olive Oil: Fat, Fiber and Calories | 637 - Avocado Oil vs Olive Oil: Which Is Better for Cooking? | 0.676 | 0.375 |
+| en | 319 - Serrano ham vs. Iberian ham: nutrition and production differences | 370 - Can you freeze Serrano ham or cooked ham? | 0.676 | 0.286 |
+| es | 55 - Arroz blanco vs. arroz integral: diferencias nutricionales | 242 - Arroz integral: fibra, proteína y valor nutricional | 0.675 | 0.500 |
+| en | 542 - Whole-bean vs. ground coffee | 964 - Is a Coffee Bean Really a Bean or a Seed? | 0.675 | 0.286 |
+| en | 314 - How to tell if Serrano ham has gone bad | 370 - Can you freeze Serrano ham or cooked ham? | 0.673 | 0.250 |
+| es | 673 - Leche ultrafiltrada o normal: por qué una puede tener mucha más proteína | 1340 - Leche ultrafiltrada: por qué tiene más proteína y menos azúcar que la leche normal | 0.673 | 0.364 |
+| en | 202 - What does nutrient-dense actually mean? | 614 - Nutrient density: how to compare foods beyond calories | 0.672 | 0.333 |
+| en | 678 - What Is Whey? The Liquid Left After Milk Proteins Separate | 1250 - Clear Whey: What It Is and How It Differs From Traditional Whey Protein | 0.672 | 0.214 |

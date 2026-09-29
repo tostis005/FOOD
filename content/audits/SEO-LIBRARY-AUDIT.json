@@ -23,6 +23,11 @@
       "reason": "all-food protein ranking vs meat-only protein ranking"
     },
     {
+      "a": 7,
+      "b": 49,
+      "reason": "four-meat comparison vs chicken/turkey focused comparison"
+    },
+    {
       "a": 16,
       "b": 17,
       "reason": "nut protein ranking vs seed protein ranking"
@@ -38,9 +43,19 @@
       "reason": "tuna/salmon comparison vs salmon profile"
     },
     {
+      "a": 57,
+      "b": 358,
+      "reason": "potato/sweet-potato comparison vs sweet-potato nutrition profile"
+    },
+    {
       "a": 60,
       "b": 276,
       "reason": "whole egg/whites comparison vs white/yolk component comparison"
+    },
+    {
+      "a": 70,
+      "b": 270,
+      "reason": "general food time outside refrigeration vs meat-specific safety guidance"
     },
     {
       "a": 81,
@@ -48,9 +63,44 @@
       "reason": "processed/ultra-processed distinction vs definition of ultra-processed foods"
     },
     {
+      "a": 100,
+      "b": 189,
+      "reason": "almond/walnut comparison vs walnut/pistachio comparison"
+    },
+    {
+      "a": 105,
+      "b": 566,
+      "reason": "whole soybean nutrition profile vs textured soy protein profile"
+    },
+    {
       "a": 127,
       "b": 167,
       "reason": "plant omega-3 sources vs plant/fish omega-3 comparison"
+    },
+    {
+      "a": 130,
+      "b": 398,
+      "reason": "orange vitamin-C myth check vs broad fruit vitamin-C ranking"
+    },
+    {
+      "a": 134,
+      "b": 135,
+      "reason": "glycemic-index explainer/ranking vs glycemic-index/glycemic-load distinction"
+    },
+    {
+      "a": 164,
+      "b": 165,
+      "reason": "general dietary-vs-blood cholesterol concept vs egg-specific cholesterol guidance"
+    },
+    {
+      "a": 170,
+      "b": 172,
+      "reason": "chicken cuts profile vs pork cuts profile"
+    },
+    {
+      "a": 172,
+      "b": 280,
+      "reason": "pork-cuts nutrition profile vs leanest-pork-cuts ranking"
     },
     {
       "a": 183,
@@ -58,9 +108,59 @@
       "reason": "salmon profile vs hake/salmon comparison"
     },
     {
+      "a": 213,
+      "b": 218,
+      "reason": "ground beef/turkey comparison vs ground beef/pork comparison"
+    },
+    {
+      "a": 262,
+      "b": 271,
+      "reason": "chicken-specific thawing guidance vs general meat thawing guidance"
+    },
+    {
+      "a": 280,
+      "b": 281,
+      "reason": "lean pork cuts vs lean beef cuts"
+    },
+    {
+      "a": 305,
+      "b": 380,
+      "reason": "extra-virgin olive-oil composition profile vs frying-use question"
+    },
+    {
+      "a": 453,
+      "b": 562,
+      "reason": "sourdough/conventional-bread comparison vs sourdough/whole-wheat-bread comparison"
+    },
+    {
+      "a": 469,
+      "b": 470,
+      "reason": "kefir overview vs milk-kefir/water-kefir comparison"
+    },
+    {
+      "a": 496,
+      "b": 1217,
+      "reason": "bulgur/couscous nutrition comparison vs broad bulgur cooking and identity guide"
+    },
+    {
+      "a": 497,
+      "b": 498,
+      "reason": "whole-grain protein ranking vs whole-grain fiber ranking"
+    },
+    {
       "a": 512,
       "b": 513,
       "reason": "70/85/100 cacao comparison vs definition of cacao percentage"
+    },
+    {
+      "a": 537,
+      "b": 539,
+      "reason": "matcha/coffee comparison vs multi-beverage caffeine comparison"
+    },
+    {
+      "a": 547,
+      "b": 548,
+      "reason": "tahini/peanut-butter comparison vs peanut/almond-butter comparison"
     },
     {
       "a": 553,
@@ -68,9 +168,19 @@
       "reason": "hummus profile vs hummus/guacamole comparison"
     },
     {
+      "a": 572,
+      "b": 573,
+      "reason": "oat/soy beverage comparison vs almond/oat beverage comparison"
+    },
+    {
       "a": 582,
       "b": 584,
       "reason": "cottage cheese profile vs cottage cheese/ricotta comparison"
+    },
+    {
+      "a": 595,
+      "b": 1081,
+      "reason": "grass-fed/grain-fed nutrition comparison vs grass-fed/grass-finished terminology"
     },
     {
       "a": 601,
@@ -83,6 +193,26 @@
       "reason": "dates nutrient profile vs dates/table-sugar comparison"
     },
     {
+      "a": 664,
+      "b": 954,
+      "reason": "broad gluten/gluten-free foods guide vs potato-specific gluten question"
+    },
+    {
+      "a": 684,
+      "b": 976,
+      "reason": "canned coconut milk/coconut beverage distinction vs opened coconut-milk storage"
+    },
+    {
+      "a": 699,
+      "b": 700,
+      "reason": "maple-syrup/table-sugar comparison vs maple-syrup/honey comparison"
+    },
+    {
+      "a": 705,
+      "b": 1272,
+      "reason": "sugar-free/no-added-sugar label claims vs daily sugar intake guidance"
+    },
+    {
       "a": 705,
       "b": 1273,
       "reason": "label claims (sugar-free/no added sugar) vs free/added sugar definitions"
@@ -91,6 +221,21 @@
       "a": 724,
       "b": 725,
       "reason": "HFCS/table-sugar comparison vs corn-syrup/HFCS ingredient distinction"
+    },
+    {
+      "a": 967,
+      "b": 970,
+      "reason": "hot-sauce refrigeration guidance vs Worcestershire-sauce refrigeration guidance"
+    },
+    {
+      "a": 984,
+      "b": 986,
+      "reason": "opened raw bacon storage vs cooked bacon storage"
+    },
+    {
+      "a": 1119,
+      "b": 1120,
+      "reason": "refrigerator power-outage guidance vs freezer power-outage guidance"
     }
   ],
   "unknown_families": {},
@@ -230,127 +375,6 @@
   "repeated_first_answers": [],
   "cannibalization_candidates": [
     {
-      "language": "en",
-      "a": 164,
-      "a_title": "Dietary cholesterol vs. blood cholesterol: what’s the difference?",
-      "b": 165,
-      "b_title": "Eggs and cholesterol: what the relationship actually means",
-      "similarity": 0.7546,
-      "title_jaccard": 0.1111,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 572,
-      "a_title": "Oat milk vs. soy milk: nutrition differences",
-      "b": 573,
-      "b_title": "Almond milk vs. oat milk: nutrition differences",
-      "similarity": 0.7299,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 572,
-      "a_title": "Bebida de avena vs. bebida de soja: diferencias nutricionales",
-      "b": 573,
-      "b_title": "Bebida de almendra vs. bebida de avena: diferencias nutricionales",
-      "similarity": 0.6986,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 213,
-      "a_title": "Ground beef vs. ground turkey: nutrition differences",
-      "b": 218,
-      "b_title": "Ground beef vs. ground pork: nutrition differences",
-      "similarity": 0.6727,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 70,
-      "a_title": "Cuánto tiempo puede estar la comida fuera de la nevera",
-      "b": 270,
-      "b_title": "Cuánto tiempo puede estar la carne fuera de la nevera",
-      "similarity": 0.6259,
-      "title_jaccard": 0.75,
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 100,
-      "a_title": "Almendras vs. nueces: diferencias nutricionales",
-      "b": 189,
-      "b_title": "Nueces vs. pistachos: diferencias nutricionales",
-      "similarity": 0.5639,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 7,
-      "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
-      "b": 49,
-      "b_title": "Chicken vs Turkey: Nutrition Differences",
-      "similarity": 0.5607,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 105,
-      "a_title": "Soja: proteína, grasa y valor nutricional",
-      "b": 566,
-      "b_title": "Soja texturizada: proteína, fibra y valor nutricional",
-      "similarity": 0.5062,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 170,
-      "a_title": "Carne de pollo: proteína, grasa y calorías según el corte",
-      "b": 172,
-      "b_title": "Carne de cerdo: cortes, proteína, grasa y calorías",
-      "similarity": 0.4768,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 280,
-      "a_title": "The leanest cuts of pork",
-      "b": 281,
-      "b_title": "The leanest cuts of beef",
-      "similarity": 0.4641,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 967,
-      "a_title": "¿La salsa picante necesita nevera después de abrirla?",
-      "b": 970,
-      "b_title": "¿La salsa Worcestershire necesita nevera después de abrirla?",
-      "similarity": 0.4505,
-      "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
       "language": "es",
       "a": 105,
       "a_title": "Soja: proteína, grasa y valor nutricional",
@@ -358,215 +382,6 @@
       "b_title": "Hummus: proteína, fibra, grasa y valor nutricional",
       "similarity": 0.2749,
       "title_jaccard": 0.75,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 469,
-      "a_title": "Kefir: What It Is, How It’s Made, and What It Provides",
-      "b": 470,
-      "b_title": "Milk Kefir vs. Water Kefir: What’s the Difference?",
-      "similarity": 0.7483,
-      "title_jaccard": 0.1667,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 547,
-      "a_title": "Tahini vs. peanut butter",
-      "b": 548,
-      "b_title": "Peanut butter vs. almond butter",
-      "similarity": 0.7469,
-      "title_jaccard": 0.6667,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 134,
-      "a_title": "Glycemic index: what it is and which foods are highest",
-      "b": 135,
-      "b_title": "Glycemic index vs. glycemic load",
-      "similarity": 0.739,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 453,
-      "a_title": "Masa madre vs. pan convencional: ¿qué cambia realmente?",
-      "b": 562,
-      "b_title": "Masa madre vs. pan integral: diferencias",
-      "similarity": 0.737,
-      "title_jaccard": 0.25,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 496,
-      "a_title": "Bulgur vs. Couscous: Nutrition Compared",
-      "b": 1217,
-      "b_title": "Bulgur: What It Is, How to Cook It, and How It Differs From Couscous",
-      "similarity": 0.736,
-      "title_jaccard": 0.3333,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 57,
-      "a_title": "Potato vs Sweet Potato: Nutrition Differences",
-      "b": 358,
-      "b_title": "Sweet potato: calories, fiber, carbohydrates and nutrients",
-      "similarity": 0.7357,
-      "title_jaccard": 0.7143,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 537,
-      "a_title": "Matcha vs. café: cafeína y diferencias",
-      "b": 539,
-      "b_title": "Café, té, mate y matcha: comparativa de cafeína",
-      "similarity": 0.7354,
-      "title_jaccard": 0.4444,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 595,
-      "a_title": "Grass-fed vs. grain-fed beef: nutrition differences",
-      "b": 1081,
-      "b_title": "Grass-Fed vs. Grass-Finished: Why They Do Not Mean Exactly the Same Thing",
-      "similarity": 0.7319,
-      "title_jaccard": 0.2308,
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 984,
-      "a_title": "How Long Does Bacon Last Once Opened?",
-      "b": 986,
-      "b_title": "How Long Does Cooked Bacon Last in the Fridge?",
-      "similarity": 0.7317,
-      "title_jaccard": 0.5714,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 664,
-      "a_title": "Which Foods Have Gluten, and Which Are Naturally Gluten-Free?",
-      "b": 954,
-      "b_title": "Do Potatoes Have Gluten?",
-      "similarity": 0.7307,
-      "title_jaccard": 0.25,
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 1119,
-      "a_title": "How Long Does Food Last in the Refrigerator During a Power Outage?",
-      "b": 1120,
-      "b_title": "How Long Does Food Last in the Freezer During a Power Outage?",
-      "similarity": 0.5444,
-      "title_jaccard": 0.7273,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 262,
-      "a_title": "Cómo descongelar pollo de forma segura",
-      "b": 271,
-      "b_title": "Cómo descongelar carne de forma segura",
-      "similarity": 0.7222,
-      "title_jaccard": 0.6,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 130,
-      "a_title": "¿Es realmente la naranja la fruta con más vitamina C?",
-      "b": 398,
-      "b_title": "Las frutas con más vitamina C",
-      "similarity": 0.7207,
-      "title_jaccard": 0.4,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 497,
-      "a_title": "Los cereales integrales con más proteína",
-      "b": 498,
-      "b_title": "Los cereales integrales con más fibra",
-      "similarity": 0.7202,
-      "title_jaccard": 0.5,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 305,
-      "a_title": "Extra-virgin olive oil: fat, calories and composition",
-      "b": 380,
-      "b_title": "Can you fry with extra-virgin olive oil?",
-      "similarity": 0.7201,
-      "title_jaccard": 0.5,
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 699,
-      "a_title": "Maple Syrup vs Sugar: Which Actually Contains More Sugar?",
-      "b": 700,
-      "b_title": "Maple Syrup vs Honey: Which Has More Sugar and Calories?",
-      "similarity": 0.718,
-      "title_jaccard": 0.5556,
-      "family_match": true,
-      "type_overlap": 3
-    },
-    {
-      "language": "en",
-      "a": 705,
-      "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
-      "b": 1272,
-      "b_title": "How Much Sugar Should You Have per Day? Free, Added, and Total Sugars Explained",
-      "similarity": 0.7172,
-      "title_jaccard": 0.2,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 684,
-      "a_title": "Canned Coconut Milk vs Coconut Beverage: Why They Are Not Interchangeable",
-      "b": 976,
-      "b_title": "How Long Does Opened Coconut Milk Last in the Fridge?",
-      "similarity": 0.7171,
-      "title_jaccard": 0.1667,
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 172,
-      "a_title": "Pork cuts: protein, fat, and calories",
-      "b": 280,
-      "b_title": "The leanest cuts of pork",
-      "similarity": 0.6896,
-      "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
     },
@@ -709,17 +524,6 @@
       "b": 971,
       "b_title": "Does Fish Sauce Need Refrigeration After Opening?",
       "similarity": 0.5297,
-      "title_jaccard": 0.7143,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 967,
-      "a_title": "Does Hot Sauce Need Refrigeration After Opening?",
-      "b": 970,
-      "b_title": "Does Worcestershire Sauce Need Refrigeration After Opening?",
-      "similarity": 0.5174,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -989,17 +793,6 @@
       "type_overlap": 1
     },
     {
-      "language": "es",
-      "a": 699,
-      "a_title": "Sirope de arce o azúcar: cuál contiene realmente más azúcar",
-      "b": 700,
-      "b_title": "Sirope de arce o miel: cuál tiene más azúcar y calorías",
-      "similarity": 0.7056,
-      "title_jaccard": 0.5,
-      "family_match": true,
-      "type_overlap": 3
-    },
-    {
       "language": "en",
       "a": 102,
       "a_title": "Raw vs. roasted nuts: nutritional differences",
@@ -1009,17 +802,6 @@
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 547,
-      "a_title": "Tahini vs. crema de cacahuete",
-      "b": 548,
-      "b_title": "Crema de cacahuete vs. crema de almendras",
-      "similarity": 0.7045,
-      "title_jaccard": 0.6667,
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "en",
@@ -1133,17 +915,6 @@
     },
     {
       "language": "es",
-      "a": 496,
-      "a_title": "Bulgur vs. cuscús: diferencias nutricionales",
-      "b": 1217,
-      "b_title": "Bulgur: qué es, cómo se cocina y en qué se diferencia del cuscús",
-      "similarity": 0.6963,
-      "title_jaccard": 0.5,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
       "a": 504,
       "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
       "b": 513,
@@ -1196,28 +967,6 @@
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 172,
-      "a_title": "Carne de cerdo: cortes, proteína, grasa y calorías",
-      "b": 280,
-      "b_title": "Los cortes de cerdo más magros",
-      "similarity": 0.6909,
-      "title_jaccard": 0.5,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 497,
-      "a_title": "Whole Grains Highest in Protein",
-      "b": 498,
-      "b_title": "Whole Grains Highest in Fiber",
-      "similarity": 0.6872,
-      "title_jaccard": 0.6,
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "en",
@@ -1540,17 +1289,6 @@
     },
     {
       "language": "es",
-      "a": 305,
-      "a_title": "Aceite de oliva virgen extra: grasas, calorías y composición",
-      "b": 380,
-      "b_title": "¿Se puede freír con aceite de oliva virgen extra?",
-      "similarity": 0.6693,
-      "title_jaccard": 0.4444,
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "es",
       "a": 566,
       "a_title": "Soja texturizada: proteína, fibra y valor nutricional",
       "b": 567,
@@ -1746,17 +1484,6 @@
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 1119,
-      "a_title": "Cuánto aguanta la comida en la nevera si se va la luz",
-      "b": 1120,
-      "b_title": "Cuánto aguanta la comida en el congelador si se va la luz",
-      "similarity": 0.5927,
-      "title_jaccard": 0.6667,
-      "family_match": true,
-      "type_overlap": 1
     },
     {
       "language": "es",
@@ -2108,17 +1835,6 @@
       "similarity": 0.5019,
       "title_jaccard": 0.6667,
       "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 280,
-      "a_title": "Los cortes de cerdo más magros",
-      "b": 281,
-      "b_title": "Los cortes de ternera más magros",
-      "similarity": 0.5,
-      "title_jaccard": 0.6667,
-      "family_match": true,
       "type_overlap": 2
     },
     {
@@ -2978,6 +2694,435 @@
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 296,
+      "a_title": "How long does opened cheese last in the fridge?",
+      "b": 975,
+      "b_title": "How Long Does Opened Broth Last in the Fridge?",
+      "similarity": 0.3246,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 217,
+      "a_title": "How long do cooked chickpeas last in the fridge?",
+      "b": 986,
+      "b_title": "How Long Does Cooked Bacon Last in the Fridge?",
+      "similarity": 0.3206,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 435,
+      "a_title": "Vegetables Highest in Vitamin C",
+      "b": 451,
+      "b_title": "Vegetables Highest in Iron",
+      "similarity": 0.3204,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 215,
+      "a_title": "How long do cooked lentils last in the fridge?",
+      "b": 986,
+      "b_title": "How Long Does Cooked Bacon Last in the Fridge?",
+      "similarity": 0.3196,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 437,
+      "a_title": "Vegetables Highest in Calcium",
+      "b": 451,
+      "b_title": "Vegetables Highest in Iron",
+      "similarity": 0.3191,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 284,
+      "a_title": "How long does cooked shrimp last in the fridge?",
+      "b": 986,
+      "b_title": "How Long Does Cooked Bacon Last in the Fridge?",
+      "similarity": 0.3152,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 265,
+      "a_title": "Cuánto dura un huevo abierto en la nevera",
+      "b": 1300,
+      "b_title": "Cuánto dura el hummus abierto en la nevera",
+      "similarity": 0.3144,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 68,
+      "a_title": "How long does cooked pasta last in the fridge?",
+      "b": 986,
+      "b_title": "How Long Does Cooked Bacon Last in the Fridge?",
+      "similarity": 0.3125,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 966,
+      "a_title": "¿La mostaza necesita nevera después de abrirla?",
+      "b": 968,
+      "b_title": "¿La mayonesa necesita nevera después de abrirla?",
+      "similarity": 0.3094,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 1,
+      "a_title": "Los alimentos con más proteína: ranking por cada 100 gramos",
+      "b": 14,
+      "b_title": "Los pescados con más proteína: ranking claro por cada 100 gramos",
+      "similarity": 0.3065,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 296,
+      "a_title": "How long does opened cheese last in the fridge?",
+      "b": 974,
+      "b_title": "How Long Does Opened Pesto Last in the Fridge?",
+      "similarity": 0.303,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 176,
+      "a_title": "Garbanzos: proteína, fibra y valor nutricional",
+      "b": 242,
+      "b_title": "Arroz integral: fibra, proteína y valor nutricional",
+      "similarity": 0.2988,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 12,
+      "a_title": "Highest-Protein Legumes: Ranking per 100 Grams and Serving",
+      "b": 15,
+      "b_title": "Highest-Protein Cheeses: Ranking per 100 Grams and Serving",
+      "similarity": 0.2923,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 15,
+      "a_title": "Los quesos con más proteína: ranking por 100 gramos y por ración",
+      "b": 17,
+      "b_title": "Las semillas con más proteína: ranking por 100 gramos y por ración",
+      "similarity": 0.2833,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 108,
+      "a_title": "Edamame: proteína, fibra y nutrientes",
+      "b": 177,
+      "b_title": "Alubias: proteína, fibra y nutrientes",
+      "similarity": 0.2753,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 12,
+      "a_title": "Las legumbres con más proteína: ranking por 100 gramos y por ración",
+      "b": 17,
+      "b_title": "Las semillas con más proteína: ranking por 100 gramos y por ración",
+      "similarity": 0.2506,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 12,
+      "a_title": "Las legumbres con más proteína: ranking por 100 gramos y por ración",
+      "b": 15,
+      "b_title": "Los quesos con más proteína: ranking por 100 gramos y por ración",
+      "similarity": 0.219,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 194,
+      "a_title": "Huevos: proteína, grasa, calorías y nutrientes",
+      "b": 201,
+      "b_title": "Merluza: proteína, grasa y calorías",
+      "similarity": 0.2089,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 123,
+      "a_title": "Foods with more potassium than a banana",
+      "b": 131,
+      "b_title": "Why Bananas Became the Potassium Fruit",
+      "similarity": 0.6662,
+      "title_jaccard": 0.4,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 59,
+      "a_title": "Cottage Cheese vs Greek Yogurt: Protein, Calories and Key Differences",
+      "b": 582,
+      "b_title": "Cottage cheese: protein, fat and calories",
+      "similarity": 0.6655,
+      "title_jaccard": 0.4444,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 103,
+      "a_title": "Chia seeds: fiber, protein, omega-3, and nutrition",
+      "b": 544,
+      "b_title": "Chia vs. hemp seeds",
+      "similarity": 0.6655,
+      "title_jaccard": 0.625,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 453,
+      "a_title": "Masa madre vs. pan convencional: ¿qué cambia realmente?",
+      "b": 559,
+      "b_title": "Pan de masa madre: qué cambia durante la fermentación",
+      "similarity": 0.6653,
+      "title_jaccard": 0.3636,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 329,
+      "a_title": "Pan integral vs. pan de centeno: fibra, proteína y saciedad",
+      "b": 385,
+      "b_title": "Pan blanco vs. pan integral: diferencias nutricionales",
+      "similarity": 0.6646,
+      "title_jaccard": 0.25,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 366,
+      "a_title": "White pasta vs. whole-wheat pasta: nutritional differences",
+      "b": 1311,
+      "b_title": "Legume Pasta vs. Wheat Pasta: Protein, Fiber, and Texture",
+      "similarity": 0.664,
+      "title_jaccard": 0.2222,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 436,
+      "a_title": "Cacahuetes: proteína, grasa y fibra",
+      "b": 550,
+      "b_title": "Cacahuetes vs. almendras: diferencias nutricionales",
+      "similarity": 0.663,
+      "title_jaccard": 0.375,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 185,
+      "a_title": "Hake vs. salmon: protein, fat, calories, and omega-3",
+      "b": 201,
+      "b_title": "Hake: protein, fat, calories, and nutrition",
+      "similarity": 0.6614,
+      "title_jaccard": 0.5,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 432,
+      "a_title": "Fruit Sugar vs. Added Sugar: What’s the Difference?",
+      "b": 1273,
+      "b_title": "Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing",
+      "similarity": 0.661,
+      "title_jaccard": 0.2,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 167,
+      "a_title": "Omega-3 vegetal vs. omega-3 del pescado",
+      "b": 228,
+      "b_title": "Los pescados con más omega-3",
+      "similarity": 0.6607,
+      "title_jaccard": 0.5,
+      "family_match": false,
+      "type_overlap": 0
+    },
+    {
+      "language": "es",
+      "a": 36,
+      "a_title": "Los alimentos con más hierro: cuáles aportan más y cómo compararlos",
+      "b": 166,
+      "b_title": "Hierro hemo vs. hierro no hemo: diferencias y fuentes",
+      "similarity": 0.6603,
+      "title_jaccard": 0.25,
+      "family_match": true,
+      "type_overlap": 0
+    },
+    {
+      "language": "en",
+      "a": 673,
+      "a_title": "Ultrafiltered vs Regular Milk: Why One Can Have Much More Protein",
+      "b": 1340,
+      "b_title": "Ultrafiltered Milk: Why It Has More Protein and Less Sugar Than Regular Milk",
+      "similarity": 0.6597,
+      "title_jaccard": 0.4545,
+      "family_match": true,
+      "type_overlap": 0
+    },
+    {
+      "language": "es",
+      "a": 226,
+      "a_title": "¿Cuánto tiempo hay que dejar las legumbres en remojo?",
+      "b": 255,
+      "b_title": "¿Hay que poner los garbanzos en remojo?",
+      "similarity": 0.6585,
+      "title_jaccard": 0.2222,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 57,
+      "a_title": "Potato vs Sweet Potato: Nutrition Differences",
+      "b": 1004,
+      "b_title": "Can you eat raw sweet potato?",
+      "similarity": 0.6584,
+      "title_jaccard": 0.25,
+      "family_match": false,
+      "type_overlap": 0
+    },
+    {
+      "language": "en",
+      "a": 208,
+      "a_title": "Tuna: protein, fat, mercury, and nutrition",
+      "b": 763,
+      "b_title": "Albacore vs light tuna: which usually contains more mercury?",
+      "similarity": 0.6581,
+      "title_jaccard": 0.1818,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 664,
+      "a_title": "Which Foods Have Gluten, and Which Are Naturally Gluten-Free?",
+      "b": 666,
+      "b_title": "Does Gluten-Free Mean Healthier?",
+      "similarity": 0.6571,
+      "title_jaccard": 0.3333,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 706,
+      "a_title": "Total Sugars vs Added Sugars: The Difference to Read on a Label",
+      "b": 1272,
+      "b_title": "How Much Sugar Should You Have per Day? Free, Added, and Total Sugars Explained",
+      "similarity": 0.6562,
+      "title_jaccard": 0.25,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 579,
+      "a_title": "Skyr: protein, calories and nutrition",
+      "b": 581,
+      "b_title": "Skyr vs. cottage cheese: protein and calories",
+      "similarity": 0.6541,
+      "title_jaccard": 0.3,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 60,
+      "a_title": "Whole Egg vs Egg Whites: Protein, Fat and Nutrients",
+      "b": 133,
+      "b_title": "How much protein is really in an egg?",
+      "similarity": 0.6537,
+      "title_jaccard": 0.2222,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 103,
+      "a_title": "Semillas de chía: fibra, proteína, omega-3 y valor nutricional",
+      "b": 544,
+      "b_title": "Chía vs. semillas de cáñamo",
+      "similarity": 0.6537,
+      "title_jaccard": 0.625,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 38,
+      "a_title": "Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA",
+      "b": 228,
+      "b_title": "Fish highest in omega-3",
+      "similarity": 0.6533,
+      "title_jaccard": 0.3846,
+      "family_match": false,
+      "type_overlap": 2
     }
   ],
   "issues": {},
