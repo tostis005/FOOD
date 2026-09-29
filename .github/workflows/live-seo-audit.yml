@@ -134,15 +134,27 @@ jobs:
           # Short title should retain the brand; long title should not spend
           # additional SERP space on the brand suffix.
           short_en = article('content/articles/en/1005-can-you-eat-raw-potato.json')
-          long_es = article('content/articles/es/845-moras-pequenos-pelos-blancos-distinguir-estructuras-naturales-moho.json')
           short_es = article('content/articles/es/1005-se-puede-comer-patata-cruda.json')
+          consolidations = json.loads(Path('content/articles/SEO-CONSOLIDATIONS.json').read_text(encoding='utf-8'))
+          redirected = {int(key) for key in consolidations}
 
-          for data, expect_brand in ((short_en, True), (long_es, False)):
+          long_es = None
+          for path in sorted(Path('content/articles/es').glob('*.json')):
+              candidate = article(path)
+              number = int(candidate.get('article_number') or 0)
+              base_title = str((candidate.get('seo') or {}).get('title') or candidate.get('title') or '').strip()
+              if number not in redirected and 56 <= len(base_title) <= 65:
+                  long_es = candidate
+                  break
+          assert long_es is not None, 'No indexable ES article currently exercises the unbranded-title branch'
+
+          for data in (short_en, long_es):
               url = article_url(data)
               body = fetch(url)
               parser = parse_head(body)
               base_title = str((data.get('seo') or {}).get('title') or data['title']).strip()
-              expected_title = base_title + ' | Quinnoa' if len(base_title) <= 55 else base_title
+              expect_brand = len(base_title) <= 55
+              expected_title = base_title + ' | Quinnoa' if expect_brand else base_title
               actual_title = norm(''.join(parser.title))
               assert actual_title == expected_title, (
                   f'Title mismatch for {url}\nExpected: {expected_title}\nActual: {actual_title}'
