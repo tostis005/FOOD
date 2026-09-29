@@ -108,7 +108,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 607 - Dates vs. sugar: nutrition differences | 608 - Dates vs. raisins: sugar, fiber and calories | 0.626 | 0.714 |
 | es | 582 - Cottage cheese: proteína, grasa y calorías | 584 - Cottage cheese vs. ricotta: diferencias nutricionales | 0.623 | 0.714 |
 | en | 33 - How Long Does Raw Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.605 | 0.714 |
-| es | 771 - ¿La salsa de soja necesita nevera después de abrirla? | 971 - ¿La salsa de pescado necesita nevera después de abrirla? | 0.594 | 0.714 |
+| es | 771 - ¿La salsa de soja necesita nevera después de abrirla? | 971 - ¿La salsa de pescado necesita nevera después de abrirla? | 0.595 | 0.714 |
 | es | 60 - Huevo entero vs. claras: proteína, grasa y nutrientes | 194 - Huevos: proteína, grasa, calorías y nutrientes | 0.590 | 0.714 |
 | en | 183 - Salmon: protein, omega-3, fat, and calories | 185 - Hake vs. salmon: protein, fat, calories, and omega-3 | 0.590 | 0.714 |
 | en | 1 - Highest-Protein Foods: A Practical Ranking per 100 Grams | 13 - Highest-Protein Meats: Ranking per 100 Grams | 0.585 | 0.714 |

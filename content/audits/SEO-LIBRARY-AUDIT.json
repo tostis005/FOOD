@@ -472,7 +472,7 @@
       "a_title": "Los alimentos con más proteína: ranking por cada 100 gramos",
       "b": 13,
       "b_title": "Las carnes con más proteína: ranking por cada 100 gramos",
-      "similarity": 0.4685,
+      "similarity": 0.4686,
       "title_jaccard": 0.8,
       "family_match": false,
       "type_overlap": 2
@@ -1088,7 +1088,7 @@
       "a_title": "¿La salsa de soja necesita nevera después de abrirla?",
       "b": 971,
       "b_title": "¿La salsa de pescado necesita nevera después de abrirla?",
-      "similarity": 0.5944,
+      "similarity": 0.5945,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 1
@@ -1704,7 +1704,7 @@
       "a_title": "Whole Grains Highest in Protein",
       "b": 498,
       "b_title": "Whole Grains Highest in Fiber",
-      "similarity": 0.688,
+      "similarity": 0.6879,
       "title_jaccard": 0.6,
       "family_match": true,
       "type_overlap": 2
@@ -1968,7 +1968,7 @@
       "a_title": "Leche ultrafiltrada o normal: por qué una puede tener mucha más proteína",
       "b": 1340,
       "b_title": "Leche ultrafiltrada: por qué tiene más proteína y menos azúcar que la leche normal",
-      "similarity": 0.6733,
+      "similarity": 0.6736,
       "title_jaccard": 0.3636,
       "family_match": true,
       "type_overlap": 0
@@ -2177,7 +2177,7 @@
       "a_title": "Edamame vs. chickpeas: protein, fiber, and calories",
       "b": 176,
       "b_title": "Chickpeas: protein, fiber, calories, and nutrition",
-      "similarity": 0.6177,
+      "similarity": 0.6178,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -2419,7 +2419,7 @@
       "a_title": "How Much Lentils Per Person: Dry and Cooked Amounts",
       "b": 1181,
       "b_title": "How Much Chickpeas Per Person: Dry, Soaked, and Cooked Amounts",
-      "similarity": 0.5496,
+      "similarity": 0.5494,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
