@@ -18,8 +18,6 @@
 | meta_over_220 | 227 |
 | meta_under_90 | 95 |
 | seo_title_under_28 | 57 |
-| effective_seo_title_over_65 | 48 |
-| seo_title_over_65 | 48 |
 
 ## Vocabulary drift
 
@@ -62,7 +60,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 24 - Avocado Fat: How Much It Has, What Type, and How It Compares | 96 - How much fat is in an avocado, and what type is it? | 0.765 | 0.500 |
 | en | 60 - Whole Egg vs Egg Whites: Protein, Fat and Nutrients | 276 - Egg white vs. yolk: what each part provides | 0.761 | 0.545 |
 | en | 81 - Processed vs. ultra-processed foods: differences and examples | 82 - What ultra-processed foods actually are | 0.755 | 0.400 |
-| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.754 | 0.111 |
+| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.755 | 0.111 |
 | en | 572 - Oat milk vs. soy milk: nutrition differences | 573 - Almond milk vs. oat milk: nutrition differences | 0.730 | 0.750 |
 | es | 572 - Bebida de avena vs. bebida de soja: diferencias nutricionales | 573 - Bebida de almendra vs. bebida de avena: diferencias nutricionales | 0.699 | 0.750 |
 | en | 213 - Ground beef vs. ground turkey: nutrition differences | 218 - Ground beef vs. ground pork: nutrition differences | 0.673 | 0.750 |

@@ -12,11 +12,9 @@
     "translation_group_mismatches": 0
   },
   "issue_counts": {
-    "effective_seo_title_over_65": 48,
     "meta_over_160": 1213,
     "meta_over_220": 227,
     "meta_under_90": 95,
-    "seo_title_over_65": 48,
     "seo_title_under_28": 57,
     "sources_under_3": 1634
   },
@@ -239,7 +237,7 @@
       "a_title": "Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA",
       "b": 167,
       "b_title": "Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained",
-      "similarity": 0.8141,
+      "similarity": 0.8142,
       "title_jaccard": 0.4167,
       "family_match": true,
       "type_overlap": 0
@@ -261,7 +259,7 @@
       "a_title": "Los alimentos con más proteína: ranking por cada 100 gramos",
       "b": 13,
       "b_title": "Las carnes con más proteína: ranking por cada 100 gramos",
-      "similarity": 0.4693,
+      "similarity": 0.4694,
       "title_jaccard": 0.8,
       "family_match": false,
       "type_overlap": 2
@@ -316,7 +314,7 @@
       "a_title": "Highest-Protein Nuts: Ranking per 100 Grams and per Ounce",
       "b": 17,
       "b_title": "Highest-Protein Seeds: Ranking per 100 Grams and per Ounce",
-      "similarity": 0.4921,
+      "similarity": 0.4922,
       "title_jaccard": 0.7778,
       "family_match": true,
       "type_overlap": 2
@@ -371,7 +369,7 @@
       "a_title": "Dietary cholesterol vs. blood cholesterol: what’s the difference?",
       "b": 165,
       "b_title": "Eggs and cholesterol: what the relationship actually means",
-      "similarity": 0.7545,
+      "similarity": 0.7546,
       "title_jaccard": 0.1111,
       "family_match": false,
       "type_overlap": 2
@@ -657,7 +655,7 @@
       "a_title": "Cómo descongelar pollo de forma segura",
       "b": 271,
       "b_title": "Cómo descongelar carne de forma segura",
-      "similarity": 0.7223,
+      "similarity": 0.7222,
       "title_jaccard": 0.6,
       "family_match": true,
       "type_overlap": 2
@@ -679,7 +677,7 @@
       "a_title": "¿Es realmente la naranja la fruta con más vitamina C?",
       "b": 398,
       "b_title": "Las frutas con más vitamina C",
-      "similarity": 0.7207,
+      "similarity": 0.7206,
       "title_jaccard": 0.4,
       "family_match": true,
       "type_overlap": 1
@@ -690,7 +688,7 @@
       "a_title": "Los cereales integrales con más proteína",
       "b": 498,
       "b_title": "Los cereales integrales con más fibra",
-      "similarity": 0.7202,
+      "similarity": 0.7203,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 2
@@ -712,7 +710,7 @@
       "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
       "b": 1272,
       "b_title": "How Much Sugar Should You Have per Day? Free, Added, and Total Sugars Explained",
-      "similarity": 0.7172,
+      "similarity": 0.7173,
       "title_jaccard": 0.2,
       "family_match": true,
       "type_overlap": 1
@@ -910,7 +908,7 @@
       "a_title": "Cuánto dura la leche de coco abierta en la nevera",
       "b": 1302,
       "b_title": "Cuánto dura la leche vegetal abierta en la nevera",
-      "similarity": 0.5514,
+      "similarity": 0.5513,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 1
@@ -932,7 +930,7 @@
       "a_title": "Highest-Fiber Foods: Ranking per 100 Grams and by Serving",
       "b": 74,
       "b_title": "The fruits highest in fiber",
-      "similarity": 0.544,
+      "similarity": 0.5441,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1141,7 +1139,7 @@
       "a_title": "Japanese Wagyu vs. American Wagyu: What Is the Real Difference?",
       "b": 928,
       "b_title": "What Is American Wagyu, and How Much Wagyu Is It Really?",
-      "similarity": 0.7136,
+      "similarity": 0.7137,
       "title_jaccard": 0.2,
       "family_match": true,
       "type_overlap": 1
@@ -1159,6 +1157,17 @@
     },
     {
       "language": "es",
+      "a": 64,
+      "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
+      "b": 203,
+      "b_title": "Arroz integral vs. quinoa: fibra, proteína y calorías",
+      "similarity": 0.7112,
+      "title_jaccard": 0.5714,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
       "a": 606,
       "a_title": "Dátiles: azúcar, fibra y calorías",
       "b": 607,
@@ -1170,22 +1179,11 @@
     },
     {
       "language": "es",
-      "a": 64,
-      "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
-      "b": 203,
-      "b_title": "Arroz integral vs. quinoa: fibra, proteína y calorías",
-      "similarity": 0.7111,
-      "title_jaccard": 0.5714,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
       "a": 512,
       "a_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
       "b": 513,
       "b_title": "Qué significa el porcentaje de cacao del chocolate",
-      "similarity": 0.7107,
+      "similarity": 0.7108,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 0
@@ -1284,7 +1282,7 @@
       "a_title": "Alimentos con más vitamina C que la naranja",
       "b": 130,
       "b_title": "¿Es realmente la naranja la fruta con más vitamina C?",
-      "similarity": 0.7035,
+      "similarity": 0.7036,
       "title_jaccard": 0.5,
       "family_match": false,
       "type_overlap": 1
@@ -1317,7 +1315,7 @@
       "a_title": "Bread Flour vs All-Purpose Flour: Protein, Gluten, and Real-World Substitutions",
       "b": 689,
       "b_title": "Cake Flour vs All-Purpose Flour: Why the Crumb Changes",
-      "similarity": 0.7011,
+      "similarity": 0.7012,
       "title_jaccard": 0.25,
       "family_match": true,
       "type_overlap": 3
@@ -1339,7 +1337,7 @@
       "a_title": "Natural vs regular peanut butter: what changes in the ingredients",
       "b": 747,
       "b_title": "Powdered vs regular peanut butter: where do the calories go?",
-      "similarity": 0.7005,
+      "similarity": 0.7009,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
@@ -1378,6 +1376,17 @@
       "type_overlap": 1
     },
     {
+      "language": "es",
+      "a": 504,
+      "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
+      "b": 513,
+      "b_title": "Qué significa el porcentaje de cacao del chocolate",
+      "similarity": 0.6943,
+      "title_jaccard": 0.3333,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
       "language": "en",
       "a": 73,
       "a_title": "Should you rinse rice before cooking?",
@@ -1387,17 +1396,6 @@
       "title_jaccard": 0.2,
       "family_match": true,
       "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 504,
-      "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
-      "b": 513,
-      "b_title": "Qué significa el porcentaje de cacao del chocolate",
-      "similarity": 0.6941,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 1
     },
     {
       "language": "en",
@@ -1438,7 +1436,7 @@
       "a_title": "Carne de cerdo: cortes, proteína, grasa y calorías",
       "b": 280,
       "b_title": "Los cortes de cerdo más magros",
-      "similarity": 0.6908,
+      "similarity": 0.6909,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 1
@@ -1521,6 +1519,17 @@
       "type_overlap": 1
     },
     {
+      "language": "en",
+      "a": 432,
+      "a_title": "Fruit Sugar vs. Added Sugar: What’s the Difference?",
+      "b": 705,
+      "b_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
+      "similarity": 0.6831,
+      "title_jaccard": 0.2222,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
       "language": "es",
       "a": 24,
       "a_title": "La grasa del aguacate: cuánto tiene, qué tipo es y cómo se compara",
@@ -1529,17 +1538,6 @@
       "similarity": 0.6831,
       "title_jaccard": 0.5,
       "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 432,
-      "a_title": "Fruit Sugar vs. Added Sugar: What’s the Difference?",
-      "b": 705,
-      "b_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
-      "similarity": 0.683,
-      "title_jaccard": 0.2222,
-      "family_match": false,
       "type_overlap": 1
     },
     {
@@ -1669,7 +1667,7 @@
       "a_title": "Tofu vs. tempeh: protein and nutrition differences",
       "b": 565,
       "b_title": "Seitan vs. tofu vs. tempeh: nutrition compared",
-      "similarity": 0.6767,
+      "similarity": 0.6768,
       "title_jaccard": 0.5714,
       "family_match": false,
       "type_overlap": 1
@@ -1724,7 +1722,7 @@
       "a_title": "How to tell if Serrano ham has gone bad",
       "b": 370,
       "b_title": "Can you freeze Serrano ham or cooked ham?",
-      "similarity": 0.6734,
+      "similarity": 0.6735,
       "title_jaccard": 0.25,
       "family_match": true,
       "type_overlap": 2
@@ -1779,7 +1777,7 @@
       "a_title": "Leche pasteurizada o UHT: por qué una dura días y otra meses",
       "b": 1290,
       "b_title": "Leche UHT vs. pasteurizada: diferencias, conservación y valor nutricional",
-      "similarity": 0.6712,
+      "similarity": 0.6709,
       "title_jaccard": 0.2727,
       "family_match": true,
       "type_overlap": 1
@@ -1812,7 +1810,7 @@
       "a_title": "Aceite de oliva virgen extra: grasas, calorías y composición",
       "b": 380,
       "b_title": "¿Se puede freír con aceite de oliva virgen extra?",
-      "similarity": 0.6692,
+      "similarity": 0.6693,
       "title_jaccard": 0.4444,
       "family_match": true,
       "type_overlap": 0
@@ -1834,7 +1832,7 @@
       "a_title": "Arroz integral vs. quinoa: fibra, proteína y calorías",
       "b": 242,
       "b_title": "Arroz integral: fibra, proteína y valor nutricional",
-      "similarity": 0.6678,
+      "similarity": 0.6679,
       "title_jaccard": 0.5556,
       "family_match": true,
       "type_overlap": 1
@@ -1955,7 +1953,7 @@
       "a_title": "Cuánto dura el queso abierto en la nevera",
       "b": 297,
       "b_title": "Cuánto dura el queso fresco en la nevera",
-      "similarity": 0.6089,
+      "similarity": 0.6091,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2043,7 +2041,7 @@
       "a_title": "Cuánto dura el pescado cocinado en la nevera",
       "b": 278,
       "b_title": "Cuánto dura el salmón cocinado en la nevera",
-      "similarity": 0.5899,
+      "similarity": 0.59,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2160,17 +2158,6 @@
     },
     {
       "language": "es",
-      "a": 387,
-      "a_title": "Las frutas con menos azúcar",
-      "b": 427,
-      "b_title": "Las frutas con más azúcar",
-      "similarity": 0.5526,
-      "title_jaccard": 0.6667,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
       "a": 70,
       "a_title": "Cuánto tiempo puede estar la comida fuera de la nevera",
       "b": 258,
@@ -2178,6 +2165,17 @@
       "similarity": 0.5524,
       "title_jaccard": 0.6667,
       "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 387,
+      "a_title": "Las frutas con menos azúcar",
+      "b": 427,
+      "b_title": "Las frutas con más azúcar",
+      "similarity": 0.5521,
+      "title_jaccard": 0.6667,
+      "family_match": true,
       "type_overlap": 2
     },
     {
@@ -2747,7 +2745,7 @@
       "a_title": "Vegetables Highest in Vitamin C",
       "b": 438,
       "b_title": "Vegetables Highest in Potassium",
-      "similarity": 0.423,
+      "similarity": 0.4231,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2780,7 +2778,7 @@
       "a_title": "Cuánto dura el queso abierto en la nevera",
       "b": 975,
       "b_title": "Cuánto dura el caldo abierto en la nevera",
-      "similarity": 0.4154,
+      "similarity": 0.4155,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -2908,344 +2906,6 @@
     }
   ],
   "issues": {
-    "effective_seo_title_over_65": [
-      {
-        "language": "es",
-        "number": 86,
-        "title": "¿El cuerpo procesa igual todas las calorías?",
-        "path": "content/articles/es/086-todas-calorias-iguales-nutricionalmente.json",
-        "value": 71
-      },
-      {
-        "language": "es",
-        "number": 1010,
-        "title": "¿Son venenosas las semillas de manzana? Cuánto riesgo hay realmente",
-        "path": "content/articles/es/1010-son-venenosas-semillas-manzana.json",
-        "value": 67
-      },
-      {
-        "language": "es",
-        "number": 1018,
-        "title": "Por qué el agua de la pasta hace tanta espuma y se sale de la olla",
-        "path": "content/articles/es/1018-por-que-agua-pasta-hace-espuma-se-sale.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 1023,
-        "title": "Por qué la nata montada se convierte en mantequilla si sigues batiendo",
-        "path": "content/articles/es/1023-por-que-nata-montada-se-convierte-mantequilla.json",
-        "value": 70
-      },
-      {
-        "language": "es",
-        "number": 1035,
-        "title": "Por qué las verduras congeladas pueden quedar blandas al cocinarlas",
-        "path": "content/articles/es/1035-por-que-verduras-congeladas-quedan-blandas-cocinar.json",
-        "value": 67
-      },
-      {
-        "language": "es",
-        "number": 1289,
-        "title": "Carne separada mecánicamente: qué es y cómo reconocerla en una etiqueta",
-        "path": "content/articles/es/1289-carne-separada-mecanicamente-que-es-como-reconocer-etiqueta.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 1317,
-        "title": "¿La kombucha tiene probióticos? Qué significa realmente que esté fermentada",
-        "path": "content/articles/es/1317-kombucha-probioticos-que-significa-fermentada.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 1355,
-        "title": "Sirope de agave: por qué es tan rico en fructosa y si tiene un índice glucémico más bajo",
-        "path": "content/articles/es/1355-sirope-agave-fructosa-indice-glucemico.json",
-        "value": 68
-      },
-      {
-        "language": "es",
-        "number": 283,
-        "title": "Cómo saber si las gambas están malas",
-        "path": "content/articles/es/283-como-saber-si-gambas-estan-malas.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 285,
-        "title": "¿Por qué flotan algunos huevos?",
-        "path": "content/articles/es/285-por-que-flotan-huevos.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 838,
-        "title": "Uvas que se desprenden fácilmente del racimo: qué dice sobre su frescura",
-        "path": "content/articles/es/838-uvas-se-desprenden-racimo-que-dice-sobre-frescura.json",
-        "value": 72
-      },
-      {
-        "language": "es",
-        "number": 840,
-        "title": "Fresas con zonas blancas o verdes junto al tallo: madurez o problema",
-        "path": "content/articles/es/840-fresas-zonas-blancas-verdes-junto-tallo-madurez-o-problema.json",
-        "value": 68
-      },
-      {
-        "language": "es",
-        "number": 844,
-        "title": "Frambuesas con jugo en el fondo del envase: cuándo es señal de deterioro",
-        "path": "content/articles/es/844-frambuesas-jugo-fondo-envase-cuando-senal-deterioro.json",
-        "value": 72
-      },
-      {
-        "language": "es",
-        "number": 846,
-        "title": "Naranja seca por dentro: por qué ocurre aunque la piel parezca normal",
-        "path": "content/articles/es/846-naranja-seca-por-dentro-por-que-ocurre-aunque-piel-parezca-normal.json",
-        "value": 69
-      },
-      {
-        "language": "es",
-        "number": 849,
-        "title": "Mandarina hinchada o con la piel separada de la pulpa: qué significa",
-        "path": "content/articles/es/849-mandarina-hinchada-piel-separada-pulpa-que-significa.json",
-        "value": 68
-      },
-      {
-        "language": "es",
-        "number": 851,
-        "title": "Pomelo rosado con zonas pálidas o secas: madurez frente a deterioro",
-        "path": "content/articles/es/851-pomelo-rosado-zonas-palidas-secas-madurez-frente-deterioro.json",
-        "value": 67
-      },
-      {
-        "language": "es",
-        "number": 858,
-        "title": "Piña con centro marrón: qué significa y si se puede comer el resto",
-        "path": "content/articles/es/858-pina-centro-marron-que-significa-si-se-puede-comer-resto.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 866,
-        "title": "Plátano rojo o rosado por dentro: cuándo puede indicar un problema",
-        "path": "content/articles/es/866-platano-rojo-rosado-por-dentro-cuando-puede-indicar-problema.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 874,
-        "title": "Cómo saber si la leche está mala: olor, grumos y cambios de textura",
-        "path": "content/articles/es/874-como-saber-si-leche-esta-mala-olor-grumos-cambios-textura.json",
-        "value": 67
-      },
-      {
-        "language": "es",
-        "number": 876,
-        "title": "Nata montada que suelta agua: por qué ocurre y si sigue siendo segura",
-        "path": "content/articles/es/876-nata-montada-suelta-agua-por-que-ocurre-si-sigue-siendo-segura.json",
-        "value": 69
-      },
-      {
-        "language": "es",
-        "number": 877,
-        "title": "Mantequilla con zonas amarillas oscuras o translúcidas: qué significa",
-        "path": "content/articles/es/877-mantequilla-zonas-amarillas-oscuras-translucidas-que-significa.json",
-        "value": 69
-      },
-      {
-        "language": "es",
-        "number": 889,
-        "title": "Arroz seco con insectos: por qué aparecen y qué hacer con la despensa",
-        "path": "content/articles/es/889-arroz-seco-insectos-por-que-aparecen-que-hacer-despensa.json",
-        "value": 69
-      },
-      {
-        "language": "es",
-        "number": 900,
-        "title": "Semillas de chía con olor raro o rancio: cómo saber si se han estropeado",
-        "path": "content/articles/es/900-semillas-chia-olor-raro-rancio-como-saber-si-estropeado.json",
-        "value": 72
-      },
-      {
-        "language": "es",
-        "number": 901,
-        "title": "Conserva con la tapa abombada: por qué no debe abrirse ni probarse",
-        "path": "content/articles/es/901-conserva-tapa-abombada-por-que-no-debe-abrirse-ni-probarse.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 902,
-        "title": "Conserva con óxido en la lata: cuándo es superficial y cuándo desecharla",
-        "path": "content/articles/es/902-conserva-oxido-lata-cuando-superficial-cuando-desecharla.json",
-        "value": 72
-      },
-      {
-        "language": "es",
-        "number": 904,
-        "title": "Mermelada con cristales de azúcar: por qué aparecen y si se puede comer",
-        "path": "content/articles/es/904-mermelada-cristales-azucar-por-que-aparecen-si-se-puede-comer.json",
-        "value": 71
-      },
-      {
-        "language": "es",
-        "number": 905,
-        "title": "Salsa de tomate con agua separada en la superficie: por qué ocurre",
-        "path": "content/articles/es/905-salsa-tomate-agua-separada-superficie-por-que-ocurre.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 906,
-        "title": "Kétchup oscurecido después de abierto: por qué cambia y cuándo tirarlo",
-        "path": "content/articles/es/906-ketchup-oscurecido-despues-abierto-por-que-cambia-cuando-tirarlo.json",
-        "value": 70
-      },
-      {
-        "language": "es",
-        "number": 908,
-        "title": "Salsa de soja con sedimento o cristales: qué puede ser y si sigue buena",
-        "path": "content/articles/es/908-salsa-soja-sedimento-cristales-que-puede-ser-si-sigue-buena.json",
-        "value": 71
-      },
-      {
-        "language": "es",
-        "number": 996,
-        "title": "¿Se puede comer atún crudo? Qué diferencia hay con el atún para sushi",
-        "path": "content/articles/es/996-se-puede-comer-atun-crudo.json",
-        "value": 69
-      },
-      {
-        "language": "en",
-        "number": 1289,
-        "title": "Mechanically Separated Meat: What It Is and How to Recognize It on a Label",
-        "path": "content/articles/en/1289-mechanically-separated-meat-what-it-is-label.json",
-        "value": 66
-      },
-      {
-        "language": "en",
-        "number": 1355,
-        "title": "Agave Syrup: Why It Is High in Fructose and Whether Its Glycemic Index Is Lower",
-        "path": "content/articles/en/1355-agave-syrup-fructose-low-glycemic-index.json",
-        "value": 69
-      },
-      {
-        "language": "en",
-        "number": 653,
-        "title": "Which Foods Naturally Provide the Most Electrolytes?",
-        "path": "content/articles/en/653-foods-high-in-electrolytes.json",
-        "value": 68
-      },
-      {
-        "language": "en",
-        "number": 844,
-        "title": "Juice at the bottom of a raspberry container: when it signals spoilage",
-        "path": "content/articles/en/844-juice-at-bottom-of-raspberry-container-when-it-signals-spoilage.json",
-        "value": 70
-      },
-      {
-        "language": "en",
-        "number": 851,
-        "title": "Pink grapefruit with pale or dry areas: ripeness versus deterioration",
-        "path": "content/articles/en/851-pink-grapefruit-pale-dry-areas-ripeness-versus-deterioration.json",
-        "value": 69
-      },
-      {
-        "language": "en",
-        "number": 859,
-        "title": "Pineapple smells like alcohol: why it happens and when to discard it",
-        "path": "content/articles/en/859-pineapple-smells-like-alcohol-why-it-happens-when-to-discard.json",
-        "value": 68
-      },
-      {
-        "language": "en",
-        "number": 862,
-        "title": "Yellowish or translucent watermelon flesh: when it is past its best",
-        "path": "content/articles/en/862-yellowish-translucent-watermelon-flesh-when-past-best.json",
-        "value": 67
-      },
-      {
-        "language": "en",
-        "number": 871,
-        "title": "Fresh figs leaking liquid or tasting fermented: when to discard them",
-        "path": "content/articles/en/871-fresh-figs-leaking-liquid-fermented-taste-when-to-discard.json",
-        "value": 68
-      },
-      {
-        "language": "en",
-        "number": 873,
-        "title": "Pomegranate with internal mold: why it may not show on the outside",
-        "path": "content/articles/en/873-pomegranate-internal-mold-why-it-may-not-show-outside.json",
-        "value": 66
-      },
-      {
-        "language": "en",
-        "number": 881,
-        "title": "Watery ricotta or sour-smelling ricotta: how to tell if it is spoiled",
-        "path": "content/articles/en/881-watery-sour-smelling-ricotta-how-to-tell-if-spoiled.json",
-        "value": 69
-      },
-      {
-        "language": "en",
-        "number": 889,
-        "title": "Insects in dry rice: why they appear and what to do with the pantry",
-        "path": "content/articles/en/889-insects-in-dry-rice-why-they-appear-what-to-do-pantry.json",
-        "value": 67
-      },
-      {
-        "language": "en",
-        "number": 896,
-        "title": "Tempeh with black spots: when they are normal and when they are not",
-        "path": "content/articles/en/896-tempeh-black-spots-when-normal-when-not.json",
-        "value": 67
-      },
-      {
-        "language": "en",
-        "number": 899,
-        "title": "Insects, holes or powder in nuts: what to do with the package and pantry",
-        "path": "content/articles/en/899-insects-holes-powder-nuts-what-to-do-package-pantry.json",
-        "value": 72
-      },
-      {
-        "language": "en",
-        "number": 900,
-        "title": "Chia seeds smell strange or rancid: how to tell if they have spoiled",
-        "path": "content/articles/en/900-chia-seeds-strange-rancid-smell-how-to-tell-spoiled.json",
-        "value": 68
-      },
-      {
-        "language": "en",
-        "number": 904,
-        "title": "Sugar crystals in jam: why they form and whether it is safe to eat",
-        "path": "content/articles/en/904-sugar-crystals-in-jam-why-form-safe-to-eat.json",
-        "value": 66
-      },
-      {
-        "language": "en",
-        "number": 906,
-        "title": "Ketchup darkened after opening: why it changes and when to discard it",
-        "path": "content/articles/en/906-ketchup-darkened-after-opening-why-changes-when-discard.json",
-        "value": 69
-      },
-      {
-        "language": "en",
-        "number": 913,
-        "title": "Ground coffee with clumps or moisture: when it is better to discard it",
-        "path": "content/articles/en/913-ground-coffee-clumps-moisture-when-to-discard.json",
-        "value": 70
-      },
-      {
-        "language": "en",
-        "number": 997,
-        "title": "What “sushi grade” really means and whether it guarantees safe fish",
-        "path": "content/articles/en/997-what-sushi-grade-really-means.json",
-        "value": 67
-      }
-    ],
     "meta_over_160": [
       {
         "language": "es",
@@ -9004,344 +8664,6 @@
         "title": "Can you eat raw mushrooms?",
         "path": "content/articles/en/998-can-you-eat-raw-mushrooms.json",
         "value": 86
-      }
-    ],
-    "seo_title_over_65": [
-      {
-        "language": "es",
-        "number": 86,
-        "title": "¿El cuerpo procesa igual todas las calorías?",
-        "path": "content/articles/es/086-todas-calorias-iguales-nutricionalmente.json",
-        "value": 71
-      },
-      {
-        "language": "es",
-        "number": 1010,
-        "title": "¿Son venenosas las semillas de manzana? Cuánto riesgo hay realmente",
-        "path": "content/articles/es/1010-son-venenosas-semillas-manzana.json",
-        "value": 67
-      },
-      {
-        "language": "es",
-        "number": 1018,
-        "title": "Por qué el agua de la pasta hace tanta espuma y se sale de la olla",
-        "path": "content/articles/es/1018-por-que-agua-pasta-hace-espuma-se-sale.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 1023,
-        "title": "Por qué la nata montada se convierte en mantequilla si sigues batiendo",
-        "path": "content/articles/es/1023-por-que-nata-montada-se-convierte-mantequilla.json",
-        "value": 70
-      },
-      {
-        "language": "es",
-        "number": 1035,
-        "title": "Por qué las verduras congeladas pueden quedar blandas al cocinarlas",
-        "path": "content/articles/es/1035-por-que-verduras-congeladas-quedan-blandas-cocinar.json",
-        "value": 67
-      },
-      {
-        "language": "es",
-        "number": 1289,
-        "title": "Carne separada mecánicamente: qué es y cómo reconocerla en una etiqueta",
-        "path": "content/articles/es/1289-carne-separada-mecanicamente-que-es-como-reconocer-etiqueta.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 1317,
-        "title": "¿La kombucha tiene probióticos? Qué significa realmente que esté fermentada",
-        "path": "content/articles/es/1317-kombucha-probioticos-que-significa-fermentada.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 1355,
-        "title": "Sirope de agave: por qué es tan rico en fructosa y si tiene un índice glucémico más bajo",
-        "path": "content/articles/es/1355-sirope-agave-fructosa-indice-glucemico.json",
-        "value": 68
-      },
-      {
-        "language": "es",
-        "number": 283,
-        "title": "Cómo saber si las gambas están malas",
-        "path": "content/articles/es/283-como-saber-si-gambas-estan-malas.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 285,
-        "title": "¿Por qué flotan algunos huevos?",
-        "path": "content/articles/es/285-por-que-flotan-huevos.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 838,
-        "title": "Uvas que se desprenden fácilmente del racimo: qué dice sobre su frescura",
-        "path": "content/articles/es/838-uvas-se-desprenden-racimo-que-dice-sobre-frescura.json",
-        "value": 72
-      },
-      {
-        "language": "es",
-        "number": 840,
-        "title": "Fresas con zonas blancas o verdes junto al tallo: madurez o problema",
-        "path": "content/articles/es/840-fresas-zonas-blancas-verdes-junto-tallo-madurez-o-problema.json",
-        "value": 68
-      },
-      {
-        "language": "es",
-        "number": 844,
-        "title": "Frambuesas con jugo en el fondo del envase: cuándo es señal de deterioro",
-        "path": "content/articles/es/844-frambuesas-jugo-fondo-envase-cuando-senal-deterioro.json",
-        "value": 72
-      },
-      {
-        "language": "es",
-        "number": 846,
-        "title": "Naranja seca por dentro: por qué ocurre aunque la piel parezca normal",
-        "path": "content/articles/es/846-naranja-seca-por-dentro-por-que-ocurre-aunque-piel-parezca-normal.json",
-        "value": 69
-      },
-      {
-        "language": "es",
-        "number": 849,
-        "title": "Mandarina hinchada o con la piel separada de la pulpa: qué significa",
-        "path": "content/articles/es/849-mandarina-hinchada-piel-separada-pulpa-que-significa.json",
-        "value": 68
-      },
-      {
-        "language": "es",
-        "number": 851,
-        "title": "Pomelo rosado con zonas pálidas o secas: madurez frente a deterioro",
-        "path": "content/articles/es/851-pomelo-rosado-zonas-palidas-secas-madurez-frente-deterioro.json",
-        "value": 67
-      },
-      {
-        "language": "es",
-        "number": 858,
-        "title": "Piña con centro marrón: qué significa y si se puede comer el resto",
-        "path": "content/articles/es/858-pina-centro-marron-que-significa-si-se-puede-comer-resto.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 866,
-        "title": "Plátano rojo o rosado por dentro: cuándo puede indicar un problema",
-        "path": "content/articles/es/866-platano-rojo-rosado-por-dentro-cuando-puede-indicar-problema.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 874,
-        "title": "Cómo saber si la leche está mala: olor, grumos y cambios de textura",
-        "path": "content/articles/es/874-como-saber-si-leche-esta-mala-olor-grumos-cambios-textura.json",
-        "value": 67
-      },
-      {
-        "language": "es",
-        "number": 876,
-        "title": "Nata montada que suelta agua: por qué ocurre y si sigue siendo segura",
-        "path": "content/articles/es/876-nata-montada-suelta-agua-por-que-ocurre-si-sigue-siendo-segura.json",
-        "value": 69
-      },
-      {
-        "language": "es",
-        "number": 877,
-        "title": "Mantequilla con zonas amarillas oscuras o translúcidas: qué significa",
-        "path": "content/articles/es/877-mantequilla-zonas-amarillas-oscuras-translucidas-que-significa.json",
-        "value": 69
-      },
-      {
-        "language": "es",
-        "number": 889,
-        "title": "Arroz seco con insectos: por qué aparecen y qué hacer con la despensa",
-        "path": "content/articles/es/889-arroz-seco-insectos-por-que-aparecen-que-hacer-despensa.json",
-        "value": 69
-      },
-      {
-        "language": "es",
-        "number": 900,
-        "title": "Semillas de chía con olor raro o rancio: cómo saber si se han estropeado",
-        "path": "content/articles/es/900-semillas-chia-olor-raro-rancio-como-saber-si-estropeado.json",
-        "value": 72
-      },
-      {
-        "language": "es",
-        "number": 901,
-        "title": "Conserva con la tapa abombada: por qué no debe abrirse ni probarse",
-        "path": "content/articles/es/901-conserva-tapa-abombada-por-que-no-debe-abrirse-ni-probarse.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 902,
-        "title": "Conserva con óxido en la lata: cuándo es superficial y cuándo desecharla",
-        "path": "content/articles/es/902-conserva-oxido-lata-cuando-superficial-cuando-desecharla.json",
-        "value": 72
-      },
-      {
-        "language": "es",
-        "number": 904,
-        "title": "Mermelada con cristales de azúcar: por qué aparecen y si se puede comer",
-        "path": "content/articles/es/904-mermelada-cristales-azucar-por-que-aparecen-si-se-puede-comer.json",
-        "value": 71
-      },
-      {
-        "language": "es",
-        "number": 905,
-        "title": "Salsa de tomate con agua separada en la superficie: por qué ocurre",
-        "path": "content/articles/es/905-salsa-tomate-agua-separada-superficie-por-que-ocurre.json",
-        "value": 66
-      },
-      {
-        "language": "es",
-        "number": 906,
-        "title": "Kétchup oscurecido después de abierto: por qué cambia y cuándo tirarlo",
-        "path": "content/articles/es/906-ketchup-oscurecido-despues-abierto-por-que-cambia-cuando-tirarlo.json",
-        "value": 70
-      },
-      {
-        "language": "es",
-        "number": 908,
-        "title": "Salsa de soja con sedimento o cristales: qué puede ser y si sigue buena",
-        "path": "content/articles/es/908-salsa-soja-sedimento-cristales-que-puede-ser-si-sigue-buena.json",
-        "value": 71
-      },
-      {
-        "language": "es",
-        "number": 996,
-        "title": "¿Se puede comer atún crudo? Qué diferencia hay con el atún para sushi",
-        "path": "content/articles/es/996-se-puede-comer-atun-crudo.json",
-        "value": 69
-      },
-      {
-        "language": "en",
-        "number": 1289,
-        "title": "Mechanically Separated Meat: What It Is and How to Recognize It on a Label",
-        "path": "content/articles/en/1289-mechanically-separated-meat-what-it-is-label.json",
-        "value": 66
-      },
-      {
-        "language": "en",
-        "number": 1355,
-        "title": "Agave Syrup: Why It Is High in Fructose and Whether Its Glycemic Index Is Lower",
-        "path": "content/articles/en/1355-agave-syrup-fructose-low-glycemic-index.json",
-        "value": 69
-      },
-      {
-        "language": "en",
-        "number": 653,
-        "title": "Which Foods Naturally Provide the Most Electrolytes?",
-        "path": "content/articles/en/653-foods-high-in-electrolytes.json",
-        "value": 68
-      },
-      {
-        "language": "en",
-        "number": 844,
-        "title": "Juice at the bottom of a raspberry container: when it signals spoilage",
-        "path": "content/articles/en/844-juice-at-bottom-of-raspberry-container-when-it-signals-spoilage.json",
-        "value": 70
-      },
-      {
-        "language": "en",
-        "number": 851,
-        "title": "Pink grapefruit with pale or dry areas: ripeness versus deterioration",
-        "path": "content/articles/en/851-pink-grapefruit-pale-dry-areas-ripeness-versus-deterioration.json",
-        "value": 69
-      },
-      {
-        "language": "en",
-        "number": 859,
-        "title": "Pineapple smells like alcohol: why it happens and when to discard it",
-        "path": "content/articles/en/859-pineapple-smells-like-alcohol-why-it-happens-when-to-discard.json",
-        "value": 68
-      },
-      {
-        "language": "en",
-        "number": 862,
-        "title": "Yellowish or translucent watermelon flesh: when it is past its best",
-        "path": "content/articles/en/862-yellowish-translucent-watermelon-flesh-when-past-best.json",
-        "value": 67
-      },
-      {
-        "language": "en",
-        "number": 871,
-        "title": "Fresh figs leaking liquid or tasting fermented: when to discard them",
-        "path": "content/articles/en/871-fresh-figs-leaking-liquid-fermented-taste-when-to-discard.json",
-        "value": 68
-      },
-      {
-        "language": "en",
-        "number": 873,
-        "title": "Pomegranate with internal mold: why it may not show on the outside",
-        "path": "content/articles/en/873-pomegranate-internal-mold-why-it-may-not-show-outside.json",
-        "value": 66
-      },
-      {
-        "language": "en",
-        "number": 881,
-        "title": "Watery ricotta or sour-smelling ricotta: how to tell if it is spoiled",
-        "path": "content/articles/en/881-watery-sour-smelling-ricotta-how-to-tell-if-spoiled.json",
-        "value": 69
-      },
-      {
-        "language": "en",
-        "number": 889,
-        "title": "Insects in dry rice: why they appear and what to do with the pantry",
-        "path": "content/articles/en/889-insects-in-dry-rice-why-they-appear-what-to-do-pantry.json",
-        "value": 67
-      },
-      {
-        "language": "en",
-        "number": 896,
-        "title": "Tempeh with black spots: when they are normal and when they are not",
-        "path": "content/articles/en/896-tempeh-black-spots-when-normal-when-not.json",
-        "value": 67
-      },
-      {
-        "language": "en",
-        "number": 899,
-        "title": "Insects, holes or powder in nuts: what to do with the package and pantry",
-        "path": "content/articles/en/899-insects-holes-powder-nuts-what-to-do-package-pantry.json",
-        "value": 72
-      },
-      {
-        "language": "en",
-        "number": 900,
-        "title": "Chia seeds smell strange or rancid: how to tell if they have spoiled",
-        "path": "content/articles/en/900-chia-seeds-strange-rancid-smell-how-to-tell-spoiled.json",
-        "value": 68
-      },
-      {
-        "language": "en",
-        "number": 904,
-        "title": "Sugar crystals in jam: why they form and whether it is safe to eat",
-        "path": "content/articles/en/904-sugar-crystals-in-jam-why-form-safe-to-eat.json",
-        "value": 66
-      },
-      {
-        "language": "en",
-        "number": 906,
-        "title": "Ketchup darkened after opening: why it changes and when to discard it",
-        "path": "content/articles/en/906-ketchup-darkened-after-opening-why-changes-when-discard.json",
-        "value": 69
-      },
-      {
-        "language": "en",
-        "number": 913,
-        "title": "Ground coffee with clumps or moisture: when it is better to discard it",
-        "path": "content/articles/en/913-ground-coffee-clumps-moisture-when-to-discard.json",
-        "value": 70
-      },
-      {
-        "language": "en",
-        "number": 997,
-        "title": "What “sushi grade” really means and whether it guarantees safe fish",
-        "path": "content/articles/en/997-what-sushi-grade-really-means.json",
-        "value": 67
       }
     ],
     "seo_title_under_28": [
