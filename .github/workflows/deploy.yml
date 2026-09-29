@@ -4,6 +4,13 @@ on:
   push:
     branches:
       - main
+  workflow_run:
+    workflows:
+      - Rebuild internal link map
+      - Refine long SEO titles
+      - Refine generic search intents
+    types:
+      - completed
   workflow_dispatch:
 
 concurrency:
@@ -12,6 +19,7 @@ concurrency:
 
 jobs:
   deploy:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
 
     steps:

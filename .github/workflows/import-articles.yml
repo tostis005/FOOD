@@ -9,6 +9,14 @@ on:
       - 'content/articles/en/*.json'
       - 'content/tools/import-articles.php'
       - '.github/workflows/import-articles.yml'
+  workflow_run:
+    workflows:
+      - Refine long SEO titles
+      - Refine generic search intents
+      - Enrich canonical SEO articles
+      - Sync bilingual high-stakes sources
+    types:
+      - completed
   workflow_dispatch:
     inputs:
       language:
@@ -52,6 +60,7 @@ concurrency:
 
 jobs:
   import:
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
     runs-on: ubuntu-latest
     env:
       IMPORT_LANGUAGE: ${{ inputs.language || 'all' }}
