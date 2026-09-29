@@ -4,20 +4,20 @@
     "es": 1366,
     "en": 1366,
     "logical_articles": 1366,
-    "indexable_logical_articles": 1350,
-    "consolidated_redirects": 16,
+    "indexable_logical_articles": 1348,
+    "consolidated_redirects": 18,
     "max_article_number": 1366,
     "invalid_json": 0,
     "missing_translation_pairs": 0,
     "translation_group_mismatches": 0
   },
   "issue_counts": {
-    "meta_over_160": 1214,
-    "meta_over_220": 229,
+    "meta_over_160": 1212,
+    "meta_over_220": 227,
     "meta_under_90": 95,
     "seo_title_over_65": 75,
     "seo_title_under_28": 58,
-    "sources_under_3": 1638
+    "sources_under_3": 1634
   },
   "unknown_families": {},
   "unknown_article_types": {},
@@ -128,6 +128,7 @@
     "ranking": 2
   },
   "known_consolidations": {
+    "300": 285,
     "326": 295,
     "408": 94,
     "551": 169,
@@ -141,6 +142,7 @@
     "1296": 147,
     "1304": 767,
     "1306": 775,
+    "1326": 286,
     "1341": 674,
     "1343": 610,
     "1353": 702
@@ -372,7 +374,7 @@
       "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
       "b": 1273,
       "b_title": "Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing",
-      "similarity": 0.804,
+      "similarity": 0.8039,
       "title_jaccard": 0.8889,
       "family_match": true,
       "type_overlap": 2
@@ -383,7 +385,7 @@
       "a_title": "Dates: sugar, fiber and calories",
       "b": 607,
       "b_title": "Dates vs. sugar: nutrition differences",
-      "similarity": 0.8768,
+      "similarity": 0.8765,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 1
@@ -394,7 +396,7 @@
       "a_title": "Cottage cheese: protein, fat and calories",
       "b": 584,
       "b_title": "Cottage cheese vs. ricotta: nutrition differences",
-      "similarity": 0.6177,
+      "similarity": 0.6176,
       "title_jaccard": 0.8571,
       "family_match": true,
       "type_overlap": 2
@@ -416,7 +418,7 @@
       "a_title": "Salmón: proteína, omega-3, grasa y calorías",
       "b": 185,
       "b_title": "Merluza vs. salmón: proteína, grasa y calorías",
-      "similarity": 0.5378,
+      "similarity": 0.5377,
       "title_jaccard": 0.8333,
       "family_match": true,
       "type_overlap": 1
@@ -427,7 +429,7 @@
       "a_title": "Atún vs. salmón: proteína, omega-3, grasa y calorías",
       "b": 183,
       "b_title": "Salmón: proteína, omega-3, grasa y calorías",
-      "similarity": 0.523,
+      "similarity": 0.5229,
       "title_jaccard": 0.8333,
       "family_match": true,
       "type_overlap": 1
@@ -471,7 +473,7 @@
       "a_title": "Los alimentos con más proteína: ranking por cada 100 gramos",
       "b": 13,
       "b_title": "Las carnes con más proteína: ranking por cada 100 gramos",
-      "similarity": 0.4686,
+      "similarity": 0.4685,
       "title_jaccard": 0.8,
       "family_match": false,
       "type_overlap": 2
@@ -482,7 +484,7 @@
       "a_title": "Foods with more potassium than a banana",
       "b": 131,
       "b_title": "Is the banana really one of the best sources of potassium?",
-      "similarity": 0.795,
+      "similarity": 0.7949,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -493,7 +495,7 @@
       "a_title": "Honey vs. sugar: nutrition differences",
       "b": 603,
       "b_title": "What sugars are in honey?",
-      "similarity": 0.7829,
+      "similarity": 0.7828,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 1
@@ -504,7 +506,7 @@
       "a_title": "70%, 85%, and 100% cacao chocolate: what really changes?",
       "b": 513,
       "b_title": "What does the cacao percentage on chocolate mean?",
-      "similarity": 0.7816,
+      "similarity": 0.7815,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 0
@@ -515,7 +517,7 @@
       "a_title": "Alimentos con más potasio que el plátano",
       "b": 131,
       "b_title": "¿Es realmente el plátano una de las mejores fuentes de potasio?",
-      "similarity": 0.7786,
+      "similarity": 0.7784,
       "title_jaccard": 0.5,
       "family_match": false,
       "type_overlap": 1
@@ -526,7 +528,7 @@
       "a_title": "Highest-Protein Nuts: Ranking per 100 Grams and per Ounce",
       "b": 17,
       "b_title": "Highest-Protein Seeds: Ranking per 100 Grams and per Ounce",
-      "similarity": 0.4921,
+      "similarity": 0.492,
       "title_jaccard": 0.7778,
       "family_match": true,
       "type_overlap": 2
@@ -548,7 +550,7 @@
       "a_title": "Avocado Fat: How Much It Has, What Type, and How It Compares",
       "b": 96,
       "b_title": "How much fat is in an avocado, and what type is it?",
-      "similarity": 0.7654,
+      "similarity": 0.7653,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 1
@@ -559,20 +561,9 @@
       "a_title": "Whole Egg vs Egg Whites: Protein, Fat and Nutrients",
       "b": 276,
       "b_title": "Egg white vs. yolk: what each part provides",
-      "similarity": 0.7608,
+      "similarity": 0.7618,
       "title_jaccard": 0.5455,
       "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 164,
-      "a_title": "Dietary cholesterol vs. blood cholesterol: what’s the difference?",
-      "b": 165,
-      "b_title": "Eggs and cholesterol: what the relationship actually means",
-      "similarity": 0.7552,
-      "title_jaccard": 0.1111,
-      "family_match": false,
       "type_overlap": 2
     },
     {
@@ -588,11 +579,22 @@
     },
     {
       "language": "en",
+      "a": 164,
+      "a_title": "Dietary cholesterol vs. blood cholesterol: what’s the difference?",
+      "b": 165,
+      "b_title": "Eggs and cholesterol: what the relationship actually means",
+      "similarity": 0.7543,
+      "title_jaccard": 0.1111,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
       "a": 572,
       "a_title": "Oat milk vs. soy milk: nutrition differences",
       "b": 573,
       "b_title": "Almond milk vs. oat milk: nutrition differences",
-      "similarity": 0.7298,
+      "similarity": 0.7299,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 2
@@ -603,7 +605,7 @@
       "a_title": "Can you eat raw sweet potato?",
       "b": 1005,
       "b_title": "Can you eat raw potato?",
-      "similarity": 0.7043,
+      "similarity": 0.7044,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 1
@@ -614,7 +616,7 @@
       "a_title": "Bebida de avena vs. bebida de soja: diferencias nutricionales",
       "b": 573,
       "b_title": "Bebida de almendra vs. bebida de avena: diferencias nutricionales",
-      "similarity": 0.6985,
+      "similarity": 0.6986,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 2
@@ -636,7 +638,7 @@
       "a_title": "Cuánto tiempo puede estar la comida fuera de la nevera",
       "b": 270,
       "b_title": "Cuánto tiempo puede estar la carne fuera de la nevera",
-      "similarity": 0.6251,
+      "similarity": 0.6253,
       "title_jaccard": 0.75,
       "family_match": false,
       "type_overlap": 2
@@ -647,7 +649,7 @@
       "a_title": "Almendras vs. nueces: diferencias nutricionales",
       "b": 189,
       "b_title": "Nueces vs. pistachos: diferencias nutricionales",
-      "similarity": 0.5639,
+      "similarity": 0.5638,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 1
@@ -658,7 +660,7 @@
       "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
       "b": 49,
       "b_title": "Chicken vs Turkey: Nutrition Differences",
-      "similarity": 0.5607,
+      "similarity": 0.5605,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 2
@@ -669,7 +671,7 @@
       "a_title": "Soja: proteína, grasa y valor nutricional",
       "b": 566,
       "b_title": "Soja texturizada: proteína, fibra y valor nutricional",
-      "similarity": 0.5065,
+      "similarity": 0.5064,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 1
@@ -680,7 +682,7 @@
       "a_title": "Carne de pollo: proteína, grasa y calorías según el corte",
       "b": 172,
       "b_title": "Carne de cerdo: cortes, proteína, grasa y calorías",
-      "similarity": 0.4772,
+      "similarity": 0.4771,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 1
@@ -702,7 +704,7 @@
       "a_title": "¿La salsa picante necesita nevera después de abrirla?",
       "b": 970,
       "b_title": "¿La salsa Worcestershire necesita nevera después de abrirla?",
-      "similarity": 0.451,
+      "similarity": 0.4507,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 2
@@ -713,7 +715,7 @@
       "a_title": "Soja: proteína, grasa y valor nutricional",
       "b": 553,
       "b_title": "Hummus: proteína, fibra, grasa y valor nutricional",
-      "similarity": 0.2755,
+      "similarity": 0.2754,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 1
@@ -724,7 +726,7 @@
       "a_title": "Kefir: What It Is, How It’s Made, and What It Provides",
       "b": 470,
       "b_title": "Milk Kefir vs. Water Kefir: What’s the Difference?",
-      "similarity": 0.7482,
+      "similarity": 0.7481,
       "title_jaccard": 0.1667,
       "family_match": true,
       "type_overlap": 2
@@ -779,7 +781,7 @@
       "a_title": "Bulgur vs. Couscous: Nutrition Compared",
       "b": 1217,
       "b_title": "Bulgur: What It Is, How to Cook It, and How It Differs From Couscous",
-      "similarity": 0.7359,
+      "similarity": 0.7358,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -856,7 +858,7 @@
       "a_title": "How Long Does Food Last in the Refrigerator During a Power Outage?",
       "b": 1120,
       "b_title": "How Long Does Food Last in the Freezer During a Power Outage?",
-      "similarity": 0.5445,
+      "similarity": 0.5446,
       "title_jaccard": 0.7273,
       "family_match": true,
       "type_overlap": 1
@@ -867,7 +869,7 @@
       "a_title": "Los alimentos con más potasio: no solo el plátano",
       "b": 131,
       "b_title": "¿Es realmente el plátano una de las mejores fuentes de potasio?",
-      "similarity": 0.7261,
+      "similarity": 0.7259,
       "title_jaccard": 0.2857,
       "family_match": false,
       "type_overlap": 1
@@ -878,7 +880,7 @@
       "a_title": "Cómo descongelar pollo de forma segura",
       "b": 271,
       "b_title": "Cómo descongelar carne de forma segura",
-      "similarity": 0.7225,
+      "similarity": 0.7227,
       "title_jaccard": 0.6,
       "family_match": true,
       "type_overlap": 2
@@ -889,7 +891,7 @@
       "a_title": "Extra-virgin olive oil: fat, calories and composition",
       "b": 380,
       "b_title": "Can you fry with extra-virgin olive oil?",
-      "similarity": 0.7213,
+      "similarity": 0.7212,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 0
@@ -922,21 +924,10 @@
       "a_title": "Maple Syrup vs Sugar: Which Actually Contains More Sugar?",
       "b": 700,
       "b_title": "Maple Syrup vs Honey: Which Has More Sugar and Calories?",
-      "similarity": 0.718,
+      "similarity": 0.7178,
       "title_jaccard": 0.5556,
       "family_match": true,
       "type_overlap": 3
-    },
-    {
-      "language": "es",
-      "a": 286,
-      "a_title": "Por qué algunos huevos tienen dos yemas",
-      "b": 1326,
-      "b_title": "Huevo con dos yemas: por qué ocurre y si es seguro comerlo",
-      "similarity": 0.7179,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "en",
@@ -944,7 +935,7 @@
       "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
       "b": 1272,
       "b_title": "How Much Sugar Should You Have per Day? Free, Added, and Total Sugars Explained",
-      "similarity": 0.7173,
+      "similarity": 0.7172,
       "title_jaccard": 0.2,
       "family_match": true,
       "type_overlap": 1
@@ -955,7 +946,7 @@
       "a_title": "Canned Coconut Milk vs Coconut Beverage: Why They Are Not Interchangeable",
       "b": 976,
       "b_title": "How Long Does Opened Coconut Milk Last in the Fridge?",
-      "similarity": 0.7171,
+      "similarity": 0.717,
       "title_jaccard": 0.1667,
       "family_match": false,
       "type_overlap": 0
@@ -966,7 +957,7 @@
       "a_title": "Whole-wheat bread vs. rye bread: fiber, protein and satiety",
       "b": 385,
       "b_title": "White bread vs. whole-wheat bread: nutritional differences",
-      "similarity": 0.7149,
+      "similarity": 0.7147,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 2
@@ -977,7 +968,7 @@
       "a_title": "Avocado vs. olive oil: fats and nutritional differences",
       "b": 637,
       "b_title": "Avocado Oil vs Olive Oil: Which Is Better for Cooking?",
-      "similarity": 0.7147,
+      "similarity": 0.7146,
       "title_jaccard": 0.3,
       "family_match": false,
       "type_overlap": 1
@@ -988,7 +979,7 @@
       "a_title": "Pork cuts: protein, fat, and calories",
       "b": 280,
       "b_title": "The leanest cuts of pork",
-      "similarity": 0.6896,
+      "similarity": 0.6895,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -999,7 +990,7 @@
       "a_title": "Does soy sauce need refrigeration after opening?",
       "b": 967,
       "b_title": "Does Hot Sauce Need Refrigeration After Opening?",
-      "similarity": 0.677,
+      "similarity": 0.6771,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 1
@@ -1010,7 +1001,7 @@
       "a_title": "Does soy sauce need refrigeration after opening?",
       "b": 971,
       "b_title": "Does Fish Sauce Need Refrigeration After Opening?",
-      "similarity": 0.6654,
+      "similarity": 0.6655,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 1
@@ -1043,7 +1034,7 @@
       "a_title": "Does Hot Sauce Need Refrigeration After Opening?",
       "b": 971,
       "b_title": "Does Fish Sauce Need Refrigeration After Opening?",
-      "similarity": 0.6402,
+      "similarity": 0.6403,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1054,7 +1045,7 @@
       "a_title": "Dates vs. sugar: nutrition differences",
       "b": 608,
       "b_title": "Dates vs. raisins: sugar, fiber and calories",
-      "similarity": 0.6259,
+      "similarity": 0.6258,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1098,7 +1089,7 @@
       "a_title": "Huevo entero vs. claras: proteína, grasa y nutrientes",
       "b": 194,
       "b_title": "Huevos: proteína, grasa, calorías y nutrientes",
-      "similarity": 0.5904,
+      "similarity": 0.5908,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -1109,7 +1100,7 @@
       "a_title": "Salmon: protein, omega-3, fat, and calories",
       "b": 185,
       "b_title": "Hake vs. salmon: protein, fat, calories, and omega-3",
-      "similarity": 0.5896,
+      "similarity": 0.5895,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -1120,7 +1111,7 @@
       "a_title": "Highest-Protein Foods: A Practical Ranking per 100 Grams",
       "b": 13,
       "b_title": "Highest-Protein Meats: Ranking per 100 Grams",
-      "similarity": 0.585,
+      "similarity": 0.5848,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1131,7 +1122,7 @@
       "a_title": "Does soy sauce need refrigeration after opening?",
       "b": 970,
       "b_title": "Does Worcestershire Sauce Need Refrigeration After Opening?",
-      "similarity": 0.5604,
+      "similarity": 0.5603,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 1
@@ -1142,7 +1133,7 @@
       "a_title": "Cuánto dura la leche de coco abierta en la nevera",
       "b": 1302,
       "b_title": "Cuánto dura la leche vegetal abierta en la nevera",
-      "similarity": 0.5514,
+      "similarity": 0.5513,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 1
@@ -1170,23 +1161,12 @@
       "type_overlap": 2
     },
     {
-      "language": "es",
-      "a": 285,
-      "a_title": "¿Por qué flotan algunos huevos?",
-      "b": 300,
-      "b_title": "La prueba del agua de los huevos: qué indica realmente",
-      "similarity": 0.5336,
-      "title_jaccard": 0.7143,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
       "language": "en",
       "a": 970,
       "a_title": "Does Worcestershire Sauce Need Refrigeration After Opening?",
       "b": 971,
       "b_title": "Does Fish Sauce Need Refrigeration After Opening?",
-      "similarity": 0.53,
+      "similarity": 0.5299,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1208,7 +1188,7 @@
       "a_title": "How Long Does Cooked Meat Last in the Fridge?",
       "b": 33,
       "b_title": "How Long Does Raw Meat Last in the Fridge?",
-      "similarity": 0.5002,
+      "similarity": 0.5001,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1219,7 +1199,7 @@
       "a_title": "Beef vs Pork: Protein, Fat, Iron and Calories",
       "b": 171,
       "b_title": "Beef cuts: protein, fat, calories, and iron",
-      "similarity": 0.4897,
+      "similarity": 0.4896,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -1241,7 +1221,7 @@
       "a_title": "How Long Does Raw Chicken Last in the Fridge?",
       "b": 33,
       "b_title": "How Long Does Raw Meat Last in the Fridge?",
-      "similarity": 0.4607,
+      "similarity": 0.4606,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1263,7 +1243,7 @@
       "a_title": "How Long Does Cooked Chicken Last in the Fridge?",
       "b": 32,
       "b_title": "How Long Does Cooked Meat Last in the Fridge?",
-      "similarity": 0.4313,
+      "similarity": 0.4312,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1274,7 +1254,7 @@
       "a_title": "Atún vs. salmón: proteína, omega-3, grasa y calorías",
       "b": 185,
       "b_title": "Merluza vs. salmón: proteína, grasa y calorías",
-      "similarity": 0.4205,
+      "similarity": 0.4204,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1285,7 +1265,7 @@
       "a_title": "How Long Does Cooked Meat Last in the Fridge?",
       "b": 34,
       "b_title": "How Long Does Ground Meat Last in the Fridge?",
-      "similarity": 0.4143,
+      "similarity": 0.4142,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1296,7 +1276,7 @@
       "a_title": "How Long Does Cooked Rice Last in the Fridge?",
       "b": 32,
       "b_title": "How Long Does Cooked Meat Last in the Fridge?",
-      "similarity": 0.3963,
+      "similarity": 0.3962,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1307,7 +1287,7 @@
       "a_title": "How Long Does Cooked Chicken Last in the Fridge?",
       "b": 9,
       "b_title": "How Long Does Cooked Rice Last in the Fridge?",
-      "similarity": 0.3829,
+      "similarity": 0.3828,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1318,7 +1298,7 @@
       "a_title": "Foods with the most protein per calorie",
       "b": 617,
       "b_title": "Foods with the most fiber per calorie",
-      "similarity": 0.3683,
+      "similarity": 0.3682,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1329,7 +1309,7 @@
       "a_title": "How Long Does Opened Tofu Last in the Refrigerator?",
       "b": 1303,
       "b_title": "How Long Does Opened Guacamole Last in the Refrigerator?",
-      "similarity": 0.3424,
+      "similarity": 0.3423,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1351,7 +1331,7 @@
       "a_title": "How Long Does Opened Hummus Last in the Refrigerator?",
       "b": 1303,
       "b_title": "How Long Does Opened Guacamole Last in the Refrigerator?",
-      "similarity": 0.2987,
+      "similarity": 0.2986,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -1362,7 +1342,7 @@
       "a_title": "Salmon: protein, omega-3, fat, and calories",
       "b": 219,
       "b_title": "Mackerel: protein, omega-3s, and nutrition",
-      "similarity": 0.2378,
+      "similarity": 0.2377,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -1384,7 +1364,7 @@
       "a_title": "Japanese Wagyu vs. American Wagyu: What Is the Real Difference?",
       "b": 928,
       "b_title": "What Is American Wagyu, and How Much Wagyu Is It Really?",
-      "similarity": 0.7136,
+      "similarity": 0.7135,
       "title_jaccard": 0.2,
       "family_match": true,
       "type_overlap": 1
@@ -1406,7 +1386,7 @@
       "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
       "b": 203,
       "b_title": "Arroz integral vs. quinoa: fibra, proteína y calorías",
-      "similarity": 0.7116,
+      "similarity": 0.7115,
       "title_jaccard": 0.5714,
       "family_match": true,
       "type_overlap": 1
@@ -1417,7 +1397,7 @@
       "a_title": "Dátiles: azúcar, fibra y calorías",
       "b": 607,
       "b_title": "Dátiles vs. azúcar: diferencias nutricionales",
-      "similarity": 0.7113,
+      "similarity": 0.7111,
       "title_jaccard": 0.5714,
       "family_match": true,
       "type_overlap": 1
@@ -1428,7 +1408,7 @@
       "a_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
       "b": 513,
       "b_title": "Qué significa el porcentaje de cacao del chocolate",
-      "similarity": 0.7108,
+      "similarity": 0.7106,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 0
@@ -1439,21 +1419,10 @@
       "a_title": "Quinoa vs. rice: protein, fiber, and carbs",
       "b": 203,
       "b_title": "Brown rice vs. quinoa: protein, fiber, and calories",
-      "similarity": 0.7101,
+      "similarity": 0.71,
       "title_jaccard": 0.5714,
       "family_match": true,
       "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 504,
-      "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
-      "b": 512,
-      "b_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
-      "similarity": 0.7091,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "en",
@@ -1467,12 +1436,23 @@
       "type_overlap": 1
     },
     {
+      "language": "es",
+      "a": 504,
+      "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
+      "b": 512,
+      "b_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
+      "similarity": 0.7089,
+      "title_jaccard": 0.3333,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
       "language": "en",
       "a": 553,
       "a_title": "Hummus: protein, fiber, fat and nutrition",
       "b": 555,
       "b_title": "Hummus vs. tahini: nutrition differences",
-      "similarity": 0.7071,
+      "similarity": 0.7072,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 1
@@ -1494,7 +1474,7 @@
       "a_title": "Raw vs. roasted nuts: nutritional differences",
       "b": 195,
       "b_title": "Do nuts lose nutrients when roasted?",
-      "similarity": 0.7051,
+      "similarity": 0.705,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
@@ -1505,7 +1485,7 @@
       "a_title": "Tahini vs. crema de cacahuete",
       "b": 548,
       "b_title": "Crema de cacahuete vs. crema de almendras",
-      "similarity": 0.7046,
+      "similarity": 0.7045,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -1516,7 +1496,7 @@
       "a_title": "Chicken vs Turkey: Nutrition Differences",
       "b": 173,
       "b_title": "Turkey: protein, fat, and calories by cut",
-      "similarity": 0.7039,
+      "similarity": 0.7038,
       "title_jaccard": 0.5714,
       "family_match": true,
       "type_overlap": 1
@@ -1527,7 +1507,7 @@
       "a_title": "Alimentos con más vitamina C que la naranja",
       "b": 130,
       "b_title": "¿Es realmente la naranja la fruta con más vitamina C?",
-      "similarity": 0.7034,
+      "similarity": 0.7033,
       "title_jaccard": 0.5,
       "family_match": false,
       "type_overlap": 1
@@ -1538,7 +1518,7 @@
       "a_title": "How much caffeine is in cocoa?",
       "b": 511,
       "b_title": "Cocoa vs. coffee: caffeine and other differences",
-      "similarity": 0.7025,
+      "similarity": 0.7022,
       "title_jaccard": 0.25,
       "family_match": true,
       "type_overlap": 1
@@ -1560,7 +1540,7 @@
       "a_title": "Bread Flour vs All-Purpose Flour: Protein, Gluten, and Real-World Substitutions",
       "b": 689,
       "b_title": "Cake Flour vs All-Purpose Flour: Why the Crumb Changes",
-      "similarity": 0.7012,
+      "similarity": 0.7011,
       "title_jaccard": 0.25,
       "family_match": true,
       "type_overlap": 3
@@ -1637,7 +1617,7 @@
       "a_title": "Should you rinse rice before cooking?",
       "b": 373,
       "b_title": "Do you need to rinse every type of rice?",
-      "similarity": 0.6936,
+      "similarity": 0.6935,
       "title_jaccard": 0.2,
       "family_match": true,
       "type_overlap": 2
@@ -1659,7 +1639,7 @@
       "a_title": "Alimentos con más potasio que el plátano",
       "b": 168,
       "b_title": "Aguacate vs. plátano: potasio, fibra y calorías",
-      "similarity": 0.692,
+      "similarity": 0.6918,
       "title_jaccard": 0.4,
       "family_match": false,
       "type_overlap": 1
@@ -1670,7 +1650,7 @@
       "a_title": "Foods with more vitamin C than an orange",
       "b": 130,
       "b_title": "Is the orange really the fruit with the most vitamin C?",
-      "similarity": 0.6911,
+      "similarity": 0.691,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -1681,7 +1661,7 @@
       "a_title": "Hot vs. cooled potatoes: what happens to resistant starch?",
       "b": 610,
       "b_title": "Resistant starch in cooled rice, potatoes and pasta",
-      "similarity": 0.6909,
+      "similarity": 0.6908,
       "title_jaccard": 0.5,
       "family_match": false,
       "type_overlap": 2
@@ -1703,7 +1683,7 @@
       "a_title": "Whole Grains Highest in Protein",
       "b": 498,
       "b_title": "Whole Grains Highest in Fiber",
-      "similarity": 0.6879,
+      "similarity": 0.6878,
       "title_jaccard": 0.6,
       "family_match": true,
       "type_overlap": 2
@@ -1714,7 +1694,7 @@
       "a_title": "Dates: sugar, fiber and calories",
       "b": 608,
       "b_title": "Dates vs. raisins: sugar, fiber and calories",
-      "similarity": 0.6866,
+      "similarity": 0.6863,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 1
@@ -1725,7 +1705,7 @@
       "a_title": "Dátiles: azúcar, fibra y calorías",
       "b": 608,
       "b_title": "Dátiles vs. pasas: azúcar, fibra y calorías",
-      "similarity": 0.6858,
+      "similarity": 0.6856,
       "title_jaccard": 0.5714,
       "family_match": true,
       "type_overlap": 1
@@ -1736,20 +1716,9 @@
       "a_title": "Foods with more potassium than a banana",
       "b": 168,
       "b_title": "Avocado vs. banana: potassium, fiber, and calories",
-      "similarity": 0.6848,
+      "similarity": 0.6847,
       "title_jaccard": 0.3333,
       "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 64,
-      "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
-      "b": 490,
-      "b_title": "Quinoa vs. lentejas: proteína, fibra y carbohidratos",
-      "similarity": 0.684,
-      "title_jaccard": 0.6667,
-      "family_match": true,
       "type_overlap": 1
     },
     {
@@ -1760,6 +1729,17 @@
       "b_title": "Chía vs. semillas de cáñamo",
       "similarity": 0.684,
       "title_jaccard": 0.4,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 64,
+      "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
+      "b": 490,
+      "b_title": "Quinoa vs. lentejas: proteína, fibra y carbohidratos",
+      "similarity": 0.6839,
+      "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
     },
@@ -1780,7 +1760,7 @@
       "a_title": "Fruit Sugar vs. Added Sugar: What’s the Difference?",
       "b": 705,
       "b_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
-      "similarity": 0.683,
+      "similarity": 0.6829,
       "title_jaccard": 0.2222,
       "family_match": false,
       "type_overlap": 1
@@ -1824,7 +1804,7 @@
       "a_title": "¿Cuánta cafeína tiene el cacao?",
       "b": 511,
       "b_title": "Cacao vs. café: cafeína y diferencias",
-      "similarity": 0.6812,
+      "similarity": 0.6806,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 1
@@ -1846,7 +1826,7 @@
       "a_title": "Atún: proteína, grasa, mercurio y valor nutricional",
       "b": 763,
       "b_title": "Atún blanco o atún claro: cuál suele contener más mercurio",
-      "similarity": 0.6795,
+      "similarity": 0.6796,
       "title_jaccard": 0.1818,
       "family_match": true,
       "type_overlap": 2
@@ -1857,19 +1837,8 @@
       "a_title": "Do chia seeds need to be soaked?",
       "b": 210,
       "b_title": "Can you eat chia seeds without soaking them?",
-      "similarity": 0.6788,
-      "title_jaccard": 0.25,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 705,
-      "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
-      "b": 706,
-      "b_title": "Total Sugars vs Added Sugars: The Difference to Read on a Label",
       "similarity": 0.6787,
-      "title_jaccard": 0.1818,
+      "title_jaccard": 0.25,
       "family_match": true,
       "type_overlap": 2
     },
@@ -1883,6 +1852,17 @@
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 705,
+      "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
+      "b": 706,
+      "b_title": "Total Sugars vs Added Sugars: The Difference to Read on a Label",
+      "similarity": 0.6784,
+      "title_jaccard": 0.1818,
+      "family_match": true,
+      "type_overlap": 2
     },
     {
       "language": "en",
@@ -1923,7 +1903,7 @@
       "a_title": "Serrano ham vs. Iberian ham: nutrition and production differences",
       "b": 370,
       "b_title": "Can you freeze Serrano ham or cooked ham?",
-      "similarity": 0.6755,
+      "similarity": 0.6754,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 0
@@ -1945,21 +1925,10 @@
       "a_title": "Whole-bean vs. ground coffee",
       "b": 964,
       "b_title": "Is a Coffee Bean Really a Bean or a Seed?",
-      "similarity": 0.6746,
+      "similarity": 0.6745,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 314,
-      "a_title": "How to tell if Serrano ham has gone bad",
-      "b": 370,
-      "b_title": "Can you freeze Serrano ham or cooked ham?",
-      "similarity": 0.6736,
-      "title_jaccard": 0.25,
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "es",
@@ -1971,6 +1940,17 @@
       "title_jaccard": 0.3636,
       "family_match": true,
       "type_overlap": 0
+    },
+    {
+      "language": "en",
+      "a": 314,
+      "a_title": "How to tell if Serrano ham has gone bad",
+      "b": 370,
+      "b_title": "Can you freeze Serrano ham or cooked ham?",
+      "similarity": 0.6732,
+      "title_jaccard": 0.25,
+      "family_match": true,
+      "type_overlap": 2
     },
     {
       "language": "en",
@@ -2011,7 +1991,7 @@
       "a_title": "What Is Whey? The Liquid Left After Milk Proteins Separate",
       "b": 1250,
       "b_title": "Clear Whey: What It Is and How It Differs From Traditional Whey Protein",
-      "similarity": 0.6718,
+      "similarity": 0.6717,
       "title_jaccard": 0.2143,
       "family_match": false,
       "type_overlap": 0
@@ -2022,7 +2002,7 @@
       "a_title": "Leche pasteurizada o UHT: por qué una dura días y otra meses",
       "b": 1290,
       "b_title": "Leche UHT vs. pasteurizada: diferencias, conservación y valor nutricional",
-      "similarity": 0.6708,
+      "similarity": 0.6709,
       "title_jaccard": 0.2727,
       "family_match": true,
       "type_overlap": 1
@@ -2044,7 +2024,7 @@
       "a_title": "How to read a nutrition label",
       "b": 180,
       "b_title": "How to read sugar, fat, and sodium on a Nutrition Facts label",
-      "similarity": 0.6704,
+      "similarity": 0.6702,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 0
@@ -2055,7 +2035,7 @@
       "a_title": "Aceite de oliva virgen extra: grasas, calorías y composición",
       "b": 380,
       "b_title": "¿Se puede freír con aceite de oliva virgen extra?",
-      "similarity": 0.6693,
+      "similarity": 0.6692,
       "title_jaccard": 0.4444,
       "family_match": true,
       "type_overlap": 0
@@ -2099,7 +2079,7 @@
       "a_title": "Cuánto tiempo puede estar el pollo crudo fuera de la nevera",
       "b": 270,
       "b_title": "Cuánto tiempo puede estar la carne fuera de la nevera",
-      "similarity": 0.6617,
+      "similarity": 0.6618,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2165,7 +2145,7 @@
       "a_title": "Can you freeze cooked chicken?",
       "b": 277,
       "b_title": "Can you freeze cooked meat?",
-      "similarity": 0.6236,
+      "similarity": 0.6237,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2176,7 +2156,7 @@
       "a_title": "Edamame vs. chickpeas: protein, fiber, and calories",
       "b": 176,
       "b_title": "Chickpeas: protein, fiber, calories, and nutrition",
-      "similarity": 0.6178,
+      "similarity": 0.6176,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -2187,7 +2167,7 @@
       "a_title": "Cuánto dura el queso abierto en la nevera",
       "b": 297,
       "b_title": "Cuánto dura el queso fresco en la nevera",
-      "similarity": 0.609,
+      "similarity": 0.6088,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2198,7 +2178,7 @@
       "a_title": "Cuánto dura la carne cruda en la nevera",
       "b": 34,
       "b_title": "Cuánto dura la carne picada en la nevera",
-      "similarity": 0.6059,
+      "similarity": 0.6058,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2220,7 +2200,7 @@
       "a_title": "Nueces: propiedades nutricionales y omega-3",
       "b": 189,
       "b_title": "Nueces vs. pistachos: diferencias nutricionales",
-      "similarity": 0.6,
+      "similarity": 0.5999,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
@@ -2231,7 +2211,7 @@
       "a_title": "Is it healthy to eat eggs every day?",
       "b": 115,
       "b_title": "Is it healthy to eat nuts every day?",
-      "similarity": 0.5985,
+      "similarity": 0.5981,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2253,7 +2233,7 @@
       "a_title": "Cuánto aguanta la comida en la nevera si se va la luz",
       "b": 1120,
       "b_title": "Cuánto aguanta la comida en el congelador si se va la luz",
-      "similarity": 0.5926,
+      "similarity": 0.5925,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
@@ -2264,7 +2244,7 @@
       "a_title": "¿Es saludable comer huevos todos los días?",
       "b": 116,
       "b_title": "¿Es saludable comer legumbres todos los días?",
-      "similarity": 0.5916,
+      "similarity": 0.5902,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2275,7 +2255,7 @@
       "a_title": "Cuánto dura el pescado cocinado en la nevera",
       "b": 278,
       "b_title": "Cuánto dura el salmón cocinado en la nevera",
-      "similarity": 0.5903,
+      "similarity": 0.5901,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2286,7 +2266,7 @@
       "a_title": "Is it healthy to eat avocado every day?",
       "b": 115,
       "b_title": "Is it healthy to eat nuts every day?",
-      "similarity": 0.5887,
+      "similarity": 0.5888,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2319,21 +2299,10 @@
       "a_title": "Almonds: protein, fiber, fat and calories",
       "b": 191,
       "b_title": "Cashews vs. almonds: nutrition differences",
-      "similarity": 0.5774,
+      "similarity": 0.5773,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 114,
-      "a_title": "¿Es saludable comer huevos todos los días?",
-      "b": 117,
-      "b_title": "¿Es saludable comer yogur todos los días?",
-      "similarity": 0.5734,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 2
     },
     {
       "language": "en",
@@ -2341,7 +2310,18 @@
       "a_title": "Is it healthy to eat nuts every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.5723,
+      "similarity": 0.5724,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 114,
+      "a_title": "¿Es saludable comer huevos todos los días?",
+      "b": 117,
+      "b_title": "¿Es saludable comer yogur todos los días?",
+      "similarity": 0.5721,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2363,7 +2343,7 @@
       "a_title": "Salmón vs. sardinas: omega-3, proteína y calorías",
       "b": 205,
       "b_title": "Sardinas: proteína, omega-3 y calcio",
-      "similarity": 0.5644,
+      "similarity": 0.5643,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 1
@@ -2385,7 +2365,7 @@
       "a_title": "Is it healthy to eat avocado every day?",
       "b": 114,
       "b_title": "Is it healthy to eat eggs every day?",
-      "similarity": 0.5556,
+      "similarity": 0.5553,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2396,7 +2376,7 @@
       "a_title": "Las frutas con menos azúcar",
       "b": 427,
       "b_title": "Las frutas con más azúcar",
-      "similarity": 0.5529,
+      "similarity": 0.5528,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2407,7 +2387,7 @@
       "a_title": "Cuánto tiempo puede estar la comida fuera de la nevera",
       "b": 258,
       "b_title": "Cuánto tiempo puede estar el pollo crudo fuera de la nevera",
-      "similarity": 0.5514,
+      "similarity": 0.5516,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2418,7 +2398,7 @@
       "a_title": "How Much Lentils Per Person: Dry and Cooked Amounts",
       "b": 1181,
       "b_title": "How Much Chickpeas Per Person: Dry, Soaked, and Cooked Amounts",
-      "similarity": 0.5494,
+      "similarity": 0.5493,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2429,7 +2409,7 @@
       "a_title": "Cuánto dura el salmón cocinado en la nevera",
       "b": 986,
       "b_title": "Cuánto dura el beicon cocinado en la nevera",
-      "similarity": 0.5489,
+      "similarity": 0.5488,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -2440,7 +2420,7 @@
       "a_title": "Cottage cheese vs. queso fresco: diferencias nutricionales",
       "b": 584,
       "b_title": "Cottage cheese vs. ricotta: diferencias nutricionales",
-      "similarity": 0.546,
+      "similarity": 0.5459,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2451,7 +2431,7 @@
       "a_title": "Los frutos secos con más fibra",
       "b": 101,
       "b_title": "Los frutos secos con más omega-3",
-      "similarity": 0.536,
+      "similarity": 0.5359,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2473,7 +2453,7 @@
       "a_title": "Is it healthy to eat avocado every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.5292,
+      "similarity": 0.5293,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2484,7 +2464,7 @@
       "a_title": "¿Es saludable comer aguacate todos los días?",
       "b": 114,
       "b_title": "¿Es saludable comer huevos todos los días?",
-      "similarity": 0.529,
+      "similarity": 0.5278,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2517,7 +2497,7 @@
       "a_title": "Is it healthy to eat eggs every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.5188,
+      "similarity": 0.5184,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2528,20 +2508,9 @@
       "a_title": "How Long Does a Cut Tomato Last in the Fridge?",
       "b": 988,
       "b_title": "How Long Does Cut Watermelon Last in the Fridge?",
-      "similarity": 0.5151,
+      "similarity": 0.515,
       "title_jaccard": 0.6667,
       "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 252,
-      "a_title": "How long does cooked fish last in the fridge?",
-      "b": 278,
-      "b_title": "How long does cooked salmon last in the fridge?",
-      "similarity": 0.5108,
-      "title_jaccard": 0.6667,
-      "family_match": true,
       "type_overlap": 2
     },
     {
@@ -2550,10 +2519,21 @@
       "a_title": "Cuánto dura el pescado cocinado en la nevera",
       "b": 986,
       "b_title": "Cuánto dura el beicon cocinado en la nevera",
-      "similarity": 0.5108,
+      "similarity": 0.5107,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 252,
+      "a_title": "How long does cooked fish last in the fridge?",
+      "b": 278,
+      "b_title": "How long does cooked salmon last in the fridge?",
+      "similarity": 0.5105,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
     },
     {
       "language": "es",
@@ -2572,7 +2552,7 @@
       "a_title": "White pasta vs. whole-wheat pasta: nutritional differences",
       "b": 385,
       "b_title": "White bread vs. whole-wheat bread: nutritional differences",
-      "similarity": 0.5044,
+      "similarity": 0.5046,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2594,7 +2574,7 @@
       "a_title": "Is it healthy to eat nuts every day?",
       "b": 117,
       "b_title": "Is it healthy to eat yogurt every day?",
-      "similarity": 0.5027,
+      "similarity": 0.5028,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2616,7 +2596,7 @@
       "a_title": "Los cortes de cerdo más magros",
       "b": 281,
       "b_title": "Los cortes de ternera más magros",
-      "similarity": 0.4996,
+      "similarity": 0.4995,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2627,7 +2607,7 @@
       "a_title": "Is it healthy to eat avocado every day?",
       "b": 117,
       "b_title": "Is it healthy to eat yogurt every day?",
-      "similarity": 0.4961,
+      "similarity": 0.4962,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2638,7 +2618,7 @@
       "a_title": "Cuánto duran los huevos cocidos en la nevera",
       "b": 217,
       "b_title": "Cuánto duran los garbanzos cocidos en la nevera",
-      "similarity": 0.4904,
+      "similarity": 0.4896,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2649,7 +2629,7 @@
       "a_title": "¿Es saludable comer huevos todos los días?",
       "b": 122,
       "b_title": "¿Es saludable comer queso todos los días?",
-      "similarity": 0.4869,
+      "similarity": 0.4858,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2666,6 +2646,17 @@
       "type_overlap": 2
     },
     {
+      "language": "en",
+      "a": 772,
+      "a_title": "Does ketchup need refrigeration after opening?",
+      "b": 982,
+      "b_title": "Does Tahini Need Refrigeration After Opening?",
+      "similarity": 0.4845,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
       "language": "es",
       "a": 95,
       "a_title": "¿Es saludable comer aguacate todos los días?",
@@ -2678,22 +2669,11 @@
     },
     {
       "language": "en",
-      "a": 772,
-      "a_title": "Does ketchup need refrigeration after opening?",
-      "b": 982,
-      "b_title": "Does Tahini Need Refrigeration After Opening?",
-      "similarity": 0.4844,
-      "title_jaccard": 0.6667,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
       "a": 7,
       "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
       "b": 213,
       "b_title": "Ground beef vs. ground turkey: nutrition differences",
-      "similarity": 0.483,
+      "similarity": 0.4829,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2704,7 +2684,7 @@
       "a_title": "Is it healthy to eat eggs every day?",
       "b": 117,
       "b_title": "Is it healthy to eat yogurt every day?",
-      "similarity": 0.4829,
+      "similarity": 0.4825,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2726,7 +2706,7 @@
       "a_title": "Do Olives Need Refrigeration After Opening?",
       "b": 982,
       "b_title": "Does Tahini Need Refrigeration After Opening?",
-      "similarity": 0.4719,
+      "similarity": 0.4721,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2737,7 +2717,7 @@
       "a_title": "Is it healthy to eat yogurt every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.4693,
+      "similarity": 0.4694,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2759,7 +2739,7 @@
       "a_title": "¿Es saludable comer huevos todos los días?",
       "b": 119,
       "b_title": "¿Es saludable comer arroz todos los días?",
-      "similarity": 0.4659,
+      "similarity": 0.4648,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2770,7 +2750,7 @@
       "a_title": "Does ketchup need refrigeration after opening?",
       "b": 981,
       "b_title": "Do Olives Need Refrigeration After Opening?",
-      "similarity": 0.4616,
+      "similarity": 0.4617,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -2781,7 +2761,7 @@
       "a_title": "Should you wash fish before cooking it?",
       "b": 1025,
       "b_title": "Should You Wash Mushrooms Before Cooking?",
-      "similarity": 0.4589,
+      "similarity": 0.4595,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 0
@@ -2792,7 +2772,7 @@
       "a_title": "Is it healthy to eat avocado every day?",
       "b": 119,
       "b_title": "Is it healthy to eat rice every day?",
-      "similarity": 0.4552,
+      "similarity": 0.4554,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2814,7 +2794,7 @@
       "a_title": "How long do cooked chickpeas last in the fridge?",
       "b": 252,
       "b_title": "How long does cooked fish last in the fridge?",
-      "similarity": 0.4512,
+      "similarity": 0.4511,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2836,7 +2816,7 @@
       "a_title": "Cuánto dura el caldo abierto en la nevera",
       "b": 1301,
       "b_title": "Cuánto dura el tofu abierto en la nevera",
-      "similarity": 0.4459,
+      "similarity": 0.4458,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -2847,7 +2827,7 @@
       "a_title": "How long do cooked chickpeas last in the fridge?",
       "b": 278,
       "b_title": "How long does cooked salmon last in the fridge?",
-      "similarity": 0.4417,
+      "similarity": 0.4416,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2858,7 +2838,7 @@
       "a_title": "How Long Does Opened Pesto Last in the Fridge?",
       "b": 975,
       "b_title": "How Long Does Opened Broth Last in the Fridge?",
-      "similarity": 0.4416,
+      "similarity": 0.4415,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2880,7 +2860,7 @@
       "a_title": "Is it healthy to eat nuts every day?",
       "b": 119,
       "b_title": "Is it healthy to eat rice every day?",
-      "similarity": 0.4374,
+      "similarity": 0.4376,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2891,7 +2871,7 @@
       "a_title": "How long do cooked lentils last in the fridge?",
       "b": 278,
       "b_title": "How long does cooked salmon last in the fridge?",
-      "similarity": 0.4349,
+      "similarity": 0.4347,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2924,7 +2904,7 @@
       "a_title": "How long does cooked pasta last in the fridge?",
       "b": 278,
       "b_title": "How long does cooked salmon last in the fridge?",
-      "similarity": 0.4317,
+      "similarity": 0.4314,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2946,7 +2926,7 @@
       "a_title": "Does ketchup need refrigeration after opening?",
       "b": 966,
       "b_title": "Does Mustard Need Refrigeration After Opening?",
-      "similarity": 0.4294,
+      "similarity": 0.4296,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -2957,7 +2937,7 @@
       "a_title": "Is it healthy to eat eggs every day?",
       "b": 119,
       "b_title": "Is it healthy to eat rice every day?",
-      "similarity": 0.4266,
+      "similarity": 0.4264,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2968,7 +2948,7 @@
       "a_title": "How long do cooked lentils last in the fridge?",
       "b": 252,
       "b_title": "How long does cooked fish last in the fridge?",
-      "similarity": 0.4258,
+      "similarity": 0.4256,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 2
@@ -2979,7 +2959,7 @@
       "a_title": "Vegetables Highest in Vitamin C",
       "b": 438,
       "b_title": "Vegetables Highest in Potassium",
-      "similarity": 0.4228,
+      "similarity": 0.4229,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2990,7 +2970,7 @@
       "a_title": "Cuánto dura la carne cocinada en la nevera",
       "b": 33,
       "b_title": "Cuánto dura la carne cruda en la nevera",
-      "similarity": 0.4206,
+      "similarity": 0.4205,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -3001,7 +2981,7 @@
       "a_title": "Does ketchup need refrigeration after opening?",
       "b": 980,
       "b_title": "Do Pickles Need Refrigeration After Opening?",
-      "similarity": 0.4177,
+      "similarity": 0.4178,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -3012,7 +2992,7 @@
       "a_title": "Cuánto dura el queso abierto en la nevera",
       "b": 975,
       "b_title": "Cuánto dura el caldo abierto en la nevera",
-      "similarity": 0.4154,
+      "similarity": 0.4153,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -3034,7 +3014,7 @@
       "a_title": "Is it healthy to eat rice every day?",
       "b": 122,
       "b_title": "Is it healthy to eat cheese every day?",
-      "similarity": 0.4126,
+      "similarity": 0.4128,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 3
@@ -3056,7 +3036,7 @@
       "a_title": "Cuánto dura la carne cocinada en la nevera",
       "b": 34,
       "b_title": "Cuánto dura la carne picada en la nevera",
-      "similarity": 0.4114,
+      "similarity": 0.4113,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -3067,7 +3047,7 @@
       "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
       "b": 218,
       "b_title": "Ground beef vs. ground pork: nutrition differences",
-      "similarity": 0.4112,
+      "similarity": 0.4111,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -3078,7 +3058,7 @@
       "a_title": "Do Pickles Need Refrigeration After Opening?",
       "b": 981,
       "b_title": "Do Olives Need Refrigeration After Opening?",
-      "similarity": 0.4097,
+      "similarity": 0.4098,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -3089,7 +3069,7 @@
       "a_title": "Cuánto dura el pesto abierto en la nevera",
       "b": 1301,
       "b_title": "Cuánto dura el tofu abierto en la nevera",
-      "similarity": 0.404,
+      "similarity": 0.4039,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -3100,7 +3080,7 @@
       "a_title": "How long does cooked salmon last in the fridge?",
       "b": 284,
       "b_title": "How long does cooked shrimp last in the fridge?",
-      "similarity": 0.4036,
+      "similarity": 0.4033,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -3111,10 +3091,32 @@
       "a_title": "Does Mustard Need Refrigeration After Opening?",
       "b": 982,
       "b_title": "Does Tahini Need Refrigeration After Opening?",
-      "similarity": 0.4004,
+      "similarity": 0.4005,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 966,
+      "a_title": "Does Mustard Need Refrigeration After Opening?",
+      "b": 981,
+      "b_title": "Do Olives Need Refrigeration After Opening?",
+      "similarity": 0.4,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 975,
+      "a_title": "Cuánto dura el caldo abierto en la nevera",
+      "b": 1303,
+      "b_title": "Cuánto dura el guacamole abierto en la nevera",
+      "similarity": 0.3964,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 1
     }
   ],
   "issues": {
@@ -4728,13 +4730,6 @@
         "title": "¿La freidora de aire es saludable? Qué cambia frente a freír en aceite",
         "path": "content/articles/es/1325-freidora-aire-saludable-que-cambia-frente-freir-aceite.json",
         "value": 297
-      },
-      {
-        "language": "es",
-        "number": 1326,
-        "title": "Huevo con dos yemas: por qué ocurre y si es seguro comerlo",
-        "path": "content/articles/es/1326-huevo-dos-yemas-por-que-ocurre-seguro.json",
-        "value": 275
       },
       {
         "language": "es",
@@ -6618,6 +6613,13 @@
         "title": "Horno vs. freidora de aire: diferencias nutricionales",
         "path": "content/articles/es/631-horno-vs-freidora-aire-diferencias-nutricionales.json",
         "value": 170
+      },
+      {
+        "language": "es",
+        "number": 635,
+        "title": "¿Hace falta lavar frutas y verduras con vinagre o bicarbonato?",
+        "path": "content/articles/es/635-lavar-frutas-verduras-vinagre-bicarbonato.json",
+        "value": 168
       }
     ],
     "meta_over_220": [
@@ -6963,13 +6965,6 @@
         "title": "¿La freidora de aire es saludable? Qué cambia frente a freír en aceite",
         "path": "content/articles/es/1325-freidora-aire-saludable-que-cambia-frente-freir-aceite.json",
         "value": 297
-      },
-      {
-        "language": "es",
-        "number": 1326,
-        "title": "Huevo con dos yemas: por qué ocurre y si es seguro comerlo",
-        "path": "content/articles/es/1326-huevo-dos-yemas-por-que-ocurre-seguro.json",
-        "value": 275
       },
       {
         "language": "es",
@@ -7817,13 +7812,6 @@
         "title": "Is an Air Fryer Healthy? What Changes Compared With Deep Frying",
         "path": "content/articles/en/1325-is-air-fryer-healthy-vs-deep-frying.json",
         "value": 264
-      },
-      {
-        "language": "en",
-        "number": 1326,
-        "title": "Double-Yolk Egg: Why It Happens and Whether It Is Safe to Eat",
-        "path": "content/articles/en/1326-double-yolk-egg-why-safe.json",
-        "value": 283
       },
       {
         "language": "en",
@@ -12357,20 +12345,6 @@
       },
       {
         "language": "es",
-        "number": 285,
-        "title": "¿Por qué flotan algunos huevos?",
-        "path": "content/articles/es/285-por-que-flotan-huevos.json",
-        "value": 2
-      },
-      {
-        "language": "es",
-        "number": 286,
-        "title": "Por qué algunos huevos tienen dos yemas",
-        "path": "content/articles/es/286-por-que-algunos-huevos-tienen-dos-yemas.json",
-        "value": 2
-      },
-      {
-        "language": "es",
         "number": 288,
         "title": "Qué pescados tienen menos mercurio",
         "path": "content/articles/es/288-pescados-con-menos-mercurio.json",
@@ -13326,6 +13300,20 @@
         "number": 493,
         "title": "Trigo sarraceno: qué es, nutrientes y si contiene gluten",
         "path": "content/articles/es/493-trigo-sarraceno-nutrientes-gluten.json",
+        "value": 2
+      },
+      {
+        "language": "es",
+        "number": 494,
+        "title": "Mijo: proteína, carbohidratos y minerales",
+        "path": "content/articles/es/494-mijo-proteina-carbohidratos-minerales.json",
+        "value": 2
+      },
+      {
+        "language": "es",
+        "number": 495,
+        "title": "Cebada vs. avena: fibra, proteína y diferencias",
+        "path": "content/articles/es/495-cebada-vs-avena-fibra-proteina.json",
         "value": 2
       }
     ]
