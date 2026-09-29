@@ -9,6 +9,7 @@ TAXONOMIES = ROOT / 'taxonomies.json'
 OUT_JSON = Path('content/audits/SEO-LIBRARY-AUDIT.json')
 OUT_MD = Path('content/audits/SEO-LIBRARY-AUDIT.md')
 CONSOLIDATIONS_PATH = ROOT / 'SEO-CONSOLIDATIONS.json'
+CANNIBAL_ALLOWLIST_PATH = ROOT / 'SEO-CANNIBALIZATION-ALLOWLIST.json'
 STOP = set("""a al algo and are as at be by can como con cual cuando de del desde do does el en es esta este esto for from ha hay how if in into is it la las lo los mas me menos mi no of o on or para pero por que se si sin sobre su sus than the to un una uno unos unas vs what when where which who why with y ya you your article articulo articulos food foods alimento alimentos guia guide best better mejor mejores difference differences diferencia diferencias""".split())
 WORD_RE = re.compile(r"[\wÀ-ÿ]+(?:['’\-][\wÀ-ÿ]+)*", re.UNICODE)
 
@@ -20,6 +21,31 @@ def load_consolidations():
     return {int(k):int(v) for k,v in data.items() if str(k).isdigit() and int(v)>0 and int(k)!=int(v)}
 
 CONSOLIDATIONS=load_consolidations()
+
+def load_cannibal_allowlist():
+    try:
+        rows=json.loads(CANNIBAL_ALLOWLIST_PATH.read_text(encoding='utf-8'))
+    except Exception:
+        return set(), []
+    pairs=set(); clean=[]
+    if not isinstance(rows,list):
+        return pairs, clean
+    for row in rows:
+        if not isinstance(row,dict):
+            continue
+        try:
+            a=int(row.get('a')); b=int(row.get('b'))
+        except (TypeError,ValueError):
+            continue
+        if a<=0 or b<=0 or a==b:
+            continue
+        pair=tuple(sorted((a,b)))
+        pairs.add(pair)
+        clean.append({'a':pair[0],'b':pair[1],'reason':str(row.get('reason') or '').strip()})
+    clean.sort(key=lambda x:(x['a'],x['b']))
+    return pairs, clean
+
+CANNIBAL_ALLOWLIST, CANNIBAL_ALLOWLIST_ROWS=load_cannibal_allowlist()
 
 def canonical_number(number):
     if not isinstance(number,int):
@@ -142,6 +168,8 @@ def cannibal_pairs(metrics,limit=250):
                 if shared_title<2 and sim<0.74: continue
                 if canonical_number(a_num)==canonical_number(b_num):
                     continue
+                if tuple(sorted((a_num,b_num))) in CANNIBAL_ALLOWLIST:
+                    continue
                 results.append({'language':lang,'a':a_num,'a_title':a['title'],'b':b_num,'b_title':b['title'],'similarity':round(sim,4),'title_jaccard':round(jac,4),'family_match':family,'type_overlap':type_overlap})
     results.sort(key=lambda x:(-max(x['similarity'],x['title_jaccard']),-x['similarity'],x['language'],x['a'],x['b']))
     return results[:limit]
@@ -202,7 +230,7 @@ def main():
         'issue_counts':{k:len(v) for k,v in sorted(issues.items())},'source_data_signals':{
             'raw_seo_title_under_28':sum(1 for m in active_metrics if 0<m['seo_title_len']<28),
             'raw_meta_over_220':sum(1 for m in active_metrics if m['meta_len']>220),
-        },'unknown_families':dict(unknown_f.most_common()),'unknown_article_types':dict(unknown_t.most_common()),'family_alias_usage':dict(alias_f.most_common()),'article_type_alias_usage':dict(alias_t.most_common()),
+        },'cannibalization_allowlist':CANNIBAL_ALLOWLIST_ROWS,'unknown_families':dict(unknown_f.most_common()),'unknown_article_types':dict(unknown_t.most_common()),'family_alias_usage':dict(alias_f.most_common()),'article_type_alias_usage':dict(alias_t.most_common()),
         'known_consolidations':{str(k):v for k,v in sorted(CONSOLIDATIONS.items())},
         'missing_translation_pairs':missing_pairs,'translation_group_mismatches':mismatches,'exact_duplicate_titles':dup_groups(active_metrics,'title'),'exact_duplicate_seo_titles':dup_groups(active_metrics,'seo_title'),
         'exact_duplicate_meta_descriptions':dup_groups(active_metrics,'meta_description'),'exact_duplicate_search_intents':dup_groups(active_metrics,'search_intent'),
