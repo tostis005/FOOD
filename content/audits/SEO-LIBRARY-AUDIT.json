@@ -160,7 +160,7 @@
       "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
       "b": 1273,
       "b_title": "Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing",
-      "similarity": 0.8042,
+      "similarity": 0.8043,
       "title_jaccard": 0.8889,
       "family_match": true,
       "type_overlap": 2
@@ -171,7 +171,7 @@
       "a_title": "Dates: sugar, fiber and calories",
       "b": 607,
       "b_title": "Dates vs. sugar: nutrition differences",
-      "similarity": 0.8766,
+      "similarity": 0.8765,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 1
@@ -336,7 +336,7 @@
       "a_title": "Whole Egg vs Egg Whites: Protein, Fat and Nutrients",
       "b": 276,
       "b_title": "Egg white vs. yolk: what each part provides",
-      "similarity": 0.7617,
+      "similarity": 0.7619,
       "title_jaccard": 0.5455,
       "family_match": true,
       "type_overlap": 2
@@ -358,7 +358,7 @@
       "a_title": "Dietary cholesterol vs. blood cholesterol: what’s the difference?",
       "b": 165,
       "b_title": "Eggs and cholesterol: what the relationship actually means",
-      "similarity": 0.7545,
+      "similarity": 0.7546,
       "title_jaccard": 0.1111,
       "family_match": false,
       "type_overlap": 2
@@ -413,7 +413,7 @@
       "a_title": "Almendras vs. nueces: diferencias nutricionales",
       "b": 189,
       "b_title": "Nueces vs. pistachos: diferencias nutricionales",
-      "similarity": 0.5638,
+      "similarity": 0.5639,
       "title_jaccard": 0.75,
       "family_match": true,
       "type_overlap": 1
@@ -490,7 +490,7 @@
       "a_title": "Kefir: What It Is, How It’s Made, and What It Provides",
       "b": 470,
       "b_title": "Milk Kefir vs. Water Kefir: What’s the Difference?",
-      "similarity": 0.7483,
+      "similarity": 0.7482,
       "title_jaccard": 0.1667,
       "family_match": true,
       "type_overlap": 2
@@ -505,17 +505,6 @@
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 93,
-      "a_title": "Aguacate vs. aceite de oliva: grasas y diferencias nutricionales",
-      "b": 637,
-      "b_title": "Aceite de aguacate o de oliva: cuál conviene más para cocinar",
-      "similarity": 0.7413,
-      "title_jaccard": 0.375,
-      "family_match": false,
-      "type_overlap": 1
     },
     {
       "language": "en",
@@ -545,7 +534,7 @@
       "a_title": "Bulgur vs. Couscous: Nutrition Compared",
       "b": 1217,
       "b_title": "Bulgur: What It Is, How to Cook It, and How It Differs From Couscous",
-      "similarity": 0.736,
+      "similarity": 0.7359,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -611,7 +600,7 @@
       "a_title": "Which Foods Have Gluten, and Which Are Naturally Gluten-Free?",
       "b": 954,
       "b_title": "Do Potatoes Have Gluten?",
-      "similarity": 0.7299,
+      "similarity": 0.73,
       "title_jaccard": 0.25,
       "family_match": false,
       "type_overlap": 0
@@ -717,28 +706,6 @@
     },
     {
       "language": "en",
-      "a": 93,
-      "a_title": "Avocado vs. olive oil: fats and nutritional differences",
-      "b": 637,
-      "b_title": "Avocado Oil vs Olive Oil: Which Is Better for Cooking?",
-      "similarity": 0.7148,
-      "title_jaccard": 0.3,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 329,
-      "a_title": "Whole-wheat bread vs. rye bread: fiber, protein and satiety",
-      "b": 385,
-      "b_title": "White bread vs. whole-wheat bread: nutritional differences",
-      "similarity": 0.7143,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
       "a": 172,
       "a_title": "Pork cuts: protein, fat, and calories",
       "b": 280,
@@ -820,7 +787,7 @@
       "a_title": "Cottage cheese: proteína, grasa y calorías",
       "b": 584,
       "b_title": "Cottage cheese vs. ricotta: diferencias nutricionales",
-      "similarity": 0.6233,
+      "similarity": 0.6232,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -853,7 +820,7 @@
       "a_title": "Huevo entero vs. claras: proteína, grasa y nutrientes",
       "b": 194,
       "b_title": "Huevos: proteína, grasa, calorías y nutrientes",
-      "similarity": 0.5907,
+      "similarity": 0.5909,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -919,7 +886,7 @@
       "a_title": "Highest-Fiber Foods: Ranking per 100 Grams and by Serving",
       "b": 74,
       "b_title": "The fruits highest in fiber",
-      "similarity": 0.5441,
+      "similarity": 0.5445,
       "title_jaccard": 0.7143,
       "family_match": false,
       "type_overlap": 2
@@ -963,7 +930,7 @@
       "a_title": "Beef vs Pork: Protein, Fat, Iron and Calories",
       "b": 171,
       "b_title": "Beef cuts: protein, fat, calories, and iron",
-      "similarity": 0.4898,
+      "similarity": 0.4897,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 1
@@ -1029,7 +996,7 @@
       "a_title": "How Long Does Cooked Meat Last in the Fridge?",
       "b": 34,
       "b_title": "How Long Does Ground Meat Last in the Fridge?",
-      "similarity": 0.4145,
+      "similarity": 0.4146,
       "title_jaccard": 0.7143,
       "family_match": true,
       "type_overlap": 2
@@ -1113,6 +1080,17 @@
     },
     {
       "language": "en",
+      "a": 329,
+      "a_title": "Whole-wheat bread vs. rye bread: fiber, protein and satiety",
+      "b": 385,
+      "b_title": "White bread vs. whole-wheat bread: nutritional differences",
+      "similarity": 0.7141,
+      "title_jaccard": 0.3333,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
       "a": 683,
       "a_title": "Coconut Milk vs Coconut Cream: Richness, Fat, and Cooking Uses",
       "b": 684,
@@ -1189,17 +1167,6 @@
       "type_overlap": 1
     },
     {
-      "language": "es",
-      "a": 504,
-      "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
-      "b": 512,
-      "b_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
-      "similarity": 0.709,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
       "language": "en",
       "a": 436,
       "a_title": "Peanuts: Protein, Fat, Fiber, and Calories",
@@ -1209,6 +1176,17 @@
       "title_jaccard": 0.375,
       "family_match": true,
       "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 504,
+      "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
+      "b": 512,
+      "b_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
+      "similarity": 0.7089,
+      "title_jaccard": 0.3333,
+      "family_match": true,
+      "type_overlap": 2
     },
     {
       "language": "en",
@@ -1326,9 +1304,20 @@
       "a_title": "Natural vs regular peanut butter: what changes in the ingredients",
       "b": 747,
       "b_title": "Powdered vs regular peanut butter: where do the calories go?",
-      "similarity": 0.701,
+      "similarity": 0.7009,
       "title_jaccard": 0.3333,
       "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 93,
+      "a_title": "Aguacate entero vs. aceite de oliva: grasa, fibra y calorías",
+      "b": 637,
+      "b_title": "Aceite de aguacate o de oliva: cuál conviene más para cocinar",
+      "similarity": 0.6989,
+      "title_jaccard": 0.3333,
+      "family_match": false,
       "type_overlap": 1
     },
     {
@@ -1359,7 +1348,7 @@
       "a_title": "Bulgur vs. cuscús: diferencias nutricionales",
       "b": 1217,
       "b_title": "Bulgur: qué es, cómo se cocina y en qué se diferencia del cuscús",
-      "similarity": 0.6963,
+      "similarity": 0.6962,
       "title_jaccard": 0.5,
       "family_match": false,
       "type_overlap": 1
@@ -1370,7 +1359,7 @@
       "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
       "b": 513,
       "b_title": "Qué significa el porcentaje de cacao del chocolate",
-      "similarity": 0.6943,
+      "similarity": 0.6942,
       "title_jaccard": 0.3333,
       "family_match": true,
       "type_overlap": 1
@@ -1414,7 +1403,7 @@
       "a_title": "Foods with more vitamin C than an orange",
       "b": 130,
       "b_title": "Is the orange really the fruit with the most vitamin C?",
-      "similarity": 0.6912,
+      "similarity": 0.6914,
       "title_jaccard": 0.3333,
       "family_match": false,
       "type_overlap": 1
@@ -1436,7 +1425,7 @@
       "a_title": "Hot vs. cooled potatoes: what happens to resistant starch?",
       "b": 610,
       "b_title": "Resistant starch in cooled rice, potatoes and pasta",
-      "similarity": 0.6874,
+      "similarity": 0.6875,
       "title_jaccard": 0.5,
       "family_match": false,
       "type_overlap": 2
@@ -1447,7 +1436,7 @@
       "a_title": "Whole Grains Highest in Protein",
       "b": 498,
       "b_title": "Whole Grains Highest in Fiber",
-      "similarity": 0.6873,
+      "similarity": 0.687,
       "title_jaccard": 0.6,
       "family_match": true,
       "type_overlap": 2
@@ -1497,6 +1486,17 @@
       "type_overlap": 1
     },
     {
+      "language": "en",
+      "a": 432,
+      "a_title": "Fruit Sugar vs. Added Sugar: What’s the Difference?",
+      "b": 705,
+      "b_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
+      "similarity": 0.6835,
+      "title_jaccard": 0.2222,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
       "language": "es",
       "a": 64,
       "a_title": "Quinoa vs. arroz: proteína, fibra y carbohidratos",
@@ -1505,17 +1505,6 @@
       "similarity": 0.6835,
       "title_jaccard": 0.6667,
       "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 432,
-      "a_title": "Fruit Sugar vs. Added Sugar: What’s the Difference?",
-      "b": 705,
-      "b_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
-      "similarity": 0.6832,
-      "title_jaccard": 0.2222,
-      "family_match": false,
       "type_overlap": 1
     },
     {
@@ -1546,19 +1535,8 @@
       "a_title": "Fresh vs. frozen fruit: nutritional differences",
       "b": 443,
       "b_title": "Does Frozen Fruit Lose Vitamins?",
-      "similarity": 0.6825,
+      "similarity": 0.682,
       "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 184,
-      "a_title": "Hemp seeds: protein, fat, omega-3, and nutrition",
-      "b": 544,
-      "b_title": "Chia vs. hemp seeds",
-      "similarity": 0.6806,
-      "title_jaccard": 0.4444,
       "family_match": true,
       "type_overlap": 1
     },
@@ -1570,6 +1548,17 @@
       "b_title": "Cacao vs. café: cafeína y diferencias",
       "similarity": 0.6806,
       "title_jaccard": 0.2857,
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 184,
+      "a_title": "Hemp seeds: protein, fat, omega-3, and nutrition",
+      "b": 544,
+      "b_title": "Chia vs. hemp seeds",
+      "similarity": 0.6805,
+      "title_jaccard": 0.4444,
       "family_match": true,
       "type_overlap": 1
     },
@@ -1652,11 +1641,22 @@
     },
     {
       "language": "en",
+      "a": 93,
+      "a_title": "Whole Avocado vs Olive Oil: Fat, Fiber and Calories",
+      "b": 637,
+      "b_title": "Avocado Oil vs Olive Oil: Which Is Better for Cooking?",
+      "similarity": 0.6768,
+      "title_jaccard": 0.375,
+      "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
       "a": 319,
       "a_title": "Serrano ham vs. Iberian ham: nutrition and production differences",
       "b": 370,
       "b_title": "Can you freeze Serrano ham or cooked ham?",
-      "similarity": 0.6757,
+      "similarity": 0.6756,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 0
@@ -1678,7 +1678,7 @@
       "a_title": "Whole-bean vs. ground coffee",
       "b": 964,
       "b_title": "Is a Coffee Bean Really a Bean or a Seed?",
-      "similarity": 0.6749,
+      "similarity": 0.6751,
       "title_jaccard": 0.2857,
       "family_match": true,
       "type_overlap": 0
@@ -1707,17 +1707,6 @@
     },
     {
       "language": "en",
-      "a": 202,
-      "a_title": "What does nutrient-dense actually mean?",
-      "b": 614,
-      "b_title": "Nutrient density: how to compare foods beyond calories",
-      "similarity": 0.672,
-      "title_jaccard": 0.3333,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
       "a": 39,
       "a_title": "Foods Highest in Potassium: It Is Not Just Bananas",
       "b": 131,
@@ -1725,6 +1714,17 @@
       "similarity": 0.6719,
       "title_jaccard": 0.2,
       "family_match": false,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 202,
+      "a_title": "What does nutrient-dense actually mean?",
+      "b": 614,
+      "b_title": "Nutrient density: how to compare foods beyond calories",
+      "similarity": 0.6719,
+      "title_jaccard": 0.3333,
+      "family_match": true,
       "type_overlap": 1
     },
     {
@@ -1744,7 +1744,7 @@
       "a_title": "How long does a whole Spanish ham last once you start cutting it?",
       "b": 368,
       "b_title": "How to store a whole Spanish ham after you start cutting it",
-      "similarity": 0.6716,
+      "similarity": 0.6715,
       "title_jaccard": 0.6,
       "family_match": true,
       "type_overlap": 1
@@ -1777,7 +1777,7 @@
       "a_title": "How to read a nutrition label",
       "b": 180,
       "b_title": "How to read sugar, fat, and sodium on a Nutrition Facts label",
-      "similarity": 0.6702,
+      "similarity": 0.6703,
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 0
@@ -1920,7 +1920,7 @@
       "a_title": "Edamame vs. chickpeas: protein, fiber, and calories",
       "b": 176,
       "b_title": "Chickpeas: protein, fiber, calories, and nutrition",
-      "similarity": 0.6177,
+      "similarity": 0.6176,
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 1
@@ -2118,7 +2118,7 @@
       "a_title": "Dátiles vs. azúcar: diferencias nutricionales",
       "b": 608,
       "b_title": "Dátiles vs. pasas: azúcar, fibra y calorías",
-      "similarity": 0.5574,
+      "similarity": 0.5573,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2
@@ -2311,23 +2311,23 @@
       "type_overlap": 2
     },
     {
-      "language": "en",
-      "a": 366,
-      "a_title": "White pasta vs. whole-wheat pasta: nutritional differences",
-      "b": 385,
-      "b_title": "White bread vs. whole-wheat bread: nutritional differences",
-      "similarity": 0.5039,
-      "title_jaccard": 0.6667,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
       "language": "es",
       "a": 112,
       "a_title": "Cómo obtener suficiente proteína en una dieta vegetariana",
       "b": 113,
       "b_title": "Cómo obtener suficiente proteína en una dieta vegana",
       "similarity": 0.5038,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 366,
+      "a_title": "White pasta vs. whole-wheat pasta: nutritional differences",
+      "b": 385,
+      "b_title": "White bread vs. whole-wheat bread: nutritional differences",
+      "similarity": 0.5036,
       "title_jaccard": 0.6667,
       "family_match": true,
       "type_overlap": 2

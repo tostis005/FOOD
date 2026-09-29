@@ -38,7 +38,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | Lang | A | B | Similarity | Title overlap |
 | --- | ---: | ---: | ---: | ---: |
 | en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 1273 - Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing | 0.804 | 0.889 |
-| en | 606 - Dates: sugar, fiber and calories | 607 - Dates vs. sugar: nutrition differences | 0.877 | 0.500 |
+| en | 606 - Dates: sugar, fiber and calories | 607 - Dates vs. sugar: nutrition differences | 0.876 | 0.500 |
 | en | 582 - Cottage cheese: protein, fat and calories | 584 - Cottage cheese vs. ricotta: nutrition differences | 0.618 | 0.857 |
 | en | 553 - Hummus: protein, fiber, fat and nutrition | 554 - Hummus vs. guacamole: nutrition differences | 0.564 | 0.857 |
 | es | 183 - Salmón: proteína, omega-3, grasa y calorías | 185 - Merluza vs. salmón: proteína, grasa y calorías | 0.538 | 0.833 |
@@ -55,7 +55,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 127 - The best plant sources of omega-3 | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.776 | 0.250 |
 | en | 60 - Whole Egg vs Egg Whites: Protein, Fat and Nutrients | 276 - Egg white vs. yolk: what each part provides | 0.762 | 0.545 |
 | en | 81 - Processed vs. ultra-processed foods: differences and examples | 82 - What ultra-processed foods actually are | 0.755 | 0.400 |
-| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.754 | 0.111 |
+| en | 164 - Dietary cholesterol vs. blood cholesterol: what’s the difference? | 165 - Eggs and cholesterol: what the relationship actually means | 0.755 | 0.111 |
 | en | 572 - Oat milk vs. soy milk: nutrition differences | 573 - Almond milk vs. oat milk: nutrition differences | 0.730 | 0.750 |
 | es | 572 - Bebida de avena vs. bebida de soja: diferencias nutricionales | 573 - Bebida de almendra vs. bebida de avena: diferencias nutricionales | 0.699 | 0.750 |
 | en | 213 - Ground beef vs. ground turkey: nutrition differences | 218 - Ground beef vs. ground pork: nutrition differences | 0.673 | 0.750 |
@@ -69,7 +69,6 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | es | 105 - Soja: proteína, grasa y valor nutricional | 553 - Hummus: proteína, fibra, grasa y valor nutricional | 0.275 | 0.750 |
 | en | 469 - Kefir: What It Is, How It’s Made, and What It Provides | 470 - Milk Kefir vs. Water Kefir: What’s the Difference? | 0.748 | 0.167 |
 | en | 547 - Tahini vs. peanut butter | 548 - Peanut butter vs. almond butter | 0.747 | 0.667 |
-| es | 93 - Aguacate vs. aceite de oliva: grasas y diferencias nutricionales | 637 - Aceite de aguacate o de oliva: cuál conviene más para cocinar | 0.741 | 0.375 |
 | en | 134 - Glycemic index: what it is and which foods are highest | 135 - Glycemic index vs. glycemic load | 0.739 | 0.333 |
 | es | 453 - Masa madre vs. pan convencional: ¿qué cambia realmente? | 562 - Masa madre vs. pan integral: diferencias | 0.737 | 0.250 |
 | en | 496 - Bulgur vs. Couscous: Nutrition Compared | 1217 - Bulgur: What It Is, How to Cook It, and How It Differs From Couscous | 0.736 | 0.333 |
@@ -88,8 +87,6 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 699 - Maple Syrup vs Sugar: Which Actually Contains More Sugar? | 700 - Maple Syrup vs Honey: Which Has More Sugar and Calories? | 0.718 | 0.556 |
 | en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 1272 - How Much Sugar Should You Have per Day? Free, Added, and Total Sugars Explained | 0.717 | 0.200 |
 | en | 684 - Canned Coconut Milk vs Coconut Beverage: Why They Are Not Interchangeable | 976 - How Long Does Opened Coconut Milk Last in the Fridge? | 0.717 | 0.167 |
-| en | 93 - Avocado vs. olive oil: fats and nutritional differences | 637 - Avocado Oil vs Olive Oil: Which Is Better for Cooking? | 0.715 | 0.300 |
-| en | 329 - Whole-wheat bread vs. rye bread: fiber, protein and satiety | 385 - White bread vs. whole-wheat bread: nutritional differences | 0.714 | 0.333 |
 | en | 172 - Pork cuts: protein, fat, and calories | 280 - The leanest cuts of pork | 0.690 | 0.714 |
 | en | 771 - Does soy sauce need refrigeration after opening? | 967 - Does Hot Sauce Need Refrigeration After Opening? | 0.677 | 0.714 |
 | en | 771 - Does soy sauce need refrigeration after opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.666 | 0.714 |
@@ -116,4 +113,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | en | 52 - Tuna vs Salmon: Protein, Omega-3, Fat and Calories | 185 - Hake vs. salmon: protein, fat, calories, and omega-3 | 0.441 | 0.714 |
 | en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 32 - How Long Does Cooked Meat Last in the Fridge? | 0.431 | 0.714 |
 | es | 52 - Atún vs. salmón: proteína, omega-3, grasa y calorías | 185 - Merluza vs. salmón: proteína, grasa y calorías | 0.420 | 0.714 |
-| en | 32 - How Long Does Cooked Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.414 | 0.714 |
+| en | 32 - How Long Does Cooked Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.415 | 0.714 |
+| en | 9 - How Long Does Cooked Rice Last in the Fridge? | 32 - How Long Does Cooked Meat Last in the Fridge? | 0.396 | 0.714 |
+| en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 9 - How Long Does Cooked Rice Last in the Fridge? | 0.382 | 0.714 |
+| en | 616 - Foods with the most protein per calorie | 617 - Foods with the most fiber per calorie | 0.368 | 0.714 |
