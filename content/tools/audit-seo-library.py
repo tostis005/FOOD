@@ -50,7 +50,13 @@ def runtime_meta_description(meta, excerpt, body=''):
     if len(description) <= 158:
         return description
     shortened=description[:157]
-    shortened=re.sub(r'\s+\S*
+    shortened=re.sub(r'\\s+\\S*$', '', shortened)
+    shortened=shortened.rstrip(' ,;:–—-')
+    return shortened + '…'
+
+def word_list(text):
+    return WORD_RE.findall(text)
+
 def toks(text):
     out=[]
     for token in re.findall(r'[a-z0-9]+', norm(text)):
