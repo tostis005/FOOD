@@ -42,16 +42,12 @@ These are similarity candidates, not automatic cannibalization verdicts.
 
 | Lang | A | B | Similarity | Title overlap |
 | --- | ---: | ---: | ---: | ---: |
-| en | 688 - Self-Rising vs All-Purpose Flour: What Is Actually Inside? | 1228 - Self-Rising Flour: What It Is and How It Differs From All-Purpose Flour With Leavener | 0.897 | 0.500 |
 | en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 1273 - Free Sugar vs. Added Sugar: Why They Do Not Mean Exactly the Same Thing | 0.804 | 0.889 |
 | en | 606 - Dates: sugar, fiber and calories | 607 - Dates vs. sugar: nutrition differences | 0.877 | 0.500 |
-| es | 94 - Aguacate vs. frutos secos: grasa, fibra, proteína y calorías | 408 - Frutos secos vs. aguacate: grasas, fibra y calorías | 0.814 | 0.857 |
 | en | 582 - Cottage cheese: protein, fat and calories | 584 - Cottage cheese vs. ricotta: nutrition differences | 0.617 | 0.857 |
 | en | 553 - Hummus: protein, fiber, fat and nutrition | 554 - Hummus vs. guacamole: nutrition differences | 0.564 | 0.857 |
-| en | 94 - Avocado vs. nuts: fat, fiber, protein and calories | 408 - Nuts vs. Avocado: Fat, Fiber, and Calories | 0.802 | 0.833 |
 | es | 183 - Salmón: proteína, omega-3, grasa y calorías | 185 - Merluza vs. salmón: proteína, grasa y calorías | 0.538 | 0.833 |
 | es | 52 - Atún vs. salmón: proteína, omega-3, grasa y calorías | 183 - Salmón: proteína, omega-3, grasa y calorías | 0.523 | 0.833 |
-| en | 327 - Why does a hard-boiled egg yolk get a green ring? | 1151 - Why a Green Ring Appears Around a Hard-Boiled Egg Yolk | 0.826 | 0.700 |
 | es | 724 - Jarabe de maíz de alta fructosa o azúcar: ¿son realmente diferentes? | 725 - Jarabe de maíz y jarabe de maíz de alta fructosa: no son el mismo endulzante | 0.820 | 0.500 |
 | en | 38 - Foods Highest in Omega-3: Fish, Seeds and Nuts Without Mixing ALA with EPA and DHA | 167 - Plant Omega-3 vs. Fish Omega-3: ALA, EPA, and DHA Explained | 0.814 | 0.417 |
 | es | 38 - Los alimentos con más omega-3: pescado, semillas y nueces sin mezclar ALA con EPA y DHA | 167 - Omega-3 vegetal vs. omega-3 del pescado | 0.811 | 0.556 |
@@ -122,3 +118,7 @@ These are similarity candidates, not automatic cannibalization verdicts.
 | es | 285 - ¿Por qué flotan algunos huevos? | 300 - La prueba del agua de los huevos: qué indica realmente | 0.531 | 0.714 |
 | en | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.529 | 0.714 |
 | en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.517 | 0.714 |
+| en | 32 - How Long Does Cooked Meat Last in the Fridge? | 33 - How Long Does Raw Meat Last in the Fridge? | 0.502 | 0.714 |
+| en | 50 - Beef vs Pork: Protein, Fat, Iron and Calories | 171 - Beef cuts: protein, fat, calories, and iron | 0.489 | 0.714 |
+| es | 393 - Yogur: proteína, calcio, grasa y valor nutricional | 1318 - Tahini: valor nutricional, grasas, proteína y calcio | 0.479 | 0.714 |
+| en | 30 - How Long Does Raw Chicken Last in the Fridge? | 33 - How Long Does Raw Meat Last in the Fridge? | 0.460 | 0.714 |

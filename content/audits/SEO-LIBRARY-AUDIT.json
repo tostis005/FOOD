@@ -129,12 +129,15 @@
   },
   "known_consolidations": {
     "326": 295,
+    "408": 94,
     "551": 169,
     "1137": 593,
     "1138": 594,
     "1148": 468,
+    "1151": 327,
     "1152": 287,
     "1183": 655,
+    "1228": 688,
     "1296": 147,
     "1304": 767,
     "1306": 775,
@@ -365,17 +368,6 @@
   "cannibalization_candidates": [
     {
       "language": "en",
-      "a": 688,
-      "a_title": "Self-Rising vs All-Purpose Flour: What Is Actually Inside?",
-      "b": 1228,
-      "b_title": "Self-Rising Flour: What It Is and How It Differs From All-Purpose Flour With Leavener",
-      "similarity": 0.8975,
-      "title_jaccard": 0.5,
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
       "a": 705,
       "a_title": "Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing",
       "b": 1273,
@@ -395,17 +387,6 @@
       "title_jaccard": 0.5,
       "family_match": true,
       "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 94,
-      "a_title": "Aguacate vs. frutos secos: grasa, fibra, proteína y calorías",
-      "b": 408,
-      "b_title": "Frutos secos vs. aguacate: grasas, fibra y calorías",
-      "similarity": 0.8138,
-      "title_jaccard": 0.8571,
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "en",
@@ -430,17 +411,6 @@
       "type_overlap": 1
     },
     {
-      "language": "en",
-      "a": 94,
-      "a_title": "Avocado vs. nuts: fat, fiber, protein and calories",
-      "b": 408,
-      "b_title": "Nuts vs. Avocado: Fat, Fiber, and Calories",
-      "similarity": 0.802,
-      "title_jaccard": 0.8333,
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
       "language": "es",
       "a": 183,
       "a_title": "Salmón: proteína, omega-3, grasa y calorías",
@@ -459,17 +429,6 @@
       "b_title": "Salmón: proteína, omega-3, grasa y calorías",
       "similarity": 0.5235,
       "title_jaccard": 0.8333,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 327,
-      "a_title": "Why does a hard-boiled egg yolk get a green ring?",
-      "b": 1151,
-      "b_title": "Why a Green Ring Appears Around a Hard-Boiled Egg Yolk",
-      "similarity": 0.8258,
-      "title_jaccard": 0.7,
       "family_match": true,
       "type_overlap": 1
     },
@@ -2146,17 +2105,6 @@
       "type_overlap": 1
     },
     {
-      "language": "es",
-      "a": 327,
-      "a_title": "Por qué aparece un borde verde alrededor de la yema cocida",
-      "b": 1151,
-      "b_title": "Por qué aparece un anillo verde alrededor de la yema del huevo cocido",
-      "similarity": 0.667,
-      "title_jaccard": 0.4,
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
       "language": "en",
       "a": 138,
       "a_title": "Probiotics vs. prebiotics: the difference",
@@ -3112,6 +3060,61 @@
       "title_jaccard": 0.6667,
       "family_match": false,
       "type_overlap": 3
+    },
+    {
+      "language": "en",
+      "a": 119,
+      "a_title": "Is it healthy to eat rice every day?",
+      "b": 122,
+      "b_title": "Is it healthy to eat cheese every day?",
+      "similarity": 0.4136,
+      "title_jaccard": 0.6667,
+      "family_match": false,
+      "type_overlap": 3
+    },
+    {
+      "language": "en",
+      "a": 7,
+      "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
+      "b": 218,
+      "b_title": "Ground beef vs. ground pork: nutrition differences",
+      "similarity": 0.4118,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 32,
+      "a_title": "Cuánto dura la carne cocinada en la nevera",
+      "b": 34,
+      "b_title": "Cuánto dura la carne picada en la nevera",
+      "similarity": 0.4111,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 252,
+      "a_title": "How long does cooked fish last in the fridge?",
+      "b": 284,
+      "b_title": "How long does cooked shrimp last in the fridge?",
+      "similarity": 0.4103,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 980,
+      "a_title": "Do Pickles Need Refrigeration After Opening?",
+      "b": 981,
+      "b_title": "Do Olives Need Refrigeration After Opening?",
+      "similarity": 0.4085,
+      "title_jaccard": 0.6667,
+      "family_match": true,
+      "type_overlap": 2
     }
   ],
   "issues": {
