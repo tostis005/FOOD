@@ -16,13 +16,52 @@
   "excerpt": "Ambos son lácteos fermentados y ácidos, pero parten de bases distintas. El yogur griego concentra proteína al colarse; la crema agria parte de nata y suele ser más grasa. Se pueden intercambiar en muchos platos fríos, pero el calor requiere más cuidado.",
   "taxonomy": {
     "food_family": "dairy",
-    "food_subcategories": ["greek-yogurt", "sour-cream"],
-    "article_types": ["comparisons", "nutrition", "substitutions"],
+    "food_subcategories": [
+      "greek-yogurt",
+      "sour-cream"
+    ],
+    "article_types": [
+      "comparisons",
+      "nutrition",
+      "substitutions"
+    ],
     "primary_article_type": "comparisons"
   },
   "content_html": "<p>El yogur griego y la crema agria pueden parecer casi idénticos en un cuenco, sobre todo si ambos son naturales y enteros. <strong>La diferencia principal está en el punto de partida: el yogur griego es leche fermentada y colada para eliminar parte del suero; la crema agria es nata fermentada.</strong> Por eso el yogur suele concentrar bastante más proteína y la crema agria ofrece una sensación más grasa y redonda. Las cifras exactas cambian según el porcentaje de grasa y la marca, de modo que la etiqueta manda cuando la comparación es nutricional.</p><h2>El yogur griego concentra los sólidos de la leche</h2><p>Al eliminar parte del suero se reduce agua y se concentra la proteína respecto a un yogur convencional. Hay versiones desnatadas, semidesnatadas y enteras, con diferencias grandes de calorías y textura. Para sustituir crema agria, la opción más útil es un yogur griego natural sin azúcar ni aromas. La crema agria consigue espesor sobre todo por la grasa de la nata y por la fermentación, no por una concentración tan elevada de proteína.</p><h2>La crema agria suele comportarse mejor con calor</h2><p>La grasa amortigua la sensación ácida y ayuda a que la crema agria mantenga una textura más estable en salsas calientes. Un yogur griego, sobre todo bajo en grasa, puede cortarse si hierve porque sus proteínas se contraen y expulsan agua. Puede utilizarse, pero funciona mejor añadiéndolo con el fuego bajo o apagado y templándolo antes con un poco de salsa caliente. Para una salsa que debe hervir o mantenerse al fuego, la crema agria suele ser más tolerante.</p><h2>En toppings y salsas frías se sustituyen con facilidad</h2><p>En tacos, patatas asadas, chili, aliños o dips, el yogur griego natural puede reemplazar a la crema agria en muchas recetas. El resultado será algo más ácido y denso. Si quieres suavizarlo, una pequeña cantidad de aceite o leche puede redondear la textura. Hacer el cambio inverso aporta más riqueza y menos proteína. En repostería, sin embargo, acidez, agua y grasa afectan a la estructura y no conviene asumir una sustitución perfecta sin revisar la receta.</p><h2>Proteína y grasa siguen direcciones distintas</h2><p>Por el mismo peso, un yogur griego natural suele aportar mucha más proteína, especialmente si es desnatado o bajo en grasa. La crema agria suele aportar más grasa y energía, aunque las versiones ligeras reducen la diferencia. La sal y los hidratos son moderados en ambos, pero varían por marca. También importa la cantidad habitual: dos cucharadas de crema agria usadas como topping no desempeñan el mismo papel que un bol entero de yogur griego en un desayuno.</p><h2>Fermentación no significa ausencia de lactosa</h2><p>En los dos productos las bacterias han transformado parte de la lactosa en ácido láctico, pero ninguno es automáticamente “sin lactosa”. El yogur griego puede resultar más tolerable para algunas personas porque el colado elimina parte del suero con lactosa y las bacterias ayudan a digerirla, pero la tolerancia es individual. La alergia a la proteína de la leche es otra situación distinta: ambos contienen proteínas lácteas y no son adecuados cuando deben evitarse por alergia.</p><h2>Cuál elegir según el plato</h2><p>Usa yogur griego cuando quieras acidez, espesor y más proteína con menos grasa; utiliza crema agria cuando priorices riqueza, suavidad y estabilidad con calor. <strong>En preparaciones frías, el yogur griego natural es una sustitución muy sencilla; en salsas calientes o recetas clásicas de repostería, la crema agria puede dar una textura más predecible.</strong> Comprueba también si la receta espera un producto entero o ligero, porque cambiar la grasa puede alterar el resultado.</p><p>Si cualquiera de los dos se utiliza como alimento proteico y no solo como guarnición, la ración cambia mucho la comparación. Un bol de yogur griego puede aportar una cantidad importante de proteína; la porción habitual de crema agria suele ser de pocas cucharadas. Comparar las raciones impresas de dos envases puede ser engañoso cuando se usan de manera distinta. Para nutrición, iguala el peso; para la decisión culinaria, vuelve después a la cantidad real del plato.</p>",
-  "faq": [{"question": "¿Puede el yogur griego sustituir a la crema agria?", "answer": "Sí, especialmente en toppings, dips y salsas frías. Debe ser natural y sin azúcar."}, {"question": "¿Cuál tiene más proteína?", "answer": "El yogur griego suele tener bastante más proteína por el mismo peso."}, {"question": "¿Cuál funciona mejor en salsas calientes?", "answer": "La crema agria entera suele ser más estable. El yogur puede usarse si se añade con calor suave y sin hervir."}],
-  "sources": [{"name": "AESAN/BEDCA — Base de Datos Española de Composición de Alimentos", "url": "https://www.bedca.net/", "note": "Base de datos española de composición de alimentos para contextualizar energía y nutrientes."}],
-  "image": {"concept": "Yogur griego natural y crema agria en cuencos iguales junto a hierbas y patatas asadas, natural food photography without readable branding or text.", "alt": "Yogur griego natural y crema agria en cuencos iguales junto a hierbas y patatas asadas"},
+  "faq": [
+    {
+      "question": "¿Puede el yogur griego sustituir a la crema agria?",
+      "answer": "Sí, especialmente en toppings, dips y salsas frías. Debe ser natural y sin azúcar."
+    },
+    {
+      "question": "¿Cuál tiene más proteína?",
+      "answer": "El yogur griego suele tener bastante más proteína por el mismo peso."
+    },
+    {
+      "question": "¿Cuál funciona mejor en salsas calientes?",
+      "answer": "La crema agria entera suele ser más estable. El yogur puede usarse si se añade con calor suave y sin hervir."
+    }
+  ],
+  "sources": [
+    {
+      "name": "AESAN/BEDCA — Base de Datos Española de Composición de Alimentos",
+      "url": "https://www.bedca.net/",
+      "note": "Base de datos española de composición de alimentos para contextualizar energía y nutrientes."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Base de referencia para comparar composición de yogur y crema agria."
+    },
+    {
+      "name": "FDA — Standards of Identity for Food",
+      "url": "https://www.fda.gov/food/nutrition-food-labeling-and-critical-foods/standards-identity-food",
+      "note": "Normas de identidad aplicables a productos lácteos y cremas."
+    }
+  ],
+  "image": {
+    "concept": "Yogur griego natural y crema agria en cuencos iguales junto a hierbas y patatas asadas, natural food photography without readable branding or text.",
+    "alt": "Yogur griego natural y crema agria en cuencos iguales junto a hierbas y patatas asadas"
+  },
   "status": "publish"
 }

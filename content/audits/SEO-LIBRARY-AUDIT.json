@@ -12,7 +12,7 @@
     "translation_group_mismatches": 0
   },
   "issue_counts": {
-    "sources_under_2": 175
+    "sources_under_2": 163
   },
   "source_data_signals": {
     "raw_seo_title_under_28": 57,
@@ -3259,13 +3259,6 @@
       },
       {
         "language": "es",
-        "number": 431,
-        "title": "Las bebidas vegetales con más proteína",
-        "path": "content/articles/es/431-bebidas-vegetales-con-mas-proteina.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 433,
         "title": "Las verduras con menos calorías",
         "path": "content/articles/es/433-verduras-con-menos-calorias.json",
@@ -3427,41 +3420,6 @@
       },
       {
         "language": "es",
-        "number": 678,
-        "title": "Qué es el suero de leche y qué contiene",
-        "path": "content/articles/es/678-suero-de-leche-que-es.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 679,
-        "title": "Yogur griego o crema agria: diferencias y sustituciones",
-        "path": "content/articles/es/679-yogur-griego-o-crema-agria.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 680,
-        "title": "Queso crema o crema agria: diferencias y sustituciones",
-        "path": "content/articles/es/680-queso-crema-o-crema-agria.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 681,
-        "title": "Burrata o mozzarella: diferencias de textura, grasa y uso",
-        "path": "content/articles/es/681-burrata-o-mozzarella.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 682,
-        "title": "Queso procesado o tradicional: qué cambia realmente",
-        "path": "content/articles/es/682-queso-procesado-o-tradicional.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 683,
         "title": "Leche de coco o crema de coco: diferencias y usos",
         "path": "content/articles/es/683-leche-coco-o-crema-coco.json",
@@ -3472,13 +3430,6 @@
         "number": 684,
         "title": "Leche de coco en lata o bebida de coco: no son lo mismo",
         "path": "content/articles/es/684-leche-coco-lata-o-bebida-coco.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 717,
-        "title": "Tamaño de ración o porción: parecen lo mismo, pero no lo son",
-        "path": "content/articles/es/717-tamano-racion-o-porcion.json",
         "value": 1
       },
       {
@@ -3686,13 +3637,6 @@
       },
       {
         "language": "en",
-        "number": 133,
-        "title": "How much protein is really in an egg?",
-        "path": "content/articles/en/133-how-much-protein-in-egg.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 138,
         "title": "Probiotics vs. prebiotics: the difference",
         "path": "content/articles/en/138-probiotics-vs-prebiotics.json",
@@ -3770,13 +3714,6 @@
       },
       {
         "language": "en",
-        "number": 188,
-        "title": "Fresh vs. aged cheese: nutrition differences explained",
-        "path": "content/articles/en/188-fresh-vs-aged-cheese-nutrition.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 191,
         "title": "Cashews vs. almonds: nutrition differences",
         "path": "content/articles/en/191-cashews-vs-almonds-nutrition.json",
@@ -3819,13 +3756,6 @@
       },
       {
         "language": "en",
-        "number": 268,
-        "title": "The lowest-calorie fish",
-        "path": "content/articles/en/268-lowest-calorie-fish.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 275,
         "title": "The lowest-fat cheeses",
         "path": "content/articles/en/275-lowest-fat-cheeses.json",
@@ -3836,13 +3766,6 @@
         "number": 281,
         "title": "The leanest cuts of beef",
         "path": "content/articles/en/281-leanest-beef-cuts.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 365,
-        "title": "White spots in Serrano ham: what are they?",
-        "path": "content/articles/en/365-white-spots-serrano-ham.json",
         "value": 1
       },
       {
@@ -3969,13 +3892,6 @@
         "number": 454,
         "title": "Can You Eat Very Ripe or Black Bananas?",
         "path": "content/articles/en/454-can-you-eat-very-ripe-black-bananas.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 455,
-        "title": "How to Speed Up or Slow Down Banana Ripening",
-        "path": "content/articles/en/455-how-to-speed-up-or-slow-banana-ripening.json",
         "value": 1
       },
       {

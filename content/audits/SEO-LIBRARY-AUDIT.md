@@ -13,7 +13,7 @@
 
 | Signal | Count |
 | --- | ---: |
-| sources_under_2 | 175 |
+| sources_under_2 | 163 |
 
 ## Vocabulary drift
 

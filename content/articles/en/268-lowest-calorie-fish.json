@@ -47,6 +47,11 @@
       "name": "USDA FoodData Central",
       "url": "https://fdc.nal.usda.gov/",
       "note": "Raw per-100-g composition for flatfish, haddock, cod, pollock and other fish."
+    },
+    {
+      "name": "BEDCA — Base de Datos Española de Composición de Alimentos",
+      "url": "https://www.bedca.net/",
+      "note": "Spanish composition data for hake, monkfish, cod, and other commonly eaten fish."
     }
   ],
   "image": {
