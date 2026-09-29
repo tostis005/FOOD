@@ -47,6 +47,11 @@
       "name": "USDA FoodData Central",
       "url": "https://fdc.nal.usda.gov/",
       "note": "Per-100-g references for 1% cottage cheese, part-skim ricotta, part-skim mozzarella, feta and cheddar."
+    },
+    {
+      "name": "BEDCA — Base de Datos Española de Composición de Alimentos",
+      "url": "https://www.bedca.net/",
+      "note": "Independent Spanish food-composition database used to cross-check nutrient values."
     }
   ],
   "image": {

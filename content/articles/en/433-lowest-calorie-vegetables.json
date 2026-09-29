@@ -43,6 +43,16 @@
       "name": "USDA FoodData Central",
       "url": "https://fdc.nal.usda.gov/food-search/",
       "note": "Composition database used for approximate energy values of raw vegetables."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Food-composition database used to cross-check energy, macronutrients, and micronutrients."
+    },
+    {
+      "name": "BEDCA — Base de Datos Española de Composición de Alimentos",
+      "url": "https://www.bedca.net/",
+      "note": "Independent Spanish food-composition database used to cross-check nutrient values."
     }
   ],
   "image": {

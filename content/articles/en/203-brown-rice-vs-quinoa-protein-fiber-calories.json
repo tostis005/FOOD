@@ -46,6 +46,11 @@
       "name": "USDA FoodData Central",
       "url": "https://fdc.nal.usda.gov/",
       "note": "Cooked quinoa and brown rice composition and common serving weights."
+    },
+    {
+      "name": "BEDCA — Base de Datos Española de Composición de Alimentos",
+      "url": "https://www.bedca.net/",
+      "note": "Independent Spanish food-composition database used to cross-check nutrient values."
     }
   ],
   "image": {

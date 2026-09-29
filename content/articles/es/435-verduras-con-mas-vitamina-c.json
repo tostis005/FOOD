@@ -43,6 +43,16 @@
       "name": "USDA FoodData Central",
       "url": "https://fdc.nal.usda.gov/food-search/",
       "note": "Valores aproximados de vitamina C de pimientos, brócoli y otras hortalizas."
+    },
+    {
+      "name": "USDA FoodData Central",
+      "url": "https://fdc.nal.usda.gov/",
+      "note": "Base de datos de composición de alimentos utilizada para contrastar energía, macronutrientes y micronutrientes."
+    },
+    {
+      "name": "BEDCA — Base de Datos Española de Composición de Alimentos",
+      "url": "https://www.bedca.net/",
+      "note": "Referencia española independiente para contrastar valores de composición de alimentos."
     }
   ],
   "image": {

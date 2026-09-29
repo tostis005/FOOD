@@ -46,6 +46,11 @@
       "name": "USDA FoodData Central",
       "url": "https://fdc.nal.usda.gov/",
       "note": "Composición de alimentos por 100 g y variación según forma, preparación y producto."
+    },
+    {
+      "name": "BEDCA — Base de Datos Española de Composición de Alimentos",
+      "url": "https://www.bedca.net/",
+      "note": "Referencia española independiente para contrastar valores de composición de alimentos."
     }
   ],
   "image": {

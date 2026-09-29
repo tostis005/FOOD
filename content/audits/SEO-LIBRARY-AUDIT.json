@@ -12,7 +12,7 @@
     "translation_group_mismatches": 0
   },
   "issue_counts": {
-    "sources_under_2": 162
+    "sources_under_2": 76
   },
   "source_data_signals": {
     "raw_seo_title_under_28": 57,
@@ -2909,128 +2909,9 @@
     "sources_under_2": [
       {
         "language": "es",
-        "number": 7,
-        "title": "Pollo, pavo, cerdo o ternera: comparativa de proteína, grasa y calorías",
-        "path": "content/articles/es/007-pollo-pavo-cerdo-ternera-comparativa.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 10,
         "title": "Por qué la carne suelta agua al cocinarla y cómo conseguir que dore",
         "path": "content/articles/es/010-carne-suelta-agua-cocinar.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 11,
-        "title": "Los alimentos con más proteína y menos calorías",
-        "path": "content/articles/es/011-alimentos-mas-proteina-menos-calorias.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 12,
-        "title": "Las legumbres con más proteína: ranking por 100 gramos y por ración",
-        "path": "content/articles/es/012-legumbres-con-mas-proteina.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 15,
-        "title": "Los quesos con más proteína: ranking por 100 gramos y por ración",
-        "path": "content/articles/es/015-quesos-con-mas-proteina.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 16,
-        "title": "Los frutos secos con más proteína: ranking por 100 gramos y por ración",
-        "path": "content/articles/es/016-frutos-secos-con-mas-proteina.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 17,
-        "title": "Las semillas con más proteína: ranking por 100 gramos y por ración",
-        "path": "content/articles/es/017-semillas-con-mas-proteina.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 18,
-        "title": "Las verduras con más proteína: cuánto aportan realmente",
-        "path": "content/articles/es/018-verduras-con-mas-proteina.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 47,
-        "title": "Lentejas, garbanzos y alubias: comparativa nutricional completa",
-        "path": "content/articles/es/047-lentejas-garbanzos-alubias-comparativa.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 48,
-        "title": "Pechuga vs. muslo de pollo: proteína, grasa y calorías",
-        "path": "content/articles/es/048-pechuga-vs-muslo-pollo.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 49,
-        "title": "Pollo vs. pavo: diferencias nutricionales",
-        "path": "content/articles/es/049-pollo-vs-pavo.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 55,
-        "title": "Arroz blanco vs. arroz integral: diferencias nutricionales",
-        "path": "content/articles/es/055-arroz-blanco-vs-integral.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 57,
-        "title": "Patata vs. boniato: diferencias nutricionales",
-        "path": "content/articles/es/057-patata-vs-boniato.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 58,
-        "title": "Yogur griego vs. yogur natural: proteína, grasa y azúcar",
-        "path": "content/articles/es/058-yogur-griego-vs-natural.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 59,
-        "title": "Cottage cheese vs. yogur griego: proteína, calorías y diferencias",
-        "path": "content/articles/es/059-cottage-cheese-vs-yogur-griego.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 60,
-        "title": "Huevo entero vs. claras: proteína, grasa y nutrientes",
-        "path": "content/articles/es/060-huevo-entero-vs-claras.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 76,
-        "title": "Los frutos secos con más fibra",
-        "path": "content/articles/es/076-frutos-secos-con-mas-fibra.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 77,
-        "title": "Las semillas con más fibra",
-        "path": "content/articles/es/077-semillas-con-mas-fibra.json",
         "value": 1
       },
       {
@@ -3042,30 +2923,9 @@
       },
       {
         "language": "es",
-        "number": 96,
-        "title": "Cuánta grasa tiene un aguacate y de qué tipo",
-        "path": "content/articles/es/096-cuanta-grasa-aguacate-tipo.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 98,
-        "title": "Almendras: proteína, fibra, grasas y calorías",
-        "path": "content/articles/es/098-almendras-proteina-fibra-grasas-calorias.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 1140,
         "title": "Por qué algunas yemas son más naranjas que otras y si son más nutritivas",
         "path": "content/articles/es/1140-por-que-yemas-mas-naranjas-son-mas-nutritivas.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 129,
-        "title": "Alimentos ricos en proteína que no son carne",
-        "path": "content/articles/es/129-alimentos-ricos-proteina-no-carne.json",
         "value": 1
       },
       {
@@ -3112,97 +2972,6 @@
       },
       {
         "language": "es",
-        "number": 168,
-        "title": "Aguacate vs. plátano: potasio, fibra y calorías",
-        "path": "content/articles/es/168-aguacate-vs-platano-potasio-fibra-calorias.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 170,
-        "title": "Carne de pollo: proteína, grasa y calorías según el corte",
-        "path": "content/articles/es/170-carne-pollo-proteina-grasa-calorias-cortes.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 173,
-        "title": "Carne de pavo: proteína, grasa y calorías",
-        "path": "content/articles/es/173-carne-pavo-proteina-grasa-calorias.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 174,
-        "title": "Guisantes: proteína, fibra y calorías",
-        "path": "content/articles/es/174-guisantes-proteina-fibra-calorias.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 182,
-        "title": "Los frutos secos con menos calorías",
-        "path": "content/articles/es/182-frutos-secos-con-menos-calorias.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 191,
-        "title": "Anacardos vs. almendras: diferencias nutricionales",
-        "path": "content/articles/es/191-anacardos-vs-almendras-diferencias-nutricionales.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 192,
-        "title": "Las mejores fuentes de proteína sin lácteos",
-        "path": "content/articles/es/192-mejores-fuentes-proteina-sin-lacteos.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 200,
-        "title": "Las carnes más magras: ranking de cortes con menos grasa",
-        "path": "content/articles/es/200-carnes-mas-magras-cortes-menos-grasa.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 203,
-        "title": "Arroz integral vs. quinoa: fibra, proteína y calorías",
-        "path": "content/articles/es/203-arroz-integral-vs-quinoa-fibra-proteina-calorias.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 209,
-        "title": "Las legumbres con menos calorías",
-        "path": "content/articles/es/209-legumbres-con-menos-calorias.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 233,
-        "title": "Las legumbres con menos carbohidratos",
-        "path": "content/articles/es/233-legumbres-con-menos-carbohidratos.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 275,
-        "title": "Los quesos con menos grasa",
-        "path": "content/articles/es/275-quesos-con-menos-grasa.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 281,
-        "title": "Los cortes de ternera más magros",
-        "path": "content/articles/es/281-cortes-ternera-mas-magros.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 376,
         "title": "Qué significan los colores de las etiquetas del jamón ibérico",
         "path": "content/articles/es/376-colores-etiquetas-jamon-iberico.json",
@@ -3220,20 +2989,6 @@
         "number": 381,
         "title": "Qué parte del jamón es más tierna",
         "path": "content/articles/es/381-parte-jamon-mas-tierna.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 387,
-        "title": "Las frutas con menos azúcar",
-        "path": "content/articles/es/387-frutas-con-menos-azucar.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 388,
-        "title": "Las frutas con menos calorías",
-        "path": "content/articles/es/388-frutas-con-menos-calorias.json",
         "value": 1
       },
       {
@@ -3259,37 +3014,9 @@
       },
       {
         "language": "es",
-        "number": 433,
-        "title": "Las verduras con menos calorías",
-        "path": "content/articles/es/433-verduras-con-menos-calorias.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 435,
-        "title": "Las verduras con más vitamina C",
-        "path": "content/articles/es/435-verduras-con-mas-vitamina-c.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 436,
-        "title": "Cacahuetes: proteína, grasa y fibra",
-        "path": "content/articles/es/436-cacahuetes-proteina-grasa-fibra.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 440,
         "title": "Lechuga rosa o rojiza: qué significa y si se puede comer",
         "path": "content/articles/es/440-lechuga-rosa-rojiza-se-puede-comer.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 441,
-        "title": "Las frutas con más agua",
-        "path": "content/articles/es/441-frutas-con-mas-agua.json",
         "value": 1
       },
       {
@@ -3336,20 +3063,6 @@
       },
       {
         "language": "es",
-        "number": 462,
-        "title": "Avena vs. quinoa: proteína, fibra y micronutrientes",
-        "path": "content/articles/es/462-avena-vs-quinoa-proteina-fibra-micronutrientes.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 463,
-        "title": "Chocolate negro vs. chocolate con leche: azúcar, grasa y cacao",
-        "path": "content/articles/es/463-chocolate-negro-vs-chocolate-leche.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 464,
         "title": "Por qué la lechuga se pone marrón",
         "path": "content/articles/es/464-por-que-lechuga-se-pone-marron.json",
@@ -3385,13 +3098,6 @@
       },
       {
         "language": "es",
-        "number": 490,
-        "title": "Quinoa vs. lentejas: proteína, fibra y carbohidratos",
-        "path": "content/articles/es/490-quinoa-vs-lentejas-proteina-fibra-carbohidratos.json",
-        "value": 1
-      },
-      {
-        "language": "es",
         "number": 567,
         "title": "Soja texturizada o tofu: diferencias nutricionales y de uso",
         "path": "content/articles/es/567-soja-texturizada-vs-tofu-diferencias.json",
@@ -3402,13 +3108,6 @@
         "number": 597,
         "title": "Cúrcuma vs. curcumina: qué son y en qué se diferencian",
         "path": "content/articles/es/597-curcuma-vs-curcumina-diferencias.json",
-        "value": 1
-      },
-      {
-        "language": "es",
-        "number": 606,
-        "title": "Dátiles: azúcar, fibra y calorías",
-        "path": "content/articles/es/606-datiles-azucar-fibra-calorias.json",
         "value": 1
       },
       {
@@ -3476,128 +3175,9 @@
       },
       {
         "language": "en",
-        "number": 7,
-        "title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
-        "path": "content/articles/en/007-chicken-turkey-pork-beef-comparison.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 10,
         "title": "Why Meat Releases Water When You Cook It — and How to Get Better Browning",
         "path": "content/articles/en/010-why-meat-releases-water.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 11,
-        "title": "High-Protein, Low-Calorie Foods: Protein per 100 Calories",
-        "path": "content/articles/en/011-high-protein-low-calorie-foods.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 12,
-        "title": "Highest-Protein Legumes: Ranking per 100 Grams and Serving",
-        "path": "content/articles/en/012-highest-protein-legumes.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 15,
-        "title": "Highest-Protein Cheeses: Ranking per 100 Grams and Serving",
-        "path": "content/articles/en/015-highest-protein-cheeses.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 16,
-        "title": "Highest-Protein Nuts: Ranking per 100 Grams and per Ounce",
-        "path": "content/articles/en/016-highest-protein-nuts.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 17,
-        "title": "Highest-Protein Seeds: Ranking per 100 Grams and per Ounce",
-        "path": "content/articles/en/017-highest-protein-seeds.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 18,
-        "title": "Highest-Protein Vegetables: How Much They Actually Provide",
-        "path": "content/articles/en/018-highest-protein-vegetables.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 47,
-        "title": "Lentils vs Chickpeas vs Beans: A Full Nutrition Comparison",
-        "path": "content/articles/en/047-lentils-chickpeas-beans-comparison.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 48,
-        "title": "Chicken Breast vs Thigh: Protein, Fat and Calories",
-        "path": "content/articles/en/048-chicken-breast-vs-thigh.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 49,
-        "title": "Chicken vs Turkey: Nutrition Differences",
-        "path": "content/articles/en/049-chicken-vs-turkey.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 55,
-        "title": "White Rice vs Brown Rice: Nutrition Differences",
-        "path": "content/articles/en/055-white-vs-brown-rice.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 57,
-        "title": "Potato vs Sweet Potato: Nutrition Differences",
-        "path": "content/articles/en/057-potato-vs-sweet-potato.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 58,
-        "title": "Greek Yogurt vs Regular Yogurt: Protein, Fat and Sugar",
-        "path": "content/articles/en/058-greek-vs-regular-yogurt.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 59,
-        "title": "Cottage Cheese vs Greek Yogurt: Protein, Calories and Key Differences",
-        "path": "content/articles/en/059-cottage-cheese-vs-greek-yogurt.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 60,
-        "title": "Whole Egg vs Egg Whites: Protein, Fat and Nutrients",
-        "path": "content/articles/en/060-whole-egg-vs-egg-whites.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 76,
-        "title": "The highest-fiber nuts",
-        "path": "content/articles/en/076-highest-fiber-nuts.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 77,
-        "title": "The highest-fiber seeds",
-        "path": "content/articles/en/077-highest-fiber-seeds.json",
         "value": 1
       },
       {
@@ -3609,30 +3189,9 @@
       },
       {
         "language": "en",
-        "number": 96,
-        "title": "How much fat is in an avocado, and what type is it?",
-        "path": "content/articles/en/096-how-much-fat-in-avocado.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 98,
-        "title": "Almonds: protein, fiber, fat and calories",
-        "path": "content/articles/en/098-almonds-nutrition.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 1140,
         "title": "Why Some Egg Yolks Are More Orange — and Whether They Are More Nutritious",
         "path": "content/articles/en/1140-why-some-egg-yolks-are-more-orange-and-nutrition.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 129,
-        "title": "High-protein foods that aren't meat",
-        "path": "content/articles/en/129-high-protein-foods-not-meat.json",
         "value": 1
       },
       {
@@ -3679,97 +3238,6 @@
       },
       {
         "language": "en",
-        "number": 168,
-        "title": "Avocado vs. banana: potassium, fiber, and calories",
-        "path": "content/articles/en/168-avocado-vs-banana-potassium-fiber-calories.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 170,
-        "title": "Chicken cuts: protein, fat, and calories by part",
-        "path": "content/articles/en/170-chicken-cuts-protein-fat-calories.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 173,
-        "title": "Turkey: protein, fat, and calories by cut",
-        "path": "content/articles/en/173-turkey-protein-fat-calories-cuts.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 174,
-        "title": "Green peas: protein, fiber, carbs, and calories",
-        "path": "content/articles/en/174-green-peas-protein-fiber-calories.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 182,
-        "title": "Which nuts have the fewest calories?",
-        "path": "content/articles/en/182-lowest-calorie-nuts.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 191,
-        "title": "Cashews vs. almonds: nutrition differences",
-        "path": "content/articles/en/191-cashews-vs-almonds-nutrition.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 192,
-        "title": "Best dairy-free protein sources: animal and plant options",
-        "path": "content/articles/en/192-best-dairy-free-protein-sources.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 200,
-        "title": "Leanest meats: a ranking of lower-fat cuts",
-        "path": "content/articles/en/200-leanest-meat-cuts-ranking.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 203,
-        "title": "Brown rice vs. quinoa: protein, fiber, and calories",
-        "path": "content/articles/en/203-brown-rice-vs-quinoa-protein-fiber-calories.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 209,
-        "title": "Lowest-calorie legumes: a cooked ranking",
-        "path": "content/articles/en/209-lowest-calorie-legumes.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 233,
-        "title": "Legumes lowest in carbohydrates",
-        "path": "content/articles/en/233-lowest-carb-legumes.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 275,
-        "title": "The lowest-fat cheeses",
-        "path": "content/articles/en/275-lowest-fat-cheeses.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 281,
-        "title": "The leanest cuts of beef",
-        "path": "content/articles/en/281-leanest-beef-cuts.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 376,
         "title": "What do the black, red, green and white labels on Iberian ham mean?",
         "path": "content/articles/en/376-iberian-ham-label-colors.json",
@@ -3787,20 +3255,6 @@
         "number": 381,
         "title": "What is the most tender part of a Spanish ham?",
         "path": "content/articles/en/381-most-tender-part-spanish-ham.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 387,
-        "title": "Fruits lowest in sugar",
-        "path": "content/articles/en/387-fruits-lowest-in-sugar.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 388,
-        "title": "Fruits lowest in calories",
-        "path": "content/articles/en/388-fruits-lowest-in-calories.json",
         "value": 1
       },
       {
@@ -3826,37 +3280,9 @@
       },
       {
         "language": "en",
-        "number": 433,
-        "title": "Lowest-Calorie Vegetables",
-        "path": "content/articles/en/433-lowest-calorie-vegetables.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 435,
-        "title": "Vegetables Highest in Vitamin C",
-        "path": "content/articles/en/435-vegetables-highest-vitamin-c.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 436,
-        "title": "Peanuts: Protein, Fat, Fiber, and Calories",
-        "path": "content/articles/en/436-peanuts-protein-fat-fiber.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 440,
         "title": "Pink or Reddish Lettuce: What It Means and Whether You Can Eat It",
         "path": "content/articles/en/440-pink-reddish-lettuce-safe-to-eat.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 441,
-        "title": "Fruits With the Most Water",
-        "path": "content/articles/en/441-fruits-highest-water.json",
         "value": 1
       },
       {
@@ -3903,20 +3329,6 @@
       },
       {
         "language": "en",
-        "number": 462,
-        "title": "Oats vs. Quinoa: Protein, Fiber, and Micronutrients",
-        "path": "content/articles/en/462-oats-vs-quinoa-protein-fiber.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 463,
-        "title": "Dark Chocolate vs. Milk Chocolate: Sugar, Fat, and Cocoa",
-        "path": "content/articles/en/463-dark-vs-milk-chocolate.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 464,
         "title": "Why Lettuce Turns Brown",
         "path": "content/articles/en/464-why-lettuce-turns-brown.json",
@@ -3952,13 +3364,6 @@
       },
       {
         "language": "en",
-        "number": 490,
-        "title": "Quinoa vs. Lentils: Protein, Fiber, and Carbs Compared",
-        "path": "content/articles/en/490-quinoa-vs-lentils-protein-fiber-carbs.json",
-        "value": 1
-      },
-      {
-        "language": "en",
         "number": 567,
         "title": "TVP vs Tofu: Protein, Texture, and Nutrition Compared",
         "path": "content/articles/en/567-tvp-vs-tofu-nutrition.json",
@@ -3969,13 +3374,6 @@
         "number": 597,
         "title": "Turmeric vs. curcumin: what is the difference?",
         "path": "content/articles/en/597-turmeric-vs-curcumin-differences.json",
-        "value": 1
-      },
-      {
-        "language": "en",
-        "number": 606,
-        "title": "Dates: sugar, fiber and calories",
-        "path": "content/articles/en/606-dates-sugar-fiber-calories.json",
         "value": 1
       },
       {
