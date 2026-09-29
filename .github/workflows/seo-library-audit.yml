@@ -1,0 +1,57 @@
+name: Audit SEO library
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/articles/es/**.json'
+      - 'content/articles/en/**.json'
+      - 'content/articles/taxonomies.json'
+      - 'content/tools/audit-seo-library.py'
+      - '.github/workflows/seo-library-audit.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: quinnoa-seo-library-audit
+  cancel-in-progress: true
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Audit SEO and content inventory
+        run: |
+          set -euo pipefail
+          python3 content/tools/audit-seo-library.py
+          cat content/audits/SEO-LIBRARY-AUDIT.md
+
+      - name: Upload detailed audit
+        uses: actions/upload-artifact@v4
+        with:
+          name: seo-library-audit
+          path: |
+            content/audits/SEO-LIBRARY-AUDIT.json
+            content/audits/SEO-LIBRARY-AUDIT.md
+          retention-days: 14
+
+      - name: Commit current audit report
+        shell: bash
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- content/audits/SEO-LIBRARY-AUDIT.json content/audits/SEO-LIBRARY-AUDIT.md; then
+            echo "SEO library audit is already current."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add content/audits/SEO-LIBRARY-AUDIT.json content/audits/SEO-LIBRARY-AUDIT.md
+          git commit -m "Update SEO library audit"
+          git push origin HEAD:main
