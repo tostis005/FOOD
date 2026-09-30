@@ -4,8 +4,8 @@
     "es": 1366,
     "en": 1366,
     "logical_articles": 1366,
-    "indexable_logical_articles": 1346,
-    "consolidated_redirects": 20,
+    "indexable_logical_articles": 1342,
+    "consolidated_redirects": 24,
     "max_article_number": 1366,
     "invalid_json": 0,
     "missing_translation_pairs": 0,
@@ -14,7 +14,7 @@
   "issue_counts": {},
   "source_data_signals": {
     "raw_seo_title_under_28": 57,
-    "raw_meta_over_220": 225
+    "raw_meta_over_220": 219
   },
   "cannibalization_allowlist": [
     {
@@ -370,13 +370,17 @@
     "1137": 593,
     "1138": 594,
     "1148": 468,
+    "1150": 423,
     "1151": 327,
     "1152": 287,
     "1183": 655,
     "1228": 688,
+    "1290": 675,
     "1296": 147,
     "1304": 767,
+    "1305": 766,
     "1306": 775,
+    "1318": 546,
     "1326": 286,
     "1340": 673,
     "1341": 674,
@@ -397,11 +401,11 @@
       "a_title": "Why Meat Can Look Green or Rainbow-Colored Without Being Spoiled",
       "b": 1100,
       "b_title": "Why Fish Can Have a Rainbow Shine Without Being Spoiled",
-      "similarity": 0.6935,
+      "similarity": 0.6933,
       "title_jaccard": 0.5833,
-      "weighted_title_jaccard": 0.7537,
-      "rare_shared_idf": 7.107,
-      "subject_shared_idf": 7.107,
+      "weighted_title_jaccard": 0.7535,
+      "rare_shared_idf": 7.104,
+      "subject_shared_idf": 7.104,
       "subject_shared_tokens": [
         "being",
         "colored",
@@ -419,9 +423,9 @@
       "b_title": "¿Cocinar las verduras destruye su fibra?",
       "similarity": 0.5112,
       "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.724,
-      "rare_shared_idf": 6.1262,
-      "subject_shared_idf": 6.1262,
+      "weighted_title_jaccard": 0.7241,
+      "rare_shared_idf": 6.1232,
+      "subject_shared_idf": 6.1232,
       "subject_shared_tokens": [
         "destruye"
       ],
@@ -434,11 +438,11 @@
       "a_title": "Caldo de huesos o caldo tradicional: ¿hay realmente tanta diferencia?",
       "b": 1310,
       "b_title": "Caldo de huesos: qué es, cuánto colágeno y proteína aporta realmente",
-      "similarity": 0.7122,
+      "similarity": 0.712,
       "title_jaccard": 0.3333,
       "weighted_title_jaccard": 0.4097,
-      "rare_shared_idf": 6.0084,
-      "subject_shared_idf": 6.0084,
+      "rare_shared_idf": 6.0054,
+      "subject_shared_idf": 6.0054,
       "subject_shared_tokens": [
         "caldo",
         "hueso"
@@ -452,11 +456,11 @@
       "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
       "b": 512,
       "b_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
-      "similarity": 0.7091,
+      "similarity": 0.7089,
       "title_jaccard": 0.3333,
-      "weighted_title_jaccard": 0.4644,
-      "rare_shared_idf": 5.7207,
-      "subject_shared_idf": 5.7207,
+      "weighted_title_jaccard": 0.4639,
+      "rare_shared_idf": 5.7178,
+      "subject_shared_idf": 5.7178,
       "subject_shared_tokens": [
         "chocolate"
       ],
@@ -469,30 +473,13 @@
       "a_title": "Peanuts: Protein, Fat, Fiber, and Calories",
       "b": 550,
       "b_title": "Peanuts vs. almonds: nutrition differences",
-      "similarity": 0.7089,
+      "similarity": 0.7087,
       "title_jaccard": 0.375,
-      "weighted_title_jaccard": 0.4251,
-      "rare_shared_idf": 5.9031,
-      "subject_shared_idf": 5.9031,
+      "weighted_title_jaccard": 0.4244,
+      "rare_shared_idf": 5.9001,
+      "subject_shared_idf": 5.9001,
       "subject_shared_tokens": [
         "peanut"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 553,
-      "a_title": "Hummus: protein, fiber, fat and nutrition",
-      "b": 555,
-      "b_title": "Hummus vs. tahini: nutrition differences",
-      "similarity": 0.7072,
-      "title_jaccard": 0.2857,
-      "weighted_title_jaccard": 0.4185,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
-      "subject_shared_tokens": [
-        "hummus"
       ],
       "family_match": true,
       "type_overlap": 1
@@ -503,13 +490,30 @@
       "a_title": "Chicken vs Turkey: Nutrition Differences",
       "b": 173,
       "b_title": "Turkey: protein, fat, and calories by cut",
-      "similarity": 0.7039,
+      "similarity": 0.7085,
       "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5351,
-      "rare_shared_idf": 5.8077,
-      "subject_shared_idf": 5.8077,
+      "weighted_title_jaccard": 0.539,
+      "rare_shared_idf": 5.9001,
+      "subject_shared_idf": 5.9001,
       "subject_shared_tokens": [
         "turkey"
+      ],
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 553,
+      "a_title": "Hummus: protein, fiber, fat and nutrition",
+      "b": 555,
+      "b_title": "Hummus vs. tahini: nutrition differences",
+      "similarity": 0.7049,
+      "title_jaccard": 0.2857,
+      "weighted_title_jaccard": 0.4137,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
+      "subject_shared_tokens": [
+        "hummus"
       ],
       "family_match": true,
       "type_overlap": 1
@@ -523,8 +527,8 @@
       "similarity": 0.7017,
       "title_jaccard": 0.6667,
       "weighted_title_jaccard": 0.651,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
       "subject_shared_tokens": [
         "cheese",
         "cottage"
@@ -541,8 +545,8 @@
       "similarity": 0.7015,
       "title_jaccard": 0.3333,
       "weighted_title_jaccard": 0.4426,
-      "rare_shared_idf": 5.9031,
-      "subject_shared_idf": 5.9031,
+      "rare_shared_idf": 5.9001,
+      "subject_shared_idf": 5.9001,
       "subject_shared_tokens": [
         "peanut"
       ],
@@ -555,11 +559,11 @@
       "a_title": "Fruits lowest in sugar",
       "b": 388,
       "b_title": "Fruits lowest in calories",
-      "similarity": 0.6205,
+      "similarity": 0.6204,
       "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.6971,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "weighted_title_jaccard": 0.6972,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "lowest"
       ],
@@ -572,13 +576,30 @@
       "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
       "b": 513,
       "b_title": "Qué significa el porcentaje de cacao del chocolate",
-      "similarity": 0.6942,
+      "similarity": 0.6941,
       "title_jaccard": 0.3333,
-      "weighted_title_jaccard": 0.4087,
-      "rare_shared_idf": 5.7207,
-      "subject_shared_idf": 5.7207,
+      "weighted_title_jaccard": 0.4084,
+      "rare_shared_idf": 5.7178,
+      "subject_shared_idf": 5.7178,
       "subject_shared_tokens": [
         "chocolate"
+      ],
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 606,
+      "a_title": "Dates: sugar, fiber and calories",
+      "b": 608,
+      "b_title": "Dates vs. raisins: sugar, fiber and calories",
+      "similarity": 0.6863,
+      "title_jaccard": 0.5,
+      "weighted_title_jaccard": 0.428,
+      "rare_shared_idf": 5.9001,
+      "subject_shared_idf": 5.9001,
+      "subject_shared_tokens": [
+        "dates"
       ],
       "family_match": true,
       "type_overlap": 1
@@ -589,11 +610,11 @@
       "a_title": "Hot vs. cooled potatoes: what happens to resistant starch?",
       "b": 610,
       "b_title": "Resistant starch in cooled rice, potatoes and pasta",
-      "similarity": 0.6869,
+      "similarity": 0.6862,
       "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5858,
-      "rare_shared_idf": 6.5962,
-      "subject_shared_idf": 6.5962,
+      "weighted_title_jaccard": 0.5844,
+      "rare_shared_idf": 6.5932,
+      "subject_shared_idf": 6.5932,
       "subject_shared_tokens": [
         "cooled",
         "resistant"
@@ -602,33 +623,16 @@
       "type_overlap": 2
     },
     {
-      "language": "en",
-      "a": 606,
-      "a_title": "Dates: sugar, fiber and calories",
-      "b": 608,
-      "b_title": "Dates vs. raisins: sugar, fiber and calories",
-      "similarity": 0.6864,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.4281,
-      "rare_shared_idf": 5.9031,
-      "subject_shared_idf": 5.9031,
-      "subject_shared_tokens": [
-        "dates"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
       "language": "es",
       "a": 606,
       "a_title": "Dátiles: azúcar, fibra y calorías",
       "b": 608,
       "b_title": "Dátiles vs. pasas: azúcar, fibra y calorías",
-      "similarity": 0.6858,
+      "similarity": 0.6856,
       "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5076,
-      "rare_shared_idf": 6.4139,
-      "subject_shared_idf": 6.4139,
+      "weighted_title_jaccard": 0.5075,
+      "rare_shared_idf": 6.4109,
+      "subject_shared_idf": 6.4109,
       "subject_shared_tokens": [
         "datile"
       ],
@@ -641,31 +645,14 @@
       "a_title": "How long does a whole Spanish ham last once you start cutting it?",
       "b": 368,
       "b_title": "How to store a whole Spanish ham after you start cutting it",
-      "similarity": 0.6715,
+      "similarity": 0.6735,
       "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.6848,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
+      "weighted_title_jaccard": 0.6856,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
       "subject_shared_tokens": [
         "ham",
         "spanish"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 546,
-      "a_title": "Tahini: qué es y qué aporta nutricionalmente",
-      "b": 1318,
-      "b_title": "Tahini: valor nutricional, grasas, proteína y calcio",
-      "similarity": 0.6827,
-      "title_jaccard": 0.3,
-      "weighted_title_jaccard": 0.3275,
-      "rare_shared_idf": 6.0084,
-      "subject_shared_idf": 6.0084,
-      "subject_shared_tokens": [
-        "tahini"
       ],
       "family_match": true,
       "type_overlap": 1
@@ -676,11 +663,11 @@
       "a_title": "Semillas de cáñamo: proteína y perfil nutricional",
       "b": 544,
       "b_title": "Chía vs. semillas de cáñamo",
-      "similarity": 0.6824,
+      "similarity": 0.6825,
       "title_jaccard": 0.4,
-      "weighted_title_jaccard": 0.4336,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
+      "weighted_title_jaccard": 0.4338,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
       "subject_shared_tokens": [
         "canamo"
       ],
@@ -695,9 +682,9 @@
       "b_title": "Verduras frescas vs. congeladas: diferencias nutricionales",
       "similarity": 0.6431,
       "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.6801,
-      "rare_shared_idf": 5.9031,
-      "subject_shared_idf": 5.9031,
+      "weighted_title_jaccard": 0.6805,
+      "rare_shared_idf": 5.9001,
+      "subject_shared_idf": 5.9001,
       "subject_shared_tokens": [
         "congelada"
       ],
@@ -710,30 +697,13 @@
       "a_title": "Atún: proteína, grasa, mercurio y valor nutricional",
       "b": 763,
       "b_title": "Atún blanco o atún claro: cuál suele contener más mercurio",
-      "similarity": 0.6798,
+      "similarity": 0.6794,
       "title_jaccard": 0.1818,
-      "weighted_title_jaccard": 0.3136,
-      "rare_shared_idf": 5.8077,
-      "subject_shared_idf": 5.8077,
+      "weighted_title_jaccard": 0.313,
+      "rare_shared_idf": 5.8048,
+      "subject_shared_idf": 5.8048,
       "subject_shared_tokens": [
         "mercurio"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 271,
-      "a_title": "How to thaw meat safely",
-      "b": 273,
-      "b_title": "Can you thaw meat in the microwave?",
-      "similarity": 0.5963,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.6795,
-      "rare_shared_idf": 5.7207,
-      "subject_shared_idf": 5.7207,
-      "subject_shared_tokens": [
-        "microwave"
       ],
       "family_match": true,
       "type_overlap": 2
@@ -744,16 +714,34 @@
       "a_title": "Las semillas con más omega-3",
       "b": 544,
       "b_title": "Chía vs. semillas de cáñamo",
-      "similarity": 0.6236,
+      "similarity": 0.624,
       "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.6791,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
+      "weighted_title_jaccard": 0.6793,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
       "subject_shared_tokens": [
         "canamo"
       ],
       "family_match": true,
       "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 319,
+      "a_title": "Serrano ham vs. Iberian ham: nutrition and production differences",
+      "b": 370,
+      "b_title": "Can you freeze Serrano ham or cooked ham?",
+      "similarity": 0.6789,
+      "title_jaccard": 0.2857,
+      "weighted_title_jaccard": 0.3865,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
+      "subject_shared_tokens": [
+        "ham",
+        "serrano"
+      ],
+      "family_match": true,
+      "type_overlap": 0
     },
     {
       "language": "en",
@@ -763,9 +751,9 @@
       "b_title": "Chia vs. hemp seeds",
       "similarity": 0.6788,
       "title_jaccard": 0.4444,
-      "weighted_title_jaccard": 0.5005,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
+      "weighted_title_jaccard": 0.5003,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
       "subject_shared_tokens": [
         "hemp"
       ],
@@ -781,8 +769,8 @@
       "similarity": 0.6784,
       "title_jaccard": 0.2143,
       "weighted_title_jaccard": 0.2804,
-      "rare_shared_idf": 6.8193,
-      "subject_shared_idf": 6.8193,
+      "rare_shared_idf": 6.8164,
+      "subject_shared_idf": 6.8164,
       "subject_shared_tokens": [
         "brew"
       ],
@@ -795,16 +783,33 @@
       "a_title": "Cacao puro: fibra, grasa, proteína y minerales",
       "b": 505,
       "b_title": "Cacao puro vs. cacao soluble: diferencias",
-      "similarity": 0.6782,
+      "similarity": 0.678,
       "title_jaccard": 0.2857,
-      "weighted_title_jaccard": 0.4982,
-      "rare_shared_idf": 6.0084,
-      "subject_shared_idf": 6.0084,
+      "weighted_title_jaccard": 0.4976,
+      "rare_shared_idf": 6.0054,
+      "subject_shared_idf": 6.0054,
       "subject_shared_tokens": [
         "puro"
       ],
       "family_match": true,
       "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 271,
+      "a_title": "How to thaw meat safely",
+      "b": 273,
+      "b_title": "Can you thaw meat in the microwave?",
+      "similarity": 0.5961,
+      "title_jaccard": 0.5714,
+      "weighted_title_jaccard": 0.678,
+      "rare_shared_idf": 5.7178,
+      "subject_shared_idf": 5.7178,
+      "subject_shared_tokens": [
+        "microwave"
+      ],
+      "family_match": true,
+      "type_overlap": 2
     },
     {
       "language": "en",
@@ -814,9 +819,9 @@
       "b_title": "Seitan vs. tofu vs. tempeh: nutrition compared",
       "similarity": 0.6766,
       "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5306,
-      "rare_shared_idf": 5.6407,
-      "subject_shared_idf": 5.6407,
+      "weighted_title_jaccard": 0.5308,
+      "rare_shared_idf": 5.6377,
+      "subject_shared_idf": 5.6377,
       "subject_shared_tokens": [
         "tempeh"
       ],
@@ -825,50 +830,15 @@
     },
     {
       "language": "en",
-      "a": 319,
-      "a_title": "Serrano ham vs. Iberian ham: nutrition and production differences",
-      "b": 370,
-      "b_title": "Can you freeze Serrano ham or cooked ham?",
-      "similarity": 0.6757,
-      "title_jaccard": 0.2857,
-      "weighted_title_jaccard": 0.3839,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
-      "subject_shared_tokens": [
-        "ham",
-        "serrano"
-      ],
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 542,
-      "a_title": "Whole-bean vs. ground coffee",
-      "b": 964,
-      "b_title": "Is a Coffee Bean Really a Bean or a Seed?",
-      "similarity": 0.6748,
-      "title_jaccard": 0.2857,
-      "weighted_title_jaccard": 0.4037,
-      "rare_shared_idf": 5.7207,
-      "subject_shared_idf": 5.7207,
-      "subject_shared_tokens": [
-        "bean"
-      ],
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
       "a": 314,
       "a_title": "How to tell if Serrano ham has gone bad",
       "b": 370,
       "b_title": "Can you freeze Serrano ham or cooked ham?",
-      "similarity": 0.6736,
+      "similarity": 0.6764,
       "title_jaccard": 0.25,
-      "weighted_title_jaccard": 0.39,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
+      "weighted_title_jaccard": 0.3928,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
       "subject_shared_tokens": [
         "ham",
         "serrano"
@@ -877,22 +847,21 @@
       "type_overlap": 2
     },
     {
-      "language": "es",
-      "a": 675,
-      "a_title": "Leche pasteurizada o UHT: por qué una dura días y otra meses",
-      "b": 1290,
-      "b_title": "Leche UHT vs. pasteurizada: diferencias, conservación y valor nutricional",
-      "similarity": 0.6712,
-      "title_jaccard": 0.2727,
-      "weighted_title_jaccard": 0.3632,
-      "rare_shared_idf": 6.8193,
-      "subject_shared_idf": 6.8193,
+      "language": "en",
+      "a": 542,
+      "a_title": "Whole-bean vs. ground coffee",
+      "b": 964,
+      "b_title": "Is a Coffee Bean Really a Bean or a Seed?",
+      "similarity": 0.6743,
+      "title_jaccard": 0.2857,
+      "weighted_title_jaccard": 0.4024,
+      "rare_shared_idf": 5.7178,
+      "subject_shared_idf": 5.7178,
       "subject_shared_tokens": [
-        "pasteurizada",
-        "uht"
+        "bean"
       ],
       "family_match": true,
-      "type_overlap": 1
+      "type_overlap": 0
     },
     {
       "language": "es",
@@ -900,11 +869,11 @@
       "a_title": "Soja texturizada: proteína, fibra y valor nutricional",
       "b": 567,
       "b_title": "Soja texturizada o tofu: diferencias nutricionales y de uso",
-      "similarity": 0.669,
+      "similarity": 0.6687,
       "title_jaccard": 0.2727,
-      "weighted_title_jaccard": 0.3478,
-      "rare_shared_idf": 6.8193,
-      "subject_shared_idf": 6.8193,
+      "weighted_title_jaccard": 0.3463,
+      "rare_shared_idf": 6.8164,
+      "subject_shared_idf": 6.8164,
       "subject_shared_tokens": [
         "texturizada"
       ],
@@ -917,11 +886,11 @@
       "a_title": "Probiotics vs. prebiotics: the difference",
       "b": 1245,
       "b_title": "Postbiotics: What They Are and How They Differ From Probiotics and Prebiotics",
-      "similarity": 0.6669,
+      "similarity": 0.6668,
       "title_jaccard": 0.4,
-      "weighted_title_jaccard": 0.4853,
-      "rare_shared_idf": 6.0084,
-      "subject_shared_idf": 6.0084,
+      "weighted_title_jaccard": 0.485,
+      "rare_shared_idf": 6.0054,
+      "subject_shared_idf": 6.0054,
       "subject_shared_tokens": [
         "prebiotic",
         "probiotic"
@@ -930,33 +899,16 @@
       "type_overlap": 1
     },
     {
-      "language": "es",
-      "a": 453,
-      "a_title": "Masa madre vs. pan convencional: ¿qué cambia realmente?",
-      "b": 559,
-      "b_title": "Pan de masa madre: qué cambia durante la fermentación",
-      "similarity": 0.6653,
-      "title_jaccard": 0.3636,
-      "weighted_title_jaccard": 0.3575,
-      "rare_shared_idf": 5.7207,
-      "subject_shared_idf": 5.7207,
-      "subject_shared_tokens": [
-        "madre"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
       "language": "en",
       "a": 59,
       "a_title": "Cottage Cheese vs Greek Yogurt: Protein, Calories and Key Differences",
       "b": 582,
       "b_title": "Cottage cheese: protein, fat and calories",
-      "similarity": 0.6651,
+      "similarity": 0.665,
       "title_jaccard": 0.4444,
-      "weighted_title_jaccard": 0.4174,
-      "rare_shared_idf": 5.8077,
-      "subject_shared_idf": 5.8077,
+      "weighted_title_jaccard": 0.4172,
+      "rare_shared_idf": 5.8048,
+      "subject_shared_idf": 5.8048,
       "subject_shared_tokens": [
         "cottage"
       ],
@@ -965,15 +917,32 @@
     },
     {
       "language": "es",
+      "a": 453,
+      "a_title": "Masa madre vs. pan convencional: ¿qué cambia realmente?",
+      "b": 559,
+      "b_title": "Pan de masa madre: qué cambia durante la fermentación",
+      "similarity": 0.665,
+      "title_jaccard": 0.3636,
+      "weighted_title_jaccard": 0.3566,
+      "rare_shared_idf": 5.7178,
+      "subject_shared_idf": 5.7178,
+      "subject_shared_tokens": [
+        "madre"
+      ],
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
       "a": 436,
       "a_title": "Cacahuetes: proteína, grasa y fibra",
       "b": 550,
       "b_title": "Cacahuetes vs. almendras: diferencias nutricionales",
-      "similarity": 0.663,
+      "similarity": 0.6626,
       "title_jaccard": 0.375,
-      "weighted_title_jaccard": 0.3994,
-      "rare_shared_idf": 5.9031,
-      "subject_shared_idf": 5.9031,
+      "weighted_title_jaccard": 0.3986,
+      "rare_shared_idf": 5.9001,
+      "subject_shared_idf": 5.9001,
       "subject_shared_tokens": [
         "cacahuete"
       ],
@@ -989,8 +958,8 @@
       "similarity": 0.6615,
       "title_jaccard": 0.5,
       "weighted_title_jaccard": 0.4989,
-      "rare_shared_idf": 7.107,
-      "subject_shared_idf": 7.107,
+      "rare_shared_idf": 7.104,
+      "subject_shared_idf": 7.104,
       "subject_shared_tokens": [
         "hake"
       ],
@@ -1003,11 +972,11 @@
       "a_title": "¿Hay que lavar el arroz antes de cocinarlo?",
       "b": 306,
       "b_title": "¿Hay que lavar el pescado antes de cocinarlo?",
-      "similarity": 0.422,
+      "similarity": 0.4219,
       "title_jaccard": 0.6,
       "weighted_title_jaccard": 0.6576,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "lavar"
       ],
@@ -1020,11 +989,11 @@
       "a_title": "Edamame vs. garbanzos: proteína, fibra y calorías",
       "b": 108,
       "b_title": "Edamame: proteína, fibra y nutrientes",
-      "similarity": 0.6553,
+      "similarity": 0.6552,
       "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.6353,
-      "rare_shared_idf": 6.5962,
-      "subject_shared_idf": 6.5962,
+      "weighted_title_jaccard": 0.6348,
+      "rare_shared_idf": 6.5932,
+      "subject_shared_idf": 6.5932,
       "subject_shared_tokens": [
         "edamame"
       ],
@@ -1037,11 +1006,11 @@
       "a_title": "Merluza vs. salmón: proteína, grasa y calorías",
       "b": 201,
       "b_title": "Merluza: proteína, grasa y calorías",
-      "similarity": 0.6521,
+      "similarity": 0.652,
       "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5244,
-      "rare_shared_idf": 6.8193,
-      "subject_shared_idf": 6.8193,
+      "weighted_title_jaccard": 0.5242,
+      "rare_shared_idf": 6.8164,
+      "subject_shared_idf": 6.8164,
       "subject_shared_tokens": [
         "merluza"
       ],
@@ -1056,9 +1025,9 @@
       "b_title": "Cottage cheese: proteína, grasa y calorías",
       "similarity": 0.6464,
       "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5866,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
+      "weighted_title_jaccard": 0.5865,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
       "subject_shared_tokens": [
         "cheese",
         "cottage"
@@ -1072,11 +1041,11 @@
       "a_title": "Quinoa vs. Bulgur: Nutrition Compared",
       "b": 496,
       "b_title": "Bulgur vs. Couscous: Nutrition Compared",
-      "similarity": 0.6462,
+      "similarity": 0.6461,
       "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.5114,
-      "rare_shared_idf": 6.5962,
-      "subject_shared_idf": 6.5962,
+      "weighted_title_jaccard": 0.5116,
+      "rare_shared_idf": 6.5932,
+      "subject_shared_idf": 6.5932,
       "subject_shared_tokens": [
         "bulgur"
       ],
@@ -1091,9 +1060,9 @@
       "b_title": "Cottage cheese vs. queso fresco: diferencias nutricionales",
       "similarity": 0.6067,
       "title_jaccard": 0.625,
-      "weighted_title_jaccard": 0.6461,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
+      "weighted_title_jaccard": 0.6457,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
       "subject_shared_tokens": [
         "cheese",
         "cottage"
@@ -1107,13 +1076,30 @@
       "a_title": "¿Hay que lavar el pollo antes de cocinarlo?",
       "b": 306,
       "b_title": "¿Hay que lavar el pescado antes de cocinarlo?",
-      "similarity": 0.6194,
+      "similarity": 0.6193,
       "title_jaccard": 0.6,
       "weighted_title_jaccard": 0.6456,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "lavar"
+      ],
+      "family_match": false,
+      "type_overlap": 2
+    },
+    {
+      "language": "es",
+      "a": 66,
+      "a_title": "Cuánto duran los huevos cocidos en la nevera",
+      "b": 217,
+      "b_title": "Cuánto duran los garbanzos cocidos en la nevera",
+      "similarity": 0.4896,
+      "title_jaccard": 0.6667,
+      "weighted_title_jaccard": 0.6414,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
+      "subject_shared_tokens": [
+        "duran"
       ],
       "family_match": false,
       "type_overlap": 2
@@ -1124,11 +1110,11 @@
       "a_title": "Kefir vs. Greek Yogurt: Protein, Fermentation, and Key Differences",
       "b": 460,
       "b_title": "Plain Yogurt vs. Kefir: Nutrition and Fermentation Differences",
-      "similarity": 0.6402,
+      "similarity": 0.6401,
       "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5688,
-      "rare_shared_idf": 5.7207,
-      "subject_shared_idf": 5.7207,
+      "weighted_title_jaccard": 0.5686,
+      "rare_shared_idf": 5.7178,
+      "subject_shared_idf": 5.7178,
       "subject_shared_tokens": [
         "kefir"
       ],
@@ -1143,9 +1129,9 @@
       "b_title": "Walnuts vs. pistachios: nutrition differences",
       "similarity": 0.6385,
       "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5865,
-      "rare_shared_idf": 5.8077,
-      "subject_shared_idf": 5.8077,
+      "weighted_title_jaccard": 0.5867,
+      "rare_shared_idf": 5.8048,
+      "subject_shared_idf": 5.8048,
       "subject_shared_tokens": [
         "walnut"
       ],
@@ -1161,8 +1147,8 @@
       "similarity": 0.6358,
       "title_jaccard": 0.6667,
       "weighted_title_jaccard": 0.6167,
-      "rare_shared_idf": 6.4139,
-      "subject_shared_idf": 6.4139,
+      "rare_shared_idf": 6.4109,
+      "subject_shared_idf": 6.4109,
       "subject_shared_tokens": [
         "edamame"
       ],
@@ -1175,11 +1161,11 @@
       "a_title": "¿Hay que lavar el arroz antes de cocinarlo?",
       "b": 256,
       "b_title": "¿Hay que lavar el pollo antes de cocinarlo?",
-      "similarity": 0.4138,
+      "similarity": 0.4137,
       "title_jaccard": 0.6,
       "weighted_title_jaccard": 0.6314,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "lavar"
       ],
@@ -1195,8 +1181,8 @@
       "similarity": 0.569,
       "title_jaccard": 0.6667,
       "weighted_title_jaccard": 0.6308,
-      "rare_shared_idf": 7.107,
-      "subject_shared_idf": 7.107,
+      "rare_shared_idf": 7.104,
+      "subject_shared_idf": 7.104,
       "subject_shared_tokens": [
         "azul",
         "morada",
@@ -1211,11 +1197,11 @@
       "a_title": "Dates vs. sugar: nutrition differences",
       "b": 608,
       "b_title": "Dates vs. raisins: sugar, fiber and calories",
-      "similarity": 0.6262,
+      "similarity": 0.6261,
       "title_jaccard": 0.7143,
-      "weighted_title_jaccard": 0.5945,
-      "rare_shared_idf": 5.9031,
-      "subject_shared_idf": 5.9031,
+      "weighted_title_jaccard": 0.5941,
+      "rare_shared_idf": 5.9001,
+      "subject_shared_idf": 5.9001,
       "subject_shared_tokens": [
         "dates"
       ],
@@ -1228,11 +1214,11 @@
       "a_title": "How long does chicken last in the freezer?",
       "b": 260,
       "b_title": "How long does fish last in the freezer?",
-      "similarity": 0.4621,
+      "similarity": 0.4623,
       "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.6154,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "weighted_title_jaccard": 0.6162,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "freezer"
       ],
@@ -1245,13 +1231,30 @@
       "a_title": "Sourdough bread: what changes during fermentation",
       "b": 561,
       "b_title": "Sourdough and digestibility: what fermentation changes",
-      "similarity": 0.6014,
+      "similarity": 0.6011,
       "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5155,
-      "rare_shared_idf": 6.0084,
-      "subject_shared_idf": 6.0084,
+      "weighted_title_jaccard": 0.5151,
+      "rare_shared_idf": 6.0054,
+      "subject_shared_idf": 6.0054,
       "subject_shared_tokens": [
         "sourdough"
+      ],
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 99,
+      "a_title": "Nueces: propiedades nutricionales y omega-3",
+      "b": 189,
+      "b_title": "Nueces vs. pistachos: diferencias nutricionales",
+      "similarity": 0.6,
+      "title_jaccard": 0.6667,
+      "weighted_title_jaccard": 0.5002,
+      "rare_shared_idf": 5.8048,
+      "subject_shared_idf": 5.8048,
+      "subject_shared_tokens": [
+        "nuece"
       ],
       "family_match": true,
       "type_overlap": 1
@@ -1264,9 +1267,9 @@
       "b_title": "Almendras vs. nueces: diferencias nutricionales",
       "similarity": 0.5979,
       "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5287,
-      "rare_shared_idf": 5.8077,
-      "subject_shared_idf": 5.8077,
+      "weighted_title_jaccard": 0.529,
+      "rare_shared_idf": 5.8048,
+      "subject_shared_idf": 5.8048,
       "subject_shared_tokens": [
         "nuece"
       ],
@@ -1279,11 +1282,11 @@
       "a_title": "Yogur griego o crema agria: diferencias y sustituciones",
       "b": 680,
       "b_title": "Queso crema o crema agria: diferencias y sustituciones",
-      "similarity": 0.5827,
+      "similarity": 0.5826,
       "title_jaccard": 0.5,
       "weighted_title_jaccard": 0.5973,
-      "rare_shared_idf": 7.107,
-      "subject_shared_idf": 7.107,
+      "rare_shared_idf": 7.104,
+      "subject_shared_idf": 7.104,
       "subject_shared_tokens": [
         "agria",
         "sustitucione"
@@ -1297,16 +1300,33 @@
       "a_title": "Legumbres como fuente económica de proteína",
       "b": 621,
       "b_title": "Huevos como fuente económica de proteína",
-      "similarity": 0.5963,
+      "similarity": 0.5964,
       "title_jaccard": 0.375,
       "weighted_title_jaccard": 0.5343,
-      "rare_shared_idf": 7.107,
-      "subject_shared_idf": 7.107,
+      "rare_shared_idf": 7.104,
+      "subject_shared_idf": 7.104,
       "subject_shared_tokens": [
         "economica"
       ],
       "family_match": false,
       "type_overlap": 1
+    },
+    {
+      "language": "en",
+      "a": 157,
+      "a_title": "Does cooking vegetables destroy vitamins?",
+      "b": 1074,
+      "b_title": "Does Cooking Vegetables Destroy Their Fiber?",
+      "similarity": 0.56,
+      "title_jaccard": 0.5,
+      "weighted_title_jaccard": 0.5946,
+      "rare_shared_idf": 5.9001,
+      "subject_shared_idf": 5.9001,
+      "subject_shared_tokens": [
+        "destroy"
+      ],
+      "family_match": false,
+      "type_overlap": 0
     },
     {
       "language": "es",
@@ -1316,9 +1336,9 @@
       "b_title": "Cottage cheese vs. ricotta: diferencias nutricionales",
       "similarity": 0.546,
       "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5908,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
+      "weighted_title_jaccard": 0.5911,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
       "subject_shared_tokens": [
         "cheese",
         "cottage"
@@ -1328,52 +1348,18 @@
     },
     {
       "language": "en",
-      "a": 157,
-      "a_title": "Does cooking vegetables destroy vitamins?",
-      "b": 1074,
-      "b_title": "Does Cooking Vegetables Destroy Their Fiber?",
-      "similarity": 0.5569,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5901,
-      "rare_shared_idf": 5.8077,
-      "subject_shared_idf": 5.8077,
-      "subject_shared_tokens": [
-        "destroy"
-      ],
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
       "a": 309,
       "a_title": "Should you wash eggs before storing them?",
       "b": 446,
       "b_title": "When Should You Wash Fruit: Before Storing or Before Eating?",
-      "similarity": 0.4796,
+      "similarity": 0.4793,
       "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5877,
-      "rare_shared_idf": 6.1262,
-      "subject_shared_idf": 6.1262,
+      "weighted_title_jaccard": 0.5878,
+      "rare_shared_idf": 6.1232,
+      "subject_shared_idf": 6.1232,
       "subject_shared_tokens": [
         "storing",
         "wash"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 268,
-      "a_title": "The lowest-calorie fish",
-      "b": 275,
-      "b_title": "The lowest-fat cheeses",
-      "similarity": 0.2227,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5874,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
-      "subject_shared_tokens": [
-        "lowest"
       ],
       "family_match": false,
       "type_overlap": 2
@@ -1386,14 +1372,31 @@
       "b_title": "¿Se puede comer boniato crudo?",
       "similarity": 0.469,
       "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.5873,
-      "rare_shared_idf": 6.1262,
-      "subject_shared_idf": 6.1262,
+      "weighted_title_jaccard": 0.5874,
+      "rare_shared_idf": 6.1232,
+      "subject_shared_idf": 6.1232,
       "subject_shared_tokens": [
         "boniato"
       ],
       "family_match": false,
       "type_overlap": 0
+    },
+    {
+      "language": "en",
+      "a": 268,
+      "a_title": "The lowest-calorie fish",
+      "b": 275,
+      "b_title": "The lowest-fat cheeses",
+      "similarity": 0.2227,
+      "title_jaccard": 0.5,
+      "weighted_title_jaccard": 0.5873,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
+      "subject_shared_tokens": [
+        "lowest"
+      ],
+      "family_match": false,
+      "type_overlap": 2
     },
     {
       "language": "en",
@@ -1403,9 +1406,9 @@
       "b_title": "Chia vs. hemp seeds",
       "similarity": 0.5859,
       "title_jaccard": 0.4,
-      "weighted_title_jaccard": 0.5336,
-      "rare_shared_idf": 6.2597,
-      "subject_shared_idf": 6.2597,
+      "weighted_title_jaccard": 0.5334,
+      "rare_shared_idf": 6.2568,
+      "subject_shared_idf": 6.2568,
       "subject_shared_tokens": [
         "hemp"
       ],
@@ -1418,11 +1421,11 @@
       "a_title": "Creatine Before or After a Workout: Does Timing Really Matter?",
       "b": 1174,
       "b_title": "Protein Before or After a Workout? How Much Timing Really Matters",
-      "similarity": 0.5075,
+      "similarity": 0.5076,
       "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.581,
-      "rare_shared_idf": 6.8193,
-      "subject_shared_idf": 6.8193,
+      "weighted_title_jaccard": 0.5815,
+      "rare_shared_idf": 6.8164,
+      "subject_shared_idf": 6.8164,
       "subject_shared_tokens": [
         "timing",
         "workout"
@@ -1432,32 +1435,15 @@
     },
     {
       "language": "en",
-      "a": 766,
-      "a_title": "How long does opened deli meat last, and when is it no longer safe?",
-      "b": 1305,
-      "b_title": "How Long Do Opened Deli Meats Last in the Refrigerator?",
-      "similarity": 0.58,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.522,
-      "rare_shared_idf": 6.5962,
-      "subject_shared_idf": 6.5962,
-      "subject_shared_tokens": [
-        "deli"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
       "a": 256,
       "a_title": "Should you wash chicken before cooking?",
       "b": 306,
       "b_title": "Should you wash fish before cooking it?",
-      "similarity": 0.4741,
+      "similarity": 0.4742,
       "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5745,
-      "rare_shared_idf": 5.6407,
-      "subject_shared_idf": 5.6407,
+      "weighted_title_jaccard": 0.5747,
+      "rare_shared_idf": 5.6377,
+      "subject_shared_idf": 5.6377,
       "subject_shared_tokens": [
         "wash"
       ],
@@ -1470,11 +1456,11 @@
       "a_title": "Proteína y saciedad: por qué los alimentos ricos en proteína llenan más",
       "b": 88,
       "b_title": "Fibra y saciedad: por qué ayuda a sentirse lleno",
-      "similarity": 0.426,
+      "similarity": 0.4264,
       "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5692,
-      "rare_shared_idf": 6.1262,
-      "subject_shared_idf": 6.1262,
+      "weighted_title_jaccard": 0.57,
+      "rare_shared_idf": 6.1232,
+      "subject_shared_idf": 6.1232,
       "subject_shared_tokens": [
         "lleno",
         "sentirse"
@@ -1488,11 +1474,11 @@
       "a_title": "Should you wash fish before cooking it?",
       "b": 1025,
       "b_title": "Should You Wash Mushrooms Before Cooking?",
-      "similarity": 0.4612,
+      "similarity": 0.4613,
       "title_jaccard": 0.6667,
       "weighted_title_jaccard": 0.5681,
-      "rare_shared_idf": 5.6407,
-      "subject_shared_idf": 5.6407,
+      "rare_shared_idf": 5.6377,
+      "subject_shared_idf": 5.6377,
       "subject_shared_tokens": [
         "wash"
       ],
@@ -1505,11 +1491,11 @@
       "a_title": "How to thaw chicken safely",
       "b": 273,
       "b_title": "Can you thaw meat in the microwave?",
-      "similarity": 0.3907,
+      "similarity": 0.3901,
       "title_jaccard": 0.4286,
-      "weighted_title_jaccard": 0.5632,
-      "rare_shared_idf": 5.7207,
-      "subject_shared_idf": 5.7207,
+      "weighted_title_jaccard": 0.5622,
+      "rare_shared_idf": 5.7178,
+      "subject_shared_idf": 5.7178,
       "subject_shared_tokens": [
         "microwave"
       ],
@@ -1522,11 +1508,11 @@
       "a_title": "¿Hay que lavar el pescado antes de cocinarlo?",
       "b": 1025,
       "b_title": "¿Hay que lavar los champiñones antes de cocinarlos?",
-      "similarity": 0.5,
+      "similarity": 0.4993,
       "title_jaccard": 0.6,
       "weighted_title_jaccard": 0.5596,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "lavar"
       ],
@@ -1542,8 +1528,8 @@
       "similarity": 0.5595,
       "title_jaccard": 0.625,
       "weighted_title_jaccard": 0.5311,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "lowest"
       ],
@@ -1556,11 +1542,11 @@
       "a_title": "Dátiles vs. azúcar: diferencias nutricionales",
       "b": 608,
       "b_title": "Dátiles vs. pasas: azúcar, fibra y calorías",
-      "similarity": 0.5573,
+      "similarity": 0.5572,
       "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5492,
-      "rare_shared_idf": 6.4139,
-      "subject_shared_idf": 6.4139,
+      "weighted_title_jaccard": 0.5487,
+      "rare_shared_idf": 6.4109,
+      "subject_shared_idf": 6.4109,
       "subject_shared_tokens": [
         "datile"
       ],
@@ -1573,11 +1559,11 @@
       "a_title": "¿Hay que lavar el arroz antes de cocinarlo?",
       "b": 1025,
       "b_title": "¿Hay que lavar los champiñones antes de cocinarlos?",
-      "similarity": 0.4279,
+      "similarity": 0.4272,
       "title_jaccard": 0.6,
       "weighted_title_jaccard": 0.5489,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "lavar"
       ],
@@ -1590,11 +1576,11 @@
       "a_title": "How Much Lentils Per Person: Dry and Cooked Amounts",
       "b": 1181,
       "b_title": "How Much Chickpeas Per Person: Dry, Soaked, and Cooked Amounts",
-      "similarity": 0.5477,
+      "similarity": 0.5481,
       "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5232,
-      "rare_shared_idf": 5.8077,
-      "subject_shared_idf": 5.8077,
+      "weighted_title_jaccard": 0.5234,
+      "rare_shared_idf": 5.8048,
+      "subject_shared_idf": 5.8048,
       "subject_shared_tokens": [
         "person"
       ],
@@ -1607,11 +1593,11 @@
       "a_title": "Por qué la comida no queda crujiente en la freidora de aire",
       "b": 1127,
       "b_title": "¿Se puede cocinar comida congelada directamente en la freidora de aire?",
-      "similarity": 0.4246,
+      "similarity": 0.4245,
       "title_jaccard": 0.4545,
       "weighted_title_jaccard": 0.5451,
-      "rare_shared_idf": 6.1262,
-      "subject_shared_idf": 6.1262,
+      "rare_shared_idf": 6.1232,
+      "subject_shared_idf": 6.1232,
       "subject_shared_tokens": [
         "air",
         "fryer"
@@ -1625,16 +1611,33 @@
       "a_title": "¿Hay que lavar el pollo antes de cocinarlo?",
       "b": 1025,
       "b_title": "¿Hay que lavar los champiñones antes de cocinarlos?",
-      "similarity": 0.5085,
+      "similarity": 0.5078,
       "title_jaccard": 0.6,
       "weighted_title_jaccard": 0.5405,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "lavar"
       ],
       "family_match": false,
       "type_overlap": 0
+    },
+    {
+      "language": "en",
+      "a": 7,
+      "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
+      "b": 213,
+      "b_title": "Ground beef vs. ground turkey: nutrition differences",
+      "similarity": 0.4866,
+      "title_jaccard": 0.6667,
+      "weighted_title_jaccard": 0.5384,
+      "rare_shared_idf": 5.9001,
+      "subject_shared_idf": 5.9001,
+      "subject_shared_tokens": [
+        "turkey"
+      ],
+      "family_match": true,
+      "type_overlap": 2
     },
     {
       "language": "es",
@@ -1645,8 +1648,8 @@
       "similarity": 0.3534,
       "title_jaccard": 0.5556,
       "weighted_title_jaccard": 0.538,
-      "rare_shared_idf": 6.1262,
-      "subject_shared_idf": 6.1262,
+      "rare_shared_idf": 6.1232,
+      "subject_shared_idf": 6.1232,
       "subject_shared_tokens": [
         "air",
         "fryer"
@@ -1660,49 +1663,15 @@
       "a_title": "Is an Avocado a Fruit or a Vegetable?",
       "b": 957,
       "b_title": "Is a Cucumber a Fruit or a Vegetable?",
-      "similarity": 0.537,
+      "similarity": 0.5369,
       "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.524,
-      "rare_shared_idf": 5.7207,
-      "subject_shared_idf": 5.7207,
+      "weighted_title_jaccard": 0.5239,
+      "rare_shared_idf": 5.7178,
+      "subject_shared_idf": 5.7178,
       "subject_shared_tokens": [
         "botanically"
       ],
       "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 423,
-      "a_title": "¿Hay que echar aceite al agua de la pasta?",
-      "b": 1150,
-      "b_title": "Por qué la pasta se pega y si echar aceite al agua realmente ayuda",
-      "similarity": 0.5358,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.514,
-      "rare_shared_idf": 6.5962,
-      "subject_shared_idf": 6.5962,
-      "subject_shared_tokens": [
-        "echar"
-      ],
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 7,
-      "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
-      "b": 213,
-      "b_title": "Ground beef vs. ground turkey: nutrition differences",
-      "similarity": 0.4829,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5348,
-      "rare_shared_idf": 5.8077,
-      "subject_shared_idf": 5.8077,
-      "subject_shared_tokens": [
-        "turkey"
-      ],
-      "family_match": true,
       "type_overlap": 2
     },
     {
@@ -1711,11 +1680,11 @@
       "a_title": "Lowest-calorie legumes: a cooked ranking",
       "b": 268,
       "b_title": "The lowest-calorie fish",
-      "similarity": 0.3476,
+      "similarity": 0.3473,
       "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5336,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "weighted_title_jaccard": 0.5335,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "lowest"
       ],
@@ -1728,11 +1697,11 @@
       "a_title": "Cuánto dura una cebolla cortada en la nevera",
       "b": 988,
       "b_title": "Cuánto dura una sandía cortada en la nevera",
-      "similarity": 0.5308,
+      "similarity": 0.5311,
       "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.502,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "weighted_title_jaccard": 0.5024,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "cortada"
       ],
@@ -1745,11 +1714,11 @@
       "a_title": "How to tell if fish has gone bad",
       "b": 283,
       "b_title": "How to tell if shrimp has gone bad",
-      "similarity": 0.364,
+      "similarity": 0.3637,
       "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.5303,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "weighted_title_jaccard": 0.5299,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "gone"
       ],
@@ -1762,11 +1731,11 @@
       "a_title": "The lowest-calorie fish",
       "b": 433,
       "b_title": "Lowest-Calorie Vegetables",
-      "similarity": 0.3959,
+      "similarity": 0.3956,
       "title_jaccard": 0.5714,
       "weighted_title_jaccard": 0.5202,
-      "rare_shared_idf": 5.5666,
-      "subject_shared_idf": 5.5666,
+      "rare_shared_idf": 5.5636,
+      "subject_shared_idf": 5.5636,
       "subject_shared_tokens": [
         "lowest"
       ],
@@ -1779,13 +1748,30 @@
       "a_title": "The highest-fiber nuts",
       "b": 101,
       "b_title": "Nuts with the most omega-3",
-      "similarity": 0.3328,
+      "similarity": 0.3327,
       "title_jaccard": 0.375,
-      "weighted_title_jaccard": 0.5188,
-      "rare_shared_idf": 6.4139,
-      "subject_shared_idf": 6.4139,
+      "weighted_title_jaccard": 0.5189,
+      "rare_shared_idf": 6.4109,
+      "subject_shared_idf": 6.4109,
       "subject_shared_tokens": [
         "ranked"
+      ],
+      "family_match": true,
+      "type_overlap": 2
+    },
+    {
+      "language": "en",
+      "a": 49,
+      "a_title": "Chicken vs Turkey: Nutrition Differences",
+      "b": 213,
+      "b_title": "Ground beef vs. ground turkey: nutrition differences",
+      "similarity": 0.3816,
+      "title_jaccard": 0.625,
+      "weighted_title_jaccard": 0.5117,
+      "rare_shared_idf": 5.9001,
+      "subject_shared_idf": 5.9001,
+      "subject_shared_tokens": [
+        "turkey"
       ],
       "family_match": true,
       "type_overlap": 2
@@ -1799,11 +1785,29 @@
       "similarity": 0.4938,
       "title_jaccard": 0.375,
       "weighted_title_jaccard": 0.511,
-      "rare_shared_idf": 7.107,
-      "subject_shared_idf": 7.107,
+      "rare_shared_idf": 7.104,
+      "subject_shared_idf": 7.104,
       "subject_shared_tokens": [
         "aluminum",
         "foil"
+      ],
+      "family_match": true,
+      "type_overlap": 1
+    },
+    {
+      "language": "es",
+      "a": 1123,
+      "a_title": "¿Se puede poner papel de aluminio en la freidora de aire?",
+      "b": 1133,
+      "b_title": "¿Se puede poner papel de aluminio en el microondas? Qué ocurre realmente",
+      "similarity": 0.4441,
+      "title_jaccard": 0.4444,
+      "weighted_title_jaccard": 0.5088,
+      "rare_shared_idf": 7.104,
+      "subject_shared_idf": 7.104,
+      "subject_shared_tokens": [
+        "aluminio",
+        "poner"
       ],
       "family_match": true,
       "type_overlap": 1
@@ -1814,48 +1818,13 @@
       "a_title": "Does dry rice expire?",
       "b": 421,
       "b_title": "Does Dry Pasta Expire?",
-      "similarity": 0.3078,
+      "similarity": 0.3074,
       "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5105,
-      "rare_shared_idf": 5.7207,
-      "subject_shared_idf": 5.7207,
+      "weighted_title_jaccard": 0.5088,
+      "rare_shared_idf": 5.7178,
+      "subject_shared_idf": 5.7178,
       "subject_shared_tokens": [
         "expire"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 1123,
-      "a_title": "¿Se puede poner papel de aluminio en la freidora de aire?",
-      "b": 1133,
-      "b_title": "¿Se puede poner papel de aluminio en el microondas? Qué ocurre realmente",
-      "similarity": 0.4442,
-      "title_jaccard": 0.4444,
-      "weighted_title_jaccard": 0.5089,
-      "rare_shared_idf": 7.107,
-      "subject_shared_idf": 7.107,
-      "subject_shared_tokens": [
-        "aluminio",
-        "poner"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 49,
-      "a_title": "Chicken vs Turkey: Nutrition Differences",
-      "b": 213,
-      "b_title": "Ground beef vs. ground turkey: nutrition differences",
-      "similarity": 0.3751,
-      "title_jaccard": 0.625,
-      "weighted_title_jaccard": 0.507,
-      "rare_shared_idf": 5.8077,
-      "subject_shared_idf": 5.8077,
-      "subject_shared_tokens": [
-        "turkey"
       ],
       "family_match": true,
       "type_overlap": 2
