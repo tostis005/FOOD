@@ -396,7 +396,18 @@ def generate_map(root: Path, existing_map: Path):
             break
 
     zero_inbound = [target for target in new_numbers if inbound[target] == 0]
+
+    active_set = set(active_numbers)
+    all_inbound = Counter()
+    for source in active_numbers:
+        for target in result.get(str(source), []):
+            if target in active_set:
+                all_inbound[target] += 1
+    all_zero_inbound = [target for target in active_numbers if all_inbound[target] == 0]
+
     invalid = []
+    if all_zero_inbound:
+        invalid.append('indexable articles with zero inbound links: ' + ', '.join(map(str, all_zero_inbound[:50])))
     for number in numbers:
         links = result.get(str(number), [])
         if len(links) < 3 or len(links) > MAX_LINKS:
@@ -417,6 +428,9 @@ def generate_map(root: Path, existing_map: Path):
         'new_inbound_zero': len(zero_inbound),
         'new_inbound_min': min((inbound[n] for n in new_numbers), default=0),
         'new_inbound_avg': sum(inbound[n] for n in new_numbers) / len(new_numbers) if new_numbers else 0.0,
+        'indexable_inbound_zero': len(all_zero_inbound),
+        'indexable_inbound_min': min((all_inbound[n] for n in active_numbers), default=0),
+        'indexable_inbound_avg': sum(all_inbound[n] for n in active_numbers) / len(active_numbers) if active_numbers else 0.0,
     }
     return result, stats
 

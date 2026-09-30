@@ -221,6 +221,31 @@ jobs:
           assert urljoin(SITE, 'sitemap-es.xml') in sitemap_index
           assert urljoin(SITE, 'sitemap-en.xml') in sitemap_index
 
+          sitemap_urls = {}
+          for lang in ('es', 'en'):
+              xml = fetch(urljoin(SITE, f'sitemap-{lang}.xml'))
+              sitemap_urls[lang] = {
+                  html.unescape(value.strip())
+                  for value in re.findall(r'<loc>(.*?)</loc>', xml, flags=re.I | re.S)
+              }
+
+          expected_article_urls = {'es': set(), 'en': set()}
+          redirected_article_urls = {'es': set(), 'en': set()}
+          for lang in ('es', 'en'):
+              for path in sorted(Path('content/articles', lang).glob('*.json')):
+                  data = article(path)
+                  number = int(data.get('article_number') or 0)
+                  url = article_url(data)
+                  if number in redirected:
+                      redirected_article_urls[lang].add(url)
+                  else:
+                      expected_article_urls[lang].add(url)
+
+              missing = sorted(expected_article_urls[lang] - sitemap_urls[lang])
+              leaked = sorted(redirected_article_urls[lang] & sitemap_urls[lang])
+              assert not missing, f'{len(missing)} active {lang.upper()} article URLs missing from sitemap: {missing[:5]}'
+              assert not leaked, f'{len(leaked)} redirected {lang.upper()} article URLs leaked into sitemap: {leaked[:5]}'
+
           robots_txt = fetch(urljoin(SITE, 'robots.txt'))
           assert 'Sitemap: ' + urljoin(SITE, 'sitemap.xml') in robots_txt
 
@@ -267,6 +292,8 @@ jobs:
           print(f'LONG_TITLE={article_url(long_es)}')
           print(f'HREFLANG_PAIR={es_url} <-> {en_url}')
           print('SITEMAPS=PASS')
+          print(f'SITEMAP_ES_ACTIVE_ARTICLES={len(expected_article_urls["es"])}')
+          print(f'SITEMAP_EN_ACTIVE_ARTICLES={len(expected_article_urls["en"])}')
           print('ROBOTS=PASS')
           print('CONSOLIDATED_REDIRECTS=PASS')
           print('CONSOLIDATED_LISTINGS=PASS')
