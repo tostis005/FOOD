@@ -222,6 +222,9 @@ jobs:
               image_status, _ = response_headers(og_image)
               assert image_status == 200, f'OG image is not publicly reachable for {url}: {image_status}'
 
+          en_url = article_url(short_en)
+          es_url = article_url(short_es)
+
           # Validate the structured-data graph exactly as Google receives it.
           schema_body = fetch(en_url)
           schema_nodes = json_ld_graph(schema_body)
@@ -274,8 +277,6 @@ jobs:
           assert 'article-faq' not in toc_parser.toc_hrefs, f'FAQ leaked into TOC for {toc_url}'
 
           # Translation alternates must point to equivalent pages, not language homes.
-          en_url = article_url(short_en)
-          es_url = article_url(short_es)
           for data in (short_en, short_es):
               url = article_url(data)
               parser = parse_head(fetch(url))
