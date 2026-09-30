@@ -219,15 +219,49 @@ function food_import_required_string( $data, $key, $file ) {
     return trim( $data[ $key ] );
 }
 
-function food_import_find_existing( $source_id, $slug ) {
-    $ids = get_posts(
+function food_import_language_meta_clause( $language ) {
+    $language = 'en' === $language ? 'en' : 'es';
+    if ( 'en' === $language ) {
+        return array(
+            'key'     => '_food_language',
+            'value'   => 'en',
+            'compare' => '=',
+        );
+    }
+
+    return array(
+        'relation' => 'OR',
         array(
-            'post_type'      => 'post',
-            'post_status'    => 'any',
-            'posts_per_page' => 1,
-            'fields'         => 'ids',
-            'meta_key'       => '_food_source_id',
-            'meta_value'     => $source_id,
+            'key'     => '_food_language',
+            'value'   => 'es',
+            'compare' => '=',
+        ),
+        array(
+            'key'     => '_food_language',
+            'compare' => 'NOT EXISTS',
+        ),
+    );
+}
+
+function food_import_find_existing( $source_id, $slug, $language, $translation_group = '' ) {
+    $base_args = array(
+        'post_type'                   => 'post',
+        'post_status'                 => 'any',
+        'posts_per_page'              => 1,
+        'fields'                      => 'ids',
+        'no_found_rows'               => true,
+        'suppress_filters'            => true,
+        'food_language_bypass'        => 1,
+        'food_consolidation_bypass'   => 1,
+    );
+
+    $ids = get_posts(
+        array_merge(
+            $base_args,
+            array(
+                'meta_key'   => '_food_source_id',
+                'meta_value' => $source_id,
+            )
         )
     );
 
@@ -235,8 +269,83 @@ function food_import_find_existing( $source_id, $slug ) {
         return get_post( (int) $ids[0] );
     }
 
-    $by_slug = get_page_by_path( $slug, OBJECT, 'post' );
-    return $by_slug instanceof WP_Post ? $by_slug : null;
+    if ( '' !== $translation_group ) {
+        $ids = get_posts(
+            array_merge(
+                $base_args,
+                array(
+                    'meta_query' => array(
+                        'relation' => 'AND',
+                        array(
+                            'key'     => '_food_translation_group',
+                            'value'   => $translation_group,
+                            'compare' => '=',
+                        ),
+                        food_import_language_meta_clause( $language ),
+                    ),
+                )
+            )
+        );
+        if ( ! empty( $ids ) ) {
+            return get_post( (int) $ids[0] );
+        }
+    }
+
+    $ids = get_posts(
+        array_merge(
+            $base_args,
+            array(
+                'name'       => $slug,
+                'meta_query' => array( food_import_language_meta_clause( $language ) ),
+            )
+        )
+    );
+
+    return ! empty( $ids ) ? get_post( (int) $ids[0] ) : null;
+}
+
+/**
+ * WordPress normally enforces post_name uniqueness across all posts. Quinnoa
+ * scopes article URLs by language, so /slug/ and /en/slug/ may legitimately
+ * belong to different posts. Allow the same database post_name only when an
+ * existing post with that slug belongs to the other language.
+ */
+function food_import_other_language_uses_slug( $slug, $language, $exclude_post_id = 0 ) {
+    $ids = get_posts(
+        array(
+            'post_type'                   => 'post',
+            'post_status'                 => 'any',
+            'posts_per_page'              => -1,
+            'fields'                      => 'ids',
+            'name'                        => $slug,
+            'no_found_rows'               => true,
+            'suppress_filters'            => true,
+            'food_language_bypass'        => 1,
+            'food_consolidation_bypass'   => 1,
+        )
+    );
+
+    foreach ( $ids as $post_id ) {
+        $post_id = (int) $post_id;
+        if ( $exclude_post_id && $post_id === (int) $exclude_post_id ) {
+            continue;
+        }
+        $other_language = (string) get_post_meta( $post_id, '_food_language', true );
+        $other_language = 'en' === $other_language ? 'en' : 'es';
+        if ( $other_language !== $language ) {
+            return true;
+        }
+    }
+
+    return false;
+}
+
+function food_import_allow_language_scoped_slug( $override_slug, $slug ) {
+    $forced = isset( $GLOBALS['food_import_forced_post_slug'] )
+        ? (string) $GLOBALS['food_import_forced_post_slug']
+        : '';
+
+    return '' !== $forced && $slug === $forced ? $forced : $override_slug;
 }
 
 function food_import_sources_html( $sources, $language ) {
@@ -448,7 +557,7 @@ foreach ( $files as $file ) {
         $post_status       = food_import_status( $json_status, $options['status'] );
 
         $content  = $content_html . food_import_sources_html( $sources, $language );
-        $existing = food_import_find_existing( $source_id, $slug );
+        $existing = food_import_find_existing( $source_id, $slug, $language, $translation_group );
 
         if ( ! $options['force'] && $existing instanceof WP_Post ) {
             $stored_hash = (string) get_post_meta( $existing->ID, '_food_source_hash', true );
@@ -479,6 +588,13 @@ foreach ( $files as $file ) {
             'sha256',
             wp_json_encode( $visible_payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES )
         );
+
+        $existing_id          = $existing instanceof WP_Post ? (int) $existing->ID : 0;
+        $allow_duplicate_slug = food_import_other_language_uses_slug( $slug, $language, $existing_id );
+        if ( $allow_duplicate_slug ) {
+            $GLOBALS['food_import_forced_post_slug'] = $slug;
+            add_filter( 'pre_wp_unique_post_slug', 'food_import_allow_language_scoped_slug', 10, 2 );
+        }
 
         if ( $existing instanceof WP_Post ) {
             $existing_faq = json_decode( (string) get_post_meta( $existing->ID, '_food_faq', true ), true );
@@ -531,6 +647,11 @@ foreach ( $files as $file ) {
             $post_data['post_author'] = ! empty( $admins ) ? (int) $admins[0] : 1;
             $post_id = wp_insert_post( wp_slash( $post_data ), true );
             $action  = 'created';
+        }
+
+        if ( $allow_duplicate_slug ) {
+            remove_filter( 'pre_wp_unique_post_slug', 'food_import_allow_language_scoped_slug', 10 );
+            unset( $GLOBALS['food_import_forced_post_slug'] );
         }
 
         if ( is_wp_error( $post_id ) ) {

@@ -164,7 +164,11 @@ function food_filter_main_query_language( $query ) {
 	if ( is_admin() || ! $query->is_main_query() || $query->get( 'food_language_bypass' ) ) {
 		return;
 	}
-	if ( $query->is_archive() || $query->is_search() || $query->is_home() ) {
+
+	// Language also scopes singular post slugs. This permits the same public
+	// slug to exist in ES and EN because their URLs live in separate namespaces:
+	// /slug/ and /en/slug/.
+	if ( $query->is_archive() || $query->is_search() || $query->is_home() || $query->get( 'name' ) ) {
 		food_merge_language_meta_query( $query );
 	}
 }
