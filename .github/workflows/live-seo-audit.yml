@@ -88,19 +88,33 @@ jobs:
                   self.title = []
                   self.links = []
                   self.metas = []
+                  self.ids = set()
+                  self.toc_hrefs = []
+                  self.in_toc = False
 
               def handle_starttag(self, tag, attrs):
                   attrs = dict(attrs)
-                  if tag.lower() == 'title':
+                  tag = tag.lower()
+                  if attrs.get('id'):
+                      self.ids.add(str(attrs['id']))
+                  classes = str(attrs.get('class', '')).split()
+                  if tag == 'nav' and 'article-toc' in classes:
+                      self.in_toc = True
+                  if tag == 'title':
                       self.in_title = True
-                  elif tag.lower() == 'link':
+                  elif tag == 'link':
                       self.links.append(attrs)
-                  elif tag.lower() == 'meta':
+                  elif tag == 'meta':
                       self.metas.append(attrs)
+                  elif tag == 'a' and self.in_toc and str(attrs.get('href', '')).startswith('#'):
+                      self.toc_hrefs.append(str(attrs['href'])[1:])
 
               def handle_endtag(self, tag):
-                  if tag.lower() == 'title':
+                  tag = tag.lower()
+                  if tag == 'title':
                       self.in_title = False
+                  elif tag == 'nav' and self.in_toc:
+                      self.in_toc = False
 
               def handle_data(self, data):
                   if self.in_title:
@@ -166,6 +180,16 @@ jobs:
               description = norm(meta_content(parser, 'description'))
               assert 70 <= len(description) <= 160, f'Meta description length {len(description)} for {url}'
 
+          # Substantial articles should expose a usable on-page contents list.
+          toc_article = article('content/articles/en/064-quinoa-vs-rice-protein-fiber-carbs.json')
+          toc_url = article_url(toc_article)
+          toc_parser = parse_head(fetch(toc_url))
+          assert len(toc_parser.toc_hrefs) >= 4, f'Article TOC missing or too short for {toc_url}'
+          for anchor_id in toc_parser.toc_hrefs:
+              assert anchor_id in toc_parser.ids, f'TOC target #{anchor_id} does not exist on {toc_url}'
+          assert 'article-sources' not in toc_parser.toc_hrefs, f'Sources leaked into TOC for {toc_url}'
+          assert 'article-faq' not in toc_parser.toc_hrefs, f'FAQ leaked into TOC for {toc_url}'
+
           # Translation alternates must point to equivalent pages, not language homes.
           en_url = article_url(short_en)
           es_url = article_url(short_es)
@@ -229,4 +253,5 @@ jobs:
           print('ROBOTS=PASS')
           print('CONSOLIDATED_REDIRECTS=PASS')
           print('CONSOLIDATED_LISTINGS=PASS')
+          print('ARTICLE_TOC=PASS')
           PY
