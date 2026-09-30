@@ -31,88 +31,88 @@ Recognized article-type aliases in use: food-science (362), food-explainer (216)
 
 ## Potential cannibalization
 
-Candidates retained for manual review: **250**.
+Candidates retained for manual review: **209**.
 These are similarity candidates, not automatic cannibalization verdicts.
 
 | Lang | A | B | Similarity | Title overlap |
 | --- | ---: | ---: | ---: | ---: |
-| es | 105 - Soja: proteína, grasa y valor nutricional | 553 - Hummus: proteína, fibra, grasa y valor nutricional | 0.275 | 0.750 |
-| en | 771 - Does soy sauce need refrigeration after opening? | 967 - Does Hot Sauce Need Refrigeration After Opening? | 0.677 | 0.714 |
-| en | 771 - Does soy sauce need refrigeration after opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.666 | 0.714 |
-| en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 30 - How Long Does Raw Chicken Last in the Fridge? | 0.650 | 0.714 |
-| en | 977 - How Long Do Opened Canned Beans Last in the Fridge? | 978 - How Long Do Opened Canned Tomatoes Last in the Fridge? | 0.646 | 0.714 |
-| en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.640 | 0.714 |
-| en | 607 - Dates vs. sugar: nutrition differences | 608 - Dates vs. raisins: sugar, fiber and calories | 0.626 | 0.714 |
-| en | 33 - How Long Does Raw Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.605 | 0.714 |
-| es | 771 - ¿La salsa de soja necesita nevera después de abrirla? | 971 - ¿La salsa de pescado necesita nevera después de abrirla? | 0.594 | 0.714 |
-| es | 60 - Huevo entero vs. claras: proteína, grasa y nutrientes | 194 - Huevos: proteína, grasa, calorías y nutrientes | 0.591 | 0.714 |
-| en | 771 - Does soy sauce need refrigeration after opening? | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 0.561 | 0.714 |
-| es | 976 - Cuánto dura la leche de coco abierta en la nevera | 1302 - Cuánto dura la leche vegetal abierta en la nevera | 0.551 | 0.714 |
-| en | 4 - Highest-Fiber Foods: Ranking per 100 Grams and by Serving | 74 - The fruits highest in fiber | 0.545 | 0.714 |
-| en | 970 - Does Worcestershire Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.530 | 0.714 |
-| en | 32 - How Long Does Cooked Meat Last in the Fridge? | 33 - How Long Does Raw Meat Last in the Fridge? | 0.501 | 0.714 |
-| en | 50 - Beef vs Pork: Protein, Fat, Iron and Calories | 171 - Beef cuts: protein, fat, calories, and iron | 0.490 | 0.714 |
-| es | 393 - Yogur: proteína, calcio, grasa y valor nutricional | 1318 - Tahini: valor nutricional, grasas, proteína y calcio | 0.479 | 0.714 |
-| en | 30 - How Long Does Raw Chicken Last in the Fridge? | 33 - How Long Does Raw Meat Last in the Fridge? | 0.460 | 0.714 |
-| en | 52 - Tuna vs Salmon: Protein, Omega-3, Fat and Calories | 185 - Hake vs. salmon: protein, fat, calories, and omega-3 | 0.441 | 0.714 |
-| en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 32 - How Long Does Cooked Meat Last in the Fridge? | 0.431 | 0.714 |
-| es | 52 - Atún vs. salmón: proteína, omega-3, grasa y calorías | 185 - Merluza vs. salmón: proteína, grasa y calorías | 0.420 | 0.714 |
-| en | 32 - How Long Does Cooked Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.414 | 0.714 |
-| en | 9 - How Long Does Cooked Rice Last in the Fridge? | 32 - How Long Does Cooked Meat Last in the Fridge? | 0.396 | 0.714 |
-| en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 9 - How Long Does Cooked Rice Last in the Fridge? | 0.382 | 0.714 |
+| es | 207 - ¿Hay que remojar las semillas de chía? | 210 - ¿Se pueden comer semillas de chía sin remojar? | 0.697 | 0.600 |
 | en | 616 - Foods with the most protein per calorie | 617 - Foods with the most fiber per calorie | 0.368 | 0.714 |
-| en | 1301 - How Long Does Opened Tofu Last in the Refrigerator? | 1303 - How Long Does Opened Guacamole Last in the Refrigerator? | 0.343 | 0.714 |
-| en | 1300 - How Long Does Opened Hummus Last in the Refrigerator? | 1301 - How Long Does Opened Tofu Last in the Refrigerator? | 0.319 | 0.714 |
-| en | 1300 - How Long Does Opened Hummus Last in the Refrigerator? | 1303 - How Long Does Opened Guacamole Last in the Refrigerator? | 0.299 | 0.714 |
-| en | 183 - Salmon: protein, omega-3, fat, and calories | 219 - Mackerel: protein, omega-3s, and nutrition | 0.238 | 0.714 |
-| en | 329 - Whole-wheat bread vs. rye bread: fiber, protein and satiety | 385 - White bread vs. whole-wheat bread: nutritional differences | 0.714 | 0.333 |
-| en | 683 - Coconut Milk vs Coconut Cream: Richness, Fat, and Cooking Uses | 684 - Canned Coconut Milk vs Coconut Beverage: Why They Are Not Interchangeable | 0.714 | 0.154 |
-| en | 924 - Japanese Wagyu vs. American Wagyu: What Is the Real Difference? | 928 - What Is American Wagyu, and How Much Wagyu Is It Really? | 0.714 | 0.200 |
+| en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 30 - How Long Does Raw Chicken Last in the Fridge? | 0.650 | 0.714 |
+| en | 32 - How Long Does Cooked Meat Last in the Fridge? | 33 - How Long Does Raw Meat Last in the Fridge? | 0.501 | 0.714 |
+| en | 1092 - Why Meat Can Look Green or Rainbow-Colored Without Being Spoiled | 1100 - Why Fish Can Have a Rainbow Shine Without Being Spoiled | 0.694 | 0.583 |
+| es | 771 - ¿La salsa de soja necesita nevera después de abrirla? | 971 - ¿La salsa de pescado necesita nevera después de abrirla? | 0.594 | 0.714 |
+| es | 157 - ¿Cocinar las verduras destruye las vitaminas? | 1074 - ¿Cocinar las verduras destruye su fibra? | 0.511 | 0.600 |
+| en | 32 - How Long Does Cooked Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.414 | 0.714 |
 | es | 730 - Caldo de huesos o caldo tradicional: ¿hay realmente tanta diferencia? | 1310 - Caldo de huesos: qué es, cuánto colágeno y proteína aporta realmente | 0.712 | 0.333 |
+| en | 967 - Does Hot Sauce Need Refrigeration After Opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.640 | 0.714 |
 | es | 64 - Quinoa vs. arroz: proteína, fibra y carbohidratos | 203 - Arroz integral vs. quinoa: fibra, proteína y calorías | 0.711 | 0.571 |
 | en | 64 - Quinoa vs. rice: protein, fiber, and carbs | 203 - Brown rice vs. quinoa: protein, fiber, and calories | 0.710 | 0.571 |
 | es | 504 - Cacao vs. chocolate: diferencias nutricionales y de elaboración | 512 - Chocolate 70%, 85% y 100% cacao: qué cambia realmente | 0.709 | 0.333 |
 | en | 436 - Peanuts: Protein, Fat, Fiber, and Calories | 550 - Peanuts vs. almonds: nutrition differences | 0.709 | 0.375 |
 | en | 553 - Hummus: protein, fiber, fat and nutrition | 555 - Hummus vs. tahini: nutrition differences | 0.707 | 0.286 |
-| en | 102 - Raw vs. roasted nuts: nutritional differences | 195 - Do nuts lose nutrients when roasted? | 0.705 | 0.333 |
 | en | 49 - Chicken vs Turkey: Nutrition Differences | 173 - Turkey: protein, fat, and calories by cut | 0.704 | 0.571 |
 | es | 124 - Alimentos con más vitamina C que la naranja | 130 - ¿Es realmente la naranja la fruta con más vitamina C? | 0.703 | 0.500 |
-| en | 510 - How much caffeine is in cocoa? | 511 - Cocoa vs. coffee: caffeine and other differences | 0.702 | 0.250 |
+| en | 771 - Does soy sauce need refrigeration after opening? | 971 - Does Fish Sauce Need Refrigeration After Opening? | 0.666 | 0.714 |
 | es | 581 - Skyr vs. cottage cheese: proteína y calorías | 582 - Cottage cheese: proteína, grasa y calorías | 0.702 | 0.667 |
-| en | 687 - Bread Flour vs All-Purpose Flour: Protein, Gluten, and Real-World Substitutions | 689 - Cake Flour vs All-Purpose Flour: Why the Crumb Changes | 0.701 | 0.250 |
 | es | 200 - Las carnes más magras: ranking de cortes con menos grasa | 227 - Las carnes con menos calorías | 0.701 | 0.429 |
 | en | 746 - Natural vs regular peanut butter: what changes in the ingredients | 747 - Powdered vs regular peanut butter: where do the calories go? | 0.701 | 0.333 |
+| en | 4 - Highest-Fiber Foods: Ranking per 100 Grams and by Serving | 74 - The fruits highest in fiber | 0.545 | 0.714 |
 | es | 93 - Aguacate entero vs. aceite de oliva: grasa, fibra y calorías | 637 - Aceite de aguacate o de oliva: cuál conviene más para cocinar | 0.698 | 0.333 |
-| en | 683 - Coconut Milk vs Coconut Cream: Richness, Fat, and Cooking Uses | 976 - How Long Does Opened Coconut Milk Last in the Fridge? | 0.698 | 0.182 |
-| es | 207 - ¿Hay que remojar las semillas de chía? | 210 - ¿Se pueden comer semillas de chía sin remojar? | 0.697 | 0.600 |
+| en | 387 - Fruits lowest in sugar | 388 - Fruits lowest in calories | 0.621 | 0.500 |
 | es | 504 - Cacao vs. chocolate: diferencias nutricionales y de elaboración | 513 - Qué significa el porcentaje de cacao del chocolate | 0.694 | 0.333 |
-| en | 73 - Should you rinse rice before cooking? | 373 - Do you need to rinse every type of rice? | 0.694 | 0.200 |
-| en | 1092 - Why Meat Can Look Green or Rainbow-Colored Without Being Spoiled | 1100 - Why Fish Can Have a Rainbow Shine Without Being Spoiled | 0.694 | 0.583 |
 | es | 123 - Alimentos con más potasio que el plátano | 168 - Aguacate vs. plátano: potasio, fibra y calorías | 0.693 | 0.400 |
 | en | 124 - Foods with more vitamin C than an orange | 130 - Is the orange really the fruit with the most vitamin C? | 0.692 | 0.333 |
+| es | 114 - ¿Es saludable comer huevos todos los días? | 116 - ¿Es saludable comer legumbres todos los días? | 0.588 | 0.667 |
+| en | 33 - How Long Does Raw Meat Last in the Fridge? | 34 - How Long Does Ground Meat Last in the Fridge? | 0.605 | 0.714 |
 | en | 379 - Hot vs. cooled potatoes: what happens to resistant starch? | 610 - Resistant starch in cooled rice, potatoes and pasta | 0.687 | 0.500 |
 | en | 606 - Dates: sugar, fiber and calories | 608 - Dates vs. raisins: sugar, fiber and calories | 0.686 | 0.500 |
 | en | 123 - Foods with more potassium than a banana | 168 - Avocado vs. banana: potassium, fiber, and calories | 0.686 | 0.333 |
+| en | 9 - How Long Does Cooked Rice Last in the Fridge? | 32 - How Long Does Cooked Meat Last in the Fridge? | 0.396 | 0.714 |
 | es | 606 - Dátiles: azúcar, fibra y calorías | 608 - Dátiles vs. pasas: azúcar, fibra y calorías | 0.686 | 0.571 |
+| en | 30 - How Long Does Raw Chicken Last in the Fridge? | 33 - How Long Does Raw Meat Last in the Fridge? | 0.460 | 0.714 |
+| en | 320 - How long does a whole Spanish ham last once you start cutting it? | 368 - How to store a whole Spanish ham after you start cutting it | 0.671 | 0.600 |
 | es | 184 - Semillas de cáñamo: proteína y perfil nutricional | 544 - Chía vs. semillas de cáñamo | 0.684 | 0.400 |
-| en | 432 - Fruit Sugar vs. Added Sugar: What’s the Difference? | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 0.684 | 0.222 |
 | es | 64 - Quinoa vs. arroz: proteína, fibra y carbohidratos | 490 - Quinoa vs. lentejas: proteína, fibra y carbohidratos | 0.683 | 0.667 |
-| es | 546 - Tahini: qué es y qué aporta nutricionalmente | 1318 - Tahini: valor nutricional, grasas, proteína y calcio | 0.683 | 0.300 |
-| en | 154 - Fresh vs. frozen fruit: nutritional differences | 443 - Does Frozen Fruit Lose Vitamins? | 0.681 | 0.333 |
+| es | 76 - Los frutos secos con más fibra | 101 - Los frutos secos con más omega-3 | 0.536 | 0.667 |
 | en | 184 - Hemp seeds: protein, fat, omega-3, and nutrition | 544 - Chia vs. hemp seeds | 0.681 | 0.444 |
-| es | 510 - ¿Cuánta cafeína tiene el cacao? | 511 - Cacao vs. café: cafeína y diferencias | 0.681 | 0.286 |
-| es | 208 - Atún: proteína, grasa, mercurio y valor nutricional | 763 - Atún blanco o atún claro: cuál suele contener más mercurio | 0.680 | 0.182 |
-| en | 207 - Do chia seeds need to be soaked? | 210 - Can you eat chia seeds without soaking them? | 0.678 | 0.250 |
-| en | 705 - Sugar-Free vs No Added Sugar: They Do Not Mean the Same Thing | 706 - Total Sugars vs Added Sugars: The Difference to Read on a Label | 0.678 | 0.182 |
+| es | 114 - ¿Es saludable comer huevos todos los días? | 119 - ¿Es saludable comer arroz todos los días? | 0.464 | 0.667 |
+| es | 154 - Fruta fresca vs. congelada: diferencias nutricionales | 155 - Verduras frescas vs. congeladas: diferencias nutricionales | 0.643 | 0.600 |
+| en | 271 - How to thaw meat safely | 273 - Can you thaw meat in the microwave? | 0.596 | 0.571 |
 | es | 503 - Cacao puro: fibra, grasa, proteína y minerales | 505 - Cacao puro vs. cacao soluble: diferencias | 0.678 | 0.286 |
-| en | 734 - Cold Brew vs Iced Coffee: They Look Similar, but They Are Made Differently | 735 - Cold Brew vs Hot Coffee: What Changes in Caffeine and Flavor? | 0.678 | 0.214 |
-| es | 683 - Leche de coco o crema de coco: diferencias y usos | 684 - Leche de coco en lata o bebida de coco: no son lo mismo | 0.678 | 0.250 |
+| es | 114 - ¿Es saludable comer huevos todos los días? | 122 - ¿Es saludable comer queso todos los días? | 0.485 | 0.667 |
+| es | 181 - Las semillas con más omega-3 | 544 - Chía vs. semillas de cáñamo | 0.622 | 0.571 |
+| en | 771 - Does soy sauce need refrigeration after opening? | 967 - Does Hot Sauce Need Refrigeration After Opening? | 0.677 | 0.714 |
 | en | 62 - Tofu vs. tempeh: protein and nutrition differences | 565 - Seitan vs. tofu vs. tempeh: nutrition compared | 0.677 | 0.571 |
 | en | 93 - Whole Avocado vs Olive Oil: Fat, Fiber and Calories | 637 - Avocado Oil vs Olive Oil: Which Is Better for Cooking? | 0.676 | 0.375 |
 | en | 319 - Serrano ham vs. Iberian ham: nutrition and production differences | 370 - Can you freeze Serrano ham or cooked ham? | 0.676 | 0.286 |
 | es | 55 - Arroz blanco vs. arroz integral: diferencias nutricionales | 242 - Arroz integral: fibra, proteína y valor nutricional | 0.675 | 0.500 |
 | en | 542 - Whole-bean vs. ground coffee | 964 - Is a Coffee Bean Really a Bean or a Seed? | 0.675 | 0.286 |
+| es | 116 - ¿Es saludable comer legumbres todos los días? | 119 - ¿Es saludable comer arroz todos los días? | 0.508 | 0.667 |
 | en | 314 - How to tell if Serrano ham has gone bad | 370 - Can you freeze Serrano ham or cooked ham? | 0.673 | 0.250 |
-| es | 673 - Leche ultrafiltrada o normal: por qué una puede tener mucha más proteína | 1340 - Leche ultrafiltrada: por qué tiene más proteína y menos azúcar que la leche normal | 0.673 | 0.364 |
-| en | 202 - What does nutrient-dense actually mean? | 614 - Nutrient density: how to compare foods beyond calories | 0.672 | 0.333 |
-| en | 678 - What Is Whey? The Liquid Left After Milk Proteins Separate | 1250 - Clear Whey: What It Is and How It Differs From Traditional Whey Protein | 0.672 | 0.214 |
+| en | 2 - How Long Does Cooked Chicken Last in the Fridge? | 32 - How Long Does Cooked Meat Last in the Fridge? | 0.431 | 0.714 |
+| en | 119 - Is it healthy to eat rice every day? | 122 - Is it healthy to eat cheese every day? | 0.410 | 0.667 |
+| es | 16 - Los frutos secos con más proteína: ranking por 100 gramos y por ración | 76 - Los frutos secos con más fibra | 0.627 | 0.571 |
+| es | 116 - ¿Es saludable comer legumbres todos los días? | 122 - ¿Es saludable comer queso todos los días? | 0.525 | 0.667 |
+| en | 114 - Is it healthy to eat eggs every day? | 119 - Is it healthy to eat rice every day? | 0.424 | 0.667 |
+| en | 84 - How to read a nutrition label | 180 - How to read sugar, fat, and sodium on a Nutrition Facts label | 0.670 | 0.500 |
+| en | 4 - Highest-Fiber Foods: Ranking per 100 Grams and by Serving | 15 - Highest-Protein Cheeses: Ranking per 100 Grams and Serving | 0.348 | 0.625 |
+| es | 203 - Arroz integral vs. quinoa: fibra, proteína y calorías | 242 - Arroz integral: fibra, proteína y valor nutricional | 0.668 | 0.556 |
+| en | 114 - Is it healthy to eat eggs every day? | 122 - Is it healthy to eat cheese every day? | 0.517 | 0.667 |
+| en | 138 - Probiotics vs. prebiotics: the difference | 1245 - Postbiotics: What They Are and How They Differ From Probiotics and Prebiotics | 0.667 | 0.400 |
+| es | 114 - ¿Es saludable comer huevos todos los días? | 117 - ¿Es saludable comer yogur todos los días? | 0.571 | 0.667 |
+| en | 123 - Foods with more potassium than a banana | 131 - Why Bananas Became the Potassium Fruit | 0.666 | 0.400 |
+| en | 59 - Cottage Cheese vs Greek Yogurt: Protein, Calories and Key Differences | 582 - Cottage cheese: protein, fat and calories | 0.665 | 0.444 |
+| en | 103 - Chia seeds: fiber, protein, omega-3, and nutrition | 544 - Chia vs. hemp seeds | 0.665 | 0.625 |
+| en | 296 - How long does opened cheese last in the fridge? | 297 - How long does fresh cheese last in the fridge? | 0.648 | 0.667 |
+| es | 95 - ¿Es saludable comer aguacate todos los días? | 114 - ¿Es saludable comer huevos todos los días? | 0.527 | 0.667 |
+| es | 436 - Cacahuetes: proteína, grasa y fibra | 550 - Cacahuetes vs. almendras: diferencias nutricionales | 0.663 | 0.375 |
+| es | 258 - Cuánto tiempo puede estar el pollo crudo fuera de la nevera | 270 - Cuánto tiempo puede estar la carne fuera de la nevera | 0.662 | 0.667 |
+| en | 185 - Hake vs. salmon: protein, fat, calories, and omega-3 | 201 - Hake: protein, fat, calories, and nutrition | 0.661 | 0.500 |
+| es | 167 - Omega-3 vegetal vs. omega-3 del pescado | 228 - Los pescados con más omega-3 | 0.661 | 0.500 |
+| es | 116 - ¿Es saludable comer legumbres todos los días? | 117 - ¿Es saludable comer yogur todos los días? | 0.637 | 0.667 |
+| en | 117 - Is it healthy to eat yogurt every day? | 119 - Is it healthy to eat rice every day? | 0.364 | 0.667 |
+| es | 119 - ¿Es saludable comer arroz todos los días? | 122 - ¿Es saludable comer queso todos los días? | 0.411 | 0.667 |
+| en | 673 - Ultrafiltered vs Regular Milk: Why One Can Have Much More Protein | 1340 - Ultrafiltered Milk: Why It Has More Protein and Less Sugar Than Regular Milk | 0.660 | 0.455 |
+| en | 115 - Is it healthy to eat nuts every day? | 119 - Is it healthy to eat rice every day? | 0.435 | 0.667 |
+| en | 57 - Potato vs Sweet Potato: Nutrition Differences | 1004 - Can you eat raw sweet potato? | 0.658 | 0.250 |
