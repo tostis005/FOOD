@@ -31,10 +31,8 @@ Recognized article-type aliases in use: food-science (362), food-explainer (216)
 
 ## Potential cannibalization
 
-Candidates retained for manual review: **2**.
+Candidates retained for manual review: **0**.
 These are similarity candidates, not automatic cannibalization verdicts.
 
 | Lang | A | B | Similarity | Title overlap |
 | --- | ---: | ---: | ---: | ---: |
-| es | 66 - Cuánto duran los huevos cocidos en la nevera | 217 - Cuánto duran los garbanzos cocidos en la nevera | 0.489 | 0.667 |
-| es | 1041 - Por qué la col morada puede volverse azul al cocinarla | 1042 - Por qué la cebolla morada puede volverse azul o verde al cocinarla | 0.569 | 0.667 |

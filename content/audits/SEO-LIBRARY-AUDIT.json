@@ -458,6 +458,11 @@
       "reason": "opened raw bacon storage vs cooked bacon storage"
     },
     {
+      "a": 1041,
+      "b": 1042,
+      "reason": "red-cabbage color change vs red-onion color change; same anthocyanin phenomenon, different foods"
+    },
+    {
       "a": 1119,
       "b": 1120,
       "reason": "refrigerator power-outage guidance vs freezer power-outage guidance"
@@ -609,44 +614,7 @@
   "exact_duplicate_meta_descriptions": [],
   "exact_duplicate_search_intents": [],
   "repeated_first_answers": [],
-  "cannibalization_candidates": [
-    {
-      "language": "es",
-      "a": 66,
-      "a_title": "Cuánto duran los huevos cocidos en la nevera",
-      "b": 217,
-      "b_title": "Cuánto duran los garbanzos cocidos en la nevera",
-      "similarity": 0.4889,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.6408,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "duran"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 1041,
-      "a_title": "Por qué la col morada puede volverse azul al cocinarla",
-      "b": 1042,
-      "b_title": "Por qué la cebolla morada puede volverse azul o verde al cocinarla",
-      "similarity": 0.569,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.6308,
-      "rare_shared_idf": 7.104,
-      "subject_shared_idf": 7.104,
-      "subject_shared_tokens": [
-        "azul",
-        "morada",
-        "volverse"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    }
-  ],
+  "cannibalization_candidates": [],
   "issues": {},
   "invalid_json": []
 }
