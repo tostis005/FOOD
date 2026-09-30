@@ -28,6 +28,11 @@
       "reason": "four-meat comparison vs chicken/turkey focused comparison"
     },
     {
+      "a": 7,
+      "b": 213,
+      "reason": "four-meat nutrition comparison vs ground-beef/ground-turkey comparison"
+    },
+    {
       "a": 16,
       "b": 17,
       "reason": "nut protein ranking vs seed protein ranking"
@@ -36,6 +41,16 @@
       "a": 38,
       "b": 167,
       "reason": "broad omega-3 food ranking vs plant/fish omega-3 type comparison"
+    },
+    {
+      "a": 49,
+      "b": 173,
+      "reason": "chicken/turkey comparison vs turkey-by-cut nutrition profile"
+    },
+    {
+      "a": 49,
+      "b": 213,
+      "reason": "chicken/turkey comparison vs ground-beef/ground-turkey comparison"
     },
     {
       "a": 52,
@@ -48,9 +63,24 @@
       "reason": "potato/sweet-potato comparison vs sweet-potato nutrition profile"
     },
     {
+      "a": 59,
+      "b": 582,
+      "reason": "cottage-cheese/Greek-yogurt comparison vs cottage-cheese nutrition profile"
+    },
+    {
       "a": 60,
       "b": 276,
       "reason": "whole egg/whites comparison vs white/yolk component comparison"
+    },
+    {
+      "a": 62,
+      "b": 565,
+      "reason": "tofu/tempeh comparison vs three-way seitan/tofu/tempeh comparison"
+    },
+    {
+      "a": 63,
+      "b": 108,
+      "reason": "edamame/chickpea comparison vs edamame nutrition profile"
     },
     {
       "a": 64,
@@ -63,6 +93,11 @@
       "reason": "general food time outside refrigeration vs meat-specific safety guidance"
     },
     {
+      "a": 76,
+      "b": 101,
+      "reason": "nut fiber ranking vs nut omega-3 ranking"
+    },
+    {
       "a": 81,
       "b": 82,
       "reason": "processed/ultra-processed distinction vs definition of ultra-processed foods"
@@ -71,6 +106,21 @@
       "a": 84,
       "b": 180,
       "reason": "full Nutrition Facts reading guide vs focused sugar/fat/sodium label guide"
+    },
+    {
+      "a": 87,
+      "b": 88,
+      "reason": "protein/satiety mechanism vs fiber/satiety mechanism"
+    },
+    {
+      "a": 99,
+      "b": 100,
+      "reason": "walnut profile vs almond/walnut comparison"
+    },
+    {
+      "a": 99,
+      "b": 189,
+      "reason": "walnut profile vs walnut/pistachio comparison"
     },
     {
       "a": 100,
@@ -103,6 +153,11 @@
       "reason": "glycemic-index explainer/ranking vs glycemic-index/glycemic-load distinction"
     },
     {
+      "a": 138,
+      "b": 1245,
+      "reason": "probiotic/prebiotic distinction vs postbiotic explainer"
+    },
+    {
       "a": 164,
       "b": 165,
       "reason": "general dietary-vs-blood cholesterol concept vs egg-specific cholesterol guidance"
@@ -118,9 +173,29 @@
       "reason": "pork-cuts nutrition profile vs leanest-pork-cuts ranking"
     },
     {
+      "a": 181,
+      "b": 544,
+      "reason": "seed omega-3 ranking vs chia/hemp comparison"
+    },
+    {
       "a": 183,
       "b": 185,
       "reason": "salmon profile vs hake/salmon comparison"
+    },
+    {
+      "a": 184,
+      "b": 544,
+      "reason": "hemp-seed nutrition profile vs chia/hemp comparison"
+    },
+    {
+      "a": 185,
+      "b": 201,
+      "reason": "hake/salmon comparison vs hake nutrition profile"
+    },
+    {
+      "a": 208,
+      "b": 763,
+      "reason": "tuna nutrition profile vs albacore/light-tuna mercury comparison"
     },
     {
       "a": 213,
@@ -143,6 +218,56 @@
       "reason": "extra-virgin olive-oil composition profile vs frying-use question"
     },
     {
+      "a": 314,
+      "b": 370,
+      "reason": "Serrano-ham spoilage guidance vs freezing guidance"
+    },
+    {
+      "a": 319,
+      "b": 370,
+      "reason": "Serrano/Iberian comparison vs ham freezing guidance"
+    },
+    {
+      "a": 320,
+      "b": 368,
+      "reason": "opened whole-ham shelf life vs storage technique"
+    },
+    {
+      "a": 346,
+      "b": 1004,
+      "reason": "sweet-potato skin edibility vs raw sweet-potato question"
+    },
+    {
+      "a": 377,
+      "b": 421,
+      "reason": "dry-rice expiry vs dry-pasta expiry"
+    },
+    {
+      "a": 379,
+      "b": 610,
+      "reason": "potato-specific resistant-starch cooling effect vs multi-food resistant-starch guide"
+    },
+    {
+      "a": 387,
+      "b": 388,
+      "reason": "low-sugar fruit ranking vs low-calorie fruit ranking"
+    },
+    {
+      "a": 405,
+      "b": 460,
+      "reason": "kefir/Greek-yogurt comparison vs kefir/plain-yogurt comparison"
+    },
+    {
+      "a": 436,
+      "b": 550,
+      "reason": "peanut nutrition profile vs peanut/almond comparison"
+    },
+    {
+      "a": 453,
+      "b": 559,
+      "reason": "sourdough/conventional-bread comparison vs sourdough fermentation mechanism"
+    },
+    {
       "a": 453,
       "b": 562,
       "reason": "sourdough/conventional-bread comparison vs sourdough/whole-wheat-bread comparison"
@@ -151,6 +276,11 @@
       "a": 469,
       "b": 470,
       "reason": "kefir overview vs milk-kefir/water-kefir comparison"
+    },
+    {
+      "a": 489,
+      "b": 496,
+      "reason": "quinoa/bulgur comparison vs bulgur/couscous comparison"
     },
     {
       "a": 496,
@@ -163,6 +293,21 @@
       "reason": "whole-grain protein ranking vs whole-grain fiber ranking"
     },
     {
+      "a": 503,
+      "b": 505,
+      "reason": "pure-cocoa nutrition profile vs pure/soluble-cocoa comparison"
+    },
+    {
+      "a": 504,
+      "b": 512,
+      "reason": "cacao/chocolate composition comparison vs 70/85/100-percent chocolate comparison"
+    },
+    {
+      "a": 504,
+      "b": 513,
+      "reason": "cacao/chocolate composition comparison vs meaning of cacao percentage"
+    },
+    {
       "a": 512,
       "b": 513,
       "reason": "70/85/100 cacao comparison vs definition of cacao percentage"
@@ -171,6 +316,11 @@
       "a": 537,
       "b": 539,
       "reason": "matcha/coffee comparison vs multi-beverage caffeine comparison"
+    },
+    {
+      "a": 542,
+      "b": 964,
+      "reason": "whole-bean/ground-coffee format comparison vs coffee-bean botanical identity"
     },
     {
       "a": 547,
@@ -183,14 +333,44 @@
       "reason": "hummus profile vs hummus/guacamole comparison"
     },
     {
+      "a": 553,
+      "b": 555,
+      "reason": "hummus nutrition profile vs hummus/tahini comparison"
+    },
+    {
+      "a": 559,
+      "b": 561,
+      "reason": "sourdough fermentation mechanism vs digestibility-focused guide"
+    },
+    {
+      "a": 566,
+      "b": 567,
+      "reason": "textured-soy nutrition profile vs textured-soy/tofu comparison"
+    },
+    {
       "a": 572,
       "b": 573,
       "reason": "oat/soy beverage comparison vs almond/oat beverage comparison"
     },
     {
+      "a": 581,
+      "b": 582,
+      "reason": "skyr/cottage-cheese comparison vs cottage-cheese nutrition profile"
+    },
+    {
+      "a": 582,
+      "b": 583,
+      "reason": "cottage-cheese profile vs cottage-cheese/fresh-cheese comparison"
+    },
+    {
       "a": 582,
       "b": 584,
       "reason": "cottage cheese profile vs cottage cheese/ricotta comparison"
+    },
+    {
+      "a": 583,
+      "b": 584,
+      "reason": "cottage-cheese/fresh-cheese comparison vs cottage-cheese/ricotta comparison"
     },
     {
       "a": 595,
@@ -208,9 +388,24 @@
       "reason": "dates nutrient profile vs dates/table-sugar comparison"
     },
     {
+      "a": 606,
+      "b": 608,
+      "reason": "date nutrition profile vs dates/raisins comparison"
+    },
+    {
+      "a": 607,
+      "b": 608,
+      "reason": "dates/table-sugar comparison vs dates/raisins comparison"
+    },
+    {
       "a": 664,
       "b": 954,
       "reason": "broad gluten/gluten-free foods guide vs potato-specific gluten question"
+    },
+    {
+      "a": 679,
+      "b": 680,
+      "reason": "Greek-yogurt/sour-cream substitution vs cream-cheese/sour-cream substitution"
     },
     {
       "a": 684,
@@ -238,6 +433,21 @@
       "reason": "HFCS/table-sugar comparison vs corn-syrup/HFCS ingredient distinction"
     },
     {
+      "a": 730,
+      "b": 1310,
+      "reason": "bone-broth/regular-broth comparison vs bone-broth collagen/protein profile"
+    },
+    {
+      "a": 734,
+      "b": 735,
+      "reason": "cold-brew/iced-coffee comparison vs cold-brew/hot-coffee comparison"
+    },
+    {
+      "a": 746,
+      "b": 747,
+      "reason": "natural/regular peanut-butter comparison vs powdered/regular peanut-butter comparison"
+    },
+    {
       "a": 967,
       "b": 970,
       "reason": "hot-sauce refrigeration guidance vs Worcestershire-sauce refrigeration guidance"
@@ -251,6 +461,11 @@
       "a": 1119,
       "b": 1120,
       "reason": "refrigerator power-outage guidance vs freezer power-outage guidance"
+    },
+    {
+      "a": 1123,
+      "b": 1133,
+      "reason": "aluminum foil in air fryer vs aluminum foil in microwave"
     }
   ],
   "unknown_families": {},
@@ -397,576 +612,6 @@
   "cannibalization_candidates": [
     {
       "language": "es",
-      "a": 730,
-      "a_title": "Caldo de huesos o caldo tradicional: ¿hay realmente tanta diferencia?",
-      "b": 1310,
-      "b_title": "Caldo de huesos: qué es, cuánto colágeno y proteína aporta realmente",
-      "similarity": 0.712,
-      "title_jaccard": 0.3333,
-      "weighted_title_jaccard": 0.4097,
-      "rare_shared_idf": 6.0054,
-      "subject_shared_idf": 6.0054,
-      "subject_shared_tokens": [
-        "caldo",
-        "hueso"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 504,
-      "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
-      "b": 512,
-      "b_title": "Chocolate 70%, 85% y 100% cacao: qué cambia realmente",
-      "similarity": 0.709,
-      "title_jaccard": 0.3333,
-      "weighted_title_jaccard": 0.4641,
-      "rare_shared_idf": 5.7178,
-      "subject_shared_idf": 5.7178,
-      "subject_shared_tokens": [
-        "chocolate"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 436,
-      "a_title": "Peanuts: Protein, Fat, Fiber, and Calories",
-      "b": 550,
-      "b_title": "Peanuts vs. almonds: nutrition differences",
-      "similarity": 0.7087,
-      "title_jaccard": 0.375,
-      "weighted_title_jaccard": 0.4245,
-      "rare_shared_idf": 5.9001,
-      "subject_shared_idf": 5.9001,
-      "subject_shared_tokens": [
-        "peanut"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 553,
-      "a_title": "Hummus: protein, fiber, fat and nutrition",
-      "b": 555,
-      "b_title": "Hummus vs. tahini: nutrition differences",
-      "similarity": 0.7048,
-      "title_jaccard": 0.2857,
-      "weighted_title_jaccard": 0.4135,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "hummus"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 49,
-      "a_title": "Chicken vs Turkey: Nutrition Differences",
-      "b": 173,
-      "b_title": "Turkey: protein, fat, and calories by cut",
-      "similarity": 0.7035,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5342,
-      "rare_shared_idf": 5.8048,
-      "subject_shared_idf": 5.8048,
-      "subject_shared_tokens": [
-        "turkey"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 581,
-      "a_title": "Skyr vs. cottage cheese: proteína y calorías",
-      "b": 582,
-      "b_title": "Cottage cheese: proteína, grasa y calorías",
-      "similarity": 0.7017,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.651,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "cheese",
-        "cottage"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 746,
-      "a_title": "Natural vs regular peanut butter: what changes in the ingredients",
-      "b": 747,
-      "b_title": "Powdered vs regular peanut butter: where do the calories go?",
-      "similarity": 0.7015,
-      "title_jaccard": 0.3333,
-      "weighted_title_jaccard": 0.4426,
-      "rare_shared_idf": 5.9001,
-      "subject_shared_idf": 5.9001,
-      "subject_shared_tokens": [
-        "peanut"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 504,
-      "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
-      "b": 513,
-      "b_title": "Qué significa el porcentaje de cacao del chocolate",
-      "similarity": 0.6941,
-      "title_jaccard": 0.3333,
-      "weighted_title_jaccard": 0.4084,
-      "rare_shared_idf": 5.7178,
-      "subject_shared_idf": 5.7178,
-      "subject_shared_tokens": [
-        "chocolate"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 606,
-      "a_title": "Dates: sugar, fiber and calories",
-      "b": 608,
-      "b_title": "Dates vs. raisins: sugar, fiber and calories",
-      "similarity": 0.6863,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.428,
-      "rare_shared_idf": 5.9001,
-      "subject_shared_idf": 5.9001,
-      "subject_shared_tokens": [
-        "dates"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 379,
-      "a_title": "Hot vs. cooled potatoes: what happens to resistant starch?",
-      "b": 610,
-      "b_title": "Resistant starch in cooled rice, potatoes and pasta",
-      "similarity": 0.6862,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5844,
-      "rare_shared_idf": 6.5932,
-      "subject_shared_idf": 6.5932,
-      "subject_shared_tokens": [
-        "cooled",
-        "resistant"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 606,
-      "a_title": "Dátiles: azúcar, fibra y calorías",
-      "b": 608,
-      "b_title": "Dátiles vs. pasas: azúcar, fibra y calorías",
-      "similarity": 0.6855,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.507,
-      "rare_shared_idf": 6.4109,
-      "subject_shared_idf": 6.4109,
-      "subject_shared_tokens": [
-        "datile"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 320,
-      "a_title": "How long does a whole Spanish ham last once you start cutting it?",
-      "b": 368,
-      "b_title": "How to store a whole Spanish ham after you start cutting it",
-      "similarity": 0.6712,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.6844,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "ham",
-        "spanish"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 184,
-      "a_title": "Semillas de cáñamo: proteína y perfil nutricional",
-      "b": 544,
-      "b_title": "Chía vs. semillas de cáñamo",
-      "similarity": 0.6825,
-      "title_jaccard": 0.4,
-      "weighted_title_jaccard": 0.4338,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "canamo"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 208,
-      "a_title": "Atún: proteína, grasa, mercurio y valor nutricional",
-      "b": 763,
-      "b_title": "Atún blanco o atún claro: cuál suele contener más mercurio",
-      "similarity": 0.6794,
-      "title_jaccard": 0.1818,
-      "weighted_title_jaccard": 0.313,
-      "rare_shared_idf": 5.8048,
-      "subject_shared_idf": 5.8048,
-      "subject_shared_tokens": [
-        "mercurio"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 181,
-      "a_title": "Las semillas con más omega-3",
-      "b": 544,
-      "b_title": "Chía vs. semillas de cáñamo",
-      "similarity": 0.6239,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.6793,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "canamo"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 184,
-      "a_title": "Hemp seeds: protein, fat, omega-3, and nutrition",
-      "b": 544,
-      "b_title": "Chia vs. hemp seeds",
-      "similarity": 0.6788,
-      "title_jaccard": 0.4444,
-      "weighted_title_jaccard": 0.5004,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "hemp"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 734,
-      "a_title": "Cold Brew vs Iced Coffee: They Look Similar, but They Are Made Differently",
-      "b": 735,
-      "b_title": "Cold Brew vs Hot Coffee: What Changes in Caffeine and Flavor?",
-      "similarity": 0.678,
-      "title_jaccard": 0.2143,
-      "weighted_title_jaccard": 0.2802,
-      "rare_shared_idf": 6.8164,
-      "subject_shared_idf": 6.8164,
-      "subject_shared_tokens": [
-        "brew"
-      ],
-      "family_match": true,
-      "type_overlap": 3
-    },
-    {
-      "language": "es",
-      "a": 503,
-      "a_title": "Cacao puro: fibra, grasa, proteína y minerales",
-      "b": 505,
-      "b_title": "Cacao puro vs. cacao soluble: diferencias",
-      "similarity": 0.678,
-      "title_jaccard": 0.2857,
-      "weighted_title_jaccard": 0.4976,
-      "rare_shared_idf": 6.0054,
-      "subject_shared_idf": 6.0054,
-      "subject_shared_tokens": [
-        "puro"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 62,
-      "a_title": "Tofu vs. tempeh: protein and nutrition differences",
-      "b": 565,
-      "b_title": "Seitan vs. tofu vs. tempeh: nutrition compared",
-      "similarity": 0.6766,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5307,
-      "rare_shared_idf": 5.6377,
-      "subject_shared_idf": 5.6377,
-      "subject_shared_tokens": [
-        "tempeh"
-      ],
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 319,
-      "a_title": "Serrano ham vs. Iberian ham: nutrition and production differences",
-      "b": 370,
-      "b_title": "Can you freeze Serrano ham or cooked ham?",
-      "similarity": 0.6756,
-      "title_jaccard": 0.2857,
-      "weighted_title_jaccard": 0.3838,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "ham",
-        "serrano"
-      ],
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 542,
-      "a_title": "Whole-bean vs. ground coffee",
-      "b": 964,
-      "b_title": "Is a Coffee Bean Really a Bean or a Seed?",
-      "similarity": 0.6743,
-      "title_jaccard": 0.2857,
-      "weighted_title_jaccard": 0.4024,
-      "rare_shared_idf": 5.7178,
-      "subject_shared_idf": 5.7178,
-      "subject_shared_tokens": [
-        "bean"
-      ],
-      "family_match": true,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 314,
-      "a_title": "How to tell if Serrano ham has gone bad",
-      "b": 370,
-      "b_title": "Can you freeze Serrano ham or cooked ham?",
-      "similarity": 0.6735,
-      "title_jaccard": 0.25,
-      "weighted_title_jaccard": 0.3901,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "ham",
-        "serrano"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 566,
-      "a_title": "Soja texturizada: proteína, fibra y valor nutricional",
-      "b": 567,
-      "b_title": "Soja texturizada o tofu: diferencias nutricionales y de uso",
-      "similarity": 0.6688,
-      "title_jaccard": 0.2727,
-      "weighted_title_jaccard": 0.3463,
-      "rare_shared_idf": 6.8164,
-      "subject_shared_idf": 6.8164,
-      "subject_shared_tokens": [
-        "texturizada"
-      ],
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 138,
-      "a_title": "Probiotics vs. prebiotics: the difference",
-      "b": 1245,
-      "b_title": "Postbiotics: What They Are and How They Differ From Probiotics and Prebiotics",
-      "similarity": 0.6668,
-      "title_jaccard": 0.4,
-      "weighted_title_jaccard": 0.4851,
-      "rare_shared_idf": 6.0054,
-      "subject_shared_idf": 6.0054,
-      "subject_shared_tokens": [
-        "prebiotic",
-        "probiotic"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 453,
-      "a_title": "Masa madre vs. pan convencional: ¿qué cambia realmente?",
-      "b": 559,
-      "b_title": "Pan de masa madre: qué cambia durante la fermentación",
-      "similarity": 0.6651,
-      "title_jaccard": 0.3636,
-      "weighted_title_jaccard": 0.3565,
-      "rare_shared_idf": 5.7178,
-      "subject_shared_idf": 5.7178,
-      "subject_shared_tokens": [
-        "madre"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 59,
-      "a_title": "Cottage Cheese vs Greek Yogurt: Protein, Calories and Key Differences",
-      "b": 582,
-      "b_title": "Cottage cheese: protein, fat and calories",
-      "similarity": 0.665,
-      "title_jaccard": 0.4444,
-      "weighted_title_jaccard": 0.4173,
-      "rare_shared_idf": 5.8048,
-      "subject_shared_idf": 5.8048,
-      "subject_shared_tokens": [
-        "cottage"
-      ],
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 436,
-      "a_title": "Cacahuetes: proteína, grasa y fibra",
-      "b": 550,
-      "b_title": "Cacahuetes vs. almendras: diferencias nutricionales",
-      "similarity": 0.6627,
-      "title_jaccard": 0.375,
-      "weighted_title_jaccard": 0.3986,
-      "rare_shared_idf": 5.9001,
-      "subject_shared_idf": 5.9001,
-      "subject_shared_tokens": [
-        "cacahuete"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 185,
-      "a_title": "Hake vs. salmon: protein, fat, calories, and omega-3",
-      "b": 201,
-      "b_title": "Hake: protein, fat, calories, and nutrition",
-      "similarity": 0.6615,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.499,
-      "rare_shared_idf": 7.104,
-      "subject_shared_idf": 7.104,
-      "subject_shared_tokens": [
-        "hake"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 63,
-      "a_title": "Edamame vs. garbanzos: proteína, fibra y calorías",
-      "b": 108,
-      "b_title": "Edamame: proteína, fibra y nutrientes",
-      "similarity": 0.6552,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.6348,
-      "rare_shared_idf": 6.5932,
-      "subject_shared_idf": 6.5932,
-      "subject_shared_tokens": [
-        "edamame"
-      ],
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 185,
-      "a_title": "Merluza vs. salmón: proteína, grasa y calorías",
-      "b": 201,
-      "b_title": "Merluza: proteína, grasa y calorías",
-      "similarity": 0.652,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5242,
-      "rare_shared_idf": 6.8164,
-      "subject_shared_idf": 6.8164,
-      "subject_shared_tokens": [
-        "merluza"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 59,
-      "a_title": "Cottage cheese vs. yogur griego: proteína, calorías y diferencias",
-      "b": 582,
-      "b_title": "Cottage cheese: proteína, grasa y calorías",
-      "similarity": 0.6464,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5865,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "cheese",
-        "cottage"
-      ],
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 489,
-      "a_title": "Quinoa vs. Bulgur: Nutrition Compared",
-      "b": 496,
-      "b_title": "Bulgur vs. Couscous: Nutrition Compared",
-      "similarity": 0.6461,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.5114,
-      "rare_shared_idf": 6.5932,
-      "subject_shared_idf": 6.5932,
-      "subject_shared_tokens": [
-        "bulgur"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 582,
-      "a_title": "Cottage cheese: proteína, grasa y calorías",
-      "b": 583,
-      "b_title": "Cottage cheese vs. queso fresco: diferencias nutricionales",
-      "similarity": 0.6067,
-      "title_jaccard": 0.625,
-      "weighted_title_jaccard": 0.6457,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "cheese",
-        "cottage"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
       "a": 66,
       "a_title": "Cuánto duran los huevos cocidos en la nevera",
       "b": 217,
@@ -981,57 +626,6 @@
       ],
       "family_match": false,
       "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 405,
-      "a_title": "Kefir vs. Greek Yogurt: Protein, Fermentation, and Key Differences",
-      "b": 460,
-      "b_title": "Plain Yogurt vs. Kefir: Nutrition and Fermentation Differences",
-      "similarity": 0.6401,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5687,
-      "rare_shared_idf": 5.7178,
-      "subject_shared_idf": 5.7178,
-      "subject_shared_tokens": [
-        "kefir"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 99,
-      "a_title": "Walnuts: nutrition and omega-3 content",
-      "b": 189,
-      "b_title": "Walnuts vs. pistachios: nutrition differences",
-      "similarity": 0.6385,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5866,
-      "rare_shared_idf": 5.8048,
-      "subject_shared_idf": 5.8048,
-      "subject_shared_tokens": [
-        "walnut"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 63,
-      "a_title": "Edamame vs. chickpeas: protein, fiber, and calories",
-      "b": 108,
-      "b_title": "Edamame: protein, fiber, and nutrients",
-      "similarity": 0.6358,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.6167,
-      "rare_shared_idf": 6.4109,
-      "subject_shared_idf": 6.4109,
-      "subject_shared_tokens": [
-        "edamame"
-      ],
-      "family_match": false,
-      "type_overlap": 1
     },
     {
       "language": "es",
@@ -1051,283 +645,6 @@
       ],
       "family_match": true,
       "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 607,
-      "a_title": "Dates vs. sugar: nutrition differences",
-      "b": 608,
-      "b_title": "Dates vs. raisins: sugar, fiber and calories",
-      "similarity": 0.6261,
-      "title_jaccard": 0.7143,
-      "weighted_title_jaccard": 0.5943,
-      "rare_shared_idf": 5.9001,
-      "subject_shared_idf": 5.9001,
-      "subject_shared_tokens": [
-        "dates"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 559,
-      "a_title": "Sourdough bread: what changes during fermentation",
-      "b": 561,
-      "b_title": "Sourdough and digestibility: what fermentation changes",
-      "similarity": 0.6012,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5151,
-      "rare_shared_idf": 6.0054,
-      "subject_shared_idf": 6.0054,
-      "subject_shared_tokens": [
-        "sourdough"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 99,
-      "a_title": "Nueces: propiedades nutricionales y omega-3",
-      "b": 189,
-      "b_title": "Nueces vs. pistachos: diferencias nutricionales",
-      "similarity": 0.6,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5002,
-      "rare_shared_idf": 5.8048,
-      "subject_shared_idf": 5.8048,
-      "subject_shared_tokens": [
-        "nuece"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 99,
-      "a_title": "Nueces: propiedades nutricionales y omega-3",
-      "b": 100,
-      "b_title": "Almendras vs. nueces: diferencias nutricionales",
-      "similarity": 0.598,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.529,
-      "rare_shared_idf": 5.8048,
-      "subject_shared_idf": 5.8048,
-      "subject_shared_tokens": [
-        "nuece"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 679,
-      "a_title": "Yogur griego o crema agria: diferencias y sustituciones",
-      "b": 680,
-      "b_title": "Queso crema o crema agria: diferencias y sustituciones",
-      "similarity": 0.5826,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5973,
-      "rare_shared_idf": 7.104,
-      "subject_shared_idf": 7.104,
-      "subject_shared_tokens": [
-        "agria",
-        "sustitucione"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 583,
-      "a_title": "Cottage cheese vs. queso fresco: diferencias nutricionales",
-      "b": 584,
-      "b_title": "Cottage cheese vs. ricotta: diferencias nutricionales",
-      "similarity": 0.546,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5911,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "cheese",
-        "cottage"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 346,
-      "a_title": "¿Se puede comer la piel del boniato?",
-      "b": 1004,
-      "b_title": "¿Se puede comer boniato crudo?",
-      "similarity": 0.469,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.5874,
-      "rare_shared_idf": 6.1232,
-      "subject_shared_idf": 6.1232,
-      "subject_shared_tokens": [
-        "boniato"
-      ],
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 181,
-      "a_title": "Which seeds have the most omega-3?",
-      "b": 544,
-      "b_title": "Chia vs. hemp seeds",
-      "similarity": 0.5858,
-      "title_jaccard": 0.4,
-      "weighted_title_jaccard": 0.5336,
-      "rare_shared_idf": 6.2568,
-      "subject_shared_idf": 6.2568,
-      "subject_shared_tokens": [
-        "hemp"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 87,
-      "a_title": "Proteína y saciedad: por qué los alimentos ricos en proteína llenan más",
-      "b": 88,
-      "b_title": "Fibra y saciedad: por qué ayuda a sentirse lleno",
-      "similarity": 0.4259,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5692,
-      "rare_shared_idf": 6.1232,
-      "subject_shared_idf": 6.1232,
-      "subject_shared_tokens": [
-        "lleno",
-        "sentirse"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 607,
-      "a_title": "Dátiles vs. azúcar: diferencias nutricionales",
-      "b": 608,
-      "b_title": "Dátiles vs. pasas: azúcar, fibra y calorías",
-      "similarity": 0.5572,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5487,
-      "rare_shared_idf": 6.4109,
-      "subject_shared_idf": 6.4109,
-      "subject_shared_tokens": [
-        "datile"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 7,
-      "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
-      "b": 213,
-      "b_title": "Ground beef vs. ground turkey: nutrition differences",
-      "similarity": 0.4829,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.535,
-      "rare_shared_idf": 5.8048,
-      "subject_shared_idf": 5.8048,
-      "subject_shared_tokens": [
-        "turkey"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 76,
-      "a_title": "The highest-fiber nuts",
-      "b": 101,
-      "b_title": "Nuts with the most omega-3",
-      "similarity": 0.3327,
-      "title_jaccard": 0.375,
-      "weighted_title_jaccard": 0.5189,
-      "rare_shared_idf": 6.4109,
-      "subject_shared_idf": 6.4109,
-      "subject_shared_tokens": [
-        "ranked"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 1123,
-      "a_title": "Can You Put Aluminum Foil in an Air Fryer?",
-      "b": 1133,
-      "b_title": "Can You Put Aluminum Foil in the Microwave? What Actually Happens",
-      "similarity": 0.4938,
-      "title_jaccard": 0.375,
-      "weighted_title_jaccard": 0.511,
-      "rare_shared_idf": 7.104,
-      "subject_shared_idf": 7.104,
-      "subject_shared_tokens": [
-        "aluminum",
-        "foil"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 1123,
-      "a_title": "¿Se puede poner papel de aluminio en la freidora de aire?",
-      "b": 1133,
-      "b_title": "¿Se puede poner papel de aluminio en el microondas? Qué ocurre realmente",
-      "similarity": 0.445,
-      "title_jaccard": 0.4444,
-      "weighted_title_jaccard": 0.5102,
-      "rare_shared_idf": 7.104,
-      "subject_shared_idf": 7.104,
-      "subject_shared_tokens": [
-        "aluminio",
-        "poner"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 377,
-      "a_title": "Does dry rice expire?",
-      "b": 421,
-      "b_title": "Does Dry Pasta Expire?",
-      "similarity": 0.3072,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5085,
-      "rare_shared_idf": 5.7178,
-      "subject_shared_idf": 5.7178,
-      "subject_shared_tokens": [
-        "expire"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 49,
-      "a_title": "Chicken vs Turkey: Nutrition Differences",
-      "b": 213,
-      "b_title": "Ground beef vs. ground turkey: nutrition differences",
-      "similarity": 0.3752,
-      "title_jaccard": 0.625,
-      "weighted_title_jaccard": 0.5073,
-      "rare_shared_idf": 5.8048,
-      "subject_shared_idf": 5.8048,
-      "subject_shared_tokens": [
-        "turkey"
-      ],
-      "family_match": true,
-      "type_overlap": 2
     }
   ],
   "issues": {},
