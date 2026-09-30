@@ -70,6 +70,71 @@ function food_seo_consolidation_canonical_number( $article_number ) {
 	return $target > 0 ? $target : $article_number;
 }
 
+function food_seo_consolidated_post_ids() {
+	static $post_ids = null;
+	if ( null !== $post_ids ) {
+		return $post_ids;
+	}
+
+	$numbers = array_map( 'intval', array_keys( food_seo_consolidation_map() ) );
+	$numbers = array_values( array_filter( $numbers ) );
+	if ( empty( $numbers ) ) {
+		$post_ids = array();
+		return $post_ids;
+	}
+
+	$post_ids = get_posts(
+		array(
+			'post_type'                   => 'post',
+			'post_status'                 => 'publish',
+			'posts_per_page'              => -1,
+			'fields'                      => 'ids',
+			'no_found_rows'               => true,
+			'ignore_sticky_posts'         => true,
+			'suppress_filters'            => true,
+			'food_language_bypass'        => 1,
+			'food_consolidation_bypass'   => 1,
+			'meta_query'                  => array(
+				array(
+					'key'     => '_food_article_number',
+					'value'   => $numbers,
+					'compare' => 'IN',
+					'type'    => 'NUMERIC',
+				),
+			),
+		)
+	);
+	$post_ids = array_values( array_unique( array_map( 'intval', $post_ids ) ) );
+	return $post_ids;
+}
+
+/**
+ * Redirect sources must remain queryable on their own URL so template_redirect
+ * can issue a 301, but they should disappear from every public listing.
+ */
+function food_seo_exclude_consolidated_from_listings( $query ) {
+	if ( is_admin() || ! $query instanceof WP_Query ) {
+		return;
+	}
+	if ( $query->get( 'food_consolidation_bypass' ) || $query->is_singular() ) {
+		return;
+	}
+
+	$post_type = $query->get( 'post_type' );
+	if ( $post_type && 'post' !== $post_type && 'any' !== $post_type && ! ( is_array( $post_type ) && in_array( 'post', $post_type, true ) ) ) {
+		return;
+	}
+
+	$excluded = food_seo_consolidated_post_ids();
+	if ( empty( $excluded ) ) {
+		return;
+	}
+
+	$current = array_map( 'intval', (array) $query->get( 'post__not_in' ) );
+	$query->set( 'post__not_in', array_values( array_unique( array_merge( $current, $excluded ) ) ) );
+}
+add_action( 'pre_get_posts', 'food_seo_exclude_consolidated_from_listings', 20 );
+
 function food_seo_consolidation_post( $article_number, $language ) {
 	$article_number = (int) $article_number;
 	$language       = 'en' === $language ? 'en' : 'es';
