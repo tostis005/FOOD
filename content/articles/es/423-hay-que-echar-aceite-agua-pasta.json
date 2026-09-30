@@ -36,6 +36,18 @@
     {
       "question": "¿Puedo usar aceite después de cocerla?",
       "answer": "Sí, por ejemplo en pasta que vas a enfriar y guardar sin salsa, aunque para servirla inmediatamente con salsa suele ser innecesario."
+    },
+    {
+      "question": "¿El aceite evita que la pasta se pegue?",
+      "answer": "No de forma eficaz durante la cocción: flota sobre el agua y puede acabar dificultando que la salsa se adhiera."
+    },
+    {
+      "question": "¿Cuándo hay que remover?",
+      "answer": "Especialmente durante el primer minuto, cuando la superficie empieza a liberar y gelatinizar almidón."
+    },
+    {
+      "question": "¿Hay que enjuagar la pasta?",
+      "answer": "Normalmente no si va a servirse caliente con salsa, porque se pierde almidón útil para ligar."
     }
   ],
   "sources": [
@@ -48,6 +60,16 @@
       "name": "Barilla — Pasta Water Tips & Tricks",
       "url": "https://www.barilla.com/en-us/help-with/pasta-kitchen-tips/pasta-water-tips-tricks",
       "note": "Explica por qué aceite y agua no se mezclan y cómo el agua con almidón ayuda a la salsa."
+    },
+    {
+      "name": "Barilla — Pasta Myths",
+      "url": "https://www.barilla.com/en-us/help-with/storage-reheat-and-product-faqs/pasta-myths",
+      "note": "Explains that oil in pasta water does not prevent sticking and can interfere with sauce adhesion; also advises against rinsing because surface starch helps sauce cling."
+    },
+    {
+      "name": "Serious Eats — The Pasta Rule Everyone Still Follows",
+      "url": "https://www.seriouseats.com/oil-pasta-water-11822323",
+      "note": "Practical testing explaining that early stirring prevents starch-rich pasta surfaces from bonding, while oil floats on the water."
     }
   ],
   "image": {

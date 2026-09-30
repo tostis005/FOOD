@@ -35,6 +35,16 @@
       "publisher": "USDA Food Safety and Inspection Service",
       "note": "Explica que la refrigeración ralentiza el crecimiento microbiano y la importancia de mantener el frigorífico frío.",
       "name": "Refrigeration and Food Safety"
+    },
+    {
+      "name": "USDA FSIS — Meat and Poultry Packaging Materials",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/food-safety-basics/meat-and-poultry-packaging",
+      "note": "Confirma 3–5 días refrigerados para paquetes abiertos de luncheon meat."
+    },
+    {
+      "name": "USDA FSIS — Hams and Food Safety",
+      "url": "https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/meat-catfish/hams-and-food-safety",
+      "note": "Muestra cómo los plazos varían mucho entre jamón cocido, fiambre, productos curados y jamón tipo serrano/prosciutto."
     }
   ],
   "status": "publish",
@@ -70,6 +80,18 @@
     {
       "question": "¿Puedo congelar el fiambre si no voy a terminarlo a tiempo?",
       "answer": "Sí, muchos fiambres pueden congelarse, aunque la textura puede cambiar. Congélalos pronto y sigue las instrucciones específicas del fabricante si las hay."
+    },
+    {
+      "question": "¿Cuánto dura el jamón cocido abierto?",
+      "answer": "Como fiambre cocido y loncheado, una referencia habitual es 3–5 días refrigerado a 4 °C o menos."
+    },
+    {
+      "question": "¿El chorizo curado dura solo 3–5 días?",
+      "answer": "No necesariamente. Los embutidos secos curados pueden durar bastante más; depende de humedad, proceso, formato y etiqueta."
+    },
+    {
+      "question": "¿Los fiambres loncheados en tienda duran menos?",
+      "answer": "USDA utiliza igualmente 3–5 días como referencia para luncheon meat abierto o loncheado en establecimiento."
     }
   ],
   "image": {
