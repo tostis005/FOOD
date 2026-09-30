@@ -40,6 +40,18 @@
     {
       "question": "¿Es seguro comer chía seca?",
       "answer": "Una pequeña cantidad mezclada con alimentos húmedos no es lo mismo que tragar una cucharada seca. Evita consumir cucharadas de chía completamente seca sola, sobre todo si existe dificultad para tragar."
+    },
+    {
+      "question": "¿Puedo echar chía directamente al yogur?",
+      "answer": "Sí. El yogur aporta humedad y la semilla empieza a hidratarse dentro del propio alimento."
+    },
+    {
+      "question": "¿Es peligroso comer chía seca?",
+      "answer": "Una pequeña cantidad mezclada en comida no equivale a tragar una cucharada seca. Se recomienda evitar cucharadas de chía completamente seca solas por su gran capacidad de absorber agua."
+    },
+    {
+      "question": "¿Hay que triturar la chía?",
+      "answer": "No necesariamente. La chía entera se digiere bien cuando se consume con humedad, a diferencia de lo que ocurre con muchas semillas de lino enteras."
     }
   ],
   "sources": [
@@ -52,6 +64,11 @@
       "name": "Case Reports in Internal Medicine — Esophageal impaction with chia seeds",
       "url": "https://www.sciedu.ca/journal/index.php/crim/article/view/11135",
       "note": "Caso clínico de obstrucción esofágica tras ingerir chía seca seguida de agua."
+    },
+    {
+      "name": "American College of Gastroenterology — Chia seed impaction",
+      "url": "https://gi.org/journals-publications/acg-blog/watch-it-grow-esophageal-impaction-with-chia-seeds/",
+      "note": "Advertencia clínica sobre ingerir chía seca, especialmente en personas con problemas de deglución."
     }
   ],
   "image": {
