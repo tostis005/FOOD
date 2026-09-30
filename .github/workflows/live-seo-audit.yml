@@ -313,6 +313,16 @@ jobs:
               assert not missing, f'{len(missing)} active {lang.upper()} article URLs missing from sitemap: {missing[:5]}'
               assert not leaked, f'{len(leaked)} redirected {lang.upper()} article URLs leaked into sitemap: {leaked[:5]}'
 
+              # Non-article sitemap entries are curated hubs/editorial pages.
+              # Every one must be a real self-canonical indexable page.
+              hub_urls = sorted(sitemap_urls[lang] - expected_article_urls[lang])
+              for hub_url in hub_urls:
+                  hub_body = fetch(hub_url)
+                  hub_parser = parse_head(hub_body)
+                  hub_robots = meta_content(hub_parser, 'robots').lower()
+                  assert 'noindex' not in hub_robots, f'Sitemap hub is noindex: {hub_url}'
+                  assert link_href(hub_parser, rel='canonical') == hub_url, f'Hub canonical mismatch: {hub_url}'
+
           robots_txt = fetch(urljoin(SITE, 'robots.txt'))
           assert 'Sitemap: ' + urljoin(SITE, 'sitemap.xml') in robots_txt
 
@@ -361,6 +371,9 @@ jobs:
           print('SITEMAPS=PASS')
           print(f'SITEMAP_ES_ACTIVE_ARTICLES={len(expected_article_urls["es"])}')
           print(f'SITEMAP_EN_ACTIVE_ARTICLES={len(expected_article_urls["en"])}')
+          print(f'SITEMAP_ES_HUBS={len(sitemap_urls["es"] - expected_article_urls["es"])}')
+          print(f'SITEMAP_EN_HUBS={len(sitemap_urls["en"] - expected_article_urls["en"])}')
+          print('SITEMAP_HUB_CANONICALS=PASS')
           print('ROBOTS=PASS')
           print('CONSOLIDATED_REDIRECTS=PASS')
           print('CONSOLIDATED_LISTINGS=PASS')
