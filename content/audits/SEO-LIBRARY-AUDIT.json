@@ -396,43 +396,6 @@
   "repeated_first_answers": [],
   "cannibalization_candidates": [
     {
-      "language": "en",
-      "a": 1092,
-      "a_title": "Why Meat Can Look Green or Rainbow-Colored Without Being Spoiled",
-      "b": 1100,
-      "b_title": "Why Fish Can Have a Rainbow Shine Without Being Spoiled",
-      "similarity": 0.6933,
-      "title_jaccard": 0.5833,
-      "weighted_title_jaccard": 0.7537,
-      "rare_shared_idf": 7.104,
-      "subject_shared_idf": 7.104,
-      "subject_shared_tokens": [
-        "being",
-        "colored",
-        "rainbow",
-        "shine"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 157,
-      "a_title": "¿Cocinar las verduras destruye las vitaminas?",
-      "b": 1074,
-      "b_title": "¿Cocinar las verduras destruye su fibra?",
-      "similarity": 0.5112,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.7241,
-      "rare_shared_idf": 6.1232,
-      "subject_shared_idf": 6.1232,
-      "subject_shared_tokens": [
-        "destruye"
-      ],
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
       "language": "es",
       "a": 730,
       "a_title": "Caldo de huesos o caldo tradicional: ¿hay realmente tanta diferencia?",
@@ -554,23 +517,6 @@
       "type_overlap": 1
     },
     {
-      "language": "en",
-      "a": 387,
-      "a_title": "Fruits lowest in sugar",
-      "b": 388,
-      "b_title": "Fruits lowest in calories",
-      "similarity": 0.6204,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.6972,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lowest"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
       "language": "es",
       "a": 504,
       "a_title": "Cacao vs. chocolate: diferencias nutricionales y de elaboración",
@@ -676,23 +622,6 @@
     },
     {
       "language": "es",
-      "a": 154,
-      "a_title": "Fruta fresca vs. congelada: diferencias nutricionales",
-      "b": 155,
-      "b_title": "Verduras frescas vs. congeladas: diferencias nutricionales",
-      "similarity": 0.6431,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.6805,
-      "rare_shared_idf": 5.9001,
-      "subject_shared_idf": 5.9001,
-      "subject_shared_tokens": [
-        "congelada"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
       "a": 208,
       "a_title": "Atún: proteína, grasa, mercurio y valor nutricional",
       "b": 763,
@@ -724,23 +653,6 @@
       ],
       "family_match": true,
       "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 271,
-      "a_title": "How to thaw meat safely",
-      "b": 273,
-      "b_title": "Can you thaw meat in the microwave?",
-      "similarity": 0.5965,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.679,
-      "rare_shared_idf": 5.7178,
-      "subject_shared_idf": 5.7178,
-      "subject_shared_tokens": [
-        "microwave"
-      ],
-      "family_match": true,
-      "type_overlap": 2
     },
     {
       "language": "en",
@@ -968,23 +880,6 @@
     },
     {
       "language": "es",
-      "a": 73,
-      "a_title": "¿Hay que lavar el arroz antes de cocinarlo?",
-      "b": 306,
-      "b_title": "¿Hay que lavar el pescado antes de cocinarlo?",
-      "similarity": 0.4219,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.6576,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lavar"
-      ],
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
       "a": 63,
       "a_title": "Edamame vs. garbanzos: proteína, fibra y calorías",
       "b": 108,
@@ -1072,23 +967,6 @@
     },
     {
       "language": "es",
-      "a": 256,
-      "a_title": "¿Hay que lavar el pollo antes de cocinarlo?",
-      "b": 306,
-      "b_title": "¿Hay que lavar el pescado antes de cocinarlo?",
-      "similarity": 0.6193,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.6456,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lavar"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
       "a": 66,
       "a_title": "Cuánto duran los huevos cocidos en la nevera",
       "b": 217,
@@ -1157,23 +1035,6 @@
     },
     {
       "language": "es",
-      "a": 73,
-      "a_title": "¿Hay que lavar el arroz antes de cocinarlo?",
-      "b": 256,
-      "b_title": "¿Hay que lavar el pollo antes de cocinarlo?",
-      "similarity": 0.4137,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.6314,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lavar"
-      ],
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "es",
       "a": 1041,
       "a_title": "Por qué la col morada puede volverse azul al cocinarla",
       "b": 1042,
@@ -1206,23 +1067,6 @@
         "dates"
       ],
       "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 212,
-      "a_title": "How long does chicken last in the freezer?",
-      "b": 260,
-      "b_title": "How long does fish last in the freezer?",
-      "similarity": 0.4622,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.6162,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "freezer"
-      ],
-      "family_match": false,
       "type_overlap": 2
     },
     {
@@ -1296,40 +1140,6 @@
     },
     {
       "language": "es",
-      "a": 620,
-      "a_title": "Legumbres como fuente económica de proteína",
-      "b": 621,
-      "b_title": "Huevos como fuente económica de proteína",
-      "similarity": 0.5964,
-      "title_jaccard": 0.375,
-      "weighted_title_jaccard": 0.5343,
-      "rare_shared_idf": 7.104,
-      "subject_shared_idf": 7.104,
-      "subject_shared_tokens": [
-        "economica"
-      ],
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 157,
-      "a_title": "Does cooking vegetables destroy vitamins?",
-      "b": 1074,
-      "b_title": "Does Cooking Vegetables Destroy Their Fiber?",
-      "similarity": 0.5599,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5945,
-      "rare_shared_idf": 5.9001,
-      "subject_shared_idf": 5.9001,
-      "subject_shared_tokens": [
-        "destroy"
-      ],
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "es",
       "a": 583,
       "a_title": "Cottage cheese vs. queso fresco: diferencias nutricionales",
       "b": 584,
@@ -1344,24 +1154,6 @@
         "cottage"
       ],
       "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 309,
-      "a_title": "Should you wash eggs before storing them?",
-      "b": 446,
-      "b_title": "When Should You Wash Fruit: Before Storing or Before Eating?",
-      "similarity": 0.4793,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5877,
-      "rare_shared_idf": 6.1232,
-      "subject_shared_idf": 6.1232,
-      "subject_shared_tokens": [
-        "storing",
-        "wash"
-      ],
-      "family_match": false,
       "type_overlap": 2
     },
     {
@@ -1383,23 +1175,6 @@
     },
     {
       "language": "en",
-      "a": 268,
-      "a_title": "The lowest-calorie fish",
-      "b": 275,
-      "b_title": "The lowest-fat cheeses",
-      "similarity": 0.2227,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5873,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lowest"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
       "a": 181,
       "a_title": "Which seeds have the most omega-3?",
       "b": 544,
@@ -1414,41 +1189,6 @@
       ],
       "family_match": true,
       "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 1159,
-      "a_title": "Creatine Before or After a Workout: Does Timing Really Matter?",
-      "b": 1174,
-      "b_title": "Protein Before or After a Workout? How Much Timing Really Matters",
-      "similarity": 0.5077,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5815,
-      "rare_shared_idf": 6.8164,
-      "subject_shared_idf": 6.8164,
-      "subject_shared_tokens": [
-        "timing",
-        "workout"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 256,
-      "a_title": "Should you wash chicken before cooking?",
-      "b": 306,
-      "b_title": "Should you wash fish before cooking it?",
-      "similarity": 0.4735,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5744,
-      "rare_shared_idf": 5.6377,
-      "subject_shared_idf": 5.6377,
-      "subject_shared_tokens": [
-        "wash"
-      ],
-      "family_match": false,
-      "type_overlap": 2
     },
     {
       "language": "es",
@@ -1469,74 +1209,6 @@
       "type_overlap": 2
     },
     {
-      "language": "en",
-      "a": 306,
-      "a_title": "Should you wash fish before cooking it?",
-      "b": 1025,
-      "b_title": "Should You Wash Mushrooms Before Cooking?",
-      "similarity": 0.461,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5679,
-      "rare_shared_idf": 5.6377,
-      "subject_shared_idf": 5.6377,
-      "subject_shared_tokens": [
-        "wash"
-      ],
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 262,
-      "a_title": "How to thaw chicken safely",
-      "b": 273,
-      "b_title": "Can you thaw meat in the microwave?",
-      "similarity": 0.3902,
-      "title_jaccard": 0.4286,
-      "weighted_title_jaccard": 0.5622,
-      "rare_shared_idf": 5.7178,
-      "subject_shared_idf": 5.7178,
-      "subject_shared_tokens": [
-        "microwave"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 209,
-      "a_title": "Lowest-calorie legumes: a cooked ranking",
-      "b": 233,
-      "b_title": "Legumes lowest in carbohydrates",
-      "similarity": 0.5596,
-      "title_jaccard": 0.625,
-      "weighted_title_jaccard": 0.531,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lowest"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 306,
-      "a_title": "¿Hay que lavar el pescado antes de cocinarlo?",
-      "b": 1025,
-      "b_title": "¿Hay que lavar los champiñones antes de cocinarlos?",
-      "similarity": 0.4999,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.5596,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lavar"
-      ],
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
       "language": "es",
       "a": 607,
       "a_title": "Dátiles vs. azúcar: diferencias nutricionales",
@@ -1554,110 +1226,6 @@
       "type_overlap": 2
     },
     {
-      "language": "es",
-      "a": 73,
-      "a_title": "¿Hay que lavar el arroz antes de cocinarlo?",
-      "b": 1025,
-      "b_title": "¿Hay que lavar los champiñones antes de cocinarlos?",
-      "similarity": 0.4277,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.5489,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lavar"
-      ],
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "en",
-      "a": 1180,
-      "a_title": "How Much Lentils Per Person: Dry and Cooked Amounts",
-      "b": 1181,
-      "b_title": "How Much Chickpeas Per Person: Dry, Soaked, and Cooked Amounts",
-      "similarity": 0.5477,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5231,
-      "rare_shared_idf": 5.8048,
-      "subject_shared_idf": 5.8048,
-      "subject_shared_tokens": [
-        "person"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 1126,
-      "a_title": "Por qué la comida no queda crujiente en la freidora de aire",
-      "b": 1127,
-      "b_title": "¿Se puede cocinar comida congelada directamente en la freidora de aire?",
-      "similarity": 0.4246,
-      "title_jaccard": 0.4545,
-      "weighted_title_jaccard": 0.5451,
-      "rare_shared_idf": 6.1232,
-      "subject_shared_idf": 6.1232,
-      "subject_shared_tokens": [
-        "air",
-        "fryer"
-      ],
-      "family_match": true,
-      "type_overlap": 1
-    },
-    {
-      "language": "es",
-      "a": 256,
-      "a_title": "¿Hay que lavar el pollo antes de cocinarlo?",
-      "b": 1025,
-      "b_title": "¿Hay que lavar los champiñones antes de cocinarlos?",
-      "similarity": 0.5084,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.5405,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lavar"
-      ],
-      "family_match": false,
-      "type_overlap": 0
-    },
-    {
-      "language": "es",
-      "a": 1126,
-      "a_title": "Por qué la comida no queda crujiente en la freidora de aire",
-      "b": 1129,
-      "b_title": "¿Hay que dar la vuelta a la comida en la freidora de aire?",
-      "similarity": 0.3534,
-      "title_jaccard": 0.5556,
-      "weighted_title_jaccard": 0.538,
-      "rare_shared_idf": 6.1232,
-      "subject_shared_idf": 6.1232,
-      "subject_shared_tokens": [
-        "air",
-        "fryer"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 956,
-      "a_title": "Is an Avocado a Fruit or a Vegetable?",
-      "b": 957,
-      "b_title": "Is a Cucumber a Fruit or a Vegetable?",
-      "similarity": 0.5369,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.5239,
-      "rare_shared_idf": 5.7178,
-      "subject_shared_idf": 5.7178,
-      "subject_shared_tokens": [
-        "botanically"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
       "language": "en",
       "a": 7,
       "a_title": "Chicken vs Turkey vs Pork vs Beef: Protein, Fat and Calories",
@@ -1672,74 +1240,6 @@
         "turkey"
       ],
       "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 209,
-      "a_title": "Lowest-calorie legumes: a cooked ranking",
-      "b": 268,
-      "b_title": "The lowest-calorie fish",
-      "similarity": 0.3473,
-      "title_jaccard": 0.5,
-      "weighted_title_jaccard": 0.5337,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lowest"
-      ],
-      "family_match": false,
-      "type_overlap": 2
-    },
-    {
-      "language": "es",
-      "a": 439,
-      "a_title": "Cuánto dura una cebolla cortada en la nevera",
-      "b": 988,
-      "b_title": "Cuánto dura una sandía cortada en la nevera",
-      "similarity": 0.5313,
-      "title_jaccard": 0.6667,
-      "weighted_title_jaccard": 0.5027,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "cortada"
-      ],
-      "family_match": false,
-      "type_overlap": 1
-    },
-    {
-      "language": "en",
-      "a": 248,
-      "a_title": "How to tell if fish has gone bad",
-      "b": 283,
-      "b_title": "How to tell if shrimp has gone bad",
-      "similarity": 0.3637,
-      "title_jaccard": 0.6,
-      "weighted_title_jaccard": 0.5299,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "gone"
-      ],
-      "family_match": true,
-      "type_overlap": 2
-    },
-    {
-      "language": "en",
-      "a": 268,
-      "a_title": "The lowest-calorie fish",
-      "b": 433,
-      "b_title": "Lowest-Calorie Vegetables",
-      "similarity": 0.3956,
-      "title_jaccard": 0.5714,
-      "weighted_title_jaccard": 0.5202,
-      "rare_shared_idf": 5.5636,
-      "subject_shared_idf": 5.5636,
-      "subject_shared_tokens": [
-        "lowest"
-      ],
-      "family_match": false,
       "type_overlap": 2
     },
     {
