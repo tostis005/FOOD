@@ -1,0 +1,40 @@
+name: Audit source link integrity
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 5 * * 1'
+  push:
+    branches:
+      - main
+    paths:
+      - 'content/articles/es/**.json'
+      - 'content/articles/en/**.json'
+      - 'content/tools/audit-source-links.py'
+      - '.github/workflows/source-link-audit.yml'
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate source URL data
+        run: |
+          set -euo pipefail
+          python3 content/tools/audit-source-links.py
+
+      - name: Check external source URLs
+        if: ${{ github.event_name == 'schedule' || github.event_name == 'workflow_dispatch' }}
+        run: |
+          set -euo pipefail
+          python3 content/tools/audit-source-links.py --live
+
+      - name: Upload source-link report
+        uses: actions/upload-artifact@v4
+        with:
+          name: source-link-audit
+          path: |
+            content/audits/SOURCE-LINK-AUDIT.json
+            content/audits/SOURCE-LINK-AUDIT.md
+          retention-days: 30
