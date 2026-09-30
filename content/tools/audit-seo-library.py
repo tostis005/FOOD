@@ -19,7 +19,7 @@ opened opening cutting cortada cortado cooked cocido raw crudo
 frozen congelada congelado fresh fresca fresco natural regular
 microwave microonda air fryer freidora botanically botanica
 safe safely segura seguro storage conservacion cooking cocinar
-fermentation fermentacion
+fermentation fermentacion dura duran duracion
 """.split())
 WORD_RE = re.compile(r"[\wÀ-ÿ]+(?:['’\-][\wÀ-ÿ]+)*", re.UNICODE)
 
