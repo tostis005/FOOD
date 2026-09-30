@@ -631,8 +631,8 @@ function food_taxonomy_language_post_count( $term, $language = '', $limit = 3 ) 
 	return count( get_posts( $args ) );
 }
 
-function food_topic_archive_robots( $robots ) {
-	if ( is_tax( 'food_topic' ) ) {
+function food_taxonomy_archive_robots( $robots ) {
+	if ( is_category() || is_tax( 'food_topic' ) ) {
 		$term = get_queried_object();
 		if ( $term instanceof WP_Term ) {
 			$language = function_exists( 'food_current_language' ) ? food_current_language() : 'es';
@@ -645,4 +645,4 @@ function food_topic_archive_robots( $robots ) {
 	}
 	return $robots;
 }
-add_filter( 'wp_robots', 'food_topic_archive_robots' );
+add_filter( 'wp_robots', 'food_taxonomy_archive_robots' );

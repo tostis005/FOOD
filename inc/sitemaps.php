@@ -93,6 +93,9 @@ function food_sitemap_taxonomy_urls( $language ) {
 			if ( ! $term instanceof WP_Term ) {
 				continue;
 			}
+			if ( function_exists( 'food_taxonomy_language_post_count' ) && food_taxonomy_language_post_count( $term, $language, 3 ) < 3 ) {
+				continue;
+			}
 			if ( function_exists( 'food_category_url_for_language' ) ) {
 				$urls[] = food_category_url_for_language( $term, $language );
 			} else {
