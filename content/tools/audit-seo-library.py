@@ -148,30 +148,51 @@ def cannibal_pairs(metrics,limit=250):
         for m in items:
             tf=Counter(m['feature_tokens']); tfs[m['number']]=tf
             for t in tf: df[t]+=1
-        n=len(items); vectors={}; norms={}
+        n=len(items); vectors={}; norms={}; idf={}
+        for token,count in df.items():
+            idf[token]=math.log((n+1)/(count+1))+1.0
         for m in items:
             vec={}
             for t,c in tfs[m['number']].items():
-                vec[t]=c*(math.log((n+1)/(df[t]+1))+1.0)
+                vec[t]=c*idf[t]
             vectors[m['number']]=vec; norms[m['number']]=math.sqrt(sum(v*v for v in vec.values())) or 1.0
         lookup={m['number']:m for m in items}; nums=sorted(lookup)
         for i,a_num in enumerate(nums):
             a=lookup[a_num]; va=vectors[a_num]
             for b_num in nums[i+1:]:
-                b=lookup[b_num]; family=bool(a['food_family'] and a['food_family']==b['food_family']); type_overlap=len(set(a['article_types'])&set(b['article_types'])); shared_title=len(a['title_tokens']&b['title_tokens'])
+                b=lookup[b_num]; family=bool(a['food_family'] and a['food_family']==b['food_family']); type_overlap=len(set(a['article_types'])&set(b['article_types'])); shared_title_tokens=a['title_tokens']&b['title_tokens']; shared_title=len(shared_title_tokens)
                 if not family and type_overlap==0 and shared_title<2: continue
                 vb=vectors[b_num]; shared=set(va)&set(vb)
                 if not shared: continue
                 sim=sum(va[t]*vb[t] for t in shared)/(norms[a_num]*norms[b_num])
                 union=a['title_tokens']|b['title_tokens']; jac=shared_title/len(union) if union else 0.0
-                if sim<0.64 and jac<0.52: continue
-                if shared_title<2 and sim<0.74: continue
+
+                # Raw title Jaccard overvalues repeated editorial templates such
+                # as "protein, fat and nutrition" or "how long ... in the
+                # fridge". Weight title overlap by corpus rarity so entity
+                # terms carry more evidence than generic query scaffolding.
+                weighted_num=sum(idf.get(t,1.0)**2 for t in shared_title_tokens)
+                weighted_den=sum(idf.get(t,1.0)**2 for t in union)
+                weighted_jac=weighted_num/weighted_den if weighted_den else 0.0
+                rare_shared=max((idf.get(t,1.0) for t in shared_title_tokens),default=0.0)
+
+                # Retain only pairs with strong full-text similarity, strong
+                # rare-title overlap, or both. This keeps the report focused on
+                # genuine intent collision rather than same-template articles
+                # about different foods.
+                strong_text=sim>=0.72
+                strong_title=weighted_jac>=0.56 and rare_shared>=2.8
+                combined=sim>=0.62 and weighted_jac>=0.38 and rare_shared>=2.8
+                if not (strong_text or strong_title or combined):
+                    continue
+                if shared_title<2 and sim<0.76:
+                    continue
                 if canonical_number(a_num)==canonical_number(b_num):
                     continue
                 if tuple(sorted((a_num,b_num))) in CANNIBAL_ALLOWLIST:
                     continue
-                results.append({'language':lang,'a':a_num,'a_title':a['title'],'b':b_num,'b_title':b['title'],'similarity':round(sim,4),'title_jaccard':round(jac,4),'family_match':family,'type_overlap':type_overlap})
-    results.sort(key=lambda x:(-max(x['similarity'],x['title_jaccard']),-x['similarity'],x['language'],x['a'],x['b']))
+                results.append({'language':lang,'a':a_num,'a_title':a['title'],'b':b_num,'b_title':b['title'],'similarity':round(sim,4),'title_jaccard':round(jac,4),'weighted_title_jaccard':round(weighted_jac,4),'rare_shared_idf':round(rare_shared,4),'family_match':family,'type_overlap':type_overlap})
+    results.sort(key=lambda x:(-max(x['similarity'],x['weighted_title_jaccard']),-x['similarity'],x['language'],x['a'],x['b']))
     return results[:limit]
 
 def main():
