@@ -91,15 +91,61 @@ jobs:
               'content_html', 'faq', 'sources', 'image', 'status'
           }
           count = 0
+          seen_ids = {}
+          seen_numbers = {}
+          seen_slugs = {}
+          bilingual_slug_pairs = 0
+
           for path in sorted(Path('content/articles').glob('*/*.json')):
               data = json.loads(path.read_text(encoding='utf-8'))
               missing = required - data.keys()
               if missing:
                   raise SystemExit(f'{path}: missing {sorted(missing)}')
+
+              language = str(data.get('language') or '')
+              article_id = str(data.get('id') or '')
+              number = int(data.get('article_number') or 0)
+              slug = str(data.get('slug') or '')
+              group = str(data.get('translation_group') or '')
+
+              if language not in {'es', 'en'}:
+                  raise SystemExit(f'{path}: invalid language {language!r}')
+              if article_id in seen_ids:
+                  raise SystemExit(f'{path}: duplicate article id {article_id!r}; first seen at {seen_ids[article_id]}')
+              seen_ids[article_id] = path
+
+              number_key = (language, number)
+              if number_key in seen_numbers:
+                  raise SystemExit(f'{path}: duplicate article number {number} for {language}; first seen at {seen_numbers[number_key]}')
+              seen_numbers[number_key] = path
+
+              slug_key = (language, slug)
+              if slug_key in seen_slugs:
+                  raise SystemExit(f'{path}: duplicate slug {slug!r} within {language}; first seen at {seen_slugs[slug_key]["path"]}')
+              seen_slugs[slug_key] = {
+                  'path': path,
+                  'number': number,
+                  'group': group,
+                  'id': article_id,
+              }
               count += 1
+
+          for slug in sorted({slug for _, slug in seen_slugs}):
+              es = seen_slugs.get(('es', slug))
+              en = seen_slugs.get(('en', slug))
+              if not es or not en:
+                  continue
+              bilingual_slug_pairs += 1
+              if es['number'] != en['number'] or es['group'] != en['group'] or es['id'] == en['id']:
+                  raise SystemExit(
+                      f'Unsafe bilingual slug collision {slug!r}: '
+                      f'ES={es["path"]} EN={en["path"]}. '
+                      'Identical public slugs are allowed only for the two translations of the same logical article.'
+                  )
+
           if not count:
               raise SystemExit('No article JSON files found')
-          print(f'Validated {count} article JSON files')
+          print(f'Validated {count} article JSON files; safe bilingual slug pairs={bilingual_slug_pairs}')
           PY
 
       - name: Normalize canonical article fields
