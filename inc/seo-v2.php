@@ -338,17 +338,41 @@ function food_seo_v2_head() {
 	echo '<meta property="og:locale" content="' . esc_attr( food_seo_v2_locale() ) . '">' . "\n";
 	echo '<meta property="og:locale:alternate" content="' . esc_attr( food_seo_v2_is_english() ? 'es_ES' : 'en_US' ) . '">' . "\n";
 
-	$image = is_singular( 'post' ) && has_post_thumbnail( get_queried_object_id() ) ? get_the_post_thumbnail_url( get_queried_object_id(), 'full' ) : '';
-	echo '<meta name="twitter:card" content="' . esc_attr( $image ? 'summary_large_image' : 'summary' ) . '">' . "\n";
+	$image        = '';
+	$image_alt    = 'Quinnoa';
+	$image_width  = 1200;
+	$image_height = 630;
+
+	if ( is_singular( 'post' ) && has_post_thumbnail( get_queried_object_id() ) ) {
+		$thumbnail_id = get_post_thumbnail_id( get_queried_object_id() );
+		$thumbnail    = wp_get_attachment_image_src( $thumbnail_id, 'full' );
+		if ( is_array( $thumbnail ) && ! empty( $thumbnail[0] ) ) {
+			$image        = $thumbnail[0];
+			$image_width  = (int) $thumbnail[1];
+			$image_height = (int) $thumbnail[2];
+			$image_alt    = trim( (string) get_post_meta( $thumbnail_id, '_wp_attachment_image_alt', true ) );
+			if ( '' === $image_alt ) {
+				$image_alt = get_the_title( get_queried_object_id() );
+			}
+		}
+	}
+
+	if ( ! $image ) {
+		$image = get_template_directory_uri() . '/assets/quinnoa-social-card.png';
+	}
+
+	echo '<meta name="twitter:card" content="summary_large_image">' . "\n";
 	echo '<meta name="twitter:title" content="' . esc_attr( $title ) . '">' . "\n";
 	if ( $description ) {
 		echo '<meta name="twitter:description" content="' . esc_attr( $description ) . '">' . "\n";
 	}
-	if ( $image ) {
-		echo '<meta property="og:image" content="' . esc_url( $image ) . '">' . "\n";
-		echo '<meta property="og:image:alt" content="' . esc_attr( get_the_title( get_queried_object_id() ) ) . '">' . "\n";
-		echo '<meta name="twitter:image" content="' . esc_url( $image ) . '">' . "\n";
-	}
+	echo '<meta property="og:image" content="' . esc_url( $image ) . '">' . "\n";
+	echo '<meta property="og:image:secure_url" content="' . esc_url( $image ) . '">' . "\n";
+	echo '<meta property="og:image:width" content="' . esc_attr( (string) $image_width ) . '">' . "\n";
+	echo '<meta property="og:image:height" content="' . esc_attr( (string) $image_height ) . '">' . "\n";
+	echo '<meta property="og:image:alt" content="' . esc_attr( $image_alt ) . '">' . "\n";
+	echo '<meta name="twitter:image" content="' . esc_url( $image ) . '">' . "\n";
+	echo '<meta name="twitter:image:alt" content="' . esc_attr( $image_alt ) . '">' . "\n";
 	if ( is_singular( 'post' ) ) {
 		echo '<meta property="article:published_time" content="' . esc_attr( get_the_date( DATE_W3C, get_queried_object_id() ) ) . '">' . "\n";
 		echo '<meta property="article:modified_time" content="' . esc_attr( get_the_modified_date( DATE_W3C, get_queried_object_id() ) ) . '">' . "\n";

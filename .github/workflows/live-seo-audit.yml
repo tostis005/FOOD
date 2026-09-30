@@ -145,6 +145,13 @@ jobs:
                       return attrs.get('content', '')
               return ''
 
+          def meta_property(parser, property_name):
+              property_name = property_name.lower()
+              for attrs in parser.metas:
+                  if str(attrs.get('property', '')).lower() == property_name:
+                      return attrs.get('content', '')
+              return ''
+
           # Short title should retain the brand; long title should not spend
           # additional SERP space on the brand suffix.
           short_en = article('content/articles/en/1005-can-you-eat-raw-potato.json')
@@ -179,6 +186,16 @@ jobs:
               assert 'noindex' not in robots, f'Indexable article unexpectedly noindex: {url}'
               description = norm(meta_content(parser, 'description'))
               assert 70 <= len(description) <= 160, f'Meta description length {len(description)} for {url}'
+
+              og_image = norm(meta_property(parser, 'og:image'))
+              twitter_image = norm(meta_content(parser, 'twitter:image'))
+              assert og_image.startswith('https://'), f'Missing HTTPS og:image for {url}'
+              assert twitter_image == og_image, f'Twitter/OG image mismatch for {url}'
+              assert meta_content(parser, 'twitter:card') == 'summary_large_image', f'Wrong Twitter card for {url}'
+              assert int(meta_property(parser, 'og:image:width') or 0) >= 200, f'OG image too narrow for {url}'
+              assert int(meta_property(parser, 'og:image:height') or 0) >= 200, f'OG image too short for {url}'
+              image_status, _ = response_headers(og_image)
+              assert image_status == 200, f'OG image is not publicly reachable for {url}: {image_status}'
 
           # Substantial articles should expose a usable on-page contents list.
           toc_article = article('content/articles/en/064-quinoa-vs-rice-protein-fiber-carbs.json')
