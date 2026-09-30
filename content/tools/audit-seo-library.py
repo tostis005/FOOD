@@ -11,6 +11,16 @@ OUT_MD = Path('content/audits/SEO-LIBRARY-AUDIT.md')
 CONSOLIDATIONS_PATH = ROOT / 'SEO-CONSOLIDATIONS.json'
 CANNIBAL_ALLOWLIST_PATH = ROOT / 'SEO-CANNIBALIZATION-ALLOWLIST.json'
 STOP = set("""a al algo and are as at be by can como con cual cuando de del desde do does el en es esta este esto for from ha hay how if in into is it la las lo los mas me menos mi no of o on or para pero por que se si sin sobre su sus than the to un una uno unos unas vs what when where which who why with y ya you your article articulo articulos food foods alimento alimentos guia guide best better mejor mejores difference differences diferencia diferencias""".split())
+CANNIBAL_SUBJECT_STOP = STOP | set("""
+being colored colour rainbow shine destroy destruye
+lowest highest wash washing lavar storing store gone person
+economica economic timing workout freezer refrigerator fridge
+opened opening cutting cortada cortado cooked cocido raw crudo
+frozen congelada congelado fresh fresca fresco natural regular
+microwave microonda air fryer freidora botanically botanica
+safe safely segura seguro storage conservacion cooking cocinar
+fermentation fermentacion
+""".split())
 WORD_RE = re.compile(r"[\wÀ-ÿ]+(?:['’\-][\wÀ-ÿ]+)*", re.UNICODE)
 
 def load_consolidations():
@@ -175,7 +185,7 @@ def cannibal_pairs(metrics,limit=250):
                 weighted_den=sum(idf.get(t,1.0)**2 for t in union)
                 weighted_jac=weighted_num/weighted_den if weighted_den else 0.0
                 rare_shared=max((idf.get(t,1.0) for t in shared_title_tokens),default=0.0)
-                subject_shared_tokens={t for t in shared_title_tokens if idf.get(t,1.0)>=5.5}
+                subject_shared_tokens={t for t in shared_title_tokens if idf.get(t,1.0)>=5.5 and t not in CANNIBAL_SUBJECT_STOP}
                 subject_shared_idf=max((idf.get(t,1.0) for t in subject_shared_tokens),default=0.0)
 
                 # Repeated editorial templates can still look very similar
