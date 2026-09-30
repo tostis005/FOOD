@@ -175,23 +175,27 @@ def cannibal_pairs(metrics,limit=250):
                 weighted_den=sum(idf.get(t,1.0)**2 for t in union)
                 weighted_jac=weighted_num/weighted_den if weighted_den else 0.0
                 rare_shared=max((idf.get(t,1.0) for t in shared_title_tokens),default=0.0)
+                subject_shared_tokens={t for t in shared_title_tokens if idf.get(t,1.0)>=5.5}
+                subject_shared_idf=max((idf.get(t,1.0) for t in subject_shared_tokens),default=0.0)
 
-                # Retain only pairs with strong full-text similarity, strong
-                # rare-title overlap, or both. This keeps the report focused on
-                # genuine intent collision rather than same-template articles
-                # about different foods.
-                strong_text=sim>=0.72
-                strong_title=weighted_jac>=0.56 and rare_shared>=2.8
-                combined=sim>=0.62 and weighted_jac>=0.38 and rare_shared>=2.8
+                # Repeated editorial templates can still look very similar
+                # after IDF weighting. Unless the full article text is nearly
+                # identical, require a genuinely rare shared subject term.
+                # This drops "raw/cooked chicken", different sauces, and
+                # "healthy every day" templates while retaining pairs about
+                # the same named food or ingredient.
+                strong_text=sim>=0.76
+                strong_title=bool(subject_shared_tokens) and weighted_jac>=0.50
+                combined=bool(subject_shared_tokens) and sim>=0.66 and weighted_jac>=0.28
                 if not (strong_text or strong_title or combined):
                     continue
-                if shared_title<2 and sim<0.76:
+                if shared_title<2 and sim<0.78:
                     continue
                 if canonical_number(a_num)==canonical_number(b_num):
                     continue
                 if tuple(sorted((a_num,b_num))) in CANNIBAL_ALLOWLIST:
                     continue
-                results.append({'language':lang,'a':a_num,'a_title':a['title'],'b':b_num,'b_title':b['title'],'similarity':round(sim,4),'title_jaccard':round(jac,4),'weighted_title_jaccard':round(weighted_jac,4),'rare_shared_idf':round(rare_shared,4),'family_match':family,'type_overlap':type_overlap})
+                results.append({'language':lang,'a':a_num,'a_title':a['title'],'b':b_num,'b_title':b['title'],'similarity':round(sim,4),'title_jaccard':round(jac,4),'weighted_title_jaccard':round(weighted_jac,4),'rare_shared_idf':round(rare_shared,4),'subject_shared_idf':round(subject_shared_idf,4),'subject_shared_tokens':sorted(subject_shared_tokens),'family_match':family,'type_overlap':type_overlap})
     results.sort(key=lambda x:(-max(x['similarity'],x['weighted_title_jaccard']),-x['similarity'],x['language'],x['a'],x['b']))
     return results[:limit]
 
