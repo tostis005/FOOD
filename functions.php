@@ -280,9 +280,23 @@ function food_category_url( $slug, $fallback_label = '' ) {
 }
 
 function food_post_url_by_slug( $slug, $fallback_search = '' ) {
-	$post = get_page_by_path( $slug, OBJECT, 'post' );
-	if ( $post instanceof WP_Post ) {
-		return get_permalink( $post );
+	$language = function_exists( 'food_current_language' ) ? food_current_language() : 'es';
+	$args     = array(
+		'post_type'            => 'post',
+		'post_status'          => 'publish',
+		'posts_per_page'       => 1,
+		'name'                 => sanitize_title( $slug ),
+		'no_found_rows'        => true,
+		'ignore_sticky_posts'  => true,
+		'food_language_bypass' => 1,
+	);
+	if ( function_exists( 'food_language_query_clause' ) ) {
+		$args['meta_query'] = array( food_language_query_clause( $language ) );
+	}
+
+	$posts = get_posts( $args );
+	if ( ! empty( $posts ) && $posts[0] instanceof WP_Post ) {
+		return get_permalink( $posts[0] );
 	}
 
 	return home_url( '/?s=' . rawurlencode( $fallback_search ? $fallback_search : $slug ) );
