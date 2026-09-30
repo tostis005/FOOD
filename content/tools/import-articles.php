@@ -407,6 +407,7 @@ sort( $files, SORT_NATURAL );
 
 $created            = 0;
 $updated            = 0;
+$synced             = 0;
 $skipped            = 0;
 $failed             = 0;
 $translation_groups = array();
@@ -468,10 +469,63 @@ foreach ( $files as $file ) {
             'comment_status' => 'closed',
         );
 
+        $visible_payload = array(
+            'title'   => $title,
+            'excerpt' => $excerpt,
+            'content' => $content,
+            'faq'     => $faq,
+        );
+        $visible_hash = hash(
+            'sha256',
+            wp_json_encode( $visible_payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES )
+        );
+
         if ( $existing instanceof WP_Post ) {
-            $post_data['ID'] = (int) $existing->ID;
-            $post_id         = wp_update_post( wp_slash( $post_data ), true );
-            $action          = 'updated';
+            $existing_faq = json_decode( (string) get_post_meta( $existing->ID, '_food_faq', true ), true );
+            if ( ! is_array( $existing_faq ) ) {
+                $existing_faq = array();
+            }
+
+            $stored_visible_hash = (string) get_post_meta( $existing->ID, '_food_visible_hash', true );
+            if ( '' === $stored_visible_hash ) {
+                $stored_visible_hash = hash(
+                    'sha256',
+                    wp_json_encode(
+                        array(
+                            'title'   => (string) $existing->post_title,
+                            'excerpt' => (string) $existing->post_excerpt,
+                            'content' => (string) $existing->post_content,
+                            'faq'     => $existing_faq,
+                        ),
+                        JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES
+                    )
+                );
+            }
+
+            $visible_changed = ! hash_equals( $stored_visible_hash, $visible_hash );
+            $post_fields_changed =
+                (string) $existing->post_title !== $title ||
+                (string) $existing->post_name !== $slug ||
+                (string) $existing->post_excerpt !== $excerpt ||
+                (string) $existing->post_content !== $content ||
+                (string) $existing->post_status !== $post_status ||
+                (string) $existing->comment_status !== 'closed';
+
+            if ( $post_fields_changed ) {
+                $post_data['ID'] = (int) $existing->ID;
+                $post_id         = wp_update_post( wp_slash( $post_data ), true );
+                $action          = 'updated';
+            } elseif ( $visible_changed ) {
+                // FAQ is visible on the public page but stored as post meta.
+                // Touch post_modified only when that visible FAQ actually changed.
+                $post_id = wp_update_post( array( 'ID' => (int) $existing->ID ), true );
+                $action  = 'updated';
+            } else {
+                // SEO metadata, taxonomy, JSON formatting and other technical
+                // changes should not masquerade as an editorial refresh.
+                $post_id = (int) $existing->ID;
+                $action  = 'synced';
+            }
         } else {
             $admins = get_users( array( 'role' => 'administrator', 'number' => 1, 'fields' => 'ID' ) );
             $post_data['post_author'] = ! empty( $admins ) ? (int) $admins[0] : 1;
@@ -489,6 +543,7 @@ foreach ( $files as $file ) {
 
         update_post_meta( $post_id, '_food_source_id', $source_id );
         update_post_meta( $post_id, '_food_source_hash', $source_hash );
+        update_post_meta( $post_id, '_food_visible_hash', $visible_hash );
         update_post_meta( $post_id, '_food_article_number', $number );
         update_post_meta( $post_id, '_food_locale', isset( $data['locale'] ) ? (string) $data['locale'] : $language );
         update_post_meta( $post_id, '_food_market_context', isset( $data['market_context'] ) ? (string) $data['market_context'] : '' );
@@ -507,8 +562,10 @@ foreach ( $files as $file ) {
 
         if ( 'created' === $action ) {
             ++$created;
-        } else {
+        } elseif ( 'updated' === $action ) {
             ++$updated;
+        } else {
+            ++$synced;
         }
 
         echo strtoupper( $action ) . " #{$number} [{$language}] post_id={$post_id} slug={$slug} visual=" . get_post_meta( $post_id, '_food_visual_slug', true ) . "\n";
@@ -522,6 +579,7 @@ food_import_link_polylang_translations( $translation_groups );
 
 echo "IMPORT_CREATED={$created}\n";
 echo "IMPORT_UPDATED={$updated}\n";
+echo "IMPORT_SYNCED={$synced}\n";
 echo "IMPORT_SKIPPED={$skipped}\n";
 echo "IMPORT_FAILED={$failed}\n";
 
