@@ -128,6 +128,31 @@ jobs:
           def norm(value):
               return re.sub(r'\s+', ' ', html.unescape(str(value or ''))).strip()
 
+          def json_ld_graph(body):
+              blocks = re.findall(
+                  r'<script[^>]+type=["\']application/ld\+json["\'][^>]*>(.*?)</script>',
+                  body,
+                  flags=re.I | re.S,
+              )
+              nodes = []
+              for block in blocks:
+                  payload = json.loads(html.unescape(block.strip()))
+                  if isinstance(payload, dict) and isinstance(payload.get('@graph'), list):
+                      nodes.extend(payload['@graph'])
+                  elif isinstance(payload, list):
+                      nodes.extend(payload)
+                  elif isinstance(payload, dict):
+                      nodes.append(payload)
+              return [node for node in nodes if isinstance(node, dict)]
+
+          def schema_node(nodes, node_type):
+              for node in nodes:
+                  value = node.get('@type')
+                  types = value if isinstance(value, list) else [value]
+                  if node_type in types:
+                      return node
+              return None
+
           def link_href(parser, rel=None, hreflang=None):
               for attrs in parser.links:
                   rel_value = str(attrs.get('rel', '')).lower().split()
@@ -196,6 +221,47 @@ jobs:
               assert int(meta_property(parser, 'og:image:height') or 0) >= 200, f'OG image too short for {url}'
               image_status, _ = response_headers(og_image)
               assert image_status == 200, f'OG image is not publicly reachable for {url}: {image_status}'
+
+          # Validate the structured-data graph exactly as Google receives it.
+          schema_body = fetch(en_url)
+          schema_nodes = json_ld_graph(schema_body)
+          organization = schema_node(schema_nodes, 'Organization')
+          website = schema_node(schema_nodes, 'WebSite')
+          webpage = schema_node(schema_nodes, 'WebPage')
+          article_node = schema_node(schema_nodes, 'Article')
+          breadcrumbs = schema_node(schema_nodes, 'BreadcrumbList')
+
+          assert organization is not None, 'Organization schema missing'
+          assert website is not None, 'WebSite schema missing'
+          assert webpage is not None, 'WebPage schema missing'
+          assert article_node is not None, 'Article schema missing'
+          assert breadcrumbs is not None, 'BreadcrumbList schema missing'
+
+          org_id = organization.get('@id')
+          assert org_id and str(org_id).endswith('#organization'), f'Unexpected Organization @id: {org_id}'
+          assert organization.get('name') == 'Quinnoa'
+          assert organization.get('url') == SITE
+          assert organization.get('publishingPrinciples'), 'Organization publishingPrinciples missing'
+          assert (website.get('publisher') or {}).get('@id') == org_id, 'WebSite publisher does not reference Organization'
+
+          assert webpage.get('url') == en_url, f'WebPage URL mismatch: {webpage.get("url")}'
+          assert webpage.get('inLanguage') == 'en-US', f'WebPage language mismatch: {webpage.get("inLanguage")}'
+          assert (webpage.get('isPartOf') or {}).get('@id') == website.get('@id'), 'WebPage isPartOf mismatch'
+
+          assert article_node.get('headline') == short_en.get('title'), 'Article headline mismatch'
+          assert article_node.get('inLanguage') == 'en-US', 'Article language mismatch'
+          assert article_node.get('datePublished'), 'Article datePublished missing'
+          assert article_node.get('dateModified'), 'Article dateModified missing'
+          assert (article_node.get('author') or {}).get('@id') == org_id, 'Article author mismatch'
+          assert (article_node.get('publisher') or {}).get('@id') == org_id, 'Article publisher mismatch'
+          assert (article_node.get('mainEntityOfPage') or {}).get('@id') == en_url + '#webpage', 'Article mainEntityOfPage mismatch'
+          assert article_node.get('publishingPrinciples'), 'Article publishingPrinciples missing'
+
+          crumbs = breadcrumbs.get('itemListElement') or []
+          assert len(crumbs) >= 2, 'Breadcrumb schema is too short'
+          positions = [int(item.get('position') or 0) for item in crumbs]
+          assert positions == list(range(1, len(crumbs) + 1)), f'Breadcrumb positions are not contiguous: {positions}'
+          assert crumbs[-1].get('item') == en_url, f'Breadcrumb final URL mismatch: {crumbs[-1].get("item")}'
 
           # Substantial articles should expose a usable on-page contents list.
           toc_article = article('content/articles/en/064-quinoa-vs-rice-protein-fiber-carbs.json')
@@ -298,4 +364,5 @@ jobs:
           print('CONSOLIDATED_REDIRECTS=PASS')
           print('CONSOLIDATED_LISTINGS=PASS')
           print('ARTICLE_TOC=PASS')
+          print('STRUCTURED_DATA=PASS')
           PY
