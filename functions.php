@@ -382,6 +382,11 @@ if ( file_exists( $food_seo_consolidations ) ) {
 	require_once $food_seo_consolidations;
 }
 
+$food_article_toc = get_template_directory() . '/inc/article-toc.php';
+if ( file_exists( $food_article_toc ) ) {
+	require_once $food_article_toc;
+}
+
 $food_article_faq = get_template_directory() . '/inc/article-faq.php';
 if ( file_exists( $food_article_faq ) ) {
 	require_once $food_article_faq;

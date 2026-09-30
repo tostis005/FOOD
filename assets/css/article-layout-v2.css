@@ -175,3 +175,40 @@ body.single-post .article-faq-item summary:focus-visible {
   outline-offset: -3px;
 }
 
+body.single-post .article-toc {
+  margin: 24px 0 30px;
+  padding: 18px 20px;
+  border: 1px solid rgba(73, 62, 49, .16);
+  border-radius: 16px;
+  background: rgba(255, 255, 255, .5);
+}
+
+body.single-post .article-toc__title {
+  display: block;
+  margin-bottom: 10px;
+  font-size: .95rem;
+}
+
+body.single-post .article-toc__list {
+  display: grid;
+  gap: 7px;
+  margin: 0;
+  padding-left: 1.2rem;
+}
+
+body.single-post .article-toc__list a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: .16em;
+}
+
+body.single-post .entry-content h2[id] {
+  scroll-margin-top: 92px;
+}
+
+@media (min-width: 760px) {
+  body.single-post .article-toc__list {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 28px;
+  }
+}
+
