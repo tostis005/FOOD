@@ -32,7 +32,7 @@ jobs:
           import subprocess
           from html.parser import HTMLParser
           from pathlib import Path
-          from urllib.parse import urljoin
+          from urllib.parse import quote_plus, urljoin
 
           SITE = os.environ['SITE_URL'].rstrip('/') + '/'
           UA = 'Quinnoa live SEO audit/1.0'
@@ -208,6 +208,19 @@ jobs:
               assert target_url in sitemap, f'Canonical target missing from {sitemap_name}: {target_url}'
               assert source_url not in sitemap, f'Redirect source still present in {sitemap_name}: {source_url}'
 
+          # Redirect sources must also disappear from public listings. Search
+          # for a phrase that strongly matches both the canonical deli-meat
+          # guide and its consolidated duplicate: only the canonical URL may
+          # be rendered as a card.
+          listing_source = article('content/articles/en/1305-how-long-opened-deli-meats-last-fridge.json')
+          listing_target = article('content/articles/en/how-long-does-opened-deli-meat-last-and-when-is-it-no-longer-safe.json')
+          listing_source_url = article_url(listing_source)
+          listing_target_url = article_url(listing_target)
+          search_url = urljoin(SITE, 'en/?s=' + quote_plus('opened deli meat'))
+          search_html = fetch(search_url)
+          assert listing_source_url not in search_html, f'Consolidated source leaked into search results: {listing_source_url}'
+          assert listing_target_url in search_html, f'Canonical target missing from search results: {listing_target_url}'
+
           print('LIVE_SEO_AUDIT=PASS')
           print(f'SHORT_TITLE={article_url(short_en)}')
           print(f'LONG_TITLE={article_url(long_es)}')
@@ -215,4 +228,5 @@ jobs:
           print('SITEMAPS=PASS')
           print('ROBOTS=PASS')
           print('CONSOLIDATED_REDIRECTS=PASS')
+          print('CONSOLIDATED_LISTINGS=PASS')
           PY
