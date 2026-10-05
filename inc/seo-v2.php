@@ -395,6 +395,16 @@ function food_seo_v2_robots( $robots ) {
 	 */
 	if ( is_search() || is_tag() || is_author() || is_date() || is_attachment() ) {
 		$robots['noindex'] = true;
+		$robots['follow']  = true;
+		unset( $robots['index'] );
+	}
+
+	// Deep pagination of the chronological archive is a crawl path, not a
+	// distinct search landing page. Keep links crawlable without indexing
+	// dozens of near-duplicate listing pages.
+	if ( 'latest' === food_seo_v2_directory() && food_seo_v2_page_number() > 1 ) {
+		$robots['noindex'] = true;
+		$robots['follow']  = true;
 		unset( $robots['index'] );
 	}
 

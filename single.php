@@ -69,6 +69,7 @@ get_header();
 	$food_ad_medium     = $food_word_count >= 850;
 	$food_ad_long       = $food_word_count >= 1100;
 	$food_ad_extra_long = $food_word_count >= 1400;
+	$food_ads_recovery  = function_exists( 'food_adsterra_recovery_mode' ) && food_adsterra_recovery_mode();
 
 	if ( function_exists( 'food_internal_links_inject' ) ) {
 		$food_content = food_internal_links_inject( $food_content, get_the_ID() );
@@ -77,18 +78,18 @@ get_header();
 	$food_h2_count = preg_match_all( '#<h2\\b#i', $food_content );
 
 	// Two placements are enough for a standard 4-minute guide.
-	if ( function_exists( 'food_adsterra_inject_rectangle_after_second_heading' ) ) {
+	if ( ! $food_ads_recovery && function_exists( 'food_adsterra_inject_rectangle_after_second_heading' ) ) {
 		$food_content = food_adsterra_inject_rectangle_after_second_heading( $food_content );
 	}
 
 	// Add a native placement only when the article has enough editorial depth.
-	if ( $food_ad_medium && function_exists( 'food_adsterra_inject_native_after_fifth_heading' ) && $food_h2_count >= 5 ) {
+	if ( ! $food_ads_recovery && $food_ad_medium && function_exists( 'food_adsterra_inject_native_after_fifth_heading' ) && $food_h2_count >= 5 ) {
 		$food_content = food_adsterra_inject_native_after_fifth_heading( $food_content );
 		$food_native_in_content = true;
 	}
 
 	// Reserve the extra in-content unit for genuinely long future guides.
-	if ( $food_ad_extra_long && function_exists( 'food_adsterra_inject_tall_rectangle_after_seventh_heading' ) && $food_h2_count >= 7 ) {
+	if ( ! $food_ads_recovery && $food_ad_extra_long && function_exists( 'food_adsterra_inject_tall_rectangle_after_seventh_heading' ) && $food_h2_count >= 7 ) {
 		$food_content = food_adsterra_inject_tall_rectangle_after_seventh_heading( $food_content );
 	}
 
@@ -161,11 +162,11 @@ get_header();
 	<article <?php post_class( 'article-shell' ); ?>>
 		<?php if ( has_excerpt() ) : ?><div class="answer-box"><strong><?php echo esc_html( $food_english ? 'Quick answer' : 'Respuesta rápida' ); ?></strong><p><?php echo esc_html( wp_strip_all_tags( get_the_excerpt() ) ); ?></p></div><?php endif; ?>
 		<?php if ( $food_toc_html ) : ?><?php echo $food_toc_html; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?><?php endif; ?>
-		<?php if ( function_exists( 'food_adsterra_render_responsive_banner' ) ) { food_adsterra_render_responsive_banner( 'article' ); } ?>
 		<div class="article-body-layout">
 			<div class="entry-content"><?php echo $food_content; // phpcs:ignore WordPress.Security.EscapeOutput.OutputNotEscaped ?></div>
-			<?php if ( $food_ad_extra_long && function_exists( 'food_adsterra_render_skyscraper' ) ) { food_adsterra_render_skyscraper(); } ?>
+			<?php if ( ! $food_ads_recovery && $food_ad_extra_long && function_exists( 'food_adsterra_render_skyscraper' ) ) { food_adsterra_render_skyscraper(); } ?>
 		</div>
+		<?php if ( function_exists( 'food_adsterra_render_responsive_banner' ) ) { food_adsterra_render_responsive_banner( 'article' ); } ?>
 		<div class="article-share">
 			<button
 				class="article-share-button"
@@ -182,11 +183,11 @@ get_header();
 		</div>
 	</article>
 
-	<?php if ( $food_ad_medium && ! $food_native_in_content && function_exists( 'food_adsterra_render_native_banner' ) ) : ?>
+	<?php if ( ! $food_ads_recovery && $food_ad_medium && ! $food_native_in_content && function_exists( 'food_adsterra_render_native_banner' ) ) : ?>
 		<div class="article-shell"><?php food_adsterra_render_native_banner( 'article-end' ); ?></div>
 	<?php endif; ?>
 
-	<?php if ( $food_ad_long && function_exists( 'food_adsterra_render_article_footer_banner' ) ) : ?>
+	<?php if ( ! $food_ads_recovery && $food_ad_long && function_exists( 'food_adsterra_render_article_footer_banner' ) ) : ?>
 		<div class="article-shell article-footer-ad"><?php food_adsterra_render_article_footer_banner(); ?></div>
 	<?php endif; ?>
 

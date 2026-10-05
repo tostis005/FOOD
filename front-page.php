@@ -172,7 +172,7 @@ $topic_descriptions_en = array(
 	</section>
 <?php endif; ?>
 
-<?php if ( function_exists( 'food_adsterra_render_native_banner' ) ) : ?>
+<?php if ( function_exists( 'food_adsterra_render_native_banner' ) && ! ( function_exists( 'food_adsterra_recovery_mode' ) && food_adsterra_recovery_mode() ) ) : ?>
 	<div class="container"><?php food_adsterra_render_native_banner( 'home' ); ?></div>
 <?php endif; ?>
 

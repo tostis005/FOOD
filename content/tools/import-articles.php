@@ -370,9 +370,16 @@ function food_import_sources_html( $sources, $language ) {
     return $html . '</ul>';
 }
 
-function food_import_status( $json_status, $override ) {
+function food_import_status( $json_status, $override, $article_number = 0 ) {
     if ( 'json' !== $override ) {
         return 'review' === $override ? 'draft' : $override;
+    }
+
+    // SEO recovery guard: the existing library ends at article 1366.
+    // Automatic imports keep any newly created article above that ceiling as
+    // a draft. An explicit manual import with --status=publish can override it.
+    if ( (int) $article_number > 1366 ) {
+        return 'draft';
     }
 
     if ( 'publish' === $json_status ) {
@@ -554,7 +561,7 @@ foreach ( $files as $file ) {
         $faq               = isset( $data['faq'] ) && is_array( $data['faq'] ) ? $data['faq'] : array();
         $image             = isset( $data['image'] ) && is_array( $data['image'] ) ? $data['image'] : array();
         $json_status       = isset( $data['status'] ) ? (string) $data['status'] : 'draft';
-        $post_status       = food_import_status( $json_status, $options['status'] );
+        $post_status       = food_import_status( $json_status, $options['status'], $number );
 
         $content  = $content_html . food_import_sources_html( $sources, $language );
         $existing = food_import_find_existing( $source_id, $slug, $language, $translation_group );

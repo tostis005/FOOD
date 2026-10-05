@@ -432,6 +432,17 @@ if ( file_exists( $food_sitemaps ) ) {
  * Ads are rendered only after explicit advertising consent. The v2 consent
  * cookie intentionally does not reinterpret older analytics-only choices.
  */
+/**
+ * Temporary SEO recovery mode after the September 2026 ranking drop.
+ *
+ * Keep one lightweight responsive placement, but suppress in-content,
+ * native, skyscraper and footer units while Google reassesses the site.
+ * This is deliberately centralized so it can be reversed in one place.
+ */
+function food_adsterra_recovery_mode() {
+	return true;
+}
+
 function food_advertising_consent_granted() {
 	return true;
 }
@@ -441,7 +452,7 @@ function food_advertisement_label() {
 }
 
 function food_adsterra_render_banner( $key, $width, $height, $modifier = '' ) {
-	if ( ! food_advertising_consent_granted() ) {
+	if ( ! food_advertising_consent_granted() || food_adsterra_recovery_mode() ) {
 		return;
 	}
 	$class = 'quinnoa-ad quinnoa-ad--banner';
@@ -496,7 +507,7 @@ function food_adsterra_render_responsive_banner( $context = '' ) {
 }
 
 function food_adsterra_render_skyscraper() {
-	if ( ! food_advertising_consent_granted() ) {
+	if ( ! food_advertising_consent_granted() || food_adsterra_recovery_mode() ) {
 		return;
 	}
 	?>
@@ -521,7 +532,7 @@ function food_adsterra_render_skyscraper() {
 }
 
 function food_adsterra_render_native_banner( $context = '' ) {
-	if ( ! food_advertising_consent_granted() ) {
+	if ( ! food_advertising_consent_granted() || food_adsterra_recovery_mode() ) {
 		return;
 	}
 	$context_class = $context ? ' quinnoa-ad--' . sanitize_html_class( $context ) : '';

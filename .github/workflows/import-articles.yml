@@ -66,7 +66,10 @@ jobs:
       IMPORT_LANGUAGE: ${{ inputs.language || 'all' }}
       IMPORT_FROM: ${{ inputs.from || '1' }}
       IMPORT_TO: ${{ inputs.to || '999999' }}
-      IMPORT_STATUS: ${{ inputs.status || 'publish' }}
+      # Automatic runs respect JSON status so the importer can hold newly
+      # created articles as drafts during SEO recovery. Manual dispatch keeps
+      # its explicit publish/draft/json choice.
+      IMPORT_STATUS: ${{ inputs.status || 'json' }}
       IMPORT_FORCE: ${{ inputs.force || false }}
 
     steps:
