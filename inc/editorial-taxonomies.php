@@ -534,6 +534,69 @@ function food_home_ignored_post_ids() {
 	return array_values( array_unique( $ids ) );
 }
 
+function food_home_recovery_article_numbers() {
+	$english = function_exists( 'food_is_english' ) && food_is_english();
+
+	// These are stable evergreen pages that had already earned meaningful
+	// Google impressions and first-page/near-first-page visibility before the
+	// September 2026 ranking drop. During recovery, prefer them over randomly
+	// rotating the newest bulk-published content on the homepage.
+	return $english
+		? array( 251, 768, 803, 833, 796, 215, 306 )
+		: array( 332, 303, 334, 567, 864, 796, 975, 568 );
+}
+
+function food_home_recovery_post_ids( $count = 5, $exclude = array() ) {
+	$count   = max( 1, (int) $count );
+	$exclude = array_values( array_unique( array_merge( array_map( 'intval', (array) $exclude ), food_home_ignored_post_ids() ) ) );
+	$numbers = food_home_recovery_article_numbers();
+	$language = function_exists( 'food_current_language' ) ? food_current_language() : 'es';
+
+	$posts = get_posts(
+		array(
+			'post_type'              => 'post',
+			'post_status'            => 'publish',
+			'posts_per_page'         => count( $numbers ),
+			'post__not_in'           => $exclude,
+			'ignore_sticky_posts'    => true,
+			'no_found_rows'          => true,
+			'food_language_bypass'   => 1,
+			'meta_query'             => array(
+				'relation' => 'AND',
+				array(
+					'key'     => '_food_article_number',
+					'value'   => array_map( 'strval', $numbers ),
+					'compare' => 'IN',
+				),
+				array(
+					'key'     => '_food_language',
+					'value'   => 'en' === $language ? 'en' : 'es',
+					'compare' => '=',
+				),
+			),
+		)
+	);
+
+	$by_number = array();
+	foreach ( $posts as $post ) {
+		$number = (int) get_post_meta( $post->ID, '_food_article_number', true );
+		if ( $number > 0 ) {
+			$by_number[ $number ] = (int) $post->ID;
+		}
+	}
+
+	$ordered = array();
+	foreach ( $numbers as $number ) {
+		if ( isset( $by_number[ $number ] ) && ! in_array( $by_number[ $number ], $exclude, true ) ) {
+			$ordered[] = $by_number[ $number ];
+			if ( count( $ordered ) >= $count ) {
+				break;
+			}
+		}
+	}
+	return $ordered;
+}
+
 function food_get_home_feature_post() {
 	$ignored = food_home_ignored_post_ids();
 	$sticky  = array_values( array_diff( array_map( 'intval', (array) get_option( 'sticky_posts' ) ), $ignored ) );
@@ -552,6 +615,14 @@ function food_get_home_feature_post() {
 		$query = new WP_Query( $sticky_args );
 		if ( $query->have_posts() ) {
 			return $query->posts[0];
+		}
+	}
+
+	$recovery_ids = food_home_recovery_post_ids( 1, $ignored );
+	if ( ! empty( $recovery_ids ) ) {
+		$recovery_post = get_post( (int) $recovery_ids[0] );
+		if ( $recovery_post instanceof WP_Post ) {
+			return $recovery_post;
 		}
 	}
 
