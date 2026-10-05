@@ -390,6 +390,14 @@ if ( file_exists( $food_language_routing ) ) {
 	require_once $food_language_routing;
 }
 
+// Load public localized directory/taxonomy routes during theme bootstrap so
+// WordPress can register them on init, before request parsing. Loading this
+// only from header.php is too late for routes such as /en/articles/.
+$food_language_slugs = get_template_directory() . '/inc/language-slugs.php';
+if ( file_exists( $food_language_slugs ) ) {
+	require_once $food_language_slugs;
+}
+
 
 $food_seo_consolidations = get_template_directory() . '/inc/seo-consolidations.php';
 if ( file_exists( $food_seo_consolidations ) ) {
