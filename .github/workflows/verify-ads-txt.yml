@@ -15,11 +15,11 @@ jobs:
           set -euo pipefail
           for attempt in 1 2 3 4 5; do
             HTML="$(curl -fsSL --max-time 20 -H 'Cache-Control: no-cache' "https://www.quinnoa.com/?adsterra-check=${GITHUB_RUN_ID}-${attempt}")" || HTML=''
-            if grep -Fq 'highrevenueformat.com' <<< "$HTML" && grep -Fq 'profitableratecpmnetwork.com/7db463293bb3ce15ac447767c0af596a/invoke.js' <<< "$HTML"; then
-              echo "Adsterra placements are present in the public frontend."
+            if grep -Fq 'highrevenueformat.com' <<< "$HTML" && ! grep -Fq 'profitableratecpmnetwork.com/7db463293bb3ce15ac447767c0af596a/invoke.js' <<< "$HTML"; then
+              echo "SEO recovery ad profile is live: responsive unit present, native unit suppressed."
               exit 0
             fi
             sleep 15
           done
-          echo "ERROR: expected Adsterra placements are missing from the public frontend."
+          echo "ERROR: SEO recovery ad profile is not present in the public frontend."
           exit 1
