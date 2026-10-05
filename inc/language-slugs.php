@@ -157,9 +157,11 @@ function food_register_fully_localized_taxonomy_rewrites() {
 		add_rewrite_rule( '^en/topics/' . preg_quote( $english_slug, '#' ) . '/?$', 'index.php?food_topic=' . $internal_slug . '&food_lang=en', 'top' );
 	}
 
-	if ( '4' !== get_option( 'food_localized_taxonomy_rewrite_version' ) ) {
+	if ( '5' !== get_option( 'food_localized_taxonomy_rewrite_version' ) ) {
+		// v5 ensures the /articulos/ and /en/articles/ directory routes are
+		// persisted after the localized routing layer is loaded at bootstrap.
 		flush_rewrite_rules( false );
-		update_option( 'food_localized_taxonomy_rewrite_version', '4' );
+		update_option( 'food_localized_taxonomy_rewrite_version', '5' );
 	}
 }
 add_action( 'init', 'food_register_fully_localized_taxonomy_rewrites', 91 );
