@@ -11,21 +11,27 @@ $feature_food = $feature_id ? food_get_primary_food_category( $feature_id ) : nu
 $feature_topic = $feature_id ? food_get_primary_topic( $feature_id ) : null;
 $feature_visual = $feature_id ? food_get_post_visual_context( $feature_id ) : null;
 
-$discover_candidates = get_posts(
-	array(
-		'post_type'      => 'post',
-		'post_status'    => 'publish',
-		'posts_per_page' => 24,
-		'fields'         => 'ids',
-		'post__not_in'   => array_values( array_unique( array_merge( $feature_id ? array( $feature_id ) : array(), food_home_ignored_post_ids() ) ) ),
-		'orderby'        => 'date',
-		'order'          => 'DESC',
-	)
-);
-if ( count( $discover_candidates ) > 5 ) {
-	shuffle( $discover_candidates );
+$discover_exclude = array_values( array_unique( array_merge( $feature_id ? array( $feature_id ) : array(), food_home_ignored_post_ids() ) ) );
+$discover_ids = function_exists( 'food_home_recovery_post_ids' )
+	? food_home_recovery_post_ids( 5, $discover_exclude )
+	: array();
+
+// Keep the module full if a curated page is temporarily unavailable, but use
+// a deterministic fallback rather than reshuffling home links for crawlers.
+if ( count( $discover_ids ) < 5 ) {
+	$discover_fallback = get_posts(
+		array(
+			'post_type'      => 'post',
+			'post_status'    => 'publish',
+			'posts_per_page' => 12,
+			'fields'         => 'ids',
+			'post__not_in'   => array_values( array_unique( array_merge( $discover_exclude, $discover_ids ) ) ),
+			'orderby'        => 'date',
+			'order'          => 'DESC',
+		)
+	);
+	$discover_ids = array_slice( array_merge( $discover_ids, $discover_fallback ), 0, 5 );
 }
-$discover_ids = array_slice( $discover_candidates, 0, 5 );
 
 $topic_descriptions_en = array(
 	'nutricion-composicion' => 'Protein, fats, carbohydrates, fiber, calories, vitamins and minerals with useful context.',
