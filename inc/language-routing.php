@@ -90,7 +90,20 @@ function food_register_language_rewrites() {
 	add_rewrite_rule( '^en/alimentos/([^/]+)/?$', 'index.php?category_name=$matches[1]&food_lang=en', 'top' );
 	add_rewrite_rule( '^en/tema/([^/]+)/page/([0-9]+)/?$', 'index.php?food_topic=$matches[1]&food_lang=en&paged=$matches[2]', 'top' );
 	add_rewrite_rule( '^en/tema/([^/]+)/?$', 'index.php?food_topic=$matches[1]&food_lang=en', 'top' );
-	add_rewrite_rule( '^en/(?!alimentos(?:/|$)|tema(?:/|$))([^/]+)/?
+	add_rewrite_rule( '^en/(?!alimentos(?:/|$)|tema(?:/|$))([^/]+)/?$', 'index.php?name=$matches[1]&food_lang=en', 'top' );
+	add_rewrite_rule( '^temas/?$', 'index.php?food_directory=topics&food_lang=es', 'top' );
+	add_rewrite_rule( '^en/topics/?$', 'index.php?food_directory=topics&food_lang=en', 'top' );
+	add_rewrite_rule( '^alimentos/?$', 'index.php?food_directory=foods&food_lang=es', 'top' );
+	add_rewrite_rule( '^en/foods/?$', 'index.php?food_directory=foods&food_lang=en', 'top' );
+	add_rewrite_rule( '^articulos/?$', 'index.php?food_directory=latest&food_lang=es', 'top' );
+	add_rewrite_rule( '^articulos/page/([0-9]+)/?$', 'index.php?food_directory=latest&food_lang=es&paged=$matches[1]', 'top' );
+	add_rewrite_rule( '^en/articles/?$', 'index.php?food_directory=latest&food_lang=en', 'top' );
+	add_rewrite_rule( '^en/articles/page/([0-9]+)/?$', 'index.php?food_directory=latest&food_lang=en&paged=$matches[1]', 'top' );
+
+	if ( '4' !== get_option( 'food_language_rewrite_version' ) ) {
+		flush_rewrite_rules( false );
+		update_option( 'food_language_rewrite_version', '4' );
+	}
 }
 add_action( 'init', 'food_register_language_rewrites', 90 );
 
